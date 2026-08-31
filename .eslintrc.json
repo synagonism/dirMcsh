@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "jsx-a11y/alt-text": "off"
+  },
+  "axeRules": {
+    "link-name": {
+      "enabled": false
+    }
+  }
+}

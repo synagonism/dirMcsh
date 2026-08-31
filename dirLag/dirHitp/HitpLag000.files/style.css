@@ -1,0 +1,568 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#container {
+	width: 42em;
+	border-collapse:collapse;
+	border-spacing: 2em;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+ /* td>p.rotate {
+ 	width:1em;
+ 	overflow: visible;
+ 	padding:0;
+ 	text-indent: -1.2em;
+ }  */
+
+.aligncenter {
+	text-align: center;
+}
+
+.alignright {
+	text-align: right;
+}
+
+
+#wrapper {
+	text-indent: 1.2em;
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 0;
+
+}
+
+#parartima {
+	font-size: 1em;
+	text-align: justify;
+	text-indent: -2em;
+
+}
+
+
+.note, .footnote {
+	font-size:0.9em;
+}
+.space {
+	letter-spacing: 0.2em;
+}
+
+table.border_1 {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+table.border_1 td {
+	border: 1px solid black;
+}
+
+table.border_1 td.nbb {
+	border-bottom: 0 none;
+}
+
+table.border_1 td.nbt {
+	border-top: 0 none;
+}
+
+table.border_1 td.nbr {
+	border-right: 0 none;
+}
+
+table.border_1 td.nbl {
+	border-left: 0 none;
+}
+table.border_1 td  {
+	text-align: left;
+
+}
+table.inside td {
+	border: 0;
+}
+.fixed_layout {
+	table-layout: fixed;
+}
+
+.width_2 {
+	width: 2.1em;
+}
+
+.width_4 {
+	width: 4.2em;
+}
+table.singularis {
+	border-collapse: collapse;
+}
+
+table.singularis td {
+	vertical-align: top;
+	padding-right: 1em;
+}
+table.singularis p {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+hr {
+	margin-left: 0;
+	width: 10em;
+}
+.width_25 {
+	width: 25%;
+}
+
+.width_100 {
+	width: 100%;
+}
+.width_75 {
+	width: 75%;
+}
+.center {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.vcenter {
+	vertical-align: middle;
+}
+
+.floatright {
+	float:right;
+}
+.bb td, .bb th {
+     border-bottom: 1px solid black !important;
+
+	 padding-bottom: 1em !important;
+    }
+
+.bt td, .bt th {
+     border-top: 1px solid black !important;
+
+	 padding-top: 1em !important;
+    }
+/*Previous CSS*/
+
+
+table.line_center {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+table.line_center td {
+	text-align: center;
+	border: 1px solid black;
+	padding:0.3em;
+	}
+table.line_center p {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+table.line_left {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+table.line_left td {
+	vertical-align:top;
+	text-align: left;
+	border: 1px solid black;
+	padding:0.3em;
+	}
+table.line_left p {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+
+
+td.bl {
+     border-left: 1px solid black !important;
+	 padding-left: 1em !important;
+    }
+
+table.line_outer {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+table.line_outer p {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+table.line_outer td {
+	vertical-align:top;
+	padding-right:1em;
+	border:none;
+}
+
+
+
+.rotate {
+	/* Safari */
+-webkit-transform: rotate(-90deg);
+	/* Firefox */
+-moz-transform: rotate(-90deg);
+	/* IE */
+-ms-transform: rotate(-90deg);
+	/* Opera */
+-o-transform: rotate(-90deg);
+
+
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	font-size: 12px;
+}
+
+.center (
+	margin-right: auto;
+	margin-left: auto;
+	)
+
+
+
+table#tableoristiki
+{border:#000 thin solid;
+}
+
+table#tableoristiki tr:first-child td
+{border-bottom:#000 thin solid;
+}
+table#tableoristiki tr:nth-child(2) td
+{border-bottom:#000 thin solid;
+}
+table#tableoristiki td:nth-child(3)
+{border-left:#000 thin solid;
+}
+table#tableoristiki td:nth-child(4)
+{border-left:#000 thin solid;
+}
+table#tableoristiki td:nth-child(5)
+{border-left:#000 thin solid;
+}
+
+table#tableoristiki1
+{border:#000 thin solid;
+}
+table#tableoristiki1 td
+{vertical-align:top;
+}
+
+table#tableoristiki1 tr:first-child td
+{border-bottom:#000 thin solid;
+}
+table#tableoristiki1  td:nth-child(1)
+{
+vertical-align:top;
+}
+table#tableoristiki1 td:nth-child(3)
+{border-left:#000 thin solid;
+
+}
+table#tableoristiki1 td:nth-child(4)
+{border-left:#000 thin solid;
+}
+table#tableoristiki1 td:nth-child(5)
+{border-left:#000 thin solid;
+}
+table#tableoristiki1 td:nth-child(6)
+{border-left:#000 thin solid;
+}
+
+table#tableoristiki2
+{border:#000 thin solid;
+}
+table#tableoristiki2 td
+{vertical-align:top;
+border:#000 thin solid;
+}
+
+table#table277
+{border:#000 thin solid;
+margin-left:-10px;
+}
+
+table#table277 td
+{border-right:thin solid #000;
+vertical-align:top;
+}
+table#table277 td p
+{text-indent:0;
+}
+
+table#table277 td:first-child
+{border-right:none;
+}
+
+table#table277 tr:first-child td
+{border-bottom: thin solid #000;
+}
+
+table#table277b
+{border:#000 thin solid;
+margin-left:-10px;
+}
+
+table#table277b td
+{border-right:thin solid #000;
+vertical-align:top;
+}
+table#table277b td p
+{text-indent:0;
+}
+
+table#table277b td:first-child
+{border-right:none;
+}
+
+table#table277b tr:first-child td
+{border-bottom: thin solid #000;
+}
+.inside td
+{border-right:none;}
+
+
+table#table278
+{border:#000 thin solid;
+margin-left:-10px;
+}
+
+table#table278 td
+{border-right:thin solid #000;
+vertical-align:top;
+}
+table#table278 td p
+{text-indent:0; text-align:left;
+}
+
+table#table278 td:first-child
+{border-right:none;
+}
+table#table278 tr:first-child td
+{border-bottom: thin solid #000;
+}
+table#table278b
+{border:#000 thin solid;
+margin-left:-10px;
+}
+
+table#table278b td
+{border-right:thin solid #000;
+vertical-align:top;
+}
+table#table278b td p
+{text-indent:0; text-align:left;
+}
+
+table#table278b td:first-child
+{border-right:none;
+}
+table#table278b tr:first-child td
+{border-bottom: thin solid #000;
+}
+
+table#table279
+{border:#000 thin solid;
+margin-left:-10px;
+}
+
+table#table279 td
+{border-right:thin solid #000;
+vertical-align:top;
+}
+table#table279 td p
+{text-indent:0; text-align:left;
+}
+
+table#table279 td:first-child
+{border-right:none;
+}
+table#table279 tr:first-child td
+{border-bottom: thin solid #000;
+}
+table#table294 td p
+{margin-bottom:-6px;
+}
+table#table299 td p
+{margin-bottom:-6px;
+}
+
+table#table304 td p
+{margin-bottom:-6px;
+}
+table#table308 td p
+{margin-bottom:-6px;
+}
+table#table316 td p
+{margin-bottom:-6px;
+}
+table#table316 td p
+{margin-bottom:-6px;
+}
+.table323a td p
+{
+	margin-bottom:-6px;
+	font-size:20px;
+}
+.table323a td
+{vertical-align:top;
+}
+table#table323b td p
+{margin-bottom:-6px;
+font-size:20px;
+}
+table#table323b td
+{vertical-align:top;
+}
+table#table323c td p
+{margin-bottom:-6px;
+font-size:20px;
+}
+table#table323c td
+{vertical-align:top;
+}
+
+table#table334 td p
+{margin-bottom:-6px;
+font-size:16px;
+}
+table#table334 td
+{vertical-align:top;
+}
+.table339 td p
+{
+	margin-bottom:-6px;
+	font-size:20px;
+}
+.table339 td
+{vertical-align:top;
+border-bottom:thin solid #000;
+}
+.table339 td:first-child
+{
+border-right:thin solid #000;
+}
+.table339 td:nth-child(2)
+{
+border-right:thin solid #000;
+}
+.table339
+{border:#000 thin solid;
+}
+
+
+.table339b td p
+{
+	margin-bottom:-6px;
+	font-size:20px;
+}
+.table339b td
+{vertical-align:top;
+border-bottom:thin solid #000;
+}
+.table339b td:first-child
+{
+border-right:thin solid #000;
+}
+
+.table339b
+{border:#000 thin solid;
+}
+
+.table351 td p
+{
+	margin-bottom:-6px;
+	font-size:20px;
+}
+.table351 td
+{vertical-align:top;
+}
+.table351 tr:first-child td
+{border-top:#000 thin solid;
+border-bottom:#000 thin solid;
+}
+.table351 tr:nth-child(2) td
+{
+	border-bottom:#000 thin solid;
+}
+
+
+.table351b td p
+{
+	margin-bottom:-6px;
+	font-size:20px;
+}
+.table351b td
+{vertical-align:top;
+}
+.table351b tr:first-child td
+{border-top:#000 thin solid;
+border-bottom:#000 thin solid;
+}
+
+div.pub_info {
+	border:1px solid #000;
+	text-align:center;
+	padding:16px;
+	font-size:15px;
+	line-height:120%;
+	margin-bottom:30px;
+}
+
+div.pub_info > span {
+	background:#fff;
+	padding:16px;
+	text-transform:uppercase;
+	position:relative;
+	top:-27px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.contributors {
+	font-family:Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	text-align: left;
+	color: #000000;
+	margin-bottom:100px;
+}
+
+
+.contributors td, .contributors th {
+	padding:16px;
+	font-size:13px;
+	vertical-align:top;
+}
+
+.contributors th {
+	width:33%;
+	text-align:right;
+	padding-right:40px;
+	color:#000;
+	border-right:#000000 1px solid;;
+}
+.contributors  td {
+	width:65%;
+	text-align:left;
+	padding-left:20px;
+}
+
+p.repub_info {
+	text-align:justify;
+	border-bottom:1px solid #000;
+	padding:3px;
+	font-size:14px;
+	}
+.repub_info img {
+  padding-left: 20px;
+}
