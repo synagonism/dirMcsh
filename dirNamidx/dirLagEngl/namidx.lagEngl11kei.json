@@ -1,5 +1,5 @@
 [
-  [";lagEngl11kei","K|k",1667,"2026-08-30"],
+  [";lagEngl11kei","K|k",1667,"2026-09-01"],
   ["K!=1000!=Kilo!=thousand","dirCor/McsCor000010.last.html#idQntNbr1000"],
   ["K-kilo=x1000","dirCor/McsCor000010.last.html#idQntRlvMlplKilo"],
   ["K12-education","dirStn/McsStn000042.last.html#idSctrEduBasc"],
@@ -927,6 +927,7 @@
   ["KnlgMngr.012-ROSS","dirTchInf/McsTchInf000039.last.html#idLKnlgmngr012"],
   ["KnlgMngr.013-Ontolingua","dirTchInf/McsTchInf000039.last.html#idLKnlgmngr013"],
   ["KnlgMngr.014-PowerLoom","dirTchInf/McsTchInf000039.last.html#idLKnlgmngr014"],
+  ["KnlgMngr.015-START","dirTchInf/McsTchInf000036.last.html#idTchNlp007"],
   ["KnlgMngr.016-ThoughtTreasure","dirTchInf/McsTchInf000039.last.html#idLKnlgmngr016"],
   ["KnlgMngr.017-TROEPS","dirTchInf/McsTchInf000039.last.html#idLKnlgmngr017"],
   ["KnlgMngr.018-WordNet!⇒Wnkm","dirTchInf/McsTchInf000039.last.html#idLKnlgmngr018"],
@@ -983,7 +984,6 @@
   ["KnlgbaseSngo!⇒Mws","Mcs000000.last.html#idOverview"],
   ["Knlglmgr!⇒KnlgMngr","dirTchInf/McsTchInf000039.last.html#idLKnlgmngr"],
   ["Knlgmgr!⇒KnlgMngr","dirTchInf/McsTchInf000039.last.html#idLKnlgmngr"],
-  ["Knlgmngr.015-START","dirTchInf/McsTchInf000036.last.html#idTchNlp007"],
   ["Knlgmngr.023-LLM!⇒techLlm","dirTchInf/McsTchInf000038.last.html#idOverview"],
   ["Knlgmngr.LLM-Large-Language-Model!⇒techLlm","dirTchInf/McsTchInf000038.last.html#idOverview"],
   ["Knorr-soup","dirHlth/McsHlth000013.last.html#idFoodHmn176"],
