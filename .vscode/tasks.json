@@ -70,6 +70,81 @@
         "panel": "shared"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Create new McsHitp file",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "../dirMcsmgr/mMcsNew.mjs",
+        "${input:sDir}",
+        "${input:sNameInformal}",
+        "${input:sNameFormal}",
+        "${input:sNameId}",
+        "${input:bCounter}",
+        "${input:sftpPassword}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "sDir",
+      "type": "pickString",
+      "description": "Concept directory",
+      "options": [
+        "dirCor",
+        "dirEdu",
+        "dirHlth",
+        "dirHmn",
+        "dirLag",
+        "dirNtr",
+        "dirOgm",
+        "dirStn",
+        "dirStnlaw",
+        "dirTch",
+        "dirTchPrgm",
+        "dirTchInf"
+      ],
+      "default": "dirTchInf"
+    },
+    {
+      "id": "sNameInformal",
+      "type": "promptString",
+      "description": "Informal title, e.g. Ethereum--blockchain-net"
+    },
+    {
+      "id": "sNameFormal",
+      "type": "promptString",
+      "description": "Formal short-name, e.g. Mcsmgr"
+    },
+    {
+      "id": "sNameId",
+      "type": "promptString",
+      "description": "ID stem, e.g. idLZhon, idSocChna"
+    },
+    {
+      "id": "bCounter",
+      "type": "pickString",
+      "description": "Add visit counter?",
+      "options": [
+        "true",
+        "false"
+      ],
+      "default": "true"
+    },
+    {
+      "id": "sftpPassword",
+      "type": "promptString",
+      "description": "SFTP password (for upload to synagonism.net)",
+      "password": true
     }
   ]
 }
