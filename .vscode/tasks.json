@@ -1,6 +1,7 @@
 {
   "version": "2.0.0",
   "tasks": [
+    // Backup Vscode user settings
     {
       "label": "Backup Vscode user settings",
       "type": "shell",
@@ -18,8 +19,9 @@
         "panel": "shared"
       }
     },
+    // Index names of current-file and upload
     {
-      "label": "NameIndex current-file and upload",
+      "label": "Index names of current-file and upload",
       "type": "shell",
       "command": "node",
       "args": [
@@ -35,8 +37,9 @@
       },
       "problemMatcher": []
     },
+    // Index names ONLY of current-file
     {
-      "label": "NameIndex ONLY current-file",
+      "label": "Index names ONLY of current-file",
       "type": "shell",
       "command": "node",
       "args": [
@@ -52,6 +55,7 @@
       },
       "problemMatcher": []
     },
+    // Validate current-file
     {
       "label": "validate current-file",
       "type": "shell",
@@ -71,6 +75,7 @@
       },
       "problemMatcher": []
     },
+    // Create new McsHitp file
     {
       "label": "Create new McsHitp file",
       "type": "shell",
