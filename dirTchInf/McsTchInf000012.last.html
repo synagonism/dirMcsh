@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcs.Jsnd_lago!=Node--JavaScript-language
-    (McsTchInf000012.7-13-0.2026-04-21)</title>
+    (McsTchInf000012.7-14-0.2026-09-04)</title>
   <meta name="keywords" content="JavaScript, Js, Jsnd_lago, Node.js, Jsnd, Hitp-webpage">
   <link rel="stylesheet" href="/dirMcsmgr/mMcsh2.css">
 </head>
@@ -4316,6 +4316,61 @@
   <p id="idJsndpgTwtrwpa">addressWpg::
     <br>* {2017-05-30} Brandon-Morelli, Build a simple Twitter Bot with Node.js in just 38 lines of code: <a href="https://codeburst.io/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078">https://codeburst.io/</a>,
     <a class="clsHide" href="#idJsndpgTwtrwpa"></a></p>
+  </section>
+
+  <section id="idJsndpgWbpg">
+  <h2 id="idJsndpgWbpgH2">Jsndpgm.webserver
+    <a class="clsHide" href="#idJsndpgWbpgH2"></a></h2>
+  <div id="idJsndpgWbpgdsn">
+    <p>description::
+    <br>× Mcsh-creation: {2026-09-04}
+    <br>"Here’s a minimal **Node.js web server** using only the built-in `http` module:
+    </p>
+    <pre><code>
+    ```js
+    const http = require("http");
+    
+    const hostname = "127.0.0.1";
+    const port = 3000;
+    
+    const server = http.createServer((req, res) => {
+      res.statusCode = 200;
+      res.setHeader("Content-Type", "text/html; charset=utf-8");
+    
+      res.end(`
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title>Node.js Server</title>
+          </head>
+          <body>
+            <h1>Hello from Node.js</h1>
+            <p>URL: ${req.url}</p>
+          </body>
+        </html>
+      `);
+    });
+    
+    server.listen(port, hostname, () => {
+      console.log(`Server running at http://${hostname}:${port}/`);
+    });
+    ```</code></pre>
+    <p class="clsIndent">Save it as `server.js`, then run:
+    <br>```bash
+    <br>node server.js
+    <br>```
+    <br>Open:
+    <br>```text
+    <br>http://127.0.0.1:3000
+    <br>```
+    <br>For serving actual `.html`, `.css`, `.js`, images, and other static files from a directory, I can also give you a small **Node.js static-file webserver**."
+    </p>
+    <a class="clsHide" href="#idJsndpgWbpgdsn"></a></div>
+  <p id="idJsndpgWbpgnam">name::
+    <br>* McsEngl.Jsndalgo.webserver,
+    <br>* McsEngl.Jsndpgm.webserver,
+    <br>* McsEngl.webserver-in-Nodejs,
+    <a class="clsHide" href="#idJsndpgWbpgnam"></a></p>
   </section>
 
   <section id="idJsndpgWheat_blog">

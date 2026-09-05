@@ -1,5 +1,5 @@
 [
-  [";lagEngl10jei","J|j",2843,"2026-09-02"],
+  [";lagEngl10jei","J|j",2845,"2026-09-05"],
   ["JCI-of-Chna_med_trsm","dirStn/McsStn000031.last.html#idChnaEconatt016mdcljci"],
   ["JEP!=Jersey-Pound-currency","dirStn/McsStn000029.last.html#idSfrFin019UntSpc"],
   ["JMD!=Jamaica-Dollar-currency","dirStn/McsStn000029.last.html#idSfrFin019UntSpc"],
@@ -2422,6 +2422,7 @@
   ["Jsndalgo.security","dirTchInf/McsTchInf000012.last.html#idJsndalgSec"],
   ["Jsndalgo.streaming","dirTchInf/McsTchInf000012.last.html#idJsndalgStream"],
   ["Jsndalgo.synchronous-asynchronous","dirTchInf/McsTchInf000012.last.html#idJsndalgAsnc"],
+  ["Jsndalgo.webserver","dirTchInf/McsTchInf000012.last.html#idJsndpgWbpg"],
   ["Jsndglobal","dirTchInf/McsTchInf000012.last.html#idJsndmwombr"],
   ["Jsndm","dirTchInf/McsTchInf000012.last.html#idJsndm"],
   ["Jsndm'InfRsc","dirTchInf/McsTchInf000012.last.html#idJsndmrsc"],
@@ -2533,6 +2534,7 @@
   ["Jsndpgm.slimnode","dirTchInf/McsTchInf000012.last.html#idJsndpgSlimnode"],
   ["Jsndpgm.specific","dirTchInf/McsTchInf000012.last.html#idJsndpgstr"],
   ["Jsndpgm.twitter","dirTchInf/McsTchInf000012.last.html#idJsndpgTwtr"],
+  ["Jsndpgm.webserver","dirTchInf/McsTchInf000012.last.html#idJsndpgWbpg"],
   ["Jsndpgm.wheat","dirTchInf/McsTchInf000012.last.html#idJsndpgWheat_blog"],
   ["Jso","dirTchInf/McsTchInf000010.last.html#idLjso"],
   ["Jso!=JavaScript-object","dirTchInf/McsTchInf000010.last.html#idLjso"],
