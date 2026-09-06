@@ -1,5 +1,5 @@
 [
-  [";lagZhon004","d",639,"2026-09-02"],
+  [";lagZhon004","d",640,"2026-09-06"],
   ["Duōshǎo-多少!=quantoAsk","dirCor/McsCor000010.last.html#idQntSmsIgv"],
   ["Dānwèi-单位!=UOM","dirCor/McsCor000009.last.html#idGnrcmsrguom"],
   ["da!~Zhon_sylb","dirLag/McsLag000021.last.html#idLZhonsylb057"],
@@ -57,6 +57,7 @@
   ["diànyóu'zhǔtí-电邮'主题!=e-mail'subject","dirTchInf/McsTchInf000040.last.html#idIntntdngEmelsbjt"],
   ["diànyóu-电邮!=e-mail","dirTchInf/McsTchInf000040.last.html#idIntntdngEmel"],
   ["diànyǐng-电影!=movie","dirLag/McsLag000013.last.html#idInfrscMovi"],
+  ["diànzǐ-yóujiàn-电子邮件!=e-mail!⇒diànyóu-电邮","dirTchInf/McsTchInf000040.last.html#idIntntdngEmel"],
   ["diànzǐ-yóujiàn-电子邮件!=e-mail!⇒电邮-diànyóu","dirTchInf/McsTchInf000040.last.html#idIntntdngEmel"],
   ["diào-吊-21514!~Zhon_sylb","dirLag/McsLag000021.last.html#idLZhonsylb069"],
   ["diào-掉-25481!~Zhon_sylb","dirLag/McsLag000021.last.html#idLZhonsylb069"],

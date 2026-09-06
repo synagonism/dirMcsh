@@ -59,4 +59,9 @@
         "Vscodeusifedtrnam"
     ],
     "editor.tabSize": 2,
+    // Mcs-Visual: the local server (dirMcsmgr/server.mjs) serves web root C:\dirNodews
+    // on http://localhost, so the doc-root marker folder is "dirNodews" (not the old
+    // XAMPP "htdocs"). The extension maps <path-after-dirNodews> to the URL path.
+    "mcsv.docRootFolder": "dirNodews",
+    "mcsv.serverOrigin": "http://localhost",
 }
