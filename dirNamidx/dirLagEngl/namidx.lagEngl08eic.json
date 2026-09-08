@@ -1,5 +1,5 @@
 [
-  [";lagEngl08eic","H|h",3951,"2026-09-07"],
+  [";lagEngl08eic","H|h",3951,"2026-09-08"],
   ["H1-Hydrogen-chmElry!⇒chmElrH1","dirNtr/McsNtr000007.last.html#idChmElrHydrogen"],
   ["HBS'(household-budget-survey-of-Eu)","dirStn/McsStn000020.last.html#idEusaadmninfsyssHbt"],
   ["HBS@EuvocStat","dirStn/McsStn000020.last.html#idEuoStatglsrHBS"],
@@ -532,7 +532,7 @@
   ["Hitp_Mcs!⇒Mcsh","dirTchInf/McsTchInf000009.last.html#idMcsHitp"],
   ["Hitp_Mcs-format!⇒Mcsh_lago","dirTchInf/McsTchInf000009.last.html#idOverview"],
   ["Hitp_Mcs-language!⇒Mcsh_lago","dirTchInf/McsTchInf000009.last.html#idOverview"],
-  ["Hitp_Mcs-manager!⇒Mcshmngr","dirTchInf/McsTchInf000009.last.html#idLMcshlmgr"],
+  ["Hitp_Mcs-manager!⇒Mcshmgr","dirTchInf/McsTchInf000009.last.html#idLMcshlmgr"],
   ["Hitp_Mcs.example!⇒McshExml","dirCor/McsCor000015.last.html#idOverview"],
   ["Hitp_app!⇒Hitp_doc","dirTchInf/McsTchInf000008.last.html#idLagHitpwbpg"],
   ["Hitp_archo!=archetype-of-Hitp_lago","dirTchInf/McsTchInf000008.last.html#idLagHitparc"],
