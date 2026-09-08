@@ -6,7 +6,7 @@
   <title>Mcs.Engl_lago!=International-English-language
     (McsLag000011.1-125-0.2026-08-02)</title>
   <meta name="keywords" content="English--human-language, Engl_lago, modelConceptStructured, McsHitp, Synagonism">
-  <link rel="stylesheet" href="/dirMcsmgr/mMcsh2.css">
+  <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
 
 <body>
@@ -15047,7 +15047,7 @@
   <p>description::
     <br>· a-verb\a\ is a-set of terms, its\a\ <span class="clsColorRed">members</span>.
     </p>
-  <!--htmlhint-disable tag-pair -->
+  
     <ul id="idTriVerbmbr" class="clsTreeUl">
     <li>members-of-verb: write
       <ul>
@@ -15541,7 +15541,7 @@
     <td>I will-being-written
     <td>I will-have-being-written
     </table>
-  <!--htmlhint-enable tag-pair -->
+  
     <a class="clsHide" href="#idLEnglverbmbrdsn"></a></div>
   <p id="idLEnglverbmbrnam">name::
     <br>* McsEngl.Engl_Vm!=member-of-Engl_verb,
@@ -17616,7 +17616,7 @@
     <br>· the-number of its <a class="clsPreview" href="../dirLag/McsLag000007.last.html#idLHmnmsmsvrbattModReal">realis</a> atomic-verb-members is 152 (Esperanto=84, Greek=264, Sinago(all)=68).
     <br>· the-main atomic-verb-members are the-following:
     </p>
-  <!--htmlhint-disable tag-pair -->
+  
     <table cellspacing="0" cellpadding="0" border="1">
     <tr>
     <td colspan="2" rowspan="2">
@@ -17673,7 +17673,7 @@
     <td><span class="clsColorRed">(I) will-have-being-written</span><br>[future-perfect-progressive-passive]
     </tr>
     </table>
-  <!--htmlhint-enable tag-pair -->
+  
     <a class="clsHide" href="#idLEnglverbmbrAtmdsn"></a></div>
   <p id="idLEnglverbmbrAtmnam">name::
     <br>* McsEngl.English-verb-form!⇒Engl_verb_idiv, (literature)
@@ -22756,7 +22756,7 @@
     <br>· for the-576 <a class="clsPreview" href="../dirLag/McsLag000007.last.html#idLHmnmsmsvrbattModReal">realis</a> lago-verb-members correspond 152 atomic-verb-members.
     <br>· the-subject help us to find the-mapping.
     </p>
-  <!--htmlhint-disable tag-pair -->
+  
     <table cellspacing="0" cellpadding="0" border="1">
     <tr>
     <td colspan="10" class="clsCenter"><strong>ATOMIC-SEMASO-VERB-MEMBER-(asvm)</strong>
@@ -24028,7 +24028,7 @@
     <tr><td>asvm576<td>real<td class="clsColorBlue">futr<td>insN<td>actN<td>prf<td>irg<td>afmN<td>plu<td>3
     <td>avm152<td>will (they) not have being written?
     </table>
-  <!--htmlhint-enable tag-pair -->
+  
     <a class="clsHide" href="#idLEnglverbsmsrndsn"></a></div>
   <p id="idLEnglverbsmsrnnam">name::
     <br>* McsEngl.Engl_verb'mapping-to-sms-verb,
@@ -24090,7 +24090,7 @@
     <br>* http://conjugator.reverso.net/conjugation-english.html,
     <br>* https://cooljugator.com/en (ordered: simple, progressive, perfect, perfect-progressive)
     <br>* http://www.logosconjugator.org/index.php (affirmative-interrogative),
-    <br>* <a href="../../otenet/grammar/wordforms.html">my old-{2001} java conjugator</a>, Greek interface, now works only locally,
+    <br>* <a href="../../dirOtenet/grammar/wordforms.html">my old-{2001} java conjugator</a>, Greek interface, now works only locally,
     <a class="clsHide" href="#idLEnglverbcjgrwpa"></a></p>
 
   <div id="idLEnglcjgr">
@@ -28304,9 +28304,9 @@
   </section>
 
   <script type="module">
-    import * as omMcsh from '/dirMcsmgr/mMcsh2.js'
-    import * as omLagUtil from '/dirMcsmgr/mLagUtil.js'
-    import * as omLagEngl from '/dirMcsmgr/mLagEngl.js'
+    import * as omMcsh from '/dirMcshmgr/mMcsh2.js'
+    import * as omLagUtil from '/dirMcshmgr/mLagUtil.js'
+    import * as omLagEngl from '/dirMcshmgr/mLagEngl.js'
 
     // find noun forms
     document.getElementById('idNounIpt').addEventListener('input', function(oEvtIn) {
@@ -28340,7 +28340,7 @@
       })
     })
 
-    omMcsh.oTriUl.fTriUlExpandLevel3('idTriVerbmbr')
+    omMcsh.oTreeUl.fTreeUlExpandLevel3('idTriVerbmbr')
 
     // finds members of verb
     document.getElementById('idBtnVrbr').addEventListener('click', function(e) {
@@ -28352,7 +28352,7 @@
       setTimeout(() => omMcsh.oEltCnrPreviewDiv.style.display = 'block', 100)
       omMcsh.oEltCnrPreviewDiv.style.top = 59 + 'px'
       omMcsh.oEltCnrPreviewDiv.style.left = 26 + 'px'
-      omMcsh.oTriUl.fTriUlCreate()
+      omMcsh.oTreeUl.fTreeUlCreate()
       let
         aSubnodes,
         aTocTriLI = document.getElementById('idTreePreview').getElementsByTagName('li'),
@@ -28360,7 +28360,7 @@
       for (n = 0; n < 5; n++) {
         aSubnodes = aTocTriLI[n].getElementsByTagName('ul')
         if (aSubnodes.length > 0 && aSubnodes[0].style.display === 'none') {
-          omMcsh.oTriUl.fTriUlToggleLi(aTocTriLI[n])
+          omMcsh.oTreeUl.fTreeUlToggleLi(aTocTriLI[n])
         }
       }
     })

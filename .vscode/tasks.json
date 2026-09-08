@@ -9,7 +9,7 @@
       "args": [
         "/d",
         "/c",
-        "copy /y \"C:\\Users\\synag\\AppData\\Roaming\\Code\\User\\keybindings.json\" \"C:\\dirNodews\\dirMcsmgr\\dirVscode\\keybindings.json\" && copy /y \"C:\\Users\\synag\\AppData\\Roaming\\Code\\User\\settings.json\" \"C:\\dirNodews\\dirMcsmgr\\dirVscode\\settings.json\""
+        "copy /y \"C:\\Users\\synag\\AppData\\Roaming\\Code\\User\\keybindings.json\" \"C:\\dirNodews\\dirMcshmgr\\dirVscode\\keybindings.json\" && copy /y \"C:\\Users\\synag\\AppData\\Roaming\\Code\\User\\settings.json\" \"C:\\dirNodews\\dirMcshmgr\\dirVscode\\settings.json\""
       ],
       "problemMatcher": [],
       "presentation": {
@@ -45,7 +45,7 @@
       "type": "shell",
       "command": "node",
       "args": [
-        "../dirMcsmgr/mNamidxFile.mjs",
+        "../dirMcshmgr/mNamidxFile.mjs",
         "${command:mcsv.currentFile}"
       ],
       "options": {
@@ -63,7 +63,7 @@
       "type": "shell",
       "command": "node",
       "args": [
-        "../dirMcsmgr/mNamidxOnlyFile.mjs",
+        "../dirMcshmgr/mNamidxOnlyFile.mjs",
         "${command:mcsv.currentFile}"
       ],
       "options": {
@@ -81,7 +81,7 @@
       "type": "shell",
       "command": "node",
       "args": [
-        "../dirMcsmgr/validator",
+        "../dirMcshmgr/dirValid/validator",
         "${command:mcsv.currentFileDirname}",
         "--file",
         "${command:mcsv.currentFileBasename}"
@@ -101,7 +101,7 @@
       "type": "shell",
       "command": "node",
       "args": [
-        "../dirMcsmgr/mMcsNew.mjs",
+        "../dirMcshmgr/mMcsNew.mjs",
         "${input:sDir}",
         "${input:sNameInformal}",
         "${input:sNameFormal}",
