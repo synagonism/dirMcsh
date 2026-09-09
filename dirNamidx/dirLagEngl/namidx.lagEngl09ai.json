@@ -1,5 +1,5 @@
 [
-  [";lagEngl09ai","I|i",2792,"2026-09-08"],
+  [";lagEngl09ai","I|i",2791,"2026-09-09"],
   ["I","dirLag/McsLag000007.last.html#idLHmnmprsnA2"],
   ["I!~nounEnglC1-1:I;we;me;our;mine;ours","dirLag/McsLag000024.last.html#idLEnglnounC1-252"],
   ["I!~pronEnglExophoric","dirLag/McsLag000011.last.html#idLEnglpronExfcI"],
@@ -1805,8 +1805,7 @@
   ["indepedent-variable//MathFn","dirEdu/McsEdu000005.last.html#idSMathfninvr"],
   ["independent-sector!⇒sectorProfitNo","dirStn/McsStn000015.last.html#idOznPdn041"],
   ["index!~nounEnglC1-1:index;indices|indexes","dirLag/McsLag000024.last.html#idLEnglnounC1-113"],
-  ["index-file--of-Hitp_site","dirTchInf/McsTchInf000008.last.html#idLagHitpsitedirNmixfile"],
-  ["index-file-of-Mcsh_lago!⇒Mcsh_index_file","dirTchInf/McsTchInf000009.last.html#idLMcshlmgrfileNilagjn"],
+  ["index-file-of-Mcsh_lago!⇒namidxjsonLangNmbr","dirTchInf/McsTchInf000009.last.html#idLMcshwvdnixl4jf"],
   ["index-linked-securities@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-index-linked-securities"],
   ["index-linked-securities@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-index-linked-securities2"],
   ["index-notation//MathFn","dirEdu/McsEdu000005.last.html#idSMathfnnotnIndx"],

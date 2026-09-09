@@ -1,5 +1,5 @@
 [
-  [";lagEngl12el","L|l",37738,"2026-09-08"],
+  [";lagEngl12el","L|l",37734,"2026-09-09"],
   ["L!=language!⇒lagoOgnm","dirLag/McsLag000005.last.html#idOverview"],
   ["LAK!=Laos-Kip-currency","dirStn/McsStn000029.last.html#idSfrFin019UntSpc"],
   ["LAU1@EuvocStat","dirStn/McsStn000020.last.html#idEuoStatglsrLAU1"],
@@ -1276,10 +1276,6 @@
   ["lagFram.specific","dirTchInf/McsTchInf000007.last.html#idLCnkl037Spc"],
   ["lagHcpt!⇒Mcsh_lago","dirTchInf/McsTchInf000009.last.html#idOverview"],
   ["lagHitp!⇒Hitp_lago","dirTchInf/McsTchInf000008.last.html#idOverview"],
-  ["lagHitp'namidx.lag-file.reference","dirTchInf/McsTchInf000009.last.html#idLMcshlmgrfileNilgRf"],
-  ["lagHitp'namidx.lag-file.referenceNo","dirTchInf/McsTchInf000009.last.html#idLMcshlmgrfileNilgRfN"],
-  ["lagHitp'reference-namind.lag-file","dirTchInf/McsTchInf000009.last.html#idLMcshlmgrfileNilgRf"],
-  ["lagHitp'referenceNo-namind.lag-file","dirTchInf/McsTchInf000009.last.html#idLMcshlmgrfileNilgRfN"],
   ["lagHitp--web-language!⇒Hitp_lago","dirTchInf/McsTchInf000008.last.html#idOverview"],
   ["lagHitp_Cpt!⇒Mcsh_lago","dirTchInf/McsTchInf000009.last.html#idOverview"],
   ["lagHitp_Mcs!⇒Mcsh_lago","dirTchInf/McsTchInf000009.last.html#idOverview"],

@@ -46,7 +46,7 @@
       "command": "node",
       "args": [
         "../dirMcshmgr/mNamidxFile.mjs",
-        "${command:mcsv.currentFile}"
+        "${command:mcshv.currentFile}"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
@@ -64,7 +64,27 @@
       "command": "node",
       "args": [
         "../dirMcshmgr/mNamidxOnlyFile.mjs",
-        "${command:mcsv.currentFile}"
+        "${command:mcshv.currentFile}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    // Sftp only current worldview: upload the files listed in
+    // <worldview>/dirManager/sftp.json (no re-indexing). cwd is the current
+    // worldview, so mSftpOnly.mjs uploads to httpdocs/<worldview>/.
+    {
+      "label": "Sftp only current worldview",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "../dirMcshmgr/mSftpOnly.mjs",
+        "${input:sftpPassword}"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
@@ -82,9 +102,9 @@
       "command": "node",
       "args": [
         "../dirMcshmgr/dirValid/validator",
-        "${command:mcsv.currentFileDirname}",
+        "${command:mcshv.currentFileDirname}",
         "--file",
-        "${command:mcsv.currentFileBasename}"
+        "${command:mcshv.currentFileBasename}"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
