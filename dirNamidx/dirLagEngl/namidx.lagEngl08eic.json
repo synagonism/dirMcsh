@@ -1,5 +1,5 @@
 [
-  [";lagEngl08eic","H|h",3949,"2026-09-09"],
+  [";lagEngl08eic","H|h",3951,"2026-09-10"],
   ["H1-Hydrogen-chmElry!⇒chmElrH1","dirNtr/McsNtr000007.last.html#idChmElrHydrogen"],
   ["HBS'(household-budget-survey-of-Eu)","dirStn/McsStn000020.last.html#idEusaadmninfsyssHbt"],
   ["HBS@EuvocStat","dirStn/McsStn000020.last.html#idEuoStatglsrHBS"],
@@ -430,6 +430,8 @@
   ["Hitp-cpt!⇒Mcsh","dirTchInf/McsTchInf000009.last.html#idMcsHitp"],
   ["Hitp-digital-book!⇒HitpBook","dirTchInf/McsTchInf000008.last.html#idLagHitpwbpBuk"],
   ["Hitp-ebook!⇒HitpBook","dirTchInf/McsTchInf000008.last.html#idLagHitpwbpBuk"],
+  ["Hitp-file!⇒Hitpdoc","dirTchInf/McsTchInf000008.last.html#idLagHitpwbpg"],
+  ["Hitp-files!~plural!⇒Hitpdoc","dirTchInf/McsTchInf000008.last.html#idLagHitpwbpg"],
   ["Hitp-lago!⇒Hitp_lago","dirTchInf/McsTchInf000008.last.html#idOverview"],
   ["Hitp-manager!⇒Hitpmgr","dirTchInf/McsTchInf000008.last.html#idLagHitpmgr"],
   ["Hitp-sensorial-concept!⇒Mcsh","dirTchInf/McsTchInf000009.last.html#idMcsHitp"],
