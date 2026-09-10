@@ -1,15 +1,15 @@
 [
   [";lagEspo15ko","K|k",12,"2026-08-27"],
-  ["Kristnasko!=Christmas","dirCor/McsCor000006.last.html#idTimeUomDayChrm"],
-  ["kalendaro","dirCor/McsCor000006.last.html#idTimeUomCldr"],
-  ["kemio!=sciChem","dirNtr/McsNtr000002.last.html#idSChem"],
-  ["koloro!=color","dirNtr/McsNtr000005.last.html#idSysMols009clr"],
-  ["konjunkcio!=Hmnm_conj","dirLag/McsLag000007.last.html#idLHmnmconj"],
-  ["kuirejo!=roomKitchen","dirStn/McsStn000022.last.html#idSfrHauzatt005"],
-  ["kvar!=4","dirCor/McsCor000010.last.html#idQntNbr4"],
-  ["kvara!=order4","dirCor/McsCor000011.last.html#idSys001ordr4th"],
-  ["kvariliona","dirCor/McsCor000011.last.html#idSys001ordrK51th"],
-  ["kvariliono","dirCor/McsCor000010.last.html#idQntNbrK51"],
-  ["kvin!=5","dirCor/McsCor000010.last.html#idQntNbr5"],
-  ["kvina!=order5","dirCor/McsCor000011.last.html#idSys001ordr5"]
+  ["Kristnasko!=Christmas","dirCor/McshCor000006.last.html#idTimeUomDayChrm"],
+  ["kalendaro","dirCor/McshCor000006.last.html#idTimeUomCldr"],
+  ["kemio!=sciChem","dirNtr/McshNtr000002.last.html#idSChem"],
+  ["koloro!=color","dirNtr/McshNtr000005.last.html#idSysMols009clr"],
+  ["konjunkcio!=Hmnm_conj","dirLag/McshLag000007.last.html#idLHmnmconj"],
+  ["kuirejo!=roomKitchen","dirStn/McshStn000022.last.html#idSfrHauzatt005"],
+  ["kvar!=4","dirCor/McshCor000010.last.html#idQntNbr4"],
+  ["kvara!=order4","dirCor/McshCor000011.last.html#idSys001ordr4th"],
+  ["kvariliona","dirCor/McshCor000011.last.html#idSys001ordrK51th"],
+  ["kvariliono","dirCor/McshCor000010.last.html#idQntNbrK51"],
+  ["kvin!=5","dirCor/McshCor000010.last.html#idQntNbr5"],
+  ["kvina!=order5","dirCor/McshCor000011.last.html#idSys001ordr5"]
 ]

@@ -1,9 +1,9 @@
 [
   [";lagEspo01a","A|a",6,"2026-08-23"],
-  ["Angla-lingvo!=Engl_lago","dirLag/McsLag000011.last.html#idOverview"],
-  ["Aprilo!=April","dirCor/McsCor000006.last.html#idTimeUomMnthApr"],
-  ["Auxgusto!=August","dirCor/McsCor000006.last.html#idTimeUomMnthAug"],
-  ["adreso!=address-of-place","dirCor/McsCor000007.last.html#idSpcPlcadrs"],
-  ["akvo!=water","dirNtr/McsNtr000005.last.html#idSysMols004Wtr"],
-  ["alineo!=paragraph","dirLag/McsLag000007.last.html#idLHmnmtsscsmPara"]
+  ["Angla-lingvo!=Engl_lago","dirLag/McshLag000011.last.html#idOverview"],
+  ["Aprilo!=April","dirCor/McshCor000006.last.html#idTimeUomMnthApr"],
+  ["Auxgusto!=August","dirCor/McshCor000006.last.html#idTimeUomMnthAug"],
+  ["adreso!=address-of-place","dirCor/McshCor000007.last.html#idSpcPlcadrs"],
+  ["akvo!=water","dirNtr/McshNtr000005.last.html#idSysMols004Wtr"],
+  ["alineo!=paragraph","dirLag/McshLag000007.last.html#idLHmnmtsscsmPara"]
 ]

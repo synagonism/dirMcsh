@@ -1,8 +1,8 @@
 [
   [";lagSngu09mu","M|m",5,"2026-09-03"],
-  ["Mes!=Mcs","dirCor/McsCor000002.last.html#idOverview"],
-  ["MesEksamplo!=McshExml","dirCor/McsCor000015.last.html#idOverview"],
-  ["masno!=machine","dirTch/McsTch000003.last.html#idOverview"],
-  ["mau-kau-gau!=rltnGenericSpecific","dirCor/McsCor000009.last.html#idGnrspcrln"],
-  ["mu!=Sngu_letrMu","dirLag/McsLag000010.last.html#idL0014ltr19"]
+  ["Mes!=Mcs","dirCor/McshCor000002.last.html#idOverview"],
+  ["MesEksamplo!=McshExml","dirCor/McshCor000015.last.html#idOverview"],
+  ["masno!=machine","dirTch/McshTch000003.last.html#idOverview"],
+  ["mau-kau-gau!=rltnGenericSpecific","dirCor/McshCor000009.last.html#idGnrspcrln"],
+  ["mu!=Sngu_letrMu","dirLag/McshLag000010.last.html#idL0014ltr19"]
 ]

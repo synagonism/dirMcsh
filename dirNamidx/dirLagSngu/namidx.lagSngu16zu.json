@@ -1,11 +1,11 @@
 [
   [";lagSngu16zu","Z|z",8,"2026-08-17"],
-  ["zo!=bio","dirOgm/McsOgm000002.last.html#idOverview"],
-  ["zo-fito!=ogmPlant","dirOgm/McsOgm000010.last.html#idOverview"],
-  ["zo-fo!=organism","dirOgm/McsOgm000003.last.html#idOverview"],
-  ["zo-tongo!=ogmAnimal","dirOgm/McsOgm000009.last.html#idOverview"],
-  ["zo-vo!=socialitation","dirStn/McsStn000002.last.html#idOverview"],
-  ["zo:kuo!=5","dirCor/McsCor000010.last.html#idQntNbr5"],
-  ["zoUoGo!=bioNosys","dirNtr/McsNtr000008.last.html#idOverview"],
-  ["zu!=Sngu_letrZu","dirLag/McsLag000010.last.html#idL0014ltr06"]
+  ["zo!=bio","dirOgm/McshOgm000002.last.html#idOverview"],
+  ["zo-fito!=ogmPlant","dirOgm/McshOgm000010.last.html#idOverview"],
+  ["zo-fo!=organism","dirOgm/McshOgm000003.last.html#idOverview"],
+  ["zo-tongo!=ogmAnimal","dirOgm/McshOgm000009.last.html#idOverview"],
+  ["zo-vo!=socialitation","dirStn/McshStn000002.last.html#idOverview"],
+  ["zo:kuo!=5","dirCor/McshCor000010.last.html#idQntNbr5"],
+  ["zoUoGo!=bioNosys","dirNtr/McshNtr000008.last.html#idOverview"],
+  ["zu!=Sngu_letrZu","dirLag/McshLag000010.last.html#idL0014ltr06"]
 ]

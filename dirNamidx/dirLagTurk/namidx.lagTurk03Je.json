@@ -1,11 +1,11 @@
 [
   [";lagTurk03Je","C|c",8,"2026-08-17"],
-  ["Cuma!=Friday","dirCor/McsCor000006.last.html#idTimeUomDayFrd"],
-  ["Cumartesi!=Saturday","dirCor/McsCor000006.last.html#idTimeUomDayStd"],
-  ["can-atmak!=to-look-forward-to;to-crave","dirLag/McsLag000030.last.html#idLTurkverbstr"],
-  ["cesaret-etmek!=to-have-courage-to-do-something","dirLag/McsLag000030.last.html#idLTurkverbComp"],
-  ["cezalanmak!=to-be-punished","dirLag/McsLag000030.last.html#idLTurkverbstr"],
-  ["cüda-etmek!=to-separate","dirLag/McsLag000030.last.html#idLTurkverbComp"],
-  ["cümleTürkçe!=sentenceTurk","dirLag/McsLag000030.last.html#idLTurksent"],
-  ["cüret-etmek!=to-dare-","dirLag/McsLag000030.last.html#idLTurkverbComp"]
+  ["Cuma!=Friday","dirCor/McshCor000006.last.html#idTimeUomDayFrd"],
+  ["Cumartesi!=Saturday","dirCor/McshCor000006.last.html#idTimeUomDayStd"],
+  ["can-atmak!=to-look-forward-to;to-crave","dirLag/McshLag000030.last.html#idLTurkverbstr"],
+  ["cesaret-etmek!=to-have-courage-to-do-something","dirLag/McshLag000030.last.html#idLTurkverbComp"],
+  ["cezalanmak!=to-be-punished","dirLag/McshLag000030.last.html#idLTurkverbstr"],
+  ["cüda-etmek!=to-separate","dirLag/McshLag000030.last.html#idLTurkverbComp"],
+  ["cümleTürkçe!=sentenceTurk","dirLag/McshLag000030.last.html#idLTurksent"],
+  ["cüret-etmek!=to-dare-","dirLag/McshLag000030.last.html#idLTurkverbComp"]
 ]

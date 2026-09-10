@@ -1,9 +1,9 @@
 [
   [";lagEspo27vo","V|v",6,"2026-08-23"],
-  ["vento!=wind","dirNtr/McsNtr000015.last.html#idErthamfrwind"],
-  ["verbo!=verb","dirLag/McsLag000007.last.html#idLHmnmverb"],
-  ["verda!=colorGreen","dirNtr/McsNtr000005.last.html#idSysMols009clrGren"],
-  ["veturilo!=vehicle","dirTch/McsTch000003.last.html#idMchn001"],
-  ["vortaro!=wordary","dirLag/McsLag000007.last.html#idLHmnmwrdIdx"],
-  ["vorto!=word","dirLag/McsLag000007.last.html#idLHmnmwrd"]
+  ["vento!=wind","dirNtr/McshNtr000015.last.html#idErthamfrwind"],
+  ["verbo!=verb","dirLag/McshLag000007.last.html#idLHmnmverb"],
+  ["verda!=colorGreen","dirNtr/McshNtr000005.last.html#idSysMols009clrGren"],
+  ["veturilo!=vehicle","dirTch/McshTch000003.last.html#idMchn001"],
+  ["vortaro!=wordary","dirLag/McshLag000007.last.html#idLHmnmwrdIdx"],
+  ["vorto!=word","dirLag/McshLag000007.last.html#idLHmnmwrd"]
 ]

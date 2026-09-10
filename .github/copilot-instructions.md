@@ -19,8 +19,8 @@ node Mcsmgr/mMcsNew.mjs pwd # create new HitpMcs.
 ## Project Overview
 
 ### Structure
-- **`/`** – Root HTML pages (index.html, Mcs000000.last.html, etc.) and JSON metadata
-- **`dirCor/`** – Core content (McsCor000001.last.html, etc.)
+- **`/`** – Root HTML pages (index.html, Mcsh000000.last.html, etc.) and JSON metadata
+- **`dirCor/`** – Core content (McshCor000001.last.html, etc.)
 - **`dirEdu/`** – Educational content
 - **`dirHlth/`** – Health-related content
 - **`dirHmn/`** – on Humans content
@@ -39,8 +39,8 @@ node Mcsmgr/mMcsNew.mjs pwd # create new HitpMcs.
 
 ### Content Format
 - **Content pages**: HTML with custom structure, using IDs for sections (e.g., `id="idOverview"`, `id="idDescription"`)
-- **Naming convention**: `Mcs[Category]######.last.html` (e.g., `McsCor000001.last.html`, `McsEdu000005.last.html`)
-- **Metadata**: JSON files track content state (`aPages.json`, `Mcsqnt.json` for quantity counts)
+- **Naming convention**: `Mcs[Category]######.last.html` (e.g., `McshCor000001.last.html`, `McshEdu000005.last.html`)
+- **Metadata**: JSON files track content state (`aPages.json`, `Mcshqnt.json` for quantity counts)
 
 ### Multilingual Support
 The system supports **20+ languages** via the JavaScript engine:
@@ -154,7 +154,7 @@ node Mcsmgr/mNamidx.mjs && node Mcsmgr/mWrdidx.mjs
 
 ## References
 
-- **Entry point**: [Mcs000000.last.html](Mcs000000.last.html)
+- **Entry point**: [Mcsh000000.last.html](Mcsh000000.last.html)
 - **Main stylesheet**: [Mcsmgr/mMcsh2.css](Mcsmgr/mMcsh2.css)
 - **Main script**: [Mcsmgr/mMcsh2.js](Mcsmgr/mMcsh2.js)
 - **Philosophy**: https://synagonism.net/
@@ -164,7 +164,7 @@ node Mcsmgr/mNamidx.mjs && node Mcsmgr/mWrdidx.mjs
 
 ## Next Steps
 
-1. Check the [current file being edited](file:///c:/xampp/htdocs/dirMcsh/dirTchInf/McsTchInf000041.last.html) to understand content structure
+1. Check the [current file being edited](file:///c:/xampp/htdocs/dirMcsh/dirTchInf/McshTchInf000041.last.html) to understand content structure
 2. Review [Mcsmgr/mMcsh2.js](Mcsmgr/mMcsh2.js) to understand the component system
 3. Explore topic directories to see content patterns
 4. Ask about specific content updates, new page creation, or index rebuilding

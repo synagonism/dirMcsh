@@ -1,12 +1,12 @@
 [
   [";lagSngu22e","E|e",9,"2026-09-09"],
-  ["Elinus-lagu!=Elln_lago","dirLag/McsLag000020.last.html#idOverview"],
-  ["e!=Sngu_letrE","dirLag/McsLag000010.last.html#idL0014ltr22"],
-  ["earo!=organEar","dirHlth/McsHlth000019.last.html#idOgnHmn008"],
-  ["enio!=concept","dirLag/McsLag000003.last.html#idInfHmnBrn004"],
-  ["enio-lago!=semu_cnpt","dirLag/McsLag000007.last.html#idLHmnmsmscpt"],
-  ["enio-semu!=semu_cnpt","dirLag/McsLag000007.last.html#idLHmnmsmscpt"],
-  ["enioBrainoBio!=cptMindBio","dirCor/McsCor000013.last.html#idBrngCptgcpt"],
-  ["enioBrainoHo!=cptMind","dirLag/McsLag000003.last.html#idInfHmnBrn001Mcpt"],
-  ["eniuSensu!⇒Mes","dirCor/McsCor000002.last.html#idOverview"]
+  ["Elinus-lagu!=Elln_lago","dirLag/McshLag000020.last.html#idOverview"],
+  ["e!=Sngu_letrE","dirLag/McshLag000010.last.html#idL0014ltr22"],
+  ["earo!=organEar","dirHlth/McshHlth000019.last.html#idOgnHmn008"],
+  ["enio!=concept","dirLag/McshLag000003.last.html#idInfHmnBrn004"],
+  ["enio-lago!=semu_cnpt","dirLag/McshLag000007.last.html#idLHmnmsmscpt"],
+  ["enio-semu!=semu_cnpt","dirLag/McshLag000007.last.html#idLHmnmsmscpt"],
+  ["enioBrainoBio!=cptMindBio","dirCor/McshCor000013.last.html#idBrngCptgcpt"],
+  ["enioBrainoHo!=cptMind","dirLag/McshLag000003.last.html#idInfHmnBrn001Mcpt"],
+  ["eniuSensu!⇒Mes","dirCor/McshCor000002.last.html#idOverview"]
 ]
