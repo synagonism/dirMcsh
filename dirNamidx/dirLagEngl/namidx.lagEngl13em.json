@@ -1,5 +1,5 @@
 [
-  [";lagEngl13em","M|m",5243,"2026-09-13"],
+  [";lagEngl13em","M|m",5242,"2026-09-14"],
   ["M!=1000^2!=Mega!=million","dirCor/McshCor000010.last.html#idQntNbrK21"],
   ["M-mega=x1'000'000","dirCor/McshCor000010.last.html#idQntRlvMlplMega"],
   ["MAD!=Morocco-Dirham-currency","dirStn/McshStn000029.last.html#idSfrFin019UntSpc"],
@@ -1609,7 +1609,6 @@
   ["Mcshmgr'file!⇒Mcshmgrfile","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrfile"],
   ["Mcshmgr'mMcsNew.mjs","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrmcsnjs"],
   ["Mcshmgr'mNamidx.mjs","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrnijs"],
-  ["Mcshmgr'mSftp.mjs","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrsfjs"],
   ["Mcshmgr'mWatch.mjs","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrmwcjs"],
   ["Mcshmgr'rootdir","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrdirRoot"],
   ["Mcshmgr'searching","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrsrcg"],
@@ -2252,7 +2251,7 @@
   ["mNamidx.mjs//Mcsmgr//dirMcsh","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrnijs"],
   ["mNamidx.mjs/fDateYMD","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrnijsfdymd"],
   ["mNamidx.mjs/fRemoveNamUrl","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrnijsfrnu"],
-  ["mSftp.mjs//Mcsmgr//dirMcsh","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrsfjs"],
+  ["mSftp.mjs//dirMcsmgr","dirTchInf/McshTchInf000009.last.html#idLMcshlmgrsfjs"],
   ["mUtil.js//Mcsmgr//dirMcsh","dirTchInf/McshTchInf000009.last.html#idLMcshfileMUtilmjs"],
   ["mVElla","dirLag/McshLag000027.last.html#idLEllaverbmbr"],
   ["mVElla'sibling","dirLag/McshLag000027.last.html#idLEllaverbmbrsblg"],
