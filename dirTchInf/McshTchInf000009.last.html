@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.Mcsh_lago!=Hitp_Mcs-language
-    (McshTchInf000009.1-74-0.2026-09-24)</title>
+    (McshTchInf000009.1-75-0.2026-09-25)</title>
   <meta name="keywords" content="Mcsh-language, Hitp_Mcs-language, modelConceptSenso, Synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -143,9 +143,9 @@
     <br>* McshEngl.Mcshdoc!⇒Mcshapp,
     <br>* McshEngl.Mcshdocs!~plural!⇒Mcshapp,
     <br>* McshEngl.file-Mcsh!⇒Mcshapp,
-    <br>* McshEngl.McshFile!⇒Mcshapp,
     <br>* McshEngl.McshAsfile!⇒Mcshapp,
-    <br>* McshFile, {2021-03-24} {2025-08-09}
+    <br>* McshEngl.McshFile, {2021-03-24} {2025-08-09}
+    <br>* McshEngl.McsHitp-file!⇒Mcshapp,
     <br>* McshEngl.McshHeader!⇒Mcshapp,
     <br>* McshEngl.Mcsh.Header!⇒Mcshapp,
     <br>* McshEngl.Mcsh.File!⇒Mcshapp,
@@ -2263,6 +2263,7 @@
     <br>
     <a class="clsHide" href="#idLMcshlmgrnijsdsn"></a></p>
   <p id="idLMcshlmgrnijsnam">name::
+    <br>* McshEngl.indexing-of-Hitp|McsHitp-file,
     <br>* McshEngl.Mcshmgrfile.mNamidx.mjs,
     <br>* McshEngl.McshIndexFilemjs,
     <br>* McshEngl.Mcshmgr'mNamidx.mjs,
@@ -2271,7 +2272,7 @@
     <a class="clsHide" href="#idLMcshlmgrnijsnam"></a></p>
   <p id="idLMcshlmgrnijswpa">addressWpg::
     <br>* dirMcshmgr/mNamidx.mjs,
-    <br>* https://github.com/synagonism/Mcsworld/blob/master/dirMcsh/Mcsmgr/mNamidx.mjs,
+    <br>* https://github.com/synagonism/dirMcshmgr/blob/master/mNamidx.mjs,
     <a class="clsHide" href="#idLMcshlmgrnijswpa"></a></p>
   <p id="idLMcshlmgrnijsalg">algo::
     <br>* reads an-Mcsh|Hitp-file.
@@ -2283,8 +2284,7 @@
     <br>- ADD the name-Urls in namidx.lag-files.
     <a class="clsHide" href="#idLMcshlmgrnijsalg"></a></p>
   <p id="idLMcshlmgrnijsisu">issue::
-    <br>* names:
-    <br>- they must NOT contain \ " tab, we use &amp;#34; &amp;#92; instead.
+    <br>* names: they must NOT contain \ " tab, we use &amp;#34; &amp;#92; instead. fixed {2026-09-25}
     <br>
     <br>* McshEngl.Hitp_lago'problem-on-names,
     <br>* McshEngl.Mcsh_lago'problem-on-names,
@@ -2402,7 +2402,7 @@
   <p id="idLMcshlmgrsfjsnam">name::
     <br>* McshEngl.Mcshmgrfile.mSftp.mjs,
     <br>* McshEngl.dirMcshmgr/mSftp.mjs,
-    <br>* McshEngl.mSftp.mjs//dirMcsmgr,
+    <br>* McshEngl.mSftp.mjs//dirMcshmgr,
     <a class="clsHide" href="#idLMcshlmgrsfjsnam"></a></p>
 
   <section id="idLMcshlmgrsfjsOnly">
@@ -2433,19 +2433,19 @@
     <br>
     <br>· <code>mWatch.mjs</code> watches for changes in *.last.html, creates name-indexes, and uploads the-files.
     <br>· when we save a-file, it stores in <code>dirManager/oHash.json</code> the-hash of a-file, and when this hash changes, it triggers index creation.
-    <br>× RUN from worldview: <code>node ../dirMcshmgr/mWatch.mjs pwd</code>
-    <br>- password is your ftp password.
+    <br>× RUN from worldview: <code>node ../dirMcshmgr/mWatch.mjs</code>
+    <br>- prompts for your ftp password.
     <br>- also you need to set your ftp account in mSftp.mjs.
     <a class="clsHide" href="#idLMcshlmgrmwcjsdsn"></a></p>
   <p id="idLMcshlmgrmwcjsnam">name::
     <br>* McshEngl.Mcshmgrfile.mWatch.mjs,
     <br>* McshEngl.Mcshmgr'mWatch.mjs,
-    <br>* McshEngl.dirMcsh/Mcsmgr/mWatch.mjs,
+    <br>* McshEngl.dirMcshmgr/mWatch.mjs,
     <br>* McshEngl.mWatch.mjs//dirMcshmgr,
     <a class="clsHide" href="#idLMcshlmgrmwcjsnam"></a></p>
   <p id="idLMcshlmgrmwcjswpa">addressWpg::
-    <br>* <a href="/dirMcshmgr/mWatch.mjs">dirMcsh/Mcsmgr/mWatch.mjs</a>,
-    <br>* https://github.com/synagonism/Mcsworld/blob/master/dirMcsh/Mcsmgr/mWatch.mjs,
+    <br>* <a href="/dirMcshmgr/mWatch.mjs">dirMcshmgr/mWatch.mjs</a>,
+    <br>* https://github.com/synagonism/dirMcshmgr/blob/master/mWatch.mjs,
     <a class="clsHide" href="#idLMcshlmgrmwcjswpa"></a></p>
   </section>
 
@@ -2573,11 +2573,11 @@
   <p id="idLMcshlmgrmcsnjsnam">name::
     <br>* McshEngl.Mcshmgrfile.mMcshNew.mjs,
     <br>* McshEngl.Mcshmgr'mMcshNew.mjs,
-    <br>* McshEngl.dirMcsh/Mcsmgr/mMcshNew.mjs,
+    <br>* McshEngl.dirMcshmgr/mMcshNew.mjs,
     <br>* McshEngl.mMcshNew.mjs//dirMcshmgr,
     <a class="clsHide" href="#idLMcshlmgrmcsnjsnam"></a></p>
   <p id="idLMcshlmgrmcsnjswpa">addressWpg::
-    <br>* <a href="/dirMcshmgr/mMcshNew.mjs">dirMcsh/Mcsmgr/mMcshNew.mjs</a>,
+    <br>* <a href="/dirMcshmgr/mMcshNew.mjs">dirMcshmgr/mMcshNew.mjs</a>,
     <a class="clsHide" href="#idLMcshlmgrmcsnjswpa"></a></p>
   </section>
 
@@ -2616,16 +2616,16 @@
   <p id="idLMcshmgrvscddsn">description::
     <br>× Mcsh-creation: {2026-04-29}
     <br>· on {2026-04} I switched editing from <code>jEdit</code> to <a class="clsPreview" href="../dirTchInf/McshTchInf000041.last.html#idOverview">VSCode</a>.
-    <br>· <a class="clsPreview" href="../.vscode/tasks.json">my project tasks.json</a>.
+    <br>· <a class="clsPreview" href="/dirMcshmgr/.vscode/tasks.json">my project tasks.json</a>.
     <br>· <a class="clsPreview" href="/dirMcshmgr/dirVscode/keybindings.json">my user keybindings.json</a>,
     <br>· my <a class="clsPreview" href="../dirTchInf/McshTchInf000041.last.html#idVscodeextnUrin">user-input-extension</a> that asks for user input in keybindings.json.
     <a class="clsHide" href="#idLMcshmgrvscddsn"></a></p>
   <p id="idLMcshmgrvscdnam">name::
-    <br>* McshEngl.Visual-Studio-Code-editor-of-Mcshmgr!⇒Mcsh_Vscode,
-    <br>* McshEngl.Mcsh_Vscode!=Visual-Studio-Code-editor-of-Mcshmgr,
-    <br>* McshEngl.Mcshmgr'VSCode!⇒Mcsh_Vscode,
-    <br>* McshEngl.Mcshmgr'Visual-Studio-Code!⇒Mcsh_Vscode,
-    <br>* McshEngl.Mcshmgr-editor!⇒Mcsh_Vscode,
+    <br>* McshEngl.Visual-Studio-Code-editor-of-Mcshmgr!⇒Mcshvsc,
+    <br>* McshEngl.Mcshvsc!=Visual-Studio-Code-editor-of-Mcshmgr,
+    <br>* McshEngl.Mcshmgr'VSCode!⇒Mcshvsc,
+    <br>* McshEngl.Mcshmgr'Visual-Studio-Code!⇒Mcshvsc,
+    <br>* McshEngl.Mcshmgr-editor!⇒Mcshvsc,
     <a class="clsHide" href="#idLMcshmgrvscdnam"></a></p>
   </section>
 
@@ -2635,7 +2635,7 @@
   <p id="idLMcshvmdsn">description::
     <br>× Mcsh-creation: {2026-08-24}
     <br>× generic: VSCode-extension
-    <br>× https://github.com/synagonism/dirMcshmgr/tree/master/mcsh-visual
+    <br>× sourcecode: https://github.com/synagonism/dirMcshmgr/tree/master/mcsh-visual
     <br>
     <br>· Mcsh_visual is <a class="clsPreview" href="../dirTchInf/McshTchInf000041.last.html#idVscodeextn">a-VSCode-extension</a> I created (with the-help of Claude-Code) that visually edits Mcs*|Hitp*.last.html files.
     <br>· today {2026-08-24} it is a very early version, BUT it is a-good start for a-visual-manager!
@@ -2647,7 +2647,7 @@
     <br>* McshEngl.Mcshvm!=Mcsh-visual-manager,
     <br>* McshEngl.Mcsh-visual!⇒Mcshvm,
     <br>* McshEngl.Mcsh_visual!⇒Mcshvm,
-    <br>* McshEngl.visual-manager--of-Mcsh|Hitp!⇒Mcshvm,
+    <br>* McshEngl.visual-manager--of-McsHitp|Hitp!⇒Mcshvm,
     <a class="clsHide" href="#idLMcshvmnam"></a></p>
 
   <section id="idLMcshvmfile">
@@ -2781,7 +2781,9 @@
   <h2 id="idLMcshlmgrdngH2">DOING of Mcshmgr
     <a class="clsHide" href="#idLMcshlmgrdngH2"></a></h2>
   <p id="idLMcshlmgrdngdsn">description::
+    <br>· adding-new-language,
     <br>· searching,
+    <br>· validating,
     <a class="clsHide" href="#idLMcshlmgrdngdsn"></a></p>
   <p id="idLMcshlmgrdngnam">name::
     <br>* McshEngl.Mcshmgr'doing,
@@ -2789,6 +2791,33 @@
   <p id="idLMcshlmgrdnggtr">generic-tree-of-Mcshmgr'doing::
     <br>* <a class="clsPreview" href="../dirCor/McshCor000002.last.html#idMcsmdng">Mcsmgr'doing</a>,
     <a class="clsHide" href="#idLMcshlmgrdnggtr"></a></p>
+
+  <section id="idLMcshlmgrtodo">
+  <h3 id="idLMcshlmgrtodoH3">doing.TODO of Mcshmgr
+    <a class="clsHide" href="#idLMcshlmgrtodoH3"></a></h3>
+  <p id="idLMcshlmgrtododsn">description::
+    <br>* my most needed tool is the-manager of classification-trees: generic-specific, whole-part, parent-child.
+    <br>
+    <br>* search: if CONTAINS '.*' to do regular-expression search on names that begin with whatever entered eg 'verbEnglC.*fought' to search for 'fought' inside the-names begining with 'verbEnglC'. {2023-07-17}.
+    <br>
+    <br>* ui: make width of info-container movable with mouse or long-tap of vertical-scrollbar. {2026-09-12}
+    <br>
+    <br>* search: automatically to split indexes IF size exceeds a-number. {2026-09-12}
+    <br>
+    <br>=== DONE:
+    <br>* a-WYSIWYG editor. {2026-08}
+    <br>* Ctrl+Q: to query the-highlighted text. {2025-08-28}
+    <br>* hitp.js: to be-organized in modules. {2021-04-01} {done.2021-05-02},
+    <br>* McshFile-name: from filMcsName.last.html to filMcsh000000.last.html. {2021-03-31} {done.2021-04-28}.
+    <br>* Mcs-name: from * Mcs.name, to * McshEngl.name, so all names have the-same format: * McsLago.name, {2021-03-30} {done}.
+    <a class="clsHide" href="#idLMcshlmgrtododsn"></a></p>
+  <p id="idLMcshlmgrtodonam">name::
+    <br>* McshEngl.Mcshmgr'todo,
+    <br>* McshEngl.Mcsh_lago'todo,
+    <br>* McshEngl.todo.Mcshmgr,
+    <br>* McshEngl.todo.Mcsh_lago,
+    <a class="clsHide" href="#idLMcshlmgrtodonam"></a></p>
+  </section>
 
   <section id="idLMcshlmgrvldg">
   <h3 id="idLMcshlmgrvldgH3">doing.validating of Mcshmgr
@@ -2806,8 +2835,8 @@
     <a class="clsHide" href="#idLMcshlmgrvldgnam"></a></p>
 
   <section id="idLMcshlmgrvldgHitp">
-  <h3 id="idLMcshlmgrvldgHitpH3">Mcshvalidator.Hitp
-    <a class="clsHide" href="#idLMcshlmgrvldgHitpH3"></a></h3>
+  <h4 id="idLMcshlmgrvldgHitpH4">Mcshvalidator.Hitp
+    <a class="clsHide" href="#idLMcshlmgrvldgHitpH4"></a></h4>
   <p id="idLMcshlmgrvldgHitpdsn">description::
     <br>× Mcsh-creation: {2026-09-06}
     <br>
@@ -2832,36 +2861,12 @@
   </section>
   </section>
 
-  <section id="idLMcshlmgrtodo">
-  <h3 id="idLMcshlmgrtodoH3">doing.TODO of Mcshmgr
-    <a class="clsHide" href="#idLMcshlmgrtodoH3"></a></h3>
-  <p id="idLMcshlmgrtododsn">description::
-    <br>* my most needed tool is the-manager of classification-trees: generic-specific, whole-part, parent-child.
-    <br>* search: if CONTAINS '.*' to do regular-expression search on names that begin with whatever entered eg 'verbEnglC.*fought' to search for 'fought' inside the-names begining with 'verbEnglC'. {2023-07-17}.
-    <br>* ui: make width of info-container movable with mouse or long-tap of vertical-scrollbar. {2026-09-12}
-    <br>* search: automatically to split indexes IF size exceeds a-number. {2026-09-12}
-    <br>
-    <br>=== DONE:
-    <br>* a-WYSIWYG editor. {2026-08}
-    <br>* Ctrl+Q: to query the-highlighted text. {2025-08-28}
-    <br>* hitp.js: to be-organized in modules. {2021-04-01} {done.2021-05-02},
-    <br>* McshFile-name: from filMcsName.last.html to filMcsh000000.last.html. {2021-03-31} {done.2021-04-28}.
-    <br>* Mcs-name: from * Mcs.name, to * McshEngl.name, so all names have the-same format: * McsLago.name, {2021-03-30} {done}.
-    <a class="clsHide" href="#idLMcshlmgrtododsn"></a></p>
-  <p id="idLMcshlmgrtodonam">name::
-    <br>* McshEngl.Mcshmgr'todo,
-    <br>* McshEngl.Mcsh_lago'todo,
-    <br>* McshEngl.todo.Mcshmgr,
-    <br>* McshEngl.todo.Mcsh_lago,
-    <a class="clsHide" href="#idLMcshlmgrtodonam"></a></p>
-  </section>
-
   <section id="idLMcshlmgrsrcg">
   <h3 id="idLMcshlmgrsrcgH3">doing.searching of Mcshmgr
     <a class="clsHide" href="#idLMcshlmgrsrcgH3"></a></h3>
   <p id="idLMcshlmgrsrcgdsn">description::
-    <br>· searching for ANY Hitp_Mcs from anywhere in the-base, is the-notable function of my Mcshmgr.
-    <br>· the-manager creates indexes of the-names of the-concepts with its related addresses with <a class="clsPreview" href="#idLMcshlmgrnijs">the-mNamidx.mjs-program</a>.
+    <br>· searching for ANY Hitp_Mcs from anywhere in the-worldview, is the-notable function of my Mcshmgr.
+    <br>· the-manager creates indexes of the-names of the-concepts with its related addresses with <a class="clsPreview" href="#idLMcshlmgrnijs">the-mNamidx.mjs algo</a>.
     <br>· these <a class="clsPreview" href="#idLMcshwvdnixl4jf">namidx.lag-files</a> are-stored in dirLANG//dirNamidx//dirMcsh.
     <br>· <a class="clsPreview" href="#idLMcshlmgrnijsisu">PROBLEMS</a>.
     <a class="clsHide" href="#idLMcshlmgrsrcgdsn"></a></p>
@@ -2873,7 +2878,7 @@
     <a class="clsHide" href="#idLMcshlmgrsrcgnam"></a></p>
 
   <section id="idLMcshlmgrsrcgsplt">
-  <h4 id="idLMcshlmgrsrcgspltH4">splitting-index-files of Mcshmgr'searching
+  <h4 id="idLMcshlmgrsrcgspltH4">splitting-index-files of Mcshmgr
     <a class="clsHide" href="#idLMcshlmgrsrcgspltH4"></a></h4>
   <p id="idLMcshlmgrsrcgspltdsn">description::
     <br>· when <a class="clsPreview" href="#namidxjsonLangRfrcN">an-referenceNo-index-file</a> is too big and takes time to load, we can-split it:
@@ -2883,9 +2888,23 @@
     <a class="clsHide" href="#idLMcshlmgrsrcgspltdsn"></a></p>
   <p id="idLMcshlmgrsrcgspltnam">name::
     <br>* McshEngl.Mcshmgr'searching'splitting-index-files,
+    <br>* McshEngl.Mcshmgr'splitting-index-files,
     <br>* McshEngl.Mcsh_lago'splitting-index-files,
     <br>* McshEngl.splitting-index-files--on-Mcsh_lago,
     <a class="clsHide" href="#idLMcshlmgrsrcgspltnam"></a></p>
+  </section>
+
+  <section id="idLMcshlmgrsrcgrnfif">
+  <h4 id="idLMcshlmgrsrcgrnfifFH4">removing-names-from-index-files of Mcshmgr
+    <a class="clsHide" href="#idLMcshlmgrsrcgrnfifFH4"></a></h4>
+  <p id="idLMcshlmgrsrcgrnfifdsn">description::
+    <br>× Mcsh-creation: {2026-09-25}
+    <br>· in-order-to remove names from indexes, you just index the-Mcsh|Hitpdoc that contain the-names with empty content.
+    <a class="clsHide" href="#idLMcshlmgrsrcgrnfifdsn"></a></p>
+  <p id="idLMcshlmgrsrcgrnfifnam">name::
+    <br>* McsEngl.Mcshmgr'removing-names-from-index-files,
+    <br>* McsEngl.removing-names-from-index-files-of-Mcshmgr,
+    <a class="clsHide" href="#idLMcshlmgrsrcgrnfifnam"></a></p>
   </section>
 
   <section id="idLMcshlmgrsrcgevg">
@@ -2896,13 +2915,13 @@
     <br>· evolution of searching function.
     <a class="clsHide" href="#idLMcshlmgrsrcgevgFdsn"></a></p>
   <p id="idLMcshlmgrsrcg20210102">{2021-01-02}-Mcshmgr-search-exact::
-    <br>· TODO: typing space to display only the-exact name AND the ones with !: !⇒ != !~ after it.
+    <br>· DONE: typing space to display only the-exact name AND the ones with !⇒ != !~ ! after it.
     <a class="clsHide" href="#idLMcshlmgrsrcg20210102"></a></p>
   <p id="idLMcshlmgrsrcg20190305">{2019-03-05}-Mcshmgr-search-MainName::
     <br>· DONE: automatically search for the-concept's main-name, the-name after (!⇒).
     <a class="clsHide" href="#idLMcshlmgrsrcg20190305"></a></p>
   <p id="idLMcshlmgrsrcg20190202">{2019-02-02}-Mcshmgr-search-MainName::
-    <br>· TODO: automatically to search for the-concept's main-name, the-name after (!⇒).
+    <br>· DONE: automatically to search for the-concept's main-name, the-name after (!⇒).
     <a class="clsHide" href="#idLMcshlmgrsrcg20190202"></a></p>
   <p id="idLMcshlmgrsrcgevgFnam">name::
     <br>* McshEngl.Mcshmgr'searching'evoluting,
@@ -2916,10 +2935,10 @@
   <p id="idLMcshlmgranlgdsn">description::
     <br>× Mcsh-creation: {2025-01-28}
     <br>
-    <br>1) create dir "dirMcsh\dirNamidx\dirLagLLLL" locally and online,
-    <br>2) on file "dirNamidx\namidx.lagRoot.json" add the new language. Define what letters an-index-file will-hold based on its writting-system.
-    <br>3) on "Mcsmgr\mMcsh.js", add new language as option for searching, AND upload this file.
-    <br>4) on "Mcsmgr\mNamidx.mjs", add the-new language for searching.
+    <br>1) create dir "dirMcsh/dirNamidx/dirLagLLLL" locally and online,
+    <br>2) on file "dirNamidx/namidx.lagRoot.json" add the new language. Define what letters an-index-file will-hold based on its writting-system.
+    <br>3) on "dirMcshmgr/mMcsh2.js", add new language as option for searching, AND upload this file.
+    <br>4) on "dirMcshmgr/mNamidx.mjs", add the-new language for searching.
     <br>5) add macro "hitp-name-Language.bsh" and "syntax-lagLlll.bsh",
     <a class="clsHide" href="#idLMcshlmgranlgdsn"></a></p>
   <p id="idLMcshlmgranlgnam">name::
