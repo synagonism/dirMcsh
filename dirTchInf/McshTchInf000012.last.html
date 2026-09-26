@@ -1133,9 +1133,6 @@
   <section id="idJsndmcstblt">
   <h3 id="idJsndmcstbltH3">Jsndmc'stability-index (0 - 3)
     <a class="clsHide" href="#idJsndmcstbltH3"></a></h3>
-  <p id="idJsndmcstbltnam">name::
-    <br>* McshEngl.Jsnd_lago'stability-index,
-    <a class="clsHide" href="#idJsndmcstbltnam"></a></p>
   <p id="idJsndmcstbltdsn">description::
     <br><strong>lagJsndstability0.Deprecated</strong>
     <br>This feature is known to be problematic, and changes are
@@ -1184,6 +1181,9 @@
     <br>change.  Please do not suggest changes in this area; they will be refused.</span>
     <br>[<a href="https://nodejs.org/docs/latest-v0.10.x/doc/api/documentation.html#documentation_stability_index">https://nodejs.org/docs/latest-v0.10.x/doc/api/documentation.html#documentation_stability_index</a>]
     <a class="clsHide" href="#idJsndmcstbltdsn"></a></p>
+  <p id="idJsndmcstbltnam">name::
+    <br>* McshEngl.Jsnd_lago'stability-index,
+    <a class="clsHide" href="#idJsndmcstbltnam"></a></p>
   </section>
 
   <section id="idJsndmcrpr">
@@ -1541,10 +1541,6 @@
   <p id="idJsndoStreamdsn">description::
     <br>Stream-objects pass (pipe) some flow of data through a number of functions, which modify the-data and then pass the modified data to the next function.
     <a class="clsHide" href="#idJsndoStreamdsn"></a></p>
-  <p id="idJsndoStreamnam">name::
-    <br>* McshEngl.Jsnd_lago'stream-object,
-    <br>* McshEngl.stream-object.Jsnd,
-    <a class="clsHide" href="#idJsndoStreamnam"></a></p>
   <p id="idJsndoStreamP1">description::
     <br><span class="clsQuote">What are Streams?
     <br>Streams can be defined as <strong>a continuous flow of data</strong> that can be manipulated asynchronously as data comes in (or out).
@@ -1559,6 +1555,10 @@
     <br>The first method writes data to a buffer and returns true if the data has been flushed correctly, or false if the buffer is full (in this case the data will be sent out later).The end() method simply indicates that the stream is finished.</span>
     <br>[<a href="http://www.sitepoint.com/introduction-to-streams/">http://www.sitepoint.com/introduction-to-streams/</a>]
     <a class="clsHide" href="#idJsndoStreamP1"></a></p>
+  <p id="idJsndoStreamnam">name::
+    <br>* McshEngl.Jsnd_lago'stream-object,
+    <br>* McshEngl.stream-object.Jsnd,
+    <a class="clsHide" href="#idJsndoStreamnam"></a></p>
   <p id="idJsndoStreammbr">member::
     <br>// 1.7.9 Object.getOwnPropertyNames(new stream()).sort()).join(', '))
     <br>[_events, _eventsCount, _maxListeners, domain]
@@ -2668,12 +2668,6 @@
     <br><span class="clsQuote">It is convenient to organize <span class="clsBU">programs and libraries</span> into self-contained directories, and then provide a single entry point to that library.</span>
     <br>[<a href="https://nodejs.org/docs/v6.3.1/api/modules.html#modules_folders_as_modules">https://nodejs.org/docs/v6.3.1/api/modules.html#modules_folders_as_modules</a>]
     <a class="clsHide" href="#idJsndmcDirdsn"></a></p>
-  <p id="idJsndmcDirnam">name::
-    <br>* McshEngl.Jsnd_lago'directory-module,
-    <br>* McshEngl.Jsnd_lago'folder-module,
-    <br>* McshEngl.Jsndmc.directory,
-    <br>* McshEngl.Jsndmc.folder,
-    <a class="clsHide" href="#idJsndmcDirnam"></a></p>
   <p id="idJsndmcDirdsnP1">description::
     <br><span class="clsQuote"><strong>Folders as Modules</strong>
     <br>It is convenient to organize programs and libraries into self-contained directories, and then provide a single entry point to that library. <strong>There are three ways in which a folder may be passed to require() as an argument</strong>.
@@ -2711,15 +2705,17 @@
     <br>The best way to manage these modules is to use <a class="clsPreview" href="#idJsndnpm">npm</a>, which is covered briefly in the next section.</span>
     <br>[<a href="http://book.mixu.net/node/single.html">http://book.mixu.net/node/single.html</a>]
     <a class="clsHide" href="#idJsndmcDirdsnP1"></a></p>
+  <p id="idJsndmcDirnam">name::
+    <br>* McshEngl.Jsnd_lago'directory-module,
+    <br>* McshEngl.Jsnd_lago'folder-module,
+    <br>* McshEngl.Jsndmc.directory,
+    <br>* McshEngl.Jsndmc.folder,
+    <a class="clsHide" href="#idJsndmcDirnam"></a></p>
   </section>
 
   <section id="idJsndmcFil">
   <h3 id="idJsndmcFilH3">Jsndmc.FILE
     <a class="clsHide" href="#idJsndmcFilH3"></a></h3>
-  <p id="idJsndmcFilnam">name::
-    <br>* McshEngl.Jsnd_lago'file-module,
-    <br>* McshEngl.Jsndmc.file,
-    <a class="clsHide" href="#idJsndmcFilnam"></a></p>
   <p id="idJsndmcFildsn">description::
     <br><span class="clsQuote"><strong>File Modules</strong>
     <br>If the exact filename is not found, then node will attempt to load the required filename with the added extension of .js, .json, and then .node.
@@ -2738,6 +2734,10 @@
     <br>If the given path does not exist, require() will throw an <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLjsError">Error</a> with its code property set to '<code>MODULE_NOT_FOUND</code>'.</span>
     <br>[<a href="https://nodejs.org/docs/v6.3.1/api/modules.html#modules_file_modules">https://nodejs.org/docs/v6.3.1/api/modules.html#modules_file_modules</a>]
     <a class="clsHide" href="#idJsndmcFildsn"></a></p>
+  <p id="idJsndmcFilnam">name::
+    <br>* McshEngl.Jsnd_lago'file-module,
+    <br>* McshEngl.Jsndmc.file,
+    <a class="clsHide" href="#idJsndmcFilnam"></a></p>
   </section>
 
   <section id="idJsndmcMain">
@@ -2797,29 +2797,6 @@
     <br>The-members of the-global-object are-called also 'globals'.
     <br>[HmnSgm.2016-07-04]
     <a class="clsHide" href="#idJsndmwodsn"></a></p>
-  <p id="idJsndmwonam">name::
-    <br>* McshEngl.JsndAPI'global-object!⇒Jsndmwo,
-    <br>* McshEngl.Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'global-namespace!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'global-object!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'global-scope!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'global!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'most-whole-object!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'Mwo!⇒Jsndmwo, {2016.07.22}
-    <br>* McshEngl.Jsnd_lago'Mwo'(most-whole-object)!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'object.global!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'gbl!⇒Jsndmwo, {2016.07.01}
-    <br>* McshEngl.Jsnd_lago'global!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'global-scope!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'global-namespace!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'most-whole-object!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'object.global!⇒Jsndmwo,
-    <br>* McshEngl.Jsnd_lago'the-global-object!⇒Jsndmwo,
-    <br>* McshEngl.most-whole-object--of-Node.js!⇒Jsndmwo,
-    <br>* McshEngl.mwo//Jsnd_lago!⇒Jsndmwo,
-    <br>===
-    <br>DeprecationWarning: 'GLOBAL' is deprecated, use 'global'
-    <a class="clsHide" href="#idJsndmwonam"></a></p>
   <p id="idJsndmwodsnP1">description::
     <br><span class="clsQuote">Node module has a number of variables which are available by default.
     <br><strong>These are <span class="clsBU">documented</span> in the API docs: globals and process</strong>.</span>
@@ -2843,6 +2820,29 @@
     <br><span class="clsQuote">Unlike the browser, Node does not have a window global object, but instead has two others: globals and process.</span>
     <br>[<a href="https://www.airpair.com/JavaScript/node-js-tutorial#3-1-modules">https://www.airpair.com/JavaScript/node-js-tutorial#3-1-modules</a>]
     <a class="clsHide" href="#idJsndmwodsnP1"></a></p>
+  <p id="idJsndmwonam">name::
+    <br>* McshEngl.JsndAPI'global-object!⇒Jsndmwo,
+    <br>* McshEngl.Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'global-namespace!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'global-object!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'global-scope!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'global!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'most-whole-object!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'Mwo!⇒Jsndmwo, {2016.07.22}
+    <br>* McshEngl.Jsnd_lago'Mwo'(most-whole-object)!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'object.global!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'gbl!⇒Jsndmwo, {2016.07.01}
+    <br>* McshEngl.Jsnd_lago'global!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'global-scope!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'global-namespace!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'most-whole-object!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'object.global!⇒Jsndmwo,
+    <br>* McshEngl.Jsnd_lago'the-global-object!⇒Jsndmwo,
+    <br>* McshEngl.most-whole-object--of-Node.js!⇒Jsndmwo,
+    <br>* McshEngl.mwo//Jsnd_lago!⇒Jsndmwo,
+    <br>===
+    <br>DeprecationWarning: 'GLOBAL' is deprecated, use 'global'
+    <a class="clsHide" href="#idJsndmwonam"></a></p>
   <p id="idJsndmwowhl">whole-chain::
     <br>* nothing,
     <a class="clsHide" href="#idJsndmwognc"></a></p>
@@ -3167,10 +3167,6 @@
   <section id="idJsndBuffer">
   <h2 id="idJsndBufferH2">JsndAPI'Buffer-function (2.stable)
     <a class="clsHide" href="#idJsndBufferH2"></a></h2>
-  <p id="idJsndBuffernam">name::
-    <br>* McshEngl.Jsnd_lago'Buffer-function,
-    <br>* McshEngl.Jsnd_lago'Buffer-class,
-    <a class="clsHide" href="#idJsndBuffernam"></a></p>
   <p id="idJsndBufferdsn">description::
     <br><span class="clsQuote">The Buffer class is <span class="clsU">a global type</span> for dealing with <span class="clsU">binary data</span> directly.
     <br>It can be constructed in a variety of ways</span>
@@ -3186,6 +3182,10 @@
     <br>Converting between Buffers and JavaScript string objects requires an explicit encoding method.</span>
     <br>[<a href="https://nodejs.org/api/buffer.html">https://nodejs.org/api/buffer.html</a>]
     <a class="clsHide" href="#idJsndBufferdsn"></a></p>
+  <p id="idJsndBuffernam">name::
+    <br>* McshEngl.Jsnd_lago'Buffer-function,
+    <br>* McshEngl.Jsnd_lago'Buffer-class,
+    <a class="clsHide" href="#idJsndBuffernam"></a></p>
   </section>
 
   <section id="idJsndconsole">
@@ -3399,14 +3399,14 @@
   <p id="idJsndrotgnc">generic::
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLjsrot">Jsgn-root-tree</a>,
     <a class="clsHide" href="#idJsndrotgnc"></a></p>
+  <p id="idJsndrotdsn">description::
+    <br>The-root-tree is <a class="clsPreview" href="#idJsndmcMain">the-main-module</a>.
+    <a class="clsHide" href="#idJsndrotdsn"></a></p>
   <p id="idJsndrotnam">name::
     <br>* McshEngl.Jsnd_lago'algo-root-tree,
     <br>* McshEngl.Jsnd_lago'algo-root-tree,
     <br>* McshEngl.Jsnd_lago'algo-root,
     <a class="clsHide" href="#idJsndrotnam"></a></p>
-  <p id="idJsndrotdsn">description::
-    <br>The-root-tree is <a class="clsPreview" href="#idJsndmcMain">the-main-module</a>.
-    <a class="clsHide" href="#idJsndrotdsn"></a></p>
   </section>
 
   <section id="idJsndalgstr">
@@ -4226,13 +4226,13 @@
   <section id="idJsndpgm001">
   <h2 id="idJsndpgm001H2">Jsndpgm.file-management-001
     <a class="clsHide" href="#idJsndpgm001H2"></a></h2>
+  <p id="idJsndpgm001dsn">description::
+    <br>·
+    <a class="clsHide" href="#idJsndpgm001dsn"></a></p>
   <p id="idJsndpgm001nam">name::
     <br>* McshEngl.Jsndpgm.001-file-management,
     <br>* McshEngl.Jsndpgm.file-management-001,
     <a class="clsHide" href="#idJsndpgm001nam"></a></p>
-  <p id="idJsndpgm001dsn">description::
-    <br>·
-    <a class="clsHide" href="#idJsndpgm001dsn"></a></p>
   <p id="idJsndpgm001wpa">addressWpg::
     <br>* How to mass rename files in Node.js: https://flaviocopes.com/node-mass-rename-files/,
     <a class="clsHide" href="#idJsndpgm001wpa"></a></p>
@@ -4399,15 +4399,6 @@
     <br>A-Node.js-package is <a class="clsPreview" href="#idJsndlbr">a-library</a> or <a class="clsPreview" href="#idJsndpgm">a-program</a> with <a class="clsPreview" href="#idJsndpkgjsn">a-package.json-file</a>.
     <br>[HmnSgm.2016-08-01]
     <a class="clsHide" href="#idJsndpkgdsn"></a></p>
-  <p id="idJsndpkgnam">name::
-    <br>* McshEngl.Jsnd_lago'package!⇒npm-pkg,
-    <br>* McshEngl.Jsnd_lago'pkg!⇒npm-pkg,
-    <br>* McshEngl.Jsnd_lago-code-doc.package!⇒npm-pkg,
-    <br>* McshEngl.npm'package!⇒npm-pkg,
-    <br>* McshEngl.npm'pkg!⇒npm-pkg,
-    <br>* McshEngl.npm-package!⇒npm-pkg,
-    <br>* McshEngl.npm-pkg, {2019-03-20},
-    <a class="clsHide" href="#idJsndpkgnam"></a></p>
   <p id="idJsndpkgdsnP1">description::
     <br><span class="clsQuote">What is a package?
     <br>A package is:
@@ -4447,6 +4438,15 @@
     <br>we might say that "The variable req refers to the request module".</span>
     <br>[<a href="https://www.npmjs.org/doc/faq.html#What-is-a-package">https://www.npmjs.org/doc/faq.html#What-is-a-package</a>]
     <a class="clsHide" href="#idJsndpkgdsnP1"></a></p>
+  <p id="idJsndpkgnam">name::
+    <br>* McshEngl.Jsnd_lago'package!⇒npm-pkg,
+    <br>* McshEngl.Jsnd_lago'pkg!⇒npm-pkg,
+    <br>* McshEngl.Jsnd_lago-code-doc.package!⇒npm-pkg,
+    <br>* McshEngl.npm'package!⇒npm-pkg,
+    <br>* McshEngl.npm'pkg!⇒npm-pkg,
+    <br>* McshEngl.npm-package!⇒npm-pkg,
+    <br>* McshEngl.npm-pkg, {2019-03-20},
+    <a class="clsHide" href="#idJsndpkgnam"></a></p>
   <p id="idJsndpkggnc">generic::
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLjspkg">Jsgn-package</a>,
     <a class="clsHide" href="#idJsndpkggnc"></a></p>
@@ -6913,9 +6913,6 @@
   <section id="idJsndjaketaskDir">
   <h4 id="idJsndjaketaskDirH4">lagJsndjake'task.DIRECTORY
     <a class="clsHide" href="#idJsndjaketaskDirH4"></a></h4>
-  <p id="idJsndjaketaskDirnam">name::
-    <br>* McshEngl.Jsnd_lago'jake'directory-task,
-    <a class="clsHide" href="#idJsndjaketaskDirnam"></a></p>
   <p id="idJsndjaketaskDirdsn">description::
     <br><span class="clsQuote">Create a directory-task by calling directory.
     <br>
@@ -6928,14 +6925,14 @@
     <br>This task will create the directory when used as a prerequisite for a file-task, or when run from the command-line.</span>
     <br>[<a href="https://github.com/mde/jake">https://github.com/mde/jake</a>]
     <a class="clsHide" href="#idJsndjaketaskDirdsn"></a></p>
+  <p id="idJsndjaketaskDirnam">name::
+    <br>* McshEngl.Jsnd_lago'jake'directory-task,
+    <a class="clsHide" href="#idJsndjaketaskDirnam"></a></p>
   </section>
 
   <section id="idJsndjaketaskFile">
   <h4 id="idJsndjaketaskFileH4">lagJsndjake'task.FILE
     <a class="clsHide" href="#idJsndjaketaskFileH4"></a></h4>
-  <p id="idJsndjaketaskFilenam">name::
-    <br>* McshEngl.Jsnd_lago'jake'file-task,
-    <a class="clsHide" href="#idJsndjaketaskFilenam"></a></p>
   <p id="idJsndjaketaskFiledsn">description::
     <br><span class="clsQuote">File-tasks
     <br>Create a file-task by calling file.
@@ -6950,6 +6947,9 @@
     <br>});</span>
     <br>[<a href="https://github.com/mde/jake">https://github.com/mde/jake</a>]
     <a class="clsHide" href="#idJsndjaketaskFiledsn"></a></p>
+  <p id="idJsndjaketaskFilenam">name::
+    <br>* McshEngl.Jsnd_lago'jake'file-task,
+    <a class="clsHide" href="#idJsndjaketaskFilenam"></a></p>
   </section>
   </section>
 
@@ -7575,11 +7575,6 @@
     <br>gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.
     <br>[<a href="https://gulpjs.com/">https://gulpjs.com/</a>]
     <a class="clsHide" href="#idJsndtolGlpdsn"></a></p>
-  <p id="idJsndtolGlpnam">name::
-    <br>* McshEngl.Gulp--task-runner!⇒Gulp.js,
-    <br>* McshEngl.Gulp.js,
-    <br>* McshEngl.Jsnd_lago-tool.Gulp!⇒Gulp.js,
-    <a class="clsHide" href="#idJsndtolGlpnam"></a></p>
   <p id="idJsndtolGlpP1">description::
     <br>Gulp is a streaming build system, by using node’s streams file manipulation is all done in memory, and a file isn’t written until you tell it to do so.
     <br>[<a href="https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js">https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js</a>]
@@ -7591,6 +7586,11 @@
     <br>Simple - By providing only a minimal API surface, gulp is easy to learn and simple to use
     <br>[<a href="https://github.com/gulpjs/gulp">https://github.com/gulpjs/gulp</a>]
     <a class="clsHide" href="#idJsndtolGlpP1"></a></p>
+  <p id="idJsndtolGlpnam">name::
+    <br>* McshEngl.Gulp--task-runner!⇒Gulp.js,
+    <br>* McshEngl.Gulp.js,
+    <br>* McshEngl.Jsnd_lago-tool.Gulp!⇒Gulp.js,
+    <a class="clsHide" href="#idJsndtolGlpnam"></a></p>
 
   <section id="idJsndtolGlpusg">
   <h3 id="idJsndtolGlpusgH3">Usage of Gulp.js
@@ -7752,15 +7752,15 @@
   <section id="idJsndtolGlppgnrsc">
   <h4 id="idJsndtolGlppgnrscH4">Resource-of--gulpjs-plugin
     <a class="clsHide" href="#idJsndtolGlppgnrscH4"></a></h4>
-  <p id="idJsndtolGlppgnrscnam">name::
-    <br>* McshEngl.Gulp.js-plugin'InfRsc,
-    <a class="clsHide" href="#idJsndtolGlppgnrscnam"></a></p>
   <p id="idJsndtolGlppgnirscdsn">description::
     <br>* <a href="https://gulpjs.com/plugins/">https://gulpjs.com/plugins/</a>,
     <br>* <a href="https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/README.md">https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/README.md</a>,
     <br>* <a href="https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/guidelines.md">https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/guidelines.md</a>,
     <br>* <a href="https://github.com/gulpjs/gulp-util">https://github.com/gulpjs/gulp-util</a>,
     <a class="clsHide" href="#idJsndtolGlppgnirscdsn"></a></p>
+  <p id="idJsndtolGlppgnrscnam">name::
+    <br>* McshEngl.Gulp.js-plugin'InfRsc,
+    <a class="clsHide" href="#idJsndtolGlppgnrscnam"></a></p>
   </section>
 
   <section id="idJsndtolGlppgnstr">
@@ -7823,9 +7823,6 @@
   <section id="idJsndtolGlprsc">
   <h3 id="idJsndtolGlprscH3">Resource of Gulp.js
     <a class="clsHide" href="#idJsndtolGlprscH3"></a></h3>
-  <p id="idJsndtolGlprscnam">name::
-    <br>* McshEngl.Gulp.js'InfRsc,
-    <a class="clsHide" href="#idJsndtolGlprscnam"></a></p>
   <p id="idJsndtolGlpirscdsn">description::
     <br>* <a href="https://gulpjs.com/">https://gulpjs.com/</a>,
     <br>* <a href="https://github.com/gulpjs">https://github.com/gulpjs</a>,
@@ -7836,6 +7833,9 @@
     <br>* <a href="https://www.smashingmagazine.com/2014/06/building-with-gulp/">https://www.smashingmagazine.com/2014/06/building-with-gulp/</a>,
     <br>* <a href="https://browsersync.io/docs/gulp">https://browsersync.io/docs/gulp</a>,
     <a class="clsHide" href="#idJsndtolGlpirscdsn"></a></p>
+  <p id="idJsndtolGlprscnam">name::
+    <br>* McshEngl.Gulp.js'InfRsc,
+    <a class="clsHide" href="#idJsndtolGlprscnam"></a></p>
   </section>
   </section>
   </section>
@@ -7847,16 +7847,6 @@
     <br><span class="clsQuote">npm is the default package manager for the JavaScript runtime environment Node.js.</span>
     <br>[<a href="https://en.wikipedia.org/wiki/Npm_(software)">https://en.wikipedia.org/wiki/Npm_(software)</a>]
     <a class="clsHide" href="#idJsndnpmdsn"></a></p>
-  <p id="idJsndnpmnam">name::
-    <br>* McshEngl.Jsnd_lago-tool.npm!⇒npm,
-    <br>* McshEngl.Jsnd_lago'npm!⇒npm,
-    <br>* McshEngl.Jsnd_lago'npm-tool!⇒npm,
-    <br>* McshEngl.Node.js-package-manager!⇒npm,
-    <br>* McshEngl.node-package-manager!⇒npm,
-    <br>* McshEngl.npm, {2019-03-20},
-    <br>* McshEngl.npm!=Node.js-package-manager,
-    <br>* McshEngl.npm--package-manager!⇒npm,
-    <a class="clsHide" href="#idJsndnpmnam"></a></p>
   <p id="idJsndnpmdsnP1">description::
     <br><span class="clsQuote">npm is <span class="clsU">the package manager</span> for <strong>the Node JavaScript platform</strong>.
     <br>It puts modules in place so that node can find them, and manages dependency conflicts intelligently.
@@ -7880,6 +7870,16 @@
     <br>As of Node.js version 0.6.3, npm is deployed and installed automatically with the environment.</span>
     <br>[<a href="http://en.wikipedia.org/wiki/Npm_(software)">http://en.wikipedia.org/wiki/Npm_(software)</a>]
     <a class="clsHide" href="#idJsndnpmdsnP1"></a></p>
+  <p id="idJsndnpmnam">name::
+    <br>* McshEngl.Jsnd_lago-tool.npm!⇒npm,
+    <br>* McshEngl.Jsnd_lago'npm!⇒npm,
+    <br>* McshEngl.Jsnd_lago'npm-tool!⇒npm,
+    <br>* McshEngl.Node.js-package-manager!⇒npm,
+    <br>* McshEngl.node-package-manager!⇒npm,
+    <br>* McshEngl.npm, {2019-03-20},
+    <br>* McshEngl.npm!=Node.js-package-manager,
+    <br>* McshEngl.npm--package-manager!⇒npm,
+    <a class="clsHide" href="#idJsndnpmnam"></a></p>
 
   <section id="idJsndnpmcmd">
   <h2 id="idJsndnpmcmdH2">command of npm
