@@ -1,5 +1,5 @@
 [
-  [";lagEngl19es_1","S..stdRfc",16734,"2026-09-25"],
+  [";lagEngl19es_1","S..stdRfc",16734,"2026-09-26"],
   ["S!=science","dirEdu/McshEdu000002.last.html#idOverview"],
   ["S-expression.Wasm","dirTchInf/McshTchInf000014.last.html#idLagWasmTxtsexn"],
   ["S16-Sulfur-chmElry!⇒chmElrS16","dirNtr/McshNtr000007.last.html#idChmElrSulfur"],
@@ -15542,7 +15542,7 @@
   ["south-west-China","dirStn/McshStn000031.last.html#idSocChnaatt028Stwt"],
   ["sovereign-state!⇒socStateSov","dirStn/McshStn000009.last.html#idSocHumn035"],
   ["space","dirCor/McshCor000007.last.html#idOverview"],
-  ["space!=McsCor000007","dirCor/McshCor000007.last.html#idOverview"],
+  ["space!~McsCor000007","dirCor/McshCor000007.last.html#idOverview"],
   ["space'InfRsc","dirCor/McshCor000007.last.html#idSpcirsc"],
   ["space'dimension","dirCor/McshCor000007.last.html#idSpcdmsn"],
   ["space'doing","dirCor/McshCor000007.last.html#idSpcdng"],
