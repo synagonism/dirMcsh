@@ -1,5 +1,5 @@
 [
-  [";lagZhon008","h",563,"2026-09-26"],
+  [";lagZhon008","h",564,"2026-09-27"],
   ["HéběiShěng-河北省","dirStn/McshStn000031.last.html#idChnaadmnatt015CNHE"],
   ["HénánShěng-河南省","dirStn/McshStn000031.last.html#idChnaadmnatt015CNHA"],
   ["HúběiShěng-湖北省","dirStn/McshStn000031.last.html#idChnaadmnatt015CNHB"],
@@ -495,7 +495,7 @@
   ["hāo-嚆-22150!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb117"],
   ["hāo-蒿-33983!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb117"],
   ["hāo-薅-34181!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb117"],
-  ["hē-喝!=dngDrinking","dirHlth/McshHlth000013.last.html#idFoodHmn017drkg"],
+  ["hē-喝!=dongDrinking","dirHlth/McshHlth000013.last.html#idFoodHmn017drkg"],
   ["hē-喝-21917!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb118"],
   ["hē-嗬-21996!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb118"],
   ["hē-蠚-34842!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb118"],
@@ -556,6 +556,7 @@
   ["hǎo-好!=qualityGood","dirCor/McshCor000018.last.html#idBrngHmnFct002EvalgQltotptGud"],
   ["hǎo-好-22909!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb117"],
   ["hǎo-郝-37085!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb117"],
+  ["hǎochī-好吃!~adjeZhon!=delicious","dirHlth/McshHlth000013.last.html#idFoodHmnatt010Dlcs"],
   ["hǎojǐ-好几!~adjeZhon!=quantoDefiNoSmall:5..10","dirCor/McshCor000010.last.html#idQntDftNFew"],
   ["hǒu-吼-21564!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb123"],
   ["hǔ-唬-21804!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb124"],

@@ -1,5 +1,5 @@
 [
-  [";lagZhon004","d",640,"2026-09-26"],
+  [";lagZhon004","d",642,"2026-09-27"],
   ["Duōshǎo-多少!=quantoAsk","dirCor/McshCor000010.last.html#idQntSmsIgv"],
   ["Dānwèi-单位!=UOM","dirCor/McshCor000009.last.html#idGnrcmsrguom"],
   ["da!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb057"],
@@ -406,6 +406,7 @@
   ["dòngcí.shì-是!=rltnEntity_then_attribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
   ["dòngcí.shì-是!=rltnEquality","dirCor/McshCor000005.last.html#idRlnEqlt"],
   ["dòngcí.shì-是!=rltnGenericThenSpecific","dirCor/McshCor000009.last.html#idGnrspcrln2"],
+  ["dòngcí.shēngbìng-生病!=dongSicking","dirHlth/McshHlth000002.last.html#idBdyHmndngGtgsck"],
   ["dòngcí.tīngshuō-听说!=fctgSpeaking:it-is-said","dirLag/McshLag000009.last.html#idLag0017prcn"],
   ["dòngcí.wàng-忘!=fctgForgeting","dirCor/McshCor000018.last.html#idBrngHmnFct013"],
   ["dòngcí.wán-完!=dongFinishing","dirCor/McshCor000003.last.html#idEntevgdsvgFnsh"],
@@ -423,6 +424,7 @@
   ["dòngcí.yǒu-有!=rltnMcs_then_attribute","dirCor/McshCor000002.last.html#idMcsattrln"],
   ["dòngcí.yǒu-有!=rltnPossessor_then_posserssum","dirCor/McshCor000005.last.html#idRlnPssnofpsr"],
   ["dòngcí.zuò-做!=doing","dirCor/McshCor000004.last.html#idOverview"],
+  ["dòngcí.zuòfàn-做饭!=actgCooking","dirHlth/McshHlth000013.last.html#idFoodHmnckng"],
   ["dòngwù-动物-(動物)!=ogmAnimal","dirOgm/McshOgm000009.last.html#idOverview"],
   ["dòngxué-洞穴!=cave","dirCor/McshCor000007.last.html#idSpc011"],
   ["dòu-痘-30168!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb074"],

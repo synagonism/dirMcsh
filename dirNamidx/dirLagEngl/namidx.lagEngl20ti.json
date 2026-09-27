@@ -1,5 +1,5 @@
 [
-  [";lagEngl20ti","T|t",3411,"2026-09-26"],
+  [";lagEngl20ti","T|t",3408,"2026-09-27"],
   ["T!=1000^4!=Tera!=trillion","dirCor/McshCor000010.last.html#idQntNbrK41"],
   ["T-account@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-T-account"],
   ["T-tera=x1000^4","dirCor/McshCor000010.last.html#idQntRlvMlplTera"],
@@ -2705,7 +2705,7 @@
   ["tissue.human!⇒tissue","dirHlth/McshHlth000002.last.html#idTissHmn"],
   ["tissue.muscle!⇒tissueMuscle","dirHlth/McshHlth000002.last.html#idTissHmn008"],
   ["tissue.myocardium-muscle","dirHlth/McshHlth000002.last.html#idHrtHmnatt005"],
-  ["tissue.nervous!⇒tssSysNervous","dirHlth/McshHlth000019.last.html#idTssHmn002"],
+  ["tissue.nervous!⇒tissueSysNervous","dirHlth/McshHlth000019.last.html#idTssHmn002"],
   ["tissue.skeletal!⇒tissueSkeletal","dirHlth/McshHlth000002.last.html#idTissHmn007"],
   ["tissue.smooth-muscle!⇒tissueMuscleSmooth","dirHlth/McshHlth000002.last.html#idTissHmn010"],
   ["tissue.soft!⇒tissueSoft","dirHlth/McshHlth000002.last.html#idTissHmn003"],
@@ -2748,6 +2748,8 @@
   ["tissueSkeletal:tissue","dirHlth/McshHlth000002.last.html#idTissHmn007gtr"],
   ["tissueSkeletal:tissueSkeletal","dirHlth/McshHlth000002.last.html#idBdyHmn099gtr"],
   ["tissueSoft","dirHlth/McshHlth000002.last.html#idTissHmn003"],
+  ["tissueSysNervous","dirHlth/McshHlth000019.last.html#idTssHmn002"],
+  ["tissueSysNervous-gtr","dirHlth/McshHlth000019.last.html#idTssHmn002gtr"],
   ["title--Mcs-attr","dirCor/McshCor000002.last.html#idMcsttl"],
   ["title-Msch-main-name!⇒McshnameTitle","dirTchInf/McshTchInf000009.last.html#idMcsHitpnameTitle"],
   ["title-content-document--of-Hitp_lago!⇒Hitp_archo","dirTchInf/McshTchInf000008.last.html#idLagHitparc"],
@@ -2772,7 +2774,6 @@
   ["titless-sentence-system!⇒systSentTitless","dirLag/McshLag000007.last.html#idLHmnmtsscsm"],
   ["titless-sentence-system--of-Elln_logo!⇒systSentTitlessElln","dirLag/McshLag000020.last.html#idLEllntsscsm"],
   ["tiàowǔ-跳舞!=dngDancing","dirCor/McshCor000019.last.html#idOverview"],
-  ["tiαn-甜!=tasteSweet","dirHlth/McshHlth000013.last.html#idFoodHmnatt010Swit"],
   ["tls--Node.js-core-object-module","dirTchInf/McshTchInf000012.last.html#idJsndmcoTls"],
   ["to!~Engl_conj","dirLag/McshLag000011.last.html#idLEnglconjTo"],
   ["to!~conjEngl!=rltnDireTowards","dirCor/McshCor000007.last.html#idSpcDrcnTwrd"],
@@ -3308,8 +3309,6 @@
   ["tryptophan/tríptofan/-amino-acid","dirOgm/McshOgm000006.last.html#idPrtnOgmatt003003Trpfn"],
   ["tsipouro","dirHlth/McshHlth000013.last.html#idFoodHmn019"],
   ["tsipuro","dirHlth/McshHlth000013.last.html#idFoodHmn019"],
-  ["tssSysNervous","dirHlth/McshHlth000019.last.html#idTssHmn002"],
-  ["tssSysNervous:tissue","dirHlth/McshHlth000019.last.html#idTssHmn002gtr"],
   ["tsunami!~nounEnglA1-1:tsunami;tsunamis","dirLag/McshLag000024.last.html#idEnglnounA1-21"],
   ["tsunamis!~nounEnglA1-2:tsunami;tsunamis","dirLag/McshLag000024.last.html#idEnglnounA1-21"],
   ["tube-computer!⇒cmrVtube","dirTchInf/McshTchInf000003.last.html#idCmrVmtb"],
@@ -3407,8 +3406,6 @@
   ["tànsuānqīngnà-碳酸氢钠!=saltSodium-bicarbonate","dirNtr/McshNtr000006.last.html#idChmCpd005001"],
   ["tête-à-tête!~nounEnglC1-1:tête-à-tête;tête-à-têtes","dirLag/McshLag000024.last.html#idLEnglnounC1-235"],
   ["tête-à-têtes!~nounEnglC1-2:tête-à-tête;tête-à-têtes","dirLag/McshLag000024.last.html#idLEnglnounC1-235"],
-  ["tāng-汤!=foodSoup","dirHlth/McshHlth000013.last.html#idFoodHmn232"],
   ["tōngcháng-通常!=rltnFreqUsually","dirCor/McshCor000004.last.html#idDngRptgfrqcUsly"],
-  ["tǔ'ěrqí-gònghéguó-土耳其共和国!=socTurk","dirStn/McshStn000033.last.html#idOverview"],
-  ["tαng-糖!=foodSugar","dirHlth/McshHlth000013.last.html#idFoodHmn228"]
+  ["tǔ'ěrqí-gònghéguó-土耳其共和国!=socTurk","dirStn/McshStn000033.last.html#idOverview"]
 ]

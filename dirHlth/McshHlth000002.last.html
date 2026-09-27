@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.bodyHmn!=human-body
-    (McshHlth000002.1-49-0.2026-09-26)</title>
+    (McshHlth000002.1-50-0.2026-09-27)</title>
   <meta name="keywords" content="human-body, bodyHmn, modelConceptSenso, Hitp_Mcs, Synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -219,7 +219,7 @@
     <br>* McshEngl.head'part-whole-tree,
     <a class="clsHide" href="#idBdyHmnatt007wptnam"></a></p>
   <p id="idBdyHmnatt007wtr">whole-tree-of-head::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.head//bodyHmn,
     <a class="clsHide" href="#idBdyHmnatt007wtr"></a></p>
   <p id="idBdyHmnatt007ptr">part-tree-of-::
@@ -239,9 +239,9 @@
     <br>* McshEngl.head'generic-specific-tree,
     <br>* McshEngl.head'specific-generic-tree,
     <a class="clsHide" href="#idBdyHmnatt007gstnam"></a></p>
-  <p id="idBdyHmnatt007gnc">generic-of-head::
+  <p id="idBdyHmnatt007gtr">generic-of-head::
     <br>* head-of-vertebrate,
-    <a class="clsHide" href="#idBdyHmnatt007gnc"></a></p>
+    <a class="clsHide" href="#idBdyHmnatt007gtr"></a></p>
   </section>
   </section>
 
@@ -879,7 +879,7 @@
     <br>* entity.body.material.node⧺cptEpistem742.12⧺,
     <a class="clsHide" href="#idBdyHmnatt002gtr"></a></p>
   <p id="idBdyHmnatt002wtr">whole-tree-of-nodeBodyHmn::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.nodeBodyHmn//bodyHmn,
     <a class="clsHide" href="#idBdyHmnatt002wtr"></a></p>
 
@@ -1094,7 +1094,7 @@
     <br>* McshEngl.sysOrgans'part-whole-tree,
     <a class="clsHide" href="#idSysOgnHmnwptnam"></a></p>
   <p id="idSysOgnHmnwtr">whole-tree-of-sysOrgans::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.sysOrgans//bodyHmn,
     <a class="clsHide" href="#idSysOgnHmnwtr"></a></p>
   <p id="idSysOgnHmnptr">part-tree-of-sysOrgans::
@@ -1552,7 +1552,7 @@
     <br>* McshEngl.organ'part-whole-tree,
     <a class="clsHide" href="#idOgnHmnwptnam"></a></p>
   <p id="idOgnHmnwtr">whole-tree-of-organ::
-    <br>* <a class="clsPreview" href="#idSysOgnHmnwtr">sys-of-organs</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmnwtr">sys-of-organs-wtr</a>,
     <br>* McshEngl.organ//sysOrgans,
     <br>===
     <br>"Two or more organs working together in the execution of a specific body function form an organ system, also called a biological system or body system. The functions of organ systems often share significant overlap. For instance, the nervous and endocrine system both operate via a shared organ, the hypothalamus. For this reason, the two systems are combined and studied as the neuroendocrine system."
@@ -1577,9 +1577,9 @@
   <p id="idOgnHmngstnam">name::
     <br>* McshEngl.organ'generic-specific-tree,
     <a class="clsHide" href="#idOgnHmngstnam"></a></p>
-  <p id="idOgnHmngnc">generic-of-organ::
+  <p id="idOgnHmngtr">generic-of-organ::
     <br>* <a class="clsPreview" href="#idBdyHmnatt002">nodeBodyHmn</a>,
-    <a class="clsHide" href="#idOgnHmngnc"></a></p>
+    <a class="clsHide" href="#idOgnHmngtr"></a></p>
   <p id="idOgnHmnattihf">att-inherited-from::
     <br>· :
     <br>* ,
@@ -1827,7 +1827,7 @@
     <br>* McshEngl.organGland'part-whole-tree,
     <a class="clsHide" href="#idGlndHmnwptnam"></a></p>
   <p id="idGlndHmnwtr">whole-tree-of-gland::
-    <br>* <a class="clsPreview" href="#idSysOgnHmnwtr">sys-of-organs</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmnwtr">sys-of-organs-wtr</a>,
     <br>* McshEngl.gland//sysOrgans,
     <a class="clsHide" href="#idGlndHmnwtr"></a></p>
   <p id="idGlndHmnptr">part-tree-of-gland::
@@ -1848,10 +1848,10 @@
     <br>* McshEngl.organGland'generic-specific-tree,
     <br>* McshEngl.organGland'specific-generic-tree,
     <a class="clsHide" href="#idGlndHmngstnam"></a></p>
-  <p id="idGlndHmngnc">generic-of-gland::
+  <p id="idGlndHmngtr">generic-of-gland::
     <br>* <a class="clsPreview" href="#idOgnHmn">organ</a>,
     <br>* McshEngl.gland:organ,
-    <a class="clsHide" href="#idGlndHmngnc"></a></p>
+    <a class="clsHide" href="#idGlndHmngtr"></a></p>
   <p id="idGlndHmnattihf">att-inherited-from::
     <br>· :
     <br>* ,
@@ -2173,7 +2173,7 @@
     <br>* McshElln.επίφυση,
     <a class="clsHide" href="#idGlndHmn004nam"></a></p>
   <p id="idGlndHmn004gtr">generic-tree-of-glandEpiphysis::
-    <br>* <a class="clsPreview" href="#idGlndHmn001gtr">glandEndocrine</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn001gtr">glandEndocrine-gtr</a>,
     <br>* McshEngl.glandEpiphysis:glandEndocrine,
     <a class="clsHide" href="#idGlndHmn004gtr"></a></p>
   </section>
@@ -2202,7 +2202,7 @@
     <br>* <a class="clsPreview" href="#idOgnHmn">organ</a>,
     <a class="clsHide" href="#idGlndHmn005gtr"></a></p>
   <p id="idGlndHmn005wtr">whole-tree-of-glandLiver::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive-wtr</a>,
     <br>* McshEngl.glandLiver//sysDigestive,
     <a class="clsHide" href="#idGlndHmn005wtr"></a></p>
 
@@ -2357,7 +2357,7 @@
     <br>* McshElln.ωοθήκη!=HumnbodyOvary,
     <a class="clsHide" href="#idGlndHmn006nam"></a></p>
   <p id="idGlndHmn006gtr">generic-tree-of-HumnbodyOvary::
-    <br>* <a class="clsPreview" href="#idGlndHmn003gtr">glandMixed</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn003gtr">glandMixed-gtr</a>,
     <br>* McshEngl.glandOvary:glandMixed,
     <a class="clsHide" href="#idGlndHmn006gtr"></a></p>
   <p id="idGlndHmn006wtr">whole-tree-of-glandOvary::
@@ -2383,7 +2383,7 @@
     <br>[Αργύρης, {1994}, 433⧺cptRsc31⧺]
     <a class="clsHide" href="#idBdyHmn547P1"></a></p>
   <p id="idBdyHmn547wtr">whole-tree-of-HumnbodyOvarianFollicle::
-    <br>* <a class="clsPreview" href="#idGlndHmn006wtr">glandOvary</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn006wtr">glandOvary-wtr</a>,
     <br>* McshEngl.HumnbodyOvarianFollicle//glandOvary,
     <a class="clsHide" href="#idBdyHmn547wtr"></a></p>
 
@@ -2482,11 +2482,11 @@
     <br>* McshElln.πάγκρεας!=glandPancreas,
     <a class="clsHide" href="#idGlndHmn007nam"></a></p>
   <p id="idGlndHmn007gtr">generic-tree-of-glandPancreas::
-    <br>* <a class="clsPreview" href="#idGlndHmn003gtr">glandMixed</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn003gtr">glandMixed-gtr</a>,
     <br>* McshEngl.glandPancreas:glandMixed,
     <a class="clsHide" href="#idGlndHmn007gtr"></a></p>
   <p id="idGlndHmn007wtr">whole-tree-of-glandPancreas::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive-wtr</a>,
     <br>* McshEngl.glandPancreas//sysDigestive,
     <a class="clsHide" href="#idGlndHmn007wtr"></a></p>
 
@@ -2532,7 +2532,7 @@
     <br>* <a class="clsPreview" href="#idOgnHmn">organ</a>,
     <a class="clsHide" href="#idGlndHmn008gtr"></a></p>
   <p id="idGlndHmn008wtr">whole-tree-of-glandSalivary::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive-wtr</a>,
     <br>* McshEngl.glandSalivary//sysDigestive,
     <a class="clsHide" href="#idGlndHmn008wtr"></a></p>
 
@@ -2632,7 +2632,7 @@
     <br>* McshEngl.glandSkin:organGland,
     <a class="clsHide" href="#idGlndHmn009gtr"></a></p>
   <p id="idGlndHmn009wtr">whole-tree-of-HumnbodySkinGland::
-    <br>* <a class="clsPreview" href="#idBdyHmn458wtr">corium</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmn458wtr">corium-wtr</a>,
     <br>* McshEngl.glandSkin//corium,
     <a class="clsHide" href="#idGlndHmn009wtr"></a></p>
 
@@ -2756,7 +2756,7 @@
     <br>* McshEngl.glandAdrenal:glandEndocrine,
     <a class="clsHide" href="#idGlndHmn013gtr"></a></p>
   <p id="idGlndHmn013wtr">whole-tree-of-HumnbodyAdrenalGland::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn005wtr">endocrine-sys</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn005wtr">endocrine-sys-wtr</a>,
     <br>* McshEngl.glandAdrenal//sysEndocrine,
     <a class="clsHide" href="#idGlndHmn013wtr"></a></p>
 
@@ -2781,7 +2781,7 @@
     <br>* McshEngl.adrenal-cortex:glandEndocrine,
     <a class="clsHide" href="#idBdyHmn545gtr"></a></p>
   <p id="idBdyHmn545wtr">whole-tree-of-adrenal-cortex::
-    <br>* <a class="clsPreview" href="#idGlndHmn013wtr">glandSuprarenal</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn013wtr">glandSuprarenal-wtr</a>,
     <br>* McshEngl.adrenal-cortex//glandSuprarenal,
     <a class="clsHide" href="#idBdyHmn545wtr"></a></p>
   </section>
@@ -2805,7 +2805,7 @@
     <br>* McshEngl.adrenal-medulla:glandEndocrine,
     <a class="clsHide" href="#idBdyHmn546gtr"></a></p>
   <p id="idBdyHmn546wtr">whole-tree-of-adrenal-medulla::
-    <br>* <a class="clsPreview" href="#idGlndHmn013wtr">glandSuprarenal</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn013wtr">glandSuprarenal-wtr</a>,
     <br>* McshEngl.adrenal-medulla//glandSuprarenal,
     <a class="clsHide" href="#idBdyHmn546wtr"></a></p>
   </section>
@@ -2982,11 +2982,11 @@
     <br>* McshElln.όρχις,
     <a class="clsHide" href="#idGlndHmn017nam"></a></p>
   <p id="idGlndHmn017gtr">generic-tree-of-glandTesticle::
-    <br>* <a class="clsPreview" href="#idGlndHmn003gtr">glandMixed</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn003gtr">glandMixed-gtr</a>,
     <br>* McshEngl.glandTesticle:glandMixed,
     <a class="clsHide" href="#idGlndHmn017gtr"></a></p>
   <p id="idGlndHmn017wtr">whole-tree-of-glandTesticle::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale-wtr</a>,
     <br>* McshEngl.glandTesticle//sysReproductiveMale,
     <a class="clsHide" href="#idGlndHmn017wtr"></a></p>
 
@@ -3016,7 +3016,7 @@
     <br>* McshElln.σπερματικο-σωληνάριο!=sperm-tube,
     <a class="clsHide" href="#idBdyHmn548nam"></a></p>
   <p id="idBdyHmn548wtr">whole-tree-of-sperm-tube::
-    <br>* <a class="clsPreview" href="#idGlndHmn017wtr">glandTesticle</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn017wtr">glandTesticle-wtr</a>,
     <br>* McshEngl.sperm-tube//glandTesticle,
     <a class="clsHide" href="#idBdyHmn548wtr"></a></p>
 
@@ -3185,7 +3185,7 @@
     <br>* McshElln.αδένας.σμηγματογόνος,
     <a class="clsHide" href="#idGlndHmn019nam"></a></p>
   <p id="idGlndHmn019gtr">generic-tree-of-glandSebaceous::
-    <br>* <a class="clsPreview" href="#idGlndHmn009gtr">glandSkin</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn009gtr">glandSkin-gtr</a>,
     <br>* McshEngl.glandSebaceous:glandSkin,
     <a class="clsHide" href="#idGlndHmn019gtr"></a></p>
 
@@ -3472,7 +3472,7 @@
     <br>* animal-tissue⧺cptEpistem20.1⧺,
     <a class="clsHide" href="#idTissHmngtr"></a></p>
   <p id="idTissHmnwtr">whole-tree-of-tissue::
-    <br>* <a class="clsPreview" href="#idOgnHmnwtr">organ</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmnwtr">organ-wtr</a>,
     <br>* McshEngl.tissue//organ,
     <br>===
     <br>σε κάθε συγκεκριμένο ιστό, εδώ θα καταγράφονται τα όργανα που αποτελούνται από το συγκεκριμένο ιστό.
@@ -3560,7 +3560,7 @@
     <br>* McshElln.υγρό-των-ιστών!=extracellular-fluid,
     <a class="clsHide" href="#idBdyHmn140nam"></a></p>
   <p id="idBdyHmn140wtr">whole-tree-of-extracellular-fluid::
-    <br>* <a class="clsPreview" href="#idTissHmnwtr">tissue</a>,
+    <br>* <a class="clsPreview" href="#idTissHmnwtr">tissue-wtr</a>,
     <br>* McshEngl.extracellular-fluid//tissue,
     <a class="clsHide" href="#idBdyHmn140wtr"></a></p>
 
@@ -3929,7 +3929,7 @@
     <br>* McshElln.συνδετικός-ιστός!=tissueConnective,
     <a class="clsHide" href="#idTissHmn005nam"></a></p>
   <p id="idTissHmn005gtr">generic-tree-of-tissueConnective::
-    <br>* <a class="clsPreview" href="#idTissHmn007gtr">skeletal-tissue</a>,
+    <br>* <a class="clsPreview" href="#idTissHmn007gtr">skeletal-tissue-gtr</a>,
     <br>* McshEngl.tissueConnective:tissueSkeletal,
     <a class="clsHide" href="#idTissHmn005gtr"></a></p>
 
@@ -4017,10 +4017,10 @@
     <br>* tissueConnective,
     <br>* McshEngl.tissueBone:tissueConnective,
     <br>* McshEngl.tissueBone:tissueSkeletal,
-    <br>* <a class="clsPreview" href="#idTissHmn007gtr">skeletal-tissue</a>,
+    <br>* <a class="clsPreview" href="#idTissHmn007gtr">skeletal-tissue-gtr</a>,
     <a class="clsHide" href="#idTissHmn004gtr"></a></p>
   <p id="idTissHmn004wtr">whole-tree-of-tissueBone::
-    <br>* <a class="clsPreview" href="../dirHlth/McshHlth000005.last.html#idBoneHmnwtr">organBone</a>,
+    <br>* <a class="clsPreview" href="../dirHlth/McshHlth000005.last.html#idBoneHmnwtr">organBone-wtr</a>,
     <br>* McshEngl.tissueBone//organBone,
     <a class="clsHide" href="#idTissHmn004wtr"></a></p>
   <p id="idTissHmn004P1">τα οστά αποτελούνται από οστίτη ιστό,
@@ -4111,11 +4111,11 @@
     <br>* McshElln.ιστός.αδενικος!=tissueGlandular,
     <a class="clsHide" href="#idTissHmn011nam"></a></p>
   <p id="idTissHmn011gtr">generic-tree-of-tissueGlandular::
-    <br>* <a class="clsPreview" href="#idTissHmn006gtr">epithelial-tissue</a>,
+    <br>* <a class="clsPreview" href="#idTissHmn006gtr">epithelial-tissue-gtr</a>,
     <br>* McshEngl.tissueGlandular:tissueEpithelial,
     <a class="clsHide" href="#idTissHmn011gtr"></a></p>
   <p id="idTissHmn011wtr">whole-tree-of-tissueGlandular::
-    <br>* <a class="clsPreview" href="#idGlndHmnwtr">organGland</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmnwtr">organGland-wtr</a>,
     <br>* McshEngl.tissueGlandular//organGland,
     <a class="clsHide" href="#idTissHmn011wtr"></a></p>
   </section>
@@ -4139,7 +4139,7 @@
     <br>* McshElln.καλυπτήριος-ιστός!=tissueCover,
     <a class="clsHide" href="#idTissHmn012nam"></a></p>
   <p id="idTissHmn012gtr">generic-tree-oftissueCover-::
-    <br>* <a class="clsPreview" href="#idTissHmn006gtr">epithelial-tissue</a>,
+    <br>* <a class="clsPreview" href="#idTissHmn006gtr">epithelial-tissue-gtr</a>,
     <a class="clsHide" href="#idTissHmn012gtr"></a></p>
   </section>
 
@@ -4665,9 +4665,9 @@
     <br>* McshEngl.nutrient'generic-specific-tree,
     <br>* McshEngl.nutrient'specific-generic-tree,
     <a class="clsHide" href="#idBdyHmnatt015gstnam"></a></p>
-  <p id="idBdyHmnatt015gnc">generic-of-nutrient::
+  <p id="idBdyHmnatt015gtr">generic-of-nutrient::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000008.last.html#idMtrHlthHmn001">positive-health-material</a>,
-    <a class="clsHide" href="#idBdyHmnatt015gnc"></a></p>
+    <a class="clsHide" href="#idBdyHmnatt015gtr"></a></p>
   <p id="idBdyHmnatt015spc">specific-of-nutrient::
     <br>* <a class="clsPreview" href="#idBdyHmnatt015001">essential-nutrient</a>,
     <br>===
@@ -5724,12 +5724,12 @@
     <br>[Εικ, 1994, 13⧺cptRsc33⧺]
     <a class="clsHide" href="#idSysOgnHmn002dsnL"></a></p>
   <p id="idSysOgnHmn002gtr">generic-tree-of-sysCirculatory::
-    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans-gtr</a>,
     <br>* McshEngl.sysCirculatory:sysOrgans,
-    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn-gtr</a>,
     <a class="clsHide" href="#idSysOgnHmn002gtr"></a></p>
   <p id="idSysOgnHmn002wtr">whole-tree-of-sysCirculatory::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.sysCirculatory//bodyHmn,
     <a class="clsHide" href="#idSysOgnHmn002wtr"></a></p>
 
@@ -5809,7 +5809,7 @@
     <br>* McshEngl.organHeart:organ,
     <a class="clsHide" href="#idHrtHmngtr"></a></p>
   <p id="idHrtHmnwtr">whole-tree-of-organHeart::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn002wtr">circulatory-system</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn002wtr">circulatory-system-wtr</a>,
     <br>* McshEngl.organHeart//sysCirculatory,
     <a class="clsHide" href="#idHrtHmnwtr"></a></p>
 
@@ -5906,7 +5906,7 @@
     <br>* McshElln.περικάρδιο!=pericardium,
     <a class="clsHide" href="#idHrtHmnatt004nam"></a></p>
   <p id="idHrtHmnatt004wtr">whole-tree-of-pericardium::
-    <br>* <a class="clsPreview" href="#idHrtHmnwtr">organHeart</a>,
+    <br>* <a class="clsPreview" href="#idHrtHmnwtr">organHeart-wtr</a>,
     <br>* McshEngl.pericardium//organHeart,
     <a class="clsHide" href="#idHrtHmnatt004wtr"></a></p>
   </section>
@@ -6893,7 +6893,7 @@
     <br>* McshElln.λεμφοφορο-σύστημα-αγγείων!=vesselSysLymph,
     <a class="clsHide" href="#idOgnHmn013006nam"></a></p>
   <p id="idOgnHmn013006wtr">whole-tree-of-vesselSysLymph::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn002wtr">circulatory-system</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn002wtr">circulatory-system-wtr</a>,
     <br>* McshEngl.vesselSysLymph//sysCirculatory,
     <br>vessel set⧺cptBdyHmn006⧺,
     <a class="clsHide" href="#idOgnHmn013006wtr"></a></p>
@@ -7083,7 +7083,7 @@
     <br>* McshElln.λέμφος!=lymph,
     <a class="clsHide" href="#idBdyHmn125nam"></a></p>
   <p id="idBdyHmn125wtr">whole-tree-of-lymph::
-    <br>* <a class="clsPreview" href="#idBdyHmn140wtr">extracellular-fluid</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmn140wtr">extracellular-fluid-wtr</a>,
     <br>* McshEngl.lymph//extracellular-fluid,
     <a class="clsHide" href="#idBdyHmn125wtr"></a></p>
 
@@ -7142,7 +7142,7 @@
     <br>* McshEngl.glandLymph:organ,
     <a class="clsHide" href="#idOgnHmn031gtr"></a></p>
   <p id="idOgnHmn031wtr">whole-tree-of-glandLymph::
-    <br>* <a class="clsPreview" href="#idOgnHmn013006wtr">vesselSysLymph</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn013006wtr">vesselSysLymph-wtr</a>,
     <br>* McshEngl.glandLymph//,
     <a class="clsHide" href="#idOgnHmn031wtr"></a></p>
 
@@ -7189,9 +7189,9 @@
     <br>* McshEngl.sysLymphatic'generic-specific-tree,
     <br>* McshEngl.sysLymphatic'specific-generic-tree,
     <a class="clsHide" href="#idSysOgnHmn014gstnam"></a></p>
-  <p id="idSysOgnHmn014gnc">generic-of-sysLymphatic::
+  <p id="idSysOgnHmn014gtr">generic-of-sysLymphatic::
     <br>*
-    <a class="clsHide" href="#idSysOgnHmn014gnc"></a></p>
+    <a class="clsHide" href="#idSysOgnHmn014gtr"></a></p>
   <p id="idSysOgnHmn014spc">specific-of-sysLymphatic::
     <br>* ,
     <a class="clsHide" href="#idSysOgnHmn014spc"></a></p>
@@ -7274,7 +7274,7 @@
     <br>[{2020-02-11} https://en.wikipedia.org/wiki/Integumentary_system]
     <a class="clsHide" href="#idSysOgnHmn004dsnL"></a></p>
   <p id="idSysOgnHmn004wtr">whole-tree-of-sysIntegumentary::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.sysIntegumentary//bodyHmn,
     <a class="clsHide" href="#idSysOgnHmn004wtr"></a></p>
 
@@ -7423,7 +7423,7 @@
     <br>* McshElln.κερατινη-στιβάδα!=cuticle,
     <a class="clsHide" href="#idBdyHmn457nam"></a></p>
   <p id="idBdyHmn457wtr">whole-tree-of-cuticle::
-    <br>* <a class="clsPreview" href="#idOgnHmn011epdmswtr">epidermis</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn011epdmswtr">epidermis-wtr</a>,
     <br>* McshEngl.cuticle//epidermis,
     <a class="clsHide" href="#idBdyHmn457wtr"></a></p>
 
@@ -7732,7 +7732,7 @@
     <br>[{2020-02-11} https://en.wikipedia.org/wiki/Endocrine_system]
     <a class="clsHide" href="#idSysOgnHmn005dsnL"></a></p>
   <p id="idSysOgnHmn005wtr">whole-tree-of-sysEndocrine::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.sysEndocrine//bodyHmn,
     <a class="clsHide" href="#idSysOgnHmn005wtr"></a></p>
 
@@ -7788,12 +7788,12 @@
     <br>[Αργύρης, {1994}, 73⧺cptRsc29⧺]
     <a class="clsHide" href="#idSysOgnHmn006dsnL"></a></p>
   <p id="idSysOgnHmn006gtr">generic-tree-of-sysRespiratory::
-    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans-gtr</a>,
     <br>* McshEngl.sysRespiratory:sysOrgans,
-    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn-gtr</a>,
     <a class="clsHide" href="#idSysOgnHmn006gtr"></a></p>
   <p id="idSysOgnHmn006wtr">whole-tree-of-sysRespiratory::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.sysRespiratory//bodyHmn,
     <a class="clsHide" href="#idSysOgnHmn006wtr"></a></p>
 
@@ -7927,7 +7927,7 @@
     <br>* McshElln.πονόλαιμος,
     <a class="clsHide" href="#idBdyHmn220nam"></a></p>
   <p id="idBdyHmn220gtr">generic-tree-of-dssThroatSore::
-    <br>* <a class="clsPreview" href="../dirHlth/McshHlth000011.last.html#idDssHmngtr">disease</a>,
+    <br>* <a class="clsPreview" href="../dirHlth/McshHlth000011.last.html#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssThroatSore:disease,
     <a class="clsHide" href="#idBdyHmn220gtr"></a></p>
 
@@ -7996,7 +7996,7 @@
     <br>* McshEngl.organPharynx:organ,
     <a class="clsHide" href="#idOgnHmn018gtr"></a></p>
   <p id="idOgnHmn018wtr">whole-tree-of-organPharynx::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive-wtr</a>,
     <br>* McshEngl.organPharynx//sysDigestive,
     <br>λαιμός⧺cptBdyHmn221⧺,
     <a class="clsHide" href="#idOgnHmn018wtr"></a></p>
@@ -8175,7 +8175,7 @@
     <br>* McshEngl.organTrachea:organ,
     <a class="clsHide" href="#idOgnHmn025gtr"></a></p>
   <p id="idOgnHmn025wtr">whole-tree-of-organTrachea::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn006wtr">sysRespiratory</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn006wtr">sysRespiratory-wtr</a>,
     <br>* McshEngl.organTrachea//,
     <a class="clsHide" href="#idOgnHmn025wtr"></a></p>
 
@@ -8217,7 +8217,7 @@
     <br>* McshEngl.organLung:organ,
     <a class="clsHide" href="#idOgnHmn005gtr"></a></p>
   <p id="idOgnHmn005wtr">whole-tree-of-organLung::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn006wtr">sysRespiratory</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn006wtr">sysRespiratory-wtr</a>,
     <br>* McshEngl.organLung//sysRespiratory,
     <a class="clsHide" href="#idOgnHmn005wtr"></a></p>
 
@@ -8465,7 +8465,7 @@
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000005.last.html#idMsclHmn012">muscleThorax</a>,
     <a class="clsHide" href="#idMsclHmn022gtr"></a></p>
   <p id="idMsclHmn022wtr">whole-tree-of-muscleDiaphragm::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn006wtr">sysRespiratory</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn006wtr">sysRespiratory-wtr</a>,
     <br>* McshEngl.muscleDiaphragm//sysRespiratory,
     <a class="clsHide" href="#idMsclHmn022wtr"></a></p>
   </section>
@@ -8564,12 +8564,12 @@
     <br>[Αργύρης, {1994}, 330⧺cptRsc31⧺]
     <a class="clsHide" href="#idSysOgnHmn007dsnL"></a></p>
   <p id="idSysOgnHmn007gtr">generic-tree-of-sysDigestive::
-    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans</a>,
-    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans-gtr</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn-gtr</a>,
     <br>* McshEngl.sysDigestive:sysOrgans:nodeBodyHmn,
     <a class="clsHide" href="#idSysOgnHmn007gtr"></a></p>
   <p id="idSysOgnHmn007wtr">whole-tree-of-sysDigestive::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.sysDigestive//bodyHmn,
     <a class="clsHide" href="#idSysOgnHmn007wtr"></a></p>
 
@@ -8643,7 +8643,7 @@
     <br>* McshEngl.organMouth:organ,
     <a class="clsHide" href="#idOgnHmn017gtr"></a></p>
   <p id="idOgnHmn017wtr">whole-tree-of-organMouth::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive-wtr</a>,
     <br>* McshEngl.organMouth//sysDigestive,
     <a class="clsHide" href="#idOgnHmn017wtr"></a></p>
 
@@ -8665,7 +8665,7 @@
     <br>* McshEngl.lip:nodeBodyHmn,
     <a class="clsHide" href="#idBdyHmn111gtr"></a></p>
   <p id="idBdyHmn111wtr">whole-tree-of-lip::
-    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth-wtr</a>,
     <br>* McshEngl.lip//organMouth,
     <a class="clsHide" href="#idBdyHmn111wtr"></a></p>
   </section>
@@ -8700,7 +8700,7 @@
     <br>* McshEngl.organTooth:organ,
     <a class="clsHide" href="#idBdyHmn110gtr"></a></p>
   <p id="idBdyHmn110wtr">whole-tree-of-organTooth::
-    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth-wtr</a>,
     <br>* McshEngl.organTooth//organMouth,
     <a class="clsHide" href="#idBdyHmn110wtr"></a></p>
 
@@ -8980,7 +8980,7 @@
     <br>* McshEngl.cheek:nodeBodyHmn,
     <a class="clsHide" href="#idBdyHmn327gtr"></a></p>
   <p id="idBdyHmn327wtr">whole-tree-of-cheek::
-    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth-wtr</a>,
     <br>* McshEngl.cheek//organMouth,
     <a class="clsHide" href="#idBdyHmn327wtr"></a></p>
   </section>
@@ -9011,7 +9011,7 @@
     <br>* McshEngl.organUvula:organ,
     <a class="clsHide" href="#idBdyHmn328gtr"></a></p>
   <p id="idBdyHmn328wtr">whole-tree-of-organUvula::
-    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth-wtr</a>,
     <br>* McshEngl.organUvula//organMouth,
     <a class="clsHide" href="#idBdyHmn328wtr"></a></p>
   </section>
@@ -9038,7 +9038,7 @@
     <br>* McshEngl.palate:nodeBodyHmn,
     <a class="clsHide" href="#idBdyHmn329gtr"></a></p>
   <p id="idBdyHmn329wtr">whole-tree-of-palate::
-    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth-wtr</a>,
     <br>* McshEngl.palate//organMouth,
     <a class="clsHide" href="#idBdyHmn329wtr"></a></p>
 
@@ -9112,7 +9112,7 @@
     <br>* McshEngl.organTongue:organ,
     <a class="clsHide" href="#idOgnHmn012gtr"></a></p>
   <p id="idOgnHmn012wtr">whole-tree-of-organTongue::
-    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn017wtr">organMouth-wtr</a>,
     <br>* McshEngl.organTongue//organMouth,
     <a class="clsHide" href="#idOgnHmn012wtr"></a></p>
 
@@ -9135,7 +9135,7 @@
     <br>* McshEngl.taste-bud:organSense,
     <a class="clsHide" href="#idBdyHmn446gtr"></a></p>
   <p id="idBdyHmn446wtr">whole-tree-of-taste-bud::
-    <br>* <a class="clsPreview" href="#idOgnHmn012wtr">organTongue</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn012wtr">organTongue-wtr</a>,
     <br>* McshEngl.taste-bud//organTongue,
     <br>γεύσης σύστημα⧺cptBdyHmn319⧺,
     <a class="clsHide" href="#idBdyHmn446wtr"></a></p>
@@ -9217,7 +9217,7 @@
     <br>* McshEngl.organEsophagus:organ,
     <a class="clsHide" href="#idOgnHmn019gtr"></a></p>
   <p id="idOgnHmn019wtr">whole-tree-of-organEsophagus::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive-wtr</a>,
     <br>* McshEngl.organEsophagus//sysDigestive,
     <a class="clsHide" href="#idOgnHmn019wtr"></a></p>
 
@@ -9262,7 +9262,7 @@
     <br>* McshEngl.organStomach:organStomach,
     <a class="clsHide" href="#idOgnHmn015gtr"></a></p>
   <p id="idOgnHmn015wtr">whole-tree-of-organStomach::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive-wtr</a>,
     <br>* McshEngl.organStomach//sysDigestive,
     <a class="clsHide" href="#idOgnHmn015wtr"></a></p>
 
@@ -9342,7 +9342,7 @@
     <br>* McshEngl.organIntestine:organ,
     <a class="clsHide" href="#idOgnHmn030gtr"></a></p>
   <p id="idOgnHmn030wtr">whole-tree-of-organIntestine::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">sysDigestive-wtr</a>,
     <br>* McshEngl.organIntestine//sysDigestive,
     <a class="clsHide" href="#idOgnHmn030wtr"></a></p>
 
@@ -9574,7 +9574,7 @@
     <br>* McshEngl.organGallBladder:organ,
     <a class="clsHide" href="#idOgnHmn021gtr"></a></p>
   <p id="idOgnHmn021wtr">whole-tree-of-organGallBladder::
-    <br>* <a class="clsPreview" href="#idGlndHmn005wtr">glandLiver</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn005wtr">glandLiver-wtr</a>,
     <br>* McshEngl.organGallBladder//glandLiver,
     <a class="clsHide" href="#idOgnHmn021wtr"></a></p>
 
@@ -9772,12 +9772,12 @@
     <br>[http://en.wikipedia.org/wiki/Urinary_system]
     <a class="clsHide" href="#idSysOgnHmn008dsnL"></a></p>
   <p id="idSysOgnHmn008gtr">generic-tree-of-sysUrinary::
-    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans-gtr</a>,
     <br>* McshEngl.sysUrinary:sysOrgans,
-    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn-gtr</a>,
     <a class="clsHide" href="#idSysOgnHmn008gtr"></a></p>
   <p id="idSysOgnHmn008wtr">whole-tree-of-sysUrinary::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn012wtr">sysExcretory</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn012wtr">sysExcretory-wtr</a>,
     <br>* McshEngl.sysUrinary//sysExcretory,
     <a class="clsHide" href="#idSysOgnHmn008wtr"></a></p>
 
@@ -9829,7 +9829,7 @@
     <br>* McshEngl.organKidney:organ,
     <a class="clsHide" href="#idOgnHmn026gtr"></a></p>
   <p id="idOgnHmn026wtr">whole-tree-of-organKidney::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn008wtr">sysUrinary</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn008wtr">sysUrinary-wtr</a>,
     <br>* McshEngl.organKidney//sysUrinary,
     <a class="clsHide" href="#idOgnHmn026wtr"></a></p>
 
@@ -9854,7 +9854,7 @@
     <br>* McshElln.μυελώδης-περιοχή-νεφρού!=renal-medulla,
     <a class="clsHide" href="#idOgnHmn026att002nam"></a></p>
   <p id="idOgnHmn026att002wtr">whole-tree-of-renal-medulla::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.renal-medulla//organKidney,
     <a class="clsHide" href="#idOgnHmn026att002wtr"></a></p>
 
@@ -9887,7 +9887,7 @@
     <br>* McshElln.φλοιωδης-ουσία-νεφρού!=renal-cortex,
     <a class="clsHide" href="#idOgnHmn026att003nam"></a></p>
   <p id="idOgnHmn026att003wtr">whole-tree-of-renal-cortex::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.renal-cortex//organKidney,
     <a class="clsHide" href="#idOgnHmn026att003wtr"></a></p>
   </section>
@@ -9907,7 +9907,7 @@
     <br>* McshElln.νεφρική-κοιλιά!=renal-abdomen,
     <a class="clsHide" href="#idOgnHmn026att004nam"></a></p>
   <p id="idOgnHmn026att004wtr">whole-tree-of-renal-abdomen::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.renal-abdomen//organKidney,
     <a class="clsHide" href="#idOgnHmn026att004wtr"></a></p>
 
@@ -9942,7 +9942,7 @@
     <br>* McshElln.πύλη-νεφρού!=renal-hilum,
     <a class="clsHide" href="#idOgnHmn026att005nam"></a></p>
   <p id="idOgnHmn026att005wtr">whole-tree-of-renal-hilum::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.renal-hilum//organKidney,
     <a class="clsHide" href="#idOgnHmn026att005wtr"></a></p>
   </section>
@@ -9965,7 +9965,7 @@
     <br>* McshElln.νεφρική-πύελος!=HumnbodyRenalPelvis,
     <a class="clsHide" href="#idOgnHmn026att006nam"></a></p>
   <p id="idOgnHmn026att006wtr">whole-tree-of-HumnbodyRenalPelvis::
-    <br>* <a class="clsPreview" href="#idOgnHmn026att004wtr">renal-abdomen</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026att004wtr">renal-abdomen-wtr</a>,
     <br>* McshEngl.renal-pelvis//renal-abdomen,
     <a class="clsHide" href="#idOgnHmn026att006wtr"></a></p>
 
@@ -10010,7 +10010,7 @@
     <br>* McshElln.ινώδης-χιτώνας-νεφρού!=renal-capsule,
     <a class="clsHide" href="#idOgnHmn026att007nam"></a></p>
   <p id="idOgnHmn026att007wtr">whole-tree-of-renal-capsule::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.renal-capsule//organKidney,
     <a class="clsHide" href="#idOgnHmn026att007wtr"></a></p>
   </section>
@@ -10032,7 +10032,7 @@
     <br>* McshElln.ουροφόρο-σωληνάριο!=renal-tubule,
     <a class="clsHide" href="#idOgnHmn026att008nam"></a></p>
   <p id="idOgnHmn026att008wtr">whole-tree-of-renal-tubule::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.renal-tubule//organKidney,
     <br>νεφρωνας⧺cptBdyHmn542⧺,
     <a class="clsHide" href="#idOgnHmn026att008wtr"></a></p>
@@ -10068,7 +10068,7 @@
     <br>* McshElln.ελυτρο-BOWMAN!=Bowman's-capsule,
     <a class="clsHide" href="#idOgnHmn026att009nam"></a></p>
   <p id="idOgnHmn026att009wtr">whole-tree-of-Bowman's-capsule::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.Bowman's-capsule//organKidney,
     <br>νεφρωνας⧺cptBdyHmn542⧺
     <br>νεφρικό σωμάτιο⧺cptBdyHmn543⧺,
@@ -10104,7 +10104,7 @@
     <br>* McshElln.αγγειώδες-σπείραμα!=glomerulus,
     <a class="clsHide" href="#idOgnHmn026att010nam"></a></p>
   <p id="idOgnHmn026att010wtr">whole-tree-of-glomerulus::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.glomerulus//organKidney,
     <br>νεφρωνας⧺cptBdyHmn542⧺
     <br>νεφρικό σωμάτιο⧺cptBdyHmn543⧺,
@@ -10144,7 +10144,7 @@
     <br>* McshElln.νεφρική-πυραμίδα!=renal-pyramid,
     <a class="clsHide" href="#idOgnHmn026att012nam"></a></p>
   <p id="idOgnHmn026att012wtr">whole-tree-of-HumnbodyRenalPyramid::
-    <br>* <a class="clsPreview" href="#idOgnHmn026att002wtr">renal-medulla</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026att002wtr">renal-medulla-wtr</a>,
     <br>* McshEngl.renal-pyramid//renal-medulla,
     <a class="clsHide" href="#idOgnHmn026att012wtr"></a></p>
 
@@ -10190,7 +10190,7 @@
     <br>* McshElln.νεφρική-θηλή!=renal-papilla,
     <a class="clsHide" href="#idOgnHmn026att013nam"></a></p>
   <p id="idOgnHmn026att013wtr">whole-tree-of-renal-papilla::
-    <br>* <a class="clsPreview" href="#idOgnHmn026att012wtr">renal-pyramid</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026att012wtr">renal-pyramid-wtr</a>,
     <br>* McshEngl.renal-papilla//renal-pyramid,
     <a class="clsHide" href="#idOgnHmn026att013wtr"></a></p>
   </section>
@@ -10211,7 +10211,7 @@
     <br>* McshElln.νεφρώνας!=nephron,
     <a class="clsHide" href="#idOgnHmn026att014nam"></a></p>
   <p id="idOgnHmn026att014wtr">whole-tree-of-nephron::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.nephron//organKidney,
     <a class="clsHide" href="#idOgnHmn026att014wtr"></a></p>
 
@@ -10247,7 +10247,7 @@
     <br>* McshElln.νεφρικό-σωμάτιο!=renal-corpuscle,
     <a class="clsHide" href="#idOgnHmn026att015nam"></a></p>
   <p id="idOgnHmn026att015wtr">whole-tree-of-renal-corpuscle::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.renal-corpuscle//organKidney,
     <br>νεφρωνας⧺cptBdyHmn542⧺,
     <a class="clsHide" href="#idOgnHmn026att015wtr"></a></p>
@@ -10282,7 +10282,7 @@
     <br>* McshElln.αθροιστικό-σωληνάριο!=cortical-collecting-duct,
     <a class="clsHide" href="#idOgnHmn026att016nam"></a></p>
   <p id="idOgnHmn026att016wtr">whole-tree-of-cortical-collecting-duct::
-    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney</a>,
+    <br>* <a class="clsPreview" href="#idOgnHmn026wtr">organKidney-wtr</a>,
     <br>* McshEngl.cortical-collecting-duct//organKidney,
     <a class="clsHide" href="#idOgnHmn026att016wtr"></a></p>
   </section>
@@ -10398,7 +10398,7 @@
     <br>* McshEngl.organUreter:organ,
     <a class="clsHide" href="#idOgnHmn023gtr"></a></p>
   <p id="idOgnHmn023wtr">whole-tree-of-organUreter::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn008wtr">sysUrinary</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn008wtr">sysUrinary-wtr</a>,
     <br>* McshEngl.organUreter//sysUrinary,
     <a class="clsHide" href="#idOgnHmn023wtr"></a></p>
   </section>
@@ -10435,7 +10435,7 @@
     <br>* McshEngl.organUrinary-bladder:organ,
     <a class="clsHide" href="#idOgnHmn024gtr"></a></p>
   <p id="idOgnHmn024wtr">whole-tree-of-organUrinary-bladder::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn008wtr">sysUrinary</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn008wtr">sysUrinary-wtr</a>,
     <br>* McshEngl.organUrinary-bladder//sysUrinary,
     <a class="clsHide" href="#idOgnHmn024wtr"></a></p>
   </section>
@@ -10458,7 +10458,7 @@
     <br>* McshEngl.organUrethra:organ,
     <a class="clsHide" href="#idOgnHmn040gtr"></a></p>
   <p id="idOgnHmn040wtr">whole-tree-of-organUrethra::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn008wtr">sysUrinary</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn008wtr">sysUrinary-wtr</a>,
     <br>* McshEngl.organUrethra//sysUrinary,
     <a class="clsHide" href="#idOgnHmn040wtr"></a></p>
   <p id="idOgnHmn040dsn">description::
@@ -10664,7 +10664,7 @@
     <br>* McshEngl.reproductive-sys'part-whole-tree,
     <a class="clsHide" href="#idSysOgnHmn009wptnam"></a></p>
   <p id="idSysOgnHmn009wtr">whole-tree-of-sysReproductive::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.sysReproductive//bodyHmn,
     <a class="clsHide" href="#idSysOgnHmn009wtr"></a></p>
   <p id="idSysOgnHmn009ptr">part-tree-of-sysReproductive::
@@ -10682,10 +10682,10 @@
     <br>* McshEngl.sysReproductive'generic-specific-tree,
     <br>* McshEngl.sysReproductive'specific-generic-tree,
     <a class="clsHide" href="#idSysOgnHmn009gstnam"></a></p>
-  <p id="idSysOgnHmn009gnc">generic-of-reproductive-sys::
+  <p id="idSysOgnHmn009gtr">generic-of-reproductive-sys::
     <br>* <a class="clsPreview" href="#idSysOgnHmn">sysOrgans</a>,
-    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn</a>,
-    <a class="clsHide" href="#idSysOgnHmn009gnc"></a></p>
+    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn-gtr</a>,
+    <a class="clsHide" href="#idSysOgnHmn009gtr"></a></p>
   <p id="idSysOgnHmn009spc">specific-of-reproductive-sys::
     <br>βάσει της δομής έχουμε 2 συστήματα.
     <br>* <a class="clsPreview" href="#idSysOgnHmn016">sysReproductiveMale</a>,
@@ -10765,11 +10765,11 @@
     <br>* McshElln.προστάτης!=glandProstate,
     <a class="clsHide" href="#idGlndHmn016nam"></a></p>
   <p id="idGlndHmn016wtr">whole-tree-of-glandProstate::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale-wtr</a>,
     <br>* McshEngl.glandProstate//sysReproductiveMale,
     <a class="clsHide" href="#idGlndHmn016wtr"></a></p>
   <p id="idGlndHmn016gtr">generic-tree-of-glandProstate::
-    <br>* <a class="clsPreview" href="#idGlndHmn002gtr">glandExocrine</a>,
+    <br>* <a class="clsPreview" href="#idGlndHmn002gtr">glandExocrine-gtr</a>,
     <br>* McshEngl.glandProstate:glandExocrine,
     <a class="clsHide" href="#idGlndHmn016gtr"></a></p>
 
@@ -10801,7 +10801,7 @@
     <br>* McshElln.σπερματοδόχος-κύστη!=seminal-vesicle,
     <a class="clsHide" href="#idSysOgnHmn016_2nam"></a></p>
   <p id="idSysOgnHmn016_2wtr">whole-tree-of-seminal-vesicle::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale-wtr</a>,
     <br>* McshEngl.seminal-vesicle//sysReproductiveMale,
     <a class="clsHide" href="#idSysOgnHmn016_2wtr"></a></p>
   <p id="idSysOgnHmn016_2dsn">description::
@@ -10827,7 +10827,7 @@
     <br>* McshElln.σπερματικός-πόρος!=vas-deferens,
     <a class="clsHide" href="#idBdyHmn504nam"></a></p>
   <p id="idBdyHmn504wtr">whole-tree-of-vas-deferens::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale-wtr</a>,
     <br>* McshEngl.vas-deferens//sysReproductiveMale,
     <a class="clsHide" href="#idBdyHmn504wtr"></a></p>
   </section>
@@ -10847,7 +10847,7 @@
     <br>* McshElln.όσχεο!=scrotum,
     <a class="clsHide" href="#idBdyHmn502nam"></a></p>
   <p id="idBdyHmn502wtr">whole-tree-of-scrotum::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale-wtr</a>,
     <br>* McshEngl.scrotum//,
     <a class="clsHide" href="#idBdyHmn502wtr"></a></p>
 
@@ -10879,7 +10879,7 @@
     <br>* McshElln.επιδιδυμιδα!=epididymis,
     <a class="clsHide" href="#idBdyHmn503nam"></a></p>
   <p id="idBdyHmn503wtr">whole-tree-of-epididymis::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale-wtr</a>,
     <br>* McshEngl.epididymis//sysReproductiveMale,
     <a class="clsHide" href="#idBdyHmn503wtr"></a></p>
   </section>
@@ -10905,7 +10905,7 @@
     <br>* McshEngl.organPenis:organ,
     <a class="clsHide" href="#idOgnHmn022gtr"></a></p>
   <p id="idOgnHmn022wtr">whole-tree-of-organPenis::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn016wtr">sysReproductiveMale-wtr</a>,
     <br>* McshEngl.organPenis//sysReproductiveMale,
     <a class="clsHide" href="#idOgnHmn022wtr"></a></p>
 
@@ -11247,12 +11247,12 @@
     <br>* McshElln.απεκκριτικό-σύστημα-ανθρώπου!=sysExcretory, {2012-08-11},
     <a class="clsHide" href="#idSysOgnHmn012nam"></a></p>
   <p id="idSysOgnHmn012gtr">generic-tree-of-sysExcretory::
-    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmngtr">sysOrgans-gtr</a>,
     <br>* McshEngl.sysExcretory:sysOrgans,
-    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnatt002gtr">nodeBodyHmn-gtr</a>,
     <a class="clsHide" href="#idSysOgnHmn012gtr"></a></p>
   <p id="idSysOgnHmn012wtr">whole-tree-of-sysExcretory::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.sysExcretory//bodyHmn,
     <a class="clsHide" href="#idSysOgnHmn012wtr"></a></p>
 
@@ -12290,7 +12290,7 @@
     <a class="clsHide" href="#idBdyΗmnatt071gtr"></a></p>
   <p id="idBdyΗmnatt071wtr">whole-tree-of-bodyHmn'moving::
     <br>* McshEngl.movingBodyHmn//bodyHmn,
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <a class="clsHide" href="#idBdyΗmnatt071wtr"></a></p>
 
   <section id="idBdyΗmnatt071itst">
@@ -12597,7 +12597,7 @@
     <br>* McshEngl.breathing:doingBodyHmn,
     <a class="clsHide" href="#idBdyHmn148gtr"></a></p>
   <p id="idBdyHmn148wtr">whole-tree-of-breathing::
-    <br>* <a class="clsPreview" href="#idSysOgnHmn006wtr">sysRespiratory</a>,
+    <br>* <a class="clsPreview" href="#idSysOgnHmn006wtr">sysRespiratory-wtr</a>,
     <br>* McshEngl.breathing//sysRespiratory,
     <a class="clsHide" href="#idBdyHmn148wtr"></a></p>
 
@@ -12669,7 +12669,7 @@
     <br>* McshEngl.HumnbodyCommunicating:doingBodyHmn,
     <a class="clsHide" href="#idBdyHmn298gtr"></a></p>
   <p id="idBdyHmn298wtr">whole-tree-of-communicatingBodyHmn::
-    <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idSysNrvswtr">nervous-system</a>,
+    <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idSysNrvswtr">nervous-system-wtr</a>,
     <br>* McshEngl.communicatingBodyHmn//sysNervous,
     <a class="clsHide" href="#idBdyHmn298wtr"></a></p>
 
@@ -12712,7 +12712,7 @@
     <br>* McshEngl.digesting:doingBodyHmn,
     <a class="clsHide" href="#idBdyHmn334gtr"></a></p>
   <p id="idBdyHmn334wtr">whole-tree-of-digesting::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.digesting//bodyHmn,
     <a class="clsHide" href="#idBdyHmn334wtr"></a></p>
   </section>
@@ -12835,7 +12835,7 @@
     <br>* McshEngl.fooding:doingBodyHmn,
     <a class="clsHide" href="#idBdyHmn333gtr"></a></p>
   <p id="idBdyHmn333wtr">whole-tree-of-fooding::
-    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmnwtr">bodyHmn-wtr</a>,
     <br>* McshEngl.fooding//bodyHmn,
     <a class="clsHide" href="#idBdyHmn333wtr"></a></p>
 
@@ -13571,7 +13571,7 @@
   <p id="idBdyHmnwtr">whole-tree-of-bodyHmn::
     <br>* <a class="clsPreview" href="../dirHmn/McshHmn000002.last.html#idHmnwpt">human</a>,
     <br>...
-    <br>* <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idEntwtr">Sympan</a>,
+    <br>* <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idEntwtr">Sympan-wtr</a>,
     <a class="clsHide" href="#idBdyHmnwtr"></a></p>
   <p id="idBdyHmnptr">part-tree-of-bodyHmn::
     <br>=== regional-parts:
@@ -13666,7 +13666,7 @@
     <br>* McshElln.άντρα-ανθρώπινο-σώμα,
     <a class="clsHide" href="#idBdyHmn205nam"></a></p>
   <p id="idBdyHmn205gtr">generic-tree-of-bodyHmnMan::
-    <br>* <a class="clsPreview" href="#idBdyHmngtr">human-body</a>,
+    <br>* <a class="clsPreview" href="#idBdyHmngtr">human-body-gtr</a>,
     <br>* McshEngl.bodyHmnMan:bodyHmn,
     <a class="clsHide" href="#idBdyHmn205gtr"></a></p>
   </section>

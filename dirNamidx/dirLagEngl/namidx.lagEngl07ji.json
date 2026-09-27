@@ -1,5 +1,5 @@
 [
-  [";lagEngl07ji","G|g",1388,"2026-09-26"],
+  [";lagEngl07ji","G|g",1389,"2026-09-27"],
   ["G!=1000^3!=Giga!=billion","dirCor/McshCor000010.last.html#idQntNbrK31"],
   ["G-giga=x1'000'000'000","dirCor/McshCor000010.last.html#idQntRlvMlplGiga"],
   ["G20@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrG20"],
@@ -510,6 +510,7 @@
   ["galaxy","dirCor/McshCor000008.last.html#idEnt003"],
   ["galaxy.specific","dirCor/McshCor000008.last.html#idEnt003str"],
   ["gall-bladder!⇒organGallBladder","dirHlth/McshHlth000002.last.html#idOgnHmn021"],
+  ["gallstone-disease","dirHlth/McshHlth000011.last.html#idDssHmn125"],
   ["game-theory","dirEdu/McshEdu000005.last.html#idSMath034"],
   ["game-theory'evoluting","dirEdu/McshEdu000005.last.html#idSMath034evlg"],
   ["game@schema.org","dirStn/McshStn000023.last.html#idScmogame"],
@@ -750,7 +751,7 @@
   ["gladly!~Engl_adve","dirLag/McshLag000011.last.html#idLEngladve_167"],
   ["gland!⇒organGland","dirHlth/McshHlth000002.last.html#idGlndHmn"],
   ["gland//sysOrgans","dirHlth/McshHlth000002.last.html#idGlndHmnwtr"],
-  ["gland:organ","dirHlth/McshHlth000002.last.html#idGlndHmngnc"],
+  ["gland:organ","dirHlth/McshHlth000002.last.html#idGlndHmngtr"],
   ["glandAdrenal","dirHlth/McshHlth000002.last.html#idGlndHmn013"],
   ["glandAdrenal//sysEndocrine","dirHlth/McshHlth000002.last.html#idGlndHmn013wtr"],
   ["glandAdrenal:glandEndocrine","dirHlth/McshHlth000002.last.html#idGlndHmn013gtr"],

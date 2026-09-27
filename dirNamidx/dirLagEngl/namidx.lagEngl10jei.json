@@ -1,5 +1,5 @@
 [
-  [";lagEngl10jei","J|j",2846,"2026-09-26"],
+  [";lagEngl10jei","J|j",2843,"2026-09-27"],
   ["JCI-of-Chna_med_trsm","dirStn/McshStn000031.last.html#idChnaEconatt016mdcljci"],
   ["JEP!=Jersey-Pound-currency","dirStn/McshStn000029.last.html#idSfrFin019UntSpc"],
   ["JMD!=Jamaica-Dollar-currency","dirStn/McshStn000029.last.html#idSfrFin019UntSpc"],
@@ -1614,8 +1614,8 @@
   ["Jsf'argument","dirTchInf/McshTchInf000010.last.html#idLjsfagt"],
   ["Jsf'call","dirTchInf/McshTchInf000010.last.html#idLjsfcll"],
   ["Jsf'creation","dirTchInf/McshTchInf000010.last.html#idLjsfdfn"],
-  ["Jsf'declaration","dirTchInf/McshTchInf000010.last.html#idLjsfdfn"],
   ["Jsf'declaration","dirTchInf/McshTchInf000010.last.html#idLjsstcDfnF"],
+  ["Jsf'declaration","dirTchInf/McshTchInf000010.last.html#idLjsfdfn"],
   ["Jsf'definition","dirTchInf/McshTchInf000010.last.html#idLjsfdfn"],
   ["Jsf'definition-sentence","dirTchInf/McshTchInf000010.last.html#idLjsstcDfnF"],
   ["Jsf'execution","dirTchInf/McshTchInf000010.last.html#idLjsfcll"],
@@ -2702,7 +2702,6 @@
   ["jewelry!~nounEnglC2-1:jewelry;-","dirLag/McshLag000024.last.html#idLEnglnounC2-19"],
   ["jiao=0.1yuan!⇒ChnaRmb","dirStn/McshStn000031.last.html#idChnaEconevu"],
   ["jiàrì-假日!=dayWorkNo","dirCor/McshCor000006.last.html#idTimeUomDayWorkN"],
-  ["jiāozi-饺子!=foodDumpling","dirHlth/McshHlth000013.last.html#idFoodHmn236"],
   ["jiǎnhuàzì-简化字","dirLag/McshLag000018.last.html#idLZhoncharSmpl"],
   ["job","dirStn/McshStn000011.last.html#idJob"],
   ["job'01-title","dirStn/McshStn000011.last.html#idJobttl"],
@@ -2728,8 +2727,8 @@
   ["job'funder","dirStn/McshStn000011.last.html#idJobspsrFndr"],
   ["job'hard-soft-attribute","dirStn/McshStn000011.last.html#idJobhsat"],
   ["job'location","dirStn/McshStn000011.last.html#idJobatt008"],
-  ["job'organization","dirStn/McshStn000011.last.html#idJobatt008"],
   ["job'organization","dirStn/McshStn000011.last.html#idJobatt001"],
+  ["job'organization","dirStn/McshStn000011.last.html#idJobatt008"],
   ["job'qualification","dirStn/McshStn000011.last.html#idJobatt006"],
   ["job'relation-to-profession","dirStn/McshStn000011.last.html#idJob004rtjb"],
   ["job'safety","dirStn/McshStn000011.last.html#idJobatt004"],
@@ -2841,9 +2840,7 @@
   ["jìsuànjī-计算机!=techCmpr::calculating-machine","dirTchInf/McshTchInf000003.last.html#idOverview"],
   ["jùhuì-聚会!=party","dirStn/McshStn000005.last.html#idGrpOgm001Prty"],
   ["júzi-橘子!=fruitOrange","dirHlth/McshHlth000013.last.html#idFoodHmn190"],
-  ["jīdàn-鸡蛋!=foodEgg","dirHlth/McshHlth000013.last.html#idFoodHmn196"],
   ["jīnhuángsè-金黄色!=colorBlond","dirNtr/McshNtr000005.last.html#idSysMols009clrBlnd"],
   ["jīnróng-yǎnshēng-gōngjù-金融衍生工具!=finDerivative","dirStn/McshStn000029.last.html#idSfrFin003"],
-  ["jīnsè-金色!=colorGold","dirNtr/McshNtr000005.last.html#idSysMols009clrGold"],
-  ["jīròu-鸡肉!=meatChicken","dirHlth/McshHlth000013.last.html#idFoodHmn146"]
+  ["jīnsè-金色!=colorGold","dirNtr/McshNtr000005.last.html#idSysMols009clrGold"]
 ]

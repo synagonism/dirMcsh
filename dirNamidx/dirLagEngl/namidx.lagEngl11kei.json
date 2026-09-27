@@ -1,5 +1,5 @@
 [
-  [";lagEngl11kei","K|k",1668,"2026-09-26"],
+  [";lagEngl11kei","K|k",1665,"2026-09-27"],
   ["K!=1000!=Kilo!=thousand","dirCor/McshCor000010.last.html#idQntNbr1000"],
   ["K-kilo=x1000","dirCor/McshCor000010.last.html#idQntRlvMlplKilo"],
   ["K12-education","dirStn/McshStn000042.last.html#idSctrEduBasc"],
@@ -1664,8 +1664,5 @@
   ["kuài..máo-块..毛!=Evu","dirStn/McshStn000029.last.html#idSfrFin019Unt"],
   ["kuàizǐ-筷子!=toolChopstick","dirTch/McshTch000002.last.html#idTch003007"],
   ["kyr!=1000-years!⇒{iK1}","dirCor/McshCor000006.last.html#idTimeUomYearK"],
-  ["kāfēi-咖啡!=drinkCoffee","dirHlth/McshHlth000013.last.html#idFoodHmn026"],
-  ["kǎo-考!=test","dirCor/McshCor000016.last.html#idOverview"],
-  ["kǎoyā-烤鸭!=meatDuckRoast","dirHlth/McshHlth000013.last.html#idFoodHmn235"],
-  ["kǔ-苦!=tasteBitter","dirHlth/McshHlth000013.last.html#idFoodHmnatt010Bttr"]
+  ["kǎo-考!=test","dirCor/McshCor000016.last.html#idOverview"]
 ]
