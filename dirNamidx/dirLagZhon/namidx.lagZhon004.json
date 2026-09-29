@@ -1,5 +1,5 @@
 [
-  [";lagZhon004","d",642,"2026-09-27"],
+  [";lagZhon004","d",642,"2026-09-29"],
   ["Duōshǎo-多少!=quantoAsk","dirCor/McshCor000010.last.html#idQntSmsIgv"],
   ["Dānwèi-单位!=UOM","dirCor/McshCor000009.last.html#idGnrcmsrguom"],
   ["da!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb057"],
@@ -16,8 +16,8 @@
   ["de-地-22320!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb062"],
   ["de-地-Zhon_particle","dirLag/McshLag000023.last.html#idWrdrZhonprtcl22320"],
   ["de-底-24213!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb062"],
-  ["de-得!~Zhon_conj!=rltnEntityThenAttribute","dirLag/McshLag000018.last.html#idLZhonconj_003"],
-  ["de-的!~Zhon_conj!=rltnAttributeThenEntity!=rltnEntityThenAttribute","dirLag/McshLag000018.last.html#idLZhonconj_001"],
+  ["de-得!~Zhon_conj!=rltnEntity_then_attribute","dirLag/McshLag000018.last.html#idLZhonconj_003"],
+  ["de-的!~Zhon_conj!=rltnAttribute_then_entity!=rltnEntity_then_attribute","dirLag/McshLag000018.last.html#idLZhonconj_001"],
   ["de-的!~conjTime!=rltnVerb","dirLag/McshLag000007.last.html#idLHmnmvbatTimesntxConj"],
   ["de-的-30340!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb062"],
   ["deng!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb065"],
