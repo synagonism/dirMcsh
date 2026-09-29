@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.ogm!=bio.organism
-    (McshOgm000003.1-14-0.2025-12-12)</title>
+    (McshOgm000003.1-15-0.2026-09-29)</title>
   <meta name="keywords" content="organism, ogm, modelConceptSenso, Hitp_Mcs, Synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -154,10 +154,10 @@
     <br>* McshEngl.nodeOgmMtrl, {2020-10-22},
     <a class="clsHide" href="#idSysMtrlOgmnam"></a></p>
 
-  <section id="idSysMtrlOgm001">
-  <h2 id="idSysMtrlOgm001H2">nodeOgmMtrl.SPECIFIC
-    <a class="clsHide" href="#idSysMtrlOgm001H2"></a></h2>
-  <p id="idSysMtrlOgm001dsn">description::
+  <section id="idSysMtrlOgmstr">
+  <h2 id="idSysMtrlOgmstrH2">nodeOgmMtrl.SPECIFIC
+    <a class="clsHide" href="#idSysMtrlOgmstrH2"></a></h2>
+  <p id="idSysMtrlOgmstrdsn">description::
     <br>* body,
     <br>* body-region,
     <br>* organ-system,
@@ -171,10 +171,10 @@
     <br>* Organ systems: A group of organs that work together to perform a specific function or functions. For example, the digestive system is made up of organs such as the stomach, intestines, and liver that work together to break down food and absorb nutrients.
     <br>* Body regions: Different regions of the body that have specific functions or contain specific organs. For example, the head contains the brain, eyes, and ears, while the limbs are used for movement."
     <br>[{2023-04-08 retrieved} https://chat.openai.com/chat]
-    <a class="clsHide" href="#idSysMtrlOgm001dsn"></a></p>
-  <p id="idSysMtrlOgm001nam">name::
+    <a class="clsHide" href="#idSysMtrlOgmstrdsn"></a></p>
+  <p id="idSysMtrlOgmstrnam">name::
     <br>* McshEngl.nodeOgmMtrl.specific,
-    <a class="clsHide" href="#idSysMtrlOgm001nam"></a></p>
+    <a class="clsHide" href="#idSysMtrlOgmstrnam"></a></p>
   </section>
 
   <section id="idSysMtrlOgm001">
@@ -854,12 +854,23 @@
     <a class="clsHide" href="#idOgmpctnam"></a></p>
   </section>
 
-  <section id="idOgmwpt">
-  <h1 id="idOgmwptH1">WHOLE-PART-TREE of ogm
-    <a class="clsHide" href="#idOgmwptH1"></a></h1>
-  <p id="idOgmwptnam">name::
+  <section id="idOgmwptr">
+  <h1 id="idOgmwptrH1">WHOLE-PART-TREE of ogm
+    <a class="clsHide" href="#idOgmwptrH1"></a></h1>
+  <p id="idOgmwptrdsn">description::
+    <br>× Mcsh-creation: {2026-09-29},
+    <a class="clsHide" href="#idOgmwptrdsn"></a></p>
+  <p id="idOgmwptrnam">name::
     <br>* McshEngl.ogm'whole-part-tree,
-    <a class="clsHide" href="#idOgmwptnam"></a></p>
+    <br>* McshEngl.ogm'part-whole-tree,
+    <a class="clsHide" href="#idOgmwptrnam"></a></p>
+  <p id="idOgmwtr">whole-tree::
+    <br>*
+    <br>* McshEngl.ogm-wtr,
+    <a class="clsHide" href="#idOgmwtr"></a></p>
+  <p id="idOgmptr">part-tree::
+    <br>* McshEngl.ogm-ptr,
+    <a class="clsHide" href="#idOgmptr"></a></p>
   </section>
 
   <section id="idOgmgst">
@@ -1355,39 +1366,25 @@
   <section id="idOgm013gst">
   <h2 id="idOgm013gstH2">GENERIC-SPECIFIC-TREE of ogmMicro
     <a class="clsHide" href="#idOgm013gstH2"></a></h2>
-  <p id="idOgm013gstnam">name::
+  <p id="idOgm013gstdsn">description::
+    <br>× Mcsh-creation: {2026-09-29},
+    <a class="clsHide" href="#idOgm013gstdsn"></a></p>
+  <p id="idOgm013gtrnam">name::
     <br>* McshEngl.ogmMicro'generic-specific-tree,
-    <a class="clsHide" href="#idOgm013gstnam"></a></p>
-
-  <section id="idOgm013gtr">
-  <h3 id="idOgm013gtrH3">GENERIC-TREE of ogmMicro
-    <a class="clsHide" href="#idOgm013gtrH3"></a></h3>
-  <p id="idOgm013gtr">generic-of-ogmMicro::
-    <br>*
+    <br>* McshEngl.ogmMicro'specific-generic-tree,
+    <a class="clsHide" href="#idOgm013gtrnam"></a></p>
+  <p id="idOgm013gtr">generic-tree::
+    <br>* McshEngl.ogmMicro-gtr,
     <a class="clsHide" href="#idOgm013gtr"></a></p>
-  <p id="idOgm013atttr">attribute-tree-of-ogmMicro::
-    <br>* ,
-    <a class="clsHide" href="#idOgm013atttr"></a></p>
-  <p id="idOgm013attihf">att-tree-inherited-from::
-    <br>· :
-    <br>* ,
-    <a class="clsHide" href="#idOgm013attihf"></a></p>
-  <p id="idOgm013attown">att-tree-own-of-ogmMicro::
-    <br>* ,
-    <a class="clsHide" href="#idOgm013attown"></a></p>
-  </section>
-
-  <section id="idOgm013str">
-  <h3 id="idOgm013strH3">SPECIFIC-TREE of ogmMicro
-    <a class="clsHide" href="#idOgm013strH3"></a></h3>
-  <p id="idOgm013spc">specific-of-ogmMicro::
+  <p id="idOgm013str">specific-tree::
     <br>* bacterium-ogmMicro,
     <br>* cellNo-ogmMicro,
     <br>* cellOne-ogmMicro,
     <br>* fungus-ogmMicro,
     <br>* strain-ogmMicro,
     <br>* virus-ogmMicro,
-    <a class="clsHide" href="#idOgm013spc"></a></p>
+    <br>* McshEngl.ogmMicro-str,
+    <a class="clsHide" href="#idOgm013str"></a></p>
   </section>
   </section>
 
