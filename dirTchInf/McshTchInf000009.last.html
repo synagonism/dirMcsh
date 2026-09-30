@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.Mcsh_lago!=Hitp_Mcs-language
-    (McshTchInf000009.1-77-0.2026-09-27)</title>
+    (McshTchInf000009.1-78-0.2026-09-30)</title>
   <meta name="keywords" content="Mcsh-language, Hitp_Mcs-language, modelConceptSenso, Synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -2278,7 +2278,7 @@
   <h3 id="idLMcshlmgrnijsH3">mNamidx.mjs
     <a class="clsHide" href="#idLMcshlmgrnijsH3"></a></h3>
   <p id="idLMcshlmgrnijsdsn">description::
-    <br>· <span class="clsColorRed">mNamidx.mjs</span> is a-Node.js-MODULE that creates <a class="clsPreview" href="../dirTchInf/McshTchInf000009.last.html#idLMcshwvdnixl4jf">the-name-index-files</a> of McsHitp|Hitp-files and uploads the-changed files.
+    <br>· <span class="clsColorRed">mNamidx.mjs</span> is a-Node.js-MODULE that creates <a class="clsPreview" href="../dirTchInf/McshTchInf000009.last.html#idLMcshwvdnixl4jf">the-name-index-files</a> of McsHitp|Hitp-files.
     <br>
     <a class="clsHide" href="#idLMcshlmgrnijsdsn"></a></p>
   <p id="idLMcshlmgrnijsnam">name::
@@ -2294,16 +2294,19 @@
     <br>* https://github.com/synagonism/dirMcshmgr/blob/master/mNamidx.mjs,
     <a class="clsHide" href="#idLMcshlmgrnijswpa"></a></p>
   <p id="idLMcshlmgrnijsalg">algo::
+    <br>· {2026-09-30} major update: now indexes ONLY the-names changed in a-file, NOT all the-names.
+    <br>===
     <br>* reads an-Mcsh|Hitp-file.
     <br>* reads the-root namidx-lag-files and the-quantity of names of concepts from <a class="clsPreview" href="#idLMcshlmgrfileNirjn">namidx.lagRoot.json</a>.
     <br>* create oNamidxRoot with {file : index}.
-    <br>* for each\a\ Mcsh|Hitp-file, for each language
+    <br>* for each Mcsh|Hitp-file\a\, for each language
     <br>- REMOVE the-names of this file\a\, from ALL namidx.lag-files,
     <br>- READ the-file\a\ and store temporarilly its name-Urls,
     <br>- ADD the name-Urls in namidx.lag-files.
     <a class="clsHide" href="#idLMcshlmgrnijsalg"></a></p>
   <p id="idLMcshlmgrnijsisu">issue::
-    <br>* names: they must NOT contain \ " tab, we use &amp;#34; &amp;#92; instead. fixed {2026-09-25}
+    <br>* names: they must NOT contain \ " tab, we use &amp;#34; &amp;#92; instead.
+    <br>- FIXED {2026-09-25}
     <br>
     <br>* McshEngl.Hitp_lago'problem-on-names,
     <br>* McshEngl.Mcsh_lago'problem-on-names,
