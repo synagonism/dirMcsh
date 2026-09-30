@@ -205,7 +205,7 @@
     <a class="clsHide" href="#idDssHmndgnsstrdsn"></a></p>
   <p id="idDssHmndgnsstrnam">name::
     <br>* McshEngl.diagnosis.specific,
-    <br>* McsEngl.diagnosis-str,
+    <br>* McshEngl.diagnosis-str,
     <a class="clsHide" href="#idDssHmndgnsstrnam"></a></p>
   </section>
 
@@ -396,7 +396,7 @@
     <a class="clsHide" href="#idDssHmnprtnstrdsn"></a></p>
   <p id="idDssHmnprtnstrnam">name::
     <br>* McshEngl.disease'protection.specific,
-    <br>* McsEngl.disease'protection-str,
+    <br>* McshEngl.disease'protection-str,
     <a class="clsHide" href="#idDssHmnprtnstrnam"></a></p>
   </section>
 
@@ -620,17 +620,12 @@
     <br>* McshEngl.disease'generic-specific-tree,
     <br>* McshEngl.disease'specific-generic-tree,
     <a class="clsHide" href="#idDssHmngstrnam"></a></p>
-
-  <section id="idDssHmngtr">
-  <h2 id="idDssHmngtrH2">GENERIC-TREE of disease
-    <a class="clsHide" href="#idDssHmngtrH2"></a></h2>
-  <p id="idDssHmngtrdsn">description::
-    <br>× Mcsh-creation: {2026-05-20}
+  <p id="idDssHmngtr">generic-tree::
+    <br>* McshEngl.disease-gtr,
+    <br>===
     <br>* disease-of-organism,
-    <a class="clsHide" href="#idDssHmngtrdsn"></a></p>
-  <p id="idDssHmngtrnam">name::
-    <br>* McshEngl.disease'generic,
-    <a class="clsHide" href="#idDssHmngtrnam"></a></p>
+    <br>* ... entity-gtr,
+    <a class="clsHide" href="#idDssHmngtr"></a></p>
   <p id="idDssHmnsblg">sibling-of-disease::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000008.last.html#idHlthHmnatt003">wellness</a>,
     <a class="clsHide" href="#idDssHmnsblg"></a></p>
@@ -646,32 +641,21 @@
     <br>* doing,
     <br>* evoluting,
     <a class="clsHide" href="#idDssHmngstratttr"></a></p>
-  <p id="idDssHmngstrattihf">att-inherited-from::
-    <br>* ,
-    <a class="clsHide" href="#idDssHmngstrattihf"></a></p>
   <p id="idDssHmngstrattown">att-own-of-disease::
     <br>* therapy,
     <a class="clsHide" href="#idDssHmngstrattown"></a></p>
-  </section>
-
-  <section id="idDssHmnstr">
-  <h2 id="idDssHmnstrH2">SPECIFIC-TREE of disease
-    <a class="clsHide" href="#idDssHmnstrH2"></a></h2>
-  <p id="idDssHmnstrdsn">description::
-    <br>× Mcsh-creation: {2026-05-20}
+  <p id="idDssHmnstr">specific-tree::
+    <br>* McshEngl.disease.specific,
+    <br>* McshEngl.disease-str,
+    <br>===
+    <br>* http://www.who.int/health-topics/international-classification-of-diseases,
+    <br>
     <br>* <a class="clsPreview" href="#idDssHmn003">external-cause--disease</a>,
     <br>* <a class="clsPreview" href="#idDssHmn004">internal-cause--disease</a>,
     <br>===
     <br>* <a class="clsPreview" href="#idDssHmn001">infectious-disease</a>,
     <br>* <a class="clsPreview" href="#idDssHmn002">infectiousNo-disease</a>,
-    <a class="clsHide" href="#idDssHmnstrdsn"></a></p>
-  <p id="idDssHmnstrnam">name::
-    <br>* McshEngl.disease.specific,
-    <br>* McsEngl.disease-str,
-    <a class="clsHide" href="#idDssHmnstrnam"></a></p>
-  <p id="idDssHmnstrwpa">addressWpg::
-    <br>* http://www.who.int/health-topics/international-classification-of-diseases,
-    <a class="clsHide" href="#idDssHmnstrwpa"></a></p>
+    <a class="clsHide" href="#idDssHmnstr"></a></p>
   </section>
 
   <section id="idDssHmnIcd">
@@ -1067,7 +1051,7 @@
     <br>* McshElln.μεταδοτική-ασθένεια!⇒disease.infectious,
     <br>* McshElln.μεταδοτική-πάθηση!⇒disease.infectious,
     <a class="clsHide" href="#idDssHmn001nam"></a></p>
-  <p id="idDssHmn001gtr">generic-tree:
+  <p id="idDssHmn001gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn001gtr"></a></p>
   <p id="idDssHmn001P1">description::
@@ -1143,7 +1127,7 @@
     <br>* McshElln.πάθησης-μετάδοση!=disease'transmition,
     <br>* McshElln.πάθησης-μόλυνση!=disease'transmition,
     <a class="clsHide" href="#idDssHmn001infnnam"></a></p>
-  <p id="idDssHmn001infngtr">generic-tree:
+  <p id="idDssHmn001infngtr">generic-tree::
     <br>* doing-of-disease,
     <a class="clsHide" href="#idDssHmn001infngtr"></a></p>
   </section>
@@ -1162,7 +1146,7 @@
     <a class="clsHide" href="#idDssHmn001specificdsn"></a></p>
   <p id="idDssHmn001specificnam">name::
     <br>* McshEngl.dssInfectious.specific,
-    <br>* McsEngl.dssInfectious-str,
+    <br>* McshEngl.dssInfectious-str,
     <a class="clsHide" href="#idDssHmn001specificnam"></a></p>
   </section>
 
@@ -1205,8 +1189,9 @@
     <br>* McshElln.ίωση-ανθρωπου,
     <a class="clsHide" href="#idDssHmn162nam"></a></p>
   <p id="idDssHmn162gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssViralInfection-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn162gtr"></a></p>
 
   <section id="idDssHmn162therapy">
@@ -1295,7 +1280,7 @@
     <a class="clsHide" href="#idDssHmn162specificdsn"></a></p>
   <p id="idDssHmn162specificnam">name::
     <br>* McshEngl.dssViralInfection.specific,
-    <br>* McsEngl.dssViralInfection-str,
+    <br>* McshEngl.dssViralInfection-str,
     <a class="clsHide" href="#idDssHmn162specificnam"></a></p>
   </section>
 
@@ -1359,7 +1344,7 @@
     <br>* McshElln.πάθηση.μεταδοτικήΜη!⇒disease.infectiousNo,
     <br>* McshElln.πάθηση.μη-μεταδοτική!⇒disease.infectiousNo,
     <a class="clsHide" href="#idDssHmn002nam"></a></p>
-  <p id="idDssHmn002gtr">generic-tree:
+  <p id="idDssHmn002gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn002gtr"></a></p>
   </section>
@@ -1457,8 +1442,9 @@
     <br>* McshElln.πάθηση.περιβαλλοντική,
     <a class="clsHide" href="#idDssHmn003nam"></a></p>
   <p id="idDssHmn003gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssCauseExternal-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn003gtr"></a></p>
 
   <section id="idDssHmn203">
@@ -1481,8 +1467,9 @@
     <br>* McshElln.τραύμα,
     <a class="clsHide" href="#idDssHmn203nam"></a></p>
   <p id="idDssHmn203gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <br>* McshEngl.dssWound-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn203gtr"></a></p>
 
   <section id="idDssHmn203therapy">
@@ -1534,19 +1521,11 @@
     <br>* McshEngl.dssCauseInternal'generic-specific-tree,
     <br>* McshEngl.dssCauseInternal'specific-generic-tree,
     <a class="clsHide" href="#idDssHmn004gstrnam"></a></p>
-  <p id="idDssHmn004gtr">generic-of-dssCauseInternal::
+  <p id="idDssHmn004gtr">generic-tree::
+    <br>* McshEngl.dssCauseInternal-gtr,
+    <br>===
     <br>* ,
     <a class="clsHide" href="#idDssHmn004gtr"></a></p>
-  <p id="idDssHmn004atttr">attribute-tree-of-dssCauseInternal::
-    <br>* ,
-    <a class="clsHide" href="#idDssHmn004atttr"></a></p>
-  <p id="idDssHmn004attihf">att-tree-inherited-from::
-    <br>· :
-    <br>* ,
-    <a class="clsHide" href="#idDssHmn004attihf"></a></p>
-  <p id="idDssHmn004attown">att-tree-own-of-dssCauseInternal::
-    <br>* ,
-    <a class="clsHide" href="#idDssHmn004attown"></a></p>
   <p id="idDssHmn004str">specific-of-dssCauseInternal::
     <br>* imbalance,
     <a class="clsHide" href="#idDssHmn004str"></a></p>
@@ -1626,7 +1605,7 @@
     <a class="clsHide" href="#idDssHmn005strdsn"></a></p>
   <p id="idDssHmn005strnam">name::
     <br>* McshEngl.dssMusculoskeletalSystem.specific,
-    <br>* McsEngl.dssMusculoskeletalSystem-str,
+    <br>* McshEngl.dssMusculoskeletalSystem-str,
     <a class="clsHide" href="#idDssHmn005strnam"></a></p>
   </section>
 
@@ -1649,8 +1628,9 @@
     <br>* McshElln.πάθηση.ερειστικου-συστήματος,
     <a class="clsHide" href="#idDssHmn005_1nam"></a></p>
   <p id="idDssHmn005_1gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssSkeletal-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn005_1gtr"></a></p>
   <p id="idDssHmn005_1wtr">whole-tree-of-dssSkeletal::
     <br>* sysOrgansSkeletal⧺cptDssHmn102⧺,
@@ -1722,7 +1702,7 @@
     <a class="clsHide" href="#idDssHmn005_1specificdsn"></a></p>
   <p id="idDssHmn005_1specificnam">name::
     <br>* McshEngl.dssSkeletal.specific,
-    <br>* McsEngl.dssSkeletal-str,
+    <br>* McshEngl.dssSkeletal-str,
     <a class="clsHide" href="#idDssHmn005_1specificnam"></a></p>
   </section>
   </section>
@@ -1815,7 +1795,7 @@
     <br>* McshElln.πάθηση.ραχίτιδα!=dssRachitis,
     <br>* McshElln.ραχίτιδα!=dssRachitis,
     <a class="clsHide" href="#idDssHmn192nam"></a></p>
-  <p id="idDssHmn192gtr">generic-tree:
+  <p id="idDssHmn192gtr">generic-tree::
     <br>* disease.skeletal-system⧺cptDssHmn104⧺,
     <a class="clsHide" href="#idDssHmn192gtr"></a></p>
   </section>
@@ -1836,7 +1816,7 @@
     <br>* McshElln.πάθηση.κάταγμα!=dssFracture,
     <br>* McshElln.κάταγμα!=dssFracture,
     <a class="clsHide" href="#idDssHmn193nam"></a></p>
-  <p id="idDssHmn193gtr">generic-tree:
+  <p id="idDssHmn193gtr">generic-tree::
     <br>* disease.skeletal-system⧺cptDssHmn104⧺,
     <a class="clsHide" href="#idDssHmn193gtr"></a></p>
   </section>
@@ -1862,8 +1842,9 @@
     <br>* McshElln.διάστρεμμα!=dssSprain,
     <a class="clsHide" href="#idDssHmn194nam"></a></p>
   <p id="idDssHmn194gtr">generic-tree::
-    <br>* disease.skeletal-system⧺cptDssHmn104⧺,
     <br>* McshEngl.dssSprain-gtr,
+    <br>===
+    <br>* disease.skeletal-system⧺cptDssHmn104⧺,
     <a class="clsHide" href="#idDssHmn194gtr"></a></p>
 
   <section id="idDssHmn194rsc">
@@ -1919,8 +1900,9 @@
     <br>* McshElln.πάθηση.καρδιαγγειακού-συστήματος!=dssSysCirculatory,
     <a class="clsHide" href="#idDssHmn032nam"></a></p>
   <p id="idDssHmn032gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssSysCirculatory-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn032gtr"></a></p>
   <p id="idDssHmn032wtr">whole-tree-of-dssSysCirculatory::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idSysOgnHmn002">circulatory-system</a>,
@@ -1988,7 +1970,7 @@
     <a class="clsHide" href="#idDssHmn032specificdsn"></a></p>
   <p id="idDssHmn032specificnam">name::
     <br>* McshEngl.dssSysCirculatory.specific,
-    <br>* McsEngl.dssSysCirculatory-str,
+    <br>* McshEngl.dssSysCirculatory-str,
     <a class="clsHide" href="#idDssHmn032specificnam"></a></p>
   </section>
 
@@ -2008,9 +1990,10 @@
     <br>* McshElln.πάθηση.αίματος,
     <a class="clsHide" href="#idDssHmn057nam"></a></p>
   <p id="idDssHmn057gtr">generic-tree::
+    <br>* McshEngl.dssBlood-gtr,
+    <br>===
     <br>* <a class="clsPreview" href="#idOverview">disease</a>,
     <br>heartvessel-disease⧺cptDssHmn032⧺,
-    <br>* McshEngl.dssBlood-gtr,
     <a class="clsHide" href="#idDssHmn057gtr"></a></p>
   <p id="idDssHmn057wtr">whole-tree-of-dssBlood::
     <br>* <a class="clsPreview" href="#idDssHmn028">blood</a>,
@@ -2043,8 +2026,9 @@
     <br>* McshElln.πάθηση.αγγείων!=dssVessel,
     <a class="clsHide" href="#idDssHmn130nam"></a></p>
   <p id="idDssHmn130gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn032">dssHeartvessel</a>,
     <br>* McshEngl.dssVessel-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn032">dssHeartvessel</a>,
     <a class="clsHide" href="#idDssHmn130gtr"></a></p>
 
   <section id="idDssHmn130specific">
@@ -2057,7 +2041,7 @@
     <a class="clsHide" href="#idDssHmn130specificdsn"></a></p>
   <p id="idDssHmn130specificnam">name::
     <br>* McshEngl.dssVessel.specific,
-    <br>* McsEngl.dssVessel-str,
+    <br>* McshEngl.dssVessel-str,
     <a class="clsHide" href="#idDssHmn130specificnam"></a></p>
   </section>
 
@@ -2082,8 +2066,9 @@
     <br>* McshElln.αιμορραγία!=dssBleading,
     <a class="clsHide" href="#idDssHmn134nam"></a></p>
   <p id="idDssHmn134gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn130">dssVessel</a>,
     <br>* McshEngl.dssBleading-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn130">dssVessel</a>,
     <a class="clsHide" href="#idDssHmn134gtr"></a></p>
   <p id="idDssHmn134wtr">whole-tree-of-dssBleading::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idOgnHmn013">ognVessel</a>,
@@ -2113,7 +2098,7 @@
     <a class="clsHide" href="#idDssHmn134specificdsn"></a></p>
   <p id="idDssHmn134specificnam">name::
     <br>* McshEngl.dssBleading.specific,
-    <br>* McsEngl.dssBleading-str,
+    <br>* McshEngl.dssBleading-str,
     <a class="clsHide" href="#idDssHmn134specificnam"></a></p>
   </section>
   </section>
@@ -2136,8 +2121,9 @@
     <br>* McshElln.αρτηριοσκλήρυνση!=dssArteriosclerosis,
     <a class="clsHide" href="#idDssHmn033nam"></a></p>
   <p id="idDssHmn033gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn130">dssVessel</a>,
     <br>* McshEngl.dssArteriosclerosis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn130">dssVessel</a>,
     <a class="clsHide" href="#idDssHmn033gtr"></a></p>
   <p id="idDssHmn033wtr">whole-tree-of-dssArteriosclerosis::
     <br>* <a class="clsPreview" href="#idDssHmn034">artery</a>,
@@ -2237,8 +2223,9 @@
     <br>* McshElln.πάθηση.καρδιάς!=disease.heart,
     <a class="clsHide" href="#idDssHmn047nam"></a></p>
   <p id="idDssHmn047gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn032">dssHeartvessel</a>,
     <br>* McshEngl.dssHeart-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn032">dssHeartvessel</a>,
     <a class="clsHide" href="#idDssHmn047gtr"></a></p>
   <p id="idDssHmn047wtr">whole-tree-of-dssHeart::
     <br>* <a class="clsPreview" href="#idDssHmn004">heart</a>,
@@ -2316,7 +2303,7 @@
     <a class="clsHide" href="#idDssHmn047specificdsn"></a></p>
   <p id="idDssHmn047specificnam">name::
     <br>* McshEngl.dssHeart.specific,
-    <br>* McsEngl.dssHeart-str,
+    <br>* McshEngl.dssHeart-str,
     <a class="clsHide" href="#idDssHmn047specificnam"></a></p>
   </section>
   </section>
@@ -2367,8 +2354,9 @@
     <br>* McshElln.καρδιακή-ανεπάρκεια,
     <a class="clsHide" href="#idDssHmn048nam"></a></p>
   <p id="idDssHmn048gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn047">dssHeart</a>,
     <br>* McshEngl.dssHeart_failure-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn047">dssHeart</a>,
     <a class="clsHide" href="#idDssHmn048gtr"></a></p>
   <p id="idDssHmn048wtr">whole-tree-of-dssHeart_failure::
     <br>* <a class="clsPreview" href="#idDssHmn004">heart</a>,
@@ -2463,8 +2451,9 @@
     <br>* McshElln.αιμοφιλία,
     <a class="clsHide" href="#idDssHmn198nam"></a></p>
   <p id="idDssHmn198gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn057">dssBlood</a>,
     <br>* McshEngl.dssHaemophilia-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn057">dssBlood</a>,
     <a class="clsHide" href="#idDssHmn198gtr"></a></p>
 
   <section id="idDssHmn198infection">
@@ -2517,9 +2506,10 @@
     <br>* McshElln.αναιμία,
     <a class="clsHide" href="#idDssHmn058nam"></a></p>
   <p id="idDssHmn058gtr">generic-tree::
+    <br>* McshEngl.dssAnemia-gtr,
+    <br>===
     <br>* <a class="clsPreview" href="#idOverview">disease</a>,
     <br>* <a class="clsPreview" href="#idDssHmn057">blood-disease</a>,
-    <br>* McshEngl.dssAnemia-gtr,
     <a class="clsHide" href="#idDssHmn058gtr"></a></p>
   <p id="idDssHmn058wtr">whole-tree-of-dssAnemia::
     <br>* <a class="clsPreview" href="#idDssHmn028">blood</a>,
@@ -2602,8 +2592,9 @@
     <br>* McshElln.μεσογειακη-αναιμία,
     <a class="clsHide" href="#idDssHmnAnmThlsmnam"></a></p>
   <p id="idDssHmnAnmThlsmgtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn058">dssAnaemia</a>,
     <br>* McshEngl.dssThalassemia-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn058">dssAnaemia</a>,
     <a class="clsHide" href="#idDssHmnAnmThlsmgtr"></a></p>
 
   <section id="idDssHmnAnmThlsmstatistics">
@@ -2651,8 +2642,9 @@
     <br>* McshElln.πάθηση.λευκοκυτταρου,
     <a class="clsHide" href="#idDssHmn068nam"></a></p>
   <p id="idDssHmn068gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn057">dssBlood</a>,
     <br>* McshEngl.dssLeucocyte-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn057">dssBlood</a>,
     <a class="clsHide" href="#idDssHmn068gtr"></a></p>
   <p id="idDssHmn068wtr">whole-tree-of-dssLeucocyte::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000004.last.html#idCellHmn019">leucocyte</a>,
@@ -2686,8 +2678,9 @@
     <br>* McshElln.υπέρταση,
     <a class="clsHide" href="#idDssHmn042nam"></a></p>
   <p id="idDssHmn042gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn057">dssBlood</a>,
     <br>* McshEngl.dssHypertension-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn057">dssBlood</a>,
     <a class="clsHide" href="#idDssHmn042gtr"></a></p>
 
   <section id="idDssHmn042protection">
@@ -2795,7 +2788,7 @@
     <br>* McshElln.πάθηση.υπόταση,
     <br>* McshElln.υπόταση,
     <a class="clsHide" href="#idDssHmn132nam"></a></p>
-  <p id="idDssHmn132gtr">generic-tree:
+  <p id="idDssHmn132gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn132gtr"></a></p>
   </section>
@@ -2816,8 +2809,9 @@
     <br>* McshElln.ουραιμία,
     <a class="clsHide" href="#idDssHmn197nam"></a></p>
   <p id="idDssHmn197gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssUraemia-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn197gtr"></a></p>
   <p id="idDssHmn197wtr">whole-tree-of-dssUraemia::
     <br>* <a class="clsPreview" href="#idDssHmn086">kidney</a>,
@@ -2863,7 +2857,7 @@
     <br>* McshElln.πάθηση.στηθάγχη,
     <br>* McshElln.στηθάγχη,
     <a class="clsHide" href="#idDssHmn039nam"></a></p>
-  <p id="idDssHmn039gtr">generic-tree:
+  <p id="idDssHmn039gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn039gtr"></a></p>
   <p id="idDssHmn039wtr">whole-tree:
@@ -2902,8 +2896,9 @@
     <br>* McshElln.στεφανιαία-νόσος!=dssCoronaryArtery,
     <a class="clsHide" href="#idDssHmn035nam"></a></p>
   <p id="idDssHmn035gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn047">dssHeart</a>,
     <br>* McshEngl.dssCoronaryArtery-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn047">dssHeart</a>,
     <a class="clsHide" href="#idDssHmn035gtr"></a></p>
   <p id="idDssHmn035wtr">whole-tree-of-dssCoronaryArtery::
     <br>* <a class="clsPreview" href="#idDssHmn004">heart</a>,
@@ -2962,8 +2957,9 @@
     <br>* McshElln.έμφραγμα!=dssMI,
     <a class="clsHide" href="#idDssHmn036nam"></a></p>
   <p id="idDssHmn036gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssMI-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn036gtr"></a></p>
   <p id="idDssHmn036wtr">whole-tree-of-dssMI::
     <br>* <a class="clsPreview" href="#idDssHmn004">heart</a>,
@@ -3255,7 +3251,7 @@
     <a class="clsHide" href="#idDssHmn263spcdsn"></a></p>
   <p id="idDssHmn263spcnam">name::
     <br>* McshEngl.dssKidney.specific,
-    <br>* McsEngl.dssKidney-str,
+    <br>* McshEngl.dssKidney-str,
     <a class="clsHide" href="#idDssHmn263spcnam"></a></p>
   </section>
   </section>
@@ -3276,8 +3272,9 @@
     <br>* McshElln.κωλικός-νεφρων!=dssKidney_stone,
     <a class="clsHide" href="#idDssHmn218nam"></a></p>
   <p id="idDssHmn218gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssKidney_stone-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn218gtr"></a></p>
   <p id="idDssHmn218wtr">whole-tree-of-dssKidney_stone::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idOgnHmn026">kidney</a>,
@@ -3344,7 +3341,7 @@
     <br>* McshElln.πάθηση.νεφρίτιδα,
     <br>* McshElln.νεφρίτιδα,
     <a class="clsHide" href="#idDssHmn165nam"></a></p>
-  <p id="idDssHmn165gtr">generic-tree:
+  <p id="idDssHmn165gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn165gtr"></a></p>
   <p id="idDssHmn165wtr">whole-tree:
@@ -3417,8 +3414,9 @@
     <br>* McshElln.υπερδραστήρια-κύστη,
     <a class="clsHide" href="#idDssHmn060nam"></a></p>
   <p id="idDssHmn060gtr">generic-tree::
-    <br>* human-disease,
     <br>* McshEngl.dssFrequent_urination-gtr,
+    <br>===
+    <br>* human-disease,
     <a class="clsHide" href="#idDssHmn060gtr"></a></p>
 
   <section id="idDssHmn060cause">
@@ -3555,7 +3553,7 @@
     <a class="clsHide" href="#idDssHmn215strdsn"></a></p>
   <p id="idDssHmn215strnam">name::
     <br>* McshEngl.dssTooth.specific,
-    <br>* McsEngl.dssTooth-str,
+    <br>* McshEngl.dssTooth-str,
     <a class="clsHide" href="#idDssHmn215strnam"></a></p>
   </section>
   </section>
@@ -3897,8 +3895,9 @@
     <br>* McshElln.πάθηση.ζάλη-ταξιδιών,
     <a class="clsHide" href="#idDssHmn219nam"></a></p>
   <p id="idDssHmn219gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssSeasickness-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn219gtr"></a></p>
 
   <section id="idDssHmn219symptom">
@@ -3988,8 +3987,9 @@
     <br>* McshElln.φυματίωση!=dssTuberculosis,
     <a class="clsHide" href="#idDssHmn073nam"></a></p>
   <p id="idDssHmn073gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssTuberculosis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn073gtr"></a></p>
   <p id="idDssHmn073wtr">whole-tree-of-dssTuberculosis::
     <br>* <a class="clsPreview" href="#idDssHmn172">bacterium</a>,
@@ -4138,8 +4138,9 @@
     <br>* McshElln.λευχαιμία,
     <a class="clsHide" href="#idDssHmn069nam"></a></p>
   <p id="idDssHmn069gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn068">leucosyte-disease</a>,
     <br>* McshEngl.dssLeukemia-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn068">leucosyte-disease</a>,
     <a class="clsHide" href="#idDssHmn069gtr"></a></p>
 
   <section id="idDssHmn069cause">
@@ -4280,7 +4281,7 @@
     <a class="clsHide" href="#idDssHmn037specificdsn"></a></p>
   <p id="idDssHmn037specificnam">name::
     <br>* McshEngl.dssSkin.specific,
-    <br>* McsEngl.dssSkin-str,
+    <br>* McshEngl.dssSkin-str,
     <a class="clsHide" href="#idDssHmn037specificnam"></a></p>
   </section>
 
@@ -4298,7 +4299,7 @@
     <br>* McshElln.πάθηση.δερματίτιδα-ανθρώπου,
     <br>* McshElln.δερματίτιδα-ανθρώπου, {2012-08-13},
     <a class="clsHide" href="#idDssHmn075nam"></a></p>
-  <p id="idDssHmn075gtr">generic-tree:
+  <p id="idDssHmn075gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn075gtr"></a></p>
   <p id="idDssHmn075P1"><a class="clsPreview" href="../dirHlth/McshHlth000016.last.html#idOverview">therapy</a>::
@@ -4370,8 +4371,9 @@
     <br>* McshElln.σακχαρώης-διαβήτης!=dssDiabetes,
     <a class="clsHide" href="#idDssHmn043nam"></a></p>
   <p id="idDssHmn043gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssDiabetes-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn043gtr"></a></p>
   <p id="idDssHmn043wtr">whole-tree-of-dssDiabetes::
     <br>* <a class="clsPreview" href="#idDssHmn156">ινσουλίνη</a>,
@@ -4460,8 +4462,9 @@
     <br>[εικ, 1994, 82⧺cptRsc33⧺]
     <a class="clsHide" href="#idDssHmn050P1"></a></p>
   <p id="idDssHmn050gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssSuddenDeath-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn050gtr"></a></p>
 
   <section id="idDssHmn050symptom">
@@ -5507,7 +5510,7 @@
     <a class="clsHide" href="#idDssHmn052specificdsn"></a></p>
   <p id="idDssHmn052specificnam">name::
     <br>* McshEngl.dssCancer.specific,
-    <br>* McsEngl.dssCancer-str,
+    <br>* McshEngl.dssCancer-str,
     <a class="clsHide" href="#idDssHmn052specificnam"></a></p>
   <p id="idDssHmn052specificP1">dssCancer.alphabetically::
     <br>* cancer.colon,
@@ -5818,7 +5821,7 @@
     <a class="clsHide" href="#idDssHmn106specificdsn"></a></p>
   <p id="idDssHmn106specificnam">name::
     <br>* McshEngl.dssCancerSkin.specific,
-    <br>* McsEngl.dssCancerSkin-str,
+    <br>* McshEngl.dssCancerSkin-str,
     <a class="clsHide" href="#idDssHmn106specificnam"></a></p>
   </section>
 
@@ -5870,8 +5873,9 @@
     <br>* McshElln.πάθηση.ματιού,
     <a class="clsHide" href="#idDssHmn096nam"></a></p>
   <p id="idDssHmn096gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssEye-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn096gtr"></a></p>
   <p id="idDssHmn096wtr">whole-tree-of-dssEye::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -5924,7 +5928,7 @@
     <a class="clsHide" href="#idDssHmn096specificdsn"></a></p>
   <p id="idDssHmn096specificnam">name::
     <br>* McshEngl.dssEye.specific,
-    <br>* McsEngl.dssEye-str,
+    <br>* McshEngl.dssEye-str,
     <a class="clsHide" href="#idDssHmn096specificnam"></a></p>
   </section>
 
@@ -5981,8 +5985,9 @@
     <br>* McshElln.καταρρακτης,
     <a class="clsHide" href="#idDssHmn097nam"></a></p>
   <p id="idDssHmn097gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn096">dssEye</a>,
     <br>* McshEngl.dssCatarract-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn096">dssEye</a>,
     <a class="clsHide" href="#idDssHmn097gtr"></a></p>
   <p id="idDssHmn097wtr">whole-tree-of-dssCatarract::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -6017,7 +6022,7 @@
     <br>* McshElln.πάθηση.αστιγματισμός,
     <br>* McshElln.αστιγματισμός,
     <a class="clsHide" href="#idDssHmn111nam"></a></p>
-  <p id="idDssHmn111gtr">generic-tree:
+  <p id="idDssHmn111gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmn096">dssEye</a>,
     <a class="clsHide" href="#idDssHmn111gtr"></a></p>
   <p id="idDssHmn111wtr">whole-tree:
@@ -6042,8 +6047,9 @@
     <br>* McshElln.πρεσβυωπία,
     <a class="clsHide" href="#idDssHmn117nam"></a></p>
   <p id="idDssHmn117gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn096">dssEye</a>,
     <br>* McshEngl.dssPresbyopia-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn096">dssEye</a>,
     <a class="clsHide" href="#idDssHmn117gtr"></a></p>
   <p id="idDssHmn117wtr">whole-tree-of-dssPresbyopia::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -6078,7 +6084,7 @@
     <br>* McshElln.πάθηση.υπερμετρωπία,
     <br>* McshElln.υπερμετρωπία,
     <a class="clsHide" href="#idDssHmn118nam"></a></p>
-  <p id="idDssHmn118gtr">generic-tree:
+  <p id="idDssHmn118gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmn096">dssEye</a>,
     <a class="clsHide" href="#idDssHmn118gtr"></a></p>
   <p id="idDssHmn118wtr">whole-tree:
@@ -6108,7 +6114,7 @@
     <br>* McshElln.πάθηση.μυωπία,
     <br>* McshElln.μυωπία,
     <a class="clsHide" href="#idDssHmn119nam"></a></p>
-  <p id="idDssHmn119gtr">generic-tree:
+  <p id="idDssHmn119gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmn096">dssEye</a>,
     <a class="clsHide" href="#idDssHmn119gtr"></a></p>
   <p id="idDssHmn119wtr">whole-tree:
@@ -6149,8 +6155,9 @@
     <br>* McshElln.στραβισμός!=dssSquint,
     <a class="clsHide" href="#idDssHmn110nam"></a></p>
   <p id="idDssHmn110gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn096">dssEye</a>,
     <br>* McshEngl.dssSquint-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn096">dssEye</a>,
     <a class="clsHide" href="#idDssHmn110gtr"></a></p>
   <p id="idDssHmn110wholewtr">whole-tree-of-dssSquint::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -6208,8 +6215,9 @@
     <br>[http://en.wikipedia.org/wiki/Mental_disorder]
     <a class="clsHide" href="#idDssHmn108dsnL"></a></p>
   <p id="idDssHmn108gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssMental-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn108gtr"></a></p>
 
   <section id="idDssHmn108symptom">
@@ -6334,7 +6342,7 @@
     <a class="clsHide" href="#idDssHmn108specificdsn"></a></p>
   <p id="idDssHmn108specificnam">name::
     <br>* McshEngl.dssMental.specific,
-    <br>* McsEngl.dssMental-str,
+    <br>* McshEngl.dssMental-str,
     <a class="clsHide" href="#idDssHmn108specificnam"></a></p>
   <p id="idDssHmn108specificwpa">addressWpg::
     <br>* https://en.wikipedia.org/wiki/List_of_mental_disorders,
@@ -6887,7 +6895,7 @@
     <a class="clsHide" href="#idDssHmn079therapyfoodstrdsn"></a></p>
   <p id="idDssHmn079therapyfoodstrnam">name::
     <br>* McshEngl.AnxietyFood.specific,
-    <br>* McsEngl.AnxietyFood-str,
+    <br>* McshEngl.AnxietyFood-str,
     <a class="clsHide" href="#idDssHmn079therapyfoodstrnam"></a></p>
   </section>
 
@@ -7070,7 +7078,7 @@
     <a class="clsHide" href="#idDssHmn079strdsn"></a></p>
   <p id="idDssHmn079strnam">name::
     <br>* McshEngl.dssAnxiety.specific,
-    <br>* McsEngl.dssAnxiety-str,
+    <br>* McshEngl.dssAnxiety-str,
     <a class="clsHide" href="#idDssHmn079strnam"></a></p>
   </section>
 
@@ -7357,7 +7365,7 @@
     <a class="clsHide" href="#idDssHmn080strdsn"></a></p>
   <p id="idDssHmn080strnam">name::
     <br>* McshEngl.dssDepression.specific,
-    <br>* McsEngl.dssDepression-str,
+    <br>* McshEngl.dssDepression-str,
     <br>* McshEngl.MDD-major-depressive-disorder,
     <a class="clsHide" href="#idDssHmn080strnam"></a></p>
   </section>
@@ -7620,8 +7628,9 @@
     <br>* McshElln.πάθηση.αυτιου,
     <a class="clsHide" href="#idDssHmn112nam"></a></p>
   <p id="idDssHmn112gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssEar-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn112gtr"></a></p>
   <p id="idDssHmn112wtr">whole-tree-of-dssEar::
     <br>* <a class="clsPreview" href="#idDssHmn079">ear</a>,
@@ -7663,7 +7672,7 @@
     <br>* McshElln.πάθηση.αεροφαγια,
     <br>* McshElln.αεροφαγια,
     <a class="clsHide" href="#idDssHmn113nam"></a></p>
-  <p id="idDssHmn113gtr">generic-tree:
+  <p id="idDssHmn113gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn113gtr"></a></p>
   <p id="idDssHmn113wtr">whole-tree-of-dssAerophagia::
@@ -7703,8 +7712,9 @@
     <br>* McshElln.σύνδρομο-επίκτητης-ανοσοποιητικής-ανεπάρκειας,
     <a class="clsHide" href="#idDssHmn114nam"></a></p>
   <p id="idDssHmn114gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssAids-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn114gtr"></a></p>
 
   <section id="idDssHmn114cause">
@@ -7856,8 +7866,9 @@
     <br>* McshElln.αλτσχαιμερ-νόσος,
     <a class="clsHide" href="#idDssHmn115nam"></a></p>
   <p id="idDssHmn115gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssAlzheimer-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn115gtr"></a></p>
 
   <section id="idDssHmn115therapy">
@@ -7940,8 +7951,9 @@
     <br>* McshElln.γεροντική-άνοια!=dssDementia,
     <a class="clsHide" href="#idDssHmn116nam"></a></p>
   <p id="idDssHmn116gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssDementia-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn116gtr"></a></p>
 
   <section id="idDssHmn116sympton">
@@ -8013,7 +8025,7 @@
     <a class="clsHide" href="#idDssHmn116specificdsn"></a></p>
   <p id="idDssHmn116specificnam">name::
     <br>* McshEngl.dssDementia.specific,
-    <br>* McsEngl.dssDementia-str,
+    <br>* McshEngl.dssDementia-str,
     <a class="clsHide" href="#idDssHmn116specificnam"></a></p>
   </section>
 
@@ -8056,8 +8068,9 @@
     <br>* McshElln.οξεία-ρινοφαρυγγιτιδα,
     <a class="clsHide" href="#idDssHmn124nam"></a></p>
   <p id="idDssHmn124gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssCommon_cold-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn124gtr"></a></p>
 
   <section id="idDssHmn124cause">
@@ -8252,7 +8265,7 @@
     <a class="clsHide" href="#idDssHmn124specificdsn"></a></p>
   <p id="idDssHmn124specificnam">name::
     <br>* McshEngl.dssCommon_cold.specific,
-    <br>* McsEngl.dssCommon_cold-str,
+    <br>* McshEngl.dssCommon_cold-str,
     <a class="clsHide" href="#idDssHmn124specificnam"></a></p>
   </section>
 
@@ -8273,8 +8286,9 @@
     <br>* McshElln.πάθηση.βήχας,
     <a class="clsHide" href="#idDssHmn120nam"></a></p>
   <p id="idDssHmn120gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssCoughing-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn120gtr"></a></p>
 
   <section id="idDssHmn120therapy">
@@ -8346,8 +8360,9 @@
     <br>* McshElln.βρογχίτιδα,
     <a class="clsHide" href="#idDssHmn126nam"></a></p>
   <p id="idDssHmn126gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssBronchitis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn126gtr"></a></p>
 
   <section id="idDssHmn126symptom">
@@ -8461,8 +8476,9 @@
     <br>* McshElln.γρίπη!=dssFlu,
     <a class="clsHide" href="#idDssHmn127nam"></a></p>
   <p id="idDssHmn127gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <br>* McshEngl.dssFlu-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <a class="clsHide" href="#idDssHmn127gtr"></a></p>
 
   <section id="idDssHmn127symptom">
@@ -8677,8 +8693,9 @@
     <br>* McshElln.κόψιμο.ασθένεια,
     <a class="clsHide" href="#idDssHmn128nam"></a></p>
   <p id="idDssHmn128gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssDiarrhea-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn128gtr"></a></p>
 
   <section id="idDssHmn128therapy">
@@ -8708,7 +8725,7 @@
     <a class="clsHide" href="#idDssHmn128specificdsn"></a></p>
   <p id="idDssHmn128specificnam">name::
     <br>* McshEngl.dssDiarrhea.specific,
-    <br>* McsEngl.dssDiarrhea-str,
+    <br>* McshEngl.dssDiarrhea-str,
     <a class="clsHide" href="#idDssHmn128specificnam"></a></p>
   </section>
 
@@ -8737,8 +8754,9 @@
     <br>* McshElln.ταξιδιωτική-διάρροια,
     <a class="clsHide" href="#idDssHmn139nam"></a></p>
   <p id="idDssHmn139gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssDiarrheaTravel-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn139gtr"></a></p>
 
   <section id="idDssHmn139cause">
@@ -8822,8 +8840,9 @@
     <br>* McshElln.ανεμοβλογιά,
     <a class="clsHide" href="#idDssHmn163nam"></a></p>
   <p id="idDssHmn163gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssChicken_pox-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn163gtr"></a></p>
 
   <section id="idDssHmn163symptom">
@@ -8883,8 +8902,9 @@
     <br>* McshElln.ερυθρα!=dssRubella,
     <a class="clsHide" href="#idDssHmn164nam"></a></p>
   <p id="idDssHmn164gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <br>* McshEngl.dssRubella-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <a class="clsHide" href="#idDssHmn164gtr"></a></p>
 
   <section id="idDssHmn164symptom">
@@ -8947,8 +8967,9 @@
     <br>* McshElln.ηπατίτιδα,
     <a class="clsHide" href="#idDssHmn166nam"></a></p>
   <p id="idDssHmn166gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <br>* McshEngl.dssHepatitis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <a class="clsHide" href="#idDssHmn166gtr"></a></p>
 
   <section id="idDssHmn166symptom">
@@ -9112,7 +9133,7 @@
     <a class="clsHide" href="#idDssHmn166specificdsn"></a></p>
   <p id="idDssHmn166specificnam">name::
     <br>* McshEngl.dssHepatitis.specific,
-    <br>* McsEngl.dssHepatitis-str,
+    <br>* McshEngl.dssHepatitis-str,
     <a class="clsHide" href="#idDssHmn166specificnam"></a></p>
   </section>
   </section>
@@ -9138,8 +9159,9 @@
     <br>* McshElln.ιλαρά!=dssMeasles,
     <a class="clsHide" href="#idDssHmn167nam"></a></p>
   <p id="idDssHmn167gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <br>* McshEngl.dssMeasles-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <a class="clsHide" href="#idDssHmn167gtr"></a></p>
 
   <section id="idDssHmn167symptom">
@@ -9189,8 +9211,9 @@
     <br>* McshElln.λύσσα!=dssRabies,
     <a class="clsHide" href="#idDssHmn168nam"></a></p>
   <p id="idDssHmn168gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <br>* McshEngl.dssRabies-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <a class="clsHide" href="#idDssHmn168gtr"></a></p>
 
   <section id="idDssHmn168symptom">
@@ -9252,8 +9275,9 @@
     <br>* McshElln.παρωτιτιδα,
     <a class="clsHide" href="#idDssHmn169nam"></a></p>
   <p id="idDssHmn169gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <br>* McshEngl.dssParotitis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <a class="clsHide" href="#idDssHmn169gtr"></a></p>
 
   <section id="idDssHmn169symptom">
@@ -9327,8 +9351,9 @@
     <br>* McshElln.πολιομυελίτιδα,
     <a class="clsHide" href="#idDssHmn170nam"></a></p>
   <p id="idDssHmn170gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <br>* McshEngl.dssPoliomyelitis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <a class="clsHide" href="#idDssHmn170gtr"></a></p>
 
   <section id="idDssHmn170symptom">
@@ -9389,8 +9414,9 @@
     <br>* McshElln.ευλογιά!=dssSmallpox,
     <a class="clsHide" href="#idDssHmn171nam"></a></p>
   <p id="idDssHmn171gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <br>* McshEngl.dssSmallpox-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn162">viral-infection</a>,
     <a class="clsHide" href="#idDssHmn171gtr"></a></p>
 
   <section id="idDssHmn171symptom">
@@ -9464,8 +9490,9 @@
     <br>* McshElln.οστρακιά,
     <a class="clsHide" href="#idDssHmn173nam"></a></p>
   <p id="idDssHmn173gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssScarletfever-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn173gtr"></a></p>
 
   <section id="idDssHmn173symptom">
@@ -9529,8 +9556,9 @@
     <br>* McshElln.επιδημικη-μηνιγγιτιδα,
     <a class="clsHide" href="#idDssHmn174nam"></a></p>
   <p id="idDssHmn174gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssMeningitis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn174gtr"></a></p>
 
   <section id="idDssHmn174symptom">
@@ -9649,7 +9677,7 @@
     <a class="clsHide" href="#idDssHmn174specificdsn"></a></p>
   <p id="idDssHmn174specificnam">name::
     <br>* McshEngl.dssMeningitis.specific,
-    <br>* McsEngl.dssMeningitis-str,
+    <br>* McshEngl.dssMeningitis-str,
     <a class="clsHide" href="#idDssHmn174specificnam"></a></p>
   </section>
 
@@ -9695,8 +9723,9 @@
     <br>* McshElln.τυφοειδης-πυρετός,
     <a class="clsHide" href="#idDssHmn175nam"></a></p>
   <p id="idDssHmn175gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssTyphoid_fever-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn175gtr"></a></p>
 
   <section id="idDssHmn175cause">
@@ -9759,8 +9788,9 @@
     <br>* McshElln.τετανος,
     <a class="clsHide" href="#idDssHmn176nam"></a></p>
   <p id="idDssHmn176gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssTetanus-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn176gtr"></a></p>
 
   <section id="idDssHmn176symptom">
@@ -9838,8 +9868,9 @@
     <br>* McshElln.διφθερίτιδα,
     <a class="clsHide" href="#idDssHmn178nam"></a></p>
   <p id="idDssHmn178gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssDiphtheria-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn178gtr"></a></p>
 
   <section id="idDssHmn178symptom">
@@ -9915,8 +9946,9 @@
     <br>* McshElln.μελιταίος-πυρετός,
     <a class="clsHide" href="#idDssHmn179nam"></a></p>
   <p id="idDssHmn179gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssMalta_fever-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn179gtr"></a></p>
 
   <section id="idDssHmn179cause">
@@ -9968,8 +10000,9 @@
     <br>* McshElln.λεπρα,
     <a class="clsHide" href="#idDssHmn180nam"></a></p>
   <p id="idDssHmn180gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssLeprosy-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn180gtr"></a></p>
   <p id="idDssHmn180wtr">whole-tree-of-dssLeprosy::
     <br>* <a class="clsPreview" href="#idDssHmn172">bacterium</a>,
@@ -10034,8 +10067,9 @@
     <br>[https://twitter.com/davidrkadler/status/1239702490142081026 {2020-03-17}]
     <a class="clsHide" href="#idDssHmn181nam"></a></p>
   <p id="idDssHmn181gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssSyphilis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn181gtr"></a></p>
 
   <section id="idDssHmn181symptom">
@@ -10084,8 +10118,9 @@
     <br>* McshElln.βλεννορροια,
     <a class="clsHide" href="#idDssHmn182nam"></a></p>
   <p id="idDssHmn182gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssGonorrhoea-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn182gtr"></a></p>
 
   <section id="idDssHmn182cause">
@@ -10123,8 +10158,9 @@
     <br>* McshElln.αμοιβαδικη-δυσεντερια,
     <a class="clsHide" href="#idDssHmn183nam"></a></p>
   <p id="idDssHmn183gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssAmoebiasis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn183gtr"></a></p>
 
   <section id="idDssHmn183symptom">
@@ -10173,8 +10209,9 @@
     <br>* McshElln.ασκαριδίαση,
     <a class="clsHide" href="#idDssHmn184nam"></a></p>
   <p id="idDssHmn184gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssAscariasis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn184gtr"></a></p>
 
   <section id="idDssHmn184cause">
@@ -10211,8 +10248,9 @@
     <br>* McshElln.οξυουριαση,
     <a class="clsHide" href="#idDssHmn185nam"></a></p>
   <p id="idDssHmn185gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssOxyuriasis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn185gtr"></a></p>
 
   <section id="idDssHmn185symptom">
@@ -10259,8 +10297,9 @@
     <br>* McshElln.τριχινωση,
     <a class="clsHide" href="#idDssHmn186nam"></a></p>
   <p id="idDssHmn186gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssTrichinosis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn186gtr"></a></p>
 
   <section id="idDssHmn186symptom">
@@ -10333,8 +10372,9 @@
     <br>* McshElln.ταινια,
     <a class="clsHide" href="#idDssHmn187nam"></a></p>
   <p id="idDssHmn187gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssEchinococcus-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn187gtr"></a></p>
 
   <section id="idDssHmn187symptom">
@@ -10409,8 +10449,9 @@
     <br>* McshElln.ψωρίαση!=dssScabies,
     <a class="clsHide" href="#idDssHmn188nam"></a></p>
   <p id="idDssHmn188gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssScabies-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn188gtr"></a></p>
 
   <section id="idDssHmn188symptom">
@@ -10460,8 +10501,9 @@
     <br>* McshElln.ψειρες!=dssLousiness,
     <a class="clsHide" href="#idDssHmn189nam"></a></p>
   <p id="idDssHmn189gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssLousiness-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn189gtr"></a></p>
 
   <section id="idDssHmn189symptom">
@@ -10529,8 +10571,9 @@
     <br>* McshElln.μυκητίαση,
     <a class="clsHide" href="#idDssHmn190nam"></a></p>
   <p id="idDssHmn190gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn001">infectious-disease</a>,
     <br>* McshEngl.dssFungal_infection-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn001">infectious-disease</a>,
     <a class="clsHide" href="#idDssHmn190gtr"></a></p>
 
   <section id="idDssHmn190cause">
@@ -10563,8 +10606,9 @@
     <br>* McshElln.σκλήρυνση-κατά-πλάκας,
     <a class="clsHide" href="#idDssHmn195nam"></a></p>
   <p id="idDssHmn195gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssMultiple_sclerosis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn195gtr"></a></p>
 
   <section id="idDssHmn195cause">
@@ -10851,8 +10895,9 @@
     <br>* McshElln.παxυσαρκία-ανθρώπου, {2012-08-14},
     <a class="clsHide" href="#idDssHmn199nam"></a></p>
   <p id="idDssHmn199gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssObesity-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn199gtr"></a></p>
 
   <section id="idDssHmn199protection">
@@ -10921,7 +10966,7 @@
     <br>* McshElln.πάθηση.υποσιτισμος,
     <br>* McshElln.υποσιτισμος,
     <a class="clsHide" href="#idDssHmn200nam"></a></p>
-  <p id="idDssHmn200gtr">generic-tree:
+  <p id="idDssHmn200gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn200gtr"></a></p>
   </section>
@@ -10949,8 +10994,9 @@
     <br>* McshElln.αϋπνία,
     <a class="clsHide" href="#idDssHmn209nam"></a></p>
   <p id="idDssHmn209gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssInsomnia-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn209gtr"></a></p>
 
   <section id="idDssHmn209therapy">
@@ -11040,8 +11086,9 @@
     <br>* McshElln.αντισυλληψη,
     <a class="clsHide" href="#idDssHmn210nam"></a></p>
   <p id="idDssHmn210gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssContraception-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn210gtr"></a></p>
   <p id="idDssHmn210wtr">whole-tree-of-dssContraception::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idBdyHmnatt084">copulation</a>,
@@ -11164,7 +11211,7 @@
     <a class="clsHide" href="#idDssHmn211specificdsn"></a></p>
   <p id="idDssHmn211specificnam">name::
     <br>* McshEngl.dssReproduction.specific,
-    <br>* McsEngl.dssReproduction-str,
+    <br>* McshEngl.dssReproduction-str,
     <a class="clsHide" href="#idDssHmn211specificnam"></a></p>
   </section>
 
@@ -11185,8 +11232,9 @@
     <br>* McshElln.πάθηση.σεξουαλικης/ερωτικης-επιθυμιας,
     <a class="clsHide" href="#idDssHmn217nam"></a></p>
   <p id="idDssHmn217gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn211">dssReproduction</a>,
     <br>* McshEngl.dssLibido-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn211">dssReproduction</a>,
     <a class="clsHide" href="#idDssHmn217gtr"></a></p>
 
   <section id="idDssHmn217cause">
@@ -11271,8 +11319,9 @@
     <br>* McshElln.τροφικη-δηλητηριαση,
     <a class="clsHide" href="#idDssHmn213nam"></a></p>
   <p id="idDssHmn213gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssFood_poisoning-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn213gtr"></a></p>
   <p id="idDssHmn213wtr">whole-tree-of-dssFood_poisoning::
     <br>* <a class="clsPreview" href="#idDssHmn074">stomach</a>,
@@ -11349,8 +11398,9 @@
     <br>* McshElln.λιποθυμία!=dssFaint,
     <a class="clsHide" href="#idDssHmn221nam"></a></p>
   <p id="idDssHmn221gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssFaint-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn221gtr"></a></p>
 
   <section id="idDssHmn221therapy">
@@ -11420,8 +11470,9 @@
     <br>* McshEngl.dssPepticulcer-wtr,
     <a class="clsHide" href="#idDssHmn216wtr"></a></p>
   <p id="idDssHmn216gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssPepticulcer-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn216gtr"></a></p>
 
   <section id="idDssHmn216cause">
@@ -11479,8 +11530,9 @@
     <br>* McshElln.έκζεμα,
     <a class="clsHide" href="#idDssHmn212nam"></a></p>
   <p id="idDssHmn212gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <br>* McshEngl.dssEczema-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn212gtr"></a></p>
 
   <section id="idDssHmn212cause">
@@ -11512,8 +11564,9 @@
     <br>* McshElln.έρπης,
     <a class="clsHide" href="#idDssHmn208nam"></a></p>
   <p id="idDssHmn208gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <br>* McshEngl.dssHerpes-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn208gtr"></a></p>
 
   <section id="idDssHmn208therapy">
@@ -11564,7 +11617,7 @@
     <a class="clsHide" href="#idDssHmn208specificdsn"></a></p>
   <p id="idDssHmn208specificnam">name::
     <br>* McshEngl.dssHerpes.specific,
-    <br>* McsEngl.dssHerpes-str,
+    <br>* McshEngl.dssHerpes-str,
     <a class="clsHide" href="#idDssHmn208specificnam"></a></p>
   </section>
   </section>
@@ -11587,8 +11640,9 @@
     <br>* McshElln.κάψιμο,
     <a class="clsHide" href="#idDssHmn207nam"></a></p>
   <p id="idDssHmn207gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <br>* McshEngl.dssBurn-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn207gtr"></a></p>
 
   <section id="idDssHmn207firewalker">
@@ -11678,8 +11732,9 @@
   <p id="idDssHmn201P1">τα πλοκάμια τους έχουν κύτταρα που εκρίνουν δηλητήριο σε επαφή με το δέρμα.
     <a class="clsHide" href="#idDssHmn201P1"></a></p>
   <p id="idDssHmn201gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <br>* McshEngl.dssStingJellyfish-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn201gtr"></a></p>
 
   <section id="idDssHmn201therapy">
@@ -11715,8 +11770,9 @@
     <br>* McshElln.τσίμπημα-εντόμων,
     <a class="clsHide" href="#idDssHmn202nam"></a></p>
   <p id="idDssHmn202gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <br>* McshEngl.dssStingInsect-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn202gtr"></a></p>
 
   <section id="idDssHmn202therapy">
@@ -11801,8 +11857,9 @@
     <br>* McshElln.μαλλιών-πέσιμο,
     <a class="clsHide" href="#idDssHmn204nam"></a></p>
   <p id="idDssHmn204gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <br>* McshEngl.dssHair_loss-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn204gtr"></a></p>
 
   <section id="idDssHmn204therapy">
@@ -11861,7 +11918,7 @@
     <br>* McshElln.πάθηση.πιτυρίδα,
     <br>* McshElln.πιτυρίδα!=dssDandruff,
     <a class="clsHide" href="#idDssHmn205nam"></a></p>
-  <p id="idDssHmn205gtr">generic-tree:
+  <p id="idDssHmn205gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn205gtr"></a></p>
 
@@ -11894,8 +11951,9 @@
     <br>* McshElln.φωτοχημικη-αλεργία,
     <a class="clsHide" href="#idDssHmn206nam"></a></p>
   <p id="idDssHmn206gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <br>* McshEngl.dssPhotochemical_allergy-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn037">dssSkin</a>,
     <a class="clsHide" href="#idDssHmn206gtr"></a></p>
 
   <section id="idDssHmn206symptom">
@@ -11981,8 +12039,9 @@
     <br>* McshElln.ατροφία-μυός,
     <a class="clsHide" href="#idDssHmn196nam"></a></p>
   <p id="idDssHmn196gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssMuscle_atrophy-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn196gtr"></a></p>
 
   <section id="idDssHmn196protection">
@@ -12019,8 +12078,9 @@
     <br>* McshElln.κράμπα,
     <a class="clsHide" href="#idDssHmn135nam"></a></p>
   <p id="idDssHmn135gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssCramp-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn135gtr"></a></p>
   <p id="idDssHmn135wtr">whole-tree-of-dssCramp::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000005.last.html#idMsclHmn">muscle</a>,
@@ -12151,8 +12211,9 @@
     <br>* McshElln.τερηδόνα!=dssCaries,
     <a class="clsHide" href="#idDssHmn177nam"></a></p>
   <p id="idDssHmn177gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssCaries-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn177gtr"></a></p>
 
   <section id="idDssHmn177protection">
@@ -12202,7 +12263,7 @@
     <br>* McshElln.ίκτερος,
     <br>* McshElln.χρυσή-πάθηση,
     <a class="clsHide" href="#idDssHmn121nam"></a></p>
-  <p id="idDssHmn121gtr">generic-tree:
+  <p id="idDssHmn121gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn121gtr"></a></p>
 
@@ -12222,7 +12283,7 @@
     <br>* McshElln.αποφρακτικός-ίκτερος,
     <br>* McshElln.ίκτερος.αποφρακτικός,
     <a class="clsHide" href="#idDssHmn122nam"></a></p>
-  <p id="idDssHmn122gtr">generic-tree:
+  <p id="idDssHmn122gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn122gtr"></a></p>
   <p id="idDssHmn122wtr">whole-tree:
@@ -12246,7 +12307,7 @@
     <br>* McshElln.πάθηση.χολοκυστίτιδα,
     <br>* McshElln.χολοκυστίτιδα,
     <a class="clsHide" href="#idDssHmn123nam"></a></p>
-  <p id="idDssHmn123gtr">generic-tree:
+  <p id="idDssHmn123gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn123gtr"></a></p>
   <p id="idDssHmn123wtr">whole-tree:
@@ -12271,7 +12332,7 @@
     <br>* McshElln.πάθηση.χολολιθίαση,
     <br>* McshElln.χολολιθίαση,
     <a class="clsHide" href="#idDssHmn125nam"></a></p>
-  <p id="idDssHmn125gtr">generic-tree:
+  <p id="idDssHmn125gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn125gtr"></a></p>
   <p id="idDssHmn125wtr">whole-tree:
@@ -12296,8 +12357,9 @@
     <br>* McshElln.κρυψορχία,
     <a class="clsHide" href="#idDssHmn109nam"></a></p>
   <p id="idDssHmn109gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssCryptorchidism-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn109gtr"></a></p>
   <p id="idDssHmn109wholewtr">whole-tree-of-dssCryptorchidism::
     <br>* ορχης⧺cptDssHmn321⧺,
@@ -12335,8 +12397,9 @@
     <br>* McshElln.πάρκινσον,
     <a class="clsHide" href="#idDssHmn129nam"></a></p>
   <p id="idDssHmn129gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssParkinson-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn129gtr"></a></p>
 
   <section id="idDssHmn129resource">
@@ -12382,8 +12445,9 @@
     <br>* McshElln.κοκκύτης,
     <a class="clsHide" href="#idDssHmn131nam"></a></p>
   <p id="idDssHmn131gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssWhooping_cough-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn131gtr"></a></p>
 
   <section id="idDssHmn131symptom">
@@ -12486,7 +12550,7 @@
     <br>* McshElln.πνευμονία,
     <br>* McshElln.πνευμονική-λοίμωξη,
     <a class="clsHide" href="#idDssHmn133nam"></a></p>
-  <p id="idDssHmn133gtr">generic-tree:
+  <p id="idDssHmn133gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn133gtr"></a></p>
   </section>
@@ -12509,8 +12573,9 @@
     <br>* McshElln.οξεία-νόσος-των-ορέων,
     <a class="clsHide" href="#idDssHmn136nam"></a></p>
   <p id="idDssHmn136gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssAcute_mountain_sickness-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn136gtr"></a></p>
 
   <section id="idDssHmn136cause">
@@ -12586,8 +12651,9 @@
     <br>* McshElln.οισοφαγίτιδα,
     <a class="clsHide" href="#idDssHmn137nam"></a></p>
   <p id="idDssHmn137gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssEsophagitis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn137gtr"></a></p>
 
   <section id="idDssHmn137therapy">
@@ -12614,7 +12680,7 @@
     <a class="clsHide" href="#idDssHmn137specificdsn"></a></p>
   <p id="idDssHmn137specificnam">name::
     <br>* McshEngl.dssEsophagitis.specific,
-    <br>* McsEngl.dssEsophagitis-str,
+    <br>* McshEngl.dssEsophagitis-str,
     <a class="clsHide" href="#idDssHmn137specificnam"></a></p>
   </section>
   </section>
@@ -12652,9 +12718,10 @@
     <br>* McshElln.πονοκέφαλος!=fctgPainingHead,
     <a class="clsHide" href="#idDssHmn138nam"></a></p>
   <p id="idDssHmn138gtr">generic-tree::
+    <br>* McshEngl.fctgPainingHead-gtr,
+    <br>===
     <br>* <a class="clsPreview" href="#idDssHmn272">dssFctPaining</a>,
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
-    <br>* McshEngl.fctgPainingHead-gtr,
     <a class="clsHide" href="#idDssHmn138gtr"></a></p>
 
   <section id="idDssHmn138therapy">
@@ -12744,7 +12811,7 @@
     <a class="clsHide" href="#idDssHmn138specificdsn"></a></p>
   <p id="idDssHmn138specificnam">name::
     <br>* McshEngl.fctgPainingHead.specific,
-    <br>* McsEngl.fctgPainingHead-str,
+    <br>* McshEngl.fctgPainingHead-str,
     <a class="clsHide" href="#idDssHmn138specificnam"></a></p>
   </section>
 
@@ -12845,8 +12912,9 @@
     <br>* McshElln.σιγκέλλα,
     <a class="clsHide" href="#idDssHmn140nam"></a></p>
   <p id="idDssHmn140gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssSigella-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn140gtr"></a></p>
 
   <section id="idDssHmn140cause">
@@ -12922,8 +12990,9 @@
     <br>* McshElln.ελονοσία!=dssMalaria,
     <a class="clsHide" href="#idDssHmn141nam"></a></p>
   <p id="idDssHmn141gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssMalaria-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn141gtr"></a></p>
 
   <section id="idDssHmn141cause">
@@ -12974,8 +13043,9 @@
     <br>* McshElln.βρογχιολίτιδα,
     <a class="clsHide" href="#idDssHmn142nam"></a></p>
   <p id="idDssHmn142gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssBronchiolitis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn142gtr"></a></p>
 
   <section id="idDssHmn142symptom">
@@ -13129,7 +13199,7 @@
     <br>* McshElln.πάθηση.φλεγμονή,
     <br>* McshElln.φλεγμονή,
     <a class="clsHide" href="#idDssHmn143nam"></a></p>
-  <p id="idDssHmn143gtr">generic-tree:
+  <p id="idDssHmn143gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn143gtr"></a></p>
   </section>
@@ -13155,8 +13225,9 @@
     <br>* McshElln.ασθμα,
     <a class="clsHide" href="#idDssHmn144nam"></a></p>
   <p id="idDssHmn144gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssAsthma-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn144gtr"></a></p>
 
   <section id="idDssHmn144diagnosis">
@@ -13286,7 +13357,7 @@
     <br>* McshEngl.chronic-obstructive-pulmonary-disease-(copd),
     <br>* McshEngl.copd,
     <a class="clsHide" href="#idDssHmn147nam"></a></p>
-  <p id="idDssHmn147gtr">generic-tree:
+  <p id="idDssHmn147gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn147gtr"></a></p>
   </section>
@@ -13326,8 +13397,9 @@
     <br>* McshElln.παλινδρόμηση,
     <a class="clsHide" href="#idDssHmn149nam"></a></p>
   <p id="idDssHmn149gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssGastroesophageal_reflux-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn149gtr"></a></p>
 
   <section id="idDssHmn149therapy">
@@ -13363,8 +13435,9 @@
     <br>* McshElln.αρθρίτιδα,
     <a class="clsHide" href="#idDssHmn150nam"></a></p>
   <p id="idDssHmn150gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssArthritis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn150gtr"></a></p>
 
   <section id="idDssHmn150therapy">
@@ -13408,8 +13481,9 @@
     <br>* McshElln.εγκεφαλικό-επεισόδιο,
     <a class="clsHide" href="#idDssHmn151nam"></a></p>
   <p id="idDssHmn151gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssStroke-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn151gtr"></a></p>
 
   <section id="idDssHmn151symptom">
@@ -13552,7 +13626,7 @@
     <br>* McshElln.πάθηση.πλατυποδία,
     <br>* McshElln.πλατυποδία,
     <a class="clsHide" href="#idDssHmn099nam"></a></p>
-  <p id="idDssHmn099gtr">generic-tree:
+  <p id="idDssHmn099gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn099gtr"></a></p>
   <p id="idDssHmn099wtr">whole-tree:
@@ -13579,8 +13653,9 @@
     <br>* McshElln.υγεία-και-κομπιούτερ,
     <a class="clsHide" href="#idDssHmn089nam"></a></p>
   <p id="idDssHmn089gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssInfo_tech-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn089gtr"></a></p>
   <p id="idDssHmn089wtr">whole-tree-of-dssInfo_tech::
     <br>* info-tech,
@@ -13707,8 +13782,9 @@
     <br>* McshEngl.sudden-infant-death-syndrome,
     <a class="clsHide" href="#idDssHmn152nam"></a></p>
   <p id="idDssHmn152gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssSIDS-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn152gtr"></a></p>
   </section>
 
@@ -13771,8 +13847,9 @@
     <br>* McshElln.χολέρα,
     <a class="clsHide" href="#idDssHmn155nam"></a></p>
   <p id="idDssHmn155gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssCholera-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn155gtr"></a></p>
 
   <section id="idDssHmn155protection">
@@ -13818,8 +13895,9 @@
     <br>* McshElln.ωτίτιδα,
     <a class="clsHide" href="#idDssHmn156nam"></a></p>
   <p id="idDssHmn156gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssOtitis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn156gtr"></a></p>
 
   <section id="idDssHmn156therapy">
@@ -13998,8 +14076,9 @@
     <br>* McshElln.στοματίτιδα,
     <a class="clsHide" href="#idDssHmn157nam"></a></p>
   <p id="idDssHmn157gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssStomatitis-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn157gtr"></a></p>
 
   <section id="idDssHmn157therapy">
@@ -14035,8 +14114,9 @@
     <br>* McshElln.αφυδάτωση,
     <a class="clsHide" href="#idDssHmn158nam"></a></p>
   <p id="idDssHmn158gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssDehydration-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn158gtr"></a></p>
 
   <section id="idDssHmn158therapy">
@@ -14230,8 +14310,9 @@
     <br>* McshElln.πάθηση-απο-χοληστερίνη,
     <a class="clsHide" href="#idDssHmn015nam"></a></p>
   <p id="idDssHmn015gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmn007">entity.model.information.evaluation.problem.disease.animal.human</a>,
     <br>* McshEngl.dssCholesterol-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmn007">entity.model.information.evaluation.problem.disease.animal.human</a>,
     <a class="clsHide" href="#idDssHmn015gtr"></a></p>
   <p id="idDssHmn015wtr">whole-tree-of-dssCholesterol::
     <br>* <a class="clsPreview" href="../dirOgm/McshOgm000004.last.html#idMolOgm016001">cholesterol</a>,
@@ -14893,8 +14974,9 @@
     <br>* McshElln.τενοντίτιδα,
     <a class="clsHide" href="#idDssHmn018nam"></a></p>
   <p id="idDssHmn018gtr">generic-tree::
-    <br>πάθηση⧺cptBdyHmn047⧺,
     <br>* McshEngl.dssTendonitis-gtr,
+    <br>===
+    <br>πάθηση⧺cptBdyHmn047⧺,
     <a class="clsHide" href="#idDssHmn018gtr"></a></p>
 
   <section id="idDssHmn018cause">
@@ -15389,12 +15471,11 @@
     <br>* McshEngl.dssSysImmune'generic-specific-tree,
     <br>* McshEngl.dssSysImmune'specific-generic-tree,
     <a class="clsHide" href="#idDssHmn021gstrnam"></a></p>
-  <p id="idDssHmn021gtr">generic-of-dssSysImmune::
-    <br>*
+  <p id="idDssHmn021gtr">generic-tree::
+    <br>* McshEngl.dssSysImmune-gtr,
+    <br>===
+    <br>* ... entity-gtr,
     <a class="clsHide" href="#idDssHmn021gtr"></a></p>
-  <p id="idDssHmn021atttr">attribute-tree-of-dssSysImmune::
-    <br>* ,
-    <a class="clsHide" href="#idDssHmn021atttr"></a></p>
   <p id="idDssHmn021attihf">att-inherited-from::
     <br>· :
     <br>* ,
@@ -15490,19 +15571,11 @@
     <br>* McshEngl.nutritional-imbalance'generic-specific-tree,
     <br>* McshEngl.nutritional-imbalance'specific-generic-tree,
     <a class="clsHide" href="#idDssHmn026gstrnam"></a></p>
-  <p id="idDssHmn026gtr">generic-of-nutritional-imbalance::
+  <p id="idDssHmn026gtr">generic-tree::
+    <br>* McshEngl.nutritional-imbalance-gtr,
+    <br>===
     <br>* <a class="clsPreview" href="#idDssHmn226">dssImbalance</a>,
     <a class="clsHide" href="#idDssHmn026gtr"></a></p>
-  <p id="idDssHmn026atttr">attribute-tree-of-nutritional-imbalance::
-    <br>* ,
-    <a class="clsHide" href="#idDssHmn026atttr"></a></p>
-  <p id="idDssHmn026attihf">att-tree-inherited-from::
-    <br>· :
-    <br>* ,
-    <a class="clsHide" href="#idDssHmn026attihf"></a></p>
-  <p id="idDssHmn026attown">att-tree-own-of-nutritional-imbalance::
-    <br>* ,
-    <a class="clsHide" href="#idDssHmn026attown"></a></p>
   <p id="idDssHmn026str">specific-of-nutritional-imbalance::
     <br>* mineral-imbalance:
     <br>** calcium-imbalance,
@@ -15892,8 +15965,9 @@
     <br>* McshElln.αβιταμίνωση,
     <a class="clsHide" href="#idDssHmn172nam"></a></p>
   <p id="idDssHmn172gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <br>* McshEngl.dssVitaminDeficiency-gtr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idDssHmngtr">disease-gtr</a>,
     <a class="clsHide" href="#idDssHmn172gtr"></a></p>
 
   <section id="idDssHmn172specific">
@@ -15907,7 +15981,7 @@
     <a class="clsHide" href="#idDssHmn172specificdsn"></a></p>
   <p id="idDssHmn172specificnam">name::
     <br>* McshEngl.dssVitaminDeficiency.specific,
-    <br>* McsEngl.dssVitaminDeficiency-str,
+    <br>* McshEngl.dssVitaminDeficiency-str,
     <a class="clsHide" href="#idDssHmn172specificnam"></a></p>
   </section>
   </section>
@@ -16008,9 +16082,10 @@
     <br>* McshEngl.dssProstate'specific-generic-tree,
     <a class="clsHide" href="#idDssHmn044gstrnam"></a></p>
   <p id="idDssHmn044gtr">generic-tree::
+    <br>* McshEngl.dssProstate-gtr,
+    <br>===
     <br>*
     <br>* ... entity-gtr,
-    <br>* McshEngl.dssProstate-gtr,
     <a class="clsHide" href="#idDssHmn044gtr"></a></p>
   <p id="idDssHmn044str">specific-tree::
     <br>* prostate-cancer,
@@ -16582,9 +16657,10 @@
     <br>* McshElln.πόνου-αίσθηση!=dssFctPaining,
     <a class="clsHide" href="#idDssHmn272nam"></a></p>
   <p id="idDssHmn272gtr">generic-tree::
+    <br>* McshEngl.dssFctPaining-gtr,
+    <br>===
     <br>* disease,
     <br>* <a class="clsPreview" href="../dirCor/McshCor000018.last.html#idOverview003">sensing</a>,
-    <br>* McshEngl.dssFctPaining-gtr,
     <a class="clsHide" href="#idDssHmn272gtr"></a></p>
 
   <section id="idDssHmn272cntr">
