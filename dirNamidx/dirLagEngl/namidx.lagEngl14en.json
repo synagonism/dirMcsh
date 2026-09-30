@@ -1,5 +1,5 @@
 [
-  [";lagEngl14en","N|n",2578,"2026-09-29"],
+  [";lagEngl14en","N|n",2578,"2026-09-30"],
   ["N-11@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrN-11"],
   ["N-Quads-lagoRdfw","dirTchInf/McshTchInf000039.last.html#idLKnlg014Nqds"],
   ["N-Triple-lagoRdfw","dirTchInf/McshTchInf000039.last.html#idLKnlg014Ntrpl"],
@@ -2033,8 +2033,8 @@
   ["nounEnglC1.spacecraft;spacecraft","dirLag/McshLag000024.last.html#idLEnglnounC1-207"],
   ["nounEnglC1.spaghetti;spaghetti","dirLag/McshLag000024.last.html#idLEnglnounC1-208"],
   ["nounEnglC1.species;species","dirLag/McshLag000024.last.html#idLEnglnounC1-209"],
-  ["nounEnglC1.specific","dirLag/McshLag000024.last.html#idWrdrEnglNounC1"],
   ["nounEnglC1.specific","dirLag/McshLag000011.last.html#idLEnglnounCstr"],
+  ["nounEnglC1.specific","dirLag/McshLag000024.last.html#idWrdrEnglNounC1"],
   ["nounEnglC1.spokesman;spokesmen","dirLag/McshLag000024.last.html#idLEnglnounC1-210"],
   ["nounEnglC1.squid;squid","dirLag/McshLag000024.last.html#idLEnglnounC1-211"],
   ["nounEnglC1.stadium;stadia|stadiums","dirLag/McshLag000024.last.html#idLEnglnounC1-212"],

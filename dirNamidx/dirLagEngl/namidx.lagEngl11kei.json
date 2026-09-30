@@ -1,5 +1,5 @@
 [
-  [";lagEngl11kei","K|k",1665,"2026-09-29"],
+  [";lagEngl11kei","K|k",1664,"2026-09-30"],
   ["K!=1000!=Kilo!=thousand","dirCor/McshCor000010.last.html#idQntNbr1000"],
   ["K-kilo=x1000","dirCor/McshCor000010.last.html#idQntRlvMlplKilo"],
   ["K12-education","dirStn/McshStn000042.last.html#idSctrEduBasc"],
@@ -110,8 +110,8 @@
   ["KeynesGt/Classical-school","dirStn/dirHitp/HitpStnEcon000.last.html#idCptEconomicsAclassical"],
   ["KeynesGt/Classical-theory","dirStn/dirHitp/HitpStnEcon000.last.html#idCptEconomicsAclassical"],
   ["KeynesGt/Closed-system","dirStn/dirHitp/HitpStnEcon000.last.html#idCptEconomySopenNo"],
-  ["KeynesGt/Community","dirStn/dirHitp/HitpStnEcon000.last.html#idCptConsumerStotal"],
   ["KeynesGt/Community","dirStn/dirHitp/HitpStnEcon000.last.html#idCptIndividualStotal"],
+  ["KeynesGt/Community","dirStn/dirHitp/HitpStnEcon000.last.html#idCptConsumerStotal"],
   ["KeynesGt/Community's-income","dirStn/dirHitp/HitpStnEcon000.last.html#idCptY"],
   ["KeynesGt/Community-as-a-whole","dirStn/dirHitp/HitpStnEcon000.last.html#idCptIndividualStotal"],
   ["KeynesGt/Concept","dirStn/dirHitp/HitpStnEcon000.last.html#idCptConcept"],
@@ -1663,6 +1663,5 @@
   ["kuài-块-measure-word-for-pieces-of-objects-and-for-money","dirLag/McshLag000018.last.html#idLZhonargomwstr"],
   ["kuài..máo-块..毛!=Evu","dirStn/McshStn000029.last.html#idSfrFin019Unt"],
   ["kuàizǐ-筷子!=toolChopstick","dirTch/McshTch000002.last.html#idTch003007"],
-  ["kyr!=1000-years!⇒{iK1}","dirCor/McshCor000006.last.html#idTimeUomYearK"],
-  ["kǎo-考!=test","dirCor/McshCor000016.last.html#idOverview"]
+  ["kyr!=1000-years!⇒{iK1}","dirCor/McshCor000006.last.html#idTimeUomYearK"]
 ]

@@ -1,5 +1,5 @@
 [
-  [";lagEngl01ei","A|a",5243,"2026-09-29"],
+  [";lagEngl01ei","A|a",5243,"2026-09-30"],
   ["AA!=artificial-agent!⇒techAA","dirTchInf/McshTchInf000002.last.html#idTchInf024"],
   ["AA@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrAA"],
   ["AAGR@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrAAGR"],
@@ -5085,8 +5085,8 @@
   ["attribute.lagoSngu!=eu","dirCor/McshCor000003.last.html#idEntatt"],
   ["attribute.new","dirCor/McshCor000003.last.html#idEntYangattnew"],
   ["attribute.old","dirCor/McshCor000003.last.html#idEntYangNattold"],
-  ["attribute.specific","dirCor/McshCor000002.last.html#idMcsattstr"],
   ["attribute.specific","dirCor/McshCor000003.last.html#idEntattstr"],
+  ["attribute.specific","dirCor/McshCor000002.last.html#idMcsattstr"],
   ["attribute.wholeNo.specific","dirCor/McshCor000002.last.html#idMcsattWhlNostr"],
   ["attributeNo-unsequenced-relation","dirCor/McshCor000005.last.html#idRlnAttNSN"],
   ["attributes!~plural","dirCor/McshCor000003.last.html#idEntatt"],
