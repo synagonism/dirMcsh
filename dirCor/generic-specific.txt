@@ -1,0 +1,423 @@
+Mcsh*.last.html WITHOUT GENERIC-SPECIFIC-TREE at h1 level
+worldview: C:\dirNodews\dirMcsh   date: 2026-10-01
+592 scanned | 179 have h1 GS-TREE | 413 do not
+
+A. HAS OTHER h1 TREE SECTIONS, GS-TREE MISSING (25)  -- line = insertion point
+McshCor000006:350  (after: EVOLUTING of time)
+McshCor000007:779  (after: EVOLUTING of space)
+McshCor000010:184  (after: EVOLUTING of quanto)
+McshLag000005:122  (after: DOING of lagoOgnm)
+McshLag000006:88  (after: EVOLUTING of char)
+McshLag000008:669  (after: EVOLUTING of AlfaLago)
+McshLag000009:3954  (after: EVOLUTING of spch_lago)
+McshLag000018:17270  (after: WHOLE-PART-TREE of Zhon_lago)
+McshNtr000008:54  (after: EVOLUTING of bioNosys)
+McshTchInf000006:1005  (after: DOING of PgmgLago)
+McshTchInf000012:9238  (after: EVOLUTING of Jsnd_lago)
+McshTchInf000013:1383  (after: EVOLUTING of Jsel_lago)
+McshTchInf000016:4489  (after: DOING of AnBlockchain)
+McshTchInf000017:7983  (after: DOING of DnBitcoin)
+McshTchInf000018:10786  (after: EVOLUTING of DnEthereum)
+McshTchInf000019:885  (after: DOING of DeOzn)
+McshTchInf000020:2807  (after: EVOLUTING of Chrono.tech)
+McshTchInf000021:2785  (after: DOING of Deos)
+McshTchInf000024:3546  (after: DOING of Steem-net)
+McshTchInf000025:941  (after: DOING of Everipedia)
+McshTchInf000026:1751  (after: EVOLUTING of Blockstack-net)
+McshTchInf000028:2137  (after: EVOLUTING of DnDiem)
+McshTchInf000030:3449  (after: EVOLUTING of lagRust)
+McshTchInf000031:2111  (after: EVOLUTING of lagCppl)
+
+B. SUBSTANTIVE CONCEPT PAGES, NO TREE SECTIONS AT ALL (12)
+McshLag000010  h1=16  Sinagu--human-mind-language
+McshLag000011  h1=15  International-English--human-mind-language
+McshLag000012  h1=16  Esperanto--human-mind-language
+McshLag000016  h1=55  unlinked-abbreviation (abrn)
+McshLag000017  h1=10  ISO-human-mind-language
+McshTchInf000010  h1=33  JavaScript-language senso-concept-Mcs
+McshTchInf000014  h1=29  WebAssembly--programing-language
+McshTchInf000022  h1=22  structured-concept:
+McshTchInf000023  h1=13  Mcs.Iota-network (DnIota)
+McshTchInf000027  h1=15  NEO--blockchain-network (Neo-net)
+McshTchInf000029  h1=17  JSON-language (lagoJson)
+McshTchInf000032  h1=17  Mcs.Git-repository (Gitrepo)
+
+C. GS-TREE PRESENT BUT NOT AT h1 (2)
+McshTchInf000005:960  h3  GENERIC-SPECIFIC-TREE of docNtxt
+McshTchInf000011:2350  h2  GENERIC-SPECIFIC-TREE of Jsbr_algo
+
+D. NOT CONCEPT PAGES - GS-TREE NOT EXPECTED (374)
+Mcsh000001
+McshCor000000
+McshCor000001
+McshCor000017
+McshEdu000000
+McshEdu000001
+McshEdu000004
+McshHlth000000
+McshHlth000001
+McshHlth000017
+McshHmn000000
+McshHmn000001
+McshHmn000004
+McshLag000000
+McshLag000001
+McshLag000015
+McshNtr000000
+McshNtr000001
+McshNtr000016
+McshOgm000000
+McshOgm000001
+McshOgm000012
+McshStn000000
+McshStn000001
+McshStn000025
+McshStnlaw000000
+McshStnlaw000001
+McshStnlaw000005
+McshTch000000
+McshTch000001
+McshTch000004
+McshTchInf000000
+McshTchInf000001
+McshTchInf000033
+McshTchInf000034
+McshTchInfTest
+McshUcd000000
+McshUcd000001
+McshUcd000002
+McshUcdU0000
+McshUcdU0080
+McshUcdU0100
+McshUcdU0180
+McshUcdU0250
+McshUcdU02B0
+McshUcdU0300
+McshUcdU0370
+McshUcdU0400
+McshUcdU0500
+McshUcdU0530
+McshUcdU0590
+McshUcdU0600
+McshUcdU0700
+McshUcdU0750
+McshUcdU0780
+McshUcdU07C0
+McshUcdU0800
+McshUcdU0840
+McshUcdU0860
+McshUcdU08A0
+McshUcdU0900
+McshUcdU0980
+McshUcdU0A00
+McshUcdU0A80
+McshUcdU0B00
+McshUcdU0B80
+McshUcdU0C00
+McshUcdU0C80
+McshUcdU0D00
+McshUcdU0D80
+McshUcdU0E00
+McshUcdU0E80
+McshUcdU0F00
+McshUcdU1000
+McshUcdU10000
+McshUcdU100000
+McshUcdU10080
+McshUcdU10100
+McshUcdU10140
+McshUcdU10190
+McshUcdU101D0
+McshUcdU10280
+McshUcdU102A0
+McshUcdU102E0
+McshUcdU10300
+McshUcdU10330
+McshUcdU10350
+McshUcdU10380
+McshUcdU103A0
+McshUcdU10400
+McshUcdU10450
+McshUcdU10480
+McshUcdU104B0
+McshUcdU10500
+McshUcdU10530
+McshUcdU10600
+McshUcdU10800
+McshUcdU10840
+McshUcdU10860
+McshUcdU10880
+McshUcdU108E0
+McshUcdU10900
+McshUcdU10920
+McshUcdU10980
+McshUcdU109A0
+McshUcdU10A0
+McshUcdU10A00
+McshUcdU10A60
+McshUcdU10A80
+McshUcdU10AC0
+McshUcdU10B00
+McshUcdU10B40
+McshUcdU10B60
+McshUcdU10B80
+McshUcdU10C00
+McshUcdU10C80
+McshUcdU10D00
+McshUcdU10E60
+McshUcdU10F00
+McshUcdU10F30
+McshUcdU1100
+McshUcdU11000
+McshUcdU11080
+McshUcdU110D0
+McshUcdU11100
+McshUcdU11150
+McshUcdU11180
+McshUcdU111E0
+McshUcdU11200
+McshUcdU11280
+McshUcdU112B0
+McshUcdU11300
+McshUcdU11400
+McshUcdU11480
+McshUcdU11580
+McshUcdU11600
+McshUcdU11660
+McshUcdU11680
+McshUcdU11700
+McshUcdU11800
+McshUcdU118A0
+McshUcdU11A00
+McshUcdU11A50
+McshUcdU11AC0
+McshUcdU11C00
+McshUcdU11C70
+McshUcdU11D00
+McshUcdU11D60
+McshUcdU11EE0
+McshUcdU1200
+McshUcdU12000
+McshUcdU12400
+McshUcdU12480
+McshUcdU13000
+McshUcdU1380
+McshUcdU13A0
+McshUcdU1400
+McshUcdU14400
+McshUcdU1680
+McshUcdU16800
+McshUcdU16A0
+McshUcdU16A40
+McshUcdU16AD0
+McshUcdU16B00
+McshUcdU16E40
+McshUcdU16F00
+McshUcdU16FE0
+McshUcdU1700
+McshUcdU17000
+McshUcdU1720
+McshUcdU1740
+McshUcdU1760
+McshUcdU1780
+McshUcdU1800
+McshUcdU18800
+McshUcdU18B0
+McshUcdU1900
+McshUcdU1950
+McshUcdU1980
+McshUcdU19E0
+McshUcdU1A00
+McshUcdU1A20
+McshUcdU1AB0
+McshUcdU1B00
+McshUcdU1B000
+McshUcdU1B100
+McshUcdU1B170
+McshUcdU1B80
+McshUcdU1BC0
+McshUcdU1BC00
+McshUcdU1BCA0
+McshUcdU1C00
+McshUcdU1C50
+McshUcdU1C80
+McshUcdU1C90
+McshUcdU1CC0
+McshUcdU1CD0
+McshUcdU1D00
+McshUcdU1D000
+McshUcdU1D100
+McshUcdU1D200
+McshUcdU1D2E0
+McshUcdU1D300
+McshUcdU1D360
+McshUcdU1D400
+McshUcdU1D80
+McshUcdU1D800
+McshUcdU1DC0
+McshUcdU1E00
+McshUcdU1E000
+McshUcdU1E800
+McshUcdU1E900
+McshUcdU1EC70
+McshUcdU1EE00
+McshUcdU1F00
+McshUcdU1F000
+McshUcdU1F030
+McshUcdU1F0A0
+McshUcdU1F100
+McshUcdU1F200
+McshUcdU1F300
+McshUcdU1F600
+McshUcdU1F650
+McshUcdU1F680
+McshUcdU1F700
+McshUcdU1F780
+McshUcdU1F800
+McshUcdU1F900
+McshUcdU1FA00
+McshUcdU2000
+McshUcdU20000
+McshUcdU2070
+McshUcdU20A0
+McshUcdU20D0
+McshUcdU2100
+McshUcdU2150
+McshUcdU2190
+McshUcdU2200
+McshUcdU2300
+McshUcdU2400
+McshUcdU2440
+McshUcdU2460
+McshUcdU2500
+McshUcdU2580
+McshUcdU25A0
+McshUcdU2600
+McshUcdU2700
+McshUcdU27C0
+McshUcdU27F0
+McshUcdU2800
+McshUcdU2900
+McshUcdU2980
+McshUcdU2A00
+McshUcdU2A700
+McshUcdU2B00
+McshUcdU2B740
+McshUcdU2B820
+McshUcdU2C00
+McshUcdU2C60
+McshUcdU2C80
+McshUcdU2CEB0
+McshUcdU2D00
+McshUcdU2D30
+McshUcdU2D80
+McshUcdU2DE0
+McshUcdU2E00
+McshUcdU2E80
+McshUcdU2F00
+McshUcdU2F800
+McshUcdU2FF0
+McshUcdU3000
+McshUcdU3040
+McshUcdU30A0
+McshUcdU3100
+McshUcdU3130
+McshUcdU3190
+McshUcdU31A0
+McshUcdU31C0
+McshUcdU31F0
+McshUcdU3200
+McshUcdU3300
+McshUcdU3400
+McshUcdU4DC0
+McshUcdU4E00
+McshUcdUA000
+McshUcdUA490
+McshUcdUA4D0
+McshUcdUA500
+McshUcdUA640
+McshUcdUA6A0
+McshUcdUA700
+McshUcdUA720
+McshUcdUA800
+McshUcdUA830
+McshUcdUA840
+McshUcdUA880
+McshUcdUA8E0
+McshUcdUA900
+McshUcdUA930
+McshUcdUA960
+McshUcdUA980
+McshUcdUA9E0
+McshUcdUAA00
+McshUcdUAA60
+McshUcdUAA80
+McshUcdUAAE0
+McshUcdUAB00
+McshUcdUAB30
+McshUcdUAB70
+McshUcdUABC0
+McshUcdUAC00
+McshUcdUD7B0
+McshUcdUD800
+McshUcdUDB80
+McshUcdUDC00
+McshUcdUE000
+McshUcdUE0000
+McshUcdUE0100
+McshUcdUF0000
+McshUcdUF900
+McshUcdUFB00
+McshUcdUFB50
+McshUcdUFE00
+McshUcdUFE10
+McshUcdUFE20
+McshUcdUFE30
+McshUcdUFE50
+McshUcdUFE70
+McshUcdUFF00
+McshUcdUFFF0
+McshTchPrgm000000
+McshTchPrgm000001
+McshTchPrgm000004
+McshWrdidxElln00
+McshWrdidxElln01alfa_1
+McshWrdidxElln01alfa_2
+McshWrdidxElln01alfa_3
+McshWrdidxElln01alfa_4
+McshWrdidxElln01alfa_5
+McshWrdidxElln02vita
+McshWrdidxElln03yama
+McshWrdidxElln04dhelta
+McshWrdidxElln05epsilon_1
+McshWrdidxElln05epsilon_2
+McshWrdidxElln05epsilon_3
+McshWrdidxElln06zita
+McshWrdidxElln07ita
+McshWrdidxElln08thita
+McshWrdidxElln09yxota
+McshWrdidxElln10kapa_1
+McshWrdidxElln10kapa_2
+McshWrdidxElln10kapa_3
+McshWrdidxElln11lamdha
+McshWrdidxElln12mi_1
+McshWrdidxElln12mi_2
+McshWrdidxElln12mi_3
+McshWrdidxElln12mi_4
+McshWrdidxElln12mi_5
+McshWrdidxElln13ni
+McshWrdidxElln14ksi
+McshWrdidxElln15omikron
+McshWrdidxElln16pi_1
+McshWrdidxElln16pi_2
+McshWrdidxElln16pi_3
+McshWrdidxElln17ro
+McshWrdidxElln18siyma_1
+McshWrdidxElln18siyma_2
+McshWrdidxElln18siyma_3
+McshWrdidxElln19taf
+McshWrdidxElln20ipsilon
+McshWrdidxElln21fi
+McshWrdidxElln22hxi
+McshWrdidxElln23psi
+McshWrdidxElln24oméya
