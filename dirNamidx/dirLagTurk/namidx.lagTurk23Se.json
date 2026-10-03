@@ -1,7 +1,7 @@
 [
-  [";lagTurk23Se","Ş|ş",22,"2026-10-03"],
+  [";lagTurk23Se","Ş|ş",21,"2026-10-03"],
   ["şapka!=hat!=circumflexTurk","dirLag/McshLag000030.last.html#idLTurkltrCirc"],
-  ["şarj-etmek!=to-charge","dirLag/McshLag000030.last.html#idLTurkverbComp"],
+  ["şarj-etmek!=to-charge","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["şarkı-(türkü)-söylemek!=to-sing","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["şart-kipi!=conditional-moodTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrCond"],
   ["şartlandırmak!=to-condition","dirLag/McshLag000030.last.html#idLTurkverbstr"],
@@ -10,7 +10,6 @@
   ["şekillenmek!=to-be-formed","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["şiddetlenmek!=to-become-more-intense","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["şikâyet-etmek!=to-complain","dirLag/McshLag000030.last.html#idLTurkverbstr"],
-  ["şikâyet-etmek!=to-complain","dirLag/McshLag000030.last.html#idLTurkverbComp"],
   ["şimdi!=now!=pronTurkTime","dirLag/McshLag000030.last.html#idLTurkpronTime"],
   ["şimdiki-zaman!=mVTurkPresSimp","dirLag/McshLag000030.last.html#idLTurkverbmbrPresSimp"],
   ["şimdiki-zaman!=present!=mVTurkPres","dirLag/McshLag000030.last.html#idLTurkverbmbrPres"],
@@ -20,6 +19,6 @@
   ["şişirmek!=to-blow","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["şişmanlamak!=to-fatten","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["şişmek!=to-be-blown","dirLag/McshLag000030.last.html#idLTurkverbstr"],
-  ["şükretmek!=to-thank","dirLag/McshLag000030.last.html#idLTurkverbComp"],
+  ["şükretmek!=to-thank","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["şüphelenmek!=to-suspect","dirLag/McshLag000030.last.html#idLTurkverbstr"]
 ]
