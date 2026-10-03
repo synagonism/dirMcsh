@@ -1,5 +1,5 @@
 [
-  [";lagEngl21yxu","U|u",4710,"2026-10-03"],
+  [";lagEngl21yxu","U|u",4712,"2026-10-03"],
   ["U+0000..U+007F'Infrsc","dirTchInf/dirUcd/McshUcdU0000.last.html#idU0000rscnam"],
   ["U+0000..U+007F'char","dirTchInf/dirUcd/McshUcdU0000.last.html#idU0000chr"],
   ["U+0000..U+007F'evoluting","dirTchInf/dirUcd/McshUcdU0000.last.html#idU0000EvgFT"],
@@ -3753,6 +3753,7 @@
   ["Unlaw!⇒lawUn","dirStn/McshStn000018.last.html#idOznUnatt021"],
   ["Unms","dirStn/McshStn000018.last.html#idOznUnatt006"],
   ["Unms!=Un-member-state","dirStn/McshStn000018.last.html#idOznUnatt006"],
+  ["Unms-str","dirStn/McshStn000018.last.html#idOznUnatt006str"],
   ["Unms.Afghanistan-{1946-11-19}","dirStn/McshStn000018.last.html#idOznUnatt006strdsn"],
   ["Unms.Albania-{1955-12-14}","dirStn/McshStn000018.last.html#idOznUnatt006strdsn"],
   ["Unms.Algeria-{1962-10-08}","dirStn/McshStn000018.last.html#idOznUnatt006strdsn"],
@@ -4657,6 +4658,7 @@
   ["usability-of-AlgoNet","dirTchInf/McshTchInf000015.last.html#idAlgntelnSconEsou"],
   ["usability-of-Anasset","dirTchInf/McshTchInf000015.last.html#idAlgntevuusblt"],
   ["usage-Sfrowner","dirStn/McshStn000010.last.html#idSfrHmnatt010Usg"],
+  ["usage-Sfrowner-gtr","dirStn/McshStn000010.last.html#idSfrHmnatt010Usggtr"],
   ["usageInfo@schema.org","dirStn/McshStn000023.last.html#idScmousageInfo"],
   ["use!~verbEnglB1-1:use;uses;used;using;used","dirLag/McshLag000024.last.html#idLEnglverbB1-1"],
   ["use-Sfrowner","dirStn/McshStn000010.last.html#idSfrHmnatt010Usg"],
