@@ -1,8 +1,8 @@
 [
-  [";lagEngl17kxu","Q|q",382,"2026-10-03"],
+  [";lagEngl17kxu","Q|q",378,"2026-10-04"],
   ["QA!=question-answering-system!⇒techQa","dirTchInf/McshTchInf000036.last.html#idTchNlp008"],
   ["QAPage@schema.org","dirStn/McshStn000023.last.html#idScmoQAPage"],
-  ["QAR!=Qatar-Riyal-currency","dirStn/McshStn000029.last.html#idSfrFin019UntSpc"],
+  ["QAR!=Qatar-Riyal-currency","dirStn/McshStn000029.last.html#idSfrFin019Untstr"],
   ["QCN-QuazarCoin","dirTchInf/McshTchInf000016.last.html#idQcnevuC"],
   ["QIT!=quantum-information-theory","dirTchInf/McshTchInf000003.last.html#idCmrQtmqith"],
   ["QML!=quantum-machine-learning","dirTchInf/McshTchInf000036.last.html#idTchInf008Qntm"],
@@ -32,7 +32,6 @@
   ["Quiz@schema.org","dirStn/McshStn000023.last.html#idScmoQuiz"],
   ["Quotation@schema.org","dirStn/McshStn000023.last.html#idScmoQuotation"],
   ["QuoteAction@schema.org","dirStn/McshStn000023.last.html#idScmoQuoteAction"],
-  ["qián-钱!=money","dirStn/McshStn000029.last.html#idSfrFin019"],
   ["qiǎokθlμ-巧克力:块-kuài!=chocolate","dirHlth/McshHlth000013.last.html#idFoodHmn202"],
   ["quadratic-voting","dirStn/McshStn000008.last.html#idOgznatt001qcvg"],
   ["quadriceps-extensor!⇒muscleQuadriceps","dirHlth/McshHlth000005.last.html#idMsclHmn021"],
@@ -378,8 +377,5 @@
   ["quizzically!~Engl_adve","dirLag/McshLag000011.last.html#idLEngladve_337"],
   ["quorum-sensing-in-Dsys","dirCor/McshCor000011.last.html#idSys015att001"],
   ["quoted-shares@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-quoted-shares"],
-  ["quotient","dirCor/McshCor000005.last.html#idRlnDvsnqnt"],
-  ["quánqiú-ānquán-chàngyì-全球安全倡议!=global-security-initiative","dirStn/McshStn000021.last.html#idGlbladmnatt003"],
-  ["qīhuòhéyuē-期货合约-(期貨合約)!=finFuture","dirStn/McshStn000029.last.html#idSfrFin014"],
-  ["qīquán-期权-(期權)!=finOption","dirStn/McshStn000029.last.html#idSfrFin015"]
+  ["quotient","dirCor/McshCor000005.last.html#idRlnDvsnqnt"]
 ]

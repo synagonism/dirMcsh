@@ -1,5 +1,5 @@
 [
-  [";lagZhon023","z",10906,"2026-10-03"],
+  [";lagZhon023","z",10907,"2026-10-04"],
   ["Zhó-浙!=ChnaZhejiang","dirStn/McshStn000031.last.html#idChnaadmnatt015CNZJ"],
   ["ZhójiāngShěng-浙江省","dirStn/McshStn000031.last.html#idChnaadmnatt015CNZJ"],
   ["Zhōnghuá-Rénmín-Gònghéguó-Guówùyuàn-中华人民共和国国务院!=Chnaadmnsc","dirStn/McshStn000031.last.html#idChnaadmnatt004"],
@@ -205,6 +205,7 @@
   ["zhènghǎo-正好!~adveZhon!=exactly","dirCor/McshCor000003.last.html#idEntBodyNargExct"],
   ["zhèngquè-正确!=rltnRight","dirCor/McshCor000005.last.html#idRlnRght"],
   ["zhèngtǐzì/fántǐzì-正体字/繁体字-(正體字/繁體字)","dirLag/McshLag000018.last.html#idLZhoncharTrdl"],
+  ["zhèngzài-xiàxuě-正在下雪!~verbZhon!=it-is-snowing","dirNtr/McshNtr000005.last.html#idSysMols004WtrSnowdng"],
   ["zhèngzài-正在!=Zhon_verb_auxi-happening","dirLag/McshLag000018.last.html#idLZhonverbauxZhengzai"],
   ["zhèngzài-正在!~Zhon_adve!=in-the-process-of","dirLag/McshLag000018.last.html#idLZhonadve_091"],
   ["zhèyàng-这样!~adveZhon!=mannerDeictic","dirCor/McshCor000004.last.html#idDngatt001MnrDftDtc"],

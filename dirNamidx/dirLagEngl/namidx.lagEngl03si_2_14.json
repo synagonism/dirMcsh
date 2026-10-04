@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_14","char.n..chas",27128,"2026-10-03"],
+  [";lagEngl03si_2_14","char.n..chas",27129,"2026-10-04"],
   ["char.n-with-caron--&#x0148;","dirTchInf/dirUcd/McshUcdU0100.last.html#idU0100U0148"],
   ["char.n-with-tilde--ñ","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00F1"],
   ["char.ne-呢-21602","dirLag/McshLag000021.last.html#idLZhonsylb213"],
@@ -27051,6 +27051,7 @@
   ["charUni'standard'resource","dirLag/McshLag000006.last.html#idCharUcdstdrsc"],
   ["charUni'standard'technical-report","dirLag/McshLag000006.last.html#idCharUcdstdurt"],
   ["charUni'string-property","dirLag/McshLag000006.last.html#idCharUcdprptStrg"],
+  ["charUni-str","dirLag/McshLag000006.last.html#idCharUcdstr"],
   ["charUni.C-other","dirLag/McshLag000006.last.html#idCharUcdOtr"],
   ["charUni.Cc-control","dirLag/McshLag000006.last.html#idCharUcdOtr"],
   ["charUni.Cf-format","dirLag/McshLag000006.last.html#idCharUcdOtr"],
