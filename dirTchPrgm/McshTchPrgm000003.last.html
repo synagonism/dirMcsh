@@ -47,6 +47,7 @@
   <h1 id="idAtmatt001H1">01_installing of AtomEdtr
     <a class="clsHide" href="#idAtmatt001H1"></a></h1>
   <p id="idAtmatt001dsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Installing Atom should be fairly simple. Generally, you can go to https://atom.io and at the top of the page you should see a download button
     <br>[http://flight-manual.atom.io/getting-started/sections/installing-atom/]
     <a class="clsHide" href="#idAtmatt001dsn"></a></p>
@@ -60,6 +61,7 @@
   <h2 id="idAtmupdgH2">updating of AtomEdtr
     <a class="clsHide" href="#idAtmupdgH2"></a></h2>
   <p id="idAtmupdgdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>If there is a more recent release available, you can update to the most recent release with the auto-update functionality built in to Atom and the about package. You can open the About View by using the Help &gt; About menu option to see whether Atom is up-to-date, downloading a new update or click the button to "Restart and Install Update".
     If you're building Atom from source, pull down the latest version of master and re-build.
     <br>[http://flight-manual.atom.io/hacking-atom/sections/debugging/#update-to-the-latest-version]
@@ -87,6 +89,7 @@
   <h2 id="idAtmcmdpltH2">command-Palette of AtomEdtr
     <a class="clsHide" href="#idAtmcmdpltH2"></a></h2>
   <p id="idAtmcmdpltdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br><code>Ctrl|Cmd+Shift+P</code>
     <br>The most important command in Atom.
     <br>Pop up a search-driven menu from which we can-do any major task that is possible in Atom.
@@ -101,6 +104,7 @@
   <h2 id="idAtmcfggH2">configuring of AtomEdtr
     <a class="clsHide" href="#idAtmcfggH2"></a></h2>
   <p id="idAtmcfggdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br><code>Ctrl|Cmd+comma</code> opens settings.
     <br><a class="clsPreview" href="#idAtmpkgSettingsview">Settings-View-package</a> does this functionality.
     <a class="clsHide" href="#idAtmcfggdsn"></a></p>
@@ -112,6 +116,7 @@
   <h3 id="idAtmpkgSettingsviewH3">Settings-View--package
     <a class="clsHide" href="#idAtmpkgSettingsviewH3"></a></h3>
   <p id="idAtmpkgSettingsviewdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Edit core configuration settings, install and configure packages, and change themes from within Atom.
     <br>[https://github.com/atom/settings-view]
     <br>===
@@ -145,7 +150,7 @@
   <h3 id="idAtmsrtctH3">shortcut of AtomEdtr-Uicmd
     <a class="clsHide" href="#idAtmsrtctH3"></a></h3>
   <p id="idAtmsrtctdsn">description::
-    <br>
+    <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idAtmsrtctdsn"></a></p>
   <p id="idAtmsrtctnam">name::
     <br>* McshEngl.AtomEdtr'keybinding,
@@ -232,6 +237,7 @@
   <h2 id="idAtmtstgH2">testing of AtomEdtr
     <a class="clsHide" href="#idAtmtstgH2"></a></h2>
   <p id="idAtmtstgdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Atom uses <a href="http://jasmine.github.io/1.3/introduction.html">Jasmine</a> as its spec framework.
     <br>Any new functionality should have specs to guard against regressions.
     <br>[http://flight-manual.atom.io/hacking-atom/sections/writing-specs/]
@@ -256,6 +262,7 @@
   <h2 id="idAtmalgimplH2">implementation-language of AtomEdtr
     <a class="clsHide" href="#idAtmalgimplH2"></a></h2>
   <p id="idAtmalgimpldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>we'll be implementing everything in CoffeeScript and Less, which are preprocessors for Javascript and CSS respectively.
     <br>[http://flight-manual.atom.io/hacking-atom/sections/tools-of-the-trade/]
     <a class="clsHide" href="#idAtmalgimpldsn"></a></p>
@@ -283,6 +290,7 @@
   <h3 id="idAtmapioatomH3">API'atom-object
     <a class="clsHide" href="#idAtmapioatomH3"></a></h3>
   <p id="idAtmapioatomdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>AtomEnvironment ESSENTIAL
     <br>Atom global for dealing with packages, themes, menus, and the window.
     <br>An instance of this class is always available as the atom global.
@@ -310,6 +318,7 @@
   <h3 id="idAtmapioatomcommandsH3">API'atom.commands-object
     <a class="clsHide" href="#idAtmapioatomcommandsH3"></a></h3>
   <p id="idAtmapioatomcommandsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>CommandRegistry ESSENTIAL
     <br>Associates listener functions with commands in a context-sensitive way using CSS selectors. You can access a global instance of this class via atom.commands, and commands registered there will be presented in the command palette.
     <br>The global command registry facilitates a style of event handling known as event delegation that was popularized by jQuery. Atom commands are expressed as custom DOM events that can be invoked on the currently focused element via a key binding or manually via the command palette. Rather than binding listeners for command events directly to DOM nodes, you instead register command event listeners globally on atom.commands and constrain them to specific kinds of elements with CSS selectors.
@@ -337,6 +346,7 @@
   <h3 id="idAtmapioatomconfigH3">API'atom.config-object
     <a class="clsHide" href="#idAtmapioatomconfigH3"></a></h3>
   <p id="idAtmapioatomconfigdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Config ESSENTIAL
     <br>Used to access all of Atom's configuration details.
     <br>An instance of this class is always available as the atom.config global.
@@ -362,6 +372,7 @@
   <h3 id="idAtmapioatomkeymapsH3">API'atom.keymaps-object
     <a class="clsHide" href="#idAtmapioatomkeymapsH3"></a></h3>
   <p id="idAtmapioatomkeymapsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Allows commands to be associated with keystrokes in a context-sensitive way. In Atom, you can access a global instance of this object via atom.keymaps.
     <br>Key bindings are plain JavaScript objects containing CSS selectors as their top level keys, then keystroke patterns mapped to commands.
     <br>'.workspace':
@@ -390,6 +401,7 @@
   <h3 id="idAtmapioatommenuH3">API'atom.menu-object
     <a class="clsHide" href="#idAtmapioatommenuH3"></a></h3>
   <p id="idAtmapioatommenudsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>MenuManager EXTENDED
     <br>Provides a registry for menu items that you'd like to appear in the application menu.
     <br>An instance of this class is always available as the atom.menu global.
@@ -413,6 +425,7 @@
   <h3 id="idAtmapioatompackagesH3">API'atom.packages-object
     <a class="clsHide" href="#idAtmapioatompackagesH3"></a></h3>
   <p id="idAtmapioatompackagesdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>PackageManager EXTENDED
     <br>Package manager for coordinating the lifecycle of Atom packages.
     <br>An instance of this class is always available as the atom.packages global.
@@ -465,6 +478,7 @@
   <h3 id="idAtmapioatomstylesH3">API'atom.styles-object
     <a class="clsHide" href="#idAtmapioatomstylesH3"></a></h3>
   <p id="idAtmapioatomstylesdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>StyleManager EXTENDED
     <br>A singleton instance of this class available via atom.styles, which you can use to globally query and observe the set of active style sheets. The StyleManager doesn't add any style elements to the DOM on its own, but is instead subscribed to by individual &lt;atom-styles> elements, which clone and attach style elements in different contexts.
     <br>[https://atom.io/docs/api/v1.22.0/StyleManager]
@@ -489,6 +503,7 @@
   <h3 id="idAtmapioatomviewsH3">API'atom.views-object
     <a class="clsHide" href="#idAtmapioatomviewsH3"></a></h3>
   <p id="idAtmapioatomviewsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>ViewRegistry ESSENTIAL
     <br>ViewRegistry handles the association between model and view types in Atom. We call this association a View Provider. As in, for a given model, this class can provide a view via ::getView, as long as the model/view association was registered via ::addViewProvider
     <br>If you're adding your own kind of pane item, a good strategy for all but the simplest items is to separate the model and the view. The model handles application logic and is the primary point of API interaction. The view just handles presentation.
@@ -509,6 +524,7 @@
   <h3 id="idAtmapioatomworkspaceH3">API'atom.workspace-object
     <a class="clsHide" href="#idAtmapioatomworkspaceH3"></a></h3>
   <p id="idAtmapioatomworkspacedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Workspace ESSENTIAL
     <br>Represents the state of the user interface for the entire window. An instance of this class is available via the atom.workspace global.
     <br>Interact with this object to open files, be notified of current and future editors, and manipulate panes. To add panels, use Workspace::addTopPanel and friends.
@@ -539,6 +555,7 @@
   <h2 id="idAtmpkgH2">package of AtomEdtr
     <a class="clsHide" href="#idAtmpkgH2"></a></h2>
   <p id="idAtmpkgdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Atom itself is a very basic core of functionality that ships with a number of useful packages that add new features like the Tree View and the Settings View.
     <br>In fact, there are more than 90 packages that comprise all of the functionality that is available in Atom by default.
     <br>[http://flight-manual.atom.io/using-atom/sections/atom-packages/]
@@ -553,6 +570,7 @@
   <h3 id="idAtmpkginstgH3">installing of AtomPckg
     <a class="clsHide" href="#idAtmpkginstgH3"></a></h3>
   <p id="idAtmpkginstgdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>In order to install a new package, you can use the Install tab in the now familiar Settings View.
     <br>Open up the Settings View using <code>Ctrl+,</code>, click on the "Install" tab and type your search query into the box under Install Packages.
     <br>[http://flight-manual.atom.io/using-atom/sections/atom-packages/]
@@ -598,6 +616,7 @@
   <h4 id="idAtmpkgpbsgH4">publishing of AtomPckg
     <a class="clsHide" href="#idAtmpkgpbsgH4"></a></h4>
   <p id="idAtmpkgpbsgdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>The apm command can also be used to publish Atom packages to the public registry and update them.
     <br>[http://flight-manual.atom.io/hacking-atom/sections/publishing/]
     <a class="clsHide" href="#idAtmpkgpbsgdsn"></a></p>
@@ -642,6 +661,7 @@
   <h4 id="idAtmpkgdirH4">directory of AtomPckg
     <a class="clsHide" href="#idAtmpkgdirH4"></a></h4>
   <p id="idAtmpkgdirdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>The user installed packages are-located in your home-directory (%userprofile% on Windows) in <code>.atom/packages</code>.
     <a class="clsHide" href="#idAtmpkgdirdsn"></a></p>
   <p id="idAtmpkgdirnam">name::
@@ -657,6 +677,7 @@
   <h5 id="idAtmpkgmnfH5">main-file of AtomPckg
     <a class="clsHide" href="#idAtmpkgmnfH5"></a></h5>
   <p id="idAtmpkgmnfdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>There are two files in our lib directory.
     <br>One is the main file (lib/your-name-word-count.js), which is pointed to in the package.json file as the main file to execute for this package.
     <br>This file handles the logic of the whole plugin.
@@ -675,6 +696,7 @@
   <h4 id="idAtmpkgmenH4">menu of AtomPckg
     <a class="clsHide" href="#idAtmpkgmenH4"></a></h4>
   <p id="idAtmpkgmendsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Menus are placed in the menus subdirectory. This defines menu elements like what pops up when you right click a context-menu or would go in the application menu to trigger functionality in your plugin.
     <br>By default, all menus are loaded in alphabetical order. An optional menus array in your package.json can specify which menus to load and in what order.
     <br>[http://flight-manual.atom.io/hacking-atom/sections/package-word-count/#menus]
@@ -688,6 +710,7 @@
   <h4 id="idAtmpkgslstH4">style-sheet of AtomPckg
     <a class="clsHide" href="#idAtmpkgslstH4"></a></h4>
   <p id="idAtmpkgslstdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Style sheets for your package should be placed in the styles directory. Any style sheets in this directory will be loaded and attached to the DOM when your package is activated. Style sheets can be written as CSS or Less, but Less is recommended.
     <br>Ideally, you won't need much in the way of styling. Atom provides a standard set of components which define both the colors and UI elements for any package that fits into Atom seamlessly. You can view all of Atom's UI components by opening the styleguide: open the command palette Ctrl+Shift+P and search for styleguide, or type <code>Ctrl+Shift+G</code>.
     <br>[http://flight-manual.atom.io/hacking-atom/sections/package-word-count/#style-sheets]
@@ -702,6 +725,7 @@
   <h3 id="idAtmpkgrscH3">info-resource of AtomPckg
     <a class="clsHide" href="#idAtmpkgrscH3"></a></h3>
   <p id="idAtmpkgrscdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>The packages listed here have been published to <a href="http://atom.io/packages">http://atom.io/packages</a> which is the official registry for Atom packages. Searching on the Settings View will go to the Atom package registry and pull in anything that matches your search terms.
     <br>[http://flight-manual.atom.io/using-atom/sections/atom-packages/]
     <a class="clsHide" href="#idAtmpkgrscdsn"></a></p>
@@ -734,6 +758,7 @@
   <h3 id="idAtmpkgCoreH3">AtomPckg.CORE
     <a class="clsHide" href="#idAtmpkgCoreH3"></a></h3>
   <p id="idAtmpkgCoredsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Packages that are bundled with Atom are referred to as Core packages.
     <br>Ones that aren't bundled with Atom are referred to as Community packages.
     <br>[http://flight-manual.atom.io/getting-started/sections/atom-basics/#opening-directories]
@@ -829,6 +854,7 @@
   <h4 id="idAtmpkgAboutH4">AtomPckg.About
     <a class="clsHide" href="#idAtmpkgAboutH4"></a></h4>
   <p id="idAtmpkgAboutdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>about: View useful information about your Atom installation.
     <br>[https://atom.io/packages/about]
     <a class="clsHide" href="#idAtmpkgAboutdsn"></a></p>
@@ -842,6 +868,7 @@
   <h4 id="idAtmpkgArchiveviewH4">AtomPckg.Archive-view
     <a class="clsHide" href="#idAtmpkgArchiveviewH4"></a></h4>
   <p id="idAtmpkgArchiveviewdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>archive-view: View the files and folders inside archive files
     <br>[https://atom.io/packages/archive-view]
     <a class="clsHide" href="#idAtmpkgArchiveviewdsn"></a></p>
@@ -855,6 +882,7 @@
   <h4 id="idAtmpkgAutocompleteatomapiH4">AtomPckg.Autocomplete-atom-api
     <a class="clsHide" href="#idAtmpkgAutocompleteatomapiH4"></a></h4>
   <p id="idAtmpkgAutocompleteatomapidsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>autocomplete-atom-api: Atom API autocompletions
     <br>[https://atom.io/packages/autocomplete-atom-api]
     <a class="clsHide" href="#idAtmpkgAutocompleteatomapidsn"></a></p>
@@ -868,6 +896,7 @@
   <h4 id="idAtmpkgAutocompletecssH4">AtomPckg.Autocomplete-css
     <a class="clsHide" href="#idAtmpkgAutocompletecssH4"></a></h4>
   <p id="idAtmpkgAutocompletecssdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>autocomplete-css: CSS property name and value autocompletions
     <br>[https://atom.io/packages/autocomplete-css]
     <a class="clsHide" href="#idAtmpkgAutocompletecssdsn"></a></p>
@@ -881,6 +910,7 @@
   <h4 id="idAtmpkgAutocompletehtmlH4">AtomPckg.Autocomplete-html
     <a class="clsHide" href="#idAtmpkgAutocompletehtmlH4"></a></h4>
   <p id="idAtmpkgAutocompletehtmldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>autocomplete-html: HTML element and attribute autocompletions
     <br>[https://atom.io/packages/autocomplete-html]
     <a class="clsHide" href="#idAtmpkgAutocompletehtmldsn"></a></p>
@@ -894,6 +924,7 @@
   <h4 id="idAtmpkgAutocompleteplusH4">AtomPckg.Autocomplete-plus
     <a class="clsHide" href="#idAtmpkgAutocompleteplusH4"></a></h4>
   <p id="idAtmpkgAutocompleteplusdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>autocomplete-plus: Display possible completions in the editor while typing
     <br>[https://atom.io/packages/autocomplete-plus]
     <a class="clsHide" href="#idAtmpkgAutocompleteplusdsn"></a></p>
@@ -907,6 +938,7 @@
   <h4 id="idAtmpkgAutocompletesnippetsH4">AtomPckg.Autocomplete-snippets
     <a class="clsHide" href="#idAtmpkgAutocompletesnippetsH4"></a></h4>
   <p id="idAtmpkgAutocompletesnippetsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>autocomplete-snippets: Adds snippets to autocomplete+ suggestions
     <br>[https://atom.io/packages/autocomplete-snippets]
     <a class="clsHide" href="#idAtmpkgAutocompletesnippetsdsn"></a></p>
@@ -920,6 +952,7 @@
   <h4 id="idAtmpkgAutoflowH4">AtomPckg.Autoflow
     <a class="clsHide" href="#idAtmpkgAutoflowH4"></a></h4>
   <p id="idAtmpkgAutoflowdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>autoflow: Format the current selection to have lines no longer than 80 characters. This packages uses the config value of `editor.preferredLineLength` when set.
     <br>[https://atom.io/packages/autoflow]
     <a class="clsHide" href="#idAtmpkgAutoflowdsn"></a></p>
@@ -933,6 +966,7 @@
   <h4 id="idAtmpkgAutosaveH4">AtomPckg.Autosave
     <a class="clsHide" href="#idAtmpkgAutosaveH4"></a></h4>
   <p id="idAtmpkgAutosavedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>autosave: Save editors when they lose focus or are closed
     <br>[https://atom.io/packages/autosave]
     <a class="clsHide" href="#idAtmpkgAutosavedsn"></a></p>
@@ -946,6 +980,7 @@
   <h4 id="idAtmpkgBackgroundtipsH4">AtomPckg.Background-tips
     <a class="clsHide" href="#idAtmpkgBackgroundtipsH4"></a></h4>
   <p id="idAtmpkgBackgroundtipsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>background-tips: Displays tips about Atom in the background when there are no editors open.
     <br>[https://atom.io/packages/background-tips]
     <a class="clsHide" href="#idAtmpkgBackgroundtipsdsn"></a></p>
@@ -959,6 +994,7 @@
   <h4 id="idAtmpkgBookmarksH4">AtomPckg.Bookmarks
     <a class="clsHide" href="#idAtmpkgBookmarksH4"></a></h4>
   <p id="idAtmpkgBookmarksdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>bookmarks: Can mark lines, then jump back to them
     <br>[https://atom.io/packages/bookmarks]
     <a class="clsHide" href="#idAtmpkgBookmarksdsn"></a></p>
@@ -972,6 +1008,7 @@
   <h4 id="idAtmpkgBracketmatcherH4">AtomPckg.Bracket-matcher
     <a class="clsHide" href="#idAtmpkgBracketmatcherH4"></a></h4>
   <p id="idAtmpkgBracketmatcherdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>bracket-matcher: Highlight the matching bracket for the `(){}[]` character under the cursor. Move the cursor to the matching bracket with `ctrl-m`.
     <br>[https://atom.io/packages/bracket-matcher]
     <a class="clsHide" href="#idAtmpkgBracketmatcherdsn"></a></p>
@@ -985,6 +1022,7 @@
   <h4 id="idAtmpkgCommandpaletteH4">AtomPckg.Command-palette
     <a class="clsHide" href="#idAtmpkgCommandpaletteH4"></a></h4>
   <p id="idAtmpkgCommandpalettedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>command-palette: Find and run available commands using `cmd-shift-p` (macOS) or `ctrl-shift-p` (Linux/Windows).
     <br>[https://atom.io/packages/command-palette]
     <a class="clsHide" href="#idAtmpkgCommandpalettedsn"></a></p>
@@ -998,6 +1036,7 @@
   <h4 id="idAtmpkgDalekH4">AtomPckg.Dalek
     <a class="clsHide" href="#idAtmpkgDalekH4"></a></h4>
   <p id="idAtmpkgDalekdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>dalek: EXTERMINATEs built-in packages installed in ~/.atom/packages
     <br>[https://atom.io/packages/dalek]
     <a class="clsHide" href="#idAtmpkgDalekdsn"></a></p>
@@ -1011,6 +1050,7 @@
   <h4 id="idAtmpkgDeprecationcopH4">AtomPckg.Deprecation-cop
     <a class="clsHide" href="#idAtmpkgDeprecationcopH4"></a></h4>
   <p id="idAtmpkgDeprecationcopdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>deprecation-cop: Shows a list of deprecated calls
     <br>[https://atom.io/packages/deprecation-cop]
     <a class="clsHide" href="#idAtmpkgDeprecationcopdsn"></a></p>
@@ -1024,6 +1064,7 @@
   <h4 id="idAtmpkgDevlivereloadH4">AtomPckg.Dev-live-reload
     <a class="clsHide" href="#idAtmpkgDevlivereloadH4"></a></h4>
   <p id="idAtmpkgDevlivereloaddsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>dev-live-reload: Live reload atom themes and packages.
     <br>[https://atom.io/packages/dev-live-reload]
     <a class="clsHide" href="#idAtmpkgDevlivereloaddsn"></a></p>
@@ -1037,6 +1078,7 @@
   <h4 id="idAtmpkgEncodingselectorH4">AtomPckg.Encoding-selector
     <a class="clsHide" href="#idAtmpkgEncodingselectorH4"></a></h4>
   <p id="idAtmpkgEncodingselectordsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>encoding-selector: Select the encoding to use for the current editor with `ctrl-shift-U`.
     <br>[https://atom.io/packages/encoding-selector]
     <a class="clsHide" href="#idAtmpkgEncodingselectordsn"></a></p>
@@ -1050,6 +1092,7 @@
   <h4 id="idAtmpkgExceptionreportingH4">AtomPckg.Exception-reporting
     <a class="clsHide" href="#idAtmpkgExceptionreportingH4"></a></h4>
   <p id="idAtmpkgExceptionreportingdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>exception-reporting: Reports uncaught Atom exceptions to the Atom team via bugsnag.com
     <br>[https://atom.io/packages/exception-reporting]
     <a class="clsHide" href="#idAtmpkgExceptionreportingdsn"></a></p>
@@ -1063,6 +1106,7 @@
   <h4 id="idAtmpkgFindandreplaceH4">AtomPckg.Find-and-replace
     <a class="clsHide" href="#idAtmpkgFindandreplaceH4"></a></h4>
   <p id="idAtmpkgFindandreplacedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>find-and-replace: Find and replace within buffers and across the project.
     <br>[https://atom.io/packages/find-and-replace]
     <a class="clsHide" href="#idAtmpkgFindandreplacedsn"></a></p>
@@ -1076,6 +1120,7 @@
   <h4 id="idAtmpkgFuzzyfinderH4">AtomPckg.Fuzzy-finder
     <a class="clsHide" href="#idAtmpkgFuzzyfinderH4"></a></h4>
   <p id="idAtmpkgFuzzyfinderdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>fuzzy-finder: Open an editor to a file in the project with `cmd-t`.
     <br>[https://atom.io/packages/fuzzy-finder]
     <a class="clsHide" href="#idAtmpkgFuzzyfinderdsn"></a></p>
@@ -1089,6 +1134,7 @@
   <h4 id="idAtmpkgGitdiffH4">AtomPckg.Git-diff
     <a class="clsHide" href="#idAtmpkgGitdiffH4"></a></h4>
   <p id="idAtmpkgGitdiffdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>git-diff: Marks lines in the editor gutter that have been added, edited, or deleted since the last commit.
     <br>[https://atom.io/packages/git-diff]
     <a class="clsHide" href="#idAtmpkgGitdiffdsn"></a></p>
@@ -1102,6 +1148,7 @@
   <h4 id="idAtmpkgGithubH4">AtomPckg.Github
     <a class="clsHide" href="#idAtmpkgGithubH4"></a></h4>
   <p id="idAtmpkgGithubdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>github: GitHub integration
     <br>[https://atom.io/packages/github]
     <a class="clsHide" href="#idAtmpkgGithubdsn"></a></p>
@@ -1115,6 +1162,7 @@
   <h4 id="idAtmpkgGotolineH4">AtomPckg.Go-to-line
     <a class="clsHide" href="#idAtmpkgGotolineH4"></a></h4>
   <p id="idAtmpkgGotolinedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>go-to-line: Jump to a specific editor line number with `ctrl-g`.
     <br>[https://atom.io/packages/go-to-line]
     <a class="clsHide" href="#idAtmpkgGotolinedsn"></a></p>
@@ -1128,6 +1176,7 @@
   <h4 id="idAtmpkgGrammarselectorH4">AtomPckg.Grammar-selector
     <a class="clsHide" href="#idAtmpkgGrammarselectorH4"></a></h4>
   <p id="idAtmpkgGrammarselectordsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>grammar-selector: Select the grammar to use for the current editor with `ctrl-shift-L`.
     <br>[https://atom.io/packages/grammar-selector]
     <a class="clsHide" href="#idAtmpkgGrammarselectordsn"></a></p>
@@ -1141,6 +1190,7 @@
   <h4 id="idAtmpkgImageviewH4">AtomPckg.Image-view
     <a class="clsHide" href="#idAtmpkgImageviewH4"></a></h4>
   <p id="idAtmpkgImageviewdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>image-view: Open images in an editor
     <br>[https://atom.io/packages/image-view]
     <a class="clsHide" href="#idAtmpkgImageviewdsn"></a></p>
@@ -1154,6 +1204,7 @@
   <h4 id="idAtmpkgIncompatiblepackagesH4">AtomPckg.Incompatible-packages
     <a class="clsHide" href="#idAtmpkgIncompatiblepackagesH4"></a></h4>
   <p id="idAtmpkgIncompatiblepackagesdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>incompatible-packages: Show incompatible packages
     <br>[https://atom.io/packages/incompatible-packages]
     <a class="clsHide" href="#idAtmpkgIncompatiblepackagesdsn"></a></p>
@@ -1167,6 +1218,7 @@
   <h4 id="idAtmpkgKeybindingresolverH4">AtomPckg.Keybinding-resolver
     <a class="clsHide" href="#idAtmpkgKeybindingresolverH4"></a></h4>
   <p id="idAtmpkgKeybindingresolverdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>keybinding-resolver: Show what commands a keybinding resolves to
     <br>[https://atom.io/packages/keybinding-resolver]
     <a class="clsHide" href="#idAtmpkgKeybindingresolverdsn"></a></p>
@@ -1180,6 +1232,7 @@
   <h4 id="idAtmpkgLanguagecH4">AtomPckg.Language-c
     <a class="clsHide" href="#idAtmpkgLanguagecH4"></a></h4>
   <p id="idAtmpkgLanguagecdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-c: Atom language support for C/C++
     <br>[https://atom.io/packages/language-c]
     <a class="clsHide" href="#idAtmpkgLanguagecdsn"></a></p>
@@ -1193,6 +1246,7 @@
   <h4 id="idAtmpkgLanguageclojureH4">AtomPckg.Language-clojure
     <a class="clsHide" href="#idAtmpkgLanguageclojureH4"></a></h4>
   <p id="idAtmpkgLanguageclojuredsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-clojure: Clojure language support in Atom
     <br>[https://atom.io/packages/language-clojure]
     <a class="clsHide" href="#idAtmpkgLanguageclojuredsn"></a></p>
@@ -1206,6 +1260,7 @@
   <h4 id="idAtmpkgLanguagecoffeescriptH4">AtomPckg.Language-coffee-script
     <a class="clsHide" href="#idAtmpkgLanguagecoffeescriptH4"></a></h4>
   <p id="idAtmpkgLanguagecoffeescriptdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-coffee-script: CoffeeScript language support in Atom
     <br>[https://atom.io/packages/language-coffee-script]
     <a class="clsHide" href="#idAtmpkgLanguagecoffeescriptdsn"></a></p>
@@ -1219,6 +1274,7 @@
   <h4 id="idAtmpkgLanguagecsharpH4">AtomPckg.Language-csharp
     <a class="clsHide" href="#idAtmpkgLanguagecsharpH4"></a></h4>
   <p id="idAtmpkgLanguagecsharpdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-csharp: C# language support for Atom
     <br>[https://atom.io/packages/language-csharp]
     <a class="clsHide" href="#idAtmpkgLanguagecsharpdsn"></a></p>
@@ -1232,6 +1288,7 @@
   <h4 id="idAtmpkgLanguagecssH4">AtomPckg.Language-css
     <a class="clsHide" href="#idAtmpkgLanguagecssH4"></a></h4>
   <p id="idAtmpkgLanguagecssdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-css: CSS support in Atom
     <br>[https://atom.io/packages/language-css]
     <a class="clsHide" href="#idAtmpkgLanguagecssdsn"></a></p>
@@ -1245,6 +1302,7 @@
   <h4 id="idAtmpkgLanguagegfmH4">AtomPckg.Language-gfm
     <a class="clsHide" href="#idAtmpkgLanguagegfmH4"></a></h4>
   <p id="idAtmpkgLanguagegfmdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-gfm: Syntax highlighting and snippets for GitHub Flavored Markdown (GFM).
     <br>[https://atom.io/packages/language-gfm]
     <a class="clsHide" href="#idAtmpkgLanguagegfmdsn"></a></p>
@@ -1258,6 +1316,7 @@
   <h4 id="idAtmpkgLanguagegitH4">AtomPckg.Language-git
     <a class="clsHide" href="#idAtmpkgLanguagegitH4"></a></h4>
   <p id="idAtmpkgLanguagegitdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-git: Git editing support in Atom
     <br>[https://atom.io/packages/language-git]
     <a class="clsHide" href="#idAtmpkgLanguagegitdsn"></a></p>
@@ -1271,6 +1330,7 @@
   <h4 id="idAtmpkgLanguagegoH4">AtomPckg.Language-go
     <a class="clsHide" href="#idAtmpkgLanguagegoH4"></a></h4>
   <p id="idAtmpkgLanguagegodsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-go: Go language support in Atom
     <br>[https://atom.io/packages/language-go]
     <a class="clsHide" href="#idAtmpkgLanguagegodsn"></a></p>
@@ -1284,6 +1344,7 @@
   <h4 id="idAtmpkgLanguagehtmlH4">AtomPckg.Language-html
     <a class="clsHide" href="#idAtmpkgLanguagehtmlH4"></a></h4>
   <p id="idAtmpkgLanguagehtmldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-html: HTML language support in Atom
     <br>[https://atom.io/packages/language-html]
     <a class="clsHide" href="#idAtmpkgLanguagehtmldsn"></a></p>
@@ -1297,6 +1358,7 @@
   <h4 id="idAtmpkgLanguagehyperlinkH4">AtomPckg.Language-hyperlink
     <a class="clsHide" href="#idAtmpkgLanguagehyperlinkH4"></a></h4>
   <p id="idAtmpkgLanguagehyperlinkdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-hyperlink: Hyperlink colorization in Atom
     <br>[https://atom.io/packages/language-hyperlink]
     <a class="clsHide" href="#idAtmpkgLanguagehyperlinkdsn"></a></p>
@@ -1310,6 +1372,7 @@
   <h4 id="idAtmpkgLanguagejavaH4">AtomPckg.Language-java
     <a class="clsHide" href="#idAtmpkgLanguagejavaH4"></a></h4>
   <p id="idAtmpkgLanguagejavadsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-java: Java language support in Atom
     <br>[https://atom.io/packages/language-java]
     <a class="clsHide" href="#idAtmpkgLanguagejavadsn"></a></p>
@@ -1323,6 +1386,7 @@
   <h4 id="idAtmpkgLanguagejavascriptH4">AtomPckg.Language-javascript
     <a class="clsHide" href="#idAtmpkgLanguagejavascriptH4"></a></h4>
   <p id="idAtmpkgLanguagejavascriptdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-javascript: JavaScript language support in Atom
     <br>[https://atom.io/packages/language-javascript]
     <a class="clsHide" href="#idAtmpkgLanguagejavascriptdsn"></a></p>
@@ -1336,6 +1400,7 @@
   <h4 id="idAtmpkgLanguagejsonH4">AtomPckg.Language-json
     <a class="clsHide" href="#idAtmpkgLanguagejsonH4"></a></h4>
   <p id="idAtmpkgLanguagejsondsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-json: JSON language support in Atom
     <br>[https://atom.io/packages/language-json]
     <a class="clsHide" href="#idAtmpkgLanguagejsondsn"></a></p>
@@ -1349,6 +1414,7 @@
   <h4 id="idAtmpkgLanguagelessH4">AtomPckg.Language-less
     <a class="clsHide" href="#idAtmpkgLanguagelessH4"></a></h4>
   <p id="idAtmpkgLanguagelessdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-less: Less language support in Atom
     <br>[https://atom.io/packages/language-less]
     <a class="clsHide" href="#idAtmpkgLanguagelessdsn"></a></p>
@@ -1362,6 +1428,7 @@
   <h4 id="idAtmpkgLanguagemakeH4">AtomPckg.Language-make
     <a class="clsHide" href="#idAtmpkgLanguagemakeH4"></a></h4>
   <p id="idAtmpkgLanguagemakedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-make: Make language support in Atom
     <br>[https://atom.io/packages/language-make]
     <a class="clsHide" href="#idAtmpkgLanguagemakedsn"></a></p>
@@ -1375,6 +1442,7 @@
   <h4 id="idAtmpkgLanguagemustacheH4">AtomPckg.Language-mustache
     <a class="clsHide" href="#idAtmpkgLanguagemustacheH4"></a></h4>
   <p id="idAtmpkgLanguagemustachedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-mustache: Mustache language support in Atom
     <br>[https://atom.io/packages/language-mustache]
     <a class="clsHide" href="#idAtmpkgLanguagemustachedsn"></a></p>
@@ -1388,6 +1456,7 @@
   <h4 id="idAtmpkgLanguageobjectivecH4">AtomPckg.Language-objective-c
     <a class="clsHide" href="#idAtmpkgLanguageobjectivecH4"></a></h4>
   <p id="idAtmpkgLanguageobjectivecdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-objective-c: Objective-C language support in Atom
     <br>[https://atom.io/packages/language-objective-c]
     <a class="clsHide" href="#idAtmpkgLanguageobjectivecdsn"></a></p>
@@ -1401,6 +1470,7 @@
   <h4 id="idAtmpkgLanguagepegjsH4">AtomPckg.Language-pegjs
     <a class="clsHide" href="#idAtmpkgLanguagepegjsH4"></a></h4>
   <p id="idAtmpkgLanguagepegjsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-pegjs: PEG.js language support in Atom
     <br>[https://atom.io/packages/language-pegjs]
     <a class="clsHide" href="#idAtmpkgLanguagepegjsdsn"></a></p>
@@ -1414,6 +1484,7 @@
   <h4 id="idAtmpkgLanguageperlH4">AtomPckg.Language-perl
     <a class="clsHide" href="#idAtmpkgLanguageperlH4"></a></h4>
   <p id="idAtmpkgLanguageperldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-perl: Perl language support in Atom
     <br>[https://atom.io/packages/language-perl]
     <a class="clsHide" href="#idAtmpkgLanguageperldsn"></a></p>
@@ -1427,6 +1498,7 @@
   <h4 id="idAtmpkgLanguagephpH4">AtomPckg.Language-php
     <a class="clsHide" href="#idAtmpkgLanguagephpH4"></a></h4>
   <p id="idAtmpkgLanguagephpdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-php: PHP language support in Atom
     <br>[https://atom.io/packages/language-php]
     <a class="clsHide" href="#idAtmpkgLanguagephpdsn"></a></p>
@@ -1440,6 +1512,7 @@
   <h4 id="idAtmpkgLanguagepropertylistH4">AtomPckg.Language-property-list
     <a class="clsHide" href="#idAtmpkgLanguagepropertylistH4"></a></h4>
   <p id="idAtmpkgLanguagepropertylistdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-property-list: Property List support in Atom
     <br>[https://atom.io/packages/language-property-list]
     <a class="clsHide" href="#idAtmpkgLanguagepropertylistdsn"></a></p>
@@ -1453,6 +1526,7 @@
   <h4 id="idAtmpkgLanguagepythonH4">AtomPckg.Language-python
     <a class="clsHide" href="#idAtmpkgLanguagepythonH4"></a></h4>
   <p id="idAtmpkgLanguagepythondsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-python: Python language support in Atom
     <br>[https://atom.io/packages/language-python]
     <a class="clsHide" href="#idAtmpkgLanguagepythondsn"></a></p>
@@ -1466,6 +1540,7 @@
   <h4 id="idAtmpkgLanguagerubyH4">AtomPckg.Language-ruby
     <a class="clsHide" href="#idAtmpkgLanguagerubyH4"></a></h4>
   <p id="idAtmpkgLanguagerubydsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-ruby: Ruby language support in Atom
     <br>[https://atom.io/packages/language-ruby]
     <a class="clsHide" href="#idAtmpkgLanguagerubydsn"></a></p>
@@ -1479,6 +1554,7 @@
   <h4 id="idAtmpkgLanguagerubyonrailsH4">AtomPckg.Language-ruby-on-rails
     <a class="clsHide" href="#idAtmpkgLanguagerubyonrailsH4"></a></h4>
   <p id="idAtmpkgLanguagerubyonrailsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-ruby-on-rails: Ruby on Rails language support in Atom
     <br>[https://atom.io/packages/language-ruby-on-rails]
     <a class="clsHide" href="#idAtmpkgLanguagerubyonrailsdsn"></a></p>
@@ -1492,6 +1568,7 @@
   <h4 id="idAtmpkgLanguagesassH4">AtomPckg.Language-sass
     <a class="clsHide" href="#idAtmpkgLanguagesassH4"></a></h4>
   <p id="idAtmpkgLanguagesassdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-sass: Sass/SCSS language support in Atom
     <br>[https://atom.io/packages/language-sass]
     <a class="clsHide" href="#idAtmpkgLanguagesassdsn"></a></p>
@@ -1505,6 +1582,7 @@
   <h4 id="idAtmpkgLanguageshellscriptH4">AtomPckg.Language-shellscript
     <a class="clsHide" href="#idAtmpkgLanguageshellscriptH4"></a></h4>
   <p id="idAtmpkgLanguageshellscriptdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-shellscript: ShellScript language support in Atom
     <br>[https://atom.io/packages/language-shellscript]
     <a class="clsHide" href="#idAtmpkgLanguageshellscriptdsn"></a></p>
@@ -1518,6 +1596,7 @@
   <h4 id="idAtmpkgLanguagesourceH4">AtomPckg.Language-source
     <a class="clsHide" href="#idAtmpkgLanguagesourceH4"></a></h4>
   <p id="idAtmpkgLanguagesourcedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-source: Source code support in Atom
     <br>[https://atom.io/packages/language-source]
     <a class="clsHide" href="#idAtmpkgLanguagesourcedsn"></a></p>
@@ -1531,6 +1610,7 @@
   <h4 id="idAtmpkgLanguagesqlH4">AtomPckg.Language-sql
     <a class="clsHide" href="#idAtmpkgLanguagesqlH4"></a></h4>
   <p id="idAtmpkgLanguagesqldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-sql: SQL language support in Atom
     <br>[https://atom.io/packages/language-sql]
     <a class="clsHide" href="#idAtmpkgLanguagesqldsn"></a></p>
@@ -1544,6 +1624,7 @@
   <h4 id="idAtmpkgLanguagetextH4">AtomPckg.Language-text
     <a class="clsHide" href="#idAtmpkgLanguagetextH4"></a></h4>
   <p id="idAtmpkgLanguagetextdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-text: Plain text support in Atom
     <br>[https://atom.io/packages/language-text]
     <a class="clsHide" href="#idAtmpkgLanguagetextdsn"></a></p>
@@ -1557,6 +1638,7 @@
   <h4 id="idAtmpkgLanguagetodoH4">AtomPckg.Language-todo
     <a class="clsHide" href="#idAtmpkgLanguagetodoH4"></a></h4>
   <p id="idAtmpkgLanguagetododsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-todo: TODO/FIXME highlighting support in Atom
     <br>[https://atom.io/packages/language-todo]
     <a class="clsHide" href="#idAtmpkgLanguagetododsn"></a></p>
@@ -1570,6 +1652,7 @@
   <h4 id="idAtmpkgLanguagetomlH4">AtomPckg.Language-toml
     <a class="clsHide" href="#idAtmpkgLanguagetomlH4"></a></h4>
   <p id="idAtmpkgLanguagetomldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-toml: Syntax highlighting for Tom's Obvious, Minimal Language (TOML).
     <br>[https://atom.io/packages/language-toml]
     <a class="clsHide" href="#idAtmpkgLanguagetomldsn"></a></p>
@@ -1583,6 +1666,7 @@
   <h4 id="idAtmpkgLanguagetypescriptH4">AtomPckg.Language-typescript
     <a class="clsHide" href="#idAtmpkgLanguagetypescriptH4"></a></h4>
   <p id="idAtmpkgLanguagetypescriptdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-typescript: TypeScript language support in Atom
     <br>[https://atom.io/packages/language-typescript]
     <a class="clsHide" href="#idAtmpkgLanguagetypescriptdsn"></a></p>
@@ -1596,6 +1680,7 @@
   <h4 id="idAtmpkgLanguagexmlH4">AtomPckg.Language-xml
     <a class="clsHide" href="#idAtmpkgLanguagexmlH4"></a></h4>
   <p id="idAtmpkgLanguagexmldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-xml: XML language support in Atom
     <br>[https://atom.io/packages/language-xml]
     <a class="clsHide" href="#idAtmpkgLanguagexmldsn"></a></p>
@@ -1609,6 +1694,7 @@
   <h4 id="idAtmpkgLanguageyamlH4">AtomPckg.Language-yaml
     <a class="clsHide" href="#idAtmpkgLanguageyamlH4"></a></h4>
   <p id="idAtmpkgLanguageyamldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>language-yaml: YAML language support in Atom
     <br>[https://atom.io/packages/language-yaml]
     <a class="clsHide" href="#idAtmpkgLanguageyamldsn"></a></p>
@@ -1622,6 +1708,7 @@
   <h4 id="idAtmpkgLineendingselectorH4">AtomPckg.Line-ending-selector
     <a class="clsHide" href="#idAtmpkgLineendingselectorH4"></a></h4>
   <p id="idAtmpkgLineendingselectordsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>line-ending-selector: Select the line ending to use for the current editor.
     <br>[https://atom.io/packages/line-ending-selector]
     <a class="clsHide" href="#idAtmpkgLineendingselectordsn"></a></p>
@@ -1635,6 +1722,7 @@
   <h4 id="idAtmpkgLinkH4">AtomPckg.Link
     <a class="clsHide" href="#idAtmpkgLinkH4"></a></h4>
   <p id="idAtmpkgLinkdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>link: Opens http/https links under the cursor using `ctrl-shift-o`.
     <br>[https://atom.io/packages/link]
     <a class="clsHide" href="#idAtmpkgLinkdsn"></a></p>
@@ -1648,6 +1736,7 @@
   <h4 id="idAtmpkgMarkdownpreviewH4">AtomPckg.Markdown-preview
     <a class="clsHide" href="#idAtmpkgMarkdownpreviewH4"></a></h4>
   <p id="idAtmpkgMarkdownpreviewdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>markdown-preview: Open a rendered version of the Markdown in the current editor with `ctrl-shift-m`.
     <br>[https://atom.io/packages/markdown-preview]
     <a class="clsHide" href="#idAtmpkgMarkdownpreviewdsn"></a></p>
@@ -1661,6 +1750,7 @@
   <h4 id="idAtmpkgMetricsH4">AtomPckg.Metrics
     <a class="clsHide" href="#idAtmpkgMetricsH4"></a></h4>
   <p id="idAtmpkgMetricsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>metrics: Help improve Atom by sending usage statistics, exceptions and deprecations to the team
     <br>[https://atom.io/packages/metrics]
     <a class="clsHide" href="#idAtmpkgMetricsdsn"></a></p>
@@ -1674,6 +1764,7 @@
   <h4 id="idAtmpkgNotificationsH4">AtomPckg.Notifications
     <a class="clsHide" href="#idAtmpkgNotificationsH4"></a></h4>
   <p id="idAtmpkgNotificationsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>notifications: A tidy way to display Atom notifications.
     <br>[https://atom.io/packages/notifications]
     <a class="clsHide" href="#idAtmpkgNotificationsdsn"></a></p>
@@ -1687,6 +1778,7 @@
   <h4 id="idAtmpkgOpenongithubH4">AtomPckg.Open-on-github
     <a class="clsHide" href="#idAtmpkgOpenongithubH4"></a></h4>
   <p id="idAtmpkgOpenongithubdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>open-on-github: View the active file on github.com
     <br>[https://atom.io/packages/open-on-github]
     <a class="clsHide" href="#idAtmpkgOpenongithubdsn"></a></p>
@@ -1700,6 +1792,7 @@
   <h4 id="idAtmpkgPackagegeneratorH4">AtomPckg.Package-generator
     <a class="clsHide" href="#idAtmpkgPackagegeneratorH4"></a></h4>
   <p id="idAtmpkgPackagegeneratordsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>package-generator: Generates and opens a new sample package or syntax theme.
     <br>[https://atom.io/packages/package-generator]
     <a class="clsHide" href="#idAtmpkgPackagegeneratordsn"></a></p>
@@ -1713,6 +1806,7 @@
   <h4 id="idAtmpkgSnippetsH4">AtomPckg.Snippets
     <a class="clsHide" href="#idAtmpkgSnippetsH4"></a></h4>
   <p id="idAtmpkgSnippetsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>snippets: Expand snippets matching the current prefix with `tab`.
     <br>[https://atom.io/packages/snippets]
     <a class="clsHide" href="#idAtmpkgSnippetsdsn"></a></p>
@@ -1730,6 +1824,7 @@
   <h4 id="idAtmpkgSpellcheckH4">AtomPckg.Spell-check
     <a class="clsHide" href="#idAtmpkgSpellcheckH4"></a></h4>
   <p id="idAtmpkgSpellcheckdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>spell-check: Highlights misspelled words and shows possible corrections.
     <br>[https://atom.io/packages/spell-check]
     <a class="clsHide" href="#idAtmpkgSpellcheckdsn"></a></p>
@@ -1743,6 +1838,7 @@
   <h4 id="idAtmpkgStatusbarH4">AtomPckg.Status-bar
     <a class="clsHide" href="#idAtmpkgStatusbarH4"></a></h4>
   <p id="idAtmpkgStatusbardsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>status-bar: Display information about the current editor such as cursor position, file path, grammar, current branch, ahead/behind commits counts, and line diff count.
     <br>[https://atom.io/packages/status-bar]
     <a class="clsHide" href="#idAtmpkgStatusbardsn"></a></p>
@@ -1756,6 +1852,7 @@
   <h4 id="idAtmpkgStyleguideH4">AtomPckg.Styleguide
     <a class="clsHide" href="#idAtmpkgStyleguideH4"></a></h4>
   <p id="idAtmpkgStyleguidedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>styleguide: A visual styleguide of the Atom's UI components.
     <br>[https://atom.io/packages/styleguide]
     <a class="clsHide" href="#idAtmpkgStyleguidedsn"></a></p>
@@ -1769,6 +1866,7 @@
   <h4 id="idAtmpkgSymbolsviewH4">AtomPckg.Symbols-view
     <a class="clsHide" href="#idAtmpkgSymbolsviewH4"></a></h4>
   <p id="idAtmpkgSymbolsviewdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>symbols-view: Jump to a function/method in the current editor with `cmd-r`.
     <br>[https://atom.io/packages/symbols-view]
     <a class="clsHide" href="#idAtmpkgSymbolsviewdsn"></a></p>
@@ -1782,6 +1880,7 @@
   <h4 id="idAtmpkgTabsH4">AtomPckg.Tabs
     <a class="clsHide" href="#idAtmpkgTabsH4"></a></h4>
   <p id="idAtmpkgTabsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>tabs: Display a selectable tab for each editor open.
     <br>[https://atom.io/packages/tabs]
     <a class="clsHide" href="#idAtmpkgTabsdsn"></a></p>
@@ -1795,6 +1894,7 @@
   <h4 id="idAtmpkgTimecopH4">AtomPckg.Timecop
     <a class="clsHide" href="#idAtmpkgTimecopH4"></a></h4>
   <p id="idAtmpkgTimecopdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>timecop: Displays information about where time is spent while Atom loads.
     <br>[https://atom.io/packages/timecop]
     <a class="clsHide" href="#idAtmpkgTimecopdsn"></a></p>
@@ -1808,6 +1908,7 @@
   <h4 id="idAtmpkgTreeviewH4">AtomPckg.Tree-view
     <a class="clsHide" href="#idAtmpkgTreeviewH4"></a></h4>
   <p id="idAtmpkgTreeviewdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>tree-view: Explore and open files in the current project.
     <br>[https://atom.io/packages/tree-view]
     <a class="clsHide" href="#idAtmpkgTreeviewdsn"></a></p>
@@ -1821,6 +1922,7 @@
   <h4 id="idAtmpkgUpdatepackagedependenciesH4">AtomPckg.Update-package-dependencies
     <a class="clsHide" href="#idAtmpkgUpdatepackagedependenciesH4"></a></h4>
   <p id="idAtmpkgUpdatepackagedependenciesdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>update-package-dependencies: Runs `apm install` for the current project
     <br>[https://atom.io/packages/update-package-dependencies]
     <a class="clsHide" href="#idAtmpkgUpdatepackagedependenciesdsn"></a></p>
@@ -1834,6 +1936,7 @@
   <h4 id="idAtmpkgWelcomeH4">AtomPckg.Welcome
     <a class="clsHide" href="#idAtmpkgWelcomeH4"></a></h4>
   <p id="idAtmpkgWelcomedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>welcome: Welcome users to Atom with useful information
     <br>[https://atom.io/packages/welcome]
     <a class="clsHide" href="#idAtmpkgWelcomedsn"></a></p>
@@ -1847,6 +1950,7 @@
   <h4 id="idAtmpkgWhitespaceH4">AtomPckg.Whitespace
     <a class="clsHide" href="#idAtmpkgWhitespaceH4"></a></h4>
   <p id="idAtmpkgWhitespacedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>whitespace: Strips trailing whitespace and adds a trailing newline when an editor is saved.
     <br>[https://atom.io/packages/whitespace]
     <a class="clsHide" href="#idAtmpkgWhitespacedsn"></a></p>
@@ -1860,6 +1964,7 @@
   <h4 id="idAtmpkgWrapguideH4">AtomPckg.Wrap-guide
     <a class="clsHide" href="#idAtmpkgWrapguideH4"></a></h4>
   <p id="idAtmpkgWrapguidedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>wrap-guide: Displays a vertical line at the 80th character in the editor. This packages uses the config value of `editor.preferredLineLength` when set.
     <br>[https://atom.io/packages/wrap-guide]
     <a class="clsHide" href="#idAtmpkgWrapguidedsn"></a></p>
@@ -1874,6 +1979,7 @@
   <h3 id="idAtmpkgCoreNH3">AtomPckg.CORE.NO
     <a class="clsHide" href="#idAtmpkgCoreNH3"></a></h3>
   <p id="idAtmpkgCoreNdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Packages that are bundled with Atom are referred to as Core packages.
     <br>Ones that aren't bundled with Atom are referred to as Community packages.
     <br>[http://flight-manual.atom.io/getting-started/sections/atom-basics/#opening-directories]
@@ -1887,6 +1993,7 @@
   <h4 id="idAtmpkgAtomkeyboardmacrosH4">AtomPckg.atom-keyboard-macros
     <a class="clsHide" href="#idAtmpkgAtomkeyboardmacrosH4"></a></h4>
   <p id="idAtmpkgAtomkeyboardmacrosdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Keyboard macro extension for Atom.
     <br>[<a href="https://atom.io/packages/atom-keyboard-macros">https://atom.io/packages/atom-keyboard-macros</a>]
     <a class="clsHide" href="#idAtmpkgAtomkeyboardmacrosdsn"></a></p>
@@ -1903,6 +2010,7 @@
   <h4 id="idAtmpkgBusysignalH4">AtomPckg.busy-signal
     <a class="clsHide" href="#idAtmpkgBusysignalH4"></a></h4>
   <p id="idAtmpkgBusysignaldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Busy Signal is a base package that provides an easy to use API to show your package is performing a task.
     <br>[<a href="https://atom.io/packages/busy-signal">https://atom.io/packages/busy-signal</a>]
     <a class="clsHide" href="#idAtmpkgBusysignaldsn"></a></p>
@@ -1920,6 +2028,7 @@
   <h4 id="idAtmpkgCharactertableH4">AtomPckg.character-table
     <a class="clsHide" href="#idAtmpkgCharactertableH4"></a></h4>
   <p id="idAtmpkgCharactertabledsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>With character table you can lookup any Unicode Character (except control characters) to insert into your document.
     <br>Hit alt-l to open the selection view and then find it either via unicode code point or ISO name of the character.
     <br>[<a href="https://atom.io/packages/character-table">https://atom.io/packages/character-table</a>]
@@ -1937,6 +2046,7 @@
   <h4 id="idAtmpkgcharcodedisplayH4">AtomPckg.charcode-display
     <a class="clsHide" href="#idAtmpkgcharcodedisplayH4"></a></h4>
   <p id="idAtmpkgcharcodedisplaydsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Display the code of the character under the current cursor position in the status bar.
     <br>[<a href="https://atom.io/packages/charcode-display">https://atom.io/packages/charcode-display</a>]
     <a class="clsHide" href="#idAtmpkgcharcodedisplaydsn"></a></p>
@@ -1953,6 +2063,7 @@
   <h4 id="idAtmpkgCoffeecompileH4">AtomPckg.coffee-compile
     <a class="clsHide" href="#idAtmpkgCoffeecompileH4"></a></h4>
   <p id="idAtmpkgCoffeecompiledsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Preview, compile and/or save CoffeeScript 1 or 2 in editor to Javascript
     <br>Mac: cmd+shift+c
     <br>Linux/Windows: ctrl-alt-c
@@ -1972,6 +2083,7 @@
   <h4 id="idAtmpkgIntentionsH4">AtomPckg.intentions
     <a class="clsHide" href="#idAtmpkgIntentionsH4"></a></h4>
   <p id="idAtmpkgIntentionsdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Intentions is a base package that provides an easy-to-use API to show intentions based in Atom.
     <br>Usage
     <br>The default keybinding on OSX to trigger list is ctrl + enter. If you want to trigger intentions highlights, press alt.
@@ -1992,6 +2104,7 @@
   <h4 id="idAtmpkgLinterH4">AtomPckg.linter
     <a class="clsHide" href="#idAtmpkgLinterH4"></a></h4>
   <p id="idAtmpkgLinterdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Linter is a base linter provider for the hackable Atom Editor. Additionally, you need to install a specific linter for your language. You will find a full list on atomlinter.github.io.
     <br>It provides a top-level API to its consumer so that they can visualize errors and other types of messages with ease.
     <br>[<a href="https://atom.io/packages/linter">https://atom.io/packages/linter</a>]
@@ -2011,6 +2124,7 @@
   <h4 id="idAtmpkgOpenterminalhereH4">AtomPckg.open-terminal-here
     <a class="clsHide" href="#idAtmpkgOpenterminalhereH4"></a></h4>
   <p id="idAtmpkgOpenterminalheredsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>Open the Terminal (Mac OS X, Linux) or Command Prompt (Windows) in the given directory via context menu or keyboard shortcut.
     <br>[<a href="https://atom.io/packages/open-terminal-here">https://atom.io/packages/open-terminal-here</a>]
     <a class="clsHide" href="#idAtmpkgOpenterminalheredsn"></a></p>
@@ -2029,6 +2143,7 @@
   <h2 id="idAtmapmH2">apm of AtomEdtr
     <a class="clsHide" href="#idAtmapmH2"></a></h2>
   <p id="idAtmapmdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>apm - Atom Package Manager
     <br>Discover and install Atom packages powered by atom.io
     <br>[https://github.com/atom/apm]
@@ -2048,6 +2163,7 @@
   <h1 id="idAtmrscH1">info-resource of AtomEdtr
     <a class="clsHide" href="#idAtmrscH1"></a></h1>
   <p id="idAtmirscdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
     <br>* <a href="https://atom.io/">https://atom.io/</a>,
     <br>=== TUTORIAL:
     <br>* http://flight-manual.atom.io/,
