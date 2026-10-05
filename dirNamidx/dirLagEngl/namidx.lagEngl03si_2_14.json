@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_14","char.n..chas",27129,"2026-10-04"],
+  [";lagEngl03si_2_14","char.n..chas",27128,"2026-10-05"],
   ["char.n-with-caron--&#x0148;","dirTchInf/dirUcd/McshUcdU0100.last.html#idU0100U0148"],
   ["char.n-with-tilde--ñ","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00F1"],
   ["char.ne-呢-21602","dirLag/McshLag000021.last.html#idLZhonsylb213"],
@@ -6230,7 +6230,7 @@
   ["char.shǔ-鼠-40736","dirLag/McshLag000021.last.html#idLZhonsylb300"],
   ["char.shǔn-吮-21550","dirLag/McshLag000021.last.html#idLZhonsylb306"],
   ["char.so-螦-34726","dirLag/McshLag000021.last.html#idLZhonsylb414"],
-  ["char.specific","dirLag/McshLag000006.last.html#idCharSpcFT"],
+  ["char.specific","dirLag/McshLag000006.last.html#iidCharstr"],
   ["char.surrogate","dirLag/McshLag000006.last.html#idCharUcdstdcpSrgtchar"],
   ["char.suàn-祘-31064","dirLag/McshLag000021.last.html#idLZhonsylb312"],
   ["char.suàn-笇-31495","dirLag/McshLag000021.last.html#idLZhonsylb312"],
@@ -21899,7 +21899,6 @@
   ["char.龙-lóng-surname","dirStn/McshStn000031.last.html#idSocChnaatt006fmln-108"],
   ["char.龚-gōng-surname","dirStn/McshStn000031.last.html#idSocChnaatt006fmln-80"],
   ["charAeResource","dirLag/McshLag000006.last.html#idCharirsc"],
-  ["charAsSpecific","dirLag/McshLag000006.last.html#idCharSpcFT"],
   ["charCodeAt()//String//JavaScript","dirTchInf/McshTchInf000010.last.html#idLjsalgChar"],
   ["charHtml","dirLag/McshLag000006.last.html#idCharHtml"],
   ["charHtml.code!⇒charHtmlCode","dirLag/McshLag000006.last.html#idCharHtmlNmdCodestr"],

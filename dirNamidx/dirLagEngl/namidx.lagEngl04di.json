@@ -1,5 +1,5 @@
 [
-  [";lagEngl04di","D|d",7022,"2026-10-04"],
+  [";lagEngl04di","D|d",7022,"2026-10-05"],
   ["D-app!⇒DeApp","dirTchInf/McshTchInf000015.last.html#idDapp"],
   ["D-ledger!⇒Dchain","dirTchInf/McshTchInf000015.last.html#idAlgntchnT"],
   ["D-stroke-Bitcoin-network!⇒DnBitcoin","dirTchInf/McshTchInf000017.last.html#idOverview"],
@@ -1097,7 +1097,7 @@
   ["DeliveryMethod@schema.org","dirStn/McshStn000023.last.html#idScmoDeliveryMethod"],
   ["DeliveryTimeSettings@schema.org","dirStn/McshStn000023.last.html#idScmoDeliveryTimeSettings"],
   ["Delocalisation@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrDelocalisation"],
-  ["Delors-Commission-{1985-1988-1992-1995}!⇒EuoComDelors","dirStn/McshStn000020.last.html#idEuoComDlrs"],
+  ["Delors-Commission-{1985}{1988}{1992}{1995}!⇒EuoComDelors","dirStn/McshStn000020.last.html#idEuoComDlrs"],
   ["Demand@schema.org","dirStn/McshStn000023.last.html#idScmoDemand"],
   ["Demand_side_tourism_statistics@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrDemand_side_tourism_statistics"],
   ["DemoAlbum@schema.org","dirStn/McshStn000023.last.html#idScmoDemoAlbum"],

@@ -1,5 +1,5 @@
 [
-  [";lagEngl19es_1","S..stdRfc",17014,"2026-10-04"],
+  [";lagEngl19es_1","S..stdRfc",17014,"2026-10-05"],
   ["S!=science","dirEdu/McshEdu000002.last.html#idOverview"],
   ["S-expression.Wasm","dirTchInf/McshTchInf000014.last.html#idLagWasmTxtsexn"],
   ["S16-Sulfur-chmElry!⇒chmElrS16","dirNtr/McshNtr000007.last.html#idChmElrSulfur"],
@@ -162,7 +162,7 @@
   ["Samarium-atom!⇒atomSamarium","dirNtr/McshNtr000007.last.html#idAtmSamarium"],
   ["Samoa-Tala-currency-(WST)","dirStn/McshStn000029.last.html#idSfrFin019UntSpc2"],
   ["Sample_survey@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrSample_survey"],
-  ["Santer-Commission-{1995-1999}-2!⇒EuoCom1995","dirStn/McshStn000020.last.html#idEuoCom1995"],
+  ["Santer-Commission-{1995..1999}-2!⇒EuoCom1995","dirStn/McshStn000020.last.html#idEuoCom1995"],
   ["Sars","dirHlth/McshHlth000011.last.html#idDssHmn162_2"],
   ["Satcen'(European-Union-Satellite-Centre-EuoAgency)","dirStn/McshStn000020.last.html#idEuoAgncystrdsn"],
   ["Satellite_account@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrSatellite_account"],

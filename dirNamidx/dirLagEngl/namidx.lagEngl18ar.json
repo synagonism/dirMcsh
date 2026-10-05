@@ -1,5 +1,5 @@
 [
-  [";lagEngl18ar","R|r",1954,"2026-10-04"],
+  [";lagEngl18ar","R|r",1954,"2026-10-05"],
   ["R&D!=research-and-development","dirStn/McshStn000015.last.html#idOznPdnatt037"],
   ["R&amp;D-(Research-and-development)@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-RandD"],
   ["R-phrase@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrR-phrase"],
@@ -325,7 +325,7 @@
   ["Reward-currency-scheme@bookPpm","dirStn/dirHitp/HitpStnEcon001.last.html#idNameReward-currencydsn"],
   ["Reward-currency@bookPpm","dirStn/dirHitp/HitpStnEcon001.last.html#idNameReward-currencydsn"],
   ["Rewards.sol","dirTchInf/McshTchInf000020.last.html#idChbctpRwrd"],
-  ["Rey-Commission-{1967-1970}!⇒EuoCom1967","dirStn/McshStn000020.last.html#idEuoCom1967"],
+  ["Rey-Commission-{1967..1970}!⇒EuoCom1967","dirStn/McshStn000020.last.html#idEuoCom1967"],
   ["Rf104-chmElrRutherfordium-!⇒chmElrRf104","dirNtr/McshNtr000007.last.html#idChmElrRutherfordium"],
   ["Rh45-Rhodium-chmElry!⇒chmElrRh45","dirNtr/McshNtr000007.last.html#idChmElrRhodium"],
   ["Rhenium-Re75-chmElry!⇒chmElrRe75","dirNtr/McshNtr000007.last.html#idChmElrRhenium"],

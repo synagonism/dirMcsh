@@ -1,5 +1,5 @@
 [
-  [";lagEngl15ou","O|o",3856,"2026-10-04"],
+  [";lagEngl15ou","O|o",3856,"2026-10-05"],
   ["O8-Oxygen-chmElry!⇒chmElrO8","dirNtr/McshNtr000007.last.html#idChmElrOxygen"],
   ["OBO--ontology-language","dirTchInf/McshTchInf000039.last.html#idLKnlg010Obol"],
   ["OBOR!=one-belt-one-road!⇒Chnabri","dirStn/McshStn000031.last.html#idChnaEconatt033"],
@@ -213,7 +213,7 @@
   ["OriginalShippingFees@schema.org","dirStn/McshStn000023.last.html#idScmoOriginalShippingFees"],
   ["Oriya--Unicode-block","dirTchInf/dirUcd/McshUcdU0B00.last.html#idOverview"],
   ["Ornamental-Dingbats--Unicode-block","dirTchInf/dirUcd/McshUcdU1F650.last.html#idOverview"],
-  ["Ortoli-Commission-{1973-1977}!⇒EuoCom1973","dirStn/McshStn000020.last.html#idEuoCom1973"],
+  ["Ortoli-Commission-{1973..1977}!⇒EuoCom1973","dirStn/McshStn000020.last.html#idEuoCom1973"],
   ["Os-computer!⇒cmrOs","dirTchInf/McshTchInf000003.last.html#idCmrOs"],
   ["Os76-Osmium-chmElry!⇒chmElrOs76","dirNtr/McshNtr000007.last.html#idChmElrOsmium"],
   ["OsNo-computer!⇒cmrOsNo","dirTchInf/McshTchInf000003.last.html#idCmrOsN"],
