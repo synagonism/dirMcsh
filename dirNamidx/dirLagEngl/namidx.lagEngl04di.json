@@ -1758,7 +1758,7 @@
   ["DisqusDirTchPrgm","dirTchPrgm/McshTchPrgm000004.last.html#idOverview"],
   ["DisqusDirTchPrgm!~McshTchPrgm000004","dirTchPrgm/McshTchPrgm000004.last.html#idOverview"],
   ["DisqusDirUcd","dirTchInf/dirUcd/McshUcd000002.last.html#idOverview"],
-  ["DisqusDirUcd!=McsUcd000002","dirTchInf/dirUcd/McshUcd000002.last.html#idOverview"],
+  ["DisqusDirUcd!~McsUcd000002","dirTchInf/dirUcd/McshUcd000002.last.html#idOverview"],
   ["DisqusMws!⇒DisqusDirMcs","Mcsh000001.last.html#idOverview"],
   ["Distance@schema.org","dirStn/McshStn000023.last.html#idScmoDistance"],
   ["DistanceFee@schema.org","dirStn/McshStn000023.last.html#idScmoDistanceFee"],

@@ -1,5 +1,5 @@
 [
-  [";lagEngl12el","L|l",37852,"2026-10-04"],
+  [";lagEngl12el","L|l",37853,"2026-10-05"],
   ["L!=language!⇒lagoOgnm","dirLag/McshLag000005.last.html#idOverview"],
   ["LAK!=Laos-Kip-currency","dirStn/McshStn000029.last.html#idSfrFin019Untstr"],
   ["LAU1@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrLAU1"],
@@ -103,6 +103,7 @@
   ["Latin-Extended-A--Unicode-block","dirTchInf/dirUcd/McshUcdU0100.last.html#idOverview"],
   ["Latin-Extended-Additional--Unicode-block","dirTchInf/dirUcd/McshUcdU1E00.last.html#idOverview"],
   ["Latin-Extended-B--Unicode-block","dirTchInf/dirUcd/McshUcdU0180.last.html#idOverview"],
+  ["Latin-Extended-C--Unicode-block","dirTchInf/dirUcd/McshUcdU2C60.last.html#idOverview"],
   ["Latin-Extended-D--Unicode-block","dirTchInf/dirUcd/McshUcdUA720.last.html#idOverview"],
   ["Latin-Extended-E--Unicode-block","dirTchInf/dirUcd/McshUcdUAB30.last.html#idOverview"],
   ["Law-of-the-Sea-Convention!⇒Unclos","dirStnlaw/McshStnlaw000004.last.html#idLawInl017"],

@@ -1497,10 +1497,9 @@
     <br>· the-chars assigned are 137,439 in version'11-0-0.2018.
     <a class="clsHide" href="#idCharUcdstdcpdsn"></a></p>
   <p id="idCharUcdstdcpnam">name::
-    <br>* McshEngl.Uccp,
+    <br>* McshEngl.Unicode--code-point!⇒Uccp,
     <br>* McshEngl.Uccp!=Unicode--code-point,
     <br>* McshEngl.Unicode'code-point!⇒Uccp,
-    <br>* McshEngl.Unicode--code-point!⇒Uccp,
     <br>* McshEngl.Unicode-code-point!⇒Uccp,
     <br>* McshEngl.code-point--of-Unicode-standard!⇒Uccp,
     <br>* McshEngl.codepoint-of-Unicode-standard!⇒Uccp,
@@ -1538,8 +1537,39 @@
   </section>
 
   <section id="idCharUcdstdcpchr">
-  <h4 id="idCharUcdstdcpchrH4">char of code-point (<a class="clsPreview" href="#idCharUcd">link</a>)
+  <h4 id="idCharUcdstdcpchrH4">char of Uccp (<a class="clsPreview" href="#idCharUcd">link</a>)
     <a class="clsHide" href="#idCharUcdstdcpchrH4"></a></h4>
+  </section>
+
+  <section id="idCharUcdstdcpgstr">
+  <h4 id="idCharUcdstdcpgstrH4">GENERIC-SPECIFIC-TREE of Uccp
+    <a class="clsHide" href="#idCharUcdstdcpgstrH4"></a></h4>
+  <p id="idCharUcdstdcpgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-05}
+    <a class="clsHide" href="#idCharUcdstdcpgstrdsn"></a></p>
+  <p id="idCharUcdstdcpgstrnam">name::
+    <br>* McshEngl.Uccp'generic-specific-tree,
+    <br>* McshEngl.Uccp'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdstdcpgstrnam"></a></p>
+  <p id="idCharUcdstdcpgtr">generic-tree::
+    <br>* McshEngl.Uccp-gtr,
+    <br>===
+    <br>* number-gtr,
+    <br>* ... entity-gtr,
+    <a class="clsHide" href="#idCharUcdstdcpgtr"></a></p>
+  <p id="idCharUcdstdcpstr">specific-tree::
+    <br>* McshEngl.Uccp.specific,
+    <br>* McshEngl.Uccp-str,
+    <br>===
+    <br>* aggregate,
+    <br>* plane,
+    <br>* block,
+    <br>* used,
+    <br>* usedNo,
+    <br>* unknown-script,
+    <br>* unknown-scriptNo,
+    <br>* surrogate,
+    <a class="clsHide" href="#idCharUcdstdcpstr"></a></p>
   </section>
 
   <section id="idCharUcdstdcpAgg">
@@ -1851,10 +1881,9 @@
     <br>[https://en.wikipedia.org/wiki/Unicode_character_property#Block]
     <a class="clsHide" href="#idCharUcdstdcpBlkdsn"></a></p>
   <p id="idCharUcdstdcpBlknam">name::
-    <br>* McshEngl.Ucbk,
+    <br>* McshEngl.Unicode-block!⇒Ucbk,
     <br>* McshEngl.Ucbk!=Unicode-block,
     <br>* McshEngl.Unicode'block!⇒Ucbk,
-    <br>* McshEngl.Unicode-block!⇒Ucbk,
     <br>* McshEngl.block-of-Unicode!⇒Ucbk,
     <br>* McshEngl.charUni'block!⇒Ucbk,
     <a class="clsHide" href="#idCharUcdstdcpBlknam"></a></p>
@@ -1867,7 +1896,7 @@
     <br>· every <a class="clsPreview" href="#idCharUcdstdcpBlk">block</a> is part of <a class="clsPreview" href="#idCharUcdstdcpPln">a-plane</a>.
     <a class="clsHide" href="#idCharUcdstdcpBlkplndsn"></a></p>
   <p id="idCharUcdstdcpBlkplnnam">name::
-    <br>* McshEngl.Unicode-block'plane,
+    <br>* McshEngl.Ucbk'plane,
     <a class="clsHide" href="#idCharUcdstdcpBlkplnnam"></a></p>
   </section>
 
@@ -1881,7 +1910,7 @@
     <br>[<a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">hmnSngo</a>.2018-06-26]
     <a class="clsHide" href="#idCharUcdstdcpBlkcpdsn"></a></p>
   <p id="idCharUcdstdcpBlkcpnam">name::
-    <br>* McshEngl.Unicode-block'code-point,
+    <br>* McshEngl.Ucbk'code-point,
     <a class="clsHide" href="#idCharUcdstdcpBlkcpnam"></a></p>
   </section>
 
@@ -1894,22 +1923,31 @@
     <br>[<a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">hmnSngo</a>.2018-06-26]
     <a class="clsHide" href="#idCharUcdstdcpBlkchrdsn"></a></p>
   <p id="idCharUcdstdcpBlkchrnam">name::
-    <br>* McshEngl.Unicode-block'char,
+    <br>* McshEngl.Ucbk'char,
     <a class="clsHide" href="#idCharUcdstdcpBlkchrnam"></a></p>
   </section>
 
-  <section id="idCharUcdstdcpBlkstr">
-  <h5 id="idCharUcdstdcpBlkstrH5">Unicode-block.SPECIFIC
-    <a class="clsHide" href="#idCharUcdstdcpBlkstrH5"></a></h5>
-  <p id="idCharUcdstdcpBlkstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idCharUcdstdcpBlkstrdsn"></a></p>
-  <p id="idCharUcdstdcpBlkstrnam">name::
+  <section id="idCharUcdstdcpBlkgstr">
+  <h5 id="idCharUcdstdcpBlkgstrH5">GENERIC-SPECIFIC-TREE of Ucbk
+    <a class="clsHide" href="#idCharUcdstdcpBlkgstrH5"></a></h5>
+  <p id="idCharUcdstdcpBlkgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-05}
+    <a class="clsHide" href="#idCharUcdstdcpBlkgstrdsn"></a></p>
+  <p id="idCharUcdstdcpBlkgstrnam">name::
+    <br>* McshEngl.Ucbk'generic-specific-tree,
+    <br>* McshEngl.Ucbk'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdstdcpBlkgstrnam"></a></p>
+  <p id="idCharUcdstdcpBlkgtr">generic-tree::
+    <br>* McshEngl.Ucbk-gtr,
+    <br>===
+    <br>* Uccp-gtr,
+    <br>* ... entity-gtr,
+    <a class="clsHide" href="#idCharUcdstdcpBlkgtr"></a></p>
+  <div id="idCharUcdstdcpBlkstr">
+    <p>specific-tree::
     <br>* McshEngl.Ucbk.specific,
     <br>* McshEngl.Ucbk-str,
-    <a class="clsHide" href="#idCharUcdstdcpBlkstrnam"></a></p>
-  <div id="idCharUcdstdcpBlkP1">
-    <p>specific::
+    <br>===
     <br>* 320 blocks in Unicode-14.0:
     <br>- 164 in plane-0|BMP
     <br>- 145 in plane-1|SMP
@@ -2215,7 +2253,7 @@
     <li>(<a class="clsPreview" href="../dirTchInf/dirUcd/McshUcdUF0000.last.html#idOverview">U+F0000|983040..U+FFFFF|1048575</a>, Supplementary-Private-Use-Area-A, 65536/0)
     <li>(<a class="clsPreview" href="../dirTchInf/dirUcd/McshUcdU100000.last.html#idOverview">U+100000|1048576..U+10FFFF|1114111</a>, Supplementary-Private-Use-Area-B, 65536/0)
     </ol>
-    <a class="clsHide" href="#idCharUcdstdcpBlkP1"></a></div>
+    <a class="clsHide" href="#idCharUcdstdcpBlkstr"></a></p>
   </section>
   </section>
 
