@@ -1,5 +1,5 @@
 [
-  [";dirTchInf",45114,"2026-10-04"],
+  [";dirTchInf",45404,"2026-10-06"],
   ["dirTchInf/McshTchInf000000.last.html",3],
   ["dirTchInf/McshTchInf000001.last.html",1],
   ["dirTchInf/McshTchInf000002.last.html",53],
@@ -9,15 +9,15 @@
   ["dirTchInf/McshTchInf000006.last.html",151],
   ["dirTchInf/McshTchInf000007.last.html",173],
   ["dirTchInf/McshTchInf000008.last.html",200],
-  ["dirTchInf/McshTchInf000009.last.html",172],
+  ["dirTchInf/McshTchInf000009.last.html",171],
   ["dirTchInf/McshTchInf000010.last.html",287],
   ["dirTchInf/McshTchInf000011.last.html",111],
   ["dirTchInf/McshTchInf000012.last.html",335],
   ["dirTchInf/McshTchInf000013.last.html",64],
-  ["dirTchInf/McshTchInf000014.last.html",264],
+  ["dirTchInf/McshTchInf000014.last.html",265],
   ["dirTchInf/McshTchInf000015.last.html",531],
   ["dirTchInf/McshTchInf000016.last.html",348],
-  ["dirTchInf/McshTchInf000017.last.html",284],
+  ["dirTchInf/McshTchInf000017.last.html",283],
   ["dirTchInf/McshTchInf000018.last.html",325],
   ["dirTchInf/McshTchInf000019.last.html",222],
   ["dirTchInf/McshTchInf000020.last.html",71],
@@ -45,5 +45,5 @@
   ["dirTchInf/McshTchInf000042.last.html",5204],
   ["dirTchInf/McshTchInfTest.last.html",1],
   ["dirTchInf/dirHitp",100],
-  ["dirTchInf/dirUcd",33431]
+  ["dirTchInf/dirUcd",33722]
 ]

@@ -1,5 +1,5 @@
 [
-  [";lagEngl14en","N|n",2641,"2026-10-05"],
+  [";lagEngl14en","N|n",2641,"2026-10-06"],
   ["N-11@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrN-11"],
   ["N-Quads-lagoRdfw","dirTchInf/McshTchInf000039.last.html#idLKnlg014Nqds"],
   ["N-Triple-lagoRdfw","dirTchInf/McshTchInf000039.last.html#idLKnlg014Ntrpl"],
@@ -1230,7 +1230,7 @@
   ["node-of-Dnchain!⇒Dnode","dirTchInf/McshTchInf000015.last.html#idAlgntnodFT"],
   ["node-of-Faircoin-net","dirTchInf/McshTchInf000022.last.html#idFairnetnod"],
   ["node-of-Hmnm_lago!⇒Hmnm_node","dirLag/McshLag000007.last.html#idLHmnmnode"],
-  ["node-of-blockchain!⇒Dblockchain-node","dirTchInf/McshTchInf000016.last.html#idDbcnodFT"],
+  ["node-of-blockchain!⇒Dblockchain-node","dirTchInf/McshTchInf000016.last.html#idDbcnod"],
   ["node-of-graph!⇒Grphnode","dirEdu/McshEdu000003.last.html#idSMathgraphnode"],
   ["node-of-ogzn!⇒Oznnode","dirStn/McshStn000008.last.html#idOgznatt018"],
   ["node-of-ogznPrdg","dirStn/McshStn000015.last.html#idOznPdnatt025"],
