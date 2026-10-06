@@ -3109,7 +3109,7 @@
   ["hotel-in-China!⇒ChnaHotel","dirStn/McshStn000031.last.html#idChnaEconatt016hotl"],
   ["hotness","dirNtr/McshNtr000002.last.html#idMtrlatt008TmprHot"],
   ["hour!⇒timeHour","dirCor/McshCor000006.last.html#idTimeUomHour"],
-  ["hour'InfRsc","dirCor/McshCor000006.last.html#idTimeUomHourrsc"],
+  ["hour'info-resource","dirCor/McshCor000006.last.html#idTimeUomHourrsc"],
   ["hour-time-Uom!⇒timeHour","dirCor/McshCor000006.last.html#idTimeUomHour"],
   ["hour.UTC","dirCor/McshCor000006.last.html#idTimeUomHourUtc"],
   ["hour.individual","dirCor/McshCor000006.last.html#idTimeUomHourInd"],
