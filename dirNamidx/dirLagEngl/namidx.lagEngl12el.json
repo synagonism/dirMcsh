@@ -1,5 +1,5 @@
 [
-  [";lagEngl12el","L|l",36668,"2026-10-08"],
+  [";lagEngl12el","L|l",36673,"2026-10-09"],
   ["L!=language!⇒Ogsm_lago","dirLag/McshLag000005.last.html#idOverview"],
   ["LAK!=Laos-Kip-currency","dirStn/McshStn000029.last.html#idSfrFin019Untstr"],
   ["LAU1@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrLAU1"],
@@ -35306,6 +35306,11 @@
   ["learning.Hmnm_lago","dirLag/McshLag000007.last.html#idLHmnmhmnlrng"],
   ["learning.chain-net","dirTchInf/McshTchInf000015.last.html#idAlgntdngLrng"],
   ["learningBio","dirCor/McshCor000013.last.html#idBrngLrng"],
+  ["learningBio'generic-specific-tree","dirCor/McshCor000013.last.html#idBrngLrnggstr"],
+  ["learningBio'specific-generic-tree","dirCor/McshCor000013.last.html#idBrngLrnggstr"],
+  ["learningBio-Gntr","dirCor/McshCor000013.last.html#idBrngLrnggtr"],
+  ["learningBio-Sptr","dirCor/McshCor000013.last.html#idBrngLrngstr"],
+  ["learningBio.specific","dirCor/McshCor000013.last.html#idBrngLrngstr"],
   ["learningResourceType@schema.org","dirStn/McshStn000023.last.html#idScmolearningResourceType"],
   ["lease@IfrsSme","dirStn/dirHitp/HitpStnStd001.last.html#idlease"],
   ["lease@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-lease"],
