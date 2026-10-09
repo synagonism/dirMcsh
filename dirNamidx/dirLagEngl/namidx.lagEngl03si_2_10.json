@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_10","char.UA..char.l",7075,"2026-10-05"],
+  [";lagEngl03si_2_10","char.UA..char.l",7076,"2026-10-09"],
   ["char.UGARITIC-LETTER-AIN-U+10393|66451|&#x10393;","dirTchInf/dirUcd/McshUcdU10380.last.html#idU10380U10393"],
   ["char.UGARITIC-LETTER-ALPA-U+10380|66432|&#x10380;","dirTchInf/dirUcd/McshUcdU10380.last.html#idU10380U10380"],
   ["char.UGARITIC-LETTER-BETA-U+10381|66433|&#x10381;","dirTchInf/dirUcd/McshUcdU10380.last.html#idU10380U10381"],
@@ -829,6 +829,7 @@
   ["char.VULGAR-FRACTION-TWO-FIFTHS-U+2156|8534|&#x2156;","dirTchInf/dirUcd/McshUcdU2150.last.html#idU2150U2156"],
   ["char.VULGAR-FRACTION-TWO-THIRDS-U+2154|8532|&#x2154;","dirTchInf/dirUcd/McshUcdU2150.last.html#idU2150U2154"],
   ["char.VULGAR-FRACTION-ZERO-THIRDS-U+2189|8585|&#x2189;","dirTchInf/dirUcd/McshUcdU2150.last.html#idU2150U2189"],
+  ["char.Variation-selectors","dirTchInf/dirUcd/McshUcdUFE00.last.html#idUFE00chr0"],
   ["char.WANING-CRESCENT-MOON-SYMBOL-U+1F318|127768|&#x1F318;","dirTchInf/dirUcd/McshUcdU1F300.last.html#idU1F300U1F318"],
   ["char.WANING-GIBBOUS-MOON-SYMBOL-U+1F316|127766|&#x1F316;","dirTchInf/dirUcd/McshUcdU1F300.last.html#idU1F300U1F316"],
   ["char.WARANG-CITI-CAPITAL-LETTER-A-U+118A1|71841|&#x118A1;","dirTchInf/dirUcd/McshUcdU118A0.last.html#idU118A0U118A1"],

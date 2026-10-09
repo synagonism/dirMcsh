@@ -410,7 +410,7 @@
     <a class="clsHide" href="#idEconHmnatt038Wagestrdsn"></a></p>
   <p id="idEconHmnatt038Wagestrnam">name::
     <br>* McshEngl.wage.specific,
-    <br>* McshEngl.wage-str,
+    <br>* McshEngl.wage-Sptr,
     <a class="clsHide" href="#idEconHmnatt038Wagestrnam"></a></p>
   </section>
 
@@ -515,7 +515,7 @@
     <a class="clsHide" href="#idEconHmnatt037strdsn"></a></p>
   <p id="idEconHmnatt037strnam">name::
     <br>* McshEngl.Econproducer.specific,
-    <br>* McshEngl.Econproducer-str,
+    <br>* McshEngl.Econproducer-Sptr,
     <a class="clsHide" href="#idEconHmnatt037strnam"></a></p>
   </section>
 
@@ -607,7 +607,7 @@
     <a class="clsHide" href="#idEconHmnatt036strdsn"></a></p>
   <p id="idEconHmnatt036strnam">name::
     <br>* McshEngl.workerNo.specific,
-    <br>* McshEngl.workerNo-str,
+    <br>* McshEngl.workerNo-Sptr,
     <a class="clsHide" href="#idEconHmnatt036strnam"></a></p>
   </section>
   </section>
@@ -737,7 +737,7 @@
     <a class="clsHide" href="#idEconHmnatt046strdsn"></a></p>
   <p id="idEconHmnatt046strnam">name::
     <br>* McshEngl.EconConsumer.specific,
-    <br>* McshEngl.EconConsumer-str,
+    <br>* McshEngl.EconConsumer-Sptr,
     <a class="clsHide" href="#idEconHmnatt046strnam"></a></p>
   </section>
 
@@ -1187,6 +1187,33 @@
     <br>* McshEngl.system-of-national-accounts!⇒acctEcon,
     <a class="clsHide" href="#idEconHmnatt007Econnam"></a></p>
 
+  <section id="idEconHmnatt007Econgstr">
+  <h3 id="idEconHmnatt007EcongstrH3">GENERIC-SPECIFIC-TREE of acctEcon
+    <a class="clsHide" href="#idEconHmnatt007EcongstrH3"></a></h3>
+  <p id="idEconHmnatt007Econgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmnatt007Econgstrdsn"></a></p>
+  <p id="idEconHmnatt007Econgstrnam">name::
+    <br>* McshEngl.acctEcon'generic-specific-tree,
+    <br>* McshEngl.acctEcon'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmnatt007Econgstrnam"></a></p>
+  <p id="idEconHmnatt007Econgtr">generic-tree::
+    <br>* McshEngl.acctEcon-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmnatt007Econgtr"></a></p>
+  <p id="idEconHmnatt007Econstr">specific-tree::
+    <br>* McshEngl.acctEcon.specific,
+    <br>* McshEngl.acctEcon-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idEconHmnatt007sna">acctEcon.Sna</a>,
+    <br>* <a class="clsPreview" href="#idEconHmnatt007Sam">acctEcon.Sam</a>,
+    <br>* <a class="clsPreview" href="#idEconHmnatt007esa">acctEcon.Esa</a>,
+    <br>* <a class="clsPreview" href="#idEconHmnatt007mps">acctEcon.Mps</a>,
+    <br>* <a class="clsPreview" href="#idEconHmnatt007nta">acctEcon.Nta</a>,
+    <a class="clsHide" href="#idEconHmnatt007Econstr"></a></p>
+  </section>
+
   <section id="idEconHmnatt007sna">
   <h3 id="idEconHmnatt007snaH3">acctEcon.Sna
     <a class="clsHide" href="#idEconHmnatt007snaH3"></a></h3>
@@ -1204,6 +1231,30 @@
     <br>* McshEngl.Unsna!⇒Sna,
     <br>* McshEngl.national-accounts.Un!⇒Sna,
     <a class="clsHide" href="#idEconHmnatt007snanam"></a></p>
+
+  <section id="idEconHmnatt007snagstr">
+  <h4 id="idEconHmnatt007snagstrH4">GENERIC-SPECIFIC-TREE of Sna
+    <a class="clsHide" href="#idEconHmnatt007snagstrH4"></a></h4>
+  <p id="idEconHmnatt007snagstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmnatt007snagstrdsn"></a></p>
+  <p id="idEconHmnatt007snagstrnam">name::
+    <br>* McshEngl.Sna'generic-specific-tree,
+    <br>* McshEngl.Sna'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmnatt007snagstrnam"></a></p>
+  <p id="idEconHmnatt007snagtr">generic-tree::
+    <br>* McshEngl.Sna-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmnatt007snagtr"></a></p>
+  <p id="idEconHmnatt007snastr">specific-tree::
+    <br>* McshEngl.Sna.specific,
+    <br>* McshEngl.Sna-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idEconHmnatt007sna2008">Sna.{2008}-version</a>,
+    <br>* <a class="clsPreview" href="#idEconHmnatt007sna1993">Sna.{1993}-version</a>,
+    <a class="clsHide" href="#idEconHmnatt007snastr"></a></p>
+  </section>
 
   <section id="idEconHmnatt007snairsc">
   <h4 id="idEconHmnatt007snarscFH4">info-resource of Sna
@@ -1346,6 +1397,29 @@
     <br>* McshEngl.European-system-of-accounts!⇒Esa,
     <br>* McshEngl.acctEcon.Esa!⇒Esa,
     <a class="clsHide" href="#idEconHmnatt007esanam"></a></p>
+
+  <section id="idEconHmnatt007esagstr">
+  <h4 id="idEconHmnatt007esagstrH4">GENERIC-SPECIFIC-TREE of Esa
+    <a class="clsHide" href="#idEconHmnatt007esagstrH4"></a></h4>
+  <p id="idEconHmnatt007esagstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmnatt007esagstrdsn"></a></p>
+  <p id="idEconHmnatt007esagstrnam">name::
+    <br>* McshEngl.Esa'generic-specific-tree,
+    <br>* McshEngl.Esa'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmnatt007esagstrnam"></a></p>
+  <p id="idEconHmnatt007esagtr">generic-tree::
+    <br>* McshEngl.Esa-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmnatt007esagtr"></a></p>
+  <p id="idEconHmnatt007esastr">specific-tree::
+    <br>* McshEngl.Esa.specific,
+    <br>* McshEngl.Esa-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idEconHmnatt007esa2010">Esa.2010</a>,
+    <a class="clsHide" href="#idEconHmnatt007esastr"></a></p>
+  </section>
 
   <section id="idEconHmnatt007esairsc">
   <h4 id="idEconHmnatt007esarscFH4">info-resource of Esa
@@ -1733,7 +1807,7 @@
     <a class="clsHide" href="#idEconHmnatt047strdsn"></a></p>
   <p id="idEconHmnatt047strnam">name::
     <br>* McshEngl.Econmarket.specific,
-    <br>* McshEngl.Econmarket-str,
+    <br>* McshEngl.Econmarket-Sptr,
     <a class="clsHide" href="#idEconHmnatt047strnam"></a></p>
   </section>
   </section>
@@ -2026,6 +2100,29 @@
     <br>* McshEngl.purchasing-power-parity-GDP!⇒GdpPpp,
     <br>* McshEngl.society'GDP-at-parity!⇒GdpPpp,
     <a class="clsHide" href="#idEconHmnatt011nam"></a></p>
+
+  <section id="idEconHmnatt011gstr">
+  <h4 id="idEconHmnatt011gstrH4">GENERIC-SPECIFIC-TREE of GdpPpp
+    <a class="clsHide" href="#idEconHmnatt011gstrH4"></a></h4>
+  <p id="idEconHmnatt011gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmnatt011gstrdsn"></a></p>
+  <p id="idEconHmnatt011gstrnam">name::
+    <br>* McshEngl.GdpPpp'generic-specific-tree,
+    <br>* McshEngl.GdpPpp'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmnatt011gstrnam"></a></p>
+  <p id="idEconHmnatt011gtr">generic-tree::
+    <br>* McshEngl.GdpPpp-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmnatt011gtr"></a></p>
+  <p id="idEconHmnatt011str">specific-tree::
+    <br>* McshEngl.GdpPpp.specific,
+    <br>* McshEngl.GdpPpp-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idEconHmnatt011Soc">GdpPpp.per-society</a>,
+    <a class="clsHide" href="#idEconHmnatt011str"></a></p>
+  </section>
 
   <section id="idEconHmnatt011Soc">
   <h4 id="idEconHmnatt011SocH4">GdpPpp.per-society
@@ -2363,7 +2460,7 @@
     <a class="clsHide" href="#idLaw045strdsn"></a></p>
   <p id="idLaw045strnam">name::
     <br>* McshEngl.lawEconomy.specific,
-    <br>* McshEngl.lawEconomy-str,
+    <br>* McshEngl.lawEconomy-Sptr,
     <a class="clsHide" href="#idLaw045strnam"></a></p>
   </section>
 
@@ -2816,7 +2913,7 @@
     <a class="clsHide" href="#idEconHmnatt031strdsn"></a></p>
   <p id="idEconHmnatt031strnam">name::
     <br>* McshEngl.Econplng.specific,
-    <br>* McshEngl.Econplng-str,
+    <br>* McshEngl.Econplng-Sptr,
     <a class="clsHide" href="#idEconHmnatt031strnam"></a></p>
   </section>
 
@@ -2883,11 +2980,11 @@
   <p id="idEconHmnwtr">whole-tree::
     <br>* human-society,
     <br>* ... <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idOverview">Sympan</a>.
-    <br>* McshEngl.nodeSatisfier-wtr,
-    <br>* McshEngl.SocEcon-wtr,
+    <br>* McshEngl.nodeSatisfier-Wltr,
+    <br>* McshEngl.SocEcon-Wltr,
     <a class="clsHide" href="#idEconHmnwtr"></a></p>
   <p id="idEconHmnptr">part-tree::
-    <br>* McshEngl.SocEcon-ptr,
+    <br>* McshEngl.SocEcon-Prtr,
     <a class="clsHide" href="#idEconHmnptr"></a></p>
   </section>
 
@@ -2902,13 +2999,13 @@
     <br>* McshEngl.SocEcon'specific-generic-tree,
     <a class="clsHide" href="#idEconHmngstrnam"></a></p>
   <p id="idEconHmngtr">generic-tree::
-    <br>* McshEngl.SocEcon-gtr,
+    <br>* McshEngl.SocEcon-Gntr,
     <br>===
-    <br>* ... entity-gtr,
+    <br>* ... entity-Gntr,
     <a class="clsHide" href="#idEconHmngtr"></a></p>
   <p id="idEconHmnstr">specific-tree::
     <br>* McshEngl.SocEcon.specific,
-    <br>* McshEngl.SocEcon-str,
+    <br>* McshEngl.SocEcon-Sptr,
     <br>===
     <br>* market-economy,
     <br>* planned-economy,
@@ -3018,6 +3115,29 @@
     <br>* McshEngl.econPlnd!=planned-economy,
     <br>* McshEngl.planned-economy!⇒econPlnd,
     <a class="clsHide" href="#idEconHmn023nam"></a></p>
+
+  <section id="idEconHmn023gstr">
+  <h3 id="idEconHmn023gstrH3">GENERIC-SPECIFIC-TREE of econPlnd
+    <a class="clsHide" href="#idEconHmn023gstrH3"></a></h3>
+  <p id="idEconHmn023gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmn023gstrdsn"></a></p>
+  <p id="idEconHmn023gstrnam">name::
+    <br>* McshEngl.econPlnd'generic-specific-tree,
+    <br>* McshEngl.econPlnd'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmn023gstrnam"></a></p>
+  <p id="idEconHmn023gtr">generic-tree::
+    <br>* McshEngl.econPlnd-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmn023gtr"></a></p>
+  <p id="idEconHmn023str">specific-tree::
+    <br>* McshEngl.econPlnd.specific,
+    <br>* McshEngl.econPlnd-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idEconHmn023Lgml">econPlnd.Lange-model</a>,
+    <a class="clsHide" href="#idEconHmn023str"></a></p>
+  </section>
 
   <section id="idEconHmn023eval">
   <h3 id="idEconHmn023evalH3">evaluation of econPlnd
@@ -4064,6 +4184,29 @@
     <br>* McshEngl.SocEcon.001-eco!⇒econEco,
     <br>* McshEngl.SocEcon.eco!⇒econEco,
     <a class="clsHide" href="#idEconHmn001nam"></a></p>
+
+  <section id="idEconHmn001gstr">
+  <h2 id="idEconHmn001gstrH2">GENERIC-SPECIFIC-TREE of econEco
+    <a class="clsHide" href="#idEconHmn001gstrH2"></a></h2>
+  <p id="idEconHmn001gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmn001gstrdsn"></a></p>
+  <p id="idEconHmn001gstrnam">name::
+    <br>* McshEngl.econEco'generic-specific-tree,
+    <br>* McshEngl.econEco'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmn001gstrnam"></a></p>
+  <p id="idEconHmn001gtr">generic-tree::
+    <br>* McshEngl.econEco-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmn001gtr"></a></p>
+  <p id="idEconHmn001str">specific-tree::
+    <br>* McshEngl.econEco.specific,
+    <br>* McshEngl.econEco-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idEconHmn003">econEco.circular-003</a>,
+    <a class="clsHide" href="#idEconHmn001str"></a></p>
+  </section>
 
   <section id="idEconHmn001irsc">
   <h2 id="idEconHmn001rscFH2">info-resource of econEco

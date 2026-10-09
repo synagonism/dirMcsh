@@ -176,7 +176,7 @@
     <a class="clsHide" href="#idSysMtrlOgmstrdsn"></a></p>
   <p id="idSysMtrlOgmstrnam">name::
     <br>* McshEngl.nodeOgmMtrl.specific,
-    <br>* McshEngl.nodeOgmMtrl-str,
+    <br>* McshEngl.nodeOgmMtrl-Sptr,
     <a class="clsHide" href="#idSysMtrlOgmstrnam"></a></p>
   </section>
 
@@ -903,10 +903,10 @@
     <br>* McshEngl.Ogsm'part-whole-tree,
     <a class="clsHide" href="#idOgmwptrnam"></a></p>
   <p id="idOgmwtr">whole-tree::
-    <br>* McshEngl.Ogsm-wtr,
+    <br>* McshEngl.Ogsm-Wltr,
     <a class="clsHide" href="#idOgmwtr"></a></p>
   <p id="idOgmptr">part-tree::
-    <br>* McshEngl.Ogsm-ptr,
+    <br>* McshEngl.Ogsm-Prtr,
     <a class="clsHide" href="#idOgmptr"></a></p>
   </section>
 
@@ -921,17 +921,17 @@
     <br>* McshEngl.Ogsm'specific-generic-tree,
     <a class="clsHide" href="#idOgmgstrnam"></a></p>
   <p id="idOgmgtr">generic-tree::
-    <br>* McshEngl.Ogsm-gtr,
+    <br>* McshEngl.Ogsm-Gntr,
     <br>===
-    <br>* bio-gtr,
-    <br>* dynamic-system-gtr,
-    <br>* whole-gtr,
-    <br>* body-gtr,
-    <br>* entity-gtr,
+    <br>* bio-Gntr,
+    <br>* dynamic-system-Gntr,
+    <br>* whole-Gntr,
+    <br>* body-Gntr,
+    <br>* entity-Gntr,
     <a class="clsHide" href="#idOgmgtr"></a></p>
   <p id="idOgmstr">specific-tree::
     <br>* McshEngl.Ogsm.specific,
-    <br>* McshEngl.Ogsm-str,
+    <br>* McshEngl.Ogsm-Sptr,
     <br>===
     <br>* generic-Ogsm,
     <br>* genericNo-Ogsm,
@@ -1216,6 +1216,29 @@
     <br>* McshEngl.ogmGnrc,
     <a class="clsHide" href="#idOgm006nam"></a></p>
 
+  <section id="idOgm006gstr">
+  <h2 id="idOgm006gstrH2">GENERIC-SPECIFIC-TREE of ogmGnrc
+    <a class="clsHide" href="#idOgm006gstrH2"></a></h2>
+  <p id="idOgm006gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idOgm006gstrdsn"></a></p>
+  <p id="idOgm006gstrnam">name::
+    <br>* McshEngl.ogmGnrc'generic-specific-tree,
+    <br>* McshEngl.ogmGnrc'specific-generic-tree,
+    <a class="clsHide" href="#idOgm006gstrnam"></a></p>
+  <p id="idOgm006gtr">generic-tree::
+    <br>* McshEngl.ogmGnrc-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idOgm006gtr"></a></p>
+  <p id="idOgm006str">specific-tree::
+    <br>* McshEngl.ogmGnrc.specific,
+    <br>* McshEngl.ogmGnrc-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idOgm006Agg">ogmGnrc.aggregate</a>,
+    <a class="clsHide" href="#idOgm006str"></a></p>
+  </section>
+
   <section id="idOgm006Agg">
   <h2 id="idOgm006AggH2">ogmGnrc.aggregate
     <a class="clsHide" href="#idOgm006AggH2"></a></h2>
@@ -1438,12 +1461,12 @@
     <br>* McshEngl.ogmMicro'specific-generic-tree,
     <a class="clsHide" href="#idOgm013gtrnam"></a></p>
   <p id="idOgm013gtr">generic-tree::
-    <br>* McshEngl.ogmMicro-gtr,
+    <br>* McshEngl.ogmMicro-Gntr,
     <br>===
     <a class="clsHide" href="#idOgm013gtr"></a></p>
   <p id="idOgm013str">specific-tree::
     <br>* McshEngl.ogmMicro.specific,
-    <br>* McshEngl.ogmMicro-str,
+    <br>* McshEngl.ogmMicro-Sptr,
     <br>===
     <br>* bacterium-ogmMicro,
     <br>* cellNo-ogmMicro,
@@ -1577,6 +1600,29 @@
     <br>* McshEngl.Ogsm.naturalNo-020!⇒ogmSynth,
     <br>* McshEngl.synthetic-Ogsm-020!⇒ogmSynth,
     <a class="clsHide" href="#idOgm020nam"></a></p>
+
+  <section id="idOgm020gstr">
+  <h2 id="idOgm020gstrH2">GENERIC-SPECIFIC-TREE of ogmSynth
+    <a class="clsHide" href="#idOgm020gstrH2"></a></h2>
+  <p id="idOgm020gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idOgm020gstrdsn"></a></p>
+  <p id="idOgm020gstrnam">name::
+    <br>* McshEngl.ogmSynth'generic-specific-tree,
+    <br>* McshEngl.ogmSynth'specific-generic-tree,
+    <a class="clsHide" href="#idOgm020gstrnam"></a></p>
+  <p id="idOgm020gtr">generic-tree::
+    <br>* McshEngl.ogmSynth-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idOgm020gtr"></a></p>
+  <p id="idOgm020str">specific-tree::
+    <br>* McshEngl.ogmSynth.specific,
+    <br>* McshEngl.ogmSynth-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idOgm020001">ogmSynth.</a>,
+    <a class="clsHide" href="#idOgm020str"></a></p>
+  </section>
 
   <section id="idOgm020001">
   <h2 id="idOgm020001H2">ogmSynth.

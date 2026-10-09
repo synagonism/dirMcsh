@@ -1,5 +1,5 @@
 [
-  [";lagEngl07ji","G|g",1442,"2026-10-07"],
+  [";lagEngl07ji","G|g",1442,"2026-10-09"],
   ["G!=1000^3!=Giga!=billion","dirCor/McshCor000010.last.html#idQntNbrK31"],
   ["G-giga=x1'000'000'000","dirCor/McshCor000010.last.html#idQntRlvMlplGiga"],
   ["G20@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrG20"],
@@ -625,8 +625,8 @@
   ["generic-semu-concept--of-Hmnm_lago","dirLag/McshLag000007.last.html#idLHmnmsmscptIdvlN"],
   ["generic-semu_cnpt-attribute-of-Hmnm_lago","dirLag/McshLag000007.last.html#idLHmnmsmscptattIdvlN"],
   ["generic-specific--sequencedNo-relation!⇒rltnGenericSpecific","dirCor/McshCor000009.last.html#idGnrspcrln"],
-  ["generic-specific--tree!⇒treeGs","dirCor/McshCor000011.last.html#idSys002Gcsc"],
-  ["generic-specific--tree-system!⇒treeGs","dirCor/McshCor000011.last.html#idSys002Gcsc"],
+  ["generic-specific--tree!⇒treeGnsp","dirCor/McshCor000011.last.html#idSys002Gcsc"],
+  ["generic-specific--tree-system!⇒treeGnsp","dirCor/McshCor000011.last.html#idSys002Gcsc"],
   ["generic-specific-branch-of-science!⇒Scigsbranch","dirEdu/McshEdu000002.last.html#idScigsbrch"],
   ["generic-specific-pair--web-page!⇒Hitp_lago","dirTchInf/McshTchInf000008.last.html#idOverview"],
   ["generic-specific-sequenced-relation!⇒rltnGeneric_then_specific","dirCor/McshCor000009.last.html#idGnrspcrln1"],

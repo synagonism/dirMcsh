@@ -207,7 +207,7 @@
     <a class="clsHide" href="#idLSlv0smscptstrdsn"></a></p>
   <p id="idLSlv0smscptstrnam">name::
     <br>* McshEngl.Slv0LagoCnpt.specific,
-    <br>* McshEngl.Slv0LagoCnpt-str,
+    <br>* McshEngl.Slv0LagoCnpt-Sptr,
     <a class="clsHide" href="#idLSlv0smscptstrnam"></a></p>
   </section>
   </section>
@@ -247,7 +247,7 @@
     <a class="clsHide" href="#idLSlv0smsondostrdsn"></a></p>
   <p id="idLSlv0smsondostrnam">name::
     <br>* McshEngl.Slv0ArgoCnpt.specific,
-    <br>* McshEngl.Slv0ArgoCnpt-str,
+    <br>* McshEngl.Slv0ArgoCnpt-Sptr,
     <a class="clsHide" href="#idLSlv0smsondostrnam"></a></p>
   </section>
 
@@ -369,13 +369,13 @@
     <br>* McshEngl.Slv0Unit'specific-generic-tree,
     <a class="clsHide" href="#idLSlv0untgstrnam"></a></p>
   <p id="idLSlv0untgtr">generic-tree::
-    <br>* McshEngl.Slv0Unit-gtr,
+    <br>* McshEngl.Slv0Unit-Gntr,
     <br>===
-    <br>* ... entity-gtr,
+    <br>* ... entity-Gntr,
     <a class="clsHide" href="#idLSlv0untgtr"></a></p>
   <p id="idLSlv0untstr">specific-tree::
     <br>* McshEngl.Slv0Unit.specific,
-    <br>* McshEngl.Slv0Unit-str,
+    <br>* McshEngl.Slv0Unit-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="#idLSlv0phnm">phoneme</a>,
     <br>* <a class="clsPreview" href="#idLSlv0ltr">letter</a>,
@@ -408,7 +408,7 @@
     <a class="clsHide" href="#idLSlv0phnmstrdsn"></a></p>
   <p id="idLSlv0phnmstrnam">name::
     <br>* McshEngl.Slv0Phnm.specific,
-    <br>* McshEngl.Slv0Phnm-str,
+    <br>* McshEngl.Slv0Phnm-Sptr,
     <a class="clsHide" href="#idLSlv0phnmstrnam"></a></p>
   </section>
 
@@ -597,14 +597,14 @@
     <br>* McshEngl.Slv0letr'specific-generic-tree,
     <a class="clsHide" href="#idLSlv0ltrgstrnam"></a></p>
   <p id="idLSlv0ltrgtr">generic-tree::
-    <br>* McshEngl.Slv0letr-gtr,
+    <br>* McshEngl.Slv0letr-Gntr,
     <br>===
-    <br>* letter-gtr,
-    <br>* ... entity-gtr,
+    <br>* letter-Gntr,
+    <br>* ... entity-Gntr,
     <a class="clsHide" href="#idLSlv0ltrgtr"></a></p>
   <p id="idLSlv0ltrstr">specific-tree::
     <br>* McshEngl.Slv0letr.specific,
-    <br>* McshEngl.Slv0letr-str,
+    <br>* McshEngl.Slv0letr-Sptr,
     <br>===
     <br>* aggregate,
     <a class="clsHide" href="#idLSlv0ltrstr"></a></p>
@@ -712,13 +712,13 @@
     <br>* McshEngl.Slv0UnitSyst'specific-generic-tree,
     <a class="clsHide" href="#idLSlv0utsmgstrnam"></a></p>
   <p id="idLSlv0utsmgtr">generic-tree::
-    <br>* McshEngl.Slv0UnitSyst-gtr,
+    <br>* McshEngl.Slv0UnitSyst-Gntr,
     <br>===
-    <br>* ... entity-gtr,
+    <br>* ... entity-Gntr,
     <a class="clsHide" href="#idLSlv0utsmgtr"></a></p>
   <p id="idLSlv0utsmstr">specific-tree::
     <br>* McshEngl.Slv0UnitSyst.specific,
-    <br>* McshEngl.Slv0UnitSyst-str,
+    <br>* McshEngl.Slv0UnitSyst-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="#idLSlv0wrd">word</a>,
     <br>* <a class="clsPreview" href="#idLSlv0sylb">syllable</a>,
@@ -752,7 +752,7 @@
     <a class="clsHide" href="#idLSlv0wrdstrdsn"></a></p>
   <p id="idLSlv0wrdstrnam">name::
     <br>* McshEngl.Slv0Word.specific,
-    <br>* McshEngl.Slv0Word-str,
+    <br>* McshEngl.Slv0Word-Sptr,
     <a class="clsHide" href="#idLSlv0wrdstrnam"></a></p>
   </section>
   </section>
@@ -771,6 +771,29 @@
     <br>* McshEngl.Slv0Word'syllable!⇒Slv0Sylb,
     <br>* McshEngl.sylbSlv0!⇒Slv0Sylb,
     <a class="clsHide" href="#idLSlv0sylbnam"></a></p>
+
+  <section id="idLSlv0sylbgstr">
+  <h4 id="idLSlv0sylbgstrH4">GENERIC-SPECIFIC-TREE of Slv0Sylb
+    <a class="clsHide" href="#idLSlv0sylbgstrH4"></a></h4>
+  <p id="idLSlv0sylbgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLSlv0sylbgstrdsn"></a></p>
+  <p id="idLSlv0sylbgstrnam">name::
+    <br>* McshEngl.Slv0Sylb'generic-specific-tree,
+    <br>* McshEngl.Slv0Sylb'specific-generic-tree,
+    <a class="clsHide" href="#idLSlv0sylbgstrnam"></a></p>
+  <p id="idLSlv0sylbgtr">generic-tree::
+    <br>* McshEngl.Slv0Sylb-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLSlv0sylbgtr"></a></p>
+  <p id="idLSlv0sylbstr">specific-tree::
+    <br>* McshEngl.Slv0Sylb.specific,
+    <br>* McshEngl.Slv0Sylb-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idLSlv0sylbStrt">Slv0Sylb.start</a>,
+    <a class="clsHide" href="#idLSlv0sylbstr"></a></p>
+  </section>
 
   <section id="idLSlv0sylbStrt">
   <h4 id="idLSlv0sylbStrtH4">Slv0Sylb.start
@@ -906,7 +929,7 @@
     <a class="clsHide" href="#idLSlv0namestrdsn"></a></p>
   <p id="idLSlv0namestrnam">name::
     <br>* McshEngl.Slv0Name.specific,
-    <br>* McshEngl.Slv0Name-str,
+    <br>* McshEngl.Slv0Name-Sptr,
     <a class="clsHide" href="#idLSlv0namestrnam"></a></p>
   </section>
   </section>
@@ -975,7 +998,7 @@
     <a class="clsHide" href="#idLSlv0ondombrstrdsn"></a></p>
   <p id="idLSlv0ondombrstrnam">name::
     <br>* McshEngl.Slv0ArgoMebr.specific,
-    <br>* McshEngl.Slv0ArgoMebr-str,
+    <br>* McshEngl.Slv0ArgoMebr-Sptr,
     <a class="clsHide" href="#idLSlv0ondombrstrnam"></a></p>
   </section>
   </section>
@@ -1031,7 +1054,7 @@
     <a class="clsHide" href="#idLSlv0ondostrdsn"></a></p>
   <p id="idLSlv0ondostrnam">name::
     <br>* McshEngl.Slv0Argo.specific,
-    <br>* McshEngl.Slv0Argo-str,
+    <br>* McshEngl.Slv0Argo-Sptr,
     <a class="clsHide" href="#idLSlv0ondostrnam"></a></p>
   </section>
 
@@ -1275,7 +1298,7 @@
     <a class="clsHide" href="#idLSlv0verbstrdsn"></a></p>
   <p id="idLSlv0verbstrnam">name::
     <br>* McshEngl.Slv0Verb.specific,
-    <br>* McshEngl.Slv0Verb-str,
+    <br>* McshEngl.Slv0Verb-Sptr,
     <a class="clsHide" href="#idLSlv0verbstrnam"></a></p>
   </section>
   </section>
@@ -1303,7 +1326,7 @@
     <a class="clsHide" href="#idLSlv0conjstrdsn"></a></p>
   <p id="idLSlv0conjstrnam">name::
     <br>* McshEngl.Slv0Conj.specific,
-    <br>* McshEngl.Slv0Conj-str,
+    <br>* McshEngl.Slv0Conj-Sptr,
     <a class="clsHide" href="#idLSlv0conjstrnam"></a></p>
   </section>
   </section>
@@ -1615,7 +1638,7 @@
     <br>* Indo-European
     <br>* Balto-Slavic
     <br>* Slavic
-    <br>* McshEngl.Slv0Lago-rtr,
+    <br>* McshEngl.Slv0Lago-Pntr,
     <a class="clsHide" href="#idLSlv0rtr"></a></p>
   <p id="idLSlv0ctr">child-tree::
     <br>* Here’s a hierarchical “child tree” of the Slavic family, showing Proto‑Slavic’s primary three branches and their major modern descendants:
@@ -1658,7 +1681,7 @@
     <br>* **Slovene** can be viewed as part of Western South Slavic or a separate branch.
     <br>Let me know if you’d like more detail on any sub‑branch or historical proto‑languages!
     <br>[{2025-07-28 retrieved} https://chatgpt.com/c/68870cfd-1570-832d-a09d-77c7ecb4d155?model=o4-mini]
-    <br>* McshEngl.Slv0Lago-ctr,
+    <br>* McshEngl.Slv0Lago-Chtr,
     <a class="clsHide" href="#idLSlv0ctr"></a></p>
   </section>
 
@@ -1798,10 +1821,10 @@
     <br>* McshEngl.Slv0Lago'part-whole-tree,
     <a class="clsHide" href="#idLSlv0wptrnam"></a></p>
   <p id="idLSlv0wtr">whole-tree::
-    <br>* McshEngl.Slv0Lago-wtr,
+    <br>* McshEngl.Slv0Lago-Wltr,
     <a class="clsHide" href="#idLSlv0wtr"></a></p>
   <p id="idLSlv0ptr">part-tree::
-    <br>* McshEngl.Slv0Lago-ptr,
+    <br>* McshEngl.Slv0Lago-Prtr,
     <a class="clsHide" href="#idLSlv0ptr"></a></p>
   </section>
 
@@ -1816,19 +1839,19 @@
     <br>* McshEngl.Slv0Lago'specific-generic-tree,
     <a class="clsHide" href="#idLSlv0gstrnam"></a></p>
   <p id="idLSlv0gtr">generic-tree::
-    <br>* McshEngl.Slv0Lago-gtr,
+    <br>* McshEngl.Slv0Lago-Gntr,
     <br>===
-    <br>* hmnm_lago-gtr,
-    <br>* language-gtr,
-    <br>* mapping-method-gtr,
-    <br>* method-gtr,
-    <br>* info-gtr,
-    <br>* model-gtr,
-    <br>* entity-gtr,
+    <br>* hmnm_lago-Gntr,
+    <br>* language-Gntr,
+    <br>* mapping-method-Gntr,
+    <br>* method-Gntr,
+    <br>* info-Gntr,
+    <br>* model-Gntr,
+    <br>* entity-Gntr,
     <a class="clsHide" href="#idLSlv0gtr"></a></p>
   <p id="idLSlv0str">specific-tree::
     <br>* McshEngl.Slv0Lago.specific,
-    <br>* McshEngl.Slv0Lago-str,
+    <br>* McshEngl.Slv0Lago-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="#idLSlv0Spch">speech-Slv0Lago</a>,
     <br>* <a class="clsPreview" href="#idLSlv0Text">text-Slv0Lago</a>,

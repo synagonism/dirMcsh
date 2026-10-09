@@ -2655,7 +2655,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthtxstrdsn"></a></p>
   <p id="idEthtxstrnam">name::
     <br>* McshEngl.DnEth-tx.specific,
-    <br>* McshEngl.DnEth-tx-str,
+    <br>* McshEngl.DnEth-tx-Sptr,
     <a class="clsHide" href="#idEthtxstrnam"></a></p>
   <p id="idEthtxSpcstr">specific::
     <br>Broadly speaking there are three types transactions supported on Ethereum:
@@ -2813,7 +2813,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthbcnstrdsn"></a></p>
   <p id="idEthbcnstrnam">name::
     <br>* McshEngl.DnEth-blockchain.specific,
-    <br>* McshEngl.DnEth-blockchain-str,
+    <br>* McshEngl.DnEth-blockchain-Sptr,
     <a class="clsHide" href="#idEthbcnstrnam"></a></p>
   <p id="idEthbcnSpcstr">specific::
     <br><strong>Public blockchains</strong>: a public blockchain is a blockchain that anyone in the world can read, anyone in the world can send transactions to and expect to see them included if they are valid, and anyone in the world can participate in the consensus process – the process for determining what blocks get added to the chain and what the current state is. As a substitute for centralized or quasi-centralized trust, public blockchains are secured by cryptoeconomics – the combination of economic incentives and cryptographic verification using mechanisms such as proof of work or proof of stake, following a general principle that the degree to which someone can have an influence in the consensus process is proportional to the quantity of economic resources that they can bring to bear. These blockchains are generally considered to be “fully decentralized”.
@@ -3186,7 +3186,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthactstrdsn"></a></p>
   <p id="idEthactstrnam">name::
     <br>* McshEngl.DnEth-account.specific,
-    <br>* McshEngl.DnEth-account-str,
+    <br>* McshEngl.DnEth-account-Sptr,
     <a class="clsHide" href="#idEthactstrnam"></a></p>
   <p id="idEthactSpcstr">specific::
     <br>This distinction might be eliminated in <a class="clsPreview" href="#idEthnet20">Serenity</a>.
@@ -4585,7 +4585,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthpgmstrdsn"></a></p>
   <p id="idEthpgmstrnam">name::
     <br>* McshEngl.DnEth-program.specific,
-    <br>* McshEngl.DnEth-program-str,
+    <br>* McshEngl.DnEth-program-Sptr,
     <a class="clsHide" href="#idEthpgmstrnam"></a></p>
   <p id="idEthpgmSpcstr">specific::
     <br>* <a class="clsPreview" href="#idEthctp">Contract-program</a>,
@@ -5207,7 +5207,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthclntstrdsn"></a></p>
   <p id="idEthclntstrnam">name::
     <br>* McshEngl.Ethereum-clt.specific,
-    <br>* McshEngl.Ethereum-clt-str,
+    <br>* McshEngl.Ethereum-clt-Sptr,
     <a class="clsHide" href="#idEthclntstrnam"></a></p>
   <p id="idEthclntSpcstr">specific::
     <br>The Ethereum Foundation publishes the specifications for Ethereum clients on their Github page, and funds development of official clients written in Go (go-ethereum), C++ (cpp-ethereum) and Python (py-ethereum). There are also community contributed clients in many other languages, including Ruby, Java, Haskell and Rust.
@@ -6324,7 +6324,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthdapstrdsn"></a></p>
   <p id="idEthdapstrnam">name::
     <br>* McshEngl.DappEth.specific,
-    <br>* McshEngl.DappEth-str,
+    <br>* McshEngl.DappEth-Sptr,
     <a class="clsHide" href="#idEthdapstrnam"></a></p>
   <p id="idEthdapSpcstr">specific::
     <br>* <a href="https://github.com/ethereum/dapp-bin">https://github.com/ethereum/dapp-bin</a>,
@@ -6826,13 +6826,13 @@ def send(to, value):
     <br>* McshEngl.netAlgoEthr-contract-lang'specific-generic-tree,
     <a class="clsHide" href="#idEthctplaggstrnam"></a></p>
   <p id="idEthctplaggtr">generic-tree::
-    <br>* McshEngl.netAlgoEthr-contract-lang-gtr,
+    <br>* McshEngl.netAlgoEthr-contract-lang-Gntr,
     <br>===
-    <br>* ... entity-gtr,
+    <br>* ... entity-Gntr,
     <a class="clsHide" href="#idEthctplaggtr"></a></p>
   <p id="idEthctplagstr">specific-tree::
     <br>* McshEngl.netAlgoEthr-contract-lang.specific,
-    <br>* McshEngl.netAlgoEthr-contract-lang-str,
+    <br>* McshEngl.netAlgoEthr-contract-lang-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="#idEthlll">LLL</a>,
     <br>* <a class="clsPreview" href="#idEthmtnlag">Mutan</a>,
@@ -6980,6 +6980,29 @@ def send(to, value):
     <br>* McshEngl.Lsol-algo.assembly!⇒Lsol-asm,
     <br>* McshEngl.Lsol-asm,
     <a class="clsHide" href="#idEthsolaspnam"></a></p>
+
+  <section id="idEthsolaspgstr">
+  <h4 id="idEthsolaspgstrH4">GENERIC-SPECIFIC-TREE of Lsol-asm
+    <a class="clsHide" href="#idEthsolaspgstrH4"></a></h4>
+  <p id="idEthsolaspgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEthsolaspgstrdsn"></a></p>
+  <p id="idEthsolaspgstrnam">name::
+    <br>* McshEngl.Lsol-asm'generic-specific-tree,
+    <br>* McshEngl.Lsol-asm'specific-generic-tree,
+    <a class="clsHide" href="#idEthsolaspgstrnam"></a></p>
+  <p id="idEthsolaspgtr">generic-tree::
+    <br>* McshEngl.Lsol-asm-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthsolaspgtr"></a></p>
+  <p id="idEthsolaspstr">specific-tree::
+    <br>* McshEngl.Lsol-asm.specific,
+    <br>* McshEngl.Lsol-asm-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idEthsolasmSdan">Lsol-asm.STANDALONE</a>,
+    <a class="clsHide" href="#idEthsolaspstr"></a></p>
+  </section>
 
   <section id="idEthsolasmInl">
   <h4 id="idEthsolasmInlH4">Lsol-asm.INLINE
@@ -7264,7 +7287,7 @@ contract SimpleStorage {
   <p id="idEthsolsutstrnam">name::
     <br>* ethsolsut.specific,
     <br>* McshEngl.Lsol-sunt.specific,
-    <br>* McshEngl.Lsol-sunt-str,
+    <br>* McshEngl.Lsol-sunt-Sptr,
     <a class="clsHide" href="#idEthsolsutstrnam"></a></p>
   <p id="idEthsolsutSpcstr">specific::
     <br>* <a class="clsPreview" href="#idEthsolad">address - ad</a>,
@@ -7833,7 +7856,7 @@ Coin.Sent().watch({}, '', function(error, result) {
   <p id="idEthsolfstrnam">name::
     <br>* ethsolf.specific,
     <br>* McshEngl.lagSolf.specific,
-    <br>* McshEngl.lagSolf-str,
+    <br>* McshEngl.lagSolf-Sptr,
     <a class="clsHide" href="#idEthsolfstrnam"></a></p>
   <p id="idEthsolfSpcstr">specific::
     <br>ethsolf.addmod(uint x, uint y, uint k) returns (uint):
@@ -8374,6 +8397,33 @@ Coin.Sent().watch({}, '', function(error, result) {
     <br>===
     <br>mapping (address => uint) balances;</code>
     <a class="clsHide" href="#idEthsolvP1"></a></p>
+
+  <section id="idEthsolvgstr">
+  <h5 id="idEthsolvgstrH5">GENERIC-SPECIFIC-TREE of Lsolv
+    <a class="clsHide" href="#idEthsolvgstrH5"></a></h5>
+  <p id="idEthsolvgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEthsolvgstrdsn"></a></p>
+  <p id="idEthsolvgstrnam">name::
+    <br>* McshEngl.Lsolv'generic-specific-tree,
+    <br>* McshEngl.Lsolv'specific-generic-tree,
+    <a class="clsHide" href="#idEthsolvgstrnam"></a></p>
+  <p id="idEthsolvgtr">generic-tree::
+    <br>* McshEngl.Lsolv-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthsolvgtr"></a></p>
+  <p id="idEthsolvstr">specific-tree::
+    <br>* McshEngl.Lsolv.specific,
+    <br>* McshEngl.Lsolv-Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idEthsolvStt">Lsolv.STATE-VARIABLE (storage)</a>,
+    <br>* <a class="clsPreview" href="#idEthsolvMmr">Lsolv.MEMORY-VARIABLE</a>,
+    <br>* <a class="clsPreview" href="#idEthsolvVar">Lsolv.VAR</a>,
+    <br>* <a class="clsPreview" href="#idEthsolvCnst">Lsolv.CONSTANT</a>,
+    <br>* <a class="clsPreview" href="#idEthsolvGbl">Lsolv.GLOBAL</a>,
+    <a class="clsHide" href="#idEthsolvstr"></a></p>
+  </section>
 
   <section id="idEthsolvval">
   <h5 id="idEthsolvvalH5">Lsolv'value
@@ -9017,7 +9067,7 @@ for(uint x = 0; x &lt; refundAddressList.length; x++) {
     <a class="clsHide" href="#idEthsolstrdsn"></a></p>
   <p id="idEthsolstrnam">name::
     <br>* McshEngl.Lsol-source-algo.specific,
-    <br>* McshEngl.Lsol-source-algo-str,
+    <br>* McshEngl.Lsol-source-algo-Sptr,
     <a class="clsHide" href="#idEthsolstrnam"></a></p>
   <p id="idEthsolSpcstr">specific::
     <br>* <a href="https://github.com/fivedogit/solidity-baby-steps/tree/master/contracts">https://github.com/fivedogit/solidity-baby-steps/tree/master/contracts</a>,
@@ -9369,13 +9419,13 @@ contract CMgrWill {
     <br>* McshEngl.Lsol-tool'specific-generic-tree,
     <a class="clsHide" href="#idEthsoltulgstrnam"></a></p>
   <p id="idEthsoltulgtr">generic-tree::
-    <br>* McshEngl.Lsol-tool-gtr,
+    <br>* McshEngl.Lsol-tool-Gntr,
     <br>===
-    <br>* ... entity-gtr,
+    <br>* ... entity-Gntr,
     <a class="clsHide" href="#idEthsoltulgtr"></a></p>
   <p id="idEthsoltulstr">specific-tree::
     <br>* McshEngl.Lsol-tool.specific,
-    <br>* McshEngl.Lsol-tool-str,
+    <br>* McshEngl.Lsol-tool-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="#idEthsoltolBrcr">Browser-compiler</a>,
     <br>* <a class="clsPreview" href="#idEthsoltolSolcjs">solcjs</a>,
@@ -10530,7 +10580,7 @@ contract CMgrWill {
   <p id="idEthctpstrnam">name::
     <br>* ethctp.specific,
     <br>* McshEngl.DcontractEth.specific,
-    <br>* McshEngl.DcontractEth-str,
+    <br>* McshEngl.DcontractEth-Sptr,
     <a class="clsHide" href="#idEthctpstrnam"></a></p>
   <p id="idEthctpSpcstr">specific::
     <br>* examples: <a href="https://github.com/fivedogit/solidity-baby-steps">https://github.com/fivedogit/solidity-baby-steps</a>,
@@ -11867,15 +11917,15 @@ contract WillManager {
     <br>* McshEngl.netAlgoEthr'specific-generic-tree,
     <a class="clsHide" href="#idEthgstrnam"></a></p>
   <p id="idEthgtr">generic-tree::
-    <br>* McshEngl.netAlgoEthr-gtr,
+    <br>* McshEngl.netAlgoEthr-Gntr,
     <br>===
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000016.last.html#idBpmnet">Blockchain-program-blockchain-network</a>,
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000016.last.html#idPownet">Proof-of-work-blockchain-network</a>,
-    <br>* ... entity-gtr,
+    <br>* ... entity-Gntr,
     <a class="clsHide" href="#idEthgtr"></a></p>
   <p id="idEthstr">specific-tree::
     <br>* McshEngl.netAlgoEthr.specific,
-    <br>* McshEngl.netAlgoEthr-str,
+    <br>* McshEngl.netAlgoEthr-Sptr,
     <br>===
     <a class="clsHide" href="#idEthstr"></a></p>
   </section>
