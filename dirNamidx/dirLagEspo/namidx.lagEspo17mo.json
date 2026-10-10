@@ -1,9 +1,9 @@
 [
-  [";lagEspo17mo","M|m",19,"2026-10-09"],
+  [";lagEspo17mo","M|m",19,"2026-10-10"],
   ["Majo!=May","dirCor/McshCor000006.last.html#idTimeUomMnthMay"],
   ["Marŝi!=March","dirCor/McshCor000006.last.html#idTimeUomMnthMar"],
   ["maldekstren!=spaceLeft","dirCor/McshCor000007.last.html#idSpcLeft"],
-  ["malsano!=dssOgm","dirHlth/McshHlth000010.last.html#idOverview"],
+  ["malsano!=DssOgm","dirHlth/McshHlth000010.last.html#idOverview"],
   ["maŝino!=machine","dirTch/McshTch000003.last.html#idOverview"],
   ["meblo!=furniture","dirStn/McshStn000010.last.html#idSfrHmn047"],
   ["medikamento!=medication","dirHlth/McshHlth000014.last.html#idOverview"],
@@ -17,6 +17,6 @@
   ["mjelo!=organSpinal-cord","dirHlth/McshHlth000019.last.html#idOgnHmn037"],
   ["monato!=timeMonth","dirCor/McshCor000006.last.html#idTimeUomMnth"],
   ["mondkoncepto!=worldview","dirLag/McshLag000003.last.html#idWldv"],
-  ["morto!=dssDeath","dirHlth/McshHlth000011.last.html#idDssHmn281"],
+  ["morto!=DssDeath","dirHlth/McshHlth000011.last.html#idDssHmn281"],
   ["movo!=DongMoving","dirCor/McshCor000004.last.html#idDngMvng"]
 ]

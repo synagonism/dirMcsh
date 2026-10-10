@@ -214,11 +214,6 @@
     <br>...
     <br>* <a class="clsPreview" href="#idLjsgnmwo">most-whole-object</a>,
     <a class="clsHide" href="#idLjsgnsutwhl"></a></p>
-  <p id="idLjsgnsutgtr">generic-chain::
-    <br>* <a class="clsPreview" href="#idLjsgno">object</a>,
-    <br>or
-    <br>* <a class="clsPreview" href="#idLjsgnopmN">object-pmNo</a>,
-    <a class="clsHide" href="#idLjsgnsutgtr"></a></p>
   <p id="idLjsgnsutprt">part::
     <br>* <a class="clsPreview" href="#idLjsgnwrd">Jsgn_lago-word</a>,
     <br>* <a class="clsPreview" href="#idLjsgnunt">Jsgn_lago-unit</a>,
@@ -369,9 +364,26 @@
     <a class="clsHide" href="#idLjsgnsutscpstr"></a></p>
   </section>
 
-  <section id="idLjsgnsutstr">
-  <h2 id="idLjsgnsutstrH2">Jssut.SPECIFIC
-    <a class="clsHide" href="#idLjsgnsutstrH2"></a></h2>
+  <section id="idLjsgnsutgstr">
+  <h2 id="idLjsgnsutgstrH2">GENERIC-SPECIFIC-TREE of Jssut
+    <a class="clsHide" href="#idLjsgnsutgstrH2"></a></h2>
+  <p id="idLjsgnsutgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLjsgnsutgstrdsn"></a></p>
+  <p id="idLjsgnsutgstrnam">name::
+    <br>* McshEngl.Jssut'generic-specific-tree,
+    <br>* McshEngl.Jssut'specific-generic-tree,
+    <a class="clsHide" href="#idLjsgnsutgstrnam"></a></p>
+  <p id="idLjsgnsutgtr">generic-tree::
+    <br>* <a class="clsPreview" href="#idLjsgno">object</a>,
+    <br>or
+    <br>* <a class="clsPreview" href="#idLjsgnopmN">object-pmNo</a>,
+    <a class="clsHide" href="#idLjsgnsutgtr"></a></p>
+  <p id="idLjsgnsutstr">specific-tree::
+    <br>* McshEngl.Jssut.specific,
+    <br>* McshEngl.Jssut-Sptr,
+    <br>===
+    <a class="clsHide" href="#idLjsgnsutstr"></a></p>
   <p id="idLjsgnsutSpcP1">specific::
     <br><a class="clsPreview" href="#idDescription">Jsgn_lago</a> uses only 11 <a class="clsPreview" href="#idLjsgnsut">semantic-units</a> to create <a class="clsPreview" href="#idLjsgnalg">algorithms</a>:
     <br>01) <a class="clsPreview" href="#idLjsgna">a - Array</a>,
@@ -715,6 +727,23 @@
     <br>* McshEngl.Jsgnnvp-Sptr,
     <br>===
     <a class="clsHide" href="#idLjsgnsutRfrdstr"></a></p>
+  <p id="idLjsgnsutRfrdSpcP1">specific::
+    <br>=== SPECIFIC-DIVISION-on-different-type-of-values
+    <br>* <a class="clsPreview" href="#idLjsgnx">mixed--referenced-semantic-unit</a>,
+    <br>* <a class="clsPreview" href="#idLjsgnxN">mixedNo--referenced-semantic-unit</a>,
+    <br>=== SPECIFIC-DIVISION-on-one-value
+    <br>* <a class="clsPreview" href="#idLjsgnutCst">constant--referenced-semantic-unit</a>,
+    <br>* <a class="clsPreview" href="#idLjsgnsutCstN">constantNo--referenced-semantic-unit</a>,
+    <br>===
+    <br>* array-nvp (var a = []),
+    <br>* boolean-nvp (var b = true),
+    <br>* function-nvp (var f = function(){}),
+    <br>* module-nvp (var m = require('os')),
+    <br>* number-nvp (var n = 3),
+    <br>* object-nvp (var o = {}),
+    <br>* regexp-nvp (var r = /x/),
+    <br>* string-nvp (var s = 'a-string'),
+    <a class="clsHide" href="#idLjsgnsutRfrdSpcP1"></a></p>
   </section>
 
   <section id="idLjsgnx">
@@ -2124,6 +2153,18 @@
     <br>* McshEngl.Jsf-Sptr,
     <br>===
     <a class="clsHide" href="#idLjsgnfstr"></a></p>
+  <p id="idLjsgnfSpcP1">specific.alphabetically::
+    <br>* <a class="clsPreview" href="#idLjsgnfCsr">constructor-function</a>,
+    <br>* custom-function,
+    <br>* customNo-function,
+    <br>* <a class="clsPreview" href="#idLjsgnfMtd">method-function</a>,
+    <br>* methodNo-function,
+    <br>* <a class="clsPreview" href="#idLjsgnfNmd">named-function</a>,
+    <br>* <a class="clsPreview" href="#idLjsgnfNmdNo">namedNo-function</a>,
+    <br>* <a class="clsPreview" href="#idLjsgnfOrn">object-returning-function</a>,
+    <br>* <a class="clsPreview" href="#idLjsgnfOpr">operator-function</a>,
+    <br>* <a class="clsPreview" href="#idLjsgnfSex">self-executing-function</a>,
+    <a class="clsHide" href="#idLjsgnfSpcP1"></a></p>
   </section>
 
   <section id="idLjsgnfArw">
@@ -2394,6 +2435,74 @@
     <br>* McshEngl.Jsoptr-Sptr,
     <br>===
     <a class="clsHide" href="#idLjsgnfOprstr"></a></p>
+  <p id="idLjsgnfOprSpcP1">specific::
+    <br>* <a class="clsPreview" href="#idLjsgnfOprUnr">unary-operator</a>,
+    <br>* <a class="clsPreview" href="#idLjsgnfOprBnr">binary-operator</a>,
+    <br>* <a class="clsPreview" href="#idLjsgnfOprTnr">ternary-operator</a>,
+    <br>=== GENERIC::
+    <br>* additive-operator,
+    <br>* arithmetic-operator,
+    <br>* assignment-operator,
+    <br>* binary-bitwise-operator,
+    <br>* binary-logical-operator,
+    <br>* bitwise-operator,
+    <br>* comparison-operator,
+    <br>* <a class="clsPreview" href="#idLjsgnfOprCdl">conditional-operator</a>,
+    <br>* equality-operator,
+    <br>* logical-operator,
+    <br>* multiplicative-operator,
+    <br>* relational-operator,
+    <br>* string-operator,
+    <br>=== INSTANCE::
+    <br>* + operator,
+    <br>* ++ operator,
+    <br>* += operator,
+    <br>* - operator,
+    <br>* -- operator,
+    <br>* -= operator,
+    <br>* ! operator,
+    <br>* != operator,
+    <br>* !== operator,
+    <br>* &amp; operator,
+    <br>* &amp;&amp; operator,
+    <br>* * operator,
+    <br>* ** operator,
+    <br>* *= operator,
+    <br>* **= operator,
+    <br>* / operator,
+    <br>* | operator,
+    <br>* || operator,
+    <br>* |= operator,
+    <br>* ^ operator,
+    <br>* = operator,
+    <br>* == operator,
+    <br>* === operator,
+    <br>* % operator,
+    <br>* %= operator,
+    <br>* &lt; operator,
+    <br>* &lt;&lt; operator,
+    <br>* &lt;= operator,
+    <br>* ?: operator,
+    <br>* /= operator,
+    <br>* &lt;&lt;= operator,
+    <br>* &gt;&gt;= operator,
+    <br>* &amp;= operator,
+    <br>* ^= operator,
+    <br>* &gt; operator,
+    <br>* &gt;&gt; operator,
+    <br>* &gt;&gt;&gt; operator,
+    <br>* &gt;&gt;&gt;= operator,
+    <br>* &gt;= operator,
+    <br>* &comma; operator,
+    <br>* comma-operator,
+    <br>* delete-operator,
+    <br>* in-operator,
+    <br>* <a class="clsPreview" href="#idLjsgnelnConInstanceof">instanceof-operator</a>,
+    <br>* new-operator,
+    <br>* super-operator,
+    <br>* <a class="clsPreview" href="#idLjsgnfOprTypeof">typeof-operator</a>,
+    <br>* void-operator,
+    <a class="clsHide" href="#idLjsgnfOprSpcP1"></a></p>
   </section>
 
   <section id="idLjsgnfOprUnr">
@@ -2594,9 +2703,6 @@
     <br>* McshEngl.module--semantic-unit--of-JavaScript!⇒Jsm,
     <br>* McshEngl.module//JavaScript!⇒Jsm,
     <a class="clsHide" href="#idLjsgnmnam"></a></p>
-  <p id="idLjsgnmgtr">generic-chain::
-    <br>* <a class="clsPreview" href="#idLjsgnsut">semantic-unit</a>,
-    <a class="clsHide" href="#idLjsgnmgtr"></a></p>
 
   <section id="idLjsgnmscp">
   <h3 id="idLjsgnmscpH3">scope of Jsm
@@ -2631,16 +2737,24 @@
     <a class="clsHide" href="#idLjsgnmirscnam"></a></p>
   </section>
 
-  <section id="idLjsgnmstr">
-  <h3 id="idLjsgnmstrH3">Jsm.SPECIFIC
-    <a class="clsHide" href="#idLjsgnmstrH3"></a></h3>
-  <p id="idLjsgnmstrdsn">description::
+  <section id="idLjsgnmgstr">
+  <h3 id="idLjsgnmgstrH3">GENERIC-SPECIFIC-TREE of Jsm
+    <a class="clsHide" href="#idLjsgnmgstrH3"></a></h3>
+  <p id="idLjsgnmgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLjsgnmstrdsn"></a></p>
-  <p id="idLjsgnmstrnam">name::
+    <a class="clsHide" href="#idLjsgnmgstrdsn"></a></p>
+  <p id="idLjsgnmgstrnam">name::
+    <br>* McshEngl.Jsm'generic-specific-tree,
+    <br>* McshEngl.Jsm'specific-generic-tree,
+    <a class="clsHide" href="#idLjsgnmgstrnam"></a></p>
+  <p id="idLjsgnmgtr">generic-tree::
+    <br>* <a class="clsPreview" href="#idLjsgnsut">semantic-unit</a>,
+    <a class="clsHide" href="#idLjsgnmgtr"></a></p>
+  <p id="idLjsgnmstr">specific-tree::
     <br>* McshEngl.Jsm.specific,
     <br>* McshEngl.Jsm-Sptr,
-    <a class="clsHide" href="#idLjsgnmstrnam"></a></p>
+    <br>===
+    <a class="clsHide" href="#idLjsgnmstr"></a></p>
   <p id="idLjsgnmSpcP1">specific::
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000011.last.html#idJsbrm">browser-module</a>,
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000012.last.html#idJsndmc">Node.js-module</a>,
@@ -3160,6 +3274,11 @@
     <br>* McshEngl.Jsr-Sptr,
     <br>===
     <a class="clsHide" href="#idLjsgnrstr"></a></p>
+  <p id="idLjsgnrSpcP1">specific::
+    <br>* Jsr.char,
+    <br>* Jsr.string,
+    <br>* <a class="clsPreview" href="#idLjsgnrwrdbtr">Jsr.word-bountary /\b/</a>,
+    <a class="clsHide" href="#idLjsgnrSpcP1"></a></p>
   </section>
 
   <section id="idLjsgnrChar">
@@ -5593,7 +5712,7 @@
   <h3 id="idLjsgnelnConNamingH3">Jsgn_lago'naming-mechanism
     <a class="clsHide" href="#idLjsgnelnConNamingH3"></a></h3>
   <p id="idLjsgnelnConNamingP1">Today builtin <a class="clsPreview" href="#idLjsgnsutname">identifiers</a> do-not-convey information about their <a class="clsPreview" href="#idLjsgnsutRfrdval">values</a>.
-    <br>Since {2014.08.05}, <a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">I</a> am-using <a class="clsPreview" href="../dirTchInf/McshTchInf000008.last.html#idLagHitpEvnPara10d">valuenames</a> in my code, which makes <a class="clsPreview" href="#idLjsgnalg">the-code</a> much more readable.
+    <br>Since {2014.08.05}, <a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">I</a> am-using <a class="clsPreview" href="../dirTchInf/McshTchInf000008.last.html#idLHitpEvnPara10d">valuenames</a> in my code, which makes <a class="clsPreview" href="#idLjsgnalg">the-code</a> much more readable.
     <br>Also this way we can-have <strong>type checking</strong> at write-time.
     <a class="clsHide" href="#idLjsgnelnConNamingP1"></a></p>
   </section>
@@ -5828,6 +5947,21 @@
     <br>* McshEngl.Jses-Sptr,
     <br>===
     <a class="clsHide" href="#idLjestr"></a></p>
+  <p id="idLjeSpcP1">Specific (versions)::
+    <br>· https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
+    <br>* <a class="clsPreview" href="#idLjes2020">ECMAScript.11.2020</a>, (ES11)
+    <br>* <a class="clsPreview" href="#idLjes2019">ECMAScript.10.2019</a>, (ES10)
+    <br>* <a class="clsPreview" href="#idLjes2018">ECMAScript.9.2018</a>, (ES9)
+    <br>* <a class="clsPreview" href="#idLjes2017">ECMAScript.8.2017</a> (ES8),
+    <br>* <a class="clsPreview" href="#idLjes2016">ECMAScript.7.2016</a> (ES7),
+    <br>* <a class="clsPreview" href="#idLjes2015">ECMAScript.6.2015</a> (ES6),
+    <br>* <a class="clsPreview" href="#idLjes2011">ECMAScript.5-1.2011</a> (ES51),
+    <br>* <a class="clsPreview" href="#idLjes1999b">ECMAScript.5.1999</a> (ES5),
+    <br>* ECMAScript.4 not existing (ES4),
+    <br>* <a class="clsPreview" href="#idLjes1999">ECMAScript.3.1999</a> (ES3),
+    <br>* <a class="clsPreview" href="#idLjes1998">ECMAScript.2.1998</a> (ES2),
+    <br>* <a class="clsPreview" href="#idLjes1997">ECMAScript.1.1997</a> (ES1),
+    <a class="clsHide" href="#idLjeSpcP1"></a></p>
   </section>
 
   <section id="idLjes2020">
@@ -6191,9 +6325,26 @@
     <a class="clsHide" href="#idLjsgntolEgnrscnam"></a></p>
   </section>
 
-  <section id="idLjsgntolEgnstr">
-  <h3 id="idLjsgntolEgnstrH3">Jsgnengine.SPECIFIC
-    <a class="clsHide" href="#idLjsgntolEgnstrH3"></a></h3>
+  <section id="idLjsgntolEgngstr">
+  <h3 id="idLjsgntolEgngstrH3">GENERIC-SPECIFIC-TREE of Jsgnengine
+    <a class="clsHide" href="#idLjsgntolEgngstrH3"></a></h3>
+  <p id="idLjsgntolEgngstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLjsgntolEgngstrdsn"></a></p>
+  <p id="idLjsgntolEgngstrnam">name::
+    <br>* McshEngl.Jsgnengine'generic-specific-tree,
+    <br>* McshEngl.Jsgnengine'specific-generic-tree,
+    <a class="clsHide" href="#idLjsgntolEgngstrnam"></a></p>
+  <p id="idLjsgntolEgngtr">generic-tree::
+    <br>* McshEngl.Jsgnengine-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLjsgntolEgngtr"></a></p>
+  <p id="idLjsgntolEgnstr">specific-tree::
+    <br>* McshEngl.Jsgnengine.specific,
+    <br>* McshEngl.Jsgnengine-Sptr,
+    <br>===
+    <a class="clsHide" href="#idLjsgntolEgnstr"></a></p>
   <p id="idLjsgntolEgnSpcP1">specific::
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000011.last.html#idJsbrbsregnJs">browser-engine</a>,
     <br>* browserNo-engine,

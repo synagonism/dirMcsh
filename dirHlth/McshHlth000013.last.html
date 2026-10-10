@@ -70,24 +70,24 @@
     <a class="clsHide" href="#idDefinition"></a></p>
   </section>
 
-  <section id="idFoodHmnatt001F">
-  <h1 id="idFoodHmnatt001FH1">01_ingredient of food
-    <a class="clsHide" href="#idFoodHmnatt001FH1"></a></h1>
-  <p id="idFoodHmnatt001Fdsn">description::
+  <section id="idFoodHmnatt001">
+  <h1 id="idFoodHmnatt001H1">01_ingredient of food
+    <a class="clsHide" href="#idFoodHmnatt001H1"></a></h1>
+  <p id="idFoodHmnatt001dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>τρία είναι τα βασικά συστατικά των τροφών:
     <br>- οι πρωτεΐνες που αφθονούν στις ζωικές τροφές,
     <br>- οι υδατάνθρακες (σάκχαρο, άμυλο κλπ) που βρίσκονται στις φυτικές τροφές, και
     <br>- τα λίπη που υπάρχουν και στις ζωικές και στις φυτικές τροφές (φυτικά έλαια).
     <br>[Εικ, 1994, 97⧺cptRsc33⧺]
-    <a class="clsHide" href="#idFoodHmnatt001Fdsn"></a></p>
-  <p id="idFoodHmnatt001Fnam">name::
+    <a class="clsHide" href="#idFoodHmnatt001dsn"></a></p>
+  <p id="idFoodHmnatt001nam">name::
     <br>* McshEngl.food'ingredient,
     <br>* McshEngl.food'01_ingredient!⇒food'ingredient,
     <br>* McshEngl.food'att001-ingredient!⇒food'ingredient,
     <br>* McshEngl.food'component!⇒food'ingredient,
     <br>* McshEngl.food'part!⇒food'ingredient,
-    <a class="clsHide" href="#idFoodHmnatt001Fnam"></a></p>
+    <a class="clsHide" href="#idFoodHmnatt001nam"></a></p>
 
   <section id="idFoodHmnatt002">
   <h2 id="idFoodHmnatt002H2">food-composition-data of food
@@ -105,11 +105,25 @@
     <a class="clsHide" href="#idFoodHmnatt002nam"></a></p>
   </section>
 
-  <section id="idFoodHmnatt001str">
-  <h2 id="idFoodHmnatt001strH2">food'ingredient.SPECIFIC
-    <a class="clsHide" href="#idFoodHmnatt001strH2"></a></h2>
-  <p id="idFoodHmnatt001strdsn">description::
+  <section id="idFoodHmnatt001gstr">
+  <h2 id="idFoodHmnatt001gstrH2">GENERIC-SPECIFIC-TREE of food'ingredient
+    <a class="clsHide" href="#idFoodHmnatt001gstrH2"></a></h2>
+  <p id="idFoodHmnatt001gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idFoodHmnatt001gstrdsn"></a></p>
+  <p id="idFoodHmnatt001gstrnam">name::
+    <br>* McshEngl.food'ingredient'generic-specific-tree,
+    <br>* McshEngl.food'ingredient'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmnatt001gstrnam"></a></p>
+  <p id="idFoodHmnatt001gtr">generic-tree::
+    <br>* McshEngl.food'ingredient-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idFoodHmnatt001gtr"></a></p>
+  <p id="idFoodHmnatt001str">specific-tree::
+    <br>* McshEngl.food'ingredient.specific,
+    <br>* McshEngl.food'ingredient-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="#idFoodHmnatt003">nutrient</a>,
     <br>* nutrientNo,
     <br>===
@@ -119,11 +133,7 @@
     <br>* water,
     <br>* vitamin,
     <br>* mineral,
-    <a class="clsHide" href="#idFoodHmnatt001strdsn"></a></p>
-  <p id="idFoodHmnatt001strnam">name::
-    <br>* McshEngl.food'ingredient.specific,
-    <br>* McshEngl.food'ingredient-Sptr,
-    <a class="clsHide" href="#idFoodHmnatt001strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmnatt001str"></a></p>
   </section>
 
   <section id="idFoodHmnatt003">
@@ -1015,19 +1025,29 @@
   </section>
   </section>
 
-  <section id="idFoodHmnMealstr">
-  <h2 id="idFoodHmnMealstrH2">meal.SPECIFIC
-    <a class="clsHide" href="#idFoodHmnMealstrH2"></a></h2>
-  <p id="idFoodHmnMealstrdsn">description::
+  <section id="idFoodHmnMealgstr">
+  <h2 id="idFoodHmnMealgstrH2">GENERIC-SPECIFIC-TREE of meal
+    <a class="clsHide" href="#idFoodHmnMealgstrH2"></a></h2>
+  <p id="idFoodHmnMealgstrdsn">description::
     <br>× Mcsh-creation: {2026-05-27}
+    <a class="clsHide" href="#idFoodHmnMealgstrdsn"></a></p>
+  <p id="idFoodHmnMealgstrnam">name::
+    <br>* McshEngl.meal'generic-specific-tree,
+    <br>* McshEngl.meal'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmnMealgstrnam"></a></p>
+  <p id="idFoodHmnMealgtr">generic-tree::
+    <br>* McshEngl.meal-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idFoodHmnMealgtr"></a></p>
+  <p id="idFoodHmnMealstr">specific-tree::
+    <br>* McshEngl.meal.specific,
+    <br>* McshEngl.meal-Sptr,
+    <br>===
     <br>* breakfast,
     <br>* lunch,
     <br>* dinner,
-    <a class="clsHide" href="#idFoodHmnMealstrdsn"></a></p>
-  <p id="idFoodHmnMealstrnam">name::
-    <br>* McshEngl.meal.specific,
-    <br>* McshEngl.meal-Sptr,
-    <a class="clsHide" href="#idFoodHmnMealstrnam"></a></p>
+    <a class="clsHide" href="#idFoodHmnMealstr"></a></p>
   </section>
 
   <section id="idFoodHmnMealBkft">
@@ -3136,20 +3156,30 @@
     <a class="clsHide" href="#idFoodHmn026aromanam"></a></p>
   </section>
 
-  <section id="idFoodHmn026str">
-  <h3 id="idFoodHmn026strH3">drinkCoffee.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn026strH3"></a></h3>
-  <p id="idFoodHmn026strdsn">description::
+  <section id="idFoodHmn026gstr">
+  <h3 id="idFoodHmn026gstrH3">GENERIC-SPECIFIC-TREE of drinkCoffee
+    <a class="clsHide" href="#idFoodHmn026gstrH3"></a></h3>
+  <p id="idFoodHmn026gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idFoodHmn026gstrdsn"></a></p>
+  <p id="idFoodHmn026gstrnam">name::
+    <br>* McshEngl.drinkCoffee'generic-specific-tree,
+    <br>* McshEngl.drinkCoffee'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn026gstrnam"></a></p>
+  <p id="idFoodHmn026gtr">generic-tree::
+    <br>* McshEngl.drinkCoffee-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idFoodHmn026gtr"></a></p>
+  <p id="idFoodHmn026str">specific-tree::
+    <br>* McshEngl.drinkCoffee.specific,
+    <br>* McshEngl.drinkCoffee-Sptr,
+    <br>===
     <br>γαλλικος:
     <br>450 γρ βανίλια-φουντούκι,
     <br>50 γρ κένυα.
     <br>(κοφέα, χ. τρικούπη)
-    <a class="clsHide" href="#idFoodHmn026strdsn"></a></p>
-  <p id="idFoodHmn026strnam">name::
-    <br>* McshEngl.drinkCoffee.specific,
-    <br>* McshEngl.drinkCoffee-Sptr,
-    <a class="clsHide" href="#idFoodHmn026strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn026str"></a></p>
   </section>
 
   <section id="idFoodHmn027">
@@ -3327,12 +3357,6 @@
     <br>====== lagoGreek:
     <br>* McshElln.νερό!το!=drinkWater,
     <a class="clsHide" href="#idFoodHmn032nam"></a></p>
-  <p id="idFoodHmn032gtr">generic-tree::
-    <br>* McshEngl.drinkWater-Gntr,
-    <br>===
-    <br>* water-general,
-    <br>* <a class="clsPreview" href="#idFoodHmn049">natural-food</a>,
-    <a class="clsHide" href="#idFoodHmn032gtr"></a></p>
 
   <section id="idFoodHmn032eval">
   <h3 id="idFoodHmn032evalH3">evaluation of drinkWater
@@ -3377,22 +3401,33 @@
     <a class="clsHide" href="#idFoodHmn032resourcenam"></a></p>
   </section>
 
-  <section id="idFoodHmn032str">
-  <h3 id="idFoodHmn032strH3">drinkWater.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn032strH3"></a></h3>
-  <p id="idFoodHmn032strdsn">description::
+  <section id="idFoodHmn032gstr">
+  <h3 id="idFoodHmn032gstrH3">GENERIC-SPECIFIC-TREE of drinkWater
+    <a class="clsHide" href="#idFoodHmn032gstrH3"></a></h3>
+  <p id="idFoodHmn032gstrdsn">description::
     <br>× Mcsh-creation: {2026-05-25}
+    <a class="clsHide" href="#idFoodHmn032gstrdsn"></a></p>
+  <p id="idFoodHmn032gstrnam">name::
+    <br>* McshEngl.drinkWater'generic-specific-tree,
+    <br>* McshEngl.drinkWater'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn032gstrnam"></a></p>
+  <p id="idFoodHmn032gtr">generic-tree::
+    <br>* McshEngl.drinkWater-Gntr,
+    <br>===
+    <br>* water-general,
+    <br>* <a class="clsPreview" href="#idFoodHmn049">natural-food</a>,
+    <a class="clsHide" href="#idFoodHmn032gtr"></a></p>
+  <p id="idFoodHmn032str">specific-tree::
+    <br>* McshEngl.drinkWater.specific,
+    <br>* McshEngl.drinkWater-Sptr,
+    <br>===
     <br>* bottled,
     <br>* tap,
     <br>* boiled,
     <br>* mineral,
     <br>* spring,
     <br>* distilled,
-    <a class="clsHide" href="#idFoodHmn032strdsn"></a></p>
-  <p id="idFoodHmn032strnam">name::
-    <br>* McshEngl.drinkWater.specific,
-    <br>* McshEngl.drinkWater-Sptr,
-    <a class="clsHide" href="#idFoodHmn032strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn032str"></a></p>
   </section>
 
   <section id="idFoodHmnWotrBtld">
@@ -4472,17 +4507,26 @@
     <br>====== lagoGreek:
     <br>* McshElln.καρύκευμα!=foodFlavoring,
     <a class="clsHide" href="#idFoodHmn039nam"></a></p>
+
+  <section id="idFoodHmn039gstr">
+  <h2 id="idFoodHmn039gstrH2">GENERIC-SPECIFIC-TREE of flavoringNaturalDriedNo
+    <a class="clsHide" href="#idFoodHmn039gstrH2"></a></h2>
+  <p id="idFoodHmn039gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idFoodHmn039gstrdsn"></a></p>
+  <p id="idFoodHmn039gstrnam">name::
+    <br>* McshEngl.flavoringNaturalDriedNo'generic-specific-tree,
+    <br>* McshEngl.flavoringNaturalDriedNo'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn039gstrnam"></a></p>
   <p id="idFoodHmn039gtr">generic-tree::
     <br>* McshEngl.flavoringNaturalDriedNo-Gntr,
     <br>===
     <br>* <a class="clsPreview" href="#idFoodHmn049">natural-food</a>,
     <a class="clsHide" href="#idFoodHmn039gtr"></a></p>
-
-  <section id="idFoodHmn039str">
-  <h2 id="idFoodHmn039strH2">flavoringNaturalDriedNo.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn039strH2"></a></h2>
-  <p id="idFoodHmn039strdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
+  <p id="idFoodHmn039str">specific-tree::
+    <br>* McshEngl.flavoringNaturalDriedNo.specific,
+    <br>* McshEngl.flavoringNaturalDriedNo-Sptr,
+    <br>===
     <br>saffron (κρόκος),
     <br>===
     <br>άνηθος,
@@ -4496,11 +4540,7 @@
     <br>ρίγανη,
     <br>σκόρδο,
     <br>σέλινο,
-    <a class="clsHide" href="#idFoodHmn039strdsn"></a></p>
-  <p id="idFoodHmn039strnam">name::
-    <br>* McshEngl.flavoringNaturalDriedNo.specific,
-    <br>* McshEngl.flavoringNaturalDriedNo-Sptr,
-    <a class="clsHide" href="#idFoodHmn039strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn039str"></a></p>
   </section>
 
   <section id="idFoodHmn040">
@@ -5373,11 +5413,25 @@
     <br>* McshElln.υπερτροφή,
     <a class="clsHide" href="#idFoodHmn067nam"></a></p>
 
-  <section id="idFoodHmn067str">
-  <h2 id="idFoodHmn067strH2">foodSuper.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn067strH2"></a></h2>
-  <p id="idFoodHmn067strdsn">description::
+  <section id="idFoodHmn067gstr">
+  <h2 id="idFoodHmn067gstrH2">GENERIC-SPECIFIC-TREE of foodSuper
+    <a class="clsHide" href="#idFoodHmn067gstrH2"></a></h2>
+  <p id="idFoodHmn067gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idFoodHmn067gstrdsn"></a></p>
+  <p id="idFoodHmn067gstrnam">name::
+    <br>* McshEngl.foodSuper'generic-specific-tree,
+    <br>* McshEngl.foodSuper'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn067gstrnam"></a></p>
+  <p id="idFoodHmn067gtr">generic-tree::
+    <br>* McshEngl.foodSuper-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idFoodHmn067gtr"></a></p>
+  <p id="idFoodHmn067str">specific-tree::
+    <br>* McshEngl.foodSuper.specific,
+    <br>* McshEngl.foodSuper-Sptr,
+    <br>===
     <br>συμπεριλαμβάνεται στην κατηγορία των «υπερτροφών» (super foods), μερικές από τις οποίες είναι:
     <br>* η σπιρουλίνα,
     <br>* η αλόη,
@@ -5387,11 +5441,7 @@
     <br>* η χλωρέλα,
     <br>* το αιθέριο έλαιο δενδρολίβανου,
     <br>[http://www.vita.gr/html/ent/574/ent.6574.asp]
-    <a class="clsHide" href="#idFoodHmn067strdsn"></a></p>
-  <p id="idFoodHmn067strnam">name::
-    <br>* McshEngl.foodSuper.specific,
-    <br>* McshEngl.foodSuper-Sptr,
-    <a class="clsHide" href="#idFoodHmn067strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn067str"></a></p>
   </section>
 
   <section id="idFoodHmn068">
@@ -5906,27 +5956,32 @@
     <br>====== lagoGreek:
     <br>* McshElln.καρύκευμα,
     <a class="clsHide" href="#idFoodHmn082nam"></a></p>
+
+  <section id="idFoodHmn082gstr">
+  <h2 id="idFoodHmn082gstrH2">GENERIC-SPECIFIC-TREE of foodCondiment
+    <a class="clsHide" href="#idFoodHmn082gstrH2"></a></h2>
+  <p id="idFoodHmn082gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idFoodHmn082gstrdsn"></a></p>
+  <p id="idFoodHmn082gstrnam">name::
+    <br>* McshEngl.foodCondiment'generic-specific-tree,
+    <br>* McshEngl.foodCondiment'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn082gstrnam"></a></p>
   <p id="idFoodHmn082gtr">generic-tree::
     <br>* McshEngl.foodCondiment-Gntr,
     <br>===
     <br>* <a class="clsPreview" href="#idOverview">foodHmn</a>,
     <a class="clsHide" href="#idFoodHmn082gtr"></a></p>
-
-  <section id="idFoodHmn082str">
-  <h2 id="idFoodHmn082strH2">foodCondiment.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn082strH2"></a></h2>
-  <p id="idFoodHmn082strdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
+  <p id="idFoodHmn082str">specific-tree::
+    <br>* McshEngl.foodCondiment.specific,
+    <br>* McshEngl.foodCondiment-Sptr,
+    <br>===
     <br>* ketchup,
     <br>* mustard,
     <br>* pickle,
     <br>* salt,
     <br>* spice,
-    <a class="clsHide" href="#idFoodHmn082strdsn"></a></p>
-  <p id="idFoodHmn082strnam">name::
-    <br>* McshEngl.foodCondiment.specific,
-    <br>* McshEngl.foodCondiment-Sptr,
-    <a class="clsHide" href="#idFoodHmn082strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn082str"></a></p>
   </section>
 
   <section id="idFoodHmn083">
@@ -7444,11 +7499,6 @@
     <br>====== lagoGreek:
     <br>* McshElln.ψωμί!το!=bread,
     <a class="clsHide" href="#idFoodHmn120nam"></a></p>
-  <p id="idFoodHmn120gtr">generic-tree::
-    <br>* McshEngl.foodBread-Gntr,
-    <br>===
-    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
-    <a class="clsHide" href="#idFoodHmn120gtr"></a></p>
 
   <section id="idFoodHmn120recipe">
   <h2 id="idFoodHmn120recipeH2">recipe of foodBread
@@ -7464,18 +7514,28 @@
     <a class="clsHide" href="#idFoodHmn120recipenam"></a></p>
   </section>
 
-  <section id="idFoodHmn120str">
-  <h2 id="idFoodHmn120strH2">foodBread.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn120strH2"></a></h2>
-  <p id="idFoodHmn120strdsn">description::
+  <section id="idFoodHmn120gstr">
+  <h2 id="idFoodHmn120gstrH2">GENERIC-SPECIFIC-TREE of foodBread
+    <a class="clsHide" href="#idFoodHmn120gstrH2"></a></h2>
+  <p id="idFoodHmn120gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>* ψωμι ετοιμο,
-    <br>* ψωμι φτιαχτο,
-    <a class="clsHide" href="#idFoodHmn120strdsn"></a></p>
-  <p id="idFoodHmn120strnam">name::
+    <a class="clsHide" href="#idFoodHmn120gstrdsn"></a></p>
+  <p id="idFoodHmn120gstrnam">name::
+    <br>* McshEngl.foodBread'generic-specific-tree,
+    <br>* McshEngl.foodBread'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn120gstrnam"></a></p>
+  <p id="idFoodHmn120gtr">generic-tree::
+    <br>* McshEngl.foodBread-Gntr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
+    <a class="clsHide" href="#idFoodHmn120gtr"></a></p>
+  <p id="idFoodHmn120str">specific-tree::
     <br>* McshEngl.foodBread.specific,
     <br>* McshEngl.foodBread-Sptr,
-    <a class="clsHide" href="#idFoodHmn120strnam"></a></p>
+    <br>===
+    <br>* ψωμι ετοιμο,
+    <br>* ψωμι φτιαχτο,
+    <a class="clsHide" href="#idFoodHmn120str"></a></p>
   </section>
   </section>
 
@@ -7824,11 +7884,6 @@
     <br>====== lagoGreek:
     <br>* McshElln.μπιφτεκια!=BigMeatBall,
     <a class="clsHide" href="#idFoodHmn131nam"></a></p>
-  <p id="idFoodHmn131gtr">generic-tree::
-    <br>* McshEngl.BigMeatBall-Gntr,
-    <br>===
-    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
-    <a class="clsHide" href="#idFoodHmn131gtr"></a></p>
 
   <section id="idFoodHmn131ingredient">
   <h2 id="idFoodHmn131ingredientH2">ingredient of BigMeatBall
@@ -7856,18 +7911,28 @@
     <a class="clsHide" href="#idFoodHmn131recipenam"></a></p>
   </section>
 
-  <section id="idFoodHmn131str">
-  <h2 id="idFoodHmn131strH2">BigMeatBall.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn131strH2"></a></h2>
-  <p id="idFoodHmn131strdsn">description::
+  <section id="idFoodHmn131gstr">
+  <h2 id="idFoodHmn131gstrH2">GENERIC-SPECIFIC-TREE of BigMeatBall
+    <a class="clsHide" href="#idFoodHmn131gstrH2"></a></h2>
+  <p id="idFoodHmn131gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>* σχαρας,
-    <br>* μπιφτεκια φουρνου με πατάτες,
-    <a class="clsHide" href="#idFoodHmn131strdsn"></a></p>
-  <p id="idFoodHmn131strnam">name::
+    <a class="clsHide" href="#idFoodHmn131gstrdsn"></a></p>
+  <p id="idFoodHmn131gstrnam">name::
+    <br>* McshEngl.BigMeatBall'generic-specific-tree,
+    <br>* McshEngl.BigMeatBall'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn131gstrnam"></a></p>
+  <p id="idFoodHmn131gtr">generic-tree::
+    <br>* McshEngl.BigMeatBall-Gntr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
+    <a class="clsHide" href="#idFoodHmn131gtr"></a></p>
+  <p id="idFoodHmn131str">specific-tree::
     <br>* McshEngl.BigMeatBall.specific,
     <br>* McshEngl.BigMeatBall-Sptr,
-    <a class="clsHide" href="#idFoodHmn131strnam"></a></p>
+    <br>===
+    <br>* σχαρας,
+    <br>* μπιφτεκια φουρνου με πατάτες,
+    <a class="clsHide" href="#idFoodHmn131str"></a></p>
   </section>
   </section>
 
@@ -8585,9 +8650,6 @@
     <br>* McshElln.τροφή.κρεατικά!=foodMeat,
     <br>* McshElln.κρεατικά!=foodMeat,
     <a class="clsHide" href="#idFoodHmn143nam"></a></p>
-  <p id="idFoodHmn143gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idFoodHmn049">natural-food</a>,
-    <a class="clsHide" href="#idFoodHmn143gtr"></a></p>
 
   <section id="idFoodHmn143resource">
   <h2 id="idFoodHmn143resourceH2">resource of foodMeat
@@ -8601,11 +8663,23 @@
     <a class="clsHide" href="#idFoodHmn143resourcenam"></a></p>
   </section>
 
-  <section id="idFoodHmn143str">
-  <h2 id="idFoodHmn143strH2">foodMeat.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn143strH2"></a></h2>
-  <p id="idFoodHmn143strdsn">description::
+  <section id="idFoodHmn143gstr">
+  <h2 id="idFoodHmn143gstrH2">GENERIC-SPECIFIC-TREE of foodMeat
+    <a class="clsHide" href="#idFoodHmn143gstrH2"></a></h2>
+  <p id="idFoodHmn143gstrdsn">description::
     <br>× Mcsh-creation: {2026-05-18}
+    <a class="clsHide" href="#idFoodHmn143gstrdsn"></a></p>
+  <p id="idFoodHmn143gstrnam">name::
+    <br>* McshEngl.foodMeat'generic-specific-tree,
+    <br>* McshEngl.foodMeat'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn143gstrnam"></a></p>
+  <p id="idFoodHmn143gtr">generic-tree::
+    <br>* <a class="clsPreview" href="#idFoodHmn049">natural-food</a>,
+    <a class="clsHide" href="#idFoodHmn143gtr"></a></p>
+  <p id="idFoodHmn143str">specific-tree::
+    <br>* McshEngl.foodMeat.specific,
+    <br>* McshEngl.foodMeat-Sptr,
+    <br>===
     <br>* αρνι με πατάτες στο φούρνο,
     <br>* αρνι γιουβετσι με κριθαρακι,
     <br>* <a class="clsPreview" href="#idFoodHmn144">κοκκινιστό</a>,
@@ -8627,11 +8701,7 @@
     <br>* μοσχαρισιο,
     <br>* προβειο,
     <br>* χοιρινο,
-    <a class="clsHide" href="#idFoodHmn143strdsn"></a></p>
-  <p id="idFoodHmn143strnam">name::
-    <br>* McshEngl.foodMeat.specific,
-    <br>* McshEngl.foodMeat-Sptr,
-    <a class="clsHide" href="#idFoodHmn143strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn143str"></a></p>
   <p id="idFoodHmn143strP1">Uruguay is the top per-capita beef consumer at about 132 pounds (60 kg) per
     <br>person in 2012.
     <br>Uruguay is the country that consumes the most beef per person, at about 132
@@ -9308,11 +9378,25 @@
     <br>* McshElln.σούπα!η!=foodSoup,
     <a class="clsHide" href="#idFoodHmn232nam"></a></p>
 
-  <section id="idFoodHmn232str">
-  <h2 id="idFoodHmn232strH2">foodSoup.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn232strH2"></a></h2>
-  <p id="idFoodHmn232strdsn">description::
+  <section id="idFoodHmn232gstr">
+  <h2 id="idFoodHmn232gstrH2">GENERIC-SPECIFIC-TREE of foodSoup
+    <a class="clsHide" href="#idFoodHmn232gstrH2"></a></h2>
+  <p id="idFoodHmn232gstrdsn">description::
     <br>× Mcsh-creation: {2026-05-26}
+    <a class="clsHide" href="#idFoodHmn232gstrdsn"></a></p>
+  <p id="idFoodHmn232gstrnam">name::
+    <br>* McshEngl.foodSoup'generic-specific-tree,
+    <br>* McshEngl.foodSoup'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn232gstrnam"></a></p>
+  <p id="idFoodHmn232gtr">generic-tree::
+    <br>* McshEngl.foodSoup-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idFoodHmn232gtr"></a></p>
+  <p id="idFoodHmn232str">specific-tree::
+    <br>* McshEngl.foodSoup.specific,
+    <br>* McshEngl.foodSoup-Sptr,
+    <br>===
     <br>* κνορ σουπες
     <br>* <a class="clsPreview" href="#idFoodHmn122">ρύζι-πιλάφι</a>,
     <br>* ρύζι σούπα,
@@ -9320,11 +9404,7 @@
     <br>* φακές⧺cptBdyHmn594⧺,
     <br>* φασολαδα⧺cptBdyHmn595⧺,
     <br>* ψαρόσουπα,
-    <a class="clsHide" href="#idFoodHmn232strdsn"></a></p>
-  <p id="idFoodHmn232strnam">name::
-    <br>* McshEngl.foodSoup.specific,
-    <br>* McshEngl.foodSoup-Sptr,
-    <a class="clsHide" href="#idFoodHmn232strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn232str"></a></p>
   </section>
 
   <section id="idFoodHmn176">
@@ -9539,24 +9619,29 @@
     <br>====== lagoGreek:
     <br>* McshElln.συκωτάκια,
     <a class="clsHide" href="#idFoodHmn186nam"></a></p>
+
+  <section id="idFoodHmn186gstr">
+  <h2 id="idFoodHmn186gstrH2">GENERIC-SPECIFIC-TREE of meatLiver
+    <a class="clsHide" href="#idFoodHmn186gstrH2"></a></h2>
+  <p id="idFoodHmn186gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idFoodHmn186gstrdsn"></a></p>
+  <p id="idFoodHmn186gstrnam">name::
+    <br>* McshEngl.meatLiver'generic-specific-tree,
+    <br>* McshEngl.meatLiver'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn186gstrnam"></a></p>
   <p id="idFoodHmn186gtr">generic-tree::
     <br>* McshEngl.meatLiver-Gntr,
     <br>===
     <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
     <a class="clsHide" href="#idFoodHmn186gtr"></a></p>
-
-  <section id="idFoodHmn186str">
-  <h2 id="idFoodHmn186strH2">meatLiver.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn186strH2"></a></h2>
-  <p id="idFoodHmn186strdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>τηγανιτά:
-    <br>πρωτα με νεράκι να παρουν βραση και οταν σωθει το νερό, ριχνουμε λάδι
-    <a class="clsHide" href="#idFoodHmn186strdsn"></a></p>
-  <p id="idFoodHmn186strnam">name::
+  <p id="idFoodHmn186str">specific-tree::
     <br>* McshEngl.meatLiver.specific,
     <br>* McshEngl.meatLiver-Sptr,
-    <a class="clsHide" href="#idFoodHmn186strnam"></a></p>
+    <br>===
+    <br>τηγανιτά:
+    <br>πρωτα με νεράκι να παρουν βραση και οταν σωθει το νερό, ριχνουμε λάδι
+    <a class="clsHide" href="#idFoodHmn186str"></a></p>
   </section>
   </section>
 
@@ -9692,9 +9777,6 @@
     <br>* McshElln.ελαιόλαδο!=foodOilOlive,
     <br>* McshElln.λάδι!=foodOilOlive,
     <a class="clsHide" href="#idFoodHmn194nam"></a></p>
-  <p id="idFoodHmn194gtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
-    <a class="clsHide" href="#idFoodHmn194gtr"></a></p>
 
   <section id="idFoodHmn194eval">
   <h2 id="idFoodHmn194evalH2">evaluation of foodOilOlive
@@ -9716,11 +9798,23 @@
     <a class="clsHide" href="#idFoodHmn194evalnam"></a></p>
   </section>
 
-  <section id="idFoodHmn194str">
-  <h2 id="idFoodHmn194strH2">foodOilOlive.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn194strH2"></a></h2>
-  <p id="idFoodHmn194strdsn">description::
+  <section id="idFoodHmn194gstr">
+  <h2 id="idFoodHmn194gstrH2">GENERIC-SPECIFIC-TREE of foodOilOlive
+    <a class="clsHide" href="#idFoodHmn194gstrH2"></a></h2>
+  <p id="idFoodHmn194gstrdsn">description::
     <br>× Mcsh-creation: {2026-05-25}
+    <a class="clsHide" href="#idFoodHmn194gstrdsn"></a></p>
+  <p id="idFoodHmn194gstrnam">name::
+    <br>* McshEngl.foodOilOlive'generic-specific-tree,
+    <br>* McshEngl.foodOilOlive'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn194gstrnam"></a></p>
+  <p id="idFoodHmn194gtr">generic-tree::
+    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
+    <a class="clsHide" href="#idFoodHmn194gtr"></a></p>
+  <p id="idFoodHmn194str">specific-tree::
+    <br>* McshEngl.foodOilOlive.specific,
+    <br>* McshEngl.foodOilOlive-Sptr,
+    <br>===
     <br>· Where Is Most of the World’s Olive Oil Produced?
     <br>Spain produces around half of the world's olive oil -- far more than its Mediterranean neighbors, Greece and Italy.
     <br>
@@ -9738,11 +9832,7 @@
     <br>
     <br>Read More:
     <br>http://www.wisegeek.com/where-is-most-of-the-worlds-olive-oil-produced.htm?m {2019-05-30},
-    <a class="clsHide" href="#idFoodHmn194strdsn"></a></p>
-  <p id="idFoodHmn194strnam">name::
-    <br>* McshEngl.foodOilOlive.specific,
-    <br>* McshEngl.foodOilOlive-Sptr,
-    <a class="clsHide" href="#idFoodHmn194strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn194str"></a></p>
   </section>
   </section>
 
@@ -10612,11 +10702,25 @@
     <br>* McshElln.σαλάτα!η!=foodSalad,
     <a class="clsHide" href="#idFoodHmn207nam"></a></p>
 
-  <section id="idFoodHmn207str">
-  <h2 id="idFoodHmn207strH2">foodSalad.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn207strH2"></a></h2>
-  <p id="idFoodHmn207strdsn">description::
+  <section id="idFoodHmn207gstr">
+  <h2 id="idFoodHmn207gstrH2">GENERIC-SPECIFIC-TREE of foodSalad
+    <a class="clsHide" href="#idFoodHmn207gstrH2"></a></h2>
+  <p id="idFoodHmn207gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idFoodHmn207gstrdsn"></a></p>
+  <p id="idFoodHmn207gstrnam">name::
+    <br>* McshEngl.foodSalad'generic-specific-tree,
+    <br>* McshEngl.foodSalad'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn207gstrnam"></a></p>
+  <p id="idFoodHmn207gtr">generic-tree::
+    <br>* McshEngl.foodSalad-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idFoodHmn207gtr"></a></p>
+  <p id="idFoodHmn207str">specific-tree::
+    <br>* McshEngl.foodSalad.specific,
+    <br>* McshEngl.foodSalad-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="#idFoodHmn183">μαρουλοσαλάτα</a>,
     <br>* παντζαρια-σαλάτα,
     <br>* <a class="clsPreview" href="#idFoodHmn180">πατατοσαλάτα</a>,
@@ -10625,11 +10729,7 @@
     <br>* <a class="clsPreview" href="#idFoodHmn188">φασόλια-σαλάτα</a>,
     <br>* <a class="clsPreview" href="#idFoodHmn124">χόρτα</a>,
     <br>* χωριάτικη-σαλάτα,
-    <a class="clsHide" href="#idFoodHmn207strdsn"></a></p>
-  <p id="idFoodHmn207strnam">name::
-    <br>* McshEngl.foodSalad.specific,
-    <br>* McshEngl.foodSalad-Sptr,
-    <a class="clsHide" href="#idFoodHmn207strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn207str"></a></p>
   </section>
 
   <section id="idFoodHmn183">
@@ -10913,11 +11013,6 @@
     <br>====== lagoGreek:
     <br>* McshElln.πιπεριές,
     <a class="clsHide" href="#idFoodHmn181nam"></a></p>
-  <p id="idFoodHmn181gtr">generic-tree::
-    <br>* McshEngl.foodPepper-Gntr,
-    <br>===
-    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
-    <a class="clsHide" href="#idFoodHmn181gtr"></a></p>
 
   <section id="idFoodHmn181ingredient">
   <h3 id="idFoodHmn181ingredientH3">ingredient of foodPepper
@@ -10957,18 +11052,28 @@
     <a class="clsHide" href="#idFoodHmn181milknam"></a></p>
   </section>
 
-  <section id="idFoodHmn181str">
-  <h3 id="idFoodHmn181strH3">foodPepper.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn181strH3"></a></h3>
-  <p id="idFoodHmn181strdsn">description::
+  <section id="idFoodHmn181gstr">
+  <h3 id="idFoodHmn181gstrH3">GENERIC-SPECIFIC-TREE of foodPepper
+    <a class="clsHide" href="#idFoodHmn181gstrH3"></a></h3>
+  <p id="idFoodHmn181gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>κοκινες πιπεριές σαλάτα:
-    <br>τις ψηνω στο γκριλ.. μετά τις ξεφλουδιζω.. βαζω λάδι και ξύδι.
-    <a class="clsHide" href="#idFoodHmn181strdsn"></a></p>
-  <p id="idFoodHmn181strnam">name::
+    <a class="clsHide" href="#idFoodHmn181gstrdsn"></a></p>
+  <p id="idFoodHmn181gstrnam">name::
+    <br>* McshEngl.foodPepper'generic-specific-tree,
+    <br>* McshEngl.foodPepper'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn181gstrnam"></a></p>
+  <p id="idFoodHmn181gtr">generic-tree::
+    <br>* McshEngl.foodPepper-Gntr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
+    <a class="clsHide" href="#idFoodHmn181gtr"></a></p>
+  <p id="idFoodHmn181str">specific-tree::
     <br>* McshEngl.foodPepper.specific,
     <br>* McshEngl.foodPepper-Sptr,
-    <a class="clsHide" href="#idFoodHmn181strnam"></a></p>
+    <br>===
+    <br>κοκινες πιπεριές σαλάτα:
+    <br>τις ψηνω στο γκριλ.. μετά τις ξεφλουδιζω.. βαζω λάδι και ξύδι.
+    <a class="clsHide" href="#idFoodHmn181str"></a></p>
   <p id="idFoodHmn181SPECIFICP1">πρασινες μάκροστενες τηγανιτες::
     <a class="clsHide" href="#idFoodHmn181SPECIFICP1"></a></p>
   </section>
@@ -10993,11 +11098,25 @@
     <br>* McshElln.μπαχαρικό!=foodSpice,
     <a class="clsHide" href="#idFoodHmn216nam"></a></p>
 
-  <section id="idFoodHmn216str">
-  <h2 id="idFoodHmn216strH2">foodSpice.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn216strH2"></a></h2>
-  <p id="idFoodHmn216strdsn">description::
+  <section id="idFoodHmn216gstr">
+  <h2 id="idFoodHmn216gstrH2">GENERIC-SPECIFIC-TREE of foodSpice
+    <a class="clsHide" href="#idFoodHmn216gstrH2"></a></h2>
+  <p id="idFoodHmn216gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idFoodHmn216gstrdsn"></a></p>
+  <p id="idFoodHmn216gstrnam">name::
+    <br>* McshEngl.foodSpice'generic-specific-tree,
+    <br>* McshEngl.foodSpice'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn216gstrnam"></a></p>
+  <p id="idFoodHmn216gtr">generic-tree::
+    <br>* McshEngl.foodSpice-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idFoodHmn216gtr"></a></p>
+  <p id="idFoodHmn216str">specific-tree::
+    <br>* McshEngl.foodSpice.specific,
+    <br>* McshEngl.foodSpice-Sptr,
+    <br>===
     <br>* Aonori | Green laver,
     <br>* Ajwain,
     <br>* Alligator pepper,
@@ -11108,11 +11227,7 @@
     <br>* Τριγωνίσκος,
     <br>* Τσίλι,
     <br>[https://el.wikipedia.org/wiki/Δενδρολίβανο]
-    <a class="clsHide" href="#idFoodHmn216strdsn"></a></p>
-  <p id="idFoodHmn216strnam">name::
-    <br>* McshEngl.foodSpice.specific,
-    <br>* McshEngl.foodSpice-Sptr,
-    <a class="clsHide" href="#idFoodHmn216strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn216str"></a></p>
   </section>
   </section>
 
@@ -11290,7 +11405,7 @@
     <br>* McshEngl.food.226-society,
     <br>* McshEngl.food.society,
     <br>* McshEngl.food//culture//SocHumnView//society,
-    <br>* McshEngl.socFood,
+    <br>* McshEngl.SocFood,
     <br>* McshEngl.society'att008-food,
     <br>* McshEngl.society'food,
     <a class="clsHide" href="#idFoodHmn226nam"></a></p>

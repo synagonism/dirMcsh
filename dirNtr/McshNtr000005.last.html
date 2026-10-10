@@ -34,8 +34,8 @@
     <br>* McshEngl.mtrlSysMolecules!⇒mtrlSysMols,
     <br>* McshEngl.mtrlSysMols!~McsNtr000005,
     <br>* McshEngl.mtrlSysMols!=material.system-of-molecules,
-    <br>* McshEngl.sysMols-material!⇒mtrlSysMols,
-    <br>* McshEngl.sysMolecules!⇒mtrlSysMols,
+    <br>* McshEngl.SystMols-material!⇒mtrlSysMols,
+    <br>* McshEngl.SystMolecules!⇒mtrlSysMols,
     <br>* McshEngl.system-of-molecules!⇒mtrlSysMols,
     <a class="clsHide" href="#idName"></a></p>
   </section>
@@ -359,7 +359,7 @@
   <p id="idSysMols003nam">name::
     <br>* McshEngl.mtrlSysMols.003-solid!⇒solid,
     <br>* McshEngl.mtrlSysMols.solid-003!⇒solid,
-    <br>* McshEngl.solid--sysMols-material,
+    <br>* McshEngl.solid--SystMols-material,
     <a class="clsHide" href="#idSysMols003nam"></a></p>
   <p id="idSysMols003gtr">generic-tree::
     <br>* McshEngl.solid-Gntr,
@@ -405,7 +405,7 @@
     <br>* McshEngl.fluidLiquid,
     <br>* McshEngl.mtrlFluid.liquid!⇒fluidLiquid,
     <br>* McshEngl.liquid!⇒fluidLiquid,
-    <br>* McshEngl.liquid--sysMols-material!⇒fluidLiquid,
+    <br>* McshEngl.liquid--SystMols-material!⇒fluidLiquid,
     <br>====== lagoGreek:
     <br>* McshElln.υγρό!=fluidLiquid,
     <a class="clsHide" href="#idSysMols004nam"></a></p>
@@ -575,7 +575,7 @@
     <br>* McshEngl.fluidPlasma,
     <br>* McshEngl.mtrlFluid.plasma!⇒fluidPlasma,
     <br>* McshEngl.plasma!⇒fluidPlasma,
-    <br>* McshEngl.plasma--sysMols-material!⇒fluidPlasma,
+    <br>* McshEngl.plasma--SystMols-material!⇒fluidPlasma,
     <a class="clsHide" href="#idSysMols006nam"></a></p>
   </section>
 
@@ -592,7 +592,7 @@
     <a class="clsHide" href="#idSysMols007nam"></a></p>
 
   <section id="idSysMols007Iu">
-  <h2 id="idSysMols007IuH2">sysMoleculesUom.IU
+  <h2 id="idSysMols007IuH2">SystMoleculesUom.IU
     <a class="clsHide" href="#idSysMols007IuH2"></a></h2>
   <p id="idSysMols007Iudsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -761,16 +761,26 @@
     <a class="clsHide" href="#idSysMols009clrrscnam"></a></p>
   </section>
 
-  <section id="idSysMols009clrstr">
-  <h3 id="idSysMols009clrstrH3">color.SPECIFIC
-    <a class="clsHide" href="#idSysMols009clrstrH3"></a></h3>
-  <p id="idSysMols009clrstrdsn">description::
+  <section id="idSysMols009clrgstr">
+  <h3 id="idSysMols009clrgstrH3">GENERIC-SPECIFIC-TREE of color
+    <a class="clsHide" href="#idSysMols009clrgstrH3"></a></h3>
+  <p id="idSysMols009clrgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
-    <a class="clsHide" href="#idSysMols009clrstrdsn"></a></p>
-  <p id="idSysMols009clrstrnam">name::
+    <a class="clsHide" href="#idSysMols009clrgstrdsn"></a></p>
+  <p id="idSysMols009clrgstrnam">name::
+    <br>* McshEngl.color'generic-specific-tree,
+    <br>* McshEngl.color'specific-generic-tree,
+    <a class="clsHide" href="#idSysMols009clrgstrnam"></a></p>
+  <p id="idSysMols009clrgtr">generic-tree::
+    <br>* McshEngl.color-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idSysMols009clrgtr"></a></p>
+  <p id="idSysMols009clrstr">specific-tree::
     <br>* McshEngl.color.specific,
     <br>* McshEngl.color-Sptr,
-    <a class="clsHide" href="#idSysMols009clrstrnam"></a></p>
+    <br>===
+    <a class="clsHide" href="#idSysMols009clrstr"></a></p>
   </section>
 
   <section id="idSysMols009clrBlck">

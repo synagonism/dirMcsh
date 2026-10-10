@@ -3654,9 +3654,26 @@ def send(to, value):
     <a class="clsHide" href="#idEthevuCmngH3"></a></h3>
   </section>
 
-  <section id="idEthevuCstr">
-  <h3 id="idEthevuCstrH3">DvETH.SPECIFIC
-    <a class="clsHide" href="#idEthevuCstrH3"></a></h3>
+  <section id="idEthevuCgstr">
+  <h3 id="idEthevuCgstrH3">GENERIC-SPECIFIC-TREE of DvETH
+    <a class="clsHide" href="#idEthevuCgstrH3"></a></h3>
+  <p id="idEthevuCgstrdsn">description::
+    <br>× Mcsh-creation: {2015-08-12}
+    <a class="clsHide" href="#idEthevuCgstrdsn"></a></p>
+  <p id="idEthevuCgstrnam">name::
+    <br>* McshEngl.DvETH'generic-specific-tree,
+    <br>* McshEngl.DvETH'specific-generic-tree,
+    <a class="clsHide" href="#idEthevuCgstrnam"></a></p>
+  <p id="idEthevuCgtr">generic-tree::
+    <br>* McshEngl.DvETH-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthevuCgtr"></a></p>
+  <p id="idEthevuCstr">specific-tree::
+    <br>* McshEngl.DvETH.specific,
+    <br>* McshEngl.DvETH-Sptr,
+    <br>===
+    <a class="clsHide" href="#idEthevuCstr"></a></p>
   <div id="idEthevuCSpcP1">
     <p>Denominations
     <br>Ethereum has a metric system of denominations used as <strong>units of ether</strong>.
@@ -6336,6 +6353,29 @@ def send(to, value):
     <br>* McshEngl.DappEth-Sptr,
     <br>===
     <a class="clsHide" href="#idEthdapstr"></a></p>
+  <p id="idEthdapSpcstr">specific::
+    <br>* <a href="https://github.com/ethereum/dapp-bin">https://github.com/ethereum/dapp-bin</a>,
+    <br>===
+    <br>* CROWDFUNDING-ethdap,
+    <br>* EXCHANGE-ethdap,
+    <br>* FINANCIAL-ethdap,
+    <br>* STORAGE-ethdap,
+    <br>* VOTING-ethdap,
+    <br>* <a class="clsPreview" href="#idEthdapWeb">WEB-BASED-ethdap</a>,
+    <br>===
+    <br>* <a class="clsPreview" href="#idEthdapArgn">Aragon-ethdap</a>,
+    <br>* Augur-ethdap,
+    <br>* Chronobank-ethdap,
+    <br>* <a class="clsPreview" href="#idEthdapCrptkts">CryptoKitties</a>,
+    <br>* <a class="clsPreview" href="#idEthdao">DAO-ethdap</a>,
+    <br>* Digix-ethdap,
+    <br>* <a class="clsPreview" href="#idEthdapEthlnc">Ethlance-ethdap</a>,
+    <br>* <a class="clsPreview" href="#idEthdapIdex">IDEX-ethdap</a>,
+    <br>* Maker-ethdap,
+    <br>* <a class="clsPreview" href="#idEthPlutus">Plutus-ethdap</a>,
+    <br>* <a class="clsPreview" href="#idEthSwarm">Swarm-ethdap</a>,
+    <br>* <a class="clsPreview" href="#idEthdapWiFnio">WeiFund.io-ethdap</a>,
+    <a class="clsHide" href="#idEthdapSpcstr"></a></p>
   </section>
 
   <section id="idEthdapWeb">
@@ -7629,6 +7669,40 @@ contract SimpleStorage {
     <br>* McshEngl.Lsolc-Sptr,
     <br>===
     <a class="clsHide" href="#idEthsolcstr"></a></p>
+  <div id="idEthsolcSpcP1">
+    <p>codeLsol::
+    <br>[<a href="https://solidity.readthedocs.io/en/v0.4.9/contracts.html#function-modifiers">https://solidity.readthedocs.io/en/v0.4.9/contracts.html#function-modifiers</a>]
+    </p>
+    <pre><code>
+contract owned {
+    function owned() { owner = msg.sender; }
+    address owner;
+
+    // This contract only defines a modifier but does not use
+    // it - it will be used in derived contracts.
+    // The function body is inserted where the special symbol
+    // "_;" in the definition of a modifier appears.
+    // This means that if the owner calls this function, the
+    // function is executed and otherwise, an exception is
+    // thrown.
+    modifier onlyOwner {
+        if (msg.sender != owner)
+            throw;
+        _;
+    }
+}
+
+contract mortal is owned {
+    // This contract inherits the "onlyOwner"-modifier from
+    // "owned" and applies it to the "close"-function, which
+    // causes that calls to "close" only have an effect if
+    // they are made by the stored owner.
+    function close() onlyOwner {
+        selfdestruct(owner);
+    }
+}
+    </code></pre>
+    <a class="clsHide" href="#idEthsolcSpcP1"></a></div>
   </section>
 
   <section id="idEthsolcAbt">
@@ -7838,6 +7912,26 @@ Coin.Sent().watch({}, '', function(error, result) {
     <br>* McshEngl.lagSolf-Sptr,
     <br>===
     <a class="clsHide" href="#idEthsolfstr"></a></p>
+  <p id="idEthsolfSpcstr">specific::
+    <br>ethsolf.addmod(uint x, uint y, uint k) returns (uint):
+    <br>compute (x + y) % k where the addition is performed with arbitrary precision and does not wrap around at 2**256.
+    <br>
+    <br>ethsolf.mulmod(uint x, uint y, uint k) returns (uint):
+    <br>compute (x * y) % k where the multiplication is performed with arbitrary precision and does not wrap around at 2**256.
+    <br>
+    <br>ethsolf.sha3(...) returns (bytes32):
+    <br>compute the Ethereum-SHA-3 hash of the (tightly packed) arguments
+    <br>
+    <br>ethsolf.sha256(...) returns (bytes32):
+    <br>compute the SHA-256 hash of the (tightly packed) arguments
+    <br>
+    <br>ethsolf.ripemd160(...) returns (bytes20):
+    <br>compute RIPEMD-160 hash of the (tightly packed) arguments
+    <br>
+    <br>ethsolf.ecrecover(bytes32, uint8, bytes32, bytes32) returns (address):
+    <br>recover public key from elliptic curve signature - arguments are (data, v, r, s)
+    <br>[<a href="https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#mathematical-and-cryptographic-functions">https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#mathematical-and-cryptographic-functions</a>]
+    <a class="clsHide" href="#idEthsolfSpcstr"></a></p>
   </section>
 
   <section id="idEthsolfCtr">
@@ -10552,6 +10646,23 @@ contract CMgrWill {
     <br>* McshEngl.DcontractEth-Sptr,
     <br>===
     <a class="clsHide" href="#idEthctpstr"></a></p>
+  <p id="idEthctpSpcstr">specific::
+    <br>* examples: <a href="https://github.com/fivedogit/solidity-baby-steps">https://github.com/fivedogit/solidity-baby-steps</a>,
+    <br>* <a class="clsPreview" href="#idEthctpBnr">code.binary-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpAsm">code.assembly-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpScc">code.source-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpCld">called-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpClr">caller-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpVrfd">verified-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpDao">DAO-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpEmplagmt">Employment-aggrement-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpExcng">Exchange-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpEvu">Exchange-value-unit-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpNmrgr">Name-registry-smart-contract</a>,
+    <br>* <a class="clsPreview" href="#idEthctpWlmngr">Will-manager-smart-contract</a>,
+    <br>=== INSTANCE:
+    <br>* <a href="https://github.com/Ambisafe/etoken-docs/wiki">EToken of Ambisafe</a>,
+    <a class="clsHide" href="#idEthctpSpcstr"></a></p>
   </section>
 
   <section id="idEthctpOncod">

@@ -57,9 +57,9 @@
     <br>* McshEngl.society'03_satisfiers-node!⇒SocEcon,
     <br>* McshEngl.society'att007-satisfiers-system!⇒SocEcon,
     <br>* McshEngl.society'economy-view!=SocEcon,
-    <br>* McshEngl.sysEcon!⇒SocEcon, {2024-07-29}
-    <br>* McshEngl.sysSatisfiers!⇒SocEcon,
-    <br>* McshEngl.sysSfrs!⇒SocEcon,
+    <br>* McshEngl.SystEcon!⇒SocEcon, {2024-07-29}
+    <br>* McshEngl.SystSatisfiers!⇒SocEcon,
+    <br>* McshEngl.SystSfrs!⇒SocEcon,
     <br>* nodeSatisfier!⇒SocEcon, {2020-10-23},
     <br>* nodeSatisfier'(human-economy)!⇒SocEcon,
     <br>====== lagoChinese:
@@ -156,8 +156,8 @@
     <br>* McshEngl.nodeProduction!⇒Econprdgsys,
     <br>* McshEngl.producing-sys--of-economy!⇒Econprdgsys,
     <br>* McshEngl.production-node--of-economy!⇒Econprdgsys,
-    <br>* McshEngl.sysProducing!⇒Econprdgsys,
-    <br>* McshEngl.sysProduction!⇒Econprdgsys,
+    <br>* McshEngl.SystProducing!⇒Econprdgsys,
+    <br>* McshEngl.SystProduction!⇒Econprdgsys,
     <a class="clsHide" href="#idEconHmnatt004nam"></a></p>
 
   <section id="idEconHmnatt008">
@@ -508,11 +508,25 @@
   </section>
   </section>
 
-  <section id="idEconHmnatt037str">
-  <h3 id="idEconHmnatt037strH3">Econproducer.SPECIFIC
-    <a class="clsHide" href="#idEconHmnatt037strH3"></a></h3>
-  <p id="idEconHmnatt037strdsn">description::
+  <section id="idEconHmnatt037gstr">
+  <h3 id="idEconHmnatt037gstrH3">GENERIC-SPECIFIC-TREE of Econproducer
+    <a class="clsHide" href="#idEconHmnatt037gstrH3"></a></h3>
+  <p id="idEconHmnatt037gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmnatt037gstrdsn"></a></p>
+  <p id="idEconHmnatt037gstrnam">name::
+    <br>* McshEngl.Econproducer'generic-specific-tree,
+    <br>* McshEngl.Econproducer'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmnatt037gstrnam"></a></p>
+  <p id="idEconHmnatt037gtr">generic-tree::
+    <br>* McshEngl.Econproducer-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmnatt037gtr"></a></p>
+  <p id="idEconHmnatt037str">specific-tree::
+    <br>* McshEngl.Econproducer.specific,
+    <br>* McshEngl.Econproducer-Sptr,
+    <br>===
     <br>* worker,
     <br>* workerNo,
     <br>===
@@ -522,11 +536,7 @@
     <br>* rich-class,
     <br>* middle-class,
     <br>* poor-class,
-    <a class="clsHide" href="#idEconHmnatt037strdsn"></a></p>
-  <p id="idEconHmnatt037strnam">name::
-    <br>* McshEngl.Econproducer.specific,
-    <br>* McshEngl.Econproducer-Sptr,
-    <a class="clsHide" href="#idEconHmnatt037strnam"></a></p>
+    <a class="clsHide" href="#idEconHmnatt037str"></a></p>
   </section>
 
   <section id="idEconHmnatt002">
@@ -584,11 +594,25 @@
     <a class="clsHide" href="#idEconHmnatt036incmnam"></a></p>
   </section>
 
-  <section id="idEconHmnatt036str">
-  <h4 id="idEconHmnatt036strH4">workerNo.SPECIFIC
-    <a class="clsHide" href="#idEconHmnatt036strH4"></a></h4>
-  <p id="idEconHmnatt036strdsn">description::
+  <section id="idEconHmnatt036gstr">
+  <h4 id="idEconHmnatt036gstrH4">GENERIC-SPECIFIC-TREE of workerNo
+    <a class="clsHide" href="#idEconHmnatt036gstrH4"></a></h4>
+  <p id="idEconHmnatt036gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmnatt036gstrdsn"></a></p>
+  <p id="idEconHmnatt036gstrnam">name::
+    <br>* McshEngl.workerNo'generic-specific-tree,
+    <br>* McshEngl.workerNo'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmnatt036gstrnam"></a></p>
+  <p id="idEconHmnatt036gtr">generic-tree::
+    <br>* McshEngl.workerNo-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmnatt036gtr"></a></p>
+  <p id="idEconHmnatt036str">specific-tree::
+    <br>* McshEngl.workerNo.specific,
+    <br>* McshEngl.workerNo-Sptr,
+    <br>===
     <br>"· types of humans without the ability to work:
     <br>There are two main reasons why someone might not have the ability to work:
     <br>* **Disabilities:** Physical, mental, or cognitive impairments can make it difficult or impossible for someone to hold a job. This can include:
@@ -614,11 +638,7 @@
     <br>7. **Refugees and Asylum Seekers**: Depending on the laws of the host country, refugees and asylum seekers might not have the legal right to work, or they may face significant barriers to employment.
     <br>It's important to note that the inability to work does not diminish the value or dignity of any individual. Societies often have systems in place, such as social security, disability benefits, and charitable organizations, to support those who are unable to work."
     <br>[{2024-03-31 retrieved} https://chat.openai.com/c/5f947724-9d1e-4655-8fec-68d760399007]
-    <a class="clsHide" href="#idEconHmnatt036strdsn"></a></p>
-  <p id="idEconHmnatt036strnam">name::
-    <br>* McshEngl.workerNo.specific,
-    <br>* McshEngl.workerNo-Sptr,
-    <a class="clsHide" href="#idEconHmnatt036strnam"></a></p>
+    <a class="clsHide" href="#idEconHmnatt036str"></a></p>
   </section>
   </section>
   </section>
@@ -656,8 +676,8 @@
     <br>* McshEngl.nodeHousehold!⇒Econcsmgsys,
     <br>* McshEngl.society'household-node!⇒Econcsmgsys,
     <br>* McshEngl.society'node.household!⇒Econcsmgsys,
-    <br>* McshEngl.sysConsuming!⇒Econcsmgsys,
-    <br>* McshEngl.sysConsumption!⇒Econcsmgsys,
+    <br>* McshEngl.SystConsuming!⇒Econcsmgsys,
+    <br>* McshEngl.SystConsumption!⇒Econcsmgsys,
     <a class="clsHide" href="#idEconHmnatt006nam"></a></p>
 
   <section id="idEconHmnatt006att001">
@@ -733,22 +753,32 @@
     <a class="clsHide" href="#idEconHmnatt046incmnam"></a></p>
   </section>
 
-  <section id="idEconHmnatt046str">
-  <h2 id="idEconHmnatt046strH2">EconConsumer.SPECIFIC
-    <a class="clsHide" href="#idEconHmnatt046strH2"></a></h2>
-  <p id="idEconHmnatt046strdsn">description::
+  <section id="idEconHmnatt046gstr">
+  <h3 id="idEconHmnatt046gstrH3">GENERIC-SPECIFIC-TREE of EconConsumer
+    <a class="clsHide" href="#idEconHmnatt046gstrH3"></a></h3>
+  <p id="idEconHmnatt046gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmnatt046gstrdsn"></a></p>
+  <p id="idEconHmnatt046gstrnam">name::
+    <br>* McshEngl.EconConsumer'generic-specific-tree,
+    <br>* McshEngl.EconConsumer'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmnatt046gstrnam"></a></p>
+  <p id="idEconHmnatt046gtr">generic-tree::
+    <br>* McshEngl.EconConsumer-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmnatt046gtr"></a></p>
+  <p id="idEconHmnatt046str">specific-tree::
+    <br>* McshEngl.EconConsumer.specific,
+    <br>* McshEngl.EconConsumer-Sptr,
+    <br>===
     <br>* worker,
     <br>* workerNo,
     <br>===
     <br>* rich,
     <br>* richMiddle,
     <br>* richNo,
-    <a class="clsHide" href="#idEconHmnatt046strdsn"></a></p>
-  <p id="idEconHmnatt046strnam">name::
-    <br>* McshEngl.EconConsumer.specific,
-    <br>* McshEngl.EconConsumer-Sptr,
-    <a class="clsHide" href="#idEconHmnatt046strnam"></a></p>
+    <a class="clsHide" href="#idEconHmnatt046str"></a></p>
   </section>
 
   <section id="idEconHmnatt021">
@@ -938,7 +968,7 @@
     <br>* McshEngl.SocEcon'att019-financial-system!⇒Econfin,
     <br>* McshEngl.SocEcon'financial-system!⇒Econfin,
     <br>* McshEngl.financial-system!⇒Econfin,
-    <br>* McshEngl.sysFin!⇒Econfin,
+    <br>* McshEngl.SystFin!⇒Econfin,
     <a class="clsHide" href="#idEconHmnatt019nam"></a></p>
 
   <section id="idEconHmnatt048">
@@ -1171,16 +1201,16 @@
     <br>· any measuring subsystem of Socenon (ozn, sectors, nodes, SocEcon).
     <a class="clsHide" href="#idEconHmnatt007dsn"></a></p>
   <p id="idEconHmnatt007nam">name::
-    <br>* McshEngl.SocEcon'08_accounting-sys!⇒sysAcct,
-    <br>* McshEngl.SocEcon'att007-accounting-sys!⇒sysAcct,
-    <br>* McshEngl.SocEcon'accounting-sys!⇒sysAcct,
-    <br>* McshEngl.accounting-node--of-economy!⇒sysAcct,
-    <br>* McshEngl.accounting-sys--of-economy!⇒sysAcct,
-    <br>* McshEngl.sysAcct!=accounting-sys,
+    <br>* McshEngl.SocEcon'08_accounting-sys!⇒SystAcct,
+    <br>* McshEngl.SocEcon'att007-accounting-sys!⇒SystAcct,
+    <br>* McshEngl.SocEcon'accounting-sys!⇒SystAcct,
+    <br>* McshEngl.accounting-node--of-economy!⇒SystAcct,
+    <br>* McshEngl.accounting-sys--of-economy!⇒SystAcct,
+    <br>* McshEngl.SystAcct!=accounting-sys,
     <a class="clsHide" href="#idEconHmnatt007nam"></a></p>
 
   <section id="idEconHmnatt007Econ">
-  <h2 id="idEconHmnatt007EconH2">sysAcct.economy
+  <h2 id="idEconHmnatt007EconH2">SystAcct.economy
     <a class="clsHide" href="#idEconHmnatt007EconH2"></a></h2>
   <p id="idEconHmnatt007Econdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1753,11 +1783,25 @@
     <br>* McshEngl.market-of-economy!⇒Econmarket,
     <a class="clsHide" href="#idEconHmnatt047nam"></a></p>
 
-  <section id="idEconHmnatt047str">
-  <h2 id="idEconHmnatt047strH2">Econmarket.SPECIFIC
-    <a class="clsHide" href="#idEconHmnatt047strH2"></a></h2>
-  <p id="idEconHmnatt047strdsn">description::
+  <section id="idEconHmnatt047gstr">
+  <h2 id="idEconHmnatt047gstrH2">GENERIC-SPECIFIC-TREE of Econmarket
+    <a class="clsHide" href="#idEconHmnatt047gstrH2"></a></h2>
+  <p id="idEconHmnatt047gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEconHmnatt047gstrdsn"></a></p>
+  <p id="idEconHmnatt047gstrnam">name::
+    <br>* McshEngl.Econmarket'generic-specific-tree,
+    <br>* McshEngl.Econmarket'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmnatt047gstrnam"></a></p>
+  <p id="idEconHmnatt047gtr">generic-tree::
+    <br>* McshEngl.Econmarket-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmnatt047gtr"></a></p>
+  <p id="idEconHmnatt047str">specific-tree::
+    <br>* McshEngl.Econmarket.specific,
+    <br>* McshEngl.Econmarket-Sptr,
+    <br>===
     <br>"Markets can be categorized in various ways based on different criteria such as the nature of goods or services exchanged, the structure of the market, the geographical scope, and more. Here's a comprehensive overview:
     <br>
     <br>### **By Nature of Goods or Services**
@@ -1814,11 +1858,7 @@
     <br>- **C2C (Consumer-to-Consumer) Markets**: Transactions between consumers, often facilitated by platforms like eBay or Craigslist.
     <br>Each type of market serves specific functions within the economy, facilitating the exchange of goods, services, or financial instruments, and influencing how resources are allocated and economic activities are conducted."
     <br>[{2024-09-04 retrieved} https://x.com/i/grok]
-    <a class="clsHide" href="#idEconHmnatt047strdsn"></a></p>
-  <p id="idEconHmnatt047strnam">name::
-    <br>* McshEngl.Econmarket.specific,
-    <br>* McshEngl.Econmarket-Sptr,
-    <a class="clsHide" href="#idEconHmnatt047strnam"></a></p>
+    <a class="clsHide" href="#idEconHmnatt047str"></a></p>
   </section>
   </section>
 
@@ -2449,11 +2489,25 @@
     <br>* McshEngl.lawEconomy,
     <a class="clsHide" href="#idLaw045nam"></a></p>
 
-  <section id="idLaw045str">
-  <h2 id="idLaw045strH2">lawEconomy.SPECIFIC
-    <a class="clsHide" href="#idLaw045strH2"></a></h2>
-  <p id="idLaw045strdsn">description::
+  <section id="idLaw045gstr">
+  <h2 id="idLaw045gstrH2">GENERIC-SPECIFIC-TREE of lawEconomy
+    <a class="clsHide" href="#idLaw045gstrH2"></a></h2>
+  <p id="idLaw045gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLaw045gstrdsn"></a></p>
+  <p id="idLaw045gstrnam">name::
+    <br>* McshEngl.lawEconomy'generic-specific-tree,
+    <br>* McshEngl.lawEconomy'specific-generic-tree,
+    <a class="clsHide" href="#idLaw045gstrnam"></a></p>
+  <p id="idLaw045gtr">generic-tree::
+    <br>* McshEngl.lawEconomy-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLaw045gtr"></a></p>
+  <p id="idLaw045str">specific-tree::
+    <br>* McshEngl.lawEconomy.specific,
+    <br>* McshEngl.lawEconomy-Sptr,
+    <br>===
     <br>* antitrust-law,
     <br>* bankruptcy-law,
     <br>* commerce-law,
@@ -2467,11 +2521,7 @@
     <br>* property-law,
     <br>* securites-law,
     <br>* trade-law,
-    <a class="clsHide" href="#idLaw045strdsn"></a></p>
-  <p id="idLaw045strnam">name::
-    <br>* McshEngl.lawEconomy.specific,
-    <br>* McshEngl.lawEconomy-Sptr,
-    <a class="clsHide" href="#idLaw045strnam"></a></p>
+    <a class="clsHide" href="#idLaw045str"></a></p>
   </section>
 
   <section id="idLaw045001">
@@ -2914,17 +2964,27 @@
     <br>* McshEngl.economy-planning!⇒Econplng,
     <a class="clsHide" href="#idEconHmnatt031nam"></a></p>
 
-  <section id="idEconHmnatt031str">
-  <h3 id="idEconHmnatt031strH3">Econplng.SPECIFIC
-    <a class="clsHide" href="#idEconHmnatt031strH3"></a></h3>
-  <p id="idEconHmnatt031strdsn">description::
+  <section id="idEconHmnatt031gstr">
+  <h3 id="idEconHmnatt031gstrH3">GENERIC-SPECIFIC-TREE of Econplng
+    <a class="clsHide" href="#idEconHmnatt031gstrH3"></a></h3>
+  <p id="idEconHmnatt031gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>* material-balance-Econplng,
-    <a class="clsHide" href="#idEconHmnatt031strdsn"></a></p>
-  <p id="idEconHmnatt031strnam">name::
+    <a class="clsHide" href="#idEconHmnatt031gstrdsn"></a></p>
+  <p id="idEconHmnatt031gstrnam">name::
+    <br>* McshEngl.Econplng'generic-specific-tree,
+    <br>* McshEngl.Econplng'specific-generic-tree,
+    <a class="clsHide" href="#idEconHmnatt031gstrnam"></a></p>
+  <p id="idEconHmnatt031gtr">generic-tree::
+    <br>* McshEngl.Econplng-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEconHmnatt031gtr"></a></p>
+  <p id="idEconHmnatt031str">specific-tree::
     <br>* McshEngl.Econplng.specific,
     <br>* McshEngl.Econplng-Sptr,
-    <a class="clsHide" href="#idEconHmnatt031strnam"></a></p>
+    <br>===
+    <br>* material-balance-Econplng,
+    <a class="clsHide" href="#idEconHmnatt031str"></a></p>
   </section>
 
   <section id="idEconHmnatt031Mlbc">
@@ -3409,7 +3469,7 @@
     <br>* McshEngl.econCptl!=capitalist-economy,
     <br>* McshEngl.capitalism-economy!⇒econCptl,
     <br>* McshEngl.capitalist-economy!⇒econCptl,
-    <br>* McshEngl.socCptl'economy!⇒econCptl,
+    <br>* McshEngl.SocCptl'economy!⇒econCptl,
     <a class="clsHide" href="#idEconHmn005nam"></a></p>
 
   <section id="idEconHmn005wgwr">
@@ -4109,10 +4169,10 @@
     <br>* McshEngl.econIntl!⇒Glblecon,
     <br>* McshEngl.global-economy!⇒Glblecon,
     <br>* McshEngl.international-economy!⇒Glblecon,
-    <br>* McshEngl.socGlbl'03_node-of-satisfiers!⇒Glblecon,
-    <br>* McshEngl.socGlbl'att005-node-of-satisfiers!⇒Glblecon,
-    <br>* McshEngl.socGlbl'economy!⇒Glblecon,
-    <br>* McshEngl.socGlbl'node-of-satisfiers!⇒Glblecon,
+    <br>* McshEngl.SocGlbl'03_node-of-satisfiers!⇒Glblecon,
+    <br>* McshEngl.SocGlbl'att005-node-of-satisfiers!⇒Glblecon,
+    <br>* McshEngl.SocGlbl'economy!⇒Glblecon,
+    <br>* McshEngl.SocGlbl'node-of-satisfiers!⇒Glblecon,
     <a class="clsHide" href="#idEconHmn009nam"></a></p>
   <p id="idEconHmn009dsnL">descriptionLong::
     <br>"· make a model of global economy:
@@ -4167,7 +4227,7 @@
     <a class="clsHide" href="#idEconHmn009dsnL"></a></p>
 
   <section id="idEconHmn009cmns">
-  <h2 id="idEconHmn009cmnsH2">global-commons of socGlbl
+  <h2 id="idEconHmn009cmnsH2">global-commons of SocGlbl
     <a class="clsHide" href="#idEconHmn009cmnsH2"></a></h2>
   <p id="idEconHmn009cmnsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4176,7 +4236,7 @@
     <a class="clsHide" href="#idEconHmn009cmnsdsn"></a></p>
   <p id="idEconHmn009cmnsnam">name::
     <br>* McshEngl.global-commons,
-    <br>* McshEngl.socGlbl'commons,
+    <br>* McshEngl.SocGlbl'commons,
     <a class="clsHide" href="#idEconHmn009cmnsnam"></a></p>
   </section>
   </section>

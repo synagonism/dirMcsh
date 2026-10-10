@@ -243,21 +243,21 @@
   </section>
 
   <section id="idCellOgmatt034">
-  <h1 id="idCellOgmatt034H1">06_sysMaterial of cellOgm
+  <h1 id="idCellOgmatt034H1">06_SystMaterial of cellOgm
     <a class="clsHide" href="#idCellOgmatt034H1"></a></h1>
   <p id="idCellOgmatt034dsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idCellOgmatt034dsn"></a></p>
   <p id="idCellOgmatt034nam">name::
-    <br>* McshEngl.cellOgm'06_sysMaterial,
-    <br>* McshEngl.cellOgm'att034-sysMaterial,
-    <br>* McshEngl.cellOgm'sysMaterial-att034,
-    <br>* McshEngl.sysMaterial-of-cellOgm-att034,
+    <br>* McshEngl.cellOgm'06_SystMaterial,
+    <br>* McshEngl.cellOgm'att034-SystMaterial,
+    <br>* McshEngl.cellOgm'SystMaterial-att034,
+    <br>* McshEngl.SystMaterial-of-cellOgm-att034,
     <a class="clsHide" href="#idCellOgmatt034nam"></a></p>
   </section>
 
   <section id="idCellOgmatt014">
-  <h1 id="idCellOgmatt014H1">07_sysMolecules of cellOgm
+  <h1 id="idCellOgmatt014H1">07_SystMolecules of cellOgm
     <a class="clsHide" href="#idCellOgmatt014H1"></a></h1>
   <p id="idCellOgmatt014dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -267,7 +267,7 @@
     <br>* McshEngl.cellOgm'07_matterSubobjo,
     <br>* McshEngl.cellOgm'att014_matterSubobjo,
     <br>* McshEngl.cellOgm'matterSubobjo,
-    <br>* McshEngl.sysMolecules-of-cellOgm,
+    <br>* McshEngl.SystMolecules-of-cellOgm,
     <a class="clsHide" href="#idCellOgmatt014nam"></a></p>
   </section>
 
@@ -731,18 +731,28 @@
     <br>* McshEngl.signalOgm,
     <a class="clsHide" href="#idCellOgmatt043nam"></a></p>
 
-  <section id="idCellOgmatt043str">
-  <h4 id="idCellOgmatt043strH4">signalOgm.SPECIFIC
-    <a class="clsHide" href="#idCellOgmatt043strH4"></a></h4>
-  <p id="idCellOgmatt043strdsn">description::
+  <section id="idCellOgmatt043gstr">
+  <h4 id="idCellOgmatt043gstrH4">GENERIC-SPECIFIC-TREE of signalOgm
+    <a class="clsHide" href="#idCellOgmatt043gstrH4"></a></h4>
+  <p id="idCellOgmatt043gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>* chemical,
-    <br>* biochemical,
-    <a class="clsHide" href="#idCellOgmatt043strdsn"></a></p>
-  <p id="idCellOgmatt043strnam">name::
+    <a class="clsHide" href="#idCellOgmatt043gstrdsn"></a></p>
+  <p id="idCellOgmatt043gstrnam">name::
+    <br>* McshEngl.signalOgm'generic-specific-tree,
+    <br>* McshEngl.signalOgm'specific-generic-tree,
+    <a class="clsHide" href="#idCellOgmatt043gstrnam"></a></p>
+  <p id="idCellOgmatt043gtr">generic-tree::
+    <br>* McshEngl.signalOgm-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCellOgmatt043gtr"></a></p>
+  <p id="idCellOgmatt043str">specific-tree::
     <br>* McshEngl.signalOgm.specific,
     <br>* McshEngl.signalOgm-Sptr,
-    <a class="clsHide" href="#idCellOgmatt043strnam"></a></p>
+    <br>===
+    <br>* chemical,
+    <br>* biochemical,
+    <a class="clsHide" href="#idCellOgmatt043str"></a></p>
   </section>
 
   <section id="idCellOgmatt043003">
@@ -1120,16 +1130,26 @@
     <a class="clsHide" href="#idCellOgmatt040att008str"></a></p>
   </section>
 
-  <section id="idCellOgmatt040str">
-  <h3 id="idCellOgmatt040strH3">signalingOgm.SPECIFIC
-    <a class="clsHide" href="#idCellOgmatt040strH3"></a></h3>
-  <p id="idCellOgmatt040strdsn">description::
+  <section id="idCellOgmatt040gstr">
+  <h3 id="idCellOgmatt040gstrH3">GENERIC-SPECIFIC-TREE of signalingOgm
+    <a class="clsHide" href="#idCellOgmatt040gstrH3"></a></h3>
+  <p id="idCellOgmatt040gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
-    <a class="clsHide" href="#idCellOgmatt040strdsn"></a></p>
-  <p id="idCellOgmatt040strnam">name::
+    <a class="clsHide" href="#idCellOgmatt040gstrdsn"></a></p>
+  <p id="idCellOgmatt040gstrnam">name::
+    <br>* McshEngl.signalingOgm'generic-specific-tree,
+    <br>* McshEngl.signalingOgm'specific-generic-tree,
+    <a class="clsHide" href="#idCellOgmatt040gstrnam"></a></p>
+  <p id="idCellOgmatt040gtr">generic-tree::
+    <br>* McshEngl.signalingOgm-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCellOgmatt040gtr"></a></p>
+  <p id="idCellOgmatt040str">specific-tree::
     <br>* McshEngl.signalingOgm.specific,
     <br>* McshEngl.signalingOgm-Sptr,
-    <a class="clsHide" href="#idCellOgmatt040strnam"></a></p>
+    <br>===
+    <a class="clsHide" href="#idCellOgmatt040str"></a></p>
   </section>
 
   <section id="idCellOgmatt040001">
@@ -2034,8 +2054,8 @@
     <br>* McshEngl.neuronOgm'01_disease,
     <br>* McshEngl.neuronOgm'att001-disease,
     <br>* McshEngl.neuronOgm'disease-att001,
-    <br>* McshEngl.dssOgm.005-neuronOgm,
-    <br>* McshEngl.dssOgm.neuronOgm-005,
+    <br>* McshEngl.DssOgm.005-neuronOgm,
+    <br>* McshEngl.DssOgm.neuronOgm-005,
     <a class="clsHide" href="#idCellOgm009att001nam"></a></p>
   </section>
 
