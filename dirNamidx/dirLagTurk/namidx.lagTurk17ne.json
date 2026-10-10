@@ -1,10 +1,10 @@
 [
-  [";lagTurk17ne","N|n",14,"2026-10-03"],
+  [";lagTurk17ne","N|n",14,"2026-10-09"],
   ["nakletmek!=to-transfer","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["nasip-etmek!=to-grant","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["nasıl!=how!=pronTurkManner","dirLag/McshLag000030.last.html#idLTurkpronManr"],
   ["ne-zaman!=when!=pronTurkTime","dirLag/McshLag000030.last.html#idLTurkpronTime"],
-  ["ne..ne!~conjTurk:neither..nor","dirCor/McshCor000005.last.html#idRlnDjcnIn"],
+  ["ne..ne!~ConjTurk:neither..nor","dirCor/McshCor000005.last.html#idRlnDjcnIn"],
   ["nefret-etmek!=to-hate","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["nerede!=where!=pronTurkSpace","dirLag/McshLag000030.last.html#idLTurkpronSpac"],
   ["new!=what!=pronTurkHumanNo","dirLag/McshLag000030.last.html#idLTurkpronHmnN"],

@@ -1,5 +1,5 @@
 [
-  [";lagZhon039","浠..煈",312,"2026-10-04"],
+  [";lagZhon039","浠..煈",312,"2026-10-10"],
   ["浠-xī-28000!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb345"],
   ["浣-huàn-28003!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb127"],
   ["浦-pǔ-28006!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb251"],
@@ -92,11 +92,11 @@
   ["渭-wèi-28205!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb340"],
   ["港-gǎng-28207!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb097"],
   ["渲-xuàn-28210!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb356"],
-  ["渴-kě!=fctgSensingThirsting","dirCor/McshCor000018.last.html#idBrngHmnFctthrtg"],
+  ["渴-kě!=FctgSensingThirsting","dirCor/McshCor000018.last.html#idBrngHmnFctthrtg"],
   ["渴-kě-28212!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb151"],
   ["游-yóu-28216!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb368"],
   ["游客-yóukè!=tourist","dirStn/McshStn000026.last.html#idOznSvcSctrTrsmtrst"],
-  ["游泳-yóuyǒng!=fctgSwimming","dirCor/McshCor000004.last.html#idDngMvngSwmg"],
+  ["游泳-yóuyǒng!=FctgSwimming","dirCor/McshCor000004.last.html#idDngMvngSwmg"],
   ["渺-miǎo-28218!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb200"],
   ["湃-pài-28227!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb236"],
   ["湄-méi-28228!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb195"],
@@ -290,7 +290,7 @@
   ["热-rè!=hot","dirNtr/McshNtr000002.last.html#idMtrlatt008TmprHot"],
   ["热-rè-28909!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb269"],
   ["热心-rèxīn!=enthusiasm","dirHmn/McshHmn000002.last.html#idHmnatt150"],
-  ["热心-rèxīn!~adjeZhon!=fctgEmotingEnthusiasm","dirCor/McshCor000018.last.html#idBrngHmnFct004017"],
+  ["热心-rèxīn!~adjeZhon!=FctgEmotingEnthusiasm","dirCor/McshCor000018.last.html#idBrngHmnFct004017"],
   ["热闹-rènào!=lively","dirCor/McshCor000004.last.html#idDngatt001Lvly"],
   ["烯-xī-28911!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb345"],
   ["烷-wán-28919!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb338"],
@@ -310,6 +310,6 @@
   ["焰-yàn-28976!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb360"],
   ["焱-yàn-28977!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb360"],
   ["然-rán-28982!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb266"],
-  ["然而-ránér!~Zhon_conj!=rltnOpposition:But|However","dirLag/McshLag000018.last.html#idLZhonconj_039"],
+  ["然而-ránér!~Zhon_conj!=RltnOpposition:But|However","dirLag/McshLag000018.last.html#idLZhonconj_039"],
   ["煅-duàn-28997!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb076"]
 ]

@@ -1,11 +1,11 @@
 [
-  [";lagEspo20po","P|p",8,"2026-10-04"],
+  [";lagEspo20po","P|p",8,"2026-10-09"],
   ["parto!=part","dirCor/McshCor000008.last.html#idWhlprt"],
   ["patrino!=mother","dirHmn/McshHmn000002.last.html#idHmnatt073"],
   ["patro!=father","dirHmn/McshHmn000002.last.html#idHmnatt072"],
-  ["petas!~verbEspo!=actgAsking","dirCor/McshCor000004.last.html#idDngActgAsk"],
+  ["petas!~verbEspo!=ActgAsking","dirCor/McshCor000004.last.html#idDngActgAsk"],
   ["planto!=ogmPlant","dirOgm/McshOgm000010.last.html#idOverview"],
   ["pluvo!=dongRaining","dirNtr/McshNtr000005.last.html#idSysMols004WtrRaing"],
-  ["prepari!~verbEspo!=dongPreparing","dirCor/McshCor000004.last.html#idDngPrpr"],
+  ["prepari!~verbEspo!=DongPreparing","dirCor/McshCor000004.last.html#idDngPrpr"],
   ["purpura!=colorPurple","dirNtr/McshNtr000005.last.html#idSysMols009clrPrpl"]
 ]

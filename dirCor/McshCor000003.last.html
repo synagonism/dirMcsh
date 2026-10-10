@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.entity
-    (McshCor000003.1-161-0.2026-10-03)</title>
+    (McshCor000003.1-162-0.2026-10-10)</title>
   <meta name="keywords" content="entity, modelConceptSenso, Hitp_Mcs, Synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -29,7 +29,7 @@
   <p id="idName">name::
     <br>* McshEngl.entity,
     <br>* McshEngl.McshCor000003.last.html//dirCor//dirMcsh!⇒entity,
-    <br>* McshEngl.dirMcsh/dirCor/McshCor000003.last.html!⇒entity,
+    <br>* McshEngl.dirCor/McshCor000003.last.html!⇒entity,
     <br>* McshEngl.entity.lagoSngu!=leu,
     <br>* McshEngl.entity.lagoElln!=οντότητα!η,
     <br>* McshEngl.entity.lagoZhon!=shì-事,
@@ -153,11 +153,11 @@
     <br>· <span class="clsColorRed">attribute of entity\a\</span> is any other ENTITY related with it\a\.
     <a class="clsHide" href="#idEntattdsn"></a></p>
   <p id="idEntattnam">name::
-    <br>* McshEngl.attribute,
-    <br>* McshEngl.attributes!~plural,
+    <br>* McshEngl.attribute-of-entity!⇒attribute,
+    <br>* McshEngl.attribute!=attribute-of-entity,
+    <br>* McshEngl.attributes!~plural:attribute,
     <br>* McshEngl.attribute.lagoSngu!=eu,
     <br>* McshEngl.attribute.lagoElln!=χαρακτηριστικό!το,
-    <br>* McshEngl.attribute-of-entity!⇒attribute,
     <br>* McshEngl.entity'01_attribute!⇒attribute,
     <br>* McshEngl.entity'attribute!⇒attribute,
     <br>* McshEngl.characteristic-of-entity!⇒attribute,
@@ -338,11 +338,24 @@
     <br>[{2025-12-12 retrieved} https://chatgpt.com/c/693c41f0-1ab4-8326-8405-7b06bd9550ca]
     <a class="clsHide" href="#idEntattnam"></a></p>
 
-  <section id="idEntattstr">
-  <h2 id="idEntattstrH2">attribute.SPECIFIC
-    <a class="clsHide" href="#idEntattstrH2"></a></h2>
-  <p id="idEntattstrdsn">description::
+  <section id="idEntattgstr">
+  <h2 id="idEntattgstrH2">GENERIC-SPECIFIC-TREE of attribute
+    <a class="clsHide" href="#idEntattgstrH2"></a></h2>
+  <p id="idEntattgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEntattgstrdsn"></a></p>
+  <p id="idEntattgstrnam">name::
+    <br>* McshEngl.attribute'generic-specific-tree,
+    <br>* McshEngl.attribute'specific-generic-tree,
+    <a class="clsHide" href="#idEntattgstrnam"></a></p>
+  <p id="idEntattgtr">generic-tree::
+    <br>* McshEngl.attribute-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEntattgtr"></a></p>
+  <p id="idEntattstr">specific-tree::
+    <br>* McshEngl.attribute.specific,
+    <br>* McshEngl.attribute-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="#idEntDng">doing-of-entity</a>,
     <br>* <a class="clsPreview" href="#idEntDngN">doingNo-of-entity</a>,
@@ -352,11 +365,7 @@
     <br>
     <br>* <a class="clsPreview" href="#idEntgtr">generic-of-entity-gtr</a>,
     <br>* <a class="clsPreview" href="#idEntstr">specific-of-entity</a>,
-    <a class="clsHide" href="#idEntattstrdsn"></a></p>
-  <p id="idEntattstrnam">name::
-    <br>* McshEngl.attribute.specific,
-    <br>* McshEngl.attribute-Sptr,
-    <a class="clsHide" href="#idEntattstrnam"></a></p>
+    <a class="clsHide" href="#idEntattstr"></a></p>
   </section>
 
   <section id="idEntatt001">
@@ -473,17 +482,17 @@
     <br>· entity-attribute--sequencedNo-relation is <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnSqcdN">a-sequencedNo-relation</a> between <a class="clsPreview" href="#idOverview">an-entity\a\</a> and <a class="clsPreview" href="#idEntatt">an-attribute</a> of it\a\.
     <a class="clsHide" href="#idEntatrrlndsn"></a></p>
   <p id="idEntatrrlnnam">name::
-    <br>* McshEngl.entity'02_attribute--sequencedNo-relation!⇒rltnEntityAttribute,
-    <br>* McshEngl.entity'attribute--sequencedNo-relation!⇒rltnEntityAttribute,
-    <br>* McshEngl.attribute-entity--sequencedNo-relation!⇒rltnEntityAttribute,
-    <br>* McshEngl.entity-attribute--sequencedNo-relation!⇒rltnEntityAttribute,
-    <br>* McshEngl.lagoHmnm'entity-attribute-sequencedNo!⇒rltnEntityAttribute,
-    <br>* McshEngl.relation.entity-attribute-sequencedNo!⇒rltnEntityAttribute,
-    <br>* McshEngl.rltnAttributeEntity!⇒rltnEntityAttribute,
-    <br>* McshEngl.rltnAttribute_then_entityU!⇒rltnEntityAttribute,
-    <br>* McshEngl.rltnEntityAttribute!=sequencedNo-entity-attribute-relation,
+    <br>* McshEngl.entity'02_attribute--sequencedNo-relation!⇒RltnEntityAttribute,
+    <br>* McshEngl.entity'attribute--sequencedNo-relation!⇒RltnEntityAttribute,
+    <br>* McshEngl.attribute-entity--sequencedNo-relation!⇒RltnEntityAttribute,
+    <br>* McshEngl.entity-attribute--sequencedNo-relation!⇒RltnEntityAttribute,
+    <br>* McshEngl.lagoHmnm'entity-attribute-sequencedNo!⇒RltnEntityAttribute,
+    <br>* McshEngl.relation.entity-attribute-sequencedNo!⇒RltnEntityAttribute,
+    <br>* McshEngl.RltnAttributeEntity!⇒RltnEntityAttribute,
+    <br>* McshEngl.RltnAttribute_then_entityU!⇒RltnEntityAttribute,
+    <br>* McshEngl.RltnEntityAttribute!=sequencedNo-entity-attribute-relation,
     <br>====== lagoSinagu:
-    <br>* McshSngu.old.ro-o-atro!=rltnEntityAttribute,
+    <br>* McshSngu.old.ro-o-atro!=RltnEntityAttribute,
     <a class="clsHide" href="#idEntatrrlnnam"></a></p>
 
   <section id="idEntattnamg">
@@ -507,8 +516,8 @@
     <br>· χρόνοι ρήματος,
     <a class="clsHide" href="#idEntattnamgdsn"></a></p>
   <p id="idEntattnamgnam">name::
-    <br>* McshEngl.actgNaming.attribute-entity,
-    <br>* McshEngl.actgNaming.entity-attribute,
+    <br>* McshEngl.ActgNaming.attribute-entity,
+    <br>* McshEngl.ActgNaming.entity-attribute,
     <a class="clsHide" href="#idEntattnamgnam"></a></p>
   </section>
 
@@ -541,26 +550,26 @@
     <br>· _sntxSngu: generic-specific.
     <a class="clsHide" href="#idEntatrrln1dsn"></a></p>
   <p id="idEntatrrln1nam">name::
-    <br>* McshEngl.attribute-relation!⇒rltnEntity_then_attribute,
-    <br>* McshEngl.entity-attribute--sequenced-relation!⇒rltnEntity_then_attribute,
-    <br>* McshEngl.entity-then-attribute--relation!⇒rltnEntity_then_attribute,
-    <br>* McshEngl.entity's-attribute!⇒rltnEntity_then_attribute,
-    <br>* McshEngl.has-attribute!⇒rltnEntity_then_attribute,
-    <br>* McshEngl.of!~conjEngl!⇒rltnEntity_then_attribute,
-    <br>* McshEngl.relation.entity-then-attribute!⇒rltnEntity_then_attribute,
-    <br>* McshEngl.rltnAttribute!⇒rltnEntity_then_attribute,
-    <br>* McshEngl.rltnEntity_then_attribute,
+    <br>* McshEngl.attribute-relation!⇒RltnEntity_then_attribute,
+    <br>* McshEngl.entity-attribute--sequenced-relation!⇒RltnEntity_then_attribute,
+    <br>* McshEngl.entity-then-attribute--relation!⇒RltnEntity_then_attribute,
+    <br>* McshEngl.entity's-attribute!⇒RltnEntity_then_attribute,
+    <br>* McshEngl.has-attribute!⇒RltnEntity_then_attribute,
+    <br>* McshEngl.of!~ConjEngl!⇒RltnEntity_then_attribute,
+    <br>* McshEngl.relation.entity-then-attribute!⇒RltnEntity_then_attribute,
+    <br>* McshEngl.RltnAttribute!⇒RltnEntity_then_attribute,
+    <br>* McshEngl.RltnEntity_then_attribute,
     <br>====== lagoSinagu:
-    <br>* McshSngu.a!~conjSngu!=rltnEntity_then_attribute,
-    <br>* McshSngu.ai!~verbSngu!=rltnEntity_then_attribute,
-    <br>* McshSngu.au!~argoSngu!=rltnEntityAttribute, {2025-12-22}
-    <br>* McshSngu.old.la!~conjSngu!=rltnEntity_then_attribute,
-    <br>* McshSngu.old.lai!~verbSngu!=rltnEntity_then_attribute,
-    <br>* McshSngu.old.lau!=rltnEntity_then_attribute,
+    <br>* McshSngu.a!~ConjSngu!=RltnEntity_then_attribute,
+    <br>* McshSngu.ai!~verbSngu!=RltnEntity_then_attribute,
+    <br>* McshSngu.au!~argoSngu!=RltnEntityAttribute, {2025-12-22}
+    <br>* McshSngu.old.la!~ConjSngu!=RltnEntity_then_attribute,
+    <br>* McshSngu.old.lai!~verbSngu!=RltnEntity_then_attribute,
+    <br>* McshSngu.old.lau!=RltnEntity_then_attribute,
     <br>====== lagoChinese:
-    <br>* McshZhon.dòngcí.shì-是!=rltnEntity_then_attribute,
-    <br>* McshZhon.shì-是!~verbZhon!=rltnEntity_then_attribute,
-    <br>* McshZhon.是-shì!~verbZhon!=rltnEntity_then_attribute,
+    <br>* McshZhon.dòngcí.shì-是!=RltnEntity_then_attribute,
+    <br>* McshZhon.shì-是!~verbZhon!=RltnEntity_then_attribute,
+    <br>* McshZhon.是-shì!~verbZhon!=RltnEntity_then_attribute,
     <a class="clsHide" href="#idEntatrrln1nam"></a></p>
   </section>
 
@@ -585,46 +594,46 @@
     <br>· _sntxEngl: [(Then) _sntxVerb:{speak} _sntxObj1:[[the phrase] [you _sntxVerb:{want} to insert at that location]].]
     <a class="clsHide" href="#idEntatrrln2dsn"></a></p>
   <p id="idEntatrrln2nam">name::
-    <br>* McshEngl.attribute-then-entity--relation!⇒rltnAttribute_then_entity,
-    <br>* McshEngl.rltnAttribute_then_entity!=attribute-then-entity--relation,
-    <br>* McshEngl.attribute-entity--sequenced--relation!⇒rltnAttribute_then_entity,
-    <br>* McshEngl.descriptive-relation!⇒rltnAttribute_then_entity,
-    <br>* McshEngl.entity-relation!⇒rltnAttribute_then_entity,
-    <br>* McshEngl.relation.attribute-then-entity!⇒rltnAttribute_then_entity,
-    <br>* McshEngl.relation.of-entity!⇒rltnAttribute_then_entity,
-    <br>* McshEngl.rltnEntity!⇒rltnAttribute_then_entity,
-    <br>* McshEngl.of!~conjEngl!=rltnAttribute_then_entity,
-    <br>* McshEngl.syntax.adjective!=rltnAttribute_then_entity,
-    <br>* McshEngl.conjEngl.of!=rltnAttribute_then_entity,
-    <br>* McshEngl.conjEngl.with!=rltnAttribute_then_entity,
+    <br>* McshEngl.attribute-then-entity--relation!⇒RltnAttribute_then_entity,
+    <br>* McshEngl.RltnAttribute_then_entity!=attribute-then-entity--relation,
+    <br>* McshEngl.attribute-entity--sequenced--relation!⇒RltnAttribute_then_entity,
+    <br>* McshEngl.descriptive-relation!⇒RltnAttribute_then_entity,
+    <br>* McshEngl.entity-relation!⇒RltnAttribute_then_entity,
+    <br>* McshEngl.relation.attribute-then-entity!⇒RltnAttribute_then_entity,
+    <br>* McshEngl.relation.of-entity!⇒RltnAttribute_then_entity,
+    <br>* McshEngl.RltnEntity!⇒RltnAttribute_then_entity,
+    <br>* McshEngl.of!~ConjEngl!=RltnAttribute_then_entity,
+    <br>* McshEngl.syntax.adjective!=RltnAttribute_then_entity,
+    <br>* McshEngl.ConjEngl.of!=RltnAttribute_then_entity,
+    <br>* McshEngl.ConjEngl.with!=RltnAttribute_then_entity,
     <br>====== lagoSinagu:
-    <br>* McshSngu.acca!~conjSngu!=rltnAttribute_then_entity,
-    <br>* McshSngu.aiccai!~verbSngu!=rltnAttribute_then_entity,
-    <br>* au!=rltnAttribute_then_entity,
-    <br>* SnguConj.a!=rltnAttribute_then_entity,
+    <br>* McshSngu.acca!~ConjSngu!=RltnAttribute_then_entity,
+    <br>* McshSngu.aiccai!~verbSngu!=RltnAttribute_then_entity,
+    <br>* au!=RltnAttribute_then_entity,
+    <br>* SnguConj.a!=RltnAttribute_then_entity,
     <br>====== lagoGreek:
-    <br>* McshElln.γενική-πτώση!=rltnAttribute_then_entity,
-    <br>* McshElln.σχέση-χαρακτηριστικού-οντότητας!=rltnAttribute_then_entity,
+    <br>* McshElln.γενική-πτώση!=RltnAttribute_then_entity,
+    <br>* McshElln.σχέση-χαρακτηριστικού-οντότητας!=RltnAttribute_then_entity,
     <a class="clsHide" href="#idEntatrrln2nam"></a></p>
 
   <section id="idEntatrrln2gstr">
-  <h3 id="idEntatrrln2gstrH3">GENERIC-SPECIFIC-TREE of rltnAttribute_then_entity
+  <h3 id="idEntatrrln2gstrH3">GENERIC-SPECIFIC-TREE of RltnAttribute_then_entity
     <a class="clsHide" href="#idEntatrrln2gstrH3"></a></h3>
   <p id="idEntatrrln2gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idEntatrrln2gstrdsn"></a></p>
   <p id="idEntatrrln2gstrnam">name::
-    <br>* McshEngl.rltnAttribute_then_entity'generic-specific-tree,
-    <br>* McshEngl.rltnAttribute_then_entity'specific-generic-tree,
+    <br>* McshEngl.RltnAttribute_then_entity'generic-specific-tree,
+    <br>* McshEngl.RltnAttribute_then_entity'specific-generic-tree,
     <a class="clsHide" href="#idEntatrrln2gstrnam"></a></p>
   <p id="idEntatrrln2gtr">generic-tree::
-    <br>* McshEngl.rltnAttribute_then_entity-Gntr,
+    <br>* McshEngl.RltnAttribute_then_entity-Gntr,
     <br>===
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idEntatrrln2gtr"></a></p>
   <p id="idEntatrrln2str">specific-tree::
-    <br>* McshEngl.rltnAttribute_then_entity.specific,
-    <br>* McshEngl.rltnAttribute_then_entity-Sptr,
+    <br>* McshEngl.RltnAttribute_then_entity.specific,
+    <br>* McshEngl.RltnAttribute_then_entity-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="../dirCor/McshCor000008.last.html#idWhlprtrln1">part-relation--of-entity</a>,
     <br>* <a class="clsPreview" href="../dirCor/McshCor000002.last.html#idMcsattPrtN">partNo-relation--of-entity</a>,
@@ -865,23 +874,23 @@
     <br>· _sntxZhon: 中国 发展 得 很 快。 :: _sntxSubj:[Zhōngguó] _sntxVerb:{fāzhǎn} _sntxManner:[(dé)hěn kuài]。 != [China] {develop} [very fast].
     <a class="clsHide" href="#idEntevgFdsn"></a></p>
   <p id="idEntevgnam">name::
-    <br>* McshEngl.evoluting!⇒entt_evlg,
-    <br>* McshEngl.entt_evlg!=evoluting,
-    <br>* McshEngl.developing-doing!⇒entt_evlg,
-    <br>* McshEngl.development-of-entity!⇒entt_evlg,
-    <br>* McshEngl.dongEvoluting!⇒entt_evlg,
-    <br>* McshEngl.entity'evoluting!⇒entt_evlg,
-    <br>* McshEngl.evoluting-of-entity!⇒entt_evlg,
-    <br>* McshEngl.evolution-of-entity!⇒entt_evlg,
-    <br>* McshEngl.verb.develop!=entt_evlg!~verbEnglA1,
-    <br>* McshEngl.develop!=entt_evlg!~verbEnglA1,
+    <br>* McshEngl.evoluting-of-entity!⇒Enttevlg,
+    <br>* McshEngl.Enttevlg!=evoluting-of-entity,
+    <br>* McshEngl.evoluting!⇒Enttevlg,
+    <br>* McshEngl.developing-doing!⇒Enttevlg,
+    <br>* McshEngl.development-of-entity!⇒Enttevlg,
+    <br>* McshEngl.DongEvoluting!⇒Enttevlg,
+    <br>* McshEngl.entity'evoluting!⇒Enttevlg,
+    <br>* McshEngl.evolution-of-entity!⇒Enttevlg,
+    <br>* McshEngl.verb.develop!=Enttevlg!~verbEnglA1,
+    <br>* McshEngl.develop!=Enttevlg!~verbEnglA1,
     <br>====== lagoSinagu:
-    <br>* rio-evolo-a-o!=entt_evlg,
+    <br>* rio-evolo-a-o!=Enttevlg,
     <br>====== lagoChinese:
-    <br>* McshZhon.fāzhǎn-发展!=entt_evlg,
-    <br>* McshZhon.发展-fāzhǎn!=entt_evlg,
+    <br>* McshZhon.fāzhǎn-发展!=Enttevlg,
+    <br>* McshZhon.发展-fāzhǎn!=Enttevlg,
     <br>====== lagoGreek:
-    <br>* McshElln.εξέλιξη-οντότητας!η!=entt_evlg,
+    <br>* McshElln.εξέλιξη-οντότητας!η!=Enttevlg,
     <br>======
     <br>"· 'evolution' noun and verb in world languages:
     <br>Below is a consolidated, **business-style linguistic reference** showing how the concept of **“evolution”** is expressed as a **noun** and **verb** across major world languages. For languages where there is *no inherent verb* meaning “to evolve,” I provide the standard verbal constructions.
@@ -990,7 +999,7 @@
     <a class="clsHide" href="#idEntevgnam"></a></p>
 
   <section id="idEntevgsmrd">
-  <h2 id="idEntevgsmrdH2">summarized-global-history
+  <h2 id="idEntevgsmrdH2">summarized-global-history of Enttevlg
     <a class="clsHide" href="#idEntevgsmrdH2"></a></h2>
   <p id="idEntevgsmrddsn">description::
     <br>× Mcsh-creation: {2026-04-23}
@@ -1230,7 +1239,7 @@
   </section>
 
   <section id="idEntprnt">
-  <h2 id="idEntprntH2">parent of entity
+  <h2 id="idEntprntH2">parent of Enttevlg
     <a class="clsHide" href="#idEntprntH2"></a></h2>
   <p id="idEntprntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1250,7 +1259,7 @@
   </section>
 
   <section id="idEntchld">
-  <h2 id="idEntchldH2">child of entity
+  <h2 id="idEntchldH2">child of Enttevlg
     <a class="clsHide" href="#idEntchldH2"></a></h2>
   <p id="idEntchlddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1270,28 +1279,28 @@
   </section>
 
   <section id="idEnttmspn">
-  <h2 id="idEnttmspnH2">timespan of evoluting
+  <h2 id="idEnttmspnH2">timespan of Enttevlg
     <a class="clsHide" href="#idEnttmspnH2"></a></h2>
   <p id="idEnttmspndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· the-length of time of entity's existance.
     <a class="clsHide" href="#idEnttmspndsn"></a></p>
   <p id="idEnttmspnnam">name::
-    <br>* McshEngl.entt_evlg'timespan,
+    <br>* McshEngl.Enttevlg'timespan,
     <br>* McshEngl.entity'timespan,
     <br>* McshEngl.timespan-of-entity,
     <a class="clsHide" href="#idEnttmspnnam"></a></p>
   </section>
 
   <section id="idEntevgtmpt">
-  <h2 id="idEntevgtmptH2">timepoint|state of evoluting
+  <h2 id="idEntevgtmptH2">timepoint|state of Enttevlg
     <a class="clsHide" href="#idEntevgtmptH2"></a></h2>
   <p id="idEntevgtmptdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· state-of-entity\a\ is its\a\ <a class="clsPreview" href="#idEntstrr">structure</a> AND doings in a-timepoint.
     <a class="clsHide" href="#idEntevgtmptdsn"></a></p>
   <p id="idEntevgtmptnam">name::
-    <br>* McshEngl.entt_evlg'timepoint,
+    <br>* McshEngl.Enttevlg'timepoint,
     <br>* McshEngl.entity'state,
     <br>* McshEngl.evoluting'timepoint,
     <br>* McshEngl.state,
@@ -1306,14 +1315,14 @@
   </section>
 
   <section id="idEntevgtmil">
-  <h2 id="idEntevgtmilH2">timeinterval|stage of evoluting
+  <h2 id="idEntevgtmilH2">timeinterval|stage of Enttevlg
     <a class="clsHide" href="#idEntevgtmilH2"></a></h2>
   <p id="idEntevgtmildsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· <span class="clsColorRed">stage of evoluting of entity</span> is its doings and <a class="clsPreview" href="#idEntstrr">structures</a> in a-timeinterval.
     <a class="clsHide" href="#idEntevgtmildsn"></a></p>
   <p id="idEntevgtmilnam">name::
-    <br>* McshEngl.entt_evlg'timeinterval,
+    <br>* McshEngl.Enttevlg'timeinterval,
     <br>* McshEngl.entity'stage,
     <br>* McshEngl.evoluting'timeinterval,
     <br>* McshEngl.stage-of-evoluting,
@@ -1329,7 +1338,7 @@
     <br>· <a class="clsPreview" href="#idEntevgtmil">the-stages</a> of entity's existance.
     <a class="clsHide" href="#idEntcycledsn"></a></p>
   <p id="idEntcyclenam">name::
-    <br>* McshEngl.entt_evlg'cycle,
+    <br>* McshEngl.Enttevlg'cycle,
     <br>* McshEngl.entity'cycle,
     <br>* McshEngl.existance-cycle-of-entity,
     <br>* McshEngl.life-cycle-of-entity,
@@ -1351,24 +1360,24 @@
     <br>· _sntxEngl: _sntxSubj:[The company] _sntxVerb:{was created} _sntxTime:[25 years ago]. [WordNet]
     <a class="clsHide" href="#idEntevgcrtgdsn"></a></p>
   <p id="idEntevgcrtgnam">name::
-    <br>* McshEngl.birth!⇒dongCreating,
-    <br>* McshEngl.constructing!⇒dongCreating,
-    <br>* McshEngl.verb.create!=dongCreating!~verbEnglB1,
-    <br>* McshEngl.create!=dongCreating!~verbEnglB1,
+    <br>* McshEngl.birth!⇒DongCreating,
+    <br>* McshEngl.constructing!⇒DongCreating,
+    <br>* McshEngl.verb.create!=DongCreating!~verbEnglB1,
+    <br>* McshEngl.create!=DongCreating!~verbEnglB1,
     <br>* McshEngl.creating-doing,
-    <br>* McshEngl.creation!⇒dongCreating,
-    <br>* McshEngl.dongCreating,
-    <br>* McshEngl.entity'creating!⇒dongCreating,
-    <br>* McshEngl.establishing!⇒dongCreating,
-    <br>* McshEngl.founding!⇒dongCreating,
-    <br>* McshEngl.verb.begin!=dongCreating!~verbEnglC,
-    <br>* McshEngl.begin!=dongCreating!~verbEnglC,
-    <br>* McshEngl.staging.creating!⇒dongCreating,
+    <br>* McshEngl.creation!⇒DongCreating,
+    <br>* McshEngl.DongCreating,
+    <br>* McshEngl.entity'creating!⇒DongCreating,
+    <br>* McshEngl.establishing!⇒DongCreating,
+    <br>* McshEngl.founding!⇒DongCreating,
+    <br>* McshEngl.verb.begin!=DongCreating!~verbEnglC,
+    <br>* McshEngl.begin!=DongCreating!~verbEnglC,
+    <br>* McshEngl.staging.creating!⇒DongCreating,
     <br>====== lagoGreek:
-    <br>* McshElln.γέννηση!η!=dongCreating,
-    <br>* McshElln.δημιουργία!η!=dongCreating,
-    <br>* McshElln.ρήμα.δημιουργώ!-ώ-ούμαι!=dongCreating,
-    <br>* McshElln.δημιουργώ!-ώ-ούμαι!~verbElln!=dongCreating,
+    <br>* McshElln.γέννηση!η!=DongCreating,
+    <br>* McshElln.δημιουργία!η!=DongCreating,
+    <br>* McshElln.ρήμα.δημιουργώ!-ώ-ούμαι!=DongCreating,
+    <br>* McshElln.δημιουργώ!-ώ-ούμαι!~verbElln!=DongCreating,
     <a class="clsHide" href="#idEntevgcrtgnam"></a></p>
 
   <section id="idEntevgcrtgarg">
@@ -1396,7 +1405,7 @@
     <br>* McshEngl.creating'output,
     <br>* McshEngl.output-of-creating,
     <br>====== lagoGreek:
-    <br>* McshElln.δημιούργημα!το!=dongCreating'output,
+    <br>* McshElln.δημιούργημα!το!=DongCreating'output,
     <a class="clsHide" href="#idEntevgcrtgotptnam"></a></p>
   </section>
 
@@ -1445,8 +1454,8 @@
     <br>[{2025-12-21 retrieved} https://chatgpt.com/c/6947a244-c780-832b-a3bd-9734504c6c2d]
     <a class="clsHide" href="#idEntevgbldgdsn"></a></p>
   <p id="idEntevgbldgnam">name::
-    <br>* McshEngl.build!~dongCreating,
-    <br>* McshEngl.building!=dongCreating,
+    <br>* McshEngl.build!~DongCreating,
+    <br>* McshEngl.building!=DongCreating,
     <br>* McshEngl.staging.building,
     <a class="clsHide" href="#idEntevgbldgnam"></a></p>
   </section>
@@ -1462,20 +1471,20 @@
     <br>· _sntxZhon: 电影 开始了。 :: _sntxSubj:[Diànyǐng] _sntxVerb:{kāishǐ le}。 != [the-movie] {has started}.
     <a class="clsHide" href="#idEntevgstrtdsn"></a></p>
   <p id="idEntevgstrtnam">name::
-    <br>* McshEngl.dongStarting,
-    <br>* McshEngl.staging.starting!⇒dongStarting,
-    <br>* McshEngl.starting-doing!⇒dongStarting,
-    <br>* McshEngl.starting!⇒dongStarting,
-    <br>* McshEngl.verb.start!=dongStarting!~verbEnglA1,
-    <br>* McshEngl.start!=dongStarting!~verbEnglA1,
+    <br>* McshEngl.DongStarting,
+    <br>* McshEngl.staging.starting!⇒DongStarting,
+    <br>* McshEngl.starting-doing!⇒DongStarting,
+    <br>* McshEngl.starting!⇒DongStarting,
+    <br>* McshEngl.verb.start!=DongStarting!~verbEnglA1,
+    <br>* McshEngl.start!=DongStarting!~verbEnglA1,
     <br>====== lagoChinese:
-    <br>* McshZhon.kāishǐ-开始!=dongStarting,
-    <br>* McshZhon.开始-kāishǐ!=dongStarting,
+    <br>* McshZhon.kāishǐ-开始!=DongStarting,
+    <br>* McshZhon.开始-kāishǐ!=DongStarting,
     <br>====== lagoGreek:
-    <br>* McshElln.αρχίζω!~verbElln!=dongStarting,
-    <br>* McshElln.ρήμα.αρχίζω!=dongStarting,
-    <br>* McshElln.ρήμα.ξεκινώ:-άω-ώ!=dongStarting,
-    <br>* McshElln.ξεκινώ!~verbElln:-άω-ώ!=dongStarting,
+    <br>* McshElln.αρχίζω!~verbElln!=DongStarting,
+    <br>* McshElln.ρήμα.αρχίζω!=DongStarting,
+    <br>* McshElln.ρήμα.ξεκινώ:-άω-ώ!=DongStarting,
+    <br>* McshElln.ξεκινώ!~verbElln:-άω-ώ!=DongStarting,
     <a class="clsHide" href="#idEntevgstrtnam"></a></p>
   </section>
 
@@ -1491,13 +1500,13 @@
     <br>[{2025-12-21 retrieved} GooglDict]
     <a class="clsHide" href="#idEntevgcltgdsn"></a></p>
   <p id="idEntevgcltgnam">name::
-    <br>* McshEngl.complete!~verbEngl!⇒dongCompleting,
-    <br>* McshEngl.completing!⇒dongCompleting,
-    <br>* McshEngl.dongCompleting,
-    <br>* McshEngl.staging.completing!⇒dongCompleting,
+    <br>* McshEngl.complete!~verbEngl!⇒DongCompleting,
+    <br>* McshEngl.completing!⇒DongCompleting,
+    <br>* McshEngl.DongCompleting,
+    <br>* McshEngl.staging.completing!⇒DongCompleting,
     <br>====== lagoGreek:
-    <br>* McshElln.ολοκληρώνω!~verbElln!=dongCompleting,
-    <br>* McshElln.ρήμα.ολοκληρώνω!=dongCompleting,
+    <br>* McshElln.ολοκληρώνω!~verbElln!=DongCompleting,
+    <br>* McshElln.ρήμα.ολοκληρώνω!=DongCompleting,
     <a class="clsHide" href="#idEntevgcltgnam"></a></p>
   </section>
   </section>
@@ -1519,17 +1528,17 @@
     <br>_sntxSubj: _sntxSubj=actor:[The President] _sntxVerb:{dissolved} _sntxObj1=acton:[the parliament] [(and) called for new elections]. [WordNet]
     <a class="clsHide" href="#idEntevgdsvgdsn"></a></p>
   <p id="idEntevgdsvgnam">name::
-    <br>* McshEngl.dissolution!⇒dongDissolving,
-    <br>* McshEngl.verb.dissolve!=dongDissolving!~verbEnglB1,
-    <br>* McshEngl.dissolve!=dongDissolving!~verbEnglB1,
+    <br>* McshEngl.dissolution!⇒DongDissolving,
+    <br>* McshEngl.verb.dissolve!=DongDissolving!~verbEnglB1,
+    <br>* McshEngl.dissolve!=DongDissolving!~verbEnglB1,
     <br>* McshEngl.dissolving-doing,
-    <br>* McshEngl.dongDissolving,
-    <br>* McshEngl.staging.ending!⇒dongDissolving,
-    <br>* McshEngl.ending!⇒dongDissolving,
-    <br>* McshEngl.entity'dongDissolving!⇒dongDissolving,
-    <br>* McshEngl.staging.dongDissolving!⇒dongDissolving,
+    <br>* McshEngl.DongDissolving,
+    <br>* McshEngl.staging.ending!⇒DongDissolving,
+    <br>* McshEngl.ending!⇒DongDissolving,
+    <br>* McshEngl.entity'DongDissolving!⇒DongDissolving,
+    <br>* McshEngl.staging.DongDissolving!⇒DongDissolving,
     <br>====== lagoGreek:
-    <br>* McshElln.διάλυση!η!=dongDissolving,
+    <br>* McshElln.διάλυση!η!=DongDissolving,
     <a class="clsHide" href="#idEntevgdsvgnam"></a></p>
 
   <section id="idEntevgdsvgFnsh">
@@ -1543,16 +1552,16 @@
     <br>· _sntxZhon: 我 今天 要 写 完。 :: _sntxSubj:[Wǒ] _sntxTime:[jīntiān] _sntxVerb:{yào} _sntxObj1:[{xiě} {wán}]. != I need to finish writing it today.
     <a class="clsHide" href="#idEntevgdsvgFnshdsn"></a></p>
   <p id="idEntevgdsvgFnshnam">name::
-    <br>* McshEngl.dongFinishing,
-    <br>* McshEngl.finish!=dongFinishing!~verbEnglA3,
-    <br>* McshEngl.staging.finishing!⇒dongFinishing,
-    <br>* McshEngl.terminate!=dongFinishing!~verbEngl,
-    <br>* McshEngl.verb.finish!=dongFinishing!~verbEnglA3,
-    <br>* McshEngl.verb.terminate!=dongFinishing,
+    <br>* McshEngl.DongFinishing,
+    <br>* McshEngl.finish!=DongFinishing!~verbEnglA3,
+    <br>* McshEngl.staging.finishing!⇒DongFinishing,
+    <br>* McshEngl.terminate!=DongFinishing!~verbEngl,
+    <br>* McshEngl.verb.finish!=DongFinishing!~verbEnglA3,
+    <br>* McshEngl.verb.terminate!=DongFinishing,
     <br>====== lagoChinese:
-    <br>* McshZhon.dòngcí.wán-完!=dongFinishing,
-    <br>* McshZhon.wán-完!~verbZhon!=dongFinishing,
-    <br>* McshZhon.完-wán!~verbZhon!=dongFinishing,
+    <br>* McshZhon.dòngcí.wán-完!=DongFinishing,
+    <br>* McshZhon.wán-完!~verbZhon!=DongFinishing,
+    <br>* McshZhon.完-wán!~verbZhon!=DongFinishing,
     <a class="clsHide" href="#idEntevgdsvgFnshnam"></a></p>
   </section>
   </section>
@@ -1605,23 +1614,23 @@
     <br>· _sntxEngl: _sntxSubj=functor:[She] _sntxVerb:{stopped} _sntxSpace:[(in front of) a store window].
     <a class="clsHide" href="#idEntevgstpgdsn"></a></p>
   <p id="idEntevgstpgnam">name::
-    <br>* McshEngl.dongStopping,
-    <br>* McshEngl.staging.stopping!⇒dongStopping,
-    <br>* McshEngl.verb.halt!=dongStopping!~verbEnglA1,
-    <br>* McshEngl.verb.pause!=dongStopping!~verbEnglB1,
-    <br>* McshEngl.pause!=dongStopping!~verbEnglB1,
-    <br>* McshEngl.verb.quit!=dongStopping!~verbEnglC,
-    <br>* McshEngl.quit!=dongStopping!~verbEnglC,
-    <br>* McshEngl.verb.stop!=dongStopping!~verbEnglA2,
-    <br>* McshEngl.stop!=dongStopping!~verbEnglA2,
+    <br>* McshEngl.DongStopping,
+    <br>* McshEngl.staging.stopping!⇒DongStopping,
+    <br>* McshEngl.verb.halt!=DongStopping!~verbEnglA1,
+    <br>* McshEngl.verb.pause!=DongStopping!~verbEnglB1,
+    <br>* McshEngl.pause!=DongStopping!~verbEnglB1,
+    <br>* McshEngl.verb.quit!=DongStopping!~verbEnglC,
+    <br>* McshEngl.quit!=DongStopping!~verbEnglC,
+    <br>* McshEngl.verb.stop!=DongStopping!~verbEnglA2,
+    <br>* McshEngl.stop!=DongStopping!~verbEnglA2,
     <br>* McshEngl.stopping-doing,
     <br>====== lagoChinese:
-    <br>* McshZhon.tíng-停!=dongStopping,
-    <br>* McshZhon.停-tíng!=dongStopping,
+    <br>* McshZhon.tíng-停!=DongStopping,
+    <br>* McshZhon.停-tíng!=DongStopping,
     <br>====== lagoGreek:
-    <br>* McshElln.διακόπτω!-ω-ομαι!~verbElln!=dongStopping,
-    <br>* McshElln.ρήμα.σταματώ!-ώ-άω-ιέμαι!=dongStopping,
-    <br>* McshElln.σταματώ!-ώ-άω-ιέμαι!~verbElln!=dongStopping,
+    <br>* McshElln.διακόπτω!-ω-ομαι!~verbElln!=DongStopping,
+    <br>* McshElln.ρήμα.σταματώ!-ώ-άω-ιέμαι!=DongStopping,
+    <br>* McshElln.σταματώ!-ώ-άω-ιέμαι!~verbElln!=DongStopping,
     <a class="clsHide" href="#idEntevgstpgnam"></a></p>
   </section>
 
@@ -1639,13 +1648,13 @@
     <br>· _sntxEngl: _sntxSubj=actor:[We] _sntxVerb:{continued} _sntxObj1=acton:[our research] _sntxOther:[into the cause of the illness].
     <a class="clsHide" href="#idEntevgcntgdsn"></a></p>
   <p id="idEntevgcntgnam">name::
-    <br>* McshEngl.continuing!⇒dongContinuing,
-    <br>* McshEngl.dongContinuing,
-    <br>* McshEngl.verb.continue!=dongContinuing!~verbEnglB1,
-    <br>* McshEngl.continue!=dongContinuing!~verbEnglB1,
+    <br>* McshEngl.continuing!⇒DongContinuing,
+    <br>* McshEngl.DongContinuing,
+    <br>* McshEngl.verb.continue!=DongContinuing!~verbEnglB1,
+    <br>* McshEngl.continue!=DongContinuing!~verbEnglB1,
     <br>* McshEngl.staging.continuing!⇒continuing,
     <br>====== lagoGreek:
-    <br>* McshElln.συνεχίζω!-ω-ομαι!~verbElln!=dongContinuing,
+    <br>* McshElln.συνεχίζω!-ω-ομαι!~verbElln!=DongContinuing,
     <a class="clsHide" href="#idEntevgcntgnam"></a></p>
   </section>
 
@@ -1660,18 +1669,18 @@
     <br>· _sntxZhon: 我等了很久。 :: _sntxSubj:[Wǒ] _sntxVerb:{děng le} _sntxTime:[hěn jiǔ]. != I waited for a long time.
     <a class="clsHide" href="#idEntevgwtngdsn"></a></p>
   <p id="idEntevgwtngnam">name::
-    <br>* McshEngl.fctgWaiting,
-    <br>* McshEngl.staging.waiting!⇒fctgWaiting,
-    <br>* McshEngl.verb.wait!=fctgWaiting!~verbEnglA1,
-    <br>* McshEngl.wait!=fctgWaiting!~verbEnglA1,
+    <br>* McshEngl.FctgWaiting,
+    <br>* McshEngl.staging.waiting!⇒FctgWaiting,
+    <br>* McshEngl.verb.wait!=FctgWaiting!~verbEnglA1,
+    <br>* McshEngl.wait!=FctgWaiting!~verbEnglA1,
     <br>* McshEngl.wait.lagoElln!=περιμένω,
     <br>* McshEngl.wait.lagoZhon!=děng-等,
     <br>====== lagoChinese:
-    <br>* McshZhon.děng-等!=fctgWaiting,
-    <br>* McshZhon.等-děng!=fctgWaiting,
+    <br>* McshZhon.děng-等!=FctgWaiting,
+    <br>* McshZhon.等-děng!=FctgWaiting,
     <br>====== lagoGreek:
-    <br>* McshElln.ρήμα.περιμένω!=fctgWaiting,
-    <br>* McshElln.περιμένω!~verbElln!=fctgWaiting,
+    <br>* McshElln.ρήμα.περιμένω!=FctgWaiting,
+    <br>* McshElln.περιμένω!~verbElln!=FctgWaiting,
     <a class="clsHide" href="#idEntevgwtngnam"></a></p>
   </section>
 
@@ -1692,16 +1701,16 @@
     <br>· _sntxEngl: _sntxSubj=actor:[E-mail] _sntxVerb:{revolutionized} _sntxObj1=acton:[communication] _sntxSpace:[in academe]. [WordNet]
     <a class="clsHide" href="#idEntevgrvtgdsn"></a></p>
   <p id="idEntevgrvtgnam">name::
-    <br>* McshEngl.dongRevolutionizing,
-    <br>* McshEngl.staging.revolutionizing!⇒dongRevolutionizing,
-    <br>* McshEngl.revolution!⇒dongRevolutionizing,
-    <br>* McshEngl.verb.revolutionize!=dongRevolutionizing!~verbEnglB1,
-    <br>* McshEngl.revolutionize!=dongRevolutionizing!~verbEnglB1,
+    <br>* McshEngl.DongRevolutionizing,
+    <br>* McshEngl.staging.revolutionizing!⇒DongRevolutionizing,
+    <br>* McshEngl.revolution!⇒DongRevolutionizing,
+    <br>* McshEngl.verb.revolutionize!=DongRevolutionizing!~verbEnglB1,
+    <br>* McshEngl.revolutionize!=DongRevolutionizing!~verbEnglB1,
     <br>* McshEngl.revolutionizing-doing,
     <br>====== lagoGreek:
-    <br>* McshElln.επανάσταση!=dongRevolutionizing,
-    <br>* McshElln.ρήμα.φέρνω-επανάσταση!=dongRevolutionizing,
-    <br>* McshElln.φέρνω-επανάσταση!~verbElln!=dongRevolutionizing,
+    <br>* McshElln.επανάσταση!=DongRevolutionizing,
+    <br>* McshElln.ρήμα.φέρνω-επανάσταση!=DongRevolutionizing,
+    <br>* McshElln.φέρνω-επανάσταση!~verbElln!=DongRevolutionizing,
     <a class="clsHide" href="#idEntevgrvtgnam"></a></p>
   <p id="idEntevgrvtgstr">specific-tree::
     <br>* <a class="clsPreview" href="../dirTch/McshTch000002.last.html#idTchatt006">industrial-revolution</a>,
@@ -1727,12 +1736,12 @@
     <br>· _sntxEngl: _sntxSubj=functor:[Modern ecology] _sntxVerb:{transformed} _sntxObj1:[into a more rigorous science] _sntxTime:[in the late 19th century].
     <a class="clsHide" href="#idEntevgtrfgdsn"></a></p>
   <p id="idEntevgtrfgnam">name::
-    <br>* McshEngl.staging.transforming!⇒dongTransforming,
-    <br>* McshEngl.verb.transform!=dongTransforming!~verbEnglA1,
-    <br>* McshEngl.transform!=dongTransforming!~verbEnglA1,
-    <br>* McshEngl.dongTransforming,
+    <br>* McshEngl.staging.transforming!⇒DongTransforming,
+    <br>* McshEngl.verb.transform!=DongTransforming!~verbEnglA1,
+    <br>* McshEngl.transform!=DongTransforming!~verbEnglA1,
+    <br>* McshEngl.DongTransforming,
     <br>====== lagoGreek:
-    <br>* McshElln.μετασχηματίζω!-ω-ομαι!=dongTransforming,
+    <br>* McshElln.μετασχηματίζω!-ω-ομαι!=DongTransforming,
     <a class="clsHide" href="#idEntevgtrfgnam"></a></p>
   </section>
 
@@ -1787,27 +1796,36 @@
     <br>* McshEngl.staging.future,
     <a class="clsHide" href="#idEntevgtmilFutrnam"></a></p>
   </section>
+  </section>
 
-  <section id="idEntevgstr">
-  <h2 id="idEntevgstrH2">evoluting.SPECIFIC
-    <a class="clsHide" href="#idEntevgstrH2"></a></h2>
-  <p id="idEntevgstrdsn">description::
+  <section id="idEntevggstr">
+  <h1 id="idEntevggstrH1">GENERIC-SPECIFIC-TREE of Enttevlg
+    <a class="clsHide" href="#idEntevggstrH1"></a></h1>
+  <p id="idEntevggstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEntevggstrdsn"></a></p>
+  <p id="idEntevggstrnam">name::
+    <br>* McshEngl.Enttevlg'generic-specific-tree,
+    <br>* McshEngl.Enttevlg'specific-generic-tree,
+    <a class="clsHide" href="#idEntevggstrnam"></a></p>
+  <p id="idEntevggtr">generic-tree::
+    <br>* McshEngl.Enttevlg-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEntevggtr"></a></p>
+  <p id="idEntevgstr">specific-tree::
+    <br>* McshEngl.Enttevlg.specific,
+    <br>* McshEngl.Enttevlg-Sptr,
+    <br>===
     <br>* concept-evoluting,
     <br>* referent-evoluting,
     <br>* phylo-evoluting,
     <br>* onto-evoluting,
-    <a class="clsHide" href="#idEntevgstrdsn"></a></p>
-  <p id="idEntevgstrnam">name::
-    <br>* McshEngl.entt_evlg.specific,
-    <br>* McshEngl.entt_evlg-Sptr,
-    <br>* McshEngl.evoluting.specific,
-    <br>* McshEngl.evoluting-Sptr,
-    <a class="clsHide" href="#idEntevgstrnam"></a></p>
+    <a class="clsHide" href="#idEntevgstr"></a></p>
   </section>
 
   <section id="idEntevgCpt">
-  <h2 id="idEntevgCptH2">evoluting.concept
+  <h2 id="idEntevgCptH2">Entevlg.concept
     <a class="clsHide" href="#idEntevgCptH2"></a></h2>
   <p id="idEntevgCptdsn">description::
     <br>× Mcsh-creation: {2019-09-06}
@@ -1815,7 +1833,7 @@
     <br>· for example, the-evolution of linguistics and language obviously are different.
     <a class="clsHide" href="#idEntevgCptdsn"></a></p>
   <p id="idEntevgCptnam">name::
-    <br>* McshEngl.entt_evlg.concept,
+    <br>* McshEngl.Enttevlg.concept,
     <br>* McshEngl.concept-evoluting,
     <br>* McshEngl.evoluting.concept,
     <a class="clsHide" href="#idEntevgCptnam"></a></p>
@@ -1829,7 +1847,7 @@
     <a class="clsHide" href="#idSpnevg20190919"></a></p>
 
   <section id="idEntevgRft">
-  <h2 id="idEntevgRftH2">evoluting.referent
+  <h2 id="idEntevgRftH2">Entevlg.referent
     <a class="clsHide" href="#idEntevgRftH2"></a></h2>
   <p id="idEntevgRftdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1837,42 +1855,42 @@
     <br>· for example, the-evolution of linguistics and language obviously are different.
     <a class="clsHide" href="#idEntevgRftdsn"></a></p>
   <p id="idEntevgRftnam">name::
-    <br>* McshEngl.entt_evlg.referent,
+    <br>* McshEngl.Enttevlg.referent,
     <br>* McshEngl.evoluting.referent,
     <br>* McshEngl.referent-evoluting,
     <a class="clsHide" href="#idEntevgRftnam"></a></p>
   </section>
 
   <section id="idEntevgPhl">
-  <h2 id="idEntevgPhlH2">evoluting.phylo
+  <h2 id="idEntevgPhlH2">Entevlg.phylo
     <a class="clsHide" href="#idEntevgPhlH2"></a></h2>
   <p id="idEntevgPhldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· phylo-evoluting is the-evoluting of a-generic-entity.
     <a class="clsHide" href="#idEntevgPhldsn"></a></p>
   <p id="idEntevgPhlnam">name::
-    <br>* McshEngl.entt_evlg.phylo,
+    <br>* McshEngl.Enttevlg.phylo,
     <br>* McshEngl.evoluting.phylo,
     <br>* McshEngl.phylo-evoluting,
     <a class="clsHide" href="#idEntevgPhlnam"></a></p>
   </section>
 
   <section id="idEntevgOnt">
-  <h2 id="idEntevgOntH2">evoluting.onto
+  <h2 id="idEntevgOntH2">Entevlg.onto
     <a class="clsHide" href="#idEntevgOntH2"></a></h2>
   <p id="idEntevgOntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· onto-evoluting is the-evoluting of an-individual-entity.
     <a class="clsHide" href="#idEntevgOntdsn"></a></p>
   <p id="idEntevgOntnam">name::
-    <br>* McshEngl.entt_evlg.onto,
+    <br>* McshEngl.Enttevlg.onto,
     <br>* McshEngl.evoluting.onto,
     <br>* McshEngl.onto-evoluting,
     <a class="clsHide" href="#idEntevgOntnam"></a></p>
   </section>
 
   <section id="idEntevgEraage">
-  <h2 id="idEntevgEraageH2">evoluting.era-vs-age
+  <h2 id="idEntevgEraageH2">Entevlg.era-vs-age
     <a class="clsHide" href="#idEntevgEraageH2"></a></h2>
   <p id="idEntevgEraagedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1902,7 +1920,7 @@
     <br>* McshEngl.{2001..3000},
     <br>* McshEngl.{iK1.3000!=2001..3000},
     <br>* McshEngl.03rd-millennium!={2001..3000},
-    <br>* McshEngl.entt_evlg'i1000.3000!={2001..3000},
+    <br>* McshEngl.Enttevlg'i1000.3000!={2001..3000},
     <br>* McshEngl.millennium.3000!={2001..3000},
     <a class="clsHide" href="#idEntevgIk13000nam"></a></p>
 
@@ -1927,8 +1945,8 @@
     <br>* McshEngl.{2001..2100},
     <br>* McshEngl.{i100.2100!=2001..2100},
     <br>* McshEngl.21st-century!={2001..2100},
-    <br>* McshEngl.entt_evlg'21st-century!={2001..2100},
-    <br>* McshEngl.entt_evlg'i100.2100!={2001..2100},
+    <br>* McshEngl.Enttevlg'21st-century!={2001..2100},
+    <br>* McshEngl.Enttevlg'i100.2100!={2001..2100},
     <br>* McshEngl.century.2100!={2001..2100},
     <a class="clsHide" href="#idEntevgC2100nam"></a></p>
 
@@ -1942,7 +1960,7 @@
   <p id="idEntevgC32100nam">name::
     <br>* McshEngl.{2071..2100},
     <br>* McshEngl.{i33.2100!=2071..2100},
-    <br>* McshEngl.entt_evlg'i33.2100!={2071..2100},
+    <br>* McshEngl.Enttevlg'i33.2100!={2071..2100},
     <br>* McshEngl.century1/3.2100!={2071..2100},
     <a class="clsHide" href="#idEntevgC32100nam"></a></p>
   </section>
@@ -1957,7 +1975,7 @@
   <p id="idEntevgC32040nam">name::
     <br>* McshEngl.{2031..2070},
     <br>* McshEngl.{i33.2070!=2031..2070},
-    <br>* McshEngl.entt_evlg'i33.2070!={2031..2070},
+    <br>* McshEngl.Enttevlg'i33.2070!={2031..2070},
     <br>* McshEngl.century1/3.2070!={2031..2070},
     <a class="clsHide" href="#idEntevgC32040nam"></a></p>
 
@@ -1973,7 +1991,7 @@
     <br>* McshEngl.{2031..2040},
     <br>* McshEngl.{i10.2040!=2031..2040},
     <br>* McshEngl.4th-decade-of-21st-century!={2031..2040},
-    <br>* McshEngl.entt_evlg'i10.2040!={2031..2040},
+    <br>* McshEngl.Enttevlg'i10.2040!={2031..2040},
     <br>* McshEngl.decade.2040!={2031..2040},
     <a class="clsHide" href="#idEntevgD2040nam"></a></p>
   </section>
@@ -2059,7 +2077,7 @@
     <br>* McshEngl.{2021..2030},
     <br>* McshEngl.{i10.2030!=2021..2030},
     <br>* McshEngl.3rd-decade-of-21st-century!={2021..2030},
-    <br>* McshEngl.entt_evlg'i10.2030!={2021..2030},
+    <br>* McshEngl.Enttevlg'i10.2030!={2021..2030},
     <br>* McshEngl.decade.2030!={2021..2030},
     <a class="clsHide" href="#idEntevgD2030nam"></a></p>
   </section>
@@ -2129,7 +2147,7 @@
     <br>* McshEngl.{2011..2020},
     <br>* McshEngl.{i10.2020!=2011..2020},
     <br>* McshEngl.2nd-decade-of-21st-century!={2011..2020},
-    <br>* McshEngl.entt_evlg'i10.2020!={2011..2020},
+    <br>* McshEngl.Enttevlg'i10.2020!={2011..2020},
     <br>* McshEngl.decade.2020!={2011..2020},
     <a class="clsHide" href="#idEntevgD2020nam"></a></p>
   </section>
@@ -2185,7 +2203,7 @@
     <br>* McshEngl.{i10.2010!=2001..2010},
     <br>* McshEngl.1st-decade-of-21st-century!={2001..2010},
     <br>* McshEngl.2000s!={2001..2010},
-    <br>* McshEngl.entt_evlg'i10.2010!={2001..2010},
+    <br>* McshEngl.Enttevlg'i10.2010!={2001..2010},
     <br>* McshEngl.decade.2010!={2001..2010},
     <a class="clsHide" href="#idEntevgD2010nam"></a></p>
   </section>
@@ -2286,7 +2304,7 @@
     <br>* McshEngl.{iK1.K1x002!=1001..2000},
     <br>* McshEngl.Bp01st-millennium,
     <br>* McshEngl.02nd-millennium!={1001..2000},
-    <br>* McshEngl.entt_evlg'i1000.2000!={1001..2000},
+    <br>* McshEngl.Enttevlg'i1000.2000!={1001..2000},
     <br>* McshEngl.millennium.2000!={1001..2000},
     <a class="clsHide" href="#idEntevgIk12000nam"></a></p>
 
@@ -2353,8 +2371,8 @@
     <br>* McshEngl.{1901..2000},
     <br>* McshEngl.{i100.2000!=1901..2000},
     <br>* McshEngl.20th-century!={1901..2000},
-    <br>* McshEngl.entt_evlg'20th-century!={1901..2000},
-    <br>* McshEngl.entt_evlg'i100.2000!={1901..2000},
+    <br>* McshEngl.Enttevlg'20th-century!={1901..2000},
+    <br>* McshEngl.Enttevlg'i100.2000!={1901..2000},
     <br>* McshEngl.century.2000!={1901..2000},
     <a class="clsHide" href="#idEntevgC2000nam"></a></p>
 
@@ -2371,7 +2389,7 @@
   <p id="idEntevgC32000nam">name::
     <br>* McshEngl.{1971..2000},
     <br>* McshEngl.{i33.2000!=1971..2000},
-    <br>* McshEngl.entt_evlg'i33.2000!={1971..2000},
+    <br>* McshEngl.Enttevlg'i33.2000!={1971..2000},
     <br>* McshEngl.century1/3.2000!={1971..2000},
     <a class="clsHide" href="#idEntevgC32000nam"></a></p>
 
@@ -2400,7 +2418,7 @@
     <br>* McshEngl.{i10.2000!=1991..2000},
     <br>* McshEngl.1990s!={1991..2000},
     <br>* McshEngl.10th-decade-of-20th-century!={1991..2000},
-    <br>* McshEngl.entt_evlg'i10.2000!={1991..2000},
+    <br>* McshEngl.Enttevlg'i10.2000!={1991..2000},
     <br>* McshEngl.decade.2000!={1991..2000},
     <a class="clsHide" href="#idEntevgD2000nam"></a></p>
   </section>
@@ -2432,7 +2450,7 @@
     <br>* McshEngl.{i10.1990!=1981..1990},
     <br>* McshEngl.1980s!={1981..1990},
     <br>* McshEngl.9th-decade-of-20th-century!={1981..1990},
-    <br>* McshEngl.entt_evlg'i10.1990!={1981..1990},
+    <br>* McshEngl.Enttevlg'i10.1990!={1981..1990},
     <br>* McshEngl.decade.1990!={1981..1990},
     <a class="clsHide" href="#idEntevgD1990nam"></a></p>
   </section>
@@ -2468,7 +2486,7 @@
     <br>* McshEngl.{1971..1980},
     <br>* McshEngl.{i10.1980!=1971..1980},
     <br>* McshEngl.8th-decade-of-20th-century!={1971..1980},
-    <br>* McshEngl.entt_evlg'i10.1980!={1971..1980},
+    <br>* McshEngl.Enttevlg'i10.1980!={1971..1980},
     <br>* McshEngl.decade.1980!={1971..1980},
     <a class="clsHide" href="#idEntevgD1980nam"></a></p>
   </section>
@@ -2492,7 +2510,7 @@
   <p id="idEntevgC31970nam">name::
     <br>* McshEngl.{1931..1970},
     <br>* McshEngl.{i33.1970!=1931..1970},
-    <br>* McshEngl.entt_evlg'i33.1970!={1931..1970},
+    <br>* McshEngl.Enttevlg'i33.1970!={1931..1970},
     <br>* McshEngl.century1/3.1970!={1931..1970},
     <a class="clsHide" href="#idEntevgC31970nam"></a></p>
 
@@ -2532,7 +2550,7 @@
     <br>* McshEngl.{1961..1970},
     <br>* McshEngl.{i10.1970!=1961..1970},
     <br>* McshEngl.7th-decade-of-20th-century!={1961..1970},
-    <br>* McshEngl.entt_evlg'i10.1970!={1961..1970},
+    <br>* McshEngl.Enttevlg'i10.1970!={1961..1970},
     <br>* McshEngl.decade.1970!={1961..1970},
     <a class="clsHide" href="#idEntevgD1970nam"></a></p>
   </section>
@@ -2556,7 +2574,7 @@
     <br>* McshEngl.{1951..1960},
     <br>* McshEngl.{i10.1960!=1951..1960},
     <br>* McshEngl.6th-decade-of-20th-century!={1951..1960},
-    <br>* McshEngl.entt_evlg'i10.1960!={1951..1960},
+    <br>* McshEngl.Enttevlg'i10.1960!={1951..1960},
     <br>* McshEngl.decade.1960!={1951..1960},
     <a class="clsHide" href="#idEntevgD1960nam"></a></p>
 
@@ -2586,7 +2604,7 @@
     <br>* McshEngl.{1941..1950},
     <br>* McshEngl.{i10.1950!=1941..1950},
     <br>* McshEngl.5th-decade-of-20th-century!={1941..1950},
-    <br>* McshEngl.entt_evlg'i10.1950!={1941..1950},
+    <br>* McshEngl.Enttevlg'i10.1950!={1941..1950},
     <br>* McshEngl.decade.1950!={1941..1950},
     <a class="clsHide" href="#idEntevgD1950nam"></a></p>
   </section>
@@ -2637,7 +2655,7 @@
     <br>* McshEngl.{1931..1940},
     <br>* McshEngl.{i10.1940!=1931..1940},
     <br>* McshEngl.4th-decade-of-20th-century!={1931..1940},
-    <br>* McshEngl.entt_evlg'i10.1940!={1931..1940},
+    <br>* McshEngl.Enttevlg'i10.1940!={1931..1940},
     <br>* McshEngl.decade.1940!={1931..1940},
     <a class="clsHide" href="#idEntevgD1940nam"></a></p>
   </section>
@@ -2660,7 +2678,7 @@
   <p id="idEntevgC31930nam">name::
     <br>* McshEngl.{1901..1930},
     <br>* McshEngl.{i33.1930!=1901..1930},
-    <br>* McshEngl.entt_evlg'i33.1930!={1901..1930},
+    <br>* McshEngl.Enttevlg'i33.1930!={1901..1930},
     <br>* McshEngl.century1/3.1930!={1901..1930},
     <a class="clsHide" href="#idEntevgC31930nam"></a></p>
 
@@ -2709,7 +2727,7 @@
     <br>* McshEngl.{1921..1930},
     <br>* McshEngl.{i10.1930!=1921..1930},
     <br>* McshEngl.3rd-decade-of-20th-century!={1921..1930},
-    <br>* McshEngl.entt_evlg'i10.1930!={1921..1930},
+    <br>* McshEngl.Enttevlg'i10.1930!={1921..1930},
     <br>* McshEngl.decade.1930!={1921..1930},
     <a class="clsHide" href="#idEntevgD1930nam"></a></p>
   </section>
@@ -2730,7 +2748,7 @@
     <br>* McshEngl.{1911..1920},
     <br>* McshEngl.{i10.1920!=1911..1920},
     <br>* McshEngl.2nd-decade-of-20th-century!={1911..1920},
-    <br>* McshEngl.entt_evlg'i10.1920!={1911..1920},
+    <br>* McshEngl.Enttevlg'i10.1920!={1911..1920},
     <br>* McshEngl.decade.1920!={1911..1920},
     <a class="clsHide" href="#idEntevgD1920nam"></a></p>
   </section>
@@ -2750,7 +2768,7 @@
     <br>* McshEngl.{1901..1910},
     <br>* McshEngl.{i10.1910!=1901..1910},
     <br>* McshEngl.1st-decade-of-20th-century!={1901..1910},
-    <br>* McshEngl.entt_evlg'i10.1910!={1901..1910},
+    <br>* McshEngl.Enttevlg'i10.1910!={1901..1910},
     <br>* McshEngl.decade.1910!={1901..1910},
     <a class="clsHide" href="#idEntevgD1910nam"></a></p>
   </section>
@@ -2812,8 +2830,8 @@
     <br>* McshEngl.{1801..1900},
     <br>* McshEngl.{i100.1900!=1801..1900},
     <br>* McshEngl.19th-century!={1801..1900},
-    <br>* McshEngl.entt_evlg'19th-century!={1801..1900},
-    <br>* McshEngl.entt_evlg'i100.1900!={1801..1900},
+    <br>* McshEngl.Enttevlg'19th-century!={1801..1900},
+    <br>* McshEngl.Enttevlg'i100.1900!={1801..1900},
     <br>* McshEngl.century.1900!={1801..1900},
     <a class="clsHide" href="#idEntevgC1900nam"></a></p>
 
@@ -2835,7 +2853,7 @@
   <p id="idEntevgC31900nam">name::
     <br>* McshEngl.{1871..1900},
     <br>* McshEngl.{i33.1900!=1871..1900},
-    <br>* McshEngl.entt_evlg'i33.1900!={1871..1900},
+    <br>* McshEngl.Enttevlg'i33.1900!={1871..1900},
     <br>* McshEngl.century1/3.1900!={1871..1900},
     <a class="clsHide" href="#idEntevgC31900nam"></a></p>
   </section>
@@ -2862,7 +2880,7 @@
   <p id="idEntevgC31870nam">name::
     <br>* McshEngl.{1831..1870},
     <br>* McshEngl.{i33.1870!=1831..1870},
-    <br>* McshEngl.entt_evlg'i33.1870!={1831..1870},
+    <br>* McshEngl.Enttevlg'i33.1870!={1831..1870},
     <br>* McshEngl.century1/3.1870!={1831..1870},
     <a class="clsHide" href="#idEntevgC31870nam"></a></p>
 
@@ -2896,7 +2914,7 @@
   <p id="idEntevgC31830nam">name::
     <br>* McshEngl.{1801..1830},
     <br>* McshEngl.{i33.1830!=1801..1830},
-    <br>* McshEngl.entt_evlg'i33.1830!={1801..1830},
+    <br>* McshEngl.Enttevlg'i33.1830!={1801..1830},
     <br>* McshEngl.century1/3.1830!={1801..1830},
     <a class="clsHide" href="#idEntevgC31830nam"></a></p>
   </section>
@@ -2942,8 +2960,8 @@
     <br>* McshEngl.{1701..1800},
     <br>* McshEngl.{i100.1800!=1701..1800},
     <br>* McshEngl.18th-century!={1701..1800},
-    <br>* McshEngl.entt_evlg'18th-century!={1701..1800},
-    <br>* McshEngl.entt_evlg'i100.1800!={1701..1800},
+    <br>* McshEngl.Enttevlg'18th-century!={1701..1800},
+    <br>* McshEngl.Enttevlg'i100.1800!={1701..1800},
     <br>* McshEngl.century.1800!={1701..1800},
     <a class="clsHide" href="#idEntevgC1800nam"></a></p>
   </section>
@@ -2994,8 +3012,8 @@
     <br>* McshEngl.{1601..1700},
     <br>* McshEngl.{i100.1700!=1601..1700},
     <br>* McshEngl.17th-century!={1601..1700},
-    <br>* McshEngl.entt_evlg'17th-century!={1601..1700},
-    <br>* McshEngl.entt_evlg'i100.1700!={1601..1700},
+    <br>* McshEngl.Enttevlg'17th-century!={1601..1700},
+    <br>* McshEngl.Enttevlg'i100.1700!={1601..1700},
     <br>* McshEngl.century.1700!={1601..1700},
     <a class="clsHide" href="#idEntevgC1700nam"></a></p>
   </section>
@@ -3040,8 +3058,8 @@
     <br>* McshEngl.{1501..1600},
     <br>* McshEngl.{i100.1600!=1501..1600},
     <br>* McshEngl.16th-century!={1501..1600},
-    <br>* McshEngl.entt_evlg'16th-century!={1501..1600},
-    <br>* McshEngl.entt_evlg'i100.1600!={1501..1600},
+    <br>* McshEngl.Enttevlg'16th-century!={1501..1600},
+    <br>* McshEngl.Enttevlg'i100.1600!={1501..1600},
     <br>* McshEngl.century.1600!={1501..1600},
     <a class="clsHide" href="#idEntevgC1600nam"></a></p>
   </section>
@@ -3087,8 +3105,8 @@
     <br>* McshEngl.{1401..1500},
     <br>* McshEngl.{i100.1500!=1401..1500},
     <br>* McshEngl.15th-century!={1401..1500},
-    <br>* McshEngl.entt_evlg'15th-century!={1401..1500},
-    <br>* McshEngl.entt_evlg'i100.1500!={1401..1500},
+    <br>* McshEngl.Enttevlg'15th-century!={1401..1500},
+    <br>* McshEngl.Enttevlg'i100.1500!={1401..1500},
     <br>* McshEngl.century.1500!={1401..1500},
     <a class="clsHide" href="#idEntevgC1500nam"></a></p>
   </section>
@@ -3128,8 +3146,8 @@
     <br>* McshEngl.{1301..1400},
     <br>* McshEngl.{i100.1400!=1301..1400},
     <br>* McshEngl.14th-century!={1301..1400},
-    <br>* McshEngl.entt_evlg'14th-century!={1301..1400},
-    <br>* McshEngl.entt_evlg'i100.1400!={1301..1400},
+    <br>* McshEngl.Enttevlg'14th-century!={1301..1400},
+    <br>* McshEngl.Enttevlg'i100.1400!={1301..1400},
     <br>* McshEngl.century.1400!={1301..1400},
     <a class="clsHide" href="#idEntevgC1400nam"></a></p>
   </section>
@@ -3177,8 +3195,8 @@
     <br>* McshEngl.{1201..1300},
     <br>* McshEngl.{i100.1300!=1201..1300},
     <br>* McshEngl.13th-century!={1201..1300},
-    <br>* McshEngl.entt_evlg'13th-century!={1201..1300},
-    <br>* McshEngl.entt_evlg'i100.1300!={1201..1300},
+    <br>* McshEngl.Enttevlg'13th-century!={1201..1300},
+    <br>* McshEngl.Enttevlg'i100.1300!={1201..1300},
     <br>* McshEngl.century.1300!={1201..1300},
     <a class="clsHide" href="#idEntevgC1300nam"></a></p>
   </section>
@@ -3218,8 +3236,8 @@
     <br>* McshEngl.{1101..1200},
     <br>* McshEngl.{i100.1200!=1101..1200},
     <br>* McshEngl.12th-century!={1101..1200},
-    <br>* McshEngl.entt_evlg'12th-century!={1101..1200},
-    <br>* McshEngl.entt_evlg'i100.1200!={1101..1200},
+    <br>* McshEngl.Enttevlg'12th-century!={1101..1200},
+    <br>* McshEngl.Enttevlg'i100.1200!={1101..1200},
     <br>* McshEngl.century.1200!={1101..1200},
     <a class="clsHide" href="#idEntevgC1200nam"></a></p>
   </section>
@@ -3261,8 +3279,8 @@
     <br>* McshEngl.{1001..1100},
     <br>* McshEngl.{i100.1100!=1001..1100},
     <br>* McshEngl.11th-century!={1001..1100},
-    <br>* McshEngl.entt_evlg'11th-century!={1001..1100},
-    <br>* McshEngl.entt_evlg'i100.1100!={1001..1100},
+    <br>* McshEngl.Enttevlg'11th-century!={1001..1100},
+    <br>* McshEngl.Enttevlg'i100.1100!={1001..1100},
     <br>* McshEngl.century.1100!={1001..1100},
     <a class="clsHide" href="#idEntevgC1100nam"></a></p>
   </section>
@@ -3333,7 +3351,7 @@
     <br>* McshEngl.{iK1.K1x001!=0001..1000},
     <br>* McshEngl.Bp02th-millennium,
     <br>* McshEngl.01st-millennium!={0001..1000},
-    <br>* McshEngl.entt_evlg'i1000.1000!={0001..1000},
+    <br>* McshEngl.Enttevlg'i1000.1000!={0001..1000},
     <br>* McshEngl.millennium.1000!={0001..1000},
     <a class="clsHide" href="#idEntevgIk11000nam"></a></p>
 
@@ -3363,8 +3381,8 @@
     <br>* McshEngl.{0901..1000},
     <br>* McshEngl.{i100.1000!=0901..1000},
     <br>* McshEngl.10th-century!={0901..1000},
-    <br>* McshEngl.entt_evlg'10th-century!={0901..1000},
-    <br>* McshEngl.entt_evlg'i100.1000!={0901..1000},
+    <br>* McshEngl.Enttevlg'10th-century!={0901..1000},
+    <br>* McshEngl.Enttevlg'i100.1000!={0901..1000},
     <br>* McshEngl.century.1000!={0901..1000},
     <a class="clsHide" href="#idEntevgC1000nam"></a></p>
   </section>
@@ -3395,8 +3413,8 @@
     <br>* McshEngl.{0801..0900},
     <br>* McshEngl.{i100.0900!=0801..0900},
     <br>* McshEngl.9th-century!={0801..0900},
-    <br>* McshEngl.entt_evlg'09th-century!={0801..0900},
-    <br>* McshEngl.entt_evlg'i100.0900!={0801..0900},
+    <br>* McshEngl.Enttevlg'09th-century!={0801..0900},
+    <br>* McshEngl.Enttevlg'i100.0900!={0801..0900},
     <br>* McshEngl.century.0900!={0801..0900},
     <a class="clsHide" href="#idEntevgC0900nam"></a></p>
   </section>
@@ -3434,8 +3452,8 @@
     <br>* McshEngl.{0701..0800},
     <br>* McshEngl.{i100.0800!=0701..0800},
     <br>* McshEngl.8th-century!={0701..0800},
-    <br>* McshEngl.entt_evlg'08th-century!={0701..0800},
-    <br>* McshEngl.entt_evlg'i100.0800!={0701..0800},
+    <br>* McshEngl.Enttevlg'08th-century!={0701..0800},
+    <br>* McshEngl.Enttevlg'i100.0800!={0701..0800},
     <br>* McshEngl.century.0800!={0701..0800},
     <a class="clsHide" href="#idEntevgC0800nam"></a></p>
   </section>
@@ -3465,8 +3483,8 @@
     <br>* McshEngl.{0601..0700},
     <br>* McshEngl.{i100.0700!=0601..0700},
     <br>* McshEngl.7th-century!={0601..0700},
-    <br>* McshEngl.entt_evlg'07th-century!={0601..0700},
-    <br>* McshEngl.entt_evlg'i100.0700!={0601..0700},
+    <br>* McshEngl.Enttevlg'07th-century!={0601..0700},
+    <br>* McshEngl.Enttevlg'i100.0700!={0601..0700},
     <br>* McshEngl.century.0700!={0601..0700},
     <a class="clsHide" href="#idEntevgC0700nam"></a></p>
   </section>
@@ -3498,8 +3516,8 @@
     <br>* McshEngl.{0501..0600},
     <br>* McshEngl.{i100.0600!=0501..0600},
     <br>* McshEngl.6th-century!={0501..0600},
-    <br>* McshEngl.entt_evlg'06th-century!={0501..0600},
-    <br>* McshEngl.entt_evlg'i100.0600!={0501..0600},
+    <br>* McshEngl.Enttevlg'06th-century!={0501..0600},
+    <br>* McshEngl.Enttevlg'i100.0600!={0501..0600},
     <br>* McshEngl.century.0600!={0501..0600},
     <a class="clsHide" href="#idEntevgC0600nam"></a></p>
   </section>
@@ -3541,8 +3559,8 @@
     <br>* McshEngl.{0401..0500},
     <br>* McshEngl.{i100.0500!=0401..0500},
     <br>* McshEngl.5th-century!={0401..0500},
-    <br>* McshEngl.entt_evlg'05th-century!={0401..0500},
-    <br>* McshEngl.entt_evlg'i100.0500!={0401..0500},
+    <br>* McshEngl.Enttevlg'05th-century!={0401..0500},
+    <br>* McshEngl.Enttevlg'i100.0500!={0401..0500},
     <br>* McshEngl.century.0500!={0401..0500},
     <a class="clsHide" href="#idEntevgC0500nam"></a></p>
   </section>
@@ -3579,8 +3597,8 @@
     <br>* McshEngl.{0301..0400},
     <br>* McshEngl.{i100.0400!=0301..0400},
     <br>* McshEngl.4th-century!={0301..0400},
-    <br>* McshEngl.entt_evlg'04th-century!={0301..0400},
-    <br>* McshEngl.entt_evlg'i100.0400!={0301..0400},
+    <br>* McshEngl.Enttevlg'04th-century!={0301..0400},
+    <br>* McshEngl.Enttevlg'i100.0400!={0301..0400},
     <br>* McshEngl.century.0400!={0301..0400},
     <a class="clsHide" href="#idEntevgC0400nam"></a></p>
   </section>
@@ -3623,8 +3641,8 @@
     <br>* McshEngl.{0201..0300},
     <br>* McshEngl.{i100.0300!=0201..0300},
     <br>* McshEngl.3rd-century!={0201..0300},
-    <br>* McshEngl.entt_evlg'03rd-century!={0201..0300},
-    <br>* McshEngl.entt_evlg'i100.0300!={0201..0300},
+    <br>* McshEngl.Enttevlg'03rd-century!={0201..0300},
+    <br>* McshEngl.Enttevlg'i100.0300!={0201..0300},
     <br>* McshEngl.century.0300!={0201..0300},
     <a class="clsHide" href="#idEntevgC0300nam"></a></p>
   </section>
@@ -3659,8 +3677,8 @@
     <br>* McshEngl.{0101..0200},
     <br>* McshEngl.{i100.0200!=0101..0200},
     <br>* McshEngl.2nd-century!={0101..0200},
-    <br>* McshEngl.entt_evlg'02nd-century!={0101..0200},
-    <br>* McshEngl.entt_evlg'i100.0200!={0101..0200},
+    <br>* McshEngl.Enttevlg'02nd-century!={0101..0200},
+    <br>* McshEngl.Enttevlg'i100.0200!={0101..0200},
     <br>* McshEngl.century.0200!={0101..0200},
     <a class="clsHide" href="#idEntevgC0200nam"></a></p>
   </section>
@@ -3719,8 +3737,8 @@
     <br>* McshEngl.{0001..0100},
     <br>* McshEngl.{i100.0100!=0001..0100},
     <br>* McshEngl.1st-century!={0001..0100},
-    <br>* McshEngl.entt_evlg'01st-century!={0001..0100},
-    <br>* McshEngl.entt_evlg'i100.0100!={0001..0100},
+    <br>* McshEngl.Enttevlg'01st-century!={0001..0100},
+    <br>* McshEngl.Enttevlg'i100.0100!={0001..0100},
     <br>* McshEngl.century.0100!={0001..0100},
     <a class="clsHide" href="#idEntevgC0100nam"></a></p>
   </section>
@@ -3770,7 +3788,7 @@
     <br>* McshEngl.{iK1.BceK1x001!=Bce1000..Bce0001},
     <br>* McshEngl.01st-millennium-Bce!={Bce1000..Bce0001},
     <br>* McshEngl.Bp03rd-millennium!={Bce1000..Bce0001},
-    <br>* McshEngl.entt_evlg'i1000.Bce1000!={Bce1000..Bce0001},
+    <br>* McshEngl.Enttevlg'i1000.Bce1000!={Bce1000..Bce0001},
     <br>* McshEngl.millennium.Bce1000!={Bce1000..Bce0001},
     <a class="clsHide" href="#idEntevgIk1Bce1000nam"></a></p>
 
@@ -3802,8 +3820,8 @@
     <br>* McshEngl.{Bce0100i100!=Bce0100..Bce0001},
     <br>* McshEngl.1st-century-Bce!={Bce0100..Bce0001},
     <br>* McshEngl.Bce1st-century!={Bce0100..Bce0001},
-    <br>* McshEngl.entt_evlg'Bce01st-century!={Bce0100..Bce0001},
-    <br>* McshEngl.entt_evlg'i100.Bce0100!={Bce0100..Bce0001},
+    <br>* McshEngl.Enttevlg'Bce01st-century!={Bce0100..Bce0001},
+    <br>* McshEngl.Enttevlg'i100.Bce0100!={Bce0100..Bce0001},
     <br>* McshEngl.century.Bce0100!={Bce0100..Bce0001},
     <a class="clsHide" href="#idEntevgCBce0100nam"></a></p>
   </section>
@@ -3837,8 +3855,8 @@
     <br>* McshEngl.{Bce0200i100!=Bce0200..Bce0101},
     <br>* McshEngl.2nd-century-Bce!={Bce0200..Bce0101},
     <br>* McshEngl.Bce2nd-century!={Bce0200..Bce0101},
-    <br>* McshEngl.entt_evlg'Bce02nd-century!={Bce0200..Bce0101},
-    <br>* McshEngl.entt_evlg'i100.Bce0200!={Bce0200..Bce0101},
+    <br>* McshEngl.Enttevlg'Bce02nd-century!={Bce0200..Bce0101},
+    <br>* McshEngl.Enttevlg'i100.Bce0200!={Bce0200..Bce0101},
     <br>* McshEngl.century.Bce0200!={Bce0200..Bce0101},
     <a class="clsHide" href="#idEntevgCBce0200nam"></a></p>
   </section>
@@ -3873,8 +3891,8 @@
     <br>* McshEngl.{Bce0300i100!=Bce0300..Bce0201},
     <br>* McshEngl.3rd-century-Bce!={Bce0300..Bce0201},
     <br>* McshEngl.Bce3rd-century!={Bce0300..Bce0201},
-    <br>* McshEngl.entt_evlg'Bce03rd-century!={Bce0300..Bce0201},
-    <br>* McshEngl.entt_evlg'i100.Bce0300!={Bce0300..Bce0201},
+    <br>* McshEngl.Enttevlg'Bce03rd-century!={Bce0300..Bce0201},
+    <br>* McshEngl.Enttevlg'i100.Bce0300!={Bce0300..Bce0201},
     <br>* McshEngl.century.Bce0300!={Bce0300..Bce0201},
     <a class="clsHide" href="#idEntevgCBce0300nam"></a></p>
   </section>
@@ -3909,8 +3927,8 @@
     <br>* McshEngl.{Bce0400i100!=Bce0400..Bce0301},
     <br>* McshEngl.4th-century-Bce!={Bce0400..Bce0301},
     <br>* McshEngl.Bce4th-century!={Bce0400..Bce0301},
-    <br>* McshEngl.entt_evlg'Bce04th-century!={Bce0400..Bce0301},
-    <br>* McshEngl.entt_evlg'i100.Bce0400!={Bce0400..Bce0301},
+    <br>* McshEngl.Enttevlg'Bce04th-century!={Bce0400..Bce0301},
+    <br>* McshEngl.Enttevlg'i100.Bce0400!={Bce0400..Bce0301},
     <br>* McshEngl.century.Bce0400!={Bce0400..Bce0301},
     <a class="clsHide" href="#idEntevgCBce0400nam"></a></p>
   </section>
@@ -3948,8 +3966,8 @@
     <br>* McshEngl.{Bce0500i100!=Bce0500..Bce0401},
     <br>* McshEngl.5th-century-Bce!={Bce0500..Bce0401},
     <br>* McshEngl.Bce5th-century!={Bce0500..Bce0401},
-    <br>* McshEngl.entt_evlg'Bce05th-century!={Bce0500..Bce0401},
-    <br>* McshEngl.entt_evlg'i100.Bce0500!={Bce0500..Bce0401},
+    <br>* McshEngl.Enttevlg'Bce05th-century!={Bce0500..Bce0401},
+    <br>* McshEngl.Enttevlg'i100.Bce0500!={Bce0500..Bce0401},
     <br>* McshEngl.century.Bce0500!={Bce0500..Bce0401},
     <a class="clsHide" href="#idEntevgCBce0500nam"></a></p>
   </section>
@@ -3989,8 +4007,8 @@
     <br>* McshEngl.{Bce0600i100!=Bce0600..Bce0501},
     <br>* McshEngl.6th-century-Bce!={Bce0600..Bce0501},
     <br>* McshEngl.Bce6th-century!={Bce0600..Bce0501},
-    <br>* McshEngl.entt_evlg'Bce06th-century!={Bce0600..Bce0501},
-    <br>* McshEngl.entt_evlg'i100.Bce0600!={Bce0600..Bce0501},
+    <br>* McshEngl.Enttevlg'Bce06th-century!={Bce0600..Bce0501},
+    <br>* McshEngl.Enttevlg'i100.Bce0600!={Bce0600..Bce0501},
     <br>* McshEngl.century.Bce0600!={Bce0600..Bce0501},
     <a class="clsHide" href="#idEntevgCBce0600nam"></a></p>
   </section>
@@ -4027,8 +4045,8 @@
     <br>* McshEngl.{Bce0700i100!=Bce0700..Bce0601},
     <br>* McshEngl.7th-century-Bce!={Bce0700..Bce0601},
     <br>* McshEngl.Bce7th-century!={Bce0700..Bce0601},
-    <br>* McshEngl.entt_evlg'Bce07th-century!={Bce0700..Bce0601},
-    <br>* McshEngl.entt_evlg'i100.Bce0700!={Bce0700..Bce0601},
+    <br>* McshEngl.Enttevlg'Bce07th-century!={Bce0700..Bce0601},
+    <br>* McshEngl.Enttevlg'i100.Bce0700!={Bce0700..Bce0601},
     <br>* McshEngl.century.Bce0700!={Bce0700..Bce0601},
     <a class="clsHide" href="#idEntevgCBce0700nam"></a></p>
   </section>
@@ -4065,8 +4083,8 @@
     <br>* McshEngl.{Bce0800i100!=Bce0800..Bce0701},
     <br>* McshEngl.8th-century-Bce!={Bce0800..Bce0701},
     <br>* McshEngl.Bce8th-century!={Bce0800..Bce0701},
-    <br>* McshEngl.entt_evlg'Bce08th-century!={Bce0800..Bce0701},
-    <br>* McshEngl.entt_evlg'i100.Bce0800!={Bce0800..Bce0701},
+    <br>* McshEngl.Enttevlg'Bce08th-century!={Bce0800..Bce0701},
+    <br>* McshEngl.Enttevlg'i100.Bce0800!={Bce0800..Bce0701},
     <br>* McshEngl.century.Bce0800!={Bce0800..Bce0701},
     <a class="clsHide" href="#idEntevgCBce0800nam"></a></p>
   </section>
@@ -4099,8 +4117,8 @@
     <br>* McshEngl.{Bce0900i100!=Bce0900..Bce0801},
     <br>* McshEngl.9th-century-Bce!={Bce0900..Bce0801},
     <br>* McshEngl.Bce9th-century!={Bce0900..Bce0801},
-    <br>* McshEngl.entt_evlg'Bce09th-century!={Bce0900..Bce0801},
-    <br>* McshEngl.entt_evlg'i100.Bce0900!={Bce0900..Bce0801},
+    <br>* McshEngl.Enttevlg'Bce09th-century!={Bce0900..Bce0801},
+    <br>* McshEngl.Enttevlg'i100.Bce0900!={Bce0900..Bce0801},
     <br>* McshEngl.century.Bce0900!={Bce0900..Bce0801},
     <a class="clsHide" href="#idEntevgCBce0900nam"></a></p>
   </section>
@@ -4134,8 +4152,8 @@
     <br>* McshEngl.{Bce1000i100!=Bce1000..Bce0901},
     <br>* McshEngl.10th-century-Bce!={Bce1000..Bce0901},
     <br>* McshEngl.Bce10th-century!={Bce1000..Bce0901},
-    <br>* McshEngl.entt_evlg'Bce10th-century!={Bce1000..Bce0901},
-    <br>* McshEngl.entt_evlg'i100.Bce1000!={Bce1000..Bce0901},
+    <br>* McshEngl.Enttevlg'Bce10th-century!={Bce1000..Bce0901},
+    <br>* McshEngl.Enttevlg'i100.Bce1000!={Bce1000..Bce0901},
     <br>* McshEngl.century.Bce1000!={Bce1000..Bce0901},
     <a class="clsHide" href="#idEntevgCBce1000nam"></a></p>
   </section>
@@ -4179,7 +4197,7 @@
     <br>* McshEngl.{iK1.BceK1x002!=Bce2000..Bce1001},
     <br>* McshEngl.Bp04th-millennium!={Bce2000..Bce1001},
     <br>* McshEngl.02nd-millennium-Bce!={Bce2000..Bce1001},
-    <br>* McshEngl.entt_evlg'i1000.Bce2000!={Bce2000..Bce1001},
+    <br>* McshEngl.Enttevlg'i1000.Bce2000!={Bce2000..Bce1001},
     <br>* McshEngl.millennium.Bce2000!={Bce2000..Bce1001},
     <a class="clsHide" href="#idEntevgIk1Bce2000nam"></a></p>
 
@@ -4220,8 +4238,8 @@
     <br>* McshEngl.{Bce1100i100!=Bce1100..Bce1001},
     <br>* McshEngl.11th-century-Bce!={Bce1100..Bce1001},
     <br>* McshEngl.Bce11th-century!={Bce1100..Bce1001},
-    <br>* McshEngl.entt_evlg'Bce11th-century!={Bce1100..Bce1001},
-    <br>* McshEngl.entt_evlg'i100.Bce1100!={Bce1100..Bce1001},
+    <br>* McshEngl.Enttevlg'Bce11th-century!={Bce1100..Bce1001},
+    <br>* McshEngl.Enttevlg'i100.Bce1100!={Bce1100..Bce1001},
     <br>* McshEngl.century.Bce1100!={Bce1100..Bce1001},
     <a class="clsHide" href="#idEntevgCBce1100nam"></a></p>
   </section>
@@ -4253,8 +4271,8 @@
     <br>* McshEngl.{Bce1200i100!=Bce1200..Bce1101},
     <br>* McshEngl.12th-century-Bce!={Bce1200..Bce1101},
     <br>* McshEngl.Bce12th-century!={Bce1200..Bce1101},
-    <br>* McshEngl.entt_evlg'Bce12th-century!={Bce1200..Bce1101},
-    <br>* McshEngl.entt_evlg'i100.Bce1200!={Bce1200..Bce1101},
+    <br>* McshEngl.Enttevlg'Bce12th-century!={Bce1200..Bce1101},
+    <br>* McshEngl.Enttevlg'i100.Bce1200!={Bce1200..Bce1101},
     <br>* McshEngl.century.Bce1200!={Bce1200..Bce1101},
     <a class="clsHide" href="#idEntevgCBce1200nam"></a></p>
   </section>
@@ -4305,7 +4323,7 @@
     <br>* McshEngl.{iK1.BceK1x003!=Bce3000..Bce2001},
     <br>* McshEngl.Bp05th-millennium!={Bce3000..Bce2001},
     <br>* McshEngl.03rd-millennium-Bce!={Bce3000..Bce2001},
-    <br>* McshEngl.entt_evlg'i1000.Bce3000!={Bce3000..Bce2001},
+    <br>* McshEngl.Enttevlg'i1000.Bce3000!={Bce3000..Bce2001},
     <br>* McshEngl.millennium.Bce3000!={Bce3000..Bce2001},
     <a class="clsHide" href="#idEntevgIk1Bce3000nam"></a></p>
   </section>
@@ -4356,7 +4374,7 @@
     <br>* McshEngl.{iK1.BceK1x004!=Bce4000..Bce3001},
     <br>* McshEngl.Bp06th-millennium!={Bce4000..Bce3001},
     <br>* McshEngl.04th-millennium-Bce!={Bce4000..Bce3001},
-    <br>* McshEngl.entt_evlg'i1000.Bce4000!={Bce4000..Bce3001},
+    <br>* McshEngl.Enttevlg'i1000.Bce4000!={Bce4000..Bce3001},
     <br>* McshEngl.millennium.Bce4000!={Bce4000..Bce3001},
     <a class="clsHide" href="#idEntevgIk1Bce4000nam"></a></p>
   </section>
@@ -4402,7 +4420,7 @@
     <br>* McshEngl.{Bce5000i1000!=Bce5000..Bce4001},
     <br>* McshEngl.05th-millennium-Bce!={Bce5000..Bce4001},
     <br>* McshEngl.Bp07th-millennium!={Bce5000..Bce4001},
-    <br>* McshEngl.entt_evlg'i1000.Bce5000!={Bce5000..Bce4001},
+    <br>* McshEngl.Enttevlg'i1000.Bce5000!={Bce5000..Bce4001},
     <br>* McshEngl.millennium.Bce5000!={Bce5000..Bce4001},
     <a class="clsHide" href="#idEntevgIk1Bce5000nam"></a></p>
   </section>
@@ -4440,7 +4458,7 @@
     <br>* McshEngl.{Bce6000i1000!=Bce6000..Bce5001},
     <br>* McshEngl.06th-millennium-Bce!={Bce6000..Bce5001},
     <br>* McshEngl.Bp08th-millennium!={Bce6000..Bce5001},
-    <br>* McshEngl.entt_evlg'i1000.Bce6000!={Bce6000..Bce5001},
+    <br>* McshEngl.Enttevlg'i1000.Bce6000!={Bce6000..Bce5001},
     <br>* McshEngl.millennium.Bce6000!={Bce6000..Bce5001},
     <a class="clsHide" href="#idEntevgIk1Bce6000nam"></a></p>
   </section>
@@ -4483,7 +4501,7 @@
     <br>* McshEngl.{Bce7000i1000!=Bce7000..Bce6001},
     <br>* McshEngl.07th-millennium-Bce!={Bce7000..Bce6001},
     <br>* McshEngl.Bp09th-millennium!={Bce7000..Bce6001},
-    <br>* McshEngl.entt_evlg'i1000.Bce7000!={Bce7000..Bce6001},
+    <br>* McshEngl.Enttevlg'i1000.Bce7000!={Bce7000..Bce6001},
     <br>* McshEngl.millennium.Bce7000!={Bce7000..Bce6001},
     <a class="clsHide" href="#idEntevgIk1Bce7000nam"></a></p>
   </section>
@@ -4529,7 +4547,7 @@
     <br>* McshEngl.{Bce8000i1000!=Bce8000..Bce7001},
     <br>* McshEngl.08th-millennium-Bce!={Bce8000..Bce7001},
     <br>* McshEngl.Bp10th-millennium!={Bce8000..Bce7001},
-    <br>* McshEngl.entt_evlg'i1000.Bce8000!={Bce8000..Bce7001},
+    <br>* McshEngl.Enttevlg'i1000.Bce8000!={Bce8000..Bce7001},
     <br>* McshEngl.millennium.Bce8000!={Bce8000..Bce7001},
     <a class="clsHide" href="#idEntevgIk1Bce8000nam"></a></p>
   </section>
@@ -4565,7 +4583,7 @@
     <br>* McshEngl.{Bce9000i1000!=Bce9000..Bce8001},
     <br>* McshEngl.09th-millennium-Bce!={Bce9000..Bce8001},
     <br>* McshEngl.Bp11th-millennium!={Bce9000..Bce8001},
-    <br>* McshEngl.entt_evlg'i1000.Bce9000!={Bce9000..Bce8001},
+    <br>* McshEngl.Enttevlg'i1000.Bce9000!={Bce9000..Bce8001},
     <br>* McshEngl.millennium.Bce9000!={Bce9000..Bce8001},
     <a class="clsHide" href="#idEntevgIk1Bce9000nam"></a></p>
   </section>
@@ -4601,7 +4619,7 @@
     <br>* McshEngl.{Bp12000i1000!=Bce10000..Bce09001},
     <br>* McshEngl.10th-millennium-Bce!={Bce10000..Bce09001},
     <br>* McshEngl.Bp12th-millennium!={Bce10000..Bce09001},
-    <br>* McshEngl.entt_evlg'i1000.BpK1x012!={Bce10000..Bce09001},
+    <br>* McshEngl.Enttevlg'i1000.BpK1x012!={Bce10000..Bce09001},
     <br>* McshEngl.millennium.BpK1x012!={Bce10000..Bce09001},
     <a class="clsHide" href="#idEntevgIk1BpK1x012nam"></a></p>
   </section>
@@ -4634,7 +4652,7 @@
     <br>* McshEngl.{Bp13000i1000!=Bce11000..Bce10001},
     <br>* McshEngl.11th-millennium-Bce!=Bce11000..Bce10001},
     <br>* McshEngl.Bp13th-millennium!={Bce11000..Bce10001},
-    <br>* McshEngl.entt_evlg'i1000.BpK1x013!={Bce11000..Bce10001},
+    <br>* McshEngl.Enttevlg'i1000.BpK1x013!={Bce11000..Bce10001},
     <br>* McshEngl.millennium.BpK1x013!={Bce11000..Bce10001},
     <a class="clsHide" href="#idEntevgIk1BpK1x013nam"></a></p>
   </section>
@@ -4681,7 +4699,7 @@
     <br>* McshEngl.{Bp14000i1000!=Bce12000..Bce11001},
     <br>* McshEngl.12th-millennium-Bce!={Bce12000..Bce11001},
     <br>* McshEngl.Bp14th-millennium!={Bce12000..Bce11001},
-    <br>* McshEngl.entt_evlg'i1000.BpK1x014!={Bce12000..Bce11001},
+    <br>* McshEngl.Enttevlg'i1000.BpK1x014!={Bce12000..Bce11001},
     <br>* McshEngl.millennium.BpK1x014!={Bce12000..Bce11001},
     <a class="clsHide" href="#idEntevgIk1BpK1x014nam"></a></p>
   </section>
@@ -4717,7 +4735,7 @@
   <p id="idEntevgIk2BpK2x001nam">name::
     <br>* McshEngl.Bp1st-megannium,
     <br>* McshEngl.{iK2.Bp1'000'000!=Bp1'000'000..present},
-    <br>* McshEngl.entt_evlg'iK2.BpK2x001,
+    <br>* McshEngl.Enttevlg'iK2.BpK2x001,
     <a class="clsHide" href="#idEntevgIk2BpK2x001nam"></a></p>
   </section>
 
@@ -4731,7 +4749,7 @@
   <p id="idEntevgIk2BpK2x002nam">name::
     <br>* McshEngl.Bp2nd-megannium,
     <br>* McshEngl.{iK2.Bp2'000'000!=Bp2'000'000..Bp1'000'001},
-    <br>* McshEngl.entt_evlg'iK2.BpK2x002,
+    <br>* McshEngl.Enttevlg'iK2.BpK2x002,
     <a class="clsHide" href="#idEntevgIk2BpK2x002nam"></a></p>
   </section>
 
@@ -4835,7 +4853,7 @@
   <p id="idEntevgIk3BpK3x001nam">name::
     <br>* McshEngl.Bp1st-gigannium,
     <br>* McshEngl.{iK3.Bp1'000'000'000!=Bp1'000'000'000..present},
-    <br>* McshEngl.entt_evlg'iK3.BpK3x001,
+    <br>* McshEngl.Enttevlg'iK3.BpK3x001,
     <a class="clsHide" href="#idEntevgIk3BpK3x001nam"></a></p>
   </section>
 
@@ -4849,7 +4867,7 @@
   <p id="idEntevgIk3BpK3x002nam">name::
     <br>* McshEngl.Bp2nd-gigannium,
     <br>* McshEngl.{iK3.Bp2'000'000'000!=Bp2'000'000'000..Bp1'000'000'001},
-    <br>* McshEngl.entt_evlg'iK3.BpK3x002,
+    <br>* McshEngl.Enttevlg'iK3.BpK3x002,
     <a class="clsHide" href="#idEntevgIk3BpK3x002nam"></a></p>
   </section>
 
@@ -4863,7 +4881,7 @@
   <p id="idEntevgIk3BpK3x003nam">name::
     <br>* McshEngl.Bp3rd-gigannium,
     <br>* McshEngl.{iK3.Bp3'000'000'000!=Bp3'000'000'000..Bp2'000'000'001},
-    <br>* McshEngl.entt_evlg'iK3.BpK3x003,
+    <br>* McshEngl.Enttevlg'iK3.BpK3x003,
     <a class="clsHide" href="#idEntevgIk3BpK3x003nam"></a></p>
   </section>
 
@@ -4877,7 +4895,7 @@
   <p id="idEntevgIk3BpK3x004nam">name::
     <br>* McshEngl.Bp4th-gigannium,
     <br>* McshEngl.{iK3.Bp4'000'000'000!=Bp4'000'000'000..Bp3'000'000'001},
-    <br>* McshEngl.Mcs.entt_evlg'i1000^3.BpK3x004,
+    <br>* McshEngl.Mcs.Enttevlg'i1000^3.BpK3x004,
     <a class="clsHide" href="#idEntevgIk3BpK3x004nam"></a></p>
   </section>
 
@@ -4891,7 +4909,7 @@
   <p id="idEntevgIk3BpK3x005nam">name::
     <br>* McshEngl.Bp5th-gigannium,
     <br>* McshEngl.{iK3.Bp5'000'000'000!=Bp5'000'000'000..Bp4'000'000'001},
-    <br>* McshEngl.entt_evlg'iK3.BpK3x005!={Bp5'000'000'000..Bp4'000'000'001},
+    <br>* McshEngl.Enttevlg'iK3.BpK3x005!={Bp5'000'000'000..Bp4'000'000'001},
     <br>* McshEngl.gigannium.BpK3x005!={Bp5'000'000'000..Bp4'000'000'001},
     <a class="clsHide" href="#idEntevgIk3BpK3x005nam"></a></p>
   </section>
@@ -5930,11 +5948,6 @@
     <br>If you specify the context a bit more (e.g., business, psychology, everyday language), I could suggest a more precise fit."
     <br>[{2025-12-15 retrieved} https://chat.deepseek.com/a/chat/s/a0a1b0bb-fcd5-4c9a-baf3-7530657a7f85]
     <a class="clsHide" href="#idEntBodyNdsnL"></a></p>
-  <p id="idEntBodyNgtr">generic-tree::
-    <br>* McshEngl.bodyNo-Gntr,
-    <br>===
-    <br>* entity-Gntr,
-    <a class="clsHide" href="#idEntBodyNgtr"></a></p>
 
   <section id="idEntBodyNarg">
   <h2 id="idEntBodyNargH2">01_argument of bodyNo
@@ -6121,19 +6134,29 @@
   </section>
   </section>
 
-  <section id="idEntBodyNstr">
-  <h2 id="idEntBodyNstrH2">bodyNo.SPECIFIC
-    <a class="clsHide" href="#idEntBodyNstrH2"></a></h2>
-  <p id="idEntBodyNstrdsn">description::
+  <section id="idEntBodyNgstr">
+  <h2 id="idEntBodyNgstrH2">GENERIC-SPECIFIC-TREE of bodyNo
+    <a class="clsHide" href="#idEntBodyNgstrH2"></a></h2>
+  <p id="idEntBodyNgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEntBodyNgstrdsn"></a></p>
+  <p id="idEntBodyNgstrnam">name::
+    <br>* McshEngl.bodyNo'generic-specific-tree,
+    <br>* McshEngl.bodyNo'specific-generic-tree,
+    <a class="clsHide" href="#idEntBodyNgstrnam"></a></p>
+  <p id="idEntBodyNgtr">generic-tree::
+    <br>* McshEngl.bodyNo-Gntr,
+    <br>===
+    <br>* entity-Gntr,
+    <a class="clsHide" href="#idEntBodyNgtr"></a></p>
+  <p id="idEntBodyNstr">specific-tree::
+    <br>* McshEngl.bodyNo.specific,
+    <br>* McshEngl.bodyNo-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="../dirCor/McshCor000004.last.html#idOverview">process</a>,
     <br>* <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idOverview">relation</a>,
     <br>* <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmsmsvrb">semu-verb</a>,
-    <a class="clsHide" href="#idEntBodyNstrdsn"></a></p>
-  <p id="idEntBodyNstrnam">name::
-    <br>* McshEngl.bodyNo.specific,
-    <br>* McshEngl.bodyNo-Sptr,
-    <a class="clsHide" href="#idEntBodyNstrnam"></a></p>
+    <a class="clsHide" href="#idEntBodyNstr"></a></p>
   </section>
 
   <section id="idEntBodyNSqcd">

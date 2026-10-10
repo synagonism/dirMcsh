@@ -32,7 +32,7 @@
     <br>* McshEngl.netAlgoEthr!=Ethereum--blockchain-net,
     <br>* McshEngl.netAlgoEthr!~McshTchInf000018,
     <br>* McshEngl.McshTchInf000018.last.html//dirTchInf//dirMcsh!⇒netAlgoEthr,
-    <br>* McshEngl.dirMcsh/dirTchInf/McshTchInf000018.last.html!⇒netAlgoEthr,
+    <br>* McshEngl.dirTchInf/McshTchInf000018.last.html!⇒netAlgoEthr,
     <br>* McshEngl.D-stroke-Ethereum!⇒netAlgoEthr, {2017-12-20},
     <br>* McshEngl.Deth!⇒netAlgoEthr, {2019-06-16},
     <br>* McshEngl.Deth-net!⇒netAlgoEthr, {2019-04-14},
@@ -6316,39 +6316,26 @@ def send(to, value):
   </section>
   </section>
 
-  <section id="idEthdapstr">
-  <h2 id="idEthdapstrH2">SPECIFIC
-    <a class="clsHide" href="#idEthdapstrH2"></a></h2>
-  <p id="idEthdapstrdsn">description::
+  <section id="idEthdapgstr">
+  <h2 id="idEthdapgstrH2">GENERIC-SPECIFIC-TREE of DappEth
+    <a class="clsHide" href="#idEthdapgstrH2"></a></h2>
+  <p id="idEthdapgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idEthdapstrdsn"></a></p>
-  <p id="idEthdapstrnam">name::
+    <a class="clsHide" href="#idEthdapgstrdsn"></a></p>
+  <p id="idEthdapgstrnam">name::
+    <br>* McshEngl.DappEth'generic-specific-tree,
+    <br>* McshEngl.DappEth'specific-generic-tree,
+    <a class="clsHide" href="#idEthdapgstrnam"></a></p>
+  <p id="idEthdapgtr">generic-tree::
+    <br>* McshEngl.DappEth-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthdapgtr"></a></p>
+  <p id="idEthdapstr">specific-tree::
     <br>* McshEngl.DappEth.specific,
     <br>* McshEngl.DappEth-Sptr,
-    <a class="clsHide" href="#idEthdapstrnam"></a></p>
-  <p id="idEthdapSpcstr">specific::
-    <br>* <a href="https://github.com/ethereum/dapp-bin">https://github.com/ethereum/dapp-bin</a>,
     <br>===
-    <br>* CROWDFUNDING-ethdap,
-    <br>* EXCHANGE-ethdap,
-    <br>* FINANCIAL-ethdap,
-    <br>* STORAGE-ethdap,
-    <br>* VOTING-ethdap,
-    <br>* <a class="clsPreview" href="#idEthdapWeb">WEB-BASED-ethdap</a>,
-    <br>===
-    <br>* <a class="clsPreview" href="#idEthdapArgn">Aragon-ethdap</a>,
-    <br>* Augur-ethdap,
-    <br>* Chronobank-ethdap,
-    <br>* <a class="clsPreview" href="#idEthdapCrptkts">CryptoKitties</a>,
-    <br>* <a class="clsPreview" href="#idEthdao">DAO-ethdap</a>,
-    <br>* Digix-ethdap,
-    <br>* <a class="clsPreview" href="#idEthdapEthlnc">Ethlance-ethdap</a>,
-    <br>* <a class="clsPreview" href="#idEthdapIdex">IDEX-ethdap</a>,
-    <br>* Maker-ethdap,
-    <br>* <a class="clsPreview" href="#idEthPlutus">Plutus-ethdap</a>,
-    <br>* <a class="clsPreview" href="#idEthSwarm">Swarm-ethdap</a>,
-    <br>* <a class="clsPreview" href="#idEthdapWiFnio">WeiFund.io-ethdap</a>,
-    <a class="clsHide" href="#idEthdapSpcstr"></a></p>
+    <a class="clsHide" href="#idEthdapstr"></a></p>
   </section>
 
   <section id="idEthdapWeb">
@@ -7622,43 +7609,26 @@ contract SimpleStorage {
     <a class="clsHide" href="#idEthsolcGncH5"></a></h5>
   </section>
 
-  <section id="idEthsolcstr">
-  <h5 id="idEthsolcSpcH5">Lsolc.SPECIFIC (derived)
-    <a class="clsHide" href="#idEthsolcSpcH5"></a></h5>
-  <div id="idEthsolcSpcP1">
-    <p>codeLsol::
-    <br>[<a href="https://solidity.readthedocs.io/en/v0.4.9/contracts.html#function-modifiers">https://solidity.readthedocs.io/en/v0.4.9/contracts.html#function-modifiers</a>]
-    </p>
-    <pre><code>
-contract owned {
-    function owned() { owner = msg.sender; }
-    address owner;
-
-    // This contract only defines a modifier but does not use
-    // it - it will be used in derived contracts.
-    // The function body is inserted where the special symbol
-    // "_;" in the definition of a modifier appears.
-    // This means that if the owner calls this function, the
-    // function is executed and otherwise, an exception is
-    // thrown.
-    modifier onlyOwner {
-        if (msg.sender != owner)
-            throw;
-        _;
-    }
-}
-
-contract mortal is owned {
-    // This contract inherits the "onlyOwner"-modifier from
-    // "owned" and applies it to the "close"-function, which
-    // causes that calls to "close" only have an effect if
-    // they are made by the stored owner.
-    function close() onlyOwner {
-        selfdestruct(owner);
-    }
-}
-    </code></pre>
-    <a class="clsHide" href="#idEthsolcSpcP1"></a></div>
+  <section id="idEthsolcgstr">
+  <h5 id="idEthsolcgstrH5">GENERIC-SPECIFIC-TREE of Lsolc
+    <a class="clsHide" href="#idEthsolcgstrH5"></a></h5>
+  <p id="idEthsolcgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEthsolcgstrdsn"></a></p>
+  <p id="idEthsolcgstrnam">name::
+    <br>* McshEngl.Lsolc'generic-specific-tree,
+    <br>* McshEngl.Lsolc'specific-generic-tree,
+    <a class="clsHide" href="#idEthsolcgstrnam"></a></p>
+  <p id="idEthsolcgtr">generic-tree::
+    <br>* McshEngl.Lsolc-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthsolcgtr"></a></p>
+  <p id="idEthsolcstr">specific-tree::
+    <br>* McshEngl.Lsolc.specific,
+    <br>* McshEngl.Lsolc-Sptr,
+    <br>===
+    <a class="clsHide" href="#idEthsolcstr"></a></p>
   </section>
 
   <section id="idEthsolcAbt">
@@ -7847,37 +7817,27 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolfifcP1"></a></p>
   </section>
 
-  <section id="idEthsolfstr">
-  <h5 id="idEthsolfSpcH5">SPECIFIC
-    <a class="clsHide" href="#idEthsolfSpcH5"></a></h5>
-  <p id="idEthsolfstrdsn">description::
+  <section id="idEthsolfgstr">
+  <h5 id="idEthsolfgstrH5">GENERIC-SPECIFIC-TREE of Lsolf
+    <a class="clsHide" href="#idEthsolfgstrH5"></a></h5>
+  <p id="idEthsolfgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idEthsolfstrdsn"></a></p>
-  <p id="idEthsolfstrnam">name::
+    <a class="clsHide" href="#idEthsolfgstrdsn"></a></p>
+  <p id="idEthsolfgstrnam">name::
+    <br>* McshEngl.Lsolf'generic-specific-tree,
+    <br>* McshEngl.Lsolf'specific-generic-tree,
+    <a class="clsHide" href="#idEthsolfgstrnam"></a></p>
+  <p id="idEthsolfgtr">generic-tree::
+    <br>* McshEngl.Lsolf-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthsolfgtr"></a></p>
+  <p id="idEthsolfstr">specific-tree::
     <br>* ethsolf.specific,
     <br>* McshEngl.lagSolf.specific,
     <br>* McshEngl.lagSolf-Sptr,
-    <a class="clsHide" href="#idEthsolfstrnam"></a></p>
-  <p id="idEthsolfSpcstr">specific::
-    <br>ethsolf.addmod(uint x, uint y, uint k) returns (uint):
-    <br>compute (x + y) % k where the addition is performed with arbitrary precision and does not wrap around at 2**256.
-    <br>
-    <br>ethsolf.mulmod(uint x, uint y, uint k) returns (uint):
-    <br>compute (x * y) % k where the multiplication is performed with arbitrary precision and does not wrap around at 2**256.
-    <br>
-    <br>ethsolf.sha3(...) returns (bytes32):
-    <br>compute the Ethereum-SHA-3 hash of the (tightly packed) arguments
-    <br>
-    <br>ethsolf.sha256(...) returns (bytes32):
-    <br>compute the SHA-256 hash of the (tightly packed) arguments
-    <br>
-    <br>ethsolf.ripemd160(...) returns (bytes20):
-    <br>compute RIPEMD-160 hash of the (tightly packed) arguments
-    <br>
-    <br>ethsolf.ecrecover(bytes32, uint8, bytes32, bytes32) returns (address):
-    <br>recover public key from elliptic curve signature - arguments are (data, v, r, s)
-    <br>[<a href="https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#mathematical-and-cryptographic-functions">https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#mathematical-and-cryptographic-functions</a>]
-    <a class="clsHide" href="#idEthsolfSpcstr"></a></p>
+    <br>===
+    <a class="clsHide" href="#idEthsolfstr"></a></p>
   </section>
 
   <section id="idEthsolfCtr">
@@ -10571,34 +10531,27 @@ contract CMgrWill {
   </section>
   </section>
 
-  <section id="idEthctpstr">
-  <h2 id="idEthctpstrH2">SPECIFIC
-    <a class="clsHide" href="#idEthctpstrH2"></a></h2>
-  <p id="idEthctpstrdsn">description::
+  <section id="idEthctpgstr">
+  <h2 id="idEthctpgstrH2">GENERIC-SPECIFIC-TREE of DcontractEth
+    <a class="clsHide" href="#idEthctpgstrH2"></a></h2>
+  <p id="idEthctpgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idEthctpstrdsn"></a></p>
-  <p id="idEthctpstrnam">name::
+    <a class="clsHide" href="#idEthctpgstrdsn"></a></p>
+  <p id="idEthctpgstrnam">name::
+    <br>* McshEngl.DcontractEth'generic-specific-tree,
+    <br>* McshEngl.DcontractEth'specific-generic-tree,
+    <a class="clsHide" href="#idEthctpgstrnam"></a></p>
+  <p id="idEthctpgtr">generic-tree::
+    <br>* McshEngl.DcontractEth-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthctpgtr"></a></p>
+  <p id="idEthctpstr">specific-tree::
     <br>* ethctp.specific,
     <br>* McshEngl.DcontractEth.specific,
     <br>* McshEngl.DcontractEth-Sptr,
-    <a class="clsHide" href="#idEthctpstrnam"></a></p>
-  <p id="idEthctpSpcstr">specific::
-    <br>* examples: <a href="https://github.com/fivedogit/solidity-baby-steps">https://github.com/fivedogit/solidity-baby-steps</a>,
-    <br>* <a class="clsPreview" href="#idEthctpBnr">code.binary-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpAsm">code.assembly-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpScc">code.source-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpCld">called-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpClr">caller-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpVrfd">verified-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpDao">DAO-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpEmplagmt">Employment-aggrement-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpExcng">Exchange-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpEvu">Exchange-value-unit-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpNmrgr">Name-registry-smart-contract</a>,
-    <br>* <a class="clsPreview" href="#idEthctpWlmngr">Will-manager-smart-contract</a>,
-    <br>=== INSTANCE:
-    <br>* <a href="https://github.com/Ambisafe/etoken-docs/wiki">EToken of Ambisafe</a>,
-    <a class="clsHide" href="#idEthctpSpcstr"></a></p>
+    <br>===
+    <a class="clsHide" href="#idEthctpstr"></a></p>
   </section>
 
   <section id="idEthctpOncod">

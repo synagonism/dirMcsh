@@ -1,13 +1,13 @@
 [
-  [";lagSngu21a","A|a",10,"2026-10-04"],
+  [";lagSngu21a","A|a",10,"2026-10-09"],
   ["AAAtest!=McsTest","dirCor/McshCor000016.last.html#idOverview"],
   ["a!=Sngu_letrA","dirLag/McshLag000010.last.html#idL0014ltr21"],
-  ["a!~conjSngu!=rltnEntity_then_attribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
-  ["acca!~conjSngu!=rltnAttribute_then_entity","dirCor/McshCor000003.last.html#idEntatrrln2"],
-  ["ai!~verbSngu!=rltnEntity_then_attribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
-  ["aiccai!~verbSngu!=rltnAttribute_then_entity","dirCor/McshCor000003.last.html#idEntatrrln2"],
-  ["ana!~conjSngu:timeRelaTimeBefore","dirCor/McshCor000006.last.html#idTimeRltvBfr"],
+  ["a!~ConjSngu!=RltnEntity_then_attribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
+  ["acca!~ConjSngu!=RltnAttribute_then_entity","dirCor/McshCor000003.last.html#idEntatrrln2"],
+  ["ai!~verbSngu!=RltnEntity_then_attribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
+  ["aiccai!~verbSngu!=RltnAttribute_then_entity","dirCor/McshCor000003.last.html#idEntatrrln2"],
+  ["ana!~ConjSngu:timeRelaTimeBefore","dirCor/McshCor000006.last.html#idTimeRltvBfr"],
   ["anu-enu-inu!=before-same-after","dirCor/McshCor000011.last.html#idSys001ordrRlvBfr"],
   ["au!=personLagC1","dirLag/McshLag000007.last.html#idLHmnmprsnC1"],
-  ["au!~argoSngu!=rltnEntityAttribute","dirCor/McshCor000003.last.html#idEntatrrln1"]
+  ["au!~argoSngu!=RltnEntityAttribute","dirCor/McshCor000003.last.html#idEntatrrln1"]
 ]

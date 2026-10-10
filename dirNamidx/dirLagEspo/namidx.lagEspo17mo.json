@@ -1,5 +1,5 @@
 [
-  [";lagEspo17mo","M|m",19,"2026-10-04"],
+  [";lagEspo17mo","M|m",19,"2026-10-09"],
   ["Majo!=May","dirCor/McshCor000006.last.html#idTimeUomMnthMay"],
   ["Marŝi!=March","dirCor/McshCor000006.last.html#idTimeUomMnthMar"],
   ["maldekstren!=spaceLeft","dirCor/McshCor000007.last.html#idSpcLeft"],
@@ -18,5 +18,5 @@
   ["monato!=timeMonth","dirCor/McshCor000006.last.html#idTimeUomMnth"],
   ["mondkoncepto!=worldview","dirLag/McshLag000003.last.html#idWldv"],
   ["morto!=dssDeath","dirHlth/McshHlth000011.last.html#idDssHmn281"],
-  ["movo!=dongMoving","dirCor/McshCor000004.last.html#idDngMvng"]
+  ["movo!=DongMoving","dirCor/McshCor000004.last.html#idDngMvng"]
 ]
