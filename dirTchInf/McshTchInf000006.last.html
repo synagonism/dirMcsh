@@ -888,22 +888,30 @@
     <br>· any program, used to work with the-language, write, execute, debug, analyze, test the-code.
     <a class="clsHide" href="#idLCpgmtooldsn"></a></p>
   <p id="idLCpgmtoolnam">name::
-    <br>* McshEngl.Pgmg_lago'05_tool!⇒Pgmg_lago'tool,
-    <br>* McshEngl.Pgmg_lago'tool!⇒Pgmg_lago'tool,
-    <br>* McshEngl.Pgmg_lago'tool,
+    <br>* McshEngl.Pgmg_lago'05_tool!⇒Pgmgtool,
+    <br>* McshEngl.Pgmgtool!⇒Pgmgtool,
+    <br>* McshEngl.Pgmgtool,
     <a class="clsHide" href="#idLCpgmtoolnam"></a></p>
 
-  <section id="idLCpgmtoolstr">
-  <h2 id="idLCpgmtoolstrH2">tool.SPECIFIC
-    <a class="clsHide" href="#idLCpgmtoolstrH2"></a></h2>
-  <p id="idLCpgmtoolstrdsn">description::
+  <section id="idLCpgmtoolgstr">
+  <h2 id="idLCpgmtoolgstrH2">GENERIC-SPECIFIC-TREE of Pgmgtool
+    <a class="clsHide" href="#idLCpgmtoolgstrH2"></a></h2>
+  <p id="idLCpgmtoolgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLCpgmtoolstrdsn"></a></p>
-  <p id="idLCpgmtoolstrnam">name::
-    <br>* McshEngl.Pgmg_lago'tool.specific,
-    <br>* McshEngl.Pgmg_lago'tool-Sptr,
-    <a class="clsHide" href="#idLCpgmtoolstrnam"></a></p>
-  <p id="idLCpgmtoolSpcP1">specific::
+    <a class="clsHide" href="#idLCpgmtoolgstrdsn"></a></p>
+  <p id="idLCpgmtoolgstrnam">name::
+    <br>* McshEngl.Pgmgtool'generic-specific-tree,
+    <br>* McshEngl.Pgmgtool'specific-generic-tree,
+    <a class="clsHide" href="#idLCpgmtoolgstrnam"></a></p>
+  <p id="idLCpgmtoolgtr">generic-tree::
+    <br>* McshEngl.Pgmgtool-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLCpgmtoolgtr"></a></p>
+  <p id="idLCpgmtoolstr">specific-tree::
+    <br>* McshEngl.Pgmgtool.specific,
+    <br>* McshEngl.Pgmgtool-Sptr,
+    <br>===
     <br>* compiler,
     <br>* interpreter,
     <br>* transpiler,
@@ -913,7 +921,8 @@
     <br>* package-manager,
     <br>* task-runner-tool,
     <br>* testing-tool,
-    <a class="clsHide" href="#idLCpgmtoolSpcP1"></a></p>
+    <a class="clsHide" href="#idLCpgmtoolstr"></a></p>
+  </section>
 
   <section id="idLCpgmtoolEdtr">
   <h2 id="idLCpgmtoolEdtrH2">tool.editor
@@ -927,7 +936,7 @@
     <br>* McshEngl.editor-of-Pgmg_lago!⇒editorPrgm,
     <br>* McshEngl.editorPrgm,
     <br>* McshEngl.Pgmg_lago'editor!⇒editorPrgm,
-    <br>* McshEngl.Pgmg_lago'tool.editor!⇒editorPrgm,
+    <br>* McshEngl.Pgmgtool.editor!⇒editorPrgm,
     <a class="clsHide" href="#idLCpgmtoolEdtrnam"></a></p>
 
   <section id="idLCpgmtoolEdtrirsc">
@@ -948,12 +957,12 @@
     <a class="clsHide" href="#idLCpgmtoolCmprH2"></a></h2>
   <p id="idLCpgmtoolCmprdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· <span class="clsColorRed">compiler</span> is a-program that translates <a class="clsPreview" href="#idLsrcalg">a-source-algo</a> to <a class="clsPreview" href="#idLmchnalg">machine-algo</a> or <a class="clsPreview" href="#idLvtlalg">bytcode-algo</a>.
+    <br>· <span class="clsColorRed">compiler</span> is a-program that translates <a class="clsPreview" href="#idLSrcdalg">a-source-algo</a> to <a class="clsPreview" href="#idLmchnalg">machine-algo</a> or <a class="clsPreview" href="#idLvtlalg">bytcode-algo</a>.
     <a class="clsHide" href="#idLCpgmtoolCmprdsn"></a></p>
   <p id="idLCpgmtoolCmprnam">name::
     <br>* McshEngl.compiler/kompáiler/-of-Pgmg_lago,
     <br>* McshEngl.Pgmg_lago'compiler,
-    <br>* McshEngl.Pgmg_lago'tool.compiler,
+    <br>* McshEngl.Pgmgtool.compiler,
     <br>====== lagoGreek:
     <br>* McshElln.μεταγλωττιστής!ο!=compiler,
     <a class="clsHide" href="#idLCpgmtoolCmprnam"></a></p>
@@ -963,7 +972,7 @@
     <a class="clsHide" href="#idLCpgmtoolCmprdngH3"></a></h3>
   <p id="idLCpgmtoolCmprdngdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· compilation of Pgmg_lago is the-process by which <a class="clsPreview" href="#idLCpgmtoolCmpr">a-compiler</a> translates <a class="clsPreview" href="#idLsrcalg">a-source-algo</a> to <a class="clsPreview" href="#idLmchnalg">a-machine-algo</a>.
+    <br>· compilation of Pgmg_lago is the-process by which <a class="clsPreview" href="#idLCpgmtoolCmpr">a-compiler</a> translates <a class="clsPreview" href="#idLSrcdalg">a-source-algo</a> to <a class="clsPreview" href="#idLmchnalg">a-machine-algo</a>.
     <a class="clsHide" href="#idLCpgmtoolCmprdngdsn"></a></p>
   <p id="idLCpgmtoolCmprdngnam">name::
     <br>* McshEngl.compilation-of-Pgmg_lago,
@@ -983,7 +992,7 @@
   <p id="idLCpgmtoolInprnam">name::
     <br>* McshEngl.interpreter/intérpiter/-of-Pgmg_lago,
     <br>* McshEngl.Pgmg_lago-interpreter,
-    <br>* McshEngl.Pgmg_lago'tool.interpreter,
+    <br>* McshEngl.Pgmgtool.interpreter,
     <br>====== lagoGreek:
     <br>* McshElln.διερμηνέας!ο!=interpreter,
     <a class="clsHide" href="#idLCpgmtoolInprnam"></a></p>
@@ -1393,7 +1402,7 @@
     <br>* <a class="clsPreview" href="#idLmchn">machine-Pgmg_lago</a>,
     <br>* <a class="clsPreview" href="#idLasm">assembly-Pgmg_lago</a>,
     <br>* <a class="clsPreview" href="#idLvtl">virual-code--Pgmg_lago</a>,
-    <br>* <a class="clsPreview" href="#idLsrc">source-code--Pgmg_lago</a>,
+    <br>* <a class="clsPreview" href="#idLSrcd">source-code--Pgmg_lago</a>,
     <br>===
     <br>* low-level (machine, assembly, bytcode),
     <br>* high-level (source),
@@ -1811,192 +1820,189 @@
   </section>
   </section>
 
-  <section id="idLsrc">
-  <h1 id="idLsrcH1">Pgmg_lago.source-code
-    <a class="clsHide" href="#idLsrcH1"></a></h1>
-  <p id="idLsrcdsn">description::
+  <section id="idLSrcd">
+  <h1 id="idLSrcdH1">Pgmg_lago.source-code
+    <a class="clsHide" href="#idLSrcdH1"></a></h1>
+  <p id="idLSrcddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· source-language is <a class="clsPreview" href="#idOverview">a-programing-language</a> with <a class="clsPreview" href="#idLCpgmalg">output</a> <a class="clsPreview" href="#idLsrcalgcode">source-code</a> that <a class="clsPreview" href="#idLCpgmmchnSrc">a-source-machine</a> understands.
-    <a class="clsHide" href="#idLsrcdsn"></a></p>
-  <p id="idLsrcnam">name::
+    <br>· source-language is <a class="clsPreview" href="#idOverview">a-programing-language</a> with <a class="clsPreview" href="#idLCpgmalg">output</a> <a class="clsPreview" href="#idLSrcdalgcode">source-code</a> that <a class="clsPreview" href="#idLCpgmmchnSrc">a-source-machine</a> understands.
+    <a class="clsHide" href="#idLSrcddsn"></a></p>
+  <p id="idLSrcdnam">name::
     <br>* McshEngl.source-code--Pgmg_lago!⇒Srcd_lago,
     <br>* McshEngl.Srcd_lago!=source-code--Pgmg_lago,
     <br>* McshEngl.Lsrc!⇒Srcd_lago,
     <br>* McshEngl.Pgmg_lago.source!⇒Srcd_lago,
     <br>* McshEngl.source-code--language!⇒Srcd_lago,
-    <a class="clsHide" href="#idLsrcnam"></a></p>
-  <p id="idLsrcnamEll">nameGreek::
+    <a class="clsHide" href="#idLSrcdnam"></a></p>
+  <p id="idLSrcdnamEll">nameGreek::
     <br>* McshElln.πηγαία--γλώσσα-προγραμματισμού,
-    <a class="clsHide" href="#idLsrcnamEll"></a></p>
+    <a class="clsHide" href="#idLSrcdnamEll"></a></p>
 
-  <section id="idLsrcarch">
-  <h2 id="idLsrcarchH2">archetype (input) of Srcd_lago
-    <a class="clsHide" href="#idLsrcarchH2"></a></h2>
-  <p id="idLsrcarchdsn">description::
+  <section id="idLSrcdarch">
+  <h2 id="idLSrcdarchH2">archetype (input) of Srcd_lago
+    <a class="clsHide" href="#idLSrcdarchH2"></a></h2>
+  <p id="idLSrcdarchdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· archetype of <a class="clsPreview" href="#idLsrc">Srcd_lago</a> is a-document describing information-processing as done by humans.
-    <a class="clsHide" href="#idLsrcarchdsn"></a></p>
-  <p id="idLsrcarchnam">name::
+    <br>· archetype of <a class="clsPreview" href="#idLSrcd">Srcd_lago</a> is a-document describing information-processing as done by humans.
+    <a class="clsHide" href="#idLSrcdarchdsn"></a></p>
+  <p id="idLSrcdarchnam">name::
     <br>* McshEngl.Srcd_lago'archetype!⇒Srcd_lago-archetype,
     <br>* McshEngl.Srcd_lago-archetype,
-    <a class="clsHide" href="#idLsrcarchnam"></a></p>
-  <p id="idLsrcarchgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdarchnam"></a></p>
+  <p id="idLSrcdarchgtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmarch">archetype-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcarchgtr"></a></p>
+    <a class="clsHide" href="#idLSrcdarchgtr"></a></p>
 
-  <section id="idLsrcarchcd">
-  <h3 id="idLsrcarchcdH3">archo-code of archetype of Srcd_lago
-    <a class="clsHide" href="#idLsrcarchcdH3"></a></h3>
-  <p id="idLsrcarchcddsn">description::
+  <section id="idLSrcdarchcd">
+  <h3 id="idLSrcdarchcdH3">archo-code of archetype of Srcd_lago
+    <a class="clsHide" href="#idLSrcdarchcdH3"></a></h3>
+  <p id="idLSrcdarchcddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· archo-code of <a class="clsPreview" href="#idLsrc">Srcd_lago</a> is any human-code part of <a class="clsPreview" href="#idLsrcarch">archetype</a>.
-    <a class="clsHide" href="#idLsrcarchcddsn"></a></p>
-  <p id="idLsrcarchcdnam">name::
+    <br>· archo-code of <a class="clsPreview" href="#idLSrcd">Srcd_lago</a> is any human-code part of <a class="clsPreview" href="#idLSrcdarch">archetype</a>.
+    <a class="clsHide" href="#idLSrcdarchcddsn"></a></p>
+  <p id="idLSrcdarchcdnam">name::
     <br>* McshEngl.Srcd_lago-archetype'archo-code,
     <br>* McshEngl.Srcd_lago-archo-code,
-    <a class="clsHide" href="#idLsrcarchcdnam"></a></p>
-  <p id="idLsrcarchcdgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdarchcdnam"></a></p>
+  <p id="idLSrcdarchcdgtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmarchcd">archo-code-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcarchcdgtr"></a></p>
+    <a class="clsHide" href="#idLSrcdarchcdgtr"></a></p>
   </section>
 
-  <section id="idLsrcarchdmn">
-  <h3 id="idLsrcarchdmnH3">domain of archetype of Srcd_lago
-    <a class="clsHide" href="#idLsrcarchdmnH3"></a></h3>
-  <p id="idLsrcarchdmndsn">description::
+  <section id="idLSrcdarchdmn">
+  <h3 id="idLSrcdarchdmnH3">domain of archetype of Srcd_lago
+    <a class="clsHide" href="#idLSrcdarchdmnH3"></a></h3>
+  <p id="idLSrcdarchdmndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· domain of <a class="clsPreview" href="#idLsrc">Srcd_lago</a>[a] is the-set of all archetypes that mapped with it[a].
-    <a class="clsHide" href="#idLsrcarchdmndsn"></a></p>
-  <p id="idLsrcarchdmnnam">name::
-    <br>* McshEngl.Srcd_lago-algo'domain,
-    <a class="clsHide" href="#idLsrcarchdmnnam"></a></p>
-  <p id="idLsrcarchdmngtr">generic-tree::
+    <br>· domain of <a class="clsPreview" href="#idLSrcd">Srcd_lago</a>[a] is the-set of all archetypes that mapped with it[a].
+    <a class="clsHide" href="#idLSrcdarchdmndsn"></a></p>
+  <p id="idLSrcdarchdmnnam">name::
+    <br>* McshEngl.Srcdalgo'domain,
+    <a class="clsHide" href="#idLSrcdarchdmnnam"></a></p>
+  <p id="idLSrcdarchdmngtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmarchdmn">domain-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcarchdmngtr"></a></p>
+    <a class="clsHide" href="#idLSrcdarchdmngtr"></a></p>
   </section>
   </section>
 
-  <section id="idLsrcalg">
-  <h2 id="idLsrcalgH2">algorithm (output) of Srcd_lago
-    <a class="clsHide" href="#idLsrcalgH2"></a></h2>
-  <p id="idLsrcalgdsn">description::
+  <section id="idLSrcdalg">
+  <h2 id="idLSrcdalgH2">algorithm (output) of Srcd_lago
+    <a class="clsHide" href="#idLSrcdalgH2"></a></h2>
+  <p id="idLSrcdalgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· source-algorithm is <a class="clsPreview" href="#idLCpgmalg">an-algo</a> <a class="clsPreview" href="#idLCpgmmchnReal">a-source-machine</a> understands.
-    <br>· it[a] is-written in <a class="clsPreview" href="#idLsrcalgcode">source-code</a>.
-    <a class="clsHide" href="#idLsrcalgdsn"></a></p>
-  <p id="idLsrcalgnam">name::
-    <br>* McshEngl.Cmpralgo.source!⇒Srcd_lago-algo,
-    <br>* McshEngl.Srcd_lago'algo!⇒Srcd_lago-algo,
-    <br>* McshEngl.Srcd_lago-algo,
-    <br>* McshEngl.source-algo!⇒Srcd_lago-algo,
-    <a class="clsHide" href="#idLsrcalgnam"></a></p>
-  <p id="idLsrcalgnamEll">nameGreek::
+    <br>· it[a] is-written in <a class="clsPreview" href="#idLSrcdalgcode">source-code</a>.
+    <a class="clsHide" href="#idLSrcdalgdsn"></a></p>
+  <p id="idLSrcdalgnam">name::
+    <br>* McshEngl.Cmpralgo.source!⇒Srcdalgo,
+    <br>* McshEngl.Srcd_lago'algo!⇒Srcdalgo,
+    <br>* McshEngl.Srcdalgo,
+    <br>* McshEngl.source-algo!⇒Srcdalgo,
+    <a class="clsHide" href="#idLSrcdalgnam"></a></p>
+  <p id="idLSrcdalgnamEll">nameGreek::
     <br>* McshElln.πηγαίος-αλγόριθμος,
-    <a class="clsHide" href="#idLsrcalgnamEll"></a></p>
-  <p id="idLsrcalggtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idLCpgmalg">algorithm-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcalggtr"></a></p>
+    <a class="clsHide" href="#idLSrcdalgnamEll"></a></p>
 
-  <section id="idLsrcalgencg">
-  <h3 id="idLsrcalgencgH3">encoding of Srcd_lago-algo
-    <a class="clsHide" href="#idLsrcalgencgH3"></a></h3>
-  <p id="idLsrcalgencgdsn">description::
+  <section id="idLSrcdalgencg">
+  <h3 id="idLSrcdalgencgH3">encoding of Srcdalgo
+    <a class="clsHide" href="#idLSrcdalgencgH3"></a></h3>
+  <p id="idLSrcdalgencgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· the-output of a-Srcd_lago is digital-text and therefore uses <a class="clsPreview" href="../dirLag/McshLag000006.last.html#idCharencdg">a-character-encoding</a>.
-    <a class="clsHide" href="#idLsrcalgencgdsn"></a></p>
-  <p id="idLsrcalgencgnam">name::
+    <a class="clsHide" href="#idLSrcdalgencgdsn"></a></p>
+  <p id="idLSrcdalgencgnam">name::
     <br>* McshEngl.encoding-of--Srcd_lago-output,
     <br>* McshEngl.Srcd_lago'output-encoding,
-    <br>* McshEngl.Srcd_lago-algo'encoding,
-    <a class="clsHide" href="#idLsrcalgencgnam"></a></p>
+    <br>* McshEngl.Srcdalgo'encoding,
+    <a class="clsHide" href="#idLSrcdalgencgnam"></a></p>
   </section>
 
-  <section id="idLsrcalgcode">
-  <h3 id="idLsrcalgcodeH3">source-code of Srcd_lago-algo
-    <a class="clsHide" href="#idLsrcalgcodeH3"></a></h3>
-  <p id="idLsrcalgcodedsn">description::
+  <section id="idLSrcdalgcode">
+  <h3 id="idLSrcdalgcodeH3">source-code of Srcdalgo
+    <a class="clsHide" href="#idLSrcdalgcodeH3"></a></h3>
+  <p id="idLSrcdalgcodedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· source-code[a] of Pgmg_lago[b] is <a class="clsPreview" href="#idLCpgmalgcode">code</a> written in human readable format.
     <br>· it[a] is any part of its[b] <a class="clsPreview" href="#idLCpgmalg">algo</a>.
-    <a class="clsHide" href="#idLsrcalgcodedsn"></a></p>
-  <p id="idLsrcalgcodenam">name::
+    <a class="clsHide" href="#idLSrcdalgcodedsn"></a></p>
+  <p id="idLSrcdalgcodenam">name::
     <br>* McshEngl.Pgmg_lago-code.source,
     <br>* McshEngl.Srcd_lago'source-code,
-    <br>* McshEngl.Srcd_lago-algo'source-code,
+    <br>* McshEngl.Srcdalgo'source-code,
     <br>* McshEngl.source-code,
-    <a class="clsHide" href="#idLsrcalgcodenam"></a></p>
+    <a class="clsHide" href="#idLSrcdalgcodenam"></a></p>
   </section>
 
-  <section id="idLsrcalgcdm">
-  <h3 id="idLsrcalgcdmH3">codomain of Srcd_lago-algo
-    <a class="clsHide" href="#idLsrcalgcdmH3"></a></h3>
-  <p id="idLsrcalgcdmdsn">description::
+  <section id="idLSrcdalgcdm">
+  <h3 id="idLSrcdalgcdmH3">codomain of Srcdalgo
+    <a class="clsHide" href="#idLSrcdalgcdmH3"></a></h3>
+  <p id="idLSrcdalgcdmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· codomain of Srcd_lago is the-set of all algorithms that produces.
-    <a class="clsHide" href="#idLsrcalgcdmdsn"></a></p>
-  <p id="idLsrcalgcdmnam">name::
+    <a class="clsHide" href="#idLSrcdalgcdmdsn"></a></p>
+  <p id="idLSrcdalgcdmnam">name::
     <br>* McshEngl.Srcd_lago'codomain,
-    <br>* McshEngl.Srcd_lago-algo'codomain,
-    <a class="clsHide" href="#idLsrcalgcdmnam"></a></p>
+    <br>* McshEngl.Srcdalgo'codomain,
+    <a class="clsHide" href="#idLSrcdalgcdmnam"></a></p>
   </section>
 
-  <section id="idLsrcalgsxtr">
-  <h3 id="idLsrcalgsxtrH3">syntax-tree of Srcd_lago-algo
-    <a class="clsHide" href="#idLsrcalgsxtrH3"></a></h3>
-  <p id="idLsrcalgsxtrdsn">description::
+  <section id="idLSrcdalgsxtr">
+  <h3 id="idLSrcdalgsxtrH3">syntax-tree of Srcdalgo
+    <a class="clsHide" href="#idLSrcdalgsxtrH3"></a></h3>
+  <p id="idLSrcdalgsxtrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· syntax-tree of Srcd_lago[a] is the-whole-part-tree of <a class="clsPreview" href="#idLsrcalgnode">output-structures</a> of its[a] <a class="clsPreview" href="#idLsrcalg">algo</a>.
-    <a class="clsHide" href="#idLsrcalgsxtrdsn"></a></p>
-  <p id="idLsrcalgsxtrnam">name::
+    <br>· syntax-tree of Srcd_lago[a] is the-whole-part-tree of <a class="clsPreview" href="#idLSrcdalgnode">output-structures</a> of its[a] <a class="clsPreview" href="#idLSrcdalg">algo</a>.
+    <a class="clsHide" href="#idLSrcdalgsxtrdsn"></a></p>
+  <p id="idLSrcdalgsxtrnam">name::
     <br>* McshEngl.Srcd_lago'output-syntax-tree,
-    <br>* McshEngl.Srcd_lago-algo'syntax-tree,
-    <a class="clsHide" href="#idLsrcalgsxtrnam"></a></p>
+    <br>* McshEngl.Srcdalgo'syntax-tree,
+    <a class="clsHide" href="#idLSrcdalgsxtrnam"></a></p>
   </section>
 
-  <section id="idLsrcalgfile">
-  <h3 id="idLsrcalgfileH3">file of Srcd_lago-algo
-    <a class="clsHide" href="#idLsrcalgfileH3"></a></h3>
-  <p id="idLsrcalgfiledsn">description::
+  <section id="idLSrcdalgfile">
+  <h3 id="idLSrcdalgfileH3">file of Srcdalgo
+    <a class="clsHide" href="#idLSrcdalgfileH3"></a></h3>
+  <p id="idLSrcdalgfiledsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· the-algos are-stored in files.
-    <a class="clsHide" href="#idLsrcalgfiledsn"></a></p>
-  <p id="idLsrcalgfilenam">name::
+    <a class="clsHide" href="#idLSrcdalgfiledsn"></a></p>
+  <p id="idLSrcdalgfilenam">name::
     <br>* McshEngl.Srcd_lago'output-file,
-    <br>* McshEngl.Srcd_lago-algo'file,
-    <a class="clsHide" href="#idLsrcalgfilenam"></a></p>
+    <br>* McshEngl.Srcdalgo'file,
+    <a class="clsHide" href="#idLSrcdalgfilenam"></a></p>
   </section>
   </section>
 
-  <section id="idLsrcalgnode">
-  <h2 id="idLsrcalgnodeH2">Calgonode of Srcd_lago
-    <a class="clsHide" href="#idLsrcalgnodeH2"></a></h2>
-  <p id="idLsrcalgnodedsn">description::
+  <section id="idLSrcdalgnode">
+  <h2 id="idLSrcdalgnodeH2">Calgonode of Srcd_lago
+    <a class="clsHide" href="#idLSrcdalgnodeH2"></a></h2>
+  <p id="idLSrcdalgnodedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· output-structure of Srcd_lago[a] is any identifiable part of its[a] <a class="clsPreview" href="#idLsrcalg">algo</a>.
-    <a class="clsHide" href="#idLsrcalgnodedsn"></a></p>
-  <p id="idLsrcalgnodenam">name::
+    <br>· output-structure of Srcd_lago[a] is any identifiable part of its[a] <a class="clsPreview" href="#idLSrcdalg">algo</a>.
+    <a class="clsHide" href="#idLSrcdalgnodedsn"></a></p>
+  <p id="idLSrcdalgnodenam">name::
     <br>* McshEngl.Srcd_lago'output-node!⇒Srcd_lago-node,
     <br>* McshEngl.Srcd_lago'output-structure!⇒Srcd_lago-node,
-    <br>* McshEngl.Srcd_lago-algo'structure!⇒Srcd_lago-node,
+    <br>* McshEngl.Srcdalgo'structure!⇒Srcd_lago-node,
     <br>* McshEngl.Srcd_lago-node,
-    <a class="clsHide" href="#idLsrcalgnodenam"></a></p>
+    <a class="clsHide" href="#idLSrcdalgnodenam"></a></p>
 
-  <section id="idLsrcalgnodegstr">
-  <h3 id="idLsrcalgnodegstrH3">GENERIC-SPECIFIC-TREE of Srcd_lago-node
-    <a class="clsHide" href="#idLsrcalgnodegstrH3"></a></h3>
-  <p id="idLsrcalgnodegstrdsn">description::
+  <section id="idLSrcdalgnodegstr">
+  <h3 id="idLSrcdalgnodegstrH3">GENERIC-SPECIFIC-TREE of Srcd_lago-node
+    <a class="clsHide" href="#idLSrcdalgnodegstrH3"></a></h3>
+  <p id="idLSrcdalgnodegstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLsrcalgnodegstrdsn"></a></p>
-  <p id="idLsrcalgnodegstrnam">name::
+    <a class="clsHide" href="#idLSrcdalgnodegstrdsn"></a></p>
+  <p id="idLSrcdalgnodegstrnam">name::
     <br>* McshEngl.Srcd_lago-node'generic-specific-tree,
     <br>* McshEngl.Srcd_lago-node'specific-generic-tree,
-    <a class="clsHide" href="#idLsrcalgnodegstrnam"></a></p>
-  <p id="idLsrcalgnodegtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdalgnodegstrnam"></a></p>
+  <p id="idLSrcdalgnodegtr">generic-tree::
     <br>* McshEngl.Srcd_lago-node-Gntr,
     <br>===
     <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idLsrcalgnodegtr"></a></p>
-  <p id="idLsrcalgnodestr">specific-tree::
+    <a class="clsHide" href="#idLSrcdalgnodegtr"></a></p>
+  <p id="idLSrcdalgnodestr">specific-tree::
     <br>* McshEngl.Srcd_lago-node.specific,
     <br>* McshEngl.Srcd_lago-node-Sptr,
     <br>===
@@ -2010,345 +2016,364 @@
     <br>===
     <br>* named-node,
     <br>* namedNo-node,
-    <a class="clsHide" href="#idLsrcalgnodestr"></a></p>
+    <a class="clsHide" href="#idLSrcdalgnodestr"></a></p>
   </section>
 
 
-  <section id="idLsrcalgnodeNmd">
-  <h3 id="idLsrcalgnodeNmdH3">node.named of Srcd_lago-algo
-    <a class="clsHide" href="#idLsrcalgnodeNmdH3"></a></h3>
-  <p id="idLsrcalgnodeNmddsn">description::
+  <section id="idLSrcdalgnodeNmd">
+  <h3 id="idLSrcdalgnodeNmdH3">node.named of Srcdalgo
+    <a class="clsHide" href="#idLSrcdalgnodeNmdH3"></a></h3>
+  <p id="idLSrcdalgnodeNmddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· named-node of Srcd_lago is <a class="clsPreview" href="#idLsrcalgnode">a-node</a>[a] with <a class="clsPreview" href="#idLsrcwrdIdfr">an-identifier</a> associated with it[a].
-    <a class="clsHide" href="#idLsrcalgnodeNmddsn"></a></p>
-  <p id="idLsrcalgnodeNmdnam">name::
+    <br>· named-node of Srcd_lago is <a class="clsPreview" href="#idLSrcdalgnode">a-node</a>[a] with <a class="clsPreview" href="#idLSrcdwrdIdfr">an-identifier</a> associated with it[a].
+    <a class="clsHide" href="#idLSrcdalgnodeNmddsn"></a></p>
+  <p id="idLSrcdalgnodeNmdnam">name::
     <br>* McshEngl.named--Srcd_lago-node,
     <br>* McshEngl.Srcd_lago-node.named,
-    <a class="clsHide" href="#idLsrcalgnodeNmdnam"></a></p>
+    <a class="clsHide" href="#idLSrcdalgnodeNmdnam"></a></p>
   </section>
 
-  <section id="idLsrcalgnodeNmdN">
-  <h3 id="idLsrcalgnodeNmdNH3">node.namedNo of Srcd_lago-algo
-    <a class="clsHide" href="#idLsrcalgnodeNmdNH3"></a></h3>
-  <p id="idLsrcalgnodeNmdNdsn">description::
+  <section id="idLSrcdalgnodeNmdN">
+  <h3 id="idLSrcdalgnodeNmdNH3">node.namedNo of Srcdalgo
+    <a class="clsHide" href="#idLSrcdalgnodeNmdNH3"></a></h3>
+  <p id="idLSrcdalgnodeNmdNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· namedNo-node of Srcd_lago is <a class="clsPreview" href="#idLsrcalgnode">a-node</a>[a] without <a class="clsPreview" href="#idLsrcwrdIdfr">an-identifier</a> associated with it[a].
-    <a class="clsHide" href="#idLsrcalgnodeNmdNdsn"></a></p>
-  <p id="idLsrcalgnodeNmdNnam">name::
+    <br>· namedNo-node of Srcd_lago is <a class="clsPreview" href="#idLSrcdalgnode">a-node</a>[a] without <a class="clsPreview" href="#idLSrcdwrdIdfr">an-identifier</a> associated with it[a].
+    <a class="clsHide" href="#idLSrcdalgnodeNmdNdsn"></a></p>
+  <p id="idLSrcdalgnodeNmdNnam">name::
     <br>* McshEngl.namedNo--agSrc-node,
     <br>* McshEngl.Srcd_lago-node.namedNo,
-    <a class="clsHide" href="#idLsrcalgnodeNmdNnam"></a></p>
+    <a class="clsHide" href="#idLSrcdalgnodeNmdNnam"></a></p>
   </section>
   </section>
 
-  <section id="idLsrcunt">
-  <h2 id="idLsrcuntH2">Cmpralgo'unit of Srcd_lago
-    <a class="clsHide" href="#idLsrcuntH2"></a></h2>
-  <p id="idLsrcuntdsn">description::
+  <section id="idLSrcdunt">
+  <h2 id="idLSrcduntH2">Cmpralgo'unit of Srcd_lago
+    <a class="clsHide" href="#idLSrcduntH2"></a></h2>
+  <p id="idLSrcduntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· output-unit of Srcd_lago[a] is any indivisible part of its[a] <a class="clsPreview" href="#idLsrcalg">algo</a>.
-    <a class="clsHide" href="#idLsrcuntdsn"></a></p>
-  <p id="idLsrcuntnam">name::
+    <br>· output-unit of Srcd_lago[a] is any indivisible part of its[a] <a class="clsPreview" href="#idLSrcdalg">algo</a>.
+    <a class="clsHide" href="#idLSrcduntdsn"></a></p>
+  <p id="idLSrcduntnam">name::
     <br>* McshEngl.Srcd_lago'output-unit,
     <br>* McshEngl.Srcd_lago'unit,
-    <br>* McshEngl.Srcd_lago-algo'unit,
+    <br>* McshEngl.Srcdalgo'unit,
     <br>* McshEngl.Srcd_lago-node.unit,
     <br>* McshEngl.Srcd_lago-unit,
-    <a class="clsHide" href="#idLsrcuntnam"></a></p>
-  <p id="idLsrcuntgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcduntnam"></a></p>
+  <p id="idLSrcduntgtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmalgunt">unit-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcuntgtr"></a></p>
-  <p id="idLsrcuntstr">specific::
+    <a class="clsHide" href="#idLSrcduntgtr"></a></p>
+  <p id="idLSrcduntstr">specific::
     <br>* white-space,
-    <a class="clsHide" href="#idLsrcuntstr"></a></p>
+    <a class="clsHide" href="#idLSrcduntstr"></a></p>
   </section>
 
-  <section id="idLsrcwrd">
-  <h2 id="idLsrcwrdH2">Cmpralgo'word of Srcd_lago
-    <a class="clsHide" href="#idLsrcwrdH2"></a></h2>
-  <p id="idLsrcwrddsn">description::
+  <section id="idLSrcdwrd">
+  <h2 id="idLSrcdwrdH2">Cmpralgo'word of Srcd_lago
+    <a class="clsHide" href="#idLSrcdwrdH2"></a></h2>
+  <p id="idLSrcdwrddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· output-word of Srcd_lago is a-structure of <a class="clsPreview" href="#idLsrcunt">units</a> the-language uses to create more compound algo-structures.
-    <a class="clsHide" href="#idLsrcwrddsn"></a></p>
-  <p id="idLsrcwrdnam">name::
+    <br>· output-word of Srcd_lago is a-structure of <a class="clsPreview" href="#idLSrcdunt">units</a> the-language uses to create more compound algo-structures.
+    <a class="clsHide" href="#idLSrcdwrddsn"></a></p>
+  <p id="idLSrcdwrdnam">name::
     <br>* McshEngl.Srcd_lago'output-word!⇒Srcd_lago-word,
     <br>* McshEngl.Srcd_lago'word!⇒Srcd_lago-word,
-    <br>* McshEngl.Srcd_lago-algo'word!⇒Srcd_lago-word,
+    <br>* McshEngl.Srcdalgo'word!⇒Srcd_lago-word,
     <br>* McshEngl.Srcd_lago-node.word!⇒Srcd_lago-word,
     <br>* McshEngl.Srcd_lago-word,
-    <a class="clsHide" href="#idLsrcwrdnam"></a></p>
-  <p id="idLsrcwrdgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdwrdnam"></a></p>
+  <p id="idLSrcdwrdgtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmalgwrd">word-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcwrdgtr"></a></p>
-  <p id="idLsrcwrdstr">specific::
-    <br>* <a class="clsPreview" href="#idLsrcwrdIdfr">identifier</a>,
-    <br>* <a class="clsPreview" href="#idLsrcwrdRsvd">keyword</a>,
-    <a class="clsHide" href="#idLsrcwrdstr"></a></p>
+    <a class="clsHide" href="#idLSrcdwrdgtr"></a></p>
+  <p id="idLSrcdwrdstr">specific::
+    <br>* <a class="clsPreview" href="#idLSrcdwrdIdfr">identifier</a>,
+    <br>* <a class="clsPreview" href="#idLSrcdwrdRsvd">keyword</a>,
+    <a class="clsHide" href="#idLSrcdwrdstr"></a></p>
 
-  <section id="idLsrcwrdIdfr">
-  <h3 id="idLsrcwrdIdfrH3">word.identifier of Srcd_lago
-    <a class="clsHide" href="#idLsrcwrdIdfrH3"></a></h3>
-  <p id="idLsrcwrdIdfrdsn">description::
+  <section id="idLSrcdwrdIdfr">
+  <h3 id="idLSrcdwrdIdfrH3">word.identifier of Srcd_lago
+    <a class="clsHide" href="#idLSrcdwrdIdfrH3"></a></h3>
+  <p id="idLSrcdwrdIdfrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· identifier of Srcd_lago is <a class="clsPreview" href="#idLsrcwrd">a-word</a>, not a-keyword, that folows concrete rules to be-constructed and used to construct <a class="clsPreview" href="#idLsrcalgnodeNmd">named-algo-nodes</a>.
-    <a class="clsHide" href="#idLsrcwrdIdfrdsn"></a></p>
-  <p id="idLsrcwrdIdfrnam">name::
+    <br>· identifier of Srcd_lago is <a class="clsPreview" href="#idLSrcdwrd">a-word</a>, not a-keyword, that folows concrete rules to be-constructed and used to construct <a class="clsPreview" href="#idLSrcdalgnodeNmd">named-algo-nodes</a>.
+    <a class="clsHide" href="#idLSrcdwrdIdfrdsn"></a></p>
+  <p id="idLSrcdwrdIdfrnam">name::
     <br>* McshEngl.identifier-of-Srcd_lago!⇒Srcd_lago-identifier,
     <br>* McshEngl.Srcd_lago'identifier!⇒Srcd_lago-identifier,
     <br>* McshEngl.Srcd_lago-identifier,
     <br>* McshEngl.Srcd_lago-word.identifier!⇒Srcd_lago-identifier,
-    <a class="clsHide" href="#idLsrcwrdIdfrnam"></a></p>
+    <a class="clsHide" href="#idLSrcdwrdIdfrnam"></a></p>
 
-  <section id="idLsrcwrdIdfrnmcvn">
-  <h4 id="idLsrcwrdIdfrnmcvnH4">naming-convention of identifier
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnH4"></a></h4>
-  <p id="idLsrcwrdIdfrnmcvndsn">description::
+  <section id="idLSrcdwrdIdfrnmcvn">
+  <h4 id="idLSrcdwrdIdfrnmcvnH4">naming-convention of identifier
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnH4"></a></h4>
+  <p id="idLSrcdwrdIdfrnmcvndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· source-code-languages use misc naming conventsions to form identifiers.
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvndsn"></a></p>
-  <p id="idLsrcwrdIdfrnmcvnnam">name::
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvndsn"></a></p>
+  <p id="idLSrcdwrdIdfrnmcvnnam">name::
     <br>* McshEngl.Srcd_lago'naming-convention!⇒Srcd_lago-naming-convention,
     <br>* McshEngl.Srcd_lago-identifier'naming-convention!⇒Srcd_lago-naming-convention,
     <br>* McshEngl.Srcd_lago-naming-convention,
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnnam"></a></p>
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnnam"></a></p>
 
-  <section id="idLsrcwrdIdfrnmcvngstr">
-  <h5 id="idLsrcwrdIdfrnmcvngstrH5">GENERIC-SPECIFIC-TREE of Srcd_lago-naming-convention
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvngstrH5"></a></h5>
-  <p id="idLsrcwrdIdfrnmcvngstrdsn">description::
+  <section id="idLSrcdwrdIdfrnmcvngstr">
+  <h5 id="idLSrcdwrdIdfrnmcvngstrH5">GENERIC-SPECIFIC-TREE of Srcd_lago-naming-convention
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvngstrH5"></a></h5>
+  <p id="idLSrcdwrdIdfrnmcvngstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvngstrdsn"></a></p>
-  <p id="idLsrcwrdIdfrnmcvngstrnam">name::
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvngstrdsn"></a></p>
+  <p id="idLSrcdwrdIdfrnmcvngstrnam">name::
     <br>* McshEngl.Srcd_lago-naming-convention'generic-specific-tree,
     <br>* McshEngl.Srcd_lago-naming-convention'specific-generic-tree,
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvngstrnam"></a></p>
-  <p id="idLsrcwrdIdfrnmcvngtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvngstrnam"></a></p>
+  <p id="idLSrcdwrdIdfrnmcvngtr">generic-tree::
     <br>* McshEngl.Srcd_lago-naming-convention-Gntr,
     <br>===
     <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvngtr"></a></p>
-  <p id="idLsrcwrdIdfrnmcvnstr">specific-tree::
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvngtr"></a></p>
+  <p id="idLSrcdwrdIdfrnmcvnstr">specific-tree::
     <br>* McshEngl.Srcd_lago-naming-convention.specific,
     <br>* McshEngl.Srcd_lago-naming-convention-Sptr,
     <br>===
     <br>* camel-case--naming-convention,
     <br>* snake-case--naming-convention,
     <br>* Hungarian-case--naming-convention,
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnstr"></a></p>
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnstr"></a></p>
   </section>
 
 
-  <section id="idLsrcwrdIdfrnmcvnHgn">
-  <h5 id="idLsrcwrdIdfrnmcvnHgnH5">naming-convention.Hungarian of Srcd_lago
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnHgnH5"></a></h5>
-  <p id="idLsrcwrdIdfrnmcvnHgndsn">description::
+  <section id="idLSrcdwrdIdfrnmcvnHgn">
+  <h5 id="idLSrcdwrdIdfrnmcvnHgnH5">naming-convention.Hungarian of Srcd_lago
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnHgnH5"></a></h5>
+  <p id="idLSrcdwrdIdfrnmcvnHgndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· Hungarian--naming-convention of Srcd_lago is <a class="clsPreview" href="#idLsrcwrdIdfrnmcvn">the-convention</a> of writing identifiers with a-prefix denoting the-type or other attribute of the-identifier.
+    <br>· Hungarian--naming-convention of Srcd_lago is <a class="clsPreview" href="#idLSrcdwrdIdfrnmcvn">the-convention</a> of writing identifiers with a-prefix denoting the-type or other attribute of the-identifier.
     <br>· the-name of the-notation[a] is a-reference to its[a] inventor Charls-Simonyi's nation of origin, Hungary.
     <br>· Hungarian-people's-names are "reversed" compared to most other European-names, the-family-name precedes the-given-name.
     <br>[https://en.wikipedia.org/wiki/Hungarian_notation]
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnHgndsn"></a></p>
-  <p id="idLsrcwrdIdfrnmcvnHgnnam">name::
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnHgndsn"></a></p>
+  <p id="idLSrcdwrdIdfrnmcvnHgnnam">name::
     <br>* McshEngl.Hungarian--Srcd_lago-naming-convention,
     <br>* McshEngl.Srcd_lago-naming-convention.Hungarian,
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnHgnnam"></a></p>
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnHgnnam"></a></p>
   </section>
 
-  <section id="idLsrcwrdIdfrnmcvnCml">
-  <h5 id="idLsrcwrdIdfrnmcvnCmlH5">naming-convention.camel-case of Srcd_lago
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnCmlH5"></a></h5>
-  <p id="idLsrcwrdIdfrnmcvnCmldsn">description::
+  <section id="idLSrcdwrdIdfrnmcvnCml">
+  <h5 id="idLSrcdwrdIdfrnmcvnCmlH5">naming-convention.camel-case of Srcd_lago
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnCmlH5"></a></h5>
+  <p id="idLSrcdwrdIdfrnmcvnCmldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· camel-case--naming-convention of Srcd_lago is <a class="clsPreview" href="#idLsrcwrdIdfrnmcvn">the-convention</a> of writing multi-word identifier with no space but with capital the-first letter of words, eg camelCase or CamelCase.
+    <br>· camel-case--naming-convention of Srcd_lago is <a class="clsPreview" href="#idLSrcdwrdIdfrnmcvn">the-convention</a> of writing multi-word identifier with no space but with capital the-first letter of words, eg camelCase or CamelCase.
     <br>[https://en.wikipedia.org/wiki/Camel_case]
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnCmldsn"></a></p>
-  <p id="idLsrcwrdIdfrnmcvnCmlnam">name::
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnCmldsn"></a></p>
+  <p id="idLSrcdwrdIdfrnmcvnCmlnam">name::
     <br>* McshEngl.camel-case--Srcd_lago-naming-convention,
     <br>* McshEngl.Srcd_lago-naming-convention.camel-case,
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnCmlnam"></a></p>
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnCmlnam"></a></p>
   </section>
 
-  <section id="idLsrcwrdIdfrnmcvnSnk">
-  <h5 id="idLsrcwrdIdfrnmcvnSnkH5">naming-convention.snake-case of Srcd_lago
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnSnkH5"></a></h5>
-  <p id="idLsrcwrdIdfrnmcvnSnkdsn">description::
+  <section id="idLSrcdwrdIdfrnmcvnSnk">
+  <h5 id="idLSrcdwrdIdfrnmcvnSnkH5">naming-convention.snake-case of Srcd_lago
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnSnkH5"></a></h5>
+  <p id="idLSrcdwrdIdfrnmcvnSnkdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· snake-case--naming-convention of Srcd_lago is <a class="clsPreview" href="#idLsrcwrdIdfrnmcvn">the-convention</a> of writing multi-word identifiers separated with <a class="clsPreview" href="../dirUcd/McshUcdU0000.last.html#idU0000U005F">the-underscore-(_ LOW-LINE)-char</a>.
+    <br>· snake-case--naming-convention of Srcd_lago is <a class="clsPreview" href="#idLSrcdwrdIdfrnmcvn">the-convention</a> of writing multi-word identifiers separated with <a class="clsPreview" href="../dirUcd/McshUcdU0000.last.html#idU0000U005F">the-underscore-(_ LOW-LINE)-char</a>.
     <br>[https://en.wikipedia.org/wiki/Snake_case]
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnSnkdsn"></a></p>
-  <p id="idLsrcwrdIdfrnmcvnSnknam">name::
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnSnkdsn"></a></p>
+  <p id="idLSrcdwrdIdfrnmcvnSnknam">name::
     <br>* McshEngl.Srcd_lago-naming-convention.snake-case,
     <br>* McshEngl.snake-case--Srcd_lago-naming-convention,
-    <a class="clsHide" href="#idLsrcwrdIdfrnmcvnSnknam"></a></p>
+    <a class="clsHide" href="#idLSrcdwrdIdfrnmcvnSnknam"></a></p>
   </section>
   </section>
   </section>
 
-  <section id="idLsrcwrdRsvd">
-  <h3 id="idLsrcwrdRsvdH3">word.keyword of Srcd_lago
-    <a class="clsHide" href="#idLsrcwrdRsvdH3"></a></h3>
-  <p id="idLsrcwrdRsvddsn">description::
+  <section id="idLSrcdwrdRsvd">
+  <h3 id="idLSrcdwrdRsvdH3">word.keyword of Srcd_lago
+    <a class="clsHide" href="#idLSrcdwrdRsvdH3"></a></h3>
+  <p id="idLSrcdwrdRsvddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· source-keyword is <a class="clsPreview" href="#idLsrcwrd">a-word</a> reserved by <a class="clsPreview" href="#idLsrc">the-language</a> to construct <a class="clsPreview" href="#idLsrcalgnode">algo-nodes</a>.
-    <a class="clsHide" href="#idLsrcwrdRsvddsn"></a></p>
-  <p id="idLsrcwrdRsvdnam">name::
+    <br>· source-keyword is <a class="clsPreview" href="#idLSrcdwrd">a-word</a> reserved by <a class="clsPreview" href="#idLSrcd">the-language</a> to construct <a class="clsPreview" href="#idLSrcdalgnode">algo-nodes</a>.
+    <a class="clsHide" href="#idLSrcdwrdRsvddsn"></a></p>
+  <p id="idLSrcdwrdRsvdnam">name::
     <br>* McshEngl.keyword-of-Srcd_lago,
     <br>* McshEngl.Srcd_lago-keyword,
     <br>* McshEngl.Srcd_lago-word.keyword,
     <br>* McshEngl.Srcd_lago-word.reserved,
     <br>* McshEngl.source-keyword--of-Srcd_lago,
-    <a class="clsHide" href="#idLsrcwrdRsvdnam"></a></p>
+    <a class="clsHide" href="#idLSrcdwrdRsvdnam"></a></p>
   </section>
   </section>
 
-  <section id="idLsrcsunt">
-  <h2 id="idLsrcsuntH2">Cmpralgo'semantic-unit of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntH2"></a></h2>
-  <p id="idLsrcsuntdsn">description::
+  <section id="idLSrcdsunt">
+  <h2 id="idLSrcdsuntH2">Cmpralgo'semantic-unit of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntH2"></a></h2>
+  <p id="idLSrcdsuntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· semantic-unit of Srcd_lago[a] is an-indivisible part of its[a] <a class="clsPreview" href="#idLsrcalg">algo</a> that DENOTES <a class="clsPreview" href="#idLsrcarchcd">archo-code</a>.
-    <a class="clsHide" href="#idLsrcsuntdsn"></a></p>
-  <p id="idLsrcsuntnam">name::
+    <br>· semantic-unit of Srcd_lago[a] is an-indivisible part of its[a] <a class="clsPreview" href="#idLSrcdalg">algo</a> that DENOTES <a class="clsPreview" href="#idLSrcdarchcd">archo-code</a>.
+    <a class="clsHide" href="#idLSrcdsuntdsn"></a></p>
+  <p id="idLSrcdsuntnam">name::
     <br>* McshEngl.Srcd_lago'semantic-unit!⇒Srcd_lago-Sunt,
-    <br>* McshEngl.Srcd_lago-algo'semantic-unit!⇒Srcd_lago-Sunt,
+    <br>* McshEngl.Srcdalgo'semantic-unit!⇒Srcd_lago-Sunt,
     <br>* McshEngl.Srcd_lago-node.semantic-unit!⇒Srcd_lago-Sunt,
     <br>* McshEngl.Srcd_lago-semantic-unit!⇒Srcd_lago-Sunt,
     <br>* McshEngl.Srcd_lago-Sunt,
-    <a class="clsHide" href="#idLsrcsuntnam"></a></p>
-  <p id="idLsrcsuntgtr">generic-tree::
-    <br>* <a class="clsPreview" href="#idLCpgmalgsunt">sem-unit-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcsuntgtr"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntnam"></a></p>
 
-  <section id="idLsrcsuntstr">
-  <h3 id="idLsrcsuntstrH3">Sunt.SPECIFIC of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntstrH3"></a></h3>
-  <p id="idLsrcsuntstrdsn">description::
+  <section id="idLSrcdsuntgstr">
+  <h3 id="idLSrcdsuntgstrH3">GENERIC-SPECIFIC-TREE of Srcd_lago-Sunt
+    <a class="clsHide" href="#idLSrcdsuntgstrH3"></a></h3>
+  <p id="idLSrcdsuntgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLSrcdsuntgstrdsn"></a></p>
+  <p id="idLSrcdsuntgstrnam">name::
+    <br>* McshEngl.Srcd_lago-Sunt'generic-specific-tree,
+    <br>* McshEngl.Srcd_lago-Sunt'specific-generic-tree,
+    <a class="clsHide" href="#idLSrcdsuntgstrnam"></a></p>
+  <p id="idLSrcdsuntgtr">generic-tree::
+    <br>* <a class="clsPreview" href="#idLCpgmalgsunt">sem-unit-of-Pgmg_lago</a>,
+    <a class="clsHide" href="#idLSrcdsuntgtr"></a></p>
+  <p id="idLSrcdsuntstr">specific-tree::
+    <br>* McshEngl.Srcd_lago-Sunt.specific,
+    <br>* McshEngl.Srcd_lago-Sunt-Sptr,
+    <br>===
     <br>* compound--Srcd_lago-Sunt,
     <br>* compoundNo--Srcd_lago-Sunt,
     <br>* instance--Srcd_lago-Sunt,
     <br>* instanceNo--Srcd_lago-Sunt,
     <br>* named--Srcd_lago-Sunt,
     <br>* namedNo--Srcd_lago-Sunt,
-    <a class="clsHide" href="#idLsrcsuntstrdsn"></a></p>
-  <p id="idLsrcsuntstrnam">name::
-    <br>* McshEngl.Srcd_lago-Sunt.specific,
-    <br>* McshEngl.Srcd_lago-Sunt-Sptr,
-    <a class="clsHide" href="#idLsrcsuntstrnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntstr"></a></p>
   </section>
 
-  <section id="idLsrcsuntCh">
-  <h3 id="idLsrcsuntChH3">Sunt.character (ch) of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntChH3"></a></h3>
-  <p id="idLsrcsuntChdsn">description::
+  <section id="idLSrcdsuntCh">
+  <h3 id="idLSrcdsuntChH3">Sunt.character (ch) of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntChH3"></a></h3>
+  <p id="idLSrcdsuntChdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· character is a-SINGLE written-human-unit.
     <br>· strings are a-collection of characters.
     <br>· in <a class="clsPreview" href="#idLbnralgcode">binary-code</a> Java uses 16 bit to represent them, Rust 32 bit.
-    <a class="clsHide" href="#idLsrcsuntChdsn"></a></p>
-  <p id="idLsrcsuntChnam">name::
+    <a class="clsHide" href="#idLSrcdsuntChdsn"></a></p>
+  <p id="idLSrcdsuntChnam">name::
     <br>* McshEngl.Srcd_lago'character!⇒Srcd_lago-ch,
     <br>* McshEngl.Srcd_lago-Sunt.character!⇒Srcd_lago-ch,
     <br>* McshEngl.Srcd_lago-ch,
-    <a class="clsHide" href="#idLsrcsuntChnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntChnam"></a></p>
 
-  <section id="idLsrcsuntChgstr">
-  <h4 id="idLsrcsuntChgstrH4">GENERIC-SPECIFIC-TREE of Srcd_lago-ch
-    <a class="clsHide" href="#idLsrcsuntChgstrH4"></a></h4>
-  <p id="idLsrcsuntChgstrdsn">description::
+  <section id="idLSrcdsuntChgstr">
+  <h4 id="idLSrcdsuntChgstrH4">GENERIC-SPECIFIC-TREE of Srcd_lago-ch
+    <a class="clsHide" href="#idLSrcdsuntChgstrH4"></a></h4>
+  <p id="idLSrcdsuntChgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLsrcsuntChgstrdsn"></a></p>
-  <p id="idLsrcsuntChgstrnam">name::
+    <a class="clsHide" href="#idLSrcdsuntChgstrdsn"></a></p>
+  <p id="idLSrcdsuntChgstrnam">name::
     <br>* McshEngl.Srcd_lago-ch'generic-specific-tree,
     <br>* McshEngl.Srcd_lago-ch'specific-generic-tree,
-    <a class="clsHide" href="#idLsrcsuntChgstrnam"></a></p>
-  <p id="idLsrcsuntChgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdsuntChgstrnam"></a></p>
+  <p id="idLSrcdsuntChgtr">generic-tree::
     <br>* McshEngl.Srcd_lago-ch-Gntr,
     <br>===
     <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idLsrcsuntChgtr"></a></p>
-  <p id="idLsrcsuntChstr">specific-tree::
+    <a class="clsHide" href="#idLSrcdsuntChgtr"></a></p>
+  <p id="idLSrcdsuntChstr">specific-tree::
     <br>* McshEngl.Srcd_lago-ch.specific,
     <br>* McshEngl.Srcd_lago-ch-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000030.last.html#idLRustsuntCh">Rust-character</a>,
-    <a class="clsHide" href="#idLsrcsuntChstr"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntChstr"></a></p>
   </section>
 
   </section>
 
-  <section id="idLsrcsuntS">
-  <h3 id="idLsrcsuntSH3">Sunt.string (s) of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntSH3"></a></h3>
-  <p id="idLsrcsuntSdsn">description::
+  <section id="idLSrcdsuntS">
+  <h3 id="idLSrcdsuntSH3">Sunt.string (s) of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntSH3"></a></h3>
+  <p id="idLSrcdsuntSdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· strings are containers of human-written-code-(text).
-    <a class="clsHide" href="#idLsrcsuntSdsn"></a></p>
-  <p id="idLsrcsuntSnam">name::
+    <a class="clsHide" href="#idLSrcdsuntSdsn"></a></p>
+  <p id="idLSrcdsuntSnam">name::
     <br>* McshEngl.Srcd_lago'string!⇒Srcd_lago-s,
     <br>* McshEngl.Srcd_lago-Sunt.string!⇒Srcd_lago-s,
     <br>* McshEngl.Srcd_lago-s,
-    <a class="clsHide" href="#idLsrcsuntSnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntSnam"></a></p>
 
-  <section id="idLsrcsuntSgstr">
-  <h4 id="idLsrcsuntSgstrH4">GENERIC-SPECIFIC-TREE of Srcd_lago-s
-    <a class="clsHide" href="#idLsrcsuntSgstrH4"></a></h4>
-  <p id="idLsrcsuntSgstrdsn">description::
+  <section id="idLSrcdsuntSgstr">
+  <h4 id="idLSrcdsuntSgstrH4">GENERIC-SPECIFIC-TREE of Srcd_lago-s
+    <a class="clsHide" href="#idLSrcdsuntSgstrH4"></a></h4>
+  <p id="idLSrcdsuntSgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLsrcsuntSgstrdsn"></a></p>
-  <p id="idLsrcsuntSgstrnam">name::
+    <a class="clsHide" href="#idLSrcdsuntSgstrdsn"></a></p>
+  <p id="idLSrcdsuntSgstrnam">name::
     <br>* McshEngl.Srcd_lago-s'generic-specific-tree,
     <br>* McshEngl.Srcd_lago-s'specific-generic-tree,
-    <a class="clsHide" href="#idLsrcsuntSgstrnam"></a></p>
-  <p id="idLsrcsuntSgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdsuntSgstrnam"></a></p>
+  <p id="idLSrcdsuntSgtr">generic-tree::
     <br>* McshEngl.Srcd_lago-s-Gntr,
     <br>===
     <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idLsrcsuntSgtr"></a></p>
-  <p id="idLsrcsuntSstr">specific-tree::
+    <a class="clsHide" href="#idLSrcdsuntSgtr"></a></p>
+  <p id="idLSrcdsuntSstr">specific-tree::
     <br>* McshEngl.Srcd_lago-s.specific,
     <br>* McshEngl.Srcd_lago-s-Sptr,
     <br>===
     <br>* C++-string,
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLjsgns">Javascript-string</a>,
     <br>* Rust-string,
-    <a class="clsHide" href="#idLsrcsuntSstr"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntSstr"></a></p>
   </section>
 
   </section>
 
-  <section id="idLsrcsuntB">
-  <h3 id="idLsrcsuntBH3">Sunt.boolean (b) of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntBH3"></a></h3>
-  <p id="idLsrcsuntBdsn">description::
+  <section id="idLSrcdsuntB">
+  <h3 id="idLSrcdsuntBH3">Sunt.boolean (b) of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntBH3"></a></h3>
+  <p id="idLSrcdsuntBdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· booleans of Srcd_lago are the-two Sunits <code>true</code> and <code>false</code> that denote the-same this with the-same human-code.
-    <a class="clsHide" href="#idLsrcsuntBdsn"></a></p>
-  <p id="idLsrcsuntBnam">name::
+    <a class="clsHide" href="#idLSrcdsuntBdsn"></a></p>
+  <p id="idLSrcdsuntBnam">name::
     <br>* McshEngl.Srcd_lago'boolean!⇒Srcd_lago-b,
     <br>* McshEngl.Srcd_lago-Sunt.boolean!⇒Srcd_lago-b,
     <br>* McshEngl.Srcd_lago-b,
-    <a class="clsHide" href="#idLsrcsuntBnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntBnam"></a></p>
   </section>
 
-  <section id="idLsrcsuntN">
-  <h3 id="idLsrcsuntNH3">Sunt.number (n) of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntNH3"></a></h3>
-  <p id="idLsrcsuntNdsn">description::
+  <section id="idLSrcdsuntN">
+  <h3 id="idLSrcdsuntNH3">Sunt.number (n) of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntNH3"></a></h3>
+  <p id="idLSrcdsuntNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· source-number of Srcd_lago is a-Sunt that denotes human-numbers.
-    <a class="clsHide" href="#idLsrcsuntNdsn"></a></p>
-  <p id="idLsrcsuntNnam">name::
+    <a class="clsHide" href="#idLSrcdsuntNdsn"></a></p>
+  <p id="idLSrcdsuntNnam">name::
     <br>* McshEngl.Srcd_lago'number!⇒Srcd_lago-n,
     <br>* McshEngl.Srcd_lago-Sunt.number!⇒Srcd_lago-n,
     <br>* McshEngl.Srcd_lago-n,
-    <a class="clsHide" href="#idLsrcsuntNnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntNnam"></a></p>
 
-  <section id="idLsrcsuntNstr">
-  <h4 id="idLsrcsuntNstrH4">number.SPECIFIC of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntNstrH4"></a></h4>
-  <p id="idLsrcsuntNstrdsn">description::
+  <section id="idLSrcdsuntNgstr">
+  <h4 id="idLSrcdsuntNgstrH4">GENERIC-SPECIFIC-TREE of Srcd_lago-n
+    <a class="clsHide" href="#idLSrcdsuntNgstrH4"></a></h4>
+  <p id="idLSrcdsuntNgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLSrcdsuntNgstrdsn"></a></p>
+  <p id="idLSrcdsuntNgstrnam">name::
+    <br>* McshEngl.Srcd_lago-n'generic-specific-tree,
+    <br>* McshEngl.Srcd_lago-n'specific-generic-tree,
+    <a class="clsHide" href="#idLSrcdsuntNgstrnam"></a></p>
+  <p id="idLSrcdsuntNgtr">generic-tree::
+    <br>* McshEngl.Srcd_lago-n-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLSrcdsuntNgtr"></a></p>
+  <p id="idLSrcdsuntNstr">specific-tree::
+    <br>* McshEngl.Srcd_lago-n.specific,
+    <br>* McshEngl.Srcd_lago-n-Sptr,
+    <br>===
     <br>* integer-number,
     <br>* integerNo-number,
     <br>* signed-number,
@@ -2356,79 +2381,75 @@
     <br>===
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000031.last.html#idLCppsuntNbr">C++-number</a>,
     <br>* Rust-number,
-    <a class="clsHide" href="#idLsrcsuntNstrdsn"></a></p>
-  <p id="idLsrcsuntNstrnam">name::
-    <br>* McshEngl.Srcd_lago-n.specific,
-    <br>* McshEngl.Srcd_lago-n-Sptr,
-    <a class="clsHide" href="#idLsrcsuntNstrnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntNstr"></a></p>
   </section>
   </section>
 
-  <section id="idLsrcsuntF">
-  <h3 id="idLsrcsuntFH3">Sunt.function (f) of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntFH3"></a></h3>
-  <p id="idLsrcsuntFdsn">description::
+  <section id="idLSrcdsuntF">
+  <h3 id="idLSrcdsuntFH3">Sunt.function (f) of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntFH3"></a></h3>
+  <p id="idLSrcdsuntFdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· source-function of Srcd_lago is <a class="clsPreview" href="#idLsrcsunt">a-semantic-unit</a> that PROCESS information.
-    <a class="clsHide" href="#idLsrcsuntFdsn"></a></p>
-  <p id="idLsrcsuntFnam">name::
+    <br>· source-function of Srcd_lago is <a class="clsPreview" href="#idLSrcdsunt">a-semantic-unit</a> that PROCESS information.
+    <a class="clsHide" href="#idLSrcdsuntFdsn"></a></p>
+  <p id="idLSrcdsuntFnam">name::
     <br>* McshEngl.Srcd_lago'function!⇒Srcd_lago-f,
     <br>* McshEngl.Srcd_lago-Sunt.function!⇒Srcd_lago-f,
     <br>* McshEngl.Srcd_lago-f,
-    <a class="clsHide" href="#idLsrcsuntFnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntFnam"></a></p>
 
-  <section id="idLsrcsuntFgstr">
-  <h4 id="idLsrcsuntFgstrH4">GENERIC-SPECIFIC-TREE of Srcd_lago-f
-    <a class="clsHide" href="#idLsrcsuntFgstrH4"></a></h4>
-  <p id="idLsrcsuntFgstrdsn">description::
+  <section id="idLSrcdsuntFgstr">
+  <h4 id="idLSrcdsuntFgstrH4">GENERIC-SPECIFIC-TREE of Srcd_lago-f
+    <a class="clsHide" href="#idLSrcdsuntFgstrH4"></a></h4>
+  <p id="idLSrcdsuntFgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLsrcsuntFgstrdsn"></a></p>
-  <p id="idLsrcsuntFgstrnam">name::
+    <a class="clsHide" href="#idLSrcdsuntFgstrdsn"></a></p>
+  <p id="idLSrcdsuntFgstrnam">name::
     <br>* McshEngl.Srcd_lago-f'generic-specific-tree,
     <br>* McshEngl.Srcd_lago-f'specific-generic-tree,
-    <a class="clsHide" href="#idLsrcsuntFgstrnam"></a></p>
-  <p id="idLsrcsuntFgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdsuntFgstrnam"></a></p>
+  <p id="idLSrcdsuntFgtr">generic-tree::
     <br>* McshEngl.Srcd_lago-f-Gntr,
     <br>===
     <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idLsrcsuntFgtr"></a></p>
-  <p id="idLsrcsuntFstr">specific-tree::
+    <a class="clsHide" href="#idLSrcdsuntFgtr"></a></p>
+  <p id="idLSrcdsuntFstr">specific-tree::
     <br>* McshEngl.Srcd_lago-f.specific,
     <br>* McshEngl.Srcd_lago-f-Sptr,
     <br>===
     <br>* operator,
-    <a class="clsHide" href="#idLsrcsuntFstr"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntFstr"></a></p>
   </section>
 
-  <section id="idLsrcsuntFOpr">
-  <h4 id="idLsrcsuntFOprH4">Srcd_lago-f.operator
-    <a class="clsHide" href="#idLsrcsuntFOprH4"></a></h4>
-  <p id="idLsrcsuntFOprdsn">description::
+  <section id="idLSrcdsuntFOpr">
+  <h4 id="idLSrcdsuntFOprH4">Srcd_lago-f.operator
+    <a class="clsHide" href="#idLSrcdsuntFOprH4"></a></h4>
+  <p id="idLSrcdsuntFOprdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· source-operator of Srcd_lago is a-special-function with syntax like math-operators.
-    <a class="clsHide" href="#idLsrcsuntFOprdsn"></a></p>
-  <p id="idLsrcsuntFOprnam">name::
+    <a class="clsHide" href="#idLSrcdsuntFOprdsn"></a></p>
+  <p id="idLSrcdsuntFOprnam">name::
     <br>* McshEngl.Srcd_lago'operator!⇒Srcd_lago-opr,
     <br>* McshEngl.Srcd_lago-f.operator!⇒Srcd_lago-opr,
     <br>* McshEngl.Srcd_lago-opr,
-    <a class="clsHide" href="#idLsrcsuntFOprnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntFOprnam"></a></p>
 
-  <section id="idLsrcsuntFOprgstr">
-  <h5 id="idLsrcsuntFOprgstrH5">GENERIC-SPECIFIC-TREE of Srcd_lago-opr
-    <a class="clsHide" href="#idLsrcsuntFOprgstrH5"></a></h5>
-  <p id="idLsrcsuntFOprgstrdsn">description::
+  <section id="idLSrcdsuntFOprgstr">
+  <h5 id="idLSrcdsuntFOprgstrH5">GENERIC-SPECIFIC-TREE of Srcd_lago-opr
+    <a class="clsHide" href="#idLSrcdsuntFOprgstrH5"></a></h5>
+  <p id="idLSrcdsuntFOprgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLsrcsuntFOprgstrdsn"></a></p>
-  <p id="idLsrcsuntFOprgstrnam">name::
+    <a class="clsHide" href="#idLSrcdsuntFOprgstrdsn"></a></p>
+  <p id="idLSrcdsuntFOprgstrnam">name::
     <br>* McshEngl.Srcd_lago-opr'generic-specific-tree,
     <br>* McshEngl.Srcd_lago-opr'specific-generic-tree,
-    <a class="clsHide" href="#idLsrcsuntFOprgstrnam"></a></p>
-  <p id="idLsrcsuntFOprgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdsuntFOprgstrnam"></a></p>
+  <p id="idLSrcdsuntFOprgtr">generic-tree::
     <br>* McshEngl.Srcd_lago-opr-Gntr,
     <br>===
     <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idLsrcsuntFOprgtr"></a></p>
-  <p id="idLsrcsuntFOprstr">specific-tree::
+    <a class="clsHide" href="#idLSrcdsuntFOprgtr"></a></p>
+  <p id="idLSrcdsuntFOprstr">specific-tree::
     <br>* McshEngl.Srcd_lago-opr.specific,
     <br>* McshEngl.Srcd_lago-opr-Sptr,
     <br>===
@@ -2442,322 +2463,333 @@
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000031.last.html#idLCppsuntFcnOpr">C++-operator</a>,
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLjsgnfOpr">Javascript-operator</a>,
     <br>* Rust-operator,
-    <a class="clsHide" href="#idLsrcsuntFOprstr"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntFOprstr"></a></p>
   </section>
   </section>
   </section>
 
-  <section id="idLsrcsuntIntc">
-  <h3 id="idLsrcsuntIntcH3">Sunt.instance (literal) of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntIntcH3"></a></h3>
-  <p id="idLsrcsuntIntcdsn">description::
+  <section id="idLSrcdsuntIntc">
+  <h3 id="idLSrcdsuntIntcH3">Sunt.instance (literal) of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntIntcH3"></a></h3>
+  <p id="idLSrcdsuntIntcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· literal--semantic-unit of Srcd_lago is an-individual Sunt.
-    <a class="clsHide" href="#idLsrcsuntIntcdsn"></a></p>
-  <p id="idLsrcsuntIntcnam">name::
+    <a class="clsHide" href="#idLSrcdsuntIntcdsn"></a></p>
+  <p id="idLSrcdsuntIntcnam">name::
     <br>* McshEngl.Srcd_lago'literal,
     <br>* McshEngl.Srcd_lago-Sunt.instance,
     <br>* McshEngl.Srcd_lago-Sunt.literal,
-    <a class="clsHide" href="#idLsrcsuntIntcnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntIntcnam"></a></p>
   </section>
 
-  <section id="idLsrcsuntIntcN">
-  <h3 id="idLsrcsuntIntcNH3">Sunt.instanceNo of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntIntcNH3"></a></h3>
-  <p id="idLsrcsuntIntcNdsn">description::
+  <section id="idLSrcdsuntIntcN">
+  <h3 id="idLSrcdsuntIntcNH3">Sunt.instanceNo of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntIntcNH3"></a></h3>
+  <p id="idLSrcdsuntIntcNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· type--semantic-unit of Srcd_lago is a-generic Sunt.
-    <a class="clsHide" href="#idLsrcsuntIntcNdsn"></a></p>
-  <p id="idLsrcsuntIntcNnam">name::
+    <a class="clsHide" href="#idLSrcdsuntIntcNdsn"></a></p>
+  <p id="idLSrcdsuntIntcNnam">name::
     <br>* McshEngl.Srcd_lago'type,
     <br>* McshEngl.Srcd_lago-Sunt.instanceNo,
     <br>* McshEngl.Srcd_lago-Sunt.type,
-    <a class="clsHide" href="#idLsrcsuntIntcNnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntIntcNnam"></a></p>
   </section>
 
-  <section id="idLsrcsuntNmd">
-  <h3 id="idLsrcsuntNmdH3">Sunt.named of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntNmdH3"></a></h3>
-  <p id="idLsrcsuntNmddsn">description::
+  <section id="idLSrcdsuntNmd">
+  <h3 id="idLSrcdsuntNmdH3">Sunt.named of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntNmdH3"></a></h3>
+  <p id="idLSrcdsuntNmddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· named-Sunt of Srcd_lago is <a class="clsPreview" href="#idLsrcsunt">a-semantic-unit</a> associated with an-identifier.
-    <a class="clsHide" href="#idLsrcsuntNmddsn"></a></p>
-  <p id="idLsrcsuntNmdnam">name::
+    <br>· named-Sunt of Srcd_lago is <a class="clsPreview" href="#idLSrcdsunt">a-semantic-unit</a> associated with an-identifier.
+    <a class="clsHide" href="#idLSrcdsuntNmddsn"></a></p>
+  <p id="idLSrcdsuntNmdnam">name::
     <br>* McshEngl.Srcd_lago-Sunt.named,
-    <a class="clsHide" href="#idLsrcsuntNmdnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntNmdnam"></a></p>
 
-  <section id="idLsrcsuntNmdidfr">
-  <h4 id="idLsrcsuntNmdidfrH4">identifier of named-Sunt (link)
-    <a class="clsHide" href="#idLsrcsuntNmdidfrH4"></a></h4>
+  <section id="idLSrcdsuntNmdidfr">
+  <h4 id="idLSrcdsuntNmdidfrH4">identifier of named-Sunt (link)
+    <a class="clsHide" href="#idLSrcdsuntNmdidfrH4"></a></h4>
   </section>
 
-  <section id="idLsrcsuntNmdval">
-  <h4 id="idLsrcsuntNmdvalH4">value of named-Sunt
-    <a class="clsHide" href="#idLsrcsuntNmdvalH4"></a></h4>
-  <p id="idLsrcsuntNmdvaldsn">description::
+  <section id="idLSrcdsuntNmdval">
+  <h4 id="idLSrcdsuntNmdvalH4">value of named-Sunt
+    <a class="clsHide" href="#idLSrcdsuntNmdvalH4"></a></h4>
+  <p id="idLSrcdsuntNmdvaldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· value of Srcd_lago is the-semantic-unit associated with an-identifier.
-    <a class="clsHide" href="#idLsrcsuntNmdvaldsn"></a></p>
-  <p id="idLsrcsuntNmdvalnam">name::
+    <a class="clsHide" href="#idLSrcdsuntNmdvaldsn"></a></p>
+  <p id="idLSrcdsuntNmdvalnam">name::
     <br>* McshEngl.Srcd_lago-named-Sunt'value,
-    <a class="clsHide" href="#idLsrcsuntNmdvalnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntNmdvalnam"></a></p>
   </section>
   </section>
 
-  <section id="idLsrcsuntNmdN">
-  <h3 id="idLsrcsuntNmdNH3">Sunt.namedNo of Srcd_lago
-    <a class="clsHide" href="#idLsrcsuntNmdNH3"></a></h3>
-  <p id="idLsrcsuntNmdNdsn">description::
+  <section id="idLSrcdsuntNmdN">
+  <h3 id="idLSrcdsuntNmdNH3">Sunt.namedNo of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsuntNmdNH3"></a></h3>
+  <p id="idLSrcdsuntNmdNdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
-    <a class="clsHide" href="#idLsrcsuntNmdNdsn"></a></p>
-  <p id="idLsrcsuntNmdNnam">name::
+    <a class="clsHide" href="#idLSrcdsuntNmdNdsn"></a></p>
+  <p id="idLSrcdsuntNmdNnam">name::
     <br>* McshEngl.Srcd_lago-Sunt.namedNo,
-    <a class="clsHide" href="#idLsrcsuntNmdNnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsuntNmdNnam"></a></p>
   </section>
   </section>
 
-  <section id="idLsrcphrs">
-  <h2 id="idLsrcphrsH2">Cmpralgo'phrase of Srcd_lago
-    <a class="clsHide" href="#idLsrcphrsH2"></a></h2>
-  <p id="idLsrcphrsdsn">description::
+  <section id="idLSrcdphrs">
+  <h2 id="idLSrcdphrsH2">Cmpralgo'phrase of Srcd_lago
+    <a class="clsHide" href="#idLSrcdphrsH2"></a></h2>
+  <p id="idLSrcdphrsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· output-phrase of Srcd_lago is a-structure of simpler algo-structures that denote INCOMPLETE relations or processes ( 3 + 5 ).
-    <a class="clsHide" href="#idLsrcphrsdsn"></a></p>
-  <p id="idLsrcphrsnam">name::
+    <a class="clsHide" href="#idLSrcdphrsdsn"></a></p>
+  <p id="idLSrcdphrsnam">name::
     <br>* McshEngl.Srcd_lago'output-phrase,
     <br>* McshEngl.Srcd_lago'phrase,
-    <br>* McshEngl.Srcd_lago-algo'phrase,
+    <br>* McshEngl.Srcdalgo'phrase,
     <br>* McshEngl.Srcd_lago-node.phrase,
     <br>* McshEngl.Srcd_lago-phrase,
-    <a class="clsHide" href="#idLsrcphrsnam"></a></p>
-  <p id="idLsrcphrsgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdphrsnam"></a></p>
+  <p id="idLSrcdphrsgtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmalgphrs">phrase-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcphrsgtr"></a></p>
+    <a class="clsHide" href="#idLSrcdphrsgtr"></a></p>
   </section>
 
-  <section id="idLsrcsntc">
-  <h2 id="idLsrcsntcH2">Cmpralgo'sentence of Srcd_lago
-    <a class="clsHide" href="#idLsrcsntcH2"></a></h2>
-  <p id="idLsrcsntcdsn">description::
+  <section id="idLSrcdsntc">
+  <h2 id="idLSrcdsntcH2">Cmpralgo'sentence of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsntcH2"></a></h2>
+  <p id="idLSrcdsntcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· source-sentence of Srcd_lago is a-structure of <a class="clsPreview" href="#idLsrcalgnode">algo-nodes</a> that denotes COMPLETE relations or processes ( 3 + 5 = 8 ).
-    <a class="clsHide" href="#idLsrcsntcdsn"></a></p>
-  <p id="idLsrcsntcnam">name::
+    <br>· source-sentence of Srcd_lago is a-structure of <a class="clsPreview" href="#idLSrcdalgnode">algo-nodes</a> that denotes COMPLETE relations or processes ( 3 + 5 = 8 ).
+    <a class="clsHide" href="#idLSrcdsntcdsn"></a></p>
+  <p id="idLSrcdsntcnam">name::
     <br>* McshEngl.Srcd_lago'output-sentence,
     <br>* McshEngl.Srcd_lago'sentence,
-    <br>* McshEngl.Srcd_lago-algo'sentence,
+    <br>* McshEngl.Srcdalgo'sentence,
     <br>* McshEngl.Srcd_lago-node.sentence,
     <br>* McshEngl.Srcd_lago-sentence,
-    <a class="clsHide" href="#idLsrcsntcnam"></a></p>
-  <p id="idLsrcsntcgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdsntcnam"></a></p>
+  <p id="idLSrcdsntcgtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmsntc">sentence-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcsntcgtr"></a></p>
+    <a class="clsHide" href="#idLSrcdsntcgtr"></a></p>
 
-  <section id="idLsrcsntcstr">
-  <h3 id="idLsrcsntcstrH3">sentence.SPECIFIC of Srcd_lago
-    <a class="clsHide" href="#idLsrcsntcstrH3"></a></h3>
-  <p id="idLsrcsntcstrdsn">description::
+  <section id="idLSrcdsntcstr">
+  <h3 id="idLSrcdsntcstrH3">sentence.SPECIFIC of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsntcstrH3"></a></h3>
+  <p id="idLSrcdsntcstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* definition-sentence,
-    <a class="clsHide" href="#idLsrcsntcstrdsn"></a></p>
-  <p id="idLsrcsntcstrnam">name::
+    <a class="clsHide" href="#idLSrcdsntcstrdsn"></a></p>
+  <p id="idLSrcdsntcstrnam">name::
     <br>* McshEngl.Srcd_lago-sentence.specific,
     <br>* McshEngl.Srcd_lago-sentence-Sptr,
-    <a class="clsHide" href="#idLsrcsntcstrnam"></a></p>
+    <a class="clsHide" href="#idLSrcdsntcstrnam"></a></p>
   </section>
 
-  <section id="idLsrcsntcDef">
-  <h3 id="idLsrcsntcDefH3">sentence.definition of Srcd_lago
-    <a class="clsHide" href="#idLsrcsntcDefH3"></a></h3>
-  <p id="idLsrcsntcDefdsn">description::
+  <section id="idLSrcdsntcDef">
+  <h3 id="idLSrcdsntcDefH3">sentence.definition of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsntcDefH3"></a></h3>
+  <p id="idLSrcdsntcDefdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· definition is <a class="clsPreview" href="#idLsrcsntc">a-sentence</a> that uniquely creates instances of <a class="clsPreview" href="#idLsrcsunt">semantic-units</a>.
-    <a class="clsHide" href="#idLsrcsntcDefdsn"></a></p>
-  <p id="idLsrcsntcDefnam">name::
+    <br>· definition is <a class="clsPreview" href="#idLSrcdsntc">a-sentence</a> that uniquely creates instances of <a class="clsPreview" href="#idLSrcdsunt">semantic-units</a>.
+    <a class="clsHide" href="#idLSrcdsntcDefdsn"></a></p>
+  <p id="idLSrcdsntcDefnam">name::
     <br>* McshEngl.Srcd_lago-sentence.definition,
-    <a class="clsHide" href="#idLsrcsntcDefnam"></a></p>
-  <p id="idLsrcsntcDefstr">specific::
+    <a class="clsHide" href="#idLSrcdsntcDefnam"></a></p>
+  <p id="idLSrcdsntcDefstr">specific::
     <br>* assignment-definition,
     <br>* function-definition,
-    <a class="clsHide" href="#idLsrcsntcDefstr"></a></p>
+    <a class="clsHide" href="#idLSrcdsntcDefstr"></a></p>
   </section>
   </section>
 
-  <section id="idLsrcsctn">
-  <h2 id="idLsrcsctnH2">Cmpralgo'section of Srcd_lago
-    <a class="clsHide" href="#idLsrcsctnH2"></a></h2>
-  <p id="idLsrcsctndsn">description::
+  <section id="idLSrcdsctn">
+  <h2 id="idLSrcdsctnH2">Cmpralgo'section of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsctnH2"></a></h2>
+  <p id="idLSrcdsctndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· output-section of Srcd_lago is a-structure of sentences or comments.
-    <a class="clsHide" href="#idLsrcsctndsn"></a></p>
-  <p id="idLsrcsctnnam">name::
+    <a class="clsHide" href="#idLSrcdsctndsn"></a></p>
+  <p id="idLSrcdsctnnam">name::
     <br>* McshEngl.Srcd_lago'output-section,
     <br>* McshEngl.Srcd_lago'section,
-    <br>* McshEngl.Srcd_lago-algo'section,
+    <br>* McshEngl.Srcdalgo'section,
     <br>* McshEngl.Srcd_lago-node.section,
     <br>* McshEngl.Srcd_lago-section,
-    <a class="clsHide" href="#idLsrcsctnnam"></a></p>
-  <p id="idLsrcsctngtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdsctnnam"></a></p>
+  <p id="idLSrcdsctngtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmalgsctn">section-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcsctngtr"></a></p>
-  <p id="idLsrcsctnstr">specific::
+    <a class="clsHide" href="#idLSrcdsctngtr"></a></p>
+  <p id="idLSrcdsctnstr">specific::
     <br>* comment,
     <br>* titled-section,
     <br>* titledNo-section,
-    <a class="clsHide" href="#idLsrcsctnstr"></a></p>
+    <a class="clsHide" href="#idLSrcdsctnstr"></a></p>
 
-  <section id="idLsrcsctnBlk">
-  <h3 id="idLsrcsctnBlkH3">section.block of Srcd_lago
-    <a class="clsHide" href="#idLsrcsctnBlkH3"></a></h3>
-  <p id="idLsrcsctnBlkdsn">description::
+  <section id="idLSrcdsctnBlk">
+  <h3 id="idLSrcdsctnBlkH3">section.block of Srcd_lago
+    <a class="clsHide" href="#idLSrcdsctnBlkH3"></a></h3>
+  <p id="idLSrcdsctnBlkdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· source-block is a-sequence of sentences, usually denoted with <a class="clsPreview" href="../dirUcd/McshUcdU0000.last.html#idU0000U007B">left</a> and <a class="clsPreview" href="../dirUcd/McshUcdU0000.last.html#idU0000U007D">right</a> curly-brackets-{}.
-    <a class="clsHide" href="#idLsrcsctnBlkdsn"></a></p>
-  <p id="idLsrcsctnBlknam">name::
+    <a class="clsHide" href="#idLSrcdsctnBlkdsn"></a></p>
+  <p id="idLSrcdsctnBlknam">name::
     <br>* McshEngl.Srcd_lago-block,
-    <a class="clsHide" href="#idLsrcsctnBlknam"></a></p>
+    <a class="clsHide" href="#idLSrcdsctnBlknam"></a></p>
   </section>
   </section>
 
-  <section id="idLsrcroot">
-  <h2 id="idLsrcrootH2">Cmpralgo'root of Srcd_lago
-    <a class="clsHide" href="#idLsrcrootH2"></a></h2>
-  <p id="idLsrcrootdsn">description::
+  <section id="idLSrcdroot">
+  <h2 id="idLSrcdrootH2">Cmpralgo'root of Srcd_lago
+    <a class="clsHide" href="#idLSrcdrootH2"></a></h2>
+  <p id="idLSrcdrootdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· root of Srcd_lago[a] is the-outermost structure of its[a] output-syntax-tree.
-    <a class="clsHide" href="#idLsrcrootdsn"></a></p>
-  <p id="idLsrcrootnam">name::
-    <br>* McshEngl.Srcd_lago-algo'root,
+    <a class="clsHide" href="#idLSrcdrootdsn"></a></p>
+  <p id="idLSrcdrootnam">name::
+    <br>* McshEngl.Srcdalgo'root,
     <br>* McshEngl.Srcd_lago-node.root,
     <br>* McshEngl.Srcd_lago-root,
-    <a class="clsHide" href="#idLsrcrootnam"></a></p>
+    <a class="clsHide" href="#idLSrcdrootnam"></a></p>
   </section>
 
-  <section id="idLsrcalgstr">
-  <h2 id="idLsrcalgstrH2">Cmpralgo.SPECIFIC of Srcd_lago
-    <a class="clsHide" href="#idLsrcalgstrH2"></a></h2>
-  <p id="idLsrcalgstrdsn">description::
+  <section id="idLSrcdalggstr">
+  <h1 id="idLSrcdalggstrH1">GENERIC-SPECIFIC-TREE of Srcdalgo
+    <a class="clsHide" href="#idLSrcdalggstrH1"></a></h1>
+  <p id="idLSrcdalggstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLSrcdalggstrdsn"></a></p>
+  <p id="idLSrcdalggstrnam">name::
+    <br>* McshEngl.Srcdalgo'generic-specific-tree,
+    <br>* McshEngl.Srcdalgo'specific-generic-tree,
+    <a class="clsHide" href="#idLSrcdalggstrnam"></a></p>
+  <p id="idLSrcdalggtr">generic-tree::
+    <br>* McshEngl.Srcdalgo-Gntr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idLCpgmalg">algorithm-of-Pgmg_lago</a>,
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLSrcdalggtr"></a></p>
+  <p id="idLSrcdalgstr">specific-tree::
+    <br>* McshEngl.Srcdalgo.specific,
+    <br>* McshEngl.Srcdalgo-Sptr,
+    <br>===
     <br>* library--Lsrc-algo,
     <br>* program--Lsrc-algo,
-    <a class="clsHide" href="#idLsrcalgstrdsn"></a></p>
-  <p id="idLsrcalgstrnam">name::
-    <br>* McshEngl.Srcd_lago-algo.specific,
-    <br>* McshEngl.Srcd_lago-algo-Sptr,
-    <a class="clsHide" href="#idLsrcalgstrnam"></a></p>
+    <a class="clsHide" href="#idLSrcdalgstr"></a></p>
   </section>
 
-  <section id="idLsrceval">
-  <h2 id="idLsrcevalH2">evalauation of Srcd_lago
-    <a class="clsHide" href="#idLsrcevalH2"></a></h2>
-  <p id="idLsrcevaldsn">description::
+  <section id="idLSrcdeval">
+  <h2 id="idLSrcdevalH2">evalauation of Srcd_lago
+    <a class="clsHide" href="#idLSrcdevalH2"></a></h2>
+  <p id="idLSrcdevaldsn">description::
     <br>× Mcsh-creation: {2026-10-01}
-    <a class="clsHide" href="#idLsrcevaldsn"></a></p>
-  <p id="idLsrcevalnam">name::
+    <a class="clsHide" href="#idLSrcdevaldsn"></a></p>
+  <p id="idLSrcdevalnam">name::
     <br>* McshEngl.Srcd_lago'evaluation,
-    <a class="clsHide" href="#idLsrcevalnam"></a></p>
+    <a class="clsHide" href="#idLSrcdevalnam"></a></p>
   </section>
 
-  <section id="idLsrctool">
-  <h2 id="idLsrctoolH2">tool of Srcd_lago
-    <a class="clsHide" href="#idLsrctoolH2"></a></h2>
-  <p id="idLsrctooldsn">description::
+  <section id="idLSrcdtool">
+  <h2 id="idLSrcdtoolH2">tool of Srcd_lago
+    <a class="clsHide" href="#idLSrcdtoolH2"></a></h2>
+  <p id="idLSrcdtooldsn">description::
     <br>× Mcsh-creation: {2026-10-01}
-    <a class="clsHide" href="#idLsrctooldsn"></a></p>
-  <p id="idLsrctoolnam">name::
+    <a class="clsHide" href="#idLSrcdtooldsn"></a></p>
+  <p id="idLSrcdtoolnam">name::
     <br>* McshEngl.Srcd_lago'tool,
-    <a class="clsHide" href="#idLsrctoolnam"></a></p>
-  <p id="idLsrctoolgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdtoolnam"></a></p>
+  <p id="idLSrcdtoolgtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmtool">tool-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrctoolgtr"></a></p>
+    <a class="clsHide" href="#idLSrcdtoolgtr"></a></p>
   </section>
 
-  <section id="idLsrcrsc">
-  <h2 id="idLsrcrscH2">info-resource of Srcd_lago
-    <a class="clsHide" href="#idLsrcrscH2"></a></h2>
-  <p id="idLsrcrscdsn">description::
+  <section id="idLSrcdrsc">
+  <h2 id="idLSrcdrscH2">info-resource of Srcd_lago
+    <a class="clsHide" href="#idLSrcdrscH2"></a></h2>
+  <p id="idLSrcdrscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLsrcrscdsn"></a></p>
-  <p id="idLsrcrscnam">name::
+    <a class="clsHide" href="#idLSrcdrscdsn"></a></p>
+  <p id="idLSrcdrscnam">name::
     <br>* McshEngl.Srcd_lago'info-resource,
-    <a class="clsHide" href="#idLsrcrscnam"></a></p>
-  <p id="idLsrcrscgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdrscnam"></a></p>
+  <p id="idLSrcdrscgtr">generic-tree::
     <br>* <a class="clsPreview" href="#idLCpgmirsc">resource-of-Pgmg_lago</a>,
-    <a class="clsHide" href="#idLsrcrscgtr"></a></p>
+    <a class="clsHide" href="#idLSrcdrscgtr"></a></p>
   </section>
 
-  <section id="idLsrcgstr">
-  <h2 id="idLsrcgstrH2">GENERIC-SPECIFIC-TREE of Srcd_lago
-    <a class="clsHide" href="#idLsrcgstrH2"></a></h2>
-  <p id="idLsrcgstrdsn">description::
+  <section id="idLSrcdgstr">
+  <h2 id="idLSrcdgstrH2">GENERIC-SPECIFIC-TREE of Srcd_lago
+    <a class="clsHide" href="#idLSrcdgstrH2"></a></h2>
+  <p id="idLSrcdgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
-    <a class="clsHide" href="#idLsrcgstrdsn"></a></p>
-  <p id="idLsrcgstrnam">name::
+    <a class="clsHide" href="#idLSrcdgstrdsn"></a></p>
+  <p id="idLSrcdgstrnam">name::
     <br>* McshEngl.Srcd_lago'generic-specific-tree,
     <br>* McshEngl.Srcd_lago'specific-generic-tree,
-    <a class="clsHide" href="#idLsrcgstrnam"></a></p>
-  <p id="idLsrcgtr">generic-tree::
+    <a class="clsHide" href="#idLSrcdgstrnam"></a></p>
+  <p id="idLSrcdgtr">generic-tree::
     <br>* McshEngl.Srcd_lago-Gntr,
     <br>===
     <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idLsrcgtr"></a></p>
-  <p id="idLsrcstr">specific-tree::
+    <a class="clsHide" href="#idLSrcdgtr"></a></p>
+  <p id="idLSrcdstr">specific-tree::
     <br>* McshEngl.Srcd_lago.specific,
     <br>* McshEngl.Srcd_lago-Sptr,
     <br>===
-    <a class="clsHide" href="#idLsrcstr"></a></p>
+    <a class="clsHide" href="#idLSrcdstr"></a></p>
   </section>
 
-  <section id="idLsrcCmpd">
-  <h2 id="idLsrcCmpdH2">Srcd_lago.COMPILED
-    <a class="clsHide" href="#idLsrcCmpdH2"></a></h2>
-  <p id="idLsrcCmpddsn">description::
+  <section id="idLSrcdCmpd">
+  <h2 id="idLSrcdCmpdH2">Srcd_lago.COMPILED
+    <a class="clsHide" href="#idLSrcdCmpdH2"></a></h2>
+  <p id="idLSrcdCmpddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· compiled-language[a] is <a class="clsPreview" href="#idLsrc">a-source-language</a> <a class="clsPreview" href="#idLCpgmalg">the-output</a>[b] of which[a] must-be-translated to <a class="clsPreview" href="#idLbnralgcode">machine-code</a> or <a class="clsPreview" href="#idLvtlalgcode">bytecode</a> for a-real-machine to understand it[b].
-    <a class="clsHide" href="#idLsrcCmpddsn"></a></p>
-  <p id="idLsrcCmpdnam">name::
+    <br>· compiled-language[a] is <a class="clsPreview" href="#idLSrcd">a-source-language</a> <a class="clsPreview" href="#idLCpgmalg">the-output</a>[b] of which[a] must-be-translated to <a class="clsPreview" href="#idLbnralgcode">machine-code</a> or <a class="clsPreview" href="#idLvtlalgcode">bytecode</a> for a-real-machine to understand it[b].
+    <a class="clsHide" href="#idLSrcdCmpddsn"></a></p>
+  <p id="idLSrcdCmpdnam">name::
     <br>* McshEngl.Lscr.compiled,
     <br>* McshEngl.compiled--programing-language,
-    <a class="clsHide" href="#idLsrcCmpdnam"></a></p>
+    <a class="clsHide" href="#idLSrcdCmpdnam"></a></p>
   </section>
 
-  <section id="idLsrcInrd">
-  <h2 id="idLsrcInrdH2">Srcd_lago.INTERPRETED
-    <a class="clsHide" href="#idLsrcInrdH2"></a></h2>
-  <p id="idLsrcInrddsn">description::
+  <section id="idLSrcdInrd">
+  <h2 id="idLSrcdInrdH2">Srcd_lago.INTERPRETED
+    <a class="clsHide" href="#idLSrcdInrdH2"></a></h2>
+  <p id="idLSrcdInrddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· interpreted-language[a] is <a class="clsPreview" href="#idLsrc">a-source-language</a> <a class="clsPreview" href="#idLCpgmalg">the-output</a> of which[a] is-understood directly from a-real-machine with <a class="clsPreview" href="#idLCpgmtoolInpr">an-interpreter</a>.
-    <a class="clsHide" href="#idLsrcInrddsn"></a></p>
-  <p id="idLsrcInrdnam">name::
+    <br>· interpreted-language[a] is <a class="clsPreview" href="#idLSrcd">a-source-language</a> <a class="clsPreview" href="#idLCpgmalg">the-output</a> of which[a] is-understood directly from a-real-machine with <a class="clsPreview" href="#idLCpgmtoolInpr">an-interpreter</a>.
+    <a class="clsHide" href="#idLSrcdInrddsn"></a></p>
+  <p id="idLSrcdInrdnam">name::
     <br>* McshEngl.Srcd_lago.interpreted,
     <br>* McshEngl.interpreted--programing-language,
-    <a class="clsHide" href="#idLsrcInrdnam"></a></p>
+    <a class="clsHide" href="#idLSrcdInrdnam"></a></p>
   </section>
 
-  <section id="idLsrcDnctp">
-  <h2 id="idLsrcDnctpH2">Srcd_lago.DYNAMICALLY-TYPED
-    <a class="clsHide" href="#idLsrcDnctpH2"></a></h2>
-  <p id="idLsrcDnctpdsn">description::
+  <section id="idLSrcdDnctp">
+  <h2 id="idLSrcdDnctpH2">Srcd_lago.DYNAMICALLY-TYPED
+    <a class="clsHide" href="#idLSrcdDnctpH2"></a></h2>
+  <p id="idLSrcdDnctpdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· dynamically-type-language[a] is <a class="clsPreview" href="#idLsrc">a-source-language</a> if the-type of a-variable is-known at run-time, for example Python, JavaScript.
+    <br>· dynamically-type-language[a] is <a class="clsPreview" href="#idLSrcd">a-source-language</a> if the-type of a-variable is-known at run-time, for example Python, JavaScript.
     <br>· the main advantage is that the-programmer can-write a little quicker because s|he does-not-have to specify types every time.
-    <a class="clsHide" href="#idLsrcDnctpdsn"></a></p>
-  <p id="idLsrcDnctpnam">name::
+    <a class="clsHide" href="#idLSrcdDnctpdsn"></a></p>
+  <p id="idLSrcdDnctpnam">name::
     <br>* McshEngl.Srcd_lago.dynamically-typed,
-    <a class="clsHide" href="#idLsrcDnctpnam"></a></p>
+    <a class="clsHide" href="#idLSrcdDnctpnam"></a></p>
   </section>
 
-  <section id="idLsrcStctp">
-  <h2 id="idLsrcStctpH2">Srcd_lago.STATICALLY-TYPED
-    <a class="clsHide" href="#idLsrcStctpH2"></a></h2>
-  <p id="idLsrcStctpdsn">description::
+  <section id="idLSrcdStctp">
+  <h2 id="idLSrcdStctpH2">Srcd_lago.STATICALLY-TYPED
+    <a class="clsHide" href="#idLSrcdStctpH2"></a></h2>
+  <p id="idLSrcdStctpdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· statically-type-language[a] is <a class="clsPreview" href="#idLsrc">a-source-language</a> if the-type of a-variable is-known at compile-time, for example Java, C++.
+    <br>· statically-type-language[a] is <a class="clsPreview" href="#idLSrcd">a-source-language</a> if the-type of a-variable is-known at compile-time, for example Java, C++.
     <br>· the main advantage is that all kinds of checking can-be-done by the-compiler, and therefore many trivial bugs are-caught at a very early stage.
-    <a class="clsHide" href="#idLsrcStctpdsn"></a></p>
-  <p id="idLsrcStctpnam">name::
+    <a class="clsHide" href="#idLSrcdStctpdsn"></a></p>
+  <p id="idLSrcdStctpnam">name::
     <br>* McshEngl.Srcd_lago.statically-type,
-    <a class="clsHide" href="#idLsrcStctpnam"></a></p>
+    <a class="clsHide" href="#idLSrcdStctpnam"></a></p>
   </section>
   </section>
 

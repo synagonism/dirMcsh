@@ -1907,16 +1907,26 @@
     <a class="clsHide" href="#idAlgntevuerrscnam"></a></p>
   </section>
 
-  <section id="idAlgntevuprcstr">
-  <h3 id="idAlgntevuprcstrH3">price.SPECIFIC
-    <a class="clsHide" href="#idAlgntevuprcstrH3"></a></h3>
-  <p id="idAlgntevuprcstrdsn">description::
+  <section id="idAlgntevuprcgstr">
+  <h3 id="idAlgntevuprcgstrH3">GENERIC-SPECIFIC-TREE of Anasset-price
+    <a class="clsHide" href="#idAlgntevuprcgstrH3"></a></h3>
+  <p id="idAlgntevuprcgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idAlgntevuprcstrdsn"></a></p>
-  <p id="idAlgntevuprcstrnam">name::
+    <a class="clsHide" href="#idAlgntevuprcgstrdsn"></a></p>
+  <p id="idAlgntevuprcgstrnam">name::
+    <br>* McshEngl.Anasset-price'generic-specific-tree,
+    <br>* McshEngl.Anasset-price'specific-generic-tree,
+    <a class="clsHide" href="#idAlgntevuprcgstrnam"></a></p>
+  <p id="idAlgntevuprcgtr">generic-tree::
+    <br>* McshEngl.Anasset-price-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idAlgntevuprcgtr"></a></p>
+  <p id="idAlgntevuprcstr">specific-tree::
     <br>* McshEngl.Anasset-price.specific,
     <br>* McshEngl.Anasset-price-Sptr,
-    <a class="clsHide" href="#idAlgntevuprcstrnam"></a></p>
+    <br>===
+    <a class="clsHide" href="#idAlgntevuprcstr"></a></p>
   </section>
 
   <section id="idAlgntevuprcMkt">
@@ -3704,11 +3714,11 @@
     <br>"A medium of exchange is an intermediary used in trade to avoid the inconveniences of a pure barter system". [<a href="http://en.wikipedia.org/wiki/Medium_of_exchange">http://en.wikipedia.org/wiki/Medium_of_exchange</a>]
     <a class="clsHide" href="#idAlgntevuMoedsn"></a></p>
   <p id="idAlgntevuMoenam">name::
+    <br>* McshEngl.Anasset.currency!⇒AnaCurrency,
+    <br>* McshEngl.AnaCurrency!=Anasset.currency, {2024-09-13}
     <br>* McshEngl.Automoney!⇒AnaCurrency,
     <br>* McshEngl.Autosoc'att009-money!⇒AnaCurrency,
     <br>* McshEngl.Autosoc'money!⇒AnaCurrency,
-    <br>* McshEngl.AnaCurrency!=Anasset.currency, {2024-09-13}
-    <br>* McshEngl.Anasset.currency!⇒AnaCurrency,
     <br>* McshEngl.Anasset.medium-of-exchange!⇒AnaCurrency,
     <br>* McshEngl.DeCurrency!⇒AnaCurrency,
     <br>* McshEngl.Dcurrency!⇒AnaCurrency, {2019-04-01},
@@ -12994,33 +13004,50 @@
     <br>[<a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">HumnSngu</a>.2017-10-18]
     <a class="clsHide" href="#idDcnetMoedsn"></a></p>
   <p id="idDcnetMoenam">name::
-    <br>* McshEngl.AnaCurrency-netAlgo, {2019-06-22},
-    <br>* McshEngl.netAlgo.currency!⇒AnaCurrency-netAlgo,
-    <br>* McshEngl.netAlgo.cryptocurrency!⇒AnaCurrency-netAlgo,
-    <br>* McshEngl.netAlgo.medium-of-exchange!⇒AnaCurrency-netAlgo,
-    <br>* McshEngl.chain-netMoe!⇒AnaCurrency-netAlgo,
-    <br>* McshEngl.cryptocoin-network!⇒AnaCurrency-netAlgo,
-    <br>* McshEngl.cryptocurrency-network!⇒AnaCurrency-netAlgo,
-    <br>* McshEngl.currency--Dchain-net, {2019-03-09},
-    <br>* McshEngl.chain-currency--network!⇒AnaCurrency-netAlgo,
-    <br>* McshEngl.decentralized-money-system!⇒AnaCurrency-netAlgo, [Antonopoulos],
-    <br>* McshEngl.medium-of-exchange--chain-net!⇒AnaCurrency-netAlgo,
+    <br>* McshEngl.netAlgo.currency!⇒netAlgoCurrency,
+    <br>* McshEngl.netAlgoCurrency,
+    <br>* McshEngl.AnaCurrency-netAlgo!⇒netAlgoCurrency, {2019-06-22},
+    <br>* McshEngl.netAlgo.cryptocurrency!⇒netAlgoCurrency,
+    <br>* McshEngl.netAlgo.medium-of-exchange!⇒netAlgoCurrency,
+    <br>* McshEngl.chain-netMoe!⇒netAlgoCurrency,
+    <br>* McshEngl.cryptocoin-network!⇒netAlgoCurrency,
+    <br>* McshEngl.cryptocurrency-network!⇒netAlgoCurrency,
+    <br>* McshEngl.currency--Dchain-net!⇒netAlgoCurrency, {2019-03-09},
+    <br>* McshEngl.currency-net!⇒netAlgoCurrency,
+    <br>* McshEngl.chain-currency--network!⇒netAlgoCurrency,
+    <br>* McshEngl.decentralized-money-system!⇒netAlgoCurrency, [Antonopoulos]
+    <br>* McshEngl.medium-of-exchange--chain-net!⇒netAlgoCurrency,
     <a class="clsHide" href="#idDcnetMoenam"></a></p>
 
   <section id="idDcnetMoeevu">
-  <h2 id="idDcnetMoeevuH2">currency of currency-net (<a class="clsPreview" href="#idAlgntevuMoe">link</a>)
+  <h2 id="idDcnetMoeevuH2">currency of netAlgoCurrency (<a class="clsPreview" href="#idAlgntevuMoe">link</a>)
     <a class="clsHide" href="#idDcnetMoeevuH2"></a></h2>
   </section>
 
-  <section id="idDcnetMoestr">
-  <h2 id="idDcnetMoestrH2">currency-net.SPECIFIC
-    <a class="clsHide" href="#idDcnetMoestrH2"></a></h2>
-  <p id="idDcnetMoeSpcP1">specific::
+  <section id="idDcnetMoegstr">
+  <h1 id="idDcnetMoegstrH1">GENERIC-SPECIFIC-TREE of netAlgoCurrency
+    <a class="clsHide" href="#idDcnetMoegstrH1"></a></h1>
+  <p id="idDcnetMoegstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDcnetMoegstrdsn"></a></p>
+  <p id="idDcnetMoegstrnam">name::
+    <br>* McshEngl.netAlgoCurrency'generic-specific-tree,
+    <br>* McshEngl.netAlgoCurrency'specific-generic-tree,
+    <a class="clsHide" href="#idDcnetMoegstrnam"></a></p>
+  <p id="idDcnetMoegtr">generic-tree::
+    <br>* McshEngl.netAlgoCurrency-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idDcnetMoegtr"></a></p>
+  <p id="idDcnetMoestr">specific-tree::
+    <br>* McshEngl.netAlgoCurrency.specific,
+    <br>* McshEngl.netAlgoCurrency-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000016.last.html#idDbcnetMoe">blockchain--đ-currency-network</a>,
     <br>* Dagchain--đ-currency-network,
     <br>===
     <br>* Petro--đ-currency-net,
-    <a class="clsHide" href="#idDcnetMoeSpcP1"></a></p>
+    <a class="clsHide" href="#idDcnetMoestr"></a></p>
   </section>
 
   <section id="idDcnetMoePetro">

@@ -1,8 +1,8 @@
 [
-  [";lagTurk24te","T|t",99,"2026-10-04"],
-  ["Türk-dili!=TurkLago","dirLag/McshLag000030.last.html#idOverview"],
-  ["Türkiye-Cumhuriyeti!=socTurk","dirStn/McshStn000033.last.html#idOverview"],
-  ["Türkçe!=TurkLago","dirLag/McshLag000030.last.html#idOverview"],
+  [";lagTurk24te","T|t",99,"2026-10-11"],
+  ["Türk-dili!=Turk_lago","dirLag/McshLag000030.last.html#idOverview"],
+  ["Türkiye-Cumhuriyeti!=SocTurk","dirStn/McshStn000033.last.html#idOverview"],
+  ["Türkçe!=Turk_lago","dirLag/McshLag000030.last.html#idOverview"],
   ["taarruz-etmek!=to-assault","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["taburcu-etmek!=to-discharge-(from-hospital)","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["taciz-etmek!=to-disturb;to-sexually-abuse","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
