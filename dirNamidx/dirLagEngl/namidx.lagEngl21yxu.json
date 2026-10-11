@@ -1,5 +1,5 @@
 [
-  [";lagEngl21yxu","U|u",4464,"2026-10-11"],
+  [";lagEngl21yxu","U|u",4467,"2026-10-11"],
   ["U+0000..U+007F|0..127-Basic-Latin","dirTchInf/dirUcd/McshUcdU0000.last.html#idOverview"],
   ["U+0080..U+00FF|128..255|..&#x00FF;-Latin-1-Supplement","dirTchInf/dirUcd/McshUcdU0080.last.html#idOverview"],
   ["U+0100..U+017F|256..383|&#x0100;..&#x017F;-Latin-Extended-A","dirTchInf/dirUcd/McshUcdU0100.last.html#idOverview"],
@@ -332,6 +332,9 @@
   ["UNSPSC!=United-Nations-standard-products-and-services-code","dirStn/McshStn000010.last.html#idSfrHmnUnspsc"],
   ["UNTC!=UN-treaty-collection","dirStnlaw/McshStnlaw000004.last.html#idLawInl002Untc"],
   ["UOM!=measure-unit","dirCor/McshCor000009.last.html#idGnrcmsrguom"],
+  ["UOM'generic-specific-tree","dirCor/McshCor000009.last.html#idGnrcmsrguomgstr"],
+  ["UOM'specific-generic-tree","dirCor/McshCor000009.last.html#idGnrcmsrguomgstr"],
+  ["UOM-Gntr","dirCor/McshCor000009.last.html#idGnrcmsrguomgtr"],
   ["UOM-Sptr","dirCor/McshCor000009.last.html#idGnrcmsrguomstr"],
   ["UOM.lagoElln!=μονάδα-μέτρησης!η","dirCor/McshCor000009.last.html#idGnrcmsrguom"],
   ["UOM.lagoZhon!=计量单位-Jìliàngdānwèi","dirCor/McshCor000009.last.html#idGnrcmsrguom"],

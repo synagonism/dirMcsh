@@ -1,5 +1,5 @@
 [
-  [";lagEngl18ar","R|r",2544,"2026-10-11"],
+  [";lagEngl18ar","R|r",2545,"2026-10-11"],
   ["R&D!=research-and-development","dirStn/McshStn000015.last.html#idOznPdnatt037"],
   ["R&amp;D-(Research-and-development)@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-RandD"],
   ["R-phrase@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrR-phrase"],
@@ -2265,7 +2265,8 @@
   ["responsibilities@schema.org","dirStn/McshStn000023.last.html#idScmoresponsibilities"],
   ["responsibility.human","dirHmn/McshHmn000002.last.html#idHmnatt030"],
   ["responsible-AI","dirTchInf/McshTchInf000036.last.html#idTechAi003"],
-  ["responsiveness-of-admn","dirStn/McshStn000004.last.html#idGvcHmnatt005"],
+  ["responsiveness-of-Admn","dirStn/McshStn000004.last.html#idGvcHmnatt005"],
+  ["responsiveness-of-AdmnSctn","dirStn/McshStn000004.last.html#idGvcOgmatt007"],
   ["rest!=DongRresting!~verbEnglA1","dirCor/McshCor000004.last.html#idDngRest"],
   ["rest!~verbEnglA1-1rest;rests;rested;resting;rested","dirLag/McshLag000024.last.html#idLEnglverbA1-9"],
   ["rest-of-the-world-account@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-rest-of-the-world-account"],
