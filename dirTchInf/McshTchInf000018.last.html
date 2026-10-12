@@ -3922,20 +3922,22 @@ def send(to, value):
     <br>[<a href="https://plutusit.zendesk.com/hc/en-us">https://plutusit.zendesk.com/hc/en-us</a>]
     <a class="clsHide" href="#idEthevuCNdsn"></a></p>
   <p id="idEthevuCNnam">name::
-    <br>* McshEngl.Ethereum-Evu.consensusNo, {2017-04-17},
-    <br>* McshEngl.AgntEthr'asset.consensunNo,
-    <br>* McshEngl.AgntEthr'consesusNo-exval-token, {2017-04-01},
-    <br>* McshEngl.AgntEthr'token.consensusNo,
-    <br>* McshEngl.Ethereum-subcurrency,
-    <br>* McshEngl.Ethereum-subtoken,
-    <br>* McshEngl.Ethereum-tkn-(Ethereum-token.consensusNo),
+    <br>* McshEngl.Ethereum-consensusNo-asset!⇒EthrassetCN,
+    <br>* McshEngl.EthrassetCN!=Ethereum-consensusNo-asset,
+    <br>* McshEngl.Ethereum-Evu.consensusNo!⇒EthrassetCN, {2017-04-17},
+    <br>* McshEngl.AgntEthr'asset.consensunNo!⇒EthrassetCN,
+    <br>* McshEngl.AgntEthr'consesusNo-exval-token!⇒EthrassetCN, {2017-04-01},
+    <br>* McshEngl.AgntEthr'token.consensusNo!⇒EthrassetCN,
+    <br>* McshEngl.Ethereum-subcurrency!⇒EthrassetCN,
+    <br>* McshEngl.Ethereum-subtoken!⇒EthrassetCN,
+    <br>* McshEngl.Ethereum-tkn-(Ethereum-token.consensusNo)!⇒EthrassetCN,
     <br>* Ethereum-cevtN, {2017-04-15},
     <br>* EthCNet, {2017-04-01},
     <br>* EthStn, {2017-03-16},
     <a class="clsHide" href="#idEthevuCNnam"></a></p>
 
   <section id="idEthevuCNbkn">
-  <h3 id="idEthevuCNbknH3">Ethereum-assetCN'Backness
+  <h3 id="idEthevuCNbknH3">EthrassetCN'Backness
     <a class="clsHide" href="#idEthevuCNbknH3"></a></h3>
   <p id="idEthevuCNbkngnc">generic::
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000016.last.html#idDbcevubkn">Backness-of-bcnevu</a>,
@@ -3943,34 +3945,34 @@ def send(to, value):
   </section>
 
   <section id="idEthevuCNctp">
-  <h3 id="idEthevuCNctpH3">Ethereum-assetCN'Contract-program
+  <h3 id="idEthevuCNctpH3">EthrassetCN'Contract-program
     <a class="clsHide" href="#idEthevuCNctpH3"></a></h3>
   </section>
 
   <section id="idEthevuCNctpads">
-  <h3 id="idEthevuCNctpadsH3">Ethereum-assetCN'Address-of-contract-account
+  <h3 id="idEthevuCNctpadsH3">EthrassetCN'Address-of-contract-account
     <a class="clsHide" href="#idEthevuCNctpadsH3"></a></h3>
   </section>
 
   <section id="idEthevuCNhdr">
-  <h3 id="idEthevuCNhdrH3">Ethereum-assetCN'Holder
+  <h3 id="idEthevuCNhdrH3">EthrassetCN'Holder
     <a class="clsHide" href="#idEthevuCNhdrH3"></a></h3>
   <p id="idEthevuCNhdrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>Account-addresses that hold tokens.
     <a class="clsHide" href="#idEthevuCNhdrdsn"></a></p>
   <p id="idEthevuCNhdrnam">name::
-    <br>* McshEngl.Ethereum-assetCN'Holder,
+    <br>* McshEngl.EthrassetCN'Holder,
     <a class="clsHide" href="#idEthevuCNhdrnam"></a></p>
   </section>
 
   <section id="idEthevuCNexr">
-  <h3 id="idEthevuCNexrH3">Ethereum-assetCN'Exchange-rate
+  <h3 id="idEthevuCNexrH3">EthrassetCN'Exchange-rate
     <a class="clsHide" href="#idEthevuCNexrH3"></a></h3>
   </section>
 
   <section id="idEthevuCNtx">
-  <h3 id="idEthevuCNtxH3">Ethereum-assetCN'Transaction
+  <h3 id="idEthevuCNtxH3">EthrassetCN'Transaction
     <a class="clsHide" href="#idEthevuCNtxH3"></a></h3>
   <p id="idEthevuCNtxP1">TxHash:&nbsp; &nbsp; 0xa26540fc32e3b136af585177618282dd4626986d90cfb75b433e6350925b7d6d
     <br>Block Height:&nbsp; &nbsp; 3273751 (67 block confirmations)
@@ -3991,7 +3993,7 @@ def send(to, value):
   </section>
 
   <section id="idEthevuCNrsc">
-  <h3 id="idEthevuCNrscH3">Ethereum-assetCN'Resource
+  <h3 id="idEthevuCNrscH3">EthrassetCN'Resource
     <a class="clsHide" href="#idEthevuCNrscH3"></a></h3>
   <p id="idEthevuCNirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4001,14 +4003,29 @@ def send(to, value):
     <br>* <a href="https://ethereum.org/token">https://ethereum.org/token</a>,
     <a class="clsHide" href="#idEthevuCNirscdsn"></a></p>
   <p id="idEthevuCNrscnam">name::
-    <br>* McshEngl.Ethereum-assetCN'Resource,
+    <br>* McshEngl.EthrassetCN'Resource,
     <a class="clsHide" href="#idEthevuCNrscnam"></a></p>
   </section>
 
-  <section id="idEthevuCNstr">
-  <h3 id="idEthevuCNstrH3">SPECIFIC
-    <a class="clsHide" href="#idEthevuCNstrH3"></a></h3>
-  <p id="idEthevuCNSpcstr">specific::
+  <section id="idEthevuCNgstr">
+  <h3 id="idEthevuCNgstrH3">GENERIC-SPECIFIC-TREE of EthrassetCN
+    <a class="clsHide" href="#idEthevuCNgstrH3"></a></h3>
+  <p id="idEthevuCNgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEthevuCNgstrdsn"></a></p>
+  <p id="idEthevuCNgstrnam">name::
+    <br>* McshEngl.EthrassetCN'generic-specific-tree,
+    <br>* McshEngl.EthrassetCN'specific-generic-tree,
+    <a class="clsHide" href="#idEthevuCNgstrnam"></a></p>
+  <p id="idEthevuCNgtr">generic-tree::
+    <br>* McshEngl.EthrassetCN-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthevuCNgtr"></a></p>
+  <p id="idEthevuCNstr">specific-tree::
+    <br>* McshEngl.EthrassetCN.specific,
+    <br>* McshEngl.EthrassetCN-Sptr,
+    <br>===
     <br>* Arcade Token (0xAc709FcB44a43c35F0DA4e3163b117A17F3770f5)
     <br>* BCDN (0x1e797Ce986C3CFF4472F7D38d5C4aba55DfEFE40)
     <br>* Dentacoin (0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6)
@@ -4029,26 +4046,26 @@ def send(to, value):
     <br>* vSlice (0x5c543e7AE0A1104f78406C340E9C64FD9fCE5170)
     <br>* W-GNT (0x01afc37f4f85babc47c0e2d0eababc7fb49793c8)
     <br>* Willie Watts (0xd41f3b51e0c2d825a1178582d27c84dbfe48d1af)
-    <a class="clsHide" href="#idEthevuCNSpcstr"></a></p>
+    <a class="clsHide" href="#idEthevuCNstr"></a></p>
   </section>
 
   <section id="idEthevuCNAgg">
-  <h3 id="idEthevuCNAggH3">Ethereum-assetCN.AGGREGATE
+  <h3 id="idEthevuCNAggH3">EthrassetCN.AGGREGATE
     <a class="clsHide" href="#idEthevuCNAggH3"></a></h3>
 
   <section id="idEthevuCNMtcp">
-  <h4 id="idEthevuCNMtcpH4">Ethereum-assetCN.Market-cap
+  <h4 id="idEthevuCNMtcpH4">EthrassetCN.Market-cap
     <a class="clsHide" href="#idEthevuCNMtcpH4"></a></h4>
   </section>
 
   <section id="idEthevuCNSplTtl">
-  <h4 id="idEthevuCNSplTtlH4">Ethereum-assetCN.Total-supply
+  <h4 id="idEthevuCNSplTtlH4">EthrassetCN.Total-supply
     <a class="clsHide" href="#idEthevuCNSplTtlH4"></a></h4>
   </section>
   </section>
 
   <section id="idEthevuCNErc20">
-  <h3 id="idEthevuCNErc20H3">Ethereum-assetCN.TokenERC20
+  <h3 id="idEthevuCNErc20H3">EthrassetCN.TokenERC20
     <a class="clsHide" href="#idEthevuCNErc20H3"></a></h3>
   <p id="idEthevuCNErc20dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4069,7 +4086,7 @@ def send(to, value):
   </section>
 
   <section id="idEthevuCNIrstg">
-  <h3 id="idEthevuCNIrstgH3">Ethereum-assetCN.INTERESTING
+  <h3 id="idEthevuCNIrstgH3">EthrassetCN.INTERESTING
     <a class="clsHide" href="#idEthevuCNIrstgH3"></a></h3>
   <p id="idEthevuCNIrstgstr">specific::
     <br>INTERESTING TOKENS
@@ -4098,12 +4115,12 @@ def send(to, value):
   </section>
 
   <section id="idEthtmt">
-  <h3 id="idEthtmtH3">Ethereum-assetCN.ChonoBank-TIME (<a class="clsPreview" href="../dirTchInf/McshTchInf000020.last.html#idChbtmt">link</a>)
+  <h3 id="idEthtmtH3">EthrassetCN.ChonoBank-TIME (<a class="clsPreview" href="../dirTchInf/McshTchInf000020.last.html#idChbtmt">link</a>)
     <a class="clsHide" href="#idEthtmtH3"></a></h3>
   </section>
 
   <section id="idEthDGX">
-  <h3 id="idEthDGXH3">Ethereum-assetCN.DGX
+  <h3 id="idEthDGXH3">EthrassetCN.DGX
     <a class="clsHide" href="#idEthDGXH3"></a></h3>
   <p id="idEthDGXdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4127,7 +4144,7 @@ def send(to, value):
   </section>
 
   <section id="idEthMNE">
-  <h3 id="idEthMNEH3">Ethereum-assetCN.Minereum-MNE
+  <h3 id="idEthMNEH3">EthrassetCN.Minereum-MNE
     <a class="clsHide" href="#idEthMNEH3"></a></h3>
   <p id="idEthMNEdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4149,7 +4166,7 @@ def send(to, value):
   </section>
 
   <section id="idPltnevu">
-  <h3 id="idPltnevuH3">Ethereum-assetCN.Plutus-Pluton
+  <h3 id="idPltnevuH3">EthrassetCN.Plutus-Pluton
     <a class="clsHide" href="#idPltnevuH3"></a></h3>
   <p id="idPltnevudsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4161,7 +4178,7 @@ def send(to, value):
     <br>[<a href="https://plutus.it/">https://plutus.it/</a>]
     <a class="clsHide" href="#idPltnevudsn"></a></p>
   <p id="idPltnevunam">name::
-    <br>* McshEngl.Ethereum-assetCN.Plutus-Pluton,
+    <br>* McshEngl.EthrassetCN.Plutus-Pluton,
     <a class="clsHide" href="#idPltnevunam"></a></p>
   <p id="idPltnevuwpa">addressWpg::
     <br>* <a href="https://etherscan.io/token/Pluton">https://etherscan.io/token/Pluton</a>,
@@ -4170,7 +4187,7 @@ def send(to, value):
   </section>
 
   <section id="idRepevu">
-  <h3 id="idRepevuH3">Ethereum-assetCN.Augur-REP
+  <h3 id="idRepevuH3">EthrassetCN.Augur-REP
     <a class="clsHide" href="#idRepevuH3"></a></h3>
   <p id="idRepevudsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5974,7 +5991,26 @@ def send(to, value):
   <p id="idEthtflcmdnam">name::
     <br>* McshEngl.Ethereum-tflcmd-(truffle-command),
     <a class="clsHide" href="#idEthtflcmdnam"></a></p>
-  <p id="idEthtflcmdstr">specific::
+
+  <section id="idEthtflcmdgstr">
+  <h5 id="idEthtflcmdgstrH5">GENERIC-SPECIFIC-TREE of Ethereum-tflcmd-(truffle-command)
+    <a class="clsHide" href="#idEthtflcmdgstrH5"></a></h5>
+  <p id="idEthtflcmdgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEthtflcmdgstrdsn"></a></p>
+  <p id="idEthtflcmdgstrnam">name::
+    <br>* McshEngl.Ethereum-tflcmd-(truffle-command)'generic-specific-tree,
+    <br>* McshEngl.Ethereum-tflcmd-(truffle-command)'specific-generic-tree,
+    <a class="clsHide" href="#idEthtflcmdgstrnam"></a></p>
+  <p id="idEthtflcmdgtr">generic-tree::
+    <br>* McshEngl.Ethereum-tflcmd-(truffle-command)-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthtflcmdgtr"></a></p>
+  <p id="idEthtflcmdstr">specific-tree::
+    <br>* McshEngl.Ethereum-tflcmd-(truffle-command).specific,
+    <br>* McshEngl.Ethereum-tflcmd-(truffle-command)-Sptr,
+    <br>===
     <br>Commands:
     <br>init&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Initialize new Ethereum project with example contracts and tests
     <br>compile&nbsp;&nbsp;&nbsp;Compile contract source files
@@ -5991,6 +6027,7 @@ def send(to, value):
     <br>exec&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Execute a JS module within this Truffle environment
     <br>version&nbsp;&nbsp;&nbsp;Show version number and exit
     <a class="clsHide" href="#idEthtflcmdstr"></a></p>
+  </section>
   </section>
   </section>
 
@@ -6901,17 +6938,34 @@ def send(to, value):
     <br>[<a href="https://ethereum-homestead.readthedocs.io/en/latest/contracts-and-transactions/account-types-gas-and-transactions.html#what-is-a-message">https://ethereum-homestead.readthedocs.io/en/latest/contracts-and-transactions/account-types-gas-and-transactions.html#what-is-a-message</a>]
     <a class="clsHide" href="#idEthctpmgcldsn"></a></p>
   <p id="idEthctpmgclnam">name::
-    <br>* McshEngl.DcontractEth'message,
-    <br>* McshEngl.AgntEthr'message-call-of-contract,
+    <br>* McshEngl.message-call-of-contract--of-AgntEthr!⇒Ethrscmessage,
+    <br>* McshEngl.Ethrscmessage!=message-call-of-contract--of-AgntEthr,
+    <br>* McshEngl.DcontractEth'message!⇒Ethrscmessage,
+    <br>* McshEngl.AgntEthr'message-call-of-contract!⇒Ethrscmessage,
     <a class="clsHide" href="#idEthctpmgclnam"></a></p>
 
-  <section id="idEthctpmgclstr">
-  <h3 id="idEthctpmgclstrH3">SPECIFIC
-    <a class="clsHide" href="#idEthctpmgclstrH3"></a></h3>
-  <p id="idEthctpmgclSpcstr">specific::
+  <section id="idEthctpmgclgstr">
+  <h3 id="idEthctpmgclgstrH3">GENERIC-SPECIFIC-TREE of Ethrscmessage
+    <a class="clsHide" href="#idEthctpmgclgstrH3"></a></h3>
+  <p id="idEthctpmgclgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEthctpmgclgstrdsn"></a></p>
+  <p id="idEthctpmgclgstrnam">name::
+    <br>* McshEngl.Ethrscmessage'generic-specific-tree,
+    <br>* McshEngl.Ethrscmessage'specific-generic-tree,
+    <a class="clsHide" href="#idEthctpmgclgstrnam"></a></p>
+  <p id="idEthctpmgclgtr">generic-tree::
+    <br>* McshEngl.Ethrscmessage-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthctpmgclgtr"></a></p>
+  <p id="idEthctpmgclstr">specific-tree::
+    <br>* McshEngl.Ethrscmessage.specific,
+    <br>* McshEngl.Ethrscmessage-Sptr,
+    <br>===
     <br>Contracts can even create other contracts using a special opcode (i.e. they do not simply call the zero address). The only difference between these create calls and normal message calls is that the payload data is executed and the result stored as code and the caller / creator receives the address of the new contract on the stack.
     <br>[<a href="http://solidity.readthedocs.io/en/v0.4.9/introduction-to-smart-contracts.html#create">http://solidity.readthedocs.io/en/v0.4.9/introduction-to-smart-contracts.html#create</a>]
-    <a class="clsHide" href="#idEthctpmgclSpcstr"></a></p>
+    <a class="clsHide" href="#idEthctpmgclstr"></a></p>
   </section>
   </section>
 
@@ -10321,9 +10375,29 @@ contract SimpleStorage {
   <p id="idEthctptolDsasmnam">name::
     <br>* McshEngl.DcontractEth'disassember,
     <a class="clsHide" href="#idEthctptolDsasmnam"></a></p>
-  <p id="idEthctptolDsasmstr">specific::
+
+  <section id="idEthctptolDsasmgstr">
+  <h4 id="idEthctptolDsasmgstrH4">GENERIC-SPECIFIC-TREE of DcontractEth'disassember
+    <a class="clsHide" href="#idEthctptolDsasmgstrH4"></a></h4>
+  <p id="idEthctptolDsasmgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEthctptolDsasmgstrdsn"></a></p>
+  <p id="idEthctptolDsasmgstrnam">name::
+    <br>* McshEngl.DcontractEth'disassember'generic-specific-tree,
+    <br>* McshEngl.DcontractEth'disassember'specific-generic-tree,
+    <a class="clsHide" href="#idEthctptolDsasmgstrnam"></a></p>
+  <p id="idEthctptolDsasmgtr">generic-tree::
+    <br>* McshEngl.DcontractEth'disassember-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthctptolDsasmgtr"></a></p>
+  <p id="idEthctptolDsasmstr">specific-tree::
+    <br>* McshEngl.DcontractEth'disassember.specific,
+    <br>* McshEngl.DcontractEth'disassember-Sptr,
+    <br>===
     <br>* <a href="https://github.com/Arachnid/evmdis">https://github.com/Arachnid/evmdis</a>,
     <a class="clsHide" href="#idEthctptolDsasmstr"></a></p>
+  </section>
 
   <section id="idEthctpersndslr">
   <h4 id="idEthctpersndslrH4">DcontractEth'Etherscan-disassembler
@@ -10711,7 +10785,26 @@ contract SimpleStorage {
   <p id="idEthctpsvcnam">name::
     <br>* McshEngl.DcontractEth'service,
     <a class="clsHide" href="#idEthctpsvcnam"></a></p>
-  <p id="idEthctpsvcstr">specific::
+
+  <section id="idEthctpsvcgstr">
+  <h4 id="idEthctpsvcgstrH4">GENERIC-SPECIFIC-TREE of DcontractEth'service
+    <a class="clsHide" href="#idEthctpsvcgstrH4"></a></h4>
+  <p id="idEthctpsvcgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEthctpsvcgstrdsn"></a></p>
+  <p id="idEthctpsvcgstrnam">name::
+    <br>* McshEngl.DcontractEth'service'generic-specific-tree,
+    <br>* McshEngl.DcontractEth'service'specific-generic-tree,
+    <a class="clsHide" href="#idEthctpsvcgstrnam"></a></p>
+  <p id="idEthctpsvcgtr">generic-tree::
+    <br>* McshEngl.DcontractEth'service-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idEthctpsvcgtr"></a></p>
+  <p id="idEthctpsvcstr">specific-tree::
+    <br>* McshEngl.DcontractEth'service.specific,
+    <br>* McshEngl.DcontractEth'service-Sptr,
+    <br>===
     <br>As you will see, it is possible to create contracts for voting, crowdfunding, blind auctions, multi-signature wallets and more.
     <br>[<a href="https://solidity.readthedocs.io/en/v0.4.9/">https://solidity.readthedocs.io/en/v0.4.9/</a>]
     <br>===
@@ -10727,6 +10820,7 @@ contract SimpleStorage {
     <br>In this light, Ethereum may be seen as a general implementation of such a crypto-law system.
     <br>[<a href="https://ethereum.github.io/yellowpaper/paper.pdf">https://ethereum.github.io/yellowpaper/paper.pdf</a> (e5eff48.2017-03-02)]
     <a class="clsHide" href="#idEthctpsvcstr"></a></p>
+  </section>
   </section>
   </section>
 
@@ -11770,18 +11864,19 @@ contract WillManager {
     <br>[<a href="https://ethereum-homestead.readthedocs.org/en/latest/introduction/what-is-ethereum.html#ethereum-virtual-machine">https://ethereum-homestead.readthedocs.org/en/latest/introduction/what-is-ethereum.html#ethereum-virtual-machine</a>]
     <a class="clsHide" href="#idEthsvcdsn"></a></p>
   <p id="idEthsvcnam">name::
-    <br>* McshEngl.AgntEthr'service,
-    <br>* McshEngl.AgntEthr'usage,
-    <br>* McshEngl.Ethereum-service,
+    <br>* McshEngl.Ethereum-service!⇒Ethrservice,
+    <br>* McshEngl.Ethrservice!=Ethereum-service,
+    <br>* McshEngl.AgntEthr'service!⇒Ethrservice,
+    <br>* McshEngl.AgntEthr'usage!⇒Ethrservice,
     <a class="clsHide" href="#idEthsvcnam"></a></p>
 
   <section id="idEthsvcdap">
-  <h3 id="idEthsvcdapH3">Ethereum-service'Dapp (<a class="clsPreview" href="#idEthdap">link</a>)
+  <h3 id="idEthsvcdapH3">Ethrservice'Dapp (<a class="clsPreview" href="#idEthdap">link</a>)
     <a class="clsHide" href="#idEthsvcdapH3"></a></h3>
   </section>
 
   <section id="idEthsvcstr">
-  <h3 id="idEthsvcstrH3">SPECIFIC
+  <h3 id="idEthsvcstrH3">EthrserviceSPECIFIC
     <a class="clsHide" href="#idEthsvcstrH3"></a></h3>
   <p id="idEthsvcSpcP1">specific::
     <br>The stated purpose of <strong>the Ethereum project</strong> is to "decentralize the web" by introducing four components as part of its roadmap: static content publication, dynamic messages, trustless transactions and an integrated user-interface.

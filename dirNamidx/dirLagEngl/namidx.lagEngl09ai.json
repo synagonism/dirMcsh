@@ -1,5 +1,5 @@
 [
-  [";lagEngl09ai","I|i",3009,"2026-10-12"],
+  [";lagEngl09ai","I|i",3010,"2026-10-12"],
   ["I","dirLag/McshLag000007.last.html#idLHmnmprsnA2"],
   ["I!~nounEnglC1-1:I;we;me;our;mine;ours","dirLag/McshLag000024.last.html#idLEnglnounC1-252"],
   ["I!~pronEnglExophoric","dirLag/McshLag000011.last.html#idLEnglpronExfcI"],
@@ -1192,6 +1192,7 @@
   ["Index-Z@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndexZnam"],
   ["Index_number@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrIndex_number"],
   ["Index_of_gross_wages_and_salaries_—_STS@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrIndex_of_gross_wages_and_salaries_—_STS"],
+  ["India'char.Generic-punctuation-for-scripts","dirTchInf/dirUcd/McshUcdU0900.last.html#idU0900chr15"],
   ["India-Rupee-currency-(INR)","dirStn/McshStn000029.last.html#idSfrFin019UntSpc2"],
   ["Indic-Siyaq-Numbers--Unicode-block","dirTchInf/dirUcd/McshUcdU1EC70.last.html#idOverview"],
   ["Indicator_A@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrIndicator_A"],

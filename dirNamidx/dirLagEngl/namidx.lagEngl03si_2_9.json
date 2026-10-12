@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_9","char.U+2..char.UA",10322,"2026-10-05"],
+  [";lagEngl03si_2_9","char.U+2..char.UA",10323,"2026-10-12"],
   ["char.U+2000&#32;8192&#32;&#x2000;&#32;EN-QUAD","dirTchInf/dirUcd/McshUcdU2000.last.html#idU2000U2000"],
   ["char.U+2001&#32;8193&#32;&#x2001;&#32;EM-QUAD","dirTchInf/dirUcd/McshUcdU2000.last.html#idU2000U2001"],
   ["char.U+2002&#32;8194&#32;&#x2002;&#32;EN-SPACE","dirTchInf/dirUcd/McshUcdU2000.last.html#idU2000U2002"],
@@ -10321,5 +10321,6 @@
   ["char.U-with-acute-218-Ú","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00DA"],
   ["char.U-with-circumflex-219-Û","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00DB"],
   ["char.U-with-diaeresis-220-Ü","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00DC"],
-  ["char.U-with-grave-217-Ù","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00D9"]
+  ["char.U-with-grave-217-Ù","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00D9"],
+  ["char.U.-Agriculture;-crafts;-and-professions.Ucbk.77824..78895","dirTchInf/dirUcd/McshUcdU13000.last.html#idU13000chr21"]
 ]

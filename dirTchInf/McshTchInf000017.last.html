@@ -2741,7 +2741,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>* McshEngl.AgntBtcn'address'public-key,
     <br>* McshEngl.AgntBtcn'public-key,
     <br>* McshEngl.public-key.Bitcoin,
-    <br>* McshEngl.Bitcoin-wlt'public-key,
+    <br>* McshEngl.Btcnwallet'public-key,
     <a class="clsHide" href="#idBtcpbknam"></a></p>
   </section>
 
@@ -3037,13 +3037,14 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="http://www.economist.com/blogs/graphicdetail/2015/01/daily-chart-3">http://www.economist.com/blogs/graphicdetail/2015/01/daily-chart-3</a>]
     <a class="clsHide" href="#idBtctxdsn"></a></p>
   <p id="idBtctxnam">name::
-    <br>* McshEngl.AgntBtcn'blockchain-transaction,
-    <br>* McshEngl.AgntBtcn'transaction,
-    <br>* McshEngl.Bitcoin-tx-(Bitcoin-transaction),
-    <br>* McshEngl.AgntBtcn'transaction-record,
+    <br>* McshEngl.Bitcoin-transaction!⇒Btcntx,
+    <br>* McshEngl.Btcntx!=Bitcoin-transaction,
+    <br>* McshEngl.AgntBtcn'blockchain-transaction!⇒Btcntx,
+    <br>* McshEngl.AgntBtcn'transaction!⇒Btcntx,
+    <br>* McshEngl.AgntBtcn'transaction-record!⇒Btcntx,
     <br>====== lagoGreek:
-    <br>* McshElln.Μπιτκόιν-συναλλαγή,
-    <br>* McshElln.Συναλλαγή-μπιτκόιν,
+    <br>* McshElln.Μπιτκόιν-συναλλαγή!=Btcntx,
+    <br>* McshElln.Συναλλαγή-μπιτκόιν!=Btcntx,
     <a class="clsHide" href="#idBtctxnam"></a></p>
   <p id="idBtctxP1">whole-tree::
     <br>* <a class="clsPreview" href="#idBtcblkdsn">btc--block</a>,
@@ -3051,12 +3052,12 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtctxP1"></a></p>
 
   <section id="idBtctxprt">
-  <h3 id="idBtctxprtH3">Bitcoin-tx'PART
+  <h3 id="idBtctxprtH3">Btcntx'PART
     <a class="clsHide" href="#idBtctxprtH3"></a></h3>
   </section>
 
   <section id="idBtctxvsn">
-  <h3 id="idBtctxvsnH3">Bitcoin-tx'part.VERSION (4B)
+  <h3 id="idBtctxvsnH3">Btcntx'part.VERSION (4B)
     <a class="clsHide" href="#idBtctxvsnH3"></a></h3>
   <p id="idBtctxvsndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3077,18 +3078,18 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtctxvsndsn"></a></p>
   <p id="idBtctxvsnnam">name::
     <br>* McshEngl.AgntBtcn'nVersion-of-transaction,
-    <br>* McshEngl.Bitcoin-tx'version,
+    <br>* McshEngl.Btcntx'version,
     <br>* McshEngl.AgntBtcn'transaction-version-number,
     <a class="clsHide" href="#idBtctxvsnnam"></a></p>
   </section>
 
   <section id="idBtctxina">
-  <h3 id="idBtctxinaH3">Bitcoin-tx'part.INPUT-ARRAY
+  <h3 id="idBtctxinaH3">Btcntx'part.INPUT-ARRAY
     <a class="clsHide" href="#idBtctxinaH3"></a></h3>
   </section>
 
   <section id="idBtctxinpt">
-  <h3 id="idBtctxinptH3">Bitcoin-tx'part.INPUT
+  <h3 id="idBtctxinptH3">Btcntx'part.INPUT
     <a class="clsHide" href="#idBtctxinptH3"></a></h3>
   <p id="idBtctxinptdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3134,7 +3135,7 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtctxinptdsn"></a></p>
   <p id="idBtctxinptnam">name::
     <br>* McshEngl.AgntBtcn'input,
-    <br>* McshEngl.Bitcoin-tx'input,
+    <br>* McshEngl.Btcntx'input,
     <br>* McshEngl.AgntBtcn'transaction-input,
     <br>* McshEngl.AgntBtcn'txin,
     <a class="clsHide" href="#idBtctxinptnam"></a></p>
@@ -3153,7 +3154,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtctxinptotpntnam">name::
     <br>* McshEngl.Bitcoin-txinpt'outpoint,
     <br>* McshEngl.AgntBtcn'outpoint,
-    <br>* McshEngl.Bitcoin-tx'outpoint,
+    <br>* McshEngl.Btcntx'outpoint,
     <a class="clsHide" href="#idBtctxinptotpntnam"></a></p>
 
   <section id="idBtctxinptotpntid">
@@ -3169,7 +3170,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://bitcoin.org/en/developer-guide#transaction-data">https://bitcoin.org/en/developer-guide#transaction-data</a>]
     <a class="clsHide" href="#idBtctxinptotpntiddsn"></a></p>
   <p id="idBtctxinptotpntidnam">name::
-    <br>* McshEngl.Bitcoin-tx'id,
+    <br>* McshEngl.Btcntx'id,
     <br>* McshEngl.Bitcoin-txinpt'txid,
     <br>* McshEngl.AgntBtcn'transaction-Identifier,
     <br>* McshEngl.Bitcoin-txid,
@@ -3210,7 +3211,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtctxinptsqncnam">name::
     <br>* McshEngl.Bitcoin-txinpt'sequence-number,
     <br>* McshEngl.AgntBtcn'sequence-number,
-    <br>* McshEngl.Bitcoin-tx'sequence-number,
+    <br>* McshEngl.Btcntx'sequence-number,
     <a class="clsHide" href="#idBtctxinptsqncnam"></a></p>
   </section>
 
@@ -3263,12 +3264,12 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxota">
-  <h3 id="idBtctxotaH3">Bitcoin-tx'part.OUTPUT-ARRAY
+  <h3 id="idBtctxotaH3">Btcntx'part.OUTPUT-ARRAY
     <a class="clsHide" href="#idBtctxotaH3"></a></h3>
   </section>
 
   <section id="idBtctxoupt">
-  <h3 id="idBtctxouptH3">Bitcoin-tx'part.OUTPUT (btctxout)
+  <h3 id="idBtctxouptH3">Btcntx'part.OUTPUT (btctxout)
     <a class="clsHide" href="#idBtctxouptH3"></a></h3>
   <p id="idBtctxouptdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3280,7 +3281,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtctxouptnam">name::
     <br>* McshEngl.AgntBtcn'output,
     <br>* McshEngl.AgntBtcn'transaction-Output,
-    <br>* McshEngl.Bitcoin-tx'output,
+    <br>* McshEngl.Btcntx'output,
     <br>* McshEngl.Bitcoin-txout,
     <a class="clsHide" href="#idBtctxouptnam"></a></p>
   <p id="idBtctxouptP2">description-2::
@@ -3437,7 +3438,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://bitcoin.org/en/glossary/unspent-transaction-output">https://bitcoin.org/en/glossary/unspent-transaction-output</a>]
     <a class="clsHide" href="#idBtctxoutSpntNodsn"></a></p>
   <p id="idBtctxoutSpntNonam">name::
-    <br>* McshEngl.Bitcoin-tx'UTXO,
+    <br>* McshEngl.Btcntx'UTXO,
     <br>* McshEngl.Bitcoin-txout.UTXO,
     <br>* McshEngl.AgntBtcn'unspent-transaction-output,
     <br>* McshEngl.AgntBtcn'UTXO,
@@ -3463,7 +3464,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://github.com/oleganza/bitcoin-papers/blob/master/BitcoinGlossary.md">https://github.com/oleganza/bitcoin-papers/blob/master/BitcoinGlossary.md</a>]
     <a class="clsHide" href="#idBtctxutxosetdsn"></a></p>
   <p id="idBtctxutxosetnam">name::
-    <br>* McshEngl.Bitcoin-tx'UTXO-set,
+    <br>* McshEngl.Btcntx'UTXO-set,
     <br>* McshEngl.Bitcoin-txout.UTXO-set,
     <br>* McshEngl.AgntBtcn'unspent-transaction-output-set,
     <br>* McshEngl.AgntBtcn'UTXO-set,
@@ -3473,7 +3474,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxltm">
-  <h3 id="idBtctxltmH3">Bitcoin-tx'part.LOCKTIME (4Bytes)
+  <h3 id="idBtctxltmH3">Btcntx'part.LOCKTIME (4Bytes)
     <a class="clsHide" href="#idBtctxltmH3"></a></h3>
   <p id="idBtctxltmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3501,14 +3502,14 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://github.com/oleganza/bitcoin-papers/blob/master/BitcoinGlossary.md">https://github.com/oleganza/bitcoin-papers/blob/master/BitcoinGlossary.md</a>]
     <a class="clsHide" href="#idBtctxltmdsn"></a></p>
   <p id="idBtctxltmnam">name::
-    <br>* McshEngl.Bitcoin-tx'locktime,
+    <br>* McshEngl.Btcntx'locktime,
     <br>* McshEngl.AgntBtcn'locktime,
     <br>* McshEngl.AgntBtcn'nLockTime,
     <a class="clsHide" href="#idBtctxltmnam"></a></p>
   </section>
 
   <section id="idBtctxbyt">
-  <h3 id="idBtctxbytH3">Bitcoin-tx'Bytes
+  <h3 id="idBtctxbytH3">Btcntx'Bytes
     <a class="clsHide" href="#idBtctxbytH3"></a></h3>
   <p id="idBtctxbytdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3516,12 +3517,12 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://bitcoin.org/en/faq#transactions">https://bitcoin.org/en/faq#transactions</a>]
     <a class="clsHide" href="#idBtctxbytdsn"></a></p>
   <p id="idBtctxbytnam">name::
-    <br>* McshEngl.Bitcoin-tx'Bytes,
+    <br>* McshEngl.Btcntx'Bytes,
     <a class="clsHide" href="#idBtctxbytnam"></a></p>
   </section>
 
   <section id="idBtctxfee">
-  <h3 id="idBtctxfeeH3">Bitcoin-tx'Fee
+  <h3 id="idBtctxfeeH3">Btcntx'Fee
     <a class="clsHide" href="#idBtctxfeeH3"></a></h3>
   <p id="idBtctxfeedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3556,7 +3557,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://en.bitcoin.it/wiki/Transaction_fees">https://en.bitcoin.it/wiki/Transaction_fees</a>]
     <a class="clsHide" href="#idBtctxfeedsn"></a></p>
   <p id="idBtctxfeenam">name::
-    <br>* McshEngl.Bitcoin-tx'fee,
+    <br>* McshEngl.Btcntx'fee,
     <br>* McshEngl.AgntBtcn'fee,
     <br>* McshEngl.AgntBtcn'transaction-Fee,
     <br>* McshEngl.AgntBtcn'miner-Fee,
@@ -3576,7 +3577,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxftb">
-  <h3 id="idBtctxftbH3">Bitcoin-tx'Format.Binary
+  <h3 id="idBtctxftbH3">Btcntx'Format.Binary
     <a class="clsHide" href="#idBtctxftbH3"></a></h3>
   <p id="idBtctxftbdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3586,13 +3587,13 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtctxftbnam">name::
     <br>* McshEngl.AgntBtcn'rawtransaction-format,
     <br>* McshEngl.AgntBtcn'transaction-format,
-    <br>* McshEngl.Bitcoin-tx'binary-format,
-    <br>* McshEngl.Bitcoin-tx'raw-format,
+    <br>* McshEngl.Btcntx'binary-format,
+    <br>* McshEngl.Btcntx'raw-format,
     <a class="clsHide" href="#idBtctxftbnam"></a></p>
   </section>
 
   <section id="idBtctxstl">
-  <h3 id="idBtctxstlH3">Bitcoin-tx'Script-language
+  <h3 id="idBtctxstlH3">Btcntx'Script-language
     <a class="clsHide" href="#idBtctxstlH3"></a></h3>
   <p id="idBtctxstldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3619,7 +3620,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>* McshEngl.Bitcoin-Scrit, {2019-06-15},
     <br>* McshEngl.Bitcoin-Script-language!⇒Bitcoin-Scrit,
     <br>* McshEngl.Bitcoin-stl!⇒Bitcoin-Scrit,
-    <br>* McshEngl.Bitcoin-tx'Script-language!⇒Bitcoin-Scrit,
+    <br>* McshEngl.Btcntx'Script-language!⇒Bitcoin-Scrit,
     <br>* McshEngl.AgntBtcn'scripting-language!⇒Bitcoin-Scrit,
     <br>* McshEngl.AgntBtcn'scripting-system!⇒Bitcoin-Scrit,
     <br>* McshEngl.AgntBtcn'transaction-script!⇒Bitcoin-Scrit,
@@ -3669,7 +3670,7 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcstlopcddsn"></a></p>
   <p id="idBtcstlopcdnam">name::
     <br>* McshEngl.Bitcoin-Script'op-code,
-    <br>* McshEngl.Bitcoin-tx'op-code,
+    <br>* McshEngl.Btcntx'op-code,
     <br>* McshEngl.AgntBtcn'opcode,
     <br>* McshEngl.AgntBtcn'op-code,
     <a class="clsHide" href="#idBtcstlopcdnam"></a></p>
@@ -3715,7 +3716,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>* McshEngl.AgntBtcn'scriptSig,
     <br>* McshEngl.AgntBtcn'sequence-script,
     <br>* McshEngl.AgntBtcn'signature-script,
-    <br>* McshEngl.Bitcoin-tx'signature-script,
+    <br>* McshEngl.Btcntx'signature-script,
     <br>* McshEngl.Bitcoin-txinpt'signature-script,
     <a class="clsHide" href="#idBtcstlinptscrnam"></a></p>
   </section>
@@ -4001,7 +4002,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxprrt">
-  <h3 id="idBtctxprrtH3">Bitcoin-tx'Priority
+  <h3 id="idBtctxprrtH3">Btcntx'Priority
     <a class="clsHide" href="#idBtctxprrtH3"></a></h3>
   <p id="idBtctxprrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4015,7 +4016,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxtim">
-  <h3 id="idBtctxtimH3">Bitcoin-tx'Time
+  <h3 id="idBtctxtimH3">Btcntx'Time
     <a class="clsHide" href="#idBtctxtimH3"></a></h3>
   <p id="idBtctxtimwpa">addressWpg::
     <br>* <a href="https://cointelegraph.com/news/why-is-my-bitcoin-transaction-taking-so-long-heres-why">https://cointelegraph.com/news/why-is-my-bitcoin-transaction-taking-so-long-heres-why</a>,
@@ -4023,7 +4024,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxvst">
-  <h3 id="idBtctxvstH3">Bitcoin-tx'Visibility
+  <h3 id="idBtctxvstH3">Btcntx'Visibility
     <a class="clsHide" href="#idBtctxvstH3"></a></h3>
   <p id="idBtctxvstdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4034,16 +4035,16 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://en.bitcoin.it/wiki/Transaction">https://en.bitcoin.it/wiki/Transaction</a>]
     <a class="clsHide" href="#idBtctxvstdsn"></a></p>
   <p id="idBtctxvstnam">name::
-    <br>* McshEngl.Bitcoin-tx'Visibility,
+    <br>* McshEngl.Btcntx'Visibility,
     <a class="clsHide" href="#idBtctxvstnam"></a></p>
   </section>
 
   <section id="idBtctxdng">
-  <h3 id="idBtctxdngH3">Bitcoin-tx'DOING
+  <h3 id="idBtctxdngH3">Btcntx'DOING
     <a class="clsHide" href="#idBtctxdngH3"></a></h3>
 
   <section id="idBtctxcfmn">
-  <h4 id="idBtctxcfmnH4">Bitcoin-tx'Confirmation
+  <h4 id="idBtctxcfmnH4">Btcntx'Confirmation
     <a class="clsHide" href="#idBtctxcfmnH4"></a></h4>
   <p id="idBtctxcfmndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4080,7 +4081,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxrsc">
-  <h3 id="idBtctxrscH3">Bitcoin-tx'Resource
+  <h3 id="idBtctxrscH3">Btcntx'Resource
     <a class="clsHide" href="#idBtctxrscH3"></a></h3>
   <p id="idBtctxirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4088,11 +4089,11 @@ double AttackerSuccessProbability(double q, int z)
     <br>* <a href="https://en.bitcoin.it/wiki/Transaction">https://en.bitcoin.it/wiki/Transaction</a>,
     <a class="clsHide" href="#idBtctxirscdsn"></a></p>
   <p id="idBtctxrscnam">name::
-    <br>* McshEngl.Bitcoin-tx'Resource,
+    <br>* McshEngl.Btcntx'Resource,
     <a class="clsHide" href="#idBtctxrscnam"></a></p>
 
   <section id="idBtctxbcninfo">
-  <h4 id="idBtctxbcninfoH4">Bitcoin-tx'blockchain.info-site
+  <h4 id="idBtctxbcninfoH4">Btcntx'blockchain.info-site
     <a class="clsHide" href="#idBtctxbcninfoH4"></a></h4>
   <p id="idBtctxbcninfodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4111,25 +4112,35 @@ double AttackerSuccessProbability(double q, int z)
   </section>
   </section>
 
-  <section id="idBtctxstr">
-  <h3 id="idBtctxstrH3">SPECIFIC
-    <a class="clsHide" href="#idBtctxstrH3"></a></h3>
-  <p id="idBtctxstrdsn">description::
+  <section id="idBtctxgstr">
+  <h3 id="idBtctxgstrH3">GENERIC-SPECIFIC-TREE of Btcntx
+    <a class="clsHide" href="#idBtctxgstrH3"></a></h3>
+  <p id="idBtctxgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idBtctxstrdsn"></a></p>
-  <p id="idBtctxstrnam">name::
+    <a class="clsHide" href="#idBtctxgstrdsn"></a></p>
+  <p id="idBtctxgstrnam">name::
+    <br>* McshEngl.Btcntx'generic-specific-tree,
+    <br>* McshEngl.Btcntx'specific-generic-tree,
+    <a class="clsHide" href="#idBtctxgstrnam"></a></p>
+  <p id="idBtctxgtr">generic-tree::
+    <br>* McshEngl.Btcntx-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idBtctxgtr"></a></p>
+  <p id="idBtctxstr">specific-tree::
     <br>* Đbtc-tx.specific,
-    <br>* McshEngl.Bitcoin-tx.specific,
-    <br>* McshEngl.Bitcoin-tx-Sptr,
-    <a class="clsHide" href="#idBtctxstrnam"></a></p>
+    <br>* McshEngl.Btcntx.specific,
+    <br>* McshEngl.Btcntx-Sptr,
+    <br>===
+    <a class="clsHide" href="#idBtctxstr"></a></p>
   </section>
 
   <section id="idBtctxAgg">
-  <h3 id="idBtctxAggH3">Bitcoin-tx.AGGREGATE
+  <h3 id="idBtctxAggH3">Btcntx.AGGREGATE
     <a class="clsHide" href="#idBtctxAggH3"></a></h3>
 
   <section id="idBtctxAggDay">
-  <h4 id="idBtctxAggDayH4">Bitcoin-tx.aggregate.DAY
+  <h4 id="idBtctxAggDayH4">Btcntx.aggregate.DAY
     <a class="clsHide" href="#idBtctxAggDayH4"></a></h4>
   <p id="idBtctxAggDaydsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4138,12 +4149,12 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="http://www.forbes.com/sites/realspin/2015/09/08/new-bitcoin-development-spurs-unnecessary-fear-of-centralization/">http://www.forbes.com/sites/realspin/2015/09/08/new-bitcoin-development-spurs-unnecessary-fear-of-centralization/</a>]
     <a class="clsHide" href="#idBtctxAggDaydsn"></a></p>
   <p id="idBtctxAggDaynam">name::
-    <br>* McshEngl.Bitcoin-tx.aggregate.DAY,
+    <br>* McshEngl.Btcntx.aggregate.DAY,
     <a class="clsHide" href="#idBtctxAggDaynam"></a></p>
   </section>
 
   <section id="idBtctxAggScd">
-  <h4 id="idBtctxAggScdH4">Bitcoin-tx.aggregate.SECOND
+  <h4 id="idBtctxAggScdH4">Btcntx.aggregate.SECOND
     <a class="clsHide" href="#idBtctxAggScdH4"></a></h4>
   <p id="idBtctxAggScdP1">With Thunder, a transaction is so fast that the network can process 100,000 transactions per second. On average, <strong>Visa handles 2,000 transactions per second</strong> and the Visa network is capable of processing 56,000 transactions per second.
     <br>To put this into perspective, Blockchain wallet users are on track to make 40 million transactions this year, or <strong>around 1.3 transaction per second</strong>. Quite impressive, but let’s be honest. While there are many other wallets out there, given that Blockchain is the most popular wallet maker, bitcoin transaction volume is very far behind Visa. Reason of this lies in the fact that bitcoin transactions have been too cumbersome. So I’m convinced projects like Thunder are part of the solution.
@@ -4153,7 +4164,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxBgstmny">
-  <h3 id="idBtctxBgstmnyH3">Bitcoin-tx.BIGEST-in-money
+  <h3 id="idBtctxBgstmnyH3">Btcntx.BIGEST-in-money
     <a class="clsHide" href="#idBtctxBgstmnyH3"></a></h3>
   <p id="idBtctxBgstmnydsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4166,7 +4177,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxRaw">
-  <h3 id="idBtctxRawH3">Bitcoin-tx.BINARY (raw)
+  <h3 id="idBtctxRawH3">Btcntx.BINARY (raw)
     <a class="clsHide" href="#idBtctxRawH3"></a></h3>
   <p id="idBtctxRawdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4182,9 +4193,9 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtctxRawnam">name::
     <br>* McshEngl.Bitcoin-transaction.binary,
     <br>* McshEngl.Bitcoin-transaction.raw,
-    <br>* McshEngl.Bitcoin-tx.binary,
-    <br>* McshEngl.Bitcoin-tx.hexadecimal,
-    <br>* McshEngl.Bitcoin-tx.raw,
+    <br>* McshEngl.Btcntx.binary,
+    <br>* McshEngl.Btcntx.hexadecimal,
+    <br>* McshEngl.Btcntx.raw,
     <br>* McshEngl.AgntBtcn'binary-transaction-format,
     <br>* McshEngl.AgntBtcn'serialized-Transaction,
     <br>* McshEngl.AgntBtcn'raw-Transaction,
@@ -4193,7 +4204,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxCnbs">
-  <h3 id="idBtctxCnbsH3">Bitcoin-tx.COINBASE (new bitcoin)
+  <h3 id="idBtctxCnbsH3">Btcntx.COINBASE (new bitcoin)
     <a class="clsHide" href="#idBtctxCnbsH3"></a></h3>
   <p id="idBtctxCnbsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4222,10 +4233,10 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtctxCnbsdsn"></a></p>
   <p id="idBtctxCnbsnam">name::
     <br>* McshEngl.Bitcoin-transaction.coinbase,
-    <br>* McshEngl.Bitcoin-tx.coinbase,
+    <br>* McshEngl.Btcntx.coinbase,
     <br>* McshEngl.AgntBtcn'coinbase-transaction,
     <br>* McshEngl.AgntBtcn'generation-transaction,
-    <br>* McshEngl.Bitcoin-tx.generation,
+    <br>* McshEngl.Btcntx.generation,
     <a class="clsHide" href="#idBtctxCnbsnam"></a></p>
 
   <section id="idBtctxCnbsexnnc">
@@ -4264,7 +4275,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxCnbNo">
-  <h3 id="idBtctxCnbNoH3">Bitcoin-tx.COINBASE.NO (regular)
+  <h3 id="idBtctxCnbNoH3">Btcntx.COINBASE.NO (regular)
     <a class="clsHide" href="#idBtctxCnbNoH3"></a></h3>
   <p id="idBtctxCnbNodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4279,7 +4290,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtctxCnbNonam">name::
     <br>* McshEngl.Bitcoin-transaction.coinbaseNo,
     <br>* McshEngl.AgntBtcn'regular-transaction,
-    <br>* McshEngl.Bitcoin-tx.regular,
+    <br>* McshEngl.Btcntx.regular,
     <a class="clsHide" href="#idBtctxCnbNonam"></a></p>
   <p id="idBtctxCnbNoP1">Part::
     <br>Every transaction consists of
@@ -4292,7 +4303,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxCfrmd">
-  <h3 id="idBtctxCfrmdH3">Bitcoin-tx.CONFIRMED
+  <h3 id="idBtctxCfrmdH3">Btcntx.CONFIRMED
     <a class="clsHide" href="#idBtctxCfrmdH3"></a></h3>
   <p id="idBtctxCfrmddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4327,7 +4338,7 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtctxcfrmnbrdsn"></a></p>
   <p id="idBtctxcfrmnbrnam">name::
     <br>* McshEngl.AgntBtcn'confirmation-number,
-    <br>* McshEngl.Bitcoin-tx'confirmation-number,
+    <br>* McshEngl.Btcntx'confirmation-number,
     <a class="clsHide" href="#idBtctxcfrmnbrnam"></a></p>
   </section>
 
@@ -4347,7 +4358,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxCfrmdNo">
-  <h3 id="idBtctxCfrmdNoH3">Bitcoin-tx.CONFIRMED.NO
+  <h3 id="idBtctxCfrmdNoH3">Btcntx.CONFIRMED.NO
     <a class="clsHide" href="#idBtctxCfrmdNoH3"></a></h3>
   <p id="idBtctxCfrmdNodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4388,7 +4399,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxCntrct">
-  <h3 id="idBtctxCntrctH3">Bitcoin-tx.CONTRACT
+  <h3 id="idBtctxCntrctH3">Btcntx.CONTRACT
     <a class="clsHide" href="#idBtctxCntrctH3"></a></h3>
   <p id="idBtctxCntrctdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4403,7 +4414,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxDst">
-  <h3 id="idBtctxDstH3">Bitcoin-tx.DUST
+  <h3 id="idBtctxDstH3">Btcntx.DUST
     <a class="clsHide" href="#idBtctxDstH3"></a></h3>
   <p id="idBtctxDstdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4419,7 +4430,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxHpt">
-  <h3 id="idBtctxHptH3">Bitcoin-tx.HIGH-PRIORITY
+  <h3 id="idBtctxHptH3">Btcntx.HIGH-PRIORITY
     <a class="clsHide" href="#idBtctxHptH3"></a></h3>
   <p id="idBtctxHptdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4435,7 +4446,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxMtsg">
-  <h3 id="idBtctxMtsgH3">Bitcoin-tx.MULTISIG
+  <h3 id="idBtctxMtsgH3">Btcntx.MULTISIG
     <a class="clsHide" href="#idBtctxMtsgH3"></a></h3>
   <p id="idBtctxMtsgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4450,14 +4461,14 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtctxMtsgdsn"></a></p>
   <p id="idBtctxMtsgnam">name::
     <br>* McshEngl.Bitcoin-transaction.multisig,
-    <br>* McshEngl.Bitcoin-tx.multisig,
+    <br>* McshEngl.Btcntx.multisig,
     <br>* McshEngl.AgntBtcn'm-of-N-Multi-signature-Transaction,
     <br>* McshEngl.AgntBtcn'multisig-transaction,
     <a class="clsHide" href="#idBtctxMtsgnam"></a></p>
   </section>
 
   <section id="idBtctxP2pkh">
-  <h3 id="idBtctxP2pkhH3">Bitcoin-tx.P2PKH
+  <h3 id="idBtctxP2pkhH3">Btcntx.P2PKH
     <a class="clsHide" href="#idBtctxP2pkhH3"></a></h3>
   <p id="idBtctxP2pkhdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4470,7 +4481,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxP2sh">
-  <h3 id="idBtctxP2shH3">Bitcoin-tx.P2SH
+  <h3 id="idBtctxP2shH3">Btcntx.P2SH
     <a class="clsHide" href="#idBtctxP2shH3"></a></h3>
   <p id="idBtctxP2shdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4481,13 +4492,13 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtctxP2shdsn"></a></p>
   <p id="idBtctxP2shnam">name::
     <br>* McshEngl.Bitcoin-transaction.P2SH,
-    <br>* McshEngl.Bitcoin-tx.P2SH,
+    <br>* McshEngl.Btcntx.P2SH,
     <br>* McshEngl.AgntBtcn'pay-To-Script-Hash-transaction,
     <a class="clsHide" href="#idBtctxP2shnam"></a></p>
   </section>
 
   <section id="idBtctxRlng">
-  <h3 id="idBtctxRlngH3">Bitcoin-tx.RELAYING
+  <h3 id="idBtctxRlngH3">Btcntx.RELAYING
     <a class="clsHide" href="#idBtctxRlngH3"></a></h3>
   <p id="idBtctxRlngdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4506,7 +4517,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxSgnd">
-  <h3 id="idBtctxSgndH3">Bitcoin-tx.SIGNED
+  <h3 id="idBtctxSgndH3">Btcntx.SIGNED
     <a class="clsHide" href="#idBtctxSgndH3"></a></h3>
   <p id="idBtctxSgnddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4518,7 +4529,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxSgndNo">
-  <h3 id="idBtctxSgndNoH3">Bitcoin-tx.SIGNED.NO
+  <h3 id="idBtctxSgndNoH3">Btcntx.SIGNED.NO
     <a class="clsHide" href="#idBtctxSgndNoH3"></a></h3>
   <p id="idBtctxSgndNodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4533,7 +4544,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxStdrd">
-  <h3 id="idBtctxStdrdH3">Bitcoin-tx.STANDARD
+  <h3 id="idBtctxStdrdH3">Btcntx.STANDARD
     <a class="clsHide" href="#idBtctxStdrdH3"></a></h3>
   <p id="idBtctxStdrddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4573,7 +4584,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxStdrdNo">
-  <h3 id="idBtctxStdrdNoH3">Bitcoin-tx.STANDARD.NO
+  <h3 id="idBtctxStdrdNoH3">Btcntx.STANDARD.NO
     <a class="clsHide" href="#idBtctxStdrdNoH3"></a></h3>
   <p id="idBtctxStdrdNodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4594,7 +4605,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxVld">
-  <h3 id="idBtctxVldH3">Bitcoin-tx.VALID
+  <h3 id="idBtctxVldH3">Btcntx.VALID
     <a class="clsHide" href="#idBtctxVldH3"></a></h3>
   <p id="idBtctxVlddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4606,7 +4617,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtctxVldNo">
-  <h3 id="idBtctxVldNoH3">Bitcoin-tx.VALID.NO
+  <h3 id="idBtctxVldNoH3">Btcntx.VALID.NO
     <a class="clsHide" href="#idBtctxVldNoH3"></a></h3>
   <p id="idBtctxVldNodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5775,27 +5786,38 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="http://bitcoin.org/">http://bitcoin.org/</a>] 2012-05-27,
     <a class="clsHide" href="#idBtcpgmdsn"></a></p>
   <p id="idBtcpgmnam">name::
-    <br>* McshEngl.Bitcoin-pgm-(Bitcoin-program),
-    <br>* McshEngl.AgntBtcn'program,
-    <br>* McshEngl.AgntBtcn'software,
+    <br>* McshEngl.Bitcoin-program!⇒Btcnprgm,
+    <br>* McshEngl.Btcnprgm!=Bitcoin-program,
+    <br>* McshEngl.AgntBtcn'program!⇒Btcnprgm,
+    <br>* McshEngl.AgntBtcn'software!⇒Btcnprgm,
     <a class="clsHide" href="#idBtcpgmnam"></a></p>
 
-  <section id="idBtcpgmstr">
-  <h2 id="idBtcpgmstrH2">SPECIFIC
-    <a class="clsHide" href="#idBtcpgmstrH2"></a></h2>
-  <p id="idBtcpgmstrdsn">description::
+  <section id="idBtcpgmgstr">
+  <h2 id="idBtcpgmgstrH2">GENERIC-SPECIFIC-TREE of Btcnprgm
+    <a class="clsHide" href="#idBtcpgmgstrH2"></a></h2>
+  <p id="idBtcpgmgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idBtcpgmstrdsn"></a></p>
-  <p id="idBtcpgmstrnam">name::
+    <a class="clsHide" href="#idBtcpgmgstrdsn"></a></p>
+  <p id="idBtcpgmgstrnam">name::
+    <br>* McshEngl.Btcnprgm'generic-specific-tree,
+    <br>* McshEngl.Btcnprgm'specific-generic-tree,
+    <a class="clsHide" href="#idBtcpgmgstrnam"></a></p>
+  <p id="idBtcpgmgtr">generic-tree::
+    <br>* McshEngl.Btcnprgm-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idBtcpgmgtr"></a></p>
+  <p id="idBtcpgmstr">specific-tree::
+    <br>* McshEngl.Btcnprgm.specific,
+    <br>* McshEngl.Btcnprgm-Sptr,
     <br>* btcpgm.specific,
     <br>* McshEngl.Bitcoin-pgm.specific,
     <br>* McshEngl.Bitcoin-pgm-Sptr,
-    <a class="clsHide" href="#idBtcpgmstrnam"></a></p>
-  <p id="idBtcpgmSpcstr">specific::
+    <br>===
     <br>* <a class="clsPreview" href="#idBtcwltPgmdsn">Wallet-program</a>,
     <br>* <a href="https://npmjs.org/package/bitcoin">https://npmjs.org/package/bitcoin</a>,
     <br>* <a href="http://coinwidget.com/">http://coinwidget.com</a>/
-    <a class="clsHide" href="#idBtcpgmSpcstr"></a></p>
+    <a class="clsHide" href="#idBtcpgmstr"></a></p>
   </section>
 
   <section id="idBitcoinj">
@@ -5882,11 +5904,31 @@ double AttackerSuccessProbability(double q, int z)
     <br>* McshElln.Μπιτκόιν-πρόγραμα-πελάτη,
     <br>* McshElln.Μπιτκόιν-πελάτης,
     <a class="clsHide" href="#idBtcpgmClntnam"></a></p>
-  <p id="idBtcpgmClntstr">specific::
+
+  <section id="idBtcpgmClntgstr">
+  <h3 id="idBtcpgmClntgstrH3">GENERIC-SPECIFIC-TREE of AgntBtcn'client-program
+    <a class="clsHide" href="#idBtcpgmClntgstrH3"></a></h3>
+  <p id="idBtcpgmClntgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idBtcpgmClntgstrdsn"></a></p>
+  <p id="idBtcpgmClntgstrnam">name::
+    <br>* McshEngl.AgntBtcn'client-program'generic-specific-tree,
+    <br>* McshEngl.AgntBtcn'client-program'specific-generic-tree,
+    <a class="clsHide" href="#idBtcpgmClntgstrnam"></a></p>
+  <p id="idBtcpgmClntgtr">generic-tree::
+    <br>* McshEngl.AgntBtcn'client-program-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idBtcpgmClntgtr"></a></p>
+  <p id="idBtcpgmClntstr">specific-tree::
+    <br>* McshEngl.AgntBtcn'client-program.specific,
+    <br>* McshEngl.AgntBtcn'client-program-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="#idBtcpgmClntFul">full-client</a>,
     <br>* <a class="clsPreview" href="#idBtcpgmClntFulNo">lightweight-client</a>,
     <br>* <a class="clsPreview" href="#idBtcpgmClntWeb">web-client</a>,
     <a class="clsHide" href="#idBtcpgmClntstr"></a></p>
+  </section>
 
   <section id="idBtcpgmClntFul">
   <h3 id="idBtcpgmClntFulH3">Bitcoin-pgm.Full-client
@@ -6447,10 +6489,11 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">HmnSgm</a>.2015-09.07]
     <a class="clsHide" href="#idBtcwltdsn"></a></p>
   <p id="idBtcwltnam">name::
-    <br>* McshEngl.AgntBtcn'wallet,
-    <br>* McshEngl.Bitcoin-wlt-(Bitcoin-wallet),
+    <br>* McshEngl.Bitcoin-wallet!⇒Btcnwallet,
+    <br>* McshEngl.Btcnwallet!=Bitcoin-wallet,
+    <br>* McshEngl.AgntBtcn'wallet!⇒Btcnwallet,
     <br>====== lagoGreek:
-    <br>* McshElln.Πορτοφόλι-μπικόιν,
+    <br>* McshElln.Πορτοφόλι-μπικόιν!=Btcnwallet,
     <a class="clsHide" href="#idBtcwltnam"></a></p>
   <p id="idBtcwltgnc">generic::
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000016.last.html#idDbdwlt">blockchain-wallet</a>,
@@ -6532,12 +6575,12 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcwltP9"></a></p>
 
   <section id="idBtcwltads">
-  <h2 id="idBtcwltadsH2">Bitcoin-wlt'Address (<a class="clsPreview" href="#idBtcads">link</a>)
+  <h2 id="idBtcwltadsH2">Btcnwallet'Address (<a class="clsPreview" href="#idBtcads">link</a>)
     <a class="clsHide" href="#idBtcwltadsH2"></a></h2>
   </section>
 
   <section id="idBtcwltscrt">
-  <h2 id="idBtcwltscrtH2">Bitcoin-wlt'Security
+  <h2 id="idBtcwltscrtH2">Btcnwallet'Security
     <a class="clsHide" href="#idBtcwltscrtH2"></a></h2>
   <p id="idBtcwltscrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6557,7 +6600,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="http://cointelegraph.com/news/can-apple-microsoft-amazon-or-google-delete-bitcoin-from-your-computer">http://cointelegraph.com/news/can-apple-microsoft-amazon-or-google-delete-bitcoin-from-your-computer</a>]
     <a class="clsHide" href="#idBtcwltscrtdsn"></a></p>
   <p id="idBtcwltscrtnam">name::
-    <br>* McshEngl.Bitcoin-wlt'Security,
+    <br>* McshEngl.Btcnwallet'Security,
     <a class="clsHide" href="#idBtcwltscrtnam"></a></p>
   <p id="idBtcwltscrtwpa">addressWpg::
     <br>* <a href="https://bitcoin.org/en/secure-your-wallet">https://bitcoin.org/en/secure-your-wallet</a>,
@@ -6567,7 +6610,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltsmm">
-  <h2 id="idBtcwltsmmH2">Bitcoin-wlt'Storage-medium
+  <h2 id="idBtcwltsmmH2">Btcnwallet'Storage-medium
     <a class="clsHide" href="#idBtcwltsmmH2"></a></h2>
   <p id="idBtcwltsmmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6586,12 +6629,12 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcwltsmmnam">name::
     <br>* McshEngl.AgntBtcn'wallet-storage,
     <br>* McshEngl.AgntBtcn'storage,
-    <br>* McshEngl.Bitcoin-wlt'storage,
+    <br>* McshEngl.Btcnwallet'storage,
     <a class="clsHide" href="#idBtcwltsmmnam"></a></p>
   </section>
 
   <section id="idBtcwltkypl">
-  <h2 id="idBtcwltkyplH2">Bitcoin-wlt'Key-pool
+  <h2 id="idBtcwltkyplH2">Btcnwallet'Key-pool
     <a class="clsHide" href="#idBtcwltkyplH2"></a></h2>
   <p id="idBtcwltkypldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6610,19 +6653,19 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltrsc">
-  <h2 id="idBtcwltrscH2">Bitcoin-wlt'Resource
+  <h2 id="idBtcwltrscH2">Btcnwallet'Resource
     <a class="clsHide" href="#idBtcwltrscH2"></a></h2>
   <p id="idBtcwltirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* <a href="http://bitcoinsimplified.org/get-started/how-to-set-up-a-wallet/">http://bitcoinsimplified.org/get-started/how-to-set-up-a-wallet</a>/
     <a class="clsHide" href="#idBtcwltirscdsn"></a></p>
   <p id="idBtcwltrscnam">name::
-    <br>* McshEngl.Bitcoin-wlt'Resource,
+    <br>* McshEngl.Btcnwallet'Resource,
     <a class="clsHide" href="#idBtcwltrscnam"></a></p>
   </section>
 
   <section id="idBtcwltdng">
-  <h2 id="idBtcwltdngH2">Bitcoin-wlt'Doing
+  <h2 id="idBtcwltdngH2">Btcnwallet'Doing
     <a class="clsHide" href="#idBtcwltdngH2"></a></h2>
 
   <section id="idBtcwltdngSvc">
@@ -6637,26 +6680,29 @@ double AttackerSuccessProbability(double q, int z)
   </section>
   </section>
 
-  <section id="idBtcwltstr">
-  <h2 id="idBtcwltstrH2">SPECIFIC
-    <a class="clsHide" href="#idBtcwltstrH2"></a></h2>
-  <p id="idBtcwltstrdsn">description::
+  <section id="idBtcwltgstr">
+  <h2 id="idBtcwltgstrH2">GENERIC-SPECIFIC-TREE of Btcnwallet
+    <a class="clsHide" href="#idBtcwltgstrH2"></a></h2>
+  <p id="idBtcwltgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idBtcwltstrdsn"></a></p>
-  <p id="idBtcwltstrnam">name::
+    <a class="clsHide" href="#idBtcwltgstrdsn"></a></p>
+  <p id="idBtcwltgstrnam">name::
+    <br>* McshEngl.Btcnwallet'generic-specific-tree,
+    <br>* McshEngl.Btcnwallet'specific-generic-tree,
+    <a class="clsHide" href="#idBtcwltgstrnam"></a></p>
+  <p id="idBtcwltgtr">generic-tree::
+    <br>* McshEngl.Btcnwallet-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idBtcwltgtr"></a></p>
+  <p id="idBtcwltstr">specific-tree::
     <br>* btcwlt.specific,
-    <br>* McshEngl.Bitcoin-wlt.specific,
-    <br>* McshEngl.Bitcoin-wlt-Sptr,
-    <a class="clsHide" href="#idBtcwltstrnam"></a></p>
-  <p id="idBtcwltSpcstr">specific::
+    <br>* McshEngl.Btcnwallet.specific,
+    <br>* McshEngl.Btcnwallet-Sptr,
+    <br>===
     <br>* hardware-wallet
     <br>* paper-wallet,
     <br>* prgram-wallet,
-    <a class="clsHide" href="#idBtcwltSpcstr"></a></p>
-  <p id="idBtcwltSpcwpa">addressWpg::
-    <br>* <a href="https://bitcoin.org/en/choose-your-wallet">https://bitcoin.org/en/choose-your-wallet</a>,
-    <a class="clsHide" href="#idBtcwltSpcwpa"></a></p>
-  <p id="idBtcwltSpcP1">specific::
     <br>Within these two categories [hot|cold] of Bitcoin wallets there are other subcategories.
     <br>These include web wallets, desktop wallets installed on
     <br>your computer, hierarchical deterministic (“HD”) wallets, multiplesignature
@@ -6667,11 +6713,14 @@ double AttackerSuccessProbability(double q, int z)
     <br>authentication. You’ll find that some of the recommended
     <br>wallets appear in more than one category below.
     <br>[<a href="http://www.givebtc.org/GiveBTC_-_Handbook_for_Non_Profits.pdf">http://www.givebtc.org/GiveBTC_-_Handbook_for_Non_Profits.pdf</a>]
-    <a class="clsHide" href="#idBtcwltSpcP1"></a></p>
+    <a class="clsHide" href="#idBtcwltstr"></a></p>
+  <p id="idBtcwltSpcwpa">addressWpg::
+    <br>* <a href="https://bitcoin.org/en/choose-your-wallet">https://bitcoin.org/en/choose-your-wallet</a>,
+    <a class="clsHide" href="#idBtcwltSpcwpa"></a></p>
   </section>
 
   <section id="idBtcwltAgg">
-  <h2 id="idBtcwltAggH2">Bitcoin-wlt.AGGREGATE
+  <h2 id="idBtcwltAggH2">Btcnwallet.AGGREGATE
     <a class="clsHide" href="#idBtcwltAggH2"></a></h2>
   <p id="idBtcwltAggstr">specific::
     <br>An unlimited number of wallets can be generated, by anyone, anywhere, without any licenses or permissions required.
@@ -6680,7 +6729,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltBrn">
-  <h2 id="idBtcwltBrnH2">Bitcoin-wlt.BRAIN
+  <h2 id="idBtcwltBrnH2">Btcnwallet.BRAIN
     <a class="clsHide" href="#idBtcwltBrnH2"></a></h2>
   <p id="idBtcwltBrndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6697,7 +6746,7 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcwltBrndsn"></a></p>
   <p id="idBtcwltBrnnam">name::
     <br>* McshEngl.AgntBtcn'brain-wallet,
-    <br>* McshEngl.Bitcoin-wlt.brain,
+    <br>* McshEngl.Btcnwallet.brain,
     <a class="clsHide" href="#idBtcwltBrnnam"></a></p>
   <p id="idBtcwltBrnwpa">addressWpg::
     <br>* <a href="https://brainwallet.io/">https://brainwallet.io</a>/
@@ -6708,7 +6757,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltPpr">
-  <h2 id="idBtcwltPprH2">Bitcoin-wlt.PAPER
+  <h2 id="idBtcwltPprH2">Btcnwallet.PAPER
     <a class="clsHide" href="#idBtcwltPprH2"></a></h2>
   <p id="idBtcwltPprdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6716,7 +6765,7 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcwltPprdsn"></a></p>
   <p id="idBtcwltPprnam">name::
     <br>* McshEngl.AgntBtcn'paper-wallet,
-    <br>* McshEngl.Bitcoin-wlt.paper,
+    <br>* McshEngl.Btcnwallet.paper,
     <a class="clsHide" href="#idBtcwltPprnam"></a></p>
   <p id="idBtcwltPprP1">description-1::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6738,7 +6787,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltPgm">
-  <h2 id="idBtcwltPgmH2">Bitcoin-wlt.PROGRAM (btcwtp)
+  <h2 id="idBtcwltPgmH2">Btcnwallet.PROGRAM
     <a class="clsHide" href="#idBtcwltPgmH2"></a></h2>
   <p id="idBtcwltPgmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6746,14 +6795,15 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://bitcoin.org/en/developer-guide#wallets">https://bitcoin.org/en/developer-guide#wallets</a>]
     <a class="clsHide" href="#idBtcwltPgmdsn"></a></p>
   <p id="idBtcwltPgmnam">name::
-    <br>* McshEngl.AgntBtcn'wallet-program,
-    <br>* McshEngl.AgntBtcn'wallet-application,
-    <br>* McshEngl.AgntBtcn'wallet-software,
-    <br>* McshEngl.Bitcoin-wtp-(Bitcoin-wallet-program),
+    <br>* McshEngl.Bitcoin-wallet-program!⇒Btcnwltpgm,
+    <br>* McshEngl.Btcnwltpgm!=Bitcoin-wallet-program,
+    <br>* McshEngl.AgntBtcn'wallet-program!⇒Btcnwltpgm,
+    <br>* McshEngl.AgntBtcn'wallet-application!⇒Btcnwltpgm,
+    <br>* McshEngl.AgntBtcn'wallet-software!⇒Btcnwltpgm,
     <a class="clsHide" href="#idBtcwltPgmnam"></a></p>
 
   <section id="idBtcwtpdng">
-  <h3 id="idBtcwtpdngH3">Bitcoin-wtp'doing
+  <h3 id="idBtcwtpdngH3">Btcnwltpgm'doing
     <a class="clsHide" href="#idBtcwtpdngH3"></a></h3>
   <p id="idBtcwtpdngdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6766,12 +6816,12 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://bitcoin.org/en/faq#what-if-i-receive-a-bitcoin-when-my-computer-is-powered-off">https://bitcoin.org/en/faq#what-if-i-receive-a-bitcoin-when-my-computer-is-powered-off</a>]
     <a class="clsHide" href="#idBtcwtpdngdsn"></a></p>
   <p id="idBtcwtpdngnam">name::
-    <br>* McshEngl.Bitcoin-wtp'doing,
+    <br>* McshEngl.Btcnwltpgm'doing,
     <a class="clsHide" href="#idBtcwtpdngnam"></a></p>
   </section>
 
   <section id="idBtcwtpevln">
-  <h3 id="idBtcwtpevlnH3">Bitcoin-wtp'Evaluation
+  <h3 id="idBtcwtpevlnH3">Btcnwltpgm'Evaluation
     <a class="clsHide" href="#idBtcwtpevlnH3"></a></h3>
   <p id="idBtcwtpevlnP1">Wallet Privacy Rankings
     <br> 1. ledger 50
@@ -6798,16 +6848,31 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcwtpevlnP1"></a></p>
   </section>
 
-  <section id="idBtcwtpstr">
-  <h3 id="idBtcwtpstrH3">SPECIFIC
-    <a class="clsHide" href="#idBtcwtpstrH3"></a></h3>
-  <p id="idBtcwtpSpcstr">specific::
+  <section id="idBtcwltPgmgstr">
+  <h3 id="idBtcwltPgmgstrH3">GENERIC-SPECIFIC-TREE of Btcnwltpgm
+    <a class="clsHide" href="#idBtcwltPgmgstrH3"></a></h3>
+  <p id="idBtcwltPgmgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idBtcwltPgmgstrdsn"></a></p>
+  <p id="idBtcwltPgmgstrnam">name::
+    <br>* McshEngl.Btcnwltpgm'generic-specific-tree,
+    <br>* McshEngl.Btcnwltpgm'specific-generic-tree,
+    <a class="clsHide" href="#idBtcwltPgmgstrnam"></a></p>
+  <p id="idBtcwltPgmgtr">generic-tree::
+    <br>* McshEngl.Btcnwltpgm-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idBtcwltPgmgtr"></a></p>
+  <p id="idBtcwltPgmstr">specific-tree::
+    <br>* McshEngl.Btcnwltpgm.specific,
+    <br>* McshEngl.Btcnwltpgm-Sptr,
+    <br>===
     <br>* full-service-wallet-program,
-    <a class="clsHide" href="#idBtcwtpSpcstr"></a></p>
+    <a class="clsHide" href="#idBtcwltPgmstr"></a></p>
   </section>
 
   <section id="idBtcwltDtp">
-  <h3 id="idBtcwltDtpH3">Bitcoin-wtp.computer.DESKTOP
+  <h3 id="idBtcwltDtpH3">Btcnwltpgm.computer.DESKTOP
     <a class="clsHide" href="#idBtcwltDtpH3"></a></h3>
   <p id="idBtcwltDtpdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6818,7 +6883,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltMbl">
-  <h3 id="idBtcwltMblH3">Bitcoin-wtp.computer.MOBILE
+  <h3 id="idBtcwltMblH3">Btcnwltpgm.computer.MOBILE
     <a class="clsHide" href="#idBtcwltMblH3"></a></h3>
   <p id="idBtcwltMbldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6832,7 +6897,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwtpElrm">
-  <h3 id="idBtcwtpElrmH3">Bitcoin-wtp.ELECTRUM
+  <h3 id="idBtcwtpElrmH3">Btcnwltpgm.ELECTRUM
     <a class="clsHide" href="#idBtcwtpElrmH3"></a></h3>
   <p id="idBtcwtpElrmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6846,7 +6911,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwtp">
-  <h3 id="idBtcwtpH3">Bitcoin-wtp.FULL-SERVICE
+  <h3 id="idBtcwtpH3">Btcnwltpgm.FULL-SERVICE
     <a class="clsHide" href="#idBtcwtpH3"></a></h3>
   <p id="idBtcwtpdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6858,7 +6923,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://bitcoin.org/en/developer-guide#full-service-wallets">https://bitcoin.org/en/developer-guide#full-service-wallets</a>]
     <a class="clsHide" href="#idBtcwtpdsn"></a></p>
   <p id="idBtcwtpnam">name::
-    <br>* McshEngl.Bitcoin-wtp.FULL-SERVICE,
+    <br>* McshEngl.Btcnwltpgm.FULL-SERVICE,
     <a class="clsHide" href="#idBtcwtpnam"></a></p>
   <p id="idBtcwtpP1">Part::
     <br>Several full-service wallets programs will also operate as two separate wallets:
@@ -6868,7 +6933,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwtpMclm">
-  <h3 id="idBtcwtpMclmH3">Bitcoin-wtp.MYCELIUM
+  <h3 id="idBtcwtpMclmH3">Btcnwltpgm.MYCELIUM
     <a class="clsHide" href="#idBtcwtpMclmH3"></a></h3>
   <p id="idBtcwtpMclmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6945,7 +7010,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwtpOfln">
-  <h3 id="idBtcwtpOflnH3">Bitcoin-wtp.OFFLINE
+  <h3 id="idBtcwtpOflnH3">Btcnwltpgm.OFFLINE
     <a class="clsHide" href="#idBtcwtpOflnH3"></a></h3>
   <p id="idBtcwtpOflndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6979,7 +7044,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwtpArd">
-  <h3 id="idBtcwtpArdH3">Bitcoin-wtp.os.ANDROID
+  <h3 id="idBtcwtpArdH3">Btcnwltpgm.os.ANDROID
     <a class="clsHide" href="#idBtcwtpArdH3"></a></h3>
   <p id="idBtcwtpArddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6990,7 +7055,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwtpIos">
-  <h3 id="idBtcwtpIosH3">Bitcoin-wtp.os.iOS
+  <h3 id="idBtcwtpIosH3">Btcnwltpgm.os.iOS
     <a class="clsHide" href="#idBtcwtpIosH3"></a></h3>
   <p id="idBtcwtpIosdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7001,7 +7066,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwtpLnx">
-  <h3 id="idBtcwtpLnxH3">Bitcoin-wtp.os.LINUX
+  <h3 id="idBtcwtpLnxH3">Btcnwltpgm.os.LINUX
     <a class="clsHide" href="#idBtcwtpLnxH3"></a></h3>
   <p id="idBtcwtpLnxdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7012,7 +7077,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwtpWin">
-  <h3 id="idBtcwtpWinH3">Bitcoin-wtp.os.WINDOWS
+  <h3 id="idBtcwtpWinH3">Btcnwltpgm.os.WINDOWS
     <a class="clsHide" href="#idBtcwtpWinH3"></a></h3>
   <p id="idBtcwtpWindsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7023,7 +7088,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwtpWeb">
-  <h3 id="idBtcwtpWebH3">Bitcoin-wtp.WEB
+  <h3 id="idBtcwtpWebH3">Btcnwltpgm.WEB
     <a class="clsHide" href="#idBtcwtpWebH3"></a></h3>
   <p id="idBtcwtpWebdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7033,7 +7098,7 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcwtpWebdsn"></a></p>
   <p id="idBtcwtpWebnam">name::
     <br>* McshEngl.AgntBtcn'web-wallet,
-    <br>* McshEngl.Bitcoin-wtp.web,
+    <br>* McshEngl.Btcnwltpgm.web,
     <a class="clsHide" href="#idBtcwtpWebnam"></a></p>
   <p id="idBtcwtpWebP1">description-1::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7050,7 +7115,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltHwr">
-  <h2 id="idBtcwltHwrH2">Bitcoin-wlt.HARDWARE
+  <h2 id="idBtcwltHwrH2">Btcnwallet.HARDWARE
     <a class="clsHide" href="#idBtcwltHwrH2"></a></h2>
   <p id="idBtcwltHwrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7091,13 +7156,13 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltHwrLdgr">
-  <h2 id="idBtcwltHwrLdgrH2">Bitcoin-wlt.hardware.LEDGER
+  <h2 id="idBtcwltHwrLdgrH2">Btcnwallet.hardware.LEDGER
     <a class="clsHide" href="#idBtcwltHwrLdgrH2"></a></h2>
   <p id="idBtcwltHwrLdgrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idBtcwltHwrLdgrdsn"></a></p>
   <p id="idBtcwltHwrLdgrnam">name::
-    <br>* McshEngl.Bitcoin-wlt.ledger,
+    <br>* McshEngl.Btcnwallet.ledger,
     <br>* McshEngl.ledger--btc-wlt,
     <br>* McshEngl.ledger-wallet,
     <a class="clsHide" href="#idBtcwltHwrLdgrnam"></a></p>
@@ -7107,7 +7172,7 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcwltHwrLdgrwpa"></a></p>
 
   <section id="idBtcwlns">
-  <h3 id="idBtcwlnsH3">Bitcoin-wlt.Ledger-nano-s (bhwlns)
+  <h3 id="idBtcwlnsH3">Btcnwallet.Ledger-nano-s (bhwlns)
     <a class="clsHide" href="#idBtcwlnsH3"></a></h3>
   <p id="idBtcwlnsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7138,7 +7203,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltHwrTrzr">
-  <h2 id="idBtcwltHwrTrzrH2">Bitcoin-wlt.hardware.TREZOR ($99)
+  <h2 id="idBtcwltHwrTrzrH2">Btcnwallet.hardware.TREZOR ($99)
     <a class="clsHide" href="#idBtcwltHwrTrzrH2"></a></h2>
   <p id="idBtcwltHwrTrzrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7150,7 +7215,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://en.bitcoin.it/wiki/Hardware_wallet#TREZOR_The_Bitcoin_Safe">https://en.bitcoin.it/wiki/Hardware_wallet#TREZOR_The_Bitcoin_Safe</a>]
     <a class="clsHide" href="#idBtcwltHwrTrzrdsn"></a></p>
   <p id="idBtcwltHwrTrzrnam">name::
-    <br>* McshEngl.Bitcoin-wlt.trezor,
+    <br>* McshEngl.Btcnwallet.trezor,
     <br>* McshEngl.Trezor--btc-wlt,
     <a class="clsHide" href="#idBtcwltHwrTrzrnam"></a></p>
   <p id="idBtcwltHwrTrzrwpa">addressWpg::
@@ -7161,7 +7226,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBcnwltHd">
-  <h2 id="idBcnwltHdH2">Bitcoin-wlt.HD (Hierarchical-Deterministic)
+  <h2 id="idBcnwltHdH2">Btcnwallet.HD (Hierarchical-Deterministic)
     <a class="clsHide" href="#idDbcwltHdH2"></a></h2>
   <p id="idBcnwltHddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7276,7 +7341,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltOnl">
-  <h2 id="idBtcwltOnlH2">Bitcoin-wlt.ONLINE (hot)
+  <h2 id="idBtcwltOnlH2">Btcnwallet.ONLINE (hot)
     <a class="clsHide" href="#idBtcwltOnlH2"></a></h2>
   <p id="idBtcwltOnldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7294,7 +7359,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcwltOnlNo">
-  <h2 id="idBtcwltOnlNoH2">Bitcoin-wlt.ONLINE.NO (cold | offline)
+  <h2 id="idBtcwltOnlNoH2">Btcnwallet.ONLINE.NO (cold | offline)
     <a class="clsHide" href="#idBtcwltOnlNoH2"></a></h2>
   <p id="idBtcwltOnlNodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7891,13 +7956,33 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcognSvcnam">name::
     <br>* McshEngl.AgntBtcn'service-organization,
     <a class="clsHide" href="#idBtcognSvcnam"></a></p>
-  <p id="idBtcognSvcstr">specific::
+
+  <section id="idBtcognSvcgstr">
+  <h3 id="idBtcognSvcgstrH3">GENERIC-SPECIFIC-TREE of AgntBtcn'service-organization
+    <a class="clsHide" href="#idBtcognSvcgstrH3"></a></h3>
+  <p id="idBtcognSvcgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idBtcognSvcgstrdsn"></a></p>
+  <p id="idBtcognSvcgstrnam">name::
+    <br>* McshEngl.AgntBtcn'service-organization'generic-specific-tree,
+    <br>* McshEngl.AgntBtcn'service-organization'specific-generic-tree,
+    <a class="clsHide" href="#idBtcognSvcgstrnam"></a></p>
+  <p id="idBtcognSvcgtr">generic-tree::
+    <br>* McshEngl.AgntBtcn'service-organization-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idBtcognSvcgtr"></a></p>
+  <p id="idBtcognSvcstr">specific-tree::
+    <br>* McshEngl.AgntBtcn'service-organization.specific,
+    <br>* McshEngl.AgntBtcn'service-organization-Sptr,
+    <br>===
     <br>* http://bitcoinconsultant.net/trade/
     <a class="clsHide" href="#idBtcognSvcstr"></a></p>
   </section>
+  </section>
 
   <section id="idBtcognX">
-  <h2 id="idBtcognXH2">Bitcoin-ogn.EXCHANGE (btcognX)
+  <h2 id="idBtcognXH2">Bitcoin-ogn.EXCHANGE
     <a class="clsHide" href="#idBtcognXH2"></a></h2>
   <p id="idBtcognXdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7907,29 +7992,46 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="http://www.coindesk.com/information/bitcoin-glossary/">http://www.coindesk.com/information/bitcoin-glossary</a>/]
     <a class="clsHide" href="#idBtcognXdsn"></a></p>
   <p id="idBtcognXnam">name::
-    <br>* McshEngl.AgntBtcn'marketplace,
-    <br>* McshEngl.DvBTC'exchanger,
-    <br>* McshEngl.AgntBtcn'exchange-ogn,
+    <br>* McshEngl.Bitcoin-exchange!⇒Btcnexch,
+    <br>* McshEngl.Btcnexch!=Bitcoin-exchange,
+    <br>* McshEngl.AgntBtcn'marketplace!⇒Btcnexch,
+    <br>* McshEngl.DvBTC'exchanger!⇒Btcnexch,
+    <br>* McshEngl.AgntBtcn'exchange-ogn!⇒Btcnexch,
     <br>====== lagoGreek:
-    <br>* McshElln.Ανταλλακτήριο-μπιτκόιν,
+    <br>* McshElln.Ανταλλακτήριο-μπιτκόιν!=Btcnexch,
     <a class="clsHide" href="#idBtcognXnam"></a></p>
 
   <section id="idBtcognXrsc">
-  <h3 id="idBtcognXrscH3">Bitcoin-ognX'Resource
+  <h3 id="idBtcognXrscH3">Btcnexch'Resource
     <a class="clsHide" href="#idBtcognXrscH3"></a></h3>
   <p id="idBtcognXirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* <a href="https://twitter.com/TuurDemeester/status/820332549469835264">https://twitter.com/TuurDemeester/status/820332549469835264</a>,
     <a class="clsHide" href="#idBtcognXirscdsn"></a></p>
   <p id="idBtcognXrscnam">name::
-    <br>* McshEngl.Bitcoin-ognX'Resource,
+    <br>* McshEngl.Btcnexch'Resource,
     <a class="clsHide" href="#idBtcognXrscnam"></a></p>
   </section>
 
-  <section id="idBtcognXstr">
-  <h3 id="idBtcognXstrH3">SPECIFIC
-    <a class="clsHide" href="#idBtcognXstrH3"></a></h3>
-  <p id="idBtcognXSpcstr">specific::
+  <section id="idBtcognXgstr">
+  <h3 id="idBtcognXgstrH3">GENERIC-SPECIFIC-TREE of Btcnexch
+    <a class="clsHide" href="#idBtcognXgstrH3"></a></h3>
+  <p id="idBtcognXgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idBtcognXgstrdsn"></a></p>
+  <p id="idBtcognXgstrnam">name::
+    <br>* McshEngl.Btcnexch'generic-specific-tree,
+    <br>* McshEngl.Btcnexch'specific-generic-tree,
+    <a class="clsHide" href="#idBtcognXgstrnam"></a></p>
+  <p id="idBtcognXgtr">generic-tree::
+    <br>* McshEngl.Btcnexch-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idBtcognXgtr"></a></p>
+  <p id="idBtcognXstr">specific-tree::
+    <br>* McshEngl.Btcnexch.specific,
+    <br>* McshEngl.Btcnexch-Sptr,
+    <br>===
     <br>* <a href="https://bitcoinsgreece.com/">https://bitcoinsgreece.com</a>/
     <br>* <a href="https://www.mtgox.com/">https://www.mtgox.com</a>/
     <br>Popular Bitcoin Currency Exchanges
@@ -7977,11 +8079,11 @@ double AttackerSuccessProbability(double q, int z)
     <br>
     <br>(Fujian, China)&nbsp; &nbsp; BTCChina.com
     <br>[<a href="http://lovebitcoins.org/exchange.html">http://lovebitcoins.org/exchange.html</a>]
-    <a class="clsHide" href="#idBtcognXSpcstr"></a></p>
+    <a class="clsHide" href="#idBtcognXstr"></a></p>
   </section>
 
   <section id="idBtcognCshl">
-  <h3 id="idBtcognCshlH3">Bitcoin-ognX.Cashila
+  <h3 id="idBtcognCshlH3">Btcnexch.Cashila
     <a class="clsHide" href="#idBtcognCshlH3"></a></h3>
   <p id="idBtcognCshldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7998,7 +8100,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcognXMtgx">
-  <h3 id="idBtcognXMtgxH3">Bitcoin-ognX.Mt.Gox
+  <h3 id="idBtcognXMtgxH3">Btcnexch.Mt.Gox
     <a class="clsHide" href="#idBtcognXMtgxH3"></a></h3>
   <p id="idBtcognXMtgxdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -8015,7 +8117,7 @@ double AttackerSuccessProbability(double q, int z)
   </section>
 
   <section id="idBtcognXOtc">
-  <h3 id="idBtcognXOtcH3">Bitcoin-ognX.OTC
+  <h3 id="idBtcognXOtcH3">Btcnexch.OTC
     <a class="clsHide" href="#idBtcognXOtcH3"></a></h3>
   <p id="idBtcognXOtcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -8531,10 +8633,10 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="http://docs.bitshares.eu/bitshares/whatis.html">http://docs.bitshares.eu/bitshares/whatis.html</a>]
     <a class="clsHide" href="#idBtcnetsvcdsn"></a></p>
   <p id="idBtcnetsvcnam">name::
-    <br>* McshEngl.AgntBtcn'usage,
-    <br>* McshEngl.AgntBtcn'service,
-    <br>* McshEngl.Bitcoin-service-(Đbtc-svc),
-    <br>* McshEngl.Bitcoin-svc-(Bitcoin-service),
+    <br>* McshEngl.Bitcoin-service!⇒Btcnservice,
+    <br>* McshEngl.Btcnservice!=Bitcoin-service,
+    <br>* McshEngl.AgntBtcn'usage!⇒Btcnservice,
+    <br>* McshEngl.AgntBtcn'service!⇒Btcnservice,
     <a class="clsHide" href="#idBtcnetsvcnam"></a></p>
   <p id="idBtcnetsvcwpa">addressWpg::
     <br>* <a href="http://cointelegraph.com/news/bitcoin-adoption-could-save-india-7-billion">http://cointelegraph.com/news/bitcoin-adoption-could-save-india-7-billion</a>,
@@ -8543,7 +8645,7 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcnetsvcwpa"></a></p>
 
   <section id="idBtcnetmkt">
-  <h3 id="idBtcnetmktH3">Market
+  <h3 id="idBtcnetmktH3">Market of Btcnservice
     <a class="clsHide" href="#idBtcnetmktH3"></a></h3>
   <p id="idBtcnetmktwpa">addressWpg::
     <br>* {2016-05-13} Having overtaken the US, Japan has become the world’s second Bitcoin market, after China,
@@ -8551,10 +8653,25 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcnetmktwpa"></a></p>
   </section>
 
-  <section id="idBtcsvcstr">
-  <h3 id="idBtcsvcstrH3">SPECIFIC
-    <a class="clsHide" href="#idBtcsvcstrH3"></a></h3>
-  <p id="idBtcsvcSpcstr">specific::
+  <section id="idBtcnetsvcgstr">
+  <h3 id="idBtcnetsvcgstrH3">GENERIC-SPECIFIC-TREE of Btcnservice
+    <a class="clsHide" href="#idBtcnetsvcgstrH3"></a></h3>
+  <p id="idBtcnetsvcgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idBtcnetsvcgstrdsn"></a></p>
+  <p id="idBtcnetsvcgstrnam">name::
+    <br>* McshEngl.Btcnservice'generic-specific-tree,
+    <br>* McshEngl.Btcnservice'specific-generic-tree,
+    <a class="clsHide" href="#idBtcnetsvcgstrnam"></a></p>
+  <p id="idBtcnetsvcgtr">generic-tree::
+    <br>* McshEngl.Btcnservice-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idBtcnetsvcgtr"></a></p>
+  <p id="idBtcnetsvcstr">specific-tree::
+    <br>* McshEngl.Btcnservice.specific,
+    <br>* McshEngl.Btcnservice-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="#idBtcsvcIdn">ID-service</a>,
     <br>* <a class="clsPreview" href="#idBtcsvcNtzn">notary-service</a>,
     <br>* <a class="clsPreview" href="#idBtcsvcPmnt">payment-processing</a>,
@@ -8563,7 +8680,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>* <a class="clsPreview" href="#idBtcsvcVot">voting</a>,
     <br>===
     <br>* <a href="https://proofofexistence.com/about">https://proofofexistence.com/about</a>, you can later certify that <strong>the data</strong> existed at that time,
-    <a class="clsHide" href="#idBtcsvcSpcstr"></a></p>
+    <a class="clsHide" href="#idBtcnetsvcstr"></a></p>
   </section>
   </section>
 
