@@ -780,8 +780,8 @@
     <br>* McshEngl.health'att007-organization!⇒ogznHealth,
     <br>* McshEngl.health'organization!⇒ogznHealth,
     <br>* McshEngl.ogznHealth,
-    <br>* McshEngl.ogznPrdg.023-health!⇒ogznHealth,
-    <br>* McshEngl.ogznPrdg.health!⇒ogznHealth,
+    <br>* McshEngl.OgznPrdg.023-health!⇒ogznHealth,
+    <br>* McshEngl.OgznPrdg.health!⇒ogznHealth,
     <a class="clsHide" href="#idHlthHmnatt007nam"></a></p>
 
   <section id="idHlthHmnatt007hlbd">
@@ -1519,23 +1519,35 @@
     <br>[Παροιμιακός κανόνας]
     <a class="clsHide" href="#idHlthHmnBdydsn"></a></p>
   <p id="idHlthHmnBdynam">name::
-    <br>* McshEngl.health.body,
-    <br>* McshEngl.health.physical,
-    <br>* McshEngl.physical-health,
+    <br>* McshEngl.body-health!⇒healthBody,
+    <br>* McshEngl.healthBody!=body-health,
+    <br>* McshEngl.health.body!⇒healthBody,
+    <br>* McshEngl.health.physical!⇒healthBody,
+    <br>* McshEngl.physical-health!⇒healthBody,
     <a class="clsHide" href="#idHlthHmnBdynam"></a></p>
 
-  <section id="idHlthHmnBdystr">
-  <h2 id="idHlthHmnBdystrH2">healthBody.SPECIFIC
-    <a class="clsHide" href="#idHlthHmnBdystrH2"></a></h2>
-  <p id="idHlthHmnBdystrdsn">description::
+  <section id="idHlthHmnBdygstr">
+  <h2 id="idHlthHmnBdygstrH2">GENERIC-SPECIFIC-TREE of healthBody
+    <a class="clsHide" href="#idHlthHmnBdygstrH2"></a></h2>
+  <p id="idHlthHmnBdygstrdsn">description::
     <br>× Mcsh-creation: {2026-05-17}
-    <br>* body-disorder,
-    <br>* body-disorderNO,
-    <a class="clsHide" href="#idHlthHmnBdystrdsn"></a></p>
-  <p id="idHlthHmnBdystrnam">name::
+    <a class="clsHide" href="#idHlthHmnBdygstrdsn"></a></p>
+  <p id="idHlthHmnBdygstrnam">name::
+    <br>* McshEngl.healthBody'generic-specific-tree,
+    <br>* McshEngl.healthBody'specific-generic-tree,
+    <a class="clsHide" href="#idHlthHmnBdygstrnam"></a></p>
+  <p id="idHlthHmnBdygtr">generic-tree::
+    <br>* McshEngl.healthBody-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idHlthHmnBdygtr"></a></p>
+  <p id="idHlthHmnBdystr">specific-tree::
     <br>* McshEngl.healthBody.specific,
     <br>* McshEngl.healthBody-Sptr,
-    <a class="clsHide" href="#idHlthHmnBdystrnam"></a></p>
+    <br>===
+    <br>* body-disorder,
+    <br>* body-disorderNO,
+    <a class="clsHide" href="#idHlthHmnBdystr"></a></p>
   </section>
   </section>
 
@@ -1595,24 +1607,35 @@
     <br>[http://www.wisegeek.com/does-social-isolation-impact-mortality.htm?m, [2013-08-22}]"
     <a class="clsHide" href="#idHlthHmnScldsn"></a></p>
   <p id="idHlthHmnSclnam">name::
-    <br>* McshEngl.health.social,
-    <br>* McshEngl.social-health,
+    <br>* McshEngl.social-health!⇒healthSocial,
+    <br>* McshEngl.healthSocial!=social-health,
+    <br>* McshEngl.health.social!⇒healthSocial,
     <br>====== lagoGreek:
-    <br>* McshElln.κοινωνική-υγεία!=social-health,
+    <br>* McshElln.κοινωνική-υγεία!=healthSocial,
     <a class="clsHide" href="#idHlthHmnSclnam"></a></p>
 
-  <section id="idHlthHmnSclstr">
-  <h2 id="idHlthHmnSclstrH2">healthSocial.SPECIFIC
-    <a class="clsHide" href="#idHlthHmnSclstrH2"></a></h2>
-  <p id="idHlthHmnSclstrdsn">description::
+  <section id="idHlthHmnSclgstr">
+  <h2 id="idHlthHmnSclgstrH2">GENERIC-SPECIFIC-TREE of healthSocial
+    <a class="clsHide" href="#idHlthHmnSclgstrH2"></a></h2>
+  <p id="idHlthHmnSclgstrdsn">description::
     <br>× Mcsh-creation: {2026-05-17}
-    <br>* social-disorder,
-    <br>* social-disorderNo,
-    <a class="clsHide" href="#idHlthHmnSclstrdsn"></a></p>
-  <p id="idHlthHmnSclstrnam">name::
+    <a class="clsHide" href="#idHlthHmnSclgstrdsn"></a></p>
+  <p id="idHlthHmnSclgstrnam">name::
+    <br>* McshEngl.healthSocial'generic-specific-tree,
+    <br>* McshEngl.healthSocial'specific-generic-tree,
+    <a class="clsHide" href="#idHlthHmnSclgstrnam"></a></p>
+  <p id="idHlthHmnSclgtr">generic-tree::
+    <br>* McshEngl.healthSocial-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idHlthHmnSclgtr"></a></p>
+  <p id="idHlthHmnSclstr">specific-tree::
     <br>* McshEngl.healthSocial.specific,
     <br>* McshEngl.healthSocial-Sptr,
-    <a class="clsHide" href="#idHlthHmnSclstrnam"></a></p>
+    <br>===
+    <br>* social-disorder,
+    <br>* social-disorderNo,
+    <a class="clsHide" href="#idHlthHmnSclstr"></a></p>
   </section>
   </section>
 

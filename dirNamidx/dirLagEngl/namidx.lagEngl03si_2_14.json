@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_14","char.n..chas",27161,"2026-10-09"],
+  [";lagEngl03si_2_14","char.n..chas",27161,"2026-10-12"],
   ["char.n-with-caron--&#x0148;","dirTchInf/dirUcd/McshUcdU0100.last.html#idU0100U0148"],
   ["char.n-with-tilde--ñ","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00F1"],
   ["char.ne-呢-21602","dirLag/McshLag000021.last.html#idLZhonsylb213"],
@@ -21924,7 +21924,7 @@
   ["char.齐-qí-surname","dirStn/McshStn000031.last.html#idSocChnaatt006fmln-105"],
   ["char.龙-lóng-surname","dirStn/McshStn000031.last.html#idSocChnaatt006fmln-108"],
   ["char.龚-gōng-surname","dirStn/McshStn000031.last.html#idSocChnaatt006fmln-80"],
-  ["charCodeAt()//String//JavaScript","dirTchInf/McshTchInf000010.last.html#idLjsgnalgChar"],
+  ["charCodeAt()//String//JavaScript","dirTchInf/McshTchInf000010.last.html#idLJsgnalgChar"],
   ["charHtml","dirLag/McshLag000006.last.html#idCharHtml"],
   ["charHtml'generic-specific-tree","dirLag/McshLag000006.last.html#idCharHtmlgstr"],
   ["charHtml'specific-generic-tree","dirLag/McshLag000006.last.html#idCharHtmlgstr"],
@@ -27138,7 +27138,7 @@
   ["charUni.supplementary","dirLag/McshLag000006.last.html#idCharUcdSlmr"],
   ["charUni.symbol-S","dirLag/McshLag000006.last.html#idCharUcdSbl"],
   ["charZhon!⇒Zhon_char","dirLag/McshLag000018.last.html#idLZhonchar"],
-  ["character-algo//JavaScript","dirTchInf/McshTchInf000010.last.html#idLjsgnalgChar"],
+  ["character-algo//JavaScript","dirTchInf/McshTchInf000010.last.html#idLJsgnalgChar"],
   ["character-computer-file","dirTchInf/McshTchInf000005.last.html#idLfileotptChar"],
   ["character-computer-language!⇒lagChar","dirTchInf/McshTchInf000005.last.html#idLchr"],
   ["character-digitizing@cig7","dirEdu/dirHitp/HitpEdu000.9.last.html#idGymBAsciiunicode"],
@@ -27158,7 +27158,7 @@
   ["characterize.TurkVerb!=nitelendirmek","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["charitable-contributions@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-charitable-contributions"],
   ["charities@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-charities"],
-  ["charity-fundraising-Anservice","dirTchInf/McshTchInf000015.last.html#idAlgntsvcDnn"],
+  ["charity-fundraising-Agntservice","dirTchInf/McshTchInf000015.last.html#idAlgntsvcDnn"],
   ["chart-or-graph@cig","dirEdu/dirHitp/HitpEdu000.last.html#idGymBChart"],
   ["chart-or-graph@cig7","dirEdu/dirHitp/HitpEdu000.9.last.html#idGymBChart"]
 ]

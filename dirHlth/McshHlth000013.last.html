@@ -641,7 +641,7 @@
     <br>* McshEngl.food'07_sector,
     <br>* McshEngl.food'att013-sector,
     <br>* McshEngl.food'sector-att013,
-    <br>* McshEngl.sctrPdn.food,
+    <br>* McshEngl.sectorPrdn.food,
     <a class="clsHide" href="#idFoodHmnatt013nam"></a></p>
   </section>
 
@@ -984,26 +984,38 @@
     <br>· A course of a meal is a single food or set of foods served at one time, forming one sequential stage of the overall dining experience, such as an appetizer, main course, or dessert.
     <a class="clsHide" href="#idFoodHmnMealcrsdsn"></a></p>
   <p id="idFoodHmnMealcrsnam">name::
-    <br>* McshEngl.course-of-meal,
+    <br>* McshEngl.course-of-meal!⇒meal'course,
     <br>* McshEngl.meal'course,
-    <br>* McshEngl.meal'part,
+    <br>* McshEngl.meal'part!⇒meal'course,
     <br>====== lagoGreek:
     <br>* McshElln.φαγητού-στάδιο!=meal'course,
     <a class="clsHide" href="#idFoodHmnMealcrsnam"></a></p>
 
-  <section id="idFoodHmnMealcrsstr">
-  <h3 id="idFoodHmnMealcrsstrH3">course.SPECIFIC
-    <a class="clsHide" href="#idFoodHmnMealcrsstrH3"></a></h3>
-  <p id="idFoodHmnMealcrsstrdsn">description::
+  <section id="idFoodHmnMealcrsgstr">
+  <h3 id="idFoodHmnMealcrsgstrH3">GENERIC-SPECIFIC-TREE of meal'course
+    <a class="clsHide" href="#idFoodHmnMealcrsgstrH3"></a></h3>
+  <p id="idFoodHmnMealcrsgstrdsn">description::
     <br>× Mcsh-creation: {2026-05-26}
+    <a class="clsHide" href="#idFoodHmnMealcrsgstrdsn"></a></p>
+  <p id="idFoodHmnMealcrsgstrnam">name::
+    <br>* McshEngl.meal'course'generic-specific-tree,
+    <br>* McshEngl.meal'course'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmnMealcrsgstrnam"></a></p>
+  <p id="idFoodHmnMealcrsgtr">generic-tree::
+    <br>* McshEngl.meal'course-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idFoodHmnMealcrsgtr"></a></p>
+  <p id="idFoodHmnMealcrsstr">specific-tree::
+    <br>* McshEngl.meal'course.specific,
+    <br>* McshEngl.meal'course-Sptr,
+    <br>* McshEngl.course.specific,
+    <br>* McshEngl.course-Sptr,
+    <br>===
     <br>* entry-course,
     <br>* main-course,
     <br>* closing-course,
-    <a class="clsHide" href="#idFoodHmnMealcrsstrdsn"></a></p>
-  <p id="idFoodHmnMealcrsstrnam">name::
-    <br>* McshEngl.course.specific,
-    <br>* McshEngl.course-Sptr,
-    <a class="clsHide" href="#idFoodHmnMealcrsstrnam"></a></p>
+    <a class="clsHide" href="#idFoodHmnMealcrsstr"></a></p>
   </section>
 
   <section id="idFoodHmn121">
@@ -6959,12 +6971,12 @@
     <br>[http://en.wikipedia.org/wiki/Nut_(fruit)]
     <a class="clsHide" href="#idFoodHmn110dsn"></a></p>
   <p id="idFoodHmn110nam">name::
-    <br>* McshEngl.food.110-nuts,
-    <br>* McshEngl.food.nuts-110,
     <br>* McshEngl.foodNuts,
+    <br>* McshEngl.food.110-nuts!⇒foodNuts,
+    <br>* McshEngl.food.nuts-110!⇒foodNuts,
     <br>====== lagoGreek:
-    <br>* McshElln.ξηροί-καρποί,
-    <br>* McshElln.ξηρός-καρπός,
+    <br>* McshElln.ξηροί-καρποί!=foodNuts,
+    <br>* McshElln.ξηρός-καρπός!=foodNuts,
     <a class="clsHide" href="#idFoodHmn110nam"></a></p>
 
   <section id="idFoodHmn110rtkl">
@@ -7014,17 +7026,29 @@
     <a class="clsHide" href="#idFoodHmn110rtsgrnam"></a></p>
   </section>
 
-  <section id="idFoodHmn110str">
-  <h3 id="idFoodHmn110strH3">nuts.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn110strH3"></a></h3>
-  <p id="idFoodHmn110strdsn">description::
+  <section id="idFoodHmn110gstr">
+  <h3 id="idFoodHmn110gstrH3">GENERIC-SPECIFIC-TREE of foodNuts
+    <a class="clsHide" href="#idFoodHmn110gstrH3"></a></h3>
+  <p id="idFoodHmn110gstrdsn">description::
     <br>× Mcsh-creation: {2026-05-25}
-    <br>* cashews,
-    <a class="clsHide" href="#idFoodHmn110strdsn"></a></p>
-  <p id="idFoodHmn110strnam">name::
+    <a class="clsHide" href="#idFoodHmn110gstrdsn"></a></p>
+  <p id="idFoodHmn110gstrnam">name::
+    <br>* McshEngl.foodNuts'generic-specific-tree,
+    <br>* McshEngl.foodNuts'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn110gstrnam"></a></p>
+  <p id="idFoodHmn110gtr">generic-tree::
+    <br>* McshEngl.foodNuts-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idFoodHmn110gtr"></a></p>
+  <p id="idFoodHmn110str">specific-tree::
+    <br>* McshEngl.foodNuts.specific,
+    <br>* McshEngl.foodNuts-Sptr,
     <br>* McshEngl.nuts.specific,
     <br>* McshEngl.nuts-Sptr,
-    <a class="clsHide" href="#idFoodHmn110strnam"></a></p>
+    <br>===
+    <br>* cashews,
+    <a class="clsHide" href="#idFoodHmn110str"></a></p>
   </section>
 
   <section id="idFoodHmn111">
@@ -10251,22 +10275,17 @@
     <br>· Dessert: A sweet or sometimes savory course that concludes a meal, including items such as cakes, pies, ice cream, puddings, pastries, fruits, or confections, typically intended to provide a satisfying final flavor experience.
     <a class="clsHide" href="#idFoodHmn201dsn"></a></p>
   <p id="idFoodHmn201nam">name::
-    <br>* McshEngl.food.201-dessert,
-    <br>* McshEngl.food.dessert-201,
-    <br>* McshEngl.foodDessert, /dizért/,
-    <br>* McshEngl.dessert, /dizért/,
-    <br>* McshEngl.sweet,
+    <br>* McshEngl.dessert/dizért/!⇒foodDessert,
+    <br>* McshEngl.foodDessert,
+    <br>* McshEngl.food.201-dessert!⇒foodDessert,
+    <br>* McshEngl.food.dessert-201!⇒foodDessert,
+    <br>* McshEngl.sweet!⇒foodDessert,
     <br>====== lagoGreek:
-    <br>* McshElln.τροφή.γλυκό,
-    <br>* McshElln.γλυκό,
+    <br>* McshElln.τροφή.γλυκό!=foodDessert,
+    <br>* McshElln.γλυκό!=foodDessert,
     <br>· The word dessert is most commonly used for this course in U.S., Canada, Australia, and Ireland,[citation needed] while sweet, pudding, or (informal) afters are alternative terms that may also be used in the UK and some other Commonwealth countries, including New Zealand and India.
     <br>[http://en.wikipedia.org/wiki/Dessert]
     <a class="clsHide" href="#idFoodHmn201nam"></a></p>
-  <p id="idFoodHmn201gtr">generic-tree::
-    <br>* McshEngl.foodDessert-Gntr,
-    <br>===
-    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
-    <a class="clsHide" href="#idFoodHmn201gtr"></a></p>
 
   <section id="idFoodHmn201recipe">
   <h2 id="idFoodHmn201recipeH2">recipe of foodDessert
@@ -10292,11 +10311,25 @@
     <a class="clsHide" href="#idFoodHmn201ingredientnam"></a></p>
   </section>
 
-  <section id="idFoodHmn201str">
-  <h2 id="idFoodHmn201strH2">foodDessert.SPECIFIC
-    <a class="clsHide" href="#idFoodHmn201strH2"></a></h2>
-  <p id="idFoodHmn201strdsn">description::
+  <section id="idFoodHmn201gstr">
+  <h2 id="idFoodHmn201gstrH2">GENERIC-SPECIFIC-TREE of foodDessert
+    <a class="clsHide" href="#idFoodHmn201gstrH2"></a></h2>
+  <p id="idFoodHmn201gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idFoodHmn201gstrdsn"></a></p>
+  <p id="idFoodHmn201gstrnam">name::
+    <br>* McshEngl.foodDessert'generic-specific-tree,
+    <br>* McshEngl.foodDessert'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn201gstrnam"></a></p>
+  <p id="idFoodHmn201gtr">generic-tree::
+    <br>* McshEngl.foodDessert-Gntr,
+    <br>===
+    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo-food</a>,
+    <a class="clsHide" href="#idFoodHmn201gtr"></a></p>
+  <p id="idFoodHmn201str">specific-tree::
+    <br>* McshEngl.foodDessert.specific,
+    <br>* McshEngl.foodDessert-Sptr,
+    <br>===
     <br>alphabetically:
     <br>* βανιλια-υποβρυχιο,
     <br>* καρυδοπιτα,
@@ -10306,11 +10339,7 @@
     <br>* μπακαλβας,
     <br>* μπουγατσα,
     <br>* <a class="clsPreview" href="#idFoodHmn205">χαλβας-με-παγωτο</a>,
-    <a class="clsHide" href="#idFoodHmn201strdsn"></a></p>
-  <p id="idFoodHmn201strnam">name::
-    <br>* McshEngl.foodDessert.specific,
-    <br>* McshEngl.foodDessert-Sptr,
-    <a class="clsHide" href="#idFoodHmn201strnam"></a></p>
+    <a class="clsHide" href="#idFoodHmn201str"></a></p>
   </section>
 
   <section id="idFoodHmn233">
