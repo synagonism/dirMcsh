@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_1","C..char",4501,"2026-10-12"],
+  [";lagEngl03si_1","C..char",4502,"2026-10-12"],
   ["C++!⇒Cppz_lago","dirTchInf/McshTchInf000031.last.html#idOverview"],
   ["C++'algo!⇒Cppzalgo","dirTchInf/McshTchInf000031.last.html#idLCppalg"],
   ["C++-ISO/IEC-14882:1998","dirTchInf/McshTchInf000031.last.html#idLCppspec98"],
@@ -3689,7 +3689,8 @@
   ["ccRecipient@schema.org","dirStn/McshStn000023.last.html#idScmoccRecipient"],
   ["ccTLD","dirStn/McshStn000009.last.html#idSocHumnatt052"],
   ["cease-to-have!⇒RltnLosing","dirCor/McshCor000005.last.html#idRlnLosg"],
-  ["cedilla-symbol&#32;&#x00B8;","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00B8"],
+  ["cedilla","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00B8"],
+  ["cedilla-symbol&#32;&#x00B8;!⇒cedilla","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00B8"],
   ["celebrate.TurkVerb!=kutlamak","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["cell","dirHlth/McshHlth000004.last.html#idOverview"],
   ["cell!=human-cell","dirHlth/McshHlth000004.last.html#idOverview"],

@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_1","char..char.2",11400,"2026-10-11"],
+  [";lagEngl03si_2_1","char..char.2",11400,"2026-10-12"],
   ["char","dirLag/McshLag000006.last.html#idOverview"],
   ["char!~McsLag000006","dirLag/McshLag000006.last.html#idOverview"],
   ["char'codepoint-finder","dirLag/McshLag000006.last.html#idCharUcdstdcpfdr"],
@@ -10610,7 +10610,7 @@
   ["char.1837&#32;U+072D&#32;&#x072D;&#32;SYRIAC-LETTER-PERSIAN-BHETH","dirTchInf/dirUcd/McshUcdU0700.last.html#idU0700U072D"],
   ["char.1838&#32;U+072E&#32;&#x072E;&#32;SYRIAC-LETTER-PERSIAN-GHAMAL","dirTchInf/dirUcd/McshUcdU0700.last.html#idU0700U072E"],
   ["char.1839&#32;U+072F&#32;&#x072F;&#32;SYRIAC-LETTER-PERSIAN-DHALATH","dirTchInf/dirUcd/McshUcdU0700.last.html#idU0700U072F"],
-  ["char.184&#32;U+00B8&#32;&#x00B8;&#32;CEDILLA","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00B8"],
+  ["char.184&#32;U+00B8&#32;&#x00B8;&#32;CEDILLA!⇒cedilla","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00B8"],
   ["char.1840&#32;U+0730&#32;&#x0730;&#32;SYRIAC-PTHAHA-ABOVE","dirTchInf/dirUcd/McshUcdU0700.last.html#idU0700U0730"],
   ["char.1841&#32;U+0731&#32;&#x0731;&#32;SYRIAC-PTHAHA-BELOW","dirTchInf/dirUcd/McshUcdU0700.last.html#idU0700U0731"],
   ["char.1842&#32;U+0732&#32;&#x0732;&#32;SYRIAC-PTHAHA-DOTTED","dirTchInf/dirUcd/McshUcdU0700.last.html#idU0700U0732"],

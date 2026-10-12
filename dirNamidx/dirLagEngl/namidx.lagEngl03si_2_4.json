@@ -5807,7 +5807,7 @@
   ["char.CAUCASIAN-ALBANIAN-LETTER-ZHIL-U+10537|66871|&#x10537;","dirTchInf/dirUcd/McshUcdU10530.last.html#idU10530U10537"],
   ["char.CAUTION-SIGN-U+2621|9761|&#x2621;","dirTchInf/dirUcd/McshUcdU2600.last.html#idU2600U2621"],
   ["char.CEDI-SIGN-U+20B5|8373|&#x20B5;","dirTchInf/dirUcd/McshUcdU20A0.last.html#idU20A0U20B5"],
-  ["char.CEDILLA-U+00B8|184|&#x00B8;","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00B8"],
+  ["char.CEDILLA-U+00B8|184|&#x00B8;!⇒cedilla","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00B8"],
   ["char.CELTIC-CROSS-U+1F548|128328|&#x1F548;","dirTchInf/dirUcd/McshUcdU1F300.last.html#idU1F300U1F548"],
   ["char.CENT-SIGN-U+00A2|162|&#x00A2;","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00A2"],
   ["char.CENTRE-LINE-SYMBOL-U+2104|8452|&#x2104;","dirTchInf/dirUcd/McshUcdU2100.last.html#idU2100U2104"],
