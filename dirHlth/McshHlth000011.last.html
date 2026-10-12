@@ -120,11 +120,12 @@
     <br>[Bernal, 1982, 963⧺cptRsc194⧺]
     <a class="clsHide" href="#idDssHmn002Fdsn"></a></p>
   <p id="idDssHmn002Fnam">name::
-    <br>* McshEngl.disease'02_cause,
-    <br>* McshEngl.disease'att002-cause,
-    <br>* McshEngl.disease'cause-002,
-    <br>* McshEngl.cause-of-disease,
-    <br>* McshEngl.disease'etiology,
+    <br>* McshEngl.disease'cause,
+    <br>* McshEngl.disease'02_cause!⇒disease'cause,
+    <br>* McshEngl.disease'att002-cause!⇒disease'cause,
+    <br>* McshEngl.disease'cause-002!⇒disease'cause,
+    <br>* McshEngl.cause-of-disease!⇒disease'cause,
+    <br>* McshEngl.disease'etiology!⇒disease'cause,
     <br>====== lagoGreek:
     <br>* McshElln.αιτία-πάθησης!=disease'cause,
     <br>* McshElln.πάθησης'αιτία!=disease'cause,
@@ -139,7 +140,7 @@
     <a class="clsHide" href="#idDssHmnrkfrFdsn"></a></p>
   <p id="idDssHmnrkfrFnam">name::
     <br>* McshEngl.disease'risk-factor,
-    <br>* McshEngl.risk-factor--of-disease,
+    <br>* McshEngl.risk-factor--of-disease!⇒disease'risk-factor,
     <br>====== lagoGreek:
     <br>* McshElln.συντελεστής-κινδύνου-ασθένειας!=disease'risk-factor,
     <a class="clsHide" href="#idDssHmnrkfrFnam"></a></p>
@@ -336,10 +337,11 @@
     <br>[{2020-01-14} https://en.wikipedia.org/wiki/CT_scan]
     <a class="clsHide" href="#idDssHmn003Ctsndsn"></a></p>
   <p id="idDssHmn003Ctsnnam">name::
-    <br>* McshEngl.computed-tomography-scan,
-    <br>* McshEngl.computerized-axial-tomography-scan,
-    <br>* McshEngl.diagnosis.005.CT-scan,
-    <br>* McshEngl.diagnosis.CT-scan,
+    <br>* McshEngl.CT-scan,
+    <br>* McshEngl.computed-tomography-scan!⇒CT-scan,
+    <br>* McshEngl.computerized-axial-tomography-scan!⇒CT-scan,
+    <br>* McshEngl.diagnosis.005.CT-scan!⇒CT-scan,
+    <br>* McshEngl.diagnosis.CT-scan!⇒CT-scan,
     <br>====== lagoGreek:
     <br>* McshElln.αξονική-τομογραφία!=CT-scan,
     <a class="clsHide" href="#idDssHmn003Ctsnnam"></a></p>
@@ -1162,10 +1164,10 @@
     <br>[https://en.wikipedia.org/wiki/Infection]
     <a class="clsHide" href="#idDssHmn001infndsn"></a></p>
   <p id="idDssHmn001infnnam">name::
-    <br>* McshEngl.DssInfectious'infection,
-    <br>* McshEngl.disease'infection,
     <br>* McshEngl.disease'transmition,
-    <br>* McshEngl.infection-of-disease,
+    <br>* McshEngl.DssInfectious'infection!⇒disease'transmition,
+    <br>* McshEngl.disease'infection!⇒disease'transmition,
+    <br>* McshEngl.infection-of-disease!⇒disease'transmition,
     <br>====== lagoGreek:
     <br>* McshElln.λοίμωξη-πάθησης!=disease'transmition,
     <br>* McshElln.πάθησης-μετάδοση!=disease'transmition,
@@ -1398,9 +1400,10 @@
     <br>[HumnSngu, {1995-03}]
     <a class="clsHide" href="#idDssHmn002dsn"></a></p>
   <p id="idDssHmn002nam">name::
-    <br>* McshEngl.disease.002-infectiousNo,
-    <br>* McshEngl.disease.infectiousNo-002,
-    <br>* McshEngl.non-infectious-disease, {2012-07-31},
+    <br>* McshEngl.DssInfectiousNo,
+    <br>* McshEngl.disease.002-infectiousNo!⇒DssInfectiousNo,
+    <br>* McshEngl.disease.infectiousNo-002!⇒DssInfectiousNo,
+    <br>* McshEngl.non-infectious-disease, {2012-07-31}!⇒DssInfectiousNo,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.μεταδοτικήΜη!=DssInfectiousNo,
     <br>* McshElln.πάθηση.μη-μεταδοτική!=DssInfectiousNo,
@@ -1524,11 +1527,11 @@
     <br>[{2020-03-17} https://en.wikipedia.org/wiki/Injury]
     <a class="clsHide" href="#idDssHmn203dsn"></a></p>
   <p id="idDssHmn203nam">name::
-    <br>* McshEngl.disease.203-wound,
-    <br>* McshEngl.disease.wound-203,
     <br>* McshEngl.DssWound,
-    <br>* McshEngl.injury,
-    <br>* McshEngl.wound,
+    <br>* McshEngl.disease.203-wound!⇒DssWound,
+    <br>* McshEngl.disease.wound-203!⇒DssWound,
+    <br>* McshEngl.injury!⇒DssWound,
+    <br>* McshEngl.wound!⇒DssWound,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.πληγή,
     <br>* McshElln.πληγή!=DssWound,
@@ -2352,13 +2355,14 @@
     <br>καθε πάθηση της καρδιάς,
     <a class="clsHide" href="#idDssHmn047dsn"></a></p>
   <p id="idDssHmn047nam">name::
-    <br>* McshEngl.disease.047-heart,
-    <br>* McshEngl.disease.heart-047,
-    <br>* McshEngl.DssHeart,
-    <br>* McshEngl.heart-defect,
-    <br>* McshEngl.heart-disease,
-    <br>* McshEngl.ognHeart'disease,
-    <br>* McshEngl.ognHeart'att001-disease,
+    <br>* McshEngl.disease.heart,
+    <br>* McshEngl.disease.047-heart!⇒disease.heart,
+    <br>* McshEngl.disease.heart-047!⇒disease.heart,
+    <br>* McshEngl.DssHeart!⇒disease.heart,
+    <br>* McshEngl.heart-defect!⇒disease.heart,
+    <br>* McshEngl.heart-disease!⇒disease.heart,
+    <br>* McshEngl.ognHeart'disease!⇒disease.heart,
+    <br>* McshEngl.ognHeart'att001-disease!⇒disease.heart,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.καρδιάς!=disease.heart,
     <a class="clsHide" href="#idDssHmn047nam"></a></p>
@@ -3680,9 +3684,10 @@
     <br>[http://www.wisegeek.com/which-animal-poses-the-biggest-threat-to-humans.htm?m {2018-12-31}]
     <a class="clsHide" href="#idDssHmn061dsn"></a></p>
   <p id="idDssHmn061nam">name::
-    <br>* McshEngl.disease.061-animal-cause,
-    <br>* McshEngl.disease.animal-cause-061,
-    <br>* McshEngl.disease.cause.animal-061,
+    <br>* McshEngl.disease.animal-cause,
+    <br>* McshEngl.disease.061-animal-cause!⇒disease.animal-cause,
+    <br>* McshEngl.disease.animal-cause-061!⇒disease.animal-cause,
+    <br>* McshEngl.disease.cause.animal-061!⇒disease.animal-cause,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ζώου-αιτία!=disease.animal-cause,
     <a class="clsHide" href="#idDssHmn061nam"></a></p>
@@ -3698,9 +3703,10 @@
     <br>[http://www.wisegeek.com/is-a-common-battery-really-a-cure-for-bug-bites.htm?m, {2014-06-26}]
     <a class="clsHide" href="#idDssHmn062dsn"></a></p>
   <p id="idDssHmn062nam">name::
-    <br>* McshEngl.disease.062-bite-cause,
-    <br>* McshEngl.disease.bite-cause-062,
-    <br>* McshEngl.bite-cause--disease,
+    <br>* McshEngl.disease.bite-cause,
+    <br>* McshEngl.disease.062-bite-cause!⇒disease.bite-cause,
+    <br>* McshEngl.disease.bite-cause-062!⇒disease.bite-cause,
+    <br>* McshEngl.bite-cause--disease!⇒disease.bite-cause,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.δάγκωμα-αιτία!=disease.bite-cause,
     <a class="clsHide" href="#idDssHmn062nam"></a></p>
@@ -3715,9 +3721,9 @@
     <br>· δοντιών πάθηση ονομάζω κάθε DEFECT των-δοντιών.
     <a class="clsHide" href="#idDssHmn215dsn"></a></p>
   <p id="idDssHmn215nam">name::
-    <br>* McshEngl.disease.215-tooth,
-    <br>* McshEngl.disease.tooth-215, {2012-07-31},
     <br>* McshEngl.DssTooth,
+    <br>* McshEngl.disease.215-tooth!⇒DssTooth,
+    <br>* McshEngl.disease.tooth-215, {2012-07-31}!⇒DssTooth,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.δοντιών!=DssTooth,
     <a class="clsHide" href="#idDssHmn215nam"></a></p>
@@ -3770,11 +3776,12 @@
     <br>[http://en.wikipedia.org/wiki/alcohol_intoxication]
     <a class="clsHide" href="#idDssHmn063dsn"></a></p>
   <p id="idDssHmn063nam">name::
-    <br>* McshEngl.disease.063-alcohol-intoxication,
-    <br>* McshEngl.disease.alcohol-intoxication-063,
-    <br>* McshEngl.alcohol-intoxication,
-    <br>* McshEngl.drunkenness,
-    <br>* McshEngl.inebriation,
+    <br>* McshEngl.drunknness,
+    <br>* McshEngl.disease.063-alcohol-intoxication!⇒drunknness,
+    <br>* McshEngl.disease.alcohol-intoxication-063!⇒drunknness,
+    <br>* McshEngl.alcohol-intoxication!⇒drunknness,
+    <br>* McshEngl.drunkenness!⇒drunknness,
+    <br>* McshEngl.inebriation!⇒drunknness,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.μεθύσι!=drunknness,
     <a class="clsHide" href="#idDssHmn063nam"></a></p>
@@ -4183,10 +4190,10 @@
     <br>[{2020-01-26} https://en.wikipedia.org/wiki/Tuberculosis]
     <a class="clsHide" href="#idDssHmn073dsn"></a></p>
   <p id="idDssHmn073nam">name::
-    <br>* McshEngl.disease.073-tuberculosis,
-    <br>* McshEngl.disease.tuberculosis-073,
     <br>* McshEngl.DssTuberculosis,
-    <br>* McshEngl.tuberculosis,
+    <br>* McshEngl.disease.073-tuberculosis!⇒DssTuberculosis,
+    <br>* McshEngl.disease.tuberculosis-073!⇒DssTuberculosis,
+    <br>* McshEngl.tuberculosis!⇒DssTuberculosis,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.φυματίωση,
     <br>* McshElln.φυματίωση!=DssTuberculosis,
@@ -4296,10 +4303,10 @@
     <br>[http://el.wiktionary.org/wiki/%ce%bc%cf%85%cf%81%ce%bc%ce%b7%ce%b3%ce%ba%ce%b9%ce%ac]
     <a class="clsHide" href="#idDssHmn074dsn"></a></p>
   <p id="idDssHmn074nam">name::
-    <br>* McshEngl.disease.074-wart,
-    <br>* McshEngl.disease.wart-074,
     <br>* McshEngl.DssWart,
-    <br>* McshEngl.wart,
+    <br>* McshEngl.disease.074-wart!⇒DssWart,
+    <br>* McshEngl.disease.wart-074!⇒DssWart,
+    <br>* McshEngl.wart!⇒DssWart,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.γαρδαβίτσα,
     <br>* McshElln.γαρδαβίτσα!=DssWart,
@@ -4586,10 +4593,10 @@
     <br>[εικ, 1994, 52⧺cptRsc33⧺]
     <a class="clsHide" href="#idDssHmn043dsn"></a></p>
   <p id="idDssHmn043nam">name::
-    <br>* McshEngl.disease.043-diabetes,
-    <br>* McshEngl.disease.diabetes-043,
-    <br>* McshEngl.diabetes,
     <br>* McshEngl.DssDiabetes,
+    <br>* McshEngl.disease.043-diabetes!⇒DssDiabetes,
+    <br>* McshEngl.disease.diabetes-043!⇒DssDiabetes,
+    <br>* McshEngl.diabetes!⇒DssDiabetes,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.διαβήτης,
     <br>* McshElln.διαβήτης!=DssDiabetes,
@@ -6423,11 +6430,11 @@
     <br>στραβισμός είναι <a class="clsPreview" href="#idDssHmn096">eye-disease</a>.
     <a class="clsHide" href="#idDssHmn110dsn"></a></p>
   <p id="idDssHmn110nam">name::
-    <br>* McshEngl.disease.110-squint,
-    <br>* McshEngl.disease.squint-110,
     <br>* McshEngl.DssSquint,
-    <br>* McshEngl.squint,
-    <br>* McshEngl.strabismus,
+    <br>* McshEngl.disease.110-squint!⇒DssSquint,
+    <br>* McshEngl.disease.squint-110!⇒DssSquint,
+    <br>* McshEngl.squint!⇒DssSquint,
+    <br>* McshEngl.strabismus!⇒DssSquint,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.στραβισμός,
     <br>* McshElln.στραβισμός!=DssSquint,
@@ -8302,11 +8309,11 @@
     <br>* οι εξωστρεφεις είναι πιο επιρρεπεις,
     <a class="clsHide" href="#idDssHmn116dsn"></a></p>
   <p id="idDssHmn116nam">name::
-    <br>* McshEngl.disease.116-dementia,
-    <br>* McshEngl.disease.dementia-116,
     <br>* McshEngl.DssDementia,
-    <br>* McshEngl.senility!=DssDementia,
-    <br>* McshEngl.dementia,
+    <br>* McshEngl.disease.116-dementia!⇒DssDementia,
+    <br>* McshEngl.disease.dementia-116!⇒DssDementia,
+    <br>* McshEngl.senility!⇒DssDementia,
+    <br>* McshEngl.dementia!⇒DssDementia,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.άνοια!=DssDementia,
     <br>* McshElln.άνοια!=DssDementia,
@@ -9298,10 +9305,10 @@
     <br>· Rubella, also known as German measles, is a contagious viral infection caused by the rubella virus, characterized by a mild fever and a distinctive red rash, but is particularly dangerous for pregnant women due to its risk of causing congenital rubella syndrome in the fetus.
     <a class="clsHide" href="#idDssHmn164dsn"></a></p>
   <p id="idDssHmn164nam">name::
-    <br>* McshEngl.disease.164-rubella,
-    <br>* McshEngl.disease.rubella-164,
     <br>* McshEngl.DssRubella,
-    <br>* McshEngl.rubella,
+    <br>* McshEngl.disease.164-rubella!⇒DssRubella,
+    <br>* McshEngl.disease.rubella-164!⇒DssRubella,
+    <br>* McshEngl.rubella!⇒DssRubella,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ερυθρα,
     <br>* McshElln.ερυθρα!=DssRubella,
@@ -9564,10 +9571,10 @@
     <br>[Google dict]
     <a class="clsHide" href="#idDssHmn167dsn"></a></p>
   <p id="idDssHmn167nam">name::
-    <br>* McshEngl.disease.167-measles,
-    <br>* McshEngl.disease.measles-167,
     <br>* McshEngl.DssMeasles,
-    <br>* McshEngl.measles,
+    <br>* McshEngl.disease.167-measles!⇒DssMeasles,
+    <br>* McshEngl.disease.measles-167!⇒DssMeasles,
+    <br>* McshEngl.measles!⇒DssMeasles,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ιλαρά,
     <br>* McshElln.ιλαρά!=DssMeasles,
@@ -9616,10 +9623,10 @@
     <br>· Rabies is a viral disease that causes acute inflammation of the brain and spinal cord, transmitted primarily through the saliva of infected animals, and is almost always fatal once symptoms appear.
     <a class="clsHide" href="#idDssHmn168dsn"></a></p>
   <p id="idDssHmn168nam">name::
-    <br>* McshEngl.disease.168-rabies,
-    <br>* McshEngl.disease.rabies-168,
     <br>* McshEngl.DssRabies,
-    <br>* McshEngl.rabies,
+    <br>* McshEngl.disease.168-rabies!⇒DssRabies,
+    <br>* McshEngl.disease.rabies-168!⇒DssRabies,
+    <br>* McshEngl.rabies!⇒DssRabies,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.λύσσα,
     <br>* McshElln.λύσσα!=DssRabies,
@@ -9819,10 +9826,10 @@
     <br>· Smallpox is a highly contagious and often fatal infectious disease caused by the variola virus, characterized by fever and a distinctive progressive skin rash with pustules, which was declared eradicated by the WHO in 1980 following a global vaccination campaign.
     <a class="clsHide" href="#idDssHmn171dsn"></a></p>
   <p id="idDssHmn171nam">name::
-    <br>* McshEngl.disease.171-smallpox,
-    <br>* McshEngl.disease.smallpox-171,
     <br>* McshEngl.DssSmallpox,
-    <br>* McshEngl.smallpox,
+    <br>* McshEngl.disease.171-smallpox!⇒DssSmallpox,
+    <br>* McshEngl.disease.smallpox-171!⇒DssSmallpox,
+    <br>* McshEngl.smallpox!⇒DssSmallpox,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ευλογιά,
     <br>* McshElln.ευλογιά!=DssSmallpox,
@@ -10869,10 +10876,10 @@
     <br>· Scabies is a contagious skin condition caused by infestation with the microscopic mite *Sarcoptes scabiei*, resulting in intense itching and a pimple-like rash.
     <a class="clsHide" href="#idDssHmn188dsn"></a></p>
   <p id="idDssHmn188nam">name::
-    <br>* McshEngl.disease.188-scabies,
-    <br>* McshEngl.disease.scabies-188,
     <br>* McshEngl.DssScabies,
-    <br>* McshEngl.scabies,
+    <br>* McshEngl.disease.188-scabies!⇒DssScabies,
+    <br>* McshEngl.disease.scabies-188!⇒DssScabies,
+    <br>* McshEngl.scabies!⇒DssScabies,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ψώρα,
     <br>* McshElln.ψώρα,
@@ -10921,10 +10928,10 @@
     <br>· Lousiness is the infestation of the body or scalp with lice, causing intense itching and skin irritation.
     <a class="clsHide" href="#idDssHmn189dsn"></a></p>
   <p id="idDssHmn189nam">name::
-    <br>* McshEngl.disease.189-lousiness,
-    <br>* McshEngl.disease.lousiness-189,
     <br>* McshEngl.DssLousiness,
-    <br>* McshEngl.lousiness,
+    <br>* McshEngl.disease.189-lousiness!⇒DssLousiness,
+    <br>* McshEngl.disease.lousiness-189!⇒DssLousiness,
+    <br>* McshEngl.lousiness!⇒DssLousiness,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.φθειριαση,
     <br>* McshElln.φθειριαση,
@@ -11808,11 +11815,11 @@
     <br>· Constipation is a condition characterized by infrequent bowel movements, difficulty passing stool, or a sensation of incomplete evacuation.
     <a class="clsHide" href="#idDssHmn214dsn"></a></p>
   <p id="idDssHmn214nam">name::
-    <br>* McshEngl.disease.214-constipation,
-    <br>* McshEngl.disease.constipation-214,
     <br>* McshEngl.DssConstipation,
-    <br>* McshEngl.constipation,
-    <br>* McshEngl.costiveness,
+    <br>* McshEngl.disease.214-constipation!⇒DssConstipation,
+    <br>* McshEngl.disease.constipation-214!⇒DssConstipation,
+    <br>* McshEngl.constipation!⇒DssConstipation,
+    <br>* McshEngl.costiveness!⇒DssConstipation,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.δισκοιλιότητα,
     <br>* McshElln.δισκοιλιότητα!=DssConstipation,
@@ -11848,10 +11855,10 @@
     <br>λιποθυμία είναι η DEFECT στην οποία ο οργανισμός χάνει τις αισθήσεις του.
     <a class="clsHide" href="#idDssHmn221dsn"></a></p>
   <p id="idDssHmn221nam">name::
-    <br>* McshEngl.disease.221-faint,
-    <br>* McshEngl.disease.faint-221,
     <br>* McshEngl.DssFaint,
-    <br>* McshEngl.faint,
+    <br>* McshEngl.disease.221-faint!⇒DssFaint,
+    <br>* McshEngl.disease.faint-221!⇒DssFaint,
+    <br>* McshEngl.faint!⇒DssFaint,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.λιποθυμία,
     <br>* McshElln.λιποθυμία!=DssFaint,
@@ -12383,10 +12390,10 @@
     <br>είναι μια πάθηση δέρματος.
     <a class="clsHide" href="#idDssHmn205dsn"></a></p>
   <p id="idDssHmn205nam">name::
-    <br>* McshEngl.disease.205-dandruff,
-    <br>* McshEngl.disease.dandruff-205,
     <br>* McshEngl.DssDandruff,
-    <br>* McshEngl.dandruff,
+    <br>* McshEngl.disease.205-dandruff!⇒DssDandruff,
+    <br>* McshEngl.disease.dandruff-205!⇒DssDandruff,
+    <br>* McshEngl.dandruff!⇒DssDandruff,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.πιτυρίδα,
     <br>* McshElln.πιτυρίδα!=DssDandruff,
@@ -12678,13 +12685,13 @@
     <br>τερηδόνα είναι <a class="clsPreview" href="#idDssHmn215">tooth-disease</a> που χαρακτηρίζεται από προοδευτική καταστροφή των δοντιών.
     <a class="clsHide" href="#idDssHmn177dsn"></a></p>
   <p id="idDssHmn177nam">name::
-    <br>* McshEngl.disease.177-dental-caries,
-    <br>* McshEngl.disease.dental-caries-177,
     <br>* McshEngl.DssCaries,
-    <br>* McshEngl.caries,
-    <br>* McshEngl.cavities,
-    <br>* McshEngl.dental-caries,
-    <br>* McshEngl.tooth-decay,
+    <br>* McshEngl.disease.177-dental-caries!⇒DssCaries,
+    <br>* McshEngl.disease.dental-caries-177!⇒DssCaries,
+    <br>* McshEngl.caries!⇒DssCaries,
+    <br>* McshEngl.cavities!⇒DssCaries,
+    <br>* McshEngl.dental-caries!⇒DssCaries,
+    <br>* McshEngl.tooth-decay!⇒DssCaries,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.τερηδόνα,
     <br>* McshElln.τερηδόνα!=DssCaries,
@@ -13487,10 +13494,10 @@
     <br>[http://en.wikipedia.org/wiki/Malaria]
     <a class="clsHide" href="#idDssHmn141dsn"></a></p>
   <p id="idDssHmn141nam">name::
-    <br>* McshEngl.disease.141-malaria,
-    <br>* McshEngl.disease.malaria-141,
     <br>* McshEngl.DssMalaria,
-    <br>* McshEngl.malaria,
+    <br>* McshEngl.disease.141-malaria!⇒DssMalaria,
+    <br>* McshEngl.disease.malaria-141!⇒DssMalaria,
+    <br>* McshEngl.malaria!⇒DssMalaria,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ελονοσία,
     <br>* McshElln.ελονοσία!=DssMalaria,
@@ -14455,9 +14462,10 @@
     <br>· Stomach disease refers to any disorder affecting the stomach, including conditions such as gastritis, ulcers, infections, or functional dyspepsia.
     <a class="clsHide" href="#idDssHmn092dsn"></a></p>
   <p id="idDssHmn092nam">name::
-    <br>* McshEngl.disease.092-stomach,
-    <br>* McshEngl.disease.stomach-092,
-    <br>* McshEngl.stomach-disease,
+    <br>* McshEngl.disease.stomack,
+    <br>* McshEngl.disease.092-stomach!⇒disease.stomack,
+    <br>* McshEngl.disease.stomach-092!⇒disease.stomack,
+    <br>* McshEngl.stomach-disease!⇒disease.stomack,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.στομαχιού!=disease.stomack,
     <a class="clsHide" href="#idDssHmn092nam"></a></p>
@@ -14471,9 +14479,10 @@
     <br>[http://en.wikipedia.org/wiki/Gastritis]
     <a class="clsHide" href="#idDssHmn093dsn"></a></p>
   <p id="idDssHmn093nam">name::
-    <br>* McshEngl.disease.093-gastritis,
-    <br>* McshEngl.disease.gastritis-093,
-    <br>* McshEngl.gastritis-disease-093,
+    <br>* McshEngl.disease.gastritis,
+    <br>* McshEngl.disease.093-gastritis!⇒disease.gastritis,
+    <br>* McshEngl.disease.gastritis-093!⇒disease.gastritis,
+    <br>* McshEngl.gastritis-disease-093!⇒disease.gastritis,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.γαστρίτιδα!=disease.gastritis,
     <a class="clsHide" href="#idDssHmn093nam"></a></p>
@@ -14534,9 +14543,10 @@
     <br>[http://www.nooz.gr/Health/oi-trofes-pou-kataprainoun-tin-kaoira]
     <a class="clsHide" href="#idDssHmn094P1"></a></p>
   <p id="idDssHmn094nam">name::
-    <br>* McshEngl.disease.094-heartburn,
-    <br>* McshEngl.disease.heartburn-094,
-    <br>* McshEngl.heartburn-disease-094,
+    <br>* McshEngl.disease.heartburn,
+    <br>* McshEngl.disease.094-heartburn!⇒disease.heartburn,
+    <br>* McshEngl.disease.heartburn-094!⇒disease.heartburn,
+    <br>* McshEngl.heartburn-disease-094!⇒disease.heartburn,
     <br>====== lagoGreek:
     <br>* McshElln.καούρα-στο-στομάχι!=disease.heartburn,
     <br>* McshElln.πάθηση.καούρα-στο-στομάχι!=disease.heartburn,
@@ -14573,9 +14583,10 @@
     <br>[http://www.nooz.gr/Health/ti-na-fate-an-exete-stomaxopono]
     <a class="clsHide" href="#idDssHmn095P1"></a></p>
   <p id="idDssHmn095nam">name::
-    <br>* McshEngl.disease.095-stomach-pain,
-    <br>* McshEngl.disease.stomach-pain-095,
-    <br>* McshEngl.stomach-pain-095,
+    <br>* McshEngl.stomach-pain,
+    <br>* McshEngl.disease.095-stomach-pain!⇒stomach-pain,
+    <br>* McshEngl.disease.stomach-pain-095!⇒stomach-pain,
+    <br>* McshEngl.stomach-pain-095!⇒stomach-pain,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.στομαχιού-πόνος!=stomach-pain,
     <a class="clsHide" href="#idDssHmn095nam"></a></p>
@@ -14671,12 +14682,12 @@
     <br>[{2014-12-22} https://en.wikipedia.org/wiki/Edema]
     <a class="clsHide" href="#idDssHmn098dsn"></a></p>
   <p id="idDssHmn098nam">name::
-    <br>* McshEngl.disease.098-edema, /idíma/,
-    <br>* McshEngl.disease.edema-098,
     <br>* McshEngl.DssEdema,
-    <br>* McshEngl.edema-disease,
-    <br>* McshEngl.fluid-retention-disease,
-    <br>* McshEngl.swelling-disease,
+    <br>* McshEngl.disease.098-edema, /idíma/!⇒DssEdema,
+    <br>* McshEngl.disease.edema-098!⇒DssEdema,
+    <br>* McshEngl.edema-disease!⇒DssEdema,
+    <br>* McshEngl.fluid-retention-disease!⇒DssEdema,
+    <br>* McshEngl.swelling-disease!⇒DssEdema,
     <br>====== lagoGreek:
     <br>* McshElln.οίδημα!το!=DssEdema,
     <br>* McshElln.πάθηση.οίδημα!το!=DssEdema,
@@ -17007,10 +17018,11 @@
     <br>* Ulcerative disposition, a disorder or discomfort that causes severe abdominal distress, often associated with chronic gastritis"
     <a class="clsHide" href="#idDssHmn053dsn"></a></p>
   <p id="idDssHmn053nam">name::
-    <br>* McshEngl.DssUlcer, /álcer/,
-    <br>* McshEngl.disease.053-ulcer,
-    <br>* McshEngl.disease.ulcer-053,
-    <br>* McshEngl.ulcer-disease-053,
+    <br>* McshEngl.DssUlcer,
+    <br>* McshEngl.DssUlcer, /álcer/!⇒DssUlcer,
+    <br>* McshEngl.disease.053-ulcer!⇒DssUlcer,
+    <br>* McshEngl.disease.ulcer-053!⇒DssUlcer,
+    <br>* McshEngl.ulcer-disease-053!⇒DssUlcer,
     <br>====== lagoGreek:
     <br>* McshElln.άλγος!=DssUlcer,
     <a class="clsHide" href="#idDssHmn053nam"></a></p>

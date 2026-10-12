@@ -77,14 +77,14 @@
     <br>· <span class="clsColorRed">specific of generic\a\</span> is any entity that has the-attributes of generic\a\.
     <a class="clsHide" href="#idGnrcspcdsn"></a></p>
   <p id="idGnrcspcnam">name::
-    <br>* McshEngl.abstractNo-quantity,
-    <br>* McshEngl.quantity-NOT-abstract,
-    <br>* McshEngl.quantity-of--generic-entity,
     <br>* McshEngl.specific,
+    <br>* McshEngl.abstractNo-quantity!⇒specific,
+    <br>* McshEngl.quantity-NOT-abstract!⇒specific,
+    <br>* McshEngl.quantity-of--generic-entity!⇒specific,
     <br>* McshEngl.specific.lagoSngu!=geu,
     <br>* McshEngl.specific.lagoElln!=ειδικό!το,
-    <br>* McshEngl.specific-of-generic,
-    <br>* McshEngl.type!=specific,
+    <br>* McshEngl.specific-of-generic!⇒specific,
+    <br>* McshEngl.type!⇒specific,
     <br>====== lagoSinagu:
     <br>* McshSngu.geu!=specific,
     <br>· lagoSngu names the-specific-of-generic as: generic-specific or genericSpecific.
@@ -160,8 +160,8 @@
     <br>* McshEngl.individual-entity!⇒individual,
     <br>* McshEngl.individuality-attribute,
     <br>* McshEngl.instance-entity!⇒individual,
-    <br>* McshEngl.adjeEngl.only!=individual,
-    <br>* McshEngl.only!~adjeEngl!=individual,
+    <br>* McshEngl.adjeEngl.only!⇒individual,
+    <br>* McshEngl.only!~adjeEngl!⇒individual,
     <br>* McshEngl.single-entity!⇒individual,
     <br>* McshEngl.unique-entity!⇒individual,
     <br>====== lagoSinagu:
@@ -170,10 +170,10 @@
     <br>====== lagoChinese:
     <br>* McshZhon.gè-个!=individual,
     <br>* McshZhon.个-gè!=individual,
-    <br>* McshEngl.adveZhon.jiù-就!=individual,
+    <br>* McshEngl.adveZhon.jiù-就!⇒individual,
     <br>* McshZhon.jiù-就!~adveZhon!=individual,
     <br>* McshZhon.就-jiù!~adveZhon!=individual,
-    <br>* McshEngl.adveZhon.zhǐ-只!=individual,
+    <br>* McshEngl.adveZhon.zhǐ-只!⇒individual,
     <br>* McshZhon.zhǐ-只!~adveZhon!=individual,
     <br>* McshZhon.只-zhǐ!~adveZhon!=individual,
     <br>====== lagoEsperanto:
@@ -182,8 +182,8 @@
     <br>* McshElln.ατομική-οντότητα!=individual,
     <br>* McshElln.ατομικό!το!=individual,
     <br>* McshElln.μοναδικό!το!=individual,
-    <br>* McshElln.επίθετο.μοναδικός!-ός-ή-ό:individual,
-    <br>* McshElln.μοναδικός!-ός-ή-ό!~adjeElln:individual,
+    <br>* McshElln.επίθετο.μοναδικός!-ός-ή-ό!=individual,
+    <br>* McshElln.μοναδικός!-ός-ή-ό!~adjeElln!=individual,
     <br>* McshElln.συγκεκριμένη-έννοια!=individual,
     <br>====== lagoTurkish:
     <br>* McshTurk.bireysel!=individual,
@@ -309,14 +309,14 @@
     <br>* McshEngl.lagoHmnm'generic-specific-sequenced!⇒RltnGeneric_then_specific,
     <br>* McshEngl.relation.specific!⇒RltnGeneric_then_specific,
     <br>* McshEngl.specific-relation-of-entity!⇒RltnGeneric_then_specific,
-    <br>* McshEngl.as!~ConjEngl!=RltnGeneric_then_specific,
-    <br>* McshEngl.ConjEngl.as!=RltnGeneric_then_specific,
-    <br>* McshEngl.for-example!~ConjEngl!=RltnGeneric_then_specific,
-    <br>* McshEngl.ConjEngl.for-example!=RltnGeneric_then_specific,
-    <br>* McshEngl.that!~ConjEngl!=RltnGeneric_then_specific,
-    <br>* McshEngl.ConjEngl.that!=RltnGeneric_then_specific,
-    <br>* McshEngl.who!~ConjEngl!=RltnGeneric_then_specific,
-    <br>* McshEngl.ConjEngl.who!=RltnGeneric_then_specific,
+    <br>* McshEngl.as!~ConjEngl!⇒RltnGeneric_then_specific,
+    <br>* McshEngl.ConjEngl.as!⇒RltnGeneric_then_specific,
+    <br>* McshEngl.for-example!~ConjEngl!⇒RltnGeneric_then_specific,
+    <br>* McshEngl.ConjEngl.for-example!⇒RltnGeneric_then_specific,
+    <br>* McshEngl.that!~ConjEngl!⇒RltnGeneric_then_specific,
+    <br>* McshEngl.ConjEngl.that!⇒RltnGeneric_then_specific,
+    <br>* McshEngl.who!~ConjEngl!⇒RltnGeneric_then_specific,
+    <br>* McshEngl.ConjEngl.who!⇒RltnGeneric_then_specific,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.ka-cca!=RltnGeneric_then_specific,
     <br>* McshSngu.old.ka!~ConjSngu!=RltnGeneric_then_specific,
@@ -350,7 +350,7 @@
     <br>* McshEngl.specific:generic!⇒RltnSpecific_then_generic,
     <br>* McshEngl.specific-generic--sequenced-relation!⇒RltnSpecific_then_generic,
     <br>* McshEngl.specific-of-entity--relation!⇒RltnSpecific_then_generic,
-    <br>* McshEngl.verb.be!=RltnSpecific_then_generic,
+    <br>* McshEngl.verb.be!⇒RltnSpecific_then_generic,
     <br>====== lagoSinagu:
     <br>* McshSngu.ka!~ConjSngu!=RltnSpecific_then_generic, {2025-12-19}
     <br>* McshSngu.old.gau!=RltnSpecific_then_generic,
@@ -392,8 +392,8 @@
     <br>* McshEngl.measuring-acting!⇒ActgMeasuring,
     <br>* McshEngl.quantity-evaluating!⇒ActgMeasuring,
     <br>* McshEngl.DongActgMeasuring!⇒ActgMeasuring,
-    <br>* McshEngl.verb.measure!=ActgMeasuring!~verbEnglB1,
-    <br>* McshEngl.measure!=ActgMeasuring!~verbEnglB1,
+    <br>* McshEngl.verb.measure!~verbEnglB1!⇒ActgMeasuring,
+    <br>* McshEngl.measure!~verbEnglB1!⇒ActgMeasuring,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.tiu-kao!=ActgMeasuring,
     <br>* rio-kao!=ActgMeasuring,
@@ -1180,8 +1180,8 @@
     <br>· doing of creating a-generic.
     <a class="clsHide" href="#idGnrcgrzgdsn"></a></p>
   <p id="idGnrcgrzgnam">name::
-    <br>* McshEngl.generalization,
     <br>* McshEngl.generalizing,
+    <br>* McshEngl.generalization!⇒generalizing,
     <br>====== lagoSinagu:
     <br>* McshSngo.kiu!~arguSngu!=generalizing,
     <br>* McshSngo.ki!=generalizing,
@@ -1199,8 +1199,8 @@
     <br>· doing of creating a-specific,
     <a class="clsHide" href="#idGnrcspzgdsn"></a></p>
   <p id="idGnrcspzgnam">name::
-    <br>* McshEngl.specialization,
     <br>* McshEngl.specializing,
+    <br>* McshEngl.specialization!⇒specializing,
     <br>====== lagoSinagu:
     <br>* McshSngo.giu!~arguSngu!=specializing,
     <br>* McshSngo.gi!=specializing,
@@ -1354,13 +1354,13 @@
     <br>[{2025-12-25 retrieved} http://localhost/dirMcsh/dirCor/McshCor000009.last.html#idGnrcCntIvl]
     <a class="clsHide" href="#idGnrcCntdsn"></a></p>
   <p id="idGnrcCntnam">name::
-    <br>* McshEngl.continuous-generic,
-    <br>* McshEngl.countableNo-entity,
     <br>* McshEngl.discreteNo-entity,
-    <br>* McshEngl.generic.continuous,
-    <br>* McshEngl.mass-entity,
-    <br>* McshEngl.non-countable-entity,
-    <br>* McshEngl.uncountable-entity,
+    <br>* McshEngl.continuous-generic!⇒discreteNo-entity,
+    <br>* McshEngl.countableNo-entity!⇒discreteNo-entity,
+    <br>* McshEngl.generic.continuous!⇒discreteNo-entity,
+    <br>* McshEngl.mass-entity!⇒discreteNo-entity,
+    <br>* McshEngl.non-countable-entity!⇒discreteNo-entity,
+    <br>* McshEngl.uncountable-entity!⇒discreteNo-entity,
     <br>====== lagoSinagu:
     <br>* McshSngu.ko-enoto!=discreteNo-entity,
     <br>====== lagoGreek:
@@ -1402,8 +1402,9 @@
     <br>· example: time-interval, distance-interval, ...
     <a class="clsHide" href="#idGnrcCntIvldsn"></a></p>
   <p id="idGnrcCntIvlnam">name::
-    <br>* McshEngl.continuous-generic.interval,
-    <br>* McshEngl.interval-generic,
+    <br>* McshEngl.generic.continuous.interval,
+    <br>* McshEngl.continuous-generic.interval!⇒generic.continuous.interval,
+    <br>* McshEngl.interval-generic!⇒generic.continuous.interval,
     <br>====== lagoSinagu:
     <br>* McshSngu.ko-dotoUoGo!=generic.continuous.interval,
     <a class="clsHide" href="#idGnrcCntIvlnam"></a></p>
@@ -1418,11 +1419,12 @@
     <br>· example: time-point, distance-point, ...
     <a class="clsHide" href="#idGnrcCntIvlNdsn"></a></p>
   <p id="idGnrcCntIvlNnam">name::
-    <br>* McshEngl.continuous-generic.intervalNo,
-    <br>* McshEngl.continuous-generic.point,
-    <br>* McshEngl.continuous-quantity,
-    <br>* McshEngl.continuous-variable,
-    <br>* McshEngl.point-generic,
+    <br>* McshEngl.generic.continuous.point,
+    <br>* McshEngl.continuous-generic.intervalNo!⇒generic.continuous.point,
+    <br>* McshEngl.continuous-generic.point!⇒generic.continuous.point,
+    <br>* McshEngl.continuous-quantity!⇒generic.continuous.point,
+    <br>* McshEngl.continuous-variable!⇒generic.continuous.point,
+    <br>* McshEngl.point-generic!⇒generic.continuous.point,
     <br>====== lagoSinagu:
     <br>* McshSngu.ko-doto!=generic.continuous.point,
     <a class="clsHide" href="#idGnrcCntIvlNnam"></a></p>
@@ -1440,11 +1442,12 @@
     <br>· discrete-generic is <a class="clsPreview" href="#idOverview">a-generic</a> whose specifics are-separated and we do-NOT-need a-different <a class="clsPreview" href="#idGnrcmsrguom">measure-unit</a> to <a class="clsPreview" href="#idGnrcmsrg">measure</a> it eg car, human, apple, ...
     <a class="clsHide" href="#idGnrcCntNdsn"></a></p>
   <p id="idGnrcCntNnam">name::
-    <br>* McshEngl.continuousNo-generic,
-    <br>* McshEngl.count-entity,
-    <br>* McshEngl.countable-entity,
-    <br>* McshEngl.discrete-generic,
-    <br>* McshEngl.generic.continuousNo,
+    <br>* McshEngl.generic.discrete,
+    <br>* McshEngl.continuousNo-generic!⇒generic.discrete,
+    <br>* McshEngl.count-entity!⇒generic.discrete,
+    <br>* McshEngl.countable-entity!⇒generic.discrete,
+    <br>* McshEngl.discrete-generic!⇒generic.discrete,
+    <br>* McshEngl.generic.continuousNo!⇒generic.discrete,
     <br>====== lagoSinagu:
     <br>* McshSngu.ko-enotoUoGo!=generic.discrete,
     <br>====== lagoGreek:
@@ -1536,10 +1539,10 @@
     <br>· timepoint-generic is a-generic measured in timepoints.
     <a class="clsHide" href="#idGnrcTmptdsn"></a></p>
   <p id="idGnrcTmptnam">name::
-    <br>* McshEngl.generic.timeintervalNo,
     <br>* McshEngl.generic.timepoint,
-    <br>* McshEngl.stock-quantity,
-    <br>* McshEngl.timepoint-generic,
+    <br>* McshEngl.generic.timeintervalNo!⇒generic.timepoint,
+    <br>* McshEngl.stock-quantity!⇒generic.timepoint,
+    <br>* McshEngl.timepoint-generic!⇒generic.timepoint,
     <br>====== lagoSinagu:
     <br>* McshSngu.ko-to-doto!=generic.timepoint,
     <a class="clsHide" href="#idGnrcTmptnam"></a></p>
@@ -1553,10 +1556,11 @@
     <br>· timeinterval-generic is a-generic measured in timeintervals.
     <a class="clsHide" href="#idGnrcTmptNdsn"></a></p>
   <p id="idGnrcTmptNnam">name::
-    <br>* McshEngl.flow-quantity,
-    <br>* McshEngl.generic.timeinterval,
-    <br>* McshEngl.generic.timepointNo,
-    <br>* McshEngl.timeinterval-generic,
+    <br>* McshEngl.generic.timepoint,
+    <br>* McshEngl.flow-quantity!⇒generic.timepoint,
+    <br>* McshEngl.generic.timeinterval!⇒generic.timepoint,
+    <br>* McshEngl.generic.timepointNo!⇒generic.timepoint,
+    <br>* McshEngl.timeinterval-generic!⇒generic.timepoint,
     <br>====== lagoSinagu:
     <br>* McshSngu.ko-to-dotoUoGo!=generic.timepoint,
     <a class="clsHide" href="#idGnrcTmptNnam"></a></p>

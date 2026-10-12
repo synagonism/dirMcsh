@@ -58,11 +58,11 @@
     <br>· indications are diseases for which this therapy is helpful.
     <a class="clsHide" href="#idThrpHmnatt001dsn"></a></p>
   <p id="idThrpHmnatt001nam">name::
-    <br>* McshEngl.therapy'01_indication,
-    <br>* McshEngl.therapy'application,
-    <br>* McshEngl.therapy'area-of-application,
-    <br>* McshEngl.therapy'att001-indication,
     <br>* McshEngl.therapy'indication,
+    <br>* McshEngl.therapy'01_indication!⇒therapy'indication,
+    <br>* McshEngl.therapy'application!⇒therapy'indication,
+    <br>* McshEngl.therapy'area-of-application!⇒therapy'indication,
+    <br>* McshEngl.therapy'att001-indication!⇒therapy'indication,
     <br>====== lagoGreek:
     <br>* McshElln.θεραπείας-ένδειξη!=therapy'indication,
     <a class="clsHide" href="#idThrpHmnatt001nam"></a></p>
@@ -76,9 +76,9 @@
     <br>· contraindications are diseases|human-systems for which this therapy is harmful.
     <a class="clsHide" href="#idThrpHmnatt002dsn"></a></p>
   <p id="idThrpHmnatt002nam">name::
-    <br>* McshEngl.therapy'02_contraindication,
-    <br>* McshEngl.therapy'att002-contraindication,
     <br>* McshEngl.therapy'contraindication,
+    <br>* McshEngl.therapy'02_contraindication!⇒therapy'contraindication,
+    <br>* McshEngl.therapy'att002-contraindication!⇒therapy'contraindication,
     <br>====== lagoGreek:
     <br>* McshElln.θεραπείας-αντένδειξη!=therapy'contraindication,
     <a class="clsHide" href="#idThrpHmnatt002nam"></a></p>
@@ -94,9 +94,9 @@
     <br>[{2020-01-15} https://en.wikipedia.org/wiki/Side_effect]
     <a class="clsHide" href="#idThrpHmnatt003dsn"></a></p>
   <p id="idThrpHmnatt003nam">name::
-    <br>* McshEngl.therapy'03_side-effect,
-    <br>* McshEngl.therapy'att003-side-effect,
     <br>* McshEngl.therapy'side-effect,
+    <br>* McshEngl.therapy'03_side-effect!⇒therapy'side-effect,
+    <br>* McshEngl.therapy'att003-side-effect!⇒therapy'side-effect,
     <br>====== lagoGreek:
     <br>* McshElln.θεραπείας-παρενέργεια!=therapy'side-effect,
     <br>* McshElln.θεραπείας-παράπλευρο-αποτέλεσμα!=therapy'side-effect,
@@ -167,12 +167,12 @@
     <br>· <a class="clsPreview" href="../dirHlth/McshHlth000008.last.html#idHlthHmnatt001Ptnt">a-patient</a> that gets a-therapy.
     <a class="clsHide" href="#idThrpHmnatt007dsn"></a></p>
   <p id="idThrpHmnatt007nam">name::
-    <br>* McshEngl.therapy'07_therapy-receiver,
-    <br>* McshEngl.therapy'att007-therapy-receiver,
-    <br>* McshEngl.therapy'client,
-    <br>* McshEngl.therapy'patient,
-    <br>* McshEngl.therapy'therapy-receiver,
     <br>* McshEngl.therapy-receiver,
+    <br>* McshEngl.therapy'07_therapy-receiver!⇒therapy-receiver,
+    <br>* McshEngl.therapy'att007-therapy-receiver!⇒therapy-receiver,
+    <br>* McshEngl.therapy'client!⇒therapy-receiver,
+    <br>* McshEngl.therapy'patient!⇒therapy-receiver,
+    <br>* McshEngl.therapy'therapy-receiver!⇒therapy-receiver,
     <br>====== lagoGreek:
     <br>* McshElln.θεραπευόμενος!=therapy-receiver,
     <a class="clsHide" href="#idThrpHmnatt007nam"></a></p>
@@ -805,8 +805,8 @@
     <br>* McshEngl.alternative-therapy!⇒therapyAlt, {2012-07-31},
     <br>* McshEngl.therapyΑlt, {2012-07-31},
     <br>====== lagoGreek:
-    <br>* McshElln.εναλλακτική-θεραπεία,
-    <br>* McshElln.συμπληρωματική-ιατρική,
+    <br>* McshElln.εναλλακτική-θεραπεία!=therapyAlt, {2012-07-31},
+    <br>* McshElln.συμπληρωματική-ιατρική!=therapyAlt, {2012-07-31},
     <a class="clsHide" href="#idThrpHmnAltvnam"></a></p>
 
   <section id="idThrpHmnAltvgstr">
@@ -873,7 +873,7 @@
     <a class="clsHide" href="#idThrpHmnBiodsn"></a></p>
   <p id="idThrpHmnBionam">name::
     <br>* McshEngl.biotherapy,
-    <br>* McshEngl.therapyAlt.biotherapy,
+    <br>* McshEngl.therapyAlt.biotherapy!⇒biotherapy,
     <br>====== lagoGreek:
     <br>* McshElln.βιοθεραπεία!=biotherapy,
     <br>* McshElln.θεραπεία.βιοθεραπεία!=biotherapy,
@@ -1211,9 +1211,10 @@
     <a class="clsHide" href="#idThrpHmnImndsn"></a></p>
   <p id="idThrpHmnImnnam">name::
     <br>* McshEngl.immunotherapy,
+    <br>* McshEngl.therapy.immunotherapy!⇒immunotherapy,
     <br>====== lagoGreek:
-    <br>* McshElln.ανοσοθεραπεία,
-    <br>* McshElln.ανοσολογική-θεραπευτική-προσέγγιση,
+    <br>* McshElln.ανοσοθεραπεία!=immunotherapy,
+    <br>* McshElln.ανοσολογική-θεραπευτική-προσέγγιση!=immunotherapy,
     <a class="clsHide" href="#idThrpHmnImnnam"></a></p>
   </section>
 
@@ -1224,8 +1225,8 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idThrpHmn217dsn"></a></p>
   <p id="idThrpHmn217nam">name::
-    <br>* McshEngl.therapy.ozone,
     <br>* McshEngl.ozone-therapy,
+    <br>* McshEngl.therapy.ozone!⇒ozone-therapy,
     <br>====== lagoGreek:
     <br>* McshElln.οζονοθεραπεία!=ozone-therapy,
     <a class="clsHide" href="#idThrpHmn217nam"></a></p>
@@ -1279,7 +1280,8 @@
     <br>[http://en.wikipedia.org/wiki/Placebo]
     <a class="clsHide" href="#idThrpHmnPlcbdsn"></a></p>
   <p id="idThrpHmnPlcbnam">name::
-    <br>* McshEngl.placebo/placíbo/,
+    <br>* McshEngl.placebo,
+    <br>* McshEngl.placebo/placíbo/!⇒placebo,
     <br>====== lagoGreek:
     <br>* McshElln.εικονικό-φάρμακο!=placebo,
     <a class="clsHide" href="#idThrpHmnPlcbnam"></a></p>
