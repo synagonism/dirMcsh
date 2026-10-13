@@ -1,0 +1,1 @@
+for /f "usebackq delims=" %%f in ("dirfiles.txt") do code --reuse-window "%%f"

@@ -1,5 +1,5 @@
 [
-  [";lagTurk18o","O|o",40,"2026-10-09"],
+  [";lagTurk18o","O|o",40,"2026-10-13"],
   ["o!=he-she-it-absolute","dirLag/McshLag000030.last.html#idLTurkpronPrsn"],
   ["o!=humanDeictic","dirHmn/McshHmn000002.last.html#idHmn001IrgvN"],
   ["o!=humanNoDeictic","dirCor/McshCor000003.last.html#idEntHmnNRfrcDctc"],
@@ -17,7 +17,7 @@
   ["on!=10","dirCor/McshCor000010.last.html#idQntNbr10"],
   ["on-bir!=11","dirCor/McshCor000010.last.html#idQntNbr11"],
   ["on-iki!=12","dirCor/McshCor000010.last.html#idQntNbr12"],
-  ["on-yıl","dirCor/McshCor000006.last.html#idTimeUomYear10"],
+  ["on-yıl!={i10}","dirCor/McshCor000006.last.html#idTimeUomYear10"],
   ["ona!=he-she-it-dative","dirLag/McshLag000030.last.html#idLTurkpronPrsn"],
   ["onarmak!=to-repair","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["onaylamak!=to-consent","dirLag/McshLag000030.last.html#idLTurkverbstr"],

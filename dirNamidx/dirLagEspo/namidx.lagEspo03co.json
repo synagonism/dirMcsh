@@ -1,7 +1,7 @@
 [
-  [";lagEspo03co","C|c",4,"2026-09-30"],
+  [";lagEspo03co","C|c",4,"2026-10-13"],
   ["cent!=100","dirCor/McshCor000010.last.html#idQntNbr100"],
-  ["cent-unu","dirCor/McshCor000010.last.html#idQntNbr101"],
-  ["centa","dirCor/McshCor000011.last.html#idSys001ordr100th"],
-  ["centa-unua","dirCor/McshCor000011.last.html#idSys001ordr101st"]
+  ["cent-unu!=101","dirCor/McshCor000010.last.html#idQntNbr101"],
+  ["centa!=εκατοστός-η-ο","dirCor/McshCor000011.last.html#idSys001ordr100th"],
+  ["centa-unua!=εκατοστός-πρώτος-η-ο","dirCor/McshCor000011.last.html#idSys001ordr101st"]
 ]

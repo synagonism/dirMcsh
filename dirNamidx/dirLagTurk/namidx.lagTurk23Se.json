@@ -1,9 +1,9 @@
 [
-  [";lagTurk23Se","Ş|ş",21,"2026-10-03"],
+  [";lagTurk23Se","Ş|ş",21,"2026-10-13"],
   ["şapka!=hat!=circumflexTurk","dirLag/McshLag000030.last.html#idLTurkltrCirc"],
   ["şarj-etmek!=to-charge","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["şarkı-(türkü)-söylemek!=to-sing","dirLag/McshLag000030.last.html#idLTurkverbstr"],
-  ["şart-kipi!=conditional-moodTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrCond"],
+  ["şart-kipi!=conditional-moodTurk!=mVTurkCond","dirLag/McshLag000030.last.html#idLTurkverbmbrCond"],
   ["şartlandırmak!=to-condition","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["şaşırmak!=to-be-surprised","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["şekillendirmek!=to-form","dirLag/McshLag000030.last.html#idLTurkverbstr"],

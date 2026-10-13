@@ -1,5 +1,5 @@
 [
-  [";lagEspo22so","S|s",17,"2026-10-11"],
+  [";lagEspo22so","S|s",17,"2026-10-13"],
   ["Septembro!=September","dirCor/McshCor000006.last.html#idTimeUomMnthSep"],
   ["scienco!=science","dirEdu/McshEdu000002.last.html#idOverview"],
   ["semajno!=timeWeek","dirCor/McshCor000006.last.html#idTimeUomWeek"],
@@ -11,7 +11,7 @@
   ["signolingvo!=Gstr_lago","dirLag/McshLag000031.last.html#idOverview"],
   ["silabo!=HmnmSylb","dirLag/McshLag000007.last.html#idLHmnmsylb"],
   ["socio!=society","dirStn/McshStn000009.last.html#idOverview"],
-  ["specifa","dirCor/McshCor000009.last.html#idGnrcspc"],
+  ["specifa!=specific","dirCor/McshCor000009.last.html#idGnrcspc"],
   ["strato!=road","dirStn/McshStn000009.last.html#idSocHumnatt061"],
   ["strukturo!=structure","dirCor/McshCor000003.last.html#idEntstrr"],
   ["substantivo!=Hmnm_argu","dirLag/McshLag000007.last.html#idLHmnmargo"],
