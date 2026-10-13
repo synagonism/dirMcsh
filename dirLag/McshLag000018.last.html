@@ -573,7 +573,7 @@
     <br>* McshEngl.Zhon_syntax,
     <br>* McshEngl.Zhon_lago'syntax-tree!⇒Zhon_syntax,
     <br>* McshEngl.Zhon_logo'syntax-tree!⇒Zhon_syntax,
-    <br>* McshEngl.sntxZhon!⇒Zhon_syntax,
+    <br>* McshEngl.SntxZhon!⇒Zhon_syntax,
     <br>* McshEngl.syntax.Chinese!⇒Zhon_syntax,
     <br>* McshEngl.syntaxZhon!⇒Zhon_syntax,
     <a class="clsHide" href="#idLZhonsxtrnam"></a></p>
@@ -1124,7 +1124,7 @@
     <br>* McshEngl.Zhon_spch_lago'phoneme!⇒Zhon_phnm,
     <br>* McshEngl.Zhon_spch_lago-unit.phoneme!⇒Zhon_phnm,
     <br>* McshEngl.Zhon_spch_lago-unit.term!⇒Zhon_phnm,
-    <br>* McshEngl.Zhon_spch_lago-phoneme,
+    <br>* McshEngl.Zhon_spch_lago-phoneme!⇒Zhon_phnm,
     <br>* McshEngl.main-unit--of-Zhon_spch_lago!⇒Zhon_phnm,
     <br>* McshEngl.phoneme-of-Zhon_spch_lago!⇒Zhon_phnm,
     <br>* McshEngl.phonemeZhon!⇒Zhon_phnm,
@@ -1552,7 +1552,7 @@
     <a class="clsHide" href="#idLZhonphnmVwlBdsn"></a></p>
   <p id="idLZhonphnmVwlBnam">name::
     <br>* McshEngl.Zhon_lago-semivowel,
-    <br>* McshEngl.Zhon_lago'semivowel,
+    <br>* McshEngl.Zhon_lago'semivowel!⇒Zhon_lago-semivowel,
     <br>* McshEngl.Zhon_phnm.vowelBo!⇒Zhon_lago-semivowel,
     <br>* McshEngl.semivowel-of-Zhon_lago!⇒Zhon_lago-semivowel,
     <a class="clsHide" href="#idLZhonphnmVwlBnam"></a></p>
@@ -1566,7 +1566,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· <span class="clsColorRed">Chinese-character</span> is any text-unit the-language uses for its names.
     <br>
-    <br>· _sntxZhon: 我不会写汉字。 :: Wǒ búhuì xiě hànzì. != 	I can not write Chinese characters.
+    <br>· _SntxZhon: 我不会写汉字。 :: Wǒ búhuì xiě hànzì. != 	I can not write Chinese characters.
     <a class="clsHide" href="#idLZhonchardsn"></a></p>
   <p id="idLZhoncharnam">name::
     <br>* McshEngl.Chinese-character!⇒Zhon_char,
@@ -8101,10 +8101,11 @@
     <br>· ZnonTerm ≡ ZnonName. {2026-06-05}
     <a class="clsHide" href="#idLZhontermdsn"></a></p>
   <p id="idLZhontermnam">name::
+    <br>* McshEngl.Zhon_term,
     <br>* McshEngl.Chinese-term!⇒Zhon_term,
     <br>* McshEngl.Standard-Chinese-term!⇒Zhon_term,
     <br>* McshEngl.Zhon_lago'term!⇒Zhon_term,
-    <br>* McshEngl.ZnonTerm≡ZnonName,
+    <br>* McshEngl.ZnonTerm≡ZnonName!⇒Zhon_term,
     <br>* McshEngl.Zhon_name.term!⇒Zhon_term,
     <br>* McshEngl.termZhon!⇒Zhon_term,
     <a class="clsHide" href="#idLZhontermnam"></a></p>
@@ -8388,8 +8389,8 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 们-men forms the-plural for personal pronouns or nouns only.
     <br>· words like “几” “成千上万” “很多” etc. all imply quantity, don’t need “们” after the noun or pronoun.
-    <br>· _sntxZhon: 五本书 Wǔ běn shū != five books.
-    <br>· _sntxZhon: 五个学生 Wǔ gè xuéshēng != five students.
+    <br>· _SntxZhon: 五本书 Wǔ běn shū != five books.
+    <br>· _SntxZhon: 五个学生 Wǔ gè xuéshēng != five students.
     <br>[{2023-05-22 retrieved} https://www.digmandarin.com/top-20-common-mistakes-chinese-learners-make.html]
     <br>
     <br>"· give me list of words with plural 们:
@@ -8503,8 +8504,8 @@
     <br>* McshZhon.量词-(量詞)-liàngcí!~measure-word!=Zhon_classifier,
     <a class="clsHide" href="#idLZhonargomwnam"></a></p>
   <p id="idLZhonargomwdsnL">descriptionLong::
-    <br>· _sntxZhon: 他 是 个 老外。 :: _sntxSubj:[Tā] _sntxVerb:{shì} _sntxSbjc:[gè lǎowài]. != He is a foreigner.
-    <br>· _sntxZhon: 老师， 我 有 个 问题。 Lǎoshī, wǒ _sntxVerb:{yǒu} gè wèntí. != Teacher, I have a question.
+    <br>· _SntxZhon: 他 是 个 老外。 :: _SntxSubj:[Tā] _SntxVerb:{shì} _SntxSbjc:[gè lǎowài]. != He is a foreigner.
+    <br>· _SntxZhon: 老师， 我 有 个 问题。 Lǎoshī, wǒ _SntxVerb:{yǒu} gè wèntí. != Teacher, I have a question.
     <br>
     <br>"· give me an exhausted list of measure-words|classifiers with examples:
     <br>Of course. This is an excellent request because measure words (量词 - liàngcí) are a fundamental and often challenging part of learning Chinese. An "exhausted" list is nearly impossible, as there are hundreds, but this will be an extremely comprehensive guide, categorized for clarity.
@@ -8782,20 +8783,20 @@
   <p id="idLZhonnounstxdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject-(noun):
-    <br>· _sntxZhon: 你们 吃。 :: _sntxSubj:[Nǐmen] _sntxVerb:{chī}. != You eat.
-    <br>· _sntxZhon: 他 很 高。 :: _sntxSubj:[Tā] _sntxSbjc:[hěn gāo]. != He is tall.
+    <br>· _SntxZhon: 你们 吃。 :: _SntxSubj:[Nǐmen] _SntxVerb:{chī}. != You eat.
+    <br>· _SntxZhon: 他 很 高。 :: _SntxSubj:[Tā] _SntxSbjc:[hěn gāo]. != He is tall.
     <br>
     <br>* Object-(noun):
-    <br>· _sntxZhon: 我 喝 茶。 :: _sntxSubj:[Wǒ] _sntxVerb:{hē} _sntxObj1:[<span class="clsColorRed">chá</span>]。 != I drink tea.
+    <br>· _SntxZhon: 我 喝 茶。 :: _SntxSubj:[Wǒ] _SntxVerb:{hē} _SntxObj1:[<span class="clsColorRed">chá</span>]。 != I drink tea.
     <br>
     <br>* Adjective + Noun:
-    <br>· _sntxZhon: 坏 人 - [huài] [<span class="clsColorRed">rén</span>] != bad person.
+    <br>· _SntxZhon: 坏 人 - [huài] [<span class="clsColorRed">rén</span>] != bad person.
     <br>
     <br>* Noun + (Conjunction):
-    <br>· _sntxZhon: 他 流利地 说 英文。 :: _sntxSubj:[Tā] _sntxTime:[<span class="clsColorRed">liúlì (dì)</span>] _sntxVerb:{shuō} _sntxObj1:[yīngwén]. != he [fluently] {speaks} english.
+    <br>· _SntxZhon: 他 流利地 说 英文。 :: _SntxSubj:[Tā] _SntxTime:[<span class="clsColorRed">liúlì (dì)</span>] _SntxVerb:{shuō} _SntxObj1:[yīngwén]. != he [fluently] {speaks} english.
     <br>
     <br>* (Conjunction) + Noun:
-    <br>· _sntxZhon: 飞 得 快。 :: _sntxVerb:{fēi} _sntxManner:[(de) kuài]. != fly quickly.
+    <br>· _SntxZhon: 飞 得 快。 :: _SntxVerb:{fēi} _SntxManner:[(de) kuài]. != fly quickly.
     <a class="clsHide" href="#idLZhonnounstxdsn"></a></p>
   <p id="idLZhonnounstxnam">name::
     <br>* McshEngl.Zhon_noun'syntax,
@@ -8975,7 +8976,7 @@
     <br>* McshEngl.NounmbrRltnZhon.adjective!⇒Zhon_adje,
     <br>* McshEngl.Standard-Chinese-adjective!⇒Zhon_adje,
     <br>* McshEngl.adjectiveZhon!⇒Zhon_adje,
-    <br>* McshEngl.adjeZhon!⇒Zhon_adje,
+    <br>* McshEngl.AdjeZhon!⇒Zhon_adje,
     <br>* McshEngl.adjectiveLogZhon!⇒Zhon_adje,
     <br>* McshEngl.logo-adjective--of-Zhon_lago!⇒Zhon_adje,
     <br>* McshEngl.Zhon_lago'adjective!⇒Zhon_adje,
@@ -8996,10 +8997,10 @@
   <p id="idLZhonadjestxdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Adjective + Noun:
-    <br>· _sntxZhon: 坏 人 - [<span class="clsColorRed">huài</span>] [rén] != bad person.
+    <br>· _SntxZhon: 坏 人 - [<span class="clsColorRed">huài</span>] [rén] != bad person.
     <br>
     <br>* Subject-complement(Adjective):
-    <br>· _sntxZhon: 他 很 高。 :: _sntxSubj:[Tā] _sntxSbjc:[hěn <span class="clsColorRed">gāo</span>]. != He is tall.
+    <br>· _SntxZhon: 他 很 高。 :: _SntxSubj:[Tā] _SntxSbjc:[hěn <span class="clsColorRed">gāo</span>]. != He is tall.
     <a class="clsHide" href="#idLZhonadjestxdsn"></a></p>
   <p id="idLZhonadjestxnam">name::
     <br>* McshEngl.Zhon_adje'syntax,
@@ -9126,7 +9127,7 @@
     <br>* McshEngl.Standard-Chinese-adverb!⇒Zhon_adve,
     <br>* McshEngl.Zhon_lago'adverb!⇒Zhon_adve,
     <br>* McshEngl.advZhon!⇒Zhon_adve,
-    <br>* McshEngl.adveZhon!⇒Zhon_adve,
+    <br>* McshEngl.AdveZhon!⇒Zhon_adve,
     <br>* McshEngl.adverbZhon!⇒Zhon_adve,
     <br>* McshEngl.logo-adverb--of-Zhon_lago!⇒Zhon_adve,
     <br>* McshEngl.NounmbrRltnZhon.adverb!⇒Zhon_adve,
@@ -9141,26 +9142,26 @@
   <p id="idLZhonadvestxdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>===  _syntaxZhon: Subject + Adverb + Verb + Object:
-    <br>· _sntxZhon: 我 昨天 吃 肉。 :: _sntxSubj:[Wǒ] _sntxTime:[<span class="clsColorRed">zuótiān</span>] _sntxVerb:{chī} _sntxObj1:[ròu]. != I [yesterday] eat meat. != I ate meat yesterday.
-    <br>· _sntxZhon: 我 也 是 美国人。 :: _sntxSubj:[Wǒ] _sntxAddition:[<span class="clsColorRed">yě</span>] _sntxVerb:{shì} _sntxSbjc:[měiguórén]。 != [I] [also] {am} [American].
+    <br>· _SntxZhon: 我 昨天 吃 肉。 :: _SntxSubj:[Wǒ] _SntxTime:[<span class="clsColorRed">zuótiān</span>] _SntxVerb:{chī} _SntxObj1:[ròu]. != I [yesterday] eat meat. != I ate meat yesterday.
+    <br>· _SntxZhon: 我 也 是 美国人。 :: _SntxSubj:[Wǒ] _SntxAddition:[<span class="clsColorRed">yě</span>] _SntxVerb:{shì} _SntxSbjc:[měiguórén]。 != [I] [also] {am} [American].
     <br>
     <br>===  _syntaxZhon: Adverb + Subject + Verb + Object:
-    <br>· _sntxZhon: 今天经理有会。 :: _sntxTime:[Jīntiān] _sntxSubj:[jīnglǐ] _sntxVerb:{yǒu} _sntxSbjc:[huì]. != The manager has a meeting today.
+    <br>· _SntxZhon: 今天经理有会。 :: _SntxTime:[Jīntiān] _SntxSubj:[jīnglǐ] _SntxVerb:{yǒu} _SntxSbjc:[huì]. != The manager has a meeting today.
     <br>
     <br>=== _syntaxZhon: Adverb Adverb Verb:
-    <br>· _sntxZhon: 我们 常常 一起 散步。 :: _sntxSubj:[Wǒmen] _sntxTime:[chángcháng] _sntxManner:[yīqǐ] _sntxVerb:{sànbù}. != We frequently take walks together.
+    <br>· _SntxZhon: 我们 常常 一起 散步。 :: _SntxSubj:[Wǒmen] _SntxTime:[chángcháng] _SntxManner:[yīqǐ] _SntxVerb:{sànbù}. != We frequently take walks together.
 
     <br>===  _syntaxZhon: Adjective + (地-de) + Verb:
-    <br>· _sntxZhon: 你 要 努力 地 学习。 :: _sntxSubj:[Nǐ] _sntxVerb:{yào} _sntxObj1:[_sntxOther:[nǔlì (de)] _sntxVerb:{xuéxí}]. != You must study hard.
+    <br>· _SntxZhon: 你 要 努力 地 学习。 :: _SntxSubj:[Nǐ] _SntxVerb:{yào} _SntxObj1:[_SntxOther:[nǔlì (de)] _SntxVerb:{xuéxí}]. != You must study hard.
     <br>· "You can easily convert most Chinese adjectives into adverbs with the particle 地 (de)."
     <br>[{2023-08-07 retrieved} https://resources.allsetlearning.com/chinese/grammar/Turning_adjectives_into_adverbs]
     <br>
     <br>===  _syntaxZhon: Adjective + Adverb + (了-le):
-    <br>· _sntxZhon: 我 累 死了。 :: _sntxSubj:[Wǒ] _sntxSbjc:[[lěi] [sǐ le]]. != I’m so tired.
-    <br>· _sntxZhon: 这个 主意 好 极了 。 :: _sntxSubj:[Zhège zhǔyi] _sntxSbjc:[hǎo jíle]. != This idea is perfect.
+    <br>· _SntxZhon: 我 累 死了。 :: _SntxSubj:[Wǒ] _SntxSbjc:[[lěi] [sǐ le]]. != I’m so tired.
+    <br>· _SntxZhon: 这个 主意 好 极了 。 :: _SntxSubj:[Zhège zhǔyi] _SntxSbjc:[hǎo jíle]. != This idea is perfect.
     <br>
     <br>=== _syntaxZhon: Noun Adverb:
-    <br>· _sntxZhon: 我们 都 是 学生。 :: _sntxSubj:[Wǒmen dōu] _sntxVerb:{shì} _sntxSbjc:[xuéshēng]. != We are **all** students.
+    <br>· _SntxZhon: 我们 都 是 学生。 :: _SntxSubj:[Wǒmen dōu] _SntxVerb:{shì} _SntxSbjc:[xuéshēng]. != We are **all** students.
     <br>
     <br>=== _syntaxZhon: time:
     <br>· "Time words can appear in one of two positions in the sentence in Chinese: either at the beginning of the sentence (before the subject), or directly after the subject."
@@ -9586,7 +9587,7 @@
     <a class="clsHide" href="#idLZhonadveIndinam"></a></p>
   <p id="idLZhonadve_001">Zhon_adve.001-ànshí-按时!=on_time::
     <br>· time: on time.
-    <br>· _sntxZhon: 请 按时 交 作业。 :: _sntxArgt:[qǐng] _sntxTime:[ànshí] _sntxVerb:{jiāo} _sntxObj1:[zuòyè] != Please hand in homework on time. !~ note: The sentence has no overt subject, which is standard in Chinese imperatives. The implied subject is the second-person pronoun 你 (nǐ, singular “you”) or 你们 (nǐmen, plural “you”), recoverable from context.
+    <br>· _SntxZhon: 请 按时 交 作业。 :: _SntxArgt:[qǐng] _SntxTime:[ànshí] _SntxVerb:{jiāo} _SntxObj1:[zuòyè] != Please hand in homework on time. !~ note: The sentence has no overt subject, which is standard in Chinese imperatives. The implied subject is the second-person pronoun 你 (nǐ, singular “you”) or 你们 (nǐmen, plural “you”), recoverable from context.
     <br>
     <br>* McshEngl.Zhon_adve.001-ànshí-按时!=on_time,
     <br>====== lagoChinese:
@@ -9596,8 +9597,8 @@
     <a class="clsHide" href="#idLZhonadve_001"></a></p>
   <p id="idLZhonadve_002">Zhon_adve.002-bié-别!=don't::
     <br>· negation: don't (used for commands).
-    <br>· _sntxZhon: 别忘了！ :: Bié wàngle != Don't forget!
-    <br>· _sntxZhon: 别说话！ :: Bié shuōhuà != Don't speak!
+    <br>· _SntxZhon: 别忘了！ :: Bié wàngle != Don't forget!
+    <br>· _SntxZhon: 别说话！ :: Bié shuōhuà != Don't speak!
     <br>
     <br>* McshEngl.Zhon_adve.002-bié-别!=don't,
     <br>====== lagoChinese:
@@ -9607,7 +9608,7 @@
     <a class="clsHide" href="#idLZhonadve_002"></a></p>
   <p id="idLZhonadve_003">Zhon_adve.003-bǐjiào-比较!=relatively::
     <br>· degree.
-    <br>· _sntxZhon: 这个 比较 好。 :: Zhège bǐjiào hǎo != This one is relatively good.
+    <br>· _SntxZhon: 这个 比较 好。 :: Zhège bǐjiào hǎo != This one is relatively good.
     <br>
     <br>* McshEngl.Zhon_adve.003-bǐjiào-比较!=relatively,
     <br>====== lagoChinese:
@@ -9617,7 +9618,7 @@
     <a class="clsHide" href="#idLZhonadve_003"></a></p>
   <p id="idLZhonadve_004">Zhon_adve.004-bìng-并!=actually-(with-negation)::
     <br>·
-    <br>· _sntxZhon: 我 并 不认识 他。 :: Wǒ bìng bù rènshí tā. != I don't actually know him.
+    <br>· _SntxZhon: 我 并 不认识 他。 :: Wǒ bìng bù rènshí tā. != I don't actually know him.
     <br>
     <br>* McshEngl.Zhon_adve.004-bìng-并!=actually-(with-negation),
     <br>====== lagoChinese:
@@ -9627,8 +9628,8 @@
     <a class="clsHide" href="#idLZhonadve_004"></a></p>
   <p id="idLZhonadve_005">Zhon_adve.005-bù-不!=not::
     <br>· negation: not (for present/future and habitual actions).
-    <br>· _sntxZhon: 我 不知道。 :: Wǒ bùzhīdào. != I **don't** know.
-    <br>· _sntxZhon: 我 不想 去。 :: Wǒ bùxiǎng qù. != I don't want to go.
+    <br>· _SntxZhon: 我 不知道。 :: Wǒ bùzhīdào. != I **don't** know.
+    <br>· _SntxZhon: 我 不想 去。 :: Wǒ bùxiǎng qù. != I don't want to go.
     <br>
     <br>* McshEngl.Zhon_adve.005-bù-不!=not,
     <br>====== lagoChinese:
@@ -9638,7 +9639,7 @@
     <a class="clsHide" href="#idLZhonadve_005"></a></p>
   <p id="idLZhonadve_007">Zhon_adve.007-bùfáng-不妨!=might_as_well::
     <br>· Modal adverb/adverbial, meaning "might as well" or "there's no harm in." It expresses suggestion or permission. It is not a verb but an adverbial modifier.
-    <br>· _sntxZhon: 你 不妨 试一试。 :: Nǐ bùfáng _sntxVerb:{shì yī shì}.  != You might as well give it a try.
+    <br>· _SntxZhon: 你 不妨 试一试。 :: Nǐ bùfáng _SntxVerb:{shì yī shì}.  != You might as well give it a try.
     <br>
     <br>* McshEngl.Zhon_adve.007-bùfáng-不妨!=might_as_well,
     <br>====== lagoChinese:
@@ -9648,8 +9649,8 @@
     <a class="clsHide" href="#idLZhonadve_007"></a></p>
   <p id="idLZhonadve_009">Zhon_adve.009-cái-才!=only-then::
     <br>· time: not until, only then (indicates something happened later than expected).
-    <br>· _sntxZhon: 他 晚上十一点才 睡觉。 :: _sntxSubj:[Tā] wǎnshàng shíyīdiǎn cái _sntxVerb:{shuìjiào} != He didn't go to bed **until** 11 pm.
-    <br>· _sntxZhon: 他 八点才 到。 :: Tā _sntxTime:[bādiǎn cái] _sntxVerb:{dào}. != He only came at eight o'clock.
+    <br>· _SntxZhon: 他 晚上十一点才 睡觉。 :: _SntxSubj:[Tā] wǎnshàng shíyīdiǎn cái _SntxVerb:{shuìjiào} != He didn't go to bed **until** 11 pm.
+    <br>· _SntxZhon: 他 八点才 到。 :: Tā _SntxTime:[bādiǎn cái] _SntxVerb:{dào}. != He only came at eight o'clock.
     <br>
     <br>* McshEngl.Zhon_adve.009-cái-才!=only-then,
     <br>====== lagoChinese:
@@ -9659,7 +9660,7 @@
     <a class="clsHide" href="#idLZhonadve_009"></a></p>
   <p id="idLZhonadve_010">Zhon_adve.010-céngjīng-曾经!=once-formerly::
     <br>· time.
-    <br>· _sntxZhon: 我 曾经 住 在北京。 :: _sntxSubj:[Wǒ] _sntxTime:[céngjīng] _sntxVerb:{zhù} _sntxSpace:[(zài) běijīng]. != I once lived in Beijing.
+    <br>· _SntxZhon: 我 曾经 住 在北京。 :: _SntxSubj:[Wǒ] _SntxTime:[céngjīng] _SntxVerb:{zhù} _SntxSpace:[(zài) běijīng]. != I once lived in Beijing.
     <br>
     <br>* McshEngl.Zhon_adve.010-céngjīng-曾经!=once-formerly,
     <br>====== lagoChinese:
@@ -9669,7 +9670,7 @@
     <a class="clsHide" href="#idLZhonadve_010"></a></p>
   <p id="idLZhonadve_011">Zhon_adve.011-chángcháng-常常!=frequently::
     <br>· timeFrequency.
-    <br>· _sntxZhon: 我们 常常 一起 散步。 :: _sntxSubj:[Wǒmen] _sntxTime:[chángcháng] _sntxManner:[yīqǐ] _sntxVerb:{sànbù}. != We frequently take walks together.
+    <br>· _SntxZhon: 我们 常常 一起 散步。 :: _SntxSubj:[Wǒmen] _SntxTime:[chángcháng] _SntxManner:[yīqǐ] _SntxVerb:{sànbù}. != We frequently take walks together.
     <br>
     <br>* McshEngl.Zhon_adve.011-chángcháng-常常!=frequently,
     <br>====== lagoChinese:
@@ -9679,7 +9680,7 @@
     <a class="clsHide" href="#idLZhonadve_011"></a></p>
   <p id="idLZhonadve_012">Zhon_adve.012-cóngbù-从不!=never::
     <br>· timeFrequency.
-    <br>· _sntxZhon: 我从不撒谎。 :: Wǒ _sntxTime:[cóngbù] _sntxVerb:{sāhuǎng}. != I never lie.
+    <br>· _SntxZhon: 我从不撒谎。 :: Wǒ _SntxTime:[cóngbù] _SntxVerb:{sāhuǎng}. != I never lie.
     <br>
     <br>* McshEngl.Zhon_adve.012-cóngbù-从不!=never,
     <br>====== lagoChinese:
@@ -9689,8 +9690,8 @@
     <a class="clsHide" href="#idLZhonadve_012"></a></p>
   <p id="idLZhonadve_013">Zhon_adve.013-cónglái-从来!=always-(with-negation)::
     <br>· time: always (used with 不 or 没 for "never").
-    <br>· _sntxZhon: 我 从来 没去 过北京。 :: Wǒ _sntxTime:[cónglái] _sntxVerb:{méiqùguò} běijīng. != I have **never** been to Beijing.
-    <br>· _sntxZhon: 我 从来 不抽烟。 :: Wǒ cónglái bu chōuyān. != I never smoke.
+    <br>· _SntxZhon: 我 从来 没去 过北京。 :: Wǒ _SntxTime:[cónglái] _SntxVerb:{méiqùguò} běijīng. != I have **never** been to Beijing.
+    <br>· _SntxZhon: 我 从来 不抽烟。 :: Wǒ cónglái bu chōuyān. != I never smoke.
     <br>
     <br>* McshEngl.Zhon_adve.013-cónglái-从来!=always-(with-negation),
     <br>====== lagoChinese:
@@ -9701,9 +9702,9 @@
   <p id="idLZhonadve_014">Zhon_adve.014-dàgài-大概!=probably::
     <br>· scope: probably/roughly.
     <br>· mood: probably, roughly.
-    <br>· _sntxZhon: 他 大概 三十岁。 :: Tā _sntxSbjc:[dàgài sānshí suì]. != He is probably thirty years old.
-    <br>· _sntxZhon: 他 大概 明天 到。 :: _sntxSubj:[Tā] _sntxArgt:[dàgài] _sntxTime:[míngtiān] _sntxVerb:{dào}. != He will probably arrive tomorrow.
-    <br>· _sntxZhon: 他 大概 不会来了。 :: _sntxSubj:[Tā] _sntxArgt:[dàgài] _sntxVerb:{bú huì lái le}.!= He probably won't come.
+    <br>· _SntxZhon: 他 大概 三十岁。 :: Tā _SntxSbjc:[dàgài sānshí suì]. != He is probably thirty years old.
+    <br>· _SntxZhon: 他 大概 明天 到。 :: _SntxSubj:[Tā] _SntxArgt:[dàgài] _SntxTime:[míngtiān] _SntxVerb:{dào}. != He will probably arrive tomorrow.
+    <br>· _SntxZhon: 他 大概 不会来了。 :: _SntxSubj:[Tā] _SntxArgt:[dàgài] _SntxVerb:{bú huì lái le}.!= He probably won't come.
     <br>
     <br>* McshEngl.Zhon_adve.014-dàgài-大概!=probably,
     <br>====== lagoChinese:
@@ -9713,7 +9714,7 @@
     <a class="clsHide" href="#idLZhonadve_014"></a></p>
   <p id="idLZhonadve_016">Zhon_adve.016-dàlì-大力!=vigorously::
     <br>· manner.
-    <br>· _sntxZhon: 我们 要 大力 发展 经济。 :: _sntxSubj:[Wǒmen] _sntxVerb:{yào} _sntxObj1:[dàlì _sntxVerb:{fāzhǎn} jīngjì].!= We must vigorously develop the economy.
+    <br>· _SntxZhon: 我们 要 大力 发展 经济。 :: _SntxSubj:[Wǒmen] _SntxVerb:{yào} _SntxObj1:[dàlì _SntxVerb:{fāzhǎn} jīngjì].!= We must vigorously develop the economy.
     <br>
     <br>* McshEngl.Zhon_adve.016-dàlì-大力!=vigorously,
     <br>====== lagoChinese:
@@ -9723,7 +9724,7 @@
     <a class="clsHide" href="#idLZhonadve_016"></a></p>
   <p id="idLZhonadve_106">Zhon_adve.106-dāngrán-当然!=of_course::
     <br>· mood: of course.
-    <br>· _sntxZhon: — 你会来吗？ — 当然！ != — Will you come? — **Of course**!
+    <br>· _SntxZhon: — 你会来吗？ — 当然！ != — Will you come? — **Of course**!
     <br>
     <br>* McshEngl.Zhon_adve.106-dāngrán-当然!=of_course,
     <br>====== lagoChinese:
@@ -9733,7 +9734,7 @@
     <a class="clsHide" href="#idLZhonadve_106"></a></p>
   <p id="idLZhonadve_017">Zhon_adve.017-dào-倒!=on_the_contrary::
     <br>· Expresses a mild contrast, unexpectedness, or emphasis. In this context, it softens the statement and adds a sense of "contrary to expectation" or "indeed/quite." It modifies the whole predicate.
-    <br>· _sntxZhon: 这 倒 是 个好消息。 :: Zhè dǎo _sntxVerb:{shì} gè hǎo xiāoxī. != This is, on the contrary, good news.
+    <br>· _SntxZhon: 这 倒 是 个好消息。 :: Zhè dǎo _SntxVerb:{shì} gè hǎo xiāoxī. != This is, on the contrary, good news.
     <br>
     <br>* McshEngl.Zhon_adve.017-dào-倒!=on_the_contrary,
     <br>====== lagoChinese:
@@ -9744,7 +9745,7 @@
   <p id="idLZhonadve_018">Zhon_adve.018-dàyuē-大约!=approximately::
     <br>· scope.
     <br>· RltnQuant: around.
-    <br>· _sntxZhon: 大约 有 五十个人。 :: Dàyuē _sntxVerb:{yǒu} wǔshígèrén.!= There are approximately fifty people. !~ note: In this sentence, 有 is existential, meaning "there is/are." It does not mean "have" (possession) here, because the subject is implied/understood as an existential context (e.g., "in this place/group").
+    <br>· _SntxZhon: 大约 有 五十个人。 :: Dàyuē _SntxVerb:{yǒu} wǔshígèrén.!= There are approximately fifty people. !~ note: In this sentence, 有 is existential, meaning "there is/are." It does not mean "have" (possession) here, because the subject is implied/understood as an existential context (e.g., "in this place/group").
     <br>· Equivalent adverbs: 大概 (dàgài), 差不多 (chàbuduō) — though they have slightly different nuances.
     <br>
     <br>* McshEngl.Zhon_adve.018-dàyuē-大约!=approximately,
@@ -9755,8 +9756,8 @@
     <a class="clsHide" href="#idLZhonadve_018"></a></p>
   <p id="idLZhonadve_019">Zhon_adve.019-dōu-都!=all::
     <br>· scope: all, both.
-    <br>· _sntxZhon: 我们 都 是 学生。 :: _sntxSubj:[Wǒmen dōu] _sntxVerb:{shì} _sntxSbjc:[xuéshēng]. != We are **all** students.
-    <br>· _sntxZhon: 我们 都 喜欢 音乐。 :: Wǒmen dōu _sntxVerb:{xǐhuān} yīnyuè. != We all like music.
+    <br>· _SntxZhon: 我们 都 是 学生。 :: _SntxSubj:[Wǒmen dōu] _SntxVerb:{shì} _SntxSbjc:[xuéshēng]. != We are **all** students.
+    <br>· _SntxZhon: 我们 都 喜欢 音乐。 :: Wǒmen dōu _SntxVerb:{xǐhuān} yīnyuè. != We all like music.
     <br>
     <br>* McshEngl.Zhon_adve.019-dōu-都!=all,
     <br>====== lagoChinese:
@@ -9766,7 +9767,7 @@
     <a class="clsHide" href="#idLZhonadve_019"></a></p>
   <p id="idLZhonadve_020">Zhon_adve.020-dúzì-独自!=alone::
     <br>· manner.
-    <br>· _sntxZhon: 他 独自 完成了 任务。 :: Tā dúzì _sntxVerb:{wánchéngle} rènwù. != He completed the task alone.
+    <br>· _SntxZhon: 他 独自 完成了 任务。 :: Tā dúzì _SntxVerb:{wánchéngle} rènwù. != He completed the task alone.
     <br>
     <br>* McshEngl.Zhon_adve.020-dúzì-独自!=alone,
     <br>====== lagoChinese:
@@ -9776,7 +9777,7 @@
     <a class="clsHide" href="#idLZhonadve_020"></a></p>
   <p id="idLZhonadve_021">Zhon_adve.021-fǎnfù-反复!=repeatedly::
     <br>· timeFrequency.
-    <br>· _sntxZhon: 请 反复 练习。 Qǐng fǎnfù liànxí. != Please practice repeatedly.
+    <br>· _SntxZhon: 请 反复 练习。 Qǐng fǎnfù liànxí. != Please practice repeatedly.
     <br>
     <br>* McshEngl.Zhon_adve.021-fǎnfù-反复!=repeatedly,
     <br>====== lagoChinese:
@@ -9786,7 +9787,7 @@
     <a class="clsHide" href="#idLZhonadve_021"></a></p>
   <p id="idLZhonadve_022">Zhon_adve.022-fánshì-凡是!=every::
     <br>· scope.
-    <br>· _sntxZhon: 凡是 学生 都 要 参加 考试。 :: Fánshì xuéshēng dōu _sntxVerb:{yào} cānjiā kǎoshì. != Every student must take the exam.
+    <br>· _SntxZhon: 凡是 学生 都 要 参加 考试。 :: Fánshì xuéshēng dōu _SntxVerb:{yào} cānjiā kǎoshì. != Every student must take the exam.
     <br>
     <br>* McshEngl.Zhon_adve.022-fánshì-凡是!=every,
     <br>====== lagoChinese:
@@ -9796,7 +9797,7 @@
     <a class="clsHide" href="#idLZhonadve_022"></a></p>
   <p id="idLZhonadve_023">Zhon_adve.023-fǎnzhèng-反正!=anyway::
     <br>·
-    <br>· _sntxZhon: 反正 我 不去。 :: Fǎnzhèng wǒ _sntxVerb:{bù qù}. != Anyway, I'm not going.
+    <br>· _SntxZhon: 反正 我 不去。 :: Fǎnzhèng wǒ _SntxVerb:{bù qù}. != Anyway, I'm not going.
     <br>
     <br>* McshEngl.Zhon_adve.023-fǎnzhèng-反正!=anyway,
     <br>====== lagoChinese:
@@ -9806,8 +9807,8 @@
     <a class="clsHide" href="#idLZhonadve_023"></a></p>
   <p id="idLZhonadve_024">Zhon_adve.024-fēicháng-非常!=extremely::
     <br>· degree: extremely, very.
-    <br>· _sntxZhon: 我 非常 喜欢 你。 :: Wǒ fēicháng _sntxVerb:{xǐhuān} nǐ.!= I like you very much.
-    <br>· _sntxZhon: 我 非常 感谢 你的帮助。 :: Wǒ fēicháng _sntxVerb:{gǎnxiè} nǐ de bāngzhù. != I am **extremely** grateful for your help.
+    <br>· _SntxZhon: 我 非常 喜欢 你。 :: Wǒ fēicháng _SntxVerb:{xǐhuān} nǐ.!= I like you very much.
+    <br>· _SntxZhon: 我 非常 感谢 你的帮助。 :: Wǒ fēicháng _SntxVerb:{gǎnxiè} nǐ de bāngzhù. != I am **extremely** grateful for your help.
     <br>
     <br>* McshEngl.Zhon_adve.024-fēicháng-非常!=extremely,
     <br>====== lagoChinese:
@@ -9817,7 +9818,7 @@
     <a class="clsHide" href="#idLZhonadve_024"></a></p>
   <p id="idLZhonadve_025">Zhon_adve.025-fēnbié-分别!=separately::
     <br>· manner.
-    <br>· _sntxZhon: 我们 分别 出发。 :: Wǒmen fēnbié _sntxVerb:{chūfā}. != We set out separately. != Ξεκινήσαμε ξεχωριστά.
+    <br>· _SntxZhon: 我们 分别 出发。 :: Wǒmen fēnbié _SntxVerb:{chūfā}. != We set out separately. != Ξεκινήσαμε ξεχωριστά.
     <br>
     <br>* McshEngl.Zhon_adve.025-fēnbié-分别!=separately,
     <br>====== lagoChinese:
@@ -9827,7 +9828,7 @@
     <a class="clsHide" href="#idLZhonadve_025"></a></p>
   <p id="idLZhonadve_026">Zhon_adve.026-gāngcái-刚才!=just-now::
     <br>· time.
-    <br>· _sntxZhon: 刚才 有人 敲 门。 Gāngcái _sntxSubj:[yǒurén] _sntxVerb:{qiāo} mén. != Someone knocked just now.
+    <br>· _SntxZhon: 刚才 有人 敲 门。 Gāngcái _SntxSubj:[yǒurén] _SntxVerb:{qiāo} mén. != Someone knocked just now.
     <br>
     <br>* McshEngl.Zhon_adve.026-gāngcái-刚才!=just-now,
     <br>====== lagoChinese:
@@ -9837,7 +9838,7 @@
     <a class="clsHide" href="#idLZhonadve_026"></a></p>
   <p id="idLZhonadve_108">Zhon_adve.108-gēnběn-根本!=at_all::
     <br>· mood: at all, simply (often used with 不 or 没 for emphasis).
-    <br>· _sntxZhon: 我 根本 不认识 他。 Wǒ gēnběn _sntxVerb:{bù rènshí} tā. != I don't know him **at all**.
+    <br>· _SntxZhon: 我 根本 不认识 他。 Wǒ gēnběn _SntxVerb:{bù rènshí} tā. != I don't know him **at all**.
     <br>
     <br>* McshEngl.Zhon_adve.108-gēnběn-根本!=at_all,
     <br>====== lagoChinese:
@@ -9847,8 +9848,8 @@
     <a class="clsHide" href="#idLZhonadve_108"></a></p>
   <p id="idLZhonadve_027">Zhon_adve.027-gèng-更!=even_more::
     <br>· degree.
-    <br>· _sntxZhon: 今天比昨天 更热。 Jīntiān bǐ zuótiān gèng rè. != Today is even hotter than yesterday.
-    <br>· _sntxZhon: 我 想 找 一个更 好的工作。 :: Wǒ _sntxVerb:{xiǎng} _sntxObj1:[_sntxVerb:{zhǎo} yīgègèng hǎo de gōngzuò]. != I want to find an **even better** job.
+    <br>· _SntxZhon: 今天比昨天 更热。 Jīntiān bǐ zuótiān gèng rè. != Today is even hotter than yesterday.
+    <br>· _SntxZhon: 我 想 找 一个更 好的工作。 :: Wǒ _SntxVerb:{xiǎng} _SntxObj1:[_SntxVerb:{zhǎo} yīgègèng hǎo de gōngzuò]. != I want to find an **even better** job.
     <br>
     <br>* McshEngl.Zhon_adve.027-gèng-更!=even_more,
     <br>====== lagoChinese:
@@ -9858,7 +9859,7 @@
     <a class="clsHide" href="#idLZhonadve_027"></a></p>
   <p id="idLZhonadve_028">Zhon_adve.028-géwài-格外!=especially::
     <br>· degree.
-    <br>· _sntxZhon: 今天的月亮 格外圆。 Jīntiān de yuèliàng _sntxSbjc:[géwài yuán]. != today's moon is especially round.
+    <br>· _SntxZhon: 今天的月亮 格外圆。 Jīntiān de yuèliàng _SntxSbjc:[géwài yuán]. != today's moon is especially round.
     <br>
     <br>* McshEngl.Zhon_adve.028-géwài-格外!=especially,
     <br>====== lagoChinese:
@@ -9868,8 +9869,8 @@
     <a class="clsHide" href="#idLZhonadve_028"></a></p>
   <p id="idLZhonadve_029">Zhon_adve.029-guǒrán-果然!=as_expected::
     <br>· mood: sure enough, as expected.
-    <br>· _sntxZhon: 我 说 会下雨，果然 下了。 Wǒ _sntxVerb:{shuō} huì xià yǔ, guǒrán _sntxVerb:{xiàle}. != I said it would rain, and **sure enough**, it did.
-    <br>· _sntxZhon: 他 果然 赢了。 Tā guǒrán _sntxVerb:{yíngle}. != He won, as expected.
+    <br>· _SntxZhon: 我 说 会下雨，果然 下了。 Wǒ _SntxVerb:{shuō} huì xià yǔ, guǒrán _SntxVerb:{xiàle}. != I said it would rain, and **sure enough**, it did.
+    <br>· _SntxZhon: 他 果然 赢了。 Tā guǒrán _SntxVerb:{yíngle}. != He won, as expected.
     <br>
     <br>* McshEngl.Zhon_adve.029-guǒrán-果然!=as_expected,
     <br>====== lagoChinese:
@@ -9879,7 +9880,7 @@
     <a class="clsHide" href="#idLZhonadve_029"></a></p>
   <p id="idLZhonadve_105">Zhon_adve.105-guāng-光!=solely::
     <br>· scope: solely, only (emphasizing exclusivity).
-    <br>· _sntxZhon: 光说不做 是 没有用的。 :: _sntxSubj:[Guāng _sntxVerb:{shuō} _sntxVerb:{bu zuò}] _sntxVerb:{shì} _sntxSbjc:[méiyǒu yòng (de)]. != **Just** talking without doing is useless.
+    <br>· _SntxZhon: 光说不做 是 没有用的。 :: _SntxSubj:[Guāng _SntxVerb:{shuō} _SntxVerb:{bu zuò}] _SntxVerb:{shì} _SntxSbjc:[méiyǒu yòng (de)]. != **Just** talking without doing is useless.
     <br>
     <br>* McshEngl.Zhon_adve.105-guāng-光!=solely,
     <br>====== lagoChinese:
@@ -9889,7 +9890,7 @@
     <a class="clsHide" href="#idLZhonadve_105"></a></p>
   <p id="idLZhonadve_030">Zhon_adve.030-gùyì-故意!=intentionally::
     <br>· manner.
-    <br>· _sntxZhon: 他 是 故意 这样 做 的。 :: Tā _sntxVerb:{shì} _sntxSbjc:[gùyì zhèyàng zuò de]. != He did this intentionally.
+    <br>· _SntxZhon: 他 是 故意 这样 做 的。 :: Tā _SntxVerb:{shì} _SntxSbjc:[gùyì zhèyàng zuò de]. != He did this intentionally.
     <br>
     <br>* McshEngl.Zhon_adve.030-gùyì-故意!=intentionally,
     <br>====== lagoChinese:
@@ -9899,7 +9900,7 @@
     <a class="clsHide" href="#idLZhonadve_030"></a></p>
   <p id="idLZhonadve_031">Zhon_adve.031-hái-还!=still-also::
     <br>·
-    <br>· _sntxZhon: 他 还 在睡觉。 :: Tā hái _sntxVerb:{zài shuìjiào}. != He is still sleeping.
+    <br>· _SntxZhon: 他 还 在睡觉。 :: Tā hái _SntxVerb:{zài shuìjiào}. != He is still sleeping.
     <br>
     <br>* McshEngl.Zhon_adve.031-hái-还!=still-also,
     <br>====== lagoChinese:
@@ -9909,7 +9910,7 @@
     <a class="clsHide" href="#idLZhonadve_031"></a></p>
   <p id="idLZhonadve_032">Zhon_adve.032-hébì-何必!=why-bother::
     <br>·
-    <br>· _sntxZhon: 你 何必 生气呢？ :: Nǐ hébì shēngqì ne? != Why bother getting angry?
+    <br>· _SntxZhon: 你 何必 生气呢？ :: Nǐ hébì shēngqì ne? != Why bother getting angry?
     <br>
     <br>* McshEngl.Zhon_adve.032-hébì-何必!=why-bother,
     <br>====== lagoChinese:
@@ -9919,7 +9920,7 @@
     <a class="clsHide" href="#idLZhonadve_032"></a></p>
   <p id="idLZhonadve_033">Zhon_adve.033-hécháng-何尝!=never-(rhetorical)::
     <br>· negation.
-    <br>· _sntxZhon: 我何尝不想帮你？ :: Wǒ hécháng _sntxVerb:{bùxiǎng} bāng nǐ? !=When have I never wanted to help you?
+    <br>· _SntxZhon: 我何尝不想帮你？ :: Wǒ hécháng _SntxVerb:{bùxiǎng} bāng nǐ? !=When have I never wanted to help you?
     <br>
     <br>* McshEngl.Zhon_adve.033-hécháng-何尝!=never-(rhetorical),
     <br>====== lagoChinese:
@@ -9929,8 +9930,8 @@
     <a class="clsHide" href="#idLZhonadve_033"></a></p>
   <p id="idLZhonadve_034">Zhon_adve.034-hěn-很!=very::
     <br>· degree: very, quite.
-    <br>· _sntxZhon: 这本书 很有意思。 :: Zhè běn shū _sntxSbjc:[hěn yǒuyìsi]. != This book is very interesting.
-    <br>· _sntxZhon: 这本书 很有趣。 :: Zhè běn shū _sntxSbjc:[hěn yǒuqù]. != This book is **very** interesting.
+    <br>· _SntxZhon: 这本书 很有意思。 :: Zhè běn shū _SntxSbjc:[hěn yǒuyìsi]. != This book is very interesting.
+    <br>· _SntxZhon: 这本书 很有趣。 :: Zhè běn shū _SntxSbjc:[hěn yǒuqù]. != This book is **very** interesting.
     <br>
     <br>* McshEngl.Zhon_adve.034-hěn-很!=very,
     <br>====== lagoChinese:
@@ -9940,7 +9941,7 @@
     <a class="clsHide" href="#idLZhonadve_034"></a></p>
   <p id="idLZhonadve_035">Zhon_adve.035-hěnshǎo-很少!=rarely::
     <br>· timeFrequency.
-    <br>· _sntxZhon: 他 很少 说话。 :: Tā hěn shǎo shuōhuà. != He rarely speaks.
+    <br>· _SntxZhon: 他 很少 说话。 :: Tā hěn shǎo shuōhuà. != He rarely speaks.
     <br>
     <br>* McshEngl.Zhon_adve.035-hěnshǎo-很少!=rarely,
     <br>====== lagoChinese:
@@ -9952,16 +9953,16 @@
     <br>· mood: perhaps, maybe
     <br>
     <br> Here are example sentences with **或许** (huòxǔ), showing various positions and contexts:
-    <br>· _sntxZhon: **或许**他今天不会来了。 :: **Huòxǔ** tā jīntiān bù huì lái le. != **Perhaps** he won't come today. |
-    <br>· _sntxZhon: **或许**你是对的，但我需要再想想。 :: **Huòxǔ** nǐ shì duì de, dàn wǒ xūyào zài xiǎngxiang. != **Maybe** you're right, but I need to think it over. |
-    <br>· _sntxZhon: 这条路走不通，我们**或许**该试试另一条。 :: Zhè tiáo lù zǒu bù tōng, wǒmen **huòxǔ** gāi shìshi lìng yī tiáo. != This road is blocked; we **might** want to try another one. |
-    <br>· _sntxZhon: 她**或许**已经知道真相了。 :: Tā **huòxǔ** yǐjīng zhīdào zhēnxiàng le. != She **probably** already knows the truth. |
-    <br>· _sntxZhon: **或许**有一天，我们会再见面。 :: **Huòxǔ** yǒu yī tiān, wǒmen huì zài jiànmiàn. != **Perhaps** one day, we will meet again. |
-    <br>· _sntxZhon: 这个问题**或许**比我想象的更复杂。 :: Zhège wèntí **huòxǔ** bǐ wǒ xiǎngxiàng de gèng fùzá. != This problem **may** be more complicated than I imagined. |
-    <br>· _sntxZhon: 他**或许**不是故意的。 :: Tā **huòxǔ** bù shì gùyì de. != He **might not** have done it on purpose. |
-    <br>· _sntxZhon: **或许**吧，谁知道呢？ :: **Huòxǔ** ba, shéi zhīdào ne? != **Maybe**, who knows? |
-    <br>· _sntxZhon: 人生**或许**就是这样，充满了意外。 :: Rénshēng **huòxǔ** jiùshì zhèyàng, chōngmǎn le yìwài. != Life **is perhaps** just like this, full of surprises. |
-    <br>· _sntxZhon: 你**或许**应该跟他谈谈。 :: Nǐ **huòxǔ** yīnggāi gēn tā tántan. != You **might** want to talk to him. |
+    <br>· _SntxZhon: **或许**他今天不会来了。 :: **Huòxǔ** tā jīntiān bù huì lái le. != **Perhaps** he won't come today. |
+    <br>· _SntxZhon: **或许**你是对的，但我需要再想想。 :: **Huòxǔ** nǐ shì duì de, dàn wǒ xūyào zài xiǎngxiang. != **Maybe** you're right, but I need to think it over. |
+    <br>· _SntxZhon: 这条路走不通，我们**或许**该试试另一条。 :: Zhè tiáo lù zǒu bù tōng, wǒmen **huòxǔ** gāi shìshi lìng yī tiáo. != This road is blocked; we **might** want to try another one. |
+    <br>· _SntxZhon: 她**或许**已经知道真相了。 :: Tā **huòxǔ** yǐjīng zhīdào zhēnxiàng le. != She **probably** already knows the truth. |
+    <br>· _SntxZhon: **或许**有一天，我们会再见面。 :: **Huòxǔ** yǒu yī tiān, wǒmen huì zài jiànmiàn. != **Perhaps** one day, we will meet again. |
+    <br>· _SntxZhon: 这个问题**或许**比我想象的更复杂。 :: Zhège wèntí **huòxǔ** bǐ wǒ xiǎngxiàng de gèng fùzá. != This problem **may** be more complicated than I imagined. |
+    <br>· _SntxZhon: 他**或许**不是故意的。 :: Tā **huòxǔ** bù shì gùyì de. != He **might not** have done it on purpose. |
+    <br>· _SntxZhon: **或许**吧，谁知道呢？ :: **Huòxǔ** ba, shéi zhīdào ne? != **Maybe**, who knows? |
+    <br>· _SntxZhon: 人生**或许**就是这样，充满了意外。 :: Rénshēng **huòxǔ** jiùshì zhèyàng, chōngmǎn le yìwài. != Life **is perhaps** just like this, full of surprises. |
+    <br>· _SntxZhon: 你**或许**应该跟他谈谈。 :: Nǐ **huòxǔ** yīnggāi gēn tā tántan. != You **might** want to talk to him. |
     <br>---
     <br>### Quick Notes
     <br>- **Position:** 或许 can go at the **beginning** of a sentence or **before the verb/adjective**.
@@ -9977,7 +9978,7 @@
     <a class="clsHide" href="#idLZhonadve_107"></a></p>
   <p id="idLZhonadve_036">Zhon_adve.036-hūrán-忽然!=suddenly::
     <br>· time.
-    <br>· _sntxZhon: 天 忽然 黑了。 :: Tiān hūrán _sntxVerb:{hēile}. != It suddenly got dark.
+    <br>· _SntxZhon: 天 忽然 黑了。 :: Tiān hūrán _SntxVerb:{hēile}. != It suddenly got dark.
     <br>
     <br>* McshEngl.Zhon_adve.036-hūrán-忽然!=suddenly,
     <br>====== lagoChinese:
@@ -9987,7 +9988,7 @@
     <a class="clsHide" href="#idLZhonadve_036"></a></p>
   <p id="idLZhonadve_037">Zhon_adve.037-hùxiāng-互相!=mutually::
     <br>· manner.
-    <br>· _sntxZhon: 我们 应该 互相帮助。 Wǒmen _sntxVerb:{yīnggāi} _sntxObj1:[hùxiāng _sntxVerb:{bāngzhù}]. != We should help each other.
+    <br>· _SntxZhon: 我们 应该 互相帮助。 Wǒmen _SntxVerb:{yīnggāi} _SntxObj1:[hùxiāng _SntxVerb:{bāngzhù}]. != We should help each other.
     <br>
     <br>* McshEngl.Zhon_adve.037-hùxiāng-互相!=mutually,
     <br>====== lagoChinese:
@@ -9997,7 +9998,7 @@
     <a class="clsHide" href="#idLZhonadve_037"></a></p>
   <p id="idLZhonadve_038">Zhon_adve.038-jí-极!=extremely::
     <br>· degree.
-    <br>· _sntxZhon: 好极了！ :: Hǎo jíle != Extremely good! != Εξοχος!
+    <br>· _SntxZhon: 好极了！ :: Hǎo jíle != Extremely good! != Εξοχος!
     <br>
     <br>* McshEngl.Zhon_adve.038-jí-极!=extremely,
     <br>====== lagoChinese:
@@ -10007,7 +10008,7 @@
     <a class="clsHide" href="#idLZhonadve_038"></a></p>
   <p id="idLZhonadve_039">Zhon_adve.039-jiǎnzhí-简直!=simply::
     <br>·
-    <br>· _sntxZhon: 这简直 太好了！ :: Zhè jiǎnzhí _sntxSbjc:[tài hǎole]! != This is simply too good!
+    <br>· _SntxZhon: 这简直 太好了！ :: Zhè jiǎnzhí _SntxSbjc:[tài hǎole]! != This is simply too good!
     <br>
     <br>* McshEngl.Zhon_adve.039-jiǎnzhí-简直!=simply,
     <br>====== lagoChinese:
@@ -10017,8 +10018,8 @@
     <a class="clsHide" href="#idLZhonadve_039"></a></p>
   <p id="idLZhonadve_040">Zhon_adve.040-jīhū-几乎!=almost::
     <br>· degree: almost, nearly
-    <br>· _sntxZhon: 我 几乎 每天都 去 健身房。 :: Wǒ jīhū měitiān dū _sntxVerb:{qù} jiànshēnfáng.!= I go to the gym **almost** every day.
-    <br>· _sntxZhon: 我 几乎 忘了。 :: Wǒ jīhū _sntxVerb:{wàngle}.!= I almost forgot.
+    <br>· _SntxZhon: 我 几乎 每天都 去 健身房。 :: Wǒ jīhū měitiān dū _SntxVerb:{qù} jiànshēnfáng.!= I go to the gym **almost** every day.
+    <br>· _SntxZhon: 我 几乎 忘了。 :: Wǒ jīhū _SntxVerb:{wàngle}.!= I almost forgot.
     <br>
     <br>* McshEngl.Zhon_adve.040-jīhū-几乎!=almost,
     <br>====== lagoChinese:
@@ -10028,8 +10029,8 @@
     <a class="clsHide" href="#idLZhonadve_040"></a></p>
   <p id="idLZhonadve_041">Zhon_adve.041-jīngcháng-经常!=often::
     <br>· timeFrequency: often.
-    <br>· _sntxZhon: 我 经常 去 那儿 吃饭。 Wǒ jīngcháng _sntxVerb:{qù} nà'er chīfàn. != I **often** go there to eat.
-    <br>· _sntxZhon: 他 经常 去 图书馆。 :: Tā jīngcháng _sntxVerb:{qù} túshū guǎn.!= He often goes to the library.
+    <br>· _SntxZhon: 我 经常 去 那儿 吃饭。 Wǒ jīngcháng _SntxVerb:{qù} nà'er chīfàn. != I **often** go there to eat.
+    <br>· _SntxZhon: 他 经常 去 图书馆。 :: Tā jīngcháng _SntxVerb:{qù} túshū guǎn.!= He often goes to the library.
     <br>
     <br>* McshEngl.Zhon_adve.041-jīngcháng-经常!=often,
     <br>====== lagoChinese:
@@ -10039,7 +10040,7 @@
     <a class="clsHide" href="#idLZhonadve_041"></a></p>
   <p id="idLZhonadve_042">Zhon_adve.042-jǐnjǐn-仅仅!=merely::
     <br>· scope.
-    <br>· _sntxZhon: 这仅仅是开始。 :: Zhè jǐnjǐn _sntxVerb:{shì} kāishǐ. != This is merely the beginning.
+    <br>· _SntxZhon: 这仅仅是开始。 :: Zhè jǐnjǐn _SntxVerb:{shì} kāishǐ. != This is merely the beginning.
     <br>
     <br>* McshEngl.Zhon_adve.042-jǐnjǐn-仅仅!=merely,
     <br>====== lagoChinese:
@@ -10049,7 +10050,7 @@
     <a class="clsHide" href="#idLZhonadve_042"></a></p>
   <p id="idLZhonadve_102">Zhon_adve.102-jíqí-极其!=extremely::
     <br>· degree: extremely, exceedingly (formal)
-    <br>· _sntxZhon: 这 是 一个极其 重要的任务。 :: Zhè _sntxVerb:{shì} yīgèjíqí zhòngyào de rènwù.!= This is an **extremely** important mission.
+    <br>· _SntxZhon: 这 是 一个极其 重要的任务。 :: Zhè _SntxVerb:{shì} yīgèjíqí zhòngyào de rènwù.!= This is an **extremely** important mission.
     <br>
     <br>* McshEngl.Zhon_adve.102-jíqí-极其!=extremely,
     <br>====== lagoChinese:
@@ -10059,8 +10060,8 @@
     <a class="clsHide" href="#idLZhonadve_102"></a></p>
   <p id="idLZhonadve_043">Zhon_adve.043-jiù-就!=precisely-then::
     <br>· time: then, right away (indicates something happened sooner than expected).
-    <br>· _sntxZhon: 我 明天 就 回来。 :: Wǒ míngtiān jiù _sntxVerb:{huílái}. != I will come back **right away** tomorrow.
-    <br>· _sntxZhon: 我就来。 :: Wǒ jiù _sntxVerb:{lái}. != I'm coming right now.
+    <br>· _SntxZhon: 我 明天 就 回来。 :: Wǒ míngtiān jiù _SntxVerb:{huílái}. != I will come back **right away** tomorrow.
+    <br>· _SntxZhon: 我就来。 :: Wǒ jiù _SntxVerb:{lái}. != I'm coming right now.
     <br>
     <br>* McshEngl.Zhon_adve.043-jiù-就!=precisely-then,
     <br>====== lagoChinese:
@@ -10070,8 +10071,8 @@
     <a class="clsHide" href="#idLZhonadve_043"></a></p>
   <p id="idLZhonadve_044">Zhon_adve.044-jūrán-居然!=unexpectedly::
     <br>· mood: unexpectedly, to one's surprise.
-    <br>· _sntxZhon: 他 居然 忘了 我的生日。 :: Tā jūrán _sntxVerb:{wàngle} wǒ de shēngrì. != He **actually** forgot my birthday.
-    <br>· _sntxZhon: 他居然通过了考试。 != He unexpectedly passed the exam.
+    <br>· _SntxZhon: 他 居然 忘了 我的生日。 :: Tā jūrán _SntxVerb:{wàngle} wǒ de shēngrì. != He **actually** forgot my birthday.
+    <br>· _SntxZhon: 他居然通过了考试。 != He unexpectedly passed the exam.
     <br>
     <br>* McshEngl.Zhon_adve.044-jūrán-居然!=unexpectedly,
     <br>====== lagoChinese:
@@ -10081,8 +10082,8 @@
     <a class="clsHide" href="#idLZhonadve_044"></a></p>
   <p id="idLZhonadve_015">Zhon_adve.015-kěndìng-肯定!=definitely::
     <br>· mood: definitely, certainly.
-    <br>· _sntxZhon: 他肯定会同意。 :: Tā kěndìng _sntxVerb:{huì tóngyì}. != He will **definitely** agree.
-    <br>· _sntxZhon: 恐怕 来不及了。 :: Kǒngpà láibujíle. != I'm afraid it's too late.
+    <br>· _SntxZhon: 他肯定会同意。 :: Tā kěndìng _SntxVerb:{huì tóngyì}. != He will **definitely** agree.
+    <br>· _SntxZhon: 恐怕 来不及了。 :: Kǒngpà láibujíle. != I'm afraid it's too late.
     <br>
     <br>* McshEngl.Zhon_adve.015-kěndìng-肯定!=definitely,
     <br>====== lagoChinese:
@@ -10092,7 +10093,7 @@
     <a class="clsHide" href="#idLZhonadve_015"></a></p>
   <p id="idLZhonadve_045">Zhon_adve.045-kǒngpà-恐怕!=I'm_afraid::
     <br>·
-    <br>· _sntxZhon: 恐怕 来不及了。 :: Kǒngpà _sntxVerb:{láibujíle}. != I'm afraid it's too late.
+    <br>· _SntxZhon: 恐怕 来不及了。 :: Kǒngpà _SntxVerb:{láibujíle}. != I'm afraid it's too late.
     <br>
     <br>* McshEngl.Zhon_adve.045-kǒngpà-恐怕!=I'm_afraid,
     <br>====== lagoChinese:
@@ -10102,7 +10103,7 @@
     <a class="clsHide" href="#idLZhonadve_045"></a></p>
   <p id="idLZhonadve_046">Zhon_adve.046-kuài-快!=quickly::
     <br>· manner.
-    <br>· _sntxZhon: 快点儿 走！ :: _sntxManner:[Kuài diǎ'er] _sntxVerb:{zǒu}! != Walk a bit faster!
+    <br>· _SntxZhon: 快点儿 走！ :: _SntxManner:[Kuài diǎ'er] _SntxVerb:{zǒu}! != Walk a bit faster!
     <br>
     <br>* McshEngl.Zhon_adve.046-kuài-快!=quickly,
     <br>====== lagoChinese:
@@ -10112,8 +10113,8 @@
     <a class="clsHide" href="#idLZhonadve_046"></a></p>
   <p id="idLZhonadve_047">Zhon_adve.047-mànmàn-慢慢!=slowly::
     <br>· manner: slowly
-    <br>· _sntxZhon: 请慢慢地说。 :: Qǐng màn man de _sntxVerb:{shuō}. :: != Please speak **slowly**.
-    <br>· _sntxZhon: 请慢慢说。 :: Qǐng mànman _sntxVerb:{shuō}. != Please speak slowly.
+    <br>· _SntxZhon: 请慢慢地说。 :: Qǐng màn man de _SntxVerb:{shuō}. :: != Please speak **slowly**.
+    <br>· _SntxZhon: 请慢慢说。 :: Qǐng mànman _SntxVerb:{shuō}. != Please speak slowly.
     <br>
     <br>* McshEngl.Zhon_adve.047-mànmàn-慢慢!=slowly,
     <br>====== lagoChinese:
@@ -10123,8 +10124,8 @@
     <a class="clsHide" href="#idLZhonadve_047"></a></p>
   <p id="idLZhonadve_048">Zhon_adve.048-mǎshàng-马上!=immediately::
     <br>· time: immediately, right away.
-    <br>· _sntxZhon: 会议马上就 要 开始了。 :: Huìyì mǎshàng jiù yào kāishǐle. != The meeting is about to start **immediately**.
-    <br>· _sntxZhon: 我马上回来。 :: Wǒ mǎshàng _sntxVerb:{huílái}. != I'll be back immediately.
+    <br>· _SntxZhon: 会议马上就 要 开始了。 :: Huìyì mǎshàng jiù yào kāishǐle. != The meeting is about to start **immediately**.
+    <br>· _SntxZhon: 我马上回来。 :: Wǒ mǎshàng _SntxVerb:{huílái}. != I'll be back immediately.
     <br>
     <br>* McshEngl.Zhon_adve.048-mǎshàng-马上!=immediately,
     <br>====== lagoChinese:
@@ -10134,8 +10135,8 @@
     <a class="clsHide" href="#idLZhonadve_048"></a></p>
   <p id="idLZhonadve_049">Zhon_adve.049-méi-没!=not-(for-past)::
     <br>· negation: not (for past actions and to indicate "have not").
-    <br>· _sntxZhon: 我 没吃 早饭。 :: Wǒ méi chī zǎofàn. != I **didn't** eat breakfast.
-    <br>· _sntxZhon: 他 没来 上课。 :: Tā _sntxVerb:{méi lái} shàngkè. != He didn't come to class.
+    <br>· _SntxZhon: 我 没吃 早饭。 :: Wǒ méi chī zǎofàn. != I **didn't** eat breakfast.
+    <br>· _SntxZhon: 他 没来 上课。 :: Tā _SntxVerb:{méi lái} shàngkè. != He didn't come to class.
     <br>
     <br>* McshEngl.Zhon_adve.049-méi-没!=not-(for-past),
     <br>====== lagoChinese:
@@ -10145,7 +10146,7 @@
     <a class="clsHide" href="#idLZhonadve_049"></a></p>
   <p id="idLZhonadve_050">Zhon_adve.050-nándào-难道!=could-it-be::
     <br>·
-    <br>· _sntxZhon: 难道你不喜欢吗？ :: Nándào nǐ _sntxVerb:{bù xǐhuān} ma? != Could it be that you don't like it?
+    <br>· _SntxZhon: 难道你不喜欢吗？ :: Nándào nǐ _SntxVerb:{bù xǐhuān} ma? != Could it be that you don't like it?
     <br>
     <br>* McshEngl.Zhon_adve.050-nándào-难道!=could-it-be,
     <br>====== lagoChinese:
@@ -10155,7 +10156,7 @@
     <a class="clsHide" href="#idLZhonadve_050"></a></p>
   <p id="idLZhonadve_051">Zhon_adve.051-nánguài-难怪!=no-wonder::
     <br>·
-    <br>· _sntxZhon: 难怪他这么高兴。 :: Nánguài tā _sntxSbjc:[zhème gāoxìng]. != No wonder he is so happy.
+    <br>· _SntxZhon: 难怪他这么高兴。 :: Nánguài tā _SntxSbjc:[zhème gāoxìng]. != No wonder he is so happy.
     <br>
     <br>* McshEngl.Zhon_adve.051-nánguài-难怪!=no-wonder,
     <br>====== lagoChinese:
@@ -10165,7 +10166,7 @@
     <a class="clsHide" href="#idLZhonadve_051"></a></p>
   <p id="idLZhonadve_052">Zhon_adve.052-ǒu'ěr-偶尔!=occasionally::
     <br>· timeFrequency.
-    <br>· _sntxZhon:  我偶尔喝咖啡。 :: Wǒ ǒu'ěr _sntxVerb:{hē} kāfēi. != I occasionally drink coffee.
+    <br>· _SntxZhon:  我偶尔喝咖啡。 :: Wǒ ǒu'ěr _SntxVerb:{hē} kāfēi. != I occasionally drink coffee.
     <br>
     <br>* McshEngl.Zhon_adve.052-ǒu'ěr-偶尔!=occasionally,
     <br>====== lagoChinese:
@@ -10175,7 +10176,7 @@
     <a class="clsHide" href="#idLZhonadve_052"></a></p>
   <p id="idLZhonadve_053">Zhon_adve.053-piānpiān-偏偏!=contrary-to-expectations::
     <br>·
-    <br>· _sntxZhon: 偏偏 在这个时候 下雨了。 :: Piānpiān _sntxTime:[zài zhège shíhòu] _sntxVerb:{xiàyǔle}.!= Contrary to expectations, it rained at this moment.
+    <br>· _SntxZhon: 偏偏 在这个时候 下雨了。 :: Piānpiān _SntxTime:[zài zhège shíhòu] _SntxVerb:{xiàyǔle}.!= Contrary to expectations, it rained at this moment.
     <br>
     <br>* McshEngl.Zhon_adve.053-piānpiān-偏偏!=contrary-to-expectations,
     <br>====== lagoChinese:
@@ -10185,7 +10186,7 @@
     <a class="clsHide" href="#idLZhonadve_053"></a></p>
   <p id="idLZhonadve_054">Zhon_adve.054-qiāoqiāo-悄悄!=quietly::
     <br>· manner.
-    <br>· _sntxZhon: 他 悄悄地 离开了。 :: Tā qiāoqiāo de _sntxVerb:{líkāile}. != He left quietly.
+    <br>· _SntxZhon: 他 悄悄地 离开了。 :: Tā qiāoqiāo de _SntxVerb:{líkāile}. != He left quietly.
     <br>
     <br>* McshEngl.Zhon_adve.054-qiāoqiāo-悄悄!=quietly,
     <br>====== lagoChinese:
@@ -10195,8 +10196,8 @@
     <a class="clsHide" href="#idLZhonadve_054"></a></p>
   <p id="idLZhonadve_055">Zhon_adve.055-qīnzì-亲自!=personally::
     <br>· manner: personally, in person.
-    <br>· _sntxZhon: 经理亲自来了。 :: Jīnglǐ qīnzì _sntxVerb:{láile}. != The manager came **in person**.
-    <br>· _sntxZhon: 老板亲自来了。 :: Lǎobǎn qīnzì _sntxVerb:{láile}. != The boss came personally.
+    <br>· _SntxZhon: 经理亲自来了。 :: Jīnglǐ qīnzì _SntxVerb:{láile}. != The manager came **in person**.
+    <br>· _SntxZhon: 老板亲自来了。 :: Lǎobǎn qīnzì _SntxVerb:{láile}. != The boss came personally.
     <br>
     <br>* McshEngl.Zhon_adve.055-qīnzì-亲自!=personally,
     <br>====== lagoChinese:
@@ -10206,8 +10207,8 @@
     <a class="clsHide" href="#idLZhonadve_055"></a></p>
   <p id="idLZhonadve_056">Zhon_adve.056-qíshí-其实!=actually::
     <br>· mood: actually, in fact.
-    <br>· _sntxZhon: 这个问题 其实很简单。 :: _sntxSubj:[Zhège wèntí] _sntxSbjc:[qíshí hěn jiǎndān]. != This problem is **actually** very simple.
-    <br>· _sntxZhon: 其实我也不知道。 :: Qíshí _sntxSubj:[wǒ] yě _sntxVerb:{bù zhīdào}. != Actually, I don't know either.
+    <br>· _SntxZhon: 这个问题 其实很简单。 :: _SntxSubj:[Zhège wèntí] _SntxSbjc:[qíshí hěn jiǎndān]. != This problem is **actually** very simple.
+    <br>· _SntxZhon: 其实我也不知道。 :: Qíshí _SntxSubj:[wǒ] yě _SntxVerb:{bù zhīdào}. != Actually, I don't know either.
     <br>
     <br>* McshEngl.Zhon_adve.056-qíshí-其实!=actually,
     <br>====== lagoChinese:
@@ -10217,7 +10218,7 @@
     <a class="clsHide" href="#idLZhonadve_056"></a></p>
   <p id="idLZhonadve_057">Zhon_adve.057-quán-全!=entirely::
     <br>· scope.
-    <br>· _sntxZhon: 全班 同学都 来了。 Quán bān tóngxué dōu _sntxVerb:{láile}. != The entire class [of students] came.
+    <br>· _SntxZhon: 全班 同学都 来了。 Quán bān tóngxué dōu _SntxVerb:{láile}. != The entire class [of students] came.
     <br>
     <br>* McshEngl.Zhon_adve.057-quán-全!=entirely,
     <br>====== lagoChinese:
@@ -10227,7 +10228,7 @@
     <a class="clsHide" href="#idLZhonadve_057"></a></p>
   <p id="idLZhonadve_058">Zhon_adve.058-què-却!=yet-however::
     <br>·
-    <br>· _sntxZhon: 他想去，却不敢。 :: Tā xiǎng _sntxVerb:{qù}, què _sntxVerb:{bù gǎn}. != He wants to go, yet doesn't dare.
+    <br>· _SntxZhon: 他想去，却不敢。 :: Tā xiǎng _SntxVerb:{qù}, què _SntxVerb:{bù gǎn}. != He wants to go, yet doesn't dare.
     <br>
     <br>* McshEngl.Zhon_adve.058-què-却!=yet-however,
     <br>====== lagoChinese:
@@ -10237,7 +10238,7 @@
     <a class="clsHide" href="#idLZhonadve_058"></a></p>
   <p id="idLZhonadve_059">Zhon_adve.059-shāowēi-稍微!=slightly::
     <br>· degree.
-    <br>· _sntxZhon: 请稍微等一下。 :: Qǐng shāowéi _sntxVerb:{děng} yīxià. != Please wait just a moment.
+    <br>· _SntxZhon: 请稍微等一下。 :: Qǐng shāowéi _SntxVerb:{děng} yīxià. != Please wait just a moment.
     <br>
     <br>* McshEngl.Zhon_adve.059-shāowēi-稍微!=slightly,
     <br>====== lagoChinese:
@@ -10247,7 +10248,7 @@
     <a class="clsHide" href="#idLZhonadve_059"></a></p>
   <p id="idLZhonadve_060">Zhon_adve.060-shènzhì-甚至!=even::
     <br>·
-    <br>· _sntxZhon: 他 甚至 不知道 我的名字。 :: Tā shènzhì _sntxVerb:{bù zhīdào} wǒ de míngzì. != He doesn't even know my name.
+    <br>· _SntxZhon: 他 甚至 不知道 我的名字。 :: Tā shènzhì _SntxVerb:{bù zhīdào} wǒ de míngzì. != He doesn't even know my name.
     <br>
     <br>* McshEngl.Zhon_adve.060-shènzhì-甚至!=even,
     <br>====== lagoChinese:
@@ -10257,7 +10258,7 @@
     <a class="clsHide" href="#idLZhonadve_060"></a></p>
   <p id="idLZhonadve_061">Zhon_adve.061-shífēn-十分!=completely/very::
     <br>· degree.
-    <br>· _sntxZhon: 我十分同意。 :: Wǒ shífēn _sntxVerb:{tóngyì}. != I completely agree.
+    <br>· _SntxZhon: 我十分同意。 :: Wǒ shífēn _SntxVerb:{tóngyì}. != I completely agree.
     <br>
     <br>* McshEngl.Zhon_adve.061-shífēn-十分!=completely/very,
     <br>====== lagoChinese:
@@ -10267,7 +10268,7 @@
     <a class="clsHide" href="#idLZhonadve_061"></a></p>
   <p id="idLZhonadve_062">Zhon_adve.062-suíbiàn-随便!=casually::
     <br>· manner.
-    <br>· _sntxZhon: 请 随便 坐。 :: Qǐng suíbiàn _sntxVerb:{zuò}. != Please sit wherever you like.
+    <br>· _SntxZhon: 请 随便 坐。 :: Qǐng suíbiàn _SntxVerb:{zuò}. != Please sit wherever you like.
     <br>
     <br>* McshEngl.Zhon_adve.062-suíbiàn-随便!=casually,
     <br>====== lagoChinese:
@@ -10277,8 +10278,8 @@
     <a class="clsHide" href="#idLZhonadve_062"></a></p>
   <p id="idLZhonadve_063">Zhon_adve.063-tài-太!=too::
     <br>· degree: too (excessively); (in exclamations) so.
-    <br>· _sntxZhon: 这件衣服 太贵了。 :: Zhè jiàn yīfú _sntxSbjc:[tài guìle]. != This piece of clothing is too expensive.
-    <br>· _sntxZhon: 你太好了！ :: Nǐ _sntxSbjc:[tài hǎole]! != You are **so** kind!
+    <br>· _SntxZhon: 这件衣服 太贵了。 :: Zhè jiàn yīfú _SntxSbjc:[tài guìle]. != This piece of clothing is too expensive.
+    <br>· _SntxZhon: 你太好了！ :: Nǐ _SntxSbjc:[tài hǎole]! != You are **so** kind!
     <br>
     <br>* McshEngl.Zhon_adve.063-tài-太!=too,
     <br>====== lagoChinese:
@@ -10288,8 +10289,8 @@
     <a class="clsHide" href="#idLZhonadve_063"></a></p>
   <p id="idLZhonadve_064">Zhon_adve.064-tèbié-特别!=especially::
     <br>· degree: especially, particularly.
-    <br>· _sntxZhon: 我特别喜欢中国的美食。 :: Wǒ tèbié _sntxVerb:{xǐhuān} zhōngguó dì měishí.!= I **especially** like Chinese food.
-    <br>· _sntxZhon: 今天 特别冷。 :: _sntxSubj:[Jīntiān] _sntxSbjc:[tèbié lěng]. != Today is especially cold.
+    <br>· _SntxZhon: 我特别喜欢中国的美食。 :: Wǒ tèbié _SntxVerb:{xǐhuān} zhōngguó dì měishí.!= I **especially** like Chinese food.
+    <br>· _SntxZhon: 今天 特别冷。 :: _SntxSubj:[Jīntiān] _SntxSbjc:[tèbié lěng]. != Today is especially cold.
     <br>
     <br>* McshEngl.Zhon_adve.064-tèbié-特别!=especially,
     <br>====== lagoChinese:
@@ -10299,7 +10300,7 @@
     <a class="clsHide" href="#idLZhonadve_064"></a></p>
   <p id="idLZhonadve_101">Zhon_adve.101-tǐng-挺!=quite::
     <br>· degree: quite, rather (colloquial).
-    <br>· _sntxZhon: 这个电影 挺好看的。 :: _sntxSubj:[Zhège diànyǐng] _sntxSbjc:[tǐng hǎokàn de]. != This movie is **quite** good.
+    <br>· _SntxZhon: 这个电影 挺好看的。 :: _SntxSubj:[Zhège diànyǐng] _SntxSbjc:[tǐng hǎokàn de]. != This movie is **quite** good.
     <br>
     <br>* McshEngl.Zhon_adve.101-tǐng-挺!=quite,
     <br>====== lagoChinese:
@@ -10309,7 +10310,7 @@
     <a class="clsHide" href="#idLZhonadve_101"></a></p>
   <p id="idLZhonadve_065">Zhon_adve.065-tíqián-提前!=in_advance::
     <br>· time: εκ_των_προτέρων,
-    <br>· _sntxZhon: 请提前告诉我。 :: Qǐng tíqián _sntxVerb:{gàosù} wǒ. != Please tell me in advance.
+    <br>· _SntxZhon: 请提前告诉我。 :: Qǐng tíqián _SntxVerb:{gàosù} wǒ. != Please tell me in advance.
     <br>
     <br>* McshEngl.Zhon_adve.065-tíqián-提前!=in_advance,
     <br>====== lagoChinese:
@@ -10319,7 +10320,7 @@
     <a class="clsHide" href="#idLZhonadve_065"></a></p>
   <p id="idLZhonadve_066">Zhon_adve.066-tōutōu-偷偷!=secretly::
     <br>· manner: κλεφτά,
-    <br>· _sntxZhon: 他偷偷看了她一眼。 :: Tā tōutōu _sntxVerb:{kànle} tā yīyǎn. != He secretly glanced at her.
+    <br>· _SntxZhon: 他偷偷看了她一眼。 :: Tā tōutōu _SntxVerb:{kànle} tā yīyǎn. != He secretly glanced at her.
     <br>
     <br>* McshEngl.Zhon_adve.066-tōutōu-偷偷!=secretly,
     <br>====== lagoChinese:
@@ -10329,7 +10330,7 @@
     <a class="clsHide" href="#idLZhonadve_066"></a></p>
   <p id="idLZhonadve_110">Zhon_adve.110-tūrán-突然!=suddenly::
     <br>· manner: suddenly != ξαφνικά.
-    <br>· _sntxZhon: 他突然 站了起来。 Tā tūrán _sntxVerb:{zhàn le} qǐlái. != He stood up **suddenly**.
+    <br>· _SntxZhon: 他突然 站了起来。 Tā tūrán _SntxVerb:{zhàn le} qǐlái. != He stood up **suddenly**.
     <br>
     <br>* McshEngl.Zhon_adve.110-tūrán-突然!=suddenly,
     <br>====== lagoChinese:
@@ -10339,7 +10340,7 @@
     <a class="clsHide" href="#idLZhonadve_110"></a></p>
   <p id="idLZhonadve_067">Zhon_adve.067-wèi-未!=not-yet-(formal)::
     <br>· negation.
-    <br>· _sntxZhon: 此事尚未决定。 :: Cǐ shì shàngwèi _sntxVerb:{juédìng}. != This matter has not yet been decided.
+    <br>· _SntxZhon: 此事尚未决定。 :: Cǐ shì shàngwèi _SntxVerb:{juédìng}. != This matter has not yet been decided.
     <br>
     <br>* McshEngl.Zhon_adve.067-wèi-未!=not-yet-(formal),
     <br>====== lagoChinese:
@@ -10349,8 +10350,8 @@
     <a class="clsHide" href="#idLZhonadve_067"></a></p>
   <p id="idLZhonadve_068">Zhon_adve.068-wèibì-未必!=not-necessarily::
     <br>· negation.
-    <br>· _sntxZhon: 他未必知道。 :: Tā wèibì _sntxVerb:{zhīdào}. != He doesn't necessarily know. !~ The sentence does not assert "he doesn't know"; it asserts that the proposition "he knows" lacks certainty — the knowledge is possible but not guaranteed.
-    <br>· _sntxZhon: 便宜 未必 是 好货。 :: Piányí wèibì _sntxVerb:{shì} hǎo huò. != Cheap is not necessarily good goods.
+    <br>· _SntxZhon: 他未必知道。 :: Tā wèibì _SntxVerb:{zhīdào}. != He doesn't necessarily know. !~ The sentence does not assert "he doesn't know"; it asserts that the proposition "he knows" lacks certainty — the knowledge is possible but not guaranteed.
+    <br>· _SntxZhon: 便宜 未必 是 好货。 :: Piányí wèibì _SntxVerb:{shì} hǎo huò. != Cheap is not necessarily good goods.
     <br>
     <br>* McshEngl.Zhon_adve.068-wèibì-未必!=not-necessarily,
     <br>====== lagoChinese:
@@ -10360,7 +10361,7 @@
     <a class="clsHide" href="#idLZhonadve_068"></a></p>
   <p id="idLZhonadve_070">Zhon_adve.070-wúlùn-无论!=regardless::
     <br>· [DeepSeek] conjunction: ανεξάρτητα_από, ανεξαρτήτως,
-    <br>· _sntxZhon: 无论多难，我都不会放弃。 :: Wúlùn duō nàn, wǒ dū _sntxVerb:{bù huì fàngqì}. != Regardless of how hard it is, I won't give up.
+    <br>· _SntxZhon: 无论多难，我都不会放弃。 :: Wúlùn duō nàn, wǒ dū _SntxVerb:{bù huì fàngqì}. != Regardless of how hard it is, I won't give up.
     <br>
     <br>* McshEngl.Zhon_adve.070-wúlùn-无论!=regardless,
     <br>====== lagoChinese:
@@ -10371,7 +10372,7 @@
     <a class="clsHide" href="#idLZhonadve_070"></a></p>
   <p id="idLZhonadve_071">Zhon_adve.071-xiāngdāng-相当!=quite::
     <br>· degree.
-    <br>· _sntxZhon: 这个问题相当复杂。 :: Zhège wèntí _sntxSbjc:[xiāngdāng fùzá].!= This problem is quite complicated.
+    <br>· _SntxZhon: 这个问题相当复杂。 :: Zhège wèntí _SntxSbjc:[xiāngdāng fùzá].!= This problem is quite complicated.
     <br>
     <br>* McshEngl.Zhon_adve.071-xiāngdāng-相当!=quite,
     <br>====== lagoChinese:
@@ -10381,7 +10382,7 @@
     <a class="clsHide" href="#idLZhonadve_071"></a></p>
   <p id="idLZhonadve_072">Zhon_adve.072-xiànzài-现在!=now::
     <br>· time.
-    <br>· _sntxZhon: 我 现在 要 去学校。 ::Wǒ xiànzài _sntxVerb:{yào} _sntxObj1:[_sntxVerb:{qù} xuéxiào]. != I am going to school now.
+    <br>· _SntxZhon: 我 现在 要 去学校。 ::Wǒ xiànzài _SntxVerb:{yào} _SntxObj1:[_SntxVerb:{qù} xuéxiào]. != I am going to school now.
     <br>
     <br>* McshEngl.Zhon_adve.072-xiànzài-现在!=now,
     <br>====== lagoChinese:
@@ -10391,7 +10392,7 @@
     <a class="clsHide" href="#idLZhonadve_072"></a></p>
   <p id="idLZhonadve_109">Zhon_adve.109-xiǎoxīn-小心!=carefully::
     <br>· manner: carefully.
-    <br>· _sntxZhon: 他 小心地 打开了 盒子。 Tā _sntxManner:[xiǎoxīn (dì)] _sntxVerb:{dǎkāile} hézǐ. != He **carefully** opened the box.
+    <br>· _SntxZhon: 他 小心地 打开了 盒子。 Tā _SntxManner:[xiǎoxīn (dì)] _SntxVerb:{dǎkāile} hézǐ. != He **carefully** opened the box.
     <br>
     <br>* McshEngl.Zhon_adve.109-xiǎoxīn-小心!=carefully,
     <br>====== lagoChinese:
@@ -10401,7 +10402,7 @@
     <a class="clsHide" href="#idLZhonadve_109"></a></p>
   <p id="idLZhonadve_073">Zhon_adve.073-xìngkuī-幸亏!=fortunately::
     <br>· ευτυχώς.
-    <br>· _sntxZhon: 幸亏你提醒了我。 :: Xìngkuī nǐ _sntxVerb:{tíxǐngle} wǒ. != Fortunately, you reminded me.
+    <br>· _SntxZhon: 幸亏你提醒了我。 :: Xìngkuī nǐ _SntxVerb:{tíxǐngle} wǒ. != Fortunately, you reminded me.
     <br>
     <br>* McshEngl.Zhon_adve.073-xìngkuī-幸亏!=fortunately,
     <br>====== lagoChinese:
@@ -10411,7 +10412,7 @@
     <a class="clsHide" href="#idLZhonadve_073"></a></p>
   <p id="idLZhonadve_074">Zhon_adve.074-yě-也!=also::
     <br>·
-    <br>· _sntxZhon: 我也喜欢猫。 :: Wǒ yě _sntxVerb:{xǐhuān} māo. != I also like cats.
+    <br>· _SntxZhon: 我也喜欢猫。 :: Wǒ yě _SntxVerb:{xǐhuān} māo. != I also like cats.
     <br>
     <br>* McshEngl.Zhon_adve.074-yě-也!=also,
     <br>====== lagoChinese:
@@ -10421,8 +10422,8 @@
     <a class="clsHide" href="#idLZhonadve_074"></a></p>
   <p id="idLZhonadve_075">Zhon_adve.075-yěxǔ-也许!=perhaps::
     <br>· mood: perhaps, maybe, might.
-    <br>· _sntxZhon: 明天也许会下雨。 :: Míngtiān yěxǔ _sntxVerb:{huì xiàyǔ}. != It **might** rain tomorrow.
-    <br>· _sntxZhon: 也许明天会下雨。 :: Yěxǔ míngtiān huì xiàyǔ.!= Perhaps it will rain tomorrow.
+    <br>· _SntxZhon: 明天也许会下雨。 :: Míngtiān yěxǔ _SntxVerb:{huì xiàyǔ}. != It **might** rain tomorrow.
+    <br>· _SntxZhon: 也许明天会下雨。 :: Yěxǔ míngtiān huì xiàyǔ.!= Perhaps it will rain tomorrow.
     <br>
     <br>* McshEngl.Zhon_adve.075-yěxǔ-也许!=perhaps,
     <br>====== lagoChinese:
@@ -10432,7 +10433,7 @@
     <a class="clsHide" href="#idLZhonadve_075"></a></p>
   <p id="idLZhonadve_076">Zhon_adve.076-yídìng-一定!=definitely::
     <br>·
-    <br>· _sntxZhon: 我 一定 会来的。 :: Wǒ yīdìng _sntxVerb:{huì lái de}. != I will definitely come. !~ The sentence-final 的 marks assertive modality, not aspect.
+    <br>· _SntxZhon: 我 一定 会来的。 :: Wǒ yīdìng _SntxVerb:{huì lái de}. != I will definitely come. !~ The sentence-final 的 marks assertive modality, not aspect.
     <br>
     <br>* McshEngl.Zhon_adve.076-yídìng-一定!=definitely,
     <br>====== lagoChinese:
@@ -10442,8 +10443,8 @@
     <a class="clsHide" href="#idLZhonadve_076"></a></p>
   <p id="idLZhonadve_077">Zhon_adve.077-yígòng-一共!=altogether::
     <br>· scope: in total, altogether.
-    <br>· _sntxZhon: 我们班一共有二十个学生。 :: Wǒmen bān yīgòng _sntxVerb:{yǒu} _sntxSbjc:[èrshí gè xuéshēng]. != Our class has twenty students **in total**.
-    <br>· _sntxZhon: 一共多少钱？ :: Yīgòng duōshǎo _sntxVerb:{qián}? !=How much is it altogether?
+    <br>· _SntxZhon: 我们班一共有二十个学生。 :: Wǒmen bān yīgòng _SntxVerb:{yǒu} _SntxSbjc:[èrshí gè xuéshēng]. != Our class has twenty students **in total**.
+    <br>· _SntxZhon: 一共多少钱？ :: Yīgòng duōshǎo _SntxVerb:{qián}? !=How much is it altogether?
     <br>
     <br>* McshEngl.Zhon_adve.077-yígòng-一共!=altogether,
     <br>====== lagoChinese:
@@ -10453,8 +10454,8 @@
     <a class="clsHide" href="#idLZhonadve_077"></a></p>
   <p id="idLZhonadve_078">Zhon_adve.078-yǐjīng-已经!=already::
     <br>· time: already.
-    <br>· _sntxZhon: 他已经回家了。 :: Tā yǐjīng _sntxVerb:{huí} jiā {le}. != He has **already** gone home.
-    <br>· _sntxZhon: 他已经吃完饭了。 :: Tā yǐjīng _sntxVerb:{chī wán} fàn {le}. != He has already finished eating.
+    <br>· _SntxZhon: 他已经回家了。 :: Tā yǐjīng _SntxVerb:{huí} jiā {le}. != He has **already** gone home.
+    <br>· _SntxZhon: 他已经吃完饭了。 :: Tā yǐjīng _SntxVerb:{chī wán} fàn {le}. != He has already finished eating.
     <br>
     <br>* McshEngl.Zhon_adve.078-yǐjīng-已经!=already,
     <br>====== lagoChinese:
@@ -10464,7 +10465,7 @@
     <a class="clsHide" href="#idLZhonadve_078"></a></p>
   <p id="idLZhonadve_079">Zhon_adve.079-yílǜ-一律!=without-exception::
     <br>· scope.
-    <br>· _sntxZhon: 迟到者一律罚款。 :: Chídào zhě yīlǜ fákuǎn. != Latecomers will be fined without exception.
+    <br>· _SntxZhon: 迟到者一律罚款。 :: Chídào zhě yīlǜ fákuǎn. != Latecomers will be fined without exception.
     <br>· Voice: The clause is in a notional passive construction. 迟到者 is the patient — the person fined — not the agent (the one imposing the fine). The agent is omitted (likely an authority or institution, recoverable from context). No passive marker (被) is needed because:
     <br>- The subject is a generic/regulatory class
     <br>- The agent is irrelevant or generic
@@ -10479,9 +10480,9 @@
   <p id="idLZhonadve_080">Zhon_adve.080-yīqǐ-一起!=together::
     <br>· scope: together.
     <br>· manner: together.
-    <br>· _sntxZhon: 我们一起去。 :: Wǒmen yīqǐ qù. != Let's go **together**.
-    <br>· _sntxZhon: 我们一起学习中文吧。 :: Wǒmen yīqǐ _sntxVerb:{xuéxí} zhōngwén ba. != Let's study Chinese **together**.
-    <br>· _sntxZhon: 我们一起吃饭吧。 :: Wǒmen yīqǐ _sntxVerb:{chīfàn ba}. != Let's eat together.
+    <br>· _SntxZhon: 我们一起去。 :: Wǒmen yīqǐ qù. != Let's go **together**.
+    <br>· _SntxZhon: 我们一起学习中文吧。 :: Wǒmen yīqǐ _SntxVerb:{xuéxí} zhōngwén ba. != Let's study Chinese **together**.
+    <br>· _SntxZhon: 我们一起吃饭吧。 :: Wǒmen yīqǐ _SntxVerb:{chīfàn ba}. != Let's eat together.
     <br>
     <br>* McshEngl.Zhon_adve.080-yīqǐ-一起!=together,
     <br>====== lagoChinese:
@@ -10491,7 +10492,7 @@
     <a class="clsHide" href="#idLZhonadve_080"></a></p>
   <p id="idLZhonadve_081">Zhon_adve.081-yíxiàng-一向!=consistently::
     <br>· timeFrequency.
-    <br>· _sntxZhon: 他一向很准时。 :: Tā yīxiàng hěn zhǔnshí. != He has always been very punctual. != Είναι πάντα πολύ συνεπής.
+    <br>· _SntxZhon: 他一向很准时。 :: Tā yīxiàng hěn zhǔnshí. != He has always been very punctual. != Είναι πάντα πολύ συνεπής.
     <br>
     <br>* McshEngl.Zhon_adve.081-yíxiàng-一向!=consistently,
     <br>====== lagoChinese:
@@ -10501,8 +10502,8 @@
     <a class="clsHide" href="#idLZhonadve_081"></a></p>
   <p id="idLZhonadve_082">Zhon_adve.082-yìzhí-一直!=continuously::
     <br>· time: continuously, always.
-    <br>· _sntxZhon: 雨 一直 在下。 :: Yǔ yīzhí _sntxVerb:{zàixià}. != It's been raining **continuously**.
-    <br>· _sntxZhon: 我 一直 在等 你。 :: Wǒ yīzhí _sntxVerb:{zài děng} nǐ. != I have been waiting for you the whole time.
+    <br>· _SntxZhon: 雨 一直 在下。 :: Yǔ yīzhí _SntxVerb:{zàixià}. != It's been raining **continuously**.
+    <br>· _SntxZhon: 我 一直 在等 你。 :: Wǒ yīzhí _SntxVerb:{zài děng} nǐ. != I have been waiting for you the whole time.
     <br>
     <br>* McshEngl.Zhon_adve.082-yìzhí-一直!=continuously,
     <br>====== lagoChinese:
@@ -10513,7 +10514,7 @@
     <a class="clsHide" href="#idLZhonadve_082"></a></p>
   <p id="idLZhonadve_083">Zhon_adve.083-yǒngyuǎn-永远!=forever::
     <br>· time.
-    <br>· _sntxZhon: 我会永远支持你。 :: Wǒ {huì} yǒngyuǎn _sntxVerb:{zhīchí} nǐ. != I will support you forever.
+    <br>· _SntxZhon: 我会永远支持你。 :: Wǒ {huì} yǒngyuǎn _SntxVerb:{zhīchí} nǐ. != I will support you forever.
     <br>
     <br>* McshEngl.Zhon_adve.083-yǒngyuǎn-永远!=forever,
     <br>====== lagoChinese:
@@ -10523,7 +10524,7 @@
     <a class="clsHide" href="#idLZhonadve_083"></a></p>
   <p id="idLZhonadve_084">Zhon_adve.084-yòu-又!=again-(unexpected)::
     <br>· **再 vs. 又**: **再** is for intended repetition (see you again); **又** is for unexpected repetition (late again).
-    <br>· _sntxZhon: 他 又 迟到了。 :: Tā yòu _sntxVerb:{chídào le}. != He is late again.
+    <br>· _SntxZhon: 他 又 迟到了。 :: Tā yòu _SntxVerb:{chídào le}. != He is late again.
     <br>
     <br>* McshEngl.Zhon_adve.084-yòu-又!=again-(unexpected),
     <br>====== lagoChinese:
@@ -10533,7 +10534,7 @@
     <a class="clsHide" href="#idLZhonadve_084"></a></p>
   <p id="idLZhonadve_100">Zhon_adve.100-yǒudiǎn(r)-有点(儿)!=a_little_bit::
     <br>· degree: a little bit, somewhat (often for negative things).
-    <br>· _sntxZhon: 我 今天 有点 累。 :: Wǒ _sntxSbjc:[jīntiān yǒudiǎn lèi]. != I'm **a little bit** tired today.
+    <br>· _SntxZhon: 我 今天 有点 累。 :: Wǒ _SntxSbjc:[jīntiān yǒudiǎn lèi]. != I'm **a little bit** tired today.
     <br>
     <br>* McshEngl.Zhon_adve.100-有点(儿)-yǒudiǎn(r)!=a_little_bit,
     <br>====== lagoChinese:
@@ -10543,7 +10544,7 @@
     <a class="clsHide" href="#idLZhonadve_100"></a></p>
   <p id="idLZhonadve_085">Zhon_adve.085-yóuqí-尤其!=particularly::
     <br>·
-    <br>· _sntxZhon: 我喜欢水果，尤其是苹果。 :: Wǒ _sntxVerb:{xǐhuān} shuǐguǒ, yóuqí _sntxVerb:{shì} píngguǒ.!= I like fruit, particularly apples.
+    <br>· _SntxZhon: 我喜欢水果，尤其是苹果。 :: Wǒ _SntxVerb:{xǐhuān} shuǐguǒ, yóuqí _SntxVerb:{shì} píngguǒ.!= I like fruit, particularly apples.
     <br>
     <br>* McshEngl.Zhon_adve.085-yóuqí-尤其!=particularly,
     <br>====== lagoChinese:
@@ -10553,7 +10554,7 @@
     <a class="clsHide" href="#idLZhonadve_085"></a></p>
   <p id="idLZhonadve_086">Zhon_adve.086-yǒushí-有时!=sometimes::
     <br>· timeFrequency.
-    <br>· _sntxZhon: 我有时不吃早餐。 Wǒ yǒushí _sntxVerb:{bù chī} zǎocān. != I sometimes don't eat breakfast.
+    <br>· _SntxZhon: 我有时不吃早餐。 Wǒ yǒushí _SntxVerb:{bù chī} zǎocān. != I sometimes don't eat breakfast.
     <br>
     <br>* McshEngl.Zhon_adve.086-yǒushí-有时!=sometimes,
     <br>====== lagoChinese:
@@ -10563,7 +10564,7 @@
     <a class="clsHide" href="#idLZhonadve_086"></a></p>
   <p id="idLZhonadve_103">Zhon_adve.103-yǒushíhou-有时候!=sometimes::
     <br>· time: sometimes.
-    <br>· _sntxZhon: 我有时候自己做饭。 :: Wǒ yǒushíhòu zìjǐ _sntxVerb:{zuò} fàn. != I **sometimes** cook for myself.
+    <br>· _SntxZhon: 我有时候自己做饭。 :: Wǒ yǒushíhòu zìjǐ _SntxVerb:{zuò} fàn. != I **sometimes** cook for myself.
     <br>
     <br>* McshEngl.Zhon_adve.103-yǒushíhou-有时候!=sometimes,
     <br>====== lagoChinese:
@@ -10573,7 +10574,7 @@
     <a class="clsHide" href="#idLZhonadve_103"></a></p>
   <p id="idLZhonadve_087">Zhon_adve.087-yuèfā-越发!=increasingly::
     <br>· degree.
-    <br>· _sntxZhon: 雨越发大了。 :: Yǔ yuèfā _sntxVerb:{dàle}. != The rain is getting increasingly heavier.
+    <br>· _SntxZhon: 雨越发大了。 :: Yǔ yuèfā _SntxVerb:{dàle}. != The rain is getting increasingly heavier.
     <br>
     <br>* McshEngl.Zhon_adve.087-yuèfā-越发!=increasingly,
     <br>====== lagoChinese:
@@ -10583,7 +10584,7 @@
     <a class="clsHide" href="#idLZhonadve_087"></a></p>
   <p id="idLZhonadve_088">Zhon_adve.088-zài-再!=again::
     <br>·
-    <br>· _sntxZhon: 请再说一遍。 Qǐng zài _sntxVerb:{shuō} yībiàn. != Please say it again.
+    <br>· _SntxZhon: 请再说一遍。 Qǐng zài _SntxVerb:{shuō} yībiàn. != Please say it again.
     <br>
     <br>* McshEngl.Zhon_adve.088-zài-再!=again,
     <br>====== lagoChinese:
@@ -10593,7 +10594,7 @@
     <a class="clsHide" href="#idLZhonadve_088"></a></p>
   <p id="idLZhonadve_089">Zhon_adve.089-zàisān-再三!=over-and-over::
     <br>· timeFrequency.
-    <br>· _sntxZhon: 我 再三考虑后 决定 辞职。 :: Wǒ _sntxTime:[zàisān kǎolǜ (hòu)] _sntxVerb:{juédìng} cízhí.!= I decided to resign after considering it over and over. != 后 (hòu) — Noun/Postposition: "after, behind, later" [DeepSeek]
+    <br>· _SntxZhon: 我 再三考虑后 决定 辞职。 :: Wǒ _SntxTime:[zàisān kǎolǜ (hòu)] _SntxVerb:{juédìng} cízhí.!= I decided to resign after considering it over and over. != 后 (hòu) — Noun/Postposition: "after, behind, later" [DeepSeek]
     <br>
     <br>* McshEngl.Zhon_adve.089-zàisān-再三!=over-and-over,
     <br>====== lagoChinese:
@@ -10603,7 +10604,7 @@
     <a class="clsHide" href="#idLZhonadve_089"></a></p>
   <p id="idLZhonadve_090">Zhon_adve.090-zànshí-暂时!=temporarily::
     <br>· time.
-    <br>· _sntxZhon: 我们暂时住在这里。 != We are living here temporarily.
+    <br>· _SntxZhon: 我们暂时住在这里。 != We are living here temporarily.
     <br>
     <br>* McshEngl.Zhon_adve.090-zànshí-暂时!=temporarily,
     <br>====== lagoChinese:
@@ -10613,7 +10614,7 @@
     <a class="clsHide" href="#idLZhonadve_090"></a></p>
   <p id="idLZhonadve_091">Zhon_adve.091-zhèngzài-正在!=in-the-process-of::
     <br>· time.
-    <br>· _sntxZhon: 她正在打电话。 != She is making a phone call.
+    <br>· _SntxZhon: 她正在打电话。 != She is making a phone call.
     <br>
     <br>* McshEngl.Zhon_adve.091-zhèngzài-正在!=in-the-process-of,
     <br>====== lagoChinese:
@@ -10623,9 +10624,9 @@
     <a class="clsHide" href="#idLZhonadve_091"></a></p>
   <p id="idLZhonadve_092">Zhon_adve.092-zhǐ-只!=only::
     <br>· scope: only, just.
-    <br>· _sntxZhon: 我**只**喝咖啡，不喝茶。 != I **only** drink coffee, not tea.
-    <br>· _sntxZhon: 我只吃了一个苹果。 != I only ate one apple.
-    <br>· _sntxZhon: 我 只 有 十块钱。 :: _sntxSubj:[Wǒ] _sntxOther:[zhǐ] _sntxVerb:{yǒu} _sntxSbjc:[shí kuài qián]. != I only have ten yuan.
+    <br>· _SntxZhon: 我**只**喝咖啡，不喝茶。 != I **only** drink coffee, not tea.
+    <br>· _SntxZhon: 我只吃了一个苹果。 != I only ate one apple.
+    <br>· _SntxZhon: 我 只 有 十块钱。 :: _SntxSubj:[Wǒ] _SntxOther:[zhǐ] _SntxVerb:{yǒu} _SntxSbjc:[shí kuài qián]. != I only have ten yuan.
     <br>
     <br>* McshEngl.Zhon_adve.092-zhǐ-只!=only,
     <br>====== lagoChinese:
@@ -10637,7 +10638,7 @@
     <a class="clsHide" href="#idLZhonadve_092"></a></p>
   <p id="idLZhonadve_093">Zhon_adve.093-zhǐhǎo-只好!=have-no-choice-but::
     <br>·
-    <br>· _sntxZhon: 我只好同意了。 :: Wǒ zhǐhǎo _sntxVerb:{tóngyì le}. != I had no choice but to agree.
+    <br>· _SntxZhon: 我只好同意了。 :: Wǒ zhǐhǎo _SntxVerb:{tóngyì le}. != I had no choice but to agree.
     <br>
     <br>* McshEngl.Zhon_adve.093-zhǐhǎo-只好!=have-no-choice-but,
     <br>====== lagoChinese:
@@ -10647,7 +10648,7 @@
     <a class="clsHide" href="#idLZhonadve_093"></a></p>
   <p id="idLZhonadve_094">Zhon_adve.094-zhìshǎo-至少!=at-least::
     <br>· scope.
-    <br>· _sntxZhon: 至少需要三个人。 :: Zhìshǎo _sntxVerb:{xūyào} _sntxObj1:[sān gèrén]. != At least three people are needed.
+    <br>· _SntxZhon: 至少需要三个人。 :: Zhìshǎo _SntxVerb:{xūyào} _SntxObj1:[sān gèrén]. != At least three people are needed.
     <br>
     <br>* McshEngl.Zhon_adve.094-zhìshǎo-至少!=at-least,
     <br>====== lagoChinese:
@@ -10657,8 +10658,8 @@
     <a class="clsHide" href="#idLZhonadve_094"></a></p>
   <p id="idLZhonadve_095">Zhon_adve.095-zhōngyú-终于!=finally::
     <br>· time: finally, at last != τελικά, επιτέλους.
-    <br>· _sntxZhon: 你终于来了！ :: Nǐ zhōngyú _sntxVerb:{lái le}! != You're **finally** here!
-    <br>· _sntxZhon: 他终于成功了。 :: Tā zhōngyú _sntxVerb:{chénggōng le}. != He finally succeeded.
+    <br>· _SntxZhon: 你终于来了！ :: Nǐ zhōngyú _SntxVerb:{lái le}! != You're **finally** here!
+    <br>· _SntxZhon: 他终于成功了。 :: Tā zhōngyú _SntxVerb:{chénggōng le}. != He finally succeeded.
     <br>
     <br>* McshEngl.Zhon_adve.095-zhōngyú-终于!=finally,
     <br>====== lagoChinese:
@@ -10668,7 +10669,7 @@
     <a class="clsHide" href="#idLZhonadve_095"></a></p>
   <p id="idLZhonadve_096">Zhon_adve.096-zhúbù-逐步!=step-by-step::
     <br>· manner: σταδιακά.
-    <br>· _sntxZhon: 问题 正在 逐步 解决。 Wèntí zhèngzài zhúbù _sntxVerb:{jiějué}. != The problem is being solved step by step.
+    <br>· _SntxZhon: 问题 正在 逐步 解决。 Wèntí zhèngzài zhúbù _SntxVerb:{jiějué}. != The problem is being solved step by step.
     <br>
     <br>* McshEngl.Zhon_adve.096-zhúbù-逐步!=step-by-step,
     <br>====== lagoChinese:
@@ -10678,7 +10679,7 @@
     <a class="clsHide" href="#idLZhonadve_096"></a></p>
   <p id="idLZhonadve_104">Zhon_adve.104-zǒnggòng-总共!=altogether::
     <br>· scope: in total, altogether.
-    <br>· _sntxZhon: 这所学校 总共 有 两千多名学生。 :: Zhè suǒ xuéxiào zǒnggòng _sntxVerb:{yǒu} liǎng qiān duō míng xuéshēng. != The school has a total of more than two thousand students.
+    <br>· _SntxZhon: 这所学校 总共 有 两千多名学生。 :: Zhè suǒ xuéxiào zǒnggòng _SntxVerb:{yǒu} liǎng qiān duō míng xuéshēng. != The school has a total of more than two thousand students.
     <br>
     <br>* McshEngl.Zhon_adve.104-zǒnggòng-总共!=altogether,
     <br>====== lagoChinese:
@@ -10688,8 +10689,8 @@
     <a class="clsHide" href="#idLZhonadve_104"></a></p>
   <p id="idLZhonadve_097">Zhon_adve.097-zǒngshì-总是!=always::
     <br>· timeFrequency: always.
-    <br>· _sntxZhon: 他总是很忙。 :: Tā zǒngshì hěn máng. != He is **always** busy.
-    <br>· _sntxZhon: 你总是迟到。 :: Nǐ zǒngshì _sntxVerb:{chídào}. != You are always late.
+    <br>· _SntxZhon: 他总是很忙。 :: Tā zǒngshì hěn máng. != He is **always** busy.
+    <br>· _SntxZhon: 你总是迟到。 :: Nǐ zǒngshì _SntxVerb:{chídào}. != You are always late.
     <br>
     <br>* McshEngl.Zhon_adve.097-zǒngshì-总是!=always,
     <br>====== lagoChinese:
@@ -10699,8 +10700,8 @@
     <a class="clsHide" href="#idLZhonadve_097"></a></p>
   <p id="idLZhonadve_098">Zhon_adve.098-zuì-最!=most::
     <br>· degree: the most.
-    <br>· _sntxZhon: 春天是我最喜欢的季节。 :: Chūntiān _sntxVerb:{shì} wǒ zuì xǐhuān de jìjié.!= Spring is my **most** favorite season.
-    <br>· _sntxZhon: 他是我们班最高的。 :: Tā _sntxVerb:{shì} _sntxSbjc:[wǒmenbān zuì gāo] {de}. != He is the tallest in our class.
+    <br>· _SntxZhon: 春天是我最喜欢的季节。 :: Chūntiān _SntxVerb:{shì} wǒ zuì xǐhuān de jìjié.!= Spring is my **most** favorite season.
+    <br>· _SntxZhon: 他是我们班最高的。 :: Tā _SntxVerb:{shì} _SntxSbjc:[wǒmenbān zuì gāo] {de}. != He is the tallest in our class.
     <br>
     <br>* McshEngl.Zhon_adve.098-zuì-最!=most,
     <br>====== lagoChinese:
@@ -10710,7 +10711,7 @@
     <a class="clsHide" href="#idLZhonadve_098"></a></p>
   <p id="idLZhonadve_099">Zhon_adve.099-zuìjìn-最!=recently::
     <br>· time.
-    <br>· _sntxZhon: 最近天气很热。 :: Zuìjìn tiānqì _sntxSbjc:[hěn rè]. != The weather has been hot recently.
+    <br>· _SntxZhon: 最近天气很热。 :: Zuìjìn tiānqì _SntxSbjc:[hěn rè]. != The weather has been hot recently.
     <br>
     <br>* McshEngl.Zhon_adve.099-zuìjìn-最近!=recently,
     <br>====== lagoChinese:
@@ -10883,7 +10884,7 @@
     <br>* McshEngl.Zhon_esophoric_pron,
     <br>* McshEngl.Zhon_pron.anaphoric!⇒Zhon_esophoric_pron,
     <br>* McshEngl.Zhon_pron.esophoric!⇒Zhon_esophoric_pron,
-    <br>* McshEngl.pronZhonEsophoric,
+    <br>* McshEngl.pronZhonEsophoric!⇒Zhon_esophoric_pron,
     <a class="clsHide" href="#idLZhonprnEsfcnam"></a></p>
   <p id="idLZhonprnEsfcstr">specific-tree::
     <a class="clsHide" href="#idLZhonprnEsfcstr"></a></p>
@@ -10899,7 +10900,7 @@
   <p id="idLZhonprnExfcnam">name::
     <br>* McshEngl.Zhon_exophoric_pron,
     <br>* McshEngl.Zhon_pron.exophoric!⇒Zhon_exophoric_pron,
-    <br>* McshEngl.pronZhonExophoric,
+    <br>* McshEngl.pronZhonExophoric!⇒Zhon_exophoric_pron,
     <a class="clsHide" href="#idLZhonprnExfcnam"></a></p>
   <p id="idLZhonprnExfcstr">specific-tree::
     <a class="clsHide" href="#idLZhonprnExfcstr"></a></p>
@@ -10947,7 +10948,7 @@
     <br>* McshEngl.Zhon_personal_pron,
     <br>* McshEngl.Chinese-personal-pronoun!⇒Zhon_personal_pron,
     <br>* McshEngl.Standard-Chinese-personal-pronoun!⇒Zhon_personal_pron,
-    <br>* McshEngl.pronZhonPersonal,
+    <br>* McshEngl.pronZhonPersonal!⇒Zhon_personal_pron,
     <br>* McshEngl.Zhon_pron.personal!⇒Zhon_personal_pron,
     <a class="clsHide" href="#idLZhonprnPsnlnam"></a></p>
   </section>
@@ -10967,7 +10968,7 @@
     <a class="clsHide" href="#idLZhonpronHmndsn"></a></p>
   <p id="idLZhonpronHmnnam">name::
     <br>* McshEngl.Zhon_human_pron,
-    <br>* McshEngl.pronZhonHuman,
+    <br>* McshEngl.pronZhonHuman!⇒Zhon_human_pron,
     <br>* McshEngl.Zhon_pron.human!⇒Zhon_human_pron,
     <a class="clsHide" href="#idLZhonpronHmnnam"></a></p>
   </section>
@@ -10986,7 +10987,7 @@
     <a class="clsHide" href="#idLZhonpronHmnNdsn"></a></p>
   <p id="idLZhonpronHmnNnam">name::
     <br>* McshEngl.Zhon_humanNo_pron,
-    <br>* McshEngl.pronZhonHumanNo,
+    <br>* McshEngl.pronZhonHumanNo!⇒Zhon_humanNo_pron,
     <br>* McshEngl.Zhon_pron.humanNo!⇒Zhon_humanNo_pron,
     <a class="clsHide" href="#idLZhonpronHmnNnam"></a></p>
   </section>
@@ -11004,7 +11005,7 @@
     <a class="clsHide" href="#idLZhonpronSpacdsn"></a></p>
   <p id="idLZhonpronSpacnam">name::
     <br>* McshEngl.Zhon_space_pron,
-    <br>* McshEngl.pronZhonSpace,
+    <br>* McshEngl.pronZhonSpace!⇒Zhon_space_pron,
     <br>* McshEngl.Zhon_pron.space!⇒Zhon_space_pron,
     <a class="clsHide" href="#idLZhonpronSpacnam"></a></p>
   </section>
@@ -11022,7 +11023,7 @@
     <a class="clsHide" href="#idLZhonpronTimedsn"></a></p>
   <p id="idLZhonpronTimenam">name::
     <br>* McshEngl.Zhon_time_pron,
-    <br>* McshEngl.pronZhonTime,
+    <br>* McshEngl.pronZhonTime!⇒Zhon_time_pron,
     <br>* McshEngl.Zhon_pron.time!⇒Zhon_time_pron,
     <a class="clsHide" href="#idLZhonpronTimenam"></a></p>
   </section>
@@ -11040,7 +11041,7 @@
     <a class="clsHide" href="#idLZhonpronQuntdsn"></a></p>
   <p id="idLZhonpronQuntnam">name::
     <br>* McshEngl.Zhon_quantity_pron,
-    <br>* McshEngl.pronZhonQuantity,
+    <br>* McshEngl.pronZhonQuantity!⇒Zhon_quantity_pron,
     <br>* McshEngl.Zhon_pron.quantity!⇒Zhon_quantity_pron,
     <a class="clsHide" href="#idLZhonpronQuntnam"></a></p>
   </section>
@@ -11058,7 +11059,7 @@
     <a class="clsHide" href="#idLZhonpronManrdsn"></a></p>
   <p id="idLZhonpronManrnam">name::
     <br>* McshEngl.Zhon_manner_pron,
-    <br>* McshEngl.pronZhonManner,
+    <br>* McshEngl.pronZhonManner!⇒Zhon_manner_pron,
     <br>* McshEngl.Zhon_pron.manner!⇒Zhon_manner_pron,
     <a class="clsHide" href="#idLZhonpronManrnam"></a></p>
   </section>
@@ -11076,7 +11077,7 @@
     <a class="clsHide" href="#idLZhonpronCausdsn"></a></p>
   <p id="idLZhonpronCausnam">name::
     <br>* McshEngl.Zhon_cause_pron,
-    <br>* McshEngl.pronZhonCause,
+    <br>* McshEngl.pronZhonCause!⇒Zhon_cause_pron,
     <br>* McshEngl.Zhon_pron.cause!⇒Zhon_cause_pron,
     <a class="clsHide" href="#idLZhonpronCausnam"></a></p>
   </section>
@@ -11217,8 +11218,8 @@
     <br>· the-number of its <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmsmsvrbattModReal">realis</a> atomic-verb-members is ? (English=152, Esperanto=84, Greek=264, Sinago(all)=68).
     <a class="clsHide" href="#idLZhonverbmbrAtmdsn"></a></p>
   <p id="idLZhonverbmbrAtmnam">name::
-    <br>* McshEngl.Standard-Chinese-verb-form!⇒Zhon_verbAtom, (literature)
     <br>* McshEngl.Zhon_verbAtom,
+    <br>* McshEngl.Standard-Chinese-verb-form!⇒Zhon_verbAtom, (literature)
     <br>* McshEngl.Zhon_verb_mebr.individual!⇒Zhon_verbAtom,
     <br>* McshEngl.VerbAtom.lagoZhon!⇒Zhon_verbAtom,
     <br>* McshEngl.atomic-member--of-Zhon_verb!⇒Zhon_verbAtom,
@@ -11346,9 +11347,9 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· Chinese-verbs do-NOT-denote <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmsmsvrbattActv">activeness</a>.
     <br>· of course, Chinese denotes <a class="clsPreview" href="../dirCor/McshCor000004.last.html#idDngActg">actions</a> as:
-    <br>· _sntxZhon: _sntxSubj:[林萍] _sntxTime:[已经] _sntxVerb:{喝} _sntxObj1:[咖啡] {了}。 Lín píng yǐjīng hē kāfēile. != [Lin Ping] [already] {had-drunk} [coffee].
+    <br>· _SntxZhon: _SntxSubj:[林萍] _SntxTime:[已经] _SntxVerb:{喝} _SntxObj1:[咖啡] {了}。 Lín píng yǐjīng hē kāfēile. != [Lin Ping] [already] {had-drunk} [coffee].
     <br>or
-    <br>· _sntxZhon: _sntxSubj:[咖啡] _sntxTime:[已经] _sntxOther:[(被)林萍] _sntxVerb:{喝了}。 Kāfēi yǐjīng bèi lín píng hēle. != [coffee] [already] [(by) Lin Ping] {had-drunk} .
+    <br>· _SntxZhon: _SntxSubj:[咖啡] _SntxTime:[已经] _SntxOther:[(被)林萍] _SntxVerb:{喝了}。 Kāfēi yǐjīng bèi lín píng hēle. != [coffee] [already] [(by) Lin Ping] {had-drunk} .
     <a class="clsHide" href="#idLZhonverbmbrActndsn"></a></p>
   <p id="idLZhonverbmbrActnnam">name::
     <br>* McshEngl.Zhon_verb_mebr.activeness,
@@ -11364,7 +11365,7 @@
     <br>Orders may be softened by preceding them with an element such as qǐng (请, "to ask"), in this use equivalent to English "please". See Particles for more. The sentence-final particle ba (吧) can be used to form first-person imperatives, equivalent to "let's..."."
     <br>[{2021-12-01 retrieved} https://en.wikipedia.org/wiki/Chinese_grammar#Imperatives]
     <br>
-    <br>· _sntxZhon: _sntxVerb:{请坐} _sntxSpace:[下]。 Qǐng zuò xià. != {please sit} [down].
+    <br>· _SntxZhon: _SntxVerb:{请坐} _SntxSpace:[下]。 Qǐng zuò xià. != {please sit} [down].
     <a class="clsHide" href="#idLZhonverbmbrImpvdsn"></a></p>
   <p id="idLZhonverbmbrImpvnam">name::
     <br>* McshEngl.Zhon_verb_mebr.imperative,
@@ -11381,7 +11382,7 @@
     <br>[{2021-10-16 retrieved} https://resources.allsetlearning.com/chinese/grammar/Reduplication_of_verbs]
     <br>
     <br>"The delimitative aspect denotes an action that goes on only for some time, "doing something 'a little bit'".[37] This can be expressed by reduplication of a monosyllabic verb, like the verb zǒu (走 "walk") in the following sentence:
-    <br>· _sntxZhon: 我 到公園 走走。:: _sntxSubj:[wǒ] _sntxSpaceDire:[(dào) gōngyuán] _sntxVerb:{zǒu zǒu} != I to park walk walk != I'm going for a walk in the park.
+    <br>· _SntxZhon: 我 到公園 走走。:: _SntxSubj:[wǒ] _SntxSpaceDire:[(dào) gōngyuán] _SntxVerb:{zǒu zǒu} != I to park walk walk != I'm going for a walk in the park.
     <br>An alternative construction is reduplication with insertion of "one" (一 yī). For example, zǒu yi zǒu (走一走), which might be translated as "walk a little walk". A further possibility is reduplication followed by kàn (看 "to see"); this emphasizes the "testing" nature of the action. If the verb has an object, kàn follows the object.
     <br>Some compound verbs, such as restrictive-resultative and coordinate compounds, can also be reduplicated on the pattern tǎolùn-tǎolùn (讨论讨论; 討論討論), from the verb tǎolùn (讨论; 討論), meaning "discuss". Other compounds may be reduplicated, but for general emphasis rather than delimitative aspect. In compounds that are verb–object combinations, like tiào wǔ (跳舞; 'to jump a dance', "dance"), a delimitative aspect can be marked by reduplicating the first syllable, creating tiào-tiào wǔ (跳跳舞), which may be followed with kàn (看)."
     <br>[{2021-12-03 retrieved} https://en.wikipedia.org/wiki/Chinese_grammar#Aspects]
@@ -11451,11 +11452,11 @@
     <br>[{2021-12-05 retrieved} https://en.wikipedia.org/wiki/Chinese_grammar#Particles]
     <br>
     <br>=== exclamation:
-    <br>· _sntxZhon: 这个地方真漂亮啊！_sntxSbj:[Zhègè dìfāng] _sntxSbjc:[zhēn piàoliang] {a}! != This place is so beautiful!
+    <br>· _SntxZhon: 这个地方真漂亮啊！_SntxSbj:[Zhègè dìfāng] _SntxSbjc:[zhēn piàoliang] {a}! != This place is so beautiful!
     <br>
     <br>=== certainty-urgency:
-    <br>· _sntxZhon: 是 啊 ，我 也 觉得 ！ Shì a, wǒ yě juéde! != Definitely, I think so too!
-    <br>· _sntxZhon: 小心 啊 ！ Xiǎoxīn a! != Be careful!
+    <br>· _SntxZhon: 是 啊 ，我 也 觉得 ！ Shì a, wǒ yě juéde! != Definitely, I think so too!
+    <br>· _SntxZhon: 小心 啊 ！ Xiǎoxīn a! != Be careful!
     <a class="clsHide" href="#idLZhonverbauxAdsn"></a></p>
   <p id="idLZhonverbauxAnam">name::
     <br>* McshEngl.Zhon_verb_auxi.a-啊-reduces-forcefulness,
@@ -11476,9 +11477,9 @@
     <br>[{2021-12-05 retrieved} https://en.wikipedia.org/wiki/Chinese_grammar#Particles]
     <br>
     <br>=== turn a command into a suggestion:
-    <br>· _sntxZhon: 我们 走 吧。 :: _sntxSubj:[Wǒmen] _sntxVerb:{zǒu ba}. != Let's go.
+    <br>· _SntxZhon: 我们 走 吧。 :: _SntxSubj:[Wǒmen] _SntxVerb:{zǒu ba}. != Let's go.
     <br>===  less forceful:
-    <br>· _sntxZhon: 这次考试不难吧？ :: _sntxTime:[Zhècì] _sntxSubj:[kǎoshì] _sntxSbjc:[bù nán] {ba}? != This exam is not difficult, is it?
+    <br>· _SntxZhon: 这次考试不难吧？ :: _SntxTime:[Zhècì] _SntxSubj:[kǎoshì] _SntxSbjc:[bù nán] {ba}? != This exam is not difficult, is it?
     <a class="clsHide" href="#idLZhonverbauxBadsn"></a></p>
   <p id="idLZhonverbauxBanam">name::
     <br>* McshEngl.Zhon_verb_auxi-suggestion,
@@ -11497,10 +11498,10 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· do-not
     <br>
-    <br>· _sntxZhon: _sntxVerb:{别 说话}！ Bié shuōhuà! != Don't speak!
-    <br>· _sntxZhon: 请 别吸烟。 :: _sntxVerb:{Qǐng} _sntxObj1:[bié xīyān]。 != {please} [don't smoke].
+    <br>· _SntxZhon: _SntxVerb:{别 说话}！ Bié shuōhuà! != Don't speak!
+    <br>· _SntxZhon: 请 别吸烟。 :: _SntxVerb:{Qǐng} _SntxObj1:[bié xīyān]。 != {please} [don't smoke].
     <br>=== bié-le-别-了-STOP DOING THAT (which they're already doing):
-    <br>· _sntxZhon: 别 说 了 ， 我 不 想 听 。 :: Bié shuō le, wǒ bù xiǎng tīng. != Stop talking. I don't want to listen.
+    <br>· _SntxZhon: 别 说 了 ， 我 不 想 听 。 :: Bié shuō le, wǒ bù xiǎng tīng. != Stop talking. I don't want to listen.
     <a class="clsHide" href="#idLZhonverbauxBiedsn"></a></p>
   <p id="idLZhonverbauxBienam">name::
     <br>* McshEngl.Zhon_verb_auxi-do-not,
@@ -11517,10 +11518,10 @@
   <p id="idLZhonverbauxBeidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>=== syntaxZhon: 被 passive:
-    <br>· _sntxZhon: 我們 被他 罵了。 ::_sntxSubj:[wǒmen] _sntxDoer:[bèi tā] _sntxVerb:{màle}。 != [We] [by him] {were scolded}.
+    <br>· _SntxZhon: 我們 被他 罵了。 ::_SntxSubj:[wǒmen] _SntxDoer:[bèi tā] _SntxVerb:{màle}。 != [We] [by him] {were scolded}.
     <br>
     <br>=== syntaxZhon: 被 omission passive:
-    <br>· _sntxZhon: 此事尚未决定。 :: Cǐ shì shàngwèi _sntxVerb:{juédìng}. != This matter has not yet been decided.
+    <br>· _SntxZhon: 此事尚未决定。 :: Cǐ shì shàngwèi _SntxVerb:{juédìng}. != This matter has not yet been decided.
     <br>· Notional passive: The verb is used in active form but interpreted passively because the subject (此事) is inanimate and cannot perform the action of deciding. No passive marker (被 bèi) is required — Mandarin frequently omits the passive marker when the patient is an inanimate topic.
     <a class="clsHide" href="#idLZhonverbauxBeidsn"></a></p>
   <p id="idLZhonverbauxBeinam">name::
@@ -11540,27 +11541,27 @@
     <br>· bù-不 denotes not.
     <br>
     <br>=== negates present:
-    <br>· _sntxZhon: 我 今天 晚上 不 喝酒。 :: Wǒ jīntiān wǎnshang bù hējiǔ. != Tonight I'm not going to drink.
+    <br>· _SntxZhon: 我 今天 晚上 不 喝酒。 :: Wǒ jīntiān wǎnshang bù hējiǔ. != Tonight I'm not going to drink.
     <br>
     <br>=== negates future:
-    <br>· _sntxZhon: 老板 明天 不 来 。 :: Lǎobǎn míngtiān bù lái. != The boss won't come tomorrow.
+    <br>· _SntxZhon: 老板 明天 不 来 。 :: Lǎobǎn míngtiān bù lái. != The boss won't come tomorrow.
     <br>
     <br>=== negates habitual-actions:
-    <br>· _sntxZhon: 我 不吃 鸡。 :: _sntxSubj:[Wǒ] _sntxVerb:{bù chī} _sntxObj1:[jī]。 != [I] {not eat} [chicken].
+    <br>· _SntxZhon: 我 不吃 鸡。 :: _SntxSubj:[Wǒ] _SntxVerb:{bù chī} _SntxObj1:[jī]。 != [I] {not eat} [chicken].
     <br>
     <br>=== negates adjectives:
-    <br>· _sntxZhon: 我 不 饿。 :: _sntxSubj:[Wǒ] _sntxVerb:{bù} _sntxSbjc:[è]. != I'm not hungry.
+    <br>· _SntxZhon: 我 不 饿。 :: _SntxSubj:[Wǒ] _SntxVerb:{bù} _SntxSbjc:[è]. != I'm not hungry.
     <br>
     <br>=== for asking questions: verb bu verb:
-    <br>· _sntxZhon: 你 是 不是 我 的 老师？ :: _sntxSubj:[Nǐ] _sntxVerb:{shì bu shì} _sntxSbjc:[wǒ de lǎoshī]? != Are you my teacher or not?
+    <br>· _SntxZhon: 你 是 不是 我 的 老师？ :: _SntxSubj:[Nǐ] _SntxVerb:{shì bu shì} _SntxSbjc:[wǒ de lǎoshī]? != Are you my teacher or not?
     <br>
     <br>=== for tag-questions:
-    <br>· _sntxZhon: 我们 去 吃饭 ，好 不 好？ :: Wǒmen qù chīfàn, hǎo bu hǎo? != Let's go eat, is that OK?
+    <br>· _SntxZhon: 我们 去 吃饭 ，好 不 好？ :: Wǒmen qù chīfàn, hǎo bu hǎo? != Let's go eat, is that OK?
     <br>
     <br>=== negates specific verbs:
     <br>· "Certain verbs just don't get negated by 没 (méi) or 没有 (méiyǒu) ever. These include the verbs 是 (shì) ("to be") and 在 (zài) ("to be (in a place)"), as well as some psychological verbs such as 知道 (zhīdào) ("to know") and 认识 (rènshi) ("to know (a person)"). For these verbs, it's best to just take them on a case-by-case basis. Being aware of their existence can save you a fair bit of confusion."
     <br>[{2023-07-09 retrieved} https://resources.allsetlearning.com/chinese/grammar/Comparing_%22bu%22_and_%22mei%22]
-    <br>· _sntxZhon: 昨天 我 不 在 家 。 :: Zuótiān wǒ bù zài jiā. != I was not home yesterday.
+    <br>· _SntxZhon: 昨天 我 不 在 家 。 :: Zuótiān wǒ bù zài jiā. != I was not home yesterday.
     <a class="clsHide" href="#idLZhonverbauxBudsn"></a></p>
   <p id="idLZhonverbauxBunam">name::
     <br>* McshEngl.Zhon_verb_auxi-negation,
@@ -11578,7 +11579,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· imperative-negation.
     <br>
-    <br>· _sntxZhon: 不要 走。 :: _sntxVerb:{Bùyào zǒu}. != Don't leave.
+    <br>· _SntxZhon: 不要 走。 :: _SntxVerb:{Bùyào zǒu}. != Don't leave.
     <a class="clsHide" href="#idLZhonverbauxBuyaodsn"></a></p>
   <p id="idLZhonverbauxBuyaonam">name::
     <br>* McshEngl.Zhon_verb_auxi.bùyào-不要-imperative-negation,
@@ -11596,7 +11597,7 @@
     <br>
     <br>· after verb indicates the-outcome has-been-achieved.
     <br>
-    <br>· _sntxZhon: 我 收到 你 的 微信 了。 :: wǒ shōu dào nǐ de wēixìn le. != I received your WeChat.
+    <br>· _SntxZhon: 我 收到 你 的 微信 了。 :: wǒ shōu dào nǐ de wēixìn le. != I received your WeChat.
     <a class="clsHide" href="#idLZhonverbauxDaodsn"></a></p>
   <p id="idLZhonverbauxDaonam">name::
     <br>* McshEngl.Zhon_verb_auxi.dào-到-achievement,
@@ -11612,8 +11613,8 @@
   <p id="idLZhonverbauxHuidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>=== huì-会-will:
-    <br>· _sntxZhon: 你 女儿 会 听 你 的 话。 :: _sntxSubj:[Nǐ nǚér] _sntxVerb:{huì tīng} _sntxObj1:[nǐ de huà]. != Your daughter will listen [your words].
-    <br>· _sntxZhon: 我们 不 会 告诉 你。 :: _sntxSubj:[Wǒmen] _sntxVerb:{bù huì gàosu} _sntxObj1:[nǐ]. != We won't tell you.
+    <br>· _SntxZhon: 你 女儿 会 听 你 的 话。 :: _SntxSubj:[Nǐ nǚér] _SntxVerb:{huì tīng} _SntxObj1:[nǐ de huà]. != Your daughter will listen [your words].
+    <br>· _SntxZhon: 我们 不 会 告诉 你。 :: _SntxSubj:[Wǒmen] _SntxVerb:{bù huì gàosu} _SntxObj1:[nǐ]. != We won't tell you.
     <a class="clsHide" href="#idLZhonverbauxHuidsn"></a></p>
   <p id="idLZhonverbauxHuinam">name::
     <br>* McshEngl.Zhon_verb_auxi.huì-会-will,
@@ -11648,7 +11649,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>
     <br>=== jiù-就-Zhon_verb_auxi:sooness:
-    <br>· _sntxZhon: 米饭 二十 分钟 就 好 。 :: Mǐfàn èrshí fēnzhōng _sntxVerb:{jiù hǎo}. != The rice will be ready in 20 minutes.
+    <br>· _SntxZhon: 米饭 二十 分钟 就 好 。 :: Mǐfàn èrshí fēnzhōng _SntxVerb:{jiù hǎo}. != The rice will be ready in 20 minutes.
     <a class="clsHide" href="#idLZhonverbauxJiudsn"></a></p>
   <p id="idLZhonverbauxJiunam">name::
     <br>* McshEngl.Zhon_verb_auxi.jiù-就-sooness,
@@ -11665,41 +11666,41 @@
   <p id="idLZhonverbauxLedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>=== le-了 denotes completion.
-    <br>· _sntxZhon: 我回家了。  _sntxSubj:[Wǒ] _sntxVerb:{huí} _sntxObj1:[jiā] {le}。 != [I] {went} [home]. I'm home.
-    <br>· _sntxZhon: 我走了四十分钟。  _sntxSubj:[Wǒ] _sntxVerb:{zǒu le} _sntxTimeInterval:[sìshí fēnzhōng]。 != [I] {walked} [(for) forty miniutes].
+    <br>· _SntxZhon: 我回家了。  _SntxSubj:[Wǒ] _SntxVerb:{huí} _SntxObj1:[jiā] {le}。 != [I] {went} [home]. I'm home.
+    <br>· _SntxZhon: 我走了四十分钟。  _SntxSubj:[Wǒ] _SntxVerb:{zǒu le} _SntxTimeInterval:[sìshí fēnzhōng]。 != [I] {walked} [(for) forty miniutes].
     <br>· "The particle 了 (le) has a lot of uses. One of the most common is to express the completion of an action. This is called aspect, which is not the same as tense. Tense is about when an action happens: past, present or future. With regards to 了 (le), aspect is about whether the action is complete in a certain time frame."
     <br>[{2023-06-25 retrieved} https://resources.allsetlearning.com/chinese/grammar/Expressing_completion_with_%22le%22]
     <br>
     <br>=== already:
-    <br>· _sntxZhon: 他们 工作 了。 :: _sntxSubj:[Tāmen] _sntxVerb:{gōngzuò le}. != They (already) work. (This expression emphasizes that they're not students anymore, and have already entered the workforce.)
+    <br>· _SntxZhon: 他们 工作 了。 :: _SntxSubj:[Tāmen] _SntxVerb:{gōngzuò le}. != They (already) work. (This expression emphasizes that they're not students anymore, and have already entered the workforce.)
     <br>
     <br>=== now:
-    <br>· _sntxZhon: 懂 了。 Dǒng le. != Now I understand.
+    <br>· _SntxZhon: 懂 了。 Dǒng le. != Now I understand.
     <br>
     <br>=== with 太-tài-too:
-    <br>· _sntxZhon: 老师 太 累 了。 :: _sntxSubj:[Lǎoshī] _sntxSbjc:[tài lèi] {le}. != The teacher is too tired.
+    <br>· _SntxZhon: 老师 太 累 了。 :: _SntxSubj:[Lǎoshī] _SntxSbjc:[tài lèi] {le}. != The teacher is too tired.
     <br>
     <br>=== change in state:
-    <br>· _sntxZhon: 你 胖 了。 :: _sntxSubj:[Nǐ] _sntxSbjc:[pàng] {le}. != You've gotten fat. (You used to not be fat.)
-    <br>· _sntxZhon: 我 不 买 了。 :: _sntxSubj:[Wǒ] _sntxVerb:{bù mǎi le}. != I'm not buying it now. (I had previously decided to buy it.)
+    <br>· _SntxZhon: 你 胖 了。 :: _SntxSubj:[Nǐ] _SntxSbjc:[pàng] {le}. != You've gotten fat. (You used to not be fat.)
+    <br>· _SntxZhon: 我 不 买 了。 :: _SntxSubj:[Wǒ] _SntxVerb:{bù mǎi le}. != I'm not buying it now. (I had previously decided to buy it.)
     <br>· "了 (le) has many uses. You probably first learned 了 (le) as a particle that tells you an action is completed, which is also known as "了1." However, this article is not about that use of 了 (le); instead, it is about indicating a change of state (了2). In other words, there is now a new situation, or there is about to be a new situation."
     <br>[{2023-06-24 retrieved} https://resources.allsetlearning.com/chinese/grammar/Change_of_state_with_%22le%22]
     <br>
     <br>=== 快..了-kuài..le:going-to:
-    <br>· _sntxZhon: 快 下雨 了 。 :: Kuài xiàyǔ le. != It's going to rain soon.
-    <br>· _sntxZhon: 天 快 黑 了。 :: Tiān kuài hēi le. != It’s almost getting dark.
+    <br>· _SntxZhon: 快 下雨 了 。 :: Kuài xiàyǔ le. != It's going to rain soon.
+    <br>· _SntxZhon: 天 快 黑 了。 :: Tiān kuài hēi le. != It’s almost getting dark.
     <br>=== 要..了-yào..le:going-to:
-    <br>· _sntxZhon: 我 要 生气 了！ :: Wǒ yào shēngqì le! != I'm going to get angry!
+    <br>· _SntxZhon: 我 要 生气 了！ :: Wǒ yào shēngqì le! != I'm going to get angry!
     <br>
     <br>=== timeInterval:
-    <br>· _sntxZhon: 他 学 了 一 年 中文 。 :: _sntxSubj:[Tā] _sntxVerb:{xué le} _sntxTime:[yī nián] _sntxObj1:[Zhōngwén]. != He studied Chinese for a year.
+    <br>· _SntxZhon: 他 学 了 一 年 中文 。 :: _SntxSubj:[Tā] _SntxVerb:{xué le} _SntxTime:[yī nián] _SntxObj1:[Zhōngwén]. != He studied Chinese for a year.
     <br>
     <br>=== timeInterval-continuous:
-    <br>· _sntxZhon: 你 睡 了 一 天 了。 :: _sntxSubj:[Nǐ] _sntxVerb:{shuì le} _sntxTime:[yī tiān] {le}. != You have been sleeping for the whole day.
+    <br>· _SntxZhon: 你 睡 了 一 天 了。 :: _SntxSubj:[Nǐ] _SntxVerb:{shuì le} _SntxTime:[yī tiān] {le}. != You have been sleeping for the whole day.
     <br>
     <br>===
-    <br>· _sntxZhon: 他 吃了饭。 (了₁ — perfective: "He ate.")
-    <br>· _sntxZhon: 来 不及了。 (了₂ — change of state: "It's too late now.")
+    <br>· _SntxZhon: 他 吃了饭。 (了₁ — perfective: "He ate.")
+    <br>· _SntxZhon: 来 不及了。 (了₂ — change of state: "It's too late now.")
     <br>===
     <br>* https://resources.allsetlearning.com/chinese/grammar/Uses_of_%22le%22,
     <a class="clsHide" href="#idLZhonverbauxLedsn"></a></p>
@@ -11729,11 +11730,11 @@
     <br>[{2023-05-28 retrieved} https://resources.allsetlearning.com/chinese/grammar/Learner_FAQ]
     <br>
     <br>=== guò-过:
-    <br>· _sntxZhon: 你 学 过 中文 吗？ :: _sntxSubj:[Nǐ] _sntxVerb:{xué guo} _sntxObj1:[Zhōngwén] {ma}? != Have you ever studied Chinese?
-    <br>· _sntxZhon: 我 没 学 过 这 个 词。 :: _sntxSubj:[Wǒ] _sntxVerb:{méi xué guo} _sntxObj1:[zhège cí]. != I have never studied this word before.
+    <br>· _SntxZhon: 你 学 过 中文 吗？ :: _SntxSubj:[Nǐ] _SntxVerb:{xué guo} _SntxObj1:[Zhōngwén] {ma}? != Have you ever studied Chinese?
+    <br>· _SntxZhon: 我 没 学 过 这 个 词。 :: _SntxSubj:[Wǒ] _SntxVerb:{méi xué guo} _SntxObj1:[zhège cí]. != I have never studied this word before.
     <br>
     <br>=== guò-le-过-了:
-    <br>· _sntxZhon: 她 吃 过 了。 :: _sntxSubj:[Tā] _sntxVerb:{chī guo le}. != She has eaten (already).
+    <br>· _SntxZhon: 她 吃 过 了。 :: _SntxSubj:[Tā] _SntxVerb:{chī guo le}. != She has eaten (already).
     <a class="clsHide" href="#idLZhonverbauxGuodsn"></a></p>
   <p id="idLZhonverbauxGuonam">name::
     <br>* McshEngl.Zhon_verb_auxi.guò-过-past,
@@ -11769,12 +11770,12 @@
   <p id="idLZhonverbauxMeidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>=== negation in past:
-    <br>· _sntxZhon: 我 没 钱。 Wǒ _sntxVerb:{méi} qián. != I don't have money.
+    <br>· _SntxZhon: 我 没 钱。 Wǒ _SntxVerb:{méi} qián. != I don't have money.
     <br>
     <br>=== Only 没 (méi) Negates 有 (yǒu):
-    <br>· _sntxZhon: 我 没有 钱。 :: Wǒ méiyǒu qián. != I don't have money.
+    <br>· _SntxZhon: 我 没有 钱。 :: Wǒ méiyǒu qián. != I don't have money.
     <br>=== Only 没 (méi) without 有 (yǒu):
-    <br>· _sntxZhon: 我 没 办法。 :: Wǒ méi bànfǎ. != I don't have a method.
+    <br>· _SntxZhon: 我 没 办法。 :: Wǒ méi bànfǎ. != I don't have a method.
     <a class="clsHide" href="#idLZhonverbauxMeidsn"></a></p>
   <p id="idLZhonverbauxMeinam">name::
     <br>* McshEngl.Zhon_verb_auxi.méi-没-negation,
@@ -11790,15 +11791,15 @@
   <p id="idLZhonverbauxMeiyoudsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>=== negation of past:
-    <br>· _sntxZhon: 我 没有 钱。 Wǒ _sntxVerb:{méiyǒu} qián. != I don't have money.
-    <br>· _sntxZhon: 我 没有 去 上班。 Wǒ _sntxVerb:{méiyǒu qù} shàngbān. != I didn't go to work.
-    <br>· _sntxZhon: 我 没有 做。 Wǒ _sntxVerb:{méiyǒu zuò}. != I didn't do it.
+    <br>· _SntxZhon: 我 没有 钱。 Wǒ _SntxVerb:{méiyǒu} qián. != I don't have money.
+    <br>· _SntxZhon: 我 没有 去 上班。 Wǒ _SntxVerb:{méiyǒu qù} shàngbān. != I didn't go to work.
+    <br>· _SntxZhon: 我 没有 做。 Wǒ _SntxVerb:{méiyǒu zuò}. != I didn't do it.
     <br>· "One thing you need to remember when using 没有 (méiyǒu) is that 了 (le) is not normally used with 没有 (méiyǒu). 了 (le) marks completed actions, while 没有 (méiyǒu) is used for actions that didn't happen (so of course they're not completed). These two don't work together. This is a very common mistake for beginner learners of Chinese."
     <br>[{2023-05-31 retrieved} https://resources.allsetlearning.com/chinese/grammar/Negation_of_past_actions_with_%22meiyou%22]
     <br>
     <br>=== comparisons:
-    <br>· _sntxZhon: 你 没有 我 高。 :: Nǐ méiyǒu wǒ gāo. != You are not as tall as me.
-    <br>· _sntxZhon: 我 的 手机 没有 他 的 手机 贵。 :: Wǒ de shǒujī méiyǒu tā de shǒujī guì. != My cell phone isn't as expensive as his.
+    <br>· _SntxZhon: 你 没有 我 高。 :: Nǐ méiyǒu wǒ gāo. != You are not as tall as me.
+    <br>· _SntxZhon: 我 的 手机 没有 他 的 手机 贵。 :: Wǒ de shǒujī méiyǒu tā de shǒujī guì. != My cell phone isn't as expensive as his.
     <a class="clsHide" href="#idLZhonverbauxMeiyoudsn"></a></p>
   <p id="idLZhonverbauxMeiyounam">name::
     <br>* McshEngl.Zhon_verb_auxi.méiyǒu-没有-negation-past,
@@ -11819,7 +11820,7 @@
     <br>=== <a class="clsPreview" href="#idLZhonsntcAskNe">question</a>,
     <br>
     <br>=== confident:
-    <br>· _sntxZhon: 我 不 要 回家 。还 早 呢！ Wǒ bù yào huíjiā. Hái zǎo ne! != I don't want to go home. It's still early!
+    <br>· _SntxZhon: 我 不 要 回家 。还 早 呢！ Wǒ bù yào huíjiā. Hái zǎo ne! != I don't want to go home. It's still early!
     <br>
     <br>=== <a class="clsPreview" href="../dirLag/McshLag000023.last.html#idWrdrZhonprtcl21602">particle</a>,
     <a class="clsHide" href="#idLZhonverbauxNedsn"></a></p>
@@ -11841,7 +11842,7 @@
     <br>· sentence suggestion.
     <br>
     <br>=== yàobù..ba-要不..吧!~Zhon_verb_auxi!=sentenceSuggestion:
-    <br>· _sntxZhon: 大家 都 有点 累 了，要不 休息 一会儿 吧 。 :: _sntxQuant:[Dàjiā dōu] _sntxQuant:[yǒudiǎn] _sntxVerb:{lèi le}, _sntxVerb:{yàobù xiūxi} _sntxTime:[yīhuìr] {ba}. != Everyone is a little tired. Let's rest for a while.
+    <br>· _SntxZhon: 大家 都 有点 累 了，要不 休息 一会儿 吧 。 :: _SntxQuant:[Dàjiā dōu] _SntxQuant:[yǒudiǎn] _SntxVerb:{lèi le}, _SntxVerb:{yàobù xiūxi} _SntxTime:[yīhuìr] {ba}. != Everyone is a little tired. Let's rest for a while.
     <a class="clsHide" href="#idLZhonverbauxYaobubadsn"></a></p>
   <p id="idLZhonverbauxYaobubanam">name::
     <br>* McshEngl.sentenceSuggestion,
@@ -11859,8 +11860,8 @@
   <p id="idLZhonverbauxYinggaidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>=== yīnggāi-应该:
-    <br>· _sntxZhon: 在 中国， 你 应该 喝 白酒。 :: _sntxSpace:[Zài Zhōngguó], _sntxSubj:[nǐ] _sntxVerb:{yīnggāi hē} _sntxObj1:[báijiǔ]. != In China, you should drink baijiu.
-    <br>· _sntxZhon: 你 不 应该 告诉 他。 :: _sntxSubj:[Nǐ] _sntxVerb:{bù yīnggāi gàosu} _sntxObj1:[tā]. != You should not tell him.
+    <br>· _SntxZhon: 在 中国， 你 应该 喝 白酒。 :: _SntxSpace:[Zài Zhōngguó], _SntxSubj:[nǐ] _SntxVerb:{yīnggāi hē} _SntxObj1:[báijiǔ]. != In China, you should drink baijiu.
+    <br>· _SntxZhon: 你 不 应该 告诉 他。 :: _SntxSubj:[Nǐ] _SntxVerb:{bù yīnggāi gàosu} _SntxObj1:[tā]. != You should not tell him.
     <a class="clsHide" href="#idLZhonverbauxYinggaidsn"></a></p>
   <p id="idLZhonverbauxYinggainam">name::
     <br>* McshEngl.should,
@@ -11881,7 +11882,7 @@
     <br>· negation emphasis.
     <br>
     <br>=== yòubù-又不!~Zhon_verb_auxi!=negationEmphasis:
-    <br>· _sntxZhon: 你 现在 又 不 忙 ，来 帮 我 一下 。 :: Nǐ xiànzài yòu bù máng, lái bāng wǒ yīxià. != You're not busy now. Come and help me.
+    <br>· _SntxZhon: 你 现在 又 不 忙 ，来 帮 我 一下 。 :: Nǐ xiànzài yòu bù máng, lái bāng wǒ yīxià. != You're not busy now. Come and help me.
     <a class="clsHide" href="#idLZhonverbauxYoubudsn"></a></p>
   <p id="idLZhonverbauxYoubunam">name::
     <br>* McshEngl.negationEmphasis,
@@ -11900,7 +11901,7 @@
     <br>· negation emphasis.
     <br>
     <br>=== yòuméi-又没!~Zhon_verb_auxi!=negationEmphasis:
-    <br>· _sntxZhon: 又 没 下 雨 ，带 伞 干吗 ？ :: Yòu méi xiàyǔ, dài sǎn gànmá? != It's not raining. Why are you bringing the umbrella?
+    <br>· _SntxZhon: 又 没 下 雨 ，带 伞 干吗 ？ :: Yòu méi xiàyǔ, dài sǎn gànmá? != It's not raining. Why are you bringing the umbrella?
     <a class="clsHide" href="#idLZhonverbauxYoumeidsn"></a></p>
   <p id="idLZhonverbauxYoumeinam">name::
     <br>* McshEngl.negationEmphasis,
@@ -11921,8 +11922,8 @@
     <br>[{2023-07-13 retrieved} https://resources.allsetlearning.com/chinese/grammar/Expressing_%22again%22_in_the_future_with_%22zai%22]
     <br>
     <br>=== zài-再-Zhon_verb_auxi:continuation:
-    <br>· _sntxZhon: 别 急 ，再 想想 。 :: Bié jí, zài xiǎngxiang. != Don't worry. Keep thinking.
-    <br>· _sntxZhon: 再 等 一会儿 。 :: Zài děng yīhuǐr. != Wait a little longer.
+    <br>· _SntxZhon: 别 急 ，再 想想 。 :: Bié jí, zài xiǎngxiang. != Don't worry. Keep thinking.
+    <br>· _SntxZhon: 再 等 一会儿 。 :: Zài děng yīhuǐr. != Wait a little longer.
     <a class="clsHide" href="#idLZhonverbauxZai2dsn"></a></p>
   <p id="idLZhonverbauxZai2nam">name::
     <br>* McshEngl.Zhon_verb_auxi.zài-再-continuation,
@@ -11939,7 +11940,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· zài-在 denotes is-happening.
     <br>
-    <br>· _sntxZhon: 我 在挂 画。 :: _sntxSubj:[Wǒ] _sntxVerb:{zài guà} _sntxObj1:[huà]。 != [I] {am hanging} [pictures].
+    <br>· _SntxZhon: 我 在挂 画。 :: _SntxSubj:[Wǒ] _SntxVerb:{zài guà} _SntxObj1:[huà]。 != [I] {am hanging} [pictures].
     <a class="clsHide" href="#idLZhonverbauxZaidsn"></a></p>
   <p id="idLZhonverbauxZainam">name::
     <br>* McshEngl.Zhon_verb_auxi-happening,
@@ -11984,7 +11985,7 @@
     <br>· "You can use 正在 (zhèngzài) instead of just 在 (zài) to put a little more emphasis on an action that is in progress right now."
     <br>[{2023-06-13 retrieved} https://resources.allsetlearning.com/chinese/grammar/Expressing_actions_in_progress_with_%22zai%22]
     <br>
-    <br>· _sntxZhon: _sntxSubj:[我] _sntxVerb:{正在挂} _sntxObj1:[画]。 Wǒ zhèngzài guà huà. != [I] {am hanging} [pictures].
+    <br>· _SntxZhon: _SntxSubj:[我] _SntxVerb:{正在挂} _SntxObj1:[画]。 Wǒ zhèngzài guà huà. != [I] {am hanging} [pictures].
     <a class="clsHide" href="#idLZhonverbauxZhengzaidsn"></a></p>
   <p id="idLZhonverbauxZhengzainam">name::
     <br>* McshEngl.Zhon_verb_auxi-happening,
@@ -12112,7 +12113,7 @@
   <p id="idLZhonverbomsndsn">description::
     <br>× Mcsh-creation: {2026-07-19}
     <br>
-    <br>· _sntxZhon: 黄河 在 中国。 :: _sntxSubj:[Huánghé] _sntxSpace:[(zài) zhōngguó]。 != [Yellow river] [(in) China]
+    <br>· _SntxZhon: 黄河 在 中国。 :: _SntxSubj:[Huánghé] _SntxSpace:[(zài) zhōngguó]。 != [Yellow river] [(in) China]
     <br>
     <br>"In Chinese grammar, the **omission (or ellipsis) of verbs** is a common and natural phenomenon, but it is **highly context-dependent**. Unlike in English, where a verb is almost always required to form a complete sentence, Chinese allows verb omission to avoid repetition, streamline sentences, or maintain conversational flow.
     <br>Here is a comprehensive breakdown of when, how, and why Chinese omits verbs.
@@ -12728,10 +12729,10 @@
   <p id="idLZhonverbChar1Shi4dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>=== RltnEquality:
-    <br>· _sntxZhon: 这 是 电脑。 :: _sntxSubj:[zhè] _sntxVerb:{shì} _sntxSbjc:[diànnǎo]。 != This is a-computer.
-    <br>· _sntxZhon: 我 是 学生。 :: _sntxSubj:[wǒ] _sntxVerb:{shì} _sntxSbjc:[xuéshēnɡ]. != I am a-student.
+    <br>· _SntxZhon: 这 是 电脑。 :: _SntxSubj:[zhè] _SntxVerb:{shì} _SntxSbjc:[diànnǎo]。 != This is a-computer.
+    <br>· _SntxZhon: 我 是 学生。 :: _SntxSubj:[wǒ] _SntxVerb:{shì} _SntxSbjc:[xuéshēnɡ]. != I am a-student.
     <br>=== RltnEngityAttributeSequence:
-    <br>· _sntxZhon: 这个书店 是 新 的。 :: _sntxSubj:[Zhè ge shūdiàn] _sntxVerb:{shì} _sntxSbjc:[xīn] de。 != [this bookstore] {is} [new].
+    <br>· _SntxZhon: 这个书店 是 新 的。 :: _SntxSubj:[Zhè ge shūdiàn] _SntxVerb:{shì} _SntxSbjc:[xīn] de。 != [this bookstore] {is} [new].
     <br>=== RltnSpecificGeneric:
     <a class="clsHide" href="#idLZhonverbChar1Shi4dsn"></a></p>
   <p id="idLZhonverbChar1Shi4nam">name::
@@ -12777,7 +12778,7 @@
   <p id="idLZhonverbChar2Yuanlidsn">description::
     <br>× Mcsh-creation: {2026-07-09}
     <br>· 远离 (yuǎnlí), means "to stay away from," "to keep far from," or "to be far away from." It's a verb made up of 远 (yuǎn - far) + 离 (lí - to leave/from). It's commonly used in both formal and informal contexts, often in advice, warnings, or descriptive statements.
-    <br>· _sntxZhon: 我们要远离坏习惯。 :: Wǒmen yào yuǎnlí huài xíguàn. != We need to stay away from bad habits.
+    <br>· _SntxZhon: 我们要远离坏习惯。 :: Wǒmen yào yuǎnlí huài xíguàn. != We need to stay away from bad habits.
     <a class="clsHide" href="#idLZhonverbChar2Yuanlidsn"></a></p>
   <p id="idLZhonverbChar2Yuanlinam">name::
     <br>* McshEngl.Zhon_verb.yuǎnlí-远离!=to-stay-away-from,
@@ -12857,10 +12858,10 @@
     <br>* postposition before the-verb, preposition after the-verb.
     <br>
     <br>=== _syntaxZhon: ArgtVerb Conj Verb:
-    <br>· _sntxZhon: 慢慢 地 走。 :: _sntxManner:[[mànmàn](de)] _sntxVerb:{zǒu}. != slowly walk.
+    <br>· _SntxZhon: 慢慢 地 走。 :: _SntxManner:[[mànmàn](de)] _SntxVerb:{zǒu}. != slowly walk.
     <br>
     <br>=== _syntaxZhon: Vverb Conj ArgtVerb:
-    <br>· _sntxZhon: 飞 得 快。 :: _sntxVerb:{fēi} _sntxManner:[(de)[kuài]]. != fly quickly.
+    <br>· _SntxZhon: 飞 得 快。 :: _SntxVerb:{fēi} _SntxManner:[(de)[kuài]]. != fly quickly.
     <a class="clsHide" href="#idLZhonconjstxdsn"></a></p>
   <p id="idLZhonconjstxnam">name::
     <br>* McshEngl.Zhonconj'syntax,
@@ -12996,7 +12997,7 @@
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idLHmnmobt">RltnObj1</a>,
     <br>
     <br>=== bǎ-把!=SemuconjVerbObj1:
-    <br>· _sntxZhon: 请 把车 洗一洗。 :: _sntxOther:[qǐng] _sntxObj1:[(bǎ) chē] _sntxVerb:{xǐyixǐ}。 != [Please] [the car] {wash}.
+    <br>· _SntxZhon: 请 把车 洗一洗。 :: _SntxOther:[qǐng] _SntxObj1:[(bǎ) chē] _SntxVerb:{xǐyixǐ}。 != [Please] [the car] {wash}.
     <a class="clsHide" href="#idLZhonconj_005dsn"></a></p>
   <p id="idLZhonconj_005nam">name::
     <br>* McshEngl.Zhonconj.005-bǎ-把RltnObj1,
@@ -13012,7 +13013,7 @@
     <a class="clsHide" href="#idLZhonconj_029H3"></a></h3>
   <p id="idLZhonconj_029dsn">description::
     <br>× Mcsh-creation: {2026-07-07}
-    <br>· _sntxZhon: 他 在门背后。 :: _sntxSubj:[Tā] _sntxSbjc:[(zài) mén (bèihòu)]. != He is behind the door.
+    <br>· _SntxZhon: 他 在门背后。 :: _SntxSubj:[Tā] _SntxSbjc:[(zài) mén (bèihòu)]. != He is behind the door.
     <a class="clsHide" href="#idLZhonconj_029dsn"></a></p>
   <p id="idLZhonconj_029nam">name::
     <br>* McshEngl.behind,
@@ -13030,7 +13031,7 @@
   <p id="idLZhonconj_030dsn">description::
     <br>× Mcsh-creation: {2026-07-07}
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnAdtn">RltnAddition</a>,
-    <br>· _sntxZhon: 她 善良 并 美丽。 :: _sntxSubj:[Tā] _sntxSbjc:[shànliáng (bìng) měilì]. != She is kind and moreover beautiful.
+    <br>· _SntxZhon: 她 善良 并 美丽。 :: _SntxSubj:[Tā] _SntxSbjc:[shànliáng (bìng) měilì]. != She is kind and moreover beautiful.
     <br>· It's slightly more formal than just using 和 (hé) or 而且 (érqiě).
     <a class="clsHide" href="#idLZhonconj_030dsn"></a></p>
   <p id="idLZhonconj_030nam">name::
@@ -13049,7 +13050,7 @@
   <p id="idLZhonconj_031dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnAdtn">RltnAddition</a>,
-    <br>· _sntxZhon: 我喜欢跑步，并且每天坚持。 :: [Wǒ xǐhuān pǎobù], [(bìngqiě) měitiān jiānchí]. != I like running, and I persist every day.
+    <br>· _SntxZhon: 我喜欢跑步，并且每天坚持。 :: [Wǒ xǐhuān pǎobù], [(bìngqiě) měitiān jiānchí]. != I like running, and I persist every day.
     <a class="clsHide" href="#idLZhonconj_031dsn"></a></p>
   <p id="idLZhonconj_031nam">name::
     <br>* McshEngl.RltnAddition,
@@ -13068,8 +13069,8 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnDjcnIn">RltnDisunionInclusive</a>,
-    <br>· _sntxZhon: 我不喜欢吃辣，也不喜欢吃甜。 :: [Wǒ (bù) xǐhuān chī là], [(yěbù) xǐhuān chī tián]. != I neither like to eat spicy food, nor do I like to eat sweet food.
-    <br>· _sntxZhon: 她 不 胖 也不 瘦。 :: _sntxSubj:[Tā] _sntxSbjc:[(bù)pàng(yěbù)shòu]。 != She is neither fat nor thin.
+    <br>· _SntxZhon: 我不喜欢吃辣，也不喜欢吃甜。 :: [Wǒ (bù) xǐhuān chī là], [(yěbù) xǐhuān chī tián]. != I neither like to eat spicy food, nor do I like to eat sweet food.
+    <br>· _SntxZhon: 她 不 胖 也不 瘦。 :: _SntxSubj:[Tā] _SntxSbjc:[(bù)pàng(yěbù)shòu]。 != She is neither fat nor thin.
     <a class="clsHide" href="#idLZhonconj_008dsn"></a></p>
   <p id="idLZhonconj_008nam">name::
     <br>* McshEngl.neither..nor,
@@ -13087,7 +13088,7 @@
   <p id="idLZhonconj_032dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
     <br>
-    <br>· _sntxZhon: 不管 下雨 还是 晴天，我 都 去跑步。 :: [(Bùguǎn) xiàyǔ háishì qíngtiān], [wǒ (dōu) qù pǎobù]. != Whether it rains or is sunny, I still go running.
+    <br>· _SntxZhon: 不管 下雨 还是 晴天，我 都 去跑步。 :: [(Bùguǎn) xiàyǔ háishì qíngtiān], [wǒ (dōu) qù pǎobù]. != Whether it rains or is sunny, I still go running.
     <a class="clsHide" href="#idLZhonconj_032dsn"></a></p>
   <p id="idLZhonconj_032nam">name::
     <br>* McshEngl.regardless..still,
@@ -13105,7 +13106,7 @@
   <p id="idLZhonconj_033dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
     <br>
-    <br>· _sntxZhon: 不管 多 忙，我 也 要 学 中文。 :: [(Bùguǎn) duō máng], [wǒ (yě) yào xué Zhōngwén]. != No matter how busy I am, I still want to study Chinese.
+    <br>· _SntxZhon: 不管 多 忙，我 也 要 学 中文。 :: [(Bùguǎn) duō máng], [wǒ (yě) yào xué Zhōngwén]. != No matter how busy I am, I still want to study Chinese.
     <a class="clsHide" href="#idLZhonconj_033dsn"></a></p>
   <p id="idLZhonconj_033nam">name::
     <br>* McshEngl.regardless..still,
@@ -13124,7 +13125,7 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnOpsn">RltnOpposition:more-informal</a>,
-    <br>· _sntxZhon: 我 喜欢 这个 电影，不过 我 不 喜欢 这个 演员。 :: _sntxSubj:[Wǒ] _sntxSbjc:[xǐhuān zhège diànyǐng], [(búguò) wǒ (bù) xǐhuān zhège yǎnyuán]. != I like this movie, but I don't like this actor.
+    <br>· _SntxZhon: 我 喜欢 这个 电影，不过 我 不 喜欢 这个 演员。 :: _SntxSubj:[Wǒ] _SntxSbjc:[xǐhuān zhège diànyǐng], [(búguò) wǒ (bù) xǐhuān zhège yǎnyuán]. != I like this movie, but I don't like this actor.
     <a class="clsHide" href="#idLZhonconj_009dsn"></a></p>
   <p id="idLZhonconj_009nam">name::
     <br>* McshEngl.but/however,
@@ -13143,7 +13144,7 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnOpsn">RltnOpposition:formal</a>,
-    <br>· _sntxZhon: 我 喜欢 这个 电影，但是 我 不 喜欢 这个 演员。 :: _sntxSubj:[Wǒ] _sntxSbjc:[xǐhuān zhège diànyǐng], [(dànshì) wǒ (bù) xǐhuān zhège yǎnyuán]. != I like this movie, but I don't like this actor.
+    <br>· _SntxZhon: 我 喜欢 这个 电影，但是 我 不 喜欢 这个 演员。 :: _SntxSubj:[Wǒ] _SntxSbjc:[xǐhuān zhège diànyǐng], [(dànshì) wǒ (bù) xǐhuān zhège yǎnyuán]. != I like this movie, but I don't like this actor.
     <a class="clsHide" href="#idLZhonconj_024dsn"></a></p>
   <p id="idLZhonconj_024nam">name::
     <br>* McshEngl.RltnOpposition:formal,
@@ -13161,7 +13162,7 @@
   <p id="idLZhonconj_063dsn">description::
     <br>× Mcsh-creation: {2026-07-28}
     <br>
-    <br>· _sntxZhon: 我 到公園 走走。:: _sntxSubj:[wǒ] _sntxSpaceDire:[(dào) gōngyuán] _sntxVerb:{zǒu zǒu} != I to park walk walk != I'm going for a walk in the park.
+    <br>· _SntxZhon: 我 到公園 走走。:: _SntxSubj:[wǒ] _SntxSpaceDire:[(dào) gōngyuán] _SntxVerb:{zǒu zǒu} != I to park walk walk != I'm going for a walk in the park.
     <a class="clsHide" href="#idLZhonconj_063dsn"></a></p>
   <p id="idLZhonconj_063nam">name::
     <br>* McshEngl.to,
@@ -13180,16 +13181,16 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idEntatrrln2">RltnAttribute_then_entity</a>.
-    <br>· _sntxZhon: [白色](的)[狗] != white dog.
-    <br>· _sntxZhon: 可爱 的 宝宝 [kě'ài] (de) [bǎobao] != a cute baby
+    <br>· _SntxZhon: [白色](的)[狗] != white dog.
+    <br>· _SntxZhon: 可爱 的 宝宝 [kě'ài] (de) [bǎobao] != a cute baby
     <br>· "This structure comes up extremely frequently and is an easy way to attribute features to nouns. Occasionally you will see this 的 (de) omitted, but note that if the adjective has two characters (e.g. 漂亮 (piàoliang) or 高兴 (gāoxìng)), the 的 (de) is generally required."
     <br>[{2023-06-18 retrieved} https://resources.allsetlearning.com/chinese/grammar/Modifying_nouns_with_adjective_%2B_%22de%22]
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idEntatrrln2">RltnEntity_then_attribute</a>.
-    <br>· _sntxZhon: 我 妻子 的 朋友 [[wǒ][qīzi]] (de) [péngyǒu] != my wife's friend.
-    <br>· _sntxZhon: 小李 的 房子 [Xiǎo Lǐ] (de) [fángzi] != Xiao Li's house
-    <br>· _sntxZhon: 这 两 个 词 的 意思 差不多。 :: _sntxSubj:[[Zhè liǎng gè cí] (de) [yìsi]] _sntxSbjc:[chàbuduō]. != The meanings of these two words are pretty much the same.
-    <br>· _sntxZhon: 北京 的 房子 比 上海 更 贵。 :: _sntxSubj:[[Běijīng (de) fángzi] (bǐ) Shànghǎi] _sntxSbjc:[gèng guì]. != The houses in Beijing are even more expensive than those in Shanghai.
+    <br>· _SntxZhon: 我 妻子 的 朋友 [[wǒ][qīzi]] (de) [péngyǒu] != my wife's friend.
+    <br>· _SntxZhon: 小李 的 房子 [Xiǎo Lǐ] (de) [fángzi] != Xiao Li's house
+    <br>· _SntxZhon: 这 两 个 词 的 意思 差不多。 :: _SntxSubj:[[Zhè liǎng gè cí] (de) [yìsi]] _SntxSbjc:[chàbuduō]. != The meanings of these two words are pretty much the same.
+    <br>· _SntxZhon: 北京 的 房子 比 上海 更 贵。 :: _SntxSubj:[[Běijīng (de) fángzi] (bǐ) Shànghǎi] _SntxSbjc:[gèng guì]. != The houses in Beijing are even more expensive than those in Shanghai.
     <br>
     <br>* <a class="clsPreview" href="../dirLag/McshLag000023.last.html#idWrdrZhonprtcl30340">particle-的</a>,
     <a class="clsHide" href="#idLZhonconj_001dsn"></a></p>
@@ -13210,8 +13211,8 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>
     <br>=== _syntaxZhon: Adje + 地 + Verb
-    <br>· _sntxZhon: 慢慢地 走 :: _sntxManner:[[mànmàn](de)] _sntxVerb:{zǒu}. != slowly walk.
-    <br>· _sntxZhon: 生气 地 说 :: _sntxManner:[shēngqì (de)] _sntxVerb:{shuō} != angrily say
+    <br>· _SntxZhon: 慢慢地 走 :: _SntxManner:[[mànmàn](de)] _SntxVerb:{zǒu}. != slowly walk.
+    <br>· _SntxZhon: 生气 地 说 :: _SntxManner:[shēngqì (de)] _SntxVerb:{shuō} != angrily say
     <br>"$ 请慢慢地说。 vs 请慢慢说。in english:
     <br>The difference is purely one of **register and style** — the meaning is identical: *"Please speak slowly."*
     <br>**请慢慢地说。**
@@ -13227,7 +13228,7 @@
     <br>[{2026-07-30 retrieved} https://www.kimi.com/chat/19fb2816-66a2-8620-8000-094ba6952669?chat_enter_method=new_chat]
     <br>
     <br>=== _syntaxZhon: Adve + 地 + Adje
-    <br>· _sntxZhon: 特别地珍贵 :: tèbié de zhēnguì != particularly precious
+    <br>· _SntxZhon: 特别地珍贵 :: tèbié de zhēnguì != particularly precious
     <br>
     <br>===
     <br>"Even native Chinese speakers sometimes misuse 的 and 地, both of which can be structural particles. When used as a structural particle, 地 is often placed after adjectives and adverbs to serve as an adverbial marker.
@@ -13250,8 +13251,8 @@
   <p id="idLZhonconj_003dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>=== _syntaxZhon: Verb 得 Argt:
-    <br>· _sntxZhon: 飞 得 快。 :: _sntxVerb:{fēi} _sntxManner:[(de)[kuài]]. != fly quickly.
-    <br>· _sntxZhon: 他 跑 得很慢。 :: _sntxSubj:[Tā] _sntxVerb:{pǎo} _sntxManner:[(dé) hěn màn]。 . != [he] {runs} [very slowly].
+    <br>· _SntxZhon: 飞 得 快。 :: _SntxVerb:{fēi} _SntxManner:[(de)[kuài]]. != fly quickly.
+    <br>· _SntxZhon: 他 跑 得很慢。 :: _SntxSubj:[Tā] _SntxVerb:{pǎo} _SntxManner:[(dé) hěn màn]。 . != [he] {runs} [very slowly].
     <br>
     <br>=== Noun(entity) + 得 + Noun(attribute):
     <a class="clsHide" href="#idLZhonconj_003dsn"></a></p>
@@ -13272,8 +13273,8 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnCdn">RltnCondition:when</a>,
-    <br>· _sntxZhon: 我 上班的时候 听 音乐。 :: _sntxSubj:[Wǒ] _sntxTime:[shàngbān (de)(shíhou)] _sntxVerb:{tīng} _sntxObj1:[yīnyuè]. != I listen to music while working.
-    <br>· _sntxZhon: 忙的时候 别忘了 吃饭。:: Máng de shíhòu _sntxVerb:{bié wàngle} chīfàn. != Don't forget to eat when you're busy.
+    <br>· _SntxZhon: 我 上班的时候 听 音乐。 :: _SntxSubj:[Wǒ] _SntxTime:[shàngbān (de)(shíhou)] _SntxVerb:{tīng} _SntxObj1:[yīnyuè]. != I listen to music while working.
+    <br>· _SntxZhon: 忙的时候 别忘了 吃饭。:: Máng de shíhòu _SntxVerb:{bié wàngle} chīfàn. != Don't forget to eat when you're busy.
     <a class="clsHide" href="#idLZhonconj_010dsn"></a></p>
   <p id="idLZhonconj_010nam">name::
     <br>* McshEngl.RltnCondition:when,
@@ -13292,8 +13293,8 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnGoal">RltnGoal</a>,
-    <br>· _sntxZhon: 喝茶 对身体好。 :: _sntxSubj:[Hē chá] _sntxSbjc:[[(duì)shēntǐ][hǎo]]。 != [drinking tea] [[(for) health] [good]].
-    <br>· _sntxZhon: 我 对中文 感兴趣。 :: _sntxSubj:[Wǒ] _sntxObj1:[(duì) Zhōngwén] _sntxVerb:{gǎn xìngqù}. != I am interested in Chinese.
+    <br>· _SntxZhon: 喝茶 对身体好。 :: _SntxSubj:[Hē chá] _SntxSbjc:[[(duì)shēntǐ][hǎo]]。 != [drinking tea] [[(for) health] [good]].
+    <br>· _SntxZhon: 我 对中文 感兴趣。 :: _SntxSubj:[Wǒ] _SntxObj1:[(duì) Zhōngwén] _SntxVerb:{gǎn xìngqù}. != I am interested in Chinese.
     <a class="clsHide" href="#idLZhonconj_027dsn"></a></p>
   <p id="idLZhonconj_027nam">name::
     <br>* McshEngl.RltnGoal,
@@ -13312,10 +13313,10 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnAdtn">RltnAddition</a>,
-    <br>· _sntxZhon: 她 年轻 而 美丽。 :: _sntxSubj:[Tā] _sntxSbjc:[niánqīng (ér) měilì]。 != [She] {is} [young (and) beautiful].
+    <br>· _SntxZhon: 她 年轻 而 美丽。 :: _SntxSubj:[Tā] _SntxSbjc:[niánqīng (ér) měilì]。 != [She] {is} [young (and) beautiful].
     <br>
-    <br>· _sntxZhon: 他不但会游泳，而且 游得很快。 :: [Tā (bùdàn) huì yóuyǒng], [(érqiě) yóu de hěn kuài]. != He not only can swim, but also swims very fast.
-    <br>· _sntxZhon: 然而，我 不想 去。 :: (Rán'ér), _sntxSubj:[wǒ] _sntxVerb:{bù xiǎng} _sntxObject:[qù]. != However, I don't want to go.
+    <br>· _SntxZhon: 他不但会游泳，而且 游得很快。 :: [Tā (bùdàn) huì yóuyǒng], [(érqiě) yóu de hěn kuài]. != He not only can swim, but also swims very fast.
+    <br>· _SntxZhon: 然而，我 不想 去。 :: (Rán'ér), _SntxSubj:[wǒ] _SntxVerb:{bù xiǎng} _SntxObject:[qù]. != However, I don't want to go.
     <a class="clsHide" href="#idLZhonconj_014dsn"></a></p>
   <p id="idLZhonconj_014nam">name::
     <br>* McshEngl.RltnAddition,
@@ -13334,8 +13335,8 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>
     <br>× semu-relation: <a class="clsPreview" href="..//dirLag/McshLag000007.last.html#idLHmnmobt2">RltnObj2</a>,
-    <br>· _sntxZhon: 我 给妈妈 寄了 礼物。 :: _sntxSubj:[Wǒ] _sntxObj2:[(gěi) māma] _sntxVerb:{jìle} _sntxObj1:[lǐwù]. != 	I have mailed the gift to mom.
-    <br>· _sntxZhon: _sntxZhon: 电脑 我 不能 借给他。 :: _sntxObj1:[Diànnǎo] _sntxSubj:[wǒ] _sntxVerb:{bù néng} _sntxObj1:[{jiè} (gěi) tā]。 != [the-computer] [I] {can not} [{lend} (to) him]. I can't lend him the computer.
+    <br>· _SntxZhon: 我 给妈妈 寄了 礼物。 :: _SntxSubj:[Wǒ] _SntxObj2:[(gěi) māma] _SntxVerb:{jìle} _SntxObj1:[lǐwù]. != 	I have mailed the gift to mom.
+    <br>· _SntxZhon: _SntxZhon: 电脑 我 不能 借给他。 :: _SntxObj1:[Diànnǎo] _SntxSubj:[wǒ] _SntxVerb:{bù néng} _SntxObj1:[{jiè} (gěi) tā]。 != [the-computer] [I] {can not} [{lend} (to) him]. I can't lend him the computer.
     <a class="clsHide" href="#idLZhonconj_004dsn"></a></p>
   <p id="idLZhonconj_004nam">name::
     <br>* McshEngl.RltnObj2,
@@ -13354,13 +13355,13 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnAdtn">RltnAddition</a>,
-    <br>· _sntxZhon: 美国文化 跟 中国文化 不一样。 :: _sntxSubj:[Měiguó wénhuà (gēn) Zhōngguó wénhuà]  _sntxSbjc:[bù yīyàng]. != American culture and Chinese culture are not the same.
+    <br>· _SntxZhon: 美国文化 跟 中国文化 不一样。 :: _SntxSubj:[Měiguó wénhuà (gēn) Zhōngguó wénhuà]  _SntxSbjc:[bù yīyàng]. != American culture and Chinese culture are not the same.
 
-    <br>· _sntxZhon: 你 或许 应该 跟他 谈谈。 :: Nǐ huòxǔ yīnggāi gēn tā tántan. != You **might** want to talk to him.
-    <br>· _sntxZhon: 我 昨天 跟朋友 去 海滩 了。 :: _sntxSubj:[Wǒ] _sntxTime:[zuótiān] _sntxManner:[(gēn) péngyou] _sntxVerb:{qù} _sntxObj1:[hǎitān] {le}. != I went to the beach with friends yesterday.
-    <br>· _sntxZhon: 我 要 跟你 见面。 :: _sntxSubj:[Wǒ] _sntxVerb:{yào} _sntxObj1:[[(gēn) nǐ] {jiànmiàn}]. != I want to meet with you.
-    <br>· _sntxZhon: 跟我一起 读。 :: _sntxManner:[Gēn wǒ yīqǐ] _sntxVerb:{dú}. != Read with me.
-    <br>· _sntxZhon: 跟我 读。 :: _sntxManner:[Gēn wǒ] _sntxVerb:{dú}. != Read after me.
+    <br>· _SntxZhon: 你 或许 应该 跟他 谈谈。 :: Nǐ huòxǔ yīnggāi gēn tā tántan. != You **might** want to talk to him.
+    <br>· _SntxZhon: 我 昨天 跟朋友 去 海滩 了。 :: _SntxSubj:[Wǒ] _SntxTime:[zuótiān] _SntxManner:[(gēn) péngyou] _SntxVerb:{qù} _SntxObj1:[hǎitān] {le}. != I went to the beach with friends yesterday.
+    <br>· _SntxZhon: 我 要 跟你 见面。 :: _SntxSubj:[Wǒ] _SntxVerb:{yào} _SntxObj1:[[(gēn) nǐ] {jiànmiàn}]. != I want to meet with you.
+    <br>· _SntxZhon: 跟我一起 读。 :: _SntxManner:[Gēn wǒ yīqǐ] _SntxVerb:{dú}. != Read with me.
+    <br>· _SntxZhon: 跟我 读。 :: _SntxManner:[Gēn wǒ] _SntxVerb:{dú}. != Read after me.
     <a class="clsHide" href="#idLZhonconj_013dsn"></a></p>
   <p id="idLZhonconj_013nam">name::
     <br>* McshEngl.RltnAddition,
@@ -13379,8 +13380,8 @@
     <br>× Mcsh-creation: {2026-07-08}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirHlth/McshHlth000003.last.html#idMinddngCmngargSbt">RltnArgtActgComgInfo</a>,
-    <br>· _sntxZhon: 关于 这个 问题，我 有 一些 想法。 :: [(Guānyú) zhège wèntí], [wǒ yǒu yīxiē xiǎngfǎ]. != Regarding this issue, I have some thoughts.
-    <br>· _sntxZhon: 有 关于 猫的电影。 :: _sntxVerb:{yǒu} _sntxSbjc:[(guānyú) [māo de diànyǐng]]. != There are movies about cats.
+    <br>· _SntxZhon: 关于 这个 问题，我 有 一些 想法。 :: [(Guānyú) zhège wèntí], [wǒ yǒu yīxiē xiǎngfǎ]. != Regarding this issue, I have some thoughts.
+    <br>· _SntxZhon: 有 关于 猫的电影。 :: _SntxVerb:{yǒu} _SntxSbjc:[(guānyú) [māo de diànyǐng]]. != There are movies about cats.
     <a class="clsHide" href="#idLZhonconj_034dsn"></a></p>
   <p id="idLZhonconj_034nam">name::
     <br>* McshEngl.RltnArgtActgComgInfo,
@@ -13399,16 +13400,16 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnAdtn">RltnAddition</a>,
-    <br>· _sntxZhon: 她 有 一个弟弟，还 有 一个妹妹。 :: [Tā yǒu yī gè dìdi], [(hái) [yǒu yī gè mèimei]]. != She has a younger brother and also has a younger sister.
+    <br>· _SntxZhon: 她 有 一个弟弟，还 有 一个妹妹。 :: [Tā yǒu yī gè dìdi], [(hái) [yǒu yī gè mèimei]]. != She has a younger brother and also has a younger sister.
 
-    <br>· _sntxZhon: 他 还 在睡觉。 :: Tā (hái) _sntxVerb:{zài shuìjiào}. != He is still sleeping.
-    <br>· _sntxZhon: 已经 中午 了，他 还 在睡？ :: Yǐjīng zhōngwǔ le, tā (hái) zài shuì? != It's already noon and he's still sleeping?
-    <br>· _sntxZhon: 我 不要 回家 。还 早 呢！ Wǒ bù yào huíjiā. Hái zǎo ne! != I don't want to go home. It's still early!
-    <br>· _sntxZhon: 我们 都 忘 了 ，就 他 还 记得 。 :: Wǒmen dōu wàng le, jiù tā hái jìde. != We all forgot. Only he still remembers it.
-    <br>· _sntxZhon: 这件事情 我 还 在 考虑 。 :: Zhè jiàn shìqing wǒ hái zài kǎolǜ. != I am still thinking over this matter.
-    <br>· _sntxZhon: 都 二十一世纪 了 ，你 还 这么 想 ？ :: Dōu èrshí-yī shìjì le, nǐ hái zhème xiǎng? != It's already the 21st century and you still think this way?
+    <br>· _SntxZhon: 他 还 在睡觉。 :: Tā (hái) _SntxVerb:{zài shuìjiào}. != He is still sleeping.
+    <br>· _SntxZhon: 已经 中午 了，他 还 在睡？ :: Yǐjīng zhōngwǔ le, tā (hái) zài shuì? != It's already noon and he's still sleeping?
+    <br>· _SntxZhon: 我 不要 回家 。还 早 呢！ Wǒ bù yào huíjiā. Hái zǎo ne! != I don't want to go home. It's still early!
+    <br>· _SntxZhon: 我们 都 忘 了 ，就 他 还 记得 。 :: Wǒmen dōu wàng le, jiù tā hái jìde. != We all forgot. Only he still remembers it.
+    <br>· _SntxZhon: 这件事情 我 还 在 考虑 。 :: Zhè jiàn shìqing wǒ hái zài kǎolǜ. != I am still thinking over this matter.
+    <br>· _SntxZhon: 都 二十一世纪 了 ，你 还 这么 想 ？ :: Dōu èrshí-yī shìjì le, nǐ hái zhème xiǎng? != It's already the 21st century and you still think this way?
     <br>
-    <br>· _sntxZhon: 你 需要 吃 药 。还有 ，要 多 休息 。 :: Nǐ xūyào chī yào. (Háiyǒu), yào duō xiūxi. != You need to take medicine. Also, you should get more rest.
+    <br>· _SntxZhon: 你 需要 吃 药 。还有 ，要 多 休息 。 :: Nǐ xūyào chī yào. (Háiyǒu), yào duō xiūxi. != You need to take medicine. Also, you should get more rest.
     <a class="clsHide" href="#idLZhonconj_015dsn"></a></p>
   <p id="idLZhonconj_015nam">name::
     <br>* McshEngl.RltnAddition:and-also,
@@ -13427,7 +13428,7 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnAdtn">RltnAddition</a>,
-    <br>· _sntxZhon: 你 需要 吃药 。还有 ，要 多 休息 。 :: [Nǐ xūyào chī yào]. [(Háiyǒu), yào duō xiūxi]. != You need to take medicine. Also, you should get more rest.
+    <br>· _SntxZhon: 你 需要 吃药 。还有 ，要 多 休息 。 :: [Nǐ xūyào chī yào]. [(Háiyǒu), yào duō xiūxi]. != You need to take medicine. Also, you should get more rest.
     <a class="clsHide" href="#idLZhonconj_016dsn"></a></p>
   <p id="idLZhonconj_016nam">name::
     <br>* McshEngl.RltnAddition:and-also,
@@ -13448,11 +13449,11 @@
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnAdtn">RltnAddition</a>,
     <br>"One of the most common English words is the word “and,” which we use to connect nouns, verbs, phrases and sentences. “And” is often translated to “和(hé)” in Chinese. However, in Chinese, <span class="clsColorRed">you cannot use “和” to connect sentences</span> – the result would sound very awkward!
     <br>we can use “和” to connect nouns, verbs, and short non-sentence phrases.
-    <br>· _sntxZhon: 我有两个哥哥和一个妹妹。 :: Wǒ yǒu liǎng gè gēgē hé yīgè mèimei. != I have two older brothers and a younger sister.
-    <br>· _sntxZhon: 他喜欢游泳和打篮球。 :: Tā _sntxVerb:{xǐhuān} _sntxSbjc:[[yóuyǒng] (hé) [dǎ lánqiú]]. != He likes swimming and playing basketball."
+    <br>· _SntxZhon: 我有两个哥哥和一个妹妹。 :: Wǒ yǒu liǎng gè gēgē hé yīgè mèimei. != I have two older brothers and a younger sister.
+    <br>· _SntxZhon: 他喜欢游泳和打篮球。 :: Tā _SntxVerb:{xǐhuān} _SntxSbjc:[[yóuyǒng] (hé) [dǎ lánqiú]]. != He likes swimming and playing basketball."
     <br>[{2023-05-21 retrieved} https://www.digmandarin.com/top-20-common-mistakes-chinese-learners-make.html]
     <br>
-    <br>· _sntxZhon: 你 和 我 :: nǐ hé wǒ != you and I
+    <br>· _SntxZhon: 你 和 我 :: nǐ hé wǒ != you and I
     <a class="clsHide" href="#idLZhonconj_006dsn"></a></p>
   <p id="idLZhonconj_006nam">name::
     <br>* McshEngl.RltnAddition,
@@ -13473,7 +13474,7 @@
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000006.last.html#idTimeRltvAft">RltnTimeRelaAfterTime</a>,
     <br>· Postposition (Time): Means "after". In Chinese, time words like 后 (after), 前 (before), 时 (when) come after the noun/verb they modify. Together, 发射后 forms a temporal adverbial phrase meaning "after launch" / "after the launch". [DeepSeek]
     <br>
-    <br>· _sntxZhon: 我 再三考虑后 决定 辞职。 :: Wǒ _sntxTime:[zài sān kǎolǜ (hòu)] _sntxVerb:{juédìng} cízhí.!= I decided to resign after considering it over and over. != 后 (hòu) — Noun/Postposition: "after, behind, later" [DeepSeek]
+    <br>· _SntxZhon: 我 再三考虑后 决定 辞职。 :: Wǒ _SntxTime:[zài sān kǎolǜ (hòu)] _SntxVerb:{juédìng} cízhí.!= I decided to resign after considering it over and over. != 后 (hòu) — Noun/Postposition: "after, behind, later" [DeepSeek]
     <a class="clsHide" href="#idLZhonconj_055dsn"></a></p>
   <p id="idLZhonconj_055nam">name::
     <br>* McshEngl.RltnTimeRelaAfterTime,
@@ -13492,7 +13493,7 @@
     <br>× Mcsh-creation: {2026-07-08}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnDjcnIn">RltnDisunionInclusive</a>,
-    <br>· _sntxZhon: 你 想 喝 茶 或 咖啡？ :: _sntxSubj:[Nǐ] _sntxVerb:{xiǎng} _sntxObject:[_sntxVerb:{hē} _sntxObject:[chá (huò) kāfēi]]? != Do you want to drink tea or coffee?
+    <br>· _SntxZhon: 你 想 喝 茶 或 咖啡？ :: _SntxSubj:[Nǐ] _SntxVerb:{xiǎng} _SntxObject:[_SntxVerb:{hē} _SntxObject:[chá (huò) kāfēi]]? != Do you want to drink tea or coffee?
     <br>· Note: 或 (huò) is more formal and often used in writing. In spoken Chinese, people usually use 或者 (huòzhě) instead, especially in longer sentences. Both mean "or." [DeepSeek]
     <a class="clsHide" href="#idLZhonconj_035dsn"></a></p>
   <p id="idLZhonconj_035nam">name::
@@ -13512,8 +13513,8 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnDjcnIn">RltnDisunionInclusive</a>,
-    <br>· _sntxZhon: 我 喝 咖啡或者茶，都 行。 :: [_sntxSubj:[Wǒ] _sntxVerb:{hē} _sntxObj1:[kāfēi (huòzhě) chá]], dōu xíng. != I drink coffee or tea. Either is OK.
-    <br>· _sntxZhon: 今天晚上 我 想 吃 披萨或者寿司。 :: _sntxTime:[Jīntiān wǎnshang] _sntxSubj:[wǒ] _sntxVerb:{xiǎng} _sntxObj1:[_sntxVerb:{chī} pīsà huòzhě shòusī]. != Tonight I would like to eat pizza or sushi.
+    <br>· _SntxZhon: 我 喝 咖啡或者茶，都 行。 :: [_SntxSubj:[Wǒ] _SntxVerb:{hē} _SntxObj1:[kāfēi (huòzhě) chá]], dōu xíng. != I drink coffee or tea. Either is OK.
+    <br>· _SntxZhon: 今天晚上 我 想 吃 披萨或者寿司。 :: _SntxTime:[Jīntiān wǎnshang] _SntxSubj:[wǒ] _SntxVerb:{xiǎng} _SntxObj1:[_SntxVerb:{chī} pīsà huòzhě shòusī]. != Tonight I would like to eat pizza or sushi.
     <a class="clsHide" href="#idLZhonconj_007dsn"></a></p>
   <p id="idLZhonconj_007nam">name::
     <br>* McshEngl.RltnDisunionInclusive,
@@ -13532,7 +13533,7 @@
     <br>× Mcsh-creation: {2026-07-08}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnAdtn">RltnAddition</a>,
-    <br>· _sntxZhon: 我 喜欢 苹果及香蕉。  :: _sntxSubj:[Wǒ] _sntxVerb:{xǐhuān} _sntxObject:[píngguǒ (jí) xiāngjiāo]. != I like apples and bananas.
+    <br>· _SntxZhon: 我 喜欢 苹果及香蕉。  :: _SntxSubj:[Wǒ] _SntxVerb:{xǐhuān} _SntxObject:[píngguǒ (jí) xiāngjiāo]. != I like apples and bananas.
     <a class="clsHide" href="#idLZhonconj_036dsn"></a></p>
   <p id="idLZhonconj_036nam">name::
     <br>* McshEngl.RltnAddition:and-also,
@@ -13551,7 +13552,7 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnEfct">RltnCause_then_Effect:consequently</a>,
-    <br>· _sntxZhon: 她 穿 得 很 少 ，结果 感冒 了 。 :: Tā chuān de hěn shǎo, (jiéguǒ) gǎnmào le. != She didn't dress warmly enough, and as a result, she caught a cold.
+    <br>· _SntxZhon: 她 穿 得 很 少 ，结果 感冒 了 。 :: Tā chuān de hěn shǎo, (jiéguǒ) gǎnmào le. != She didn't dress warmly enough, and as a result, she caught a cold.
     <a class="clsHide" href="#idLZhonconj_018dsn"></a></p>
   <p id="idLZhonconj_018nam">name::
     <br>* McshEngl.RltnCause_then_Effect:consequently,
@@ -13570,7 +13571,7 @@
     <br>× Mcsh-creation: {2026-07-08}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnOpsn">RltnOpposition:although</a>,
-    <br>· _sntxZhon: 尽管 下雨，他 还是 去 跑步 了。 :: [(Jǐnguǎn) xiàyǔ], [tā háishì _sntxVerb:{qù} pǎobù le]. != Although it was raining, he still went running.
+    <br>· _SntxZhon: 尽管 下雨，他 还是 去 跑步 了。 :: [(Jǐnguǎn) xiàyǔ], [tā háishì _SntxVerb:{qù} pǎobù le]. != Although it was raining, he still went running.
     <a class="clsHide" href="#idLZhonconj_037dsn"></a></p>
   <p id="idLZhonconj_037nam">name::
     <br>* McshEngl.RltnOpposition:although,
@@ -13589,7 +13590,7 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>* mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnEfct">RltnCause_then_Effect:then</a>,
-    <br>· _sntxZhon: 你 喜欢 喝 奶茶，我们 就 买 奶茶 吧。 [Nǐ xǐhuan hē nǎichá], [_sntxSubj:[wǒmen] _sntxEffect:[jiù] _sntxVerb:{mǎi} _sntxObj1:[nǎichá] {ba}]. != So you like milk tea. Then we'll buy milk tea.
+    <br>· _SntxZhon: 你 喜欢 喝 奶茶，我们 就 买 奶茶 吧。 [Nǐ xǐhuan hē nǎichá], [_SntxSubj:[wǒmen] _SntxEffect:[jiù] _SntxVerb:{mǎi} _SntxObj1:[nǎichá] {ba}]. != So you like milk tea. Then we'll buy milk tea.
     <a class="clsHide" href="#idLZhonconj_019dsn"></a></p>
   <p id="idLZhonconj_019nam">name::
     <br>* McshEngl.RltnCause_then_Effect:then,
@@ -13608,7 +13609,7 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>
     <br>· mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnOpsn">RltnOpposition:informal</a>,
-    <br>· _sntxZhon: 虽然 贵，可是 很 好吃。 :: [(Suīrán) guì], [(kěshì) hěn hǎochī]. != Although it's expensive, it's delicious.
+    <br>· _SntxZhon: 虽然 贵，可是 很 好吃。 :: [(Suīrán) guì], [(kěshì) hěn hǎochī]. != Although it's expensive, it's delicious.
     <a class="clsHide" href="#idLZhonconj_025dsn"></a></p>
   <p id="idLZhonconj_025nam">name::
     <br>* McshEngl.RltnOpposition:informal,
@@ -13626,7 +13627,7 @@
   <p id="idLZhonconj_026dsn">description::
     <br>× Mcsh-creation: {2026-07-06}
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnGoal">RltnGoal</a>,
-    <br>· _sntxZhon: 我们 用 中文 来交流。 :: Wǒmen _sntxVerb:{yòng} Zhōngwén _sntxGoal:[(lái) jiāoliú]. != We use Chinese to communicate."
+    <br>· _SntxZhon: 我们 用 中文 来交流。 :: Wǒmen _SntxVerb:{yòng} Zhōngwén _SntxGoal:[(lái) jiāoliú]. != We use Chinese to communicate."
     <a class="clsHide" href="#idLZhonconj_026dsn"></a></p>
   <p id="idLZhonconj_026nam">name::
     <br>* McshEngl.RltnGoal,
@@ -13644,7 +13645,7 @@
   <p id="idLZhonconj_012dsn">description::
     <br>× Mcsh-creation: {2026-07-06}
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnCdn">RltnCondition:if..then</a>,
-    <br>· _sntxZhon: 我们 都 忘 了 ，就 他 还 记得 。 :: Wǒmen dōu wàng le, jiù tā hái jìde. != We all forgot. Only he still remembers it.
+    <br>· _SntxZhon: 我们 都 忘 了 ，就 他 还 记得 。 :: Wǒmen dōu wàng le, jiù tā hái jìde. != We all forgot. Only he still remembers it.
     <a class="clsHide" href="#idLZhonconj_012dsn"></a></p>
   <p id="idLZhonconj_012nam">name::
     <br>* McshEngl.RltnCondition:as-soon-as,
@@ -13664,19 +13665,19 @@
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000007.last.html#idSpcIn">RltnSpaceIn</a>,
     <br>· postposition.
-    <br>· _sntxZhon: 他 在教室里。 :: _sntxSubj:[Tā] _sntxSbjc:[(zài) jiàoshì (lǐ)]. != He is **inside** the classroom.
-    <br>· _sntxZhon: 你的手机 在包里 吗 ？ :: _sntxSubj:[Nǐ de shǒujī] _sntxSbjc:[zài bāo lǐ] ma? != Is your cell phone in the bag?
-    <br>· _sntxZhon: 第 一天，我们 在宾馆里。 :: Dì-yī tiān, wǒmen zài bīnguǎn lǐ. != On the first day, we will be in the hotel.
-    <br>· _sntxZhon: 她 住 在一栋大房子里。 :: Tā zhù zài yī dòng dà fángzi lǐ. != She lives in a big house.
-    <br>· _sntxZhon: 我们 暂时 住 在这里。 :: Wǒmen _sntxTime:[zhànshí] _sntxVerb:{zhù} _sntxSpace:[zài zhèlǐ].!= We are living here temporarily.
+    <br>· _SntxZhon: 他 在教室里。 :: _SntxSubj:[Tā] _SntxSbjc:[(zài) jiàoshì (lǐ)]. != He is **inside** the classroom.
+    <br>· _SntxZhon: 你的手机 在包里 吗 ？ :: _SntxSubj:[Nǐ de shǒujī] _SntxSbjc:[zài bāo lǐ] ma? != Is your cell phone in the bag?
+    <br>· _SntxZhon: 第 一天，我们 在宾馆里。 :: Dì-yī tiān, wǒmen zài bīnguǎn lǐ. != On the first day, we will be in the hotel.
+    <br>· _SntxZhon: 她 住 在一栋大房子里。 :: Tā zhù zài yī dòng dà fángzi lǐ. != She lives in a big house.
+    <br>· _SntxZhon: 我们 暂时 住 在这里。 :: Wǒmen _SntxTime:[zhànshí] _SntxVerb:{zhù} _SntxSpace:[zài zhèlǐ].!= We are living here temporarily.
     <br>
-    <br>· _sntxZhon: 教室里 有 二十来个学生。 :: _sntxSubj:[Jiàoshì (lǐ)] yǒu èrshí lái gè xuésheng. != There are about twenty or so students in the classroom."
+    <br>· _SntxZhon: 教室里 有 二十来个学生。 :: _SntxSubj:[Jiàoshì (lǐ)] yǒu èrshí lái gè xuésheng. != There are about twenty or so students in the classroom."
     <br>
-    <br>· _sntxZhon: 你 在哪里？ :: _sntxSubj:[Nǐ] _sntxSbjc:[(zài) nǎ (lǐ)]? != Where are you? ANSWER: 我 在 家。 Wǒ zài jiā. I'm at home.
-    <br>· _sntxZhon: 洗手间 在哪里？:: Xǐshǒujiān zàinǎlǐ? != where is the-restroom?
-    <br>· _sntxZhon: 你的家 在哪里？ :: Nǐ de jiā zàinǎlǐ? != your home is where?
+    <br>· _SntxZhon: 你 在哪里？ :: _SntxSubj:[Nǐ] _SntxSbjc:[(zài) nǎ (lǐ)]? != Where are you? ANSWER: 我 在 家。 Wǒ zài jiā. I'm at home.
+    <br>· _SntxZhon: 洗手间 在哪里？:: Xǐshǒujiān zàinǎlǐ? != where is the-restroom?
+    <br>· _SntxZhon: 你的家 在哪里？ :: Nǐ de jiā zàinǎlǐ? != your home is where?
     <br>
-    <br>· _sntxZhon: 你 哪里 痛？ :: Nǐ nǎlǐ tòng? != [you] [where] {pain}?
+    <br>· _SntxZhon: 你 哪里 痛？ :: Nǐ nǎlǐ tòng? != [you] [where] {pain}?
     <a class="clsHide" href="#idLZhonconj_056dsn"></a></p>
   <p id="idLZhonconj_056nam">name::
     <br>* McshEngl.in|inside,
@@ -13693,7 +13694,7 @@
     <a class="clsHide" href="#idLZhonconj_038H3"></a></h3>
   <p id="idLZhonconj_038dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
-    <br>· _sntxZhon: 她 站 在 老师 面前。 :: _sntxSubj:[Tā] _sntxVerb:{zhàn} _sntxSpace:[(zài) lǎoshī (miànqián)]. != She stands in front of the teacher.
+    <br>· _SntxZhon: 她 站 在 老师 面前。 :: _SntxSubj:[Tā] _SntxVerb:{zhàn} _SntxSpace:[(zài) lǎoshī (miànqián)]. != She stands in front of the teacher.
     <a class="clsHide" href="#idLZhonconj_038dsn"></a></p>
   <p id="idLZhonconj_038nam">name::
     <br>* McshEngl.in-front-of,
@@ -13746,7 +13747,7 @@
     <br>× Mcsh-creation: {2026-07-14}
     <br>· postposition.
     <br>
-    <br>· _sntxZhon: 篝火 旁边 :: gōuhuǒ pángbiān != beside the bonfire
+    <br>· _SntxZhon: 篝火 旁边 :: gōuhuǒ pángbiān != beside the bonfire
     <a class="clsHide" href="#idLZhonconj_061dsn"></a></p>
   <p id="idLZhonconj_061nam">name::
     <br>* McshEngl.beside|next-to,
@@ -13765,7 +13766,7 @@
     <br>× Mcsh-creation: {2026-07-14}
     <br>· postposition.
     <br>
-    <br>· _sntxZhon: 考试 前 :: kǎoshì qián != before the exam
+    <br>· _SntxZhon: 考试 前 :: kǎoshì qián != before the exam
     <a class="clsHide" href="#idLZhonconj_059dsn"></a></p>
   <p id="idLZhonconj_059nam">name::
     <br>* McshEngl.in-front-of|before,
@@ -13799,8 +13800,8 @@
     <a class="clsHide" href="#idLZhonconj_039H3"></a></h3>
   <p id="idLZhonconj_039dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
-    <br>· _sntxZhon: 然而，我 不想 去。 :: (Rán'ér), _sntxSubj:[wǒ] _sntxVerb:{bù xiǎng} _sntxObject:[qù]. != However, I don't want to go.
-    <br>· _sntxZhon: 他很努力，然而失败了。 :: [Tā hěn nǔlì], [(rán'ér) shībài le]. != He worked hard; however, he failed.
+    <br>· _SntxZhon: 然而，我 不想 去。 :: (Rán'ér), _SntxSubj:[wǒ] _SntxVerb:{bù xiǎng} _SntxObject:[qù]. != However, I don't want to go.
+    <br>· _SntxZhon: 他很努力，然而失败了。 :: [Tā hěn nǔlì], [(rán'ér) shībài le]. != He worked hard; however, he failed.
     <a class="clsHide" href="#idLZhonconj_039dsn"></a></p>
   <p id="idLZhonconj_039nam">name::
     <br>* McshEngl.RltnOpposition:But|However,
@@ -13836,7 +13837,7 @@
     <br>× Mcsh-creation: {2026-07-14}
     <br>· postposition.
     <br>
-    <br>· _sntxZhon: 理论 上 :: lǐlùn shàng != in theory
+    <br>· _SntxZhon: 理论 上 :: lǐlùn shàng != in theory
     <a class="clsHide" href="#idLZhonconj_057dsn"></a></p>
   <p id="idLZhonconj_057nam">name::
     <br>* McshEngl.on|upon|in(abstract),
@@ -13853,7 +13854,7 @@
     <a class="clsHide" href="#idLZhonconj_040H3"></a></h3>
   <p id="idLZhonconj_040dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
-    <br>· _sntxZhon: 虽然 下雨，但是 我 不带 伞。 :: [(Suīrán) xiàyǔ], [(dànshì) wǒ bù dài sǎn]. != Although it's raining, I don't bring an umbrella.
+    <br>· _SntxZhon: 虽然 下雨，但是 我 不带 伞。 :: [(Suīrán) xiàyǔ], [(dànshì) wǒ bù dài sǎn]. != Although it's raining, I don't bring an umbrella.
     <a class="clsHide" href="#idLZhonconj_040dsn"></a></p>
   <p id="idLZhonconj_040nam">name::
     <br>* McshEngl.RltnOpposition:although,
@@ -13872,7 +13873,7 @@
     <br>× Mcsh-creation: {2026-07-08}
     <br>
     <br>· mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnOpsn">RltnOpposition:informal</a>,
-    <br>· _sntxZhon: 虽然 贵，可是 很 好吃。 :: [(Suīrán) guì], [(kěshì) hěn hǎochī]. != Although it's expensive, it's delicious.
+    <br>· _SntxZhon: 虽然 贵，可是 很 好吃。 :: [(Suīrán) guì], [(kěshì) hěn hǎochī]. != Although it's expensive, it's delicious.
     <a class="clsHide" href="#idLZhonconj_041dsn"></a></p>
   <p id="idLZhonconj_041nam">name::
     <br>* McshEngl.RltnOpposition:although,
@@ -13908,7 +13909,7 @@
     <br>× Mcsh-creation: {2026-07-08}
     <br>
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnAdtn">RltnAddition</a>,
-    <br>· _sntxZhon: 我 同 他 去 商店。 :: _sntxSubj:[Wǒ] _sntxOther:[tóng tā] _sntxVerb:{qù} _sntxSpace:[shāngdiàn]. != I go to the store with him.
+    <br>· _SntxZhon: 我 同 他 去 商店。 :: _SntxSubj:[Wǒ] _SntxOther:[tóng tā] _SntxVerb:{qù} _SntxSpace:[shāngdiàn]. != I go to the store with him.
     <a class="clsHide" href="#idLZhonconj_042dsn"></a></p>
   <p id="idLZhonconj_042nam">name::
     <br>* McshEngl.RltnAddition:and-also,
@@ -13927,8 +13928,8 @@
     <br>× Mcsh-creation: {2026-07-08}
     <br>· postposition.
     <br>
-    <br>· _sntxZhon: 城 外 :: chéng wài != outside the city
-    <br>· _sntxZhon: 他 在门外。 :: _sntxSubj:[Tā] _sntxSbjc:[(zài) mén (wài)]. != He is outside the door.
+    <br>· _SntxZhon: 城 外 :: chéng wài != outside the city
+    <br>· _SntxZhon: 他 在门外。 :: _SntxSubj:[Tā] _SntxSbjc:[(zài) mén (wài)]. != He is outside the door.
     <a class="clsHide" href="#idLZhonconj_043dsn"></a></p>
   <p id="idLZhonconj_043nam">name::
     <br>* McshEngl.outside,
@@ -13945,8 +13946,8 @@
     <a class="clsHide" href="#idLZhonconj_044H3"></a></h3>
   <p id="idLZhonconj_044dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
-    <br>· _sntxZhon: 为了 健康，我 每天 跑步。 :: _sntxGoal:[Wèile jiànkāng], _sntxSubj:[wǒ] _sntxTime:[měitiān] _sntxVerb:{pǎobù}. != For health, I run every day.
-    <br>· _sntxZhon: 我 为了 省 钱 不坐 出租车。 :: _sntxSubj:[Wǒ] _sntxGoal:[wèile shěng qián] _sntxVerb:{bù zuò} _sntxObject:[chūzūchē]. != I don't take a taxi in order to save money.
+    <br>· _SntxZhon: 为了 健康，我 每天 跑步。 :: _SntxGoal:[Wèile jiànkāng], _SntxSubj:[wǒ] _SntxTime:[měitiān] _SntxVerb:{pǎobù}. != For health, I run every day.
+    <br>· _SntxZhon: 我 为了 省 钱 不坐 出租车。 :: _SntxSubj:[Wǒ] _SntxGoal:[wèile shěng qián] _SntxVerb:{bù zuò} _SntxObject:[chūzūchē]. != I don't take a taxi in order to save money.
     <a class="clsHide" href="#idLZhonconj_044dsn"></a></p>
   <p id="idLZhonconj_044nam">name::
     <br>* McshEngl.for,
@@ -13965,7 +13966,7 @@
     <br>× Mcsh-creation: {2026-07-08}
     <br>· 无 (wú) — which means "without", "not have", "none", or "nothing".
     <br>· Important: 无 is very formal/literary and is commonly used in written Chinese, idioms, signs, and formal announcements. In everyday spoken Chinese, people usually use 没有 (méiyǒu) instead.
-    <br>· _sntxZhon: 我 无 钱。 :: _sntxSubj:[Wǒ] _sntxSbjc:[(wú) qián]. != I have no money. (Very formal/literary)
+    <br>· _SntxZhon: 我 无 钱。 :: _SntxSubj:[Wǒ] _SntxSbjc:[(wú) qián]. != I have no money. (Very formal/literary)
     <a class="clsHide" href="#idLZhonconj_045dsn"></a></p>
   <p id="idLZhonconj_045nam">name::
     <br>* McshEngl.without,
@@ -13984,7 +13985,7 @@
     <br>× Mcsh-creation: {2026-07-14}
     <br>· postposition.
     <br>
-    <br>· _sntxZhon: 树 下 :: shù xià != under the tree
+    <br>· _SntxZhon: 树 下 :: shù xià != under the tree
     <a class="clsHide" href="#idLZhonconj_058dsn"></a></p>
   <p id="idLZhonconj_058nam">name::
     <br>* McshEngl.under|below|under(circumstances),
@@ -14053,7 +14054,7 @@
     <a class="clsHide" href="#idLZhonconj_046H3"></a></h3>
   <p id="idLZhonconj_046dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
-    <br>· _sntxZhon: 我 喜欢 苹果 以及 香蕉。 :: _sntxSubj:[Wǒ] _sntxVerb:{xǐhuān} _sntxObject:[píngguǒ (yǐjí) xiāngjiāo]. != I like apples as well as bananas.
+    <br>· _SntxZhon: 我 喜欢 苹果 以及 香蕉。 :: _SntxSubj:[Wǒ] _SntxVerb:{xǐhuān} _SntxObject:[píngguǒ (yǐjí) xiāngjiāo]. != I like apples as well as bananas.
     <a class="clsHide" href="#idLZhonconj_046dsn"></a></p>
   <p id="idLZhonconj_046nam">name::
     <br>* McshEngl.and/as-well-as/along-with,
@@ -14072,7 +14073,7 @@
     <br>× Mcsh-creation: {2026-07-14}
     <br>· postposition.
     <br>
-    <br>· _sntxZhon: 他 到来 以来 :: tā dàolái yǐlái != since his arrival (since he came)
+    <br>· _SntxZhon: 他 到来 以来 :: tā dàolái yǐlái != since his arrival (since he came)
     <a class="clsHide" href="#idLZhonconj_062dsn"></a></p>
   <p id="idLZhonconj_062nam">name::
     <br>* McshEngl.since,
@@ -14090,7 +14091,7 @@
   <p id="idLZhonconj_047dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
     <br>· 因此 (yīncǐ), which means "therefore," "thus," or "as a result." It's used to show cause and effect, and it's more formal than 所以 (suǒyǐ).
-    <br>· _sntxZhon: 他 生病了，因此 没来 上学。 :: [Tā shēngbìng le], [(yīncǐ) méi lái shàngxué]. != He got sick, therefore he didn't come to school.
+    <br>· _SntxZhon: 他 生病了，因此 没来 上学。 :: [Tā shēngbìng le], [(yīncǐ) méi lái shàngxué]. != He got sick, therefore he didn't come to school.
     <a class="clsHide" href="#idLZhonconj_047dsn"></a></p>
   <p id="idLZhonconj_047nam">name::
     <br>* McshEngl.RltnCause_then_Effect:therefore,
@@ -14107,7 +14108,7 @@
     <a class="clsHide" href="#idLZhonconj_048H3"></a></h3>
   <p id="idLZhonconj_048dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
-    <br>· _sntxZhon: 我 喜欢 她，因为 她 很 善良。 :: [Wǒ xǐhuān tā], [(yīnwèi) tā hěn shànliáng]. != I like her because she is very kind.
+    <br>· _SntxZhon: 我 喜欢 她，因为 她 很 善良。 :: [Wǒ xǐhuān tā], [(yīnwèi) tā hěn shànliáng]. != I like her because she is very kind.
     <a class="clsHide" href="#idLZhonconj_048dsn"></a></p>
   <p id="idLZhonconj_048nam">name::
     <br>* McshEngl.because,
@@ -14125,7 +14126,7 @@
   <p id="idLZhonconj_049dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
     <br>· 由于 (yóuyú) means "due to," "because of," or "owing to". It is formal and often used in writing, news reports, or official documents.
-    <br>· _sntxZhon: 由于 他 的 帮助，我 成功了。 :: _sntxCause:[Yóuyú tā de bāngzhù], _sntxSubj:[wǒ] _sntxVerb:{chénggōng le}. != Owing to his help, I succeeded.
+    <br>· _SntxZhon: 由于 他 的 帮助，我 成功了。 :: _SntxCause:[Yóuyú tā de bāngzhù], _SntxSubj:[wǒ] _SntxVerb:{chénggōng le}. != Owing to his help, I succeeded.
     <a class="clsHide" href="#idLZhonconj_049dsn"></a></p>
   <p id="idLZhonconj_049nam">name::
     <br>* McshEngl.due-to/owing-to/because-of,
@@ -14143,7 +14144,7 @@
   <p id="idLZhonconj_050dsn">description::
     <br>× Mcsh-creation: {2026-07-08}
     <br>· Like 以及 and 由于, 与 is very formal and is commonly used in writing, official documents, news, and academic texts. It connects nouns or noun phrases, similar to 和 (hé) and 以及 (yǐjí), but with a more literary and formal tone.
-    <br>· 我 与 他 是 好朋友。 :: _sntxSubj:[Wǒ yǔ tā] _sntxVerb:{shì} _sntxSbjc:[hǎo péngyou]. != He and I are good friends.
+    <br>· 我 与 他 是 好朋友。 :: _SntxSubj:[Wǒ yǔ tā] _SntxVerb:{shì} _SntxSbjc:[hǎo péngyou]. != He and I are good friends.
     <a class="clsHide" href="#idLZhonconj_050dsn"></a></p>
   <p id="idLZhonconj_050nam">name::
     <br>* McshEngl.and/with,
@@ -14160,7 +14161,7 @@
     <a class="clsHide" href="#idLZhonconj_064H3"></a></h3>
   <p id="idLZhonconj_064dsn">description::
     <br>× Mcsh-creation: {2026-08-02}
-    <br>· _sntxZhon: 学校 与 医院 之间 有 一个公园。 :: _sntxSubj:[Xuéxiào (yǔ) yīyuàn (zhījiān)] _sntxVerb:{yǒu} _sntxSbjc:[yī gè gōngyuán]. != There is a park between the school and the hospital."
+    <br>· _SntxZhon: 学校 与 医院 之间 有 一个公园。 :: _SntxSubj:[Xuéxiào (yǔ) yīyuàn (zhījiān)] _SntxVerb:{yǒu} _SntxSbjc:[yī gè gōngyuán]. != There is a park between the school and the hospital."
     <a class="clsHide" href="#idLZhonconj_064dsn"></a></p>
   <p id="idLZhonconj_064nam">name::
     <br>* McshEngl.between,
@@ -14179,7 +14180,7 @@
     <br>× Mcsh-creation: {2026-07-09}
     <br>· 至 (zhì) meaning "to" or "until".
     <br>· In everyday speech, 到 (dào) is more common for "to/until," while 至 is more formal, literary, or used in fixed expressions (e.g., 甚至 shènzhì = "even").
-    <br>· _sntxZhon: 火车 从 北京 至 上海。 :: _sntxSubj:[Huǒchē] _sntxVerb:{cóng} _sntxSpace:[Běijīng (zhì) Shànghǎi]. != The train goes from Beijing to Shanghai.
+    <br>· _SntxZhon: 火车 从 北京 至 上海。 :: _SntxSubj:[Huǒchē] _SntxVerb:{cóng} _SntxSpace:[Běijīng (zhì) Shànghǎi]. != The train goes from Beijing to Shanghai.
     <a class="clsHide" href="#idLZhonconj_051dsn"></a></p>
   <p id="idLZhonconj_051nam">name::
     <br>* McshEngl.to,
@@ -14199,7 +14200,7 @@
     <br>· 之间 (zhījiān) meaning "between" or "among".
     <br>· 之间 is used for both physical space (between two objects) and abstract relationships (between people, ideas, times).  The structure is usually A 与/和 B 之间 = "between A and B."
     <br>
-    <br>· _sntxZhon: 我们 之间 没有 秘密。 :: _sntxSubj:[Wǒmen (zhījiān)] _sntxVerb:{méiyǒu} _sntxSbjc:[mìmì]. != There are no secrets between us.
+    <br>· _SntxZhon: 我们 之间 没有 秘密。 :: _SntxSubj:[Wǒmen (zhījiān)] _SntxVerb:{méiyǒu} _SntxSbjc:[mìmì]. != There are no secrets between us.
     <a class="clsHide" href="#idLZhonconj_052dsn"></a></p>
   <p id="idLZhonconj_052nam">name::
     <br>* McshEngl.between,
@@ -14216,8 +14217,8 @@
     <a class="clsHide" href="#idLZhonconj_053H3"></a></h3>
   <p id="idLZhonconj_053dsn">description::
     <br>× Mcsh-creation: {2026-07-09}
-    <br>· _sntxZhon: 他 只有 周末 才 有 空。 :: _sntxSubj:[Tā] _sntxCause:[(zhǐ) yǒu zhōumò] _sntxEffect:[(cái) yǒu kòng]. != He is only free on weekends.
-    <br>· _sntxZhon: 只有 努力 才 能 成功。 :: _sntxCause:[(Zhǐ) yǒu nǔlì] _sntxEffect:[(cái) néng chénggōng]. != Only hard work can lead to success.
+    <br>· _SntxZhon: 他 只有 周末 才 有 空。 :: _SntxSubj:[Tā] _SntxCause:[(zhǐ) yǒu zhōumò] _SntxEffect:[(cái) yǒu kòng]. != He is only free on weekends.
+    <br>· _SntxZhon: 只有 努力 才 能 成功。 :: _SntxCause:[(Zhǐ) yǒu nǔlì] _SntxEffect:[(cái) néng chénggōng]. != Only hard work can lead to success.
     <a class="clsHide" href="#idLZhonconj_053dsn"></a></p>
   <p id="idLZhonconj_053nam">name::
     <br>* McshEngl.only-if..then,
@@ -14236,8 +14237,8 @@
     <br>× Mcsh-creation: {2026-07-06}
     <br>× mind-relation: <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnEfct">RltnCause_then_Effect:finally</a>,
     <br>
-    <br>· _sntxZhon: 他犹豫了很久，最后决定还是接受那份工作。 :: Tā yóuyùle hěnjiǔ, (zuìhòu) juédìng háishì jiēshòu nà fèn gōngzuò. != He hesitated for a long time, but finally decided to accept the job.
-    <br>· _sntxZhon: 他最后才来。 :: _sntxSubj:[Tā] _sntxEffect:[zuìhòu!~Adve cái] _sntxVerb:{lái}. != He only came at the very end.
+    <br>· _SntxZhon: 他犹豫了很久，最后决定还是接受那份工作。 :: Tā yóuyùle hěnjiǔ, (zuìhòu) juédìng háishì jiēshòu nà fèn gōngzuò. != He hesitated for a long time, but finally decided to accept the job.
+    <br>· _SntxZhon: 他最后才来。 :: _SntxSubj:[Tā] _SntxEffect:[zuìhòu!~Adve cái] _SntxVerb:{lái}. != He only came at the very end.
     <a class="clsHide" href="#idLZhonconj_023dsn"></a></p>
   <p id="idLZhonconj_023nam">name::
     <br>* McshEngl.RltnCause_then_Effect:finally,
@@ -14564,9 +14565,9 @@
     <br>× Mcsh-creation: {2026-08-02}
     <br>· before and after its complement.
     <br>
-    <br>· _sntxZhon: 书 在桌子上。 :: _sntxSubj:[Shū] _sntxSbjc:[(zài) zhuōzǐ (shàng)]. != The book is on the table.
-    <br>· _sntxZhon: 她 站 在 老师 面前。 :: _sntxSubj:[Tā] _sntxVerb:{zhàn} _sntxSpace:[(zài) lǎoshī (miànqián)]. != She stands in front of the teacher.
-    <br>· _sntxZhon: 他 从桌子上 跳 下来。 :: Tā _sntxSpace:[(cóng) zhuōzǐ (shàng)] _sntxVerb:{tiào} xiàlái. != He jumps down from the table.
+    <br>· _SntxZhon: 书 在桌子上。 :: _SntxSubj:[Shū] _SntxSbjc:[(zài) zhuōzǐ (shàng)]. != The book is on the table.
+    <br>· _SntxZhon: 她 站 在 老师 面前。 :: _SntxSubj:[Tā] _SntxVerb:{zhàn} _SntxSpace:[(zài) lǎoshī (miànqián)]. != She stands in front of the teacher.
+    <br>· _SntxZhon: 他 从桌子上 跳 下来。 :: Tā _SntxSpace:[(cóng) zhuōzǐ (shàng)] _SntxVerb:{tiào} xiàlái. != He jumps down from the table.
     <a class="clsHide" href="#idLZhonConjCircdsn"></a></p>
   <p id="idLZhonConjCircnam">name::
     <br>* McshEngl.Zhonconj.circuposition!⇒Zhon_circ,
@@ -14830,10 +14831,10 @@
   <p id="idLZhonvbatSubjdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· <span class="clsColorRed">subjectZhon</span> is a-Zhon_verb_argt that denotes <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmsmssbt">a-semu-subject</a>.
-    <br>· _sntxZhon: _sntxSubj:[我] _sntxVerb:{打} _sntxObj1:[球]。!~wǒdǎqiú !=I play ball.
-    <br>· _sntxZhon: _sntxSubj:[王朋] _sntxVerb:{打} _sntxObj1:[球]。!~wángpéngdǎqiú !=Wang Peng plays ball.
+    <br>· _SntxZhon: _SntxSubj:[我] _SntxVerb:{打} _SntxObj1:[球]。!~wǒdǎqiú !=I play ball.
+    <br>· _SntxZhon: _SntxSubj:[王朋] _SntxVerb:{打} _SntxObj1:[球]。!~wángpéngdǎqiú !=Wang Peng plays ball.
     <br>
-    <br>· _sntxZhon: 请 按时 交 作业。 :: _sntxArgt:[qǐng] _sntxTime:[ànshí] _sntxVerb:{jiāo} _sntxObj1:[zuòyè] != Please hand in homework on time. !~ note: The sentence has no overt subject, which is standard in Chinese imperatives. The implied subject is the second-person pronoun 你 (nǐ, singular “you”) or 你们 (nǐmen, plural “you”), recoverable from context.
+    <br>· _SntxZhon: 请 按时 交 作业。 :: _SntxArgt:[qǐng] _SntxTime:[ànshí] _SntxVerb:{jiāo} _SntxObj1:[zuòyè] != Please hand in homework on time. !~ note: The sentence has no overt subject, which is standard in Chinese imperatives. The implied subject is the second-person pronoun 你 (nǐ, singular “you”) or 你们 (nǐmen, plural “you”), recoverable from context.
     <a class="clsHide" href="#idLZhonvbatSubjdsn"></a></p>
   <p id="idLZhonvbatSubjnam">name::
     <br>* McshEngl.Zhon_verb_argt.subject!⇒Zhon_subj,
@@ -14860,8 +14861,8 @@
   <p id="idLZhonvbatSubtObj1dsn">description::
     <br>× Mcsh-creation: {2026-07-19}
     <br>
-    <br>· _sntxZhon: 我 把门 关了。 :: _sntxSubj:[Wǒ] _sntxObj1:[(bǎ) mén] _sntxVerb:{guān le}. != I closed the door. [emphasis on object]
-    <br>· _sntxZhon: 我 关了 门。 :: _sntxSubj:[Wǒ] _sntxVerb:{guān le} _sntxObj1:[mén]. != I closed the door. [emphasis on object]
+    <br>· _SntxZhon: 我 把门 关了。 :: _SntxSubj:[Wǒ] _SntxObj1:[(bǎ) mén] _SntxVerb:{guān le}. != I closed the door. [emphasis on object]
+    <br>· _SntxZhon: 我 关了 门。 :: _SntxSubj:[Wǒ] _SntxVerb:{guān le} _SntxObj1:[mén]. != I closed the door. [emphasis on object]
     <a class="clsHide" href="#idLZhonvbatSubtObj1dsn"></a></p>
   <p id="idLZhonvbatSubtObj1nam">name::
     <br>* McshEngl.Zhon_sbjt.object1!⇒Zhon_obj1,
@@ -14959,11 +14960,11 @@
     <br>To see the difference, compare these two Chinese sentences:
     <br>
     <br>**Sentence A (Preposition ONLY):**
-    <br>· _sntxZhon: 他 在教室。 ::Tā zài jiàoshì. != He is **in** the classroom.
+    <br>· _SntxZhon: 他 在教室。 ::Tā zài jiàoshì. != He is **in** the classroom.
     <br>- Here, 在 (*zài*) is the preposition. It tells us he exists somewhere within the general boundaries of the classroom. This is grammatically complete.
     <br>
     <br>**Sentence B (Preposition + Locative-Noun):**
-    <br>· _sntxZhon: 他 在教室里。 :: Tā zài jiàoshì **lǐ**. != He is **inside** the classroom.
+    <br>· _SntxZhon: 他 在教室里。 :: Tā zài jiàoshì **lǐ**. != He is **inside** the classroom.
     <br>- Here, 里 (*lǐ* - inside) is the **locative-noun**. It specifically emphasizes that he is in the *interior part* of the classroom (not outside the door, not on the roof).
     <br>- Notice that the preposition 在 (*zài*) is still required *before* the whole phrase. You cannot say *\*他教室里* without 在.
     <br>
@@ -15113,8 +15114,8 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· Subject + Verb:
     <br>
-    <br>· _sntxZhon: 你们 吃。 Nǐmen chī. != You eat.
-    <br>· _sntxZhon: 你 来。Nǐ lái. != You come here!
+    <br>· _SntxZhon: 你们 吃。 Nǐmen chī. != You eat.
+    <br>· _SntxZhon: 你 来。Nǐ lái. != You come here!
     <a class="clsHide" href="#idLZhonsntcwdorSVdsn"></a></p>
   <p id="idLZhonsntcwdorSVnam">name::
     <br>* McshEngl.Zhon_sent_wo.SV,
@@ -15127,9 +15128,9 @@
   <p id="idLZhonsntcwdorSVOdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject + Verb + Object,
-    <br>· _sntxZhon: 我喝茶。 Wǒ _sntxVerb:{hē} chá. != I drink tea.
-    <br>· _sntxZhon: 他踢足球。 Tā {tī} zúqiú. != He plays football.
-    <br>· _sntxZhon: 我 爱 你。 Wǒ {ài} nǐ. != I love you.
+    <br>· _SntxZhon: 我喝茶。 Wǒ _SntxVerb:{hē} chá. != I drink tea.
+    <br>· _SntxZhon: 他踢足球。 Tā {tī} zúqiú. != He plays football.
+    <br>· _SntxZhon: 我 爱 你。 Wǒ {ài} nǐ. != I love you.
     <a class="clsHide" href="#idLZhonsntcwdorSVOdsn"></a></p>
   <p id="idLZhonsntcwdorSVOnam">name::
     <br>* McshEngl.Zhon_sent_wo.SVO,
@@ -15143,8 +15144,8 @@
   <p id="idLZhonsntcwdorSVScdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject + Verb + Subject-complement,
-    <br>· _sntxZhon: 他是我朋友。 :: _sntxSubj:[Tā] _sntxVerb:{shì} _sntxSbjc:[wǒ péngyǒu]. != he {is} my friend.
-    <br>· _sntxZhon: 我的胃不舒服。 :: _sntxSubj:[Wǒ de wèi] _sntxVerb:{bù} _sntxSbjc:[shūfu]. != My stomach doesn't feel well.
+    <br>· _SntxZhon: 他是我朋友。 :: _SntxSubj:[Tā] _SntxVerb:{shì} _SntxSbjc:[wǒ péngyǒu]. != he {is} my friend.
+    <br>· _SntxZhon: 我的胃不舒服。 :: _SntxSubj:[Wǒ de wèi] _SntxVerb:{bù} _SntxSbjc:[shūfu]. != My stomach doesn't feel well.
     <a class="clsHide" href="#idLZhonsntcwdorSVScdsn"></a></p>
   <p id="idLZhonsntcwdorSVScnam">name::
     <br>* McshEngl.Zhon_sent_wo.SVSc,
@@ -15158,10 +15159,10 @@
   <p id="idLZhonsntcwdorSScdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject + Subject-complement:
-    <br>· _sntxZhon: 他 很 高。 :: _sntxSubj:[Tā] _sntxSbjc:[hěn gāo]. != He is tall.
-    <br>· _sntxZhon: 我 儿子 一 岁。 :: _sntxSubj:[Wǒ érzi] _sntxSbjc:[yī suì]. != My son is one year old.
-    <br>· _sntxZhon: 老师 太 累 了。 :: _sntxSubj:[Lǎoshī] _sntxSbjc:[tài lèi] {le}. != The teacher is too tired.
-    <br>· _sntxZhon: 他 非常 高 。 :: _sntxSubj:[Tā] _sntxSbjc:[fēicháng gāo]. != He is very tall.
+    <br>· _SntxZhon: 他 很 高。 :: _SntxSubj:[Tā] _SntxSbjc:[hěn gāo]. != He is tall.
+    <br>· _SntxZhon: 我 儿子 一 岁。 :: _SntxSubj:[Wǒ érzi] _SntxSbjc:[yī suì]. != My son is one year old.
+    <br>· _SntxZhon: 老师 太 累 了。 :: _SntxSubj:[Lǎoshī] _SntxSbjc:[tài lèi] {le}. != The teacher is too tired.
+    <br>· _SntxZhon: 他 非常 高 。 :: _SntxSubj:[Tā] _SntxSbjc:[fēicháng gāo]. != He is very tall.
     <br>
     <br>· "Sometimes the 很 (hěn) in this structure is translated as "very," but often it is just a way to link a noun to an adjective."
     <br>[{2023-06-11 retrieved} https://resources.allsetlearning.com/chinese/grammar/Simple_%22noun_%2B_adjective%22_sentences]
@@ -15179,8 +15180,8 @@
   <p id="idLZhonsntcwdorSPdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· Subject + Space:
-    <br>· _sntxZhon: 他 在 美国。 :: _sntxSubj:[Tā] _sntxSpace:[(zài) měiguó]。 != [he] [(in) America].
-    <br>· _sntxZhon: 妈妈 在 家。 :: _sntxSubj:[māmā] _sntxSpace:[(zài) jiā]。 != [mom] [(at) home].
+    <br>· _SntxZhon: 他 在 美国。 :: _SntxSubj:[Tā] _SntxSpace:[(zài) měiguó]。 != [he] [(in) America].
+    <br>· _SntxZhon: 妈妈 在 家。 :: _SntxSubj:[māmā] _SntxSpace:[(zài) jiā]。 != [mom] [(at) home].
     <a class="clsHide" href="#idLZhonsntcwdorSPdsn"></a></p>
   <p id="idLZhonsntcwdorSPnam">name::
     <br>* McshEngl.Zhon_sent_wo.SP,
@@ -15193,7 +15194,7 @@
     <a class="clsHide" href="#idLZhonsntcwdorTpSScH4"></a></h4>
   <p id="idLZhonsntcwdorTpSScdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· _sntxZhon: 今天天真蓝。 :: _sntxTime:[Jīntiān] _sntxSubj:[tiān] _sntxSbjc:[zhēn lán]. != Today, the sky is truly blue.
+    <br>· _SntxZhon: 今天天真蓝。 :: _SntxTime:[Jīntiān] _SntxSubj:[tiān] _SntxSbjc:[zhēn lán]. != Today, the sky is truly blue.
     <a class="clsHide" href="#idLZhonsntcwdorTpSScdsn"></a></p>
   <p id="idLZhonsntcwdorTpSScnam">name::
     <br>* McshEngl.Zhon_sent_wo.TpSSc,
@@ -15207,7 +15208,7 @@
   <p id="idLZhonsntcwdorTpSPVdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· TimePoint + Subject + sPace + Verb:
-    <br>· _sntxZhon: 今天 他 不 在家 吃饭。 :: _sntxTime:[jīntiān] _sntxSubj:[tā] _sntxVerb:{bù _sntxSpace:[zàijiā] chīfàn}。 != He is not eating at home today.
+    <br>· _SntxZhon: 今天 他 不 在家 吃饭。 :: _SntxTime:[jīntiān] _SntxSubj:[tā] _SntxVerb:{bù _SntxSpace:[zàijiā] chīfàn}。 != He is not eating at home today.
     <a class="clsHide" href="#idLZhonsntcwdorTpSPVdsn"></a></p>
   <p id="idLZhonsntcwdorTpSPVnam">name::
     <br>* McshEngl.Zhon_sent_wo.TpSPV,
@@ -15221,8 +15222,8 @@
   <p id="idLZhonsntcwdorSTpVdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject + TimePoint + Verb:
-    <br>· _sntxZhon: 我 今天 工作。 Wǒ jīntiān {gōngzuò}. != I {work} today.
-    <br>· _sntxZhon: 我 现在 在学 中文。 Wǒ xiànzài {zàixué} zhōngwén. != I am learning Chinese now.
+    <br>· _SntxZhon: 我 今天 工作。 Wǒ jīntiān {gōngzuò}. != I {work} today.
+    <br>· _SntxZhon: 我 现在 在学 中文。 Wǒ xiànzài {zàixué} zhōngwén. != I am learning Chinese now.
     <a class="clsHide" href="#idLZhonsntcwdorSTpVdsn"></a></p>
   <p id="idLZhonsntcwdorSTpVnam">name::
     <br>* McshEngl.Zhon_sent_wo.STpV,
@@ -15236,7 +15237,7 @@
   <p id="idLZhonsntcwdorSTpVTidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject + TimePoint + Verb + TimeInterval:
-    <br>· _sntxZhon: 我们昨天唱了八个小时歌。 Wǒmen _sntxTimePoint:[zuótiān] _sntxVerb:{chàngle} _sntxTimeInterval:[bā gè xiǎoshí gē]. != We sang for eight hours yesterday.
+    <br>· _SntxZhon: 我们昨天唱了八个小时歌。 Wǒmen _SntxTimePoint:[zuótiān] _SntxVerb:{chàngle} _SntxTimeInterval:[bā gè xiǎoshí gē]. != We sang for eight hours yesterday.
     <a class="clsHide" href="#idLZhonsntcwdorSTpVTidsn"></a></p>
   <p id="idLZhonsntcwdorSTpVTinam">name::
     <br>* McshEngl.Zhon_sent_wo.STpVTi,
@@ -15249,7 +15250,7 @@
     <a class="clsHide" href="#idLZhonsntcwdorSVTiH4"></a></h4>
   <p id="idLZhonsntcwdorSVTidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· _sntxZhon: 我走了四十分钟。 :: _sntxSubj:[Wǒ] _sntxVerb:{zǒu le} _sntxTimeInterval:[sìshí fēnzhōng]。 != [I] {walked} [(for) forty miniutes].
+    <br>· _SntxZhon: 我走了四十分钟。 :: _SntxSubj:[Wǒ] _SntxVerb:{zǒu le} _SntxTimeInterval:[sìshí fēnzhōng]。 != [I] {walked} [(for) forty miniutes].
     <a class="clsHide" href="#idLZhonsntcwdorSVTidsn"></a></p>
   <p id="idLZhonsntcwdorSVTinam">name::
     <br>* McshEngl.Zhon_sent_wo.SVTi,
@@ -15263,7 +15264,7 @@
   <p id="idLZhonsntcwdorSTpMPIVdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject + TimePoint + Manner + Space + Instrument + Verb:
-    <br>· _sntxZhon: 我昨天开心地在家用手机学中文。 Wǒ zuótiān kāixīn de zàijiā yòng shǒujī xué Zhōngwén. != I yesterday happily at home by using the phone studied Chinese.
+    <br>· _SntxZhon: 我昨天开心地在家用手机学中文。 Wǒ zuótiān kāixīn de zàijiā yòng shǒujī xué Zhōngwén. != I yesterday happily at home by using the phone studied Chinese.
     <a class="clsHide" href="#idLZhonsntcwdorSTpMPIVdsn"></a></p>
   <p id="idLZhonsntcwdorSTpMPIVnam">name::
     <br>* McshEngl.Zhon_sent_wo.STpMPIV,
@@ -15277,7 +15278,7 @@
   <p id="idLZhonsntcwdorSPVdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject + Place + Verb:
-    <br>· _sntxZhon: 我 在家 学 中文。 Wǒ _sntxPlace:[zài jiā] _sntxVerb:{xué} Zhōngwén. != I at home study Chinese.
+    <br>· _SntxZhon: 我 在家 学 中文。 Wǒ _SntxPlace:[zài jiā] _SntxVerb:{xué} Zhōngwén. != I at home study Chinese.
     <a class="clsHide" href="#idLZhonsntcwdorSPVdsn"></a></p>
   <p id="idLZhonsntcwdorSPVnam">name::
     <br>* McshEngl.Zhon_sent_wo.SPV,
@@ -15299,10 +15300,10 @@
     <br>* 留 (liú), “to stay”
     <br>* 停 (tíng), “to park”
     <br>* 放 (fàng), “to put”
-    <br>· _sntxZhon: 你走左边。Nǐ zǒu zuǒbiān. != You go left.
+    <br>· _SntxZhon: 你走左边。Nǐ zǒu zuǒbiān. != You go left.
     <br>[{2023-05-25 retrieved} https://www.chineseclass101.com/blog/2020/08/07/chinese-word-order/]
     <br>
-    <br>· _sntxZhon: 我 去 公司 。 :: _sntxSubj:[Wǒ] _sntxVerb:{qù} _sntxSpace:[gōngsī]. != I'm going to the office.
+    <br>· _SntxZhon: 我 去 公司 。 :: _SntxSubj:[Wǒ] _SntxVerb:{qù} _SntxSpace:[gōngsī]. != I'm going to the office.
     <a class="clsHide" href="#idLZhonsntcwdorSVsPdsn"></a></p>
   <p id="idLZhonsntcwdorSVsPnam">name::
     <br>* McshEngl.Zhon_sent_wo.SVsP,
@@ -15316,7 +15317,7 @@
   <p id="idLZhonsntcwdorSMVdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject + Manner + Place:
-    <br>· _sntxZhon: 我 非常 喜欢 这个。 Wǒ fēicháng {xǐhuān} zhège. != I extremely like this.
+    <br>· _SntxZhon: 我 非常 喜欢 这个。 Wǒ fēicháng {xǐhuān} zhège. != I extremely like this.
     <a class="clsHide" href="#idLZhonsntcwdorSMVdsn"></a></p>
   <p id="idLZhonsntcwdorSMVnam">name::
     <br>* McshEngl.Zhon_sent_wo.SMV,
@@ -15330,7 +15331,7 @@
   <p id="idLZhonsntcwdorSIVdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Subject + Instrument + Verb:
-    <br>· _sntxZhon: 我 用手机 学 中文。 Wǒ _sntxInstrument:[yòng shǒujī] _sntxVerb:{xué} zhōngwén. != I	by using my phone	study	Chinese.
+    <br>· _SntxZhon: 我 用手机 学 中文。 Wǒ _SntxInstrument:[yòng shǒujī] _SntxVerb:{xué} zhōngwén. != I	by using my phone	study	Chinese.
     <a class="clsHide" href="#idLZhonsntcwdorSIVdsn"></a></p>
   <p id="idLZhonsntcwdorSIVnam">name::
     <br>* McshEngl.Zhon_sent_wo.SIV,
@@ -15664,8 +15665,8 @@
     <br>[{2023-05-28 retrieved} https://resources.allsetlearning.com/chinese/grammar/Learner_FAQ]
     <br>
     <br>=== 了吗-lema:
-    <br>· _sntxZhon: 你 吃饭 了 吗 ？ :: Nǐ chīfàn le ma? != Did you eat?
-    <br>· _sntxZhon: 晚饭 你 吃 了 吗 ？ :: _sntxObj1:[Wǎnfàn] _sntxSubj:[nǐ] _sntxVerb:{chī le ma}? != Did you eat dinner?
+    <br>· _SntxZhon: 你 吃饭 了 吗 ？ :: Nǐ chīfàn le ma? != Did you eat?
+    <br>· _SntxZhon: 晚饭 你 吃 了 吗 ？ :: _SntxObj1:[Wǎnfàn] _SntxSubj:[nǐ] _SntxVerb:{chī le ma}? != Did you eat dinner?
     <a class="clsHide" href="#idLZhonsntcAskYsnodsn"></a></p>
   <p id="idLZhonsntcAskYsnonam">name::
     <br>* McshEngl.Zhon_sentAsk.yes-no,
@@ -15685,9 +15686,9 @@
     <br>· "A common way to form questions in Chinese is to first use a verb in the positive, then repeat the same verb in its negative form, similar to how in English we can say, "Do you have money or not?" or "Have you or have you not been to the park?" This sentence pattern feels a lot more natural in Chinese than those admittedly awkward English equivalents, however."
     <br>[{2023-05-28 retrieved} https://resources.allsetlearning.com/chinese/grammar/Affirmative-negative_question]
     <br>
-    <br>· _sntxZhon: 你 想 不 想 我？ :: _sntxSubj:[Nǐ] _sntxVerb:{xiǎng bu xiǎng} _sntxObj1:[wǒ]? Do you or do you not miss me?
-    <br>· _sntxZhon: 喜 不 喜欢？_sntxVerb:{Xǐ bu xǐhuan}? != Do you like it? (only the first character repeated)
-    <br>· _sntxZhon: 他 帅 不 帅？_sntxSbj:[Tā] _sntxSbjc:[shuài {bu} shuài]? Is he handsome?
+    <br>· _SntxZhon: 你 想 不 想 我？ :: _SntxSubj:[Nǐ] _SntxVerb:{xiǎng bu xiǎng} _SntxObj1:[wǒ]? Do you or do you not miss me?
+    <br>· _SntxZhon: 喜 不 喜欢？_SntxVerb:{Xǐ bu xǐhuan}? != Do you like it? (only the first character repeated)
+    <br>· _SntxZhon: 他 帅 不 帅？_SntxSbj:[Tā] _SntxSbjc:[shuài {bu} shuài]? Is he handsome?
     <a class="clsHide" href="#idLZhonsntcAskAfngdsn"></a></p>
   <p id="idLZhonsntcAskAfngnam">name::
     <br>* McshEngl.affirmative-negative--Zhon_sentAsk,
@@ -15707,9 +15708,9 @@
     <br>· "While 还是 (háishì) is used for "or" in questions, 或者 (huòzhě) is used for "or" in statements."
     <br>[{2023-06-01 retrieved} https://resources.allsetlearning.com/chinese/grammar/Expressing_%22or%22_in_statements]
     <br>
-    <br>· _sntxZhon: 我 还是 他？ Wǒ (háishì) tā? != Me or him?
-    <br>· _sntxZhon: 辣 的 还是 不 辣 的？ Là de (háishì) bù là de? != Spicy or non-spicy?
-    <br>· _sntxZhon: 他 是 美国 人 还是 英国 人？ :: _sntxSubj:[Tā] _sntxVerb:{shì} _sntxSbjc:[Měiguó rén (háishì) Yīngguó rén]? != Is he American or British?
+    <br>· _SntxZhon: 我 还是 他？ Wǒ (háishì) tā? != Me or him?
+    <br>· _SntxZhon: 辣 的 还是 不 辣 的？ Là de (háishì) bù là de? != Spicy or non-spicy?
+    <br>· _SntxZhon: 他 是 美国 人 还是 英国 人？ :: _SntxSubj:[Tā] _SntxVerb:{shì} _SntxSbjc:[Měiguó rén (háishì) Yīngguó rén]? != Is he American or British?
     <a class="clsHide" href="#idLZhonsntcAskOrdsn"></a></p>
   <p id="idLZhonsntcAskOrnam">name::
     <br>* McshEngl.or-Zhon_sentAsk-háishì-还是,
@@ -15726,7 +15727,7 @@
   <p id="idLZhonsntcAskBadsn">description::
     <br>× Mcsh-creation: {2024-12-19}
     <br>
-    <br>· _sntxZhon: 你 是 老师 吧？:: nǐ shì lǎoshī ba? != you are the teacher, right?
+    <br>· _SntxZhon: 你 是 老师 吧？:: nǐ shì lǎoshī ba? != you are the teacher, right?
     <a class="clsHide" href="#idLZhonsntcAskBadsn"></a></p>
   <p id="idLZhonsntcAskBanam">name::
     <br>* McshEngl.Zhon_sentAsk.ba-吧,
@@ -15745,7 +15746,7 @@
     <br>· asking degree of adjectives:
     <br>
     <br>=== duō-多-Zhon_sentAsk:
-    <br>· _sntxZhon: 她 多 高？ :: _sntxSubj:[Tā] _sntxSbjc:[duō gāo]? != How tall is she?
+    <br>· _SntxZhon: 她 多 高？ :: _SntxSubj:[Tā] _SntxSbjc:[duō gāo]? != How tall is she?
     <a class="clsHide" href="#idLZhonsntcAskDuodsn"></a></p>
   <p id="idLZhonsntcAskDuonam">name::
     <br>* McshEngl.Zhon_sentAsk.duō-多,
@@ -15765,7 +15766,7 @@
     <br>[{2023-07-07 retrieved} https://resources.allsetlearning.com/chinese/grammar/Measure_words_in_quantity_questions]
     <br>
     <br>=== duōshao-多少-Zhon_sentAsk:
-    <br>· _sntxZhon: 你 去 过 多少 个 国家？ :: _sntxSubj:[Nǐ] _sntxVerb:{qù guo} _sntxSpaceDire:[duōshao gè guójiā]? != How many countries have you been to?
+    <br>· _SntxZhon: 你 去 过 多少 个 国家？ :: _SntxSubj:[Nǐ] _SntxVerb:{qù guo} _SntxSpaceDire:[duōshao gè guójiā]? != How many countries have you been to?
     <a class="clsHide" href="#idLZhonsntcAskDuoshaodsn"></a></p>
   <p id="idLZhonsntcAskDuoshaonam">name::
     <br>* McshEngl.Zhon_sentAsk.duōshao-多少,
@@ -15785,9 +15786,9 @@
     <br>[{2021-12-04 retrieved} https://en.wikipedia.org/wiki/Chinese_grammar#Questions]
     <br>
     <br>=== Subj. + Verb + 几 + Measure Word + Noun？
-    <br>· _sntxZhon: 他 有 几 个 孩子？ :: _sntxSubj:[Tā] _sntxVerb:{yǒu} _sntxSbjc:[jǐ gè háizi]? != [he] {has} [how many kids]? :: How many kids does he have?
+    <br>· _SntxZhon: 他 有 几 个 孩子？ :: _SntxSubj:[Tā] _SntxVerb:{yǒu} _SntxSbjc:[jǐ gè háizi]? != [he] {has} [how many kids]? :: How many kids does he have?
     <br>
-    <br>· _sntxZhon: 银行 几点 开门？ :: _sntxSubj:[Yíngháng] _sntxTime:[jǐdiǎn] _sntxVerb:{kāimén}? != [bank] [what time] {open}?
+    <br>· _SntxZhon: 银行 几点 开门？ :: _SntxSubj:[Yíngháng] _SntxTime:[jǐdiǎn] _SntxVerb:{kāimén}? != [bank] [what time] {open}?
     <a class="clsHide" href="#idLZhonsntcAskJidsn"></a></p>
   <p id="idLZhonsntcAskJinam">name::
     <br>* McshEngl.quantoAskFew,
@@ -15795,8 +15796,8 @@
     <br>====== lagoChinese:
     <br>* McshZhon.jǐ-几-(幾)!=quantoAskFew,
     <br>* McshZhon.几-(幾)-jǐ!=quantoAskFew,
-    <br>* McshZhon.jǐ-Zhon_sentAsk-几,
-    <br>* McshZhon.几-jǐ-Zhon_sentAsk,
+    <br>* McshZhon.jǐ-Zhon_sentAsk-几!=quantoAskFew,
+    <br>* McshZhon.几-jǐ-Zhon_sentAsk!=quantoAskFew,
     <a class="clsHide" href="#idLZhonsntcAskJinam"></a></p>
   </section>
 
@@ -15806,7 +15807,7 @@
   <p id="idLZhonsntcAskJuededsn">description::
     <br>× Mcsh-creation: {2024-12-19}
     <br>
-    <br>· _sntxZhon: 你 觉得 她 怎么样？:: Nǐ juédé tā zěnmeyàng? != what do you think of her?
+    <br>· _SntxZhon: 你 觉得 她 怎么样？:: Nǐ juédé tā zěnmeyàng? != what do you think of her?
     <a class="clsHide" href="#idLZhonsntcAskJuededsn"></a></p>
   <p id="idLZhonsntcAskJuedenam">name::
     <br>* McshEngl.Zhon_sentAsk.juédé-觉得,
@@ -15838,8 +15839,8 @@
     <a class="clsHide" href="#idLZhonsntcAskNeH4"></a></h4>
   <p id="idLZhonsntcAskNedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· _sntxZhon: 我 很 好。你 呢？ Wǒ hěn hǎo. Nǐ ne? != I am fine. How are you?
-    <br>· _sntxZhon: 钱 呢？Qián ne? != Where's the money?
+    <br>· _SntxZhon: 我 很 好。你 呢？ Wǒ hěn hǎo. Nǐ ne? != I am fine. How are you?
+    <br>· _SntxZhon: 钱 呢？Qián ne? != Where's the money?
     <a class="clsHide" href="#idLZhonsntcAskNedsn"></a></p>
   <p id="idLZhonsntcAskNenam">name::
     <br>* McshEngl.Zhon_sentAsk.ne-呢,
@@ -15857,10 +15858,10 @@
     <br>· 怎么样 (zěnmeyàng), you can ask how something is, or what it is like.
     <br>
     <br>=== zěnmeyàng-怎么样-Zhon_sentAsk:
-    <br>· _sntxZhon: 今天 天气 怎么样 ？ :: Jīntiān tiānqì zěnmeyàng ? != How is the weather today?
-    <br>· _sntxZhon: 你 最近 怎么样 ？ :: Nǐ zuìjìn zěnmeyàng ? != How have you been recently?
-    <br>· _sntxZhon: 北京 冬天 怎么样 ？ :: Běijīng dōngtiān zěnmeyàng ? != How is Beijing in the winter?
-    <br>· _sntxZhon: 你 觉得 上海 怎么样 ？ :: Nǐ _sntxVerb:{juéde} Shànghǎi zěnmeyàng ? != What do you think of Shanghai?
+    <br>· _SntxZhon: 今天 天气 怎么样 ？ :: Jīntiān tiānqì zěnmeyàng ? != How is the weather today?
+    <br>· _SntxZhon: 你 最近 怎么样 ？ :: Nǐ zuìjìn zěnmeyàng ? != How have you been recently?
+    <br>· _SntxZhon: 北京 冬天 怎么样 ？ :: Běijīng dōngtiān zěnmeyàng ? != How is Beijing in the winter?
+    <br>· _SntxZhon: 你 觉得 上海 怎么样 ？ :: Nǐ _SntxVerb:{juéde} Shànghǎi zěnmeyàng ? != What do you think of Shanghai?
     <a class="clsHide" href="#idLZhonsntcAskZenmeyangdsn"></a></p>
   <p id="idLZhonsntcAskZenmeyangnam">name::
     <br>* McshEngl.Zhon_sentAsk.zěnmeyàng-怎么样,
@@ -15877,14 +15878,14 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· A tag question is a small question that is attached, or "tagged", to the end of a sentence.
     <br>
-    <br>· _sntxZhon: 你 会 说 中文， 对 不 对？ Nǐ huì shuō Zhōngwén, duì bu duì? != You speak Chinese, right?
-    <br>· _sntxZhon: 你 有 新 女朋友 了， 是 不 是 ？Nǐ yǒu xīn nǚpéngyou le, shì bu shì? != You have a new girlfriend, right?
-    <br>· _sntxZhon: 你们 明天 来， 好 不 好 ？Nǐmen míngtiān lái, hǎo bu hǎo? != You come here tomorrow, OK?
+    <br>· _SntxZhon: 你 会 说 中文， 对 不 对？ Nǐ huì shuō Zhōngwén, duì bu duì? != You speak Chinese, right?
+    <br>· _SntxZhon: 你 有 新 女朋友 了， 是 不 是 ？Nǐ yǒu xīn nǚpéngyou le, shì bu shì? != You have a new girlfriend, right?
+    <br>· _SntxZhon: 你们 明天 来， 好 不 好 ？Nǐmen míngtiān lái, hǎo bu hǎo? != You come here tomorrow, OK?
     <br>
-    <br>· _sntxZhon: 这样 做，对 吗？ Zhèyàng zuò, duì ma? != Do it like this, right?
-    <br>· _sntxZhon: 你 喜欢 我妹妹， 是 吗 ？ Nǐ xǐhuan wǒ mèimei, shì ma? != You like my younger sister, huh?
-    <br>· _sntxZhon: 不要 告诉 他 ， 好 吗 ？ Bùyào gàosu tā, hǎo ma? != Don't tell him, OK?
-    <br>· _sntxZhon: 妈妈，我 要 吃 巧克力 ， 可以 吗 ？ Māma, wǒ yào chī qiǎokèlì, kěyǐ ma? != Mom, I want to eat chocolate. May I?
+    <br>· _SntxZhon: 这样 做，对 吗？ Zhèyàng zuò, duì ma? != Do it like this, right?
+    <br>· _SntxZhon: 你 喜欢 我妹妹， 是 吗 ？ Nǐ xǐhuan wǒ mèimei, shì ma? != You like my younger sister, huh?
+    <br>· _SntxZhon: 不要 告诉 他 ， 好 吗 ？ Bùyào gàosu tā, hǎo ma? != Don't tell him, OK?
+    <br>· _SntxZhon: 妈妈，我 要 吃 巧克力 ， 可以 吗 ？ Māma, wǒ yào chī qiǎokèlì, kěyǐ ma? != Mom, I want to eat chocolate. May I?
     <a class="clsHide" href="#idLZhonsntcAskTagdsn"></a></p>
   <p id="idLZhonsntcAskTagnam">name::
     <br>* McshEngl.Zhon_sentAsk.tag,
@@ -15898,7 +15899,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 为什么-wèishénme != <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnCsltkozIgv">why</a>.
     <br>
-    <br>· _sntxZhon: 你 为什么 学 中文？ Nǐ _sntxCause:[wèishénme] _sntxVerb:{xué} Zhōngwén? Why do you study Chinese? ANSWER: 因为 我 在 中国 工作。 Yīnwèi wǒ zài Zhōngguó gōngzuò. Because I'm working in China.
+    <br>· _SntxZhon: 你 为什么 学 中文？ Nǐ _SntxCause:[wèishénme] _SntxVerb:{xué} Zhōngwén? Why do you study Chinese? ANSWER: 因为 我 在 中国 工作。 Yīnwèi wǒ zài Zhōngguó gōngzuò. Because I'm working in China.
     <a class="clsHide" href="#idLZhonsntcAskKozdsn"></a></p>
   <p id="idLZhonsntcAskKoznam">name::
     <br>* McshEngl.cause-Zhon_sentAsk,
@@ -15917,7 +15918,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 哪个-nǎge != <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idEntIrgv">which</a>.
     <br>
-    <br>· _sntxZhon: 你 要 哪个？ :: _sntxSubj:[Nǐ] _sntxVerb:{yào} nǎge? Which one do you want? ANSWER: 我 要 这个。 Wǒ yào zhège. I want this one.
+    <br>· _SntxZhon: 你 要 哪个？ :: _SntxSubj:[Nǐ] _SntxVerb:{yào} nǎge? Which one do you want? ANSWER: 我 要 这个。 Wǒ yào zhège. I want this one.
     <a class="clsHide" href="#idLZhonsntcAskEnttdsn"></a></p>
   <p id="idLZhonsntcAskEnttnam">name::
     <br>* McshEngl.Zhon_sentAsk.entity,
@@ -15930,7 +15931,7 @@
   <p id="idLZhonsntcAskHmndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 谁-shéi != <a class="clsPreview" href="../dirHmn/McshHmn000002.last.html#idHmn001Irgv">who</a>.
-    <br>· _sntxZhon: 你 是 谁？ :: _sntxSubj:[Nǐ] shì shéi? != Who are you? (you are who?) Answer: 我 是 小李 。 Wǒ shì Xiǎo Lǐ. I am Xiao Li.
+    <br>· _SntxZhon: 你 是 谁？ :: _SntxSubj:[Nǐ] shì shéi? != Who are you? (you are who?) Answer: 我 是 小李 。 Wǒ shì Xiǎo Lǐ. I am Xiao Li.
     <a class="clsHide" href="#idLZhonsntcAskHmndsn"></a></p>
   <p id="idLZhonsntcAskHmnnam">name::
     <br>* McshEngl.Zhon_sentAsk.human,
@@ -15947,7 +15948,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 怎么-zěnme != <a class="clsPreview" href="../dirCor/McshCor000004.last.html#idDngatt001MnrIgv">how</a>.
     <br>
-    <br>· _sntxZhon: 你 怎么 学习 中文？ Nǐ _sntxManner:[zěnme] _sntxVerb:{xuéxí} Zhōngwén? How do you study Chinese? ANSWER: 我 用 Grammar Wiki 学习 中文 。 Wǒ yòng Grammar Wiki xuéxí Zhōngwén. I use the Grammar Wiki to study Chinese.
+    <br>· _SntxZhon: 你 怎么 学习 中文？ Nǐ _SntxManner:[zěnme] _SntxVerb:{xuéxí} Zhōngwén? How do you study Chinese? ANSWER: 我 用 Grammar Wiki 学习 中文 。 Wǒ yòng Grammar Wiki xuéxí Zhōngwén. I use the Grammar Wiki to study Chinese.
     <a class="clsHide" href="#idLZhonsntcAskMnrdsn"></a></p>
   <p id="idLZhonsntcAskMnrnam">name::
     <br>* McshEngl.Zhon_sentAsk.manner,
@@ -15978,11 +15979,11 @@
     <br>"The words 哪里 (nǎlǐ) and 哪儿 (nǎr) mean the same thing. The difference is simply regional preference: 哪里 (nǎlǐ) is preferred in the south (Shanghai, Taiwan), whereas 哪儿 (nǎr) is preferred in the north (Beijing, Xi'an)."
     <br>[{2023-05-28 retrieved} https://resources.allsetlearning.com/chinese/grammar/Placement_of_question_words]
     <br>
-    <br>· _sntxZhon: 你 在 哪里？ Nǐ zàinǎlǐ? != Where are you? ANSWER: 我 在 家。 Wǒ zài jiā. I'm at home.
-    <br>· _sntxZhon:  你住在哪儿？ Nǐ _sntxVerb:{zhù} _sntxSpace:[(zài) nǎr]? != Where do you live?
+    <br>· _SntxZhon: 你 在 哪里？ Nǐ zàinǎlǐ? != Where are you? ANSWER: 我 在 家。 Wǒ zài jiā. I'm at home.
+    <br>· _SntxZhon:  你住在哪儿？ Nǐ _SntxVerb:{zhù} _SntxSpace:[(zài) nǎr]? != Where do you live?
     <br>
-    <br>· _sntxZhon: 钱 呢？Qián ne? != Where's the money?
-    <br>· _sntxZhon: 我 的 手机 呢？ Wǒ de shǒujī ne? != Where's my cell phone?
+    <br>· _SntxZhon: 钱 呢？Qián ne? != Where's the money?
+    <br>· _SntxZhon: 我 的 手机 呢？ Wǒ de shǒujī ne? != Where's my cell phone?
     <a class="clsHide" href="#idLZhonsntcAskSpacedsn"></a></p>
   <p id="idLZhonsntcAskSpacenam">name::
     <br>* McshEngl.Zhon_sentAsk.space,
@@ -15998,7 +15999,7 @@
     <br>"asking questions about the past can be slightly more complicated and may involve the "shi... de" construction"
     <br>[{2023-05-28 retrieved} https://resources.allsetlearning.com/chinese/grammar/Placement_of_question_words]
     <br>
-    <br>· _sntxZhon: 你 什么时候 来？ :: _sntxSubj:[Nǐ] _sntxTime:[shénme shíhou] _sntxVerb:{lái}? When are you coming? ANSWER: 我 明天 来。Wǒ míngtiān lái. I'm coming tomorrow.
+    <br>· _SntxZhon: 你 什么时候 来？ :: _SntxSubj:[Nǐ] _SntxTime:[shénme shíhou] _SntxVerb:{lái}? When are you coming? ANSWER: 我 明天 来。Wǒ míngtiān lái. I'm coming tomorrow.
     <a class="clsHide" href="#idLZhonsntcAskTimedsn"></a></p>
   <p id="idLZhonsntcAskTimenam">name::
     <br>* McshEngl.Zhon_sentAsk.time,
@@ -16035,10 +16036,10 @@
     <a class="clsHide" href="#idLZhonsntcSscH3"></a></h3>
   <p id="idLZhonsntcSscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· _sntxZhon: 他 在 美国。 :: _sntxSubj:[Tā] _sntxSbjc:[(zài) měiguó]. != [he] [(in) America].
-    <br>· _sntxZhon: 他们 都 在 上海 。 :: _sntxSubj:[Tāmen dōu] _sntxSbjc:[zài shànghǎi]. != They are all in Shanghai.
-    <br>· _sntxZhon: 他 很 高。 :: _sntxSubj:[Tā] _sntxSbjc:[hěn gāo]. != He is tall.
-    <br>· _sntxZhon: 老师 太 累 了。 :: _sntxSubj:[Lǎoshī] _sntxSbjc:[tài lèi le]. != The teacher is too tired.
+    <br>· _SntxZhon: 他 在 美国。 :: _SntxSubj:[Tā] _SntxSbjc:[(zài) měiguó]. != [he] [(in) America].
+    <br>· _SntxZhon: 他们 都 在 上海 。 :: _SntxSubj:[Tāmen dōu] _SntxSbjc:[zài shànghǎi]. != They are all in Shanghai.
+    <br>· _SntxZhon: 他 很 高。 :: _SntxSubj:[Tā] _SntxSbjc:[hěn gāo]. != He is tall.
+    <br>· _SntxZhon: 老师 太 累 了。 :: _SntxSubj:[Lǎoshī] _SntxSbjc:[tài lèi le]. != The teacher is too tired.
     <br>
     <br>"You may know that the word for “is / are” in Chinese is “是 (shì)”. Another tricky aspect of adjectives in Chinese, though, is that we never use “是” to modify a noun.
     <br>For example:
@@ -16938,7 +16939,7 @@
     <br>* McshEngl.ProtoSinoTibetan-language!⇒Ptst_lago,
     <br>* McshEngl.Ptst_lago!=ProtoSinoTibetan-language,
     <br>* McshEngl.PST!=ProtoSinoTibetan-language!⇒Ptst_lago,
-    <br>* McshEngl.Ptst_lago;;ProtoLago,
+    <br>* McshEngl.Ptst_lago;;ProtoLago!⇒Ptst_lago,
     <br>* McshEngl.lagoPsnt!⇒Ptst_lago,
     <a class="clsHide" href="#idLZhonptstnam"></a></p>
 
@@ -18745,8 +18746,8 @@
     </span>
     <br>· [ts] - ⟨z⟩ (as in "zī" 资)
     <br>* https://www.chinesepod.com/tools/pronunciation/section/3,
-    <br>· _sntxZhon: 做错 zuò cuò != do wrong.
-    <br>· _sntxZhon: 杂志 zázhì != magazine.
+    <br>· _SntxZhon: 做错 zuò cuò != do wrong.
+    <br>· _SntxZhon: 杂志 zázhì != magazine.
     <a class="clsHide" href="#idLZhonpnynZdsn"></a></p>
   <p id="idLZhonpnynZnam">name::
     <br>* McshEngl.Zhon_cons_phnm./c/-(z-pinyin)-[ts],
@@ -18775,7 +18776,7 @@
     </span>
     <br>· [tsʰ] - ⟨c⟩ (as in "cī" 疵)
     <br>* https://www.chinesepod.com/tools/pronunciation/section/3,
-    <br>· _sntxZhon: 做错 zuò cuò = do wrong.
+    <br>· _SntxZhon: 做错 zuò cuò = do wrong.
     <a class="clsHide" href="#idLZhonpnynCdsn"></a></p>
   <p id="idLZhonpnynCnam">name::
     <br>* McshEngl.Zhon_cons_phnm./cd/-/c-pinyin)-[tsʰ],
@@ -18807,10 +18808,10 @@
     <br>* zh vs j: https://chinese.yabla.com/player_cdn.php?id=6382&tlang_id=en,
     <br>
     <br>* zh vs z:
-    <br>· _sntxZhon: 你住在哪儿？ :: Nǐ zhù zài nǎr? != Where do you live?
+    <br>· _SntxZhon: 你住在哪儿？ :: Nǐ zhù zài nǎr? != Where do you live?
     <br>
     <br>* zh vs ch:
-    <br>· _sntxZhon: 支持-zhīchí != support
+    <br>· _SntxZhon: 支持-zhīchí != support
     <a class="clsHide" href="#idLZhonpnynZhdsn"></a></p>
   <p id="idLZhonpnynZhnam">name::
     <br>* McshEngl.Zhon_cons_phnm./C/-(zh-pinyin)-[ʈʂ],
@@ -18842,7 +18843,7 @@
     <br>* ch-q: https://chinese.yabla.com/player_cdn.php?id=6381&tlang_id=en,
     <br>
     <br>* ch vs zh:
-    <br>· _sntxZhon: 支持-zhīchí != support
+    <br>· _SntxZhon: 支持-zhīchí != support
     <a class="clsHide" href="#idLZhonpnynChdsn"></a></p>
   <p id="idLZhonpnynChnam">name::
     <br>* McshEngl.Zhon_cons_phnm./Cd/-(ch-pinyin)-[ʈʂʰ],
@@ -18873,10 +18874,10 @@
     <br>* https://resources.allsetlearning.com/chinese/pronunciation/The_"j"_"q"_and_"x"_sounds,
     <br>
     <br>* j vs z:
-    <br>· _sntxZhon: 自己-zìjǐ != self
+    <br>· _SntxZhon: 自己-zìjǐ != self
     <br>
     <br>* j vs q:
-    <br>· _sntxZhon: 今天 天气 很好。 :: Jīntiān tiānqì hěnhǎo. != The weather is good today.
+    <br>· _SntxZhon: 今天 天气 很好。 :: Jīntiān tiānqì hěnhǎo. != The weather is good today.
     <a class="clsHide" href="#idLZhonpnynJdsn"></a></p>
   <p id="idLZhonpnynJnam">name::
     <br>* McshEngl.Zhon_cons_phnm./cc/-(j-pinyin)-[tɕ],
@@ -18906,9 +18907,9 @@
     <br>· [tɕʰ] - ⟨q⟩ (as in "qī" 七)
     <br>* https://resources.allsetlearning.com/chinese/pronunciation/The_"j"_"q"_and_"x"_sounds,
     <br>
-    <br>· _sntxZhon: 今天 天气 很好。 :: Jīntiān tiānqì hěnhǎo. != The weather is good today.
-    <br>· _sntxZhon: 汽车 :: qìchē != car.
-    <br>· _sntxZhon: 俏叫 :: qiào jiào != scream.
+    <br>· _SntxZhon: 今天 天气 很好。 :: Jīntiān tiānqì hěnhǎo. != The weather is good today.
+    <br>· _SntxZhon: 汽车 :: qìchē != car.
+    <br>· _SntxZhon: 俏叫 :: qiào jiào != scream.
     <a class="clsHide" href="#idLZhonpnynQdsn"></a></p>
   <p id="idLZhonpnynQnam">name::
     <br>* McshEngl.Zhon_cons_phnm./ccd/-(q-pinyin)-[tɕʰ],
@@ -18968,7 +18969,7 @@
     <br>* https://chinese.yabla.com/player_cdn.php?id=6380&tlang_id=en,
     <br>[{2023-05-05 retrieved} https://chinese.yabla.com/chinese-pinyin-chart.php]
     <br>
-    <br>· _sntxZhon: 二十四史 :: èrshísì shǐ != tuenty-four histories.
+    <br>· _SntxZhon: 二十四史 :: èrshísì shǐ != tuenty-four histories.
     <a class="clsHide" href="#idLZhonpnynShdsn"></a></p>
   <p id="idLZhonpnynShnam">name::
     <br>* McshEngl.Zhon_cons_phnm./S/-(sh-pinyin)-[ʂ],
@@ -19998,7 +19999,7 @@
     <br>* McshEngl.Zhon_tone.second/aá/á2acute!⇒rising-tone-(second-á),
     <br>====== lagoChinese:
     <br>* McshZhon.Yángpíng-阳平!=rising-tone-(second-á),
-    <br>* McshZhon.阳平-Yángpíng-rising-tone-(second-á),
+    <br>* McshZhon.阳平-Yángpíng-rising-tone-(second-á)!=rising-tone-(second-á),
     <a class="clsHide" href="#idLZhonSpchtone2nam"></a></p>
   </section>
 

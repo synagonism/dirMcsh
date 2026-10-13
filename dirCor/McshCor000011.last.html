@@ -33,7 +33,7 @@
     <br>* McshEngl.McshCor000011.last.html//dirCor//dirMcsh!⇒system,
     <br>* McshEngl.dirCor/McshCor000011.last.html!⇒system,
     <br>* McshEngl.whole.002-system!⇒system,
-    <br>* McshEngl.SYSTEM,
+    <br>* McshEngl.SYSTEM!⇒system,
     <br>* McshEngl.sys!⇒system,
     <br>* McshEngl.syst!⇒system,
     <br>* McshEngl.wholeSystem!⇒system,
@@ -190,7 +190,7 @@
     <br>* McshEngl.system'01_node!⇒Sysnode,
     <br>* McshEngl.system'node!⇒Sysnode,
     <br>* McshEngl.node//system!⇒Sysnode,
-    <br>* McshEngl.nodes!~plural,
+    <br>* McshEngl.nodes!~plural!⇒Sysnode,
     <br>====== lagoSinagu:
     <br>* McshSngu.jo-ruo-a-sisto!=Sysnode,
     <br>* McshSngu.sistos-jo-ruo!=Sysnode,
@@ -214,8 +214,8 @@
     <br>* McshEngl.system'02_node-relation!⇒system'edge,
     <br>* McshEngl.edge-of-system!⇒system'edge,
     <br>====== lagoSinagu:
-    <br>* McshSngu.ro-jo--a-sisto,
-    <br>* McshSngu.sistos-ro-jo,
+    <br>* McshSngu.ro-jo--a-sisto!=system'edge,
+    <br>* McshSngu.sistos-ro-jo!=system'edge,
     <br>====== lagoGreek:
     <br>* McshElln.σχέση-κόμβου--συστήματος!=system'edge,
     <a class="clsHide" href="#idSysndrnnam"></a></p>
@@ -434,7 +434,7 @@
     <a class="clsHide" href="#idSys001dsn"></a></p>
   <p id="idSys001nam">name::
     <br>* McshEngl.sequence,
-    <br>* McshEngl.SEQUENCE,
+    <br>* McshEngl.SEQUENCE!⇒sequence,
     <br>* McshEngl.system.001-sequence!⇒sequence,
     <br>* McshEngl.system.sequence!⇒sequence,
     <br>* McshEngl.list!⇒sequence,
@@ -557,8 +557,8 @@
     <br>· it\a\ is similar to <a class="clsPreview" href="../dirCor/McshCor000010.last.html#idOverview">abstract-quantity</a>.
     <br>
     <br>=== dì-第!=abstract-order:
-    <br>· _sntxZhon: 第 一 :: dì-yī != The first
-    <br>· _sntxZhon: 第 二 :: dì-èr != The second
+    <br>· _SntxZhon: 第 一 :: dì-yī != The first
+    <br>· _SntxZhon: 第 二 :: dì-èr != The second
     <a class="clsHide" href="#idSys001ordrdsn"></a></p>
   <p id="idSys001ordrnam">name::
     <br>* McshEngl.order,
@@ -568,11 +568,11 @@
     <br>* McshEngl.sequence'order!⇒order,
     <br>* McshEngl.sequence'position!⇒order,
     <br>====== lagoSinagu:
-    <br>* McshSngu.siru!=abstract-order, {2025-12-14} from "σειρά",
-    <br>* suro!=abstract-order,
+    <br>* McshSngu.siru!=abstract-order!=order, {2025-12-14} from "σειρά",
+    <br>* suro!=abstract-order!=order,
     <br>====== lagoChinese:
-    <br>* McshZhon.dì-第!=abstract-order,
-    <br>* McshZhon.第-dì!=abstract-order,
+    <br>* McshZhon.dì-第!=abstract-order!=order,
+    <br>* McshZhon.第-dì!=abstract-order!=order,
     <br>======
     <br>"Here is **“order” specifically in the sense of *arrangement / structured placement***, across **language families**, with **native script + romanization**.
     <br>(Commands, laws, and social rules are excluded.)
@@ -719,7 +719,7 @@
     <br>* McshEspo.unua!=order1,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.πρώτος!ος-η-ο!=order1,
-    <br>* McshElln.πρώτος!ος-η-ο!~adjeElln!=order1,
+    <br>* McshElln.πρώτος!ος-η-ο!~AdjeElln!=order1,
     <a class="clsHide" href="#idSys001ordr1stnam"></a></p>
   </section>
 
@@ -741,7 +741,7 @@
     <br>* McshEspo.dua!=order2,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.δεύτερος!-ος-η-ο!=order2,
-    <br>* McshElln.δεύτερος!-ος-η-ο!~adjeElln!=order2,
+    <br>* McshElln.δεύτερος!-ος-η-ο!~AdjeElln!=order2,
     <a class="clsHide" href="#idSys001ordr2ndnam"></a></p>
   </section>
 
@@ -764,7 +764,7 @@
     <br>* McshEspo.tria!=order3,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.τρίτος!-ος-η-ο!=order3,
-    <br>* McshElln.τρίτος!-ος-η-ο!~adjeElln!=order3,
+    <br>* McshElln.τρίτος!-ος-η-ο!~AdjeElln!=order3,
     <a class="clsHide" href="#idSys001ordr3rdnam"></a></p>
   </section>
 
@@ -785,7 +785,7 @@
     <br>* McshEspo.kvara!=order4,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.τέταρτος!-ος-η-ο!=order4,
-    <br>* McshElln.τέταρτος!-ος-η-ο!~adjeElln!=order4,
+    <br>* McshElln.τέταρτος!-ος-η-ο!~AdjeElln!=order4,
     <a class="clsHide" href="#idSys001ordr4thnam"></a></p>
   </section>
 
@@ -807,7 +807,7 @@
     <br>====== lagoGreek:
     <br>* McshElln.πέντε!το!=order5,
     <br>* McshElln.επίθετο.πέμπτος!-ος-η-ο!=order5,
-    <br>* McshElln.πέμπτος!-ος-η-ο!~adjeElln!=order5,
+    <br>* McshElln.πέμπτος!-ος-η-ο!~AdjeElln!=order5,
     <a class="clsHide" href="#idSys001ordr5nam"></a></p>
   </section>
 
@@ -830,7 +830,7 @@
     <br>* McshEspo.sesa!=order6,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.έκτος!-ος-η-ο!=order6,
-    <br>* McshElln.έκτος!-ος-η-ο!~adjeElln!=order6,
+    <br>* McshElln.έκτος!-ος-η-ο!~AdjeElln!=order6,
     <a class="clsHide" href="#idSys001ordr6thnam"></a></p>
   </section>
 
@@ -866,12 +866,12 @@
     <br>* McshEngl.8th!⇒όγδοος-η-ο,
     <br>* McshEngl.eighth!⇒όγδοος-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-mo!=8th,
+    <br>* suro-mo!=8th!=όγδοος-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.oka,
+    <br>* McshEspo.oka!=όγδοος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.όγδοος!=όγδοος-η-ο,
-    <br>* McshElln.όγδοος!~adjeElln!=όγδοος-η-ο,
+    <br>* McshElln.όγδοος!~AdjeElln!=όγδοος-η-ο,
     <a class="clsHide" href="#idSys001ordr8thnam"></a></p>
   </section>
 
@@ -887,12 +887,12 @@
     <br>* McshEngl.9th!⇒ένατος-η-ο,
     <br>* McshEngl.ninth!⇒ένατος-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-ro!=9th,
+    <br>* suro-ro!=9th!=ένατος-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.naŭa,
+    <br>* McshEspo.naŭa!=ένατος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.ένατος!=ένατος-η-ο,
-    <br>* McshElln.ένατος!~adjeElln!=ένατος-η-ο,
+    <br>* McshElln.ένατος!~AdjeElln!=ένατος-η-ο,
     <a class="clsHide" href="#idSys001ordr9thnam"></a></p>
   </section>
 
@@ -913,7 +913,7 @@
     <br>* McshEspo.deka!=order10,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.δέκατος!-ος-η-ο!=order10,
-    <br>* McshElln.δέκατος!-ος-η-ο!~adjeElln!=order10,
+    <br>* McshElln.δέκατος!-ος-η-ο!~AdjeElln!=order10,
     <a class="clsHide" href="#idSys001ordr10thnam"></a></p>
   </section>
 
@@ -929,12 +929,12 @@
     <br>* McshEngl.11th!⇒ενδέκατος-η-ο,
     <br>* McshEngl.eleventh!⇒ενδέκατος-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-foFo!=11th,
+    <br>* suro-foFo!=11th!=ενδέκατος-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.dekunua,
+    <br>* McshEspo.dekunua!=ενδέκατος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.ενδέκατος!=ενδέκατος-η-ο,
-    <br>* McshElln.ενδέκατος!~adjeElln!=ενδέκατος-η-ο,
+    <br>* McshElln.ενδέκατος!~AdjeElln!=ενδέκατος-η-ο,
     <a class="clsHide" href="#idSys001ordr11thnam"></a></p>
   </section>
 
@@ -950,12 +950,12 @@
     <br>* McshEngl.12th!⇒δωδέκατος-η-ο,
     <br>* McshEngl.twelfth!⇒δωδέκατος-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-foTho!=12th,
+    <br>* suro-foTho!=12th!=δωδέκατος-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.dekdua,
+    <br>* McshEspo.dekdua!=δωδέκατος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.δωδέκατος!=δωδέκατος-η-ο,
-    <br>* McshElln.δωδέκατος!~adjeElln!=δωδέκατος-η-ο,
+    <br>* McshElln.δωδέκατος!~AdjeElln!=δωδέκατος-η-ο,
     <a class="clsHide" href="#idSys001ordr12thnam"></a></p>
   </section>
 
@@ -972,12 +972,12 @@
     <br>* McshEngl.13th!⇒δέκατος-τρίτος-η-ο,
     <br>* McshEngl.thirteenth!⇒δέκατος-τρίτος-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-foTho!=13th,
+    <br>* suro-foTho!=13th!=δέκατος-τρίτος-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.dektria,
+    <br>* McshEspo.dektria!=δέκατος-τρίτος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.δέκατος-τρίτος!=δέκατος-τρίτος-η-ο,
-    <br>* McshElln.δέκατος-τρίτος!~adjeElln!=δέκατος-τρίτος-η-ο,
+    <br>* McshElln.δέκατος-τρίτος!~AdjeElln!=δέκατος-τρίτος-η-ο,
     <a class="clsHide" href="#idSys001ordr13thnam"></a></p>
   </section>
 
@@ -993,12 +993,12 @@
     <br>* McshEngl.20th!⇒εικοσιοστός-η-ο,
     <br>* McshEngl.twentieth!⇒εικοσιοστός-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-thoPo!=20th,
+    <br>* suro-thoPo!=20th!=εικοσιοστός-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.dudeka,
+    <br>* McshEspo.dudeka!=εικοσιοστός-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.εικοσιοστός!=εικοσιοστός-η-ο,
-    <br>* McshElln.εικοσιοστός!~adjeElln!=εικοσιοστός-η-ο,
+    <br>* McshElln.εικοσιοστός!~AdjeElln!=εικοσιοστός-η-ο,
     <a class="clsHide" href="#idSys001ordr20thnam"></a></p>
   </section>
 
@@ -1014,12 +1014,12 @@
     <br>* McshEngl.21st!⇒εικοσιοστός-πρώτος-η-ο,
     <br>* McshEngl.twentieth-first!⇒εικοσιοστός-πρώτος-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-thoPo!=21st,
+    <br>* suro-thoPo!=21st!=εικοσιοστός-πρώτος-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.dudeka-unua,
+    <br>* McshEspo.dudeka-unua!=εικοσιοστός-πρώτος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.εικοσιοστός-πρώτος!=εικοσιοστός-πρώτος-η-ο,
-    <br>* McshElln.εικοσιοστός-πρώτος!~adjeElln!=εικοσιοστός-πρώτος-η-ο,
+    <br>* McshElln.εικοσιοστός-πρώτος!~AdjeElln!=εικοσιοστός-πρώτος-η-ο,
     <a class="clsHide" href="#idSys001ordr21stnam"></a></p>
   </section>
 
@@ -1035,12 +1035,12 @@
     <br>* McshEngl.99th!⇒ενενηκοστός-ένατος-η-ο,
     <br>* McshEngl.ninetieth-ninth!⇒ενενηκοστός-ένατος-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-roRo!=99th,
+    <br>* suro-roRo!=99th!=ενενηκοστός-ένατος-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.naŭdeka-naŭa,
+    <br>* McshEspo.naŭdeka-naŭa!=ενενηκοστός-ένατος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.ενενηκοστός-ένατος!=ενενηκοστός-ένατος-η-ο,
-    <br>* McshElln.ενενηκοστός-ένατος!~adjeElln!=ενενηκοστός-ένατος-η-ο,
+    <br>* McshElln.ενενηκοστός-ένατος!~AdjeElln!=ενενηκοστός-ένατος-η-ο,
     <a class="clsHide" href="#idSys001ordr99thnam"></a></p>
   </section>
 
@@ -1056,12 +1056,12 @@
     <br>* McshEngl.100th!⇒εκατοστός-η-ο,
     <br>* McshEngl.hundredth!⇒εκατοστός-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-foPoPo!=100th,
+    <br>* suro-foPoPo!=100th!=εκατοστός-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.centa,
+    <br>* McshEspo.centa!=εκατοστός-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.εκατοστός!=εκατοστός-η-ο,
-    <br>* McshElln.εκατοστός!~adjeElln!=εκατοστός-η-ο,
+    <br>* McshElln.εκατοστός!~AdjeElln!=εκατοστός-η-ο,
     <a class="clsHide" href="#idSys001ordr100thnam"></a></p>
   </section>
 
@@ -1077,12 +1077,12 @@
     <br>* McshEngl.101st!⇒εκατοστός-πρώτος-η-ο,
     <br>* McshEngl.one-hundredth-first!⇒εκατοστός-πρώτος-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-foPoFo!=101st,
+    <br>* suro-foPoFo!=101st!=εκατοστός-πρώτος-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.centa-unua,
+    <br>* McshEspo.centa-unua!=εκατοστός-πρώτος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.εκατοστός-πρώτος!=εκατοστός-πρώτος-η-ο,
-    <br>* McshElln.εκατοστός-πρώτος!~adjeElln!=εκατοστός-πρώτος-η-ο,
+    <br>* McshElln.εκατοστός-πρώτος!~AdjeElln!=εκατοστός-πρώτος-η-ο,
     <a class="clsHide" href="#idSys001ordr101stnam"></a></p>
   </section>
 
@@ -1098,12 +1098,12 @@
     <br>* McshEngl.200th!⇒διακοσιοστός-η-ο,
     <br>* McshEngl.two-hundredth!⇒διακοσιοστός-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-thoPoPo!=200th,
+    <br>* suro-thoPoPo!=200th!=διακοσιοστός-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.ducenta,
+    <br>* McshEspo.ducenta!=διακοσιοστός-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.διακοσιοστός!=διακοσιοστός-η-ο,
-    <br>* McshElln.διακοσιοστός!~adjeElln!=διακοσιοστός-η-ο,
+    <br>* McshElln.διακοσιοστός!~AdjeElln!=διακοσιοστός-η-ο,
     <a class="clsHide" href="#idSys001ordr200thnam"></a></p>
   </section>
 
@@ -1119,12 +1119,12 @@
     <br>* McshEngl.999th!⇒ενιακοστός-ενενηκοστός-ένατος-η-ο,
     <br>* McshEngl.nine-hundredth-ninetieth-ninth!⇒ενιακοστός-ενενηκοστός-ένατος-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-roRoRo!=999th,
+    <br>* suro-roRoRo!=999th!=ενιακοστός-ενενηκοστός-ένατος-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.naŭcenta-naŭdeka-naŭa,
+    <br>* McshEspo.naŭcenta-naŭdeka-naŭa!=ενιακοστός-ενενηκοστός-ένατος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.εννιακοσιοστός-ενενηκοστός-ένατος!=ενιακοστός-ενενηκοστός-ένατος-η-ο,
-    <br>* McshElln.εννιακοσιοστός-ενενηκοστός-ένατος!~adjeElln!=ενιακοστός-ενενηκοστός-ένατος-η-ο,
+    <br>* McshElln.εννιακοσιοστός-ενενηκοστός-ένατος!~AdjeElln!=ενιακοστός-ενενηκοστός-ένατος-η-ο,
     <a class="clsHide" href="#idSys001ordr999stnam"></a></p>
   </section>
 
@@ -1140,12 +1140,12 @@
     <br>* McshEngl.1'000th!⇒χιλιοστός-η-ο,
     <br>* McshEngl.thousandth!⇒χιλιοστός-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-Kilo1Fo!=1'000th,
+    <br>* suro-Kilo1Fo!=1'000th!=χιλιοστός-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.mila,
+    <br>* McshEspo.mila!=χιλιοστός-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.χιλιοστός!=χιλιοστός-η-ο,
-    <br>* McshElln.χιλιοστός!~adjeElln!=χιλιοστός-η-ο,
+    <br>* McshElln.χιλιοστός!~AdjeElln!=χιλιοστός-η-ο,
     <a class="clsHide" href="#idSys001ordr1000thnam"></a></p>
   </section>
 
@@ -1163,10 +1163,10 @@
     <br>====== lagoSinagu:
     <br>* suro-Kilo1Fo-Kilo0PoPoFo!=1'001st,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.unu-mila-unua,
+    <br>* McshEspo.unu-mila-unua!=χιλιοστός-πρώτος-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.χιλιοστός-πρώτος!=χιλιοστός-πρώτος-η-ο,
-    <br>* McshElln.χιλιοστός-πρώτος!~adjeElln!=χιλιοστός-πρώτος-η-ο,
+    <br>* McshElln.χιλιοστός-πρώτος!~AdjeElln!=χιλιοστός-πρώτος-η-ο,
     <a class="clsHide" href="#idSys001ordr1000stnam"></a></p>
   </section>
 
@@ -1184,10 +1184,10 @@
     <br>====== lagoSinagu:
     <br>* suro-Kilo1Tho!=2'000th,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.dumila,
+    <br>* McshEspo.dumila!=δις-χιλιοστός-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.δις-χιλιοστός!=δις-χιλιοστός-η-ο,
-    <br>* McshElln.δις-χιλιοστός!~adjeElln!=δις-χιλιοστός-η-ο,
+    <br>* McshElln.δις-χιλιοστός!~AdjeElln!=δις-χιλιοστός-η-ο,
     <a class="clsHide" href="#idSys001ordr2000thnam"></a></p>
   </section>
 
@@ -1207,7 +1207,7 @@
     <br>* McshEspo.naŭcenta-naŭdeka-naŭa-mila-naŭcenta-naŭdeka-naŭa,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.εννιακοσιοστός-ενενηκοστός-ένατος-χιλιοστός-εννιακοσιοστός-ενενηκοστός-ένατος!=,
-    <br>* McshElln.εννιακοσιοστός-ενενηκοστός-ένατος-χιλιοστός-εννιακοσιοστός-ενενηκοστός-ένατος!~adjeElln!=,
+    <br>* McshElln.εννιακοσιοστός-ενενηκοστός-ένατος-χιλιοστός-εννιακοσιοστός-ενενηκοστός-ένατος!~AdjeElln!=,
     <a class="clsHide" href="#idSys001ordr999999thnam"></a></p>
   </section>
 
@@ -1223,12 +1223,12 @@
     <br>* McshEngl.1'000'000th!⇒εκατομμυριοστός-η-ο,
     <br>* McshEngl.millionth!⇒εκατομμυριοστός-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-Kilo2Fo!=1'000'000th,
+    <br>* suro-Kilo2Fo!=1'000'000th!=εκατομμυριοστός-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.unu-miliona,
+    <br>* McshEspo.unu-miliona!=εκατομμυριοστός-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.εκατομμυριοστός!=εκατομμυριοστός-η-ο,
-    <br>* McshElln.εκατομμυριοστός!~adjeElln!=εκατομμυριοστός-η-ο,
+    <br>* McshElln.εκατομμυριοστός!~AdjeElln!=εκατομμυριοστός-η-ο,
     <a class="clsHide" href="#idSys001ordrK21thnam"></a></p>
   </section>
 
@@ -1244,12 +1244,12 @@
     <br>* McshEngl.2'000'000th!⇒δύο-εκατομμυριοστός-η-ο,
     <br>* McshEngl.two-millionth!⇒δύο-εκατομμυριοστός-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-Kilo2Tho!=2'000'000th,
+    <br>* suro-Kilo2Tho!=2'000'000th!=δύο-εκατομμυριοστός-η-ο,
     <br>====== lagoGreek:
     <br>====== lagoEsperanto:
-    <br>* McshEspo.du-miliona,
+    <br>* McshEspo.du-miliona!=δύο-εκατομμυριοστός-η-ο,
     <br>* McshElln.επίθετο.δύο-εκατομμυριοστός!=δύο-εκατομμυριοστός-η-ο,
-    <br>* McshElln.δύο-εκατομμυριοστός!~adjeElln!=δύο-εκατομμυριοστός-η-ο,
+    <br>* McshElln.δύο-εκατομμυριοστός!~AdjeElln!=δύο-εκατομμυριοστός-η-ο,
     <a class="clsHide" href="#idSys001ordrK22thnam"></a></p>
   </section>
 
@@ -1265,12 +1265,12 @@
     <br>* McshEngl.1'000'000'000th!⇒δισεκατομμυριοστός-η-ο,
     <br>* McshEngl.billionth!⇒δισεκατομμυριοστός-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-Kilo3Fo!=1'000'000'000th,
+    <br>* suro-Kilo3Fo!=1'000'000'000th!=δισεκατομμυριοστός-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.miliarda,
+    <br>* McshEspo.miliarda!=δισεκατομμυριοστός-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.δισεκατομμυριοστός!=δισεκατομμυριοστός-η-ο,
-    <br>* McshElln.δισεκατομμυριοστός!~adjeElln!=δισεκατομμυριοστός-η-ο,
+    <br>* McshElln.δισεκατομμυριοστός!~AdjeElln!=δισεκατομμυριοστός-η-ο,
     <a class="clsHide" href="#idSys001ordrK31thnam"></a></p>
   </section>
 
@@ -1286,12 +1286,12 @@
     <br>* McshEngl.1'000'000'000'000th!⇒τρισεκατομμυριοστός-η-ο,
     <br>* McshEngl.trillionth!⇒τρισεκατομμυριοστός-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-Kilo4Fo!=1'000'000'000'000th,
+    <br>* suro-Kilo4Fo!=1'000'000'000'000th!=τρισεκατομμυριοστός-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.duiliona,
+    <br>* McshEspo.duiliona!=τρισεκατομμυριοστός-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.τρισεκατομμυριοστός!=τρισεκατομμυριοστός-η-ο,
-    <br>* McshElln.τρισεκατομμυριοστός!~adjeElln!=τρισεκατομμυριοστός-η-ο,
+    <br>* McshElln.τρισεκατομμυριοστός!~AdjeElln!=τρισεκατομμυριοστός-η-ο,
     <a class="clsHide" href="#idSys001ordrK41thnam"></a></p>
   </section>
 
@@ -1307,12 +1307,12 @@
     <br>* McshEngl.1'000'000'000'000'000th!⇒τετράκις-εκατομμυριοστός-η-ο,
     <br>* McshEngl.quadrillionth!⇒τετράκις-εκατομμυριοστός-η-ο,
     <br>====== lagoSinagu:
-    <br>* suro-Kilo5Fo!=1'000'000'000'000'000th,
+    <br>* suro-Kilo5Fo!=1'000'000'000'000'000th!=τετράκις-εκατομμυριοστός-η-ο,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.kvariliona,
+    <br>* McshEspo.kvariliona!=τετράκις-εκατομμυριοστός-η-ο,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.τετράκις-εκατομμυριοστός!=τετράκις-εκατομμυριοστός-η-ο,
-    <br>* McshElln.τετράκις-εκατομμυριοστός!~adjeElln!=τετράκις-εκατομμυριοστός-η-ο,
+    <br>* McshElln.τετράκις-εκατομμυριοστός!~AdjeElln!=τετράκις-εκατομμυριοστός-η-ο,
     <a class="clsHide" href="#idSys001ordrK51thnam"></a></p>
   </section>
 
@@ -2045,8 +2045,9 @@
     <br>[{2019-12-24} https://en.wikipedia.org/wiki/Taxonomy_(general)]
     <a class="clsHide" href="#idSys002Gcscdsn"></a></p>
   <p id="idSys002Gcscnam">name::
+    <br>* McshEngl.treeGnsp,
     <br>* McshEngl.generic-specific--tree!⇒treeGnsp,
-    <br>* McshEngl.treeGnspgeneric-specific--tree,
+    <br>* McshEngl.treeGnspgeneric-specific--tree!⇒treeGnsp,
     <br>* McshEngl.systTree.generic-specific!⇒treeGnsp,
     <br>* McshEngl.generic-specific--tree-system!⇒treeGnsp,
     <br>* McshEngl.systTreeGs!⇒treeGnsp,
@@ -2367,11 +2368,11 @@
     <br>· material-system is ANY system of <a class="clsPreview" href="../dirNtr/McshNtr000002.last.html#idOverview">material-bodies</a> (atoms, molecules, SystMolecules).
     <a class="clsHide" href="#idSys005dsn"></a></p>
   <p id="idSys005nam">name::
+    <br>* McshEngl.SystMaterial, {2020-04-09},
     <br>* McshEngl.system.005-material!⇒SystMaterial,
     <br>* McshEngl.system.material-005!⇒SystMaterial,
     <br>* McshEngl.material.system!⇒SystMaterial,
     <br>* McshEngl.material-system!⇒SystMaterial,
-    <br>* McshEngl.SystMaterial, {2020-04-09},
     <a class="clsHide" href="#idSys005nam"></a></p>
   </section>
 
