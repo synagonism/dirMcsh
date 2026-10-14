@@ -1463,8 +1463,8 @@
     <br>* McshEngl.Wasm-opcode!⇒Wasmopcode,
     <br>* McshEngl.Wasmopcode!=Wasm-opcode,
     <br>* McshEngl.Wasm_lago'opcode-of-instruction!⇒Wasmopcode,
-    <br>* McshEngl.Wasm-instruction'opcode!⇒Wasmopcode,
-    <br>* McshEngl.Wasm-instruction'operation!⇒Wasmopcode,
+    <br>* McshEngl.Wasmcmnd'opcode!⇒Wasmopcode,
+    <br>* McshEngl.Wasmcmnd'operation!⇒Wasmopcode,
     <a class="clsHide" href="#idLWasmstcopcdnam"></a></p>
 
   <section id="idLWasmstcmnc">
@@ -1474,7 +1474,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcmncdsn"></a></p>
   <p id="idLWasmstcmncnam">name::
-    <br>* McshEngl.Wasm-instruction'mnemonic,
+    <br>* McshEngl.Wasmcmnd'mnemonic,
     <a class="clsHide" href="#idLWasmstcmncnam"></a></p>
   </section>
 
@@ -1658,7 +1658,7 @@
     <a class="clsHide" href="#idLWasmstcoprddsn"></a></p>
   <p id="idLWasmstcoprdnam">name::
     <br>* McshEngl.Wasm_lago'operand-of-sentence,
-    <br>* McshEngl.Wasm-instruction'operand,
+    <br>* McshEngl.Wasmcmnd'operand,
     <a class="clsHide" href="#idLWasmstcoprdnam"></a></p>
   </section>
 
@@ -1669,7 +1669,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcrsltdsn"></a></p>
   <p id="idLWasmstcrsltnam">name::
-    <br>* McshEngl.Wasm-instruction'result,
+    <br>* McshEngl.Wasmcmnd'result,
     <a class="clsHide" href="#idLWasmstcrsltnam"></a></p>
   </section>
 
@@ -1684,7 +1684,7 @@
     <a class="clsHide" href="#idLWasmstctypedsn"></a></p>
   <p id="idLWasmstctypenam">name::
     <br>* McshEngl.Wasm_lago'type-of-instruction,
-    <br>* McshEngl.Wasm-instruction'type,
+    <br>* McshEngl.Wasmcmnd'type,
     <a class="clsHide" href="#idLWasmstctypenam"></a></p>
   </section>
 
@@ -1704,7 +1704,7 @@
     <a class="clsHide" href="#idLWasmstctrapdsn"></a></p>
   <p id="idLWasmstctrapnam">name::
     <br>* McshEngl.Wasm_lago'trap-of-instruction,
-    <br>* McshEngl.Wasm-instruction'trap,
+    <br>* McshEngl.Wasmcmnd'trap,
     <a class="clsHide" href="#idLWasmstctrapnam"></a></p>
   </section>
 
@@ -1719,7 +1719,7 @@
     <br>* {2018-04-07} Mauro-Bringolf, Learning the Webassembly type system, <a href="https://maurobringolf.ch/2018/04/learning-the-webassembly-type-system/">https://maurobringolf.ch/</a>,
     <a class="clsHide" href="#idLWasmstcirscdsn"></a></p>
   <p id="idLWasmstcrscnam">name::
-    <br>* McshEngl.Wasm-instruction'info-resource,
+    <br>* McshEngl.Wasmcmnd'info-resource,
     <a class="clsHide" href="#idLWasmstcrscnam"></a></p>
   </section>
 
@@ -1770,14 +1770,14 @@
   </section>
 
   <section id="idLWasmstcClfw">
-  <h2 id="idLWasmstcClfwH2">instruction.CONTROL-FLOW
+  <h2 id="idLWasmstcClfwH2">Wasmcmnd.CONTROL-FLOW
     <a class="clsHide" href="#idLWasmstcClfwH2"></a></h2>
   <p id="idLWasmstcClfwdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcClfwdsn"></a></p>
   <p id="idLWasmstcClfwnam">name::
     <br>* McshEngl.Wasm_lago'control-flow-instruction,
-    <br>* McshEngl.Wasm-instruction.control-flow,
+    <br>* McshEngl.Wasmcmnd.control-flow,
     <a class="clsHide" href="#idLWasmstcClfwnam"></a></p>
   <p id="idLWasmstcClfwstr">specific::
     <br>* <a class="clsPreview" href="#idLWasmstcClfwBlck">block</a>,
@@ -1806,7 +1806,7 @@
     <a class="clsHide" href="#idLWasmstcClfwStrddsn"></a></p>
   <p id="idLWasmstcClfwStrdnam">name::
     <br>* McshEngl.Wasm_lago'structured-control-instruction,
-    <br>* McshEngl.Wasm-instruction.structured-control,
+    <br>* McshEngl.Wasmcmnd.structured-control,
     <a class="clsHide" href="#idLWasmstcClfwStrdnam"></a></p>
   <p id="idLWasmstcClfwStrdwpa">addressWpg::
     <br>* {2018-04-22} Mauro-Bringolf, Structured control flow in WebAssembly by example, <a href="https://maurobringolf.ch/2018/04/structured-control-flow-in-webassembly-by-example/">https://maurobringolf.ch/</a>,
@@ -1834,7 +1834,7 @@
   </section>
 
   <section id="idLWasmstcClfwBlck">
-  <h3 id="idLWasmstcClfwBlckH3">instruction.block
+  <h3 id="idLWasmstcClfwBlckH3">Wasmcmnd.block
     <a class="clsHide" href="#idLWasmstcClfwBlckH3"></a></h3>
   <p id="idLWasmstcClfwBlckdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1842,8 +1842,8 @@
     <a class="clsHide" href="#idLWasmstcClfwBlckdsn"></a></p>
   <p id="idLWasmstcClfwBlcknam">name::
     <br>* McshEngl.Wasm_lago'block-instruction,
-    <br>* McshEngl.Wasm-instruction.0x02-block,
-    <br>* McshEngl.Wasm-instruction.block-0x02,
+    <br>* McshEngl.Wasmcmnd.0x02-block,
+    <br>* McshEngl.Wasmcmnd.block-0x02,
     <a class="clsHide" href="#idLWasmstcClfwBlcknam"></a></p>
   <p id="idLWasmstcClfwBlckexpl">example::
     <br>* <a class="clsPreview" href="#idLWasmfcnUpr">link</a>,
@@ -1851,14 +1851,14 @@
   </section>
 
   <section id="idLWasmstcClfwBr">
-  <h3 id="idLWasmstcClfwBrH3">instruction.br
+  <h3 id="idLWasmstcClfwBrH3">Wasmcmnd.br
     <a class="clsHide" href="#idLWasmstcClfwBrH3"></a></h3>
   <p id="idLWasmstcClfwBrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcClfwBrdsn"></a></p>
   <p id="idLWasmstcClfwBrnam">name::
     <br>* McshEngl.Wasm_lago'br-instruction,
-    <br>* McshEngl.Wasm-instruction.br,
+    <br>* McshEngl.Wasmcmnd.br,
     <a class="clsHide" href="#idLWasmstcClfwBrnam"></a></p>
   <p id="idLWasmstcClfwBrexpl">example::
     <br>* <a class="clsPreview" href="#idLWasmfcnUpr">link</a>,
@@ -1866,15 +1866,15 @@
   </section>
 
   <section id="idLWasmstcClfwBrif">
-  <h3 id="idLWasmstcClfwBrifH3">instruction.br_if
+  <h3 id="idLWasmstcClfwBrifH3">Wasmcmnd.br_if
     <a class="clsHide" href="#idLWasmstcClfwBrifH3"></a></h3>
   <p id="idLWasmstcClfwBrifdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcClfwBrifdsn"></a></p>
   <p id="idLWasmstcClfwBrifnam">name::
     <br>* McshEngl.Wasm_lago'br_if-instruction,
-    <br>* McshEngl.Wasm-instruction.0x0D-br_if,
-    <br>* McshEngl.Wasm-instruction.br_if-0x0D,
+    <br>* McshEngl.Wasmcmnd.0x0D-br_if,
+    <br>* McshEngl.Wasmcmnd.br_if-0x0D,
     <a class="clsHide" href="#idLWasmstcClfwBrifnam"></a></p>
   <p id="idLWasmstcClfwBrifexpl">example::
     <br><code>(func (export "f") (result i32)
@@ -1892,19 +1892,19 @@
   </section>
 
   <section id="idLWasmstcClfwBrtbl">
-  <h3 id="idLWasmstcClfwBrtblH3">instruction.br_table
+  <h3 id="idLWasmstcClfwBrtblH3">Wasmcmnd.br_table
     <a class="clsHide" href="#idLWasmstcClfwBrtblH3"></a></h3>
   <p id="idLWasmstcClfwBrtbldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcClfwBrtbldsn"></a></p>
   <p id="idLWasmstcClfwBrtblnam">name::
     <br>* McshEngl.Wasm_lago'br_table-instruction,
-    <br>* McshEngl.Wasm-instruction.br_table,
+    <br>* McshEngl.Wasmcmnd.br_table,
     <a class="clsHide" href="#idLWasmstcClfwBrtblnam"></a></p>
   </section>
 
   <section id="idLWasmstcClfwElse">
-  <h3 id="idLWasmstcClfwElseH3">instruction.else
+  <h3 id="idLWasmstcClfwElseH3">Wasmcmnd.else
     <a class="clsHide" href="#idLWasmstcClfwElseH3"></a></h3>
   <p id="idLWasmstcClfwElsedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1912,8 +1912,8 @@
     <a class="clsHide" href="#idLWasmstcClfwElsedsn"></a></p>
   <p id="idLWasmstcClfwElsenam">name::
     <br>* McshEngl.Wasm_lago'else-instruction,
-    <br>* McshEngl.Wasm-instruction.0x05-else,
-    <br>* McshEngl.Wasm-instruction.else-0x05,
+    <br>* McshEngl.Wasmcmnd.0x05-else,
+    <br>* McshEngl.Wasmcmnd.else-0x05,
     <a class="clsHide" href="#idLWasmstcClfwElsenam"></a></p>
   <p id="idLWasmstcClfwElseexpl">example::
     <br><code>(module
@@ -1945,7 +1945,7 @@
   </section>
 
   <section id="idLWasmstcClfwEnd">
-  <h3 id="idLWasmstcClfwEndH3">instruction.end
+  <h3 id="idLWasmstcClfwEndH3">Wasmcmnd.end
     <a class="clsHide" href="#idLWasmstcClfwEndH3"></a></h3>
   <p id="idLWasmstcClfwEnddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1955,8 +1955,8 @@
     <a class="clsHide" href="#idLWasmstcClfwEnddsn"></a></p>
   <p id="idLWasmstcClfwEndnam">name::
     <br>* McshEngl.Wasm_lago'end-instruction,
-    <br>* McshEngl.Wasm-instruction.0x0B-end,
-    <br>* McshEngl.Wasm-instruction.end-0x0B,
+    <br>* McshEngl.Wasmcmnd.0x0B-end,
+    <br>* McshEngl.Wasmcmnd.end-0x0B,
     <a class="clsHide" href="#idLWasmstcClfwEndnam"></a></p>
   <p id="idLWasmstcClfwEndexpl">example::
     <br><code>(module
@@ -1977,7 +1977,7 @@
   </section>
 
   <section id="idLWasmstcClfwIf">
-  <h3 id="idLWasmstcClfwIfH3">instruction.if
+  <h3 id="idLWasmstcClfwIfH3">Wasmcmnd.if
     <a class="clsHide" href="#idLWasmstcClfwIfH3"></a></h3>
   <p id="idLWasmstcClfwIfdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1985,8 +1985,8 @@
     <a class="clsHide" href="#idLWasmstcClfwIfdsn"></a></p>
   <p id="idLWasmstcClfwIfnam">name::
     <br>* McshEngl.Wasm_lago'if-instruction,
-    <br>* McshEngl.Wasm-instruction.0x04-if,
-    <br>* McshEngl.Wasm-instruction.if-0x04,
+    <br>* McshEngl.Wasmcmnd.0x04-if,
+    <br>* McshEngl.Wasmcmnd.if-0x04,
     <a class="clsHide" href="#idLWasmstcClfwIfnam"></a></p>
   <p id="idLWasmstcClfwIfexpl">example::
     <br><code>(module
@@ -2018,7 +2018,7 @@
   </section>
 
   <section id="idLWasmstcClfwLoop">
-  <h3 id="idLWasmstcClfwLoopH3">instruction.loop
+  <h3 id="idLWasmstcClfwLoopH3">Wasmcmnd.loop
     <a class="clsHide" href="#idLWasmstcClfwLoopH3"></a></h3>
   <p id="idLWasmstcClfwLoopdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2026,8 +2026,8 @@
     <a class="clsHide" href="#idLWasmstcClfwLoopdsn"></a></p>
   <p id="idLWasmstcClfwLoopnam">name::
     <br>* McshEngl.Wasm_lago'loop-instruction,
-    <br>* McshEngl.Wasm-instruction.0x03-loop,
-    <br>* McshEngl.Wasm-instruction.loop-0x03,
+    <br>* McshEngl.Wasmcmnd.0x03-loop,
+    <br>* McshEngl.Wasmcmnd.loop-0x03,
     <a class="clsHide" href="#idLWasmstcClfwLoopnam"></a></p>
   <p id="idLWasmstcClfwLoopexpl">example::
     <br><code>(func (export "f") (result i32)
@@ -2060,7 +2060,7 @@
   </section>
 
   <section id="idLWasmstcClfwNop">
-  <h3 id="idLWasmstcClfwNopH3">instruction.nop
+  <h3 id="idLWasmstcClfwNopH3">Wasmcmnd.nop
     <a class="clsHide" href="#idLWasmstcClfwNopH3"></a></h3>
   <p id="idLWasmstcClfwNopdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2068,13 +2068,13 @@
     <a class="clsHide" href="#idLWasmstcClfwNopdsn"></a></p>
   <p id="idLWasmstcClfwNopnam">name::
     <br>* McshEngl.Wasm_lago'nop-instruction,
-    <br>* McshEngl.Wasm-instruction.0x01-nop,
-    <br>* McshEngl.Wasm-instruction.nop-0x01,
+    <br>* McshEngl.Wasmcmnd.0x01-nop,
+    <br>* McshEngl.Wasmcmnd.nop-0x01,
     <a class="clsHide" href="#idLWasmstcClfwNopnam"></a></p>
   </section>
 
   <section id="idLWasmstcClfwRtrn">
-  <h3 id="idLWasmstcClfwRtrnH3">instruction.return
+  <h3 id="idLWasmstcClfwRtrnH3">Wasmcmnd.return
     <a class="clsHide" href="#idLWasmstcClfwRtrnH3"></a></h3>
   <p id="idLWasmstcClfwRtrndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2082,8 +2082,8 @@
     <a class="clsHide" href="#idLWasmstcClfwRtrndsn"></a></p>
   <p id="idLWasmstcClfwRtrnnam">name::
     <br>* McshEngl.Wasm_lago'return-instruction,
-    <br>* McshEngl.Wasm-instruction.0x0F-return,
-    <br>* McshEngl.Wasm-instruction.return-0x0F,
+    <br>* McshEngl.Wasmcmnd.0x0F-return,
+    <br>* McshEngl.Wasmcmnd.return-0x0F,
     <a class="clsHide" href="#idLWasmstcClfwRtrnnam"></a></p>
   <p id="idLWasmstcClfwRtrnexpl">example::
     <br><code>(func (export "f") (param $a i32) (param $b i32) (result i32)
@@ -2113,7 +2113,7 @@
   </section>
 
   <section id="idLWasmstcClfwUnrcbl">
-  <h3 id="idLWasmstcClfwUnrcblH3">instruction.unreachable
+  <h3 id="idLWasmstcClfwUnrcblH3">Wasmcmnd.unreachable
     <a class="clsHide" href="#idLWasmstcClfwUnrcblH3"></a></h3>
   <p id="idLWasmstcClfwUnrcbldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2121,14 +2121,14 @@
     <a class="clsHide" href="#idLWasmstcClfwUnrcbldsn"></a></p>
   <p id="idLWasmstcClfwUnrcblnam">name::
     <br>* McshEngl.Wasm_lago'unreachable-instruction,
-    <br>* McshEngl.Wasm-instruction.0x00-unreachable,
-    <br>* McshEngl.Wasm-instruction.unreachable-0x00,
+    <br>* McshEngl.Wasmcmnd.0x00-unreachable,
+    <br>* McshEngl.Wasmcmnd.unreachable-0x00,
     <a class="clsHide" href="#idLWasmstcClfwUnrcblnam"></a></p>
   </section>
   </section>
 
   <section id="idLWasmstcClfwN">
-  <h2 id="idLWasmstcClfwNH2">instruction.CONTROL-FLOW.NO
+  <h2 id="idLWasmstcClfwNH2">Wasmcmnd.CONTROL-FLOW.NO
     <a class="clsHide" href="#idLWasmstcClfwNH2"></a></h2>
   <p id="idLWasmstcClfwNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2141,11 +2141,11 @@
     <a class="clsHide" href="#idLWasmstcClfwNdsn"></a></p>
   <p id="idLWasmstcClfwNnam">name::
     <br>* McshEngl.Wasm_lago'control-flow.no-instruction,
-    <br>* McshEngl.Wasm-instruction.control-flow.no,
+    <br>* McshEngl.Wasmcmnd.control-flow.no,
     <a class="clsHide" href="#idLWasmstcClfwNnam"></a></p>
 
   <section id="idLWasmstcCall">
-  <h3 id="idLWasmstcCallH3">instruction.call
+  <h3 id="idLWasmstcCallH3">Wasmcmnd.call
     <a class="clsHide" href="#idLWasmstcCallH3"></a></h3>
   <p id="idLWasmstcCalldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2153,8 +2153,8 @@
     <a class="clsHide" href="#idLWasmstcCalldsn"></a></p>
   <p id="idLWasmstcCallnam">name::
     <br>* McshEngl.Wasm_lago'call-instruction,
-    <br>* McshEngl.Wasm-instruction.0x10-call,
-    <br>* McshEngl.Wasm-instruction.call-0x10,
+    <br>* McshEngl.Wasmcmnd.0x10-call,
+    <br>* McshEngl.Wasmcmnd.call-0x10,
     <a class="clsHide" href="#idLWasmstcCallnam"></a></p>
   <p id="idLWasmstcCallexpl">example::
     <br><code>(func $f1 ...)
@@ -2165,7 +2165,7 @@
   </section>
 
   <section id="idLWasmstcCrtmmr">
-  <h3 id="idLWasmstcCrtmmrH3">instruction.current_memory
+  <h3 id="idLWasmstcCrtmmrH3">Wasmcmnd.current_memory
     <a class="clsHide" href="#idLWasmstcCrtmmrH3"></a></h3>
   <p id="idLWasmstcCrtmmrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2173,12 +2173,12 @@
     <a class="clsHide" href="#idLWasmstcCrtmmrdsn"></a></p>
   <p id="idLWasmstcCrtmmrnam">name::
     <br>* McshEngl.Wasm_lago'current_memory,
-    <br>* McshEngl.Wasm-instruction.current_memory,
+    <br>* McshEngl.Wasmcmnd.current_memory,
     <a class="clsHide" href="#idLWasmstcCrtmmrnam"></a></p>
   </section>
 
   <section id="idLWasmstcPrmcDrp">
-  <h3 id="idLWasmstcPrmcDrpH3">instruction.drop
+  <h3 id="idLWasmstcPrmcDrpH3">Wasmcmnd.drop
     <a class="clsHide" href="#idLWasmstcPrmcDrpH3"></a></h3>
   <p id="idLWasmstcPrmcDrpdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2189,26 +2189,26 @@
     <a class="clsHide" href="#idLWasmstcPrmcDrpdsn"></a></p>
   <p id="idLWasmstcPrmcDrpnam">name::
     <br>* McshEngl.Wasm_lago'drop-instruction,
-    <br>* McshEngl.Wasm-instruction.0x1A-drop,
-    <br>* McshEngl.Wasm-instruction.drop-0x1A,
+    <br>* McshEngl.Wasmcmnd.0x1A-drop,
+    <br>* McshEngl.Wasmcmnd.drop-0x1A,
     <a class="clsHide" href="#idLWasmstcPrmcDrpnam"></a></p>
   </section>
 
   <section id="idLWasmstcGtgbl">
-  <h3 id="idLWasmstcGtgblH3">instruction.get_global
+  <h3 id="idLWasmstcGtgblH3">Wasmcmnd.get_global
     <a class="clsHide" href="#idLWasmstcGtgblH3"></a></h3>
   <p id="idLWasmstcGtgbldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcGtgbldsn"></a></p>
   <p id="idLWasmstcGtgblnam">name::
     <br>* McshEngl.Wasm_lago'get_global,
-    <br>* McshEngl.Wasm-instruction.0x23-get_global,
-    <br>* McshEngl.Wasm-instruction.get_global-0x23,
+    <br>* McshEngl.Wasmcmnd.0x23-get_global,
+    <br>* McshEngl.Wasmcmnd.get_global-0x23,
     <a class="clsHide" href="#idLWasmstcGtgblnam"></a></p>
   </section>
 
   <section id="idLWasmstcGtlcl">
-  <h3 id="idLWasmstcGtlclH3">instruction.get_local
+  <h3 id="idLWasmstcGtlclH3">Wasmcmnd.get_local
     <a class="clsHide" href="#idLWasmstcGtlclH3"></a></h3>
   <p id="idLWasmstcGtlcldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2216,8 +2216,8 @@
     <a class="clsHide" href="#idLWasmstcGtlcldsn"></a></p>
   <p id="idLWasmstcGtlclnam">name::
     <br>* McshEngl.Wasm_lago'get_local,
-    <br>* McshEngl.Wasm-instruction.0x20-get_local,
-    <br>* McshEngl.Wasm-instruction.get_local-0x20,
+    <br>* McshEngl.Wasmcmnd.0x20-get_local,
+    <br>* McshEngl.Wasmcmnd.get_local-0x20,
     <a class="clsHide" href="#idLWasmstcGtlclnam"></a></p>
   <p id="idLWasmstcGtlclexpl">example::
     <br><code>(func (param $p1 i32) (param $p2 f32) (local $loc i32)
@@ -2233,7 +2233,7 @@
   </section>
 
   <section id="idLWasmstcGrwmmr">
-  <h3 id="idLWasmstcGrwmmrH3">instruction.grow_memory
+  <h3 id="idLWasmstcGrwmmrH3">Wasmcmnd.grow_memory
     <a class="clsHide" href="#idLWasmstcGrwmmrH3"></a></h3>
   <p id="idLWasmstcGrwmmrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2244,13 +2244,13 @@
   <p id="idLWasmstcGrwmmrnam">name::
     <br>* McshEngl.Wasm_lago'grow_memory,
     <br>* McshEngl.Wasm_lago'memory.grow,
-    <br>* McshEngl.Wasm-instruction.0x40-memory.grow,
-    <br>* McshEngl.Wasm-instruction.memory.grow-0x40,
+    <br>* McshEngl.Wasmcmnd.0x40-memory.grow,
+    <br>* McshEngl.Wasmcmnd.memory.grow-0x40,
     <a class="clsHide" href="#idLWasmstcGrwmmrnam"></a></p>
   </section>
 
   <section id="idLWasmstcI32add">
-  <h3 id="idLWasmstcI32addH3">instruction.i32.add
+  <h3 id="idLWasmstcI32addH3">Wasmcmnd.i32.add
     <a class="clsHide" href="#idLWasmstcI32addH3"></a></h3>
   <p id="idLWasmstcI32adddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2258,8 +2258,8 @@
     <a class="clsHide" href="#idLWasmstcI32adddsn"></a></p>
   <p id="idLWasmstcI32addnam">name::
     <br>* McshEngl.Wasm_lago'i32.add-instruction,
-    <br>* McshEngl.Wasm-instruction.0x6A-i32.add,
-    <br>* McshEngl.Wasm-instruction.i32.add-0x6A,
+    <br>* McshEngl.Wasmcmnd.0x6A-i32.add,
+    <br>* McshEngl.Wasmcmnd.i32.add-0x6A,
     <a class="clsHide" href="#idLWasmstcI32addnam"></a></p>
   <p id="idLWasmstcI32addexpl">example::
     <br><code>(func (export "f") (param $a i32) (result i32)
@@ -2275,7 +2275,7 @@
   </section>
 
   <section id="idLWasmstcI32cnst">
-  <h3 id="idLWasmstcI32cnstH3">instruction.i32.const
+  <h3 id="idLWasmstcI32cnstH3">Wasmcmnd.i32.const
     <a class="clsHide" href="#idLWasmstcI32cnstH3"></a></h3>
   <p id="idLWasmstcI32cnstdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2283,8 +2283,8 @@
     <a class="clsHide" href="#idLWasmstcI32cnstdsn"></a></p>
   <p id="idLWasmstcI32cnstnam">name::
     <br>* McshEngl.Wasm_lago'i32.const-instruction,
-    <br>* McshEngl.Wasm-instruction.0x41-i32.const,
-    <br>* McshEngl.Wasm-instruction.i32.const-0x41,
+    <br>* McshEngl.Wasmcmnd.0x41-i32.const,
+    <br>* McshEngl.Wasmcmnd.i32.const-0x41,
     <a class="clsHide" href="#idLWasmstcI32cnstnam"></a></p>
   <p id="idLWasmstcI32cnstexpl">example::
     <br>// returns 10
@@ -2299,7 +2299,7 @@
   </section>
 
   <section id="idLWasmstcI32mul">
-  <h3 id="idLWasmstcI32mulH3">instruction.i32.mul
+  <h3 id="idLWasmstcI32mulH3">Wasmcmnd.i32.mul
     <a class="clsHide" href="#idLWasmstcI32mulH3"></a></h3>
   <p id="idLWasmstcI32muldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2307,8 +2307,8 @@
     <a class="clsHide" href="#idLWasmstcI32muldsn"></a></p>
   <p id="idLWasmstcI32mulnam">name::
     <br>* McshEngl.Wasm_lago'i32.mul-instruction,
-    <br>* McshEngl.Wasm-instruction.0x6C-i32.mul,
-    <br>* McshEngl.Wasm-instruction.i32.mul-0x6C,
+    <br>* McshEngl.Wasmcmnd.0x6C-i32.mul,
+    <br>* McshEngl.Wasmcmnd.i32.mul-0x6C,
     <a class="clsHide" href="#idLWasmstcI32mulnam"></a></p>
   <p id="idLWasmstcI32mulexpl">example::
     <br>//for input 6 and 5, outputs 30
@@ -2325,7 +2325,7 @@
   </section>
 
   <section id="idLWasmstcLoad">
-  <h3 id="idLWasmstcLoadH3">instruction.load
+  <h3 id="idLWasmstcLoadH3">Wasmcmnd.load
     <a class="clsHide" href="#idLWasmstcLoadH3"></a></h3>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2343,7 +2343,7 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'load-memory-instruction,
-    <br>* McshEngl.Wasm-instruction.load-memory,
+    <br>* McshEngl.Wasmcmnd.load-memory,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   <p id="idLWasmstcLoadexpl">example::
     <br>//put var1 on stack
@@ -2371,7 +2371,7 @@
     <a class="clsHide" href="#idLWasmstcLoadstr"></a></p>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.f32.load
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.f32.load
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2379,12 +2379,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'f32.load,
-    <br>* McshEngl.Wasm-instruction.f32.load,
+    <br>* McshEngl.Wasmcmnd.f32.load,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.f64.load
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.f64.load
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2392,12 +2392,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'f64.load,
-    <br>* McshEngl.Wasm-instruction.f64.load,
+    <br>* McshEngl.Wasmcmnd.f64.load,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i32.load8_s
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load8_s
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2405,12 +2405,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i32.load8_s,
-    <br>* McshEngl.Wasm-instruction.i32.load8_s,
+    <br>* McshEngl.Wasmcmnd.i32.load8_s,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i32.load8_u
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load8_u
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2418,12 +2418,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i32.load8_u,
-    <br>* McshEngl.Wasm-instruction.i32.load8_u,
+    <br>* McshEngl.Wasmcmnd.i32.load8_u,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i32.load16_s
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load16_s
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2431,12 +2431,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i32.load16_s,
-    <br>* McshEngl.Wasm-instruction.i32.load16_s,
+    <br>* McshEngl.Wasmcmnd.i32.load16_s,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i32.load16_u
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load16_u
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2444,12 +2444,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i32.load16_u,
-    <br>* McshEngl.Wasm-instruction.i32.load16_u,
+    <br>* McshEngl.Wasmcmnd.i32.load16_u,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i32.load
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2457,12 +2457,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i32.load,
-    <br>* McshEngl.Wasm-instruction.i32.load,
+    <br>* McshEngl.Wasmcmnd.i32.load,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i64.load8_s
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load8_s
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2470,12 +2470,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i64.load8_s,
-    <br>* McshEngl.Wasm-instruction.i64.load8_s,
+    <br>* McshEngl.Wasmcmnd.i64.load8_s,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i64.load8_u
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load8_u
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2483,12 +2483,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i64.load8_u,
-    <br>* McshEngl.Wasm-instruction.i64.load8_u,
+    <br>* McshEngl.Wasmcmnd.i64.load8_u,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i64.load16_s
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load16_s
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2496,12 +2496,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i64.load16_s,
-    <br>* McshEngl.Wasm-instruction.i64.load16_s,
+    <br>* McshEngl.Wasmcmnd.i64.load16_s,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i64.load16_u
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load16_u
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2509,12 +2509,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i64.load16_u,
-    <br>* McshEngl.Wasm-instruction.i64.load16_u,
+    <br>* McshEngl.Wasmcmnd.i64.load16_u,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i64.load32_s
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load32_s
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2522,12 +2522,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i64.load32_s,
-    <br>* McshEngl.Wasm-instruction.i64.load32_s,
+    <br>* McshEngl.Wasmcmnd.i64.load32_s,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i64.load32_u
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load32_u
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2535,12 +2535,12 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i64.load32_u,
-    <br>* McshEngl.Wasm-instruction.i64.load32_u,
+    <br>* McshEngl.Wasmcmnd.i64.load32_u,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
 
   <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">instruction.i64.load
+  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load
     <a class="clsHide" href="#idLWasmstcLoadH4"></a></h4>
   <p id="idLWasmstcLoaddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2548,13 +2548,13 @@
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
     <br>* McshEngl.Wasm_lago'i64.load,
-    <br>* McshEngl.Wasm-instruction.i64.load,
+    <br>* McshEngl.Wasmcmnd.i64.load,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   </section>
   </section>
 
   <section id="idLWasmstcPrmcSlct">
-  <h3 id="idLWasmstcPrmcSlctH3">instruction.select
+  <h3 id="idLWasmstcPrmcSlctH3">Wasmcmnd.select
     <a class="clsHide" href="#idLWasmstcPrmcSlctH3"></a></h3>
   <p id="idLWasmstcPrmcSlctdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2568,8 +2568,8 @@
     <a class="clsHide" href="#idLWasmstcPrmcSlctdsn"></a></p>
   <p id="idLWasmstcPrmcSlctnam">name::
     <br>* McshEngl.Wasm_lago'select-instruction,
-    <br>* McshEngl.Wasm-instruction.0x1B-select,
-    <br>* McshEngl.Wasm-instruction.select-0x1B,
+    <br>* McshEngl.Wasmcmnd.0x1B-select,
+    <br>* McshEngl.Wasmcmnd.select-0x1B,
     <a class="clsHide" href="#idLWasmstcPrmcSlctnam"></a></p>
   <p id="idLWasmstcPrmcSlctexpl">example::
     <br><code>(func (export "f") (param $a i32) (param $b i32) (result i32)
@@ -2593,20 +2593,20 @@
   </section>
 
   <section id="idLWasmstcStgbl">
-  <h3 id="idLWasmstcStgblH3">instruction.set_global
+  <h3 id="idLWasmstcStgblH3">Wasmcmnd.set_global
     <a class="clsHide" href="#idLWasmstcStgblH3"></a></h3>
   <p id="idLWasmstcStgbldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcStgbldsn"></a></p>
   <p id="idLWasmstcStgblnam">name::
     <br>* McshEngl.Wasm_lago'set_global,
-    <br>* McshEngl.Wasm-instruction.0x24-set_global,
-    <br>* McshEngl.Wasm-instruction.set_global-0x24,
+    <br>* McshEngl.Wasmcmnd.0x24-set_global,
+    <br>* McshEngl.Wasmcmnd.set_global-0x24,
     <a class="clsHide" href="#idLWasmstcStgblnam"></a></p>
   </section>
 
   <section id="idLWasmstcStlcl">
-  <h3 id="idLWasmstcStlclH3">instruction.set_local
+  <h3 id="idLWasmstcStlclH3">Wasmcmnd.set_local
     <a class="clsHide" href="#idLWasmstcStlclH3"></a></h3>
   <p id="idLWasmstcStlcldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2614,8 +2614,8 @@
     <a class="clsHide" href="#idLWasmstcStlcldsn"></a></p>
   <p id="idLWasmstcStlclnam">name::
     <br>* McshEngl.Wasm_lago'set_local,
-    <br>* McshEngl.Wasm-instruction.0x20-set_local,
-    <br>* McshEngl.Wasm-instruction.set_local-0x20,
+    <br>* McshEngl.Wasmcmnd.0x20-set_local,
+    <br>* McshEngl.Wasmcmnd.set_local-0x20,
     <a class="clsHide" href="#idLWasmstcStlclnam"></a></p>
   <p id="idLWasmstcStlclexpl">example::
     <br><code>(func (export "f") (param (<a class="clsPreview" href="#idLWasmuntTxtCmnt">;0;</a>) i32) (result i32)
@@ -2628,7 +2628,7 @@
   </section>
 
   <section id="idLWasmstcStore">
-  <h3 id="idLWasmstcStoreH3">instruction.store
+  <h3 id="idLWasmstcStoreH3">Wasmcmnd.store
     <a class="clsHide" href="#idLWasmstcStoreH3"></a></h3>
   <p id="idLWasmstcStoredsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2636,7 +2636,7 @@
     <a class="clsHide" href="#idLWasmstcStoredsn"></a></p>
   <p id="idLWasmstcStorenam">name::
     <br>* McshEngl.Wasm_lago'store-memory-instruction,
-    <br>* McshEngl.Wasm-instruction.store-memory,
+    <br>* McshEngl.Wasmcmnd.store-memory,
     <a class="clsHide" href="#idLWasmstcStorenam"></a></p>
   <p id="idLWasmstcStoreexpl">example::
     <br>// wrap stack's value to i8 (1 byte), i2 value,
@@ -2660,7 +2660,7 @@
     <a class="clsHide" href="#idLWasmstcStorestr"></a></p>
 
   <section id="idLWasmstcStoreF32">
-  <h4 id="idLWasmstcStoreF32H4">instruction.f32.store
+  <h4 id="idLWasmstcStoreF32H4">Wasmcmnd.f32.store
     <a class="clsHide" href="#idLWasmstcStoreF32H4"></a></h4>
   <p id="idLWasmstcStoreF32dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2668,12 +2668,12 @@
     <a class="clsHide" href="#idLWasmstcStoreF32dsn"></a></p>
   <p id="idLWasmstcStoreF32nam">name::
     <br>* McshEngl.Wasm_lago'f32.store,
-    <br>* McshEngl.Wasm-instruction.f32.store,
+    <br>* McshEngl.Wasmcmnd.f32.store,
     <a class="clsHide" href="#idLWasmstcStoreF32nam"></a></p>
   </section>
 
   <section id="idLWasmstcStoreF64">
-  <h4 id="idLWasmstcStoreF64H4">instruction.f64.store
+  <h4 id="idLWasmstcStoreF64H4">Wasmcmnd.f64.store
     <a class="clsHide" href="#idLWasmstcStoreF64H4"></a></h4>
   <p id="idLWasmstcStoreF64dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2681,12 +2681,12 @@
     <a class="clsHide" href="#idLWasmstcStoreF64dsn"></a></p>
   <p id="idLWasmstcStoreF64nam">name::
     <br>* McshEngl.Wasm_lago'f64.store,
-    <br>* McshEngl.Wasm-instruction.f64.store,
+    <br>* McshEngl.Wasmcmnd.f64.store,
     <a class="clsHide" href="#idLWasmstcStoreF64nam"></a></p>
   </section>
 
   <section id="idLWasmstcStoreI328">
-  <h4 id="idLWasmstcStoreI328H4">instruction.i32.store8
+  <h4 id="idLWasmstcStoreI328H4">Wasmcmnd.i32.store8
     <a class="clsHide" href="#idLWasmstcStoreI328H4"></a></h4>
   <p id="idLWasmstcStoreI328dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2694,12 +2694,12 @@
     <a class="clsHide" href="#idLWasmstcStoreI328dsn"></a></p>
   <p id="idLWasmstcStoreI328nam">name::
     <br>* McshEngl.Wasm_lago'i32.store8,
-    <br>* McshEngl.Wasm-instruction.i32.store8,
+    <br>* McshEngl.Wasmcmnd.i32.store8,
     <a class="clsHide" href="#idLWasmstcStoreI328nam"></a></p>
   </section>
 
   <section id="idLWasmstcStoreI3216">
-  <h4 id="idLWasmstcStoreI3216H4">instruction.i32.store16
+  <h4 id="idLWasmstcStoreI3216H4">Wasmcmnd.i32.store16
     <a class="clsHide" href="#idLWasmstcStoreI3216H4"></a></h4>
   <p id="idLWasmstcStoreI3216dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2707,12 +2707,12 @@
     <a class="clsHide" href="#idLWasmstcStoreI3216dsn"></a></p>
   <p id="idLWasmstcStoreI3216nam">name::
     <br>* McshEngl.Wasm_lago'i32.store16,
-    <br>* McshEngl.Wasm-instruction.i32.store16,
+    <br>* McshEngl.Wasmcmnd.i32.store16,
     <a class="clsHide" href="#idLWasmstcStoreI3216nam"></a></p>
   </section>
 
   <section id="idLWasmstcStoreI32">
-  <h4 id="idLWasmstcStoreI32H4">instruction.i32.store
+  <h4 id="idLWasmstcStoreI32H4">Wasmcmnd.i32.store
     <a class="clsHide" href="#idLWasmstcStoreI32H4"></a></h4>
   <p id="idLWasmstcStoreI32dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2720,12 +2720,12 @@
     <a class="clsHide" href="#idLWasmstcStoreI32dsn"></a></p>
   <p id="idLWasmstcStoreI32nam">name::
     <br>* McshEngl.Wasm_lago'i32.store,
-    <br>* McshEngl.Wasm-instruction.i32.store,
+    <br>* McshEngl.Wasmcmnd.i32.store,
     <a class="clsHide" href="#idLWasmstcStoreI32nam"></a></p>
   </section>
 
   <section id="idLWasmstcStoreI648">
-  <h4 id="idLWasmstcStoreI648H4">instruction.i64.store8
+  <h4 id="idLWasmstcStoreI648H4">Wasmcmnd.i64.store8
     <a class="clsHide" href="#idLWasmstcStoreI648H4"></a></h4>
   <p id="idLWasmstcStoreI648dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2733,12 +2733,12 @@
     <a class="clsHide" href="#idLWasmstcStoreI648dsn"></a></p>
   <p id="idLWasmstcStoreI648nam">name::
     <br>* McshEngl.Wasm_lago'i64.store8,
-    <br>* McshEngl.Wasm-instruction.i64.store8,
+    <br>* McshEngl.Wasmcmnd.i64.store8,
     <a class="clsHide" href="#idLWasmstcStoreI648nam"></a></p>
   </section>
 
   <section id="idLWasmstcStoreI6416">
-  <h4 id="idLWasmstcStoreI6416H4">instruction.i64.store16
+  <h4 id="idLWasmstcStoreI6416H4">Wasmcmnd.i64.store16
     <a class="clsHide" href="#idLWasmstcStoreI6416H4"></a></h4>
   <p id="idLWasmstcStoreI6416dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2746,12 +2746,12 @@
     <a class="clsHide" href="#idLWasmstcStoreI6416dsn"></a></p>
   <p id="idLWasmstcStoreI6416nam">name::
     <br>* McshEngl.Wasm_lago'i64.store16,
-    <br>* McshEngl.Wasm-instruction.i64.store16,
+    <br>* McshEngl.Wasmcmnd.i64.store16,
     <a class="clsHide" href="#idLWasmstcStoreI6416nam"></a></p>
   </section>
 
   <section id="idLWasmstcStoreI6432">
-  <h4 id="idLWasmstcStoreI6432H4">instruction.i64.store32
+  <h4 id="idLWasmstcStoreI6432H4">Wasmcmnd.i64.store32
     <a class="clsHide" href="#idLWasmstcStoreI6432H4"></a></h4>
   <p id="idLWasmstcStoreI6432dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2759,12 +2759,12 @@
     <a class="clsHide" href="#idLWasmstcStoreI6432dsn"></a></p>
   <p id="idLWasmstcStoreI6432nam">name::
     <br>* McshEngl.Wasm_lago'i64.store32,
-    <br>* McshEngl.Wasm-instruction.i64.store32,
+    <br>* McshEngl.Wasmcmnd.i64.store32,
     <a class="clsHide" href="#idLWasmstcStoreI6432nam"></a></p>
   </section>
 
   <section id="idLWasmstcStoreI64">
-  <h4 id="idLWasmstcStoreI64H4">instruction.i64.store
+  <h4 id="idLWasmstcStoreI64H4">Wasmcmnd.i64.store
     <a class="clsHide" href="#idLWasmstcStoreI64H4"></a></h4>
   <p id="idLWasmstcStoreI64dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2772,13 +2772,13 @@
     <a class="clsHide" href="#idLWasmstcStoreI64dsn"></a></p>
   <p id="idLWasmstcStoreI64nam">name::
     <br>* McshEngl.Wasm_lago'i64.store,
-    <br>* McshEngl.Wasm-instruction.i64.store,
+    <br>* McshEngl.Wasmcmnd.i64.store,
     <a class="clsHide" href="#idLWasmstcStoreI64nam"></a></p>
   </section>
   </section>
 
   <section id="idLWasmstcTelcl">
-  <h3 id="idLWasmstcTelclH3">instruction.tee_local
+  <h3 id="idLWasmstcTelclH3">Wasmcmnd.tee_local
     <a class="clsHide" href="#idLWasmstcTelclH3"></a></h3>
   <p id="idLWasmstcTelcldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2786,8 +2786,8 @@
     <a class="clsHide" href="#idLWasmstcTelcldsn"></a></p>
   <p id="idLWasmstcTelclnam">name::
     <br>* McshEngl.Wasm_lago'tee_local,
-    <br>* McshEngl.Wasm-instruction.0x22-tee_local,
-    <br>* McshEngl.Wasm-instruction.tee_local-0x22,
+    <br>* McshEngl.Wasmcmnd.0x22-tee_local,
+    <br>* McshEngl.Wasmcmnd.tee_local-0x22,
     <a class="clsHide" href="#idLWasmstcTelclnam"></a></p>
   <p id="idLWasmstcTelclexpl">example::
     <br><code>(func (export "f") (param (<a class="clsPreview" href="#idLWasmuntTxtCmnt">;0;</a>) i32) (result i32)
@@ -2800,13 +2800,13 @@
   </section>
 
   <section id="idLWasmstcBsc">
-  <h2 id="idLWasmstcBscH2">instruction.BASIC
+  <h2 id="idLWasmstcBscH2">Wasmcmnd.BASIC
     <a class="clsHide" href="#idLWasmstcBscH2"></a></h2>
   <p id="idLWasmstcBscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcBscdsn"></a></p>
   <p id="idLWasmstcBscnam">name::
-    <br>* McshEngl.Wasm-instruction.basic,
+    <br>* McshEngl.Wasmcmnd.basic,
     <a class="clsHide" href="#idLWasmstcBscnam"></a></p>
 
   <section id="idLWasmstcBscgstr">
@@ -2816,17 +2816,17 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcBscgstrdsn"></a></p>
   <p id="idLWasmstcBscgstrnam">name::
-    <br>* McshEngl.Wasm-instruction.basic'generic-specific-tree,
-    <br>* McshEngl.Wasm-instruction.basic'specific-generic-tree,
+    <br>* McshEngl.Wasmcmnd.basic'generic-specific-tree,
+    <br>* McshEngl.Wasmcmnd.basic'specific-generic-tree,
     <a class="clsHide" href="#idLWasmstcBscgstrnam"></a></p>
   <p id="idLWasmstcBscgtr">generic-tree::
-    <br>* McshEngl.Wasm-instruction.basic-Gntr,
+    <br>* McshEngl.Wasmcmnd.basic-Gntr,
     <br>===
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idLWasmstcBscgtr"></a></p>
   <p id="idLWasmstcBscstr">specific-tree::
-    <br>* McshEngl.Wasm-instruction.basic.specific,
-    <br>* McshEngl.Wasm-instruction.basic-Sptr,
+    <br>* McshEngl.Wasmcmnd.basic.specific,
+    <br>* McshEngl.Wasmcmnd.basic-Sptr,
     <br>===
     <br>* No-Op
     <br>* Drop
@@ -2844,13 +2844,13 @@
   </section>
 
   <section id="idLWasmstcNmrc">
-  <h2 id="idLWasmstcNmrcH2">instruction.NUMERIC
+  <h2 id="idLWasmstcNmrcH2">Wasmcmnd.NUMERIC
     <a class="clsHide" href="#idLWasmstcNmrcH2"></a></h2>
   <p id="idLWasmstcNmrcdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idLWasmstcNmrcdsn"></a></p>
   <p id="idLWasmstcNmrcnam">name::
-    <br>* McshEngl.Wasm-instruction.numeric,
+    <br>* McshEngl.Wasmcmnd.numeric,
     <a class="clsHide" href="#idLWasmstcNmrcnam"></a></p>
 
   <section id="idLWasmstcNmrcgstr">
@@ -2860,17 +2860,17 @@
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idLWasmstcNmrcgstrdsn"></a></p>
   <p id="idLWasmstcNmrcgstrnam">name::
-    <br>* McshEngl.Wasm-instruction.numeric'generic-specific-tree,
-    <br>* McshEngl.Wasm-instruction.numeric'specific-generic-tree,
+    <br>* McshEngl.Wasmcmnd.numeric'generic-specific-tree,
+    <br>* McshEngl.Wasmcmnd.numeric'specific-generic-tree,
     <a class="clsHide" href="#idLWasmstcNmrcgstrnam"></a></p>
   <p id="idLWasmstcNmrcgtr">generic-tree::
-    <br>* McshEngl.Wasm-instruction.numeric-Gntr,
+    <br>* McshEngl.Wasmcmnd.numeric-Gntr,
     <br>===
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idLWasmstcNmrcgtr"></a></p>
   <p id="idLWasmstcNmrcstr">specific-tree::
-    <br>* McshEngl.Wasm-instruction.numeric.specific,
-    <br>* McshEngl.Wasm-instruction.numeric-Sptr,
+    <br>* McshEngl.Wasmcmnd.numeric.specific,
+    <br>* McshEngl.Wasmcmnd.numeric-Sptr,
     <br>===
     <br>* i32.clz (0x67),
     <br>* i32.ctz (0x68),
@@ -2941,7 +2941,7 @@
   </section>
 
   <section id="idLWasmstcPrmc">
-  <h2 id="idLWasmstcPrmcH2">instruction.PARAMETRIC
+  <h2 id="idLWasmstcPrmcH2">Wasmcmnd.PARAMETRIC
     <a class="clsHide" href="#idLWasmstcPrmcH2"></a></h2>
   <p id="idLWasmstcPrmcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2949,7 +2949,7 @@
     <br>[<a href="https://webassembly.github.io/spec/core/syntax/instructions.html#parametric-instructions">https://webassembly.github.io/spec/core/syntax/instructions.html#parametric-instructions</a> {1-0.2018-03-22}]
     <a class="clsHide" href="#idLWasmstcPrmcdsn"></a></p>
   <p id="idLWasmstcPrmcnam">name::
-    <br>* McshEngl.Wasm-instruction.parametric,
+    <br>* McshEngl.Wasmcmnd.parametric,
     <a class="clsHide" href="#idLWasmstcPrmcnam"></a></p>
 
   <section id="idLWasmstcPrmcgstr">
@@ -2959,17 +2959,17 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcPrmcgstrdsn"></a></p>
   <p id="idLWasmstcPrmcgstrnam">name::
-    <br>* McshEngl.Wasm-instruction.parametric'generic-specific-tree,
-    <br>* McshEngl.Wasm-instruction.parametric'specific-generic-tree,
+    <br>* McshEngl.Wasmcmnd.parametric'generic-specific-tree,
+    <br>* McshEngl.Wasmcmnd.parametric'specific-generic-tree,
     <a class="clsHide" href="#idLWasmstcPrmcgstrnam"></a></p>
   <p id="idLWasmstcPrmcgtr">generic-tree::
-    <br>* McshEngl.Wasm-instruction.parametric-Gntr,
+    <br>* McshEngl.Wasmcmnd.parametric-Gntr,
     <br>===
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idLWasmstcPrmcgtr"></a></p>
   <p id="idLWasmstcPrmcstr">specific-tree::
-    <br>* McshEngl.Wasm-instruction.parametric.specific,
-    <br>* McshEngl.Wasm-instruction.parametric-Sptr,
+    <br>* McshEngl.Wasmcmnd.parametric.specific,
+    <br>* McshEngl.Wasmcmnd.parametric-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="#idLWasmstcPrmcDrp">drop</a>,
     <br>* <a class="clsPreview" href="#idLWasmstcPrmcSlct">select-instruction</a>,
@@ -2978,7 +2978,7 @@
   </section>
 
   <section id="idLWasmstcVrbl">
-  <h2 id="idLWasmstcVrblH2">instruction.VARIABLE
+  <h2 id="idLWasmstcVrblH2">Wasmcmnd.VARIABLE
     <a class="clsHide" href="#idLWasmstcVrblH2"></a></h2>
   <p id="idLWasmstcVrbldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2988,7 +2988,7 @@
     <a class="clsHide" href="#idLWasmstcVrbldsn"></a></p>
   <p id="idLWasmstcVrblnam">name::
     <br>* McshEngl.Wasm_lago'variable-instruction,
-    <br>* McshEngl.Wasm-instruction.variable,
+    <br>* McshEngl.Wasmcmnd.variable,
     <a class="clsHide" href="#idLWasmstcVrblnam"></a></p>
   <p id="idLWasmstcVrblstr">specific::
     <br>* get_global,
@@ -3000,40 +3000,40 @@
   </section>
 
   <section id="idLWasmstcMmr">
-  <h2 id="idLWasmstcMmrH2">instruction.MEMORY
+  <h2 id="idLWasmstcMmrH2">Wasmcmnd.MEMORY
     <a class="clsHide" href="#idLWasmstcMmrH2"></a></h2>
   <p id="idLWasmstcMmrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· instructions related to <a class="clsPreview" href="#idLWasmsuntMmr">memory</a>.
     <a class="clsHide" href="#idLWasmstcMmrdsn"></a></p>
   <p id="idLWasmstcMmrnam">name::
-    <br>* McshEngl.Wasm_lago'memory-instruction,
-    <br>* McshEngl.Wasm-instruction.memory,
+    <br>* McshEngl.WasmcmndMemory,
+    <br>* McshEngl.Wasm_lago'memory-instruction!⇒WasmcmndMemory,
+    <br>* McshEngl.Wasmcmnd.memory!⇒WasmcmndMemory,
     <a class="clsHide" href="#idLWasmstcMmrnam"></a></p>
 
   <section id="idLWasmstcMmrarg">
-  <h3 id="idLWasmstcMmrargH3">memarg of memory-instruction
+  <h3 id="idLWasmstcMmrargH3">memarg of WasmcmndMemory
     <a class="clsHide" href="#idLWasmstcMmrargH3"></a></h3>
   <p id="idLWasmstcMmrargdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· memarg ::= {offset u32, align u32}
     <br>[<a href="https://webassembly.github.io/spec/core/syntax/instructions.html#memory-instructions">https://webassembly.github.io/spec/core/syntax/instructions.html#memory-instructions</a> {1-0.2018-03-22}]
-    <a class="clsHide" href="#idLWasmstcMmrargdsn"></a></p>
-  <p id="idLWasmstcMmrargnam">name::
-    <br>* McshEngl.Wasm_lago'memarg,
-    <br>* McshEngl.Wasm-memory-instruction'memarg,
-    <a class="clsHide" href="#idLWasmstcMmrargnam"></a></p>
-  </section>
-  <p id="idLWasmstcMmrargstr">specific::
+    <br>===
     <br>* current_memory,
     <br>* grow_memory,
     <br>* load,
     <br>* store,
-    <a class="clsHide" href="#idLWasmstcMmrargstr"></a></p>
+    <a class="clsHide" href="#idLWasmstcMmrargdsn"></a></p>
+  <p id="idLWasmstcMmrargnam">name::
+    <br>* McshEngl.memarg-of-WasmcmndMemory,
+    <br>* McshEngl.WasmcmndMemory'memarg,
+    <a class="clsHide" href="#idLWasmstcMmrargnam"></a></p>
+  </section>
   </section>
 
   <section id="idLWasmstcExrn">
-  <h2 id="idLWasmstcExrnH2">instruction.EXPRESSION
+  <h2 id="idLWasmstcExrnH2">Wasmcmnd.EXPRESSION
     <a class="clsHide" href="#idLWasmstcExrnH2"></a></h2>
   <p id="idLWasmstcExrndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3042,7 +3042,7 @@
     <a class="clsHide" href="#idLWasmstcExrndsn"></a></p>
   <p id="idLWasmstcExrnnam">name::
     <br>* McshEngl.Wasm_lago'expression-instruction,
-    <br>* McshEngl.Wasm-instruction.expression,
+    <br>* McshEngl.Wasmcmnd.expression,
     <a class="clsHide" href="#idLWasmstcExrnnam"></a></p>
 
   <section id="idLWasmstcExrnBnr">
@@ -3076,14 +3076,14 @@
   </section>
 
   <section id="idLWasmstcType">
-  <h2 id="idLWasmstcTypeH2">instruction.TYPE
+  <h2 id="idLWasmstcTypeH2">Wasmcmnd.TYPE
     <a class="clsHide" href="#idLWasmstcTypeH2"></a></h2>
   <p id="idLWasmstcTypedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcTypedsn"></a></p>
   <p id="idLWasmstcTypenam">name::
     <br>* McshEngl.Wasm_lago'type-signature,
-    <br>* McshEngl.Wasm-instruction.type,
+    <br>* McshEngl.Wasmcmnd.type,
     <a class="clsHide" href="#idLWasmstcTypenam"></a></p>
   <p id="idLWasmstcTypewhlchn">whole-chain::
     <br>* <a class="clsPreview" href="#idLWasmscnType">type-section</a>,
@@ -3103,7 +3103,7 @@
   </section>
 
   <section id="idLWasmstcExpt">
-  <h2 id="idLWasmstcExptH2">instruction.EXPORT
+  <h2 id="idLWasmstcExptH2">Wasmcmnd.EXPORT
     <a class="clsHide" href="#idLWasmstcExptH2"></a></h2>
   <p id="idLWasmstcExptdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3121,7 +3121,7 @@
   <p id="idLWasmstcExptnam">name::
     <br>* McshEngl.Wasm_lago'export-instruction,
     <br>* McshEngl.Wasm-export,
-    <br>* McshEngl.Wasm-instruction.export,
+    <br>* McshEngl.Wasmcmnd.export,
     <a class="clsHide" href="#idLWasmstcExptnam"></a></p>
   <p id="idLWasmstcExptwhlchn">whole-chain::
     <br>* <a class="clsPreview" href="#idLWasmscnExpt">export-section</a>,
@@ -3186,7 +3186,7 @@
   </section>
 
   <section id="idLWasmstcImprt">
-  <h2 id="idLWasmstcImprtH2">instruction.IMPORT
+  <h2 id="idLWasmstcImprtH2">Wasmcmnd.IMPORT
     <a class="clsHide" href="#idLWasmstcImprtH2"></a></h2>
   <p id="idLWasmstcImprtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3194,7 +3194,7 @@
   <p id="idLWasmstcImprtnam">name::
     <br>* McshEngl.Wasm_lago'import-instruction,
     <br>* McshEngl.Wasm-import,
-    <br>* McshEngl.Wasm-instruction.import,
+    <br>* McshEngl.Wasmcmnd.import,
     <a class="clsHide" href="#idLWasmstcImprtnam"></a></p>
   <p id="idLWasmstcImprtwhlchn">whole-chain::
     <br>* <a class="clsPreview" href="#idLWasmscnImpt">import-section</a>,
@@ -4570,14 +4570,14 @@
     <br>· we can-run the-program in <a class="clsPreview" href="../dirTchInf/McshTchInf000011.last.html#idLJsbrbsr">a-browser-environment</a>.
     <br>· we open this file in a-browser and hit F12 to see the-console.
     <br><code>&lt;!doctype html>
-    <br>&lt;html>
-    <br>&lt;body>
-    <br> &nbsp;&lt;script>
+    <br>&lt;html&gt;
+    <br>&lt;body&gt;
+    <br> &nbsp;&lt;script&gt;
     <br> &nbsp; &nbsp;WebAssembly.instantiateStreaming(fetch('simple2.wasm'))
     <br> &nbsp; &nbsp;.then(oModule => console.log(oModule.instance.exports.f59()))
-    <br> &nbsp;&lt;/script>
-    <br>&lt;/body>
-    <br>&lt;/html></code>
+    <br> &nbsp;&lt;/script&gt;
+    <br>&lt;/body&gt;
+    <br>&lt;/html&gt;</code>
     <a class="clsHide" href="#idLWasmpgmSmpl2hml"></a></p>
   <p id="idLWasmpgmSmpl2Ljn">Node.js-file::
     <br>//Node.js 8.11.1
@@ -4704,19 +4704,19 @@
     <br>0000035: 12 ; FIXUP section size</code>
     <a class="clsHide" href="#idLWasmpgmTblwasm"></a></p>
   <p id="idLWasmpgmTblhml">html-program::
-    <br><code>&lt;html>
-    <br>&lt;body>
-    <br> &nbsp;&lt;h1>table-demo&lt;/h1>
-    <br> &nbsp;&lt;p>· hit F12 to see console's output.
-    <br> &nbsp;&lt;script>
+    <br><code>&lt;html&gt;
+    <br>&lt;body&gt;
+    <br> &nbsp;&lt;h1&gt;table-demo&lt;/h1&gt;
+    <br> &nbsp;&lt;p&gt;· hit F12 to see console's output.
+    <br> &nbsp;&lt;script&gt;
     <br> &nbsp; &nbsp;WebAssembly.instantiateStreaming(fetch('table3.wasm'))
     <br> &nbsp; &nbsp; &nbsp;var oTbl = oModule.instance.exports.tbl;
     <br> &nbsp; &nbsp; &nbsp;console.log(oTbl.get(0)());  // 42
     <br> &nbsp; &nbsp; &nbsp;console.log(oTbl.length);    // 1
     <br> &nbsp; &nbsp;})
-    <br> &nbsp;&lt;/script>
-    <br>&lt;/body>
-    <br>&lt;/html></code>
+    <br> &nbsp;&lt;/script&gt;
+    <br>&lt;/body&gt;
+    <br>&lt;/html&gt;</code>
     <a class="clsHide" href="#idLWasmpgmTblhml"></a></p>
   <p id="idLWasmpgmTbldem">demo::
     <br>· <a href="McshTchInf000014.files/table3.html">link</a>.
@@ -4780,11 +4780,11 @@
     <br>00 ; num functions</code>
     <a class="clsHide" href="#idLWasmpgmMmrwasm"></a></p>
   <p id="idLWasmpgmMmrhml">html-program::
-    <br><code>&lt;html>
-    <br>&lt;body>
-    <br> &nbsp;&lt;h1>Wasm-memory demo&lt;/h1>
-    <br> &nbsp;&lt;p>· hit F12 to see console's output.
-    <br> &nbsp;&lt;script>
+    <br><code>&lt;html&gt;
+    <br>&lt;body&gt;
+    <br> &nbsp;&lt;h1&gt;Wasm-memory demo&lt;/h1&gt;
+    <br> &nbsp;&lt;p&gt;· hit F12 to see console's output.
+    <br> &nbsp;&lt;script&gt;
     <br> &nbsp; &nbsp;WebAssembly.instantiateStreaming(fetch('memory2.wasm'))
     <br> &nbsp; &nbsp;.then(oModule => {
     <br> &nbsp; &nbsp; &nbsp;function fUint8_to_string(aIn) {
@@ -4797,9 +4797,9 @@
     <br> &nbsp; &nbsp; &nbsp;let a = new Uint8Array(oModule.instance.exports.mem.buffer);
     <br> &nbsp; &nbsp; &nbsp;console.log(fUint8_to_string(a));
     <br> &nbsp; &nbsp;})
-    <br> &nbsp;&lt;/script>
-    <br>&lt;/body>
-    <br>&lt;/html></code>
+    <br> &nbsp;&lt;/script&gt;
+    <br>&lt;/body&gt;
+    <br>&lt;/html&gt;</code>
     <a class="clsHide" href="#idLWasmpgmMmrhml"></a></p>
   <p id="idLWasmpgmMmrdem">demo::
     <br>· <a href="McshTchInf000014.files/memory2.html">link</a>.
@@ -4829,13 +4829,13 @@
     <a class="clsHide" href="#idLWasmpgmSmplwat"></a></p>
   <p id="idLWasmpgmSmplhml">html-file::
     <br><code>&lt;!doctype html>
-    <br>&lt;html>
-    <br>&lt;head>
+    <br>&lt;html&gt;
+    <br>&lt;head&gt;
     <br> &nbsp;&lt;meta charset="utf-8">
-    <br> &nbsp;&lt;title>Wasm compile() test</title>
-    <br>&lt;/head>
-    <br>&lt;body>
-    <br> &nbsp;&lt;script>
+    <br> &nbsp;&lt;title&gt;Wasm compile() test</title>
+    <br>&lt;/head&gt;
+    <br>&lt;body&gt;
+    <br> &nbsp;&lt;script&gt;
     <br> &nbsp; &nbsp;var oImport = {
     <br> &nbsp; &nbsp; &nbsp;oJs: {fImported: arg => console.log(arg)}
     <br> &nbsp; &nbsp;};
@@ -4867,9 +4867,9 @@
     <br> &nbsp; &nbsp; &nbsp;WebAssembly.instantiate(oXHR.response, oImport))
     <br> &nbsp; &nbsp; &nbsp;.then(oModule => oModule.instance.exports.fExported());
     <br> &nbsp; &nbsp;}
-    <br> &nbsp;&lt;/script>
-    <br>&lt;/body>
-    <br>&lt;/html></code>
+    <br> &nbsp;&lt;/script&gt;
+    <br>&lt;/body&gt;
+    <br>&lt;/html&gt;</code>
     <a class="clsHide" href="#idLWasmpgmSmplhml"></a></p>
   <p id="idLWasmpgmSmpldem">demo::
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000014.files/simple-compile.html">compile-demo</a>,
@@ -4905,21 +4905,21 @@
     <br>· one method is with <a href="https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/">an-online-compiler</a>.
     <a class="clsHide" href="#idLWasmpgmHlwdwasm"></a></p>
   <p id="idLWasmpgmHlwdhml">html-program::
-    <br><code>&lt;html>
-    <br>&lt;body>
-    <br> &nbsp;&lt;h1>hello-world example&lt;/h1>
-    <br> &nbsp;&lt;p>· example from spec's &lt;a href="https://webassembly.github.io/spec/js-api/index.html">WebAssembly JavaScript Interface&lt;/a>
-    <br> &nbsp;&lt;p>· hit F12 to see console's output.
-    <br> &nbsp;&lt;script>
+    <br><code>&lt;html&gt;
+    <br>&lt;body&gt;
+    <br> &nbsp;&lt;h1&gt;hello-world example&lt;/h1&gt;
+    <br> &nbsp;&lt;p&gt;· example from spec's &lt;a href="https://webassembly.github.io/spec/js-api/index.html">WebAssembly JavaScript Interface&lt;/a&gt;
+    <br> &nbsp;&lt;p&gt;· hit F12 to see console's output.
+    <br> &nbsp;&lt;script&gt;
     <br> &nbsp; &nbsp;var oImport = {oJs: {
     <br> &nbsp; &nbsp; &nbsp;fImport1: () => console.log("hello,"),
     <br> &nbsp; &nbsp; &nbsp;fImport2: () => console.log("world!")
     <br> &nbsp; &nbsp;}};
     <br> &nbsp; &nbsp;<a class="clsPreview" href="#idLWasmrtewajoinststmf">WebAssembly.instantiateStreaming</a>(fetch('demo.wasm'), oImport)
     <br> &nbsp; &nbsp;.then(oModule => oModule.instance.exports.f());
-    <br> &nbsp;&lt;/script>
-    <br>&lt;/body>
-    <br>&lt;/html></code>
+    <br> &nbsp;&lt;/script&gt;
+    <br>&lt;/body&gt;
+    <br>&lt;/html&gt;</code>
     <a class="clsHide" href="#idLWasmpgmHlwdhml"></a></p>
   <p id="idLWasmpgmHlwddem">demo::
     <br>· <a href="McshTchInf000014.files/demo.html">link</a>.

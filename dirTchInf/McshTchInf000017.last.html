@@ -1216,7 +1216,7 @@ double AttackerSuccessProbability(double q, int z)
     <a class="clsHide" href="#idBtcnodHnstNoH2"></a></h2>
   <p id="idBtcnodHnstNodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>Take note that for both types of broadcasting, mechanisms are in place to punish misbehaving peers who take up bandwidth and computing resources by sending false information. If a peer gets a banscore above the -banscore=&lt;n> threshold, he will be banned for the number of seconds defined by -bantime=&lt;n>, which is 86,400 by default (24 hours).
+    <br>Take note that for both types of broadcasting, mechanisms are in place to punish misbehaving peers who take up bandwidth and computing resources by sending false information. If a peer gets a banscore above the -banscore=&lt;n&gt; threshold, he will be banned for the number of seconds defined by -bantime=&lt;n&gt;, which is 86,400 by default (24 hours).
     <br>[<a href="https://bitcoin.org/en/developer-guide#misbehaving-nodes">https://bitcoin.org/en/developer-guide#misbehaving-nodes</a>]
     <a class="clsHide" href="#idBtcnodHnstNodsn"></a></p>
   <p id="idBtcnodHnstNonam">name::
@@ -2961,8 +2961,8 @@ double AttackerSuccessProbability(double q, int z)
     <br>[<a href="https://bitcoin.org/en/glossary/p2pkh-address">https://bitcoin.org/en/glossary/p2pkh-address</a>]
     <br>===
     <br>P2PKH is the most common form of pubkey script used to send a transaction to one or multiple Bitcoin addresses.
-    <br>Pubkey script: OP_DUP OP_HASH160 &lt;PubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
-    <br>Signature script: &lt;sig> &lt;pubkey>
+    <br>Pubkey script: OP_DUP OP_HASH160 &lt;PubKeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG
+    <br>Signature script: &lt;sig&gt; &lt;pubkey&gt;
     <br>[<a href="https://bitcoin.org/en/developer-guide#pay-to-public-key-hash-p2pkh">https://bitcoin.org/en/developer-guide#pay-to-public-key-hash-p2pkh</a>]
     <a class="clsHide" href="#idBtcadsP2pkhdsn"></a></p>
   <p id="idBtcadsP2pkhnam">name::
@@ -3744,8 +3744,8 @@ double AttackerSuccessProbability(double q, int z)
     <br>Pubkey
     <br>Pubkey outputs are a simplified form of the P2PKH pubkey script, but they aren’t as secure as P2PKH, so they generally aren’t used in new transactions anymore.
     <br>
-    <br>Pubkey script: &lt;pubkey> OP_CHECKSIG
-    <br>Signature script: &lt;sig>
+    <br>Pubkey script: &lt;pubkey&gt; OP_CHECKSIG
+    <br>Signature script: &lt;sig&gt;
     <br>[<a href="https://bitcoin.org/en/developer-guide#pubkey">https://bitcoin.org/en/developer-guide#pubkey</a>]
     <a class="clsHide" href="#idBtcstlpbkscrptdsn"></a></p>
   <p id="idBtcstlpbkscrptnam">name::
@@ -3781,7 +3781,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcstlpbkscrptP2pkhdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>In a P2PKH output, the pubkey script is:
-    <br>OP_DUP OP_HASH160 &lt;PubkeyHash> OP_EQUALVERIFY OP_CHECKSIG
+    <br>OP_DUP OP_HASH160 &lt;PubkeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG
     <br>[<a href="https://bitcoin.org/en/developer-guide#p2pkh-script-validation">https://bitcoin.org/en/developer-guide#p2pkh-script-validation</a>]
     <a class="clsHide" href="#idBtcstlpbkscrptP2pkhdsn"></a></p>
   <p id="idBtcstlpbkscrptP2pkhnam">name::
@@ -3812,7 +3812,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcstlpbkscrptP2pkhadsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>In a P2PKH transaction, the signature script contains an secp256k1 signature (sig) and full public key (pubkey), creating the following concatenation:
-    <br>&lt;Sig> &lt;PubKey> OP_DUP OP_HASH160 &lt;PubkeyHash> OP_EQUALVERIFY OP_CHECKSIG
+    <br>&lt;Sig&gt; &lt;PubKey&gt; OP_DUP OP_HASH160 &lt;PubkeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG
     <br>[<a href="https://bitcoin.org/en/developer-guide#p2pkh-script-validation">https://bitcoin.org/en/developer-guide#p2pkh-script-validation</a>]
     <a class="clsHide" href="#idBtcstlpbkscrptP2pkhadsdsn"></a></p>
   <p id="idBtcstlpbkscrptP2pkhadsnam">name::
@@ -3828,8 +3828,8 @@ double AttackerSuccessProbability(double q, int z)
     <br>× Mcsh-creation: {2026-10-04}
     <br>Pay To Public Key Hash (P2PKH)
     <br>P2PKH is the most common form of <strong>pubkey script</strong> used to send a transaction to one or multiple Bitcoin addresses.
-    <br>Pubkey script: OP_DUP OP_HASH160 &lt;PubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
-    <br>Signature script: &lt;sig> &lt;pubkey>
+    <br>Pubkey script: OP_DUP OP_HASH160 &lt;PubKeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG
+    <br>Signature script: &lt;sig&gt; &lt;pubkey&gt;
     <br>[<a href="https://bitcoin.org/en/developer-guide#standard-transactions">https://bitcoin.org/en/developer-guide#standard-transactions</a>]
     <a class="clsHide" href="#idBtcstlscptP2pkhdsn"></a></p>
   <p id="idBtcstlscptP2pkhnam">name::
@@ -3846,7 +3846,7 @@ double AttackerSuccessProbability(double q, int z)
     <br>P2SH is used to send a transaction to a script hash.
     <br>Each of the standard pubkey scripts can be used as a P2SH redeem script, but in practice only the multisig pubkey script makes sense until more transaction types are made standard.
     <br>Pubkey script: OP_HASH160 &lt;Hash160(redeemScript)> OP_EQUAL
-    <br>Signature script: &lt;sig> [sig] [sig...] &lt;redeemScript>
+    <br>Signature script: &lt;sig&gt; [sig] [sig...] &lt;redeemScript&gt;
     <br>[<a href="https://bitcoin.org/en/developer-guide#pay-to-script-hash-p2sh">https://bitcoin.org/en/developer-guide#pay-to-script-hash-p2sh</a>]
     <br>===
     <br>Pay_to_Script_Hash:
@@ -3875,13 +3875,13 @@ double AttackerSuccessProbability(double q, int z)
     <br>
     <br>The signature script must provide signatures in the same order as the corresponding public keys appear in the pubkey script or redeem script. See the description in OP_CHECKMULTISIG for details.
     <br>
-    <br>Pubkey script: &lt;m> &lt;A pubkey> [B pubkey] [C pubkey...] &lt;n> OP_CHECKMULTISIG
+    <br>Pubkey script: &lt;m&gt; &lt;A pubkey> [B pubkey] [C pubkey...] &lt;n&gt; OP_CHECKMULTISIG
     <br>Signature script: OP_0 &lt;A sig> [B sig] [C sig...]
     <br>Although it’s not a separate transaction type, this is a P2SH multisig with 2-of-3:
     <br>
     <br>Pubkey script: OP_HASH160 &lt;Hash160(redeemScript)> OP_EQUAL
-    <br>Redeem script: &lt;OP_2> &lt;A pubkey> &lt;B pubkey> &lt;C pubkey> &lt;OP_3> OP_CHECKMULTISIG
-    <br>Signature script: OP_0 &lt;A sig> &lt;C sig> &lt;redeemScript>
+    <br>Redeem script: &lt;OP_2&gt; &lt;A pubkey> &lt;B pubkey> &lt;C pubkey> &lt;OP_3&gt; OP_CHECKMULTISIG
+    <br>Signature script: OP_0 &lt;A sig> &lt;C sig> &lt;redeemScript&gt;
     <br>[<a href="https://bitcoin.org/en/developer-guide#multisig">https://bitcoin.org/en/developer-guide#multisig</a>]
     <a class="clsHide" href="#idBtcstlscptMtsgdsn"></a></p>
   <p id="idBtcstlscptMtsgnam">name::
@@ -3951,9 +3951,9 @@ double AttackerSuccessProbability(double q, int z)
     <br>To test whether the transaction is valid, signature script and pubkey script <strong>operations</strong> are executed one item at a time, <strong>starting</strong> with Bob’s signature script and <strong>continuing</strong> to the end of Alice’s pubkey script.
     <br>[<a href="https://bitcoin.org/en/developer-guide#p2pkh-script-validation">https://bitcoin.org/en/developer-guide#p2pkh-script-validation</a>]
     <br>===
-    <br>scriptIpt: &lt;Sig> &lt;PubKey>
-    <br>scriptOpt: OP_DUP OP_HASH160 &lt;PubkeyHash> OP_EQUALVERIFY OP_CHECKSIG
-    <br>&lt;Sig> &lt;PubKey> OP_DUP OP_HASH160 &lt;PubkeyHash> OP_EQUALVERIFY OP_CHECKSIG
+    <br>scriptIpt: &lt;Sig&gt; &lt;PubKey&gt;
+    <br>scriptOpt: OP_DUP OP_HASH160 &lt;PubkeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG
+    <br>&lt;Sig&gt; &lt;PubKey&gt; OP_DUP OP_HASH160 &lt;PubkeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG
     <a class="clsHide" href="#idBtcstlextndsn"></a></p>
   <p id="idBtcstlextnnam">name::
     <br>* McshEngl.AgntBtcn'script-execution,
@@ -3962,17 +3962,17 @@ double AttackerSuccessProbability(double q, int z)
     <br>* McshEngl.Bitcoin-Script'verification,
     <a class="clsHide" href="#idBtcstlextnnam"></a></p>
   <p id="idBtcstlextnP1">DOING::
-    <br>1. CODE: &lt;Sig>&nbsp; &nbsp; &nbsp; &nbsp; STACK: &lt;Sig>
+    <br>1. CODE: &lt;Sig&gt;&nbsp; &nbsp; &nbsp; &nbsp; STACK: &lt;Sig&gt;
     <br>The signature (from Bob’s signature script) is added (pushed) to an empty stack. Because it’s just data, nothing is done except adding it to the stack.
-    <br>2. CODE: &lt;PubKey>&nbsp; &nbsp; STACK: &lt;PubKey>&lt;Sig>
+    <br>2. CODE: &lt;PubKey&gt;&nbsp; &nbsp; STACK: &lt;PubKey&gt;&lt;Sig&gt;
     <br>The public key (also from the signature script) is pushed on top of the signature.
-    <br>3. CODE: OP_DUP&nbsp; &nbsp; STACK: &lt;PubKey>&lt;PubKey>&lt;Sig>
+    <br>3. CODE: OP_DUP&nbsp; &nbsp; STACK: &lt;PubKey&gt;&lt;PubKey&gt;&lt;Sig&gt;
     <br>From Alice’s pubkey script, the OP_DUP operation is executed. OP_DUP pushes onto the stack a copy of the data currently at the top of it—in this case creating a copy of the public key Bob provided.
-    <br>4. CODE: OP_HASH160&nbsp; &nbsp; STACK: &lt;PubKeyHash>&lt;PubKey>&lt;Sig>
+    <br>4. CODE: OP_HASH160&nbsp; &nbsp; STACK: &lt;PubKeyHash&gt;&lt;PubKey&gt;&lt;Sig&gt;
     <br>The operation executed next, OP_HASH160, pushes onto the stack a hash of the data currently on top of it—in this case, Bob’s public key. This creates a hash of Bob’s public key.
-    <br>5. CODE: &lt;PubKeyHash>&nbsp; &nbsp; STACK: &lt;PubKeyHash>&lt;PubKeyHash>&lt;PubKey>&lt;Sig>
+    <br>5. CODE: &lt;PubKeyHash&gt;&nbsp; &nbsp; STACK: &lt;PubKeyHash&gt;&lt;PubKeyHash&gt;&lt;PubKey&gt;&lt;Sig&gt;
     <br>Alice’s pubkey script then pushes the pubkey hash that Bob gave her for the first transaction. At this point, there should be two copies of Bob’s pubkey hash at the top of the stack.
-    <br>6. CODE: OP_EQUALVERIFY&nbsp; &nbsp; STACK: &lt;PubKey>&lt;Sig>
+    <br>6. CODE: OP_EQUALVERIFY&nbsp; &nbsp; STACK: &lt;PubKey&gt;&lt;Sig&gt;
     <br>Now it gets interesting: Alice’s pubkey script executes OP_EQUALVERIFY.
     <br>OP_EQUALVERIFY is equivalent to executing OP_EQUAL followed by OP_VERIFY (not shown).
     <br>OP_EQUAL (not shown) checks the two values at the top of the stack; in this case, it checks whether the pubkey hash generated from the full public key Bob provided equals the pubkey hash Alice provided when she created transaction #1.

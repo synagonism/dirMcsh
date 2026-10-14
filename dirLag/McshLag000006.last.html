@@ -393,14 +393,34 @@
     <br>[https://www.unicode.org/reports/tr9/tr9-39.html]
     <a class="clsHide" href="#idCharUcdbdclsdsn"></a></p>
   <p id="idCharUcdbdclsnam">name::
-    <br>* McshEngl.charUncd'Bidi_Class-property,
-    <br>* McshEngl.Unicode'Bidi_Class-property,
+    <br>* McshEngl.Unicode-char-bidi-class-property!⇒Uncdchar'bcproperty,
+    <br>* McshEngl.Uncdchar'bcproperty!=Unicode-char-bidi-class-property,
+    <br>* McshEngl.charUncd'Bidi_Class-property!⇒Uncdchar'bcproperty,
     <a class="clsHide" href="#idCharUcdbdclsnam"></a></p>
   <p id="idCharUcdbdclswpa">addressWpg::
     <br>* Unicode® Standard Annex #9, UNICODE BIDIRECTIONAL ALGORITHM, <a href="http://www.unicode.org/reports/tr9/">http://www.unicode.org/reports/tr9/</a>,
     <br>* ftp://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedBidiClass.txt,
     <a class="clsHide" href="#idCharUcdbdclswpa"></a></p>
-  <p id="idCharUcdbdclsstr">specific::
+
+  <section id="idCharUcdbdclsgstr">
+  <h3 id="idCharUcdbdclsgstrH3">GENERIC-SPECIFIC-TREE of Uncdchar'bcproperty
+    <a class="clsHide" href="#idCharUcdbdclsgstrH3"></a></h3>
+  <p id="idCharUcdbdclsgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdbdclsgstrdsn"></a></p>
+  <p id="idCharUcdbdclsgstrnam">name::
+    <br>* McshEngl.Uncdchar'bcproperty'generic-specific-tree,
+    <br>* McshEngl.Uncdchar'bcproperty'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdbdclsgstrnam"></a></p>
+  <p id="idCharUcdbdclsgtr">generic-tree::
+    <br>* McshEngl.Uncdchar'bcproperty-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdbdclsgtr"></a></p>
+  <p id="idCharUcdbdclsstr">specific-tree::
+    <br>* McshEngl.Uncdchar'bcproperty.specific,
+    <br>* McshEngl.Uncdchar'bcproperty-Sptr,
+    <br>===
     <br>* L-Left_To_Right,
     <br>* R-Right_To_Left,
     <br>* EN-European_Number,
@@ -425,6 +445,7 @@
     <br>* FSI-First_Strong_Isolate,
     <br>* PDI-Pop_Directional_Isolate,
     <a class="clsHide" href="#idCharUcdbdclsstr"></a></p>
+  </section>
   </section>
 
   <section id="idCharUcdbdmr">
@@ -473,14 +494,35 @@
     <br>[http://www.unicode.org/versions/Unicode11.0.0/UnicodeStandard-11.0.pdf, 4.2]
     <a class="clsHide" href="#idCharUcdcasedsn"></a></p>
   <p id="idCharUcdcasenam">name::
-    <br>* McshEngl.charUncd'Case-property,
-    <br>* McshEngl.Unicode'Case-property,
+    <br>* McshEngl.Unicode-char-case-property!⇒Uncdchar'csproperty,
+    <br>* McshEngl.Uncdchar'csproperty!=Unicode-char-case-property,
+    <br>* McshEngl.charUncd'Case-property!⇒Uncdchar'csproperty,
     <a class="clsHide" href="#idCharUcdcasenam"></a></p>
-  <p id="idCharUcdcasestr">specific::
+
+  <section id="idCharUcdcasegstr">
+  <h3 id="idCharUcdcasegstrH3">GENERIC-SPECIFIC-TREE of Uncdchar'csproperty
+    <a class="clsHide" href="#idCharUcdcasegstrH3"></a></h3>
+  <p id="idCharUcdcasegstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdcasegstrdsn"></a></p>
+  <p id="idCharUcdcasegstrnam">name::
+    <br>* McshEngl.Uncdchar'csproperty'generic-specific-tree,
+    <br>* McshEngl.Uncdchar'csproperty'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdcasegstrnam"></a></p>
+  <p id="idCharUcdcasegtr">generic-tree::
+    <br>* McshEngl.Uncdchar'csproperty-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdcasegtr"></a></p>
+  <p id="idCharUcdcasestr">specific-tree::
+    <br>* McshEngl.Uncdchar'csproperty.specific,
+    <br>* McshEngl.Uncdchar'csproperty-Sptr,
+    <br>===
     <br>* Lowercase,
     <br>* Titlecase,
     <br>* Uppercase,
     <a class="clsHide" href="#idCharUcdcasestr"></a></p>
+  </section>
 
   <section id="idCharUcdcaseLwr">
   <h3 id="idCharUcdcaseLwrH3">Lowercase-property of charUncd
@@ -553,13 +595,33 @@
     <br>[https://www.unicode.org/reports/tr44/tr44-22.html#CaseFolding.txt]
     <a class="clsHide" href="#idCharUcdcsfgdsn"></a></p>
   <p id="idCharUcdcsfgnam">name::
-    <br>* McshEngl.charUncd'Case_Folding-property,
-    <br>* McshEngl.Unicode'Case_Folding-property,
+    <br>* McshEngl.Unicode-char-case-folding-property!⇒Uncdchar'cfproperty,
+    <br>* McshEngl.Uncdchar'cfproperty!=Unicode-char-case-folding-property,
+    <br>* McshEngl.charUncd'Case_Folding-property!⇒Uncdchar'cfproperty,
     <a class="clsHide" href="#idCharUcdcsfgnam"></a></p>
   <p id="idCharUcdcsfgwpa">addressWpg::
     <br>* ftp://www.unicode.org/Public/UCD/latest/ucd/CaseFolding.txt,
     <a class="clsHide" href="#idCharUcdcsfgwpa"></a></p>
-  <p id="idCharUcdcsfgstr">specific::
+
+  <section id="idCharUcdcsfggstr">
+  <h3 id="idCharUcdcsfggstrH3">GENERIC-SPECIFIC-TREE of Uncdchar'cfproperty
+    <a class="clsHide" href="#idCharUcdcsfggstrH3"></a></h3>
+  <p id="idCharUcdcsfggstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdcsfggstrdsn"></a></p>
+  <p id="idCharUcdcsfggstrnam">name::
+    <br>* McshEngl.Uncdchar'cfproperty'generic-specific-tree,
+    <br>* McshEngl.Uncdchar'cfproperty'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdcsfggstrnam"></a></p>
+  <p id="idCharUcdcsfggtr">generic-tree::
+    <br>* McshEngl.Uncdchar'cfproperty-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdcsfggtr"></a></p>
+  <p id="idCharUcdcsfgstr">specific-tree::
+    <br>* McshEngl.Uncdchar'cfproperty.specific,
+    <br>* McshEngl.Uncdchar'cfproperty-Sptr,
+    <br>===
     <br>* C: common case folding, common mappings shared by both simple and full mappings,
     <br>* F: full case folding, mappings that cause strings to grow in length. Multiple characters are separated by spaces,
     <br>* S: simple case folding, mappings to single characters where different from F,
@@ -568,6 +630,7 @@
     <br> - For Turkic languages (tr, az), this mapping can be used instead of the normal mapping for these characters. Note that the Turkic mappings do not maintain canonical equivalence without additional processing. See the discussions of case mapping in the Unicode Standard for more information.
     <br>[ftp://www.unicode.org/Public/UCD/latest/ucd/CaseFolding.txt]
     <a class="clsHide" href="#idCharUcdcsfgstr"></a></p>
+  </section>
   </section>
 
   <section id="idCharUcdbpbp">
@@ -597,18 +660,39 @@
     <br>[https://www.unicode.org/reports/tr44/tr44-22.html#Bidi_Paired_Bracket_Type]
     <a class="clsHide" href="#idCharUcdbpbtpdsn"></a></p>
   <p id="idCharUcdbpbtpnam">name::
-    <br>* McshEngl.charUncd'Bidi_Paired_Bracket_Type-property,
-    <br>* McshEngl.Unicode'Bidi_Paired_Bracket_Type-property,
+    <br>* McshEngl.Unicode-char-bidi-paired-bracket-type-property!⇒Uncdchar'bpbtproperty,
+    <br>* McshEngl.Uncdchar'bpbtproperty!=Unicode-char-bidi-paired-bracket-type-property,
+    <br>* McshEngl.charUncd'Bidi_Paired_Bracket_Type-property!⇒Uncdchar'bpbtproperty,
     <a class="clsHide" href="#idCharUcdbpbtpnam"></a></p>
   <p id="idCharUcdbpbtpwpa">addressWpg::
     <br>* ftp://www.unicode.org/Public/UCD/latest/ucd/BidiBrackets.txt,
     <br>* https://www.unicode.org/reports/tr9/,
     <a class="clsHide" href="#idCharUcdbpbtpwpa"></a></p>
-  <p id="idCharUcdbpbtpstr">specific::
+
+  <section id="idCharUcdbpbtpgstr">
+  <h3 id="idCharUcdbpbtpgstrH3">GENERIC-SPECIFIC-TREE of Uncdchar'bpbtproperty
+    <a class="clsHide" href="#idCharUcdbpbtpgstrH3"></a></h3>
+  <p id="idCharUcdbpbtpgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdbpbtpgstrdsn"></a></p>
+  <p id="idCharUcdbpbtpgstrnam">name::
+    <br>* McshEngl.Uncdchar'bpbtproperty'generic-specific-tree,
+    <br>* McshEngl.Uncdchar'bpbtproperty'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdbpbtpgstrnam"></a></p>
+  <p id="idCharUcdbpbtpgtr">generic-tree::
+    <br>* McshEngl.Uncdchar'bpbtproperty-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdbpbtpgtr"></a></p>
+  <p id="idCharUcdbpbtpstr">specific-tree::
+    <br>* McshEngl.Uncdchar'bpbtproperty.specific,
+    <br>* McshEngl.Uncdchar'bpbtproperty-Sptr,
+    <br>===
     <br>* o-Open,
     <br>* c-Close,
     <br>* n-None,
     <a class="clsHide" href="#idCharUcdbpbtpstr"></a></p>
+  </section>
   </section>
 
   <section id="idCharUcddnmg">
@@ -621,31 +705,52 @@
     <br>[https://www.unicode.org/reports/tr44/#Character_Decomposition_Mappings]
     <a class="clsHide" href="#idCharUcddnmgdsn"></a></p>
   <p id="idCharUcddnmgnam">name::
-    <br>* McshEngl.charUncd'Decomposition_Mapping-property,
-    <br>* McshEngl.Unicode'Decomposition_Mapping-property,
+    <br>* McshEngl.Unicode-char-decomposition-mapping-property!⇒Uncdchar'dmproperty,
+    <br>* McshEngl.Uncdchar'dmproperty!=Unicode-char-decomposition-mapping-property,
+    <br>* McshEngl.charUncd'Decomposition_Mapping-property!⇒Uncdchar'dmproperty,
     <a class="clsHide" href="#idCharUcddnmgnam"></a></p>
   <p id="idCharUcddnmgwpa">addressWpg::
     <br>* ftp://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedDecompositionType.txt,
     <a class="clsHide" href="#idCharUcddnmgwpa"></a></p>
-  <p id="idCharUcddnmgstr">specific::
-    <br>* &lt;font>: Font variant (for example, a blackletter form)
-    <br>* &lt;noBreak>: No-break version of a space or hyphen
-    <br>* &lt;initial>: Initial presentation form (Arabic)
-    <br>* &lt;medial>: Medial presentation form (Arabic)
-    <br>* &lt;final>: Final presentation form (Arabic)
-    <br>* &lt;isolated>: Isolated presentation form (Arabic)
-    <br>* &lt;circle>: Encircled form
-    <br>* &lt;super>: Superscript form
-    <br>* &lt;sub>: Subscript form
-    <br>* &lt;vertical>: Vertical layout presentation form
-    <br>* &lt;wide>: Wide (or zenkaku) compatibility character
-    <br>* &lt;narrow>: Narrow (or hankaku) compatibility character
-    <br>* &lt;small>: Small variant form (CNS compatibility)
-    <br>* &lt;square>: CJK squared font variant
-    <br>* &lt;fraction>: Vulgar fraction form
-    <br>* &lt;compat>: Otherwise unspecified compatibility character
+
+  <section id="idCharUcddnmggstr">
+  <h3 id="idCharUcddnmggstrH3">GENERIC-SPECIFIC-TREE of Uncdchar'dmproperty
+    <a class="clsHide" href="#idCharUcddnmggstrH3"></a></h3>
+  <p id="idCharUcddnmggstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcddnmggstrdsn"></a></p>
+  <p id="idCharUcddnmggstrnam">name::
+    <br>* McshEngl.Uncdchar'dmproperty'generic-specific-tree,
+    <br>* McshEngl.Uncdchar'dmproperty'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcddnmggstrnam"></a></p>
+  <p id="idCharUcddnmggtr">generic-tree::
+    <br>* McshEngl.Uncdchar'dmproperty-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcddnmggtr"></a></p>
+  <p id="idCharUcddnmgstr">specific-tree::
+    <br>* McshEngl.Uncdchar'dmproperty.specific,
+    <br>* McshEngl.Uncdchar'dmproperty-Sptr,
+    <br>===
+    <br>* &lt;font&gt;: Font variant (for example, a blackletter form)
+    <br>* &lt;noBreak&gt;: No-break version of a space or hyphen
+    <br>* &lt;initial&gt;: Initial presentation form (Arabic)
+    <br>* &lt;medial&gt;: Medial presentation form (Arabic)
+    <br>* &lt;final&gt;: Final presentation form (Arabic)
+    <br>* &lt;isolated&gt;: Isolated presentation form (Arabic)
+    <br>* &lt;circle&gt;: Encircled form
+    <br>* &lt;super&gt;: Superscript form
+    <br>* &lt;sub&gt;: Subscript form
+    <br>* &lt;vertical&gt;: Vertical layout presentation form
+    <br>* &lt;wide&gt;: Wide (or zenkaku) compatibility character
+    <br>* &lt;narrow&gt;: Narrow (or hankaku) compatibility character
+    <br>* &lt;small&gt;: Small variant form (CNS compatibility)
+    <br>* &lt;square&gt;: CJK squared font variant
+    <br>* &lt;fraction&gt;: Vulgar fraction form
+    <br>* &lt;compat&gt;: Otherwise unspecified compatibility character
     <br>[https://www.unicode.org/reports/tr44/#Formatting_Tags_Table]
     <a class="clsHide" href="#idCharUcddnmgstr"></a></p>
+  </section>
   </section>
 
   <section id="idCharUcdeaw">
@@ -657,15 +762,35 @@
     <br>[https://www.unicode.org/reports/tr11/tr11-35.html#Overview]
     <a class="clsHide" href="#idCharUcdeawdsn"></a></p>
   <p id="idCharUcdeawnam">name::
-    <br>* McshEngl.charUncd'East_Asian_Width-property,
-    <br>* McshEngl.Unicode'East_Asian_Width-property,
+    <br>* McshEngl.Unicode-char-east-asian-width-property!⇒Unckchar'eawproperty,
+    <br>* McshEngl.Unckchar'eawproperty!=Unicode-char-east-asian-width-property,
+    <br>* McshEngl.charUncd'East_Asian_Width-property!⇒Unckchar'eawproperty,
     <a class="clsHide" href="#idCharUcdeawnam"></a></p>
   <p id="idCharUcdeawwpa">addressWpg::
     <br>* <a href="https://www.unicode.org/reports/tr11/tr11-35.html#Overview">https://www.unicode.org/reports/tr11/</a>,
     <br>* ftp://www.unicode.org/Public/UCD/latest/ucd/EastAsianWidth.txt,
     <br>* ftp://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedEastAsianWidth.txt,
     <a class="clsHide" href="#idCharUcdeawwpa"></a></p>
-  <p id="idCharUcdeawstr">specific::
+
+  <section id="idCharUcdeawgstr">
+  <h3 id="idCharUcdeawgstrH3">GENERIC-SPECIFIC-TREE of Unckchar'eawproperty
+    <a class="clsHide" href="#idCharUcdeawgstrH3"></a></h3>
+  <p id="idCharUcdeawgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdeawgstrdsn"></a></p>
+  <p id="idCharUcdeawgstrnam">name::
+    <br>* McshEngl.Unckchar'eawproperty'generic-specific-tree,
+    <br>* McshEngl.Unckchar'eawproperty'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdeawgstrnam"></a></p>
+  <p id="idCharUcdeawgtr">generic-tree::
+    <br>* McshEngl.Unckchar'eawproperty-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdeawgtr"></a></p>
+  <p id="idCharUcdeawstr">specific-tree::
+    <br>* McshEngl.Unckchar'eawproperty.specific,
+    <br>* McshEngl.Unckchar'eawproperty-Sptr,
+    <br>===
     <br>* A-Ambiguous: can be sometimes wide and sometimes narrow,
     <br>* F-Fullwidth,
     <br>* H-Halfwidth,
@@ -673,6 +798,7 @@
     <br>* Na-Narrow,
     <br>* W-Wide: always wide,
     <a class="clsHide" href="#idCharUcdeawstr"></a></p>
+  </section>
   </section>
 
   <section id="idCharUcdglcr">
@@ -792,13 +918,33 @@
     <br>[ftp://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedJoiningGroup.txt]
     <a class="clsHide" href="#idCharUcdjggpdsn"></a></p>
   <p id="idCharUcdjggpnam">name::
-    <br>* McshEngl.charUncd'Joining_Group-property,
-    <br>* McshEngl.Unicode'Joining_Group-property,
+    <br>* McshEngl.Unicode-char-joining-group-property!⇒Uncdchar'jgroperty,
+    <br>* McshEngl.Uncdchar'jgroperty!=Unicode-char-joining-group-property,
+    <br>* McshEngl.charUncd'Joining_Group-property!⇒Uncdchar'jgroperty,
     <a class="clsHide" href="#idCharUcdjggpnam"></a></p>
   <p id="idCharUcdjggpwpa">addressWpg::
     <br>* ftp://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedJoiningGroup.txt,
     <a class="clsHide" href="#idCharUcdjggpwpa"></a></p>
-  <p id="idCharUcdjggpstr">specific::
+
+  <section id="idCharUcdjggpgstr">
+  <h3 id="idCharUcdjggpgstrH3">GENERIC-SPECIFIC-TREE of Uncdchar'jgroperty
+    <a class="clsHide" href="#idCharUcdjggpgstrH3"></a></h3>
+  <p id="idCharUcdjggpgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdjggpgstrdsn"></a></p>
+  <p id="idCharUcdjggpgstrnam">name::
+    <br>* McshEngl.Uncdchar'jgroperty'generic-specific-tree,
+    <br>* McshEngl.Uncdchar'jgroperty'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdjggpgstrnam"></a></p>
+  <p id="idCharUcdjggpgtr">generic-tree::
+    <br>* McshEngl.Uncdchar'jgroperty-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdjggpgtr"></a></p>
+  <p id="idCharUcdjggpstr">specific-tree::
+    <br>* McshEngl.Uncdchar'jgroperty.specific,
+    <br>* McshEngl.Uncdchar'jgroperty-Sptr,
+    <br>===
     <br>* African_Feh,
     <br>* African_Noon,
     <br>* African_Qaf,
@@ -902,6 +1048,7 @@
     <br>* Zhain,
     <a class="clsHide" href="#idCharUcdjggpstr"></a></p>
   </section>
+  </section>
 
   <section id="idCharUcdjgtp">
   <h2 id="idCharUcdjgtpH2">Joining_Type-property of charUncd
@@ -917,13 +1064,33 @@
     <br>[ftp://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedJoiningType.txt]
     <a class="clsHide" href="#idCharUcdjgtpdsn"></a></p>
   <p id="idCharUcdjgtpnam">name::
-    <br>* McshEngl.charUncd'Joining_Type-property,
-    <br>* McshEngl.Unicode'Joining_Type-property,
+    <br>* McshEngl.Unicode-char-joining-type-property!⇒Uncdchar'jtproperty,
+    <br>* McshEngl.Uncdchar'jtproperty!=Unicode-char-joining-type-property,
+    <br>* McshEngl.charUncd'Joining_Type-property!⇒Uncdchar'jtproperty,
     <a class="clsHide" href="#idCharUcdjgtpnam"></a></p>
   <p id="idCharUcdjgtpwpa">addressWpg::
     <br>* ftp://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedJoiningType.txt,
     <a class="clsHide" href="#idCharUcdjgtpwpa"></a></p>
-  <p id="idCharUcdjgtpstr">specific::
+
+  <section id="idCharUcdjgtpgstr">
+  <h3 id="idCharUcdjgtpgstrH3">GENERIC-SPECIFIC-TREE of Uncdchar'jtproperty
+    <a class="clsHide" href="#idCharUcdjgtpgstrH3"></a></h3>
+  <p id="idCharUcdjgtpgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdjgtpgstrdsn"></a></p>
+  <p id="idCharUcdjgtpgstrnam">name::
+    <br>* McshEngl.Uncdchar'jtproperty'generic-specific-tree,
+    <br>* McshEngl.Uncdchar'jtproperty'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdjgtpgstrnam"></a></p>
+  <p id="idCharUcdjgtpgtr">generic-tree::
+    <br>* McshEngl.Uncdchar'jtproperty-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdjgtpgtr"></a></p>
+  <p id="idCharUcdjgtpstr">specific-tree::
+    <br>* McshEngl.Uncdchar'jtproperty.specific,
+    <br>* McshEngl.Uncdchar'jtproperty-Sptr,
+    <br>===
     <br>* R-Right_Joining
     <br>* L-Left_Joining
     <br>* D-Dual_Joining
@@ -931,6 +1098,7 @@
     <br>* U-Non_Joining
     <br>* T-Transparent,
     <a class="clsHide" href="#idCharUcdjgtpstr"></a></p>
+  </section>
   </section>
 
   <section id="idCharUcdlnbk">
@@ -1221,18 +1389,39 @@
     <br>[ftp://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedNumericType.txt]
     <a class="clsHide" href="#idCharUcdnctpdsn"></a></p>
   <p id="idCharUcdnctpnam">name::
-    <br>* McshEngl.charUncd'Numeric_Type-property,
-    <br>* McshEngl.Unicode'Numeric_Type-property,
+    <br>* McshEngl.Unicode-char-numeric-type-property!⇒Uncdchar'ntproperty,
+    <br>* McshEngl.Uncdchar'ntproperty!=Unicode-char-numeric-type-property,
+    <br>* McshEngl.charUncd'Numeric_Type-property!⇒Uncdchar'ntproperty,
     <a class="clsHide" href="#idCharUcdnctpnam"></a></p>
   <p id="idCharUcdnctpwpa">addressWpg::
     <br>* ftp://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedNumericType.txt,
     <a class="clsHide" href="#idCharUcdnctpwpa"></a></p>
-  <p id="idCharUcdnctpstr">specific::
+
+  <section id="idCharUcdnctpgstr">
+  <h3 id="idCharUcdnctpgstrH3">GENERIC-SPECIFIC-TREE of Uncdchar'ntproperty
+    <a class="clsHide" href="#idCharUcdnctpgstrH3"></a></h3>
+  <p id="idCharUcdnctpgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdnctpgstrdsn"></a></p>
+  <p id="idCharUcdnctpgstrnam">name::
+    <br>* McshEngl.Uncdchar'ntproperty'generic-specific-tree,
+    <br>* McshEngl.Uncdchar'ntproperty'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdnctpgstrnam"></a></p>
+  <p id="idCharUcdnctpgtr">generic-tree::
+    <br>* McshEngl.Uncdchar'ntproperty-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdnctpgtr"></a></p>
+  <p id="idCharUcdnctpstr">specific-tree::
+    <br>* McshEngl.Uncdchar'ntproperty.specific,
+    <br>* McshEngl.Uncdchar'ntproperty-Sptr,
+    <br>===
     <br>* Decimal: When there is a value in field 6,
     <br>* Digit:   When there is a value in field 7, but not in field 6,
     <br>* Numeric: When there are values for kAccountingNumeric, kOtherNumeric, kPrimaryNumeric, or there is a value in field 8, but not in field 7,
     <br>* None:    Otherwise. All code points not explicitly listed for Numeric_Type have the value None,
     <a class="clsHide" href="#idCharUcdnctpstr"></a></p>
+  </section>
   </section>
 
   <section id="idCharUcdncvl">
@@ -1262,13 +1451,33 @@
     <br>· property of charUncd is-called a-generic-attribute of a-Unicode-char, with specifics, called values.
     <a class="clsHide" href="#idCharUcdprptdsn"></a></p>
   <p id="idCharUcdprptnam">name::
-    <br>* McshEngl.charUncd'property,
-    <br>* McshEngl.Unicode'property,
+    <br>* McshEngl.Unicode-char--property!⇒Uncdchar'property,
+    <br>* McshEngl.Uncdchar'property!=Unicode-char--property,
+    <br>* McshEngl.charUncd'property!⇒Uncdchar'property,
     <a class="clsHide" href="#idCharUcdprptnam"></a></p>
   <p id="idCharUcdprptwpa">addressWpg::
     <br>* <a href="http://www.unicode.org/reports/tr44/#Property_Definitions">http://www.unicode.org/reports/tr44/#Property_Definitions</a>,
     <a class="clsHide" href="#idCharUcdprptwpa"></a></p>
-  <p id="idCharUcdprptstr">specific::
+
+  <section id="idCharUcdprptgstr">
+  <h3 id="idCharUcdprptgstrH3">GENERIC-SPECIFIC-TREE of Uncdchar'property
+    <a class="clsHide" href="#idCharUcdprptgstrH3"></a></h3>
+  <p id="idCharUcdprptgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdprptgstrdsn"></a></p>
+  <p id="idCharUcdprptgstrnam">name::
+    <br>* McshEngl.Uncdchar'property'generic-specific-tree,
+    <br>* McshEngl.Uncdchar'property'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdprptgstrnam"></a></p>
+  <p id="idCharUcdprptgtr">generic-tree::
+    <br>* McshEngl.Uncdchar'property-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdprptgtr"></a></p>
+  <p id="idCharUcdprptstr">specific-tree::
+    <br>* McshEngl.Uncdchar'property.specific,
+    <br>* McshEngl.Uncdchar'property-Sptr,
+    <br>===
     <br>* normative,
     <br>* overridable,
     <br>* informative,
@@ -1300,6 +1509,7 @@
     <br>* Script,
     <br>* Vertical_Orientation,
     <a class="clsHide" href="#idCharUcdprptstr"></a></p>
+  </section>
 
   <section id="idCharUcdprptNrmv">
   <h3 id="idCharUcdprptNrmvH3">property.NORMATIVE of charUncd
@@ -2541,11 +2751,31 @@
     <br>[https://www.unicode.org/reports/about-reports.html]
     <a class="clsHide" href="#idCharUcdstdurtUaxdsn"></a></p>
   <p id="idCharUcdstdurtUaxnam">name::
-    <br>* McshEngl.Unicode'UAX-Unicode-Standard-Anexx,
-    <br>* McshEngl.Unicode-Standard-Anexx-UAX,
-    <br>* McshEngl.UAX-Unicode-Standard-Anexx,
+    <br>* McshEngl.Unicode-Standard-Anexx-UAX!⇒Uncdanxx,
+    <br>* McshEngl.Uncdanxx!=Unicode-Standard-Anexx-UAX,
+    <br>* McshEngl.Unicode'UAX-Unicode-Standard-Anexx!⇒Uncdanxx,
+    <br>* McshEngl.UAX!=Unicode-Standard-Anexx!⇒Uncdanxx,
     <a class="clsHide" href="#idCharUcdstdurtUaxnam"></a></p>
-  <p id="idCharUcdstdurtUaxstr">specific::
+
+  <section id="idCharUcdstdurtUaxgstr">
+  <h5 id="idCharUcdstdurtUaxgstrH5">GENERIC-SPECIFIC-TREE of Uncdanxx
+    <a class="clsHide" href="#idCharUcdstdurtUaxgstrH5"></a></h5>
+  <p id="idCharUcdstdurtUaxgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharUcdstdurtUaxgstrdsn"></a></p>
+  <p id="idCharUcdstdurtUaxgstrnam">name::
+    <br>* McshEngl.Uncdanxx'generic-specific-tree,
+    <br>* McshEngl.Uncdanxx'specific-generic-tree,
+    <a class="clsHide" href="#idCharUcdstdurtUaxgstrnam"></a></p>
+  <p id="idCharUcdstdurtUaxgtr">generic-tree::
+    <br>* McshEngl.Uncdanxx-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharUcdstdurtUaxgtr"></a></p>
+  <p id="idCharUcdstdurtUaxstr">specific-tree::
+    <br>* McshEngl.Uncdanxx.specific,
+    <br>* McshEngl.Uncdanxx-Sptr,
+    <br>===
     <br>* [UAX9]	Unicode Standard Annex #9: Unicode Bidirectional Algorithm, Latest version: http://www.unicode.org/reports/tr9/
     <br>* [UAX11]	Unicode Standard Annex #11: East Asian Width, Latest version: http://www.unicode.org/reports/tr11/
     <br>* [UAX14]	Unicode Standard Annex #14: Unicode Line Breaking Algorithm, Latest version: http://www.unicode.org/reports/tr14/
@@ -2561,6 +2791,7 @@
     <br>* [UAX45]	Unicode Standard Annex #45: U-Source Ideographs, Latest version: http://www.unicode.org/reports/tr45/
     <br>* [UAX50]	Unicode Standard Annex #50: Unicode Vertical Text Layout, Latest version: http://www.unicode.org/reports/tr50/
     <a class="clsHide" href="#idCharUcdstdurtUaxstr"></a></p>
+  </section>
   </section>
 
   <section id="idCharUcdstdurtUts">
@@ -2613,22 +2844,26 @@
     <br>[https://www.unicode.org/reports/tr44/tr44-22.html#Introduction]
     <a class="clsHide" href="#idCharUcdstducddsn"></a></p>
   <p id="idCharUcdstducdnam">name::
-    <br>* McshEngl.charUncd'UCD,
-    <br>* McshEngl.charUncd'Unicode-database,
-    <br>* McshEngl.UCD-Unicode-Character-Database,
-    <br>* McshEngl.Unicode'database-(UCD),
-    <br>* McshEngl.Unicode-Character-Database-(UCD),
+    <br>* McshEngl.Unicode-Character-Database-(UCD)!⇒Uncddb,
+    <br>* McshEngl.Uncddb!=Unicode-Character-Database-(UCD),
+    <br>* McshEngl.Unicode'database-(UCD)!⇒Uncddb,
+    <br>* McshEngl.charUncd'UCD!⇒Uncddb,
+    <br>* McshEngl.charUncd'Unicode-database!⇒Uncddb,
+    <br>* McshEngl.UCD-Unicode-Character-Database!⇒Uncddb,
     <a class="clsHide" href="#idCharUcdstducdnam"></a></p>
 
   <section id="idCharUcdstducdfil">
-  <h4 id="idCharUcdstducdfilH4">file of UCD
+  <h4 id="idCharUcdstducdfilH4">file of Uncddb
     <a class="clsHide" href="#idCharUcdstducdfilH4"></a></h4>
   <p id="idCharUcdstducdfildsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idCharUcdstducdfildsn"></a></p>
   <p id="idCharUcdstducdfilnam">name::
-    <br>* McshEngl.charUncd'UCD'file,
-    <br>* McshEngl.Unicode'UCD'file,
+    <br>* McshEngl.Unicode-database-file!⇒Uncddbfile,
+    <br>* McshEngl.Uncddbfile!=Unicode-database-file,
+    <br>* McshEngl.Uncddb'file!⇒Uncddbfile,
+    <br>* McshEngl.charUncd'UCD'file!⇒Uncddbfile,
+    <br>* McshEngl.Unicode'UCD'file!⇒Uncddb,
     <a class="clsHide" href="#idCharUcdstducdfilnam"></a></p>
   <p id="idCharUcdstducdfilstr">specific::
     <br>* ArabicShaping.txt,
@@ -2771,11 +3006,26 @@
     <a class="clsHide" href="#idCharUcdstdSpcwpa"></a></p>
   </section>
 
+  <section id="idCharUcdstd18002026">
+  <h3 id="idCharUcdstd18002026H3">Unicode'18-0-0.2026
+    <a class="clsHide" href="#idCharUcdstd18002026H3"></a></h3>
+  <p id="idCharUcdstd18002026dsn">description::
+    <br>× Mcsh-creation: {2026-10-13}
+    <br>× script: 175
+    <br>× char: 172'808 (+13007)
+    <a class="clsHide" href="#idCharUcdstd18002026dsn"></a></p>
+  <p id="idCharUcdstd18002026nam">name::
+    <br>* McshEngl.Unicode'18-0-0.2026,
+    <a class="clsHide" href="#idCharUcdstd18002026nam"></a></p>
+  </section>
+
   <section id="idCharUcdstd14002021">
   <h3 id="idCharUcdstd14002021H3">Unicode'14-0-0.2021
     <a class="clsHide" href="#idCharUcdstd14002021H3"></a></h3>
   <p id="idCharUcdstd14002021dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <br>× script: 159
+    <br>× char: 144'762 (+838)
     <br>"As of Unicode 14.0, released in September 2021, 288,512 (26%) of these code points are allocated, including 144,762 (13%) assigned characters, 137,468 (12.3%) reserved for private use, 2,048 for surrogates, and 66 designated non-characters, leaving 825,600 (74%) unallocated."
     <br>[{2021-10-27 retrieved} https://en.wikipedia.org/wiki/Universal_Character_Set_characters]
     <a class="clsHide" href="#idCharUcdstd14002021dsn"></a></p>
@@ -2789,10 +3039,11 @@
     <a class="clsHide" href="#idCharUcdstd11002018H3"></a></h3>
   <p id="idCharUcdstd11002018dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <br>× script: 146
+    <br>× char: 137'439
     <br>The Unicode Consortium. The Unicode Standard, Version 11.0.0, (Mountain View, CA: The Unicode Consortium, 2018. ISBN 978-1-936213-19-1)
     <br>http://www.unicode.org/versions/Unicode11.0.0/
     <br>===
-    <br>· script= 146
     <br>· char= 137,439	Dogra, Georgian Mtavruli capital letters, Gunjala Gondi, Hanifi Rohingya, Indic Siyaq numbers, Makasar, Medefaidrin, Old Sogdian and Sogdian, Mayan numerals, 5 urgently needed CJK unified ideographs, symbols for xiangqi (Chinese chess) and star ratings, and 145 emoji
     <br>[https://en.wikipedia.org/wiki/Unicode#Versions]
     <a class="clsHide" href="#idCharUcdstd11002018dsn"></a></p>
@@ -3513,8 +3764,6 @@
     <br>* McshEngl.Unicode-script.specific,
     <br>* McshEngl.Unicode-script-Sptr,
     <br>===
-    <a class="clsHide" href="#idCharUcdScrptstr"></a></p>
-  <p id="idCharUcdScrptP1">specific::
     <br>* <a class="clsPreview" href="#idCharUcdScrptCmn">common</a>,
     <br>* <a class="clsPreview" href="#idCharUcdScrptInhd">inherited</a>,
     <br>=== aggregate:
@@ -3538,7 +3787,7 @@
     <br>· 25 v.1-0-1.1992
     <br>· 24 v.1-0-0.1991
     <br>[https://en.wikipedia.org/wiki/Unicode#Versions]
-    <a class="clsHide" href="#idCharUcdScrptP1"></a></p>
+    <a class="clsHide" href="#idCharUcdScrptstr"></a></p>
   </section>
 
   <section id="idCharUcdScrptCmn">
@@ -5845,7 +6094,7 @@
     <br>* McshEngl.charHtmlInt.8819 gsim ≳,
     <br>* McshEngl.charHtmlInt.10894 gsime ⪎,
     <br>* McshEngl.charHtmlInt.10896 gsiml ⪐,
-    <br>* McshEngl.charHtmlInt.62 gt >,
+    <br>* McshEngl.charHtmlInt.62 gt &gt;,
     <br>* McshEngl.charHtmlInt.10919 gtcc ⪧,
     <br>* McshEngl.charHtmlInt.10874 gtcir ⩺,
     <br>* McshEngl.charHtmlInt.8919 gtdot ⋗,
@@ -6024,7 +6273,7 @@
     <br>* McshEngl.charHtmlInt.8216 lsquo ‘,
     <br>* McshEngl.charHtmlInt.8218 lsquor ‚,
     <br>* McshEngl.charHtmlInt.322 lstrok ł,
-    <br>* McshEngl.charHtmlInt.60 lt <,
+    <br>* McshEngl.charHtmlInt.60 lt &lt;,
     <br>* McshEngl.charHtmlInt.10918 ltcc ⪦,
     <br>* McshEngl.charHtmlInt.10873 ltcir ⩹,
     <br>* McshEngl.charHtmlInt.8918 ltdot ⋖,
@@ -7299,7 +7548,7 @@
     <br>* McshEngl.charHtmlCode.gsim ≳ #8819,
     <br>* McshEngl.charHtmlCode.gsime ⪎ #10894,
     <br>* McshEngl.charHtmlCode.gsiml ⪐ #10896,
-    <br>* McshEngl.charHtmlCode.gt > #62,
+    <br>* McshEngl.charHtmlCode.gt &gt; #62,
     <br>* McshEngl.charHtmlCode.gtcc ⪧ #10919,
     <br>* McshEngl.charHtmlCode.gtcir ⩺ #10874,
     <br>* McshEngl.charHtmlCode.gtdot ⋗ #8919,
@@ -7478,7 +7727,7 @@
     <br>* McshEngl.charHtmlCode.lsquo ‘ #8216,
     <br>* McshEngl.charHtmlCode.lsquor ‚ #8218,
     <br>* McshEngl.charHtmlCode.lstrok ł #322,
-    <br>* McshEngl.charHtmlCode.lt < #60,
+    <br>* McshEngl.charHtmlCode.lt &lt; #60,
     <br>* McshEngl.charHtmlCode.ltcc ⪦ #10918,
     <br>* McshEngl.charHtmlCode.ltcir ⩹ #10873,
     <br>* McshEngl.charHtmlCode.ltdot ⋖ #8918,
@@ -9548,9 +9797,29 @@
     <br>* McshEngl.glyph-char!⇒charGraphic,
     <br>* McshEngl.graphic-char!⇒charGraphic,
     <a class="clsHide" href="#idCharGrfcnam"></a></p>
-  <p id="idCharGrfcstr">specific::
+
+  <section id="idCharGrfcgstr">
+  <h2 id="idCharGrfcgstrH2">GENERIC-SPECIFIC-TREE of charGraphic
+    <a class="clsHide" href="#idCharGrfcgstrH2"></a></h2>
+  <p id="idCharGrfcgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idCharGrfcgstrdsn"></a></p>
+  <p id="idCharGrfcgstrnam">name::
+    <br>* McshEngl.charGraphic'generic-specific-tree,
+    <br>* McshEngl.charGraphic'specific-generic-tree,
+    <a class="clsHide" href="#idCharGrfcgstrnam"></a></p>
+  <p id="idCharGrfcgtr">generic-tree::
+    <br>* McshEngl.charGraphic-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idCharGrfcgtr"></a></p>
+  <p id="idCharGrfcstr">specific-tree::
+    <br>* McshEngl.charGraphic.specific,
+    <br>* McshEngl.charGraphic-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="#idCharUcdGrfc">Unicode-graphic-char</a>,
     <a class="clsHide" href="#idCharGrfcstr"></a></p>
+  </section>
   </section>
 
   <section id="idCharGrfcNo">

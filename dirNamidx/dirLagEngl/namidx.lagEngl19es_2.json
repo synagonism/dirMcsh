@@ -1,5 +1,5 @@
 [
-  [";lagEngl19es_2","stdRfc..t",9878,"2026-10-13"],
+  [";lagEngl19es_2","stdRfc..t",9878,"2026-10-14"],
   ["stdRfc!=RFC-standard","dirStn/McshStn000024.last.html#idOverview"],
   ["stdRfc!~McsStn000024","dirStn/McshStn000024.last.html#idOverview"],
   ["stdRfc'Url","dirStn/McshStn000024.last.html#idStdRfcurl"],
@@ -9518,7 +9518,7 @@
   ["synomind","dirLag/McshLag000007.last.html#idLHmnmnameSnmnd"],
   ["synomind-of-name!⇒synomind","dirLag/McshLag000007.last.html#idLHmnmnameSnmnd"],
   ["synomind-of-termMind","dirLag/McshLag000007.last.html#idLHmnmnameTrmMndsnmd"],
-  ["synomind-of-verb","dirLag/McshLag000007.last.html#idLHmnmverbsncpt"],
+  ["synomind-of-verb!⇒Verbsnmd","dirLag/McshLag000007.last.html#idLHmnmverbsncpt"],
   ["synomind-of-verbTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrFlms"],
   ["synoname-of-name","dirLag/McshLag000007.last.html#idLHmnmnameSnnams"],
   ["synoname/sinonéim/","dirLag/McshLag000007.last.html#idLHmnmnameSnnams"],

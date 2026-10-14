@@ -271,8 +271,6 @@
     <br>* McshEngl.Jsnd_lago-Sut.specific,
     <br>* McshEngl.Jsnd_lago-Sut-Sptr,
     <br>===
-    <a class="clsHide" href="#idLJsndsutstr"></a></p>
-  <p id="idLJsndsutSpcP1">specific::
     <br>01) <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLJsgna">a - Array</a>,
     <br>02) <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLJsgnb">b - Boolean</a>,
     <br>03) <a class="clsPreview" href="#idLJsndf">f - Function</a>,
@@ -285,7 +283,7 @@
     <br>10) <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLJsgnu">undefined</a>,
     <br>11) <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLJsgnsutRfrd">name-Value-pair</a>,
     <br>12) <a class="clsPreview" href="../dirTchInf/McshTchInf000010.last.html#idLJsgnx">x - miXed</a>,
-    <a class="clsHide" href="#idLJsndsutSpcP1"></a></p>
+    <a class="clsHide" href="#idLJsndsutstr"></a></p>
   </section>
 
   <section id="idLJsndf">
@@ -611,8 +609,6 @@
     <br>* McshEngl.Jsndmmbr.specific,
     <br>* McshEngl.Jsndmmbr-Sptr,
     <br>===
-    <a class="clsHide" href="#idLJsndmcmbrstr"></a></p>
-  <p id="idLJsndmcmbrSpcP1">specific::
     <br>* <a class="clsPreview" href="#idLJsndmcmbrPbc">public-member</a>,
     <br>* <a class="clsPreview" href="#idLJsndmcmbrPbcNo">publicNo-member</a>,
     <br>===
@@ -620,7 +616,7 @@
     <br>* <a class="clsPreview" href="#idLJsndmcmbr_filename">__filename-string-member</a>,
     <br>* <a class="clsPreview" href="#idLJsndmodule">module-object-member</a>,
     <br>* <a class="clsPreview" href="#idLJsndrequire">require-function-member</a>,
-    <a class="clsHide" href="#idLJsndmcmbrSpcP1"></a></p>
+    <a class="clsHide" href="#idLJsndmcmbrstr"></a></p>
   </section>
 
   <section id="idLJsndmcmbrPbc">
@@ -4876,9 +4872,9 @@
     <br>a) a <span class="clsU">folder</span> containing a program described by a package.json file
     <br>b) a <span class="clsU">gzipped tarball</span> containing (a)
     <br>c) a <span class="clsU">url</span> that resolves to (b)
-    <br>d) a &lt;name>@&lt;version> that is published on the registry with (c)
-    <br>e) a &lt;name>@&lt;tag> that points to (d)
-    <br>f) a &lt;name> that has a "latest" tag satisfying (e)
+    <br>d) a &lt;name&gt;@&lt;version&gt; that is published on the registry with (c)
+    <br>e) a &lt;name&gt;@&lt;tag&gt; that points to (d)
+    <br>f) a &lt;name&gt; that has a "latest" tag satisfying (e)
     <br>g) a git url that, when cloned, results in (a).
     <br>Even if you never publish your package, you can still get a lot of benefits of using npm if you just want to write a node program (a), and perhaps if you also want to be able to easily install it elsewhere after packing it up into a tarball (b).
     <br>
@@ -5180,7 +5176,7 @@
     <br>===
     <br><span class="clsQuote">DEFAULT VALUES
     <br>"contributors": [...]
-    <br>If there is an AUTHORS file in the root of your package, npm will treat each line as a Name &lt;email> (url) format, where email and url are optional. Lines which start with a # or are blank, will be ignored.</span>
+    <br>If there is an AUTHORS file in the root of your package, npm will treat each line as a Name &lt;email&gt; (url) format, where email and url are optional. Lines which start with a # or are blank, will be ignored.</span>
     <br>[<a href="https://docs.npmjs.com/files/package.json#default-values">https://docs.npmjs.com/files/package.json#default-values</a>]
     <a class="clsHide" href="#idLJsndpkgjsnmbrcontributorsdsn"></a></p>
   <p id="idLJsndpkgjsnmbrcontributorsnam">name::
@@ -5758,7 +5754,7 @@
     <br>[<a href="https://docs.npmjs.com/getting-started/updating-local-packages">https://docs.npmjs.com/getting-started/updating-local-packages</a>]
     <br>===
     <br><span class="clsQuote">Updating global packages
-    <br>To update global packages, you can use <code>npm install -g &lt;package></code>:
+    <br>To update global packages, you can use <code>npm install -g &lt;package&gt;</code>:
     <br><code>npm install -g jshint</code>
     <br>To find out which packages need to be updated, you can use <code>npm outdated -g --depth=0</code>.
     <br>
@@ -5803,14 +5799,14 @@
     <br>
     <br>Also make sure there isn't already a package with the same name, owned by somebody else.
     <br>
-    <br>Test: Go to <strong>https://npmjs.com/package/&lt;package></strong>. You should see the information for your new package.
+    <br>Test: Go to <strong>https://npmjs.com/package/&lt;package&gt;</strong>. You should see the information for your new package.
     <br>
     <br><strong>Updating the package</strong>
-    <br>When you make changes, you can update the package using <code>npm version &lt;update_type></code>, where update_type is one of the semantic versioning release types, patch, minor, or major. This command will change the version number in package.json. Note that this will also add a tag with this release number to your git repository if you have one.
+    <br>When you make changes, you can update the package using <code>npm version &lt;update_type&gt;</code>, where update_type is one of the semantic versioning release types, patch, minor, or major. This command will change the version number in package.json. Note that this will also add a tag with this release number to your git repository if you have one.
     <br>
     <br>After updating the version number, you can <code>npm publish</code> again.
     <br>
-    <br>Test: Go to https://npmjs.com/package/&lt;package>. The package number should be updated.
+    <br>Test: Go to https://npmjs.com/package/&lt;package&gt;. The package number should be updated.
     <br>
     <br>The README displayed on the site will not be updated unless a new version of your package is published, so you would need to run <code>npm version patch</code> and <code>npm publish</code> to have a documentation fix displayed on the site.</span>
     <br>[<a href="https://docs.npmjs.com/getting-started/publishing-npm-packages">https://docs.npmjs.com/getting-started/publishing-npm-packages</a>]
@@ -5986,15 +5982,15 @@
     <br>
     <br>Example:
     <br><code>&lt;!DOCTYPE html>
-    <br>&lt;html>
-    <br>&lt;head>
-    <br>  &lt;title>node / browserify example&lt;/title>
-    <br>&lt;/head>
-    <br>&lt;body>
+    <br>&lt;html&gt;
+    <br>&lt;head&gt;
+    <br>  &lt;title&gt;node / browserify example&lt;/title&gt;
+    <br>&lt;/head&gt;
+    <br>&lt;body&gt;
     <br>
-    <br>&lt;script src="./bundle.js">&lt;/script>
-    <br>&lt;/body>
-    <br>&lt;/html></code>
+    <br>&lt;script src="./bundle.js">&lt;/script&gt;
+    <br>&lt;/body&gt;
+    <br>&lt;/html&gt;</code>
     <br>That's it! Now you can use node modules and require in the browser!
     <br>
     <br>Live reload development environment

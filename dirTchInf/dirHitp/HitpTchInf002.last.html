@@ -5377,7 +5377,7 @@ Type "help", "copyright", "credits" or "license" for more information.
     <br>  bc::ec_secret secret;
     <br>  // Iterate through every byte setting a random value...
     <br>  for (uint8_t&amp; byte: secret)
-    <br>  byte = engine() % std::numeric_limits&lt;uint8_t>::max();
+    <br>  byte = engine() % std::numeric_limits&lt;uint8_t&gt;::max();
     <br>  // Return result.
     <br>  return secret;
     <br>}
@@ -5786,7 +5786,7 @@ Type "help", "copyright", "credits" or "license" for more information.
     <br>import requests
     <br># example address
     <br>address = '1Dorian4RoXcnBv9hnQ4Y2C1an6NJ4UrjX'
-    <br># The API URL is https://blockchain.info/unspent?active=&lt;address>
+    <br># The API URL is https://blockchain.info/unspent?active=&lt;address&gt;
     <br># It returns a JSON object with a list "unspent_outputs", containing UTXO, like this:
     <br>#{ "unspent_outputs":[
     <br># {
@@ -6349,7 +6349,7 @@ Type "help", "copyright", "credits" or "license" for more information.
     <a class="clsHide" href="#idMbc574P3"></a></p>
   <p id="idMbc574P4">Τα OP_RETURN σενάρια μοιάζουν κάπως έτσι:
     <br>
-    <br><code>OP_RETURN &lt;data></code>
+    <br><code>OP_RETURN &lt;data&gt;</code>
     <br>
     <br>Το τμήμα με τα δεδομένα περιορίζεται σε 80 μπάιτ και τις περισσότερες φορές αντιπροσωπεύει ένα κατακερματισμό, όπως το αποτέλεσμα ενός <a class="clsPreview" href="#idMbcsha256">αλγόριθμου SHA256</a> (32 μπάιτ).
     <br>Πολλές εφαρμογές βάζουν ένα πρόθεμα μπροστά από τα δεδομένα ως αναγνωριστικό για την εκάστοτε εφαρμογή.
@@ -6464,7 +6464,7 @@ Type "help", "copyright", "credits" or "license" for more information.
     <br>Ένας πελάτης που κάνει μία πληρωμή στην εταιρία του Μοχάμεντ χρειάζεται μόνο να συμπεριλάβει αυτό το πολύ κοντύτερο σενάριο κλειδώματος στην πληρωμή του.
     <br>Όταν ο Μοχάμεντ θέλει να ξοδέψει αυτήν την αξόδευτη εκροή (UTXO), πρέπει να παρουσιαστεί το αυθεντικό σενάριο ανάκτησης (αυτό του οποίου ο κατακερματισμός κλείδωσε την UTXO) και τις απαραίτητες υπογραφές για να ξεκλειδωθεί, ως εξής:
     <br>
-    <br><code>&lt;Sig1> &lt;Sig2> &lt;2 PK1 PK2 PK3 PK4 PK5 5 OP_CHECKMULTISIG></code>
+    <br><code>&lt;Sig1&gt; &lt;Sig2&gt; &lt;2 PK1 PK2 PK3 PK4 PK5 5 OP_CHECKMULTISIG></code>
     <a class="clsHide" href="#idMbc575P12"></a></p>
   <p id="idMbc575P13">Τα δύο σενάρια συνδυάζονται σε δύο στάδια.
     <br>Πρώτα, το σενάριο ανάκτησης ελέγχεται με το σενάριο κλειδώματος για να εξασφαλιστεί ότι ο κατακερματισμός είναι ο σωστός:
@@ -6473,7 +6473,7 @@ Type "help", "copyright", "credits" or "license" for more information.
     <a class="clsHide" href="#idMbc575P13"></a></p>
   <p id="idMbc575P14">Εάν το σενάριο ανάκτησης ταιριάζει, το σενάριο ξεκλειδώματος εκτελείται από μόνο του, για να ξεκλειδώσει το σενάριο ανάκτησης:
     <br>
-    <br><code>&lt;Sig1> &lt;Sig2> 2 PK1 PK2 PK3 PK4 PK5 5 OP_CHECKMULTISIG</code>
+    <br><code>&lt;Sig1&gt; &lt;Sig2&gt; 2 PK1 PK2 PK3 PK4 PK5 5 OP_CHECKMULTISIG</code>
     <a class="clsHide" href="#idMbc575P14"></a></p>
 
   <section id="idMbc5752">
@@ -6730,7 +6730,7 @@ $ bitcoin-cli getpeerinfo
 ]
     </code></pre>
     <a class="clsHide" href="#idMbc64P16"></a></div>
-  <p id="idMbc64P17">Για τον παραμερισμό της αυτόματης διαχείρισης των ομότιμων κόμβων και καθορισμό λίστας IP διευθύνσεων, οι χρήστες μπορούν να παράσχουν την επιλογή -connect=&lt;IPAddress> για να καθορίσουν μία ή περισσότερες διευθύνσεις IP.
+  <p id="idMbc64P17">Για τον παραμερισμό της αυτόματης διαχείρισης των ομότιμων κόμβων και καθορισμό λίστας IP διευθύνσεων, οι χρήστες μπορούν να παράσχουν την επιλογή -connect=&lt;IPAddress&gt; για να καθορίσουν μία ή περισσότερες διευθύνσεις IP.
     <br>Εάν χρησιμοποιηθεί αυτή η επιλογή, ο κόμβος θα συνδεθεί μόνο στις επιλεγμένες IP διευθύνσεις, αντί να ανακαλύψει και να διατηρήσει τις συνδέσεις με ομότιμους κόμβους αυτόματα.
     <a class="clsHide" href="#idMbc64P17"></a></p>
   <p id="idMbc64P18">Εάν δεν υπάρχει κίνηση σε μία σύνδεση, οι κόμβοι θα στέλνουν περιοδικά ένα μήνυμα για τη διατήρηση αυτής της σύνδεσης.
@@ -8033,7 +8033,7 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
     <br><code>/*
     <br>  Display the genesis block message by Satoshi.
     <br>*/
-    <br>#include &lt;iostream>
+    <br>#include &lt;iostream&gt;
     <br>#include &lt;bitcoin/bitcoin.hpp>
     <br>int main()
     <br>{
@@ -8065,7 +8065,7 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
     <br>$  g++ -o satoshi-words satoshi-words.cpp $(pkg-config --cflags --libs libbitcoin)
     <br>$ # Run the executable
     <br>$ ./satoshi-words
-    <br>^D??&lt;GS>^A^DEThe Times 03/Jan/2009 Chancellor on brink of second bailout for banks</code>
+    <br>^D??&lt;GS&gt;^A^DEThe Times 03/Jan/2009 Chancellor on brink of second bailout for banks</code>
     <a class="clsHide" href="#idMbcexl87"></a></p>
   </section>
   </section>
