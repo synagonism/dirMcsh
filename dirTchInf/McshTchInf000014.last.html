@@ -68,6 +68,12 @@
   <p id="idLWasmlagtwadsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· WebAssembly[a] is also a-compile-target, that is other languages like C, C++, Rust are-compiled to it[a].
+    <br>* C,
+    <br>* C++,
+    <br>* C#,
+    <br>* Go,
+    <br>* Java,
+    <br>* Rust,
     <a class="clsHide" href="#idLWasmlagtwadsn"></a></p>
   <p id="idLWasmlagtwanam">name::
     <br>* McshEngl.Wasm_lago'compile-target,
@@ -76,14 +82,6 @@
   <p id="idLWasmlagtwawpa">addressWpg::
     <br>* <a href="https://github.com/appcypher/awesome-wasm-langs">https://github.com/appcypher/awesome-wasm-langs</a>,
     <a class="clsHide" href="#idLWasmlagtwawpa"></a></p>
-  <p id="idLWasmlagtwastr">specific::
-    <br>* C,
-    <br>* C++,
-    <br>* C#,
-    <br>* Go,
-    <br>* Java,
-    <br>* Rust,
-    <a class="clsHide" href="#idLWasmlagtwastr"></a></p>
   </section>
   </section>
 
@@ -419,16 +417,37 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmsuntValTypedsn"></a></p>
   <p id="idLWasmsuntValTypenam">name::
-    <br>* McshEngl.Wasm_lago'basic-data-type,
-    <br>* McshEngl.Wasm_lago'machine-type,
-    <br>* McshEngl.Wasm_lago'value-type,
+    <br>* McshEngl.WasmvalueType,
+    <br>* McshEngl.Wasm_lago'basic-data-type!⇒WasmvalueType,
+    <br>* McshEngl.Wasm_lago'machine-type!⇒WasmvalueType,
+    <br>* McshEngl.Wasm_lago'value-type!⇒WasmvalueType,
     <a class="clsHide" href="#idLWasmsuntValTypenam"></a></p>
-  <p id="idLWasmsuntValTypeP1">specific::
+
+  <section id="idLWasmsuntValTypegstr">
+  <h4 id="idLWasmsuntValTypegstrH4">GENERIC-SPECIFIC-TREE of WasmvalueType
+    <a class="clsHide" href="#idLWasmsuntValTypegstrH4"></a></h4>
+  <p id="idLWasmsuntValTypegstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmsuntValTypegstrdsn"></a></p>
+  <p id="idLWasmsuntValTypegstrnam">name::
+    <br>* McshEngl.WasmvalueType'generic-specific-tree,
+    <br>* McshEngl.WasmvalueType'specific-generic-tree,
+    <a class="clsHide" href="#idLWasmsuntValTypegstrnam"></a></p>
+  <p id="idLWasmsuntValTypegtr">generic-tree::
+    <br>* McshEngl.WasmvalueType-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLWasmsuntValTypegtr"></a></p>
+  <p id="idLWasmsuntValTypestr">specific-tree::
+    <br>* McshEngl.WasmvalueType.specific,
+    <br>* McshEngl.WasmvalueType-Sptr,
+    <br>===
     <br>* i32,
     <br>* i64,
     <br>* f32,
     <br>* f64,
-    <a class="clsHide" href="#idLWasmsuntValTypeP1"></a></p>
+    <a class="clsHide" href="#idLWasmsuntValTypestr"></a></p>
+  </section>
 
   <section id="idLWasmsuntVltpBnr">
   <h4 id="idLWasmsuntVltpBnrH4">value-type.BINARY
@@ -1776,10 +1795,30 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmstcClfwdsn"></a></p>
   <p id="idLWasmstcClfwnam">name::
-    <br>* McshEngl.Wasm_lago'control-flow-instruction,
-    <br>* McshEngl.Wasmcmnd.control-flow,
+    <br>* McshEngl.WasmcmndFlow,
+    <br>* McshEngl.Wasm_lago'control-flow-instruction!⇒WasmcmndFlow,
+    <br>* McshEngl.Wasmcmnd.control-flow!⇒WasmcmndFlow,
     <a class="clsHide" href="#idLWasmstcClfwnam"></a></p>
-  <p id="idLWasmstcClfwstr">specific::
+
+  <section id="idLWasmstcClfwgstr">
+  <h3 id="idLWasmstcClfwgstrH3">GENERIC-SPECIFIC-TREE of WasmcmndFlow
+    <a class="clsHide" href="#idLWasmstcClfwgstrH3"></a></h3>
+  <p id="idLWasmstcClfwgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmstcClfwgstrdsn"></a></p>
+  <p id="idLWasmstcClfwgstrnam">name::
+    <br>* McshEngl.WasmcmndFlow'generic-specific-tree,
+    <br>* McshEngl.WasmcmndFlow'specific-generic-tree,
+    <a class="clsHide" href="#idLWasmstcClfwgstrnam"></a></p>
+  <p id="idLWasmstcClfwgtr">generic-tree::
+    <br>* McshEngl.WasmcmndFlow-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLWasmstcClfwgtr"></a></p>
+  <p id="idLWasmstcClfwstr">specific-tree::
+    <br>* McshEngl.WasmcmndFlow.specific,
+    <br>* McshEngl.WasmcmndFlow-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="#idLWasmstcClfwBlck">block</a>,
     <br>* <a class="clsPreview" href="#idLWasmstcClfwBr">br (unconditional-branch)</a>,
     <br>* <a class="clsPreview" href="#idLWasmstcClfwBrif">br_if (conditional-brance)</a>,
@@ -1792,6 +1831,7 @@
     <br>* <a class="clsPreview" href="#idLWasmstcClfwRtrn">return</a>,
     <br>* <a class="clsPreview" href="#idLWasmstcClfwUnrcbl">unreachable</a>,
     <a class="clsHide" href="#idLWasmstcClfwstr"></a></p>
+  </section>
 
   <section id="idLWasmstcClfwStrd">
   <h3 id="idLWasmstcClfwStrdH3">control-instruction.STRUCTURED
@@ -2342,8 +2382,9 @@
     <br>[<a href="https://webassembly.github.io/spec/core/syntax/instructions.html#memory-instructions">https://webassembly.github.io/spec/core/syntax/instructions.html#memory-instructions</a> {1-0.2018-03-22}]
     <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
   <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasm_lago'load-memory-instruction,
-    <br>* McshEngl.Wasmcmnd.load-memory,
+    <br>* McshEngl.WasmcmndLoad,
+    <br>* McshEngl.Wasm_lago'load-memory-instruction!⇒WasmcmndLoad,
+    <br>* McshEngl.Wasmcmnd.load-memory!⇒WasmcmndLoad,
     <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
   <p id="idLWasmstcLoadexpl">example::
     <br>//put var1 on stack
@@ -2353,7 +2394,26 @@
     <br><code>get_local 1
     <br>i32.load8_u</code>
     <a class="clsHide" href="#idLWasmstcLoadexpl"></a></p>
-  <p id="idLWasmstcLoadstr">specific::
+
+  <section id="idLWasmstcLoadgstr">
+  <h4 id="idLWasmstcLoadgstrH4">GENERIC-SPECIFIC-TREE of WasmcmndLoad
+    <a class="clsHide" href="#idLWasmstcLoadgstrH4"></a></h4>
+  <p id="idLWasmstcLoadgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmstcLoadgstrdsn"></a></p>
+  <p id="idLWasmstcLoadgstrnam">name::
+    <br>* McshEngl.WasmcmndLoad'generic-specific-tree,
+    <br>* McshEngl.WasmcmndLoad'specific-generic-tree,
+    <a class="clsHide" href="#idLWasmstcLoadgstrnam"></a></p>
+  <p id="idLWasmstcLoadgtr">generic-tree::
+    <br>* McshEngl.WasmcmndLoad-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLWasmstcLoadgtr"></a></p>
+  <p id="idLWasmstcLoadstr">specific-tree::
+    <br>* McshEngl.WasmcmndLoad.specific,
+    <br>* McshEngl.WasmcmndLoad-Sptr,
+    <br>===
     <br>* f32.load: load 4 bytes as f32,
     <br>* f64.load: load 8 bytes as f64
     <br>* i32.load8_s: load 1 byte and sign-extend i8 to i32
@@ -2369,6 +2429,7 @@
     <br>* i64.load32_u: load 4 bytes and zero-extend i32 to i64
     <br>* i64.load: load 8 bytes as i64
     <a class="clsHide" href="#idLWasmstcLoadstr"></a></p>
+  </section>
 
   <section id="idLWasmstcLoad">
   <h4 id="idLWasmstcLoadH4">Wasmcmnd.f32.load
@@ -2635,8 +2696,9 @@
     <br>· stores <a class="clsPreview" href="#idLWasmalgmchnstk">the-stack's</a> last value on <a class="clsPreview" href="#idLWasmsuntMmr">memory</a>.
     <a class="clsHide" href="#idLWasmstcStoredsn"></a></p>
   <p id="idLWasmstcStorenam">name::
-    <br>* McshEngl.Wasm_lago'store-memory-instruction,
-    <br>* McshEngl.Wasmcmnd.store-memory,
+    <br>* McshEngl.WasmcmndStore,
+    <br>* McshEngl.Wasm_lago'store-memory-instruction!⇒WasmcmndStore,
+    <br>* McshEngl.Wasmcmnd.store-memory!⇒WasmcmndStore,
     <a class="clsHide" href="#idLWasmstcStorenam"></a></p>
   <p id="idLWasmstcStoreexpl">example::
     <br>// wrap stack's value to i8 (1 byte), i2 value,
@@ -2647,7 +2709,26 @@
     <br>get_local 2
     <br>i32.store8</code>
     <a class="clsHide" href="#idLWasmstcStoreexpl"></a></p>
-  <p id="idLWasmstcStorestr">specific::
+
+  <section id="idLWasmstcStoregstr">
+  <h4 id="idLWasmstcStoregstrH4">GENERIC-SPECIFIC-TREE of WasmcmndStore
+    <a class="clsHide" href="#idLWasmstcStoregstrH4"></a></h4>
+  <p id="idLWasmstcStoregstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmstcStoregstrdsn"></a></p>
+  <p id="idLWasmstcStoregstrnam">name::
+    <br>* McshEngl.WasmcmndStore'generic-specific-tree,
+    <br>* McshEngl.WasmcmndStore'specific-generic-tree,
+    <a class="clsHide" href="#idLWasmstcStoregstrnam"></a></p>
+  <p id="idLWasmstcStoregtr">generic-tree::
+    <br>* McshEngl.WasmcmndStore-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLWasmstcStoregtr"></a></p>
+  <p id="idLWasmstcStorestr">specific-tree::
+    <br>* McshEngl.WasmcmndStore.specific,
+    <br>* McshEngl.WasmcmndStore-Sptr,
+    <br>===
     <br>* f32.store: (no conversion) store 4 bytes
     <br>* f64.store: (no conversion) store 8 bytes
     <br>* i32.store8: wrap i32 to i8 and store 1 byte
@@ -2658,6 +2739,7 @@
     <br>* i64.store32: wrap i64 to i32 and store 4 bytes
     <br>* i64.store: (no conversion) store 8 bytes
     <a class="clsHide" href="#idLWasmstcStorestr"></a></p>
+  </section>
 
   <section id="idLWasmstcStoreF32">
   <h4 id="idLWasmstcStoreF32H4">Wasmcmnd.f32.store
@@ -2985,18 +3067,16 @@
     <br>· variable-instructions are-concerned with the-access to local or global variables.
     <br>· these instructions get or set the-values of variables, respectively.
     <br>· the-tee_local-instruction is like set_local but also returns its argument.
-    <a class="clsHide" href="#idLWasmstcVrbldsn"></a></p>
-  <p id="idLWasmstcVrblnam">name::
-    <br>* McshEngl.Wasm_lago'variable-instruction,
-    <br>* McshEngl.Wasmcmnd.variable,
-    <a class="clsHide" href="#idLWasmstcVrblnam"></a></p>
-  <p id="idLWasmstcVrblstr">specific::
     <br>* get_global,
     <br>* get_local,
     <br>* set_global,
     <br>* set_local,
     <br>* tee_local,
-    <a class="clsHide" href="#idLWasmstcVrblstr"></a></p>
+    <a class="clsHide" href="#idLWasmstcVrbldsn"></a></p>
+  <p id="idLWasmstcVrblnam">name::
+    <br>* McshEngl.Wasm_lago'variable-instruction,
+    <br>* McshEngl.Wasmcmnd.variable,
+    <a class="clsHide" href="#idLWasmstcVrblnam"></a></p>
   </section>
 
   <section id="idLWasmstcMmr">
@@ -3368,12 +3448,6 @@
     <a class="clsHide" href="#idLWasmscnKnnH2"></a></h2>
   <p id="idLWasmscnKnndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLWasmscnKnndsn"></a></p>
-  <p id="idLWasmscnKnnnam">name::
-    <br>* McshEngl.Wasm-known-section,
-    <br>* McshEngl.Wasm-section.known,
-    <a class="clsHide" href="#idLWasmscnKnnnam"></a></p>
-  <p id="idLWasmscnKnnstr">specific::
     <br>There are several known sections:
     <br>01. type-section,
     <br>02. import-section,
@@ -3386,7 +3460,11 @@
     <br>09. element-section,
     <br>10. code-section,
     <br>11. data-section,
-    <a class="clsHide" href="#idLWasmscnKnnstr"></a></p>
+    <a class="clsHide" href="#idLWasmscnKnndsn"></a></p>
+  <p id="idLWasmscnKnnnam">name::
+    <br>* McshEngl.Wasm-known-section,
+    <br>* McshEngl.Wasm-section.known,
+    <a class="clsHide" href="#idLWasmscnKnnnam"></a></p>
   </section>
 
   <section id="idLWasmscnType">
@@ -5299,17 +5377,38 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmtooldsn"></a></p>
   <p id="idLWasmtoolnam">name::
-    <br>* McshEngl.Wasm_lago'tool,
-    <br>* McshEngl.Wasm-tool,
+    <br>* McshEngl.WasmTool,
+    <br>* McshEngl.Wasm_lago'tool!⇒WasmTool,
+    <br>* McshEngl.Wasm-tool!⇒WasmTool,
     <a class="clsHide" href="#idLWasmtoolnam"></a></p>
   <p id="idLWasmtoolwpa">addressWpg::
     <br>* <a href="https://github.com/WebAssembly/design/blob/master/Tooling.md">https://github.com/WebAssembly/design/blob/master/Tooling.md</a>,
     <a class="clsHide" href="#idLWasmtoolwpa"></a></p>
-  <p id="idLWasmtoolstr">specific::
+
+  <section id="idLWasmtoolgstr">
+  <h2 id="idLWasmtoolgstrH2">GENERIC-SPECIFIC-TREE of WasmTool
+    <a class="clsHide" href="#idLWasmtoolgstrH2"></a></h2>
+  <p id="idLWasmtoolgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmtoolgstrdsn"></a></p>
+  <p id="idLWasmtoolgstrnam">name::
+    <br>* McshEngl.WasmTool'generic-specific-tree,
+    <br>* McshEngl.WasmTool'specific-generic-tree,
+    <a class="clsHide" href="#idLWasmtoolgstrnam"></a></p>
+  <p id="idLWasmtoolgtr">generic-tree::
+    <br>* McshEngl.WasmTool-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLWasmtoolgtr"></a></p>
+  <p id="idLWasmtoolstr">specific-tree::
+    <br>* McshEngl.WasmTool.specific,
+    <br>* McshEngl.WasmTool-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="#idLWasmtoolRte">runtime-environment</a>,
     <br>* editor,
     <br>* <a class="clsPreview" href="#idLWasmtoolCplr">compiler</a>,
     <a class="clsHide" href="#idLWasmtoolstr"></a></p>
+  </section>
 
   <section id="idLWasmtoolCplr">
   <h2 id="idLWasmtoolCplrH2">tool.COMPILER
@@ -5318,71 +5417,86 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmtoolCplrdsn"></a></p>
   <p id="idLWasmtoolCplrnam">name::
-    <br>* McshEngl.Wasm_lago'compiler,
-    <br>* McshEngl.Wasm-compiler,
+    <br>* McshEngl.Wasm-compiler!⇒Wasmcmplr,
+    <br>* McshEngl.Wasmcmplr!=Wasm-compiler,
+    <br>* McshEngl.Wasm_lago'compiler!⇒Wasmcmplr,
     <a class="clsHide" href="#idLWasmtoolCplrnam"></a></p>
-  <p id="idLWasmtoolCplrstr">specific::
+
+  <section id="idLWasmtoolCplrgstr">
+  <h3 id="idLWasmtoolCplrgstrH3">GENERIC-SPECIFIC-TREE of Wasmcmplr
+    <a class="clsHide" href="#idLWasmtoolCplrgstrH3"></a></h3>
+  <p id="idLWasmtoolCplrgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmtoolCplrgstrdsn"></a></p>
+  <p id="idLWasmtoolCplrgstrnam">name::
+    <br>* McshEngl.Wasmcmplr'generic-specific-tree,
+    <br>* McshEngl.Wasmcmplr'specific-generic-tree,
+    <a class="clsHide" href="#idLWasmtoolCplrgstrnam"></a></p>
+  <p id="idLWasmtoolCplrgtr">generic-tree::
+    <br>* McshEngl.Wasmcmplr-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLWasmtoolCplrgtr"></a></p>
+  <p id="idLWasmtoolCplrstr">specific-tree::
+    <br>* McshEngl.Wasmcmplr.specific,
+    <br>* McshEngl.Wasmcmplr-Sptr,
+    <br>===
     <br>* <a href="https://wasdk.github.io/WasmFiddle/">https://wasdk.github.io/WasmFiddle/</a>,
     <br>* <a href="http://mbebenita.github.io/WasmExplorer/">http://mbebenita.github.io/WasmExplorer/</a>,
     <a class="clsHide" href="#idLWasmtoolCplrstr"></a></p>
+  </section>
 
   <section id="idLWasmtoolCplrTowat">
-  <h3 id="idLWasmtoolCplrTowatH3">compiler.to-wat
+  <h3 id="idLWasmtoolCplrTowatH3">Wasmcmplr.to-wat
     <a class="clsHide" href="#idLWasmtoolCplrTowatH3"></a></h3>
   <p id="idLWasmtoolCplrTowatdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <br>* online C-to-wat: <a href="https://wasdk.github.io/WasmFiddle/">https://wasdk.github.io/WasmFiddle/</a>,
     <a class="clsHide" href="#idLWasmtoolCplrTowatdsn"></a></p>
   <p id="idLWasmtoolCplrTowatnam">name::
     <br>* McshEngl.Wasm_lago'to-wat-compiler,
-    <br>* McshEngl.Wasm-compiler.to-wat,
+    <br>* McshEngl.Wasmcmplr.to-wat,
     <a class="clsHide" href="#idLWasmtoolCplrTowatnam"></a></p>
-  <p id="idLWasmtoolCplrTowatstr">specific::
-    <br>* online C-to-wat: <a href="https://wasdk.github.io/WasmFiddle/">https://wasdk.github.io/WasmFiddle/</a>,
-    <a class="clsHide" href="#idLWasmtoolCplrTowatstr"></a></p>
   </section>
 
   <section id="idLWasmtoolCplrTowasm">
-  <h3 id="idLWasmtoolCplrTowasmH3">compiler.to-wasm
+  <h3 id="idLWasmtoolCplrTowasmH3">Wasmcmplr.to-wasm
     <a class="clsHide" href="#idLWasmtoolCplrTowasmH3"></a></h3>
   <p id="idLWasmtoolCplrTowasmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLWasmtoolCplrTowasmdsn"></a></p>
-  <p id="idLWasmtoolCplrTowasmnam">name::
-    <br>* McshEngl.Wasm_lago'to-wasm-compiler,
-    <br>* McshEngl.Wasm-compiler.to-wasm,
-    <a class="clsHide" href="#idLWasmtoolCplrTowasmnam"></a></p>
-  <p id="idLWasmtoolCplrTowasmstr">specific::
     <br>* online C-to-wasm: <a href="https://wasdk.github.io/WasmFiddle/">https://wasdk.github.io/WasmFiddle/</a>,
     <br>* TypeScript-to-wasm: AssemblyScript <a href="https://github.com/AssemblyScript/assemblyscript">https://github.com/AssemblyScript/assemblyscript</a>,
     <br>* TypeScript-to-wasm: speedy.js <a href="https://github.com/MichaReiser/speedy.js">https://github.com/MichaReiser/speedy.js</a>,
-    <a class="clsHide" href="#idLWasmtoolCplrTowasmstr"></a></p>
+    <a class="clsHide" href="#idLWasmtoolCplrTowasmdsn"></a></p>
+  <p id="idLWasmtoolCplrTowasmnam">name::
+    <br>* McshEngl.Wasm_lago'to-wasm-compiler,
+    <br>* McshEngl.Wasmcmplr.to-wasm,
+    <a class="clsHide" href="#idLWasmtoolCplrTowasmnam"></a></p>
   </section>
 
   <section id="idLWasmtoolCplrWattowasm">
-  <h3 id="idLWasmtoolCplrWattowasmH3">compiler.wat-to-wasm
+  <h3 id="idLWasmtoolCplrWattowasmH3">Wasmcmplr.wat-to-wasm
     <a class="clsHide" href="#idLWasmtoolCplrWattowasmH3"></a></h3>
   <p id="idLWasmtoolCplrWattowasmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <br>* wat2wasm cli-tool (<a class="clsPreview" href="#idLWasmtoolWabt">WABT</a>),
+    <br>* online: <a href="https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/">https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/</a>,
     <a class="clsHide" href="#idLWasmtoolCplrWattowasmdsn"></a></p>
   <p id="idLWasmtoolCplrWattowasmnam">name::
     <br>* McshEngl.Wasm_lago'wat-to-wasm,
-    <br>* McshEngl.Wasm-compiler.wat-to-wasm,
+    <br>* McshEngl.Wasmcmplr.wat-to-wasm,
     <a class="clsHide" href="#idLWasmtoolCplrWattowasmnam"></a></p>
-  <p id="idLWasmtoolCplrWattowasmstr">specific::
-    <br>* wat2wasm cli-tool (<a class="clsPreview" href="#idLWasmtoolWabt">WABT</a>),
-    <br>* online: <a href="https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/">https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/</a>,
-    <a class="clsHide" href="#idLWasmtoolCplrWattowasmstr"></a></p>
   </section>
 
   <section id="idLWasmtoolCplrWasm2wat">
-  <h3 id="idLWasmtoolCplrWasm2watH3">compiler.wasm-to-wat
+  <h3 id="idLWasmtoolCplrWasm2watH3">Wasmcmplr.wasm-to-wat
     <a class="clsHide" href="#idLWasmtoolCplrWasm2watH3"></a></h3>
   <p id="idLWasmtoolCplrWasm2watdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLWasmtoolCplrWasm2watdsn"></a></p>
   <p id="idLWasmtoolCplrWasm2watnam">name::
     <br>* McshEngl.Wasm_lago'wasm-to-wat,
-    <br>* McshEngl.Wasm-compiler.wasm-to-wat,
+    <br>* McshEngl.Wasmcmplr.wasm-to-wat,
     <a class="clsHide" href="#idLWasmtoolCplrWasm2watnam"></a></p>
   <p id="idLWasmtoolCplrWasm2watwpa">addressWpg::
     <br>* online: <a href="https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wasm2wat/">https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wasm2wat/</a>,
@@ -5391,18 +5505,16 @@
   </section>
 
   <section id="idLWasmtoolCplrWasmtomchn">
-  <h3 id="idLWasmtoolCplrWasmtomchnH3">compiler.wasm-to-machine
+  <h3 id="idLWasmtoolCplrWasmtomchnH3">Wasmcmplr.wasm-to-machine
     <a class="clsHide" href="#idLWasmtoolCplrWasmtomchnH3"></a></h3>
   <p id="idLWasmtoolCplrWasmtomchndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <br>* <a class="clsPreview" href="#idLWasmtoolRte">Wasm-runtime-environment</a>,
     <a class="clsHide" href="#idLWasmtoolCplrWasmtomchndsn"></a></p>
   <p id="idLWasmtoolCplrWasmtomchnnam">name::
     <br>* McshEngl.Wasm_lago'wasm-to-machine,
-    <br>* McshEngl.Wasm-compiler.wasm-to-machine,
+    <br>* McshEngl.Wasmcmplr.wasm-to-machine,
     <a class="clsHide" href="#idLWasmtoolCplrWasmtomchnnam"></a></p>
-  <p id="idLWasmtoolCplrWasmtomchnstr">specific::
-    <br>* <a class="clsPreview" href="#idLWasmtoolRte">Wasm-runtime-environment</a>,
-    <a class="clsHide" href="#idLWasmtoolCplrWasmtomchnstr"></a></p>
   </section>
   </section>
 
