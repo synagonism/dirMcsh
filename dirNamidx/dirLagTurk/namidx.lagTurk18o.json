@@ -1,5 +1,5 @@
 [
-  [";lagTurk18o","O|o",40,"2026-10-13"],
+  [";lagTurk18o","O|o",40,"2026-10-15"],
   ["o!=he-she-it-absolute","dirLag/McshLag000030.last.html#idLTurkpronPrsn"],
   ["o!=humanDeictic","dirHmn/McshHmn000002.last.html#idHmn001IrgvN"],
   ["o!=humanNoDeictic","dirCor/McshCor000003.last.html#idEntHmnNRfrcDctc"],
@@ -10,8 +10,8 @@
   ["olacak!~verbTurk!=RltnPossessor_then_posserssum","dirCor/McshCor000005.last.html#idRlnPssnofpsr"],
   ["olgunlaşmak!=to-mature","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["olmak!=to-become","dirLag/McshLag000030.last.html#idLTurkverbstr"],
-  ["olumlu!=affirmative-mVTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrNegaN"],
-  ["olumsuz!=negative-mVTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrNega"],
+  ["olumlu!=affirmative_mVTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrNegaN"],
+  ["olumsuz!=negative_mVTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrNega"],
   ["oluşmak!=to-consist-of","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["oluşturmak!=to-consist","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["on!=10","dirCor/McshCor000010.last.html#idQntNbr10"],

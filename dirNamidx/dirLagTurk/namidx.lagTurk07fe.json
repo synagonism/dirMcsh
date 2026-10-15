@@ -1,5 +1,5 @@
 [
-  [";lagTurk07fe","F|f",15,"2026-10-11"],
+  [";lagTurk07fe","F|f",15,"2026-10-15"],
   ["Fransa!=SocFrac","dirStn/McshStn000037.last.html#idOverview"],
   ["fakat!~ConjTurk!=RltnOpposition","dirCor/McshCor000005.last.html#idRlnOpsn"],
   ["fark-etmek!=to-notice","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
@@ -10,7 +10,7 @@
   ["feshetmek!=to-dissolve-(an-institution)","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["fethetmek!=to-conquer","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["fiil!=verb","dirLag/McshLag000007.last.html#idLHmnmverb"],
-  ["fiil.Türkçe!=verbTurk","dirLag/McshLag000030.last.html#idLTurkverb"],
+  ["fiil.Türkçe!=Turkverb","dirLag/McshLag000030.last.html#idLTurkverb"],
   ["firar-etmek!=to-flee","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["flört-etmek!=to-flirt","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["fonksiyon!=functing","dirCor/McshCor000004.last.html#idDngFctg"],

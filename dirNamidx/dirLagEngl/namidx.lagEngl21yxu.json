@@ -1,5 +1,5 @@
 [
-  [";lagEngl21yxu","U|u",7376,"2026-10-14"],
+  [";lagEngl21yxu","U|u",7376,"2026-10-15"],
   ["U+0000..U+007F|0..127-Basic-Latin","dirTchInf/dirUcd/McshUcdU0000.last.html#idOverview"],
   ["U+0080..U+00FF|128..255|..&#x00FF;-Latin-1-Supplement","dirTchInf/dirUcd/McshUcdU0080.last.html#idOverview"],
   ["U+0100..U+017F|256..383|&#x0100;..&#x017F;-Latin-Extended-A","dirTchInf/dirUcd/McshUcdU0100.last.html#idOverview"],
@@ -7264,7 +7264,7 @@
   ["until-now!~ConjEngl!⇒timeBefore","dirCor/McshCor000006.last.html#idTimeRltvBfrc"],
   ["unused-plane--of-Unicode","dirLag/McshLag000006.last.html#idCharUcdstdcpPlnUnsd"],
   ["unvoiced-ConsPhnm!⇒voiceless","dirLag/McshLag000009.last.html#idL0017phnmVwlNVocdN"],
-  ["unwitnessed-mVTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrRprt"],
+  ["unwitnessed-Turkvm","dirLag/McshLag000030.last.html#idLTurkverbmbrRprt"],
   ["uom-of-pressure","dirNtr/McshNtr000012.last.html#idFrc012uom"],
   ["up!~Engl_adve","dirLag/McshLag000011.last.html#idLEngladve_457"],
   ["up!~Englconj","dirLag/McshLag000011.last.html#idLEnglConjUp"],

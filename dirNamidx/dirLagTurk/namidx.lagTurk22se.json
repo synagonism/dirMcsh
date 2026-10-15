@@ -1,5 +1,5 @@
 [
-  [";lagTurk22se","S|s",101,"2026-10-13"],
+  [";lagTurk22se","S|s",101,"2026-10-15"],
   ["sabote-etmek!=to-sabotage","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["sabretmek!=to-be-patient","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["sabretmek!=to-have-patience","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
@@ -59,7 +59,7 @@
   ["sokmak!=to-insert;to-stick","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["sollamak!=to-pass-(a-vehicle)","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["sormak!=to-ask","dirLag/McshLag000030.last.html#idLTurkverbstr"],
-  ["soru!=interrogative-mVTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrInte"],
+  ["soru!=interrogative_mVTurk","dirLag/McshLag000030.last.html#idLTurkverbmbrInte"],
   ["soydurmak!=to-get-someone-stripped","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["soymak!=to-strip","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["soyunmak!=to-be-stripped","dirLag/McshLag000030.last.html#idLTurkverbstr"],
