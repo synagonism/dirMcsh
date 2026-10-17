@@ -1,5 +1,5 @@
 [
-  [";lagEngl17kxu","Q|q",402,"2026-10-16"],
+  [";lagEngl17kxu","Q|q",404,"2026-10-17"],
   ["QA!=question-answering-system!⇒techQa","dirTchInf/McshTchInf000036.last.html#idTchNlp008"],
   ["QAPage@schema.org","dirStn/McshStn000023.last.html#idScmoQAPage"],
   ["QAR!=Qatar-Riyal-currency","dirStn/McshStn000029.last.html#idSfrFin019Untstr"],
@@ -211,6 +211,7 @@
   ["quanto.relative!⇒quantoRela","dirCor/McshCor000010.last.html#idQntRlv"],
   ["quanto.relative.average.small!⇒quantoSmall","dirCor/McshCor000010.last.html#idQntRlvAvrgSml"],
   ["quanto.relative.average.very-small!⇒quantoSmallVery","dirCor/McshCor000010.last.html#idQntRlvAvrgVsml"],
+  ["quanto.relativeNo","dirCor/McshCor000010.last.html#idQntRlvN"],
   ["quanto.semu!⇒attSemuNumber","dirCor/McshCor000010.last.html#idQntSms"],
   ["quanto.semu.number!⇒attSemuNumber","dirCor/McshCor000010.last.html#idQntSms"],
   ["quanto.small!⇒quantoSmall","dirCor/McshCor000010.last.html#idQntRlvAvrgSml"],
@@ -314,6 +315,7 @@
   ["quantoRela'specific-generic-tree","dirCor/McshCor000010.last.html#idQntRlvgstr"],
   ["quantoRela-Gntr","dirCor/McshCor000010.last.html#idQntRlvgtr"],
   ["quantoRela-Sptr","dirCor/McshCor000010.last.html#idQntRlvstr"],
+  ["quantoRela.around!⇒RltnQuantAround","dirCor/McshCor000010.last.html#idQntRlvArnd"],
   ["quantoRela.average","dirCor/McshCor000010.last.html#idQntRlvAvrg"],
   ["quantoRela.between!⇒RltnQuantBetween","dirCor/McshCor000010.last.html#idQntRlvBtwn"],
   ["quantoRela.fraction","dirCor/McshCor000010.last.html#idQntRlvFrcn"],
