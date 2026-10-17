@@ -30,6 +30,7 @@
   <p id="idName">name::
     <br>* McshEngl.human-disease!⇒disease,
     <br>* McshEngl.disease!=human-disease,
+    <br>* McshEngl.disease!~McsHlth000011,
     <br>* McshEngl.McshHlth000011.last.html//dirHlth//dirMcsh!⇒disease,
     <br>* McshEngl.dirHlth/McshHlth000011.last.html!⇒disease,
     <br>* McshEngl.abnormality.human!⇒disease,
@@ -37,7 +38,6 @@
     <br>* McshEngl.atomic-disorder!⇒disease,
     <br>* McshEngl.defect.human!⇒disease,
     <br>* McshEngl.disease/dizí1z/!⇒disease,
-    <br>* McshEngl.disease!~McsHlth000011,
     <br>* McshEngl.disease.human!⇒disease,
     <br>* McshEngl.disease-of-human!⇒disease,
     <br>* McshEngl.diseaseHmn!⇒disease,
@@ -143,6 +143,7 @@
     <br>* McshEngl.disease'risk_factor,
     <br>* McshEngl.disease'risk-factor!⇒disease'risk_factor,
     <br>* McshEngl.risk-factor--of-disease!⇒disease'risk_factor,
+    <br>* McshEngl.disease'cause'risk-factor!⇒disease'risk_factor,
     <br>====== lagoGreek:
     <br>* McshElln.συντελεστής-κινδύνου-ασθένειας!=disease'risk_factor,
     <a class="clsHide" href="#idDssHmnrkfrFnam"></a></p>
@@ -455,6 +456,7 @@
   <p id="idDssHmnprtnChkpnam">name::
     <br>* McshEngl.diagnosis.checkup,
     <br>* McshEngl.health-checkup,
+    <br>* McshEngl.Dssprotection.checkup,,
     <br>====== lagoGreek:
     <br>* McshElln.προληπτικός-έλεγχος-υγείας,
     <a class="clsHide" href="#idDssHmnprtnChkpnam"></a></p>
@@ -666,11 +668,9 @@
     <br>===
     <br>* disease-of-organism,
     <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idDssHmngtr"></a></p>
-  <p id="idDssHmnsblg">sibling-of-disease::
+    <br>=== sibling-of-disease:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000008.last.html#idHlthHmnatt003">wellness</a>,
-    <a class="clsHide" href="#idDssHmnsblg"></a></p>
-  <p id="idDssHmngstratttr">att-tree-of-disease::
+    <br>=== att-tree-of-disease:
     <br>* symptom,
     <br>* cause,
     <br>* diagnosis,
@@ -681,10 +681,9 @@
     <br>* resource,
     <br>* doing,
     <br>* evoluting,
-    <a class="clsHide" href="#idDssHmngstratttr"></a></p>
-  <p id="idDssHmngstrattown">att-own-of-disease::
+    <br>=== att-own-of-disease:
     <br>* therapy,
-    <a class="clsHide" href="#idDssHmngstrattown"></a></p>
+    <a class="clsHide" href="#idDssHmngtr"></a></p>
   <p id="idDssHmnstr">specific-tree::
     <br>* McshEngl.disease.specific,
     <br>* McshEngl.disease-Sptr,
@@ -1222,6 +1221,7 @@
     <br>* McshEngl.disease.056-bacterial-infection,
     <br>* McshEngl.disease.bacterial-infection-056,
     <br>* McshEngl.bacterial-infection,
+    <br>* McshEngl.DssInfectious.bacterial-infection-056,
     <a class="clsHide" href="#idDssHmn056nam"></a></p>
   <p id="idDssHmn056wpa">addressWpg::
     <br>* https://www.weforum.org/agenda/2017/01/heres-how-your-brain-helps-your-body-fight-bacteria?
@@ -1244,6 +1244,7 @@
     <br>* McshEngl.disease.viral-infection-162,
     <br>* McshEngl.DssViralInfection,
     <br>* McshEngl.viral-infection-of-human,
+    <br>* McshEngl.DssInfectious.viral-infection-162,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ίωση-ανθρωπου,
     <br>* McshElln.ίωση-ανθρωπου,
@@ -1287,6 +1288,7 @@
     <a class="clsHide" href="#idDssHmn162therapyPlsmdsn"></a></p>
   <p id="idDssHmn162therapyPlsmnam">name::
     <br>* McshEngl.DssViral'DssViralInfection.plasma,
+    <br>* McshEngl.DssViralInfection'therapy.plasma!⇒DssViral'DssViralInfection.plasma,
     <a class="clsHide" href="#idDssHmn162therapyPlsmnam"></a></p>
   </section>
   </section>
@@ -2033,6 +2035,7 @@
     <a class="clsHide" href="#idDssHmn032causedsn"></a></p>
   <p id="idDssHmn032causenam">name::
     <br>* McshEngl.DssSysCirculator'cause,
+    <br>* McshEngl.DssSysCirculatory'cause!⇒DssSysCirculator'cause,
     <a class="clsHide" href="#idDssHmn032causenam"></a></p>
   </section>
 
@@ -2124,6 +2127,7 @@
     <br>* McshEngl.disease.blood-057,
     <br>* McshEngl.defect-of-bloodHmn,
     <br>* McshEngl.DssBlood,
+    <br>* McshEngl.DssSysCirculatory.blood-057,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.αίματος,
     <a class="clsHide" href="#idDssHmn057nam"></a></p>
@@ -2160,6 +2164,7 @@
     <br>* McshEngl.disease.vessel-130!⇒DssVessel,
     <br>* McshEngl.defect-of-vessel!⇒DssVessel,
     <br>* McshEngl.vessel'defect!⇒DssVessel,
+    <br>* McshEngl.DssSysCirculatory.vessel-130!⇒DssVessel,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.αγγείων!=DssVessel,
     <a class="clsHide" href="#idDssHmn130nam"></a></p>
@@ -2207,6 +2212,7 @@
     <br>* McshEngl.disease.hemorrhage-134!⇒DssBleading,
     <br>* McshEngl.haemorrhage!⇒DssBleading,
     <br>* McshEngl.hemorrhage!⇒DssBleading,
+    <br>* McshEngl.DssSysCirculatory.hemorrhage-134!⇒DssBleading,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.αιμορραγία!=DssBleading,
     <br>* McshElln.αιμορραγία!=DssBleading,
@@ -2268,6 +2274,7 @@
     <br>* McshEngl.arteriosclerosis!⇒DssArteriosclerosis,
     <br>* McshEngl.disease.033-arteriosclerosis!⇒DssArteriosclerosis,
     <br>* McshEngl.disease.arteriosclerosis-033!⇒DssArteriosclerosis,
+    <br>* McshEngl.DssSysCirculatory.arteriosclerosis-033!⇒DssArteriosclerosis,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.αθηρωματικη-νόσος-των-αρτηριών!=DssArteriosclerosis,
     <br>* McshElln.αθηρωματικη-νόσος-των-αρτηριών!=DssArteriosclerosis,
@@ -2373,6 +2380,7 @@
     <br>* McshEngl.heart-disease!⇒disease.heart,
     <br>* McshEngl.ognHeart'disease!⇒disease.heart,
     <br>* McshEngl.ognHeart'att001-disease!⇒disease.heart,
+    <br>* McshEngl.DssSysCirculatory.heart-047!⇒disease.heart,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.καρδιάς!=disease.heart,
     <a class="clsHide" href="#idDssHmn047nam"></a></p>
@@ -2391,6 +2399,7 @@
     <a class="clsHide" href="#idDssHmn047diagnosisdsn"></a></p>
   <p id="idDssHmn047diagnosisnam">name::
     <br>* McshEngl.DssHeart'diagnosis,
+    <br>* McshEngl.disease.heart'diagnosis!⇒DssHeart'diagnosis,
     <a class="clsHide" href="#idDssHmn047diagnosisnam"></a></p>
   </section>
 
@@ -2421,6 +2430,7 @@
     <a class="clsHide" href="#idDssHmn047protectiondsn"></a></p>
   <p id="idDssHmn047protectionnam">name::
     <br>* McshEngl.DssHeart'protection,
+    <br>* McshEngl.disease.heart'protection!⇒DssHeart'protection,
     <a class="clsHide" href="#idDssHmn047protectionnam"></a></p>
   </section>
 
@@ -2434,28 +2444,29 @@
     <a class="clsHide" href="#idDssHmn047evolutingdsn"></a></p>
   <p id="idDssHmn047evolutingnam">name::
     <br>* McshEngl.DssHeart'evoluting,
+    <br>* McshEngl.disease.heart'evoluting!⇒DssHeart'evoluting,
     <a class="clsHide" href="#idDssHmn047evolutingnam"></a></p>
   </section>
 
   <section id="idDssHmn047gstr">
-  <h3 id="idDssHmn047gstrH3">GENERIC-SPECIFIC-TREE of DssHeart
+  <h3 id="idDssHmn047gstrH3">GENERIC-SPECIFIC-TREE of disease.heart
     </h3>
   <p id="idDssHmn047gstrdsn">description::
     <br>× Mcsh-creation: {2026-05-20}
     <a class="clsHide" href="#idDssHmn047gstrdsn"></a></p>
   <p id="idDssHmn047gstrnam">name::
-    <br>* McshEngl.DssHeart'generic-specific-tree,
-    <br>* McshEngl.DssHeart'specific-generic-tree,
+    <br>* McshEngl.disease.heart'generic-specific-tree,
+    <br>* McshEngl.disease.heart'specific-generic-tree,
     <a class="clsHide" href="#idDssHmn047gstrnam"></a></p>
   <p id="idDssHmn047gtr">generic-tree::
-    <br>* McshEngl.DssHeart-Gntr,
+    <br>* McshEngl.disease.heart-Gntr,
     <br>===
     <br>* <a class="clsPreview" href="#idDssHmn032">DssHeartvessel</a>,
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idDssHmn047gtr"></a></p>
   <p id="idDssHmn047str">specific-tree::
-    <br>* McshEngl.DssHeart.specific,
-    <br>* McshEngl.DssHeart-Sptr,
+    <br>* McshEngl.disease.heart.specific,
+    <br>* McshEngl.disease.heart-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="#idDssHmn048">ανεπάρκεια-καρδιακή</a>,
     <br>* <a class="clsPreview" href="#idDssHmn046">ηχητικές-παθήσεις</a>,
@@ -2484,6 +2495,7 @@
     <br>* McshEngl.disease.046-heart-sound,
     <br>* McshEngl.disease.heart-sound-046,
     <br>* McshEngl.heart-sound-defect,
+    <br>* McshEngl.DssSysCirculatory.heart-sound-046,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ηχητική-πάθηση-καρδιάς,
     <br>* McshElln.ηχητική-πάθηση-καρδιάς,
@@ -2512,6 +2524,7 @@
     <br>* McshEngl.disease.heart-failure-048,
     <br>* McshEngl.DssHeart_failure,
     <br>* McshEngl.heart-failure, {2012-07-31},
+    <br>* McshEngl.DssSysCirculatory.heart-failure-048,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.καρδιακή-ανεπάρκεια,
     <br>* McshElln.καρδιακή-ανεπάρκεια,
@@ -2612,6 +2625,7 @@
     <br>* McshEngl.DssHaemophilia,
     <br>* McshEngl.haemophilia,
     <br>* McshEngl.hemophilia,
+    <br>* McshEngl.DssSysCirculatory.hemophilia,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.αιμορροφιλία,
     <br>* McshElln.αιμορροφιλία,
@@ -2669,6 +2683,7 @@
     <br>* McshEngl.DssAnemia,
     <br>* McshEngl.anaemia,
     <br>* McshEngl.anemia,
+    <br>* McshEngl.DssSysCirculatory.anemia-058,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.αναιμία,
     <br>* McshElln.αναιμία,
@@ -2806,6 +2821,7 @@
     <br>* McshEngl.disease.leucocyte-068,
     <br>* McshEngl.defect-of-leucocyte,
     <br>* McshEngl.DssLeucocyte,
+    <br>* McshEngl.DssSysCirculatory.leucocyte-068,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.λευκοκυτταρου,
     <a class="clsHide" href="#idDssHmn068nam"></a></p>
@@ -2840,6 +2856,7 @@
     <br>* McshEngl.disease.hypertension-042,
     <br>* McshEngl.DssHypertension,
     <br>* McshEngl.hypertension,
+    <br>* McshEngl.DssSysCirculatory.hypertension-042,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.υπέρταση,
     <br>* McshElln.υπέρταση,
@@ -2952,6 +2969,7 @@
     <br>* McshEngl.disease.hypotension-132,
     <br>* McshEngl.hypotension,
     <br>* McshEngl.low-blood-pressure,
+    <br>* McshEngl.DssSysCirculatory.hypotension-132,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.υπόταση,
     <br>* McshElln.υπόταση,
@@ -2973,6 +2991,7 @@
     <br>* McshEngl.disease.uremia-197,
     <br>* McshEngl.DssUraemia,
     <br>* McshEngl.uraemia,
+    <br>* McshEngl.DssSysCirculatory.uremia-197,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ουραιμία,
     <br>* McshElln.ουραιμία,
@@ -3023,6 +3042,7 @@
     <br>* McshEngl.angina-pectoris,
     <br>* McshEngl.cardialgia,
     <br>* McshEngl.disease.angina,
+    <br>* McshEngl.DssSysCirculatory.angina-039,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.στηθάγχη,
     <br>* McshElln.στηθάγχη,
@@ -3062,6 +3082,7 @@
     <br>* McshEngl.IHD-ischemic-heart-disease!⇒DssCoronaryArtery,
     <br>* McshEngl.coronary-heart-disease!⇒DssCoronaryArtery, {2012-07-31},
     <br>* McshEngl.disease.CHD!⇒DssCoronaryArtery,
+    <br>* McshEngl.DssSysCirculatory.coronary-heart-disease-035!⇒DssCoronaryArtery,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.στεφανιαία-νόσος!=DssCoronaryArtery,
     <br>* McshElln.στεφανιαία-νόσος!=DssCoronaryArtery,
@@ -3140,6 +3161,7 @@
     <br>* McshEngl.MI-myocardial-infarction!⇒dssMI,
     <br>* McshEngl.myocardial-infarction!⇒dssMI,
     <br>* McshEngl.heart-attack!⇒dssMI,
+    <br>* McshEngl.DssSysCirculatory.myocardial-infarction-036!⇒dssMI,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.έμφραγμα-του-μυοκαρδίου!=dssMI,
     <br>* McshElln.έμφραγμα-μυοκαρδίου!=dssMI,
@@ -3205,6 +3227,7 @@
     <br>* McshEngl.disease.atherosclerosis-255,
     <br>* McshEngl.disease.255-atherosclerosis,
     <br>* McshEngl.atherosclerosis-disease,
+    <br>* McshEngl.DssSysCirculatory.atherosclerosis-255,
     <a class="clsHide" href="#idDssHmn255nam"></a></p>
   </section>
 
@@ -3288,6 +3311,7 @@
     <br>* McshEngl.disease.025-cerebellum,
     <br>* McshEngl.disease.cerebellum-025,
     <br>* McshEngl.cerebellum'disease,
+    <br>* McshEngl.DssNervous.cerebellum-025,
     <a class="clsHide" href="#idDssHmn025nam"></a></p>
   <p id="idDssHmn025dsnL">descriptionLong::
     <br>συμπτώματα:
@@ -3339,6 +3363,7 @@
     <br>* McshEngl.disease.024-cerebrospinal-fluid,
     <br>* McshEngl.disease.cerebrospinal-fluid-024,
     <br>* McshEngl.cerebrospinal-fluid.024--disease,
+    <br>* McshEngl.DssNervous.cerebrospinal-fluid-024,
     <a class="clsHide" href="#idDssHmn024nam"></a></p>
   </section>
   </section>
@@ -3753,6 +3778,7 @@
     <br>* McshEngl.disease.062-bite-cause!⇒disease.bite_cause,
     <br>* McshEngl.disease.bite-cause-062!⇒disease.bite_cause,
     <br>* McshEngl.bite-cause--disease!⇒disease.bite_cause,
+    <br>* McshEngl.disease.animal_cause.bite-cause-062!⇒disease.bite_cause,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.δάγκωμα-αιτία!=disease.bite_cause,
     <a class="clsHide" href="#idDssHmn062nam"></a></p>
@@ -4598,7 +4624,8 @@
   <p id="idDssHmn075gtr">generic-tree::
     <br>* <a class="clsPreview" href="#idDssHmn037">DssSkin</a>,
     <a class="clsHide" href="#idDssHmn075gtr"></a></p>
-  <p id="idDssHmn075P1"><a class="clsPreview" href="../dirHlth/McshHlth000016.last.html#idOverview">therapy</a>::
+  <p id="idDssHmn075P1">therapy::
+    <br>× generic: <a class="clsPreview" href="../dirHlth/McshHlth000016.last.html#idOverview">therapy</a>
     <br>ερεθισμένο πρόσωπο:
     <br>Fucicort cream: a) Fusidic Acid 20mg b) Betamethasome 1mg.
     <a class="clsHide" href="#idDssHmn075P1"></a></p>
@@ -5951,6 +5978,7 @@
     <br>* McshEngl.disease.cancer.lung,
     <br>* McshEngl.DssCancerLung,
     <br>* McshEngl.lung-cancer,
+    <br>* McshEngl.DssCancer.lung.102,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.καρκίνος-πνευμόνων,
     <br>* McshElln.καρκίνος-πνευμόνων,
@@ -6098,6 +6126,7 @@
     <br>* McshEngl.disease.106-cancer.skin,
     <br>* McshEngl.disease.cancer.skin-106,
     <br>* McshEngl.DssCancerSkin,
+    <br>* McshEngl.DssCancer.skin.106,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.καρκίνος-δέρματος,
     <br>* McshElln.καρκίνος-δέρματος,
@@ -6912,6 +6941,7 @@
     <br>* McshEngl.gag-reflex,
     <br>* McshEngl.over-reactive-gag-reflex,
     <br>* McshEngl.sensitive-gag-reflex,
+    <br>* McshEngl.DssAnxiety'symptom.gagging,
     <a class="clsHide" href="#idDssHmn079symptomgaggingnam"></a></p>
   <p id="idDssHmn079symptomgaggingwpa">addressWpg::
     <br>* http://www.wikihow.com/Suppress-the-Gag-Reflex,
@@ -7651,6 +7681,7 @@
     <br>* McshEngl.disease.anxiety.uncertainty,
     <br>* McshEngl.stress-of-uncertainty,
     <br>* McshEngl.uncertainty-stress,
+    <br>* McshEngl.DssAnxiety.uncertainty-077,
     <a class="clsHide" href="#idDssHmn077nam"></a></p>
 
   <section id="idDssHmn077thrp">
@@ -7711,6 +7742,7 @@
     <br>* McshEngl.disease.post-traymatic-stress-disorder,
     <br>* McshEngl.post-traymatic-stress-disorder,
     <br>* McshEngl.PTSD!=post-traymatic-stress-disorder,
+    <br>* McshEngl.DssAnxiety.Ptsd,
     <a class="clsHide" href="#idDssHmn079Ptsdnam"></a></p>
   <p id="idDssHmn079PtsdP1">therapy::
     <br>Can Playing Video Games Help With PTSD Symptoms?
@@ -8024,6 +8056,7 @@
     <br>* McshEngl.disease.290-body-dysmorphic-disorder!⇒DssBody_dysmorphic,
     <br>* McshEngl.disease.body-dysmorphic-disorder!⇒DssBody_dysmorphic,
     <br>* McshEngl.diseaseMental.body-dysmorphic!⇒DssBody_dysmorphic,
+    <br>* McshEngl.DssMental.body-dysmorphic-290!⇒DssBody_dysmorphic,
     <a class="clsHide" href="#idDssHmn290nam"></a></p>
   </section>
   </section>
@@ -12580,6 +12613,7 @@
     <br>* McshEngl.myalgia-disease!⇒DssMyalgia,
     <br>* McshEngl.muscle-ache!⇒DssMyalgia,
     <br>* McshEngl.muscle-pain!⇒DssMyalgia,
+    <br>* McshEngl.DssMuscle.myalgia-266!⇒DssMyalgia,
     <a class="clsHide" href="#idDssHmn266nam"></a></p>
   </section>
 
@@ -12596,6 +12630,7 @@
     <br>* McshEngl.disease.muscle-atrophy-196,
     <br>* McshEngl.DssMuscle_atrophy,
     <br>* McshEngl.muscle-atrophy, {2012-07-31},
+    <br>* McshEngl.DssMuscle.muscle-atrophy-196,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ατροφία-μυός,
     <br>* McshElln.ατροφία-μυός,
@@ -12636,6 +12671,7 @@
     <br>* McshEngl.disease.cramp-135,
     <br>* McshEngl.DssCramp,
     <br>* McshEngl.cramp,
+    <br>* McshEngl.DssMuscle.cramp-135,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.κράμπα,
     <br>* McshElln.κράμπα,
@@ -13423,6 +13459,7 @@
     <br>* McshEngl.disease.migraine-085,
     <br>* McshEngl.DssMigraine,
     <br>* McshEngl.migraine,
+    <br>* McshEngl.FctgPainingHead.migraine-085,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ημικρανία,
     <br>* McshElln.ημικρανία,
@@ -13463,6 +13500,7 @@
     <br>* McshEngl.disease.086-headache.tension,
     <br>* McshEngl.disease.headache.tension-086,
     <br>* McshEngl.headache.tension-086,
+    <br>* McshEngl.FctgPainingHead.tension-headache-086,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.πονοκέφαλος-έντασης,
     <a class="clsHide" href="#idDssHmn086nam"></a></p>
@@ -13481,6 +13519,7 @@
     <br>* McshEngl.disease.087-headache.cumulative,
     <br>* McshEngl.disease.headache.cumulative-087,
     <br>* McshEngl.headache.cumulative-087,
+    <br>* McshEngl.FctgPainingHead.cumulative-headache-087,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.πονοκέφαλος-σωρευτικός,
     <a class="clsHide" href="#idDssHmn087nam"></a></p>
@@ -13696,6 +13735,7 @@
     <a class="clsHide" href="#idDssHmn142causeriskfactordsn"></a></p>
   <p id="idDssHmn142causeriskfactornam">name::
     <br>* McshEngl.DssBronchiolitis'risk-factor,
+    <br>* McshEngl.DssBronchiolitis'cause'risk-factor!⇒DssBronchiolitis'risk-factor,
     <a class="clsHide" href="#idDssHmn142causeriskfactornam"></a></p>
   </section>
   </section>
@@ -14097,7 +14137,8 @@
   <p id="idDssHmn151symptomnam">name::
     <br>* McshEngl.DssStroke'symptom,
     <a class="clsHide" href="#idDssHmn151symptomnam"></a></p>
-  <p id="idDssHmn151symptomP1"><a class="clsPreview" href="#idDssHmn001F">symptom</a>::
+  <p id="idDssHmn151symptomP1">symptom::
+    <br>× generic: <a class="clsPreview" href="#idDssHmn001F">symptom</a>
     <br>ένας νευρολόγος λέει ότι, εφόσον ένα εγκεφαλικό επεισόδιο μέσα σε 3 ώρες τύχει νοσηλείας, μπορεί να αντιστραφεί πλήρως από τις επιπτώσεις του εγκεφαλικού επεισοδίου...
     <br>αναγνωριζοντας εγκεφαλικό επεισόδιο να θυμηθούμε τα ’3 ‘βήματα, S T R . διαβάστε και μάθετε!
     <br>S (smile)* ζητήστε από το άτομο να χαμογελάσει.
@@ -14563,6 +14604,7 @@
     <br>* McshEngl.disease.093-gastritis!⇒disease.gastritis,
     <br>* McshEngl.disease.gastritis-093!⇒disease.gastritis,
     <br>* McshEngl.gastritis-disease-093!⇒disease.gastritis,
+    <br>* McshEngl.disease.stomack.gastritis-093!⇒disease.gastritis,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.γαστρίτιδα!=disease.gastritis,
     <a class="clsHide" href="#idDssHmn093nam"></a></p>
@@ -14627,6 +14669,7 @@
     <br>* McshEngl.disease.094-heartburn!⇒disease.heartburn,
     <br>* McshEngl.disease.heartburn-094!⇒disease.heartburn,
     <br>* McshEngl.heartburn-disease-094!⇒disease.heartburn,
+    <br>* McshEngl.disease.stomack.heartburn!⇒disease.heartburn,
     <br>====== lagoGreek:
     <br>* McshElln.καούρα-στο-στομάχι!=disease.heartburn,
     <br>* McshElln.πάθηση.καούρα-στο-στομάχι!=disease.heartburn,
@@ -14668,6 +14711,7 @@
     <br>* McshEngl.disease.095-stomach-pain!⇒stomach_pain,
     <br>* McshEngl.disease.stomach-pain-095!⇒stomach_pain,
     <br>* McshEngl.stomach-pain-095!⇒stomach_pain,
+    <br>* McshEngl.disease.stomack.stomach-pain-095!⇒stomach_pain,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.στομαχιού-πόνος!=stomach_pain,
     <a class="clsHide" href="#idDssHmn095nam"></a></p>
@@ -15871,6 +15915,7 @@
     <br>* McshEngl.disease.hormone-deficiency-034,
     <br>* McshEngl.hormoneHmn-deficiency-disease-034,
     <br>* McshEngl.hypohormonism-034,
+    <br>* McshEngl.DssHormone.deficiency,
     <a class="clsHide" href="#idDssHmn034nam"></a></p>
   </section>
 
@@ -15886,6 +15931,7 @@
     <br>* McshEngl.disease.hormone-excess-038,
     <br>* McshEngl.hormoneHmn-excess-disease-038,
     <br>* McshEngl.hyperhormonism-038,
+    <br>* McshEngl.DssHormone.excess,
     <a class="clsHide" href="#idDssHmn038nam"></a></p>
   </section>
 
@@ -15900,6 +15946,7 @@
     <br>* McshEngl.HrmnAndrogen'disease,
     <br>* McshEngl.disease.040-androgen,
     <br>* McshEngl.disease.androgen-040,
+    <br>* McshEngl.DssHormone'disease,
     <a class="clsHide" href="#idDssHmn040nam"></a></p>
   <p id="idDssHmn040wpa">addressWpg::
     <a class="clsHide" href="#idDssHmn040wpa"></a></p>
@@ -16222,23 +16269,28 @@
   </section>
 
   <section id="idDssHmn026gstr">
-  <h2 id="idDssHmn026gstrH2">GENERIC-SPECIFIC-TREE of nutritional-imbalance
+  <h2 id="idDssHmn026gstrH2">GENERIC-SPECIFIC-TREE of DssNutrient
     </h2>
   <p id="idDssHmn026gstrdsn">description::
     <br>× Mcsh-creation: {2026-05-20}
     <a class="clsHide" href="#idDssHmn026gstrdsn"></a></p>
   <p id="idDssHmn026gstrnam">name::
+    <br>* McshEngl.DssNutrient'generic-specific-tree,
     <br>* McshEngl.nutritional-imbalance'generic-specific-tree,
+    <br>* McshEngl.DssNutrient'specific-generic-tree,
     <br>* McshEngl.nutritional-imbalance'specific-generic-tree,
     <a class="clsHide" href="#idDssHmn026gstrnam"></a></p>
   <p id="idDssHmn026gtr">generic-tree::
+    <br>* McshEngl.DssNutrient-Gntr,
     <br>* McshEngl.nutritional-imbalance-Gntr,
     <br>===
     <br>* <a class="clsPreview" href="#idDssHmn226">DssImbalance</a>,
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idDssHmn026gtr"></a></p>
   <p id="idDssHmn026str">specific-tree::
+    <br>* McshEngl.DssNutrient.specific,
     <br>* McshEngl.nutritional-imbalance.specific,
+    <br>* McshEngl.DssNutrient-Sptr,
     <br>* McshEngl.nutritional-imbalance-Sptr,
     <br>===
     <br>* mineral-imbalance:
@@ -16278,6 +16330,7 @@
     <br>* McshEngl.disese.nutritional-deficiency-028,
     <br>* McshEngl.deficiency.nutritional-028,
     <br>* McshEngl.nutritional-deficiency-028,
+    <br>* McshEngl.DssNutrient.nutritional-deficiency-028,
     <br>====== lagoGreek:
     <br>* McshElln.διαταραχή-διατροφικού-ελλείμματος,
     <a class="clsHide" href="#idDssHmn028nam"></a></p>
@@ -16316,6 +16369,7 @@
     <br>* McshEngl.disease.nutrient-toxicity-029,
     <br>* McshEngl.excess.nutritinal-029,
     <br>* McshEngl.nutrient-toxicity-029,
+    <br>* McshEngl.DssNutrient.nutritional-excess-029,
     <br>====== lagoGreek:
     <br>* McshElln.διαταραχή-διατροφικού-πλεονάσματος,
     <a class="clsHide" href="#idDssHmn029nam"></a></p>
@@ -16335,6 +16389,7 @@
     <br>* McshEngl.disease.222-starvation,
     <br>* McshEngl.disease.starvation-222,
     <br>* McshEngl.starvation-222,
+    <br>* McshEngl.DssNutrient.starvation-222,
     <a class="clsHide" href="#idDssHmn222nam"></a></p>
   </section>
 
@@ -16353,6 +16408,7 @@
     <br>* McshEngl.disease.227-calcium-imbalance,
     <br>* McshEngl.disease.calcium-imbalance-227,
     <br>* McshEngl.calcium-imbalance-227,
+    <br>* McshEngl.DssNutrient.calcium-imbalance-227,
     <a class="clsHide" href="#idDssHmn227nam"></a></p>
   </section>
 
@@ -16369,6 +16425,7 @@
     <br>* McshEngl.disease.228-phosphorus-imbalance,
     <br>* McshEngl.disease.phosphorus-imbalance-228,
     <br>* McshEngl.phosphorus-imbalance-228,
+    <br>* McshEngl.DssNutrient.phosphorus-imbalance-228,
     <a class="clsHide" href="#idDssHmn228nam"></a></p>
   </section>
 
@@ -16383,6 +16440,7 @@
     <br>* McshEngl.disease.229-potassium-imbalance,
     <br>* McshEngl.disease.potassium-imbalance-229,
     <br>* McshEngl.potassium-imbalance-229,
+    <br>* McshEngl.DssNutrient.potassium-imbalance-229,
     <a class="clsHide" href="#idDssHmn229nam"></a></p>
   </section>
 
@@ -16397,6 +16455,7 @@
     <br>* McshEngl.disease.230-sodium-imbalance,
     <br>* McshEngl.disease.sodium-imbalance-230,
     <br>* McshEngl.sodium-imbalance-230,
+    <br>* McshEngl.DssNutrient.sodium-imbalance-230,
     <a class="clsHide" href="#idDssHmn230nam"></a></p>
   </section>
 
@@ -16411,6 +16470,7 @@
     <br>* McshEngl.disease.231-magnesium-imbalance,
     <br>* McshEngl.disease.magnesium-imbalance-231,
     <br>* McshEngl.magnesium-imbalance-231,
+    <br>* McshEngl.DssNutrient.magnesium-imbalance-231,
     <a class="clsHide" href="#idDssHmn231nam"></a></p>
   </section>
 
@@ -16425,6 +16485,7 @@
     <br>* McshEngl.disease.232-sulfur-imbalance,
     <br>* McshEngl.disease.sulfur-imbalance-232,
     <br>* McshEngl.sulfur-imbalance-232,
+    <br>* McshEngl.DssNutrient.sulfur-imbalance-232,
     <a class="clsHide" href="#idDssHmn232nam"></a></p>
   </section>
 
@@ -16439,6 +16500,7 @@
     <br>* McshEngl.disease.233-iron-imbalance,
     <br>* McshEngl.disease.iron-imbalance-233,
     <br>* McshEngl.iron-imbalance-233,
+    <br>* McshEngl.DssNutrient.iron-imbalance-233,
     <a class="clsHide" href="#idDssHmn233nam"></a></p>
 
   <section id="idDssHmn243">
@@ -16490,6 +16552,7 @@
     <br>* McshEngl.disease.234-calcium-imbalance,
     <br>* McshEngl.disease.calcium-imbalance-234,
     <br>* McshEngl.calcium-imbalance-234,
+    <br>* McshEngl.DssNutrient.calcium-imbalance-234,
     <a class="clsHide" href="#idDssHmn234nam"></a></p>
   </section>
 
@@ -16504,6 +16567,7 @@
     <br>* McshEngl.disease.235-chlorine-imbalance,
     <br>* McshEngl.disease.chlorine-imbalance-235,
     <br>* McshEngl.chlorine-imbalance-235,
+    <br>* McshEngl.DssNutrient.chlorine-imbalance-235,
     <a class="clsHide" href="#idDssHmn235nam"></a></p>
   </section>
 
@@ -16518,6 +16582,7 @@
     <br>* McshEngl.disease.236-cobalt-imbalance,
     <br>* McshEngl.disease.cobalt-imbalance-236,
     <br>* McshEngl.cobalt-imbalance-236,
+    <br>* McshEngl.DssNutrient.cobalt-imbalance-236,
     <a class="clsHide" href="#idDssHmn236nam"></a></p>
   </section>
 
@@ -16539,6 +16604,7 @@
     <br>* McshEngl.disease.237-copper-imbalance,
     <br>* McshEngl.disease.copper-imbalance-237,
     <br>* McshEngl.copper-imbalance-237,
+    <br>* McshEngl.DssNutrient.copper-imbalance-237,
     <a class="clsHide" href="#idDssHmn237nam"></a></p>
   </section>
 
@@ -16553,6 +16619,7 @@
     <br>* McshEngl.disease.238-zinc-imbalance,
     <br>* McshEngl.disease.zinc-imbalance-238,
     <br>* McshEngl.zinc-imbalance-238,
+    <br>* McshEngl.DssNutrient.zinc-imbalance-238,
     <a class="clsHide" href="#idDssHmn238nam"></a></p>
   </section>
 
@@ -16569,6 +16636,7 @@
     <br>* McshEngl.disease.239-manganese-imbalance,
     <br>* McshEngl.disease.manganese-imbalance-239,
     <br>* McshEngl.manganese-imbalance-239,
+    <br>* McshEngl.DssNutrient.manganese-imbalance-239,
     <a class="clsHide" href="#idDssHmn239nam"></a></p>
   </section>
 
@@ -16585,6 +16653,7 @@
     <br>* McshEngl.disease.240-molybdenum-imbalance,
     <br>* McshEngl.disease.molybdenum-imbalance-240,
     <br>* McshEngl.molybdenum-imbalance-240,
+    <br>* McshEngl.DssNutrient.molybdenum-imbalance-240,
     <a class="clsHide" href="#idDssHmn240nam"></a></p>
   </section>
 
@@ -16599,6 +16668,7 @@
     <br>* McshEngl.disease.241-iodine-imbalance,
     <br>* McshEngl.disease.iodine-imbalance-241,
     <br>* McshEngl.iodine-imbalance-241,
+    <br>* McshEngl.DssNutrient.iodine-imbalance-241,
     <a class="clsHide" href="#idDssHmn241nam"></a></p>
   </section>
 
@@ -16613,6 +16683,7 @@
     <br>* McshEngl.disease.242-selenium-imbalance,
     <br>* McshEngl.disease.selenium-imbalance-242,
     <br>* McshEngl.selenium-imbalance-242,
+    <br>* McshEngl.DssNutrient.selenium-imbalance-242,
     <a class="clsHide" href="#idDssHmn242nam"></a></p>
   </section>
 
@@ -16627,6 +16698,7 @@
     <br>* McshEngl.disease.253-vitamin,
     <br>* McshEngl.disease.vitamin-253,
     <br>* McshEngl.vitamin'01_disease,
+    <br>* McshEngl.DssNutrient.vitamin-253,
     <a class="clsHide" href="#idDssHmn253nam"></a></p>
   <p id="idDssHmn253str">specific-tree::
     <br>* vitamin-deficiency,
@@ -16647,6 +16719,7 @@
     <br>* McshEngl.disease.vitamin-deficiency-172,
     <br>* McshEngl.DssVitaminDeficiency,
     <br>* McshEngl.vitamin-deficiency,
+    <br>* McshEngl.DssNutrient.vitamin-deficiency-172,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.αβιταμίνωση,
     <br>* McshElln.αβιταμίνωση,
@@ -16693,6 +16766,7 @@
     <br>* McshEngl.disease.245-vitamin-excess,
     <br>* McshEngl.disease.vitamin-excess-245,
     <br>* McshEngl.hypervitaminosis,
+    <br>* McshEngl.DssNutrient.vitamin-excess-245,
     <a class="clsHide" href="#idDssHmn245nam"></a></p>
   </section>
   </section>
@@ -17317,6 +17391,7 @@
     <br>* McshEngl.disease.269-laryngitis!⇒DssLaryngitis,
     <br>* McshEngl.disease.laryngitis!⇒DssLaryngitis,
     <br>* McshEngl.laryngitis!⇒DssLaryngitis,
+    <br>* McshEngl.DssOgnLarynx.laryngitis-269!⇒DssLaryngitis,
     <a class="clsHide" href="#idDssHmn269nam"></a></p>
   </section>
   </section>
@@ -17460,6 +17535,7 @@
     <br>[{2023-07-11 retrieved} https://algologia.org/pdf/Main/2020-12-09.pdf]
     <a class="clsHide" href="#idDssHmn283EEAdsn"></a></p>
   <p id="idDssHmn283EEAnam">name::
+    <br>* McshEngl.DssFctPaining'Ελληνική-Εταιρεία-Αλγολογίας-ΕΕΑ,
     <br>====== lagoGreek:
     <br>* McshElln.ΕΕΑ-Ελληνική-Εταιρεία-Αλγολογίας,
     <br>* McshElln.Ελληνική-Εταιρεία-Αλγολογίας,
@@ -17494,6 +17570,7 @@
     <br>* McshEngl.chronic-pain!⇒DssFctPainingChronic,
     <br>* McshEngl.disease.283-pain.chronic!⇒DssFctPainingChronic,
     <br>* McshEngl.disease.pain.chronic!⇒DssFctPainingChronic,
+    <br>* McshEngl.DssFctPaining.chronic!⇒DssFctPainingChronic,
     <br>====== lagoGreek:
     <br>* McshElln.χρόνιος-πόνος!=DssFctPainingChronic,
     <a class="clsHide" href="#idDssHmn283nam"></a></p>
@@ -17620,6 +17697,7 @@
     <br>* McshEngl.DssSuicide,
     <br>* McshEngl.disease.282-suicide!⇒DssSuicide,
     <br>* McshEngl.disease.suicide!⇒DssSuicide,
+    <br>* McshEngl.DssDeath.suicide-282!⇒DssSuicide,
     <br>====== lagoChinese:
     <br>* McshZhon.zìshā-自杀!=DssSuicide,
     <br>* McshZhon.自杀-zìshā!=DssSuicide,

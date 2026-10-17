@@ -145,6 +145,12 @@
   <section id="idEthatt">
   <h1 id="idEthattH1">attribute of AgntEthr
     </h1>
+  <p id="idEthattdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthattdsn"></a></p>
+  <p id="idEthattnam">name::
+    <br>* McshEngl.AgntEthr'attribute,
+    <a class="clsHide" href="#idEthattnam"></a></p>
   <p id="idEthattP1">External Actor::
     <br>A person or other entity able to interface to an Ethereum node, but external to the world of Ethereum.
     <br>It can interact with Ethereum through depositing signed Transactions and inspecting the blockchain and associated state.
@@ -1435,6 +1441,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthnodAggdsn"></a></p>
   <p id="idEthnodAggnam">name::
     <br>* McshEngl.DnEth-node.aggregate,
+    <br>* McshEngl.AgntEthr_node.AGGREGATE!⇒DnEth-node.aggregate,
     <a class="clsHide" href="#idEthnodAggnam"></a></p>
   <div id="idEthnodAggP1">
     <p>{2017-03-16},
@@ -1503,6 +1510,7 @@ def send(to, value):
   <p id="idEthnodFllnam">name::
     <br>* McshEngl.AgntEthr'full-node,
     <br>* McshEngl.DnEth-node.full,
+    <br>* McshEngl.AgntEthr_node.FULL,
     <a class="clsHide" href="#idEthnodFllnam"></a></p>
   </section>
 
@@ -1522,6 +1530,7 @@ def send(to, value):
   <p id="idEthnodMnrnam">name::
     <br>* McshEngl.DnEth-node.miner,
     <br>* McshEngl.DnEth-miner-node,
+    <br>* McshEngl.AgntEthr_node.MINER,
     <a class="clsHide" href="#idEthnodMnrnam"></a></p>
 
   <section id="idEthnodMnrhdw">
@@ -1658,6 +1667,7 @@ def send(to, value):
   <p id="idEthblkhdrnam">name::
     <br>* McshEngl.DnEth-block'header,
     <br>* McshEngl.DnEth-block'H-(Ethereu-block-header),
+    <br>* McshEngl.AgntEthr_block.Header,
     <a class="clsHide" href="#idEthblkhdrnam"></a></p>
 
   <section id="idEthblkhdrp">
@@ -1947,6 +1957,7 @@ def send(to, value):
   <p id="idEthblktxnam">name::
     <br>* McshEngl.DnEth-block'transaction-list,
     <br>* McshEngl.DnEth-block'T-(Ethereu-block-transaction-list),
+    <br>* McshEngl.AgntEthr_block.Transaction-list,
     <a class="clsHide" href="#idEthblktxnam"></a></p>
   </section>
 
@@ -1962,6 +1973,7 @@ def send(to, value):
   <p id="idEthblkomrltnam">name::
     <br>* McshEngl.DnEth-block'ommer-list,
     <br>* McshEngl.DnEth-block'U-(Ethereu-block-ommer-list),
+    <br>* McshEngl.AgntEthr_block.Ommer-list,
     <a class="clsHide" href="#idEthblkomrltnam"></a></p>
 
   <section id="idEthblkomrltorhh">
@@ -2188,6 +2200,7 @@ def send(to, value):
     <br>* McshEngl.DnEth-block.first,
     <br>* McshEngl.DnEth-block.genesis,
     <br>* McshEngl.AgntEthr'genesis-block,
+    <br>* McshEngl.AgntEthr_block.GENESIS,
     <a class="clsHide" href="#idEthblkGnsnam"></a></p>
   <p id="idEthblkGnswpa">addressWpg::
     <br>* BlockH0 <a href="https://etherscan.io/block/0">https://etherscan.io/block/0</a>,
@@ -2205,6 +2218,7 @@ def send(to, value):
     <br>* McshEngl.AgntEthr'best-block,
     <br>* McshEngl.AgntEthr'last-block,
     <br>* McshEngl.DnEth-block.last,
+    <br>* McshEngl.AgntEthr_block.LAST,
     <a class="clsHide" href="#idEthblkLstnam"></a></p>
   </section>
 
@@ -2222,6 +2236,7 @@ def send(to, value):
   <p id="idEthblkUnclnam">name::
     <br>* McshEngl.DnEth-block.uncle,
     <br>* McshEngl.AgntEthr'uncle,
+    <br>* McshEngl.AgntEthr_block.UNCLE,
     <a class="clsHide" href="#idEthblkUnclnam"></a></p>
   </section>
 
@@ -2233,6 +2248,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthblkPrntdsn"></a></p>
   <p id="idEthblkPrntnam">name::
     <br>* McshEngl.DnEth-block.parent,
+    <br>* McshEngl.AgntEthr_block.PARENT!⇒DnEth-block.parent,
     <a class="clsHide" href="#idEthblkPrntnam"></a></p>
   </section>
 
@@ -2244,6 +2260,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthblkActrdsn"></a></p>
   <p id="idEthblkActrnam">name::
     <br>* McshEngl.DnEth-block.ancestor,
+    <br>* McshEngl.AgntEthr_block.ANCESTOR!⇒DnEth-block.ancestor,
     <a class="clsHide" href="#idEthblkActrnam"></a></p>
   </section>
   </section>
@@ -2333,6 +2350,7 @@ def send(to, value):
     <br>* McshEngl.DnEth-blockchain'proof-of-authority,
     <br>* McshEngl.AgntEthr'proof-of-authority,
     <br>* McshEngl.proof-of-authority-of--Ethereum-net,
+    <br>* McshEngl.Ethrcalg.Proof-of-Authority,
     <a class="clsHide" href="#idEthpoanam"></a></p>
   </section>
   </section>
@@ -2439,6 +2457,7 @@ def send(to, value):
   <p id="idEthtxnnam">name::
     <br>* McshEngl.DnEth-tx'nonce,
     <br>* McshEngl.DnEth-tx'Tn,
+    <br>* McshEngl.AgntEthr_tx.nonce,
     <a class="clsHide" href="#idEthtxnnam"></a></p>
   </section>
 
@@ -2453,6 +2472,7 @@ def send(to, value):
   <p id="idEthtxpnam">name::
     <br>* McshEngl.DnEth-tx'gasPrice,
     <br>* McshEngl.DnEth-tx'Tp,
+    <br>* McshEngl.AgntEthr_tx.gasPrice,
     <a class="clsHide" href="#idEthtxpnam"></a></p>
   </section>
 
@@ -2782,6 +2802,7 @@ def send(to, value):
     <br>* McshEngl.AgntEthr'message-call-transaction,
     <br>* McshEngl.DnEth-tx.message-call,
     <br>* McshEngl.DnEth-tx.Mc,
+    <br>* McshEngl.AgntEthr_tx.MESSAGE-CALL,
     <a class="clsHide" href="#idEthtxMcnam"></a></p>
 
   <section id="idEthtxMcdat">
@@ -2866,6 +2887,7 @@ def send(to, value):
     <br>* McshEngl.DnEth-tx.contract-acount-creation,
     <br>* McshEngl.DnEth-tx.contract-creating-transaction,
     <br>* McshEngl.DnEth-tx.Cac,
+    <br>* McshEngl.AgntEthr_tx.CONTRACT-ACOUNT-CREATION,
     <a class="clsHide" href="#idEthtxCacnam"></a></p>
 
   <section id="idEthtxCaci">
@@ -2895,6 +2917,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthtxGnsdsn"></a></p>
   <p id="idEthtxGnsnam">name::
     <br>* McshEngl.DnEth-tx.genesis,
+    <br>* McshEngl.AgntEthr_tx.GENESIS!⇒DnEth-tx.genesis,
     <a class="clsHide" href="#idEthtxGnsnam"></a></p>
   </section>
   </section>
@@ -3198,6 +3221,12 @@ def send(to, value):
   <section id="idEthacttxIn">
   <h3 id="idEthacttxInH3">Deth-account'transaction.IN
     </h3>
+  <p id="idEthacttxIndsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthacttxIndsn"></a></p>
+  <p id="idEthacttxInnam">name::
+    <br>* McshEngl.Deth-account'transaction.IN,
+    <a class="clsHide" href="#idEthacttxInnam"></a></p>
   <p id="idEthacttxInP1">Transaction Information
     <br>TxHash:&nbsp; &nbsp; 0x01406301bd25b21c16d6a2a47dbbc64f1cb9231f5b26c3a084ad2161c34a2a69
     <br>Block Height:&nbsp; &nbsp; 2757949 (526943 block confirmations)
@@ -3218,6 +3247,12 @@ def send(to, value):
   <section id="idEthacttxOut">
   <h3 id="idEthacttxOutH3">Deth-account'transaction.OUT
     </h3>
+  <p id="idEthacttxOutdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthacttxOutdsn"></a></p>
+  <p id="idEthacttxOutnam">name::
+    <br>* McshEngl.Deth-account'transaction.OUT,
+    <a class="clsHide" href="#idEthacttxOutnam"></a></p>
   <p id="idEthacttxOutP1">Transaction Information
     <br>TxHash:&nbsp; &nbsp; 0x7fdc591cd1a4e97e0623cded49cda5222714b7e321ecdae137a79fd38f618a28
     <br>Block Height:&nbsp; &nbsp; 2813266 (471621 block confirmations)
@@ -3342,6 +3377,7 @@ def send(to, value):
     <br>* McshEngl.DnEth-account.contract!⇒AgntEthr_contract_account,
     <br>* McshEngl.DcontractEth-account!⇒AgntEthr_contract_account, {2019-03-28},
     <br>* McshEngl.AgntEthr'contract-account!⇒AgntEthr_contract_account,
+    <br>* McshEngl.AgntEthr_account.CONTRACT!⇒AgntEthr_contract_account,
     <a class="clsHide" href="#idEthctanam"></a></p>
 
   <section id="idEthctaads">
@@ -3488,6 +3524,7 @@ def send(to, value):
     <br>* McshEngl.DnEth-non-contract-account!⇒AgntEthr_normal_account,
     <br>* McshEngl.DnEth-normal-account!⇒AgntEthr_normal_account, {2019-03-28},
     <br>* McshEngl.DnEth-private-key-account!⇒AgntEthr_normal_account,
+    <br>* McshEngl.AgntEthr_account.NORMAL!⇒AgntEthr_normal_account,
     <a class="clsHide" href="#idEthactNmlnam"></a></p>
 
   <section id="idEthnlaads">
@@ -3585,6 +3622,7 @@ def send(to, value):
     <br>* McshEngl.AgntEthr'etherbase,
     <br>* McshEngl.DnEth-normal-account.coinbase,
     <br>* McshEngl.DnEth-normal-account.etherbase,
+    <br>* McshEngl.AgntEthr_normal_account.COINBASE,
     <a class="clsHide" href="#idEthnlaCnbsnam"></a></p>
   </section>
   </section>
@@ -3599,6 +3637,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthactZerdsn"></a></p>
   <p id="idEthactZernam">name::
     <br>* McshEngl.DnEth-account.zero,
+    <br>* McshEngl.AgntEthr_account.ZERO!⇒DnEth-account.zero,
     <a class="clsHide" href="#idEthactZernam"></a></p>
   </section>
 
@@ -3613,6 +3652,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthactEmptdsn"></a></p>
   <p id="idEthactEmptnam">name::
     <br>* McshEngl.DnEth-account.empty,
+    <br>* McshEngl.AgntEthr_account.EMPTY!⇒DnEth-account.empty,
     <a class="clsHide" href="#idEthactEmptnam"></a></p>
   </section>
   </section>
@@ -3806,13 +3846,11 @@ def send(to, value):
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000016.last.html#idDbcevuC">Consensous-exchange-value-unit</a>,
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idEthevuCgtr"></a></p>
-  <p id="idEthevuCstr">specific-tree::
+  <div id="idEthevuCstr">
+    <p>specific-tree::
     <br>* McshEngl.DvETH.specific,
     <br>* McshEngl.DvETH-Sptr,
-    <br>===
-    <a class="clsHide" href="#idEthevuCstr"></a></p>
-  <div id="idEthevuCSpcP1">
-    <p>Denominations
+    <br>=== Denominations
     <br>Ethereum has a metric system of denominations used as <strong>units of ether</strong>.
     <br>Each denomination has its own unique name (some bear the family name of seminal figures playing a role in evolution of computer science and cryptoeconomics).
     <br>The smallest denomination aka base unit of ether is called Wei.
@@ -3854,9 +3892,9 @@ def send(to, value):
     <td>1e18 wei
     <td>1,000,000,000,000,000,000
     </table>
-  <p class="clsIndent">[<a href="http://ethdocs.org/en/latest/ether.html?highlight=wei#denominations">http://ethdocs.org/en/latest/ether.html?highlight=wei#denominations</a>]
+    <p class="clsIndent">[<a href="http://ethdocs.org/en/latest/ether.html?highlight=wei#denominations">http://ethdocs.org/en/latest/ether.html?highlight=wei#denominations</a>]
     </p>
-    <a class="clsHide" href="#idEthevuCSpcP1"></a></div>
+    <a class="clsHide" href="#idEthevuCstr"></a></div>
 
   <section id="idEthevuCWei">
   <h4 id="idEthevuCWeiH4">DvETH.Wei (1/10^18 ETH)
@@ -4143,6 +4181,12 @@ def send(to, value):
   <section id="idEthevuCNAgg">
   <h3 id="idEthevuCNAggH3">EthrassetCN.AGGREGATE
     </h3>
+  <p id="idEthevuCNAggdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthevuCNAggdsn"></a></p>
+  <p id="idEthevuCNAggnam">name::
+    <br>* McshEngl.EthrassetCN.AGGREGATE,
+    <a class="clsHide" href="#idEthevuCNAggnam"></a></p>
 
   <section id="idEthevuCNMtcp">
   <h4 id="idEthevuCNMtcpH4">EthrassetCN.Market-cap
@@ -4173,6 +4217,7 @@ def send(to, value):
     <br>* McshEngl.ERC20-token-of-ethereun,
     <br>* McshEngl.AgntEthr'TokenERC20,
     <br>* McshEngl.TokenERC20-of-ethereum,
+    <br>* McshEngl.EthrassetCN.TokenERC20,
     <a class="clsHide" href="#idEthevuCNErc20nam"></a></p>
   </section>
 
@@ -4232,6 +4277,7 @@ def send(to, value):
     <br>* McshEngl.DGX-money,
     <br>* McshEngl.Digix-Gold-token,
     <br>* McshEngl.Digix-token,
+    <br>* McshEngl.EthrassetCN.DGX,
     <a class="clsHide" href="#idEthDGXnam"></a></p>
   <p id="idEthDGXwpa">addressWpg::
     <br>* <a href="https://etherscan.io/address/0x55b9a11c2e8351b4ffc7b11561148bfac9977855">https://etherscan.io/address/0x55b9a11c2e8351b4ffc7b11561148bfac9977855</a>,
@@ -4253,6 +4299,7 @@ def send(to, value):
     <br>* McshEngl.Mineueum-MNE-token,
     <br>* McshEngl.MNE-ethereum-token,
     <br>* McshEngl.MNE-Minereum-token,
+    <br>* McshEngl.EthrassetCN.Minereum-MNE,
     <a class="clsHide" href="#idEthMNEnam"></a></p>
   <p id="idEthMNEwpa">addressWpg::
     <br>* {2017-04-13} Announcement: <a href="https://bitcointalk.org/index.php?topic=1867535.0">https://bitcointalk.org/</a>,
@@ -4293,6 +4340,7 @@ def send(to, value):
   <p id="idRepevunam">name::
     <br>* McshEngl.Augur-REP-of-Ethereum,
     <br>* McshEngl.REP-Augur--Ethereum-token,
+    <br>* McshEngl.EthrassetCN.Augur-REP,
     <a class="clsHide" href="#idRepevunam"></a></p>
   <p id="idRepevuwpa">addressWpg::
     <br>* <a href="https://www.augur.net/">https://www.augur.net</a>/
@@ -4520,6 +4568,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthapiEthplrdsn"></a></p>
   <p id="idEthapiEthplrnam">name::
     <br>* McshEngl.DnEth-program'API.Ethplorer,
+    <br>* McshEngl.AgntEthr_program.Ethplorer!⇒DnEth-program'API.Ethplorer,
     <a class="clsHide" href="#idEthapiEthplrnam"></a></p>
   <p id="idEthapiEthplrwpa">addressWpg::
     <br>* docs: https://github.com/EverexIO/Ethplorer/wiki/ethplorer-api,
@@ -4552,6 +4601,7 @@ def send(to, value):
     <br>* McshEngl.AgntEthr'Javascript-API!⇒web3.js,
     <br>* McshEngl.AgntEthr'API.Javascript!⇒web3.js,
     <br>* McshEngl.Ethereum-Javascript-API!⇒web3.js,
+    <br>* McshEngl.AgntEthr_program.javascript!⇒web3.js,
     <a class="clsHide" href="#idEthapiJsnam"></a></p>
 
   <section id="idEthapiJsow3">
@@ -4562,6 +4612,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthapiJsow3dsn"></a></p>
   <p id="idEthapiJsow3nam">name::
     <br>* McshEngl.web3.js'oWeb3,
+    <br>* McshEngl.web3.js.js'oWeb3!⇒web3.js'oWeb3,
     <a class="clsHide" href="#idEthapiJsow3nam"></a></p>
   <p id="idEthapiJsow3P1">API::
     <br>// MetaMask - injected web3
@@ -4636,6 +4687,12 @@ def send(to, value):
   <section id="idEthapiJsow3Eth">
   <h3 id="idEthapiJsow3EthH3">web3.js'oWeb3.eth
     </h3>
+  <p id="idEthapiJsow3Ethdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthapiJsow3Ethdsn"></a></p>
+  <p id="idEthapiJsow3Ethnam">name::
+    <br>* McshEngl.web3.js'oWeb3.eth,
+    <a class="clsHide" href="#idEthapiJsow3Ethnam"></a></p>
   <p id="idEthapiJsow3EthP1">API::
     <br>$ Object.getOwnPropertyNames(oWeb3.eth).sort()
     <br>[ '_requestManager',
@@ -4683,6 +4740,12 @@ def send(to, value):
   <section id="idEthapiJsow3Psl">
   <h3 id="idEthapiJsow3PslH3">web3.js'oWeb3.personal
     </h3>
+  <p id="idEthapiJsow3Psldsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthapiJsow3Psldsn"></a></p>
+  <p id="idEthapiJsow3Pslnam">name::
+    <br>* McshEngl.web3.js'oWeb3.personal,
+    <a class="clsHide" href="#idEthapiJsow3Pslnam"></a></p>
   <p id="idEthapiJsow3PslP1">API::
     <br>$ Object.getOwnPropertyNames(oWeb3.personal).sort()
     <br>[ '_requestManager',
@@ -4698,6 +4761,12 @@ def send(to, value):
   <section id="idEthapiJsow3Vsn">
   <h3 id="idEthapiJsow3VsnH3">web3.js'oWeb3.version
     </h3>
+  <p id="idEthapiJsow3Vsndsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthapiJsow3Vsndsn"></a></p>
+  <p id="idEthapiJsow3Vsnnam">name::
+    <br>* McshEngl.web3.js'oWeb3.version,
+    <a class="clsHide" href="#idEthapiJsow3Vsnnam"></a></p>
   <p id="idEthapiJsow3VsnP1">API::
     <br>$ Object.getOwnPropertyNames(oWeb3.version).sort()
     <br>[ 'api',
@@ -4723,6 +4792,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthapiJstxdsn"></a></p>
   <p id="idEthapiJstxnam">name::
     <br>* McshEngl.web3.js'transaction-object,
+    <br>* McshEngl.web3.js.js'transaction!⇒web3.js'transaction-object,
     <a class="clsHide" href="#idEthapiJstxnam"></a></p>
   <p id="idEthapiJstxP1">A transaction object looks like this::
     <br>{
@@ -4755,6 +4825,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthapiJsirscdsn"></a></p>
   <p id="idEthapiJsrscnam">name::
     <br>* McshEngl.web3.js'info-resource,
+    <br>* McshEngl.web3.js.js'resource!⇒web3.js'info-resource,
     <a class="clsHide" href="#idEthapiJsrscnam"></a></p>
   </section>
   </section>
@@ -4804,6 +4875,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthpgmMixdsn"></a></p>
   <p id="idEthpgmMixnam">name::
     <br>* McshEngl.DnEth-program.Mix,
+    <br>* McshEngl.AgntEthr_program.Mix!⇒DnEth-program.Mix,
     <a class="clsHide" href="#idEthpgmMixnam"></a></p>
   </section>
 
@@ -4820,6 +4892,7 @@ def send(to, value):
     <br>* McshEngl.Ethereum-package-registry),
     <br>* McshEngl.DnEth-program.Ethpm,
     <br>* McshEngl.DnEth-program.package-registry,
+    <br>* McshEngl.AgntEthr_program.Ethpm,
     <a class="clsHide" href="#idEthpgmPmnam"></a></p>
 
   <section id="idEthpgmPmrsc">
@@ -4865,6 +4938,7 @@ def send(to, value):
     <br>* McshEngl.EVM!=Ethereum-Vitrual-Machine!⇒Algoethrvm,
     <br>* McshEngl.Ethereum-EVM!⇒Algoethrvm,
     <br>* McshEngl.Ethereum-VM!⇒Algoethrvm,
+    <br>* McshEngl.AgntEthr_program.EVM!⇒Algoethrvm,
     <a class="clsHide" href="#idEthevmnam"></a></p>
   <p id="idEthevmP1">whole-tree::
     <br>Ethereum enables this complexity by <strong>placing a virtual machine (called the Ethereum Virtual Machine, or EVM) in every node on the network</strong>.
@@ -5042,6 +5116,7 @@ def send(to, value):
     <br>* McshEngl.Algoethrvm'bytecode,
     <br>* McshEngl.EVM-bytecode,
     <br>* McshEngl.bytecode-of-Evm,
+    <br>* McshEngl.Algoethrvm'code.BYTECODE,
     <a class="clsHide" href="#idEthevmbtcdnam"></a></p>
   </section>
 
@@ -5408,6 +5483,7 @@ def send(to, value):
     <br>* McshEngl.AgntEthr'client!⇒Ethereum_client,
     <br>* McshEngl.AgntEthr'browser!⇒Ethereum_client,
     <br>* McshEngl.DnEth-program.client!⇒Ethereum_client,
+    <br>* McshEngl.AgntEthr_program.CLIENT!⇒Ethereum_client,
     <a class="clsHide" href="#idEthclntnam"></a></p>
 
   <section id="idEthclntgstr">
@@ -5468,6 +5544,7 @@ def send(to, value):
     <br>* McshEngl.DnEth-program.geth,
     <br>* McshEngl.geth-of-Ethereum,
     <br>* McshEngl.Go-ethereum-client,
+    <br>* McshEngl.AgntEthr_program.GO-ETHEREUM,
     <a class="clsHide" href="#idEthgthnam"></a></p>
 
   <section id="idEthgthsnps">
@@ -5660,6 +5737,7 @@ def send(to, value):
   <p id="idEthmmknam">name::
     <br>* McshEngl.DnEth-program.MetaMask,
     <br>* McshEngl.MetaMask-Ethereum-client,
+    <br>* McshEngl.AgntEthr_program.METAMASK,
     <a class="clsHide" href="#idEthmmknam"></a></p>
 
   <section id="idEthmmkrsc">
@@ -5698,6 +5776,7 @@ def send(to, value):
     <br>* McshEngl.DnEth-program.testrpc,
     <br>* McshEngl.Ethereum-testrpc,
     <br>* McshEngl.testrpc-Ethereum-simulator,
+    <br>* McshEngl.AgntEthr_program.TESTRPC,
     <a class="clsHide" href="#idEthtrpcnam"></a></p>
 
   <section id="idEthtrpcrsc">
@@ -5740,6 +5819,7 @@ def send(to, value):
     <br>* McshEngl.Ethereum-client.Mist,
     <br>* McshEngl.DnEth-program.Mist,
     <br>* McshEngl.Mist-browser,
+    <br>* McshEngl.AgntEthr_program.Mist-client,
     <a class="clsHide" href="#idEthmstnam"></a></p>
 
   <section id="idEthmstapi">
@@ -5849,6 +5929,7 @@ def send(to, value):
     <br>* McshEngl.Ethereum-Parity,
     <br>* McshEngl.DnEth-program.Parity,
     <br>* McshEngl.Parity-Ethereum,
+    <br>* McshEngl.AgntEthr_program.Parity-client,
     <a class="clsHide" href="#idEthclntPrtnam"></a></p>
 
   <section id="idEthpritsvr">
@@ -6009,6 +6090,7 @@ def send(to, value):
   <p id="idEthtknbsrnam">name::
     <br>* McshEngl.Ethereum-client.Token,
     <br>* McshEngl.DnEth-program.Token-client,
+    <br>* McshEngl.AgntEthr_program.Token-client,
     <a class="clsHide" href="#idEthtknbsrnam"></a></p>
 
   <section id="idEthtknbsrrsc">
@@ -6049,6 +6131,7 @@ def send(to, value):
     <br>* McshEngl.AgntEthr'Truffle-tool,
     <br>* McshEngl.DnEth-program.Truffle-tool,
     <br>* McshEngl.Truffle-ethereum-tool,
+    <br>* McshEngl.AgntEthr_program.TRUFFLE,
     <a class="clsHide" href="#idEthtflnam"></a></p>
 
   <section id="idEthtflsnps">
@@ -6348,6 +6431,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthpgmMngdsn"></a></p>
   <p id="idEthpgmMngnam">name::
     <br>* McshEngl.DnEth-program.mining,
+    <br>* McshEngl.AgntEthr_program.MINING!⇒DnEth-program.mining,
     <a class="clsHide" href="#idEthpgmMngnam"></a></p>
 
   <section id="idEthminer">
@@ -6372,6 +6456,7 @@ def send(to, value):
     <br>* McshEngl.Ethereum-miner-program,
     <br>* McshEngl.Ethereum-miner-genoil,
     <br>* McshEngl.Genoil's-CUDA-miner,
+    <br>* McshEngl.DnEth-program.mining.Ethminer,
     <a class="clsHide" href="#idEthminernam"></a></p>
   </section>
 
@@ -6385,6 +6470,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthsgmnrdsn"></a></p>
   <p id="idEthsgmnrnam">name::
     <br>* McshEngl.Sgminer,
+    <br>* McshEngl.DnEth-program.mining.sgminer!⇒Sgminer,
     <a class="clsHide" href="#idEthsgmnrnam"></a></p>
   </section>
   </section>
@@ -6481,6 +6567,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthdapebkdsn"></a></p>
   <p id="idEthdapebknam">name::
     <br>* McshEngl.Embark--Eth-Dapp-tool,
+    <br>* McshEngl.DappEth.EMBARK!⇒Embark--Eth-Dapp-tool,
     <a class="clsHide" href="#idEthdapebknam"></a></p>
 
   <section id="idEthdapebkstcr">
@@ -6692,6 +6779,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthkncdsn"></a></p>
   <p id="idEthkncnam">name::
     <br>* McshEngl.KyberNetwork,
+    <br>* McshEngl.DappEth.KyberNetwork!⇒KyberNetwork,
     <a class="clsHide" href="#idEthkncnam"></a></p>
   <p id="idEthkncwpa">addressWpg::
     <br>* {2018-01-19} New Strategic Partnership Announcement: Kyber Network + ICON: <a href="https://blog.kyber.network/new-strategic-partnership-announcement-kyber-network-icon-78bd0f572820">https://blog.kyber.network/</a>,
@@ -6730,6 +6818,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthPlutusdsn"></a></p>
   <p id="idEthPlutusnam">name::
     <br>* McshEngl.Plutus.it,
+    <br>* McshEngl.DappEth.Plutus!⇒Plutus.it,
     <a class="clsHide" href="#idEthPlutusnam"></a></p>
   </section>
 
@@ -6746,6 +6835,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthSwarmdsn"></a></p>
   <p id="idEthSwarmnam">name::
     <br>* McshEngl.Swarm-ethdap,
+    <br>* McshEngl.DappEth.Swarm!⇒Swarm-ethdap,
     <a class="clsHide" href="#idEthSwarmnam"></a></p>
   </section>
 
@@ -6763,6 +6853,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthdapWiFniodsn"></a></p>
   <p id="idEthdapWiFnionam">name::
     <br>* McshEngl.WeiFund-dApp,
+    <br>* McshEngl.DappEth.WeiFund.io!⇒WeiFund-dApp,
     <a class="clsHide" href="#idEthdapWiFnionam"></a></p>
   </section>
   </section>
@@ -7143,6 +7234,7 @@ def send(to, value):
     <br>* McshEngl.ethsol!⇒Solx_lago,
     <br>* McshEngl.lagSol!⇒Solx_lago, {2019-03-29},
     <br>* McshEngl.langSol!⇒Solx_lago, {2019-03-29},
+    <br>* McshEngl.DcontractEth.SOLIDITY!⇒Solx_lago,
     <a class="clsHide" href="#idEthsolnam"></a></p>
 
   <section id="idEthsolarc">
@@ -7211,6 +7303,7 @@ def send(to, value):
     <br>* McshEngl.Solx_lago'smart-contract!⇒Solxprgm,
     <br>* McshEngl.Solxprgm!=Solx_lago'smart-contract,
     <br>* McshEngl.Solx_lago'program!⇒Solxprgm,
+    <br>* McshEngl.Solx_lago.PROGRAM!⇒Solxprgm,
     <a class="clsHide" href="#idEthsolpgmnam"></a></p>
 
   <section id="idEthsolpgmloc">
@@ -7242,6 +7335,7 @@ def send(to, value):
     <br>* McshEngl.Solx_lago_asm,
     <br>* McshEngl.Solx_lago-asm!⇒Solx_lago_asm,
     <br>* McshEngl.Solxalgo.assembly!⇒Solx_lago_asm,
+    <br>* McshEngl.Solx_lago.ASSEMBLY!⇒Solx_lago_asm,
     <a class="clsHide" href="#idEthsolaspnam"></a></p>
 
   <section id="idEthsolaspgstr">
@@ -7268,12 +7362,18 @@ def send(to, value):
   </section>
 
   <section id="idEthsolasmInl">
-  <h4 id="idEthsolasmInlH4">Solx_lago-asm.INLINE
+  <h4 id="idEthsolasmInlH4">Solx_lago_asm.INLINE
     </h4>
+  <p id="idEthsolasmInldsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthsolasmInldsn"></a></p>
+  <p id="idEthsolasmInlnam">name::
+    <br>* McshEngl.Solx_lago_asm.INLINE,
+    <a class="clsHide" href="#idEthsolasmInlnam"></a></p>
   </section>
 
   <section id="idEthsolasmSdan">
-  <h4 id="idEthsolasmSdanH4">Solx_lago-asm.STANDALONE
+  <h4 id="idEthsolasmSdanH4">Solx_lago_asm.STANDALONE
     </h4>
   <p id="idEthsolasmSdandsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7286,6 +7386,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthsolasmSdandsn"></a></p>
   <p id="idEthsolasmSdannam">name::
     <br>* McshEngl.Solx_lago-asm.STANDALONE,
+    <br>* McshEngl.Solx_lago_asm.STANDALONE,
     <a class="clsHide" href="#idEthsolasmSdannam"></a></p>
   </section>
   </section>
@@ -7307,6 +7408,7 @@ def send(to, value):
     <br>* McshEngl.Solx_lago-source-algo!⇒Solxsource,
     <br>* McshEngl.lagSolscd!⇒Solxsource,
     <br>* McshEngl.lagSolscp!⇒Solxsource, {2017-03-14},
+    <br>* McshEngl.Solx_lago.SOURCE!⇒Solxsource,
     <a class="clsHide" href="#idEthsolscdnam"></a></p>
   <div id="idEthsolscdP1">
     <p>codeLsol::
@@ -7603,6 +7705,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthsolsutRfrdsn"></a></p>
   <p id="idEthsolsutRfrnam">name::
     <br>* McshEngl.Solx_lago'reference-type,
+    <br>* McshEngl.Solxsunt.REFERENCE-TYPE!⇒Solx_lago'reference-type,
     <a class="clsHide" href="#idEthsolsutRfrnam"></a></p>
 
   <section id="idEthsolsutdtln">
@@ -7651,6 +7754,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthsolsutValdsn"></a></p>
   <p id="idEthsolsutValnam">name::
     <br>* McshEngl.Solx_lago'value-type,
+    <br>* McshEngl.Solxsunt.VALUE-TYPE!⇒Solx_lago'value-type,
     <a class="clsHide" href="#idEthsolsutValnam"></a></p>
   </section>
   </section>
@@ -7804,6 +7908,7 @@ def send(to, value):
     <br>* McshEngl.Lsolb,
     <br>* McshEngl.Solxsunt!⇒Lsolb,
     <br>* McshEngl.lagSolb!⇒Lsolb,
+    <br>* McshEngl.Solxsource.BOOLEAN!⇒Lsolb,
     <a class="clsHide" href="#idEthsolbnam"></a></p>
   <p id="idEthsolbP1">codeLsol::
     <br><code>bool voted;
@@ -7834,11 +7939,11 @@ def send(to, value):
     <br>[<a href="https://learnxinyminutes.com/docs/solidity/">https://learnxinyminutes.com/docs/solidity/</a>]
     <a class="clsHide" href="#idEthsolbtdsn"></a></p>
   <p id="idEthsolbtnam">name::
-    <br>* McshEngl.Lsolbt,
-    <br>* McshEngl.Solx_lago'bytes-type!⇒Lsolbt,
-    <br>* McshEngl.Solxsunt.bytes!⇒Lsolbt,
-    <br>* McshEngl.lagSolbytes!⇒Lsolbt,
-    <br>* McshEngl.lagSolbt!⇒Lsolbt,
+    <br>* McshEngl.bytes-type--of-Solx_lago!⇒Solxbt,
+    <br>* McshEngl.Solxbt!=bytes-type--of-Solx_lago,
+    <br>* McshEngl.Solxsunt.bytes!⇒Solxbt,
+    <br>* McshEngl.lagSolbytes!⇒Solxbt,
+    <br>* McshEngl.lagSolbt!⇒Solxbt,
     <a class="clsHide" href="#idEthsolbtnam"></a></p>
   <p id="idEthsolbtP1">codeLsol::
     <br><code>bytes3 b;</code>
@@ -7860,20 +7965,20 @@ def send(to, value):
     <br>[<a href="https://solidity.readthedocs.io/en/v0.4.9/structure-of-a-contract.html">https://solidity.readthedocs.io/en/v0.4.9/structure-of-a-contract.html</a>]
     <a class="clsHide" href="#idEthsolcdsn"></a></p>
   <p id="idEthsolcnam">name::
-    <br>* McshEngl.Lsolc,
-    <br>* McshEngl.Solx_lago'contract-semantic-unit!⇒Lsolc,
-    <br>* McshEngl.Solx_lago'contract-datatype!⇒Lsolc,
-    <br>* McshEngl.Solxsunt.contract!⇒Lsolc,
-    <br>* McshEngl.lagSolc!⇒Lsolc,
-    <br>* McshEngl.Solidity-contract-datatype!⇒Lsolc,
-    <br>* McshEngl.Sldtc!⇒Lsolc,
+    <br>* McshEngl.contract-semantic-unit--of-Solx_lago!⇒Solxc,
+    <br>* McshEngl.Solxc!=contract-semantic-unit--of-Solx_lago,
+    <br>* McshEngl.Solx_lago'contract-datatype!⇒Solxc,
+    <br>* McshEngl.Solxsunt.contract!⇒Solxc,
+    <br>* McshEngl.lagSolc!⇒Solxc,
+    <br>* McshEngl.Solidity-contract-datatype!⇒Solxc,
+    <br>* McshEngl.Sldtc!⇒Solxc,
     <a class="clsHide" href="#idEthsolcnam"></a></p>
   <p id="idEthsolcP1">example::
     <br>* <a href="https://github.com/fivedogit/solidity-baby-steps">https://github.com/fivedogit/solidity-baby-steps</a>,
     <a class="clsHide" href="#idEthsolcP1"></a></p>
 
   <section id="idEthsolcstg">
-  <h5 id="idEthsolcstgH5">Lsolc'Stage
+  <h5 id="idEthsolcstgH5">Solxc'Stage
     </h5>
   <p id="idEthsolcstgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7886,73 +7991,82 @@ def send(to, value):
     <br>[<a href="https://solidity.readthedocs.org/en/latest/common-patterns.html#state-machine">https://solidity.readthedocs.org/en/latest/common-patterns.html#state-machine</a>]
     <a class="clsHide" href="#idEthsolcstgdsn"></a></p>
   <p id="idEthsolcstgnam">name::
-    <br>* McshEngl.Lsolc'Stage,
+    <br>* McshEngl.Solxc'Stage,
     <a class="clsHide" href="#idEthsolcstgnam"></a></p>
   </section>
 
   <section id="idEthsolcGnc">
-  <h5 id="idEthsolcGncH5">Lsolc.GENERIC (base)
+  <h5 id="idEthsolcGncH5">Solxc.GENERIC (base)
     </h5>
   </section>
 
   <section id="idEthsolcgstr">
-  <h5 id="idEthsolcgstrH5">GENERIC-SPECIFIC-TREE of Lsolc
+  <h5 id="idEthsolcgstrH5">GENERIC-SPECIFIC-TREE of Solxc
     </h5>
   <p id="idEthsolcgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idEthsolcgstrdsn"></a></p>
   <p id="idEthsolcgstrnam">name::
-    <br>* McshEngl.Lsolc'generic-specific-tree,
-    <br>* McshEngl.Lsolc'specific-generic-tree,
+    <br>* McshEngl.Solxc'generic-specific-tree,
+    <br>* McshEngl.Solxc'specific-generic-tree,
     <a class="clsHide" href="#idEthsolcgstrnam"></a></p>
   <p id="idEthsolcgtr">generic-tree::
-    <br>* McshEngl.Lsolc-Gntr,
+    <br>* McshEngl.Solxc-Gntr,
     <br>===
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idEthsolcgtr"></a></p>
   <p id="idEthsolcstr">specific-tree::
-    <br>* McshEngl.Lsolc.specific,
-    <br>* McshEngl.Lsolc-Sptr,
+    <br>* McshEngl.Solxc.specific,
+    <br>* McshEngl.Solxc-Sptr,
     <br>===
     <a class="clsHide" href="#idEthsolcstr"></a></p>
-  <div id="idEthsolcSpcP1">
-    <p>codeLsol::
+  </section>
+
+  <section id="idEthsolcExpl">
+  <h5 id="idEthsolcExplH5">Solxc.example
+    </h5>
+  <div id="idEthsolcExpldsn">
+    <p>description::
+    <br>× Mcsh-creation: {2026-10-17}
     <br>[<a href="https://solidity.readthedocs.io/en/v0.4.9/contracts.html#function-modifiers">https://solidity.readthedocs.io/en/v0.4.9/contracts.html#function-modifiers</a>]
     </p>
     <pre><code>
-contract owned {
-    function owned() { owner = msg.sender; }
-    address owner;
+    contract owned {
+        function owned() { owner = msg.sender; }
+        address owner;
 
-    // This contract only defines a modifier but does not use
-    // it - it will be used in derived contracts.
-    // The function body is inserted where the special symbol
-    // "_;" in the definition of a modifier appears.
-    // This means that if the owner calls this function, the
-    // function is executed and otherwise, an exception is
-    // thrown.
-    modifier onlyOwner {
-        if (msg.sender != owner)
-            throw;
-        _;
+        // This contract only defines a modifier but does not use
+        // it - it will be used in derived contracts.
+        // The function body is inserted where the special symbol
+        // "_;" in the definition of a modifier appears.
+        // This means that if the owner calls this function, the
+        // function is executed and otherwise, an exception is
+        // thrown.
+        modifier onlyOwner {
+            if (msg.sender != owner)
+                throw;
+            _;
+        }
     }
-}
 
-contract mortal is owned {
-    // This contract inherits the "onlyOwner"-modifier from
-    // "owned" and applies it to the "close"-function, which
-    // causes that calls to "close" only have an effect if
-    // they are made by the stored owner.
-    function close() onlyOwner {
-        selfdestruct(owner);
+    contract mortal is owned {
+        // This contract inherits the "onlyOwner"-modifier from
+        // "owned" and applies it to the "close"-function, which
+        // causes that calls to "close" only have an effect if
+        // they are made by the stored owner.
+        function close() onlyOwner {
+            selfdestruct(owner);
+        }
     }
-}
     </code></pre>
-    <a class="clsHide" href="#idEthsolcSpcP1"></a></div>
+    <a class="clsHide" href="#idEthsolcExpldsn"></a></div>
+  <p id="idEthsolcExplnam">name::
+    <br>* McshEngl.Solxc.example,
+    <a class="clsHide" href="#idEthsolcExplnam"></a></p>
   </section>
 
   <section id="idEthsolcAbt">
-  <h5 id="idEthsolcAbtH5">Lsolc.ABSTRACT
+  <h5 id="idEthsolcAbtH5">Solxc.ABSTRACT
     </h5>
   <p id="idEthsolcAbtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7966,7 +8080,7 @@ contract mortal is owned {
     <br>[<a href="https://solidity.readthedocs.io/en/v0.4.9/contracts.html#abstract-contracts">https://solidity.readthedocs.io/en/v0.4.9/contracts.html#abstract-contracts</a>]
     <a class="clsHide" href="#idEthsolcAbtdsn"></a></p>
   <p id="idEthsolcAbtnam">name::
-    <br>* McshEngl.Lsolc.ABSTRACT,
+    <br>* McshEngl.Solxc.ABSTRACT,
     <a class="clsHide" href="#idEthsolcAbtnam"></a></p>
   </section>
   </section>
@@ -8252,6 +8366,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolfInldsn"></a></p>
   <p id="idEthsolfInlnam">name::
     <br>* McshEngl.Deth-sofl.INTERNAL,
+    <br>* McshEngl.Lsolf.INTERNAL!⇒Deth-sofl.INTERNAL,
     <a class="clsHide" href="#idEthsolfInlnam"></a></p>
   </section>
 
@@ -8387,6 +8502,7 @@ Coin.Sent().watch({}, '', function(error, result) {
   <p id="idEthsolfMfrnam">name::
     <br>* McshEngl.lagSolf.modifier,
     <br>* McshEngl.Solx_lago'modifier-function,
+    <br>* McshEngl.Lsolf.MODIFIER,
     <a class="clsHide" href="#idEthsolfMfrnam"></a></p>
   </section>
 
@@ -8404,6 +8520,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolfOprdsn"></a></p>
   <p id="idEthsolfOprnam">name::
     <br>* McshEngl.lagSoloperator,
+    <br>* McshEngl.Lsolf.OPERATOR!⇒lagSoloperator,
     <a class="clsHide" href="#idEthsolfOprnam"></a></p>
   </section>
 
@@ -8422,6 +8539,7 @@ Coin.Sent().watch({}, '', function(error, result) {
   <p id="idEthsolfSdctnam">name::
     <br>* McshEngl.Solx_lago'selfdestruct,
     <br>* McshEngl.lagSolselfdestruct,
+    <br>* McshEngl.Lsolf.selfdestruct,
     <a class="clsHide" href="#idEthsolfSdctnam"></a></p>
   </section>
   </section>
@@ -8613,6 +8731,7 @@ Coin.Sent().watch({}, '', function(error, result) {
   <p id="idEthsoluomnam">name::
     <br>* McshEngl.Solx_lago'unit-of-measurement,
     <br>* McshEngl.Solx_lago.sunt.unit-of-measurement,
+    <br>* McshEngl.Lsoln.UNIT-OF-MEASUREMENT,
     <a class="clsHide" href="#idEthsoluomnam"></a></p>
   </section>
   </section>
@@ -8794,6 +8913,7 @@ Coin.Sent().watch({}, '', function(error, result) {
   <p id="idEthsolvMmrnam">name::
     <br>* McshEngl.Solx_lago'memory-variable,
     <br>* McshEngl.lagSolv.memory,
+    <br>* McshEngl.Lsolv.MEMORY-VARIABLE,
     <a class="clsHide" href="#idEthsolvMmrnam"></a></p>
   </section>
 
@@ -8819,6 +8939,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolvVardsn"></a></p>
   <p id="idEthsolvVarnam">name::
     <br>* McshEngl.lagSolvar,
+    <br>* McshEngl.Lsolv.VAR!⇒lagSolvar,
     <a class="clsHide" href="#idEthsolvVarnam"></a></p>
   </section>
 
@@ -8848,6 +8969,7 @@ Coin.Sent().watch({}, '', function(error, result) {
   <p id="idEthsolvCnstnam">name::
     <br>* McshEngl.Solx_lago'constant,
     <br>* McshEngl.lagSolconstant,
+    <br>* McshEngl.Lsolv.CONSTANT,
     <a class="clsHide" href="#idEthsolvCnstnam"></a></p>
   </section>
 
@@ -8863,6 +8985,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <br>* McshEngl.Solx_lago'global-variable!⇒Solxvg,
     <br>* McshEngl.Solxvg!=Solx_lago'global-variable,
     <br>* McshEngl.lagSolv.global!⇒Solxvg,
+    <br>* McshEngl.Lsolv.GLOBAL!⇒Solxvg,
     <a class="clsHide" href="#idEthsolvGblnam"></a></p>
 
   <section id="idEthsolvGblgstr">
@@ -8906,6 +9029,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolvThsdsn"></a></p>
   <p id="idEthsolvThsnam">name::
     <br>* McshEngl.lagSolv.this,
+    <br>* McshEngl.Solxvg.this!⇒lagSolv.this,
     <a class="clsHide" href="#idEthsolvThsnam"></a></p>
   </section>
 
@@ -8917,6 +9041,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolvBlkdsn"></a></p>
   <p id="idEthsolvBlknam">name::
     <br>* McshEngl.Solx_lago'block,
+    <br>* McshEngl.Solxvg.block!⇒Solx_lago'block,
     <a class="clsHide" href="#idEthsolvBlknam"></a></p>
   <p id="idEthsolvBlkP1">API::
     <br>block.blockhash(uint blockNumber) returns (bytes32): hash of the given block - only works for 256 most recent blocks excluding current
@@ -8954,6 +9079,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolvMsgdsn"></a></p>
   <p id="idEthsolvMsgnam">name::
     <br>* McshEngl.Solx_lago'msg,
+    <br>* McshEngl.Solxvg.msg!⇒Solx_lago'msg,
     <a class="clsHide" href="#idEthsolvMsgnam"></a></p>
   <p id="idEthsolvMsgP1">API::
     <br>msg.data (bytes): complete calldata
@@ -8973,6 +9099,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolvTxdsn"></a></p>
   <p id="idEthsolvTxnam">name::
     <br>* McshEngl.Solx_lago'tx,
+    <br>* McshEngl.Solxvg.tx!⇒Solx_lago'tx,
     <a class="clsHide" href="#idEthsolvTxnam"></a></p>
   <p id="idEthsolvTxP1">API::
     <br>tx.gasprice (uint): gas price of the transaction
@@ -8992,6 +9119,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolvStgdsn"></a></p>
   <p id="idEthsolvStgnam">name::
     <br>* McshEngl.lagSolstorage,
+    <br>* McshEngl.Solxvg.storage!⇒lagSolstorage,
     <a class="clsHide" href="#idEthsolvStgnam"></a></p>
   </section>
   </section>
@@ -9006,6 +9134,7 @@ Coin.Sent().watch({}, '', function(error, result) {
   <p id="idEthsolapinam">name::
     <br>* McshEngl.Solxsunt.API,
     <br>* McshEngl.lagSolAPI,
+    <br>* McshEngl.Solxsource.API,
     <a class="clsHide" href="#idEthsolapinam"></a></p>
 
   <section id="idEthsolapiMsg">
@@ -9091,7 +9220,7 @@ Coin.Sent().watch({}, '', function(error, result) {
     <a class="clsHide" href="#idEthsolstcnam"></a></p>
 
   <section id="idEthsolstcAsmt">
-  <h5 id="idEthsolstcAsmtH5">Solx_lago-sentence.ASSIGNMENT
+  <h5 id="idEthsolstcAsmtH5">Solx_lago_sentence.ASSIGNMENT
     </h5>
   <p id="idEthsolstcAsmtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9102,17 +9231,19 @@ Coin.Sent().watch({}, '', function(error, result) {
   <p id="idEthsolstcAsmtnam">name::
     <br>* McshEngl.Solx_lago-sentence.assignment,
     <br>* McshEngl.Solx_lago'assignment-sentence,
+    <br>* McshEngl.Solx_lago_sentence.ASSIGNMENT,
     <a class="clsHide" href="#idEthsolstcAsmtnam"></a></p>
   </section>
 
   <section id="idEthsolstcBrcg">
-  <h5 id="idEthsolstcBrcgH5">Solx_lago-sentence.BRANCHING
+  <h5 id="idEthsolstcBrcgH5">Solx_lago_sentence.BRANCHING
     </h5>
   <p id="idEthsolstcBrcgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idEthsolstcBrcgdsn"></a></p>
   <p id="idEthsolstcBrcgnam">name::
     <br>* McshEngl.Solx_lago-sentence.branching,
+    <br>* McshEngl.Solx_lago_sentence.BRANCHING,
     <a class="clsHide" href="#idEthsolstcBrcgnam"></a></p>
   <p id="idEthsolstcBrcgP1">codeLsol::
     <br><code>// 6. BRANCHING AND LOOPS
@@ -9127,13 +9258,14 @@ Coin.Sent().watch({}, '', function(error, result) {
   </section>
 
   <section id="idEthsolstcLop">
-  <h5 id="idEthsolstcLopH5">Solx_lago-sentence.LOOP
+  <h5 id="idEthsolstcLopH5">Solx_lago_sentence.LOOP
     </h5>
   <p id="idEthsolstcLopdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idEthsolstcLopdsn"></a></p>
   <p id="idEthsolstcLopnam">name::
     <br>* McshEngl.Solx_lago-sentence.loop,
+    <br>* McshEngl.Solx_lago_sentence.LOOP,
     <a class="clsHide" href="#idEthsolstcLopnam"></a></p>
   <div id="idEthsolstcLopP1">
     <p>codeLsol::
@@ -9159,7 +9291,7 @@ for(uint x = 0; x &lt; refundAddressList.length; x++) {
   </section>
 
   <section id="idEthsolstcPrgm">
-  <h5 id="idEthsolstcPrgmH5">Solx_lago-sentence.pragma
+  <h5 id="idEthsolstcPrgmH5">Solx_lago_sentence.pragma
     </h5>
   <p id="idEthsolstcPrgmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9168,6 +9300,7 @@ for(uint x = 0; x &lt; refundAddressList.length; x++) {
     <br>* McshEngl.Solx_lago'pragma,
     <br>* McshEngl.lagSolpragma,
     <br>* McshEngl.Solx_lago-sentence.pragma,
+    <br>* McshEngl.Solx_lago_sentence.pragma,
     <a class="clsHide" href="#idEthsolstcPrgmnam"></a></p>
   <p id="idEthsolstcPrgmP1">codeLsol::
     <br><code>pragma solidity ^0.4.0;
@@ -9178,7 +9311,7 @@ for(uint x = 0; x &lt; refundAddressList.length; x++) {
   </section>
 
   <section id="idEthsolstcImpt">
-  <h5 id="idEthsolstcImptH5">Solx_lago-sentence.import
+  <h5 id="idEthsolstcImptH5">Solx_lago_sentence.import
     </h5>
   <p id="idEthsolstcImptdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9204,6 +9337,7 @@ for(uint x = 0; x &lt; refundAddressList.length; x++) {
   <p id="idEthsolstcImptnam">name::
     <br>* McshEngl.Solx_lago'import,
     <br>* McshEngl.lagSolimport,
+    <br>* McshEngl.Solx_lago_sentence.import,
     <a class="clsHide" href="#idEthsolstcImptnam"></a></p>
 
   <section id="idEthsolstcImptpof">
@@ -9226,7 +9360,7 @@ for(uint x = 0; x &lt; refundAddressList.length; x++) {
   </section>
 
   <section id="idEthsolstcFor">
-  <h5 id="idEthsolstcForH5">Solx_lago-sentence.using-for
+  <h5 id="idEthsolstcForH5">Solx_lago_sentence.using-for
     </h5>
   <p id="idEthsolstcFordsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9322,11 +9456,12 @@ for(uint x = 0; x &lt; refundAddressList.length; x++) {
     <a class="clsHide" href="#idEthsolstcFordsn"></a></p>
   <p id="idEthsolstcFornam">name::
     <br>* McshEngl.Solx_lago'using-for,
+    <br>* McshEngl.Solx_lago_sentence.using-for,
     <a class="clsHide" href="#idEthsolstcFornam"></a></p>
   </section>
 
   <section id="idEthsolstcCmt">
-  <h5 id="idEthsolstcCmtH5">Solx_lago-sentence.comment
+  <h5 id="idEthsolstcCmtH5">Solx_lago_sentence.comment
     </h5>
   <p id="idEthsolstcCmtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9342,6 +9477,7 @@ for(uint x = 0; x &lt; refundAddressList.length; x++) {
     <a class="clsHide" href="#idEthsolstcCmtdsn"></a></p>
   <p id="idEthsolstcCmtnam">name::
     <br>* McshEngl.Solx_lago'comment,
+    <br>* McshEngl.Solx_lago_sentence.comment,
     <a class="clsHide" href="#idEthsolstcCmtnam"></a></p>
   </section>
   </section>
@@ -9416,6 +9552,7 @@ for(uint x = 0; x &lt; refundAddressList.length; x++) {
     <a class="clsHide" href="#idEthsolscdCrfdgdsn"></a></p>
   <p id="idEthsolscdCrfdgnam">name::
     <br>* McshEngl.Solx_lago-source-algo.crowdfunding,
+    <br>* McshEngl.Solxsource.CROWDFUNDING!⇒Solx_lago-source-algo.crowdfunding,
     <a class="clsHide" href="#idEthsolscdCrfdgnam"></a></p>
   <div id="idEthsolscdCrfdgP1">
     <p>codeLsol::
@@ -9574,6 +9711,7 @@ contract CrowdFunder {
     <a class="clsHide" href="#idEthsolscdStrgdsn"></a></p>
   <p id="idEthsolscdStrgnam">name::
     <br>* McshEngl.Solx_lago-source-algo.storage,
+    <br>* McshEngl.Solxsource.STORAGE!⇒Solx_lago-source-algo.storage,
     <a class="clsHide" href="#idEthsolscdStrgnam"></a></p>
   <div id="idEthsolscdStrgP1">
     <p>codeLsol::
@@ -9676,6 +9814,7 @@ contract SimpleStorage {
   <p id="idEthsolscdSbtknnam">name::
     <br>* McshEngl.Solx_lago-source-algo.cryptocurrency,
     <br>* McshEngl.Solx_lago-source-algo.subcurrency,
+    <br>* McshEngl.Solxsource.SUBCURRENCY,
     <a class="clsHide" href="#idEthsolscdSbtknnam"></a></p>
   </section>
 
@@ -9687,6 +9826,7 @@ contract SimpleStorage {
     <a class="clsHide" href="#idEthsolscdWilldsn"></a></p>
   <p id="idEthsolscdWillnam">name::
     <br>* McshEngl.Solx_lago-source-algo.will,
+    <br>* McshEngl.Solxsource.WILL!⇒Solx_lago-source-algo.will,
     <a class="clsHide" href="#idEthsolscdWillnam"></a></p>
   <div id="idEthsolscdWillP1">
     <p>codeLsol::
@@ -9771,7 +9911,7 @@ contract SimpleStorage {
 
 
   <section id="idEthsoltulBrcr">
-  <h4 id="idEthsoltulBrcrH4">Solx_lago-tool.BROWSER-COMPILER
+  <h4 id="idEthsoltulBrcrH4">Solx_lago_tool.BROWSER-COMPILER
     </h4>
   <p id="idEthsoltulBrcrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9781,6 +9921,7 @@ contract SimpleStorage {
   <p id="idEthsoltulBrcrnam">name::
     <br>* McshEngl.Solx_lago'browser-compiler,
     <br>* McshEngl.Solx_lago-tool.browser-compiler,
+    <br>* McshEngl.Solx_lago_tool.BROWSER-COMPILER,
     <a class="clsHide" href="#idEthsoltulBrcrnam"></a></p>
   <p id="idEthsoltulBrcrwpa">addressWpg::
     <br>* <a href="https://ethereum.github.io/browser-solidity/#version=soljson-v0.4.9+commit.364da425.js">https://ethereum.github.io/browser-solidity/#version=soljson-v0.4.9+commit.364da425.js</a>,
@@ -9788,7 +9929,7 @@ contract SimpleStorage {
   </section>
 
   <section id="idEthsoltulSolcjs">
-  <h4 id="idEthsoltulSolcjsH4">Solx_lago-tool.solcjs
+  <h4 id="idEthsoltulSolcjsH4">Solx_lago_tool.solcjs
     </h4>
   <p id="idEthsoltulSolcjsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9818,11 +9959,12 @@ contract SimpleStorage {
   <p id="idEthsoltulSolcjsnam">name::
     <br>* McshEngl.Solx_lago-tool.Solcjs,
     <br>* McshEngl.Solcjs,
+    <br>* McshEngl.Solx_lago_tool.solcjs,
     <a class="clsHide" href="#idEthsoltulSolcjsnam"></a></p>
   </section>
 
   <section id="idEthsoltulDpl">
-  <h4 id="idEthsoltulDplH4">Solx_lago-tool.Dapple
+  <h4 id="idEthsoltulDplH4">Solx_lago_tool.Dapple
     </h4>
   <p id="idEthsoltulDpldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9836,11 +9978,12 @@ contract SimpleStorage {
     <a class="clsHide" href="#idEthsoltulDpldsn"></a></p>
   <p id="idEthsoltulDplnam">name::
     <br>* McshEngl.Solx_lago-tool.Dapple,
+    <br>* McshEngl.Solx_lago_tool.Dapple,
     <a class="clsHide" href="#idEthsoltulDplnam"></a></p>
   </section>
 
   <section id="idEthsoltulPpl">
-  <h4 id="idEthsoltulPplH4">Solx_lago-tool.Populus
+  <h4 id="idEthsoltulPplH4">Solx_lago_tool.Populus
     </h4>
   <p id="idEthsoltulPpldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9849,11 +9992,12 @@ contract SimpleStorage {
     <a class="clsHide" href="#idEthsoltulPpldsn"></a></p>
   <p id="idEthsoltulPplnam">name::
     <br>* McshEngl.Solx_lago-tool.Populus,
+    <br>* McshEngl.Solx_lago_tool.Populus,
     <a class="clsHide" href="#idEthsoltulPplnam"></a></p>
   </section>
 
   <section id="idEthsoltulRepl">
-  <h4 id="idEthsoltulReplH4">Solx_lago-tool.REPL
+  <h4 id="idEthsoltulReplH4">Solx_lago_tool.REPL
     </h4>
   <p id="idEthsoltulRepldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9863,6 +10007,7 @@ contract SimpleStorage {
   <p id="idEthsoltulReplnam">name::
     <br>* McshEngl.Solx_lago'REPL,
     <br>* McshEngl.Solx_lago-tool.REPL,
+    <br>* McshEngl.Solx_lago_tool.REPL,
     <a class="clsHide" href="#idEthsoltulReplnam"></a></p>
   <p id="idEthsoltulReplP1">installation::
     <br>$ npm install -g solidity-repl
@@ -9882,7 +10027,7 @@ contract SimpleStorage {
   </section>
 
   <section id="idEthsoltulSlgh">
-  <h4 id="idEthsoltulSlghH4">Solx_lago-tool.Solgraph
+  <h4 id="idEthsoltulSlghH4">Solx_lago_tool.Solgraph
     </h4>
   <p id="idEthsoltulSlghdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9891,6 +10036,7 @@ contract SimpleStorage {
     <a class="clsHide" href="#idEthsoltulSlghdsn"></a></p>
   <p id="idEthsoltulSlghnam">name::
     <br>* McshEngl.Solx_lago-tool.solgraph,
+    <br>* McshEngl.Solx_lago_tool.Solgraph,
     <a class="clsHide" href="#idEthsoltulSlghnam"></a></p>
   </section>
   </section>
@@ -9926,6 +10072,12 @@ contract SimpleStorage {
   <section id="idEthsolEvg">
   <h3 id="idEthsolEvgH3">evoluting of Solx_lago
     </h3>
+  <p id="idEthsolEvgdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthsolEvgdsn"></a></p>
+  <p id="idEthsolEvgnam">name::
+    <br>* McshEngl.Solx_lago'evoluting,
+    <a class="clsHide" href="#idEthsolEvgnam"></a></p>
   <p id="idEthsolEvgwpa">addressWpg::
     <br>* <a href="https://github.com/ethereum/solidity/blob/develop/Changelog.md">https://github.com/ethereum/solidity/blob/develop/Changelog.md</a>,
     <a class="clsHide" href="#idEthsolEvgwpa"></a></p>
@@ -10309,6 +10461,7 @@ contract SimpleStorage {
   <p id="idEthsrptnam">name::
     <br>* McshEngl.DcontractEth-lang.Serpent,
     <br>* McshEngl.Serpent-Ethereum-lang,
+    <br>* McshEngl.DcontractEth.Serpent,
     <a class="clsHide" href="#idEthsrptnam"></a></p>
   <p id="idEthsrptwpa">addressWpg::
     <br>* <a href="https://github.com/ethereum/serpent">https://github.com/ethereum/serpent</a>,
@@ -10346,6 +10499,7 @@ contract SimpleStorage {
     <br>* McshEngl.Lisp-Like-Language-of-Ethereum,
     <br>* McshEngl.LLL-Ethereum-lang,
     <br>* McshEngl.langLLL,
+    <br>* McshEngl.DcontractEth.LLL,
     <a class="clsHide" href="#idEthlllnam"></a></p>
 
   <section id="idEthlllcplr">
@@ -10400,6 +10554,7 @@ contract SimpleStorage {
     <br>* McshEngl.DcontractEth-lang.Viper,
     <br>* McshEngl.langViper,
     <br>* McshEngl.Viper-Ethereum-lang,
+    <br>* McshEngl.DcontractEth.VIPER,
     <a class="clsHide" href="#idEthvprnam"></a></p>
 
   <section id="idEthvprrsc">
@@ -11113,6 +11268,13 @@ contract SimpleStorage {
   <section id="idEthctpasmbta">
   <h3 id="idEthctpasmbtaH3">Deth-asm'tool.binary-to-assembly
     </h3>
+  <p id="idEthctpasmbtadsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthctpasmbtadsn"></a></p>
+  <p id="idEthctpasmbtanam">name::
+    <br>* McshEngl.Deth-asm'tool.binary-to-assembly,
+    <br>* McshEngl.DcontractEth.assembly.binary-to-assembly!⇒Deth-asm'tool.binary-to-assembly,
+    <a class="clsHide" href="#idEthctpasmbtanam"></a></p>
   <p id="idEthctpasmbtawpa">addressWpg::
     <br>* <a href="https://gist.github.com/anonymous/d3bbdc55159879046345">https://gist.github.com/anonymous/d3bbdc55159879046345</a>,
     <br>* <a href="https://etherscan.io/opcode-tool">https://etherscan.io/opcode-tool</a>,
@@ -11133,17 +11295,36 @@ contract SimpleStorage {
   <section id="idEthctpSccSol">
   <h3 id="idEthctpSccSolH3">DcontractEth.solidity
     </h3>
+  <p id="idEthctpSccSoldsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthctpSccSoldsn"></a></p>
+  <p id="idEthctpSccSolnam">name::
+    <br>* McshEngl.DcontractEth.solidity,
+    <br>* McshEngl.DcontractEth.sourcecode.solidity!⇒DcontractEth.solidity,
+    <a class="clsHide" href="#idEthctpSccSolnam"></a></p>
   </section>
   </section>
 
   <section id="idEthctpCld">
   <h2 id="idEthctpCldH2">DcontractEth.CALLED
     </h2>
+  <p id="idEthctpClddsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthctpClddsn"></a></p>
+  <p id="idEthctpCldnam">name::
+    <br>* McshEngl.DcontractEth.CALLED,
+    <a class="clsHide" href="#idEthctpCldnam"></a></p>
   </section>
 
   <section id="idEthctpClr">
   <h2 id="idEthctpClrH2">DcontractEth.CALLER
     </h2>
+  <p id="idEthctpClrdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthctpClrdsn"></a></p>
+  <p id="idEthctpClrnam">name::
+    <br>* McshEngl.DcontractEth.CALLER,
+    <a class="clsHide" href="#idEthctpClrnam"></a></p>
   </section>
 
   <section id="idEthctpVrfd">
@@ -11208,6 +11389,12 @@ contract SimpleStorage {
   <section id="idEthctpExcng">
   <h2 id="idEthctpExcngH2">DcontractEth.EXCHANGE
     </h2>
+  <p id="idEthctpExcngdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthctpExcngdsn"></a></p>
+  <p id="idEthctpExcngnam">name::
+    <br>* McshEngl.DcontractEth.EXCHANGE,
+    <a class="clsHide" href="#idEthctpExcngnam"></a></p>
   <p id="idEthctpExcngwpa">addressWpg::
     <br>* <a href="https://github.com/bokkypoobah/TokenTrader/wiki">https://github.com/bokkypoobah/TokenTrader/wiki</a>,
     <a class="clsHide" href="#idEthctpExcngwpa"></a></p>
@@ -11216,6 +11403,12 @@ contract SimpleStorage {
   <section id="idEthctpEvu">
   <h2 id="idEthctpEvuH2">DcontractEth.EXCHANGE_VALUE_UNIT
     </h2>
+  <p id="idEthctpEvudsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthctpEvudsn"></a></p>
+  <p id="idEthctpEvunam">name::
+    <br>* McshEngl.DcontractEth.EXCHANGE_VALUE_UNIT,
+    <a class="clsHide" href="#idEthctpEvunam"></a></p>
   <p id="idEthctpEvuwpa">addressWpg::
     <br>* EToken of Ambisafe: <a href="https://github.com/Ambisafe/etoken-docs/wiki">https://github.com/Ambisafe/etoken-docs/wiki</a>,
     <a class="clsHide" href="#idEthctpEvuwpa"></a></p>
@@ -11261,6 +11454,12 @@ contract SimpleStorage {
   <section id="idEthctpWlmngr">
   <h2 id="idEthctpWlmngrH2">DcontractEth.WILL-MANAGER
     </h2>
+  <p id="idEthctpWlmngrdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthctpWlmngrdsn"></a></p>
+  <p id="idEthctpWlmngrnam">name::
+    <br>* McshEngl.DcontractEth.WILL-MANAGER,
+    <a class="clsHide" href="#idEthctpWlmngrnam"></a></p>
   <div id="idEthctpWlmngrP1">
     <p>codeLsol::
     </p>
@@ -11287,6 +11486,12 @@ contract WillManager {
   <section id="idEthctpEvg">
   <h2 id="idEthctpEvgH2">DcontractEth.EVOLUTING
     </h2>
+  <p id="idEthctpEvgdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthctpEvgdsn"></a></p>
+  <p id="idEthctpEvgnam">name::
+    <br>* McshEngl.DcontractEth.EVOLUTING,
+    <a class="clsHide" href="#idEthctpEvgnam"></a></p>
   <p id="idEthctpEvgP1">lifetime::
     <br>Contracts <strong>will exist and run</strong> as long as the whole network exists, and will only stop if they run out of gas or if they were programmed to self destruct.
     <br>[<a href="https://github.com/ethereum/go-ethereum/wiki/Contract-Tutorial">https://github.com/ethereum/go-ethereum/wiki/Contract-Tutorial</a>]
@@ -11446,6 +11651,7 @@ contract WillManager {
   <p id="idEthwltMewnam">name::
     <br>* McshEngl.Ethereum-MyEtherWallet,
     <br>* McshEngl.MyEtherWallet,
+    <br>* McshEngl.Ethrwllt.MyEtherWallet,
     <a class="clsHide" href="#idEthwltMewnam"></a></p>
   <p id="idEthwltMewwpa">addressWpg::
     <br>* Help: <a href="https://myetherwallet.groovehq.com/help_center">https://myetherwallet.groovehq.com/help_center</a>,
@@ -11505,6 +11711,13 @@ contract WillManager {
   <section id="idEthHumnDvpr">
   <h2 id="idEthHumnDvprH2">human.DEVELOPER
     </h2>
+  <p id="idEthHumnDvprdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthHumnDvprdsn"></a></p>
+  <p id="idEthHumnDvprnam">name::
+    <br>* McshEngl.human.DEVELOPER,
+    <br>* McshEngl.Ethrhumn.DEVELOPER!⇒human.DEVELOPER,
+    <a class="clsHide" href="#idEthHumnDvprnam"></a></p>
   <p id="idEthHumnDvprP1">founder::
     <br>In 2014, Ethereum founders Vitalik Buterin, Gavin Wood and Jeffrey Wilcke began work on a next-generation blockchain that had the ambitions to implement a general, fully trustless smart contract platform.
     <br>[<a href="https://ethereum-homestead.readthedocs.org/en/latest/introduction/what-is-ethereum.html#a-next-generation-blockchain">https://ethereum-homestead.readthedocs.org/en/latest/introduction/what-is-ethereum.html#a-next-generation-blockchain</a>]
@@ -11523,6 +11736,7 @@ contract WillManager {
     <br>* McshEngl.AgntEthr'user,
     <br>* McshEngl.Ethereum-human.user,
     <br>* McshEngl.Ethereum-user,
+    <br>* McshEngl.Ethrhumn.USER,
     <a class="clsHide" href="#idEthHumnUsrnam"></a></p>
   </section>
 
@@ -11558,12 +11772,20 @@ contract WillManager {
     <a class="clsHide" href="#idEthHumnGtrdsn"></a></p>
   <p id="idEthHumnGtrnam">name::
     <br>* McshEngl.human.Gitter-community,
+    <br>* McshEngl.Ethrhumn.Gitter-community!⇒human.Gitter-community,
     <a class="clsHide" href="#idEthHumnGtrnam"></a></p>
   </section>
 
   <section id="idEthHumnMtp">
   <h2 id="idEthHumnMtpH2">human.Meetup
     </h2>
+  <p id="idEthHumnMtpdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthHumnMtpdsn"></a></p>
+  <p id="idEthHumnMtpnam">name::
+    <br>* McshEngl.human.Meetup,
+    <br>* McshEngl.Ethrhumn.Meetup!⇒human.Meetup,
+    <a class="clsHide" href="#idEthHumnMtpnam"></a></p>
   <p id="idEthHumnMtpwpa">addressWpg::
     <br>* <a href="http://www.meetup.com/topics/ethereum/">http://www.meetup.com/topics/ethereum</a>/
     <a class="clsHide" href="#idEthHumnMtpwpa"></a></p>
@@ -11594,6 +11816,7 @@ contract WillManager {
     <a class="clsHide" href="#idEthHumnRdtdsn"></a></p>
   <p id="idEthHumnRdtnam">name::
     <br>* McshEngl.human.Reddit,
+    <br>* McshEngl.Ethrhumn.Reddit!⇒human.Reddit,
     <a class="clsHide" href="#idEthHumnRdtnam"></a></p>
   </section>
 
@@ -11610,6 +11833,7 @@ contract WillManager {
     <a class="clsHide" href="#idEthHumnSkegdsn"></a></p>
   <p id="idEthHumnSkegnam">name::
     <br>* McshEngl.human.Stack-Exchange,
+    <br>* McshEngl.Ethrhumn.Stack-Exchange!⇒human.Stack-Exchange,
     <a class="clsHide" href="#idEthHumnSkegnam"></a></p>
   <p id="idEthHumnSkegwpa">addressWpg::
     <br>* <a href="http://ethereum.stackexchange.com/">http://ethereum.stackexchange.com</a>/
@@ -11868,6 +12092,7 @@ contract WillManager {
   <p id="idEthpbmnam">name::
     <br>* McshEngl.AgntEthr'problem,
     <br>* McshEngl.Ethereum-problem,
+    <br>* McshEngl.AgntEthr'evaluation'problem,
     <a class="clsHide" href="#idEthpbmnam"></a></p>
 
   <section id="idEthscbt">
@@ -12061,6 +12286,7 @@ contract WillManager {
     <br>* McshEngl.Ethrservice!=Ethereum-service,
     <br>* McshEngl.AgntEthr'service!⇒Ethrservice,
     <br>* McshEngl.AgntEthr'usage!⇒Ethrservice,
+    <br>* McshEngl.AgntEthr'doing.SERVICE!⇒Ethrservice,
     <a class="clsHide" href="#idEthsvcnam"></a></p>
 
   <section id="idEthsvcdap">
@@ -12115,6 +12341,7 @@ contract WillManager {
   <p id="idEthsvcGoalnam">name::
     <br>* McshEngl.AgntEthr'doing.goal,
     <br>* McshEngl.AgntEthr'goal,
+    <br>* McshEngl.Ethrservice.GOAL,
     <a class="clsHide" href="#idEthsvcGoalnam"></a></p>
   </section>
 
@@ -12132,6 +12359,7 @@ contract WillManager {
     <a class="clsHide" href="#idEthsvcEvldsn"></a></p>
   <p id="idEthsvcEvlnam">name::
     <br>* McshEngl.Ethereum-service.EXCHANGE-VALUE-TOKEN,
+    <br>* McshEngl.Ethrservice.EXCHANGE-VALUE-TOKEN!⇒Ethereum-service.EXCHANGE-VALUE-TOKEN,
     <a class="clsHide" href="#idEthsvcEvlnam"></a></p>
   </section>
 
@@ -12144,6 +12372,7 @@ contract WillManager {
     <a class="clsHide" href="#idEthsvcCdfdgdsn"></a></p>
   <p id="idEthsvcCdfdgnam">name::
     <br>* McshEngl.Ethereum-service.CROWDFUNDING,
+    <br>* McshEngl.Ethrservice.CROWDFUNDING!⇒Ethereum-service.CROWDFUNDING,
     <a class="clsHide" href="#idEthsvcCdfdgnam"></a></p>
   </section>
 
@@ -12156,6 +12385,7 @@ contract WillManager {
     <a class="clsHide" href="#idEthsvcStrgdsn"></a></p>
   <p id="idEthsvcStrgnam">name::
     <br>* McshEngl.Ethereum-service.STORAGE,
+    <br>* McshEngl.Ethrservice.STORAGE!⇒Ethereum-service.STORAGE,
     <a class="clsHide" href="#idEthsvcStrgnam"></a></p>
   </section>
 
@@ -12173,6 +12403,7 @@ contract WillManager {
     <br>* McshEngl.ENS-(Ethereum-Name-Service),
     <br>* McshEngl.Ethereum-ENS-(Ethereum-Name-Service),
     <br>* McshEngl.Ethereum-Name-Service-(ENS),
+    <br>* McshEngl.Ethrservice.ENS,
     <a class="clsHide" href="#idEthsvcEnsnam"></a></p>
   </section>
 
@@ -12187,6 +12418,7 @@ contract WillManager {
     <a class="clsHide" href="#idEthsvcClndsn"></a></p>
   <p id="idEthsvcClnnam">name::
     <br>* McshEngl.Ethereum-service.Colony,
+    <br>* McshEngl.Ethrservice.Colony!⇒Ethereum-service.Colony,
     <a class="clsHide" href="#idEthsvcClnnam"></a></p>
   </section>
 
@@ -12201,6 +12433,7 @@ contract WillManager {
     <a class="clsHide" href="#idEthsvcWeb3dsn"></a></p>
   <p id="idEthsvcWeb3nam">name::
     <br>* McshEngl.Ethereum-service.WEB3,
+    <br>* McshEngl.Ethrservice.WEB3!⇒Ethereum-service.WEB3,
     <a class="clsHide" href="#idEthsvcWeb3nam"></a></p>
   </section>
   </section>
@@ -12414,6 +12647,13 @@ contract WillManager {
   <section id="idEthnetTst">
   <h1 id="idEthnetTstH1">DnEth.TEST
     </h1>
+  <p id="idEthnetTstdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idEthnetTstdsn"></a></p>
+  <p id="idEthnetTstnam">name::
+    <br>* McshEngl.DnEth.TEST,
+    <br>* McshEngl.AgntEthr.TEST!⇒DnEth.TEST,
+    <a class="clsHide" href="#idEthnetTstnam"></a></p>
 
   <section id="idEthnetMrdn">
   <h2 id="idEthnetMrdnH2">DnEth.MORDEN
@@ -12429,6 +12669,7 @@ contract WillManager {
     <a class="clsHide" href="#idEthnetMrdndsn"></a></p>
   <p id="idEthnetMrdnnam">name::
     <br>* McshEngl.Morden-ethtestnet,
+    <br>* McshEngl.DnEth.TEST.MORDEN!⇒Morden-ethtestnet,
     <a class="clsHide" href="#idEthnetMrdnnam"></a></p>
   </section>
 
@@ -12442,6 +12683,7 @@ contract WillManager {
     <a class="clsHide" href="#idEthnetRpstndsn"></a></p>
   <p id="idEthnetRpstnnam">name::
     <br>* McshEngl.Ropsten-ethtestnet,
+    <br>* McshEngl.DnEth.TEST.ROPSTEN!⇒Ropsten-ethtestnet,
     <a class="clsHide" href="#idEthnetRpstnnam"></a></p>
   </section>
   </section>

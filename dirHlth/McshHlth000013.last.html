@@ -38,13 +38,13 @@
   <p id="idName">name::
     <br>* McshEngl.human-food!⇒food,
     <br>* McshEngl.food!=human-food,
+    <br>* McshEngl.food!~McsHlth000013,
     <br>* McshEngl.McshHlth000013.last.html//dirHlth//dirMcsh!⇒food,
     <br>* McshEngl.dirHlth/McshHlth000013.last.html!⇒food,
     <br>* McshEngl.bodyHumn'13_food!⇒food,
     <br>* McshEngl.bodyHumn'att020-food!⇒food,
     <br>* McshEngl.bodyHumn'food-att020!⇒food,
     <br>* McshEngl.FOOD!⇒food,
-    <br>* McshEngl.food!~McsHlth000013,
     <br>* McshEngl.foodBio.002-human!⇒food,
     <br>* McshEngl.foodBio.human-002!⇒food,
     <br>* McshEngl.food-of-human!⇒food,
@@ -102,6 +102,7 @@
     <br>* McshEngl.food'FCD-food-composition-data,
     <br>* McshEngl.food'food-composition-data-FCD,
     <br>* McshEngl.FCD-food-composition-data-att002,
+    <br>* McshEngl.food'ingredient'food-composition-data,
     <a class="clsHide" href="#idFoodHmnatt002nam"></a></p>
   </section>
 
@@ -148,6 +149,7 @@
     <br>* McshEngl.food'att003-nutrient,
     <br>* McshEngl.food'nutrient-att003,
     <br>* McshEngl.nutrient-of-food,
+    <br>* McshEngl.food'ingredient'nutrient,
     <a class="clsHide" href="#idFoodHmnatt003nam"></a></p>
 
   <section id="idFoodHmnatt004">
@@ -218,6 +220,7 @@
     <br>* McshEngl.food'att005-additive!⇒food'additive,
     <br>* McshEngl.food'additive-att005!⇒food'additive,
     <br>* McshEngl.additive-of-food!⇒food'additive,
+    <br>* McshEngl.food'ingredient'additive!⇒food'additive,
     <br>====== lagoGreek:
     <br>* McshElln.πρόσθετα-τροφίμων!=food'additive,
     <a class="clsHide" href="#idFoodHmnatt005nam"></a></p>
@@ -463,6 +466,7 @@
     <br>* McshEngl.tasteBitter,
     <br>* McshEngl.bitter-taste!⇒tasteBitter,
     <br>* McshEngl.taste.bitter!⇒tasteBitter,
+    <br>* McshEngl.Foodtaste.bitter!⇒tasteBitter,
     <br>====== lagoChinese:
     <br>* McshZhon.kǔ-苦!=tasteBitter,
     <br>* McshZhon.苦-kǔ!=tasteBitter,
@@ -487,6 +491,7 @@
     <br>* McshEngl.tasteSweet,
     <br>* McshEngl.sweet-taste!⇒tasteSweet,
     <br>* McshEngl.taste.sweet!⇒tasteSweet,
+    <br>* McshEngl.Foodtaste.sweet!⇒tasteSweet,
     <br>====== lagoChinese:
     <br>* McshZhon.tiαn-甜!=tasteSweet,
     <br>* McshZhon.甜-tiαn!=tasteSweet,
@@ -509,6 +514,7 @@
     <br>* McshEngl.tasteSalty,
     <br>* McshEngl.salty-taste!⇒tasteSalty,
     <br>* McshEngl.taste.salty!⇒tasteSalty,
+    <br>* McshEngl.Foodtaste.salty!⇒tasteSalty,
     <br>====== lagoChinese:
     <br>* McshZhon.xiαn-咸!=tasteSalty,
     <br>* McshZhon.咸-xiαn!=tasteSalty,
@@ -532,6 +538,7 @@
     <br>* McshEngl.tasteSour,
     <br>* McshEngl.sour-taste!⇒tasteSour,
     <br>* McshEngl.taste.sour!⇒tasteSour,
+    <br>* McshEngl.Foodtaste.sour!⇒tasteSour,
     <br>====== lagoChinese:
     <br>* McshZhon.suān-酸!=tasteSour,
     <br>* McshZhon.酸-suān!=tasteSour,
@@ -554,6 +561,7 @@
     <br>* McshEngl.tasteSpicy,
     <br>* McshEngl.spicy-taste!⇒tasteSpicy,
     <br>* McshEngl.taste.spicy!⇒tasteSpicy,
+    <br>* McshEngl.Foodtaste.spicy!⇒tasteSpicy,
     <br>====== lagoChinese:
     <br>* McshZhon.là-辣!=tasteSpicy,
     <br>* McshZhon.辣-là!=tasteSpicy,
@@ -579,6 +587,7 @@
     <br>* McshEngl.taste.delicious!⇒delicious,
     <br>====== lagoChinese:
     <br>* McshEngl.AdjeZhon.hǎochī-好吃!=delicious,
+    <br>* McshEngl.Foodtaste.delicious!⇒delicious,
     <br>* McshZhon.hǎochī-好吃!~AdjeZhon!=delicious,
     <br>* McshZhon.好吃-hǎochī!~AdjeZhon!=delicious,
     <br>====== lagoGreek:
@@ -707,6 +716,7 @@
   <p id="idFoodHmnapttnam">name::
     <br>* McshEngl.appetite,
     <br>* McshEngl.human'appetite, /apetαit/!⇒appetite,
+    <br>* McshEngl.food'attMisc'appetite,
     <br>====== lagoGreek:
     <br>* McshElln.όρεξη!=appetite,
     <a class="clsHide" href="#idFoodHmnapttnam"></a></p>
@@ -737,6 +747,7 @@
   <p id="idFoodHmnsciFnam">name::
     <br>* McshEngl.food'science,
     <br>* McshEngl.science.food,
+    <br>* McshEngl.food'info-resource'science,
     <a class="clsHide" href="#idFoodHmnsciFnam"></a></p>
   </section>
 
@@ -751,6 +762,7 @@
   <p id="idFoodHmnchemnam">name::
     <br>* McshEngl.food'chemistry,
     <br>* McshEngl.food-chemistry,
+    <br>* McshEngl.food'info-resource'chemistry,
     <a class="clsHide" href="#idFoodHmnchemnam"></a></p>
   </section>
   </section>
@@ -781,6 +793,7 @@
   <p id="idFoodHmnftfnnam">name::
     <br>* McshEngl.food'enrichment,
     <br>* McshEngl.food'fortification,
+    <br>* McshEngl.food'doing'fortification,
     <a class="clsHide" href="#idFoodHmnftfnnam"></a></p>
   </section>
 
@@ -793,6 +806,7 @@
     <a class="clsHide" href="#idFoodHmnpckgdsn"></a></p>
   <p id="idFoodHmnpckgnam">name::
     <br>* McshEngl.food'packaging,
+    <br>* McshEngl.food'doing'packaging!⇒food'packaging,
     <a class="clsHide" href="#idFoodHmnpckgnam"></a></p>
   </section>
   </section>
@@ -852,43 +866,11 @@
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000012.last.html#idOverview">foodBio</a>,
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idFoodHmngtr"></a></p>
-
-  <section id="idFoodHmnstr">
-  <h2 id="idFoodHmnstrH2">SPECIFIC-TREE of food
-    </h2>
-  <p id="idFoodHmnstrdsn">description::
-    <br>× Mcsh-creation: {2026-05-25}
-    <br>* <a class="clsPreview" href="#idFoodHmn017">drink</a>,
-    <br>* alcoholic-beverage,
-    <br>* frozen,
-    <br>* liquid,
-    <br>* <a class="clsPreview" href="#idFoodHmn049">natural</a>,
-    <br>* <a class="clsPreview" href="#idFoodHmn050">naturalNo</a>,
-    <br>===
-    <br>ο οργανισμός έχει ανάγκη
-    <br>- απο τροφές που παράγουν ενέργεια
-    <br>- από τροφές που χρησιμεύουν στην ανάπλαση των ιστών,
-    <br>- από βιταμίνες και
-    <br>- απο νερό (τόσο όσο χάνει με τα ούρα, τον ιδρώτα και την αναπνοή.
-    <br>[Αργύρης, 1994, 42⧺cptRsc29⧺]
-    <br>===
-    <br>όπως υπάρχουν τρόφιμα που αντέχουν τις πολικές θερμοκρασίες της κατάψυξης, έτσι υπάρχουν και ορισμένα τρόφιμα αν τα βάλουμε στην κατάψυξη «πεθαίνουν» και γίνονται αυτομάτως ακατάλληλα προς κατανάλωση.
-    <br>ποια είναι αυτά; τα ακόλουθα οκτώ:
-    <br>* τυρί και άλλα γαλακτοκομικά προϊόντα,
-    <br>* αβγά,
-    <br>* τηγανητά,
-    <br>* καφές,
-    <br>* μαγειρεμένα ζυμαρικά,
-    <br>* σάλτσες που περιέχουν αλεύρι ή άμυλο καλαμποκιού,
-    <br>* αβοκάντο,
-    <br>* πατάτες,
-    <br>[http://www.altsantiri.gr/health/ta-8-trofima-pou-den-prepi-pote-na-vazoume-stin-katapsixi/]
-    <a class="clsHide" href="#idFoodHmnstrdsn"></a></p>
-  <p id="idFoodHmnstrnam">name::
+  <p id="idFoodHmnstr">specific-tree::
     <br>* McshEngl.food.specific,
     <br>* McshEngl.food-Sptr,
-    <a class="clsHide" href="#idFoodHmnstrnam"></a></p>
-  </section>
+    <br>===
+    <a class="clsHide" href="#idFoodHmnstr"></a></p>
 
   <section id="idFoodHmnScdnSom">
   <h2 id="idFoodHmnScdnSomH2">food.specs-div.state-of-matter
@@ -1057,6 +1039,7 @@
     <br>* McshEngl.food.mainNo-121,
     <br>* McshEngl.mainNo-food,
     <br>* McshEngl.side-dish,
+    <br>* McshEngl.meal'course.mainNo-121,
     <br>====== lagoGreek:
     <br>* McshElln.συνοδευτική-τροφή,
     <a class="clsHide" href="#idFoodHmn121nam"></a></p>
@@ -1275,6 +1258,7 @@
     <br>* McshEngl.foodCooked'att002-ingredient,
     <br>* McshEngl.foodCooked'ingredient,
     <br>* McshEngl.ingredient-of-cooked-food,
+    <br>* McshEngl.recipe'01_ingredient,
     <br>====== lagoGreek:
     <br>* McshElln.συστατικό-συνταγής-μαγειρικής,
     <br>* McshElln.υλικό-συνταγής-μαγειρικής,
@@ -1293,6 +1277,7 @@
     <br>* McshEngl.foodCooked'01_02_method,
     <br>* McshEngl.foodCooked'att003-method,
     <br>* McshEngl.foodCooked'method-att003,
+    <br>* McshEngl.recipe'02_method,
     <br>====== lagoGreek:
     <br>* McshElln.εκτέλεση-συνταγής-μαγειρικής,
     <a class="clsHide" href="#idFoodHmn050att003nam"></a></p>
@@ -1311,6 +1296,7 @@
     <br>* McshEngl.foodCooked'01_03_time,
     <br>* McshEngl.foodCooked'att004-time,
     <br>* McshEngl.foodCooked'time-att004,
+    <br>* McshEngl.recipe'03_time,
     <a class="clsHide" href="#idFoodHmn050att004nam"></a></p>
   </section>
 
@@ -1326,6 +1312,7 @@
     <br>* McshEngl.foodCooked'01_04_human_served,
     <br>* McshEngl.foodCooked'att005-human-served,
     <br>* McshEngl.foodCooked'human-served-att005,
+    <br>* McshEngl.recipe'04_human-served,
     <a class="clsHide" href="#idFoodHmn050att005nam"></a></p>
   </section>
 
@@ -1341,6 +1328,7 @@
     <br>* McshEngl.foodCooked'01_05_skill,
     <br>* McshEngl.foodCooked'att006-skill,
     <br>* McshEngl.foodCooked'skill-att006,
+    <br>* McshEngl.recipe'05_skill,
     <a class="clsHide" href="#idFoodHmn050att006nam"></a></p>
   </section>
   </section>
@@ -1888,6 +1876,7 @@
   <p id="idFoodHmn045nam">name::
     <br>* McshEngl.food.045-fruitarianism,
     <br>* McshEngl.food.fruitarianism-045,
+    <br>* McshEngl.diet.fruitarianism-045,
     <a class="clsHide" href="#idFoodHmn045nam"></a></p>
   </section>
 
@@ -1906,6 +1895,7 @@
     <br>* McshEngl.food.210-ketogenic-diet,
     <br>* McshEngl.food.ketogenic-diet-210,
     <br>* McshEngl.ketogenic-diet-210,
+    <br>* McshEngl.diet.ketogenic-diet-210,
     <a class="clsHide" href="#idFoodHmn210nam"></a></p>
   </section>
   </section>
@@ -2057,6 +2047,7 @@
     <br>* McshEngl.complete-protein-food-211,
     <br>* McshEngl.protein-complete-food-211,
     <br>* McshEngl.whole-protein-food-211,
+    <br>* McshEngl.foodProtein.protein-complete-211,
     <a class="clsHide" href="#idFoodHmn211nam"></a></p>
   </section>
   </section>
@@ -2462,6 +2453,7 @@
     <br>* McshEngl.food.016-infusion-drink!⇒infusion,
     <br>* McshEngl.food.infusion-drink-016!⇒infusion,
     <br>* McshEngl.infusion-drink-016!⇒infusion,
+    <br>* McshEngl.drink.infusion!⇒infusion,
     <br>====== lagoGreek:
     <br>* McshElln.έγχυμα!=infusion,
     <a class="clsHide" href="#idFoodHmn016nam"></a></p>
@@ -2479,6 +2471,7 @@
     <br>* McshEngl.food.029-decoction-drink!⇒decoction,
     <br>* McshEngl.food.decoction-drink-029!⇒decoction,
     <br>* McshEngl.decoction-drink-029!⇒decoction,
+    <br>* McshEngl.drink.decoction!⇒decoction,
     <br>====== lagoGreek:
     <br>* McshElln.αφέψημα!=decoction,
     <a class="clsHide" href="#idFoodHmn029nam"></a></p>
@@ -2497,6 +2490,7 @@
     <br>* McshEngl.beverage!⇒drinkBeverage,
     <br>* McshEngl.food.020-beverage!⇒drinkBeverage,
     <br>* McshEngl.food.beverage-020!⇒drinkBeverage,
+    <br>* McshEngl.drink.beverage!⇒drinkBeverage,
     <br>====== lagoChinese:
     <br>* McshZhon.yǐnliào-饮料!=drinkBeverage,
     <br>* McshZhon.饮料-yǐnliào!=drinkBeverage,
@@ -2604,6 +2598,7 @@
     <br>* McshEngl.food.021-carbonated-beverage,
     <br>* McshEngl.food.carbonated-beverage-021,
     <br>* McshEngl.soda-drink,
+    <br>* McshEngl.drink.beverage.carbonated,
     <a class="clsHide" href="#idFoodHmn021nam"></a></p>
   </section>
 
@@ -2903,6 +2898,7 @@
   <p id="idFoodHmn024nam">name::
     <br>* McshEngl.food.024-soft-drink,
     <br>* McshEngl.food.soft-drink-024,
+    <br>* McshEngl.drink.beverage.soft,
     <a class="clsHide" href="#idFoodHmn024nam"></a></p>
 
   <section id="idFoodHmn025">
@@ -3065,6 +3061,7 @@
     <br>* McshEngl.food.cocoa-014,
     <br>* McshEngl.cocoa,
     <br>* McshEngl.cocoa-drink,
+    <br>* McshEngl.drink.cocoa,
     <br>====== lagoGreek:
     <br>* McshElln.κακάο,
     <a class="clsHide" href="#idFoodHmn014nam"></a></p>
@@ -3131,6 +3128,7 @@
     <a class="clsHide" href="#idFoodHmn014measurecaloriedsn"></a></p>
   <p id="idFoodHmn014measurecalorienam">name::
     <br>* McshEngl.drinkCocoa'calorie,
+    <br>* McshEngl.drinkCocoa'measure'calorie!⇒drinkCocoa'calorie,
     <a class="clsHide" href="#idFoodHmn014measurecalorienam"></a></p>
   </section>
 
@@ -3143,6 +3141,7 @@
     <a class="clsHide" href="#idFoodHmn014measuredishdsn"></a></p>
   <p id="idFoodHmn014measuredishnam">name::
     <br>* McshEngl.drinkCocoa'dish,
+    <br>* McshEngl.drinkCocoa'measure'dish!⇒drinkCocoa'dish,
     <a class="clsHide" href="#idFoodHmn014measuredishnam"></a></p>
   </section>
 
@@ -3155,6 +3154,7 @@
     <a class="clsHide" href="#idFoodHmn014measuretimedsn"></a></p>
   <p id="idFoodHmn014measuretimenam">name::
     <br>* McshEngl.drinkCocoa'time,
+    <br>* McshEngl.drinkCocoa'measure'time!⇒drinkCocoa'time,
     <a class="clsHide" href="#idFoodHmn014measuretimenam"></a></p>
   </section>
   </section>
@@ -3188,6 +3188,7 @@
     <br>* McshEngl.coffee-drink!⇒drinkCoffee,
     <br>* McshEngl.food.coffee!⇒drinkCoffee,
     <br>* McshEngl.food.drink.beverage.coffee!⇒drinkCoffee,
+    <br>* McshEngl.drink.coffee!⇒drinkCoffee,
     <br>====== lagoChinese:
     <br>* McshZhon.kāfēi-咖啡!=drinkCoffee,
     <br>* McshZhon.咖啡-kāfēi!=drinkCoffee,
@@ -3262,6 +3263,7 @@
     <br>* McshEngl.food.027-coffee.decaffeinated,
     <br>* McshEngl.food.coffee.decaffeinated-027,
     <br>* McshEngl.coffee.decaffeinated,
+    <br>* McshEngl.drinkCoffee.decaffeinated,
     <a class="clsHide" href="#idFoodHmn027nam"></a></p>
   </section>
   </section>
@@ -3278,6 +3280,7 @@
     <br>* McshEngl.food.028-tea,
     <br>* McshEngl.food.tea-028,
     <br>* McshEngl.tea/tii/,
+    <br>* McshEngl.drink.tea,
     <br>====== lagoChinese:
     <br>* McshZhon.chα-茶/ccʰaα/!=drinkTea,
     <br>* McshZhon.chα-茶!=drinkTea,
@@ -3342,6 +3345,7 @@
     <br>* McshEngl.food.030-energy-drink,
     <br>* McshEngl.food.energy-drink-030,
     <br>* McshEngl.energy-drink,
+    <br>* McshEngl.drink.energy,
     <a class="clsHide" href="#idFoodHmn030nam"></a></p>
   </section>
 
@@ -3357,6 +3361,7 @@
     <br>* McshEngl.food.031-vinegar!⇒drinkVinegar,
     <br>* McshEngl.food.vinegar-031!⇒drinkVinegar,
     <br>* McshEngl.vinegar!⇒drinkVinegar,
+    <br>* McshEngl.drink.vinegar!⇒drinkVinegar,
     <br>====== lagoGreek:
     <br>* McshElln.τροφή.ξύδι!=drinkVinegar,
     <br>* McshElln.ξύδι!=drinkVinegar,
@@ -3388,6 +3393,7 @@
     <a class="clsHide" href="#idFoodHmn031usesdsn"></a></p>
   <p id="idFoodHmn031usesnam">name::
     <br>* McshEngl.drinkVinegra'uses,
+    <br>* McshEngl.drinkVinegar'uses!⇒drinkVinegra'uses,
     <a class="clsHide" href="#idFoodHmn031usesnam"></a></p>
   </section>
   </section>
@@ -3410,6 +3416,7 @@
     <br>* McshEngl.foodWater!⇒drinkWater,
     <br>* McshEngl.water.drink!⇒drinkWater,
     <br>* McshEngl.water.drinking!⇒drinkWater,
+    <br>* McshEngl.drink.water!⇒drinkWater,
     <br>====== lagoChinese:
     <br>* McshZhon.shuǐ-水!=drinkWater,
     <br>* McshZhon.水-shuǐ!=drinkWater,
@@ -3572,6 +3579,7 @@
     <br>* McshEngl.desalinated-water,
     <br>* McshEngl.drinkWaterDesalinated,
     <br>* McshEngl.water-desalinated,
+    <br>* McshEngl.drinkWater.desalinated,
     <br>====== lagoGreek:
     <br>* McshElln.αφαλατισμένο-νερό,
     <a class="clsHide" href="#idFoodHmn034nam"></a></p>
@@ -3678,6 +3686,7 @@
   <p id="idFoodHmn035nam">name::
     <br>* McshEngl.food.035-water.fluricated,
     <br>* McshEngl.food.water.fluricated-035,
+    <br>* McshEngl.drinkWater.fluridated,
     <a class="clsHide" href="#idFoodHmn035nam"></a></p>
   </section>
 
@@ -3699,6 +3708,7 @@
   <p id="idFoodHmn036nam">name::
     <br>* McshEngl.food.036-water.fresh,
     <br>* McshEngl.food.water.fresh-036,
+    <br>* McshEngl.drinkWater.fresh,
     <a class="clsHide" href="#idFoodHmn036nam"></a></p>
   </section>
 
@@ -3809,6 +3819,7 @@
     <br>* McshEngl.food.152-wine!⇒drinkWine,
     <br>* McshEngl.food.wine-152!⇒drinkWine,
     <br>* McshEngl.wine!⇒drinkWine,
+    <br>* McshEngl.drink.wine-152!⇒drinkWine,
     <br>====== lagoChinese:
     <br>* McshZhon.pútáojiǔ-葡萄酒!=drinkWine,
     <br>* McshZhon.葡萄酒-pútáojiǔ!=drinkWine,
@@ -4418,6 +4429,7 @@
     <br>* McshEngl.food.158-wine.verdéa,
     <br>* McshEngl.food.wine.verdéa-158,
     <br>* McshEngl.wine.verdéa-158,
+    <br>* McshEngl.drinkWine.βερντέα,
     <a class="clsHide" href="#idFoodHmn158nam"></a></p>
   </section>
 
@@ -4433,6 +4445,7 @@
     <br>* McshEngl.food.159-wine.recína,
     <br>* McshEngl.food.wine.recína-159,
     <br>* McshEngl.wine.recína-159,
+    <br>* McshEngl.drinkWine.ρετσίνα,
     <a class="clsHide" href="#idFoodHmn159nam"></a></p>
   </section>
 
@@ -4447,6 +4460,7 @@
     <br>* McshEngl.food.160-wine.robσla,
     <br>* McshEngl.food.wine.robσla-160,
     <br>* McshEngl.wine.robσla-160,
+    <br>* McshEngl.drinkWine.ρομπόλα,
     <a class="clsHide" href="#idFoodHmn160nam"></a></p>
   </section>
   </section>
@@ -4465,6 +4479,7 @@
     <br>* McshEngl.food.191-milk!⇒foodMilk,
     <br>* McshEngl.food.milk-191!⇒foodMilk,
     <br>* McshEngl.milk!⇒foodMilk,
+    <br>* McshEngl.drink.milk-191!⇒foodMilk,
     <br>====== lagoChinese:
     <br>* McshZhon.niúnǎi:杯-bēi-牛奶!=foodMilk,
     <br>* McshZhon.牛奶-niúnǎi:杯-bēi!=foodMilk,
@@ -4572,24 +4587,24 @@
     <a class="clsHide" href="#idFoodHmn039nam"></a></p>
 
   <section id="idFoodHmn039gstr">
-  <h2 id="idFoodHmn039gstrH2">GENERIC-SPECIFIC-TREE of flavoringNaturalDriedNo
+  <h2 id="idFoodHmn039gstrH2">GENERIC-SPECIFIC-TREE of foodFlavoring
     </h2>
   <p id="idFoodHmn039gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idFoodHmn039gstrdsn"></a></p>
   <p id="idFoodHmn039gstrnam">name::
-    <br>* McshEngl.flavoringNaturalDriedNo'generic-specific-tree,
-    <br>* McshEngl.flavoringNaturalDriedNo'specific-generic-tree,
+    <br>* McshEngl.foodFlavoring'generic-specific-tree,
+    <br>* McshEngl.foodFlavoring'specific-generic-tree,
     <a class="clsHide" href="#idFoodHmn039gstrnam"></a></p>
   <p id="idFoodHmn039gtr">generic-tree::
-    <br>* McshEngl.flavoringNaturalDriedNo-Gntr,
+    <br>* McshEngl.foodFlavoring-Gntr,
     <br>===
     <br>* <a class="clsPreview" href="#idFoodHmn049">natural-food</a>,
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idFoodHmn039gtr"></a></p>
   <p id="idFoodHmn039str">specific-tree::
-    <br>* McshEngl.flavoringNaturalDriedNo.specific,
-    <br>* McshEngl.flavoringNaturalDriedNo-Sptr,
+    <br>* McshEngl.foodFlavoring.specific,
+    <br>* McshEngl.foodFlavoring-Sptr,
     <br>===
     <br>saffron (κρόκος),
     <br>===
@@ -4635,6 +4650,7 @@
     <br>* McshEngl.food.040-garlic,
     <br>* McshEngl.food.garlic-040,
     <br>* McshEngl.garlic,
+    <br>* McshEngl.foodFlavoring.garlic-040,
     <br>====== lagoGreek:
     <br>* McshElln.σκόρδο,
     <a class="clsHide" href="#idFoodHmn040nam"></a></p>
@@ -4749,6 +4765,7 @@
     <br>* McshEngl.food.ginger-041,
     <br>* McshEngl.foodGinger,
     <br>* McshEngl.ginger.food,
+    <br>* McshEngl.foodFlavoring.ginger-041,
     <br>====== lagoGreek:
     <br>* McshElln.ζιντεμέλ,
     <br>* McshElln.πιπερόριζα,
@@ -4835,6 +4852,7 @@
     <br>* McshEngl.food.042-oregano,
     <br>* McshEngl.food.oregano-042,
     <br>* McshEngl.oregano,
+    <br>* McshEngl.foodFlavoring.oregano-042,
     <br>====== lagoGreek:
     <br>* McshElln.ρίγανη,
     <a class="clsHide" href="#idFoodHmn042nam"></a></p>
@@ -5318,6 +5336,7 @@
     <br>* McshEngl.food.062-hamburger-sandwich,
     <br>* McshEngl.food.hamburger-sandwich-062,
     <br>* McshEngl.hamburger-sandwich,
+    <br>* McshEngl.sandwitc.hamburger,
     <a class="clsHide" href="#idFoodHmn062nam"></a></p>
   <p id="idFoodHmn062P1">One Hamburger Contains the Meat of How Many Cows?
     <br>Just one hamburger can contain the meat from more than 100 different cows.
@@ -5917,6 +5936,7 @@
     <a class="clsHide" href="#idFoodHmnvgrnhmndsn"></a></p>
   <p id="idFoodHmnvgrnhmnnam">name::
     <br>* McshEngl.human.vegetarian,
+    <br>* McshEngl.foodVegetable.vegetarian!⇒human.vegetarian,
     <a class="clsHide" href="#idFoodHmnvgrnhmnnam"></a></p>
   </section>
 
@@ -6557,6 +6577,7 @@
     <br>* McshEngl.anthótiro,
     <br>* McshEngl.food.093-cheese.anthótiro,
     <br>* McshEngl.food.cheese.anthotiro-093,
+    <br>* McshEngl.cheese.ανθότυρο,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.ανθότυρο,
     <a class="clsHide" href="#idFoodHmn093nam"></a></p>
@@ -6577,6 +6598,7 @@
   <p id="idFoodHmn094nam">name::
     <br>* McshEngl.food.094-cheese.yravyyéra,
     <br>* McshEngl.gravgéra,
+    <br>* McshEngl.cheese.γραβιέρα,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.γραβιέρα,
     <a class="clsHide" href="#idFoodHmn094nam"></a></p>
@@ -6595,6 +6617,7 @@
   <p id="idFoodHmn095nam">name::
     <br>* McshEngl.food.095-cheese.kaséri,
     <br>* McshEngl.food.cheese.kaséri-095,
+    <br>* McshEngl.cheese.κασέρι,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.κασέρι,
     <a class="clsHide" href="#idFoodHmn095nam"></a></p>
@@ -6611,6 +6634,7 @@
   <p id="idFoodHmn096nam">name::
     <br>* McshEngl.food.096-cheese.kefaloyravyyéra,
     <br>* McshEngl.food.cheese.kefaloyravyyéra-096,
+    <br>* McshEngl.cheese.κεφαλογραβιέρα,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.κεφαλογραβιέρα,
     <a class="clsHide" href="#idFoodHmn096nam"></a></p>
@@ -6626,6 +6650,7 @@
   <p id="idFoodHmn097nam">name::
     <br>* McshEngl.food.097-cheese.kefalotíri,
     <br>* McshEngl.food.cheese.kefalotíri-097,
+    <br>* McshEngl.cheese.κεφαλοτύρι,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.κεφαλοτύρι,
     <a class="clsHide" href="#idFoodHmn097nam"></a></p>
@@ -6640,6 +6665,7 @@
   <p id="idFoodHmn098nam">name::
     <br>* McshEngl.food.098-cheese.kopanistí,
     <br>* McshEngl.food.cheese.kopanistí-098,
+    <br>* McshEngl.cheese.κοπανιστή,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.κοπανιστή,
     <a class="clsHide" href="#idFoodHmn098nam"></a></p>
@@ -6655,6 +6681,7 @@
   <p id="idFoodHmn099nam">name::
     <br>* McshEngl.food.099-cheese.manúri,
     <br>* McshEngl.food.cheese.manúri-099,
+    <br>* McshEngl.cheese.μανούρι,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.μανούρι,
     <a class="clsHide" href="#idFoodHmn099nam"></a></p>
@@ -6670,6 +6697,7 @@
   <p id="idFoodHmn100nam">name::
     <br>* McshEngl.food.100-cheese.mizíthra,
     <br>* McshEngl.food.cheese.mizíthra-100,
+    <br>* McshEngl.cheese.μυζήθρα,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.μυζήθρα,
     <a class="clsHide" href="#idFoodHmn100nam"></a></p>
@@ -6687,6 +6715,7 @@
   <p id="idFoodHmn101nam">name::
     <br>* McshEngl.food.101-cheese.parmesan,
     <br>* McshEngl.food.cheese.parmesan-101,
+    <br>* McshEngl.cheese.παρμεζάνα,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.παρμεζάνα,
     <a class="clsHide" href="#idFoodHmn101nam"></a></p>
@@ -6702,6 +6731,7 @@
   <p id="idFoodHmn102nam">name::
     <br>* McshEngl.food.102-cheese.telemés,
     <br>* McshEngl.food.cheese.telemés-102,
+    <br>* McshEngl.cheese.τελεμές,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.τελεμές,
     <a class="clsHide" href="#idFoodHmn102nam"></a></p>
@@ -6717,6 +6747,7 @@
   <p id="idFoodHmn103nam">name::
     <br>* McshEngl.food.103-cheese.tulumotíri,
     <br>* McshEngl.food.cheese.tulumotíri-103,
+    <br>* McshEngl.cheese.τουλουμοτύρι,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.τουλουμοτύρι,
     <a class="clsHide" href="#idFoodHmn103nam"></a></p>
@@ -6732,6 +6763,7 @@
   <p id="idFoodHmn104nam">name::
     <br>* McshEngl.food.104-cheese.féta,
     <br>* McshEngl.food.cheese.féta-104,
+    <br>* McshEngl.cheese.φετα,
     <br>====== lagoGreek:
     <br>* McshElln.τυρί.φέτα,
     <a class="clsHide" href="#idFoodHmn104nam"></a></p>
@@ -7018,6 +7050,7 @@
     <br>* McshEngl.food.108-berry,
     <br>* McshEngl.food.berry-108,
     <br>* McshEngl.berry,
+    <br>* McshEngl.foodFruit.berry,
     <a class="clsHide" href="#idFoodHmn108nam"></a></p>
   </section>
 
@@ -7034,6 +7067,7 @@
     <br>* McshEngl.food.109-culinary-fruit,
     <br>* McshEngl.food.culinary-fruit-109,
     <br>* McshEngl.culinary-fruit,
+    <br>* McshEngl.foodFruit.culinary,
     <br>====== lagoGreek:
     <br>* McshElln.μαγειρικής-φρούτα,
     <a class="clsHide" href="#idFoodHmn109nam"></a></p>
@@ -7052,6 +7086,7 @@
     <br>* McshEngl.foodNuts,
     <br>* McshEngl.food.110-nuts!⇒foodNuts,
     <br>* McshEngl.food.nuts-110!⇒foodNuts,
+    <br>* McshEngl.foodFruit.nuts!⇒foodNuts,
     <br>====== lagoGreek:
     <br>* McshElln.ξηροί-καρποί!=foodNuts,
     <br>* McshElln.ξηρός-καρπός!=foodNuts,
@@ -7152,6 +7187,7 @@
     <br>* McshEngl.food.111-cashews,
     <br>* McshEngl.food.cashews-111,
     <br>* McshEngl.cashews,
+    <br>* McshEngl.foodNuts.cashews,
     <a class="clsHide" href="#idFoodHmn111nam"></a></p>
   </section>
 
@@ -7178,6 +7214,7 @@
     <br>* McshEngl.food.112-hazelnut,
     <br>* McshEngl.food.hazelnut-112,
     <br>* McshEngl.hazelnut,
+    <br>* McshEngl.foodNuts.hazelnut,
     <br>====== lagoGreek:
     <br>* McshElln.φουντούκια,
     <a class="clsHide" href="#idFoodHmn112nam"></a></p>
@@ -7194,6 +7231,7 @@
     <br>* McshEngl.food.113-peanuts,
     <br>* McshEngl.food.peanuts-113,
     <br>* McshEngl.foodPeanuts,
+    <br>* McshEngl.foodNuts.peanuts,
     <br>====== lagoGreek:
     <br>* McshElln.φυστίκια,
     <a class="clsHide" href="#idFoodHmn113nam"></a></p>
@@ -7280,6 +7318,7 @@
     <br>* McshEngl.food.114-walnut,
     <br>* McshEngl.food.walnut-114,
     <br>* McshEngl.walnut,
+    <br>* McshEngl.foodNuts.walnut,
     <br>====== lagoGreek:
     <br>* McshElln.καρύδια,
     <a class="clsHide" href="#idFoodHmn114nam"></a></p>
@@ -7336,6 +7375,7 @@
     <br>* McshEngl.food.116-pomegranate,
     <br>* McshEngl.food.pomegranate-116,
     <br>* McshEngl.pomegranate,
+    <br>* McshEngl.foodFruit.pomegranate,
     <br>====== lagoGreek:
     <br>* McshElln.ρόδι,
     <a class="clsHide" href="#idFoodHmn116nam"></a></p>
@@ -7431,6 +7471,7 @@
     <br>* McshEngl.food.118-tomato-fruit,
     <br>* McshEngl.food.tomato-fruit-118,
     <br>* McshEngl.tomato-fruit,
+    <br>* McshEngl.foodFruit.tomato,
     <a class="clsHide" href="#idFoodHmn118nam"></a></p>
   </section>
 
@@ -7454,6 +7495,7 @@
     <br>* McshEngl.food.119-watermelon,
     <br>* McshEngl.food.watermelon-119,
     <br>* McshEngl.watermelon,
+    <br>* McshEngl.foodFruit.watermelon,
     <a class="clsHide" href="#idFoodHmn119nam"></a></p>
   </section>
 
@@ -7540,6 +7582,7 @@
     <br>* McshEngl.orange,
     <br>====== lagoChinese:
     <br>* McshEngl.júzi-橘子!=fruitOrange,
+    <br>* McshEngl.foodFruit.orange,
     <br>====== lagoGreek:
     <br>* McshElln.πορτοκάλι!το!=fruitOrange, {2013-02-10},
     <a class="clsHide" href="#idFoodHmn190nam"></a></p>
@@ -7570,6 +7613,7 @@
     <br>* McshEngl.food.212-cucumber!⇒fruitCucumber,
     <br>* McshEngl.food.cucumber-212!⇒fruitCucumber,
     <br>* McshEngl.cucumber-fruit-212!⇒fruitCucumber,
+    <br>* McshEngl.foodFruit.cucumber!⇒fruitCucumber,
     <a class="clsHide" href="#idFoodHmn212nam"></a></p>
   </section>
   </section>
@@ -8847,6 +8891,7 @@
     <br>* McshEngl.food.144-meat.kokinistó!⇒meatReddish,
     <br>* McshEngl.food.meat.kokinistó-144!⇒meatReddish,
     <br>* McshEngl.meat.kokinistó!⇒meatReddish,
+    <br>* McshEngl.foodMeat.with-red-sauce!⇒meatReddish,
     <br>====== lagoGreek:
     <br>* McshElln.κρέας-κοκκινιστό!=meatReddish,
     <br>* McshElln.κρέας.κοκκινιστό!=meatReddish,
@@ -8938,6 +8983,7 @@
     <br>* McshEngl.food.calf-reddish-145!⇒calf_reddish,
     <br>* McshEngl.calf-reddish-145!⇒calf_reddish,
     <br>* McshEngl.meatCalfReddish-145!⇒calf_reddish,
+    <br>* McshEngl.foodMeat.calf-reddish!⇒calf_reddish,
     <br>====== lagoGreek:
     <br>* McshElln.μοσχάρι-κοκκινιστό!=calf_reddish,
     <a class="clsHide" href="#idFoodHmn145nam"></a></p>
@@ -8955,6 +9001,7 @@
     <br>* McshEngl.food.146-chicken!⇒meatChicken,
     <br>* McshEngl.food.chicken-146!⇒meatChicken,
     <br>* McshEngl.chickenFood!⇒meatChicken,
+    <br>* McshEngl.foodMeat.chicken!⇒meatChicken,
     <br>====== lagoChinese:
     <br>* McshZhon.jīròu-鸡肉!=meatChicken,
     <br>* McshZhon.鸡肉-jīròu!=meatChicken,
@@ -9005,6 +9052,7 @@
   <p id="idFoodHmn146001nam">name::
     <br>* McshEngl.chickenRoast,
     <br>* McshEngl.roast-chicken,
+    <br>* McshEngl.meatChicken.roast,
     <br>====== lagoGreek:
     <br>* McshElln.κοτόπουλο.ψητό,
     <a class="clsHide" href="#idFoodHmn146001nam"></a></p>
@@ -9026,6 +9074,7 @@
   <p id="idFoodHmn146002nam">name::
     <br>* McshEngl.chickenSoup,
     <br>* McshEngl.chicken-soup,
+    <br>* McshEngl.meatChicken.soup,
     <br>====== lagoGreek:
     <br>* McshElln.κοτόπουλο.σούπα,
     <a class="clsHide" href="#idFoodHmn146002nam"></a></p>
@@ -9047,6 +9096,7 @@
     <br>* McshEngl.foodDuckRoast!⇒meatDuckRoast,
     <br>* McshEngl.meat.duck-roast!⇒meatDuckRoast,
     <br>* McshEngl.roast-duck!⇒meatDuckRoast,
+    <br>* McshEngl.foodMeat.duck-roast!⇒meatDuckRoast,
     <br>====== lagoChinese:
     <br>* McshZhon.kǎoyā-烤鸭!=meatDuckRoast,
     <br>* McshZhon.烤鸭-kǎoyā!=meatDuckRoast,
@@ -9067,6 +9117,7 @@
     <br>* McshEngl.food.meat-with-lemon-147,
     <br>* McshEngl.meat-with-lemon,
     <br>* McshEngl.meatLemonish,
+    <br>* McshEngl.foodMeat.with-lemon,
     <br>====== lagoGreek:
     <br>* McshElln.κρέας-λεμονάτο,
     <br>* McshElln.κρέας.λεμονάτο,
@@ -9123,6 +9174,7 @@
     <br>* McshEngl.foodSteak!⇒meatSteak,
     <br>* McshEngl.chop!⇒meatSteak,
     <br>* McshEngl.steak!⇒meatSteak,
+    <br>* McshEngl.foodMeat.steak!⇒meatSteak,
     <br>====== lagoChinese:
     <br>* McshZhon.niúpái-牛排!=meatSteak,
     <br>* McshZhon.牛排-niúpái!=meatSteak,
@@ -9216,6 +9268,7 @@
     <br>* McshEngl.food.149-tas-kebab,
     <br>* McshEngl.food.tas-kebab-149,
     <br>* McshEngl.meatKebab,
+    <br>* McshEngl.foodMeat.tas-kebab,
     <br>====== lagoGreek:
     <br>* McshElln.τας-κεμπαπ,
     <br>* McshElln.τασκεμπαπ,
@@ -9305,6 +9358,7 @@
     <br>* McshEngl.food.150-beef-fillet,
     <br>* McshEngl.food.beef-fillet-150,
     <br>* McshEngl.meatBeefFillet,
+    <br>* McshEngl.foodMeat.beef-fillet,
     <br>====== lagoGreek:
     <br>* McshElln.φιλετο-μοσχαρίσιο,
     <a class="clsHide" href="#idFoodHmn150nam"></a></p>
@@ -9417,6 +9471,7 @@
     <br>* McshEngl.food.227-fish!⇒foodFish,
     <br>* McshEngl.food.fish!⇒foodFish,
     <br>* McshEngl.meat.fish!⇒foodFish,
+    <br>* McshEngl.foodMeat.fish!⇒foodFish,
     <br>====== lagoChinese:
     <br>* McshZhon.yúròu-鱼肉!=foodFish,
     <br>* McshZhon.鱼肉-yúròu!=foodFish,
@@ -9527,6 +9582,7 @@
     <br>* McshEngl.food.Knorr-soup-176,
     <br>* McshEngl.foodSoupKnorr,
     <br>* McshEngl.Knorr-soup,
+    <br>* McshEngl.foodSoup.knorr-soup-176,
     <br>====== lagoGreek:
     <br>* McshElln.σούπα-κνορ,
     <a class="clsHide" href="#idFoodHmn176nam"></a></p>
@@ -9548,6 +9604,7 @@
     <br>* McshEngl.food.avgolemono-185,
     <br>* McshEngl.avgolemono,
     <br>* McshEngl.foodSoupAvgolemono,
+    <br>* McshEngl.foodSoup.avgolemono-185,
     <br>====== lagoGreek:
     <br>* McshElln.σούπα-αυγοκομενη,
     <a class="clsHide" href="#idFoodHmn185nam"></a></p>
@@ -10450,6 +10507,7 @@
     <br>* McshEngl.food.ice-cream!⇒sweetIcecream,
     <br>* McshEngl.ice-cream!⇒sweetIcecream,
     <br>* McshEngl.sweet.ice-cream!⇒sweetIcecream,
+    <br>* McshEngl.foodDessert.ice-cream!⇒sweetIcecream,
     <br>====== lagoChinese:
     <br>* McshZhon.bīngqílín-冰淇淋!=sweetIcecream,
     <br>* McshZhon.冰淇淋-bīngqílín!=sweetIcecream,
@@ -10477,6 +10535,7 @@
     <br>* McshEngl.food.chocolate-202!⇒chocolate,
     <br>====== lagoChinese:
     <br>* McshEngl.qiǎokθlμ-巧克力:块-kuài!=chocolate,
+    <br>* McshEngl.foodDessert.chocolate!⇒chocolate,
     <br>* McshZhon.qiǎokθlμ-巧克力:颗-kē!=chocolate,
     <br>* McshZhon.qiǎokθlμ:块-kuài-巧克力!=chocolate,
     <br>* McshZhon.巧克力-qiǎokθlμ:块-kuài!=chocolate,
@@ -10573,6 +10632,7 @@
     <br>* McshEngl.food.203-sweet.yogurt-lemon,
     <br>* McshEngl.food.sweet.yogurt-lemon-203,
     <br>* McshEngl.sweet.yogurt-lemon-203,
+    <br>* McshEngl.foodDessert.γιαουρτολέμονο,
     <br>====== lagoGreek:
     <br>* McshElln.γιαουρτολέμονο!το,
     <a class="clsHide" href="#idFoodHmn203nam"></a></p>
@@ -10593,6 +10653,7 @@
     <br>* McshEngl.food.204-citrus-jam!⇒dessertJamCitrus,
     <br>* McshEngl.food.citrus-jam-204!⇒dessertJamCitrus,
     <br>* McshEngl.citrus-jam!⇒dessertJamCitrus,
+    <br>* McshEngl.foodDessert.citrus-jam!⇒dessertJamCitrus,
     <br>====== lagoGreek:
     <br>* McshElln.κιτρο-μαρμελαδα!=dessertJamCitrus,
     <a class="clsHide" href="#idFoodHmn204nam"></a></p>
@@ -10649,6 +10710,7 @@
     <br>* McshEngl.food.205-halva-with-icecream,
     <br>* McshEngl.food.halva-with-icecream-205,
     <br>* McshEngl.halva-with-icecream,
+    <br>* McshEngl.foodDessert.halva-with-icecream,
     <br>====== lagoGreek:
     <br>* McshElln.χαλβας-με-παγωτο,
     <a class="clsHide" href="#idFoodHmn205nam"></a></p>
@@ -10863,6 +10925,7 @@
     <br>* McshEngl.food.183-lettuce-salad!⇒foodSaladLettuce,
     <br>* McshEngl.food.lettuce-salad-183!⇒foodSaladLettuce,
     <br>* McshEngl.lettuce-salad!⇒foodSaladLettuce,
+    <br>* McshEngl.foodSalad.lettuce-salad-183!⇒foodSaladLettuce,
     <br>====== lagoGreek:
     <br>* McshElln.σαλάτα-μαρούλι!=foodSaladLettuce,
     <br>* McshElln.μαρούλι-σαλάτα!=foodSaladLettuce,
@@ -10901,6 +10964,7 @@
     <br>* McshEngl.food.bean-salad-188,
     <br>* McshEngl.foodSaladBean,
     <br>* McshEngl.bean-salad,
+    <br>* McshEngl.foodSalad.bean-salad-188,
     <br>====== lagoGreek:
     <br>* McshElln.φασόλια-σαλάτα,
     <a class="clsHide" href="#idFoodHmn188nam"></a></p>
@@ -10936,6 +11000,7 @@
     <br>* McshEngl.food.greens-124,
     <br>* McshEngl.foodGreens,
     <br>* McshEngl.greens,
+    <br>* McshEngl.foodSalad.greens-124,
     <br>====== lagoGreek:
     <br>* McshElln.χόρτα,
     <a class="clsHide" href="#idFoodHmn124nam"></a></p>
@@ -11033,6 +11098,7 @@
     <br>* McshEngl.food.tahini-salad-208,
     <br>* McshEngl.foodSaladTahini,
     <br>* McshEngl.tahini-salad,
+    <br>* McshEngl.foodSalad.tahini-salad-208,
     <br>====== lagoGreek:
     <br>* McshElln.ταχινοσαλάτα,
     <a class="clsHide" href="#idFoodHmn208nam"></a></p>
@@ -11093,6 +11159,7 @@
     <br>* McshEngl.food.potato-salad-180,
     <br>* McshEngl.foodSaladPotato,
     <br>* McshEngl.potato-salad,
+    <br>* McshEngl.foodSalad.potato-salad-180,
     <br>====== lagoGreek:
     <br>* McshElln.πατάτες-σαλάτα,
     <br>* McshElln.πατατοσαλάτα,
@@ -11129,6 +11196,7 @@
     <br>* McshEngl.food.pepper-181,
     <br>* McshEngl.foodPepper,
     <br>* McshEngl.pepper-fruit,
+    <br>* McshEngl.foodSalad.pepper-181,
     <br>====== lagoGreek:
     <br>* McshElln.πιπεριές,
     <a class="clsHide" href="#idFoodHmn181nam"></a></p>
@@ -11191,11 +11259,11 @@
     <br>* McshEngl.foodPepper.specific,
     <br>* McshEngl.foodPepper-Sptr,
     <br>===
-    <br>κοκινες πιπεριές σαλάτα:
-    <br>τις ψηνω στο γκριλ.. μετά τις ξεφλουδιζω.. βαζω λάδι και ξύδι.
+    <br>* κόκινες-πιπεριές-σαλάτα:
+    <br>· τις ψηνω στο γκριλ.. μετά τις ξεφλουδιζω.. βαζω λάδι και ξύδι.
+    <br>===
+    <br>* πράσινες-μακρόστενες-τηγανιτές,
     <a class="clsHide" href="#idFoodHmn181str"></a></p>
-  <p id="idFoodHmn181SPECIFICP1">πρασινες μάκροστενες τηγανιτες::
-    <a class="clsHide" href="#idFoodHmn181SPECIFICP1"></a></p>
   </section>
   </section>
   </section>

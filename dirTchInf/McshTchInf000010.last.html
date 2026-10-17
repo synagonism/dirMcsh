@@ -251,7 +251,7 @@
     <a class="clsHide" href="#idLJsgnsutnamecod"></a></p>
 
   <section id="idLJsgnsutnamExl">
-  <h3 id="idLJsgnsutnamExlH3">Jssut-name.EXTERNAL (reference)
+  <h3 id="idLJsgnsutnamExlH3">Jssut_name.EXTERNAL (reference)
     </h3>
   <p id="idLJsgnsutnamExldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -269,15 +269,16 @@
     <br>* McshEngl.Jsgn_lago'reference,
     <br>* McshEngl.Jsgn_lago'reference-name,
     <br>* McshEngl.Jssut'reference-name,
-    <br>* Jssut-name.external,
-    <br>* Jssut-name.reference,
     <br>* McshEngl.Jsgn_lago'variable-name,
     <br>* McshEngl.Jsgn_lago'variable-reference,
+    <br>* McshEngl.Jsgn_name.external,
     <br>* McshEngl.reference-name--of--semantic-unit//JavaScript,
+    <br>* Jssut-name.external,
+    <br>* Jssut-name.reference,
     <a class="clsHide" href="#idLJsgnsutnamExlnam"></a></p>
 
   <section id="idLJsgnsutnamExlTyp">
-  <h4 id="idLJsgnsutnamExlTypH4">Jssut-name.external.TYPENAME
+  <h4 id="idLJsgnsutnamExlTypH4">Jssut_name.external.TYPENAME
     </h4>
   <p id="idLJsgnsutnamExlTypdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -298,6 +299,7 @@
     <a class="clsHide" href="#idLJsgnsutnamExlTypdsn"></a></p>
   <p id="idLJsgnsutnamExlTypnam">name::
     <br>* McshEngl.Jsgntypename,
+    <br>* McshEngl.Jsgn_name.external.type!⇒Jsgntypename,
     <br>* McshEngl.Jsgn_lago'typename!⇒Jsgntypename,
     <br>* McshEngl.Jsgn_lago'valuename!⇒Jsgntypename,
     <br>* McshEngl.typename//JavaScript!⇒Jsgntypename,
@@ -307,7 +309,7 @@
   </section>
 
   <section id="idLJsgnsutnamInl">
-  <h3 id="idLJsgnsutnamInlH3">Jssut-name.INTERNAL
+  <h3 id="idLJsgnsutnamInlH3">Jssut_name.INTERNAL
     </h3>
   <p id="idLJsgnsutnamInldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -320,6 +322,7 @@
   <p id="idLJsgnsutnamInlnam">name::
     <br>* McshEngl.internal-name--of--semantic-unit//JavaScript,
     <br>* McshEngl.Jssut'internal-name,
+    <br>* McshEngl.Jssut_name.INTERNAL,
     <br>* Jssut-name.Internal,
     <a class="clsHide" href="#idLJsgnsutnamInlnam"></a></p>
   </section>
@@ -358,6 +361,7 @@
     <br>* McshEngl.Jsgnscope,
     <br>* McshEngl.Jsgn_lago'scope!⇒Jsgnscope,
     <br>* McshEngl.scope-of--semantic-unit//JavaScript!⇒Jsgnscope,
+    <br>* McshEngl.Jssut'scope!⇒Jsgnscope,
     <br>====== lagoGreek:
     <br>* McshElln.εμβέλεια-μονάδας-σημασίας-JavaScript!=Jsgnscope,
     <a class="clsHide" href="#idLJsgnsutscpnam"></a></p>
@@ -1104,6 +1108,7 @@
     <br>* McshEngl.Jsgn_lago'Array.prototype-object!⇒JsoArrayprototype,
     <br>* McshEngl.Jsa'Array.prototype-object!⇒JsoArrayprototype,
     <br>* McshEngl.Jso.Array.prototype!⇒JsoArrayprototype,
+    <br>* McshEngl.Jsa.prototype!⇒JsoArrayprototype,
     <a class="clsHide" href="#idLJsgnArraypnam"></a></p>
   <p id="idLJsgnArraypgtr">generic-tree::
     <br>* McshEngl.JsoArrayprototype-Gntr,
@@ -1114,7 +1119,15 @@
   <section id="idLJsgnArraypmbr">
   <h4 id="idLJsgnArraypmbrH4">Array.prototype'member
     </h4>
-  <p id="idLJsgnArraypmbrspc"><a class="clsPreview" href="#idLJsgnombr">member</a>::
+  <p id="idLJsgnArraypmbrdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idLJsgnArraypmbrdsn"></a></p>
+  <p id="idLJsgnArraypmbrnam">name::
+    <br>* McshEngl.Array.prototype'member,
+    <br>* McshEngl.JsoArrayprototype.prototype'member!⇒Array.prototype'member,
+    <a class="clsHide" href="#idLJsgnArraypmbrnam"></a></p>
+  <p id="idLJsgnArraypmbrspc">member::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnombr">member</a>
     <br><a class="clsPreview" href="#idLJsgnalg">Code</a>
     <br>(Jsnd.6-2-2):
     <br><code>$ Object.getOwnPropertyNames(Array.prototype).sort()
@@ -1881,8 +1894,10 @@
   <p id="idLJsgnBooleanpnam">name::
     <br>* McshEngl.Jso.Boolean.prototype,
     <br>* McshEngl.Jsgn_lago'Boolean.prototype-object,
+    <br>* McshEngl.Jsb.prototype,
     <a class="clsHide" href="#idLJsgnBooleanpnam"></a></p>
-  <p id="idLJsgnBooleanpmbr"><a class="clsPreview" href="#idLJsgnombr">member</a>::
+  <p id="idLJsgnBooleanpmbr">member::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnombr">member</a>
     <br>(Jsnd.6-3-0):
     <br><code>$ Object.getOwnPropertyNames(Boolean.prototype).sort()
     <br>[ 'constructor', 'toString', 'valueOf' ]</code>
@@ -2123,7 +2138,8 @@
     <br>* <a class="clsPreview" href="#idLJsgnFunction">Function</a>,
     <br>* <a class="clsPreview" href="#idLJsgnmwo">most-whole-object</a>,
     <a class="clsHide" href="#idLJsgnFunctionpwhl"></a></p>
-  <p id="idLJsgnFunctionpmbr"><a class="clsPreview" href="#idLJsgnombr">member</a>::
+  <p id="idLJsgnFunctionpmbr">member::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnombr">member</a>
     <br><a class="clsPreview" href="#idLJsgnalg">Code</a> (Chrome.50):
     <br><code>$ Object.getOwnPropertyNames(Function.prototype).sort()
     <br>["apply", "arguments", "bind", "call", "caller", "constructor", "length", "name", "toString"]</code>
@@ -2167,7 +2183,8 @@
     <br>It is important to mention here that <code>Function</code> CONTAINS its <a class="clsPreview" href="#idLJsgnogstr">generic-object</a>, the-Function.prototype.
     <br>* <a class="clsPreview" href="#idLJsgnObject">Object.prototype</a>, (<code>Function.__proto__.__proto__ === Object.prototype //true</code>)
     <a class="clsHide" href="#idLJsgnFunctiongtr"></a></p>
-  <p id="idLJsgnFunctionmbr"><a class="clsPreview" href="#idLJsgnombr">member</a>::
+  <p id="idLJsgnFunctionmbr">member::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnombr">member</a>
     <br><a class="clsPreview" href="#idLJsgnalg">Code</a> (Chrome.50):
     <br><code>$ Object.getOwnPropertyNames(Function).sort()
     <br>[]</code>
@@ -2715,6 +2732,7 @@
     <br>* McshEngl.Jsoptr.conditional,
     <br>* McshEngl.Jsgn_lago'conditional-operator,
     <br>* McshEngl.conditional-operator//JavaScript,
+    <br>* McshEngl.JsoptrTernary.CONDITIONAL,
     <a class="clsHide" href="#idLJsgnfOprCdlnam"></a></p>
   </section>
 
@@ -2732,6 +2750,7 @@
     <br>* McshEngl.Jsoptr.typeof,
     <br>* McshEngl.Jsgn_lago'typeof-operator,
     <br>* McshEngl.typeof-operator//JavaScript,
+    <br>* McshEngl.JsoptrTernary.typeof,
     <a class="clsHide" href="#idLJsgnfOprTypeofnam"></a></p>
   </section>
   </section>
@@ -2881,7 +2900,8 @@
     <br><code>&gt; typeof null //"object"</code>
     <br>is a-MISTAKE of the-language (like <a class="clsPreview" href="#idLJsgnelnConInstanceof">instanceof</a>)!
     <a class="clsHide" href="#idLJsgnlgtr"></a></p>
-  <p id="idLJsgnlcod"><a class="clsPreview" href="#idLJsgnalg">Code</a>::
+  <p id="idLJsgnlcod">code::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnalg">code</a>
     <br><code>null</code>
     <a class="clsHide" href="#idLJsgnlcod"></a></p>
   </section>
@@ -2943,8 +2963,10 @@
     <br>* McshEngl.JsoNumberprototype!=Jso.Number.prototype,
     <br>* McshEngl.Jsgn_lago'Number.prototype-object!⇒JsoNumberprototype,
     <br>* McshEngl.Jsn'Number.prototype-object!⇒JsoNumberprototype,
+    <br>* McshEngl.Jsn.prototype!⇒JsoNumberprototype,
     <a class="clsHide" href="#idLJsgnNumberpnam"></a></p>
-  <p id="idLJsgnNumberpmbr"><a class="clsPreview" href="#idLJsgnombr">member</a>::
+  <p id="idLJsgnNumberpmbr">member::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnombr">member</a>
     <br>(Node.6.3.0):
     <br><code>$ Object.getOwnPropertyNames(Number.prototype).sort()
     <br>[ 'constructor', 'toExponential', 'toFixed', 'toLocaleString', 'toPrecision', 'toString', 'valueOf' ]</code>
@@ -2971,6 +2993,7 @@
   <p id="idLJsgntoLocaleStringnam">name::
     <br>* McshEngl.Jsgn_lago'Number.prototype'toLocaleString-function,
     <br>* McshEngl.Number.prototype'toLocaleString-function//JavaScript,
+    <br>* McshEngl.JsoNumberprototype.prototype'toLocaleString-function,
     <a class="clsHide" href="#idLJsgntoLocaleStringnam"></a></p>
   <p id="idLJsgntoLocaleStringexpl">example::
     <br><code>(123456789).toLocaleString() //123,456,789</code>
@@ -3162,6 +3185,12 @@
   <section id="idLJsgnowhl">
   <h3 id="idLJsgnowhlH3">WHOLE of Jso
     </h3>
+  <p id="idLJsgnowhldsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idLJsgnowhldsn"></a></p>
+  <p id="idLJsgnowhlnam">name::
+    <br>* McshEngl.Jso'whole,
+    <a class="clsHide" href="#idLJsgnowhlnam"></a></p>
   <p id="idLJsgnowhlP1">whole-tree::
     <br>=== (<a class="clsPreview" href="#idLJsgnsxt">syntax--whole-part-tree</a>)
     <br>* <a class="clsPreview" href="#idLJsgnfrs">Jsgn_lago-phrase</a>,
@@ -3238,7 +3267,8 @@
     <br>...
     <br>* <a class="clsPreview" href="#idLJsgnmgo">Object.prototype</a>,
     <a class="clsHide" href="#idLJsgnoCsrgtr"></a></p>
-  <p id="idLJsgnoCsrMbr"><a class="clsPreview" href="#idLJsgnombr">member</a>::
+  <p id="idLJsgnoCsrMbr">member::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnombr">member</a>
     <br>A-constructor-object[1] has as members the-members of its <a class="clsPreview" href="#idLJsgnfCsr">constructor</a> that are-prefixed with <code>this</code>.
     <br>Also it[1] INHERITS the-members of <a class="clsPreview" href="#idLJsgnfCsrproto">the-Constructor.prototype-object</a>.
     <br>It is A-MISTAKE to call the-object-of-a-constructor, <a class="clsPreview" href="#idLJsgnelnConInstanceof">INSTANCE</a> of the-constructor.
@@ -3321,8 +3351,10 @@
   <p id="idLJsgnRegExppnam">name::
     <br>* McshEngl.Jso.RegExp.prototype,
     <br>* McshEngl.Jsgn_lago'RegExp.prototype-object,
+    <br>* McshEngl.Jsr.prototype,
     <a class="clsHide" href="#idLJsgnRegExppnam"></a></p>
-  <p id="idLJsgnRegExppmbr"><a class="clsPreview" href="#idLJsgnombr">member</a>::
+  <p id="idLJsgnRegExppmbr">member::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnombr">member</a>
     <br>(Chrome.50):
     <br><code>$ Object.getOwnPropertyNames(RegExp.prototype).sort()
     <br>["compile", "constructor", "exec", "flags", "global", "ignoreCase", "multiline", "source", "sticky", "test", "toString", "unicode"]</code>
@@ -3540,7 +3572,8 @@
   <p id="idLJsgnStringpwpa">addressWpg::
     <br>* members with examples: <a href="https://gist.github.com/rauschma/c46fc10f671ed5bf14021bc14f101c8d">https://gist.github.com/rauschma/</a>,
     <a class="clsHide" href="#idLJsgnStringpwpa"></a></p>
-  <p id="idLJsgnStringpmbr"><a class="clsPreview" href="#idLJsgnombr">member</a>::
+  <p id="idLJsgnStringpmbr">member::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnombr">member</a>
     <br>(Node.6.3.0):
     <br><code>$ Object.getOwnPropertyNames(String.prototype).sort()
     <br>[ 'anchor', 'big', 'blink', 'bold', 'charAt', 'charCodeAt', 'codePointAt', 'concat', 'constructor', 'endsWith', 'fixed', 'fontcolor', 'fontsize', 'includes', 'indexOf', 'italics', 'lastIndexOf', 'length', 'link', 'localeCompare', 'match', 'normalize', 'repeat', 'replace', 'search', 'slice', 'small', 'split', 'startsWith', 'strike', 'sub', 'substr', 'substring', 'sup', 'toLocaleLowerCase', 'toLocaleUpperCase', 'toLowerCase', 'toString', 'toUpperCase', 'trim', 'trimLeft', 'trimRight', 'valueOf' ]</code>
@@ -3706,6 +3739,7 @@
   <p id="idLJsgnStringfnam">name::
     <br>* McshEngl.Jsgn_lago'String-function,
     <br>* McshEngl.String-function//JavaScript,
+    <br>* McshEngl.Jss'String-function,
     <a class="clsHide" href="#idLJsgnStringfnam"></a></p>
   <p id="idLJsgnStringfmbr">member::
     <br>(Chrome.61)$ Object.getOwnPropertyNames(String)
@@ -3918,7 +3952,8 @@
     <br>* <a class="clsPreview" href="#idLJsgnmwo">most-whole-object</a>,
     <br>LOOK-THAT: the-most-generic-object is part of the-Object-function, which is part of the-most-whole-object.
     <a class="clsHide" href="#idLJsgnmgowhl"></a></p>
-  <p id="idLJsgnmgombr"><a class="clsPreview" href="#idLJsgnombr">member</a>::
+  <p id="idLJsgnmgombr">member::
+    <br>× generic: <a class="clsPreview" href="#idLJsgnombr">member</a>
     <br>(Jsnd.6-3-1)
     <br><code>$ Object.getOwnPropertyNames(Object.prototype).sort()
     <br>[ '__defineGetter__', '__defineSetter__', '__lookupGetter__', '__lookupSetter__', '__proto__', 'constructor', 'hasOwnProperty', 'isPrototypeOf', 'propertyIsEnumerable', 'toLocaleString', 'toString', 'valueOf' ]</code>
@@ -3949,6 +3984,7 @@
     <br>* McshEngl.Jsgn_lago'Object-function!⇒JsgnfObject,
     <br>* McshEngl.JsgnfObject!=Jsgn_lago'Object-function,
     <br>* McshEngl.Jsgnf.Object!⇒JsgnfObject,
+    <br>* McshEngl.Jsmgo'Object-function!⇒JsgnfObject,
     <a class="clsHide" href="#idLJsgnObjectnam"></a></p>
   <p id="idLJsgnObjectwhl">whole-tree::
     <br>* <a class="clsPreview" href="#idLJsgnmwo">most-whole-object</a>,
@@ -4008,6 +4044,7 @@
     <a class="clsHide" href="#idLJsgnObjectmebrCreatedsn"></a></p>
   <p id="idLJsgnObjectmebrCreatenam">name::
     <br>* McshEngl.JsgnfObjectmebr.create-function,
+    <br>* McshEngl.JsgnfObject.create-function!⇒JsgnfObjectmebr.create-function,
     <a class="clsHide" href="#idLJsgnObjectmebrCreatenam"></a></p>
   </section>
 
@@ -4029,6 +4066,7 @@
   <p id="idLJsgnObjectmebrGetOwnPropertyNamesnam">name::
     <br>* McshEngl.JsgnfObjectmebr.getOwnPropertyNames,
     <br>* McshEngl.JsgnfObjectmebr.getOwnPropertyNames-function,
+    <br>* McshEngl.JsgnfObject.getOwnPropertyNames-function,
     <a class="clsHide" href="#idLJsgnObjectmebrGetOwnPropertyNamesnam"></a></p>
   <p id="idLJsgnObjectmebrGetOwnPropertyNamescod">Code::
     <br>$ Object.getOwnPropertyNames(obj).sort() // to sort the-members.
@@ -4488,16 +4526,15 @@
   <p id="idLJsgnapiEvtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>Events are DOINGS that trigger|call functions (listeners).
+    <br>=== specific:
+    <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000011.last.html#idLJsbralgEvt">Jsbr-event</a>,
+    <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000012.last.html#idLJsndmcfEvents">Jsnd-event</a>,
     <a class="clsHide" href="#idLJsgnapiEvtdsn"></a></p>
   <p id="idLJsgnapiEvtnam">name::
     <br>* McshEngl.Jsapi.Event,
     <br>* McshEngl.event//JavaScript,
     <br>* McshEngl.Jsgn_lago'event-API,
     <a class="clsHide" href="#idLJsgnapiEvtnam"></a></p>
-  <p id="idLJsgnapiEvtstr">SPECIFIC::
-    <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000011.last.html#idLJsbralgEvt">Jsbr-event</a>,
-    <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000012.last.html#idLJsndmcfEvents">Jsnd-event</a>,
-    <a class="clsHide" href="#idLJsgnapiEvtstr"></a></p>
   </section>
 
   <section id="idLJsgnprms">
@@ -4593,6 +4630,7 @@
     <a class="clsHide" href="#idLJsgnprmspdgdsn"></a></p>
   <p id="idLJsgnprmspdgnam">name::
     <br>* McshEngl.Jspromise'pending,
+    <br>* McshEngl.Jspromise'doing'pending!⇒Jspromise'pending,
     <a class="clsHide" href="#idLJsgnprmspdgnam"></a></p>
   </section>
 
@@ -4607,6 +4645,7 @@
     <br>* McshEngl.Jspromise'completedNo,
     <br>* McshEngl.Jspromise'pendingNo,
     <br>* McshEngl.Jspromise'settled,
+    <br>* McshEngl.Jspromise'doing'pendingNo,
     <a class="clsHide" href="#idLJsgnprmspdgNnam"></a></p>
 
   <section id="idLJsgnprmsffd">
@@ -4756,6 +4795,7 @@
     <br>* McshEngl.Jsgn_lago'assignment-sentence,
     <br>* McshEngl.Jsgn_lago'assignment-statement,
     <br>* McshEngl.Jsgn_lago-sentence.assignment,
+    <br>* McshEngl.Jsgnsent.ASSIGNMENT,
     <a class="clsHide" href="#idLJsgnstcAstnam"></a></p>
   </section>
 
@@ -4776,6 +4816,7 @@
     <br>* McshEngl.Jsgn_lago'block-sentence,
     <br>* McshEngl.Jsgn_lago'block-statement,
     <br>* McshEngl.Jsgn_lago-sentence.block,
+    <br>* McshEngl.Jsgnsent.BLOCK,
     <a class="clsHide" href="#idLJsgnstcBlknam"></a></p>
   </section>
 
@@ -4796,6 +4837,7 @@
     <br>* McshEngl.Jsgn_lago'definition-statement!⇒Jsgndef,
     <br>* McshEngl.Jsgn_lago'declaration!⇒Jsgndef,
     <br>* McshEngl.Jsgn_lago'def!⇒Jsgndef,
+    <br>* McshEngl.Jsgnsent.DEFINITION!⇒Jsgndef,
     <a class="clsHide" href="#idLJsgnstcDfnnam"></a></p>
 
   <section id="idLJsgnstcDfngstr">
@@ -4838,6 +4880,7 @@
     <br>* McshEngl.Jsf'declaration,
     <br>* McshEngl.Jsf'definition-sentence,
     <br>* McshEngl.Jsgn_lago'definition.function,
+    <br>* McshEngl.Jsgndef.FUNCTION,
     <a class="clsHide" href="#idLJsgnstcDfnFnam"></a></p>
   </section>
 
@@ -4862,6 +4905,7 @@
     <br>* McshEngl.Jsgn_lago'variable-declaration!⇒JsgndefNmvl,
     <br>* McshEngl.Jsgn_lago'variable-definition-sentence!⇒JsgndefNmvl,
     <br>* McshEngl.Jsgn_lago'variable-statement!⇒JsgndefNmvl,
+    <br>* McshEngl.Jsgndef.NAME-VALUE-PAIR!⇒JsgndefNmvl,
     <a class="clsHide" href="#idLJsgndefRefnam"></a></p>
 
   <section id="idLJsgndefRefgstr">
@@ -4902,6 +4946,7 @@
   <p id="idLJsdtefCstnam">name::
     <br>* McshEngl.Jsgn_lago'const-definition,
     <br>* McshEngl.Jsgn_lago-def.const,
+    <br>* McshEngl.JsgndefNmvl.const,
     <a class="clsHide" href="#idLJsdtefCstnam"></a></p>
   </section>
 
@@ -4916,6 +4961,7 @@
   <p id="idLJsdtefLetnam">name::
     <br>* McshEngl.Jsgn_lago'let-definition,
     <br>* McshEngl.Jsgn_lago-def.let,
+    <br>* McshEngl.JsgndefNmvl.let,
     <a class="clsHide" href="#idLJsdtefLetnam"></a></p>
   </section>
 
@@ -4930,6 +4976,7 @@
   <p id="idLJsgndefVarnam">name::
     <br>* McshEngl.Jsgn_lago'var-definition,
     <br>* McshEngl.Jsgn_lago-def.var,
+    <br>* McshEngl.JsgndefNmvl.var,
     <a class="clsHide" href="#idLJsgndefVarnam"></a></p>
   </section>
   </section>
@@ -4946,6 +4993,7 @@
     <br>* McshEngl.Jsgn_lago'loop-sentence!⇒Jsloop,
     <br>* McshEngl.Jsgn_lago-sentence.loop!⇒Jsloop,
     <br>* McshEngl.loop-sentence//JavaScript!⇒Jsloop,
+    <br>* McshEngl.Jsgnsent.LOOP!⇒Jsloop,
     <a class="clsHide" href="#idLJsgnstcLoopnam"></a></p>
   <p id="idLJsgnstcLoopwpa">addressWpg::
     <br>* {2017-10-31} Anton-Lavrenov, JavaScript loops — how to handle async/await, https://blog.lavrton.com/JavaScript-loops-how-to-handle-async-await-6252dd3c795,
@@ -5064,6 +5112,7 @@
   <p id="idLJsgnstcThrnam">name::
     <br>* McshEngl.Jsgn_lago'throw-sentence,
     <br>* McshEngl.Jsgn_lago-sentence.throw,
+    <br>* McshEngl.Jsgnsent.THROW,
     <a class="clsHide" href="#idLJsgnstcThrnam"></a></p>
   </section>
   </section>
@@ -5090,6 +5139,7 @@
     <a class="clsHide" href="#idLJsgnrotdsn"></a></p>
   <p id="idLJsgnrotnam">name::
     <br>* McshEngl.Jsalgo'root-tree,
+    <br>* McshEngl.Jsgn_lago'Jsalgo'root!⇒Jsalgo'root-tree,
     <a class="clsHide" href="#idLJsgnrotnam"></a></p>
   <p id="idLJsgnrotprt">part::
     <br>* the-root-node,
@@ -5376,18 +5426,38 @@
     <br>Date related algorithms.
     <a class="clsHide" href="#idLJsgnalgDatdsn"></a></p>
   <p id="idLJsgnalgDatnam">name::
-    <br>* McshEngl.Jsgn_lago'date-managing,
-    <br>* McshEngl.Jsalgo.date-managing,
+    <br>* McshEngl.JsgnalgoDate,
+    <br>* McshEngl.Jsgn_lago'date-managing!⇒JsgnalgoDate,
+    <br>* McshEngl.Jsalgo.date-managing!⇒JsgnalgoDate,
     <a class="clsHide" href="#idLJsgnalgDatnam"></a></p>
-  <p id="idLJsgnalgDatwpa">addressWpg::
-    <br>* <a href="https://JavaScript.info/date">https://JavaScript.info/date</a>,
-    <a class="clsHide" href="#idLJsgnalgDatwpa"></a></p>
-  <p id="idLJsgnalgDatstr">SPECIFIC::
+
+  <section id="idLJsgnalgoDatgstr">
+  <h1 id="idLJsgnalgoDatgstrH1">GENERIC-SPECIFIC-TREE of JsgnalgoDate
+    </h1>
+  <p id="idLJsgnalgoDatgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLJsgnalgoDatgstrdsn"></a></p>
+  <p id="idLJsgnalgoDatgstrnam">name::
+    <br>* McshEngl.JsgnalgoDate'generic-specific-tree,
+    <br>* McshEngl.JsgnalgoDate'specific-generic-tree,
+    <a class="clsHide" href="#idLJsgnalgoDatgstrnam"></a></p>
+  <p id="idLJsgnalgoDatgtr">generic-tree::
+    <br>* McshEngl.JsgnalgoDate-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLJsgnalgoDatgtr"></a></p>
+  <p id="idLJsgnalgoDatstr">specific-tree::
+    <br>* McshEngl.JsgnalgoDate.specific,
+    <br>* McshEngl.JsgnalgoDate-Sptr,
+    <br>===
     <br>* Format-date-to-YYY-MM-DD,
-    <a class="clsHide" href="#idLJsgnalgDatstr"></a></p>
+    <br>=== addressWpg:
+    <br>* <a href="https://JavaScript.info/date">https://JavaScript.info/date</a>,
+    <a class="clsHide" href="#idLJsgnalgoDatstr"></a></p>
+  </section>
 
   <section id="idLJsgnalgDatYMD">
-  <h3 id="idLJsgnalgDatYMDH3">Jsalgo.date.YYYY-MM-DD
+  <h3 id="idLJsgnalgDatYMDH3">JsgnalgoDate.YYYY-MM-DD
     </h3>
   <p id="idLJsgnalgDatYMDdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5521,34 +5591,55 @@
   </section>
 
   <section id="idLJsgnalgObt">
-  <h2 id="idLJsgnalgObtH2">Jsalgo.OBJECT-MANAGING
+  <h2 id="idLJsgnalgObtH2">Jsgnalgo.Object-MANAGING
     </h2>
   <p id="idLJsgnalgObtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>Doings with objects.
     <a class="clsHide" href="#idLJsgnalgObtdsn"></a></p>
   <p id="idLJsgnalgObtnam">name::
-    <br>* McshEngl.Jsgn_lago'object-managing,
-    <br>* McshEngl.Jsalgo.object-managing,
+    <br>* McshEngl.Jsgnalgo.Object-managing!⇒JsgnalgoObject,
+    <br>* McshEngl.JsgnalgoObject!=Jsgnalgo.Object-managing,
+    <br>*McshEngl.JsgnalgoObject.managing!⇒JsgnalgoObject,
     <a class="clsHide" href="#idLJsgnalgObtnam"></a></p>
-  <p id="idLJsgnalgObtstr">SPECIFIC::
+
+  <section id="idLJsgnalgoObtgstr">
+  <h1 id="idLJsgnalgoObtgstrH1">GENERIC-SPECIFIC-TREE of JsgnalgoObject
+    </h1>
+  <p id="idLJsgnalgoObtgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLJsgnalgoObtgstrdsn"></a></p>
+  <p id="idLJsgnalgoObtgstrnam">name::
+    <br>* McshEngl.JsgnalgoObject'generic-specific-tree,
+    <br>* McshEngl.JsgnalgoObject'specific-generic-tree,
+    <a class="clsHide" href="#idLJsgnalgoObtgstrnam"></a></p>
+  <p id="idLJsgnalgoObtgtr">generic-tree::
+    <br>* McshEngl.JsgnalgoObject-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idLJsgnalgoObtgtr"></a></p>
+  <p id="idLJsgnalgoObtstr">specific-tree::
+    <br>* McshEngl.JsgnalgoObject.specific,
+    <br>* McshEngl.JsgnalgoObject-Sptr,
+    <br>===
     <br>* <a class="clsPreview" href="#idLJsgnalgObtEqlt">equality</a>,
     <br>* <a class="clsPreview" href="#idLJsgnalgObtFkbv">find-key-by-value</a>,
     <br>* <a class="clsPreview" href="#idLJsgnalgObtMbrcnt">member-counting</a>,
     <br>* <a class="clsPreview" href="#idLJsgnalgObtMbrdlt">member-deleting</a>,
     <br>* <a class="clsPreview" href="#idLJsgnalgObtMbrexst">member-existance</a>,
     <br>* <a class="clsPreview" href="##idLJsgnalgObtMbrsrt">member-sorting</a>,
-    <a class="clsHide" href="#idLJsgnalgObtstr"></a></p>
+    <a class="clsHide" href="#idLJsgnalgoObtstr"></a></p>
+  </section>
 
   <section id="idLJsgnalgObtEqlt">
-  <h3 id="idLJsgnalgObtEqltH3">Jsalgo.object.EQUALITY
+  <h3 id="idLJsgnalgObtEqltH3">JsgnalgoObject.EQUALITY
     </h3>
   <p id="idLJsgnalgObtEqltdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLJsgnalgObtEqltdsn"></a></p>
   <p id="idLJsgnalgObtEqltnam">name::
     <br>* McshEngl.Jsgn_lago'object-equality,
-    <br>* McshEngl.Jsalgo.object-equality,
+    <br>*McshEngl.JsgnalgoObject.equality,
     <a class="clsHide" href="#idLJsgnalgObtEqltnam"></a></p>
   <p id="idLJsgnalgObtEqltcod">Jsalgo.Jsgn:::
     <br><code>[1,3] === [1,3] //false
@@ -5562,7 +5653,7 @@
   </section>
 
   <section id="idLJsgnalgObtEmpt">
-  <h3 id="idLJsgnalgObtEmptH3">Jsalgo.object.EMPTINESS
+  <h3 id="idLJsgnalgObtEmptH3">JsgnalgoObject.EMPTINESS
     </h3>
   <p id="idLJsgnalgObtEmptdsn">description::
     <br>× Mcsh-creation: {2026-08-14}
@@ -5570,19 +5661,19 @@
     <br><code>const isNotEmpty = obj != null && Object.keys(obj).length &gt; 0;</code>
     <a class="clsHide" href="#idLJsgnalgObtEmptdsn"></a></p>
   <p id="idLJsgnalgObtEmptnam">name::
-    <br>* McshEngl.Jsalgo.object.EMPTINESS,
+    <br>* McshEngl.JsgnalgoObject.EMPTINESS,
     <a class="clsHide" href="#idLJsgnalgObtEmptnam"></a></p>
   </section>
 
   <section id="idLJsgnalgObtFkbv">
-  <h3 id="idLJsgnalgObtFkbvH3">Jsalgo.object.FIND-KEY-BY-VALUE
+  <h3 id="idLJsgnalgObtFkbvH3">JsgnalgoObject.FIND-KEY-BY-VALUE
     </h3>
   <p id="idLJsgnalgObtFkbvdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLJsgnalgObtFkbvdsn"></a></p>
   <p id="idLJsgnalgObtFkbvnam">name::
     <br>* McshEngl.Jsgn_lago'object-find-key-by-value,
-    <br>* McshEngl.Jsalgo.object-find-key-by-value,
+    <br>*McshEngl.JsgnalgoObject.find-key-by-value,
     <a class="clsHide" href="#idLJsgnalgObtFkbvnam"></a></p>
   <p id="idLJsgnalgObtFkbvcod">Jsalgo.Jsgn:::
     <br><code>//input: object, value
@@ -5598,14 +5689,14 @@
   </section>
 
   <section id="idLJsgnalgObtMbrcnt">
-  <h3 id="idLJsgnalgObtMbrcntH3">Jsalgo.object.MEMBER-COUNTING
+  <h3 id="idLJsgnalgObtMbrcntH3">JsgnalgoObject.MEMBER-COUNTING
     </h3>
   <p id="idLJsgnalgObtMbrcntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLJsgnalgObtMbrcntdsn"></a></p>
   <p id="idLJsgnalgObtMbrcntnam">name::
     <br>* McshEngl.Jsgn_lago'object-member-counting,
-    <br>* McshEngl.Jsalgo.object-member-counting,
+    <br>*McshEngl.JsgnalgoObject.member-counting,
     <a class="clsHide" href="#idLJsgnalgObtMbrcntnam"></a></p>
   <p id="idLJsgnalgObtMbrcntcod">Jsalgo.Jsgn:::
     <br><code>Object.keys(o).length</code>
@@ -5613,7 +5704,7 @@
   </section>
 
   <section id="idLJsgnalgObtMbrdlt">
-  <h3 id="idLJsgnalgObtMbrdltH3">Jsalgo.object.MEMBER-DELETING
+  <h3 id="idLJsgnalgObtMbrdltH3">JsgnalgoObject.MEMBER-DELETING
     </h3>
   <p id="idLJsgnalgObtMbrdltdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5621,7 +5712,7 @@
   <p id="idLJsgnalgObtMbrdltnam">name::
     <br>* McshEngl.Jsgn_lago'object-key-deleting,
     <br>* McshEngl.Jsgn_lago'object-member-deleting,
-    <br>* McshEngl.Jsalgo.object-member-deleting,
+    <br>*McshEngl.JsgnalgoObject.member-deleting,
     <a class="clsHide" href="#idLJsgnalgObtMbrdltnam"></a></p>
   <p id="idLJsgnalgObtMbrdltcod">Jsalgo.Jsgn:::
     <br><code>var o = {a:1, b:2};
@@ -5633,7 +5724,7 @@
   </section>
 
   <section id="idLJsgnalgObtMbrexst">
-  <h3 id="idLJsgnalgObtMbrexstH3">Jsalgo.object.MEMBER-EXISTANCE
+  <h3 id="idLJsgnalgObtMbrexstH3">JsgnalgoObject.MEMBER-EXISTANCE
     </h3>
   <p id="idLJsgnalgObtMbrexstdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5641,7 +5732,7 @@
   <p id="idLJsgnalgObtMbrexstnam">name::
     <br>* McshEngl.Jsgn_lago'object-key-existance,
     <br>* McshEngl.Jsgn_lago'object-member-existance,
-    <br>* McshEngl.Jsalgo.object-member-existance,
+    <br>*McshEngl.JsgnalgoObject.member-existance,
     <a class="clsHide" href="#idLJsgnalgObtMbrexstnam"></a></p>
   <p id="idLJsgnalgObtMbrexstcod">Jsalgo.Jsgn:::
     <br><code>var o = {a:1, b:2};
@@ -5651,14 +5742,14 @@
   </section>
 
   <section id="idLJsgnalgObtMbrsrt">
-  <h3 id="idLJsgnalgObtMbrsrtH3">Jsalgo.object.MEMBER-SORTING
+  <h3 id="idLJsgnalgObtMbrsrtH3">JsgnalgoObject.MEMBER-SORTING
     </h3>
   <p id="idLJsgnalgObtMbrsrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLJsgnalgObtMbrsrtdsn"></a></p>
   <p id="idLJsgnalgObtMbrsrtnam">name::
     <br>* McshEngl.Jsgn_lago'object-member-sorting,
-    <br>* McshEngl.Jsalgo.object-member-sorting,
+    <br>*McshEngl.JsgnalgoObject.member-sorting,
     <a class="clsHide" href="#idLJsgnalgObtMbrsrtnam"></a></p>
   <p id="idLJsgnalgObtMbrsrtcod">Jsalgo.Jsgn:::
     <br>All methods that iterate over property keys do so in the same order:
@@ -6074,6 +6165,7 @@
   <p id="idLJsgnHumnPmrnam">name::
     <br>* McshEngl.Jsgn_lago'programer,
     <br>* McshEngl.Jsgnprogramer,
+    <br>* McshEngl.Jsgnhmn.programer,
     <a class="clsHide" href="#idLJsgnHumnPmrnam"></a></p>
   </section>
 
@@ -6087,6 +6179,7 @@
   <p id="idLJsgnHumnUsrnam">name::
     <br>* McshEngl.Jsgn_lago'user,
     <br>* McshEngl.Jsgnuser,
+    <br>* McshEngl.Jsgnhmn.user,
     <a class="clsHide" href="#idLJsgnHumnUsrnam"></a></p>
   </section>
   </section>
@@ -6221,8 +6314,7 @@
     <br>* McshEngl.Jses.specific,
     <br>* McshEngl.Jses-Sptr,
     <br>===
-    <a class="clsHide" href="#idLjestr"></a></p>
-  <p id="idLjeSpcP1">Specific (versions)::
+    <br>=== versions:
     <br>· https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
     <br>* <a class="clsPreview" href="#idLjes2020">ECMAScript.11.2020</a>, (ES11)
     <br>* <a class="clsPreview" href="#idLjes2019">ECMAScript.10.2019</a>, (ES10)
@@ -6236,7 +6328,7 @@
     <br>* <a class="clsPreview" href="#idLjes1999">ECMAScript.3.1999</a> (ES3),
     <br>* <a class="clsPreview" href="#idLjes1998">ECMAScript.2.1998</a> (ES2),
     <br>* <a class="clsPreview" href="#idLjes1997">ECMAScript.1.1997</a> (ES1),
-    <a class="clsHide" href="#idLjeSpcP1"></a></p>
+    <a class="clsHide" href="#idLjestr"></a></p>
   </section>
 
   <section id="idLjes2020">
@@ -6883,6 +6975,7 @@
     <a class="clsHide" href="#idLJsgntolDromedsn"></a></p>
   <p id="idLJsgntolDromenam">name::
     <br>* McshEngl.drome--task-runner,
+    <br>* McshEngl.JsgntoolTask.DROME!⇒drome--task-runner,
     <a class="clsHide" href="#idLJsgntolDromenam"></a></p>
   </section>
   </section>
@@ -6945,6 +7038,7 @@
     <a class="clsHide" href="#idLJsgnognOjsfdsn"></a></p>
   <p id="idLJsgnognOjsfnam">name::
     <br>* McshEngl.Jsogn.OpenJS-Foundation,
+    <br>* McshEngl.Jsgn_lago'ogn.OpenJS-Foundation!⇒Jsogn.OpenJS-Foundation,
     <a class="clsHide" href="#idLJsgnognOjsfnam"></a></p>
   </section>
   </section>

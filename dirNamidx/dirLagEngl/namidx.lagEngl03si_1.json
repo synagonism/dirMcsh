@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_1","C..char",4722,"2026-10-16"],
+  [";lagEngl03si_1","C..char",4724,"2026-10-17"],
   ["C++!⇒Cppz_lago","dirTchInf/McshTchInf000031.last.html#idOverview"],
   ["C++'algo!⇒Cppzalgo","dirTchInf/McshTchInf000031.last.html#idLCppalg"],
   ["C++-ISO/IEC-14882:1998","dirTchInf/McshTchInf000031.last.html#idLCppspec98"],
@@ -2670,6 +2670,7 @@
   ["ConjSpace-Gntr","dirCor/McshCor000007.last.html#idSpcconjgtr"],
   ["ConjSpace-Sptr","dirCor/McshCor000007.last.html#idSpcconjstr"],
   ["ConjSpace.argu!⇒ConjSpaceArgu","dirCor/McshCor000007.last.html#idSpcConjArgu"],
+  ["ConjSpace.sentence","dirCor/McshCor000007.last.html#idSpcConjSent"],
   ["ConjSpace.specific","dirCor/McshCor000007.last.html#idSpcconjstr"],
   ["ConjSpaceArgu!=ConjSpace.argu","dirCor/McshCor000007.last.html#idSpcConjArgu"],
   ["ConjSpaceVerb!=space-verb-conjunction","dirLag/McshLag000007.last.html#idLHmnmvbatSpaceSntxConj"],
@@ -3807,6 +3808,7 @@
   ["causality.condition-of-entity!⇒RltnCondition","dirCor/McshCor000005.last.html#idRlnCdn"],
   ["causality.effect-of-entity!⇒RltnCause_then_Effect","dirCor/McshCor000005.last.html#idRlnEfct"],
   ["causality.goal!⇒RltnGoal","dirCor/McshCor000005.last.html#idRlnGoal"],
+  ["causality.real","dirCor/McshCor000005.last.html#idRlnCsltReal"],
   ["causality.specific","dirCor/McshCor000005.last.html#idRlnCsltstr"],
   ["causative-Turkverb","dirLag/McshLag000030.last.html#idLTurkverbmbrCaus"],
   ["cause","dirCor/McshCor000005.last.html#idRlnCsltkoz"],

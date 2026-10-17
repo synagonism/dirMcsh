@@ -26,8 +26,8 @@
     <a class="clsHide" href="#idDescription"></a></p>
   <p id="idName">name::
     <br>* McshEngl.relation,
-    <br>* McshEngl.relation!~McsCor000005,
     <br>* McshEngl.relation!=rln!⇒relation,
+    <br>* McshEngl.relation!~McsCor000005,
     <br>* McshEngl.relation!=rltn!⇒relation,
     <br>* McshEngl.relation.lagoSngu!=mau;mai;ma,
     <br>* McshEngl.relation.lagoElln!=σχέση;σχετίζομαι,
@@ -220,6 +220,7 @@
     <br>* McshEngl.complement.arguments,
     <br>* McshEngl.arguments-complement!⇒complement.arguments,
     <br>* McshEngl.complement-of-argument|s!⇒complement.arguments,
+    <br>* McshEngl.rltn_argt'complement-of-argument!⇒complement.arguments,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.uo-argu!=complement.arguments,
     <a class="clsHide" href="#idRlnargcpltnam"></a></p>
@@ -257,6 +258,7 @@
     <br>* McshEngl.relation'expression!⇒syntax.rltn,
     <br>* McshEngl.relation'syntax!⇒syntax.rltn,
     <br>* McshEngl.syntax.relation!⇒syntax.rltn,
+    <br>* McshEngl.rltn_argt'syntax!⇒syntax.rltn,
     <a class="clsHide" href="#idRlnstxnam"></a></p>
   </section>
   </section>
@@ -760,6 +762,7 @@
     <br>* McshEngl.SntxMultiplication!⇒RltnMultiplication,
     <br>* McshEngl.syntax.multiplication!⇒RltnMultiplication,
     <br>* McshEngl.ConjEngl.times!⇒RltnMultiplication,
+    <br>* McshEngl.RltnUnion.multiplication!⇒RltnMultiplication,
     <br>* McshElln.σύνδεσμος.επί!=RltnMultiplication,
     <br>====== lagoGreek:
     <br>* McshElln.σχέση-πολλαπλασιασμού!=RltnMultiplication,
@@ -788,6 +791,7 @@
     <br>* McshEngl.RltnAdditionNumber'syntax!⇒RltnAdditionNumber,
     <br>* McshEngl.syntax.RltnAdditionNumber!⇒RltnAdditionNumber,
     <br>* McshEngl.ConjEngl.plus!⇒RltnAdditionNumber,
+    <br>* McshEngl.RltnUnion.number!⇒RltnAdditionNumber,
     <br>====== lagoGreek:
     <br>* McshElln.και!~ConjElln!=RltnAdditionNumber,
     <br>* McshElln.συν!~ConjElln!=RltnAdditionNumber,
@@ -813,6 +817,7 @@
     <br>* McshEngl.RltnAdditionTwo'syntax!⇒RltnAdditionTwo,
     <br>* McshEngl.syntax.RltnAdditionTwo!⇒RltnAdditionTwo,
     <br>* McshEngl.ConjEngl.both..and!⇒RltnAdditionTwo,
+    <br>* McshEngl.RltnUnion.two-arguments!⇒RltnAdditionTwo,
     <br>====== lagoChinese:
     <br>* McshZhon.又..又-yòu..yòu!~ConjZhon!=RltnAdditionTwo,
     <br>====== lagoGreek:
@@ -918,6 +923,7 @@
     <br>* McshEngl.ConjEngl.either..or!⇒RltnDisunionExclusive,
     <br>* McshEngl.whether..or!~ConjEngl!⇒RltnDisunionExclusive,
     <br>* McshEngl.ConjEngl.whether..or!⇒RltnDisunionExclusive,
+    <br>* McshEngl.RltnDisunion.exclusive!⇒RltnDisunionExclusive,
     <br>====== lagoGreek:
     <br>* McshElln.είτε..είτε!~ConjElln!=RltnDisunionExclusive,
     <br>* McshElln.ή..ή!~ConjElln!=RltnDisunionExclusive,
@@ -973,6 +979,7 @@
     <br>* McshEngl.ConjEngl.neither..nor!⇒RltnDisunionInclusive,
     <br>* McshEngl.ConjEngl.no..nor!⇒RltnDisunionInclusive,
     <br>* McshEngl.ConjEngl.or!⇒RltnDisunionInclusive,
+    <br>* McshEngl.RltnDisunion.inclusive!⇒RltnDisunionInclusive,
     <br>====== lagoChinese:
     <br>* McshZhon.bù..yěbù-不..也不!~ConjZhon!=neither..nor!=RltnDisunionInclusive,
     <br>* McshZhon.不..也不-bù..yěbù!~ConjZhon!=neither..nor!=RltnDisunionInclusive,
@@ -1002,6 +1009,7 @@
     <br>* McshEngl.relation.subtraction!⇒RltnSubtraction,
     <br>* McshEngl.subtraction-relation!⇒RltnSubtraction,
     <br>* McshEngl.minus!~ConjEngl!⇒RltnSubtraction,
+    <br>* McshEngl.RltnDisunion.subtracting!⇒RltnSubtraction,
     <br>====== lagoGreek:
     <br>* McshElln.σχέση-αφαίρεσης!=RltnSubtraction,
     <br>* McshElln.από!~ConjElln!=RltnSubtraction,
@@ -1113,6 +1121,7 @@
     <br>* McshEngl.ArgtVerb.absence!⇒RltnAbsence,
     <br>* McshEngl.without!~ConjEngl!⇒RltnAbsence,
     <br>* McshEngl.ConjEngl.without!⇒RltnAbsence,
+    <br>* McshEngl.RltnDisunion.absence!⇒RltnAbsence,
     <br>====== lagoChinese:
     <br>* McshZhon.méiyǒu-没有!=RltnAbsence,
     <br>* McshZhon.没有-méiyǒu!=RltnAbsence,
@@ -1142,6 +1151,7 @@
     <br>* McshEngl.RltnDivision'syntax!⇒RltnDivision,
     <br>* McshEngl.syntax.RltnDivision!⇒RltnDivision,
     <br>* McshEngl.ConjEngl.into!⇒RltnDivision,
+    <br>* McshEngl.RltnDisunion.division!⇒RltnDivision,
     <br>====== lagoGreek:
     <br>* McshElln.διά!~ConjElln!=RltnDivision,
     <br>* McshElln.σύνταξη.διά!=syntax.into,
@@ -1275,6 +1285,7 @@
     <br>* McshEngl.ConjEngl.other-than!⇒RltnException,
     <br>* McshEngl.ConjEngl.except-for!⇒RltnException,
     <br>* McshEngl.ConjEngl.outside-of!⇒RltnException,
+    <br>* McshEngl.RltnDisunion.exception!⇒RltnException,
     <br>====== lagoGreek:
     <br>* McshElln.εκτός-από!~ConjElln!=RltnException,
     <br>* McshElln.σχέση-εξαίρεσης!=RltnException,
@@ -1500,6 +1511,7 @@
     <br>* McshEngl.RltnEqualityAlmost,
     <br>* McshEngl.equality.almost!⇒RltnEqualityAlmost,
     <br>* McshEngl.relation.equality.almost!⇒RltnEqualityAlmost,
+    <br>* McshEngl.RltnSameness.equality.almost!⇒RltnEqualityAlmost,
     <a class="clsHide" href="#idRlnEqltAlmtnam"></a></p>
   </section>
 
@@ -1919,6 +1931,7 @@
     <br>* McshEngl.RltnSameness.wrong!⇒RltnWrong,
     <br>* McshEngl.AdjeEngl.wrong!⇒RltnWrong,
     <br>* McshEngl.wrong!~AdjeEngl!⇒RltnWrong,
+    <br>* McshEngl.RltnDifference.wrong!⇒RltnWrong,
     <br>====== lagoChinese:
     <br>* McshZhon.cuòwù-错误!=RltnWrong,
     <br>* McshZhon.错误-cuòwù!=RltnWrong,
@@ -1959,6 +1972,7 @@
     <br>* McshEngl.RltnInequality,
     <br>* McshEngl.inequality!⇒RltnInequality,
     <br>* McshEngl.relation.inequality!⇒RltnInequality,
+    <br>* McshEngl.RltnDifference.inequality!⇒RltnInequality,
     <a class="clsHide" href="#idRlnInqtnam"></a></p>
   </section>
 
@@ -1974,6 +1988,7 @@
     <br>* McshEngl.negation!⇒RltnNegation,
     <br>* McshEngl.relation.affirmationNo!⇒RltnNegation,
     <br>* McshEngl.relation.negation!⇒RltnNegation,
+    <br>* McshEngl.RltnDifference.negation!⇒RltnNegation,
     <br>====== lagoGreek:
     <br>* McshElln.σχέση-άρνησης!=RltnNegation,
     <a class="clsHide" href="#idRlnNgtnnam"></a></p>
@@ -2090,6 +2105,7 @@
     <br>* McshEngl.ConjEngl.instead-of!⇒RltnOpposition,
     <br>* McshEngl.ConjEngl.though!⇒RltnOpposition,
     <br>* McshEngl.ConjEngl.yet!⇒RltnOpposition,
+    <br>* McshEngl.RltnDifference.opposition!⇒RltnOpposition,
     <br>====== lagoSinagu:
     <br>* McshSngu.ccu!=RltnOpposition, {2025-12-17}
     <br>* McshSngu.old.ro-no!=RltnOpposition,
@@ -2214,6 +2230,7 @@
     <a class="clsHide" href="#idRlnOpsnargdsn"></a></p>
   <p id="idRlnOpsnargnam">name::
     <br>* McshEngl.opposite,
+    <br>* McshEngl.RltnOpposition'argument!⇒opposite,
     <a class="clsHide" href="#idRlnOpsnargnam"></a></p>
 
   <section id="idRlnOpsncplt">
@@ -2226,6 +2243,7 @@
   <p id="idRlnOpsncpltnam">name::
     <br>* McshEngl.complement.opposite,
     <br>* McshEngl.opposite-complement!⇒complement.opposite,
+    <br>* McshEngl.opposite'complement!⇒complement.opposite,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.uo-no!=complement.opposite,
     <a class="clsHide" href="#idRlnOpsncpltnam"></a></p>
@@ -2318,6 +2336,7 @@
     <br>* McshEngl.cause.lagoZhon!=,
     <br>* McshEngl.factor!⇒cause,
     <br>* McshEngl.reason!⇒cause,
+    <br>* McshEngl.RltnCausality'cause!⇒cause,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.kozo!=cause,
     <br>====== lagoGreek:
@@ -2513,6 +2532,7 @@
     <br>* McshEngl.causality'effect!⇒effect,
     <br>* McshEngl.consequence!⇒effect,
     <br>* McshEngl.result!⇒effect,
+    <br>* McshEngl.RltnCausality'effect!⇒effect,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.kozo-uanto!=effect,
     <br>====== lagoGreek:
@@ -2531,27 +2551,28 @@
     <a class="clsHide" href="#idRlnCsltrtcrndsn"></a></p>
   <p id="idRlnCsltrtcrnnam">name::
     <br>* McshEngl.causality'relation-to-correlation,
+    <br>* McshEngl.RltnCausality'relation-to-corelation!⇒causality'relation-to-correlation,
     <a class="clsHide" href="#idRlnCsltrtcrnnam"></a></p>
   </section>
 
   <section id="idRlnCsltgstr">
-  <h2 id="idRlnCsltgstrH2">GENERIC-SPECIFIC-TREE of causality
+  <h2 id="idRlnCsltgstrH2">GENERIC-SPECIFIC-TREE of RltnCausality
     </h2>
   <p id="idRlnCsltgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idRlnCsltgstrdsn"></a></p>
   <p id="idRlnCsltgstrnam">name::
-    <br>* McshEngl.causality'generic-specific-tree,
-    <br>* McshEngl.causality'specific-generic-tree,
+    <br>* McshEngl.RltnCausality'generic-specific-tree,
+    <br>* McshEngl.RltnCausality'specific-generic-tree,
     <a class="clsHide" href="#idRlnCsltgstrnam"></a></p>
   <p id="idRlnCsltgtr">generic-tree::
-    <br>* McshEngl.causality-Gntr,
+    <br>* McshEngl.RltnCausality-Gntr,
     <br>===
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idRlnCsltgtr"></a></p>
   <p id="idRlnCsltstr">specific-tree::
-    <br>* McshEngl.causality.specific,
-    <br>* McshEngl.causality-Sptr,
+    <br>* McshEngl.RltnCausality.specific,
+    <br>* McshEngl.RltnCausality-Sptr,
     <br>===
     <br>* real-causality,
     <br>* realNo-causality,
@@ -2573,6 +2594,13 @@
   <section id="idRlnCsltReal">
   <h2 id="idRlnCsltRealH2">causality.real
     </h2>
+  <p id="idRlnCsltRealdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idRlnCsltRealdsn"></a></p>
+  <p id="idRlnCsltRealnam">name::
+    <br>* McshEngl.causality.real,
+    <br>* McshEngl.RltnCausality.real!⇒causality.real,
+    <a class="clsHide" href="#idRlnCsltRealnam"></a></p>
 
   <section id="idRlnCause">
   <h3 id="idRlnCauseH3">causality.effect-then-cause
@@ -2641,6 +2669,7 @@
     <br>* McshEngl.ConjEngl.on-account-of!⇒RltnEffect_then_Cause,
     <br>* McshEngl.ConjEngl.so-long-as!⇒RltnEffect_then_Cause,
     <br>* McshEngl.verb.be-implyed!⇒RltnEffect_then_Cause,
+    <br>* McshEngl.causality.real.effect-then-cause!⇒RltnEffect_then_Cause,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.koza!~ConjSngu!=RltnEffect_then_Cause,
     <br>====== lagoChinese:
@@ -2777,6 +2806,7 @@
     <br>* McshEngl.verb.cause!⇒RltnCause_then_Effect,
     <br>* McshEngl.verb.imply!⇒RltnCause_then_Effect,
     <br>* McshEngl.verb.mean!⇒RltnCause_then_Effect,
+    <br>* McshEngl.causality.real.cause-then-effect!⇒RltnCause_then_Effect,
     <br>====== lagoChinese:
     <br>* McshZhon.liáncí.jiéguǒ-结果!=RltnCause_then_Effect:consequently,
     <br>* McshZhon.liáncí.jiù-就!=RltnCause_then_Effect:then,
@@ -2887,6 +2917,7 @@
     <br>* McshEngl.ConjEngl.whether!⇒RltnCondition,
     <br>* McshEngl.when!~ConjEngl!⇒RltnCondition,
     <br>* McshEngl.whether!~ConjEngl!⇒RltnCondition,
+    <br>* McshEngl.RltnCausality.condition|hypothetic!⇒RltnCondition,
     <br>* McshZhon.liáncí.de-shíhou-的时候!=RltnCondition:when,
     <br>* McshZhon.liáncí.rúguǒ..jiù-如果..就!=RltnCondition:if..then,
     <br>====== lagoChinese:
@@ -2946,6 +2977,7 @@
     <br>* McshEngl.ConjEngl.in-order-to!⇒RltnGoal,
     <br>* McshEngl.to!~ConjEngl!⇒RltnGoal,
     <br>* McshEngl.ConjEngl.to!⇒RltnGoal,
+    <br>* McshEngl.RltnCausality.goal|intend!⇒RltnGoal,
     <br>* McshZhon.liáncí.duì-对!=RltnGoal,
     <br>* McshZhon.liáncí.lái-来!=RltnGoal,
     <br>====== lagoChinese:
@@ -2990,28 +3022,34 @@
   <p id="idRlnDcascpltargnam">name::
     <br>* McshEngl.complement.antithesis,
     <br>* McshEngl.complement-argument--of--dialectic-antithesis!⇒complement.antithesis,
+    <br>* McshEngl.RltnDialectic'complement-arg!⇒complement.antithesis,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.uo-anto!=complement.antithesis,
     <a class="clsHide" href="#idRlnDcascpltargnam"></a></p>
   </section>
 
   <section id="idRlnDcasgstr">
-  <h2 id="idRlnDcasgstrH2">GENERIC-SPECIFIC-TREE of dialectic-antithesis
+  <h2 id="idRlnDcasgstrH2">GENERIC-SPECIFIC-TREE of RltnDialectic
     </h2>
   <p id="idRlnDcasgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idRlnDcasgstrdsn"></a></p>
   <p id="idRlnDcasgstrnam">name::
+    <br>* McshEngl.RltnDialectic'generic-specific-tree,
     <br>* McshEngl.dialectic-antithesis'generic-specific-tree,
+    <br>* McshEngl.RltnDialectic'specific-generic-tree,
     <br>* McshEngl.dialectic-antithesis'specific-generic-tree,
     <a class="clsHide" href="#idRlnDcasgstrnam"></a></p>
   <p id="idRlnDcasgtr">generic-tree::
+    <br>* McshEngl.RltnDialectic-Gntr,
     <br>* McshEngl.dialectic-antithesis-Gntr,
     <br>===
     <br>* ... entity-Gntr,
     <a class="clsHide" href="#idRlnDcasgtr"></a></p>
   <p id="idRlnDcasstr">specific-tree::
+    <br>* McshEngl.RltnDialectic.specific,
     <br>* McshEngl.dialectic-antithesis.specific,
+    <br>* McshEngl.RltnDialectic-Sptr,
     <br>* McshEngl.dialectic-antithesis-Sptr,
     <br>===
     <br>* <a class="clsPreview" href="#idRlnCslt">cause-effect--relation</a>,
@@ -3148,6 +3186,7 @@
     <br>* McshEngl.info-resource--relation,
     <br>* McshEngl.infrsc'relation,
     <br>* McshEngl.RltnInfoResource,
+    <br>* McshEngl.RltnInfo.info-resource,
     <a class="clsHide" href="#idRlnIfrcnam"></a></p>
   </section>
 
@@ -3168,6 +3207,7 @@
     <br>* McshEngl.verb.expect!~verbEnglA1!⇒RltnInfoPossessor,
     <br>* McshEngl.expect!~verbEnglA1!⇒RltnInfoPossessor,
     <br>* McshEngl.verb.think!~verbEnglC!⇒RltnInfoPossessor,
+    <br>* McshEngl.RltnInfo.possessor!⇒RltnInfoPossessor,
     <br>====== lagoChinese:
     <br>* McshZhon.rènwéi-认为!=RltnInfoPossessor,
     <br>* McshZhon.认为-rènwéi!=RltnInfoPossessor,
@@ -3188,6 +3228,7 @@
     <a class="clsHide" href="#idRlnInfpsoentargdsn"></a></p>
   <p id="idRlnInfpsoentargnam">name::
     <br>* McshEngl.info-of-entity-relation'argument,
+    <br>* McshEngl.RltnInfoPossessor'argument!⇒info-of-entity-relation'argument,
     <a class="clsHide" href="#idRlnInfpsoentargnam"></a></p>
   </section>
 
@@ -3225,6 +3266,7 @@
     <br>* McshEngl.SntxBelief!⇒RltnBelief,
     <br>* McshEngl.syntax.belief!⇒RltnBelief,
     <br>* McshEngl.ArgtVerb.belief!⇒RltnBelief,
+    <br>* McshEngl.RltnInfo.belief!⇒RltnBelief,
     <br>====== lagoGreek:
     <br>* McshElln.ρήμα.πιστεύω!=RltnBelief,
     <br>* McshElln.πιστεύω!~verbElln!=RltnBelief,
@@ -3429,6 +3471,7 @@
     <a class="clsHide" href="#idRlnPssnargdsn"></a></p>
   <p id="idRlnPssnargnam">name::
     <br>* McshEngl.possession'argument,
+    <br>* McshEngl.RltnPossession'argument!⇒possession'argument,
     <a class="clsHide" href="#idRlnPssnargnam"></a></p>
   </section>
 
@@ -3681,6 +3724,7 @@
     <br>* McshEngl.in-other-words!~ConjEngl!⇒RltnExplanation,
     <br>* McshEngl.relation.explanation!⇒RltnExplanation,
     <br>* McshEngl.that-is-to-say!⇒RltnExplanation,
+    <br>* McshEngl.relation.alphabetically.explanation!⇒RltnExplanation,
     <br>====== lagoGreek:
     <br>* McshElln.δηλαδή!~ConjElln!=RltnExplanation,
     <br>* McshElln.σύνδεσμος.επεξηγηματικός!=RltnExplanation,
@@ -3702,6 +3746,7 @@
     <br>* McshEngl.relation.losing!⇒RltnLosing,
     <br>* McshEngl.verb.lose!~verbEnglC!⇒RltnLosing,
     <br>* McshEngl.lose!~verbEnglC!⇒RltnLosing,
+    <br>* McshEngl.relation.alphabetically.losing!⇒RltnLosing,
     <br>====== lagoGreek:
     <br>* McshElln.χάνω!-ω-ομαι!~verbElln!=RltnLosing,
     <a class="clsHide" href="#idRlnLosgnam"></a></p>
@@ -3726,6 +3771,7 @@
     <br>* McshEngl.reciprocal-relation!⇒RltnReciprocal,
     <br>* McshEngl.relation.reciprocal!⇒RltnReciprocal,
     <br>* McshEngl.two-way-relation!⇒RltnReciprocal,
+    <br>* McshEngl.relation.alphabetically.reciprocal!⇒RltnReciprocal,
     <br>====== lagoChinese:
     <br>* McshZhon.hùxiāng-互相!=RltnReciprocal,
     <br>* McshZhon.互相-hùxiāng!=RltnReciprocal,

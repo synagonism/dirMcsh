@@ -29,10 +29,10 @@
   <p id="idName">name::
     <br>* McshEngl.ent!⇒entity,
     <br>* McshEngl.entity!=ent,
+    <br>* McshEngl.entity!~McsCor000003,
     <br>* McshEngl.entity.lagoSngu!=leu,
     <br>* McshEngl.entity.lagoElln!=οντότητα!η,
     <br>* McshEngl.entity.lagoZhon!=shì-事,
-    <br>* McshEngl.entity!~McsCor000003,
     <br>* McshEngl.McshCor000003.last.html//dirCor//dirMcsh!⇒entity,
     <br>* McshEngl.dirCor/McshCor000003.last.html!⇒entity,
     <br>* McshEngl.entity!=entt,
@@ -378,6 +378,7 @@
     <br>* McshEngl.entity'att001-id,
     <br>* McshEngl.entity'id,
     <br>* McshEngl.id-of-entity,
+    <br>* McshEngl.attribute.identification,
     <a class="clsHide" href="#idEntatt001nam"></a></p>
   <p id="idEntatt001wpa">addressWpg::
     <br>* {2021-03-25}-https://bitcoinmagazine.com/business/microsoft-announces-completion-of-ion-v1-and-launch-on-bitcoin-mainnet?utm_content=159818389&utm_medium=social&utm_source=twitter&hss_channel=tw-978907821663174656https://bitcoinmagazine.com/business/microsoft-announces-completion-of-ion-v1-and-launch-on-bitcoin-mainnet,
@@ -519,6 +520,7 @@
   <p id="idEntattnamgnam">name::
     <br>* McshEngl.ActgNaming.attribute-entity,
     <br>* McshEngl.ActgNaming.entity-attribute,
+    <br>* McshEngl.RltnEntityAttribute'naming-acting,
     <a class="clsHide" href="#idEntattnamgnam"></a></p>
   </section>
 
@@ -1012,6 +1014,7 @@
     <br>* McshEngl.global-history.summarized,
     <br>* McshEngl.summarized-global-history,
     <br>* McshEngl.synoptic-global-history,
+    <br>* McshEngl.Enttevlg'summarized-global-history,
     <a class="clsHide" href="#idEntevgsmrdnam"></a></p>
 
   <section id="idEntevgsmrdbp">
@@ -1252,6 +1255,7 @@
     <br>* McshEngl.parent_of_entity.lagoElln!=γονιός!ο,
     <br>* McshEngl.parent_of_entity.lagoZhon!=父母-fùmǔ!father-mother,
     <br>* McshEngl.entity'parent!⇒parent_of_entity,
+    <br>* McshEngl.Enttevlg'parent!⇒parent_of_entity,
     <br>====== lagoSinagu:
     <br>* McshSngu.peu!=parent_of_entity,
     <br>====== lagoGreek:
@@ -1272,6 +1276,7 @@
     <br>* McshEngl.child.lagoElln!=παιδί!το,
     <br>* McshEngl.child-of-entity!⇒child,
     <br>* McshEngl.entity'child!⇒child,
+    <br>* McshEngl.Enttevlg'child!⇒child,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.beu!=child,
     <br>====== lagoGreek:
@@ -1412,6 +1417,7 @@
     <a class="clsHide" href="#idEntevgcrtgargdsn"></a></p>
   <p id="idEntevgcrtgargnam">name::
     <br>* McshEngl.creating'argument,
+    <br>* McshEngl.DongCreating'argument!⇒creating'argument,
     <a class="clsHide" href="#idEntevgcrtgargnam"></a></p>
   </section>
 
@@ -1480,6 +1486,7 @@
     <br>* McshEngl.build!~DongCreating,
     <br>* McshEngl.building!=DongCreating,
     <br>* McshEngl.staging.building,
+    <br>* McshEngl.DongCreating.building,
     <a class="clsHide" href="#idEntevgbldgnam"></a></p>
   </section>
 
@@ -1500,6 +1507,7 @@
     <br>* McshEngl.starting!⇒DongStarting,
     <br>* McshEngl.verb.start!~verbEnglA1!⇒DongStarting,
     <br>* McshEngl.start!~verbEnglA1!⇒DongStarting,
+    <br>* McshEngl.DongCreating.starting!⇒DongStarting,
     <br>====== lagoChinese:
     <br>* McshZhon.kāishǐ-开始!=DongStarting,
     <br>* McshZhon.开始-kāishǐ!=DongStarting,
@@ -1527,6 +1535,7 @@
     <br>* McshEngl.complete!~verbEngl!⇒DongCompleting,
     <br>* McshEngl.completing!⇒DongCompleting,
     <br>* McshEngl.staging.completing!⇒DongCompleting,
+    <br>* McshEngl.DongCreating.completing!⇒DongCompleting,
     <br>====== lagoGreek:
     <br>* McshElln.ολοκληρώνω!~verbElln!=DongCompleting,
     <br>* McshElln.ρήμα.ολοκληρώνω!=DongCompleting,
@@ -1581,6 +1590,7 @@
     <br>* McshEngl.terminate!~verbEngl!⇒DongFinishing,
     <br>* McshEngl.verb.finish!~verbEnglA3!⇒DongFinishing,
     <br>* McshEngl.verb.terminate!⇒DongFinishing,
+    <br>* McshEngl.DongDissolving.finishing!⇒DongFinishing,
     <br>====== lagoChinese:
     <br>* McshZhon.dòngcí.wán-完!=DongFinishing,
     <br>* McshZhon.wán-完!~verbZhon!=DongFinishing,
@@ -1849,7 +1859,7 @@
   </section>
 
   <section id="idEntevgCpt">
-  <h2 id="idEntevgCptH2">Entevlg.concept
+  <h2 id="idEntevgCptH2">Enttevlg.concept
     </h2>
   <p id="idEntevgCptdsn">description::
     <br>× Mcsh-creation: {2019-09-06}
@@ -1872,7 +1882,7 @@
   </section>
 
   <section id="idEntevgRft">
-  <h2 id="idEntevgRftH2">Entevlg.referent
+  <h2 id="idEntevgRftH2">Enttevlg.referent
     </h2>
   <p id="idEntevgRftdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1887,7 +1897,7 @@
   </section>
 
   <section id="idEntevgPhl">
-  <h2 id="idEntevgPhlH2">Entevlg.phylo
+  <h2 id="idEntevgPhlH2">Enttevlg.phylo
     </h2>
   <p id="idEntevgPhldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1901,7 +1911,7 @@
   </section>
 
   <section id="idEntevgOnt">
-  <h2 id="idEntevgOntH2">Entevlg.onto
+  <h2 id="idEntevgOntH2">Enttevlg.onto
     </h2>
   <p id="idEntevgOntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1915,7 +1925,7 @@
   </section>
 
   <section id="idEntevgEraage">
-  <h2 id="idEntevgEraageH2">Entevlg.era-vs-age
+  <h2 id="idEntevgEraageH2">Enttevlg.era-vs-age
     </h2>
   <p id="idEntevgEraagedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1929,6 +1939,7 @@
   <p id="idEntevgEraagenam">name::
     <br>* McshEngl.evoluting.age-vs-era,
     <br>* McshEngl.evoluting.era-vs-age,
+    <br>* McshEngl.Enttevlg.era-vs-age,
     <br>====== lagoGreek:
     <br>* McshElln.εποχή-ιστορίας,
     <a class="clsHide" href="#idEntevgEraagenam"></a></p>
@@ -1950,7 +1961,7 @@
     <a class="clsHide" href="#idEntevgIk13000nam"></a></p>
 
   <section id="idEntevgC2100">
-  <h3 id="idEntevgC2100H3">century.2100!={2001..2100} of entity
+  <h3 id="idEntevgC2100H3">century.2100!={2001..2100} of Enttevlg
     </h3>
   <p id="idEntevgC2100dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2334,7 +2345,7 @@
     <a class="clsHide" href="#idEntevgIk12000nam"></a></p>
 
   <section id="idEntevgC2000">
-  <h3 id="idEntevgC2000H3">century.2000!={1901..2000} of entity
+  <h3 id="idEntevgC2000H3">century.2000!={1901..2000} of Enttevlg
     </h3>
   <p id="idEntevgC2000dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2801,7 +2812,7 @@
   </section>
 
   <section id="idEntevgC1900">
-  <h3 id="idEntevgC1900H3">century.1900!={1801..1900} of entity
+  <h3 id="idEntevgC1900H3">century.1900!={1801..1900} of Enttevlg
     </h3>
   <p id="idEntevgC1900dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2946,7 +2957,7 @@
   </section>
 
   <section id="idEntevgC1800">
-  <h3 id="idEntevgC1800H3">century.1800!={1701..1800} of entity
+  <h3 id="idEntevgC1800H3">century.1800!={1701..1800} of Enttevlg
     </h3>
   <p id="idEntevgC1800dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2992,7 +3003,7 @@
   </section>
 
   <section id="idEntevgC1700">
-  <h3 id="idEntevgC1700H3">century.1700!={1601..1700} of entity
+  <h3 id="idEntevgC1700H3">century.1700!={1601..1700} of Enttevlg
     </h3>
   <p id="idEntevgC1700dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3044,7 +3055,7 @@
   </section>
 
   <section id="idEntevgC1600">
-  <h3 id="idEntevgC1600H3">century.1600!={1501..1600} of entity
+  <h3 id="idEntevgC1600H3">century.1600!={1501..1600} of Enttevlg
     </h3>
   <p id="idEntevgC1600dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3090,7 +3101,7 @@
   </section>
 
   <section id="idEntevgC1500">
-  <h3 id="idEntevgC1500H3">century.1500!={1401..1500} of entity
+  <h3 id="idEntevgC1500H3">century.1500!={1401..1500} of Enttevlg
     </h3>
   <p id="idEntevgC1500dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3137,7 +3148,7 @@
   </section>
 
   <section id="idEntevgC1400">
-  <h3 id="idEntevgC1400H3">century.1400!={1301..1400} of entity
+  <h3 id="idEntevgC1400H3">century.1400!={1301..1400} of Enttevlg
     </h3>
   <p id="idEntevgC1400dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3178,7 +3189,7 @@
   </section>
 
   <section id="idEntevgC1300">
-  <h3 id="idEntevgC1300H3">century.1300!={1201..1300} of entity
+  <h3 id="idEntevgC1300H3">century.1300!={1201..1300} of Enttevlg
     </h3>
   <p id="idEntevgC1300dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3227,7 +3238,7 @@
   </section>
 
   <section id="idEntevgC1200">
-  <h3 id="idEntevgC1200H3">century.1200!={1101..1200} of entity
+  <h3 id="idEntevgC1200H3">century.1200!={1101..1200} of Enttevlg
     </h3>
   <p id="idEntevgC1200dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3268,7 +3279,7 @@
   </section>
 
   <section id="idEntevgC1100">
-  <h3 id="idEntevgC1100H3">century.1100!={1001..1100} of entity
+  <h3 id="idEntevgC1100H3">century.1100!={1001..1100} of Enttevlg
     </h3>
   <p id="idEntevgC1100dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3381,7 +3392,7 @@
     <a class="clsHide" href="#idEntevgIk11000nam"></a></p>
 
   <section id="idEntevgC1000">
-  <h3 id="idEntevgC1000H3">century.1000!={0901..1000} of entity
+  <h3 id="idEntevgC1000H3">century.1000!={0901..1000} of Enttevlg
     </h3>
   <p id="idEntevgC1000dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3413,7 +3424,7 @@
   </section>
 
   <section id="idEntevgC0900">
-  <h3 id="idEntevgC0900H3">century.0900!={0801..0900} of entity
+  <h3 id="idEntevgC0900H3">century.0900!={0801..0900} of Enttevlg
     </h3>
   <p id="idEntevgC0900dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3445,7 +3456,7 @@
   </section>
 
   <section id="idEntevgC0800">
-  <h3 id="idEntevgC0800H3">century.0800!={0701..0800} of entity
+  <h3 id="idEntevgC0800H3">century.0800!={0701..0800} of Enttevlg
     </h3>
   <p id="idEntevgC0800dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3484,7 +3495,7 @@
   </section>
 
   <section id="idEntevgC0700">
-  <h3 id="idEntevgC0700H3">century.0700!={0601..0700} of entity
+  <h3 id="idEntevgC0700H3">century.0700!={0601..0700} of Enttevlg
     </h3>
   <p id="idEntevgC0700dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3515,7 +3526,7 @@
   </section>
 
   <section id="idEntevgC0600">
-  <h3 id="idEntevgC0600H3">century.0600!={0501..0600} of entity
+  <h3 id="idEntevgC0600H3">century.0600!={0501..0600} of Enttevlg
     </h3>
   <p id="idEntevgC0600dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3548,7 +3559,7 @@
   </section>
 
   <section id="idEntevgC0500">
-  <h3 id="idEntevgC0500H3">century.0500!={0401..0500} of entity
+  <h3 id="idEntevgC0500H3">century.0500!={0401..0500} of Enttevlg
     </h3>
   <p id="idEntevgC0500dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3591,7 +3602,7 @@
   </section>
 
   <section id="idEntevgC0400">
-  <h3 id="idEntevgC0400H3">century.0400!={0301..0400} of entity
+  <h3 id="idEntevgC0400H3">century.0400!={0301..0400} of Enttevlg
     </h3>
   <p id="idEntevgC0400dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3629,7 +3640,7 @@
   </section>
 
   <section id="idEntevgC0300">
-  <h3 id="idEntevgC0300H3">century.0300!={0201..0300} of entity
+  <h3 id="idEntevgC0300H3">century.0300!={0201..0300} of Enttevlg
     </h3>
   <p id="idEntevgC0300dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3673,7 +3684,7 @@
   </section>
 
   <section id="idEntevgC0200">
-  <h3 id="idEntevgC0200H3">century.0200!={0101..0200} of entity
+  <h3 id="idEntevgC0200H3">century.0200!={0101..0200} of Enttevlg
     </h3>
   <p id="idEntevgC0200dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3709,7 +3720,7 @@
   </section>
 
   <section id="idEntevgC0100">
-  <h3 id="idEntevgC0100H3">century.0100!={0001..0100} of entity
+  <h3 id="idEntevgC0100H3">century.0100!={0001..0100} of Enttevlg
     </h3>
   <p id="idEntevgC0100dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3818,7 +3829,7 @@
     <a class="clsHide" href="#idEntevgIk1Bce1000nam"></a></p>
 
   <section id="idEntevgCBce0100">
-  <h3 id="idEntevgCBce0100H3">century.Bce0100-{Bce0100..Bce0001} of entity
+  <h3 id="idEntevgCBce0100H3">century.Bce0100-{Bce0100..Bce0001} of Enttevlg
     </h3>
   <p id="idEntevgCBce0100dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3852,7 +3863,7 @@
   </section>
 
   <section id="idEntevgCBce0200">
-  <h3 id="idEntevgCBce0200H3">century.Bce0200-{Bce0200..Bce0101} of entity
+  <h3 id="idEntevgCBce0200H3">century.Bce0200-{Bce0200..Bce0101} of Enttevlg
     </h3>
   <p id="idEntevgCBce0200dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3887,7 +3898,7 @@
   </section>
 
   <section id="idEntevgCBce0300">
-  <h3 id="idEntevgCBce0300H3">century.Bce0300-{Bce0300..Bce0201} of entity
+  <h3 id="idEntevgCBce0300H3">century.Bce0300-{Bce0300..Bce0201} of Enttevlg
     </h3>
   <p id="idEntevgCBce0300dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3923,7 +3934,7 @@
   </section>
 
   <section id="idEntevgCBce0400">
-  <h3 id="idEntevgCBce0400H3">century.Bce0400-{Bce0400..Bce0301} of entity
+  <h3 id="idEntevgCBce0400H3">century.Bce0400-{Bce0400..Bce0301} of Enttevlg
     </h3>
   <p id="idEntevgCBce0400dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3959,7 +3970,7 @@
   </section>
 
   <section id="idEntevgCBce0500">
-  <h3 id="idEntevgCBce0500H3">century.Bce0500-{Bce0500..Bce0401} of entity
+  <h3 id="idEntevgCBce0500H3">century.Bce0500-{Bce0500..Bce0401} of Enttevlg
     </h3>
   <p id="idEntevgCBce0500dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3998,7 +4009,7 @@
   </section>
 
   <section id="idEntevgCBce0600">
-  <h3 id="idEntevgCBce0600H3">century.Bce0600-{Bce0600..Bce0501} of entity
+  <h3 id="idEntevgCBce0600H3">century.Bce0600-{Bce0600..Bce0501} of Enttevlg
     </h3>
   <p id="idEntevgCBce0600dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4039,7 +4050,7 @@
   </section>
 
   <section id="idEntevgCBce0700">
-  <h3 id="idEntevgCBce0700H3">century.Bce0700-{Bce0700..Bce0601} of entity
+  <h3 id="idEntevgCBce0700H3">century.Bce0700-{Bce0700..Bce0601} of Enttevlg
     </h3>
   <p id="idEntevgCBce0700dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4077,7 +4088,7 @@
   </section>
 
   <section id="idEntevgCBce0800">
-  <h3 id="idEntevgCBce0800H3">century.Bce0800-{Bce0800..Bce0701} of entity
+  <h3 id="idEntevgCBce0800H3">century.Bce0800-{Bce0800..Bce0701} of Enttevlg
     </h3>
   <p id="idEntevgCBce0800dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4115,7 +4126,7 @@
   </section>
 
   <section id="idEntevgCBce0900">
-  <h3 id="idEntevgCBce0900H3">century.Bce0900-{Bce0900..Bce0801} of entity
+  <h3 id="idEntevgCBce0900H3">century.Bce0900-{Bce0900..Bce0801} of Enttevlg
     </h3>
   <p id="idEntevgCBce0900dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4149,7 +4160,7 @@
   </section>
 
   <section id="idEntevgCBce1000">
-  <h3 id="idEntevgCBce1000H3">century.Bce1000-{Bce1000..Bce0901} of entity
+  <h3 id="idEntevgCBce1000H3">century.Bce1000-{Bce1000..Bce0901} of Enttevlg
     </h3>
   <p id="idEntevgCBce1000dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4227,7 +4238,7 @@
     <a class="clsHide" href="#idEntevgIk1Bce2000nam"></a></p>
 
   <section id="idEntevgCBce1100">
-  <h3 id="idEntevgCBce1100H3">century.Bce1100-{Bce1100..Bce1001} of entity
+  <h3 id="idEntevgCBce1100H3">century.Bce1100-{Bce1100..Bce1001} of Enttevlg
     </h3>
   <p id="idEntevgCBce1100dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4270,7 +4281,7 @@
   </section>
 
   <section id="idEntevgCBce1200">
-  <h3 id="idEntevgCBce1200H3">century.Bce1200-{Bce1200..Bce1101} of entity
+  <h3 id="idEntevgCBce1200H3">century.Bce1200-{Bce1200..Bce1101} of Enttevlg
     </h3>
   <p id="idEntevgCBce1200dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6150,6 +6161,7 @@
     <br>* McshEngl.bodyNo'04_syntax,
     <br>* McshEngl.bodyNo'syntax,
     <br>* McshEngl.syntax-of-bodyNo,
+    <br>* McshEngl.bodyNo'logo-relation'syntax,
     <a class="clsHide" href="#idEntBodyNstxnam"></a></p>
   </section>
   </section>
@@ -6433,6 +6445,7 @@
     <br>* McshEngl.what!~AdveEngl!⇒humanNoAsk,
     <br>* McshEngl.what.lagoElln!=τι!⇒humanNoAsk,
     <br>* McshEngl.what.lagoZhon!=shénme-什么!⇒humanNoAsk,
+    <br>* McshEngl.humanNo.reference.interrogative!⇒humanNoAsk,
     <br>====== lagoChinese:
     <br>* McshZhon.shénme-什么!=humanNoAsk,
     <br>* McshZhon.什么-shénme!=humanNoAsk,
@@ -6451,6 +6464,7 @@
     <br>* McshEngl.humanNo.deictic!⇒humanNoDeictic,
     <br>* McshEngl.AdveEngl.that!⇒humanNoDeictic,
     <br>* McshEngl.that!~AdveEngl!⇒humanNoDeictic,
+    <br>* McshEngl.humanNo.reference.deictic!⇒humanNoDeictic,
     <br>====== lagoGreek:
     <br>* McshElln.επίθετο.αυτός-ή-ό!=humanNoDeictic,
     <br>* McshElln.αυτός-ή-ό!~AdjeElln!=humanNoDeictic,
@@ -6527,6 +6541,7 @@
     <br>* McshEngl.new!~AdjeEngl:animalNo!⇒new,
     <br>* McshEngl.AdjeEngl.young:animal!⇒new,
     <br>* McshEngl.young!~AdjeEngl:animal!⇒new,
+    <br>* McshEngl.young'new-attribute!⇒new,
     <br>====== lagoChinese:
     <br>* McshZhon.niánqīng-年轻!=young!=new,
     <br>* McshZhon.年轻-niánqīng!=young!=new,
@@ -6576,6 +6591,7 @@
     <br>* McshEngl.oldness!⇒old,
     <br>====== lagoChinese:
     <br>* McshEngl.AdjeZhon.jiù-旧!=old,
+    <br>* McshEngl.entityYoungNo'old-attribute!⇒old,
     <br>* McshZhon.jiù-旧!~AdjeZhon!=old,
     <br>* McshZhon.旧-jiù!~AdjeZhon!=old,
     <br>* McshZhon.lǎo-老!=old,

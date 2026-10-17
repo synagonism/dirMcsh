@@ -32,13 +32,14 @@
   <p id="idName">name::
     <br>* McshEngl.human-medication!⇒medication,
     <br>* McshEngl.medication!=human-medication,
+    <br>* McshEngl.medication!~McsHlth000014,
     <br>* McshEngl.McshHlth000014.last.html//dirHlth//dirMcsh!⇒medication,
     <br>* McshEngl.dirHlth/McshHlth000014.last.html!⇒medication,
     <br>* McshEngl.drug.medication!⇒medication,
     <br>* McshEngl.drug.001-medication!⇒medication,
-    <br>* McshEngl.med!⇒medication,
-    <br>* McshEngl.medication!~McsHlth000014,
+    <br>* McshEngl.Med!⇒medication,
     <br>* McshEngl.medicine!⇒medication,
+    <br>* McshEngl.Mdtn!⇒medication,
     <br>* McshEngl.pharmaceutical-drug!⇒medication,
     <br>====== lagoChinese:
     <br>* McshZhon.yàowù-药物!=medication,
@@ -271,6 +272,7 @@
     <br>* McshEngl.medication'att009-active-ingredient!⇒medication'active_ingredient,
     <br>* McshEngl.medication'active-ingredient-009!⇒medication'active_ingredient,
     <br>* McshEngl.medication-part.active-ingredient!⇒medication'active_ingredient,
+    <br>* McshEngl.medication'part.active!⇒medication'active_ingredient,
     <br>====== lagoGreek:
     <br>* McshElln.δραστική-ουσία-φαρμάκου!=medication'active_ingredient,
     <br>* McshElln.φαρμάκου-δραστική-ουσία!=medication'active_ingredient,
@@ -291,6 +293,7 @@
     <br>* McshEngl.medication'excipient, /eksípient/
     <br>* McshEngl.medication'inactive-ingredient,
     <br>* McshEngl.medication-part.activeNo-ingredient,
+    <br>* McshEngl.medication'part.activeNo,
     <a class="clsHide" href="#idMedHmnatt010nam"></a></p>
   </section>
   </section>
@@ -322,6 +325,7 @@
     <br>* McshEngl.medication'dose,
     <br>* McshEngl.medication'att012-dose!⇒medication'dose,
     <br>* McshEngl.medication'dose-012!⇒medication'dose,
+    <br>* McshEngl.medication'dosage'dose!⇒medication'dose,
     <br>====== lagoGreek:
     <br>* McshElln.φαρμάκου-δόση!=medication'dose,
     <a class="clsHide" href="#idMedHmnatt012nam"></a></p>
@@ -342,6 +346,7 @@
     <br>* McshEngl.dosage-form--of-medication!⇒medication_dosage_form,
     <br>* McshEngl.medication'att013-dosage-form!⇒medication_dosage_form,
     <br>* McshEngl.medication'dosage-form-013!⇒medication_dosage_form,
+    <br>* McshEngl.medication'dosage'dosage-form!⇒medication_dosage_form,
     <a class="clsHide" href="#idMedHmnatt013nam"></a></p>
 
   <section id="idMedHmnatt013gstr">
@@ -380,6 +385,7 @@
   <p id="idMedHmnatt014nam">name::
     <br>* McshEngl.medication'att014-overdose,
     <br>* McshEngl.medication'overdose-014,
+    <br>* McshEngl.medication'dosage'overdose,
     <a class="clsHide" href="#idMedHmnatt014nam"></a></p>
   </section>
   </section>
@@ -556,18 +562,18 @@
   </section>
 
   <section id="idMedHmndng">
-  <h1 id="idMedHmndngFH1">16_DOING of medication
+  <h1 id="idMedHmndngH1">DOING of medication
     </h1>
-  <p id="idMedHmndngFdsn">description::
+  <p id="idMedHmndngdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* indication,
     <br>* contraindication,
     <br>* side-effect,
     <br>* evoluting,
-    <a class="clsHide" href="#idMedHmndngFdsn"></a></p>
-  <p id="idMedHmndngFnam">name::
+    <a class="clsHide" href="#idMedHmndngdsn"></a></p>
+  <p id="idMedHmndngnam">name::
     <br>* McshEngl.medication'doing,
-    <a class="clsHide" href="#idMedHmndngFnam"></a></p>
+    <a class="clsHide" href="#idMedHmndngnam"></a></p>
 
   <section id="idMedHmnaprvl">
   <h2 id="idMedHmnaprvlH2">14_approval of medication
@@ -579,12 +585,13 @@
     <a class="clsHide" href="#idMedHmnaprvldsn"></a></p>
   <p id="idMedHmnaprvlnam">name::
     <br>* McshEngl.medication'approval,
+    <br>* McshEngl.medication'doing'approval!⇒medication'approval,
     <a class="clsHide" href="#idMedHmnaprvlnam"></a></p>
   </section>
   </section>
 
   <section id="idMedHmnevg">
-  <h1 id="idMedHmnevgH1">17_EVOLUTING of medication
+  <h1 id="idMedHmnevgH1">EVOLUTING of medication
     </h1>
   <p id="idMedHmnevgdsn">description::
     <br>× Mcsh-creation: {2020-01-16}
@@ -642,11 +649,10 @@
     <br>* McshEngl.medication-Sptr,
     <br>===
     <br>
-    <a class="clsHide" href="#idMedHmnstr"></a></p>
-  <p id="idMedHmnstrwpa">addressWpg::
+    <br>=== addressWpg:
     <br>* https://www.news-medical.net/drugs-a-z.aspx,
     <br>* https://www.galinos.gr/web/drugs/main/lists/icdcodes,
-    <a class="clsHide" href="#idMedHmnstrwpa"></a></p>
+    <a class="clsHide" href="#idMedHmnstr"></a></p>
 
   <section id="idMedHmnScdvPspn">
   <h2 id="idMedHmnScdvPspnH2">medication.specs-div.prescription
@@ -794,15 +800,13 @@
     <br>* beta-lactams,
     <br>* macrolides,
     <br>* quinolones,
-    <a class="clsHide" href="#idMedHmn004str"></a></p>
-  <p id="idMedHmn004Spcclfn">classification::
+    <br>=== classification::
     <br>Antibiotics can be classified in several ways. The most common method classifies them according to their action against the infecting organism. Some antibiotics attack the cell wall; some disrupt the cell membrane; and the majority inhibit the synthesis of nucleic acids and proteins, the polymers that make up the bacterial cell. Another method classifies antibiotics according to which bacterial strains they affect: staphylococcus, streptococcus, or Escherichia coli, for example. Antibiotics are also classified based on chemical structure, as penicillins, cephalosporins, aminoglycosides, tetracyclines, macrolides, or sulphonamides, among others.
     <br>"Antibiotic," Microsoft(R) Encarta(R) 97 Encyclopedia. (c) 1993-1996 Microsoft Corporation. All rights reserved.
-    <a class="clsHide" href="#idMedHmn004Spcclfn"></a></p>
-  <p id="idMedHmn004Spceags">Extermination and Growth Suppression::
+    <br>=== Extermination and Growth Suppression::
     <br>Antibiotics may also be classed as bactericidal (killing bacteria) or bacteriostatic (stopping bacterial growth and multiplication). Bacteriostatic drugs are effective because bacteria that are prevented from growing will die off after a time or be killed by the defence mechanisms of the host. The tetracyclines and the sulphonamides are among the bacteriostatic antiobiotics. Antibiotics that damage the cell membrane cause the cell's metabolites to leak out, eventually killing the organism. These compounds, including penicillins and cephalosporins, are therefore classed as bactericidal.
     <br>"Antibiotic," Microsoft(R) Encarta(R) 97 Encyclopedia. (c) 1993-1996 Microsoft Corporation. All rights reserved.
-    <a class="clsHide" href="#idMedHmn004Spceags"></a></p>
+    <a class="clsHide" href="#idMedHmn004str"></a></p>
   </section>
 
   <section id="idMedHmn004Augmentin">
@@ -1035,11 +1039,31 @@
     <br>[{2020-01-18} https://en.wikipedia.org/wiki/Psychiatric_medication]
     <a class="clsHide" href="#idMedHmn006dsn"></a></p>
   <p id="idMedHmn006nam">name::
-    <br>* McshEngl.medication.006-psychiatric,
-    <br>* McshEngl.medication.psychiatric-006,
-    <br>* McshEngl.psychiatric-medication-006,
+    <br>* McshEngl.MdtnPsychiatric,
+    <br>* McshEngl.medication.006-psychiatric!⇒MdtnPsychiatric,
+    <br>* McshEngl.medication.psychiatric-006!⇒MdtnPsychiatric,
+    <br>* McshEngl.psychiatric-medication-006!⇒MdtnPsychiatric,
     <a class="clsHide" href="#idMedHmn006nam"></a></p>
-  <p id="idMedHmn006str">SPECIFIC::
+
+  <section id="idMedHmn006gstr">
+  <h2 id="idMedHmn006gstrH2">GENERIC-SPECIFIC-TREE of MdtnPsychiatric
+    <a class="clsHide" href="#idMedHmn006gstrH2"></a></h2>
+  <p id="idMedHmn006gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idMedHmn006gstrdsn"></a></p>
+  <p id="idMedHmn006gstrnam">name::
+    <br>* McshEngl.MdtnPsychiatric'generic-specific-tree,
+    <br>* McshEngl.MdtnPsychiatric'specific-generic-tree,
+    <a class="clsHide" href="#idMedHmn006gstrnam"></a></p>
+  <p id="idMedHmn006gtr">generic-tree::
+    <br>* McshEngl.MdtnPsychiatric-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idMedHmn006gtr"></a></p>
+  <p id="idMedHmn006str">specific-tree::
+    <br>* McshEngl.MdtnPsychiatric.specific,
+    <br>* McshEngl.MdtnPsychiatric-Sptr,
+    <br>===
     <br>* Αγχολυτικό,
     <br>* Αντιανοϊκό,
     <br>* Αντίδοτο στις βενζοδιαζεπίνες,
@@ -1251,6 +1275,7 @@
     <br>* ZYPREXA VELOTAB - ολανζαπίνη - olanzapine - Αντιψυχωσικό,
     <br>[http://psi-gr.tripod.com/drugs_guide.html]
     <a class="clsHide" href="#idMedHmn006str"></a></p>
+  </section>
 
   <section id="idMedHmn001">
   <h2 id="idMedHmn001H2">medication.antidepressant-001
@@ -1288,13 +1313,33 @@
     <br>[http://www.webmd.com/bipolar-disorder/antipsychotic-medication]
     <a class="clsHide" href="#idMedAsktcdsn"></a></p>
   <p id="idMedAsktcnam">name::
-    <br>* McshEngl.medication.antipsychotic,
-    <br>* McshEngl.antipsychotic-medication,
+    <br>* McshEngl.MdtnAntipsychotic,
+    <br>* McshEngl.medication.antipsychotic!⇒MdtnAntipsychotic,
+    <br>* McshEngl.antipsychotic-medication!⇒MdtnAntipsychotic,
     <br>====== lagoGreek:
-    <br>* McshElln.αντιψυχωσικό-φάρμακο,
-    <br>* McshElln.φάρμακο.αντιψυχωσικό,
+    <br>* McshElln.αντιψυχωσικό-φάρμακο!=MdtnAntipsychotic,
+    <br>* McshElln.φάρμακο.αντιψυχωσικό!=MdtnAntipsychotic,
     <a class="clsHide" href="#idMedAsktcnam"></a></p>
-  <p id="idMedAsktcstr">SPECIFIC::
+
+  <section id="idMedAsktcgstr">
+  <h3 id="idMedAsktcgstrH3">GENERIC-SPECIFIC-TREE of MdtnAntipsychotic
+    <a class="clsHide" href="#idMedAsktcgstrH3"></a></h3>
+  <p id="idMedAsktcgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idMedAsktcgstrdsn"></a></p>
+  <p id="idMedAsktcgstrnam">name::
+    <br>* McshEngl.MdtnAntipsychotic'generic-specific-tree,
+    <br>* McshEngl.MdtnAntipsychotic'specific-generic-tree,
+    <a class="clsHide" href="#idMedAsktcgstrnam"></a></p>
+  <p id="idMedAsktcgtr">generic-tree::
+    <br>* McshEngl.MdtnAntipsychotic-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idMedAsktcgtr"></a></p>
+  <p id="idMedAsktcstr">specific-tree::
+    <br>* McshEngl.MdtnAntipsychotic.specific,
+    <br>* McshEngl.MdtnAntipsychotic-Sptr,
+    <br>===
     <br>Antipsychotics used to treat bipolar disorder include:
     <br>* Abilify (aripiprazole)
     <br>* Clozaril (clozapine)
@@ -1347,6 +1392,7 @@
     <br>* ZYPREXA VELOTAB - ολανζαπίνη - olanzapine - Αντιψυχωσικό
     <br>[http://psi-gr.tripod.com/drugs_guide.html]
     <a class="clsHide" href="#idMedAsktcstr"></a></p>
+  </section>
   </section>
   </section>
 
@@ -1870,21 +1916,23 @@
     <br>[{2020-01-18} https://en.wikipedia.org/wiki/Minocycline]
     <a class="clsHide" href="#idMedHmn012dsn"></a></p>
   <p id="idMedHmn012nam">name::
-    <br>* McshEngl.medication.012-minocycline,
-    <br>* McshEngl.medication.minocycline-012,
-    <br>* McshEngl.minocycline,
+    <br>* McshEngl.MdtnMinocycline,
+    <br>* McshEngl.medication.012-minocycline!⇒MdtnMinocycline,
+    <br>* McshEngl.medication.minocycline-012!⇒MdtnMinocycline,
+    <br>* McshEngl.minocycline!⇒MdtnMinocycline,
     <br>====== lagoGreek:
-    <br>* McshElln.μινοκυκλίνη,
+    <br>* McshElln.μινοκυκλίνη!=MdtnMinocycline,
     <a class="clsHide" href="#idMedHmn012nam"></a></p>
 
   <section id="idMedHmn012Idcn">
-  <h2 id="idMedHmn012IdcnH2">Indication
+  <h2 id="idMedHmn012IdcnH2">indication of MdtnMinocycline
     </h2>
-  <p id="idMedHmn012Idcnstr">SPECIFIC::
-    <br>* AIDS,
-    <br>* εγγεφαλικο,
-    <br>* σχιζοφρενεια,
-    <a class="clsHide" href="#idMedHmn012Idcnstr"></a></p>
+  <p id="idMedHmn012Idcndsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idMedHmn012Idcndsn"></a></p>
+  <p id="idMedHmn012Idcnnam">name::
+    <br>* McshEngl.MdtnMinocycline'indication,
+    <a class="clsHide" href="#idMedHmn012Idcnnam"></a></p>
   <p id="idMedHmn012Idcnskzrn">schizophrenia::
     <br>Αντιβιοτικό "δαμάζει" τη σχιζοφρένεια
     <br>07 Μαρτίου 2012, 20:27   ΠΗΓΗ: Madata.gr
@@ -1905,6 +1953,31 @@
     <br>Ένα αντιβιοτικό που κοστίζει περίπου 1 ευρώ και χρησιμοποιείται για την αντιμετώπιση της ακμής και της αρθρίτιδας θα μπορούσε, σύμφωνα με Αμερικανούς επιστήμονες, να φέρει την επανάσταση στην αντιμετώπιση των εγκεφαλικών επεισοδίων.
     <br>[http://www.healthview.gr/tag/μινοκυκλίνη]
     <a class="clsHide" href="#idMedHmn012Idcnstrk"></a></p>
+
+  <section id="idMedHmn012Idcngstr">
+  <h3 id="idMedHmn012IdcngstrH3">GENERIC-SPECIFIC-TREE of MdtnMinocycline'indication
+    <a class="clsHide" href="#idMedHmn012IdcngstrH3"></a></h3>
+  <p id="idMedHmn012Idcngstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-17}
+    <a class="clsHide" href="#idMedHmn012Idcngstrdsn"></a></p>
+  <p id="idMedHmn012Idcngstrnam">name::
+    <br>* McshEngl.MdtnMinocycline'indication'generic-specific-tree,
+    <br>* McshEngl.MdtnMinocycline'indication'specific-generic-tree,
+    <a class="clsHide" href="#idMedHmn012Idcngstrnam"></a></p>
+  <p id="idMedHmn012Idcngtr">generic-tree::
+    <br>* McshEngl.MdtnMinocycline'indication-Gntr,
+    <br>===
+    <br>* ... entity-Gntr,
+    <a class="clsHide" href="#idMedHmn012Idcngtr"></a></p>
+  <p id="idMedHmn012Idcnstr">specific-tree::
+    <br>* McshEngl.MdtnMinocycline'indication.specific,
+    <br>* McshEngl.MdtnMinocycline'indication-Sptr,
+    <br>===
+    <br>* AIDS,
+    <br>* εγγεφαλικο,
+    <br>* σχιζοφρενεια,
+    <a class="clsHide" href="#idMedHmn012Idcnstr"></a></p>
+  </section>
   </section>
   </section>
 
@@ -2029,6 +2102,7 @@
     <a class="clsHide" href="#idMedHmn014Chlddsn"></a></p>
   <p id="idMedHmn014Chldnam">name::
     <br>* McshEngl.medication.vaccine.child,
+    <br>* McshEngl.vaccine.child!⇒medication.vaccine.child,
     <a class="clsHide" href="#idMedHmn014Chldnam"></a></p>
   </section>
   </section>
