@@ -1,9 +1,9 @@
 [
-  [";lagItln01a","A|a",6,"2026-10-09"],
+  [";lagItln01a","A|a",6,"2026-10-16"],
   ["acqua-fredda!=water-cold","dirStn/McshStn000035.last.html#idLItlnsentBcexwrcd"],
   ["aiutare!~verbItln!=DongHelping","dirCor/McshCor000004.last.html#idDngHlpg"],
   ["aiuto!il/ayyúto/!=DongHelping","dirCor/McshCor000004.last.html#idDngHlpg"],
   ["alfabeto-italiano","dirStn/McshStn000035.last.html#idLItlnunitLttrAlfa"],
   ["arrivederci!=goodbye","dirStn/McshStn000035.last.html#idLItlnsentBcexgbye"],
-  ["avere/avére/!=to-have","dirStn/McshStn000035.last.html#idLItlnverbAver"]
+  ["avere/avére/!=to_have","dirStn/McshStn000035.last.html#idLItlnverbAver"]
 ]

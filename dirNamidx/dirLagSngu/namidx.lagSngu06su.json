@@ -1,5 +1,5 @@
 [
-  [";lagSngu06su","S|s",40,"2026-10-13"],
+  [";lagSngu06su","S|s",40,"2026-10-16"],
   ["saro!=sequence'element","dirCor/McshCor000011.last.html#idSys001elt"],
   ["selo!=cell","dirHlth/McshHlth000004.last.html#idOverview"],
   ["semoHo!=Hmnm_semu-view!=Semuview","dirLag/McshLag000007.last.html#idLHmnmipt3"],
@@ -20,7 +20,7 @@
   ["sistos-ro-jo!=system'edge","dirCor/McshCor000011.last.html#idSysndrn"],
   ["sistos-strukto!=system's-structure","dirCor/McshCor000011.last.html#idSysstrrF"],
   ["sistosSiros-jo-ruo!=sequence'element","dirCor/McshCor000011.last.html#idSys001elt"],
-  ["sistosTros-jo-ruo!=tree-node","dirCor/McshCor000011.last.html#idSys002node"],
+  ["sistosTros-jo-ruo!=tree_node","dirCor/McshCor000011.last.html#idSys002node"],
   ["sistosTros-strukto","dirCor/McshCor000011.last.html#idSys002stcr"],
   ["sngu!=laguSngu","dirLag/McshLag000010.last.html#idOverview"],
   ["snks!=syntax","dirLag/McshLag000007.last.html#idLHmnmsxtr"],

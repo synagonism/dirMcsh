@@ -1,9 +1,9 @@
 [
-  [";lagEngl24eks","X|x",202,"2026-10-13"],
+  [";lagEngl24eks","X|x",203,"2026-10-16"],
   ["X11-Pow","dirTchInf/McshTchInf000016.last.html#idDbcpowX11"],
   ["XAF!=Communauté-Financière-Africaine-(BEAC)-CFA-Franc-BEAC-currency","dirStn/McshStn000029.last.html#idSfrFin019Untstr"],
   ["XAI!=explainable-AI!⇒techAIExplainable","dirTchInf/McshTchInf000036.last.html#idTechAi001"],
-  ["XBT!⇒DvBTC","dirTchInf/McshTchInf000017.last.html#idBtcevuC"],
+  ["XBT!⇒BtcnexvuC","dirTchInf/McshTchInf000017.last.html#idBtcevuC"],
   ["XCD!=East-Caribbean-Dollar-currency","dirStn/McshStn000029.last.html#idSfrFin019Untstr"],
   ["XDN-(DigitalNote-token)","dirTchInf/McshTchInf000016.last.html#idXdnevuC"],
   ["XDN-evuC","dirTchInf/McshTchInf000016.last.html#idXdnevuC"],
@@ -36,6 +36,7 @@
   ["XemevuC-Gntr","dirTchInf/McshTchInf000016.last.html#idXemevuCgtr"],
   ["XemevuC-Sptr","dirTchInf/McshTchInf000016.last.html#idXemevuCstr"],
   ["XemevuC.specific","dirTchInf/McshTchInf000016.last.html#idXemevuCstr"],
+  ["Xenon!⇒chmElrXe54","dirNtr/McshNtr000007.last.html#idChmElrXenon"],
   ["Xenon-Xe54-chmElry!⇒chmElrXe54","dirNtr/McshNtr000007.last.html#idChmElrXenon"],
   ["Xenon-atom!⇒atomXenon","dirNtr/McshNtr000007.last.html#idAtmXenon"],
   ["Xi'an-China-International-Travel-Service","dirStn/McshStn000031.last.html#idChnaEconatt016tlatCits"],
@@ -120,7 +121,7 @@
   ["Xmlspec","dirTchInf/McshTchInf000007.last.html#idLxmlgspec"],
   ["Xmltext","dirTchInf/McshTchInf000007.last.html#idLxmlgotext"],
   ["Xmltext'character!⇒Xmlchar","dirTchInf/McshTchInf000007.last.html#idLxmlgochar"],
-  ["Xrpnet!⇒Ripple-net","dirTchInf/McshTchInf000016.last.html#idXrpnet"],
+  ["Xrpnet!⇒Ripple_net","dirTchInf/McshTchInf000016.last.html#idXrpnet"],
   ["XuetangX","dirStn/McshStn000042.last.html#idSctrEduChnaSkbkDgtlXtx"],
   ["x-concept!⇒McsAAj","dirCor/McshCor000002.last.html#idMcsXml"],
   ["x-cpt!⇒McsAAj","dirCor/McshCor000002.last.html#idMcsXml"],
@@ -201,5 +202,5 @@
   ["xsd:unsignedLong@lagoRdfw","dirTchInf/McshTchInf000039.last.html#idDttpXsdunsignedLong"],
   ["xsd:unsignedShort@lagoRdfw","dirTchInf/McshTchInf000039.last.html#idDttpXsdunsignedShort"],
   ["xsd:yearMonthDuration@lagoRdfw","dirTchInf/McshTchInf000039.last.html#idDttpXsdyearMonthDuration"],
-  ["xīngqīrì-星期日!⇒Sunday","dirCor/McshCor000006.last.html#idTimeUomDaySnd"]
+  ["xīngqīrì-星期日!=Sunday","dirCor/McshCor000006.last.html#idTimeUomDaySnd"]
 ]

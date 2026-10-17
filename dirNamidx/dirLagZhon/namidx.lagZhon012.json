@@ -1,6 +1,6 @@
 [
-  [";lagZhon012","m",487,"2026-10-13"],
-  ["Méiyǒu-没有!=quantoDefiNone!=none!=quantoDefiNone","dirCor/McshCor000010.last.html#idQntNbr0"],
+  [";lagZhon012","m",487,"2026-10-16"],
+  ["Méiyǒu-没有!=none!=quantoDefiNone","dirCor/McshCor000010.last.html#idQntNbr0"],
   ["Mǐn-闽!=ChnaFujian","dirStn/McshStn000031.last.html#idChnaadmnatt015CNFJ"],
   ["ma!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb189"],
   ["ma-Zhon_sentAsk-吗","dirLag/McshLag000018.last.html#idLZhonsntcAskYsno"],
@@ -30,7 +30,7 @@
   ["miàn-靣-38755!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb199"],
   ["miàn-麵-40629!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb199"],
   ["miànbāo-面包!=foodBread","dirHlth/McshHlth000013.last.html#idFoodHmn120"],
-  ["miànqián-面前!~Zhonconj!=in-front-of","dirLag/McshLag000018.last.html#idLZhonconj_038"],
+  ["miànqián-面前!~Zhonconj!=in_front_of","dirLag/McshLag000018.last.html#idLZhonconj_038"],
   ["miàntiáo-面条!=foodNoodles","dirHlth/McshHlth000013.last.html#idFoodHmn230"],
   ["miào-妙-22937!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb200"],
   ["miào-庙-24217!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb200"],
@@ -395,7 +395,7 @@
   ["měi..dōu-每..都!=quantoDefiAll","dirCor/McshCor000010.last.html#idQntDfntAll"],
   ["měitiān-每天!=RltnFreqDay","dirCor/McshCor000004.last.html#idDngRptgfrqcDaly"],
   ["měitiān-每天!~AdveTimeVerb!=everyday","dirLag/McshLag000007.last.html#idLHmnmvbatTimeSntxAdve"],
-  ["měiyuán-美元!=UsaaDlr","dirStn/McshStn000032.last.html#idUsaaEconevu"],
+  ["měiyuán-美元!=UsazDlr","dirStn/McshStn000032.last.html#idUsazEconevu"],
   ["měng-勐-21200!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb197"],
   ["měng-懵-25077!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb197"],
   ["měng-猛-29467!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb197"],
@@ -425,7 +425,7 @@
   ["mǎi-荬-33644!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb190"],
   ["mǎi-蕒-34130!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb190"],
   ["mǎi-買-36023!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb190"],
-  ["mǎidān-买单!=to-pay-the-bill-in-oznRestaurant","dirStn/McshStn000026.last.html#idOznSvcRtrttpyb"],
+  ["mǎidān-买单!=to_pay_the_bill_in_oznRestaurant","dirStn/McshStn000026.last.html#idOznSvcRtrttpyb"],
   ["mǎlù-马路!=street","dirStn/McshStn000009.last.html#idSocHumnatt061Strt"],
   ["mǎn-满-28385!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb191"],
   ["mǎn-螨-34728!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb191"],
@@ -474,7 +474,7 @@
   ["mǐn-黾!=frog!Zhon_radi","dirLag/McshLag000018.last.html#idLZhoncharrdcl215"],
   ["mǐn-黾-40702!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb202"],
   ["mǐng-酩-37225!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb203"],
-  ["mǐnyǔ-闽语!=Zhoi_lago!=Min-language","dirLag/McshLag000018.last.html#idLZhoi"],
+  ["mǐnyǔ-闽语!=Min-language!=Zhoi_lago","dirLag/McshLag000018.last.html#idLZhoi"],
   ["mǒ-抹-25273!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb205"],
   ["mǒ-麿-40639!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb205"],
   ["mǒu-某-26576!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb206"],
@@ -486,5 +486,5 @@
   ["mǔ-牡-29281!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb207"],
   ["mǔ-砪-30762!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb207"],
   ["mǔqīn-母亲!=mother","dirHmn/McshHmn000002.last.html#idHmnatt073"],
-  ["mǔyǔ-母语!=native-language","dirLag/McshLag000007.last.html#idLHmnm0009"]
+  ["mǔyǔ-母语!=native_language","dirLag/McshLag000007.last.html#idLHmnm0009"]
 ]

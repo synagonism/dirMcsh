@@ -1,5 +1,5 @@
 [
-  [";lagTurk24te","T|t",99,"2026-10-15"],
+  [";lagTurk24te","T|t",99,"2026-10-16"],
   ["Türk-dili!=Turk_lago","dirLag/McshLag000030.last.html#idOverview"],
   ["Türkiye-Cumhuriyeti!=SocTurk","dirStn/McshStn000033.last.html#idOverview"],
   ["Türkçe!=Turk_lago","dirLag/McshLag000030.last.html#idOverview"],
@@ -20,7 +20,7 @@
   ["takviye-etmek!=to-reinforce","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["talan-etmek!=to-loot","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["talep-etmek!=to-request","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
-  ["tamamlayıcı!=Mcs-complement","dirCor/McshCor000002.last.html#idMcsattDvsnclmt"],
+  ["tamamlayıcı!=Mcs_complement","dirCor/McshCor000002.last.html#idMcsattDvsnclmt"],
   ["tamir-etmek!=to-fix","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["tamir-etmek!=to-repair","dirLag/McshLag000030.last.html#idLTurkverbstr"],
   ["tamlayan-eki!=genitive_case_(compounding)","dirLag/McshLag000030.last.html#idLTurknounmbrGen"],

@@ -1,9 +1,9 @@
 [
-  [";lagEspo01a","A|a",6,"2026-10-04"],
+  [";lagEspo01a","A|a",6,"2026-10-16"],
   ["Angla-lingvo!=Engl_lago","dirLag/McshLag000011.last.html#idOverview"],
   ["Aprilo!=April","dirCor/McshCor000006.last.html#idTimeUomMnthApr"],
   ["Auxgusto!=August","dirCor/McshCor000006.last.html#idTimeUomMnthAug"],
-  ["adreso!=address-of-place","dirCor/McshCor000007.last.html#idSpcPlcadrs"],
+  ["adreso!=address_of_place","dirCor/McshCor000007.last.html#idSpcPlcadrs"],
   ["akvo!=water","dirNtr/McshNtr000005.last.html#idSysMols004Wtr"],
   ["alineo!=paragraph","dirLag/McshLag000007.last.html#idLHmnmtsscsmPara"]
 ]
