@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_10","char.UA..char.l",7284,"2026-10-16"],
+  [";lagEngl03si_2_10","char.UA..char.l",7285,"2026-10-18"],
   ["char.UGARITIC-LETTER-AIN-U+10393|66451|&#x10393;","dirTchInf/dirUcd/McshUcdU10380.last.html#idU10380U10393"],
   ["char.UGARITIC-LETTER-ALPA-U+10380|66432|&#x10380;","dirTchInf/dirUcd/McshUcdU10380.last.html#idU10380U10380"],
   ["char.UGARITIC-LETTER-BETA-U+10381|66433|&#x10381;","dirTchInf/dirUcd/McshUcdU10380.last.html#idU10380U10381"],
@@ -157,6 +157,7 @@
   ["char.UPWARDS-WHITE-DOUBLE-ARROW-ON-PEDESTAL-U+21EF|8687|&#x21EF;","dirTchInf/dirUcd/McshUcdU2190.last.html#idU2190U21EF"],
   ["char.UPWARDS-WHITE-DOUBLE-ARROW-U+21EE|8686|&#x21EE;","dirTchInf/dirUcd/McshUcdU2190.last.html#idU2190U21EE"],
   ["char.URANUS-U+2645|9797|&#x2645;","dirTchInf/dirUcd/McshUcdU2600.last.html#idU2600U2645"],
+  ["char.Ucbk.1024|&#1024;..1279|&#1279;","dirTchInf/dirUcd/McshUcdU0400.last.html#idU0400chr"],
   ["char.Ucbk.U+0080|128..U+00FF|255|&#x00FF;","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080chr"],
   ["char.Ucbk.U+0100|256|&#x0100;..U+017F|383|&#x017F;","dirTchInf/dirUcd/McshUcdU0100.last.html#idU0100chr"],
   ["char.Ucbk.U+0180|384|&#x0180;..U+024F|591|&#x024F;","dirTchInf/dirUcd/McshUcdU0180.last.html#idU0180chr"],
