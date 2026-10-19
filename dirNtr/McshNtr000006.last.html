@@ -90,16 +90,16 @@
     <br>* McshEngl.ChmcCpd'whole-part-tree,
     <br>* McshEngl.ChmcCpd'part-whole-tree,
     <a class="clsHide" href="#idChmCpdwptrnam"></a></p>
-  <p id="idChmCpdwtr">whole-tree::
-    <br>* <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idEntwtr">Sympan-wtr</a>,
-    <br>* McshEngl.ChmcCpd-Wltr,
-    <a class="clsHide" href="#idChmCpdwtr"></a></p>
-  <p id="idChmCpdptr">part-tree::
+  <p id="idChmCpdwltr">whole-tree::
+    <br>* <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idEntwltr">Sympan-wtr</a>,
+    <br>* McshEngl.ChmcCpd_Wltr,
+    <a class="clsHide" href="#idChmCpdwltr"></a></p>
+  <p id="idChmCpdprtr">part-tree::
     <br>* atom,
     <br>* chemical-bond,
     <br>* chemical-formula,
-    <br>* McshEngl.ChmcCpd-Prtr,
-    <a class="clsHide" href="#idChmCpdptr"></a></p>
+    <br>* McshEngl.ChmcCpd_Prtr,
+    <a class="clsHide" href="#idChmCpdprtr"></a></p>
   </section>
 
   <section id="idChmCpdgstr">
@@ -112,17 +112,17 @@
     <br>* McshEngl.ChmcCpd'generic-specific-tree,
     <br>* McshEngl.ChmcCpd'specific-generic-tree,
     <a class="clsHide" href="#idChmCpdgstrnam"></a></p>
-  <p id="idChmCpdgtr">generic-tree::
-    <br>* McshEngl.ChmcCpd-Gntr,
+  <p id="idChmCpdgntr">generic-tree::
+    <br>* McshEngl.ChmcCpd_Gntr,
     <br>===
-    <br>* chemical-substance!@McshNtr000002#idMtrl006 (broken), mixture,
-    <br>* material-body!@McshNtr000002#idOverview,
-    <br>* body!@McshCor000003#idEntBody, doing!@McshCor000004#idOverview, relation!@McshCor000005#idOverview,
-    <br>* entity!@McshCor000003#idOverview,
-    <a class="clsHide" href="#idChmCpdgtr"></a></p>
+    <br>* MtrlChemical_Gntr, mixture,
+    <br>* material-body!@McshNtr000002,
+    <br>* body_Gntr, doing_Gntr, relation_Gntr,
+    <br>* entity_Gntr,
+    <a class="clsHide" href="#idChmCpdgntr"></a></p>
   <p id="idChmCpdstr">specific-tree::
     <br>* McshEngl.ChmcCpd.specific,
-    <br>* McshEngl.ChmcCpd-Sptr,
+    <br>* McshEngl.ChmcCpd_Sptr,
     <br>===
     <br>* organic-ChmcCpd,
     <br>* organicNo-ChmcCpd,
@@ -179,15 +179,15 @@
     <br>* McshEngl.ChmcOgc'generic-specific-tree,
     <br>* McshEngl.ChmcOgc'specific-generic-tree,
     <a class="clsHide" href="#idChmOgcgstrnam"></a></p>
-  <p id="idChmOgcgtr">generic-tree::
-    <br>* McshEngl.ChmcOgc-Gntr,
+  <p id="idChmOgcgntr">generic-tree::
+    <br>* McshEngl.ChmcOgc_Gntr,
     <br>===
     <br>* chemical-compound,
-    <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idChmOgcgtr"></a></p>
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idChmOgcgntr"></a></p>
   <p id="idChmOgcstr">specific-tree::
     <br>* McshEngl.ChmcOgc.specific,
-    <br>* McshEngl.ChmcOgc-Sptr,
+    <br>* McshEngl.ChmcOgc_Sptr,
     <br>===
     <br>* steroid,
     <br>=== addressWpg:
@@ -223,14 +223,14 @@
     <br>* McshEngl.steroidOgm'generic-specific-tree,
     <br>* McshEngl.steroidOgm'specific-generic-tree,
     <a class="clsHide" href="#idChmOgc001gstrnam"></a></p>
-  <p id="idChmOgc001gtr">generic-tree::
-    <br>* McshEngl.steroidOgm-Gntr,
+  <p id="idChmOgc001gntr">generic-tree::
+    <br>* McshEngl.steroidOgm_Gntr,
     <br>===
-    <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idChmOgc001gtr"></a></p>
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idChmOgc001gntr"></a></p>
   <p id="idChmOgc001str">specific-tree::
     <br>* McshEngl.steroidOgm.specific,
-    <br>* McshEngl.steroidOgm-Sptr,
+    <br>* McshEngl.steroidOgm_Sptr,
     <br>===
     <br>* steroidOgm.animal!@McshNtr000006#idChmOgc001001,
     <br>* steroidOgm.plant!@McshNtr000006#idChmOgc001002,
@@ -238,17 +238,17 @@
     <a class="clsHide" href="#idChmOgc001str"></a></p>
   </section>
 
-  <section id="idChmOgc001dng">
-  <h3 id="idChmOgc001dngFH3">DOING of steroidOgm
+  <section id="idChmOgc001dong">
+  <h3 id="idChmOgc001dongH3">DOING of steroidOgm
     </h3>
-  <p id="idChmOgc001dngFdsn">description::
+  <p id="idChmOgc001dongdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* Steroids have two principal biological functions: as important components of cell membranes which alter membrane fluidity; and as signaling molecules.
     <br>[{2020-05-11} https://en.wikipedia.org/wiki/Steroid]
-    <a class="clsHide" href="#idChmOgc001dngFdsn"></a></p>
-  <p id="idChmOgc001dngFnam">name::
+    <a class="clsHide" href="#idChmOgc001dongdsn"></a></p>
+  <p id="idChmOgc001dongnam">name::
     <br>* McshEngl.steroidOgm'doing,
-    <a class="clsHide" href="#idChmOgc001dngFnam"></a></p>
+    <a class="clsHide" href="#idChmOgc001dongnam"></a></p>
   </section>
 
   <section id="idChmOgc001001">
@@ -324,15 +324,15 @@
     <br>* McshEngl.acidFatty'generic-specific-tree,
     <br>* McshEngl.acidFatty'specific-generic-tree,
     <a class="clsHide" href="#idChmOgc004gstrnam"></a></p>
-  <p id="idChmOgc004gtr">generic-tree::
-    <br>* McshEngl.acidFatty-Gntr,
+  <p id="idChmOgc004gntr">generic-tree::
+    <br>* McshEngl.acidFatty_Gntr,
     <br>===
-    <br>* acidCarboxylic!@McshNtr000006#idCmpAcd003,
-    <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idChmOgc004gtr"></a></p>
+    <br>* acidCarboxylic_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idChmOgc004gntr"></a></p>
   <p id="idChmOgc004str">specific-tree::
     <br>* McshEngl.acidFatty.specific,
-    <br>* McshEngl.acidFatty-Sptr,
+    <br>* McshEngl.acidFatty_Sptr,
     <br>===
     <br>"Fatty acids are classified in many ways: by length, by saturation vs unsaturation, by even vs odd carbon content, and by linear vs branched."
     <br>[{2020-05-06} https://en.wikipedia.org/wiki/Fatty_acid]
@@ -369,15 +369,15 @@
     <br>* McshEngl.ChmcOgcNo'generic-specific-tree,
     <br>* McshEngl.ChmcOgcNo'specific-generic-tree,
     <a class="clsHide" href="#idChmCpd002gstrnam"></a></p>
-  <p id="idChmCpd002gtr">generic-tree::
-    <br>* McshEngl.ChmcOgcNo-Gntr,
+  <p id="idChmCpd002gntr">generic-tree::
+    <br>* McshEngl.ChmcOgcNo_Gntr,
     <br>===
     <br>* chemical-compound,
-    <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idChmCpd002gtr"></a></p>
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idChmCpd002gntr"></a></p>
   <p id="idChmCpd002str">specific-tree::
     <br>* McshEngl.ChmcOgcNo.specific,
-    <br>* McshEngl.ChmcOgcNo-Sptr,
+    <br>* McshEngl.ChmcOgcNo_Sptr,
     <br>===
     <br>* ,
     <br>=== addressWpg:
@@ -415,14 +415,14 @@
     <br>* McshEngl.ChmcAcid'generic-specific-tree,
     <br>* McshEngl.ChmcAcid'specific-generic-tree,
     <a class="clsHide" href="#idCmpAcdgstrnam"></a></p>
-  <p id="idCmpAcdgtr">generic-tree::
-    <br>* McshEngl.ChmcAcid-Gntr,
+  <p id="idCmpAcdgntr">generic-tree::
+    <br>* McshEngl.ChmcAcid_Gntr,
     <br>===
-    <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idCmpAcdgtr"></a></p>
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idCmpAcdgntr"></a></p>
   <p id="idCmpAcdstr">specific-tree::
     <br>* McshEngl.ChmcAcid.specific,
-    <br>* McshEngl.ChmcAcid-Sptr,
+    <br>* McshEngl.ChmcAcid_Sptr,
     <br>===
     <br>* ChmcAcid.organic-001!@McshNtr000006#idCmpAcd001,
     <br>* ChmcAcid.organicNo-002!@McshNtr000006#idCmpAcd002,
@@ -537,14 +537,14 @@
     <br>* McshEngl.acidCarboxylic'generic-specific-tree,
     <br>* McshEngl.acidCarboxylic'specific-generic-tree,
     <a class="clsHide" href="#idCmpAcd003gstrnam"></a></p>
-  <p id="idCmpAcd003gtr">generic-tree::
-    <br>* McshEngl.acidCarboxylic-Gntr,
+  <p id="idCmpAcd003gntr">generic-tree::
+    <br>* McshEngl.acidCarboxylic_Gntr,
     <br>===
-    <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idCmpAcd003gtr"></a></p>
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idCmpAcd003gntr"></a></p>
   <p id="idCmpAcd003str">specific-tree::
     <br>* McshEngl.acidCarboxylic.specific,
-    <br>* McshEngl.acidCarboxylic-Sptr,
+    <br>* McshEngl.acidCarboxylic_Sptr,
     <br>===
     <br>* https://en.wikipedia.org/wiki/List_of_carboxylic_acids,
     <br>"Industrially important carboxylic acids include acetic acid (component of vinegar, precursor to solvents and coatings), acrylic and methacrylic acids (precursors to polymers, adhesives), adipic acid (polymers), citric acid (a flavor and preservative in food and beverages), ethylenediaminetetraacetic acid (chelating agent), fatty acids (coatings), maleic acid (polymers), propionic acid (food preservative), terephthalic acid (polymers). Important carboxylate salts are soaps."
@@ -750,14 +750,14 @@
     <br>* McshEngl.ChmcSalt'generic-specific-tree,
     <br>* McshEngl.ChmcSalt'specific-generic-tree,
     <a class="clsHide" href="#idChmCpd005gstrnam"></a></p>
-  <p id="idChmCpd005gtr">generic-tree::
-    <br>* McshEngl.ChmcSalt-Gntr,
+  <p id="idChmCpd005gntr">generic-tree::
+    <br>* McshEngl.ChmcSalt_Gntr,
     <br>===
-    <br>* ... entity-Gntr,
-    <a class="clsHide" href="#idChmCpd005gtr"></a></p>
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idChmCpd005gntr"></a></p>
   <p id="idChmCpd005str">specific-tree::
     <br>* McshEngl.ChmcSalt.specific,
-    <br>* McshEngl.ChmcSalt-Sptr,
+    <br>* McshEngl.ChmcSalt_Sptr,
     <br>===
     <br>* ChmcSalt.baking-soda-001!@McshNtr000006#idChmCpd005001,
     <a class="clsHide" href="#idChmCpd005str"></a></p>
