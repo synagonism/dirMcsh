@@ -655,6 +655,7 @@
   <p id="idMcsattNamgntr">generic-tree::
     <br>* McshEngl.nameMcs_Gntr,
     <br>===
+    <br>* Mcsattr_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idMcsattNamgntr"></a></p>
   <p id="idMcsattNamsptr">specific-tree::
@@ -1350,6 +1351,7 @@
   <p id="idMcsattDvsnclmtgntr">generic-tree::
     <br>* McshEngl.Mcs_complement_Gntr,
     <br>===
+    <br>* Mcsattr_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idMcsattDvsnclmtgntr"></a></p>
   <p id="idMcsattDvsnclmtsptr">specific-tree::
@@ -1436,6 +1438,7 @@
   <p id="idMcsattDvsngntr">generic-tree::
     <br>* McshEngl.Mcs_division_Gntr,
     <br>===
+    <br>* Mcsattr_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idMcsattDvsngntr"></a></p>
   <p id="idMcsattDvsnsptr">specific-tree::
@@ -1507,6 +1510,7 @@
   <p id="idMcsattDvsnThmgntr">generic-tree::
     <br>* McshEngl.Mcs_trichotomous_division_Gntr,
     <br>===
+    <br>* Mcs_division_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idMcsattDvsnThmgntr"></a></p>
   <p id="idMcsattDvsnThmsptr">specific-tree::
@@ -1668,6 +1672,7 @@
   <p id="idMcsattPrtgntr">generic-tree::
     <br>* McshEngl.Mcspart_Gntr,
     <br>===
+    <br>* Mcsattr_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idMcsattPrtgntr"></a></p>
   <p id="idMcsattPrtsptr">specific-tree::
@@ -1985,27 +1990,50 @@
     <br>· partNo--Mcsattr is <a class="clsPreview" href="#idMcsattDvsnclmt">the-complement</a> of <a class="clsPreview" href="#idMcsattPrt">part-attribute</a>.
     <a class="clsHide" href="#idMcsattPrtNdsn"></a></p>
   <p id="idMcsattPrtNnam">name::
-    <br>* McshEngl.Mcs'partNo, {2020-08-30}
-    <br>* McshEngl.Mcs'attAsExternal!⇒Mcs'partNo,
-    <br>* McshEngl.Mcs'attAsInternalNo!⇒Mcs'partNo,
-    <br>* McshEngl.Mcs'attAsPartNo!⇒Mcs'partNo,
-    <br>* McshEngl.Mcs'external-attribute!⇒Mcs'partNo,
-    <br>* McshEngl.Mcs'internalNo-attribute!⇒Mcs'partNo,
-    <br>* McshEngl.Mcsattr.external!⇒Mcs'partNo,
-    <br>* McshEngl.Mcsattr.internalNo!⇒Mcs'partNo,
-    <br>* McshEngl.Mcsattr.partNo!⇒Mcs'partNo,
-    <br>* McshEngl.external--Mcsattr!⇒Mcs'partNo,
-    <br>* McshEngl.extrinsic--Mcsattr!⇒Mcs'partNo,
-    <br>* McshEngl.intrinsicNo--Mcsattr!⇒Mcs'partNo,
-    <br>* McshEngl.partNo--Mcsattr!⇒Mcs'partNo,
-    <br>* environment--Mcsattr!⇒Mcs'partNo, {2019-03-09}
+    <br>* McshEngl.McspartNo, {2020-08-30}
+    <br>* McshEngl.Mcs'attAsExternal!⇒McspartNo,
+    <br>* McshEngl.Mcs'attAsInternalNo!⇒McspartNo,
+    <br>* McshEngl.Mcs'attAsPartNo!⇒McspartNo,
+    <br>* McshEngl.Mcs'external-attribute!⇒McspartNo,
+    <br>* McshEngl.Mcs'internalNo-attribute!⇒McspartNo,
+    <br>* McshEngl.Mcsattr.external!⇒McspartNo,
+    <br>* McshEngl.Mcsattr.internalNo!⇒McspartNo,
+    <br>* McshEngl.Mcsattr.partNo!⇒McspartNo,
+    <br>* McshEngl.external--Mcsattr!⇒McspartNo,
+    <br>* McshEngl.extrinsic--Mcsattr!⇒McspartNo,
+    <br>* McshEngl.intrinsicNo--Mcsattr!⇒McspartNo,
+    <br>* McshEngl.partNo--Mcsattr!⇒McspartNo,
+    <br>* environment--Mcsattr!⇒McspartNo, {2019-03-09}
     <br>====== lagoSinagu:
-    <br>* atro-joUgo-a-Mes!=partNo-att--of-Mcs,
+    <br>* atro-joUgo-a-Mes!=McspartNo,
     <a class="clsHide" href="#idMcsattPrtNnam"></a></p>
 
-  <section id="idMcsattPrtNScdnWhl">
-  <h3 id="idMcsattPrtNScdnWhlH3">partNo.spec-div.whole
+  <section id="idMcsattPrtNgstr">
+  <h3 id="idMcsattPrtNgstrH3">GENERIC-SPECIFIC-TREE of McspartNo
     </h3>
+  <p id="idMcsattPrtNgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idMcsattPrtNgstrdsn"></a></p>
+  <p id="idMcsattPrtNgstrnam">name::
+    <br>* McshEngl.McspartNo'generic-specific-tree,
+    <br>* McshEngl.McspartNo'specific-generic-tree,
+    <a class="clsHide" href="#idMcsattPrtNgstrnam"></a></p>
+  <p id="idMcsattPrtNgntr">generic-tree::
+    <br>* McshEngl.McspartNo_Gntr,
+    <br>===
+    <br>* Mcsattr_Gntr,
+    <br>* RltnAttributeThenEntity_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idMcsattPrtNgntr"></a></p>
+  <p id="idMcsattPrtNsptr">specific-tree::
+    <br>* McshEngl.McspartNo.specific,
+    <br>* McshEngl.McspartNo_Sptr,
+    <br>===
+    <a class="clsHide" href="#idMcsattPrtNsptr"></a></p>
+
+  <section id="idMcsattPrtNScdnWhl">
+  <h4 id="idMcsattPrtNScdnWhlH4">McspartNo.spec-div.whole
+    </h4>
   <p id="idMcsattPrtNScdnWhldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· on whole:
@@ -2013,8 +2041,9 @@
     <br>* <a class="clsPreview" href="#idMcsattWhlN">wholeNo--envt-att</a>,
     <a class="clsHide" href="#idMcsattPrtNScdnWhldsn"></a></p>
   <p id="idMcsattPrtNScdnWhlnam">name::
-    <br>* McshEngl.Mcs'partNo.spec-div.whole,
+    <br>* McshEngl.McspartNo.spec-div.whole,
     <a class="clsHide" href="#idMcsattPrtNScdnWhlnam"></a></p>
+  </section>
   </section>
   </section>
 
@@ -2043,7 +2072,7 @@
     <a class="clsHide" href="#idMcsattWhlnam"></a></p>
 
   <section id="idMcsattWhlchn">
-  <h3 id="idMcsattWhlchnH3">attribute.whole-chain
+  <h3 id="idMcsattWhlchnH3">Mcsattr.whole-chain
     </h3>
   <p id="idMcsattWhlchndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2095,6 +2124,7 @@
   <p id="idMcsattWhlNgntr">generic-tree::
     <br>* McshEngl.Mcsenvt_Gntr,
     <br>===
+    <br>* Mcsattr_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idMcsattWhlNgntr"></a></p>
   <p id="idMcsattWhlNsptr">specific-tree::
@@ -2174,7 +2204,7 @@
     <a class="clsHide" href="#idMcsattWhlNSptrnam"></a></p>
 
   <section id="idMcsattWhlNAthr">
-  <h4 id="idMcsattWhlNAthrH4">attribute.author
+  <h4 id="idMcsattWhlNAthrH4">Mcsattr.author
     </h4>
   <p id="idMcsattWhlNAthrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2217,7 +2247,7 @@
     <a class="clsHide" href="#idMcsattDngnam"></a></p>
 
   <section id="idMcsattEvlg">
-  <h3 id="idMcsattEvlgH3">attribute.evoluting
+  <h3 id="idMcsattEvlgH3">Mcsattr.evoluting
     </h3>
   <p id="idMcsattEvlgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2271,7 +2301,7 @@
     <a class="clsHide" href="#idMcsattGncnam"></a></p>
 
   <section id="idMcsattGncchn">
-  <h3 id="idMcsattGncchnH3">attribute.generic-chain
+  <h3 id="idMcsattGncchnH3">Mcsattr.generic-chain
     </h3>
   <p id="idMcsattGncchndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2311,7 +2341,7 @@
     <a class="clsHide" href="#idMcsattSptpnam"></a></p>
 
   <section id="idMcsattIdvl">
-  <h3 id="idMcsattIdvlH3">attribute.individual
+  <h3 id="idMcsattIdvlH3">Mcsattr.individual
     </h3>
   <p id="idMcsattIdvldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2328,7 +2358,7 @@
   </section>
 
   <section id="idMcsattWhlNSpcdvn">
-  <h3 id="idMcsattWhlNSpcdvnH3">attribute.specifics-division
+  <h3 id="idMcsattWhlNSpcdvnH3">Mcsattr.specifics-division
     </h3>
   <p id="idMcsattWhlNSpcdvndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2566,6 +2596,7 @@
   <p id="idMcsvgntr">generic-tree::
     <br>* McshEngl.Mcsview_Gntr,
     <br>===
+    <br>* model_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idMcsvgntr"></a></p>
   <p id="idMcsvsptr">specific-tree::
@@ -4724,6 +4755,7 @@
   <p id="idMcssrcggntr">generic-tree::
     <br>* McshEngl.Mcs'searching_Gntr,
     <br>===
+    <br>* Mcsmng_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idMcssrcggntr"></a></p>
   <p id="idMcssrcgsptr">specific-tree::
@@ -5295,6 +5327,7 @@
   <p id="idMcsHtmlgntr">generic-tree::
     <br>* McshEngl.McsHtml_Gntr,
     <br>===
+    <br>* Mcs_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idMcsHtmlgntr"></a></p>
   <p id="idMcsHtmlsptr">specific-tree::
