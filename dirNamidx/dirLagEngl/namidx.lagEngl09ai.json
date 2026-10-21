@@ -1,5 +1,5 @@
 [
-  [";lagEngl09ai","I|i",2941,"2026-10-20"],
+  [";lagEngl09ai","I|i",2941,"2026-10-21"],
   ["I","dirLag/McshLag000007.last.html#idLHmnmprsnA2"],
   ["I!~nounEnglC1-1:I;we;me;our;mine;ours","dirLag/McshLag000024.last.html#idLEnglnounC1-252"],
   ["I!~pronEnglExophoric","dirLag/McshLag000011.last.html#idLEnglpronExfcI"],
@@ -2657,7 +2657,7 @@
   ["intrauterine_life","dirHlth/McshHlth000002.last.html#idBdyHmnatt023"],
   ["intrauterine_life.embryo","dirHlth/McshHlth000002.last.html#idBdyHmnatt035"],
   ["intrinsic--Mcsattr!⇒Mcspart","dirCor/McshCor000002.last.html#idMcsattPrt"],
-  ["intrinsicNo--Mcsattr!⇒Mcs'partNo","dirCor/McshCor000002.last.html#idMcsattPrtN"],
+  ["intrinsicNo--Mcsattr!⇒McspartNo","dirCor/McshCor000002.last.html#idMcsattPrtN"],
   ["intrinsicNo-value-money!⇒fiat_maney","dirStn/McshStn000029.last.html#idSfrFin019Cleim"],
   ["intrinsically-disordered-MolProtein!⇒proteinDisordered","dirOgm/McshOgm000006.last.html#idPrtnOgm017"],
   ["introduce.TurkVerb!=salık-vermek","dirLag/McshLag000030.last.html#idLTurkverbsptr"],

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.entity
-    (McshCor000003.1-164-0.2026-10-20)</title>
+    (McshCor000003.1-165-0.2026-10-21)</title>
   <meta name="keywords" content="entity, modelConceptSenso, Hitp_Mcs, synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -28,7 +28,7 @@
     <a class="clsHide" href="#idDescription"></a></p>
   <p id="idName">name::
     <br>* McshEngl.ENTITY!⇒entity,
-    <br>* McshEngl.entity!~McsCor000003,
+    <br>* McshEngl.entity!@McshCor000003,
     <br>* McshEngl.entity!=entt,
     <br>* McshEngl.entity!=ent,
     <br>* McshEngl.entity.lagoSngu!=leu,
@@ -352,20 +352,32 @@
   <p id="idEntattgntr">generic-tree::
     <br>* McshEngl.attribute_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* entity_Gntr,
     <a class="clsHide" href="#idEntattgntr"></a></p>
   <p id="idEntattsptr">specific-tree::
     <br>* McshEngl.attribute.specific,
     <br>* McshEngl.attribute_Sptr,
     <br>===
-    <br>* doing-of-entity!@McshCor000003#idEntDng,
-    <br>* doingNo-of-entity!@McshCor000003#idEntDngN,
+    <br>* attribute-of-entity,
+    <br>* attribute-relation-of-entity,
     <br>===
-    <br>* whole-of-entity-wtr!@McshCor000003#idEntwltr,
-    <br>* part-of-entity!@McshCor000003#idEntprtr,
-    <br>
-    <br>* generic-of-entity-gtr!@McshCor000003#idEntgntr,
-    <br>* specific-of-entity!@McshCor000003#idEntsptr,
+    <br>* info-resource--of-entity,
+    <br>===
+    <br>* doing-of-entity,
+    <br>* doingNo-of-entity,
+    <br>===
+    <br>* parent-of-entity,
+    <br>* child-of-entity,
+    <br>* evoluting-of-entity,
+    <br>===
+    <br>* whole-of-entity,
+    <br>* part-of-entity,
+    <br>* structure-of-entity,
+    <br>* parts-division-of-entity,
+    <br>===
+    <br>* generic-of-entity,
+    <br>* specific-of-entity,
+    <br>* specifics-division--of-entity,
     <a class="clsHide" href="#idEntattsptr"></a></p>
   </section>
 
@@ -5126,7 +5138,7 @@
     <a class="clsHide" href="#idEntsptr"></a></p>
 
   <section id="idEntScdnStrr">
-  <h2 id="idEntScdnStrrH2">entity.specs-div.structure
+  <h2 id="idEntScdnStrrH2">entity.Specsdiv.structure
     </h2>
   <p id="idEntScdnStrrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5136,12 +5148,12 @@
     <br>* relation!@McshCor000005,
     <a class="clsHide" href="#idEntScdnStrrdsn"></a></p>
   <p id="idEntScdnStrrnam">name::
-    <br>* McshEngl.entity.spec-div.structure,
+    <br>* McshEngl.entity.Specsdiv.structure,
     <a class="clsHide" href="#idEntScdnStrrnam"></a></p>
   </section>
 
   <section id="idEntScdnHmn">
-  <h2 id="idEntScdnHmnH2">entity.specs-div.human
+  <h2 id="idEntScdnHmnH2">entity.Specsdiv.human
     </h2>
   <p id="idEntScdnHmndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5151,12 +5163,12 @@
     <br>* humanNo!@McshCor000003#idEntHmnN,
     <a class="clsHide" href="#idEntScdnHmndsn"></a></p>
   <p id="idEntScdnHmnnam">name::
-    <br>* McshEngl.entity.spec-div.human,
+    <br>* McshEngl.entity.Specsdiv.human,
     <a class="clsHide" href="#idEntScdnHmnnam"></a></p>
   </section>
 
   <section id="idEntScdnHnlg">
-  <h2 id="idEntScdnHnlgH2">entity.specs-div.human-language
+  <h2 id="idEntScdnHnlgH2">entity.Specsdiv.human-language
     </h2>
   <p id="idEntScdnHnlgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5166,12 +5178,12 @@
     <br>* third-person!@McshLag000007#idLHmnmprsnC,
     <a class="clsHide" href="#idEntScdnHnlgdsn"></a></p>
   <p id="idEntScdnHnlgnam">name::
-    <br>* McshEngl.entity.spec-div.human-language,
+    <br>* McshEngl.entity.Specsdiv.human-language,
     <a class="clsHide" href="#idEntScdnHnlgnam"></a></p>
   </section>
 
   <section id="idEntScdnDpdc">
-  <h2 id="idEntScdnDpdcH2">entity.specs-div.dependance
+  <h2 id="idEntScdnDpdcH2">entity.Specsdiv.dependance
     </h2>
   <p id="idEntScdnDpdcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5180,12 +5192,12 @@
     <br>* bodyNo-(process-or-relation)!@McshCor000003#idEntBodyN,
     <a class="clsHide" href="#idEntScdnDpdcdsn"></a></p>
   <p id="idEntScdnDpdcnam">name::
-    <br>* McshEngl.entity.spec-div.dependance,
+    <br>* McshEngl.entity.Specsdiv.dependance,
     <a class="clsHide" href="#idEntScdnDpdcnam"></a></p>
   </section>
 
   <section id="idEntScdnDng">
-  <h2 id="idEntScdnDngH2">entity.specs-div.doing
+  <h2 id="idEntScdnDngH2">entity.Specsdiv.doing
     </h2>
   <p id="idEntScdnDngdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5194,12 +5206,12 @@
     <br>* doingNo!@McshCor000003#idEntDngN,
     <a class="clsHide" href="#idEntScdnDngdsn"></a></p>
   <p id="idEntScdnDngnam">name::
-    <br>* McshEngl.entity.spec-div.doing,
+    <br>* McshEngl.entity.Specsdiv.doing,
     <a class="clsHide" href="#idEntScdnDngnam"></a></p>
   </section>
 
   <section id="idEntScdnScat">
-  <h2 id="idEntScdnScatH2">entity.specs-div.specific-attribute
+  <h2 id="idEntScdnScatH2">entity.Specsdiv.specific-attribute
     </h2>
   <p id="idEntScdnScatdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5208,12 +5220,12 @@
     <br>* genericNo-entity,
     <a class="clsHide" href="#idEntScdnScatdsn"></a></p>
   <p id="idEntScdnScatnam">name::
-    <br>* McshEngl.entity.spec-div.specific-attribute,
+    <br>* McshEngl.entity.Specsdiv.specific-attribute,
     <a class="clsHide" href="#idEntScdnScatnam"></a></p>
   </section>
 
   <section id="idEntScdnBdr">
-  <h2 id="idEntScdnBdrH2">entity.specs-div.boundary
+  <h2 id="idEntScdnBdrH2">entity.Specsdiv.boundary
     </h2>
   <p id="idEntScdnBdrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5221,12 +5233,12 @@
     <br>* definiteNo-entity!@McshCor000003#idEntDefN,
     <a class="clsHide" href="#idEntScdnBdrdsn"></a></p>
   <p id="idEntScdnBdrnam">name::
-    <br>* McshEngl.entity.spec-div.boundary,
+    <br>* McshEngl.entity.Specsdiv.boundary,
     <a class="clsHide" href="#idEntScdnBdrnam"></a></p>
   </section>
 
   <section id="idEntScdnBnif">
-  <h2 id="idEntScdnBnifH2">entity.specs-div.brain-info
+  <h2 id="idEntScdnBnifH2">entity.Specsdiv.brain-info
     </h2>
   <p id="idEntScdnBnifdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5234,12 +5246,12 @@
     <br>* mentalNo-entity,
     <a class="clsHide" href="#idEntScdnBnifdsn"></a></p>
   <p id="idEntScdnBnifnam">name::
-    <br>* McshEngl.entity.spec-div.brain-info,
+    <br>* McshEngl.entity.Specsdiv.brain-info,
     <a class="clsHide" href="#idEntScdnBnifnam"></a></p>
   </section>
 
   <section id="idEntScdnKnlg">
-  <h2 id="idEntScdnKnlgH2">entity.specs-div.knowledge
+  <h2 id="idEntScdnKnlgH2">entity.Specsdiv.knowledge
     </h2>
   <p id="idEntScdnKnlgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5247,7 +5259,7 @@
     <br>* knownNo-entity,
     <a class="clsHide" href="#idEntScdnKnlgdsn"></a></p>
   <p id="idEntScdnKnlgnam">name::
-    <br>* McshEngl.entity.specs-div.knowledge,
+    <br>* McshEngl.entity.Specsdiv.knowledge,
     <a class="clsHide" href="#idEntScdnKnlgnam"></a></p>
 
   <section id="idEntKnwnN">
@@ -5295,7 +5307,7 @@
     </h1>
   <p id="idEntRfrcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>× generic: <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmsmsondoRfrc">reference-argu-concept</a>
+    <br>× generic: <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmsmsondoRfrc">reference-Semuargu</a>
     <br>· denotes anonymously deictic (= esophoric or exophoric) entity or interrogativly.
     <br>· interrogative-reference, interrogativeNo-reference
     <a class="clsHide" href="#idEntRfrcdsn"></a></p>
@@ -6011,6 +6023,7 @@
   <p id="idEntBodygntr">generic-tree::
     <br>* McshEngl.body_Gntr,
     <br>===
+    <br>* doingNo_Gntr,
     <br>* entity_Gntr,
     <a class="clsHide" href="#idEntBodygntr"></a></p>
   <p id="idEntBodysptr">specific-tree::
@@ -6145,7 +6158,6 @@
     <br>* relation-argument!@McshCor000005#idRlnarg,
     <a class="clsHide" href="#idEntBodyNargsptr"></a></p>
   </section>
-
 
   <section id="idEntBodyNargExct">
   <h3 id="idEntBodyNargExctH3">bodyNo_argt.exactly

@@ -38,7 +38,7 @@
   <p id="idName">name::
     <br>* McshEngl.human-food!⇒food,
     <br>* McshEngl.food!=human-food,
-    <br>* McshEngl.food!~McsHlth000013,
+    <br>* McshEngl.food!@McshHlth000013,
     <br>* McshEngl.McshHlth000013.last.html//dirHlth//dirMcsh!⇒food,
     <br>* McshEngl.dirHlth/McshHlth000013.last.html!⇒food,
     <br>* McshEngl.bodyHumn'13_food!⇒food,
@@ -184,6 +184,7 @@
     <br>* McshEngl.food-nutrient_Gntr,
     <br>===
     <br>* nutrient,
+    <br>* food'ingredient_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idFoodHmnatt003gntr"></a></p>
   <p id="idFoodHmnatt003sptr">specific-tree::
@@ -872,6 +873,8 @@
     <br>* satisfier_Gntr,
     <br>* foodBio_Gntr,
     <br>* nutrient_Gntr,
+    <br>* substanceHlth_Gntr,
+    <br>* substanceHumn_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idFoodHmngntr"></a></p>
   <p id="idFoodHmnsptr">specific-tree::
@@ -881,7 +884,7 @@
     <a class="clsHide" href="#idFoodHmnsptr"></a></p>
 
   <section id="idFoodHmnScdnSom">
-  <h2 id="idFoodHmnScdnSomH2">food.specs-div.state-of-matter
+  <h2 id="idFoodHmnScdnSomH2">food.Specsdiv.state-of-matter
     </h2>
   <p id="idFoodHmnScdnSomdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -889,12 +892,12 @@
     <br>* liquid-food,
     <a class="clsHide" href="#idFoodHmnScdnSomdsn"></a></p>
   <p id="idFoodHmnScdnSomnam">name::
-    <br>* McshEngl.food.spec-div.state-of-matter,
+    <br>* McshEngl.food.Specsdiv.state-of-matter,
     <a class="clsHide" href="#idFoodHmnScdnSomnam"></a></p>
   </section>
 
   <section id="idFoodHmnScdnTst">
-  <h2 id="idFoodHmnScdnTstH2">food.spec-div.taste
+  <h2 id="idFoodHmnScdnTstH2">food.Specsdiv.taste
     </h2>
   <p id="idFoodHmnScdnTstdsn">description::
     <br>× Mcsh-creation: {2026-05-26}
@@ -905,12 +908,12 @@
     <br>* Umami or savory,
     <a class="clsHide" href="#idFoodHmnScdnTstdsn"></a></p>
   <p id="idFoodHmnScdnTstnam">name::
-    <br>* McshEngl.food.spec-div.taste,
+    <br>* McshEngl.food.Specsdiv.taste,
     <a class="clsHide" href="#idFoodHmnScdnTstnam"></a></p>
   </section>
 
   <section id="idFoodHmnScdnTime">
-  <h2 id="idFoodHmnScdnTimeH2">food.spec-div.time
+  <h2 id="idFoodHmnScdnTimeH2">food.Specsdiv.time
     </h2>
   <p id="idFoodHmnScdnTimedsn">description::
     <br>× Mcsh-creation: {2026-05-26}
@@ -922,12 +925,12 @@
     <br>* summer,
     <a class="clsHide" href="#idFoodHmnScdnTimedsn"></a></p>
   <p id="idFoodHmnScdnTimenam">name::
-    <br>* McshEngl.food.spec-div.time,
+    <br>* McshEngl.food.Specsdiv.time,
     <a class="clsHide" href="#idFoodHmnScdnTimenam"></a></p>
   </section>
 
   <section id="idFoodHmnScdnNtr">
-  <h2 id="idFoodHmnScdnNtrH2">food.spec-div.nature
+  <h2 id="idFoodHmnScdnNtrH2">food.Specsdiv.nature
     </h2>
   <p id="idFoodHmnScdnNtrdsn">description::
     <br>× Mcsh-creation: {2026-05-26}
@@ -935,7 +938,7 @@
     <br>* food.naturalNo!@McshHlth000013#idFoodHmn050,
     <a class="clsHide" href="#idFoodHmnScdnNtrdsn"></a></p>
   <p id="idFoodHmnScdnNtrnam">name::
-    <br>* McshEngl.food.spec-div.nature,
+    <br>* McshEngl.food.Specsdiv.nature,
     <a class="clsHide" href="#idFoodHmnScdnNtrnam"></a></p>
   </section>
   </section>
@@ -1619,7 +1622,7 @@
     <a class="clsHide" href="#idFoodHmn050sptr"></a></p>
 
   <section id="idFoodHmn050_1">
-  <h3 id="idFoodHmn050_1H3">foodCooked.specs-div.ingredient
+  <h3 id="idFoodHmn050_1H3">foodCooked.Specsdiv.ingredient
     </h3>
   <p id="idFoodHmn050_1dsn">description::
     <br>× Mcsh-creation: {2026-05-26}
@@ -1630,7 +1633,7 @@
     <br>* poultry-hunting,
     <a class="clsHide" href="#idFoodHmn050_1dsn"></a></p>
   <p id="idFoodHmn050_1nam">name::
-    <br>* McshEngl.foodCooked.specs-div.ingredient,
+    <br>* McshEngl.foodCooked.Specsdiv.ingredient,
     <a class="clsHide" href="#idFoodHmn050_1nam"></a></p>
 
   <section id="idFoodHmn050_3">
@@ -1701,7 +1704,7 @@
   </section>
 
   <section id="idFoodHmn050_2">
-  <h3 id="idFoodHmn050_2H3">foodCooked.specs-div.cooking
+  <h3 id="idFoodHmn050_2H3">foodCooked.Specsdiv.cooking
     </h3>
   <p id="idFoodHmn050_2dsn">description::
     <br>× Mcsh-creation: {2026-05-26}
@@ -1718,7 +1721,7 @@
     <br>* local,
     <a class="clsHide" href="#idFoodHmn050_2dsn"></a></p>
   <p id="idFoodHmn050_2nam">name::
-    <br>* McshEngl.foodCooked.specs-div.cooking,
+    <br>* McshEngl.foodCooked.Specsdiv.cooking,
     <a class="clsHide" href="#idFoodHmn050_2nam"></a></p>
 
   <section id="idFoodHmn050_8">
@@ -3074,6 +3077,7 @@
     <br>* McshEngl.drinkCocoa_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* drink_Gntr,
     <a class="clsHide" href="#idFoodHmn014gntr"></a></p>
 
   <section id="idFoodHmn014ingredient">
@@ -4070,7 +4074,7 @@
     <a class="clsHide" href="#idFoodHmn152sptr"></a></p>
 
   <section id="idFoodHmn153">
-  <h4 id="idFoodHmn153H4">drinkWine.specs-div.law
+  <h4 id="idFoodHmn153H4">drinkWine.Specsdiv.law
     </h4>
   <p id="idFoodHmn153dsn">description::
     <br>× Mcsh-creation: {2026-05-25}
@@ -4161,7 +4165,7 @@
   </section>
 
   <section id="idFoodHmn154">
-  <h4 id="idFoodHmn154H4">drinkWine.specs-div.color
+  <h4 id="idFoodHmn154H4">drinkWine.Specsdiv.color
     </h4>
   <p id="idFoodHmn154dsn">description::
     <br>× Mcsh-creation: {2026-05-27}
@@ -4221,7 +4225,7 @@
   </section>
 
   <section id="idFoodHmn155">
-  <h4 id="idFoodHmn155H4">drinkWine.specs-div.sweetness
+  <h4 id="idFoodHmn155H4">drinkWine.Specsdiv.sweetness
     </h4>
   <p id="idFoodHmn155dsn">description::
     <br>× Mcsh-creation: {2026-05-26}
@@ -4291,7 +4295,7 @@
   </section>
 
   <section id="idFoodHmn078">
-  <h4 id="idFoodHmn078H4">drinkWine.specs-div.carbon-dioxide
+  <h4 id="idFoodHmn078H4">drinkWine.Specsdiv.carbon-dioxide
     </h4>
   <p id="idFoodHmn078dsn">description::
     <br>× Mcsh-creation: {2026-05-26}
@@ -4347,7 +4351,7 @@
   </section>
 
   <section id="idFoodHmn156">
-  <h4 id="idFoodHmn156H4">drinkWine.specs-div.oldness
+  <h4 id="idFoodHmn156H4">drinkWine.Specsdiv.oldness
     </h4>
   <p id="idFoodHmn156dsn">description::
     <br>× Mcsh-creation: {2026-05-26}
@@ -4368,7 +4372,7 @@
   </section>
 
   <section id="idFoodHmn152SpdvSopr">
-  <h4 id="idFoodHmn152SpdvSoprH4">drinkWine.specs-div.society-producing
+  <h4 id="idFoodHmn152SpdvSoprH4">drinkWine.Specsdiv.society-producing
     </h4>
   <p id="idFoodHmn152SpdvSoprdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4396,12 +4400,12 @@
     <br>[{2023-08-21 retrieved} https://twitter.com/stats_feed/status/1693531131654906064]
     <a class="clsHide" href="#idFoodHmn152SpdvSoprdsn"></a></p>
   <p id="idFoodHmn152SpdvSoprnam">name::
-    <br>* McshEngl.wine.specs-div.society-producing,
+    <br>* McshEngl.wine.Specsdiv.society-producing,
     <a class="clsHide" href="#idFoodHmn152SpdvSoprnam"></a></p>
   </section>
 
   <section id="idFoodHmn152SpdvSocs">
-  <h4 id="idFoodHmn152SpdvSocsH4">drinkWine.specs-div.society-consuming
+  <h4 id="idFoodHmn152SpdvSocsH4">drinkWine.Specsdiv.society-consuming
     </h4>
   <p id="idFoodHmn152SpdvSocsdsn">description::
     <br>× Mcsh-creation: {2026-05-26}
@@ -4420,7 +4424,7 @@
   <p id="idFoodHmn152SpdvSocsnam">name::
     <br>* McshEngl.food.wine.societyMost-157,
     <br>* McshEngl.wine.societyMost-157,
-    <br>* McshEngl.wine.specs-div.society-consuming,
+    <br>* McshEngl.wine.Specsdiv.society-consuming,
     <a class="clsHide" href="#idFoodHmn152SpdvSocsnam"></a></p>
   </section>
   </section>
@@ -7714,6 +7718,7 @@
     <br>* McshEngl.foodPilaf_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodSoup_Gntr,
     <a class="clsHide" href="#idFoodHmn122gntr"></a></p>
 
   <section id="idFoodHmn122ingredient">
@@ -8652,6 +8657,7 @@
     <br>* McshEngl.foodFrumenty_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodSoup_Gntr,
     <a class="clsHide" href="#idFoodHmn142gntr"></a></p>
 
   <section id="idFoodHmn142ingredient">
@@ -8910,6 +8916,7 @@
     <br>* McshEngl.meatReddish_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodMeat_Gntr,
     <a class="clsHide" href="#idFoodHmn144gntr"></a></p>
 
   <section id="idFoodHmn144ingredient">
@@ -9136,6 +9143,7 @@
     <br>* McshEngl.meatLemonish_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodMeat_Gntr,
     <a class="clsHide" href="#idFoodHmn147gntr"></a></p>
 
   <section id="idFoodHmn147recipe">
@@ -9291,6 +9299,7 @@
     <br>* McshEngl.foodTas_kebab_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodMeat_Gntr,
     <a class="clsHide" href="#idFoodHmn149gntr"></a></p>
 
   <section id="idFoodHmn149ingredient">
@@ -10804,6 +10813,29 @@
     <br>[http://www.nooz.gr/woman/ti-mporeite-na-kanete-me-ena-lemonipadfksgsoksgis]
     <a class="clsHide" href="#idFoodHmn206dsnL"></a></p>
 
+  <section id="idFoodHmn206gstr">
+  <h2 id="idFoodHmn206gstrH2">GENERIC-SPECIFIC-TREE of foodLemon
+    </h2>
+  <p id="idFoodHmn206gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idFoodHmn206gstrdsn"></a></p>
+  <p id="idFoodHmn206gstrnam">name::
+    <br>* McshEngl.foodLemon'generic-specific-tree,
+    <br>* McshEngl.foodLemon'specific-generic-tree,
+    <a class="clsHide" href="#idFoodHmn206gstrnam"></a></p>
+  <p id="idFoodHmn206gntr">generic-tree::
+    <br>* McshEngl.foodLemon_Gntr,
+    <br>===
+    <br>* foodNatural_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idFoodHmn206gntr"></a></p>
+  <p id="idFoodHmn206sptr">specific-tree::
+    <br>* McshEngl.foodLemon.specific,
+    <br>* McshEngl.foodLemon_Sptr,
+    <br>===
+    <a class="clsHide" href="#idFoodHmn206sptr"></a></p>
+  </section>
+
   <section id="idFoodHmn206eval">
   <h2 id="idFoodHmn206evalH2">evaluation of foodLemon
     </h2>
@@ -10944,6 +10976,7 @@
     <br>* McshEngl.foodSaladLettuce_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodSalad_Gntr,
     <a class="clsHide" href="#idFoodHmn183gntr"></a></p>
 
   <section id="idFoodHmn183recipe">
@@ -10979,6 +11012,7 @@
     <br>* McshEngl.foodSaladBean_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodSalad_Gntr,
     <a class="clsHide" href="#idFoodHmn188gntr"></a></p>
 
   <section id="idFoodHmn188recipe">
@@ -11015,6 +11049,7 @@
     <br>* McshEngl.foodGreens_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodSalad_Gntr,
     <a class="clsHide" href="#idFoodHmn124gntr"></a></p>
 
   <section id="idFoodHmn124recipe">
@@ -11113,6 +11148,7 @@
     <br>* McshEngl.foodSaladTahini_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodSalad_Gntr,
     <a class="clsHide" href="#idFoodHmn208gntr"></a></p>
 
   <section id="idFoodHmn208recipe">
@@ -11175,6 +11211,7 @@
     <br>* McshEngl.foodSaladPotato_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodSalad_Gntr,
     <a class="clsHide" href="#idFoodHmn180gntr"></a></p>
 
   <section id="idFoodHmn180recipe">
@@ -11260,6 +11297,7 @@
     <br>* McshEngl.foodPepper_Gntr,
     <br>===
     <br>* foodCooked_Gntr,
+    <br>* foodSalad_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idFoodHmn181gntr"></a></p>
   <p id="idFoodHmn181sptr">specific-tree::
