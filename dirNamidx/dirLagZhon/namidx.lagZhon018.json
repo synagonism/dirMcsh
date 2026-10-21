@@ -1,5 +1,5 @@
 [
-  [";lagZhon018","s",843,"2026-10-20"],
+  [";lagZhon018","s",843,"2026-10-21"],
   ["ShāndōngShěng-山东省!=ChnaShandong","dirStn/McshStn000031.last.html#idChnaadmnatt015CNSD"],
   ["ShānxīShěng-山西省!=ChnaShanxi","dirStn/McshStn000031.last.html#idChnaadmnatt015CNSX"],
   ["Shēngdiào-声调!=voice-tone!=Zhon_tone","dirLag/McshLag000018.last.html#idLZhonSpchtone"],
@@ -202,7 +202,7 @@
   ["shénmede-什么的!~AdveZhon!=RltnSameness:and-so-on","dirCor/McshCor000005.last.html#idRlnSmns"],
   ["shénmeshíhou-什么时候!~AdveTimeVerb!=when","dirLag/McshLag000007.last.html#idLHmnmvbatTimeSntxAdve"],
   ["shénmeshíhòu-什么时候-(什麼時候)!=timeAsk","dirCor/McshCor000006.last.html#idTimeSmsIrgv"],
-  ["shétóu-舌头!=organTongue","dirHlth/McshHlth000002.last.html#idOgnHmn012"],
+  ["shétóu-舌头!=OganTongue","dirHlth/McshHlth000002.last.html#idOgnHmn012"],
   ["shì-世-19990!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb298"],
   ["shì-事!=thing!=entity","dirCor/McshCor000003.last.html#idOverview"],
   ["shì-事-20107!~Zhon_sylb","dirLag/McshLag000021.last.html#idLZhonsylb298"],
