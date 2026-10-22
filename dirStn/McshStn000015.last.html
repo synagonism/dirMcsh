@@ -484,11 +484,37 @@
     <br>· no satisfier, no economic-organization.
     <a class="clsHide" href="#idOznPdnatt003dsn"></a></p>
   <p id="idOznPdnatt003nam">name::
+    <br>* McshEngl.company-satisfier!⇒Cmpnstfr,
     <br>* McshEngl.Cmpnstfr!=company-satisfier,
-    <br>* McshEngl.OgznPrdg'satisfier,
-    <br>* McshEngl.OgznPrdg'att003-satisfier,
-    <br>* McshEngl.Cmpnecon'satisfier,
+    <br>* McshEngl.OgznPrdg'satisfier!⇒Cmpnstfr,
+    <br>* McshEngl.OgznPrdg'att003-satisfier!⇒Cmpnstfr,
+    <br>* McshEngl.Cmpnecon'satisfier!⇒Cmpnstfr,
+    <br>* McshEngl.satisfier.company!⇒Cmpnstfr,
+    <br>* McshEngl.stfrCompany!⇒Cmpnstfr,
     <a class="clsHide" href="#idOznPdnatt003nam"></a></p>
+
+  <section id="idOznPdnatt003gstr">
+  <h3 id="idOznPdnatt003gstrH3">GENERIC-SPECIFIC-TREE of Cmpnstfr
+    </h3>
+  <p id="idOznPdnatt003gstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idOznPdnatt003gstrdsn"></a></p>
+  <p id="idOznPdnatt003gstrnam">name::
+    <br>* McshEngl.Cmpnstfr'generic-specific-tree,
+    <br>* McshEngl.Cmpnstfr'specific-generic-tree,
+    <a class="clsHide" href="#idOznPdnatt003gstrnam"></a></p>
+  <p id="idOznPdnatt003gntr">generic-tree::
+    <br>* McshEngl.Cmpnstfr_Gntr,
+    <br>===
+    <br>* satisfierOgzn_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idOznPdnatt003gntr"></a></p>
+  <p id="idOznPdnatt003sptr">specific-tree::
+    <br>* McshEngl.Cmpnstfr.specific,
+    <br>* McshEngl.Cmpnstfr_Sptr,
+    <br>===
+    <a class="clsHide" href="#idOznPdnatt003sptr"></a></p>
+  </section>
 
   <section id="idOznPdnatt033">
   <h3 id="idOznPdnatt033H3">tax of OgznPrdg
@@ -1854,7 +1880,7 @@
     <br>* adminNo-sector!@McshStn000015#idOznPdn010,
     <br>===
     <br>* service-sector!@McshStn000026#idOznSvcSctr,
-    <br>* serviceNo-sector!@McshStn000015#idOznPdn025Sctr,
+    <br>* serviceNo-sector!@McshStn000015#idOznPdn042,
     <br>===
     <br>* admin-sector!@McshStn000015#idSctrPblc,
     <br>* adminNo-sector!@McshStn000015#idOznPdn010,
@@ -1863,7 +1889,7 @@
     <br>* private-sector!@McshStn000015#idOznPdn010,
     <br>* secondary-sector,
     <br>* service-sector!@McshStn000026#idOznSvcSctr,
-    <br>* serviceNo-sector!@McshStn000015#idOznPdn025Sctr,
+    <br>* serviceNo-sector!@McshStn000015#idOznPdn042,
     <br>* tertriary-sector!@McshStn000026#idOznSvcSctr,
     <br>* voluntary-sector,
     <br>===
@@ -2035,6 +2061,7 @@
   <p id="idOznPdn042gntr">generic-tree::
     <br>* McshEngl.sector3No_Gntr,
     <br>===
+    <br>* sector_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idOznPdn042gntr"></a></p>
   <p id="idOznPdn042sptr">specific-tree::
@@ -2043,11 +2070,11 @@
     <br>===
     <br>* sector3No.primary!@McshStn000015#idOznPdn037,
     <br>* sector3No.secondary!@McshStn000015#idOznPdn035,
-    <br>* sector3No.agriculture!@McshStn000015#idOznPdn025SctrAgri,
-    <br>* sector3No.construction!@McshStn000015#idOznPdn025SctrCnstr,
-    <br>* sector3No.forestry!@McshStn000015#idOznPdn025SctrFrst,
-    <br>* sector3No.manufacturing!@McshStn000015#idOznPdn025SctrMnfr,
-    <br>* sector3No.mining!@McshStn000015#idOznPdn025SctrMing,
+    <br>* sector3No.agriculture!@McshStn000015#idOznPdn042Agri,
+    <br>* sector3No.construction!@McshStn000015#idOznPdn042Cnstr,
+    <br>* sector3No.forestry!@McshStn000015#idOznPdn042Frst,
+    <br>* sector3No.manufacturing!@McshStn000015#idOznPdn042Mnfr,
+    <br>* sector3No.mining!@McshStn000015#idOznPdn042Ming,
     <a class="clsHide" href="#idOznPdn042sptr"></a></p>
   </section>
 
@@ -4653,7 +4680,7 @@
     <a class="clsHide" href="#idOznPdn025nam"></a></p>
 
   <section id="idOznPdn025Sctr">
-  <h2 id="idOznPdn025SctrH2">ogznServiceNo.sector (link)
+  <h2 id="idOznPdn025SctrH2">ogznServiceNo.sector (<a class="clsPreview" href="../dirStn/McshStn000015.last.html#idOznPdn042">link</a>)
     </h2>
   </section>
   </section>

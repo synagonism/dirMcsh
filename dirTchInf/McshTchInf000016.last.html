@@ -514,10 +514,12 @@
     <br>[<a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">HumnSngu</a>.2017-05-12]
     <a class="clsHide" href="#idDbcnodMnrdsn"></a></p>
   <p id="idDbcnodMnrnam">name::
-    <br>* McshEngl.AgntBkcn'node.miner,
-    <br>* McshEngl.Dblockchain-node.miner,
-    <br>* McshEngl.miner-node-of-blockchain,
-    <br>* McshEngl.Dblockchain_node.MINER,
+    <br>* McshEngl.miner-node-of-blockchain-net!⇒Bkcnminer,
+    <br>* McshEngl.Bkcnminer!=miner-node-of-blockchain-net,
+    <br>* McshEngl.miner-node--of--blockchain-net!⇒Bkcnminer,
+    <br>* McshEngl.AgntBkcn'node.miner!⇒Bkcnminer,
+    <br>* McshEngl.Dblockchain-node.miner!⇒Bkcnminer,
+    <br>* McshEngl.Dblockchain_node.MINER!⇒Bkcnminer,
     <br>====== lagoGreek:
     <br>* McshElln.εξoρύκτης-αλλυσίδας-μπλοκ-κόμβος,
     <a class="clsHide" href="#idDbcnodMnrnam"></a></p>
@@ -531,12 +533,21 @@
     <br>[<a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">HumnSngu</a>.2017-05-07]
     <a class="clsHide" href="#idDbcmnrdsn"></a></p>
   <p id="idDbcmnrnam">name::
-    <br>* McshEngl.Dblockchain-human.miner,
-    <br>* McshEngl.Dccb-miner-human,
-    <br>* McshEngl.AgntBkcn'miner-human,
-    <br>* McshEngl.blockchain-miner,
-    <br>* McshEngl.miner-human-of-blockchain,
+    <br>* McshEngl.human-miner-of-blockchain-net!⇒Bkcnminrhuman,
+    <br>* McshEngl.Bkcnminrhuman!=human-miner-of-blockchain-net,
+    <br>* McshEngl.human-miner--of--blockchain-net!⇒Bkcnminrhuman,
+    <br>* McshEngl.Dblockchain-human.miner!⇒Bkcnminrhuman,
+    <br>* McshEngl.Dccb-miner-human!⇒Bkcnminrhuman,
+    <br>* McshEngl.AgntBkcn'miner-human!⇒Bkcnminrhuman,
+    <br>* McshEngl.blockchain-miner!⇒Bkcnminrhuman,
+    <br>* McshEngl.miner-human-of-blockchain!⇒Bkcnminrhuman,
     <a class="clsHide" href="#idDbcmnrnam"></a></p>
+  <p id="idDbcmnrgntr">generic-tree::
+    <br>* McshEngl.Bkcnminrhuman_Gntr,
+    <br>===
+    <br>* Dblockchain_human_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idDbcmnrgntr"></a></p>
   </section>
 
   <section id="idDbcmng">
@@ -616,8 +627,9 @@
     <br>[<a href="https://bitcoinworldwide.com/mining/pools/">https://bitcoinworldwide.com/mining/pools/</a>]
     <a class="clsHide" href="#idDbcmgpldsn"></a></p>
   <p id="idDbcmgplnam">name::
+    <br>* McshEngl.mining-pool-of-blockchain!⇒Bkcnmnpl,
+    <br>* McshEngl.Bkcnmnpl!=mining-pool-of-blockchain,
     <br>* McshEngl.mining-pool--of-blockchain!⇒Bkcnmnpl,
-    <br>* McshEngl.Bkcnmnpl!=mining-pool--of-blockchain,
     <br>* McshEngl.AgntBkcn'mining-pool!⇒Bkcnmnpl,
     <a class="clsHide" href="#idDbcmgplnam"></a></p>
 
@@ -4279,9 +4291,33 @@
     <br>[<a href="https://wings.zendesk.com/hc/en-us/articles/115000062610-What-is-a-Dao">https://wings.zendesk.com/hc/en-us/articles/115000062610-What-is-a-Dao</a>]
     <a class="clsHide" href="#idWingsdaodsn"></a></p>
   <p id="idWingsdaonam">name::
-    <br>* McshEngl.Dogn.wings,
-    <br>* McshEngl.Wings'Dogn,
+    <br>* McshEngl.Dogn.wings!⇒Wngsdao,
+    <br>* McshEngl.Wngsdao!=Dogn.wings,
+    <br>* McshEngl.Wings'Dogn!⇒Wngsdao,
     <a class="clsHide" href="#idWingsdaonam"></a></p>
+
+  <section id="idWingsdaogstr">
+  <h5 id="idWingsdaogstrH5">GENERIC-SPECIFIC-TREE of Wngsdao
+    </h5>
+  <p id="idWingsdaogstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idWingsdaogstrdsn"></a></p>
+  <p id="idWingsdaogstrnam">name::
+    <br>* McshEngl.Wngsdao'generic-specific-tree,
+    <br>* McshEngl.Wngsdao'specific-generic-tree,
+    <a class="clsHide" href="#idWingsdaogstrnam"></a></p>
+  <p id="idWingsdaogntr">generic-tree::
+    <br>* McshEngl.Wngsdao_Gntr,
+    <br>===
+    <br>* OgznDao_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idWingsdaogntr"></a></p>
+  <p id="idWingsdaosptr">specific-tree::
+    <br>* McshEngl.Wngsdao.specific,
+    <br>* McshEngl.Wngsdao_Sptr,
+    <br>===
+    <a class="clsHide" href="#idWingsdaosptr"></a></p>
+  </section>
 
   <section id="idWingsdaomng">
   <h5 id="idWingsdaomngH5">Dogn'managing
@@ -4328,7 +4364,7 @@
     <a class="clsHide" href="#idDbcwltdsn"></a></p>
   <p id="idDbcwltnam">name::
     <br>* McshEngl.Dblockchain_wallet, {2019-04-16}
-    <br>* McshEngl.Dblockchain-wallet!⇒Dblockchain_wallet,
+    <br>* McshEngl.Bkcnwllt!⇒Dblockchain_wallet,
     <br>* McshEngl.AgntBkcn'09_wallet!⇒Dblockchain_wallet,
     <br>* McshEngl.AgntBkcn'wallet!⇒Dblockchain_wallet,
     <br>* McshEngl.blockchain-wallet!⇒Dblockchain_wallet, {2019-03-07}
@@ -4356,7 +4392,7 @@
   <p id="idDbcwltacntnam">name::
     <br>* McshEngl.account-of--blockchain-wallet,
     <br>* McshEngl.blockchain-account,
-    <br>* McshEngl.Dblockchain-wallet'account,
+    <br>* McshEngl.Bkcnwllt'account,
     <br>* McshEngl.chainBlock-account,
     <br>* McshEngl.Dblockchain_wallet'account,
     <a class="clsHide" href="#idDbcwltacntnam"></a></p>
@@ -4393,9 +4429,9 @@
     <br>Wallet-evu is <a class="clsPreview" href="#idDbcevudsn">the-evu</a> <a class="clsPreview" href="#idDbcwlt">the-wallet</a> stores.
     <a class="clsHide" href="#idDbcwltevudsn"></a></p>
   <p id="idDbcwltevunam">name::
-    <br>* McshEngl.Dblockchain-wallet'asset,
-    <br>* McshEngl.Dblockchain-wallet'Exvu,
-    <br>* McshEngl.Dblockchain-wallet'token,
+    <br>* McshEngl.Bkcnwllt'asset,
+    <br>* McshEngl.Bkcnwllt'Exvu,
+    <br>* McshEngl.Bkcnwllt'token,
     <br>* McshEngl.token-of--blockchain-wallet,
     <br>* McshEngl.Dblockchain_wallet'asset,
     <a class="clsHide" href="#idDbcwltevunam"></a></p>
@@ -4416,7 +4452,7 @@
     <br>[<a href="https://decentral.zendesk.com/hc/en-us/articles/225024248-What-are-transaction-fees-and-what-fees-does-Jaxx-apply-">https://decentral.zendesk.com/hc/en-us/articles/225024248-What-are-transaction-fees-and-what-fees-does-Jaxx-apply-</a>]
     <a class="clsHide" href="#idDbcwltfeedsn"></a></p>
   <p id="idDbcwltfeenam">name::
-    <br>* McshEngl.Dblockchain-wallet'Fee,
+    <br>* McshEngl.Bkcnwllt'Fee,
     <br>* McshEngl.wallet-fee-of-blockchain,
     <br>* McshEngl.wallet-transaction-fee-of-blockchain,
     <br>* McshEngl.Dblockchain_wallet'fee,
@@ -4448,8 +4484,8 @@
     <br>[<a href="https://docs.decred.org/getting-started/user-guides/windows/">https://docs.decred.org/getting-started/user-guides/windows/</a>]
     <a class="clsHide" href="#idDbcwltseeddsn"></a></p>
   <p id="idDbcwltseednam">name::
-    <br>* McshEngl.Dblockchain-wallet'Seed,
-    <br>* McshEngl.Dblockchain_wallet'seed!⇒Dblockchain-wallet'Seed,
+    <br>* McshEngl.Bkcnwllt'Seed,
+    <br>* McshEngl.Dblockchain_wallet'seed!⇒Bkcnwllt'Seed,
     <a class="clsHide" href="#idDbcwltseednam"></a></p>
   </section>
 
@@ -4516,24 +4552,32 @@
   </section>
 
   <section id="idDbcwltPgm">
-  <h2 id="idDbcwltPgmH2">wallet.PROGRAM
+  <h2 id="idDbcwltPgmH2">Bkcnwllt.PROGRAM
     </h2>
   <p id="idDbcwltPgmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>Computer-program that manages <a class="clsPreview" href="#idDbccrptPkc">the-keys</a> of <a class="clsPreview" href="#idDbcevudsn">coins</a>. Public-keys to receive coins and the corresponding private-keys to spend them.
     <a class="clsHide" href="#idDbcwltPgmdsn"></a></p>
   <p id="idDbcwltPgmnam">name::
-    <br>* McshEngl.Dblockchain-wallet.Program,
-    <br>* McshEngl.program-wallet-of-blockchain,
-    <br>* McshEngl.Dblockchain_wallet.PROGRAM,
+    <br>* McshEngl.program-wallet-of-blockchain!⇒BkcnwlltPrgm,
+    <br>* McshEngl.BkcnwlltPrgm!=program-wallet-of-blockchain,
+    <br>* McshEngl.Bkcnwllt.Program!⇒BkcnwlltPrgm,
+    <br>* McshEngl.Dblockchain_wallet.PROGRAM!⇒BkcnwlltPrgm,
     <a class="clsHide" href="#idDbcwltPgmnam"></a></p>
   <p id="idDbcwltPgmwpa">addressWpg::
     <br>* <a href="https://coinomi.com/">https://coinomi.com</a>/ Free Secure Open-Source Multi-Coin HD Wallet for Bitcoin and Altcoins,
     <a class="clsHide" href="#idDbcwltPgmwpa"></a></p>
+  <p id="idDbcwltPgmgntr">generic-tree::
+    <br>* McshEngl.BkcnwlltPrgm_Gntr,
+    <br>===
+    <br>* Dblockchain_program_Gntr,
+    <br>* Dblockchain_wallet_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idDbcwltPgmgntr"></a></p>
   </section>
 
   <section id="idDbcwltBrn">
-  <h2 id="idDbcwltBrnH2">wallet.BRAIN
+  <h2 id="idDbcwltBrnH2">Bkcnwllt.BRAIN
     </h2>
   <p id="idDbcwltBrndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4541,7 +4585,7 @@
     <br>* <a class="clsPreview" href="../dirTchInf/McsTchInf000016Btc.last.html#idBtcwltBrn">bitcoin-brain-wallet</a>,
     <a class="clsHide" href="#idDbcwltBrndsn"></a></p>
   <p id="idDbcwltBrnnam">name::
-    <br>* McshEngl.Dblockchain-wallet.Brain,
+    <br>* McshEngl.Bkcnwllt.Brain,
     <br>* McshEngl.blockchain-brain-wallet,
     <br>* McshEngl.brain-wallet-of-blockchain,
     <br>* McshEngl.Dblockchain_wallet.BRAIN,
@@ -4549,7 +4593,7 @@
   </section>
 
   <section id="idDbcwltPpr">
-  <h2 id="idDbcwltPprH2">wallet.PAPER
+  <h2 id="idDbcwltPprH2">Bkcnwllt.PAPER
     </h2>
   <p id="idDbcwltPprdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4557,14 +4601,14 @@
     <a class="clsHide" href="#idDbcwltPprdsn"></a></p>
   <p id="idDbcwltPprnam">name::
     <br>* McshEngl.blockchain-paper-wallet,
-    <br>* McshEngl.Dblockchain-wallet.Paper,
+    <br>* McshEngl.Bkcnwllt.Paper,
     <br>* McshEngl.paper-wallet-of-blockchain,
     <br>* McshEngl.Dblockchain_wallet.PAPER,
     <a class="clsHide" href="#idDbcwltPprnam"></a></p>
   </section>
 
   <section id="idDbcwltHdw">
-  <h2 id="idDbcwltHdwH2">wallet.HARDWARE
+  <h2 id="idDbcwltHdwH2">Bkcnwllt.HARDWARE
     </h2>
   <p id="idDbcwltHdwdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4572,14 +4616,14 @@
     <a class="clsHide" href="#idDbcwltHdwdsn"></a></p>
   <p id="idDbcwltHdwnam">name::
     <br>* McshEngl.blockchain-hardware-wallet,
-    <br>* McshEngl.Dblockchain-wallet.Hardware,
+    <br>* McshEngl.Bkcnwllt.Hardware,
     <br>* McshEngl.hardware-wallet-of-blockchain,
     <br>* McshEngl.Dblockchain_wallet.HARDWARE,
     <a class="clsHide" href="#idDbcwltHdwnam"></a></p>
   </section>
 
   <section id="idDbcwltStc">
-  <h2 id="idDbcwltStcH2">wallet.STATIC
+  <h2 id="idDbcwltStcH2">Bkcnwllt.STATIC
     </h2>
   <p id="idDbcwltStcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4588,14 +4632,14 @@
     <br>[<a href="https://decentral.zendesk.com/hc/en-us">https://decentral.zendesk.com/hc/en-us</a>]
     <a class="clsHide" href="#idDbcwltStcdsn"></a></p>
   <p id="idDbcwltStcnam">name::
-    <br>* McshEngl.Dblockchain-wallet.Static,
+    <br>* McshEngl.Bkcnwllt.Static,
     <br>* McshEngl.static-wallet-of-blockchain,
     <br>* McshEngl.Dblockchain_wallet.STATIC,
     <a class="clsHide" href="#idDbcwltStcnam"></a></p>
   </section>
 
   <section id="idDbcwltStcN">
-  <h2 id="idDbcwltStcNH2">wallet.STATIC.NO
+  <h2 id="idDbcwltStcNH2">Bkcnwllt.STATIC.NO
     </h2>
   <p id="idDbcwltStcNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4607,7 +4651,7 @@
     <a class="clsHide" href="#idDbcwltStcNnam"></a></p>
 
   <section id="idDbcwltHd">
-  <h3 id="idDbcwltHdH3">wallet.HD
+  <h3 id="idDbcwltHdH3">Bkcnwllt.HD
     </h3>
   <p id="idDbcwltHddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4625,7 +4669,7 @@
   </section>
 
   <section id="idDbcwltDtmc">
-  <h2 id="idDbcwltDtmcH2">wallet.DETERMINISTIC
+  <h2 id="idDbcwltDtmcH2">Bkcnwllt.DETERMINISTIC
     </h2>
   <p id="idDbcwltDtmcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4633,14 +4677,14 @@
     <br>[<a href="https://en.bitcoin.it/wiki/Deterministic_wallet">https://en.bitcoin.it/wiki/Deterministic_wallet</a>]
     <a class="clsHide" href="#idDbcwltDtmcdsn"></a></p>
   <p id="idDbcwltDtmcnam">name::
-    <br>* McshEngl.Dblockchain-wallet.Deterministic,
+    <br>* McshEngl.Bkcnwllt.Deterministic,
     <br>* McshEngl.deterministic-wallet-of-blockchain,
     <br>* McshEngl.Dblockchain_wallet.DETERMINISTIC,
     <a class="clsHide" href="#idDbcwltDtmcnam"></a></p>
   </section>
 
   <section id="idDbcwltOnln">
-  <h2 id="idDbcwltOnlnH2">wallet.ONLINE
+  <h2 id="idDbcwltOnlnH2">Bkcnwllt.ONLINE
     </h2>
   <p id="idDbcwltOnlndsn">description::
     <br>× Mcsh-creation: {2026-10-17}
@@ -4656,7 +4700,7 @@
   </section>
 
   <section id="idDbcwltWeb">
-  <h2 id="idDbcwltWebH2">wallet.WEB
+  <h2 id="idDbcwltWebH2">Bkcnwllt.WEB
     </h2>
   <p id="idDbcwltWebdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4665,7 +4709,7 @@
     <br>[<a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">HumnSngu</a>.2017-04-03]
     <a class="clsHide" href="#idDbcwltWebdsn"></a></p>
   <p id="idDbcwltWebnam">name::
-    <br>* McshEngl.Dblockchain-wallet.Web,
+    <br>* McshEngl.Bkcnwllt.Web,
     <br>* McshEngl.blockchain-web-wallet,
     <br>* McshEngl.Dblockchain_wallet.WEB,
     <a class="clsHide" href="#idDbcwltWebnam"></a></p>
@@ -4689,36 +4733,36 @@
   </section>
 
   <section id="idDbcwltMon">
-  <h2 id="idDbcwltMonH2">wallet.MONO
+  <h2 id="idDbcwltMonH2">Bkcnwllt.MONO
     </h2>
   <p id="idDbcwltMondsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>Mono-wallet is <a class="clsPreview" href="#idDbcwlt">a-wallet</a> that stores ONE <a class="clsPreview" href="#idDbcevudsn">token</a>.
     <a class="clsHide" href="#idDbcwltMondsn"></a></p>
   <p id="idDbcwltMonnam">name::
-    <br>* McshEngl.Dblockchain-wallet.Mono,
+    <br>* McshEngl.Bkcnwllt.Mono,
     <br>* McshEngl.mono-wallet-of-blockchain,
     <br>* McshEngl.Dblockchain_wallet.MONO,
     <a class="clsHide" href="#idDbcwltMonnam"></a></p>
   </section>
 
   <section id="idDbcwltMonN">
-  <h2 id="idDbcwltMonNH2">wallet.MONO.NO
+  <h2 id="idDbcwltMonNH2">Bkcnwllt.MONO.NO
     </h2>
   <p id="idDbcwltMonNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>Multi-wallet is <a class="clsPreview" href="#idDbcwlt">a-wallet</a> that stores MANY <a class="clsPreview" href="#idDbcevudsn">tokens</a>.
     <a class="clsHide" href="#idDbcwltMonNdsn"></a></p>
   <p id="idDbcwltMonNnam">name::
-    <br>* McshEngl.Dblockchain-wallet.MonoNo,
-    <br>* McshEngl.Dblockchain-wallet.Multi,
+    <br>* McshEngl.Bkcnwllt.MonoNo,
+    <br>* McshEngl.Bkcnwllt.Multi,
     <br>* McshEngl.monoNo-wallet-of-blockchain,
     <br>* McshEngl.multi-wallet-of-blockchain,
     <a class="clsHide" href="#idDbcwltMonNnam"></a></p>
   </section>
 
   <section id="idJaxwlt">
-  <h2 id="idJaxwltH2">wallet.Jaxx (jaxwlt)
+  <h2 id="idJaxwltH2">Bkcnwllt.Jaxx (jaxwlt)
     </h2>
   <p id="idJaxwltdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4727,9 +4771,33 @@
     <br>[<a href="https://jaxx.io/">https://jaxx.io</a>/]
     <a class="clsHide" href="#idJaxwltdsn"></a></p>
   <p id="idJaxwltnam">name::
-    <br>* McshEngl.Jaxwlt,
-    <br>* McshEngl.Jaxx-wallet,
+    <br>* McshEngl.Jaxx-wallet!⇒BcwtJaxx,
+    <br>* McshEngl.BcwtJaxx!=Jaxx-wallet,
+    <br>* McshEngl.Jaxwlt!⇒BcwtJaxx,
     <a class="clsHide" href="#idJaxwltnam"></a></p>
+
+  <section id="idJaxwltgstr">
+  <h3 id="idJaxwltgstrH3">GENERIC-SPECIFIC-TREE of BcwtJaxx
+    </h3>
+  <p id="idJaxwltgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idJaxwltgstrdsn"></a></p>
+  <p id="idJaxwltgstrnam">name::
+    <br>* McshEngl.BcwtJaxx'generic-specific-tree,
+    <br>* McshEngl.BcwtJaxx'specific-generic-tree,
+    <a class="clsHide" href="#idJaxwltgstrnam"></a></p>
+  <p id="idJaxwltgntr">generic-tree::
+    <br>* McshEngl.BcwtJaxx_Gntr,
+    <br>===
+    <br>* Ethrwllt_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idJaxwltgntr"></a></p>
+  <p id="idJaxwltsptr">specific-tree::
+    <br>* McshEngl.BcwtJaxx.specific,
+    <br>* McshEngl.BcwtJaxx_Sptr,
+    <br>===
+    <a class="clsHide" href="#idJaxwltsptr"></a></p>
+  </section>
 
   <section id="idJaxwlttkn">
   <h3 id="idJaxwlttknH3">jaxwlt'exchange-value-unit
@@ -4812,10 +4880,34 @@
     <br>Quantifiable information about many attributes of <a class="clsPreview" href="#idDescription">a-blockchain-network</a>.
     <a class="clsHide" href="#idDbcstatdsn"></a></p>
   <p id="idDbcstatnam">name::
-    <br>* McshEngl.AgntBkcn'10_statistics,
-    <br>* McshEngl.AgntBkcn'statistics,
-    <br>* McshEngl.blockchain-statistics,
+    <br>* McshEngl.Bkcnstat,
+    <br>* McshEngl.AgntBkcn'10_statistics!⇒Bkcnstat,
+    <br>* McshEngl.AgntBkcn'statistics!⇒Bkcnstat,
+    <br>* McshEngl.blockchain-statistics!⇒Bkcnstat,
     <a class="clsHide" href="#idDbcstatnam"></a></p>
+
+  <section id="idDbcstatgstr">
+  <h2 id="idDbcstatgstrH2">GENERIC-SPECIFIC-TREE of Bkcnstat
+    </h2>
+  <p id="idDbcstatgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idDbcstatgstrdsn"></a></p>
+  <p id="idDbcstatgstrnam">name::
+    <br>* McshEngl.Bkcnstat'generic-specific-tree,
+    <br>* McshEngl.Bkcnstat'specific-generic-tree,
+    <a class="clsHide" href="#idDbcstatgstrnam"></a></p>
+  <p id="idDbcstatgntr">generic-tree::
+    <br>* McshEngl.Bkcnstat_Gntr,
+    <br>===
+    <br>* chain-stats_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idDbcstatgntr"></a></p>
+  <p id="idDbcstatsptr">specific-tree::
+    <br>* McshEngl.Bkcnstat.specific,
+    <br>* McshEngl.Bkcnstat_Sptr,
+    <br>===
+    <a class="clsHide" href="#idDbcstatsptr"></a></p>
+  </section>
 
   <section id="idDbcstatbke">
   <h2 id="idDbcstatbkeH2">statistics'block-explorer (<a class="clsPreview" href="#idDbcexr">link</a>)
@@ -4942,24 +5034,24 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDbcpbmdsn"></a></p>
   <p id="idDbcpbmnam">name::
-    <br>* McshEngl.blockchain-evaluation.con,
-    <br>* McshEngl.AgntBkcn'problem,
-    <br>* McshEngl.blockchain-con,
-    <br>* McshEngl.blockchain-issue,
-    <br>* McshEngl.blockchain-problem,
-    <br>* McshEngl.problem-of-blockchain,
-    <br>* McshEngl.Bkcheval.CON,
+    <br>* McshEngl.problem-of-blockchain!⇒Bkcncon,
+    <br>* McshEngl.Bkcncon!=problem-of-blockchain,
+    <br>* McshEngl.blockchain-evaluation.con!⇒Bkcncon,
+    <br>* McshEngl.AgntBkcn'problem!⇒Bkcncon,
+    <br>* McshEngl.blockchain-issue!⇒Bkcncon,
+    <br>* McshEngl.blockchain-problem!⇒Bkcncon,
+    <br>* McshEngl.Bkcheval.CON!⇒Bkcncon,
     <a class="clsHide" href="#idDbcpbmnam"></a></p>
 
   <section id="idDbcpbmgstr">
-  <h3 id="idDbcpbmgstrH3">GENERIC-SPECIFIC-TREE of blockchain-con
+  <h3 id="idDbcpbmgstrH3">GENERIC-SPECIFIC-TREE of Bkcncon
     </h3>
   <p id="idDbcpbmgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDbcpbmgstrdsn"></a></p>
   <p id="idDbcpbmgstrnam">name::
-    <br>* McshEngl.blockchain-con'generic-specific-tree,
-    <br>* McshEngl.blockchain-con'specific-generic-tree,
+    <br>* McshEngl.Bkcncon'generic-specific-tree,
+    <br>* McshEngl.Bkcncon'specific-generic-tree,
     <a class="clsHide" href="#idDbcpbmgstrnam"></a></p>
   <p id="idDbcpbmgntr">generic-tree::
     <br>* McshEngl.blockchain-con_Gntr,
@@ -4969,7 +5061,7 @@
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idDbcpbmgntr"></a></p>
   <p id="idDbcpbmsptr">specific-tree::
-    <br>* McshEngl.blockchain-con.specific,
+    <br>* McshEngl.Bkcncon.specific,
     <br>* McshEngl.blockchain-con_Sptr,
     <br>===
     <br>* Security-problem!@McshTchInf000016#idDbcscrt,
@@ -4981,7 +5073,7 @@
   </section>
 
   <section id="idDbcscrt">
-  <h3 id="idDbcscrtH3">blockchain-con.SECURITY
+  <h3 id="idDbcscrtH3">Bkcncon.SECURITY
     </h3>
   <p id="idDbcscrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4993,10 +5085,35 @@
     <br>[<a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">HumnSngu</a>.2017-03-26]
     <a class="clsHide" href="#idDbcscrtdsn"></a></p>
   <p id="idDbcscrtnam">name::
-    <br>* McshEngl.AgntBkcn'security,
-    <br>* McshEngl.blockchain-security,
-    <br>* McshEngl.security-of-blockchain,
+    <br>* McshEngl.security-of-blockchain!⇒BkcnconSecurity,
+    <br>* McshEngl.BkcnconSecurity!=security-of-blockchain,
+    <br>* McshEngl.AgntBkcn'security!⇒BkcnconSecurity,
+    <br>* McshEngl.blockchain-security!⇒BkcnconSecurity,
     <a class="clsHide" href="#idDbcscrtnam"></a></p>
+
+  <section id="idDbcscrtgstr">
+  <h4 id="idDbcscrtgstrH4">GENERIC-SPECIFIC-TREE of BkcnconSecurity
+    </h4>
+  <p id="idDbcscrtgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idDbcscrtgstrdsn"></a></p>
+  <p id="idDbcscrtgstrnam">name::
+    <br>* McshEngl.BkcnconSecurity'generic-specific-tree,
+    <br>* McshEngl.BkcnconSecurity'specific-generic-tree,
+    <a class="clsHide" href="#idDbcscrtgstrnam"></a></p>
+  <p id="idDbcscrtgntr">generic-tree::
+    <br>* McshEngl.BkcnconSecurity_Gntr,
+    <br>===
+    <br>* AgntevalConSecurity_Gntr,
+    <br>* blockchain-con_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idDbcscrtgntr"></a></p>
+  <p id="idDbcscrtsptr">specific-tree::
+    <br>* McshEngl.BkcnconSecurity.specific,
+    <br>* McshEngl.BkcnconSecurity_Sptr,
+    <br>===
+    <a class="clsHide" href="#idDbcscrtsptr"></a></p>
+  </section>
 
   <section id="idDbcscrtcsa">
   <h4 id="idDbcscrtcsaH4">security'consensus-algorithm (<a class="clsPreview" href="#idDbccsa">link</a>)
@@ -5866,17 +5983,17 @@
     <br>[<a class="clsPreview" href="../dirHmn/McshHmn000003.last.html#idOverview">HumnSngu</a>.2017-03-31]
     <a class="clsHide" href="#idDbcEvudsn"></a></p>
   <p id="idDbcEvunam">name::
-    <br>* McshEngl.Exvu--Bcn-net!⇒BcnnetEvu,
-    <br>* McshEngl.BcnnetEvu!=Exvu--Bcn-net,
-    <br>* McshEngl.Bcn-netEvu!⇒BcnnetEvu, {2019-03-16}
-    <br>* McshEngl.asset-Bcn-net!⇒BcnnetEvu,
-    <br>* McshEngl.AgntBkcn.asset-application!⇒BcnnetEvu,
-    <br>* McshEngl.AgntBkcn.exchange-value-unit!⇒BcnnetEvu,
-    <br>* McshEngl.AgntBkcn.Exvu!⇒BcnnetEvu,
-    <br>* McshEngl.AgntBkcn.value-transfer!⇒BcnnetEvu,
-    <br>* McshEngl.cryptoasset--blockchain-network!⇒BcnnetEvu,
-    <br>* McshEngl.exchange-value-unit--blockchain-net!⇒BcnnetEvu, {2017-10-08}
-    <br>* McshEngl.exchange-value-token--blockchain-net!⇒BcnnetEvu, {2017-04-14}
+    <br>* McshEngl.asset-of--blockchain-net!⇒Bkcnasset,
+    <br>* McshEngl.Bkcnasset!=asset-of--blockchain-net,
+    <br>* McshEngl.Exvu--Bcn-net!⇒Bkcnasset,
+    <br>* McshEngl.Bcn-netEvu!⇒Bkcnasset, {2019-03-16}
+    <br>* McshEngl.AgntBkcn.asset-application!⇒Bkcnasset,
+    <br>* McshEngl.AgntBkcn.exchange-value-unit!⇒Bkcnasset,
+    <br>* McshEngl.AgntBkcn.Exvu!⇒Bkcnasset,
+    <br>* McshEngl.AgntBkcn.value-transfer!⇒Bkcnasset,
+    <br>* McshEngl.cryptoasset--blockchain-network!⇒Bkcnasset,
+    <br>* McshEngl.exchange-value-unit--blockchain-net!⇒Bkcnasset, {2017-10-08}
+    <br>* McshEngl.exchange-value-token--blockchain-net!⇒Bkcnasset, {2017-04-14}
     <br>===
     <br>* Net.blockchain.currency,
     <br>* Net.currency.blockcain,
@@ -5897,14 +6014,14 @@
     <a class="clsHide" href="#idDbcEvunam"></a></p>
 
   <section id="idDbcEvugstr">
-  <h4 id="idDbcEvugstrH4">GENERIC-SPECIFIC-TREE of BcnnetEvu
+  <h4 id="idDbcEvugstrH4">GENERIC-SPECIFIC-TREE of Bkcnasset
     </h4>
   <p id="idDbcEvugstrdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idDbcEvugstrdsn"></a></p>
   <p id="idDbcEvugstrnam">name::
-    <br>* McshEngl.BcnnetEvu'generic-specific-tree,
-    <br>* McshEngl.BcnnetEvu'specific-generic-tree,
+    <br>* McshEngl.Bkcnasset'generic-specific-tree,
+    <br>* McshEngl.Bkcnasset'specific-generic-tree,
     <a class="clsHide" href="#idDbcEvugstrnam"></a></p>
   <p id="idDbcEvugntr">generic-tree::
     <br>* McshEngl.BcnnetEvu_Gntr,
@@ -5914,14 +6031,14 @@
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idDbcEvugntr"></a></p>
   <p id="idDbcEvusptr">specific-tree::
-    <br>* McshEngl.BcnnetEvu.specific,
+    <br>* McshEngl.Bkcnasset.specific,
     <br>* McshEngl.BcnnetEvu_Sptr,
     <br>===
     <a class="clsHide" href="#idDbcEvusptr"></a></p>
   </section>
 
   <section id="idDbcMoe">
-  <h4 id="idDbcMoeH4">BcnnetEvu.Dcurrency
+  <h4 id="idDbcMoeH4">Bkcnasset.Dcurrency
     </h4>
   <p id="idDbcMoedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5943,12 +6060,19 @@
     <br>* <a class="clsPreview" href="#idWavesnet">Waves-WAVES-network {2016}</a>,
     <a class="clsHide" href="#idDbcMoedsn"></a></p>
   <p id="idDbcMoenam">name::
-    <br>* McshEngl.BcnnetEvu.cryptocurrency,
-    <br>* McshEngl.AgntBkcn.cryptocurrency,
-    <br>* McshEngl.AgntBkcn.medium-of-exchange,
-    <br>* McshEngl.cryptocurrency--blockchain-network,
-    <br>* McshEngl.medium-of-exchange--blockchain-network,
+    <br>* McshEngl.cryptocurrency--blockchain-asset!⇒BkcnasstExvu,
+    <br>* McshEngl.BkcnasstExvu!=cryptocurrency--blockchain-asset,
+    <br>* McshEngl.Bkcnasset.cryptocurrency!⇒BkcnasstExvu,
+    <br>* McshEngl.AgntBkcn.cryptocurrency!⇒BkcnasstExvu,
+    <br>* McshEngl.AgntBkcn.medium-of-exchange!⇒BkcnasstExvu,
+    <br>* McshEngl.medium-of-exchange--blockchain-network!⇒BkcnasstExvu,
     <a class="clsHide" href="#idDbcMoenam"></a></p>
+  <p id="idDbcMoegntr">generic-tree::
+    <br>* McshEngl.BkcnasstExvu_Gntr,
+    <br>===
+    <br>* netAlgoCurrency_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idDbcMoegntr"></a></p>
   </section>
   </section>
   </section>
@@ -6002,10 +6126,11 @@
     <br>[<a href="https://cosmos.network/">https://cosmos.network/</a>]
     <a class="clsHide" href="#idCmsnetdsn"></a></p>
   <p id="idCmsnetnam">name::
-    <br>* McshEngl.Cosmos_net,
-    <br>* McshEngl.Cosmos-net!⇒Cosmos_net,
-    <br>* McshEngl.AgntBkcn.Cosmos-network!⇒Cosmos_net,
-    <br>* McshEngl.Cosmos-network!⇒Cosmos_net,
+    <br>* McshEngl.Cosmos--blockchain-net!⇒AgntCsms,
+    <br>* McshEngl.AgntCsms!=Cosmos--blockchain-net,
+    <br>* McshEngl.Cosmos-net!⇒AgntCsms,
+    <br>* McshEngl.AgntBkcn.Cosmos-network!⇒AgntCsms,
+    <br>* McshEngl.Cosmos-network!⇒AgntCsms,
     <a class="clsHide" href="#idCmsnetnam"></a></p>
   <p id="idCmsnetP1">description-1::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6018,7 +6143,7 @@
     <a class="clsHide" href="#idCmsnetP1"></a></p>
 
   <section id="idCmsnetirsc">
-  <h2 id="idCmsnetirscH2">info-resource of Cosmos_net
+  <h2 id="idCmsnetirscH2">info-resource of AgntCsms
     </h2>
   <p id="idCmsnetirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6035,7 +6160,7 @@
   <p id="idCmsnetirscnam">name::
     <br>* McshEngl.info-resource-of-Cosmos-net,
     <br>* McshEngl.Cosmos-net'info-resource,
-    <br>* McshEngl.Cosmos_net'info-resource,
+    <br>* McshEngl.AgntCsms'info-resource,
     <a class="clsHide" href="#idCmsnetirscnam"></a></p>
   </section>
   </section>
@@ -6050,56 +6175,57 @@
     <br>[<a href="https://en.wikipedia.org/wiki/AEternity">https://en.wikipedia.org/wiki/AEternity</a>] {2017-05-19},
     <a class="clsHide" href="#idAenetdsn"></a></p>
   <p id="idAenetnam">name::
-    <br>* McshEngl.Dae_net, {2019-05-13}
-    <br>* McshEngl.Dae-net!⇒Dae_net,
-    <br>* McshEngl.AE-net!⇒Dae_net,
-    <br>* McshEngl.Aeternity-net!⇒Dae_net,
+    <br>* McshEngl.Aeternity--blockchain-net!⇒AgntAete,
+    <br>* McshEngl.AgntAete!=Aeternity--blockchain-net,
+    <br>* McshEngl.Dae_net!⇒AgntAete, {2019-05-13}
+    <br>* McshEngl.Dae-net!⇒AgntAete,
+    <br>* McshEngl.AE-net!⇒AgntAete,
     <a class="clsHide" href="#idAenetnam"></a></p>
 
   <section id="idAenetgstr">
-  <h2 id="idAenetgstrH2">GENERIC-SPECIFIC-TREE of Dae_net
+  <h2 id="idAenetgstrH2">GENERIC-SPECIFIC-TREE of AgntAete
     </h2>
   <p id="idAenetgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idAenetgstrdsn"></a></p>
   <p id="idAenetgstrnam">name::
-    <br>* McshEngl.Dae_net'generic-specific-tree,
-    <br>* McshEngl.Dae_net'specific-generic-tree,
+    <br>* McshEngl.AgntAete'generic-specific-tree,
+    <br>* McshEngl.AgntAete'specific-generic-tree,
     <a class="clsHide" href="#idAenetgstrnam"></a></p>
   <p id="idAenetgntr">generic-tree::
-    <br>* McshEngl.Dae_net_Gntr,
+    <br>* McshEngl.AgntAete_Gntr,
     <br>===
     <br>* Hybrid-pos-pow-blockchain-network!@McshTchInf000016#idHswnet,
     <br>* AgntBkcn_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idAenetgntr"></a></p>
   <p id="idAenetsptr">specific-tree::
-    <br>* McshEngl.Dae_net.specific,
-    <br>* McshEngl.Dae_net_Sptr,
+    <br>* McshEngl.AgntAete.specific,
+    <br>* McshEngl.AgntAete_Sptr,
     <br>===
     <a class="clsHide" href="#idAenetsptr"></a></p>
   </section>
 
   <section id="idAeprl">
-  <h2 id="idAeprlH2">protocol of Dae_net
+  <h2 id="idAeprlH2">protocol of AgntAete
     </h2>
   <p id="idAeprldsn">description::
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idAeprldsn"></a></p>
   <p id="idAeprlnam">name::
-    <br>* McshEngl.Dae_net'protocol,
+    <br>* McshEngl.AgntAete'protocol,
     <a class="clsHide" href="#idAeprlnam"></a></p>
 
   <section id="idAewpr">
-  <h3 id="idAewprH3">white-paper of Dae_net
+  <h3 id="idAewprH3">white-paper of AgntAete
     </h3>
   <p id="idAewprdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idAewprdsn"></a></p>
   <p id="idAewprnam">name::
     <br>* McshEngl.Dae-net'white-paper,
-    <br>* McshEngl.Dae_net'protocol'white-paper!⇒Dae-net'white-paper,
-    <br>* McshEngl.Dae_net'white-paper!⇒Dae-net'white-paper,
+    <br>* McshEngl.AgntAete'protocol'white-paper!⇒Dae-net'white-paper,
+    <br>* McshEngl.AgntAete'white-paper!⇒Dae-net'white-paper,
     <a class="clsHide" href="#idAewprnam"></a></p>
   <p id="idAewprwpa">addressWpg::
     <br>* https://github.com/aeternity/protocol,
@@ -6949,7 +7075,7 @@
   </section>
 
   <section id="idAenetgovc">
-  <h2 id="idAenetgovcH2">governance of Dae_net
+  <h2 id="idAenetgovcH2">governance of AgntAete
     </h2>
   <p id="idAenetgovcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6958,12 +7084,12 @@
     <a class="clsHide" href="#idAenetgovcdsn"></a></p>
   <p id="idAenetgovcnam">name::
     <br>* McshEngl.Dae-net'governance,
-    <br>* McshEngl.Dae_net'governance,
+    <br>* McshEngl.AgntAete'governance,
     <a class="clsHide" href="#idAenetgovcnam"></a></p>
   </section>
 
   <section id="idAenetpgm">
-  <h2 id="idAenetpgmH2">program of Dae_net
+  <h2 id="idAenetpgmH2">program of AgntAete
     </h2>
   <p id="idAenetpgmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6972,7 +7098,7 @@
     <br>* McshEngl.Dae_program, {2019-05-13}
     <br>* McshEngl.Dae-program!⇒Dae_program,
     <br>* McshEngl.Dae-net'program!⇒Dae_program,
-    <br>* McshEngl.Dae_net'program!⇒Dae_program,
+    <br>* McshEngl.AgntAete'program!⇒Dae_program,
     <a class="clsHide" href="#idAenetpgmnam"></a></p>
 
   <section id="idAenetsmct">
@@ -7019,7 +7145,7 @@
   </section>
 
   <section id="idAenetirsc">
-  <h2 id="idAenetirscH2">info-resource of Dae_net
+  <h2 id="idAenetirscH2">info-resource of AgntAete
     </h2>
   <p id="idAenetirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7033,12 +7159,12 @@
     <a class="clsHide" href="#idAenetirscdsn"></a></p>
   <p id="idAenetirscnam">name::
     <br>* McshEngl.Dae-net'info-resource,
-    <br>* McshEngl.Dae_net'info-resource,
+    <br>* McshEngl.AgntAete'info-resource,
     <a class="clsHide" href="#idAenetirscnam"></a></p>
   </section>
 
   <section id="idAenetevog">
-  <h2 id="idAenetevogH2">evoluting of Dae_net
+  <h2 id="idAenetevogH2">evoluting of AgntAete
     </h2>
   <p id="idAenetevogdsn">description::
     <br>× Mcsh-creation: {2026-10-15}
@@ -7050,7 +7176,7 @@
     <a class="clsHide" href="#idAenetevogdsn"></a></p>
   <p id="idAenetevognam">name::
     <br>* McshEngl.Dae-net'evoluting,
-    <br>* McshEngl.Dae_net'evoluting,
+    <br>* McshEngl.AgntAete'evoluting,
     <br>* McshEngl.Dae-net'ROADMAP,
     <a class="clsHide" href="#idAenetevognam"></a></p>
   </section>
@@ -7068,44 +7194,46 @@
     <br>[<a href="https://www.boscoin.io/">https://www.boscoin.io/</a>]
     <a class="clsHide" href="#idBosnetdsn"></a></p>
   <p id="idBosnetnam">name::
-    <br>* McshEngl.Bos_net,
-    <br>* McshEngl.Bos-net!⇒Bos_net,
-    <br>* McshEngl.BOScoin-network!⇒Bos_net,
+    <br>* McshEngl.BOScoin--blockchain-net!⇒AgntBosc,
+    <br>* McshEngl.AgntBosc!=BOScoin--blockchain-net,
+    <br>* McshEngl.BOScoin-network!⇒AgntBosc,
+    <br>* McshEngl.Bos_net!⇒AgntBosc,
+    <br>* McshEngl.Bos-net!⇒AgntBosc,
     <a class="clsHide" href="#idBosnetnam"></a></p>
 
   <section id="idBosnetgstr">
-  <h2 id="idBosnetgstrH2">GENERIC-SPECIFIC-TREE of Bos_net
+  <h2 id="idBosnetgstrH2">GENERIC-SPECIFIC-TREE of AgntBosc
     </h2>
   <p id="idBosnetgstrdsn">description::
     <br>× Mcsh-creation: {2017-03-22}
     <a class="clsHide" href="#idBosnetgstrdsn"></a></p>
   <p id="idBosnetgstrnam">name::
-    <br>* McshEngl.Bos_net'generic-specific-tree,
-    <br>* McshEngl.Bos_net'specific-generic-tree,
+    <br>* McshEngl.AgntBosc'generic-specific-tree,
+    <br>* McshEngl.AgntBosc'specific-generic-tree,
     <a class="clsHide" href="#idBosnetgstrnam"></a></p>
   <p id="idBosnetgntr">generic-tree::
-    <br>* McshEngl.Bos_net_Gntr,
+    <br>* McshEngl.AgntBosc_Gntr,
     <br>===
     <br>* Blockchain-network-with-builtin-decentralized-governance!@McshTchInf000016#idDbcBig,
     <br>* BkcnserviceSmct_Gntr,
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idBosnetgntr"></a></p>
   <p id="idBosnetsptr">specific-tree::
-    <br>* McshEngl.Bos_net.specific,
-    <br>* McshEngl.Bos_net_Sptr,
+    <br>* McshEngl.AgntBosc.specific,
+    <br>* McshEngl.AgntBosc_Sptr,
     <br>===
     <a class="clsHide" href="#idBosnetsptr"></a></p>
   </section>
 
   <section id="idBosprl">
-  <h2 id="idBosprlH2">protocol of Bos_net
+  <h2 id="idBosprlH2">protocol of AgntBosc
     </h2>
   <p id="idBosprldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idBosprldsn"></a></p>
   <p id="idBosprlnam">name::
     <br>* McshEngl.Bos-net'protocol,
-    <br>* McshEngl.Bos_net'protocol,
+    <br>* McshEngl.AgntBosc'protocol,
     <a class="clsHide" href="#idBosprlnam"></a></p>
 
   <section id="idBoswpr">
@@ -7883,7 +8011,7 @@
   </section>
 
   <section id="idBosgovc">
-  <h2 id="idBosgovcH2">governance of Bos_net
+  <h2 id="idBosgovcH2">governance of AgntBosc
     </h2>
   <p id="idBosgovcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7892,12 +8020,12 @@
     <a class="clsHide" href="#idBosgovcdsn"></a></p>
   <p id="idBosgovcnam">name::
     <br>* McshEngl.Bos-net'governance,
-    <br>* McshEngl.Bos_net'governance,
+    <br>* McshEngl.AgntBosc'governance,
     <a class="clsHide" href="#idBosgovcnam"></a></p>
   </section>
 
   <section id="idBosters">
-  <h2 id="idBostersH2">Trust-Engineering-Research-Center of Bos_net
+  <h2 id="idBostersH2">Trust-Engineering-Research-Center of AgntBosc
     </h2>
   <p id="idBostersdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7906,13 +8034,13 @@
     <a class="clsHide" href="#idBostersdsn"></a></p>
   <p id="idBostersnam">name::
     <br>* McshEngl.Bos-net'Trust-Engineering-Research-Center,
-    <br>* McshEngl.Bos_net'Trust-Engineering-Research-Center,
+    <br>* McshEngl.AgntBosc'Trust-Engineering-Research-Center,
     <br>* McshEngl.Trust-Engineering-Research-Center--of-Bos-net,
     <a class="clsHide" href="#idBostersnam"></a></p>
   </section>
 
   <section id="idBosirsc">
-  <h2 id="idBosirscH2">info-resource of Bos_net
+  <h2 id="idBosirscH2">info-resource of AgntBosc
     </h2>
   <p id="idBosirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7925,12 +8053,12 @@
     <a class="clsHide" href="#idBosirscdsn"></a></p>
   <p id="idBosirscnam">name::
     <br>* McshEngl.Bos-net'info-resource,
-    <br>* McshEngl.Bos_net'info-resource,
+    <br>* McshEngl.AgntBosc'info-resource,
     <a class="clsHide" href="#idBosirscnam"></a></p>
   </section>
 
   <section id="idBosevog">
-  <h2 id="idBosevogH2">evoluting of Bos_net
+  <h2 id="idBosevogH2">evoluting of AgntBosc
     </h2>
   <p id="idBosevogdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7938,7 +8066,7 @@
   <p id="idBosevognam">name::
     <br>* McshEngl.evoluting-of-Bos-net,
     <br>* McshEngl.Bos-net'evoluting,
-    <br>* McshEngl.Bos_net'evoluting,
+    <br>* McshEngl.AgntBosc'evoluting,
     <a class="clsHide" href="#idBosevognam"></a></p>
   <p id="idBosevog2017051020">{2017-11-20},
     <br>=== IMPORTANT ANNOUNCEMENT:
@@ -7977,7 +8105,7 @@
     <a class="clsHide" href="#idBosrdmpdsn"></a></p>
   <p id="idBosrdmpnam">name::
     <br>* McshEngl.bosnet.roadmap,
-    <br>* McshEngl.Bos_net.ROADMAP!⇒bosnet.roadmap,
+    <br>* McshEngl.AgntBosc.ROADMAP!⇒bosnet.roadmap,
     <a class="clsHide" href="#idBosrdmpnam"></a></p>
   </section>
   </section>
@@ -8076,15 +8204,23 @@
     <br>[<a href="http://www.rsk.co/#about-rsk">http://www.rsk.co/#about-rsk</a>]
     <a class="clsHide" href="#idRsknetdsn"></a></p>
   <p id="idRsknetnam">name::
-    <br>* McshEngl.AgntBkcn.Rootstock,
-    <br>* McshEngl.Rootstock-net,
-    <br>* McshEngl.Rsk-net,
+    <br>* McshEngl.Rootstock!⇒AgntRtsk,
+    <br>* McshEngl.AgntRtsk!=Rootstock,
+    <br>* McshEngl.AgntBkcn.Rootstock!⇒AgntRtsk,
+    <br>* McshEngl.Rootstock-net!⇒AgntRtsk,
+    <br>* McshEngl.Rsk-net!⇒AgntRtsk,
     <a class="clsHide" href="#idRsknetnam"></a></p>
   <p id="idRsknetwpa">AddressWgp::
     <br>* <a href="http://www.rsk.co/">http://www.rsk.co/</a>,
     <br>*===
     <br>* {2017-05-15} Bitcoin Scalability Issue Takes New Turn As RSK Ready to Release Ginger: <a href="https://cointelegraph.com/news/bitcoin-scalability-issue-takes-new-turn-as-rsk-ready-to-release-ginger">https://cointelegraph.com/</a>,
     <a class="clsHide" href="#idRsknetwpa"></a></p>
+  <p id="idRsknetgntr">generic-tree::
+    <br>* McshEngl.AgntRtsk_Gntr,
+    <br>===
+    <br>* BkcnserviceSmct_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idRsknetgntr"></a></p>
   </section>
 
   <section id="idQtmnet">
@@ -8109,12 +8245,20 @@
     <br>[<a href="https://qtum.org/uploads/files/cf6d69348ca50dd985b60425ccf282f3.pdf">https://qtum.org/uploads/files/cf6d69348ca50dd985b60425ccf282f3.pdf</a>]
     <a class="clsHide" href="#idQtmnetdsn"></a></p>
   <p id="idQtmnetnam">name::
-    <br>* McshEngl.AgntBkcn.Qtum,
-    <br>* McshEngl.Qtum-net,
+    <br>* McshEngl.Qtum--blockchain-net!⇒AgntQtum,
+    <br>* McshEngl.AgntQtum!=Qtum--blockchain-net,
+    <br>* McshEngl.AgntBkcn.Qtum!⇒AgntQtum,
+    <br>* McshEngl.Qtum-net!⇒AgntQtum,
     <a class="clsHide" href="#idQtmnetnam"></a></p>
   <p id="idQtmnetwpa">addressWpg::
     <br>* <a href="https://qtum.org/en/">https://qtum.org/</a>,
     <a class="clsHide" href="#idQtmnetwpa"></a></p>
+  <p id="idQtmnetgntr">generic-tree::
+    <br>* McshEngl.AgntQtum_Gntr,
+    <br>===
+    <br>* BkcnserviceSmct_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idQtmnetgntr"></a></p>
   </section>
 
   <section id="idZecnet">
@@ -8238,12 +8382,37 @@
     <br>[<a href="https://support.binance.com/hc/en-us/articles/115002907932-Lisk-LSK-">https://support.binance.com/hc/en-us/articles/115002907932-Lisk-LSK-</a>]
     <a class="clsHide" href="#idLsknetdsn"></a></p>
   <p id="idLsknetnam">name::
-    <br>* McshEngl.Lisk-network,
-    <br>* McshEngl.Lsk-net,
-    <br>* McshEngl.Lsk-net-(Lisk--blockchain-network),
-    <br>* McshEngl.netLisk,
-    <br>* McshEngl.netLsk,
+    <br>* McshEngl.Lisk--blockchain-net!⇒AgntLisk,
+    <br>* McshEngl.AgntLisk!=Lisk--blockchain-net,
+    <br>* McshEngl.Lisk-network!⇒AgntLisk,
+    <br>* McshEngl.Lsk-net!⇒AgntLisk,
+    <br>* McshEngl.Lsk-net-(Lisk--blockchain-network)!⇒AgntLisk,
+    <br>* McshEngl.netLisk!⇒AgntLisk,
+    <br>* McshEngl.netLsk!⇒AgntLisk,
     <a class="clsHide" href="#idLsknetnam"></a></p>
+
+  <section id="idLsknetgstr">
+  <h2 id="idLsknetgstrH2">GENERIC-SPECIFIC-TREE of AgntLisk
+    </h2>
+  <p id="idLsknetgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idLsknetgstrdsn"></a></p>
+  <p id="idLsknetgstrnam">name::
+    <br>* McshEngl.AgntLisk'generic-specific-tree,
+    <br>* McshEngl.AgntLisk'specific-generic-tree,
+    <a class="clsHide" href="#idLsknetgstrnam"></a></p>
+  <p id="idLsknetgntr">generic-tree::
+    <br>* McshEngl.AgntLisk_Gntr,
+    <br>===
+    <br>* BkcnserviceSmct_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLsknetgntr"></a></p>
+  <p id="idLsknetsptr">specific-tree::
+    <br>* McshEngl.AgntLisk.specific,
+    <br>* McshEngl.AgntLisk_Sptr,
+    <br>===
+    <a class="clsHide" href="#idLsknetsptr"></a></p>
+  </section>
 
   <section id="idLskprl">
   <h2 id="idLskprlH2">ĐLisk'Protocol
@@ -8421,21 +8590,39 @@
     <br>[<a href="https://github.com/LiskHQ/lisk-wiki/wiki/Glossary">https://github.com/LiskHQ/lisk-wiki/wiki/Glossary</a>]
     <a class="clsHide" href="#idLskbapdsn"></a></p>
   <p id="idLskbapnam">name::
-    <br>* McshEngl.Dcc-app.Lisk,
-    <br>* McshEngl.Lisk'Bapp,
-    <br>* McshEngl.Lisk'Blockchain-App,
-    <br>* McshEngl.Lisk'Dapp,
-    <br>* McshEngl.Đapp.Lisk,
-    <br>* McshEngl.blockchain-Dapp.Lisk,
+    <br>* McshEngl.Liskdapp,
+    <br>* McshEngl.blockchain-Dapp.Lisk!⇒Liskdapp,
+    <br>* McshEngl.Dcc-app.Lisk!⇒Liskdapp,
+    <br>* McshEngl.Lisk'Bapp!⇒Liskdapp,
+    <br>* McshEngl.Lisk'Blockchain-App!⇒Liskdapp,
+    <br>* McshEngl.Lisk'Dapp!⇒Liskdapp,
+    <br>* McshEngl.Đapp.Lisk!⇒Liskdapp,
     <a class="clsHide" href="#idLskbapnam"></a></p>
+  <p id="idLskbapgntr">generic-tree::
+    <br>* McshEngl.Liskdapp_Gntr,
+    <br>===
+    <br>* DeApp_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLskbapgntr"></a></p>
   </section>
 
   <section id="idLskpbm">
   <h2 id="idLskpbmH2">ĐLisk'Problem
     </h2>
-  <p id="idLskpbmwpa">addressWpg::
+  <p id="idLskpbmdsn">description::
+    <br>× Mcsh-creation: {2026-10-22}
     <br>* {2017-05-09} Beddows: <a href="https://blog.lisk.io/what-happened-with-block-2731040-and-how-we-fixed-it-1c397f692d36">https://blog.lisk.io/what-happened-with-block-2731040-and-how-we-fixed-it-1c397f692d36</a>,
-    <a class="clsHide" href="#idLskpbmwpa"></a></p>
+    <a class="clsHide" href="#idLskpbmdsn"></a></p>
+  <p id="idLskpbmnam">name::
+    <br>* McshEngl.ĐLisk'Problem!⇒Liskcon,
+    <br>* McshEngl.Liskcon!=ĐLisk'Problem,
+    <a class="clsHide" href="#idLskpbmnam"></a></p>
+  <p id="idLskpbmgntr">generic-tree::
+    <br>* McshEngl.Liskcon_Gntr,
+    <br>===
+    <br>* blockchain-con_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLskpbmgntr"></a></p>
   </section>
 
   <section id="idLskhmn">
@@ -8508,10 +8695,12 @@
     <br>[<a href="https://wavesplatform.com/whitepaper_v0.pdf">https://wavesplatform.com/whitepaper_v0.pdf</a>]
     <a class="clsHide" href="#idWavesnetdsn"></a></p>
   <p id="idWavesnetnam">name::
-    <br>* McshEngl.AgntBkcn.Waves,
-    <br>* McshEngl.netWaves,
-    <br>* McshEngl.Waves-network,
-    <br>* McshEngl.Waves-net,
+    <br>* McshEngl.Waves--blockchain-net!⇒AgntWavs,
+    <br>* McshEngl.AgntWavs!=Waves--blockchain-net,
+    <br>* McshEngl.AgntBkcn.Waves!⇒AgntWavs,
+    <br>* McshEngl.netWaves!⇒AgntWavs,
+    <br>* McshEngl.Waves-network!⇒AgntWavs,
+    <br>* McshEngl.Waves-net!⇒AgntWavs,
     <a class="clsHide" href="#idWavesnetnam"></a></p>
 
   <section id="idWavesprl">
@@ -8932,18 +9121,21 @@
     <br>[<a href="https://docs.decred.org/">https://docs.decred.org</a>/]
     <a class="clsHide" href="#idDcrnetdsn"></a></p>
   <p id="idDcrnetnam">name::
-    <br>* McshEngl.Decred-network!⇒Dcrnet,
-    <br>* McshEngl.Dcrnet!=Decred-network,
-    <br>* McshEngl.AgntBkcn.Decred!⇒Dcrnet,
-    <br>* McshEngl.Dcrnet!⇒Dcrnet,
-    <br>* McshEngl.netDcr!⇒Dcrnet,
-    <br>* McshEngl.netDecred!⇒Dcrnet,
+    <br>* McshEngl.Decred--blockchain-net!⇒AgntDcrd,
+    <br>* McshEngl.AgntDcrd!=Decred--blockchain-net,
+    <br>* McshEngl.Dcrd--blockchain-net!⇒AgntDcrd,
+    <br>* McshEngl.Decred-network!⇒AgntDcrd,
+    <br>* McshEngl.AgntDcrd!=Decred-network,
+    <br>* McshEngl.AgntBkcn.Decred!⇒AgntDcrd,
+    <br>* McshEngl.AgntDcrd!⇒AgntDcrd,
+    <br>* McshEngl.netDcr!⇒AgntDcrd,
+    <br>* McshEngl.netDecred!⇒AgntDcrd,
     <br>===
     <br>* DEcentralized-CREDit,
     <a class="clsHide" href="#idDcrnetnam"></a></p>
 
   <section id="idDcrprl">
-  <h2 id="idDcrprlH2">Dcrnet'Protocol
+  <h2 id="idDcrprlH2">AgntDcrd'Protocol
     </h2>
 
   <section id="idDcrcttn">
@@ -9041,14 +9233,14 @@
   </section>
 
   <section id="idDcrnod">
-  <h2 id="idDcrnodH2">Dcrnet'node
+  <h2 id="idDcrnodH2">AgntDcrd'node
     </h2>
   <p id="idDcrnoddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDcrnoddsn"></a></p>
   <p id="idDcrnodnam">name::
     <br>* McshEngl.Dcrdnode,
-    <br>* McshEngl.Dcrnet'computer-in-the-Decred-network!⇒Dcrdnode,
+    <br>* McshEngl.AgntDcrd'computer-in-the-Decred-network!⇒Dcrdnode,
     <a class="clsHide" href="#idDcrnodnam"></a></p>
 
   <section id="idDcrnodgstr">
@@ -9096,12 +9288,12 @@
     <a class="clsHide" href="#idDcrnodMnrnam"></a></p>
 
   <section id="idDcrmnng">
-  <h4 id="idDcrmnngH4">Dcrnet'Mining
+  <h4 id="idDcrmnngH4">AgntDcrd'Mining
     </h4>
   </section>
 
   <section id="idDcrmngPol">
-  <h4 id="idDcrmngPolH4">Dcrnet'mining.POOL
+  <h4 id="idDcrmngPolH4">AgntDcrd'mining.POOL
     </h4>
   <p id="idDcrmngPolwpa">addressWpg::
     <br>* <a href="https://docs.decred.org/mining/proof-of-work/solo-mining/cgminer/windows/">https://docs.decred.org/mining/proof-of-work/solo-mining/cgminer/windows</a>/
@@ -9135,7 +9327,7 @@
   </section>
 
   <section id="idDcrmngsol">
-  <h4 id="idDcrmngSolH4">Dcrnet'mining.SOLO
+  <h4 id="idDcrmngSolH4">AgntDcrd'mining.SOLO
     </h4>
   <p id="idDcrmngSolwpa">addressWpg::
     <br>* <a href="https://docs.decred.org/mining/proof-of-work/solo-mining/cgminer/windows/">https://docs.decred.org/mining/proof-of-work/solo-mining/cgminer/windows</a>/
@@ -9171,7 +9363,7 @@
   </section>
 
   <section id="idDcrbcn">
-  <h2 id="idDcrbcnH2">Dcrnet'Blockchain (dcrbcn)
+  <h2 id="idDcrbcnH2">AgntDcrd'Blockchain (dcrbcn)
     </h2>
 
   <section id="idDcrblk">
@@ -9354,9 +9546,9 @@
     <br>[<a href="https://docs.decred.org/">https://docs.decred.org/</a>]
     <a class="clsHide" href="#idDcrcsadsn"></a></p>
   <p id="idDcrcsanam">name::
-    <br>* McshEngl.Dcrnet'consensus-algorithm,
-    <br>* McshEngl.Dcrnet'block-verification,
-    <br>* McshEngl.Dcrnet'transaction-verification,
+    <br>* McshEngl.AgntDcrd'consensus-algorithm,
+    <br>* McshEngl.AgntDcrd'block-verification,
+    <br>* McshEngl.AgntDcrd'transaction-verification,
     <a class="clsHide" href="#idDcrcsanam"></a></p>
   <p id="idDcrcsaP1">Overview
     <br>Decred has two methods of transaction verification proof-of-work (PoW) and proof-of-stake (PoS).
@@ -9418,14 +9610,14 @@
   <p id="idDcrhhrnam">name::
     <br>* McshEngl.Decreed-blockchain-hashing-power,
     <br>* McshEngl.Decreed-blockchain-hashing-rate,
-    <br>* McshEngl.Dcrnet'hash-rate,
-    <br>* McshEngl.Dcrnet'hashing-power,
+    <br>* McshEngl.AgntDcrd'hash-rate,
+    <br>* McshEngl.AgntDcrd'hashing-power,
     <a class="clsHide" href="#idDcrhhrnam"></a></p>
   </section>
   </section>
 
   <section id="idDcrevuC">
-  <h2 id="idDcrevuCH2">Dcrnet'exchange-value-unit.Consensus (DCRcevu)
+  <h2 id="idDcrevuCH2">AgntDcrd'exchange-value-unit.Consensus (DCRcevu)
     </h2>
   <p id="idDcrevuCdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9440,7 +9632,7 @@
   </section>
 
   <section id="idDcrgov">
-  <h2 id="idDcrgovH2">Dcrnet'Governance-system (dcrgov)
+  <h2 id="idDcrgovH2">AgntDcrd'Governance-system (dcrgov)
     </h2>
   <p id="idDcrgovdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9452,7 +9644,7 @@
     <a class="clsHide" href="#idDcrgovdsn"></a></p>
   <p id="idDcrgovnam">name::
     <br>* McshEngl.Dcrgov,
-    <br>* McshEngl.Dcrnet'governance-system,
+    <br>* McshEngl.AgntDcrd'governance-system,
     <br>* McshEngl.Decred-governance-system,
     <a class="clsHide" href="#idDcrgovnam"></a></p>
 
@@ -9489,18 +9681,18 @@
   </section>
 
   <section id="idDcrpgm">
-  <h2 id="idDcrpgmH2">Dcrnet'rogram
+  <h2 id="idDcrpgmH2">AgntDcrd'rogram
     </h2>
   <p id="idDcrpgmdsn">description::
     <br>× Mcsh-creation: {2026-10-12}
     <a class="clsHide" href="#idDcrpgmdsn"></a></p>
   <p id="idDcrpgmnam">name::
-    <br>* McshEngl.Dcrnet'program!⇒Dcrpgm,
-    <br>* McshEngl.Dcrpgm!=Dcrnet'program,
+    <br>* McshEngl.AgntDcrd'program!⇒Dcrpgm,
+    <br>* McshEngl.Dcrpgm!=AgntDcrd'program,
     <a class="clsHide" href="#idDcrpgmnam"></a></p>
 
   <section id="idDcrpgmdev">
-  <h3 id="idDcrpgmdevH3">Dcrpgm'Dcrnet-development
+  <h3 id="idDcrpgmdevH3">Dcrpgm'AgntDcrd-development
     </h3>
   <p id="idDcrpgmdevdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9510,8 +9702,8 @@
     <br>[<a href="https://wiki.decred.org/Introduction">https://wiki.decred.org/Introduction</a>]
     <a class="clsHide" href="#idDcrpgmdevdsn"></a></p>
   <p id="idDcrpgmdevnam">name::
-    <br>* McshEngl.Dcrnet'development,
-    <br>* McshEngl.Dcrpgm'Dcrnet-development,
+    <br>* McshEngl.AgntDcrd'development,
+    <br>* McshEngl.Dcrpgm'AgntDcrd-development,
     <a class="clsHide" href="#idDcrpgmdevnam"></a></p>
   </section>
 
@@ -10025,7 +10217,7 @@
   </section>
 
   <section id="idDcrwlt">
-  <h2 id="idDcrwltH2">Dcrnet'Wallet (dcrwlt)
+  <h2 id="idDcrwltH2">AgntDcrd'Wallet (dcrwlt)
     </h2>
   <p id="idDcrwltdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -10239,8 +10431,8 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDcrwltWebdsn"></a></p>
   <p id="idDcrwltWebnam">name::
-    <br>* McshEngl.Dcrnet'browser-wallet,
-    <br>* McshEngl.Dcrwallet.WEB!⇒Dcrnet'browser-wallet,
+    <br>* McshEngl.AgntDcrd'browser-wallet,
+    <br>* McshEngl.Dcrwallet.WEB!⇒AgntDcrd'browser-wallet,
     <a class="clsHide" href="#idDcrwltWebnam"></a></p>
   <p id="idDcrwltWebP1">FAQ::
     <br>1. How secure is the web client?
@@ -10257,7 +10449,7 @@
   </section>
 
   <section id="idDcrscrt">
-  <h2 id="idDcrscrtH2">Dcrnet'Security
+  <h2 id="idDcrscrtH2">AgntDcrd'Security
     </h2>
   <p id="idDcrscrtP1">FAQ.4. What are the security implications of using the same RPC server authentication passwords with dcrd and dcrwallet?
     <br>There is a lot less you can do with access to dcrd than you can to dcrwallet. The key point is that RPC access to dcrwallet, when the wallet is unlocked, can be used to spend coins.
@@ -10270,7 +10462,7 @@
   </section>
 
   <section id="idDcrrsc">
-  <h2 id="idDcrrscH2">Dcrnet'Resource
+  <h2 id="idDcrrscH2">AgntDcrd'Resource
     </h2>
   <p id="idDcrirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -10287,14 +10479,14 @@
   </section>
 
   <section id="idDcrnetgstr">
-  <h2 id="idDcrnetgstrH2">GENERIC-SPECIFIC-TREE of Dcrnet
+  <h2 id="idDcrnetgstrH2">GENERIC-SPECIFIC-TREE of AgntDcrd
     </h2>
   <p id="idDcrnetgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDcrnetgstrdsn"></a></p>
   <p id="idDcrnetgstrnam">name::
-    <br>* McshEngl.Dcrnet'generic-specific-tree,
-    <br>* McshEngl.Dcrnet'specific-generic-tree,
+    <br>* McshEngl.AgntDcrd'generic-specific-tree,
+    <br>* McshEngl.AgntDcrd'specific-generic-tree,
     <a class="clsHide" href="#idDcrnetgstrnam"></a></p>
   <p id="idDcrnetgntr">generic-tree::
     <br>* McshEngl.Dcrnet_Gntr,
@@ -10306,25 +10498,25 @@
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idDcrnetgntr"></a></p>
   <p id="idDcrnetsptr">specific-tree::
-    <br>* McshEngl.Dcrnet.specific,
+    <br>* McshEngl.AgntDcrd.specific,
     <br>* McshEngl.Dcrnet_Sptr,
     <br>===
     <a class="clsHide" href="#idDcrnetsptr"></a></p>
   </section>
 
   <section id="idDcrnetMain">
-  <h2 id="idDcrnetMainH2">Dcrnet.MAIN
+  <h2 id="idDcrnetMainH2">AgntDcrd.MAIN
     </h2>
   <p id="idDcrnetMaindsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDcrnetMaindsn"></a></p>
   <p id="idDcrnetMainnam">name::
-    <br>* McshEngl.Dcrnet.mainnet,
+    <br>* McshEngl.AgntDcrd.mainnet,
     <a class="clsHide" href="#idDcrnetMainnam"></a></p>
   </section>
 
   <section id="idDcrnetTest">
-  <h2 id="idDcrnetTestH2">Dcrnet.TEST
+  <h2 id="idDcrnetTestH2">AgntDcrd.TEST
     </h2>
   <p id="idDcrnetTestdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -10333,7 +10525,7 @@
     <br>[<a href="https://docs.decred.org/faq/configuration/#3-can-i-run-mainnet-and-testnet-daemons-and-wallets-at-the-same-time-and-on-the-same-machine">https://docs.decred.org/faq/configuration/#3-can-i-run-mainnet-and-testnet-daemons-and-wallets-at-the-same-time-and-on-the-same-machine</a>]
     <a class="clsHide" href="#idDcrnetTestdsn"></a></p>
   <p id="idDcrnetTestnam">name::
-    <br>* McshEngl.Dcrnet.testnet,
+    <br>* McshEngl.AgntDcrd.testnet,
     <a class="clsHide" href="#idDcrnetTestnam"></a></p>
   </section>
   </section>
@@ -10349,11 +10541,11 @@
     <br>
     <a class="clsHide" href="#idPivxnetdsn"></a></p>
   <p id="idPivxnetnam">name::
-    <br>* McshEngl.PIVX-network!⇒AgntPivs,
-    <br>* McshEngl.AgntPivs!=PIVX-network,
-    <br>* McshEngl.Dpivxnet!⇒AgntPivs,
-    <br>* McshEngl.Private-Instant-Verified-Transaction!⇒AgntPivs,
-    <br>* McshEngl.ĐPivx-network!⇒AgntPivs,
+    <br>* McshEngl.PIVX-network!⇒AgntPivx,
+    <br>* McshEngl.AgntPivx!=PIVX-network,
+    <br>* McshEngl.Dpivxnet!⇒AgntPivx,
+    <br>* McshEngl.Private-Instant-Verified-Transaction!⇒AgntPivx,
+    <br>* McshEngl.ĐPivx-network!⇒AgntPivx,
     <a class="clsHide" href="#idPivxnetnam"></a></p>
   <p id="idPivxnetP1">description-1::
     <br>× Mcsh-creation: {2026-10-04}
@@ -10377,14 +10569,14 @@
     <a class="clsHide" href="#idPivxnetP1"></a></p>
 
   <section id="idPivxnetgstr">
-  <h2 id="idPivxnetgstrH2">GENERIC-SPECIFIC-TREE of AgntPivs
+  <h2 id="idPivxnetgstrH2">GENERIC-SPECIFIC-TREE of AgntPivx
     </h2>
   <p id="idPivxnetgstrdsn">description::
     <br>× Mcsh-creation: {2017-04-16}
     <a class="clsHide" href="#idPivxnetgstrdsn"></a></p>
   <p id="idPivxnetgstrnam">name::
-    <br>* McshEngl.AgntPivs'generic-specific-tree,
-    <br>* McshEngl.AgntPivs'specific-generic-tree,
+    <br>* McshEngl.AgntPivx'generic-specific-tree,
+    <br>* McshEngl.AgntPivx'specific-generic-tree,
     <a class="clsHide" href="#idPivxnetgstrnam"></a></p>
   <p id="idPivxnetgntr">generic-tree::
     <br>* McshEngl.AgntPivs_Gntr,
@@ -10395,7 +10587,7 @@
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idPivxnetgntr"></a></p>
   <p id="idPivxnetsptr">specific-tree::
-    <br>* McshEngl.AgntPivs.specific,
+    <br>* McshEngl.AgntPivx.specific,
     <br>* McshEngl.AgntPivs_Sptr,
     <br>===
     <a class="clsHide" href="#idPivxnetsptr"></a></p>
@@ -10480,6 +10672,7 @@
   <p id="idBtsnetnam">name::
     <br>* McshEngl.BitShares-network!⇒AgntBtsh,
     <br>* McshEngl.AgntBtsh!=BitShares-network,
+    <br>* McshEngl.Btsh--blockchain-net!⇒AgntBtsh,
     <br>* McshEngl.Btsnet!⇒AgntBtsh,
     <a class="clsHide" href="#idBtsnetnam"></a></p>
 
@@ -11333,10 +11526,17 @@
     <br>[<a href="https://coinmarketcap.com/currencies/bitshares/">https://coinmarketcap.com/currencies/bitshares/</a>] {2017-06-10},
     <a class="clsHide" href="#idBtsevuCdsn"></a></p>
   <p id="idBtsevuCnam">name::
-    <br>* McshEngl.Bitshares-token,
-    <br>* McshEngl.BTS-token,
-    <br>* McshEngl.BTS-cevu,
+    <br>* McshEngl.Bitshares-token!⇒BtshexvuC,
+    <br>* McshEngl.BtshexvuC!=Bitshares-token,
+    <br>* McshEngl.BTS-token!⇒BtshexvuC,
+    <br>* McshEngl.BTS-cevu!⇒BtshexvuC,
     <a class="clsHide" href="#idBtsevuCnam"></a></p>
+  <p id="idBtsevuCgntr">generic-tree::
+    <br>* McshEngl.BtshexvuC_Gntr,
+    <br>===
+    <br>* Bkcnasset_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idBtsevuCgntr"></a></p>
   </section>
 
   <section id="idBtsgov">
@@ -11492,11 +11692,13 @@
     <br>[<a href="http://mijin.io/en/about-mijin">http://mijin.io/en/about-mijin</a>]
     <a class="clsHide" href="#idXemnetdsn"></a></p>
   <p id="idXemnetnam">name::
-    <br>* McshEngl.AgntBkcn.NEM,
-    <br>* McshEngl.Nemnet,
-    <br>* McshEngl.netNEM,
-    <br>* McshEngl.New-Economy-Movement--blockchain-net,
-    <br>* McshEngl.XemNet,
+    <br>* McshEngl.NEM--blockchain-net!⇒AgntNemz,
+    <br>* McshEngl.AgntNemz!=NEM--blockchain-net,
+    <br>* McshEngl.AgntBkcn.NEM!⇒AgntNemz,
+    <br>* McshEngl.Nemnet!⇒AgntNemz,
+    <br>* McshEngl.netNEM!⇒AgntNemz,
+    <br>* McshEngl.New-Economy-Movement--blockchain-net!⇒AgntNemz,
+    <br>* McshEngl.XemNet!⇒AgntNemz,
     <a class="clsHide" href="#idXemnetnam"></a></p>
 
   <section id="idXemprl">
@@ -11818,7 +12020,9 @@
   <section id="idXempblm">
   <h2 id="idXempblmH2">xemnet'Problem
     </h2>
-  <p id="idXempblmP1">1- If you are syncing but an your machine says something like "NIS is synchronizing. At block 221896, est. 126 days behind. (at block 221896)" and doesn't move and sync but seems stuck, please try to delete your database and start a new chain. You can speed up this process by just downloading a new chain and inserting it manually. Here are some tutorials with step by step instructions. http://blog.nem.io/how-to-delete-your-local-copy-of-the-blockchain/7 http://blog.nem.io/how-to-import-the-database-file-provided-by-developers/4
+  <p id="idXempblmdsn">description::
+    <br>× Mcsh-creation: {2026-10-22}
+1- If you are syncing but an your machine says something like "NIS is synchronizing. At block 221896, est. 126 days behind. (at block 221896)" and doesn't move and sync but seems stuck, please try to delete your database and start a new chain. You can speed up this process by just downloading a new chain and inserting it manually. Here are some tutorials with step by step instructions. http://blog.nem.io/how-to-delete-your-local-copy-of-the-blockchain/7 http://blog.nem.io/how-to-import-the-database-file-provided-by-developers/4
     <br>2- If there is a major problem, you might have to delete all NEM software on the computer and start over from scratch installing. Here is a tutorial for that. http://blog.nem.io/how-to-remove-old-nem-software-versions/12
     <br>Generally speaking the installer is the most buggy. Most people that have a problem with the installer find that using the stand alone works. Instructions for the stand alone are here. http://blog.nem.io/nem-tutorial-list/8
     <br>If you have your private key backed up, or want to make a new wallet with a pass phrase, the Lightwallet is also very safe and easy to use. http://nem.io/install.html8
@@ -11827,8 +12031,17 @@
     <br>Go to C:\Users\yourname\nem\ncc and delete the ncc.cfg file and the accounts_cache_mainnet.json file.
     <br>4. If NIS wont start. Go to C:\Users\yourname\nem and delete the nis.lock file.
     <br>5- If you are having a problem with Java, please try to update your Java.
-    <br>[<a href="http://wiki.nem.io/index.php/Tutorial:_Common_Problems">http://wiki.nem.io/index.php/Tutorial:_Common_Problems</a>]
-    <a class="clsHide" href="#idXempblmP1"></a></p>
+    <br>[<a href="http://wiki.nem.io/index.php/Tutorial:_Common_Problems">http://wiki.nem.io/index.php/Tutorial:_Common_Problems</a>]    <a class="clsHide" href="#idXempblmdsn"></a></p>
+  <p id="idXempblmnam">name::
+    <br>* McshEngl.xemnet'problem!⇒Nemzcon,
+    <br>* McshEngl.Nemzcon!=xemnet'problem,
+    <a class="clsHide" href="#idXempblmnam"></a></p>
+  <p id="idXempblmgntr">generic-tree::
+    <br>* McshEngl.Nemzcon_Gntr,
+    <br>===
+    <br>* blockchain-con_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idXempblmgntr"></a></p>
   </section>
 
   <section id="idXemrsc">
@@ -11945,25 +12158,27 @@
     <br>[<a href="https://www.dash.org/what-is-dash/">https://www.dash.org/what-is-dash</a>/]
     <a class="clsHide" href="#idDashnetdsn"></a></p>
   <p id="idDashnetnam">name::
-    <br>* McshEngl.Ddash_net, {2019-04-11}
-    <br>* McshEngl.Ddash-net!⇒Ddash_net,
-    <br>* McshEngl.Dash-cryptocurrency-net!⇒Ddash_net,
-    <br>* McshEngl.DnetDash!⇒Ddash_net,
-    <br>* McshEngl.AgntBkcn.Dash!⇒Ddash_net,
+    <br>* McshEngl.Dash--blockhain-net!⇒AgntDash,
+    <br>* McshEngl.AgntDash!=Dash--blockhain-net,
+    <br>* McshEngl.Ddash_net!⇒AgntDash, {2019-04-11}
+    <br>* McshEngl.Ddash-net!⇒AgntDash,
+    <br>* McshEngl.Dash-cryptocurrency-net!⇒AgntDash,
+    <br>* McshEngl.DnetDash!⇒AgntDash,
+    <br>* McshEngl.AgntBkcn.Dash!⇒AgntDash,
     <br>===
     <br>Dash, stands for ‘Digital Cash’
     <br>[<a href="https://www.dash.org/binaries/evo/DashPaper-v13-v1.pdf">https://www.dash.org/binaries/evo/DashPaper-v13-v1.pdf</a>]
     <a class="clsHide" href="#idDashnetnam"></a></p>
 
   <section id="idDashnetgstr">
-  <h2 id="idDashnetgstrH2">GENERIC-SPECIFIC-TREE of Ddash_net
+  <h2 id="idDashnetgstrH2">GENERIC-SPECIFIC-TREE of AgntDash
     </h2>
   <p id="idDashnetgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDashnetgstrdsn"></a></p>
   <p id="idDashnetgstrnam">name::
-    <br>* McshEngl.Ddash_net'generic-specific-tree,
-    <br>* McshEngl.Ddash_net'specific-generic-tree,
+    <br>* McshEngl.AgntDash'generic-specific-tree,
+    <br>* McshEngl.AgntDash'specific-generic-tree,
     <a class="clsHide" href="#idDashnetgstrnam"></a></p>
   <p id="idDashnetgntr">generic-tree::
     <br>* McshEngl.Ddash_net_Gntr,
@@ -11974,24 +12189,24 @@
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idDashnetgntr"></a></p>
   <p id="idDashnetsptr">specific-tree::
-    <br>* McshEngl.Ddash_net.specific,
+    <br>* McshEngl.AgntDash.specific,
     <br>* McshEngl.Ddash_net_Sptr,
     <br>===
     <a class="clsHide" href="#idDashnetsptr"></a></p>
   </section>
 
   <section id="idDashprl">
-  <h2 id="idDashprlH2">protocol of Ddash_net
+  <h2 id="idDashprlH2">protocol of AgntDash
     </h2>
   <p id="idDashprldsn">description::
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idDashprldsn"></a></p>
   <p id="idDashprlnam">name::
-    <br>* McshEngl.Ddash_net'protocol,
+    <br>* McshEngl.AgntDash'protocol,
     <a class="clsHide" href="#idDashprlnam"></a></p>
 
   <section id="idDashwpr">
-  <h3 id="idDashwprH3">white-paper of Ddash_net
+  <h3 id="idDashwprH3">white-paper of AgntDash
     </h3>
   <p id="idDashwprdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -11999,8 +12214,8 @@
   <p id="idDashwprnam">name::
     <br>* McshEngl.Ddash-net'white-paper,
     <br>* McshEngl.white-paper--of--Ddash-net,
-    <br>* McshEngl.Ddash_net'protocol'white-paper,
-    <br>* McshEngl.Ddash_net'white-paper,
+    <br>* McshEngl.AgntDash'protocol'white-paper,
+    <br>* McshEngl.AgntDash'white-paper,
     <a class="clsHide" href="#idDashwprnam"></a></p>
   <p id="idDashwprwpa">addressWpg::
     <br>* <a href="https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf">https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf</a>,
@@ -12590,7 +12805,7 @@
   </section>
 
   <section id="idDashmnd">
-  <h2 id="idDashmndH2">masternode of Ddash_net
+  <h2 id="idDashmndH2">masternode of AgntDash
     </h2>
   <p id="idDashmnddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12601,7 +12816,7 @@
     <br>* McshEngl.Ddash_masternode,
     <br>* McshEngl.Ddash-masternode!⇒Ddash_masternode,
     <br>* McshEngl.Ddash-net'masternode!⇒Ddash_masternode,
-    <br>* McshEngl.Ddash_net'masternode!⇒Ddash_masternode,
+    <br>* McshEngl.AgntDash'masternode!⇒Ddash_masternode,
     <a class="clsHide" href="#idDashmndnam"></a></p>
   <p id="idDashmndwpa">addressWpg::
     <br>* <a href="https://www.youtube.com/watch?v=hm7IYkgIOXc">https://www.youtube.com/watch?v=hm7IYkgIOXc</a>,
@@ -12614,13 +12829,13 @@
   </section>
 
   <section id="idDashbcn">
-  <h2 id="idDashbcnH2">blockchain of Ddash_net
+  <h2 id="idDashbcnH2">blockchain of AgntDash
     </h2>
   <p id="idDashbcndsn">description::
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idDashbcndsn"></a></p>
   <p id="idDashbcnnam">name::
-    <br>* McshEngl.Ddash_net'blockchain,
+    <br>* McshEngl.AgntDash'blockchain,
     <a class="clsHide" href="#idDashbcnnam"></a></p>
 
   <section id="idDashbex">
@@ -12634,7 +12849,7 @@
   </section>
 
   <section id="idDashevuC">
-  <h2 id="idDashevuCH2">DevuDASH of Ddash_net
+  <h2 id="idDashevuCH2">DevuDASH of AgntDash
     </h2>
   <p id="idDashevuCdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12659,7 +12874,7 @@
     <br>* McshEngl.Dblockchain-asset.DASH!⇒DashevuC,
     <br>* McshEngl.Darkcoin!⇒DashevuC,
     <br>* McshEngl.DASH-evuc!⇒DashevuC,
-    <br>* McshEngl.Ddash_net'DevuDASH!⇒DashevuC,
+    <br>* McshEngl.AgntDash'DevuDASH!⇒DashevuC,
     <a class="clsHide" href="#idDashevuCnam"></a></p>
 
   <section id="idDashevuCgstr">
@@ -12707,7 +12922,7 @@
   </section>
 
   <section id="idDashdgbb">
-  <h2 id="idDashdgbbH2">governance-system of Ddash_net
+  <h2 id="idDashdgbbH2">governance-system of AgntDash
     </h2>
   <p id="idDashdgbbdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12729,7 +12944,7 @@
     <br>* McshEngl.Ddash-net'governance!⇒Ddash_govc,
     <br>* McshEngl.decentralized-governance-by-blockchain-(DGBB)!⇒Ddash_govc,
     <br>* McshEngl.DGBB-(decentralized-Governance-By-Blockchain)!⇒Ddash_govc,
-    <br>* McshEngl.Ddash_net'governance-system!⇒Ddash_govc,
+    <br>* McshEngl.AgntDash'governance-system!⇒Ddash_govc,
     <a class="clsHide" href="#idDashdgbbnam"></a></p>
   <p id="idDashdgbbP1">description-1::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12919,14 +13134,14 @@
   </section>
 
   <section id="idDashwlt">
-  <h2 id="idDashwltH2">wallet of Ddash_net
+  <h2 id="idDashwltH2">wallet of AgntDash
     </h2>
   <p id="idDashwltdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDashwltdsn"></a></p>
   <p id="idDashwltnam">name::
     <br>* McshEngl.Ddash-net'wallet,
-    <br>* McshEngl.Ddash_net'wallet,
+    <br>* McshEngl.AgntDash'wallet,
     <a class="clsHide" href="#idDashwltnam"></a></p>
   <p id="idDashwltwpa">addressWpg::
     <br>* <a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941">https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941</a>,
@@ -12963,14 +13178,14 @@
   </section>
 
   <section id="idDashstat">
-  <h2 id="idDashstatH2">statistics of Ddash_net
+  <h2 id="idDashstatH2">statistics of AgntDash
     </h2>
   <p id="idDashstatdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDashstatdsn"></a></p>
   <p id="idDashstatnam">name::
     <br>* McshEngl.Ddash-net'statistics,
-    <br>* McshEngl.Ddash_net'statistics,
+    <br>* McshEngl.AgntDash'statistics,
     <a class="clsHide" href="#idDashstatnam"></a></p>
   <p id="idDashstatwpa">addressWpg::
     <br>* <a href="https://dash-stats.firebaseapp.com/">https://dash-stats.firebaseapp.com</a>/
@@ -12978,14 +13193,14 @@
   </section>
 
   <section id="idDashhmn">
-  <h2 id="idDashhmnH2">human of Ddash_net
+  <h2 id="idDashhmnH2">human of AgntDash
     </h2>
   <p id="idDashhmndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDashhmndsn"></a></p>
   <p id="idDashhmnnam">name::
     <br>* McshEngl.Ddash-net'human,
-    <br>* McshEngl.Ddash_net'human,
+    <br>* McshEngl.AgntDash'human,
     <a class="clsHide" href="#idDashhmnnam"></a></p>
   <p id="idDashhmnwpa">addressWpg::
     <br>* <a href="https://www.dash.org/team/">https://www.dash.org/team</a>/
@@ -12993,7 +13208,7 @@
   </section>
 
   <section id="idDashnetirsc">
-  <h2 id="idDashnetirscH2">info-resource of Ddash_net
+  <h2 id="idDashnetirscH2">info-resource of AgntDash
     </h2>
   <p id="idDashnetirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -13009,18 +13224,18 @@
     <a class="clsHide" href="#idDashnetirscdsn"></a></p>
   <p id="idDashnetirscnam">name::
     <br>* McshEngl.Ddash-net'info-resource,
-    <br>* McshEngl.Ddash_net'info-resource,
+    <br>* McshEngl.AgntDash'info-resource,
     <a class="clsHide" href="#idDashnetirscnam"></a></p>
   </section>
 
   <section id="idDashdao">
-  <h2 id="idDashdaoH2">whole.DAO of Ddash_net
+  <h2 id="idDashdaoH2">whole.DAO of AgntDash
     </h2>
   <p id="idDashdaodsn">description::
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idDashdaodsn"></a></p>
   <p id="idDashdaonam">name::
-    <br>* McshEngl.Ddash_net'whole.DAO,
+    <br>* McshEngl.AgntDash'whole.DAO,
     <a class="clsHide" href="#idDashdaonam"></a></p>
   </section>
 
@@ -13033,7 +13248,7 @@
   <p id="idDashnetevognam">name::
     <br>* McshEngl.evoluting-of-Ddash-net,
     <br>* McshEngl.Ddash-net'evoluting,
-    <br>* McshEngl.Ddash_net'evoluting,
+    <br>* McshEngl.AgntDash'evoluting,
     <a class="clsHide" href="#idDashnetevognam"></a></p>
 
   <section id="idDashnetevog13">
@@ -13088,22 +13303,23 @@
     <br>[<a href="https://emercoin.com/specifications">https://emercoin.com/specifications</a>]
     <a class="clsHide" href="#idEmcnetdsn"></a></p>
   <p id="idEmcnetnam">name::
-    <br>* McshEngl.AgntBkcn.Emercoin!⇒AgntEmrcn,
-    <br>* McshEngl.AgntEmrcn!=AgntBkcn.Emercoin,
-    <br>* McshEngl.EmcNet!⇒AgntEmrcn,
-    <br>* McshEngl.Emercoin-network!⇒AgntEmrcn,
-    <br>* McshEngl.netEmc!⇒AgntEmrcn,
+    <br>* McshEngl.Emercoin--blockchain-net!⇒AgntEmcn,
+    <br>* McshEngl.AgntEmcn!=Emercoin--blockchain-net,
+    <br>* McshEngl.EmcNet!⇒AgntEmcn,
+    <br>* McshEngl.Emcn--blockchain-net!⇒AgntEmcn,
+    <br>* McshEngl.Emercoin-network!⇒AgntEmcn,
+    <br>* McshEngl.netEmc!⇒AgntEmcn,
     <a class="clsHide" href="#idEmcnetnam"></a></p>
 
   <section id="idEmcnetgstr">
-  <h2 id="idEmcnetgstrH2">GENERIC-SPECIFIC-TREE of AgntEmrcn
+  <h2 id="idEmcnetgstrH2">GENERIC-SPECIFIC-TREE of AgntEmcn
     </h2>
   <p id="idEmcnetgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idEmcnetgstrdsn"></a></p>
   <p id="idEmcnetgstrnam">name::
-    <br>* McshEngl.AgntEmrcn'generic-specific-tree,
-    <br>* McshEngl.AgntEmrcn'specific-generic-tree,
+    <br>* McshEngl.AgntEmcn'generic-specific-tree,
+    <br>* McshEngl.AgntEmcn'specific-generic-tree,
     <a class="clsHide" href="#idEmcnetgstrnam"></a></p>
   <p id="idEmcnetgntr">generic-tree::
     <br>* McshEngl.AgntEmrcn_Gntr,
@@ -13113,7 +13329,7 @@
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idEmcnetgntr"></a></p>
   <p id="idEmcnetsptr">specific-tree::
-    <br>* McshEngl.AgntEmrcn.specific,
+    <br>* McshEngl.AgntEmcn.specific,
     <br>* McshEngl.AgntEmrcn_Sptr,
     <br>===
     <a class="clsHide" href="#idEmcnetsptr"></a></p>
@@ -13214,10 +13430,13 @@
     <br>[<a href="http://nxt.org/about/what-is-nxt/">http://nxt.org/about/what-is-nxt</a>/]
     <a class="clsHide" href="#idNxtnetdsn"></a></p>
   <p id="idNxtnetnam">name::
-    <br>* McshEngl.netNxt,
-    <br>* McshEngl.Nxt-platform,
-    <br>* McshEngl.Nxt-net-(Nxt-network),
-    <br>* McshEngl.Nxt-network-(Nxt-net),
+    <br>* McshEngl.Nxt--blockchain-net!⇒AgntNxtz,
+    <br>* McshEngl.AgntNxtz!=Nxt--blockchain-net,
+    <br>* McshEngl.netNxt!⇒AgntNxtz,
+    <br>* McshEngl.Nxtz--blockchain-netAlgo!⇒AgntNxtz,
+    <br>* McshEngl.Nxt-platform!⇒AgntNxtz,
+    <br>* McshEngl.Nxt-net-(Nxt-network)!⇒AgntNxtz,
+    <br>* McshEngl.Nxt-network-(Nxt-net)!⇒AgntNxtz,
     <a class="clsHide" href="#idNxtnetnam"></a></p>
 
   <section id="idNxtbcn">
@@ -13237,7 +13456,7 @@
   </section>
 
   <section id="idNxtevu">
-  <h2 id="idNxtevuH2">Nxt-net'exchange-value-unit (nxtevu)
+  <h2 id="idNxtevuH2">Nxt-net'exchange-value-unit (Nxtzasset)
     </h2>
   <p id="idNxtevudsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -13252,11 +13471,11 @@
     <br>[<a href="https://nxt.org/what-is-nxt/monetary-system/">https://nxt.org/what-is-nxt/monetary-system/</a>]
     <a class="clsHide" href="#idNxtevudsn"></a></p>
   <p id="idNxtevunam">name::
-    <br>* McshEngl.Nxt-net'exchange-value-unit-(nxtevu),
+    <br>* McshEngl.Nxt-net'exchange-value-unit-(Nxtzasset),
     <a class="clsHide" href="#idNxtevunam"></a></p>
 
   <section id="idArdrevu">
-  <h3 id="idArdrevuH3">nxtevu.Ardor (ARDRevu)
+  <h3 id="idArdrevuH3">Nxtzasset.Ardor (ARDRevu)
     </h3>
   <p id="idArdrevudsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -13266,12 +13485,19 @@
     <br>[<a href="https://changelly.com/supported-currencies">https://changelly.com/supported-currencies</a>]
     <a class="clsHide" href="#idArdrevudsn"></a></p>
   <p id="idArdrevunam">name::
-    <br>* McshEngl.Ardor-evu,
-    <br>* McshEngl.ARDRevu,
+    <br>* McshEngl.Ardor-Exvu!⇒NxtzexvuArdr,
+    <br>* McshEngl.NxtzexvuArdr!=Ardor-Exvu,
+    <br>* McshEngl.ARDR!⇒NxtzexvuArdr,
     <a class="clsHide" href="#idArdrevunam"></a></p>
   <p id="idArdrevuwpa">addressWpg::
     <br>* <a href="https://www.ardorplatform.org/">https://www.ardorplatform.org</a>/
     <a class="clsHide" href="#idArdrevuwpa"></a></p>
+  <p id="idArdrevugntr">generic-tree::
+    <br>* McshEngl.NxtzexvuArdr_Gntr,
+    <br>===
+    <br>* Bkcnasset_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idArdrevugntr"></a></p>
   </section>
   </section>
 
@@ -13287,9 +13513,11 @@
     <br>[<a href="https://changelly.com/supported-currencies">https://changelly.com/supported-currencies</a>]
     <a class="clsHide" href="#idNxtevuCdsn"></a></p>
   <p id="idNxtevuCnam">name::
-    <br>* McshEngl.Dblockchain-asset.NXT,
-    <br>* McshEngl.Nxt-token-(NXT),
-    <br>* McshEngl.NXT-(Nxt-token),
+    <br>* McshEngl.NXT-token!⇒NxtzexvuC,
+    <br>* McshEngl.NxtzexvuC!=NXT-token,
+    <br>* McshEngl.Dblockchain-asset.NXT!⇒NxtzexvuC,
+    <br>* McshEngl.Nxt-token-(NXT)!⇒NxtzexvuC,
+    <br>* McshEngl.NXT-(Nxt-token)!⇒NxtzexvuC,
     <a class="clsHide" href="#idNxtevuCnam"></a></p>
   <p id="idNxtevuCP1">description-1::
     <br>× Mcsh-creation: {2026-10-04}
@@ -13313,6 +13541,29 @@
     <br>Nxt is an open source[5] cryptocurrency and payment network launched in November 2013 by anonymous software developer BCNext.[6] It uses proof-of-stake to reach consensus for transactions - as such there is a static money supply and no mining as with Bitcoin. Nxt is specifically conceived as flexible platform to build applications and financial services around.[7] It has an integrated asset-exchange[8] (comparable to shares), messaging system and marketplace. Users can also create new currencies within the system. The last major release enabled Multisignature capabilities and a plugin-system for the client.[9]
     <br>[<a href="https://en.wikipedia.org/wiki/Nxt">https://en.wikipedia.org/wiki/Nxt</a>]
     <a class="clsHide" href="#idNxtevuCP1"></a></p>
+
+  <section id="idNxtevuCgstr">
+  <h3 id="idNxtevuCgstrH3">GENERIC-SPECIFIC-TREE of NxtzexvuC
+    </h3>
+  <p id="idNxtevuCgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idNxtevuCgstrdsn"></a></p>
+  <p id="idNxtevuCgstrnam">name::
+    <br>* McshEngl.NxtzexvuC'generic-specific-tree,
+    <br>* McshEngl.NxtzexvuC'specific-generic-tree,
+    <a class="clsHide" href="#idNxtevuCgstrnam"></a></p>
+  <p id="idNxtevuCgntr">generic-tree::
+    <br>* McshEngl.NxtzexvuC_Gntr,
+    <br>===
+    <br>* Bkcnasset_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idNxtevuCgntr"></a></p>
+  <p id="idNxtevuCsptr">specific-tree::
+    <br>* McshEngl.NxtzexvuC.specific,
+    <br>* McshEngl.NxtzexvuC_Sptr,
+    <br>===
+    <a class="clsHide" href="#idNxtevuCsptr"></a></p>
+  </section>
 
   <section id="idNxtevuCAgg">
   <h3 id="idNxtevuCAggH3">nxtevuC.AGGREGATE
@@ -13599,6 +13850,7 @@
     <br>* McshEngl.AgntPrcn!=AgntBkcn.peercoin,
     <br>* McshEngl.Peercoin-network!⇒AgntPrcn,
     <br>* McshEngl.Ppcnet!⇒AgntPrcn,
+    <br>* McshEngl.Prcn-netAlgo!⇒AgntPrcn,
     <a class="clsHide" href="#idPpcnetnam"></a></p>
 
   <section id="idPpcnetgstr">
@@ -13893,10 +14145,17 @@
     <br>[<a href="https://coinmarketcap.com/currencies/peercoin/">https://coinmarketcap.com/currencies/peercoin/</a>] {2017-04-16},
     <a class="clsHide" href="#idPpcevuCdsn"></a></p>
   <p id="idPpcevuCnam">name::
-    <br>* McshEngl.Dblockchain-asset.PPC-(Peercoin),
-    <br>* McshEngl.Peercoin-token-(PPC),
-    <br>* McshEngl.PPC-(Peercoin-token),
+    <br>* McshEngl.Peercoin-token-(PPC)!⇒PrcnexvuC,
+    <br>* McshEngl.PrcnexvuC!=Peercoin-token-(PPC),
+    <br>* McshEngl.Dblockchain-asset.PPC-(Peercoin)!⇒PrcnexvuC,
+    <br>* McshEngl.PPC-(Peercoin-token)!⇒PrcnexvuC,
     <a class="clsHide" href="#idPpcevuCnam"></a></p>
+  <p id="idPpcevuCgntr">generic-tree::
+    <br>* McshEngl.PrcnexvuC_Gntr,
+    <br>===
+    <br>* Bkcnasset_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idPpcevuCgntr"></a></p>
   </section>
 
   <section id="idPpcevuCrsc">
@@ -13929,25 +14188,29 @@
     <br>[<a href="http://www.coindesk.com/information/bitcoin-glossary/">http://www.coindesk.com/information/bitcoin-glossary</a>/]
     <a class="clsHide" href="#idXrpnetdsn"></a></p>
   <p id="idXrpnetnam">name::
-    <br>* McshEngl.Ripple_net,
-    <br>* McshEngl.Ripple-net!⇒Ripple_net,
-    <br>* McshEngl.digital-currency-system.ripple!⇒Ripple_net,
-    <br>* McshEngl.netRipple!⇒Ripple_net,
-    <br>* McshEngl.netXrp!⇒Ripple_net,
-    <br>* McshEngl.Ripple-distributed-network!⇒Ripple_net,
-    <br>* McshEngl.Ripple-system!⇒Ripple_net,
-    <br>* McshEngl.Xrpnet!⇒Ripple_net,
+    <br>* McshEngl.Ripple--blockchain-net!⇒AgntRppl,
+    <br>* McshEngl.AgntRppl!=Ripple--blockchain-net,
+    <br>* McshEngl.Rppl--blockchain-net!⇒AgntRppl,
+    <br>* McshEngl.XRP--blockchain-net!⇒AgntRppl,
+    <br>* McshEngl.Ripple_net!⇒AgntRppl,
+    <br>* McshEngl.Ripple-net!⇒AgntRppl,
+    <br>* McshEngl.digital-currency-system.ripple!⇒AgntRppl,
+    <br>* McshEngl.netRipple!⇒AgntRppl,
+    <br>* McshEngl.netXrp!⇒AgntRppl,
+    <br>* McshEngl.Ripple-distributed-network!⇒AgntRppl,
+    <br>* McshEngl.Ripple-system!⇒AgntRppl,
+    <br>* McshEngl.Xrpnet!⇒AgntRppl,
     <a class="clsHide" href="#idXrpnetnam"></a></p>
 
   <section id="idXrpnetgstr">
-  <h2 id="idXrpnetgstrH2">GENERIC-SPECIFIC-TREE of Ripple_net
+  <h2 id="idXrpnetgstrH2">GENERIC-SPECIFIC-TREE of AgntRppl
     </h2>
   <p id="idXrpnetgstrdsn">description::
     <br>× Mcsh-creation: {2015-08-12}
     <a class="clsHide" href="#idXrpnetgstrdsn"></a></p>
   <p id="idXrpnetgstrnam">name::
-    <br>* McshEngl.Ripple_net'generic-specific-tree,
-    <br>* McshEngl.Ripple_net'specific-generic-tree,
+    <br>* McshEngl.AgntRppl'generic-specific-tree,
+    <br>* McshEngl.AgntRppl'specific-generic-tree,
     <a class="clsHide" href="#idXrpnetgstrnam"></a></p>
   <p id="idXrpnetgntr">generic-tree::
     <br>* McshEngl.Ripple_net_Gntr,
@@ -13957,7 +14220,7 @@
     <br>* ... entity_Gntr,
     <a class="clsHide" href="#idXrpnetgntr"></a></p>
   <p id="idXrpnetsptr">specific-tree::
-    <br>* McshEngl.Ripple_net.specific,
+    <br>* McshEngl.AgntRppl.specific,
     <br>* McshEngl.Ripple_net_Sptr,
     <br>===
     <a class="clsHide" href="#idXrpnetsptr"></a></p>
@@ -14413,13 +14676,13 @@
   </section>
 
   <section id="idXrpEvg">
-  <h2 id="idXrpEvgH2">Ripple_net.EVOLUTING
+  <h2 id="idXrpEvgH2">AgntRppl.EVOLUTING
     </h2>
   <p id="idXrpEvgdsn">description::
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idXrpEvgdsn"></a></p>
   <p id="idXrpEvgnam">name::
-    <br>* McshEngl.Ripple_net.EVOLUTING,
+    <br>* McshEngl.AgntRppl.EVOLUTING,
     <a class="clsHide" href="#idXrpEvgnam"></a></p>
   <p id="idXrpEvgP1">{2014.12}::
     <br>=== Earthport:
@@ -14478,8 +14741,11 @@
     <br>[<a href="https://litecoin.org/">https://litecoin.org/</a>]
     <a class="clsHide" href="#idLtcnetdsn"></a></p>
   <p id="idLtcnetnam">name::
-    <br>* McshEngl.Litecoin-network,
-    <br>* McshEngl.Ltcnet,
+    <br>* McshEngl.Litecoin-network!⇒AgntLtcn,
+    <br>* McshEngl.AgntLtcn!=Litecoin-network,
+    <br>* McshEngl.Ltcn--blockchain-net!⇒AgntLtcn,
+    <br>* McshEngl.LTC--blockchain-net!⇒AgntLtcn,
+    <br>* McshEngl.Ltcnet!⇒AgntLtcn,
     <a class="clsHide" href="#idLtcnetnam"></a></p>
 
   <section id="idLtcevuC">
@@ -14509,14 +14775,22 @@
     <br>[<a href="http://www.analyst.gr/2013/12/02/4959/">http://www.analyst.gr/2013/12/02/4959/</a>]
     <a class="clsHide" href="#idLtcevuCdsn"></a></p>
   <p id="idLtcevuCnam">name::
-    <br>* McshEngl.Dblockchain-asset.LTC-(Litecoin),
-    <br>* McshEngl.Litecoin-consensus-exval-token, {2017-03-31}
-    <br>* McshEngl.LTC-(Litecoin-token),
-    <br>* McshEngl.Litecoin-token-(LTC),
-    <br>* McshEngl.Dblockchain-asset.litecoin,
-    <br>* McshEngl.mnyLitecoin,
+    <br>* McshEngl.Litecoin-token!⇒LtcnexvuC,
+    <br>* McshEngl.LtcnexvuC!=Litecoin-token,
+    <br>* McshEngl.LTC-(Litecoin-token)!⇒LtcnexvuC,
+    <br>* McshEngl.Dblockchain-asset.LTC-(Litecoin)!⇒LtcnexvuC,
+    <br>* McshEngl.Litecoin-consensus-exval-token!⇒LtcnexvuC, {2017-03-31}
+    <br>* McshEngl.Litecoin-token-(LTC)!⇒LtcnexvuC,
+    <br>* McshEngl.Dblockchain-asset.litecoin!⇒LtcnexvuC,
+    <br>* McshEngl.mnyLitecoin!⇒LtcnexvuC,
     <br>* Ltccevt, {2017-03-31},
     <a class="clsHide" href="#idLtcevuCnam"></a></p>
+  <p id="idLtcevuCgntr">generic-tree::
+    <br>* McshEngl.LtcnexvuC_Gntr,
+    <br>===
+    <br>* Bkcnasset_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLtcevuCgntr"></a></p>
   </section>
 
   <section id="idLtcrsc">
@@ -14544,8 +14818,11 @@
     <br>[<a href="https://namecoin.org/">https://namecoin.org/</a>]
     <a class="clsHide" href="#idNmcnetdsn"></a></p>
   <p id="idNmcnetnam">name::
-    <br>* McshEngl.Namecoin-net,
-    <br>* McshEngl.Nmcnet,
+    <br>* McshEngl.Namecoin--blockchain-netAlgo!⇒AgntNmcn,
+    <br>* McshEngl.AgntNmcn!=Namecoin--blockchain-netAlgo,
+    <br>* McshEngl.Namecoin-net!⇒AgntNmcn,
+    <br>* McshEngl.Nmcn--blockchain-net!⇒AgntNmcn,
+    <br>* McshEngl.Nmcnet!⇒AgntNmcn,
     <a class="clsHide" href="#idNmcnetnam"></a></p>
 
   <section id="idNmcbcn">
@@ -14598,12 +14875,19 @@
     <br>[<a href="http://www.coindesk.com/information/bitcoin-glossary/">http://www.coindesk.com/information/bitcoin-glossary</a>/]
     <a class="clsHide" href="#idNmcevuCdsn"></a></p>
   <p id="idNmcevuCnam">name::
-    <br>* McshEngl.Namecoin,
-    <br>* McshEngl.Namecoin-token,
-    <br>* McshEngl.NMC-evuC,
-    <br>* McshEngl.NMC-token,
-    <br>* McshEngl.Nmccevt,
+    <br>* McshEngl.Namecoin-token!⇒NmcnexvuC,
+    <br>* McshEngl.NmcnexvuC!=Namecoin-token,
+    <br>* McshEngl.Namecoin!⇒NmcnexvuC,
+    <br>* McshEngl.NMC-evuC!⇒NmcnexvuC,
+    <br>* McshEngl.NMC-token!⇒NmcnexvuC,
+    <br>* McshEngl.Nmccevt!⇒NmcnexvuC,
     <a class="clsHide" href="#idNmcevuCnam"></a></p>
+  <p id="idNmcevuCgntr">generic-tree::
+    <br>* McshEngl.NmcnexvuC_Gntr,
+    <br>===
+    <br>* Bkcnasset_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idNmcevuCgntr"></a></p>
   </section>
   </section>
 
@@ -14623,8 +14907,9 @@
     <br>[<a href="http://akasha.world/">http://akasha.world</a>/]
     <a class="clsHide" href="#idAkshnetdsn"></a></p>
   <p id="idAkshnetnam">name::
-    <br>* McshEngl.Akasha-network,
-    <br>* McshEngl.AgntBkcn.Akasha!⇒Akasha-network,
+    <br>* McshEngl.Akasha--blockchain-net!⇒AgntAksh,
+    <br>* McshEngl.AgntAksh!=Akasha--blockchain-net,
+    <br>* McshEngl.AgntBkcn.Akasha!⇒AgntAksh,
     <a class="clsHide" href="#idAkshnetnam"></a></p>
   </section>
 
@@ -14642,20 +14927,23 @@
     <br>[{2020-09-16} https://everipedia.org/wiki/lang_en/cardano-cryptocurrency]
     <a class="clsHide" href="#idCdnnetdsn"></a></p>
   <p id="idCdnnetnam">name::
-    <br>* McshEngl.DnCardano,
-    <br>* McshEngl.Cardano-network!⇒DnCardano,
-    <br>* McshEngl.AgntBkcn.Cardano-ADA!⇒DnCardano,
+    <br>* McshEngl.Cardano--blockchain-net!⇒AgntCrdn,
+    <br>* McshEngl.AgntCrdn!=Cardano--blockchain-net,
+    <br>* McshEngl.Crdn--blockchain-net!⇒AgntCrdn,
+    <br>* McshEngl.ADA--blockchain-net!⇒AgntCrdn,
+    <br>* McshEngl.Cardano-network!⇒AgntCrdn,
+    <br>* McshEngl.AgntBkcn.Cardano-ADA!⇒AgntCrdn,
     <a class="clsHide" href="#idCdnnetnam"></a></p>
 
   <section id="idCdnnetatt001">
-  <h2 id="idCdnnetatt001H2">governance-sys of DnCardano
+  <h2 id="idCdnnetatt001H2">governance-sys of AgntCrdn
     </h2>
   <p id="idCdnnetatt001dsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idCdnnetatt001dsn"></a></p>
   <p id="idCdnnetatt001nam">name::
-    <br>* McshEngl.DnCardano'att001-governance-sys,
-    <br>* McshEngl.DnCardano'governance-sys,
+    <br>* McshEngl.AgntCrdn'att001-governance-sys,
+    <br>* McshEngl.AgntCrdn'governance-sys,
     <a class="clsHide" href="#idCdnnetatt001nam"></a></p>
   <p id="idCdnnetatt001wpa">addressWpg::
     <br>* https://www.youtube.com/watch?v=7_zIzjWZHgg,
@@ -14675,8 +14963,10 @@
     <br>[<a href="https://dfinity.network/donate">https://dfinity.network/donate</a>]
     <a class="clsHide" href="#idDfnnetdsn"></a></p>
   <p id="idDfnnetnam">name::
-    <br>* McshEngl.AgntBkcn.Dfinity!⇒AgntDfnt,
-    <br>* McshEngl.AgntDfnt!=AgntBkcn.Dfinity,
+    <br>* McshEngl.Dfinity--blockchain-net!⇒AgntDfnt,
+    <br>* McshEngl.AgntDfnt!=Dfinity--blockchain-net,
+    <br>* McshEngl.Dfnt--blockchain-net!⇒AgntDfnt,
+    <br>* McshEngl.DFN--blockchain-net!⇒AgntDfnt,
     <br>* McshEngl.DFINITY!⇒AgntDfnt,
     <br>* McshEngl.Dfinity-net!⇒AgntDfnt,
     <a class="clsHide" href="#idDfnnetnam"></a></p>
@@ -14830,8 +15120,9 @@
     <br>[<a href="https://cointelegraph.com/news/ibms-next-step-in-launching-one-of-the-worlds-largest-blockchain-implementations">https://cointelegraph.com/news/ibms-next-step-in-launching-one-of-the-worlds-largest-blockchain-implementations</a>]
     <a class="clsHide" href="#idDbcIbmdsn"></a></p>
   <p id="idDbcIbmnam">name::
-    <br>* McshEngl.AgntBkcn.IBM,
-    <br>* McshEngl.IBM-blockchain,
+    <br>* McshEngl.IBM--blockchain-net!⇒AgntIbmb,
+    <br>* McshEngl.AgntIbmb!=IBM--blockchain-net,
+    <br>* McshEngl.AgntBkcn.IBM!⇒AgntIbmb,
     <a class="clsHide" href="#idDbcIbmnam"></a></p>
   <p id="idDbcIbmwpa">addressWpg::
     <br>* <a href="http://www.ibm.com/blockchain/">http://www.ibm.com/blockchain</a>/
@@ -14855,13 +15146,14 @@
     <br>[https://developers.komodoplatform.com/]
     <a class="clsHide" href="#idDbcKmddsn"></a></p>
   <p id="idDbcKmdnam">name::
-    <br>* McshEngl.DKomodo,
-    <br>* McshEngl.AgntBkcn.Komodo!⇒DKomodo,
-    <br>* McshEngl.Komodo--Dblockchain-net!⇒DKomodo,
+    <br>* McshEngl.Komodo--blockchain-net!⇒AgntKomd,
+    <br>* McshEngl.AgntKomd!=Komodo--blockchain-net,
+    <br>* McshEngl.Komd--blockchain-net!⇒AgntKomd,
+    <br>* McshEngl.AgntBkcn.Komodo!⇒AgntKomd,
     <a class="clsHide" href="#idDbcKmdnam"></a></p>
 
   <section id="idDbcKmdirsc">
-  <h2 id="idDbcKmdirscH2">info-resource of DKomodo
+  <h2 id="idDbcKmdirscH2">info-resource of AgntKomd
     </h2>
   <p id="idDbcKmdirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -14869,7 +15161,7 @@
     <a class="clsHide" href="#idDbcKmdirscdsn"></a></p>
   <p id="idDbcKmdirscnam">name::
     <br>* McshEngl.DKomode'info-resource,
-    <br>* McshEngl.DKomodo'info-resource!⇒DKomode'info-resource,
+    <br>* McshEngl.AgntKomd'info-resource!⇒DKomode'info-resource,
     <a class="clsHide" href="#idDbcKmdirscnam"></a></p>
   </section>
   </section>
@@ -14896,7 +15188,9 @@
     <br>[<a href="https://guardtime.com/technology/ksi-technology">https://guardtime.com/technology/ksi-technology</a>]
     <a class="clsHide" href="#idDbcKsidsn"></a></p>
   <p id="idDbcKsinam">name::
-    <br>* McshEngl.AgntBkcn.KSI,
+    <br>* McshEngl.KSI--blockchain-net!⇒AgntKsiz,
+    <br>* McshEngl.AgntKsiz!=KSI--blockchain-net,
+    <br>* McshEngl.AgntBkcn.KSI!⇒AgntKsiz,
     <a class="clsHide" href="#idDbcKsinam"></a></p>
   </section>
 
@@ -14915,8 +15209,9 @@
     <br>[<a href="https://bitcoinmagazine.com/articles/humaniq-aims-tackle-barriers-economic-inclusion-blockchain-app/">https://bitcoinmagazine.com/articles/humaniq-aims-tackle-barriers-economic-inclusion-blockchain-app/</a>]
     <a class="clsHide" href="#idHmqnetdsn"></a></p>
   <p id="idHmqnetnam">name::
-    <br>* McshEngl.Humaniq,
-    <br>* McshEngl.AgntBkcn.Humaniq-HMQ!⇒Humaniq,
+    <br>* McshEngl.Humaniq--blockchain-net!⇒AgntHmiq,
+    <br>* McshEngl.AgntHmiq!=Humaniq--blockchain-net,
+    <br>* McshEngl.AgntBkcn.Humaniq-HMQ!⇒AgntHmiq,
     <a class="clsHide" href="#idHmqnetnam"></a></p>
 
   <section id="idHmqnetgstr">
@@ -15617,9 +15912,11 @@
     <br>[<a href="https://www.synereo.com/">https://www.synereo.com</a>/]
     <a class="clsHide" href="#idAmpnetdsn"></a></p>
   <p id="idAmpnetnam">name::
-    <br>* McshEngl.Amp-net,
-    <br>* McshEngl.AgntBkcn.Synereo,
-    <br>* McshEngl.Synereo-net,
+    <br>* McshEngl.Synereo--blockchain-netAlgo!⇒AgntSynr,
+    <br>* McshEngl.AgntSynr!=Synereo--blockchain-netAlgo,
+    <br>* McshEngl.Synr--blockchain-net!⇒AgntSynr,
+    <br>* McshEngl.Amp-net!⇒AgntSynr,
+    <br>* McshEngl.AgntBkcn.Synereo!⇒AgntSynr,
     <a class="clsHide" href="#idAmpnetnam"></a></p>
 
   <section id="idAmpevu">
@@ -15647,8 +15944,9 @@
     <br>[<a href="https://changelly.com/supported-currencies">https://changelly.com/supported-currencies</a>]
     <a class="clsHide" href="#idAmpevudsn"></a></p>
   <p id="idAmpevunam">name::
-    <br>* McshEngl.AMP-(Synereo-token),
-    <br>* McshEngl.Dblockchain-asset.AMP-(Synereo),
+    <br>* McshEngl.AMP-(Synereo-token)!⇒SynrexvuC,
+    <br>* McshEngl.SynrexvuC!=AMP-(Synereo-token),
+    <br>* McshEngl.Dblockchain-asset.AMP-(Synereo))!⇒SynrexvuC,
     <a class="clsHide" href="#idAmpevunam"></a></p>
   <p id="idAmpevuwpa">addressWpg::
     <br>* <a href="https://coinmarketcap.com/assets/synereo/">https://coinmarketcap.com/assets/synereo</a>/

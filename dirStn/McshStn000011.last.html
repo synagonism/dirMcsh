@@ -1400,11 +1400,18 @@
     <br>[{2020-08-11} http://www.businessdictionary.com/definition/contract-of-employment.html]
     <a class="clsHide" href="#idWkr002att001dsn"></a></p>
   <p id="idWkr002att001nam">name::
-    <br>* McshEngl.contract-of-employment,
-    <br>* McshEngl.contract-of-service,
-    <br>* McshEngl.WrkrEmployee'contract-of-employment,
-    <br>* McshEngl.WrkrEmployer'contract-of-employment,
+    <br>* McshEngl.contract-of-employment!⇒crctOfservice,
+    <br>* McshEngl.crctOfservice!=contract-of-employment,
+    <br>* McshEngl.contract-of-service!⇒crctOfservice,
+    <br>* McshEngl.WrkrEmployee'contract-of-employment!⇒crctOfservice,
+    <br>* McshEngl.WrkrEmployer'contract-of-employment!⇒crctOfservice,
     <a class="clsHide" href="#idWkr002att001nam"></a></p>
+  <p id="idWkr002att001gntr">generic-tree::
+    <br>* McshEngl.crctOfservice_Gntr,
+    <br>===
+    <br>* contract_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idWkr002att001gntr"></a></p>
   </section>
   </section>
 
@@ -1441,7 +1448,8 @@
     <br>* McshEngl.Wrkr.employed.self.employer!⇒WrkrEmployer,
     <br>* McshEngl.Wrkr.employer!⇒WrkrEmployer,
     <br>====== lagoGreek:
-    <br>* McshElln.εργοδότης!=WrkrEmployer,
+    <br>* McshElln.εργοδότης!ο!=WrkrEmployer,
+    <br>* McshElln.εργοδότρια!η!=WrkrEmployer,
     <a class="clsHide" href="#idWkr001nam"></a></p>
   </section>
 
@@ -1478,10 +1486,17 @@
     <br>· the-contract to offer work to another entity.
     <a class="clsHide" href="#idWkr003att001dsn"></a></p>
   <p id="idWkr003att001nam">name::
-    <br>* McshEngl.contract-for-service,
-    <br>* McshEngl.WrkrSelfemployed'contract-for-service,
-    <br>* McshEngl.WrkrFreelancer'contract-for-service,
+    <br>* McshEngl.contract-for-service!⇒crctForservice,
+    <br>* McshEngl.crctForservice!=contract-for-service,
+    <br>* McshEngl.WrkrSelfemployed'contract-for-service!⇒crctForservice,
+    <br>* McshEngl.WrkrFreelancer'contract-for-service!⇒crctForservice,
     <a class="clsHide" href="#idWkr003att001nam"></a></p>
+  <p id="idWkr003att001gntr">generic-tree::
+    <br>* McshEngl.crctForservice_Gntr,
+    <br>===
+    <br>* contract_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idWkr003att001gntr"></a></p>
   </section>
 
   <section id="idWkr017irsc">

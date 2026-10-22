@@ -2281,10 +2281,17 @@
     <br>· binary-format: 0x1A
     <a class="clsHide" href="#idLWasmstcPrmcDrpdsn"></a></p>
   <p id="idLWasmstcPrmcDrpnam">name::
-    <br>* McshEngl.Wasm_lago'drop-instruction,
-    <br>* McshEngl.Wasmcmnd.0x1A-drop,
-    <br>* McshEngl.Wasmcmnd.drop-0x1A,
+    <br>* McshEngl.Wasmdrop,
+    <br>* McshEngl.Wasm_lago'drop-instruction!⇒Wasmdrop,
+    <br>* McshEngl.Wasmcmnd.0x1A-drop!⇒Wasmdrop,
+    <br>* McshEngl.Wasmcmnd.drop-0x1A!⇒Wasmdrop,
     <a class="clsHide" href="#idLWasmstcPrmcDrpnam"></a></p>
+  <p id="idLWasmstcPrmcDrpgntr">generic-tree::
+    <br>* McshEngl.Wasmdrop_Gntr,
+    <br>===
+    <br>* Wasmcmnd.parametric_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLWasmstcPrmcDrpgntr"></a></p>
   </section>
 
   <section id="idLWasmstcGtgbl">
@@ -2681,9 +2688,10 @@
     <br>· binary-format: 0x1B
     <a class="clsHide" href="#idLWasmstcPrmcSlctdsn"></a></p>
   <p id="idLWasmstcPrmcSlctnam">name::
-    <br>* McshEngl.Wasm_lago'select-instruction,
-    <br>* McshEngl.Wasmcmnd.0x1B-select,
-    <br>* McshEngl.Wasmcmnd.select-0x1B,
+    <br>* McshEngl.Wasmselect,
+    <br>* McshEngl.Wasm_lago'select-instruction!⇒Wasmselect,
+    <br>* McshEngl.Wasmcmnd.0x1B-select!⇒Wasmselect,
+    <br>* McshEngl.Wasmcmnd.select-0x1B!⇒Wasmselect,
     <a class="clsHide" href="#idLWasmstcPrmcSlctnam"></a></p>
   <p id="idLWasmstcPrmcSlctexpl">example::
     <br><code>(func (export "f") (param $a i32) (param $b i32) (result i32)
@@ -2704,6 +2712,12 @@
     <br> &nbsp;select
     <br>)</code>
     <a class="clsHide" href="#idLWasmstcPrmcSlctexpl"></a></p>
+  <p id="idLWasmstcPrmcSlctgntr">generic-tree::
+    <br>* McshEngl.Wasmselect_Gntr,
+    <br>===
+    <br>* Wasmcmnd.parametric_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLWasmstcPrmcSlctgntr"></a></p>
   </section>
 
   <section id="idLWasmstcStgbl">
@@ -5143,10 +5157,17 @@
     <br>[<a href="https://rsms.me/wasm-intro">https://rsms.me/wasm-intro</a>]
     <a class="clsHide" href="#idLWasmalgLbrdsn"></a></p>
   <p id="idLWasmalgLbrnam">name::
-    <br>* McshEngl.Wasm_lago'library,
-    <br>* McshEngl.Wasm-library,
-    <br>* McshEngl.Wasm_lago.LIBRARY,
+    <br>* McshEngl.WasmalgoLibrary,
+    <br>* McshEngl.Wasm_lago'library!⇒WasmalgoLibrary,
+    <br>* McshEngl.Wasm-library!⇒WasmalgoLibrary,
+    <br>* McshEngl.Wasm_lago.LIBRARY!⇒WasmalgoLibrary,
     <a class="clsHide" href="#idLWasmalgLbrnam"></a></p>
+  <p id="idLWasmalgLbrgntr">generic-tree::
+    <br>* McshEngl.WasmalgoLibrary_Gntr,
+    <br>===
+    <br>* Wasmalgo_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLWasmalgLbrgntr"></a></p>
   </section>
 
   <section id="idLWasmalgTxt">
@@ -5157,10 +5178,17 @@
     <br>· Wasm-text-algo is <a class="clsPreview" href="#idLWasmalg">a-Wasmalgo</a> written with <a class="clsPreview" href="#idLWasmTxt">the-Wasm-text-format</a> using <a class="clsPreview" href="#idLWasmTxtsexn">S-expressions</a>.
     <a class="clsHide" href="#idLWasmalgTxtdsn"></a></p>
   <p id="idLWasmalgTxtnam">name::
-    <br>* McshEngl.Wasmalgo.text,
-    <br>* McshEngl.Wasm-text-algo,
-    <br>* McshEngl.Wasm_lago.TEXT,
+    <br>* McshEngl.WasmalgoText,
+    <br>* McshEngl.Wasmalgo.text!⇒WasmalgoText,
+    <br>* McshEngl.Wasm-text-algo!⇒WasmalgoText,
+    <br>* McshEngl.Wasm_lago.TEXT!⇒WasmalgoText,
     <a class="clsHide" href="#idLWasmalgTxtnam"></a></p>
+  <p id="idLWasmalgTxtgntr">generic-tree::
+    <br>* McshEngl.WasmalgoText_Gntr,
+    <br>===
+    <br>* Wasmalgo_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLWasmalgTxtgntr"></a></p>
   </section>
 
   <section id="idLWasmalgBnr">
@@ -5171,12 +5199,36 @@
     <br>· Wasm-binary-algo is <a class="clsPreview" href="#idLWasmalg">a-Wasmalgo</a> written with <a class="clsPreview" href="#idLWasmBnr">the-Wasm-binary-format</a>.
     <a class="clsHide" href="#idLWasmalgBnrdsn"></a></p>
   <p id="idLWasmalgBnrnam">name::
-    <br>* McshEngl.Wasm_lago'binary-algo,
-    <br>* McshEngl.Wasmalgo.binary,
-    <br>* McshEngl.Wasm-binary-algo,
-    <br>* McshEngl.Wasm-bnr-algo,
-    <br>* McshEngl.Wasm_lago.BINARY,
+    <br>* McshEngl.WasmagoBinary,
+    <br>* McshEngl.Wasm_lago'binary-algo!⇒WasmagoBinary,
+    <br>* McshEngl.Wasmalgo.binary!⇒WasmagoBinary,
+    <br>* McshEngl.Wasm-binary-algo!⇒WasmagoBinary,
+    <br>* McshEngl.Wasm-bnr-algo!⇒WasmagoBinary,
+    <br>* McshEngl.Wasm_lago.BINARY!⇒WasmagoBinary,
     <a class="clsHide" href="#idLWasmalgBnrnam"></a></p>
+
+  <section id="idLWasmalgBnrgstr">
+  <h2 id="idLWasmalgBnrgstrH2">GENERIC-SPECIFIC-TREE of WasmagoBinary
+    </h2>
+  <p id="idLWasmalgBnrgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idLWasmalgBnrgstrdsn"></a></p>
+  <p id="idLWasmalgBnrgstrnam">name::
+    <br>* McshEngl.WasmagoBinary'generic-specific-tree,
+    <br>* McshEngl.WasmagoBinary'specific-generic-tree,
+    <a class="clsHide" href="#idLWasmalgBnrgstrnam"></a></p>
+  <p id="idLWasmalgBnrgntr">generic-tree::
+    <br>* McshEngl.WasmagoBinary_Gntr,
+    <br>===
+    <br>* Wasmalgo_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLWasmalgBnrgntr"></a></p>
+  <p id="idLWasmalgBnrsptr">specific-tree::
+    <br>* McshEngl.WasmagoBinary.specific,
+    <br>* McshEngl.WasmagoBinary_Sptr,
+    <br>===
+    <a class="clsHide" href="#idLWasmalgBnrsptr"></a></p>
+  </section>
 
   <section id="idLWasmalgBnrfile">
   <h2 id="idLWasmalgBnrfileH2">bnr-algo'file of Wasm_lago
@@ -5725,13 +5777,37 @@
     <br>[<a href="https://github.com/sunfishcode/wasm-reference-manual/blob/master/WebAssembly.md#embedding-environment">https://github.com/sunfishcode/wasm-reference-manual/blob/master/WebAssembly.md#embedding-environment</a>]
     <a class="clsHide" href="#idLWasmtoolRtedsn"></a></p>
   <p id="idLWasmtoolRtenam">name::
-    <br>* McshEngl.Wasm_lago'embedder,
-    <br>* McshEngl.Wasm_lago'embedding-environment,
-    <br>* McshEngl.Wasm_lago'host-environment,
-    <br>* McshEngl.Wasm_lago'outside-environment,
-    <br>* McshEngl.Wasm_lago'runtime-environment,
-    <br>* McshEngl.Wasm_lago.RUNTIME-ENVIRONMENT,
+    <br>* McshEngl.Wasmruntime,
+    <br>* McshEngl.Wasm_lago'embedder!⇒Wasmruntime,
+    <br>* McshEngl.Wasm_lago'embedding-environment!⇒Wasmruntime,
+    <br>* McshEngl.Wasm_lago'host-environment!⇒Wasmruntime,
+    <br>* McshEngl.Wasm_lago'outside-environment!⇒Wasmruntime,
+    <br>* McshEngl.Wasm_lago'runtime-environment!⇒Wasmruntime,
+    <br>* McshEngl.Wasm_lago.RUNTIME-ENVIRONMENT!⇒Wasmruntime,
     <a class="clsHide" href="#idLWasmtoolRtenam"></a></p>
+
+  <section id="idLWasmtoolRtegstr">
+  <h2 id="idLWasmtoolRtegstrH2">GENERIC-SPECIFIC-TREE of Wasmruntime
+    </h2>
+  <p id="idLWasmtoolRtegstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-21}
+    <a class="clsHide" href="#idLWasmtoolRtegstrdsn"></a></p>
+  <p id="idLWasmtoolRtegstrnam">name::
+    <br>* McshEngl.Wasmruntime'generic-specific-tree,
+    <br>* McshEngl.Wasmruntime'specific-generic-tree,
+    <a class="clsHide" href="#idLWasmtoolRtegstrnam"></a></p>
+  <p id="idLWasmtoolRtegntr">generic-tree::
+    <br>* McshEngl.Wasmruntime_Gntr,
+    <br>===
+    <br>* WasmTool_Gntr,
+    <br>* ... entity_Gntr,
+    <a class="clsHide" href="#idLWasmtoolRtegntr"></a></p>
+  <p id="idLWasmtoolRtesptr">specific-tree::
+    <br>* McshEngl.Wasmruntime.specific,
+    <br>* McshEngl.Wasmruntime_Sptr,
+    <br>===
+    <a class="clsHide" href="#idLWasmtoolRtesptr"></a></p>
+  </section>
 
   <section id="idLWasmrtewajo">
   <h2 id="idLWasmrtewajoH2">WebAssembly--javascript-object
