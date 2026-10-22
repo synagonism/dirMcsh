@@ -1,5 +1,5 @@
 [
-  [";lagEspo17mo","M|m",19,"2026-10-20"],
+  [";lagEspo17mo","M|m",19,"2026-10-22"],
   ["Majo!=May","dirCor/McshCor000006.last.html#idTimeUomMnthMay"],
   ["Marŝi!=March","dirCor/McshCor000006.last.html#idTimeUomMnthMar"],
   ["maldekstren!=spaceLeft","dirCor/McshCor000007.last.html#idSpcLeft"],
@@ -14,7 +14,7 @@
   ["miliardo","dirCor/McshCor000010.last.html#idQntNbrK31"],
   ["miliono","dirCor/McshCor000010.last.html#idQntNbrK21"],
   ["miljaro!={iK1}","dirCor/McshCor000006.last.html#idTimeUomYearK"],
-  ["mjelo!=organSpinal_cord","dirHlth/McshHlth000019.last.html#idOgnHmn037"],
+  ["mjelo!=OganSpinal_cord","dirHlth/McshHlth000019.last.html#idOgnHmn037"],
   ["monato!=timeMonth","dirCor/McshCor000006.last.html#idTimeUomMnth"],
   ["mondkoncepto!=worldview","dirLag/McshLag000003.last.html#idWldv"],
   ["morto!=DissDeath","dirHlth/McshHlth000011.last.html#idDssHmn281"],
