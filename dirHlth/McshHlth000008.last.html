@@ -57,6 +57,8 @@
     <br>* McshEngl.health'human_Gntr,
     <br>===
     <br>* human_Gntr,
+    <br>* ogsmAnimal_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnatt001gntr"></a></p>
 
   <section id="idHlthHmnatt001Hlthy">
@@ -164,7 +166,7 @@
   <p id="idHlthHmnatt006gntr">generic-tree::
     <br>* McshEngl.WrkrHealth_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnatt006gntr"></a></p>
   <p id="idHlthHmnatt006sptr">specific-tree::
     <br>* McshEngl.WrkrHealth.specific,
@@ -302,7 +304,7 @@
   <p id="idHlthHmnatt006Pscngntr">generic-tree::
     <br>* McshEngl.WrkrDoctor_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnatt006Pscngntr"></a></p>
   <p id="idHlthHmnatt006Pscnsptr">specific-tree::
     <br>* McshEngl.WrkrDoctor.specific,
@@ -397,6 +399,12 @@
     <br>====== lagoGreek:
     <br>* McshElln.μή-διαταραχή!=disorderNo,
     <a class="clsHide" href="#idHlthHmnatt003nam"></a></p>
+  <p id="idHlthHmnatt003sptr">specific-tree::
+    <br>* McshEngl.disorderNo.specific,
+    <br>* McshEngl.disorderNo_Sptr,
+    <br>===
+    <br>* disease!@McshHlth000011,
+    <a class="clsHide" href="#idHlthHmnatt003sptr"></a></p>
   </section>
 
   <section id="idHlthHmnatt004">
@@ -455,7 +463,7 @@
     <br>* bodyMtr!@McshNtr000002,
     <br>* bodyMtrHumn!@McshHlth000002#idBdyHmnatt022,
     <br>* SystMolsHumn_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnatt005gntr"></a></p>
   <p id="idHlthHmnatt005sptr">specific-tree::
     <br>* McshEngl.MtrlHlth.specific,
@@ -515,7 +523,7 @@
     <br>* material-body!@McshNtr000002,
     <br>* body-system!@McshCor000011#idSys004,
     <br>* body_Gntr,
-    <br>* entity_Gntr,
+    <br>* entity_Gntr (the-most-generic),
     <a class="clsHide" href="#idHlthHmnsbtcgntr"></a></p>
   <p id="idHlthHmnsbtcsptr">specific-tree::
     <br>* McshEngl.substanceHlth.specific,
@@ -559,7 +567,9 @@
     <br>* McshEngl.MtrlHlthHarm_Gntr,
     <br>===
     <br>* MtrlHlth_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* material_Gntr,
+    <br>* body_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMtrlHrmHmngntr"></a></p>
   <p id="idMtrlHrmHmnsptr">specific-tree::
     <br>* McshEngl.MtrlHlthHarm.specific,
@@ -622,7 +632,7 @@
   <p id="idMtrlHrmHmn001gntr">generic-tree::
     <br>* McshEngl.harmful-external-object_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMtrlHrmHmn001gntr"></a></p>
   <p id="idMtrlHrmHmn001sptr">specific-tree::
     <br>* McshEngl.harmful-external-object.specific,
@@ -832,7 +842,7 @@
   <p id="idHlthHmnatt007gntr">generic-tree::
     <br>* McshEngl.ogznHealth_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnatt007gntr"></a></p>
   <p id="idHlthHmnatt007sptr">specific-tree::
     <br>* McshEngl.ogznHealth.specific,
@@ -1456,7 +1466,7 @@
     <br>===
     <br>* organism's-health!@McshHlth000007,
     <br>* healthBio_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmngntr"></a></p>
   <p id="idHlthHmnsptr">specific-tree::
     <br>* McshEngl.health.specific,
@@ -1536,7 +1546,7 @@
   <p id="idHlthHmnBdygntr">generic-tree::
     <br>* McshEngl.healthBody_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnBdygntr"></a></p>
   <p id="idHlthHmnBdysptr">specific-tree::
     <br>* McshEngl.healthBody.specific,
@@ -1579,7 +1589,7 @@
   <p id="idHlthHmnMndgntr">generic-tree::
     <br>* McshEngl.health.mental_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnMndgntr"></a></p>
   <p id="idHlthHmnMndsptr">specific-tree::
     <br>* McshEngl.health.mental.specific,
@@ -1624,7 +1634,7 @@
   <p id="idHlthHmnSclgntr">generic-tree::
     <br>* McshEngl.healthSocial_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnSclgntr"></a></p>
   <p id="idHlthHmnSclsptr">specific-tree::
     <br>* McshEngl.healthSocial.specific,

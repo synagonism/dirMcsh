@@ -34,6 +34,7 @@
     <br>* McshEngl.social-group!⇒groupOgsm,
     <br>* McshEngl.stnOgsm.003-group!⇒groupOgsm,
     <br>* McshEngl.stnOgsm.group!⇒groupOgsm,
+    <br>* McshEngl.groupOgsm:stnOgsm!⇒groupOgsm,
     <a class="clsHide" href="#idName"></a></p>
   </section>
 
@@ -177,7 +178,7 @@
     <br>* McshEngl.admnGrupOgsm_Gntr,
     <br>===
     <br>* AdmnSctn_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idGrpOgmatt002gntr"></a></p>
   </section>
 
@@ -275,23 +276,21 @@
   <p id="idGrpOgmgntr">generic-tree::
     <br>* McshEngl.groupOgsm_Gntr,
     <br>===
-    <br>* groupOgsm,
     <br>* biosystem!@McshOgm000002,
     <br>* SystDynamic_Gntr,
     <br>* system_Gntr,
     <br>* whole-entity!@McshCor000008,
-    <br>* entity_Gntr,
+    <br>* entity_Gntr (the-most-generic),
     <br>
-    <br>* McshEngl.groupOgsm:stnOgsm,
     <br>* SctnOgms_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <br>=== inherited-from-att::
     <br>· <a class="clsPreview" href="../dirOgm/McshOgm000002.last.html#idOverview">biosystem</a>:
     <br>* governance-system,
-    <br>* health,
-    <br>* science,
+    <br>* health_Gntr,
+    <br>* science_Gntr,
     <br>* resource,
-    <br>* doing,
+    <br>* doing_Gntr,
     <a class="clsHide" href="#idGrpOgmgntr"></a></p>
   <p id="idGrpOgmsptr">specific-tree::
     <br>* McshEngl.groupOgsm.specific,
@@ -335,7 +334,7 @@
     <br>* McshEngl.admnGroup_Gntr,
     <br>===
     <br>* Admn_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idGrpOgm001admngntr"></a></p>
   </section>
 
@@ -353,7 +352,7 @@
     <br>* McshEngl.group_Gntr,
     <br>===
     <br>* Sctn_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idGrpOgm001gntr"></a></p>
   <p id="idGrpOgm001sptr">specific-tree::
     <br>* McshEngl.group.specific,

@@ -107,7 +107,7 @@
     <br>* McshEngl.physical-property_Gntr,
     <br>===
     <br>* attribute-of-MtrlSysMols,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsatt004gntr"></a></p>
   <p id="idSysMolsatt004sptr">specific-tree::
     <br>* McshEngl.physical-property.specific,
@@ -334,7 +334,7 @@
   <p id="idSysMolsgntr">generic-tree::
     <br>* McshEngl.MtrlSysMols_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsgntr"></a></p>
   <p id="idSysMolssptr">specific-tree::
     <br>* McshEngl.MtrlSysMols.specific,
@@ -375,7 +375,7 @@
   <p id="idSysMols003gntr">generic-tree::
     <br>* McshEngl.solid_Gntr,
     <br>===
-    <br>* system-of-molecules,
+    <br>* MtrlSysMols_Gntr,
     <br>* material-object,
     <a class="clsHide" href="#idSysMols003gntr"></a></p>
   </section>
@@ -662,6 +662,12 @@
     <br>====== lagoGreek:
     <br>* McshElln.ουσία!=MtrlSubstance,
     <a class="clsHide" href="#idSysMols008nam"></a></p>
+  <p id="idSysMols008sptr">specific-tree::
+    <br>* McshEngl.MtrlSubstance.specific,
+    <br>* McshEngl.MtrlSubstance_Sptr,
+    <br>===
+    <br>* foodBio!@McshHlth000012,
+    <a class="clsHide" href="#idSysMols008sptr"></a></p>
   </section>
 
   <section id="idSysMols009">
@@ -684,6 +690,12 @@
     <br>====== lagoGreek:
     <br>* McshElln.υλικό-αντικείμενο!=MtrlObject,
     <a class="clsHide" href="#idSysMols009nam"></a></p>
+  <p id="idSysMols009sptr">specific-tree::
+    <br>* McshEngl.MtrlObject.specific,
+    <br>* McshEngl.MtrlObject_Sptr,
+    <br>===
+    <br>* bio!@McshOgm000002,
+    <a class="clsHide" href="#idSysMols009sptr"></a></p>
 
   <section id="idSysMols009clr">
   <h2 id="idSysMols009clrH2">color of MtrlObject
@@ -787,7 +799,7 @@
   <p id="idSysMols009clrgntr">generic-tree::
     <br>* McshEngl.color_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMols009clrgntr"></a></p>
   <p id="idSysMols009clrsptr">specific-tree::
     <br>* McshEngl.color.specific,
@@ -1351,8 +1363,8 @@
  <p id="idSysMols010gntr">generic-tree::
     <br>* McshEngl.MtrlChemical_Gntr,
     <br>===
-    <br>* MtrlSysMols,
-    <br>* ... entity_Gntr,
+    <br>* MtrlSysMols_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMols010gntr"></a></p>
  <p id="idSysMols010sptr">specific-tree::
     <br>* McshEngl.MtrlChemical.specific,

@@ -140,7 +140,7 @@
   <p id="idMedHmnatt004gntr">generic-tree::
     <br>* McshEngl.medication_side_effect_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmnatt004gntr"></a></p>
   <p id="idMedHmnatt004sptr">specific-tree::
     <br>* McshEngl.medication_side_effect.specific,
@@ -245,7 +245,7 @@
   <p id="idMedHmnatt008gntr">generic-tree::
     <br>* McshEngl.medication'part_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmnatt008gntr"></a></p>
   <p id="idMedHmnatt008sptr">specific-tree::
     <br>* McshEngl.medication'part.specific,
@@ -365,7 +365,7 @@
   <p id="idMedHmnatt013gntr">generic-tree::
     <br>* McshEngl.medication_dosage_form_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmnatt013gntr"></a></p>
   <p id="idMedHmnatt013sptr">specific-tree::
     <br>* McshEngl.medication_dosage_form.specific,
@@ -641,9 +641,10 @@
     <br>* McshEngl.medication_Gntr,
     <br>===
     <br>* drug_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* substanceHlth_Gntr,
+    <br>* substanceHumn_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmngntr"></a></p>
-
   <p id="idMedHmnsptr">specific-tree::
     <br>* McshEngl.medication.specific,
     <br>* McshEngl.medication_Sptr,
@@ -719,6 +720,12 @@
     <br>* McshEngl.medication.antimicrobial-030!⇒MdtnAntimicrobial,
     <br>* McshEngl.antimicrobial-medication-030!⇒MdtnAntimicrobial,
     <a class="clsHide" href="#idMedHmn030nam"></a></p>
+  <p id="idMedHmn030sptr">specific-tree::
+    <br>* McshEngl.MdtnAntimicrobial.specific,
+    <br>* McshEngl.MdtnAntimicrobial_Sptr,
+    <br>===
+    <br>* MdtnAntibiotic!@McshHlth000014#idMedHmn004,
+    <a class="clsHide" href="#idMedHmn030sptr"></a></p>
   </section>
 
   <section id="idMedHmn004">
@@ -786,7 +793,7 @@
     <br>* McshEngl.antibiotic_Gntr,
     <br>===
     <br>* antimicrobial!@McshHlth000014#idMedHmn030,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmn004gntr"></a></p>
   <p id="idMedHmn004sptr">specific-tree::
     <br>* McshEngl.MdtnAntibiotic.specific,
@@ -877,7 +884,7 @@
     <br>* McshEngl.MdtnAntiviral_Gntr,
     <br>===
     <br>* antimicrobial-medication,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmn029gntr"></a></p>
   <p id="idMedHmn029sptr">specific-tree::
     <br>* McshEngl.MdtnAntiviral.specific,
@@ -1071,7 +1078,7 @@
   <p id="idMedHmn006gntr">generic-tree::
     <br>* McshEngl.MdtnPsychiatric_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmn006gntr"></a></p>
   <p id="idMedHmn006sptr">specific-tree::
     <br>* McshEngl.MdtnPsychiatric.specific,
@@ -1325,7 +1332,7 @@
   <p id="idMedHmn001gntr">generic-tree::
     <br>* McshEngl.MdtnAntidepressant_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmn001gntr"></a></p>
   <p id="idMedHmn001sptr">specific-tree::
     <br>* McshEngl.MdtnAntidepressant.specific,
@@ -1384,7 +1391,7 @@
   <p id="idMedAsktcgntr">generic-tree::
     <br>* McshEngl.MdtnAntipsychotic_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedAsktcgntr"></a></p>
   <p id="idMedAsktcsptr">specific-tree::
     <br>* McshEngl.MdtnAntipsychotic.specific,
@@ -1499,8 +1506,7 @@
   <p id="idMedHmn026gntr">generic-tree::
     <br>* McshEngl.MdtnHomeopathic_Gntr,
     <br>===
-    <br>*
-    <br>* entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmn026gntr"></a></p>
   <p id="idMedHmn026sptr">specific-tree::
     <br>* McshEngl.MdtnHomeopathic.specific,
@@ -1766,7 +1772,7 @@
   <p id="idMedHmn008gntr">generic-tree::
     <br>* McshEngl.MdtnCholesterol_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmn008gntr"></a></p>
   <p id="idMedHmn008sptr">specific-tree::
     <br>* McshEngl.MdtnCholesterol.specific,
@@ -2023,7 +2029,7 @@
   <p id="idMedHmn012Idcngntr">generic-tree::
     <br>* McshEngl.MdtnMinocycline'indication_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmn012Idcngntr"></a></p>
   <p id="idMedHmn012Idcnsptr">specific-tree::
     <br>* McshEngl.MdtnMinocycline'indication.specific,
@@ -2092,8 +2098,10 @@
   <p id="idMedHmn014gntr">generic-tree::
     <br>* McshEngl.vaccine_Gntr,
     <br>===
-    <br>* medication,
-    <br>* ... entity_Gntr,
+    <br>* medication_Gntr,
+    <br>* drug_Gntr,
+    <br>* substanceHlth_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmn014gntr"></a></p>
   <p id="idMedHmn014sptr">specific-tree::
     <br>* McshEngl.vaccine.specific,
@@ -2428,6 +2436,9 @@
     <br>* McshEngl.MdtnClomifen_Gntr,
     <br>===
     <br>* <a class="clsPreview" href="#idOverview">medication</a>,
+    <br>* drug_Gntr,
+    <br>* substanceHlth_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMedHmn025gntr"></a></p>
 
   <section id="idMedHmn025doing">

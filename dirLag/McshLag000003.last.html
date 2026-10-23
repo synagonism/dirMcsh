@@ -86,6 +86,7 @@
     <br>* McshEngl.RltnReferent_Gntr,
     <br>===
     <br>* RltnMapping_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnatt002gntr"></a></p>
   <p id="idInfHmnatt002sptr">specific-tree::
     <br>* true-RltnReferent,
@@ -299,7 +300,7 @@
     <br>===
     <br>* infoBio_Gntr,
     <br>* model!@McshCor000012#idOverview,
-    <br>* entity_Gntr,
+    <br>* entity_Gntr (the-most-generic),
     <a class="clsHide" href="#idInfHmngntr"></a></p>
   <p id="idInfHmnsptr">specific-tree::
     <br>* McshEngl.info.specific,
@@ -307,6 +308,8 @@
     <br>===
     <br>* brain-info!@McshLag000003#idInfHmnBrn,
     <br>* brainNo-info!@McshLag000003#idInfHmnBrnN,
+    <br>===
+    <br>* law!@McshStnlaw000002,
     <a class="clsHide" href="#idInfHmnsptr"></a></p>
   </section>
 
@@ -358,7 +361,9 @@
     <br>* McshEngl.infoBrain_Gntr,
     <br>===
     <br>* info_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* infoBio_Gntr,
+    <br>* model_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrngntr"></a></p>
   <p id="idInfHmnBrnsptr">specific-tree::
     <br>* McshEngl.infoBrain.specific,
@@ -413,7 +418,9 @@
     <br>* McshEngl.infoBrainInsd_Gntr,
     <br>===
     <br>* infoBrainInBio_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* infoBrainBio_Gntr,
+    <br>* infoBio_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn001gntr"></a></p>
   <p id="idInfHmnBrn001sptr">specific-tree::
     <br>* McshEngl.infoBrainInsd.specific,
@@ -481,7 +488,9 @@
     <br>* McshEngl.sensation_Gntr,
     <br>===
     <br>* infoBrain_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* info_Gntr,
+    <br>* infoBio_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn001Sstngntr"></a></p>
   <p id="idInfHmnBrn001Sstnsptr">specific-tree::
     <br>* McshEngl.sensation.specific,
@@ -530,7 +539,9 @@
     <br>* McshEngl.preconcept_Gntr,
     <br>===
     <br>* infoBrain_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* info_Gntr,
+    <br>* infoBio_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn001Pcptgntr"></a></p>
   <p id="idInfHmnBrn001Pcptsptr">specific-tree::
     <br>* McshEngl.preconcept.specific,
@@ -628,7 +639,8 @@
     <br>* McshEngl.nameMind_Gntr,
     <br>===
     <br>* name_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* Hmnmnode_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn001Mcptmdnmgntr"></a></p>
   </section>
 
@@ -701,7 +713,9 @@
     <br>* McshEngl.cptMind_Gntr,
     <br>===
     <br>* concept_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* model_Gntr,
+    <br>* system_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn001Mcptgntr"></a></p>
   <p id="idInfHmnBrn001Mcptsptr">specific-tree::
     <br>* McshEngl.cptMind.specific,
@@ -844,12 +858,16 @@
     <br>* McshEngl.viewMind_Gntr,
     <br>===
     <br>* model_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* system_Gntr,
+    <br>* whole_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnMind002gntr"></a></p>
   <p id="idInfHmnMind002sptr">specific-tree::
     <br>* McshEngl.viewMind.specific,
     <br>* McshEngl.viewMind_Sptr,
     <br>===
+    <br>===
+    <br>* HmnmMindView!@McshLag000007#idLHmnmipt1,
     <a class="clsHide" href="#idInfHmnMind002sptr"></a></p>
   </section>
 
@@ -916,7 +934,9 @@
     <br>* McshEngl.infoBrainOtsd_Gntr,
     <br>===
     <br>* infoBrainBioSenso_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* infoBrainBio_Gntr,
+    <br>* infoBio_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn002gntr"></a></p>
   </section>
 
@@ -1006,7 +1026,9 @@
     <br>* McshEngl.concept_Gntr,
     <br>===
     <br>* model_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* system_Gntr,
+    <br>* whole_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn004gntr"></a></p>
   <p id="idInfHmnBrn004sptr">specific-tree::
     <br>* McshEngl.concept.specific,
@@ -1043,7 +1065,7 @@
     <br>* McshEngl.viewBrain_Gntr,
     <br>===
     <br>* thoughtBio_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn005gntr"></a></p>
   </section>
 
@@ -1206,7 +1228,7 @@
   <p id="idWldvgntr">generic-tree::
     <br>* McshEngl.worldview_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idWldvgntr"></a></p>
   <p id="idWldvsptr">specific-tree::
     <br>* McshEngl.worldview.specific,
@@ -1348,6 +1370,9 @@
   <p id="idWldv003sptr">specific-tree::
     <br>* <a class="clsPreview" href="#idWldv007">worldviewLogo</a>,
     <br>* <a class="clsPreview" href="../dirCor/McshCor000002.last.html#idMcswv">worldviewSensoMind</a>,
+    <br>===
+    <br>* Mws!@Mcsh000000,
+    <br>* Mcswv!@McshCor000002#idMcswv,
     <a class="clsHide" href="#idWldv003sptr"></a></p>
   </section>
 
@@ -1411,13 +1436,15 @@
     <br>* McshEngl.worldviewMind_Gntr,
     <br>===
     <br>* worldview_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idWldv005gntr"></a></p>
   <p id="idWldv005sptr">specific-tree::
     <br>* McshEngl.worldviewMind.specific,
     <br>* McshEngl.worldviewMind_Sptr,
     <br>===
     <br>* worldviewMind.unconscious!@McshLag000003#idWldv013,
+    <br>===
+    <br>* Mws!@Mcsh000000,
     <a class="clsHide" href="#idWldv005sptr"></a></p>
   </section>
 
@@ -1491,6 +1518,12 @@
     <br>* McshEngl.worldview.008-machine-readable!⇒worldviewMachine_readable,
     <br>* McshEngl.machine-readable-worldview!⇒worldviewMachine_readable,
     <a class="clsHide" href="#idWldv008nam"></a></p>
+  <p id="idWldv008sptr">specific-tree::
+    <br>* McshEngl.worldviewMachine_readable.specific,
+    <br>* McshEngl.worldviewMachine_readable_Sptr,
+    <br>===
+    <br>* Mws!@Mcsh000000,
+    <a class="clsHide" href="#idWldv008sptr"></a></p>
   </section>
 
   <section id="idWldv009">
@@ -1553,6 +1586,12 @@
     <br>* McshEngl.worldview.012-monosemantic!⇒worldviewMonosemantic,
     <br>* McshEngl.monosemantic-worldview!⇒worldviewMonosemantic,
     <a class="clsHide" href="#idWldv012nam"></a></p>
+  <p id="idWldv012sptr">specific-tree::
+    <br>* McshEngl.worldviewMonosemantic.specific,
+    <br>* McshEngl.worldviewMonosemantic_Sptr,
+    <br>===
+    <br>* Mws!@Mcsh000000,
+    <a class="clsHide" href="#idWldv012sptr"></a></p>
   </section>
   </section>
 
@@ -1595,7 +1634,7 @@
   <p id="idInfHmnBrn007gntr">generic-tree::
     <br>* McshEngl.knowledge_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn007gntr"></a></p>
   <p id="idInfHmnBrn007sptr">specific-tree::
     <br>* McshEngl.knowledge.specific,
@@ -1720,7 +1759,7 @@
   <p id="idInfHmnBrn010gntr">generic-tree::
     <br>* McshEngl.infoData_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnBrn010gntr"></a></p>
   <p id="idInfHmnBrn010sptr">specific-tree::
     <br>* McshEngl.infoData.specific,
@@ -1834,7 +1873,7 @@
   <p id="idInfHmnSrlgntr">generic-tree::
     <br>* McshEngl.infoSenso_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnSrlgntr"></a></p>
   <p id="idInfHmnSrlsptr">specific-tree::
     <br>* McshEngl.infoSenso.specific,
@@ -1881,7 +1920,7 @@
     <br>* McshEngl.doc_Gntr,
     <br>===
     <br>* infoSenso_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idInfHmnSrl001gntr"></a></p>
   <p id="idInfHmnSrl001sptr">specific-tree::
     <br>* McshEngl.doc.specific,

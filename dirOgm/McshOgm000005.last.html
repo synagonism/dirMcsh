@@ -193,7 +193,7 @@
   <p id="idSysMolsOgmgntr">generic-tree::
     <br>* McshEngl.SystMolsOgsm_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsOgmgntr"></a></p>
   <p id="idSysMolsOgmsptr">specific-tree::
     <br>* McshEngl.SystMolsOgsm.specific,
@@ -236,7 +236,9 @@
     <br>* McshEngl.SystMolsHumn_Gntr,
     <br>===
     <br>* material-body!@McshNtr000002,
-    <br>* ... entity_Gntr,
+    <br>* body_Gntr,
+    <br>* doingNo_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsHmngntr"></a></p>
   <p id="idSysMolsHmnsptr">specific-tree::
     <br>* McshEngl.SystMolsHumn.specific,
@@ -300,7 +302,7 @@
     <br>* McshEngl.substanceHumn_Gntr,
     <br>===
     <br>* substanceMcshNtr000005#idSysMols008,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsHmn027gntr"></a></p>
   <p id="idSysMolsHmn027sptr">specific-tree::
     <br>* McshEngl.substanceHumn.specific,
@@ -378,7 +380,7 @@
   <p id="idSysMolsHmn002gntr">generic-tree::
     <br>* McshEngl.ChmcpdHumn_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsHmn002gntr"></a></p>
   <p id="idSysMolsHmn002sptr">specific-tree::
     <br>* McshEngl.ChmcpdHumn.specific,
@@ -524,7 +526,7 @@
     <br>===
     <br>* entity.body.product⧺cptEpistem475.371⧺,
     <br>* substanceHumn_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsHmn004gntr"></a></p>
   <p id="idSysMolsHmn004sptr">specific-tree::
     <br>* McshEngl.BodyHumn'product.specific,
@@ -535,6 +537,9 @@
     <br>* excrement!@McshOgm000005#idSysMolsHmn021,
     <br>* hormone!@McshOgm000005#idHrmnHmn,
     <br>* urine!@McshOgm000005#idSysMolsHmn022,
+    <br>===
+    <br>* salivaHumn!@McshOgm000005#idSysMolsHmn018,
+    <br>* SystMolsHumnRelsHrmn!@McshOgm000005#idSysMolsHmn016,
     <a class="clsHide" href="#idSysMolsHmn004sptr"></a></p>
   </section>
   </section>
@@ -592,7 +597,7 @@
     <br>* McshEngl.fluidHumn_Gntr,
     <br>===
     <br>* substanceHumn_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idFldHmngntr"></a></p>
   <p id="idFldHmnsptr">specific-tree::
     <br>* McshEngl.fluidHumn.specific,
@@ -687,7 +692,7 @@
   <p id="idSysMolsHmn008gntr">generic-tree::
     <br>* McshEngl.macromoleculeHumn_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsHmn008gntr"></a></p>
   <p id="idSysMolsHmn008sptr">specific-tree::
     <br>* McshEngl.macromoleculeHumn.specific,
@@ -765,7 +770,7 @@
   <p id="idSysMolsHmn013gntr">generic-tree::
     <br>* McshEngl.lipidHumn_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsHmn013gntr"></a></p>
   <p id="idSysMolsHmn013sptr">specific-tree::
     <br>* McshEngl.lipidHumn.specific,
@@ -868,7 +873,7 @@
     <br>* McshEngl.waterHumn_Gntr,
     <br>===
     <br>* fluidHumn_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsHmn015gntr"></a></p>
   </section>
 
@@ -1003,7 +1008,7 @@
     <br>===
     <br>* BodyHumn'product_Gntr,
     <br>* fluidHumn_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsHmn019gntr"></a></p>
   <p id="idSysMolsHmn019sptr">specific-tree::
     <br>* McshEngl.bileHumn.specific,
@@ -1185,8 +1190,10 @@
   <p id="idSysMolsHmn023gntr">generic-tree::
     <br>* McshEngl.antioxidantHumn_Gntr,
     <br>===
-    <br>* chemical-compound,
-    <br>* ... entity_Gntr,
+    <br>* ChmcCpd_Gntr,
+    <br>* MtrlChemical_Gntr,
+    <br>* MtrlSysMols_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMolsHmn023gntr"></a></p>
   <p id="idSysMolsHmn023sptr">specific-tree::
     <br>* McshEngl.antioxidantHumn.specific,
@@ -1234,7 +1241,7 @@
   <p id="idHrmnOgmgntr">generic-tree::
     <br>* McshEngl.hormoneOgsm_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHrmnOgmgntr"></a></p>
   <p id="idHrmnOgmsptr">specific-tree::
     <br>* McshEngl.hormoneOgsm.specific,
@@ -1449,7 +1456,7 @@
     <br>===
     <br>* animal-hormone,
     <br>* BodyHumn'product_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHrmnHmngntr"></a></p>
   <p id="idHrmnHmnsptr">specific-tree::
     <br>* McshEngl.hormoneHumn.specific,
@@ -1650,7 +1657,7 @@
     <br>* McshEngl.hormonePeptide_Gntr,
     <br>===
     <br>* hormone,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHrmnHmn032gntr"></a></p>
   <p id="idHrmnHmn032sptr">specific-tree::
     <br>* McshEngl.HrmnHumnPeptide.specific,
@@ -2804,7 +2811,7 @@
     <br>* McshEngl.HrmnHumnMale_Gntr,
     <br>===
     <br>* hormoneHumn_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHrmnHmn002gntr"></a></p>
   <p id="idHrmnHmn002sptr">specific-tree::
     <br>* McshEngl.HrmnHumnMale.specific,
@@ -2924,10 +2931,10 @@
     <br>* McshEngl.HrmnAndrogen_Gntr,
     <br>===
     <br>* hormoneSex-steroid,
-    <br>* medication,
+    <br>* medication_Gntr,
     <br>* hormoneHumn_Gntr,
     <br>* HrmnHumnMale_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHrmnHmn003gntr"></a></p>
   <p id="idHrmnHmn003sptr">specific-tree::
     <br>* McshEngl.HrmnAndrogen.specific,
@@ -3686,8 +3693,9 @@
     <br>* McshEngl.bloodHumn_Gntr,
     <br>===
     <br>* TissConnective_Gntr,
+    <br>* TissSkeletal_Gntr,
     <br>* tissue_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <br>===
     <br>"το αίμα είναι ένα ειδικό είδος συνδετικού ιστού"
     <br>[Αργύρης, {1994}, 48⧺cptRsc29⧺]

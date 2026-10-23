@@ -200,6 +200,12 @@
     <br>====== lagoGreek:
     <br>* McshElln.κόμβος-συστήματος!=Sysnode,
     <a class="clsHide" href="#idSysnodeFnam"></a></p>
+  <p id="idSysnodeFsptr">specific-tree::
+    <br>* McshEngl.Sysnode.specific,
+    <br>* McshEngl.Sysnode_Sptr,
+    <br>===
+    <br>* nodeBodyHumn!@McshHlth000002#idBdyHmnatt002,
+    <a class="clsHide" href="#idSysnodeFsptr"></a></p>
   </section>
 
   <section id="idSysndrn">
@@ -380,6 +386,7 @@
     <br>* McshEngl.system_Gntr,
     <br>===
     <br>* whole-entity!@McshCor000008,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysgntr"></a></p>
   <p id="idSyssptr">specific-tree::
     <br>* McshEngl.system.specific,
@@ -405,6 +412,8 @@
     <br>===
     <br>* open-system,
     <br>* openNo-system,
+    <br>===
+    <br>* model!@McshCor000012,
     <a class="clsHide" href="#idSyssptr"></a></p>
   </section>
 
@@ -680,7 +689,7 @@
   <p id="idSys001ordrgntr">generic-tree::
     <br>* McshEngl.order_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSys001ordrgntr"></a></p>
   <p id="idSys001ordrsptr">specific-tree::
     <br>* McshEngl.order.specific,
@@ -1378,7 +1387,7 @@
   <p id="idSys001ordrRlvgntr">generic-tree::
     <br>* McshEngl.order.relative_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSys001ordrRlvgntr"></a></p>
   <p id="idSys001ordrRlvsptr">specific-tree::
     <br>* McshEngl.order.relative.specific,
@@ -1657,7 +1666,7 @@
   <p id="idSys002nodepthgntr">generic-tree::
     <br>* McshEngl.tree_node_chain_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSys002nodepthgntr"></a></p>
   <p id="idSys002nodepthsptr">specific-tree::
     <br>* McshEngl.tree_node_chain.specific,
@@ -1665,6 +1674,8 @@
     <br>===
     <br>* generic-chain,
     <br>* whole-chain,
+    <br>===
+    <br>* Mcsgenchn!@McshCor000002#idMcsattGncchn,
     <a class="clsHide" href="#idSys002nodepthsptr"></a></p>
   </section>
   </section>
@@ -1682,7 +1693,7 @@
   <p id="idSys002nodegntr">generic-tree::
     <br>* McshEngl.tree_node_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSys002nodegntr"></a></p>
   <p id="idSys002nodesptr">specific-tree::
     <br>* McshEngl.tree_node.specific,
@@ -1875,7 +1886,7 @@
   <p id="idSys002nodeLvlgntr">generic-tree::
     <br>* McshEngl.tree_level_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSys002nodeLvlgntr"></a></p>
   <p id="idSys002nodeLvlsptr">specific-tree::
     <br>* McshEngl.tree_level.specific,
@@ -2065,7 +2076,8 @@
     <br>* McshEngl.systTree_Gntr,
     <br>===
     <br>* system_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* whole_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSys002gntr"></a></p>
   <p id="idSys002sptr">specific-tree::
     <br>* McshEngl.systTree.specific,
@@ -2146,7 +2158,7 @@
   <p id="idSys002Gcscgntr">generic-tree::
     <br>* McshEngl.treeGnsp_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSys002Gcscgntr"></a></p>
   <p id="idSys002Gcscsptr">specific-tree::
     <br>* McshEngl.treeGnsp.specific,
@@ -2516,34 +2528,60 @@
     </h1>
   <p id="idSys009dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· dynamic-system is <a class="clsPreview" href="#idOverview">a-system</a> that <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idEntevog">evolves</a>.
+    <br>· dynamic-system is a-system that has doings.
     <a class="clsHide" href="#idSys009dsn"></a></p>
   <p id="idSys009nam">name::
-    <br>* McshEngl.dynamic-system!⇒SystDynamic,
-    <br>* McshEngl.SystDynamic!=dynamic-system,
-    <br>* McshEngl.system.009-dynamic!⇒SystDynamic,
-    <br>* McshEngl.system.dynamic-009!⇒SystDynamic,
-    <br>* McshEngl.dynamical-system!⇒SystDynamic,
+    <br>* McshEngl.dynamic-system!⇒SystDyna,
+    <br>* McshEngl.SystDyna!=dynamic-system,
+    <br>* McshEngl.system.009-dynamic!⇒SystDyna,
+    <br>* McshEngl.system.dynamic-009!⇒SystDyna,
+    <br>* McshEngl.dynamical-system!⇒SystDyna,
     <a class="clsHide" href="#idSys009nam"></a></p>
 
+  <section id="idSys009att002">
+  <h2 id="idSys009att002H2">health of SystDyna
+    </h2>
+  <p id="idSys009att002dsn">description::
+    <br>× Mcsh-creation: {2026-10-22}
+    <br>"In the context of dynamic systems theory, the "health" of a system is not merely the absence of failure, but rather its **capacity for adaptive, flexible, and resilient functioning in response to internal and external disturbances**. A healthy dynamic system is characterized by organized complexity, high variability, and the ability to maintain stability through change (homeostasis) while avoiding rigid order or chaotic breakdown.
+    <br>### Core Characteristics of a Healthy Dynamic System
+    <br>Based on research in physiology, complex adaptive systems, and systems science, a healthy dynamic system typically exhibits the following traits:
+    <br>*   **Organized Complexity and Variability**: A hallmark of health is the presence of complex, irregular, and multi-scale fluctuations in the system's output. For instance, a healthy heart rate is not perfectly regular; it exhibits constant beat-to-beat variability reflecting the interplay of multiple regulatory processes. Loss of this complexity—leading to either excessively rigid regularity or chaotic randomness—is often a sign of aging, disease, or system failure.
+    <br>*   **Adaptive Capacity and Resilience**: Health is defined by the system's ability to adapt to perturbations. A healthy system possesses a "reservoir of correcting responses" (Ashby's Law of Requisite Variety) to meet challenges. When perturbed, it can evoke closed-loop responses to restore equilibrium, a process sometimes called "reactive tuning," which transiently shifts the system's dynamics to cope with stress before returning to a baseline of complex variability.
+    <br>*   **Emergent Optimization**: In complex adaptive systems (like the human body or a society), health is viewed as an emergent property. It is the output of an optimized system where diverse components interact through feedback loops to create value and sustain the system as a whole. Health is not localized in one part but arises from the quality of relationships and communication across the system.
+    <br>*   **Dynamic Equilibrium (Attractor State)**: Rather than a single fixed point, health can be modeled as a "chaotic attractor" or a dynamic equilibrium in a phase space. The system continuously moves but remains within a basin of attraction that defines its healthy range. Illness or disease corresponds to a shift in the system's dynamics toward a different, less optimal attractor pattern.
+    <br>### Distinguishing Health from Pathology
+    <br>In dynamic systems terms, the transition from health to disease is often characterized by a **loss of complexity and adaptability**:
+    <br>*   **Loss of Variability**: Diseases such as diabetes, depression, and heart failure are frequently associated with reduced heart rate variability and a narrowing of the system's spectral power, indicating a diminished capacity to adapt.
+    <br>*   **Loss of Flexibility**: An unhealthy system may become trapped in a rigid pattern of behavior (loss of "uncommitted potentiality for change") or, conversely, lose its stability entirely and descend into chaos. A healthy system maintains a balance between stability and flexibility, allowing it to respond to novelty without losing its structural integrity.
+    <br>In summary, the health of a dynamic system is its **emergent capacity for resilient, adaptive self-regulation**, manifested through complex variability and the ability to return to a functional attractor state after disturbance."
+    <br>[{2026-10-22 retrieved} https://chat.deepseek.com/a/chat/s/829f7657-2d5c-4a46-a8a2-548e4759f00e]
+    <a class="clsHide" href="#idSys009att002dsn"></a></p>
+  <p id="idSys009att002nam">name::
+    <br>* McshEngl.health-of-SystDyna!⇒healthSystDyna,
+    <br>* McshEngl.healthSystDyna!=health-of-SystDyna,
+    <br>* McshEngl.SystDyna'health!⇒healthSystDyna,
+    <a class="clsHide" href="#idSys009att002nam"></a></p>
+  </section>
+
   <section id="idSys009att001">
-  <h2 id="idSys009att001H2">managing-system of SystDynamic (<a class="clsPreview" href="../dirCor/McshCor000011.last.html#idSysMng">link</a>)
+  <h2 id="idSys009att001H2">managing-system of SystDyna (<a class="clsPreview" href="../dirCor/McshCor000011.last.html#idSysMng">link</a>)
     </h2>
   </section>
 
   <section id="idSys009irsc">
-  <h2 id="idSys009rscFH2">info-resource of SystDynamic
+  <h2 id="idSys009rscFH2">info-resource of SystDyna
     </h2>
   <p id="idSys009rscFdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* http://www.scholarpedia.org/article/Encyclopedia_of_dynamical_systems,
     <a class="clsHide" href="#idSys009rscFdsn"></a></p>
   <p id="idSys009rscFnam">name::
-    <br>* McshEngl.SystDynamic'info-resource,
+    <br>* McshEngl.SystDyna'info-resource,
     <a class="clsHide" href="#idSys009rscFnam"></a></p>
 
   <section id="idSys009att003">
-  <h3 id="idSys009att003H3">dynamical-systems-theory of SystDynamic
+  <h3 id="idSys009att003H3">dynamical-systems-theory of SystDyna
     </h3>
   <p id="idSys009att003dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2554,14 +2592,14 @@
     <a class="clsHide" href="#idSys009att003dsn"></a></p>
   <p id="idSys009att003nam">name::
     <br>* McshEngl.dynamical-systems-theory,
-    <br>* McshEngl.SystDynamic'att003-dynamical-systems-theory,
-    <br>* McshEngl.SystDynamic'dynamical-systems-theory,
-    <br>* McshEngl.SystDynamic'info-resource'dynamical-systems-theory,
+    <br>* McshEngl.SystDyna'att003-dynamical-systems-theory,
+    <br>* McshEngl.SystDyna'dynamical-systems-theory,
+    <br>* McshEngl.SystDyna'info-resource'dynamical-systems-theory,
     <a class="clsHide" href="#idSys009att003nam"></a></p>
   </section>
 
   <section id="idSys009att004">
-  <h3 id="idSys009att004H3">dynamical-systems-theory of SystDynamic
+  <h3 id="idSys009att004H3">dynamical-systems-theory of SystDyna
     </h3>
   <p id="idSys009att004dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2570,43 +2608,43 @@
     <a class="clsHide" href="#idSys009att004dsn"></a></p>
   <p id="idSys009att004nam">name::
     <br>* McshEngl.SD-system-dynamics,
-    <br>* McshEngl.SystDynamic'att004-system-dynamics,
-    <br>* McshEngl.SystDynamic'system-dynamics,
+    <br>* McshEngl.SystDyna'att004-system-dynamics,
+    <br>* McshEngl.SystDyna'system-dynamics,
     <br>* McshEngl.system-dynamics-SD,
-    <br>* McshEngl.SystDynamic'info-resource'dynamical-systems-theory,
-    <br>* McshEngl.SystDynamic'dynamical-systems-theory,
+    <br>* McshEngl.SystDyna'info-resource'dynamical-systems-theory,
+    <br>* McshEngl.SystDyna'dynamical-systems-theory,
     <a class="clsHide" href="#idSys009att004nam"></a></p>
   </section>
   </section>
 
   <section id="idSys009srtrF">
-  <h2 id="idSys009srtrFH2">structure of SystDynamic
+  <h2 id="idSys009srtrFH2">structure of SystDyna
     </h2>
   <p id="idSys009srtrFdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· structure of SystDynamic
+    <br>· structure of SystDyna
     <a class="clsHide" href="#idSys009srtrFdsn"></a></p>
   <p id="idSys009srtrFnam">name::
-    <br>* McshEngl.SystDynamic'structure,
+    <br>* McshEngl.SystDyna'structure,
     <a class="clsHide" href="#idSys009srtrFnam"></a></p>
 
   <section id="idSys009att002">
-  <h3 id="idSys009att002H3">state of SystDynamic
+  <h3 id="idSys009att002H3">state of SystDyna
     </h3>
   <p id="idSys009att002dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· state-of-SystDynamic is its structure at a-time-point.
+    <br>· state-of-SystDyna is its structure at a-time-point.
     <a class="clsHide" href="#idSys009att002dsn"></a></p>
   <p id="idSys009att002nam">name::
-    <br>* McshEngl.SystDynamic'att002-state,
-    <br>* McshEngl.SystDynamic'state,
-    <br>* McshEngl.SystDynamic'structure'state,
+    <br>* McshEngl.SystDyna'att002-state,
+    <br>* McshEngl.SystDyna'state,
+    <br>* McshEngl.SystDyna'structure'state,
     <a class="clsHide" href="#idSys009att002nam"></a></p>
   </section>
   </section>
 
   <section id="idSys009dong">
-  <h2 id="idSys009dongH2">DOING of SystDynamic
+  <h2 id="idSys009dongH2">DOING of SystDyna
     </h2>
   <p id="idSys009dongdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2614,66 +2652,69 @@
     <br>* evoluting,
     <a class="clsHide" href="#idSys009dongdsn"></a></p>
   <p id="idSys009dongnam">name::
-    <br>* McshEngl.SystDynamic'doing,
-    <br>* McshEngl.behavior!⇒SystDynamic'doing,
-    <br>* McshEngl.SystDynamic'behavior!⇒SystDynamic'doing,
+    <br>* McshEngl.SystDyna'doing,
+    <br>* McshEngl.behavior!⇒SystDyna'doing,
+    <br>* McshEngl.SystDyna'behavior!⇒SystDyna'doing,
     <a class="clsHide" href="#idSys009dongnam"></a></p>
   </section>
 
   <section id="idSys009evog">
-  <h2 id="idSys009evogH2">evoluting of SystDynamic
+  <h2 id="idSys009evogH2">evoluting of SystDyna
     </h2>
   <p id="idSys009evogdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· evoluting of SystDynamic.
+    <br>· evoluting of SystDyna.
     <a class="clsHide" href="#idSys009evogdsn"></a></p>
   <p id="idSys009evognam">name::
-    <br>* McshEngl.evoluting-of-SystDynamic,
-    <br>* McshEngl.SystDynamic'evoluting,
+    <br>* McshEngl.evoluting-of-SystDyna,
+    <br>* McshEngl.SystDyna'evoluting,
     <a class="clsHide" href="#idSys009evognam"></a></p>
   </section>
 
   <section id="idSys009gstr">
-  <h2 id="idSys009gstrH2">GENERIC-SPECIFIC-TREE of SystDynamic
+  <h2 id="idSys009gstrH2">GENERIC-SPECIFIC-TREE of SystDyna
     </h2>
   <p id="idSys009gstrdsn">description::
     <br>× Mcsh-creation: {2026-04-30}
     <br>· generic specific relations.
     <a class="clsHide" href="#idSys009gstrdsn"></a></p>
   <p id="idSys009gstrnam">name::
-    <br>* McshEngl.SystDynamic'generic-specific-tree,
-    <br>* McshEngl.SystDynamic'specific-generic-tree,
+    <br>* McshEngl.SystDyna'generic-specific-tree,
+    <br>* McshEngl.SystDyna'specific-generic-tree,
     <a class="clsHide" href="#idSys009gstrnam"></a></p>
   <p id="idSys009gntr">generic-tree::
     <br>* McshEngl.SystDynamic_Gntr,
     <br>===
     <br>* system_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* whole_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSys009gntr"></a></p>
   <p id="idSys009sptr">specific-tree::
-    <br>* McshEngl.SystDynamic.specific,
+    <br>* McshEngl.SystDyna.specific,
     <br>* McshEngl.SystDynamic_Sptr,
     <br>===
-    <br>* self-SystDynamic,
-    <br>* selfNo-SystDynamic,
+    <br>* self-SystDyna,
+    <br>* selfNo-SystDyna,
     <br>===
-    <br>* bio-SystDynamic,
-    <br>* bioNo-SystDynamic,
+    <br>* bio-SystDyna,
+    <br>* bioNo-SystDyna,
     <br>===
     <br>* machine,
+    <br>===
+    <br>* SystNet!@McshCor000014,
     <a class="clsHide" href="#idSys009sptr"></a></p>
   </section>
 
   <section id="idSys009spc001">
-  <h2 id="idSys009spc001H2">SystDynamic.self-001
+  <h2 id="idSys009spc001H2">SystDyna.self-001
     </h2>
   <p id="idSys009spc001dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· self-dynamic-system is <a class="clsPreview" href="#idSys009">a-dynamic-system</a> that evolves by itself.
     <a class="clsHide" href="#idSys009spc001dsn"></a></p>
   <p id="idSys009spc001nam">name::
-    <br>* McshEngl.SystDynamic.001-self,
-    <br>* McshEngl.SystDynamic.self-001,
+    <br>* McshEngl.SystDyna.001-self,
+    <br>* McshEngl.SystDyna.self-001,
     <br>* McshEngl.self-dynamic-system,
     <br>* McshEngl.self-organized-system,
     <a class="clsHide" href="#idSys009spc001nam"></a></p>
@@ -2685,15 +2726,15 @@
   </section>
 
   <section id="idSys009spc002">
-  <h2 id="idSys009spc002H2">SystDynamic.selfNo-002
+  <h2 id="idSys009spc002H2">SystDyna.selfNo-002
     </h2>
   <p id="idSys009spc002dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· self-dynamic-system is <a class="clsPreview" href="#idSys009">a-dynamic-system</a> that evolves with the-help of external entity.
     <a class="clsHide" href="#idSys009spc002dsn"></a></p>
   <p id="idSys009spc002nam">name::
-    <br>* McshEngl.SystDynamic.002-selfNo,
-    <br>* McshEngl.SystDynamic.selfNo-002,
+    <br>* McshEngl.SystDyna.002-selfNo,
+    <br>* McshEngl.SystDyna.selfNo-002,
     <a class="clsHide" href="#idSys009spc002nam"></a></p>
   </section>
   </section>
@@ -2757,8 +2798,8 @@
     <br>* McshEngl.management-system!⇒Mnggsyst,
     <br>* McshEngl.system.013-managing!⇒Mnggsyst,
     <br>* McshEngl.system.managing-013!⇒Mnggsyst,
-    <br>* McshEngl.SystDynamic'att001-managing-sys!⇒Mnggsyst,
-    <br>* McshEngl.SystDynamic'managing-sys!⇒Mnggsyst,
+    <br>* McshEngl.SystDyna'att001-managing-sys!⇒Mnggsyst,
+    <br>* McshEngl.SystDyna'managing-sys!⇒Mnggsyst,
     <br>* McshEngl.SystManaging!⇒Mnggsyst,
     <br>* McshEngl.SystMng!⇒Mnggsyst,
     <br>====== lagoGreek:
@@ -2903,7 +2944,8 @@
     <br>* McshEngl.Mnggsyst_Gntr,
     <br>===
     <br>* system_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* whole_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysMnggntr"></a></p>
   <p id="idSysMngsptr">specific-tree::
     <br>* McshEngl.Mnggsyst.specific,
@@ -2974,6 +3016,8 @@
   <p id="idSysMng004sptr">specific-tree::
     <br>* <a class="clsPreview" href="../dirStn/McshStn000004.last.html#idOverview">governance-system</a>,
     <br>* managing-system-of-organism,
+    <br>===
+    <br>* AdmnSctn!@McshStn000004,
     <a class="clsHide" href="#idSysMng004sptr"></a></p>
 
   <section id="idSysMng004att001">

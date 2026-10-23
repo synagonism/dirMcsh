@@ -223,7 +223,7 @@
     <br>* McshEngl.diagnosis_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn003gntr"></a></p>
   <p id="idDssHmn003sptr">specific-tree::
     <br>* McshEngl.diagnosis.specific,
@@ -439,7 +439,7 @@
   <p id="idDssHmn005Fgntr">generic-tree::
     <br>* McshEngl.Dissprotection_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn005Fgntr"></a></p>
   <p id="idDssHmn005Fsptr">specific-tree::
     <br>* McshEngl.Dissprotection.specific,
@@ -672,24 +672,24 @@
   <p id="idDssHmngntr">generic-tree::
     <br>* McshEngl.disease_Gntr,
     <br>===
-    <br>* disease-of-organism,
+    <br>* DissOgsm_Gntr,
     <br>* disorderBio_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <br>=== sibling-of-disease:
     <br>* wellness!@McshHlth000008#idHlthHmnatt003,
     <br>=== att-tree-of-disease:
     <br>* symptom,
     <br>* cause,
-    <br>* diagnosis,
-    <br>* therapy,
+    <br>* diagnosis_Gntr,
+    <br>* therapy_Gntr,
     <br>* protection,
     <br>* diet,
     <br>* stats,
     <br>* resource,
-    <br>* doing,
-    <br>* evoluting,
+    <br>* doing_Gntr,
+    <br>* Enttevlg_Gntr,
     <br>=== att-own-of-disease:
-    <br>* therapy,
+    <br>* therapy_Gntr,
     <a class="clsHide" href="#idDssHmngntr"></a></p>
   <p id="idDssHmnsptr">specific-tree::
     <br>* McshEngl.disease.specific,
@@ -702,6 +702,8 @@
     <br>===
     <br>* infectious-disease!@McshHlth000011#idDssHmn001,
     <br>* infectiousNo-disease!@McshHlth000011#idDssHmn002,
+    <br>===
+    <br>* DissThroatSore!@McshHlth000002#idBdyHmn220,
     <a class="clsHide" href="#idDssHmnsptr"></a></p>
 
   <section id="idDssHmnIcd">
@@ -1204,7 +1206,7 @@
     <br>* McshEngl.DissInfectious_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn001gntr"></a></p>
   <p id="idDssHmn001sptr">specific-tree::
     <br>* McshEngl.DissInfectious.specific,
@@ -1216,6 +1218,8 @@
     <br>===
     <br>""Germ" may refer to not just a bacterium but to any type of microorganism or even non-living pathogen that can cause disease, such as protists, fungi, viruses, prions, or viroids.[1]"
     <br>[{2020-02-22} https://en.wikipedia.org/wiki/Germ_theory_of_disease]
+    <br>===
+    <br>* DissFungal_infection!@McshHlth000011#idDssHmn190,
     <a class="clsHide" href="#idDssHmn001sptr"></a></p>
   </section>
 
@@ -1359,7 +1363,7 @@
     <br>===
     <br>* disease_Gntr,
     <br>* DissInfectious_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn162gntr"></a></p>
   <p id="idDssHmn162sptr">specific-tree::
     <br>* McshEngl.DissViral_infection.specific,
@@ -1577,6 +1581,7 @@
     <br>* McshEngl.DissWound_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn203gntr"></a></p>
 
   <section id="idDssHmn203therapy">
@@ -1637,7 +1642,7 @@
     <br>* McshEngl.DissCauseInternal_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn004gntr"></a></p>
   <p id="idDssHmn004sptr">specific-tree::
     <br>* McshEngl.DissInternal_cause.specific,
@@ -1668,12 +1673,14 @@
     <br>===
     <br>* deficiency,
     <br>* excess,
+    <br>===
+    <br>* DissNutrient!@McshHlth000011#idDssHmn026,
     <a class="clsHide" href="#idDssHmn226sptr"></a></p>
   <p id="idDssHmn226gntr">generic-tree::
     <br>* McshEngl.DissImbalance_Gntr,
     <br>===
     <br>* DissKidney_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn226gntr"></a></p>
   </section>
 
@@ -1742,7 +1749,7 @@
     <br>* McshEngl.DissMusculoskeletal_system_Gntr,
     <br>* McshEngl.DissMusculoskeletalSystem_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn005gntr"></a></p>
   <p id="idDssHmn005sptr">specific-tree::
     <br>* McshEngl.DissMusculoskeletal_system.specific,
@@ -1844,7 +1851,7 @@
     <br>* McshEngl.DissSkeletal_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn005_1gntr"></a></p>
   <p id="idDssHmn005_1sptr">specific-tree::
     <br>* McshEngl.DissSkeletal_system.specific,
@@ -1902,7 +1909,9 @@
     <br>* McshEngl.DissOsteoporosis_Gntr,
     <br>===
     <br>* DissSkeletal_system_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn191gntr"></a></p>
   <p id="idDssHmn191sptr">specific-tree::
     <br>* McshEngl.DissOsteoporosis.specific,
@@ -2169,7 +2178,7 @@
     <br>* McshEngl.DissSystCirculatory_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn032gntr"></a></p>
   <p id="idDssHmn032sptr">specific-tree::
     <br>* McshEngl.DissSystCirculatory.specific,
@@ -2233,6 +2242,14 @@
     <br>* DissUraemia_Gntr,
     <br>* DissSystCirculatory_Gntr,
     <a class="clsHide" href="#idDssHmn057gntr"></a></p>
+  <p id="idDssHmn057sptr">specific-tree::
+    <br>* McshEngl.DissBlood.specific,
+    <br>* McshEngl.DissBlood_Sptr,
+    <br>===
+    <br>* DissHypertension!@McshHlth000011#idDssHmn042,
+    <br>* DissLeucocyte!@McshHlth000011#idDssHmn068,
+    <br>* DissHaemophilia!@McshHlth000011#idDssHmn198,
+    <a class="clsHide" href="#idDssHmn057sptr"></a></p>
   <p id="idDssHmn057wtr">whole-tree-of-DissBlood::
     <br>* <a class="clsPreview" href="#idDssHmn028">blood</a>,
     <br>* McshEngl.DissBlood_Wltr,
@@ -2271,7 +2288,9 @@
     <br>* McshEngl.DissVessel_Gntr,
     <br>===
     <br>* DissSystCirculatory_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn130gntr"></a></p>
   <p id="idDssHmn130sptr">specific-tree::
     <br>* McshEngl.DissVessel.specific,
@@ -2337,7 +2356,9 @@
     <br>* McshEngl.DissBleading_Gntr,
     <br>===
     <br>* DissVessel_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* DissSystCirculatory_Gntr,
+    <br>* disease_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn134gntr"></a></p>
   <p id="idDssHmn134sptr">specific-tree::
     <br>* McshEngl.DissBleading.specific,
@@ -2372,6 +2393,9 @@
     <br>* McshEngl.DissArteriosclerosis_Gntr,
     <br>===
     <br>* DissVessel_Gntr,
+    <br>* DissSystCirculatory_Gntr,
+    <br>* disease_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn033gntr"></a></p>
   <p id="idDssHmn033wtr">whole-tree-of-DissArteriosclerosis::
     <br>* <a class="clsPreview" href="#idDssHmn034">artery</a>,
@@ -2550,7 +2574,9 @@
     <br>* McshEngl.disease.heart_Gntr,
     <br>===
     <br>* DissSystCirculatory_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn047gntr"></a></p>
   <p id="idDssHmn047sptr">specific-tree::
     <br>* McshEngl.disease.heart.specific,
@@ -2595,7 +2621,8 @@
     <br>===
     <br>* disease.heart_Gntr,
     <br>* DissSystCirculatory_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* disease_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn046gntr"></a></p>
   </section>
 
@@ -2630,6 +2657,8 @@
     <br>===
     <br>* disease.heart_Gntr,
     <br>* DissSystCirculatory_Gntr,
+    <br>* disease_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn048gntr"></a></p>
   <p id="idDssHmn048wtr">whole-tree-of-DissHeart_failure::
     <br>* <a class="clsPreview" href="#idDssHmn004">heart</a>,
@@ -2738,6 +2767,12 @@
     <br>* DissBlood_Gntr,
     <br>* DissSystCirculatory_Gntr,
     <a class="clsHide" href="#idDssHmn198gntr"></a></p>
+  <p id="idDssHmn198sptr">specific-tree::
+    <br>* McshEngl.DissHaemophilia.specific,
+    <br>* McshEngl.DissHaemophilia_Sptr,
+    <br>===
+    <br>* DissBlood!@McshHlth000011#idDssHmn057,
+    <a class="clsHide" href="#idDssHmn198sptr"></a></p>
 
   <section id="idDssHmn198infection">
   <h3 id="idDssHmn198infectionH3">infection of DissHemophilia
@@ -2886,6 +2921,9 @@
     <br>* McshEngl.DissThalassemia_Gntr,
     <br>===
     <br>* DissAnemia_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmnAnmThlsmgntr"></a></p>
 
   <section id="idDssHmnAnmThlsmstatistics">
@@ -2941,6 +2979,12 @@
     <br>* DissLeukemia_Gntr,
     <br>* DissSystCirculatory_Gntr,
     <a class="clsHide" href="#idDssHmn068gntr"></a></p>
+  <p id="idDssHmn068sptr">specific-tree::
+    <br>* McshEngl.DissLeucocyte.specific,
+    <br>* McshEngl.DissLeucocyte_Sptr,
+    <br>===
+    <br>* DissLeukemia!@McshHlth000011#idDssHmn069,
+    <a class="clsHide" href="#idDssHmn068sptr"></a></p>
   <p id="idDssHmn068wtr">whole-tree-of-DissLeucocyte::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000004.last.html#idCellHmn019">leucocyte</a>,
     <br>* McshEngl.DissLeucocyte_Wltr,
@@ -3230,7 +3274,8 @@
     <br>===
     <br>* disease.heart_Gntr,
     <br>* DissSystCirculatory_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* disease_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn035gntr"></a></p>
   <p id="idDssHmn035sptr">specific-tree::
     <br>* McshEngl.DissCoronary_artery.specific,
@@ -3412,7 +3457,7 @@
   <p id="idDssHmn006gntr">generic-tree::
     <br>* McshEngl.DissNervous_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn006gntr"></a></p>
   <p id="idDssHmn006sptr">specific-tree::
     <br>* McshEngl.DissNervous.specific,
@@ -3510,6 +3555,12 @@
     <br>* McshEngl.disease.007-integumentary-system!⇒DissIntegumentary_system,
     <br>* McshEngl.disease.integumentary-system-007!⇒DissIntegumentary_system,
     <a class="clsHide" href="#idDssHmn007nam"></a></p>
+  <p id="idDssHmn007sptr">specific-tree::
+    <br>* McshEngl.DissIntegumentary_system.specific,
+    <br>* McshEngl.DissIntegumentary_system_Sptr,
+    <br>===
+    <br>* DissCholesterol!@McshHlth000011#idDssHmn015,
+    <a class="clsHide" href="#idDssHmn007sptr"></a></p>
   </section>
 
   <section id="idDssHmn008">
@@ -3635,7 +3686,7 @@
   <p id="idDssHmn263gntr">generic-tree::
     <br>* McshEngl.DissKidney_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn263gntr"></a></p>
   <p id="idDssHmn263sptr">specific-tree::
     <br>* McshEngl.DissKidney.specific,
@@ -3814,7 +3865,7 @@
   <p id="idDssHmn060gntr">generic-tree::
     <br>* McshEngl.DissFrequent_urination_Gntr,
     <br>===
-    <br>* human-disease,
+    <br>* disease_Gntr,
     <a class="clsHide" href="#idDssHmn060gntr"></a></p>
 
   <section id="idDssHmn060symptom">
@@ -3965,7 +4016,7 @@
   <p id="idDssHmn215gntr">generic-tree::
     <br>* McshEngl.DissTooth_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn215gntr"></a></p>
   <p id="idDssHmn215sptr">specific-tree::
     <br>* McshEngl.DissTooth.specific,
@@ -4157,7 +4208,7 @@
   <p id="idDssHmn065gntr">generic-tree::
     <br>* McshEngl.DissGastroenteritis_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn065gntr"></a></p>
   <p id="idDssHmn065sptr">specific-tree::
     <br>* McshEngl.DissGastroenteritis.specific,
@@ -4593,6 +4644,9 @@
     <br>* McshEngl.DissLeukemia_Gntr,
     <br>===
     <br>* DissLeucocyte_Gntr,
+    <br>* DissBlood_Gntr,
+    <br>* disease_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn069gntr"></a></p>
 
   <section id="idDssHmn069symptom">
@@ -4731,7 +4785,7 @@
   <p id="idDssHmn037gntr">generic-tree::
     <br>* McshEngl.DissSkin_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn037gntr"></a></p>
   <p id="idDssHmn037sptr">specific-tree::
     <br>* McshEngl.DissSkin.specific,
@@ -4772,6 +4826,7 @@
     <br>* McshEngl.DissDermatitis_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn075gntr"></a></p>
   <p id="idDssHmn075P1">therapy::
     <br>× generic: <a class="clsPreview" href="../dirHlth/McshHlth000016.last.html#idOverview">therapy</a>
@@ -6004,7 +6059,7 @@
   <p id="idDssHmn052gntr">generic-tree::
     <br>* McshEngl.DissCancer_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn052gntr"></a></p>
   <p id="idDssHmn052sptr">specific-tree::
     <br>* McshEngl.DissCancer.specific,
@@ -6343,7 +6398,7 @@
     <br>* McshEngl.DissCancerSkin_Gntr,
     <br>===
     <br>* DissCancer_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn106gntr"></a></p>
   <p id="idDssHmn106sptr">specific-tree::
     <br>* McshEngl.DissCancer.skin.specific,
@@ -6451,7 +6506,7 @@
     <br>* McshEngl.DissEye_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn096gntr"></a></p>
   <p id="idDssHmn096sptr">specific-tree::
     <br>* McshEngl.DissEye.specific,
@@ -6531,6 +6586,9 @@
     <br>* McshEngl.DissCatarract_Gntr,
     <br>===
     <br>* DissEye_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn097gntr"></a></p>
   <p id="idDssHmn097wtr">whole-tree-of-DissCatarract::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -6571,6 +6629,9 @@
     <br>* McshEngl.DissAstigmatism_Gntr,
     <br>===
     <br>* DissEye_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn111gntr"></a></p>
   <p id="idDssHmn111wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">ματι</a>,
@@ -6598,6 +6659,9 @@
     <br>* McshEngl.DissPresbyopia_Gntr,
     <br>===
     <br>* DissEye_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn117gntr"></a></p>
   <p id="idDssHmn117wtr">whole-tree-of-DissPresbyopia::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -6638,6 +6702,9 @@
     <br>* McshEngl.DissHypermetropia_Gntr,
     <br>===
     <br>* DissEye_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn118gntr"></a></p>
   <p id="idDssHmn118wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -6672,6 +6739,9 @@
     <br>* McshEngl.DissMyopia_Gntr,
     <br>===
     <br>* DissEye_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn119gntr"></a></p>
   <p id="idDssHmn119wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -6717,6 +6787,9 @@
     <br>* McshEngl.DissSquint_Gntr,
     <br>===
     <br>* DissEye_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn110gntr"></a></p>
   <p id="idDssHmn110wholewtr">whole-tree-of-DissSquint::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -6893,7 +6966,7 @@
     <br>* McshEngl.DissMental_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn108gntr"></a></p>
   <p id="idDssHmn108sptr">specific-tree::
     <br>* McshEngl.DissMental.specific,
@@ -7473,7 +7546,7 @@
   <p id="idDssHmn079therapyfoodgntr">generic-tree::
     <br>* McshEngl.AnxietyFood_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn079therapyfoodgntr"></a></p>
   <p id="idDssHmn079therapyfoodsptr">specific-tree::
     <br>* McshEngl.AnxietyFood.specific,
@@ -7668,7 +7741,7 @@
     <br>===
     <br>* FctgEmotingAnxieting_Gntr,
     <br>* DissMental_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn079gntr"></a></p>
   <p id="idDssHmn079sptr">specific-tree::
     <br>* McshEngl.DissAnxiety.specific,
@@ -7989,7 +8062,9 @@
     <br>* McshEngl.DissDepression_Gntr,
     <br>===
     <br>* DissMental_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn080gntr"></a></p>
   <p id="idDssHmn080sptr">specific-tree::
     <br>* McshEngl.DissDepression.specific,
@@ -8689,7 +8764,7 @@
     <br>* McshEngl.DissDementia_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn116gntr"></a></p>
   <p id="idDssHmn116sptr">specific-tree::
     <br>* McshEngl.DissDementia.specific,
@@ -8934,7 +9009,7 @@
     <br>* McshEngl.DissCommon_cold_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn124gntr"></a></p>
   <p id="idDssHmn124sptr">specific-tree::
     <br>* McshEngl.DissCommon_cold.specific,
@@ -9172,7 +9247,9 @@
     <br>* McshEngl.DissFlu_Gntr,
     <br>===
     <br>* DissViralInfection_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn127gntr"></a></p>
   <p id="idDssHmn127sptr">specific-tree::
     <br>* McshEngl.DissFlu.specific,
@@ -9430,7 +9507,7 @@
     <br>===
     <br>* disease_Gntr,
     <br>* DissGastroenteritis_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn128gntr"></a></p>
   <p id="idDssHmn128sptr">specific-tree::
     <br>* McshEngl.DissDiarrhea.specific,
@@ -9624,6 +9701,9 @@
     <br>* McshEngl.DissRubella_Gntr,
     <br>===
     <br>* DissViralInfection_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn164gntr"></a></p>
 
   <section id="idDssHmn164symptom">
@@ -9854,7 +9934,9 @@
     <br>* McshEngl.DissHepatitis_Gntr,
     <br>===
     <br>* DissViralInfection_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn166gntr"></a></p>
   <p id="idDssHmn166sptr">specific-tree::
     <br>* McshEngl.DissHepatitis.specific,
@@ -9892,6 +9974,9 @@
     <br>* McshEngl.DissMeasles_Gntr,
     <br>===
     <br>* DissViralInfection_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn167gntr"></a></p>
 
   <section id="idDssHmn167symptom">
@@ -9944,6 +10029,9 @@
     <br>* McshEngl.DissRabies_Gntr,
     <br>===
     <br>* DissViralInfection_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn168gntr"></a></p>
 
   <section id="idDssHmn168symptom">
@@ -10007,6 +10095,9 @@
     <br>* McshEngl.DissParotitis_Gntr,
     <br>===
     <br>* DissViralInfection_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn169gntr"></a></p>
 
   <section id="idDssHmn169symptom">
@@ -10085,6 +10176,9 @@
     <br>* McshEngl.DissPoliomyelitis_Gntr,
     <br>===
     <br>* DissViralInfection_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn170gntr"></a></p>
 
   <section id="idDssHmn170symptom">
@@ -10151,6 +10245,9 @@
     <br>* McshEngl.DissSmallpox_Gntr,
     <br>===
     <br>* DissViralInfection_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn171gntr"></a></p>
 
   <section id="idDssHmn171symptom">
@@ -10417,7 +10514,7 @@
     <br>* McshEngl.DissMeningitis_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn174gntr"></a></p>
   <p id="idDssHmn174sptr">specific-tree::
     <br>* McshEngl.DissMeningitis.specific,
@@ -11334,6 +11431,9 @@
     <br>* McshEngl.DissFungal_infection_Gntr,
     <br>===
     <br>* DissInfectious_Gntr,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn190gntr"></a></p>
 
   <section id="idDssHmn190cause">
@@ -11994,7 +12094,7 @@
   <p id="idDssHmn211gntr">generic-tree::
     <br>* McshEngl.DissReproduction_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn211gntr"></a></p>
   <p id="idDssHmn211sptr">specific-tree::
     <br>* McshEngl.DissReproduction.specific,
@@ -12032,6 +12132,7 @@
     <br>* McshEngl.DissLibido_Gntr,
     <br>===
     <br>* DissReproduction_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn217gntr"></a></p>
 
   <section id="idDssHmn217cause">
@@ -12343,6 +12444,7 @@
     <br>* McshEngl.DissEczema_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn212gntr"></a></p>
 
   <section id="idDssHmn212cause">
@@ -12427,7 +12529,7 @@
     <br>* McshEngl.DissHerpes_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn208gntr"></a></p>
   <p id="idDssHmn208sptr">specific-tree::
     <br>* McshEngl.DissHerpes.specific,
@@ -12461,6 +12563,7 @@
     <br>* McshEngl.DissBurn_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn207gntr"></a></p>
 
   <section id="idDssHmn207firewalker">
@@ -12556,6 +12659,7 @@
     <br>* McshEngl.DissStingJellyfish_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn201gntr"></a></p>
 
   <section id="idDssHmn201therapy">
@@ -12597,6 +12701,7 @@
     <br>* McshEngl.DissStingInsect_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn202gntr"></a></p>
 
   <section id="idDssHmn202therapy">
@@ -12686,6 +12791,7 @@
     <br>* McshEngl.DissHair_loss_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn204gntr"></a></p>
 
   <section id="idDssHmn204therapy">
@@ -12749,6 +12855,7 @@
     <br>* McshEngl.DissDandruff_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn205gntr"></a></p>
 
   <section id="idDssHmn205cause">
@@ -12784,6 +12891,7 @@
     <br>* McshEngl.DissPhotochemical_allergy_Gntr,
     <br>===
     <br>* DissSkin_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn206gntr"></a></p>
 
   <section id="idDssHmn206symptom">
@@ -13546,7 +13654,7 @@
     <br>* McshEngl.DissEsophagitis_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn137gntr"></a></p>
   <p id="idDssHmn137sptr">specific-tree::
     <br>* McshEngl.DissEsophagitis.specific,
@@ -13685,7 +13793,8 @@
     <br>===
     <br>* DissFctgPaining_Gntr,
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn138gntr"></a></p>
   <p id="idDssHmn138sptr">specific-tree::
     <br>* McshEngl.FctgPainingHead.specific,
@@ -15232,7 +15341,7 @@
     <br>* McshEngl.DissCirrhosis_Gntr,
     <br>===
     <br>* GlndLiver'disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn013gntr"></a></p>
   <p id="idDssHmn013sptr">specific-tree::
     <br>* McshEngl.DissCirrhosis.specific,
@@ -15967,7 +16076,10 @@
   <p id="idDssHmn018gntr">generic-tree::
     <br>* McshEngl.DissTendonitis_Gntr,
     <br>===
-    <br>πάθηση⧺cptBdyHmn047⧺,
+    <br>* disease_Gntr,
+    <br>* DissOgsm_Gntr,
+    <br>* disorderBio_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn018gntr"></a></p>
 
   <section id="idDssHmn018cause">
@@ -16150,7 +16262,7 @@
   <p id="idDssHmn019gntr">generic-tree::
     <br>* McshEngl.DissHormone_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn019gntr"></a></p>
   <p id="idDssHmn019sptr">specific-tree::
     <br>* McshEngl.DissHormone.specific,
@@ -16514,7 +16626,7 @@
     <br>* McshEngl.DissImmune_sys_Gntr,
     <br>* McshEngl.DissSysImmune_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn021gntr"></a></p>
   <p id="idDssHmn021sptr">specific-tree::
     <br>* McshEngl.DissImmune_sys.specific,
@@ -16621,7 +16733,8 @@
     <br>* McshEngl.nutritional-imbalance_Gntr,
     <br>===
     <br>* DissImbalance!@McshHlth000011#idDssHmn226,
-    <br>* ... entity_Gntr,
+    <br>* DissKidney_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn026gntr"></a></p>
   <p id="idDssHmn026sptr">specific-tree::
     <br>* McshEngl.DissNutrient.specific,
@@ -17099,7 +17212,7 @@
     <br>* McshEngl.DissVitaminDeficiency_Gntr,
     <br>===
     <br>* disease_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn172gntr"></a></p>
   <p id="idDssHmn172sptr">specific-tree::
     <br>* McshEngl.DissVitamin_deficiency.specific,
@@ -17220,7 +17333,7 @@
     <br>* McshEngl.DissProstate_Gntr,
     <br>===
     <br>*
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn044gntr"></a></p>
   <p id="idDssHmn044sptr">specific-tree::
     <br>* McshEngl.DissProstate.specific,
@@ -17833,15 +17946,17 @@
   <p id="idDssHmn272gntr">generic-tree::
     <br>* McshEngl.DissFctgPaining_Gntr,
     <br>===
-    <br>* disease,
+    <br>* disease_Gntr,
     <br>* FctgSensing_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn272gntr"></a></p>
   <p id="idDssHmn272sptr">specific-tree::
     <br>* McshEngl.DissFctgPaining.specific,
     <br>* McshEngl.DissFctgPaining_Sptr,
     <br>===
     <br>* DissFctgPaining.chronic!@McshHlth000011#idDssHmn283,
+    <br>===
+    <br>* FctgPainingHead!@McshHlth000011#idDssHmn138,
     <a class="clsHide" href="#idDssHmn272sptr"></a></p>
   </section>
 
@@ -17980,7 +18095,7 @@
   <p id="idDssHmn279gntr">generic-tree::
     <br>* McshEngl.DissDoing_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDssHmn279gntr"></a></p>
   <p id="idDssHmn279sptr">specific-tree::
     <br>* McshEngl.DissDoing.specific,

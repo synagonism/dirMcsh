@@ -193,7 +193,7 @@
     <br>* McshEngl.argtDoing_Gntr,
     <br>===
     <br>* bodyNo_argt_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngatt001gntr"></a></p>
   <p id="idDngatt001sptr">specific-tree::
     <br>* McshEngl.argtDoing.specific,
@@ -481,11 +481,13 @@
     <br>* McshEngl.doing'direction.space!⇒DongargtDireSpace,
     <br>* McshEngl.space-direction--of-doing!⇒DongargtDireSpace,
     <a class="clsHide" href="#idDngatt001DrnSpacnam"></a></p>
-  <p id="idDngatt001DrnSpcgntr">generic-tree::
+  <p id="idDngatt001DrnSpacgntr">generic-tree::
     <br>* McshEngl.DongargtDireSpace_Gntr,
     <br>===
     <br>* space_direction_Gntr,
-    <a class="clsHide" href="#idDngatt001DrnSpcgntr"></a></p>
+    <br>===
+    <br>* argtDoing_Gntr,
+    <a class="clsHide" href="#idDngatt001DrnSpacgntr"></a></p>
   </section>
 
   <section id="idDngatt001DrnGoal">
@@ -1329,7 +1331,7 @@
     <br>* McshEngl.doing_Gntr,
     <br>===
     <br>* bodyNo_Gntr,
-    <br>* entity_Gntr,
+    <br>* entity_Gntr (the-most-generic),
     <a class="clsHide" href="#idDnggntr"></a></p>
   <p id="idDngsptr">specific-tree::
     <br>* McshEngl.doing.specific,
@@ -1348,6 +1350,9 @@
     <br>===
     <br>* uniting!@McshCor000004#idDngUntg,
     <br>* disuniting!@McshCor000004#idDngUntgN,
+    <br>===
+    <br>* Hmbddoing!@McshHlth000002#idBdyHmndong,
+    <br>* Chmreaction!@McshNtr000013,
     <a class="clsHide" href="#idDngsptr"></a></p>
   </section>
 
@@ -1377,7 +1382,7 @@
   <p id="idDngSmsgntr">generic-tree::
     <br>* McshEngl.DongSemu_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngSmsgntr"></a></p>
   <p id="idDngSmssptr">specific-tree::
     <br>* McshEngl.DongSemu.specific,
@@ -1647,7 +1652,7 @@
     <br>===
     <br>* doing_Gntr,
     <br>* bodyNo_Gntr,
-    <br>* entity_Gntr,
+    <br>* entity_Gntr (the-most-generic),
     <a class="clsHide" href="#idDngActggntr"></a></p>
   <p id="idDngActgsptr">specific-tree::
     <br>* McshEngl.acting.specific,
@@ -1659,6 +1664,8 @@
     <br>===
     <br>* mapping,
     <br>* naming,
+    <br>===
+    <br>* force!@McshNtr000012,
     <a class="clsHide" href="#idDngActgsptr"></a></p>
   </section>
 
@@ -1717,7 +1724,7 @@
   <p id="idDngActgIactgntr">generic-tree::
     <br>* McshEngl.ActgInteracting_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngActgIactgntr"></a></p>
   <p id="idDngActgIactsptr">specific-tree::
     <br>* McshEngl.ActgInteracting.specific,
@@ -2144,7 +2151,7 @@
   <p id="idDngActgClnggntr">generic-tree::
     <br>* McshEngl.DongCleaning_Gntr,
     <br>===
-    <br>* DongCleaning,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngActgClnggntr"></a></p>
   </section>
 
@@ -3186,7 +3193,8 @@
     <br>* McshEngl.functing_Gntr,
     <br>===
     <br>* doing_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* bodyNo_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngFctggntr"></a></p>
   <p id="idDngFctgsptr">specific-tree::
     <br>* McshEngl.functing.specific,
@@ -3200,6 +3208,8 @@
     <br>* movingNo-functing,
     <br>* output-functing,
     <br>* outputNo-functing,
+    <br>===
+    <br>* FctgBrainingBio!@McshCor000013,
     <a class="clsHide" href="#idDngFctgsptr"></a></p>
   </section>
 
@@ -3288,7 +3298,7 @@
   <p id="idDngFctgMvggntr">generic-tree::
     <br>* McshEngl.functing.moving_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngFctgMvggntr"></a></p>
   <p id="idDngFctgMvgsptr">specific-tree::
     <br>* McshEngl.functing.moving.specific,
@@ -4837,7 +4847,7 @@
   <p id="idDngIdnggntr">generic-tree::
     <br>* McshEngl.DongInterdoing_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngIdnggntr"></a></p>
   <p id="idDngIdngsptr">specific-tree::
     <br>* McshEngl.DongInterdoing.specific,
@@ -5046,7 +5056,7 @@
   <p id="idDngMvnggntr">generic-tree::
     <br>* McshEngl.DongMoving_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngMvnggntr"></a></p>
   <p id="idDngMvngsptr">specific-tree::
     <br>* McshEngl.DongMoving.specific,
@@ -5104,7 +5114,7 @@
   <p id="idDngMvngAcngntr">generic-tree::
     <br>* McshEngl.ActgMoving_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngMvngAcngntr"></a></p>
   <p id="idDngMvngAcnsptr">specific-tree::
     <br>* McshEngl.ActgMoving.specific,
@@ -5246,7 +5256,7 @@
   <p id="idDngMvngFcngntr">generic-tree::
     <br>* McshEngl.FctgMoving_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngMvngFcngntr"></a></p>
   <p id="idDngMvngFcnsptr">specific-tree::
     <br>* McshEngl.FctgMoving.specific,
@@ -5533,7 +5543,7 @@
   <p id="idDngMvngTogntr">generic-tree::
     <br>* McshEngl.movingTo_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngMvngTogntr"></a></p>
   <p id="idDngMvngTosptr">specific-tree::
     <br>* McshEngl.movingTo.specific,
@@ -5598,7 +5608,7 @@
     <br>* McshEngl.ActgBringing_Gntr,
     <br>===
     <br>* ActgMoving_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngMvngToActgBrgggntr"></a></p>
   </section>
 
@@ -6894,7 +6904,7 @@
   <p id="idDngRptggntr">generic-tree::
     <br>* McshEngl.DongRepeating_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDngRptggntr"></a></p>
   <p id="idDngRptgsptr">specific-tree::
     <br>* McshEngl.DongRepeating.specific,

@@ -138,6 +138,7 @@
     <br>* McshEngl.Rltnargt_Gntr,
     <br>===
     <br>* bodyNo_argt_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnarggntr"></a></p>
 
   <section id="idRlnargtnmng">
@@ -342,7 +343,7 @@
     <br>===
     <br>* bodyNo_Gntr,
     <br>* doingNo_Gntr,
-    <br>* entity_Gntr,
+    <br>* entity_Gntr (the-most-generic),
     <a class="clsHide" href="#idRlngntr"></a></p>
   <p id="idRlnsptr">specific-tree::
     <br>* McshEngl.relation.specific,
@@ -401,7 +402,8 @@
     <br>* McshEngl.RltnSemaso_Gntr,
     <br>===
     <br>* relation_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* bodyNo_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnSmsgntr"></a></p>
   <p id="idRlnSmssptr">specific-tree::
     <br>* McshEngl.RltnSemaso.specific,
@@ -576,7 +578,8 @@
     <br>* McshEngl.RltnUnion_Gntr,
     <br>===
     <br>* relation_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* bodyNo_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnUnngntr"></a></p>
   <p id="idRlnUnnsptr">specific-tree::
     <br>* McshEngl.RltnUnion.specific,
@@ -893,7 +896,8 @@
     <br>* McshEngl.RltnDisunion_Gntr,
     <br>===
     <br>* relation_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* bodyNo_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnDjcngntr"></a></p>
   <p id="idRlnDjcnsptr">specific-tree::
     <br>* McshEngl.RltnDisunion.specific,
@@ -1383,7 +1387,7 @@
   <p id="idRlnSmnsgntr">generic-tree::
     <br>* McshEngl.RltnSameness_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnSmnsgntr"></a></p>
   <p id="idRlnSmnssptr">specific-tree::
     <br>* McshEngl.RltnSameness.specific,
@@ -1695,7 +1699,7 @@
   <p id="idRlnMpggntr">generic-tree::
     <br>* McshEngl.RltnMapping_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnMpggntr"></a></p>
   <p id="idRlnMpgsptr">specific-tree::
     <br>* McshEngl.RltnMapping.specific,
@@ -1712,6 +1716,8 @@
     <br>===
     <br>* graphical,
     <br>* textual,
+    <br>===
+    <br>* RltnReferent!@McshLag000003#idInfHmnatt002,
     <a class="clsHide" href="#idRlnMpgsptr"></a></p>
   </section>
 
@@ -1911,7 +1917,7 @@
   <p id="idRlnSmnsNgntr">generic-tree::
     <br>* McshEngl.RltnDifference_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnSmnsNgntr"></a></p>
   <p id="idRlnSmnsNsptr">specific-tree::
     <br>* McshEngl.RltnDifference.specific,
@@ -2277,7 +2283,7 @@
     <br>* McshEngl.RltnOpposition_Gntr,
     <br>===
     <br>* RltnDifference_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnOpsngntr"></a></p>
   <p id="idRlnOpsnsptr">specific-tree::
     <br>* McshEngl.RltnOpposition.specific,
@@ -2584,7 +2590,7 @@
     <br>===
     <br>* relation_Gntr,
     <br>* RltnDialectic_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnCsltgntr"></a></p>
   <p id="idRlnCsltsptr">specific-tree::
     <br>* McshEngl.RltnCausality.specific,
@@ -3060,7 +3066,7 @@
     <br>* McshEngl.RltnDialectic_Gntr,
     <br>* McshEngl.dialectic-antithesis_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnDcasgntr"></a></p>
   <p id="idRlnDcassptr">specific-tree::
     <br>* McshEngl.RltnDialectic.specific,
@@ -3161,7 +3167,7 @@
   <p id="idRlnInfgntr">generic-tree::
     <br>* McshEngl.RltnInfo_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnInfgntr"></a></p>
   <p id="idRlnInfsptr">specific-tree::
     <br>* McshEngl.RltnInfo.specific,
@@ -3550,7 +3556,7 @@
   <p id="idRlnPssngntr">generic-tree::
     <br>* McshEngl.RltnPossession_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idRlnPssngntr"></a></p>
   <p id="idRlnPssnsptr">specific-tree::
     <br>* McshEngl.RltnPossession.specific,

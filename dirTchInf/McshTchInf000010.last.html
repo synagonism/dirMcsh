@@ -86,6 +86,12 @@
     <br>* McshEngl.Jsgn_lago'archetype!⇒Jsgnarcho,
     <br>* McshEngl.Jsgn_lago'problem!⇒Jsgnarcho,
     <a class="clsHide" href="#idLJsgnarcnam"></a></p>
+  <p id="idLJsgnarcsptr">specific-tree::
+    <br>* McshEngl.Jsgnarcho.specific,
+    <br>* McshEngl.Jsgnarcho_Sptr,
+    <br>===
+    <br>* Jsbrarcho!@McshTchInf000011#idLJsbrarc,
+    <a class="clsHide" href="#idLJsgnarcsptr"></a></p>
   </section>
 
   <section id="idLJsgnalg">
@@ -386,7 +392,7 @@
     <br>* Jso_Gntr,
     <br>or
     <br>* object-pmNo!@McshTchInf000010#idLJsgnopmN,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnsutgntr"></a></p>
   <p id="idLJsgnsutsptr">specific-tree::
     <br>* McshEngl.Jssut.specific,
@@ -404,6 +410,9 @@
     <br>09) <a class="clsPreview" href="#idLJsgns">s - String</a>,
     <br>10) <a class="clsPreview" href="#idLJsgnu">u - Undefined</a>,
     <br>11) <a class="clsPreview" href="#idLJsgnx">x - miXed</a>,
+    <br>===
+    <br>* Jsndsut!@McshTchInf000012#idLJsndsut,
+    <br>* Jsbrsut!@McshTchInf000011#idLJsbrsut,
     <a class="clsHide" href="#idLJsgnsutsptr"></a></p>
   <p id="idLJsgnsutSpcAlpha">specific.alphabetically::
     <br>* array--semantic-unit!@McshTchInf000010#idLJsgna,
@@ -743,7 +752,7 @@
   <p id="idLJsgnsutRfrdgntr">generic-tree::
     <br>* McshEngl.Jsgnnvp_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnsutRfrdgntr"></a></p>
   <p id="idLJsgnsutRfrdsptr">specific-tree::
     <br>* McshEngl.Jsgnnvp.specific,
@@ -1019,7 +1028,7 @@
     <br>===
     <br>* JsoArrayprototype_Gntr, (<code>[].__proto__ === Array.prototype //true</code>)
     <br>* Jsmgo_Gntr, (<code>[].__proto__.__proto__ === Object.prototype //true</code>)
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnagntr"></a></p>
   <p id="idLJsgnasptr">specific-tree::
     <br>* McshEngl.Jsa.specific,
@@ -1118,6 +1127,12 @@
     <br>===
     <br>* Jsmgo_Gntr (<code>Array.prototype.__proto__ === Object.prototype //true</code>),
     <a class="clsHide" href="#idLJsgnArraypgntr"></a></p>
+  <p id="idLJsgnArraypsptr">specific-tree::
+    <br>* McshEngl.JsoArrayprototype.specific,
+    <br>* McshEngl.JsoArrayprototype_Sptr,
+    <br>===
+    <br>* Jsa!@McshTchInf000010#idLJsgna,
+    <a class="clsHide" href="#idLJsgnArraypsptr"></a></p>
 
   <section id="idLJsgnArraypmbr">
   <h4 id="idLJsgnArraypmbrH4">Array.prototype'member
@@ -1356,7 +1371,7 @@
     <br>* McshEngl.JsfforEach_Gntr,
     <br>===
     <br>* Jsloop_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnArraypforEachgntr"></a></p>
   </section>
 
@@ -1882,7 +1897,7 @@
     <br>===
     <br>* Boolean.prototype, (<code>true.__proto__ === Boolean.prototype //true</code>)
     <br>* Jsmgo_Gntr, (<code>true.__proto__.__proto__ === Object.prototype //true</code>)
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnbgntr"></a></p>
   <p id="idLJsgnbsptr">specific-tree::
     <br>* McshEngl.Jsb.specific,
@@ -2065,7 +2080,7 @@
     <br>* McshEngl.Jsf'output_Gntr,
     <br>===
     <br>* Jsgnsent_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnfotpgntr"></a></p>
   </section>
 
@@ -2170,6 +2185,17 @@
     <br><code>$ Object.getOwnPropertyNames(Function.prototype).sort()
     <br>["apply", "bind", "call", "constructor", "length", "name", "toString"]</code>
     <a class="clsHide" href="#idLJsgnFunctionpmbr"></a></p>
+  <p id="idLJsgnFunctionpsptr">specific-tree::
+    <br>* McshEngl.JsFunction.prototype.specific,
+    <br>* McshEngl.JsFunction.prototype_Sptr,
+    <br>===
+    <br>* JsgnfObjectmebr!@McshTchInf000010#idLJsgnObjectmebr,
+    <br>* Jsf!@McshTchInf000010#idLJsgnf,
+    <br>* jsfFunction!@McshTchInf000010#idLJsgnFunction,
+    <br>* JsndmcCoreFStream!@McshTchInf000012#idLJsndmcfStream,
+    <br>* JsndmcCoreFEvents!@McshTchInf000012#idLJsndmcfEvents,
+    <br>* JsndfRequire!@McshTchInf000012#idLJsndrequire,
+    <a class="clsHide" href="#idLJsgnFunctionpsptr"></a></p>
   </section>
 
   <section id="idLJsgnFunction">
@@ -2234,12 +2260,15 @@
     <br>* Function.prototype!@McshTchInf000010#idLJsgnFunctionp, (<code>var f = function(){}; f.__proto__ === Function.prototype //true</code>)
     <br>* Jsmgo_Gntr, (<code>f.__proto__.__proto__ === Object.prototype //true</code>)
     <br>* Jsomembr_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnfgntr"></a></p>
   <p id="idLJsgnfsptr">specific-tree::
     <br>* McshEngl.Jsf.specific,
     <br>* McshEngl.Jsf_Sptr,
     <br>===
+    <br>===
+    <br>* Jsnd_lago_f!@McshTchInf000012#idLJsndf,
+    <br>* Jsbrf!@McshTchInf000011#idLJsbrf,
     <a class="clsHide" href="#idLJsgnfsptr"></a></p>
   <p id="idLJsgnfSpcP1">specific.alphabetically::
     <br>* constructor-function!@McshTchInf000010#idLJsgnfCsr,
@@ -2365,7 +2394,7 @@
     <br>I name a-class-function as: fNameCls.
     <a class="clsHide" href="#idLJsgnfClsnam"></a></p>
   <p id="idLJsgnfClsrsc">addressWpg::
-    <br>* <a href="http://www.2ality.com/2015/02/es6-classes-final.html">http://www.2ality.com/2015/02/es6-classes-final.html</a>,
+    <br>* http://www.2ality.com/2015/02/es6-classes-final.html,
     <a class="clsHide" href="#idLJsgnfClsrsc"></a></p>
   <p id="idLJsgnfClsevln">Evaluation::
     <br>My-evaluation: <a class="clsPreview" href="#idLJsgnevalProInheritance">on-inheritance</a>, <a class="clsPreview" href="#idLJsgnevalTodoP1">on-todo</a>.
@@ -2400,8 +2429,14 @@
     <br>* McshEngl.Jsfconstructor_Gntr,
     <br>===
     <br>* Jsbrf_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnfCsrgntr"></a></p>
+  <p id="idLJsgnfCsrsptr">specific-tree::
+    <br>* McshEngl.Jsfconstructor.specific,
+    <br>* McshEngl.Jsfconstructor_Sptr,
+    <br>===
+    <br>* JsoConstructor!@McshTchInf000010#idLJsgnoCsr,
+    <a class="clsHide" href="#idLJsgnfCsrsptr"></a></p>
   </section>
 
   <section id="idLJsgnfMtd">
@@ -2420,7 +2455,7 @@
     <br>* McshEngl.JsjMethod_Gntr,
     <br>===
     <br>* Jsbrf_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnfMtdgntr"></a></p>
   </section>
 
@@ -2486,13 +2521,13 @@
     <br>* McshEngl.Jsf.object-returning!⇒JsfObjectreturning,
     <a class="clsHide" href="#idLJsgnfOrnnam"></a></p>
   <p id="idLJsgnfOrnrsc">addressWpg::
-    <br>* <a href="https://www.sitepoint.com/factory-functions-JavaScript/">https://www.sitepoint.com/factory-functions-JavaScript/</a>,
+    <br>* https://www.sitepoint.com/factory-functions-JavaScript/,
     <a class="clsHide" href="#idLJsgnfOrnrsc"></a></p>
   <p id="idLJsgnfOrngntr">generic-tree::
     <br>* McshEngl.JsfObjectreturning_Gntr,
     <br>===
     <br>* Jsbrf_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnfOrngntr"></a></p>
   </section>
 
@@ -2539,7 +2574,7 @@
     <br>===
     <br>* Srcd_lago_opr_Gntr,
     <br>* Jsbrf_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnfOprgntr"></a></p>
   <p id="idLJsgnfOprsptr">specific-tree::
     <br>* McshEngl.Jsoptr.specific,
@@ -2625,7 +2660,7 @@
     <br>operand operator
     <br>For example, x++ or ++x.
     <br>[<a href="https://developer.mozilla.org/el/docs/Web/JavaScript/Guide/Expressions_and_Operators">https://developer.mozilla.org/el/docs/Web/JavaScript/Guide/Expressions_and_Operators</a>]
-    <br>* <a href="http://www.ecma-international.org/ecma-262/index.html#sec-unary-operators">http://www.ecma-international.org/ecma-262/index.html#sec-unary-operators</a>,
+    <br>* http://www.ecma-international.org/ecma-262/index.html#sec-unary-operators,
     <a class="clsHide" href="#idLJsgnfOprUnrdsn"></a></p>
   <p id="idLJsgnfOprUnrnam">name::
     <br>* McshEngl.JsoptrUnary,
@@ -2666,13 +2701,14 @@
     <br>* McshEngl.JsoptrBinary_Gntr,
     <br>===
     <br>* Jsoptr_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* Srcd_lago_opr_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnfOprBnrgntr"></a></p>
   <p id="idLJsgnfOprBnrsptr">specific-tree::
     <br>* McshEngl.JsoptrBinary.specific,
     <br>* McshEngl.JsoptrBinary_Sptr,
     <br>===
-    <br>* <a href="http://www.ecma-international.org/ecma-262/index.html#sec-unary-operators">http://www.ecma-international.org/ecma-262/index.html#sec-unary-operators</a>,
+    <br>* http://www.ecma-international.org/ecma-262/index.html#sec-unary-operators,
     <a class="clsHide" href="#idLJsgnfOprBnrsptr"></a></p>
   </section>
 
@@ -2744,7 +2780,8 @@
     <br>* McshEngl.JsoptrTernary_Gntr,
     <br>===
     <br>* Jsoptr_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* Srcd_lago_opr_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnfOprTnrgntr"></a></p>
   <p id="idLJsgnfOprTnrsptr">specific-tree::
     <br>* McshEngl.JsoptrTernary.specific,
@@ -2833,7 +2870,7 @@
     <br>* McshEngl.JsfSelfexec_Gntr,
     <br>===
     <br>* Jsgnsent_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnfSexgntr"></a></p>
   <p id="idLJsgnfSexsptr">specific-tree::
     <br>* McshEngl.JsfSelfexec.specific,
@@ -2908,8 +2945,8 @@
     <br>* {2020-10-16} https://blog.bitsrc.io/why-should-you-use-top-level-await-in-javascript-a3ba8139ef23,
     <br>* {2020-04-09} https://weblogs.asp.net/dixin/understanding-all-javascript-module-formats-and-tools,
     <br>* {2018-06-18} Addy-Osmani, Mathias-Bynens, Using JavaScript modules on the web, <a href="https://developers.google.com/web/fundamentals/primers/modules">https://developers.google.com/web/fundamentals/</a>,
-    <br>* {2018-03-28} Lin-Clark, ES modules: A cartoon deep-dive: <a href="https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/">https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/</a>,
-    <br>* {2017-05-02} Jake-Archibald, ECMAScript modules in browsers: <a href="https://jakearchibald.com/2017/es-modules-in-browsers/">https://jakearchibald.com/2017/es-modules-in-browsers/</a>,
+    <br>* {2018-03-28} Lin-Clark, ES modules: A cartoon deep-dive: https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/,
+    <br>* {2017-05-02} Jake-Archibald, ECMAScript modules in browsers: https://jakearchibald.com/2017/es-modules-in-browsers/,
     <a class="clsHide" href="#idLJsgnmirscdsn"></a></p>
   <p id="idLJsgnmirscnam">name::
     <br>* McshEngl.Jsm'info-resource,
@@ -2930,7 +2967,9 @@
     <br>* McshEngl.Jsm_Gntr,
     <br>===
     <br>* Jssut_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* Jso_Gntr,
+    <br>* Jsmgo_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnmgntr"></a></p>
   <p id="idLJsgnmsptr">specific-tree::
     <br>* McshEngl.Jsm.specific,
@@ -3010,7 +3049,7 @@
     <br>===
     <br>* Number.prototype!@McshTchInf000010#idLJsgnNumberp, (<code>(3).__proto__ === Number.prototype //true</code>)
     <br>* Jsmgo_Gntr, (<code>(3).__proto__.__proto__ === Object.prototype //true</code>)
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnngntr"></a></p>
   <p id="idLJsgnnsptr">specific-tree::
     <br>* McshEngl.Jsn.specific,
@@ -3054,6 +3093,12 @@
     <br><code>$ Object.getOwnPropertyNames(Number.prototype).sort()
     <br>["constructor", "toExponential", "toFixed", "toLocaleString", "toPrecision", "toString", "valueOf"]</code>
     <a class="clsHide" href="#idLJsgnNumberpmbr"></a></p>
+  <p id="idLJsgnNumberpsptr">specific-tree::
+    <br>* McshEngl.JsoNumberprototype.specific,
+    <br>* McshEngl.JsoNumberprototype_Sptr,
+    <br>===
+    <br>* Jsn!@McshTchInf000010#idLJsgnn,
+    <a class="clsHide" href="#idLJsgnNumberpsptr"></a></p>
 
   <section id="idLJsgntoLocaleString">
   <h4 id="idLJsgntoLocaleStringH4">Number.prototype'toLocaleString-function
@@ -3168,7 +3213,7 @@
   <p id="idLJsgnombrgntr">generic-tree::
     <br>* McshEngl.Jsomembr_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnombrgntr"></a></p>
   <p id="idLJsgnombrsptr">specific-tree::
     <br>* McshEngl.Jsomembr.specific,
@@ -3303,12 +3348,15 @@
     <br>or
     <br>* objectX, (<code>var o = Object.create(objectX)</code>)
     <br>* Jsomembr_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnogntr"></a></p>
   <p id="idLJsgnosptr">specific-tree::
     <br>* McshEngl.Jso.specific,
     <br>* McshEngl.Jso_Sptr,
     <br>===
+    <br>===
+    <br>* Jssut!@McshTchInf000010#idLJsgnsut,
+    <br>* Jsbro!@McshTchInf000011#idLJsbro,
     <a class="clsHide" href="#idLJsgnosptr"></a></p>
   </section>
 
@@ -3491,7 +3539,7 @@
     <br>===
     <br>* RegExp.prototype!@McshTchInf000010#idLJsgnRegExpp, (<code>/r/.__proto__ === RegExp.prototype //true</code>)
     <br>* Jsmgo_Gntr, (<code>/r/.__proto__.__proto__ === Object.prototype //true</code>)
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnrgntr"></a></p>
   <p id="idLJsgnrsptr">specific-tree::
     <br>* McshEngl.Jsr.specific,
@@ -3594,8 +3642,8 @@
     <br>* McshEngl.string//JavaScript!⇒Jss,
     <a class="clsHide" href="#idLJsgnsnam"></a></p>
   <p id="idLJsgnsP1">addressWpg::
-    <br>* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String</a>/
-    <br>* <a href="https://mathiasbynens.be/notes/JavaScript-escapes">https://mathiasbynens.be/notes/JavaScript-escapes</a>,
+    <br>* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/,
+    <br>* https://mathiasbynens.be/notes/JavaScript-escapes,
     <a class="clsHide" href="#idLJsgnsP1"></a></p>
   <p id="idLJsgnsexpl">example::
     <br><code>"a string"
@@ -3620,7 +3668,7 @@
     <br>* String.prototype!@McshTchInf000010#idLJsgnStringp, (<code>''.__proto__ === String.prototype //true</code>)
     <br>* Jsmgo_Gntr, (<code>''.__proto__.__proto__ === Object.prototype //true</code>)
     <br>* Srcd_lago_s_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnsgntr"></a></p>
   <p id="idLJsgnssptr">specific-tree::
     <br>* McshEngl.Jss.specific,
@@ -3952,7 +4000,7 @@
   <p id="idLJsgnmwombrgntr">generic-tree::
     <br>* McshEngl.Jsglobal_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnmwombrgntr"></a></p>
   <p id="idLJsgnmwombrsptr">specific-tree::
     <br>* McshEngl.Jsglobal.specific,
@@ -3993,7 +4041,7 @@
   <p id="idLJsgnapiwptrgntr">generic-tree::
     <br>* McshEngl.Jsmwo'whole_part_tree_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnapiwptrgntr"></a></p>
   <p id="idLJsgnapiwptrsptr">specific-tree::
     <br>* McshEngl.Jsmwo'whole_part_tree.specific,
@@ -4174,7 +4222,7 @@
     <br>* McshEngl.Jsmgo_Gntr,
     <br>===
     <br>* none,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnmgogntr"></a></p>
   <p id="idLJsgnmgosptr">specific-tree::
     <br>* McshEngl.Jsmgo.specific,
@@ -4182,6 +4230,12 @@
     <br>===
     <br>* Jsbr-Object.prototype!@McshTchInf000011#idLJsbrmgo,
     <br>* Jsnd-Object.prototype!@McshTchInf000012#idLJsndmgo,
+    <br>===
+    <br>* Jso!@McshTchInf000010#idLJsgno,
+    <br>* JsoArrayprototype!@McshTchInf000010#idLJsgnArrayp,
+    <br>* JsndmcCoreUtil!@McshTchInf000012#idLJsndmcoUtil,
+    <br>* JsndmcCoreHttp!@McshTchInf000012#idLJsndmcoHttp,
+    <br>* JseloElectron!@McshTchInf000013#idLJselmaineln,
     <a class="clsHide" href="#idLJsgnmgosptr"></a></p>
   </section>
   </section>
@@ -4199,7 +4253,7 @@
   <p id="idLJsgnapigntr">generic-tree::
     <br>* McshEngl.Jsapi_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnapigntr"></a></p>
   <p id="idLJsgnapisptr">specific-tree::
     <br>* McshEngl.Jsapi.specific,
@@ -4216,6 +4270,9 @@
     <br>===
     <br>* library-API,
     <br>* program-API,
+    <br>===
+    <br>* JsbrApi!@McshTchInf000011#idLJsbrapi,
+    <br>* Jsel_lago_API!@McshTchInf000013#idLJselapi,
     <a class="clsHide" href="#idLJsgnapisptr"></a></p>
   </section>
 
@@ -4251,7 +4308,7 @@
     <br>* McshEngl.JsapiNative_Gntr,
     <br>===
     <br>* Jsapi_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnapiNtvgntr"></a></p>
   <p id="idLJsgnapiNtvsptr">specific-tree::
     <br>* McshEngl.JsapiNative.specific,
@@ -4259,6 +4316,8 @@
     <br>===
     <br>* Jsbr-native-API!@McshTchInf000011#idLJsbrapiNtv,
     <br>* Jsnd-native-API!@McshTchInf000010#idLJsgnapiNtv,
+    <br>===
+    <br>* JsndAPI!@McshTchInf000012#idLJsndapi,
     <a class="clsHide" href="#idLJsgnapiNtvsptr"></a></p>
   </section>
 
@@ -4305,8 +4364,8 @@
     <br>["arguments", "caller", length", "name", "prototype", "stackTraceLimit"]
     <a class="clsHide" href="#idLJsgnErrormbr"></a></p>
   <p id="idLJsgnErrorwpa">addressWpg::
-    <br>* <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Error">https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Error</a>,
-    <br>* <a href="https://nodejs.org/api/errors.html">https://nodejs.org/api/errors.html</a>,
+    <br>* https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Error,
+    <br>* https://nodejs.org/api/errors.html,
     <br>* {2018-05-16} Brandon-Morelli, Top 10 JavaScript errors from 1000+ projects (and how to avoid them), <a href="https://codeburst.io/top-10-JavaScript-errors-from-1000-projects-and-how-to-avoid-them-2956ce008437">https://codeburst.io/</a>,
     <a class="clsHide" href="#idLJsgnErrorwpa"></a></p>
   </section>
@@ -4823,7 +4882,7 @@
   <p id="idLJsgnstcgntr">generic-tree::
     <br>* McshEngl.Jsgnsent_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnstcgntr"></a></p>
   <p id="idLJsgnstcsptr">specific-tree::
     <br>* McshEngl.Jsgnsent.specific,
@@ -4860,6 +4919,8 @@
     <br>===SPECIFIC_DIVISION.simple::
     <br>* simple-sentence: denotes one relation or doing,
     <br>* simpleNo-sentence,
+    <br>===
+    <br>* Jsndsent!@McshTchInf000012#idLJsndstc,
     <a class="clsHide" href="#idLJsgnstcsptr"></a></p>
   </section>
 
@@ -4937,7 +4998,7 @@
     <br>* McshEngl.Jsgndef_Gntr,
     <br>===
     <br>* Jsgnsent_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnstcDfngntr"></a></p>
   <p id="idLJsgnstcDfnsptr">specific-tree::
     <br>* McshEngl.Jsgndef.specific,
@@ -5006,7 +5067,7 @@
     <br>===
     <br>* Definition-sentence,
     <br>* Jsgndef_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgndefRefgntr"></a></p>
   <p id="idLJsgndefRefsptr">specific-tree::
     <br>* McshEngl.JsgndefNmvl.specific,
@@ -5096,7 +5157,7 @@
   <p id="idLJsgnstcLoopgntr">generic-tree::
     <br>* McshEngl.Jsloop_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnstcLoopgntr"></a></p>
   <p id="idLJsgnstcLoopsptr">specific-tree::
     <br>* McshEngl.Jsloop.specific,
@@ -5246,7 +5307,7 @@
   <p id="idLJsgnalggntr">generic-tree::
     <br>* McshEngl.Jsalgo_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnalggntr"></a></p>
   <p id="idLJsgnalgsptr">specific-tree::
     <br>* McshEngl.Jsalgo.specific,
@@ -5269,6 +5330,8 @@
     <br>* Package-managing!@McshTchInf000010#idLJsgnpkg,
     <br>* Program!@McshTchInf000010#idLJsgnpgm,
     <br>* Time-managing,
+    <br>===
+    <br>* Jselalgo!@McshTchInf000013#idLJselalg,
     <a class="clsHide" href="#idLJsgnalgsptr"></a></p>
 
   <section id="idLJsgnalgAnmtn">
@@ -5276,8 +5339,8 @@
     </h2>
   <p id="idLJsgnalgAnmtndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>* <a href="http://animejs.com/">http://animejs.com/</a>,
-    <br>* fractals: <a href="http://slicker.me/fractals/animate.htm">http://slicker.me/fractals/animate.htm</a>,
+    <br>* http://animejs.com/,
+    <br>* fractals: http://slicker.me/fractals/animate.htm,
     <a class="clsHide" href="#idLJsgnalgAnmtndsn"></a></p>
   <p id="idLJsgnalgAnmtnnam">name::
     <br>* McshEngl.Animation-JavaScript-algorithm,
@@ -5312,7 +5375,7 @@
   <p id="idLJsgnalgSarrgntr">generic-tree::
     <br>* McshEngl.Jsaalgo_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnalgSarrgntr"></a></p>
   <p id="idLJsgnalgSarrsptr">specific-tree::
     <br>* McshEngl.Jsaalgo.specific,
@@ -5481,7 +5544,7 @@
     </h2>
   <p id="idLJsgnalgChrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>* Taucharts: <a href="https://www.taucharts.com/">https://www.taucharts.com/</a>,
+    <br>* Taucharts: https://www.taucharts.com/,
     <a class="clsHide" href="#idLJsgnalgChrtdsn"></a></p>
   <p id="idLJsgnalgChrtnam">name::
     <br>* McshEngl.Jsalgo.charting,
@@ -5506,7 +5569,7 @@
     <br>* McshEngl.JsdomainOut_Gntr,
     <br>===
     <br>* Jsalgo_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnalgCdngntr"></a></p>
   </section>
 
@@ -5536,7 +5599,7 @@
   <p id="idLJsgnalgDatgntr">generic-tree::
     <br>* McshEngl.JsgnalgoDate_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnalgDatgntr"></a></p>
   <p id="idLJsgnalgDatsptr">specific-tree::
     <br>* McshEngl.JsgnalgoDate.specific,
@@ -5544,7 +5607,7 @@
     <br>===
     <br>* Format-date-to-YYY-MM-DD,
     <br>=== addressWpg:
-    <br>* <a href="https://JavaScript.info/date">https://JavaScript.info/date</a>,
+    <br>* https://JavaScript.info/date,
     <a class="clsHide" href="#idLJsgnalgDatsptr"></a></p>
   </section>
 
@@ -5612,7 +5675,7 @@
   <p id="idLJsgnalgMthdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>Math, number managing related algorithms.
-    <br>* A 218b spreadsheet app in HTML/JS: <a href="http://xem.github.io/sheet/">http://xem.github.io/sheet/</a>,
+    <br>* A 218b spreadsheet app in HTML/JS: http://xem.github.io/sheet/,
     <a class="clsHide" href="#idLJsgnalgMthdsn"></a></p>
   <p id="idLJsgnalgMthnam">name::
     <br>* McshEngl.Jsgn_lago'math-managing,
@@ -5644,7 +5707,7 @@
     <br>* McshEngl.JsalgoNumber_Gntr,
     <br>===
     <br>* Jsalgo_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnalgNmbrgntr"></a></p>
   </section>
 
@@ -5715,7 +5778,7 @@
   <p id="idLJsgnalgObtgntr">generic-tree::
     <br>* McshEngl.JsgnalgoObject_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnalgObtgntr"></a></p>
   <p id="idLJsgnalgObtsptr">specific-tree::
     <br>* McshEngl.JsgnalgoObject.specific,
@@ -5936,7 +5999,7 @@
     <br>* McshEngl.Jsalgolbrr_Gntr,
     <br>===
     <br>* Jsalgo_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnlbrgntr"></a></p>
   <p id="idLJsgnlbrsptr">specific-tree::
     <br>* McshEngl.Jsalgolbrr.specific,
@@ -5987,13 +6050,13 @@
   <p id="idLJsgnlbrCrptgntr">generic-tree::
     <br>* McshEngl.Jsalgolbrr.crypto_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnlbrCrptgntr"></a></p>
   <p id="idLJsgnlbrCrptsptr">specific-tree::
     <br>* McshEngl.Jsalgolbrr.crypto.specific,
     <br>* McshEngl.Jsalgolbrr.crypto_Sptr,
     <br>===
-    <br>* Signal-protocol: <a href="https://github.com/signalapp/libsignal-protocol-JavaScript">https://github.com/signalapp/libsignal-protocol-JavaScript</a>,
+    <br>* Signal-protocol: https://github.com/signalapp/libsignal-protocol-JavaScript,
     <a class="clsHide" href="#idLJsgnlbrCrptsptr"></a></p>
   </section>
   </section>
@@ -6053,12 +6116,15 @@
     <br>* McshEngl.Jsgnpgm_Gntr,
     <br>===
     <br>* Jsalgo_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnpgmgntr"></a></p>
   <p id="idLJsgnpgmsptr">specific-tree::
     <br>* McshEngl.Jsgnpgm.specific,
     <br>* McshEngl.Jsgnpgm_Sptr,
     <br>===
+    <br>===
+    <br>* Jsndpgm!@McshTchInf000012#idLJsndpgm,
+    <br>* Jselapp!@McshTchInf000013#idLJselpgm,
     <a class="clsHide" href="#idLJsgnpgmsptr"></a></p>
   </section>
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000011.last.html#idLJsbrpgm">Jsbr-program</a>,
@@ -6103,7 +6169,7 @@
     <br>* McshEngl.Jsgn_lago_pkg_Gntr,
     <br>===
     <br>* Jsalgo_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnpkggntr"></a></p>
   <p id="idLJsgnpkgsptr">specific-tree::
     <br>* McshEngl.Jsgn_lago_pkg.specific,
@@ -6127,6 +6193,12 @@
   <p id="idLJsgnevalnam">name::
     <br>* McshEngl.Jsgn_lago'evaluation,
     <a class="clsHide" href="#idLJsgnevalnam"></a></p>
+  <p id="idLJsgnevalsptr">specific-tree::
+    <br>* McshEngl.Jsgn_lago'evaluation.specific,
+    <br>* McshEngl.Jsgn_lago'evaluation_Sptr,
+    <br>===
+    <br>* Jsbreval!@McshTchInf000011#idLJsbreval,
+    <a class="clsHide" href="#idLJsgnevalsptr"></a></p>
 
   <section id="idLJsgnevalPro">
   <h2 id="idLJsgnevalProH2">Jsgn_lago'benefit
@@ -6201,7 +6273,8 @@
     <br>* McshEngl.Jsinstanceof_Gntr,
     <br>===
     <br>* Jsoptr_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* Srcd_lago_opr_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnevalConInstanceofgntr"></a></p>
   </section>
 
@@ -6333,10 +6406,10 @@
     <br>* {2017-11-21} How JavaScript works: A comparison with WebAssembly + why in certain cases it’s better to use it over JavaScript: <a href="https://blog.sessionstack.com/how-JavaScript-works-a-comparison-with-webassembly-why-in-certain-cases-its-better-to-use-it-d80945172d79">https://blog.sessionstack.com/</a>,
     <br>* {2017-08-10} How JavaScript works: an overview of the engine, the runtime, and the call stack: <a href="https://blog.sessionstack.com/how-does-JavaScript-actually-work-part-1-b0bacc073cf">https://blog.sessionstack.com/</a>,
     <br>* {2017-06-27} Matt-Banz, An introduction to functional programming in JavaScript, https://opensource.com/article/17/6/functional-javascript,
-    <br>* <a href="https://developer.mozilla.org/en-US/Learn/JavaScript">https://developer.mozilla.org/en-US/Learn/JavaScript</a>,
-    <br>* <a href="https://www.codementor.io/learn-JavaScript-online">https://www.codementor.io/learn-JavaScript-online</a>,
+    <br>* https://developer.mozilla.org/en-US/Learn/JavaScript,
+    <br>* https://www.codementor.io/learn-JavaScript-online,
     <br>=== Book:
-    <br>* Robust Client-Side JavaScript: A Developer’s Guide: <a href="https://molily.de/robust-JavaScript/">https://molily.de/robust-JavaScript/</a>,
+    <br>* Robust Client-Side JavaScript: A Developer’s Guide: https://molily.de/robust-JavaScript/,
     <a class="clsHide" href="#idLJsgnlrnwpa"></a></p>
   </section>
 
@@ -6370,7 +6443,7 @@
   <p id="idLJsgnspecgntr">generic-tree::
     <br>* McshEngl.Jsgnspec_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgnspecgntr"></a></p>
   <p id="idLJsgnspecsptr">specific-tree::
     <br>* McshEngl.Jsgnspec.specific,
@@ -6401,10 +6474,10 @@
     <br>* McshEngl.Jsgn_lago'spec.ECMAScript!⇒Jses,
     <a class="clsHide" href="#idLjenam"></a></p>
   <p id="idLjewpa">addressWpg::
-    <br>* <a href="http://www.ecma-international.org/publications/standards/Ecma-262.htm">http://www.ecma-international.org/publications/standards/Ecma-262.htm</a>,
-    <br>* last-standard: <a href="http://www.ecma-international.org/ecma-262/index.html">http://www.ecma-international.org/ecma-262/index.html</a>,
-    <br>* draft: <a href="https://tc39.github.io/ecma262/">https://tc39.github.io/ecma262/</a>,
-    <br>* issues: <a href="https://github.com/tc39/ecma262/issues">https://github.com/tc39/ecma262/issues</a>,
+    <br>* http://www.ecma-international.org/publications/standards/Ecma-262.htm,
+    <br>* last-standard: http://www.ecma-international.org/ecma-262/index.html,
+    <br>* draft: https://tc39.github.io/ecma262/,
+    <br>* issues: https://github.com/tc39/ecma262/issues,
     <a class="clsHide" href="#idLjewpa"></a></p>
 
   <section id="idLjegstr">
@@ -6421,7 +6494,7 @@
     <br>* McshEngl.Jses_Gntr,
     <br>===
     <br>* Jsgnspec_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLjegntr"></a></p>
   <p id="idLjesptr">specific-tree::
     <br>* McshEngl.Jses.specific,
@@ -6735,7 +6808,7 @@
   <p id="idLJsgntolgntr">generic-tree::
     <br>* McshEngl.Jsgntool_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgntolgntr"></a></p>
   <p id="idLJsgntolsptr">specific-tree::
     <br>* McshEngl.Jsgntool.specific,
@@ -6789,7 +6862,7 @@
   <p id="idLJsgntolRtegntr">generic-tree::
     <br>* McshEngl.Jsgnruntime_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgntolRtegntr"></a></p>
   <p id="idLJsgntolRtesptr">specific-tree::
     <br>* McshEngl.Jsgnruntime.specific,
@@ -6844,7 +6917,7 @@
     <br>* McshEngl.Jsgnengine_Gntr,
     <br>===
     <br>* Jsgntool_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgntolEgngntr"></a></p>
   <p id="idLJsgntolEgnsptr">specific-tree::
     <br>* McshEngl.Jsgnengine.specific,
@@ -6894,7 +6967,8 @@
     <br>===
     <br>* Jsbrengine_Gntr,
     <br>* Jsgnengine_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* Jsgntool_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgntolV8gntr"></a></p>
   </section>
   </section>
@@ -6936,7 +7010,7 @@
   <p id="idLJsgntolCdanlgntr">generic-tree::
     <br>* McshEngl.JsgntoolAnalysis_Gntr,
     <br>===
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgntolCdanlgntr"></a></p>
   <p id="idLJsgntolCdanlsptr">specific-tree::
     <br>* McshEngl.JsgntoolAnalysis.specific,
@@ -6945,7 +7019,7 @@
     <br>* Jsnd--code-analysis-tool!@McshTchInf000012#idLJsndtolAns,
     <br>===
     <br>* ESLint!@McshTchInf000012#idLJsndpkgEslint,
-    <br>* <a href="http://jsbeautifier.org/">http://jsbeautifier.org/</a>,
+    <br>* http://jsbeautifier.org/,
     <br>* JSHint!@McshTchInf000012#idLJsndpkgJshint,
     <br>* JSLint!@McshTchInf000012#idLJsndpkgJslint,
     <a class="clsHide" href="#idLJsgntolCdanlsptr"></a></p>
@@ -6965,7 +7039,7 @@
     <br>* McshEngl.Jsgn_lago'debugger,
     <a class="clsHide" href="#idLJsgntolDbgrnam"></a></p>
   <p id="idLJsgntolDbgrwpa">addressWpg::
-    <br>* {2017-09-07} <a href="https://codeburst.io/learn-how-to-debug-JavaScript-with-chrome-devtools-9514c58479db">https://codeburst.io/learn-how-to-debug-JavaScript-with-chrome-devtools-9514c58479db</a>,
+    <br>* {2017-09-07} https://codeburst.io/learn-how-to-debug-JavaScript-with-chrome-devtools-9514c58479db,
     <a class="clsHide" href="#idLJsgntolDbgrwpa"></a></p>
   </section>
 
@@ -7018,7 +7092,7 @@
     <br>* McshEngl.JsgntoolPkgmgr_Gntr,
     <br>===
     <br>* Jsgntool_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgntolPkggntr"></a></p>
   <p id="idLJsgntolPkgsptr">specific-tree::
     <br>* McshEngl.JsgntoolPkgmgr.specific,
@@ -7043,7 +7117,7 @@
     <br>* McshEngl.Jsgntool.parsing,
     <a class="clsHide" href="#idLJsgntulPrsgnam"></a></p>
   <p id="idLJsgntulPrsgwpa">addressWpg::
-    <br>* <a href="https://tomassetti.me/parsing-in-JavaScript/">https://tomassetti.me/parsing-in-JavaScript/</a>,
+    <br>* https://tomassetti.me/parsing-in-JavaScript/,
     <a class="clsHide" href="#idLJsgntulPrsgwpa"></a></p>
   </section>
 
@@ -7074,7 +7148,7 @@
     <br>* McshEngl.JsgntoolTask_Gntr,
     <br>===
     <br>* Jsgntool_Gntr,
-    <br>* ... entity_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgntolTaskgntr"></a></p>
   <p id="idLJsgntolTasksptr">specific-tree::
     <br>* McshEngl.JsgntoolTask.specific,
@@ -7119,8 +7193,8 @@
     <br>* McshEngl.Jsgntool.testing!⇒JsgntoolTesting,
     <a class="clsHide" href="#idLJsgntolTestnam"></a></p>
   <p id="idLJsgntolTestrsc">Resource::
-    <br>* <a href="https://www.sitepoint.com/JavaScript-testing-unit-functional-integration/">https://www.sitepoint.com/JavaScript-testing-unit-functional-integration/</a> {2016.04.25},
-    <br>* <a href="https://github.com/jasmine/jasmine">https://github.com/jasmine/jasmine</a>,
+    <br>* https://www.sitepoint.com/JavaScript-testing-unit-functional-integration/ {2016.04.25},
+    <br>* https://github.com/jasmine/jasmine,
     <a class="clsHide" href="#idLJsgntolTestrsc"></a></p>
   </section>
 
@@ -7271,13 +7345,13 @@
     <br>* McshEngl.Jsgn_lago_Gntr,
     <br>===
     <br>* programing-language,
-    <br>* computer-language,
+    <br>* Cmpr_lago_Gntr,
     <br>* mapping-method,
     <br>* method,
-    <br>* modelConceptStructured!@McshCor000002#idDescription,
-    <br>* info,
-    <br>* model,
-    <br>* ... entity_Gntr,
+    <br>* Mcs_Gntr,
+    <br>* info_Gntr,
+    <br>* model_Gntr,
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idLJsgngntr"></a></p>
   <p id="idLJsgnsptr">specific-tree::
     <br>* McshEngl.Jsgn_lago.specific,
@@ -7298,6 +7372,8 @@
     <br>* StrictNo-JavaScript,
     <br>===
     <br>* {2017-06-21} JavaScript for Microcontrollers and IoT: <a href="https://auth0.com/blog/JavaScript-for-microcontrollers-and-iot-part-1/">https://auth0.com/</a>,
+    <br>===
+    <br>* Jsbr_lago!@McshTchInf000011,
     <a class="clsHide" href="#idLJsgnsptr"></a></p>
   </section>
 
@@ -7348,12 +7424,12 @@
     <br>===
     <br>* JavaScript-programing-language!@McshTchInf000010#idDescription,
     <br>* programing-language,
-    <br>* computer-language,
+    <br>* Cmpr_lago_Gntr,
     <br>* mapping-method,
     <br>* method,
-    <br>* info,
-    <br>* model,
-    <br>* entity_Gntr,
+    <br>* info_Gntr,
+    <br>* model_Gntr,
+    <br>* entity_Gntr (the-most-generic),
     <a class="clsHide" href="#idLJsdtgntr"></a></p>
   <p id="idLJsdtsptr">specific-tree::
     <br>* McshEngl.Jsdt_lago.specific,
