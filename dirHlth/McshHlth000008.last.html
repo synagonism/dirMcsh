@@ -435,7 +435,8 @@
     <br>· health-material is <a class="clsPreview" href="../dirNtr/McshNtr000002.last.html#idOverview">a-material</a> that affects human-health.
     <a class="clsHide" href="#idHlthHmnatt005dsn"></a></p>
   <p id="idHlthHmnatt005nam">name::
-    <br>* McshEngl.MtrlHlth,
+    <br>* McshEngl.human-health-material!⇒MtrlHlth,
+    <br>* McshEngl.MtrlHlth!=human-health-material,
     <br>* McshEngl.health'05_matter!⇒MtrlHlth,
     <br>* McshEngl.health'att005_matter!⇒MtrlHlth,
     <br>* McshEngl.health'bodyMtr!⇒MtrlHlth,
@@ -460,8 +461,8 @@
   <p id="idHlthHmnatt005gntr">generic-tree::
     <br>* McshEngl.MtrlHlth_Gntr,
     <br>===
-    <br>* bodyMtr!@McshNtr000002,
-    <br>* bodyMtrHumn!@McshHlth000002#idBdyHmnatt022,
+    <br>* bodyMtrHumn_Gntr,
+    <br>* material_Gntr,
     <br>* SystMolsHumn_Gntr,
     <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnatt005gntr"></a></p>
@@ -520,10 +521,11 @@
     <br>===
     <br>* substanceHumn_Gntr,
     <br>* substance!@McshNtr000005#idSysMols008,
-    <br>* material-body!@McshNtr000002,
+    <br>* material_Gntr,
     <br>* body-system!@McshCor000011#idSys004,
     <br>* body_Gntr,
     <br>* entity_Gntr (the-most-generic),
+    <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmnsbtcgntr"></a></p>
   <p id="idHlthHmnsbtcsptr">specific-tree::
     <br>* McshEngl.substanceHlth.specific,
@@ -1464,7 +1466,7 @@
   <p id="idHlthHmngntr">generic-tree::
     <br>* McshEngl.health_Gntr,
     <br>===
-    <br>* organism's-health!@McshHlth000007,
+    <br>* healthOgsm_Gntr,
     <br>* healthBio_Gntr,
     <br>* ...entity_Gntr,
     <a class="clsHide" href="#idHlthHmngntr"></a></p>
