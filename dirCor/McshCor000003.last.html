@@ -677,7 +677,8 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idEntirscdsn"></a></p>
   <p id="idEntrscnam">name::
-    <br>* McshEngl.entity'info-resource,
+    <br>* McshEngl.entity'info_resource,
+    <br>* McshEngl.entity'info-resource!⇒entity'info_resource,
     <a class="clsHide" href="#idEntrscnam"></a></p>
 
   <section id="idEntsci">
@@ -881,7 +882,8 @@
     <br>* <strong>{Bp15'000c} AMERICA</strong>: humans crossed the Bering Land Bridge from Asia.  [Bard]
     <a class="clsHide" href="#idEntevogsmrdbpdsn"></a></p>
   <p id="idEntevogsmrdbpnam">name::
-    <br>* McshEngl.summarized-before-present-{2000},
+    <br>* McshEngl.summarized_before_present_{2000},
+    <br>* McshEngl.summarized-before-present-{2000}!⇒summarized_before_present_{2000},
     <a class="clsHide" href="#idEntevogsmrdbpnam"></a></p>
   </section>
 
@@ -913,7 +915,8 @@
     <br>* <strong>{Bce0031} ROMAN-EMPIRE</strong>: Octavian defeats Antony and Cleopatra at the Battle of Actium, marking the end of the Roman Republic and the beginning of the Roman Empire. [Bard]
     <a class="clsHide" href="#idEntevogsmrdbcedsn"></a></p>
   <p id="idEntevogsmrdbcenam">name::
-    <br>* McshEngl.summarized-before-current-era,
+    <br>* McshEngl.summarized_before_current_era,
+    <br>* McshEngl.summarized-before-current-era!⇒summarized_before_current_era,
     <a class="clsHide" href="#idEntevogsmrdbcenam"></a></p>
   </section>
 
@@ -969,7 +972,8 @@
     <br>* <strong>{1000} ENVIRONMENT</strong>: the Medieval Warm Period reaches its peak, with temperatures again as much as 2°C (3.6°F) warmer than today. [Bard]
     <a class="clsHide" href="#idEntevogsmrd1mldsn"></a></p>
   <p id="idEntevogsmrd1mlnam">name::
-    <br>* McshEngl.{summarized-0001..1000},
+    <br>* McshEngl.{summarized_0001..1000},
+    <br>* McshEngl.{summarized-0001..1000}!⇒{summarized_0001..1000},
     <a class="clsHide" href="#idEntevogsmrd1mlnam"></a></p>
   </section>
 
@@ -1050,7 +1054,8 @@
     <br>* <strong>{2000} SMARTPHONE</strong>: The first smartphone is released, and it quickly becomes a popular device. Smartphones combine the functionality of a phone with a computer, and they allow people to access the internet, make calls, send texts, take pictures, and play games. [Bard]
     <a class="clsHide" href="#idEntevogsmrd2mldsn"></a></p>
   <p id="idEntevogsmrd2mlnam">name::
-    <br>* McshEngl.{summarized-1001..2000},
+    <br>* McshEngl.{summarized_1001..2000},
+    <br>* McshEngl.{summarized-1001..2000}!⇒{summarized_1001..2000},
     <a class="clsHide" href="#idEntevogsmrd2mlnam"></a></p>
   </section>
 
@@ -1077,7 +1082,8 @@
     <br>* <strong>{2026} WAR</strong>: Israel-Usa attack Iran.
     <a class="clsHide" href="#idEntevogsmrd3mldsn"></a></p>
   <p id="idEntevogsmrd3mlnam">name::
-    <br>* McshEngl.{summarized-2001..3000},
+    <br>* McshEngl.{summarized_2001..3000},
+    <br>* McshEngl.{summarized-2001..3000}!⇒{summarized_2001..3000},
     <a class="clsHide" href="#idEntevogsmrd3mlnam"></a></p>
   </section>
   </section>
@@ -1194,14 +1200,22 @@
     <br>· <span class="clsColorRed">stage of evoluting of entity</span> is its doings and <a class="clsPreview" href="#idEntstrr">structures</a> in a-timeinterval.
     <a class="clsHide" href="#idEntevogtmildsn"></a></p>
   <p id="idEntevogtmilnam">name::
-    <br>* McshEngl.Enttevlg'timeinterval,
-    <br>* McshEngl.entity'stage,
-    <br>* McshEngl.evoluting'timeinterval,
-    <br>* McshEngl.stage-of-evoluting,
-    <br>* McshEngl.staging-of-evoluting,
-    <br>* McshEngl.timeinterval-of-evoluting,
-    <br>* McshEngl.Enttevlg'timeinterval|stage,
+    <br>* McshEngl.timeinterval-of-evoluting!⇒Enttevlgtmiv,
+    <br>* McshEngl.Enttevlgtmiv!=timeinterval-of-evoluting,
+    <br>* McshEngl.Enttevlg'timeinterval!⇒Enttevlgtmiv,
+    <br>* McshEngl.entity'stage!⇒Enttevlgtmiv,
+    <br>* McshEngl.evoluting'timeinterval!⇒Enttevlgtmiv,
+    <br>* McshEngl.stage-of-evoluting!⇒Enttevlgtmiv,
+    <br>* McshEngl.staging-of-evoluting!⇒Enttevlgtmiv,
+    <br>* McshEngl.Enttevlg'timeinterval|stage!⇒Enttevlgtmiv,
     <a class="clsHide" href="#idEntevogtmilnam"></a></p>
+  <p id="idEntevogtmilsptr">specific-tree::
+    <br>* McshEngl.Enttevlgtmiv.specific,
+    <br>* McshEngl.Enttevlgtmiv_Sptr,
+    <br>===
+    <br>* HmbdLife!@McshHlth000002#idBdyHmnatt039,
+    <br>* intrauterine-life!@McshHlth000002#idBdyHmnatt023,
+    <a class="clsHide" href="#idEntevogtmilsptr"></a></p>
 
   <section id="idEntcycle">
   <h3 id="idEntcycleH3">cycle of Enttevlg
@@ -1473,7 +1487,8 @@
     <br>[{2025-12-21 retrieved} https://chatgpt.com/c/6947acc9-ba34-832e-8071-f7bea73b16f8]
     <a class="clsHide" href="#idEntevogedgndsn"></a></p>
   <p id="idEntevogedgnnam">name::
-    <br>* McshEngl.staging.non-edge,
+    <br>* McshEngl.staging.non_edge,
+    <br>* McshEngl.staging.non-edge!⇒staging.non_edge,
     <a class="clsHide" href="#idEntevogedgnnam"></a></p>
   </section>
 
@@ -5188,7 +5203,8 @@
     <br>* third-person!@McshLag000007#idLHmnmprsnC,
     <a class="clsHide" href="#idEntScdnHnlgdsn"></a></p>
   <p id="idEntScdnHnlgnam">name::
-    <br>* McshEngl.entity.Specsdiv.human-language,
+    <br>* McshEngl.entity.Specsdiv.human_language,
+    <br>* McshEngl.entity.Specsdiv.human-language!⇒entity.Specsdiv.human_language,
     <a class="clsHide" href="#idEntScdnHnlgnam"></a></p>
   </section>
 
@@ -5230,7 +5246,8 @@
     <br>* genericNo-entity,
     <a class="clsHide" href="#idEntScdnScatdsn"></a></p>
   <p id="idEntScdnScatnam">name::
-    <br>* McshEngl.entity.Specsdiv.specific-attribute,
+    <br>* McshEngl.entity.Specsdiv.specific_attribute,
+    <br>* McshEngl.entity.Specsdiv.specific-attribute!⇒entity.Specsdiv.specific_attribute,
     <a class="clsHide" href="#idEntScdnScatnam"></a></p>
   </section>
 
@@ -5256,7 +5273,8 @@
     <br>* mentalNo-entity,
     <a class="clsHide" href="#idEntScdnBnifdsn"></a></p>
   <p id="idEntScdnBnifnam">name::
-    <br>* McshEngl.entity.Specsdiv.brain-info,
+    <br>* McshEngl.entity.Specsdiv.brain_info,
+    <br>* McshEngl.entity.Specsdiv.brain-info!⇒entity.Specsdiv.brain_info,
     <a class="clsHide" href="#idEntScdnBnifnam"></a></p>
   </section>
 
@@ -6219,10 +6237,17 @@
     <br>· valence of bodyNo is the-number of its arguments.
     <a class="clsHide" href="#idEntBodyNvlcdsn"></a></p>
   <p id="idEntBodyNvlcnam">name::
-    <br>* McshEngl.bodyNo'02_valence,
-    <br>* McshEngl.bodyNo'valence,
-    <br>* McshEngl.valence-of-bodyNo,
+    <br>* McshEngl.valence-of-bodyNo!⇒bodyNovalence,
+    <br>* McshEngl.bodyNovalence!=valence-of-bodyNo,
+    <br>* McshEngl.bodyNo'02_valence!⇒bodyNovalence,
+    <br>* McshEngl.bodyNo'valence!⇒bodyNovalence,
     <a class="clsHide" href="#idEntBodyNvlcnam"></a></p>
+  <p id="idEntBodyNvlcsptr">specific-tree::
+    <br>* McshEngl.bodyNovalence.specific,
+    <br>* McshEngl.bodyNovalence_Sptr,
+    <br>===
+    <br>* doing'valence!@McshCor000004#idDngatt002,
+    <a class="clsHide" href="#idEntBodyNvlcsptr"></a></p>
   </section>
 
   <section id="idEntBodyNdrn">
@@ -6249,7 +6274,8 @@
     <br>× bodyNo: <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmsmsvrb">verbSms</a>,
     <a class="clsHide" href="#idEntBodyNsmslndsn"></a></p>
   <p id="idEntBodyNsmslnnam">name::
-    <br>* McshEngl.bodyNo'semu-relation,
+    <br>* McshEngl.bodyNo'semu_relation,
+    <br>* McshEngl.bodyNo'semu-relation!⇒bodyNo'semu_relation,
     <a class="clsHide" href="#idEntBodyNsmslnnam"></a></p>
   </section>
 
@@ -6261,7 +6287,8 @@
     <br>× bodyNo: <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmverb">verb</a>,
     <a class="clsHide" href="#idEntBodyNlglndsn"></a></p>
   <p id="idEntBodyNlglnnam">name::
-    <br>* McshEngl.bodyNo'logo-relation,
+    <br>* McshEngl.bodyNo'logo_relation,
+    <br>* McshEngl.bodyNo'logo-relation!⇒bodyNo'logo_relation,
     <a class="clsHide" href="#idEntBodyNlglnnam"></a></p>
 
   <section id="idEntBodyNstx">

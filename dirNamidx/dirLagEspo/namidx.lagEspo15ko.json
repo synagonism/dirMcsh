@@ -1,8 +1,8 @@
 [
-  [";lagEspo15ko","K|k",12,"2026-10-23"],
+  [";lagEspo15ko","K|k",12,"2026-10-24"],
   ["Kristnasko!=Christmas","dirCor/McshCor000006.last.html#idTimeUomDayChrm"],
   ["kalendaro!=time.system_of_measurement","dirCor/McshCor000006.last.html#idTimeUomCldr"],
-  ["kemio!=sciChem","dirNtr/McshNtr000002.last.html#idSChem"],
+  ["kemio!=SciChem","dirNtr/McshNtr000002.last.html#idSChem"],
   ["koloro!=color","dirNtr/McshNtr000005.last.html#idSysMols009clr"],
   ["konjunkcio!=Hmnmconj","dirLag/McshLag000007.last.html#idLHmnmconj"],
   ["kuirejo!=roomKitchen","dirStn/McshStn000022.last.html#idSfrHauzatt005"],

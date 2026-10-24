@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_1","char..char.2",11393,"2026-10-22"],
+  [";lagEngl03si_2_1","char..char.2",11394,"2026-10-24"],
   ["char","dirLag/McshLag000006.last.html#idOverview"],
   ["char!@McshLag000006","dirLag/McshLag000006.last.html#idOverview"],
   ["char'codepoint-finder","dirLag/McshLag000006.last.html#idCharUcdstdcpfdr"],
@@ -9,7 +9,8 @@
   ["char'generic-specific-tree","dirLag/McshLag000006.last.html#iidChargstr"],
   ["char'glyph","dirLag/McshLag000006.last.html#idCharglyph"],
   ["char'glyph.font","dirLag/McshLag000006.last.html#idCharglyphFnt"],
-  ["char'info-resource","dirLag/McshLag000006.last.html#idCharirsc"],
+  ["char'info-resource!⇒char'info_resource","dirLag/McshLag000006.last.html#idCharirsc"],
+  ["char'info_resource","dirLag/McshLag000006.last.html#idCharirsc"],
   ["char'specific-generic-tree","dirLag/McshLag000006.last.html#iidChargstr"],
   ["char-delete@cig","dirEdu/dirHitp/HitpEdu000.last.html#idCigTaWpE3_Wpchardelete"],
   ["char-delete@cig7","dirEdu/dirHitp/HitpEdu000.9.last.html#idGymAChardelete"],

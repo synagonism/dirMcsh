@@ -1,5 +1,5 @@
 [
-  [";lagZhon009","j",926,"2026-10-23"],
+  [";lagZhon009","j",926,"2026-10-24"],
   ["JiāngsūShěng-江苏省!=ChnaJiangsu","dirStn/McshStn000031.last.html#idChnaadmnatt015CNJS"],
   ["JiāngxīShěng-江西省!=ChnaJiangxi","dirStn/McshStn000031.last.html#idChnaadmnatt015CNJX"],
   ["Jì-冀!=ChnaHebei","dirStn/McshStn000031.last.html#idChnaadmnatt015CNHE"],
@@ -817,7 +817,7 @@
   ["jīngcháng-经常!~Zhon_adve!=often","dirLag/McshLag000018.last.html#idLZhonadve_041"],
   ["jīngjì-fùzá-xìng-zhǐshù-经济复杂性指数!=economic_complexity_index","dirStn/McshStn000012.last.html#idEconHmnatt044"],
   ["jīngjì-经济!=SoctEcon","dirStn/McshStn000012.last.html#idOverview"],
-  ["jīngjìxué-经济学!=sciEcon","dirEdu/McshEdu000014.last.html#idOverview"],
+  ["jīngjìxué-经济学!=SciEcon","dirEdu/McshEdu000014.last.html#idOverview"],
   ["jīnglǐ-经理!=OgznPrdg'manager","dirStn/McshStn000015.last.html#idOznPdnatt009"],
   ["jīnhuángsè-金黄色!=colorBlond","dirNtr/McshNtr000005.last.html#idSysMols009clrBlnd"],
   ["jīnróng-yǎnshēng-gōngjù-金融衍生工具!=finDerivative","dirStn/McshStn000029.last.html#idSfrFin003"],
