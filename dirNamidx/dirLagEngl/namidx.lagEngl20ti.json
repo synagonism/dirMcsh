@@ -1,5 +1,5 @@
 [
-  [";lagEngl20ti","T|t",4274,"2026-10-24"],
+  [";lagEngl20ti","T|t",4275,"2026-10-24"],
   ["T!=1000^4!=Tera!=trillion","dirCor/McshCor000010.last.html#idQntNbrK41"],
   ["T-account@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-T-account"],
   ["T-tera=x1000^4","dirCor/McshCor000010.last.html#idQntRlvMlplTera"],
@@ -3850,7 +3850,8 @@
   ["trains!~verbEnglA1-2:train;trains;trained;training;trained","dirLag/McshLag000024.last.html#idLEnglverbA1-53"],
   ["tranquillizer!⇒painkiller","dirHlth/McshHlth000014.last.html#idMedHmn005"],
   ["trans-@EngPrfx","dirLag/McshLag000011.last.html#idLEnglprfx-40"],
-  ["trans-organismic-language","dirLag/McshLag000005.last.html#idLOgsm001"],
+  ["trans-organismic--Ogms_lago!⇒Ogmt_lago","dirLag/McshLag000005.last.html#idLOgms001"],
+  ["trans-organismic-language!⇒Ogmt_lago","dirLag/McshLag000005.last.html#idLOgms001"],
   ["transFatContent@schema.org","dirStn/McshStn000023.last.html#idScmotransFatContent"],
   ["transact!~verbEnglA1!⇒ActgSfrtransacting","dirStn/McshStn000010.last.html#idSfrHmntrsg"],
   ["transact!~verbEnglA1-1:transact;transacts;transacted;transacting;transacted","dirLag/McshLag000024.last.html#idLEnglverbA1-62"],
