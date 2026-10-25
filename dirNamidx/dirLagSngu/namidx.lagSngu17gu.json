@@ -1,9 +1,9 @@
 [
-  [";lagSngu17gu","G|g",8,"2026-10-21"],
+  [";lagSngu17gu","G|g",8,"2026-10-25"],
   ["gau-kau!=RltnGenericSpecific","dirCor/McshCor000009.last.html#idGnrspcrln"],
   ["geu!=specific","dirCor/McshCor000009.last.html#idGnrcspc"],
   ["gou!=UOM","dirCor/McshCor000009.last.html#idGnrcmsrguom"],
-  ["gramu!=TextUnit","dirLag/McshLag000007.last.html#idLHmnmuntText"],
+  ["gramu!=Textunit","dirLag/McshLag000007.last.html#idLHmnmuntText"],
   ["gramualfu!=letter","dirLag/McshLag000008.last.html#idL0016ltr"],
   ["gramueniu!=conceptogram","dirLag/McshLag000007.last.html#idLHmnmuntCpgm"],
   ["gu!=Sngu_letrGu","dirLag/McshLag000010.last.html#idL0014ltr07"],

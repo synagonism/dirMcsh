@@ -118,45 +118,6 @@
     <br>* McshEngl.OgznDao'stakeholder!⇒Daostkholder,
     <a class="clsHide" href="#idDeOznskhrnam"></a></p>
 
-  <section id="idDeOznskhrgstr">
-  <h2 id="idDeOznskhrgstrH2">GENERIC-SPECIFIC-TREE of Daostkholder
-    </h2>
-  <p id="idDeOznskhrgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idDeOznskhrgstrdsn"></a></p>
-  <p id="idDeOznskhrgstrnam">name::
-    <br>* McshEngl.Daostkholder'generic-specific-tree,
-    <br>* McshEngl.Daostkholder'specific-generic-tree,
-    <a class="clsHide" href="#idDeOznskhrgstrnam"></a></p>
-  <p id="idDeOznskhrgntr">generic-tree::
-    <br>* McshEngl.Daostkholder_Gntr,
-    <br>===
-    <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idDeOznskhrgntr"></a></p>
-  <p id="idDeOznskhrsptr">specific-tree::
-    <br>* McshEngl.Daostkholder.specific,
-    <br>* McshEngl.Daostkholder_Sptr,
-    <br>===
-    <br>* <a class="clsPreview" href="stakeholder.ACCOUNT">account-stakeholder</a>,
-    <br>* accountNo-stakeholder!@McshTchInf000019#idDeOznskhrAcntN,
-    <br>===
-    <br>* internal-stakeholder!@McshTchInf000019#idDeOznmbr,
-    <br>* internalNo-stakeholder!@McshTchInf000019#idDeOznskhrExl,
-    <br>===
-    <br>* contractor,
-    <br>* contributor,
-    <br>* customer,
-    <br>* developer,
-    <br>* governor,
-    <br>* human-entity,
-    <br>* user,
-    <br>===
-    <br>* eosDAC'stakeholder!@McshTchInf000019#idEosdacskhr,
-    <br>* DAOstack'stakeholder!@McshTchInf000019#idDaostkskhr,
-    <br>* DoAragon'stakeholder!@McshTchInf000019#idArgnskhr,
-    <a class="clsHide" href="#idDeOznskhrsptr"></a></p>
-  </section>
-
   <section id="idDeOznskhrHnet">
   <h2 id="idDeOznskhrHnetH2">stakeholder.HUMAN-ENTITY
     </h2>
@@ -274,34 +235,6 @@
     <br>* McshEngl.Daostkholder.internal!⇒OgznDao_member,
     <a class="clsHide" href="#idDeOznmbrnam"></a></p>
 
-  <section id="idDeOznmbrgstr">
-  <h3 id="idDeOznmbrgstrH3">GENERIC-SPECIFIC-TREE of OgznDao_member
-    </h3>
-  <p id="idDeOznmbrgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idDeOznmbrgstrdsn"></a></p>
-  <p id="idDeOznmbrgstrnam">name::
-    <br>* McshEngl.OgznDao_member'generic-specific-tree,
-    <br>* McshEngl.OgznDao_member'specific-generic-tree,
-    <a class="clsHide" href="#idDeOznmbrgstrnam"></a></p>
-  <p id="idDeOznmbrgntr">generic-tree::
-    <br>* McshEngl.OgznDao_member_Gntr,
-    <br>===
-    <br>* Daostkholder_Gntr,
-    <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idDeOznmbrgntr"></a></p>
-  <p id="idDeOznmbrsptr">specific-tree::
-    <br>* McshEngl.OgznDao_member.specific,
-    <br>* McshEngl.OgznDao_member_Sptr,
-    <br>=== specifics-division-on-ownership:
-    <br>* owner,
-    <br>* ownerNo,
-    <br>=== specifics-division-on-work:
-    <br>* worker,
-    <br>* workerNo,
-    <a class="clsHide" href="#idDeOznmbrsptr"></a></p>
-  </section>
-
   <section id="idDeOznmbrOnr">
   <h3 id="idDeOznmbrOnrH3">member.OWNER
     </h3>
@@ -354,6 +287,34 @@
     <br>* McshEngl.OgznDao-member.workerNo,
     <a class="clsHide" href="#idDeOznmbrWkrNnam"></a></p>
   </section>
+
+  <section id="idDeOznmbrgstr">
+  <h3 id="idDeOznmbrgstrH3">GENERIC-SPECIFIC-TREE of OgznDao_member
+    </h3>
+  <p id="idDeOznmbrgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDeOznmbrgstrdsn"></a></p>
+  <p id="idDeOznmbrgstrnam">name::
+    <br>* McshEngl.OgznDao_member'generic-specific-tree,
+    <br>* McshEngl.OgznDao_member'specific-generic-tree,
+    <a class="clsHide" href="#idDeOznmbrgstrnam"></a></p>
+  <p id="idDeOznmbrgntr">generic-tree::
+    <br>* McshEngl.OgznDao_member_Gntr,
+    <br>===
+    <br>* Daostkholder_Gntr,
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idDeOznmbrgntr"></a></p>
+  <p id="idDeOznmbrsptr">specific-tree::
+    <br>* McshEngl.OgznDao_member.specific,
+    <br>* McshEngl.OgznDao_member_Sptr,
+    <br>=== specifics-division-on-ownership:
+    <br>* owner,
+    <br>* ownerNo,
+    <br>=== specifics-division-on-work:
+    <br>* worker,
+    <br>* workerNo,
+    <a class="clsHide" href="#idDeOznmbrsptr"></a></p>
+  </section>
   </section>
 
   <section id="idDeOznskhrExl">
@@ -373,34 +334,6 @@
     <br>* McshEngl.OgznDao'memberNo-stakeholder!⇒DaoskhrExternal,
     <br>* McshEngl.Daostkholder.external!⇒DaoskhrExternal,
     <a class="clsHide" href="#idDeOznskhrExlnam"></a></p>
-
-  <section id="idDeOznskhrExlgstr">
-  <h3 id="idDeOznskhrExlgstrH3">GENERIC-SPECIFIC-TREE of DaoskhrExternal
-    </h3>
-  <p id="idDeOznskhrExlgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idDeOznskhrExlgstrdsn"></a></p>
-  <p id="idDeOznskhrExlgstrnam">name::
-    <br>* McshEngl.DaoskhrExternal'generic-specific-tree,
-    <br>* McshEngl.DaoskhrExternal'specific-generic-tree,
-    <a class="clsHide" href="#idDeOznskhrExlgstrnam"></a></p>
-  <p id="idDeOznskhrExlgntr">generic-tree::
-    <br>* McshEngl.DaoskhrExternal_Gntr,
-    <br>===
-    <br>* Daostkholder_Gntr,
-    <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idDeOznskhrExlgntr"></a></p>
-  <p id="idDeOznskhrExlsptr">specific-tree::
-    <br>* McshEngl.DaoskhrExternal.specific,
-    <br>* McshEngl.DaoskhrExternal_Sptr,
-    <br>===
-    <br>=== specifics-division-on-buying
-    <br>* customer,
-    <br>* supplier,
-    <br>===
-    <br>* contractor,
-    <a class="clsHide" href="#idDeOznskhrExlsptr"></a></p>
-  </section>
 
   <section id="idDeOznskhrCtmr">
   <h3 id="idDeOznskhrCtmrH3">memberNo.CUSTOMER
@@ -464,6 +397,73 @@
     <br>* McshEngl.DaoskhrExternal.CONTRACTOR!⇒OgznDao'contractor,
     <a class="clsHide" href="#idDeOznskhrCrtrnam"></a></p>
   </section>
+
+  <section id="idDeOznskhrExlgstr">
+  <h3 id="idDeOznskhrExlgstrH3">GENERIC-SPECIFIC-TREE of DaoskhrExternal
+    </h3>
+  <p id="idDeOznskhrExlgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDeOznskhrExlgstrdsn"></a></p>
+  <p id="idDeOznskhrExlgstrnam">name::
+    <br>* McshEngl.DaoskhrExternal'generic-specific-tree,
+    <br>* McshEngl.DaoskhrExternal'specific-generic-tree,
+    <a class="clsHide" href="#idDeOznskhrExlgstrnam"></a></p>
+  <p id="idDeOznskhrExlgntr">generic-tree::
+    <br>* McshEngl.DaoskhrExternal_Gntr,
+    <br>===
+    <br>* Daostkholder_Gntr,
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idDeOznskhrExlgntr"></a></p>
+  <p id="idDeOznskhrExlsptr">specific-tree::
+    <br>* McshEngl.DaoskhrExternal.specific,
+    <br>* McshEngl.DaoskhrExternal_Sptr,
+    <br>===
+    <br>=== specifics-division-on-buying
+    <br>* customer,
+    <br>* supplier,
+    <br>===
+    <br>* contractor,
+    <a class="clsHide" href="#idDeOznskhrExlsptr"></a></p>
+  </section>
+  </section>
+
+  <section id="idDeOznskhrgstr">
+  <h2 id="idDeOznskhrgstrH2">GENERIC-SPECIFIC-TREE of Daostkholder
+    </h2>
+  <p id="idDeOznskhrgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDeOznskhrgstrdsn"></a></p>
+  <p id="idDeOznskhrgstrnam">name::
+    <br>* McshEngl.Daostkholder'generic-specific-tree,
+    <br>* McshEngl.Daostkholder'specific-generic-tree,
+    <a class="clsHide" href="#idDeOznskhrgstrnam"></a></p>
+  <p id="idDeOznskhrgntr">generic-tree::
+    <br>* McshEngl.Daostkholder_Gntr,
+    <br>===
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idDeOznskhrgntr"></a></p>
+  <p id="idDeOznskhrsptr">specific-tree::
+    <br>* McshEngl.Daostkholder.specific,
+    <br>* McshEngl.Daostkholder_Sptr,
+    <br>===
+    <br>* <a class="clsPreview" href="stakeholder.ACCOUNT">account-stakeholder</a>,
+    <br>* accountNo-stakeholder!@McshTchInf000019#idDeOznskhrAcntN,
+    <br>===
+    <br>* internal-stakeholder!@McshTchInf000019#idDeOznmbr,
+    <br>* internalNo-stakeholder!@McshTchInf000019#idDeOznskhrExl,
+    <br>===
+    <br>* contractor,
+    <br>* contributor,
+    <br>* customer,
+    <br>* developer,
+    <br>* governor,
+    <br>* human-entity,
+    <br>* user,
+    <br>===
+    <br>* eosDAC'stakeholder!@McshTchInf000019#idEosdacskhr,
+    <br>* DAOstack'stakeholder!@McshTchInf000019#idDaostkskhr,
+    <br>* DoAragon'stakeholder!@McshTchInf000019#idArgnskhr,
+    <a class="clsHide" href="#idDeOznskhrsptr"></a></p>
   </section>
   </section>
 
@@ -811,36 +811,6 @@
     <br>* McshEngl.OgznDao_govc'governing!⇒Daoadmg,
     <a class="clsHide" href="#idDeOzngovgnam"></a></p>
 
-  <section id="idDeOzngovggstr">
-  <h3 id="idDeOzngovggstrH3">GENERIC-SPECIFIC-TREE of Daoadmg
-    </h3>
-  <p id="idDeOzngovggstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idDeOzngovggstrdsn"></a></p>
-  <p id="idDeOzngovggstrnam">name::
-    <br>* McshEngl.Daoadmg'generic-specific-tree,
-    <br>* McshEngl.Daoadmg'specific-generic-tree,
-    <a class="clsHide" href="#idDeOzngovggstrnam"></a></p>
-  <p id="idDeOzngovggntr">generic-tree::
-    <br>* McshEngl.Daoadmg_Gntr,
-    <br>===
-    <br>* AnsrvcGvng_Gntr,
-    <br>* OgznDao'doing_Gntr,
-    <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idDeOzngovggntr"></a></p>
-  <p id="idDeOzngovgsptr">specific-tree::
-    <br>* McshEngl.Daoadmg.specific,
-    <br>* McshEngl.Daoadmg_Sptr,
-    <br>===
-    <br>* off-chain,
-    <br>* on-chain,
-    <br>===
-    <br>* creating,
-    <br>* budgeting,
-    <br>* voting,
-    <a class="clsHide" href="#idDeOzngovgsptr"></a></p>
-  </section>
-
   <section id="idDeOzncrtg">
   <h3 id="idDeOzncrtgH3">creating-OgznDao of govc
     </h3>
@@ -880,6 +850,36 @@
   <p id="idDeOznvtgwpa">addressWpg::
     <br>* {2019-03-25} Adam-Levi, https://medium.com/daostack/reputation-vs-tokens-6d7642c7a538,
     <a class="clsHide" href="#idDeOznvtgwpa"></a></p>
+  </section>
+
+  <section id="idDeOzngovggstr">
+  <h3 id="idDeOzngovggstrH3">GENERIC-SPECIFIC-TREE of Daoadmg
+    </h3>
+  <p id="idDeOzngovggstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDeOzngovggstrdsn"></a></p>
+  <p id="idDeOzngovggstrnam">name::
+    <br>* McshEngl.Daoadmg'generic-specific-tree,
+    <br>* McshEngl.Daoadmg'specific-generic-tree,
+    <a class="clsHide" href="#idDeOzngovggstrnam"></a></p>
+  <p id="idDeOzngovggntr">generic-tree::
+    <br>* McshEngl.Daoadmg_Gntr,
+    <br>===
+    <br>* AnsrvcGvng_Gntr,
+    <br>* OgznDao'doing_Gntr,
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idDeOzngovggntr"></a></p>
+  <p id="idDeOzngovgsptr">specific-tree::
+    <br>* McshEngl.Daoadmg.specific,
+    <br>* McshEngl.Daoadmg_Sptr,
+    <br>===
+    <br>* off-chain,
+    <br>* on-chain,
+    <br>===
+    <br>* creating,
+    <br>* budgeting,
+    <br>* voting,
+    <a class="clsHide" href="#idDeOzngovgsptr"></a></p>
   </section>
   </section>
   </section>
@@ -1186,35 +1186,6 @@
     <br>* McshEngl.OgznDao'doing,
     <a class="clsHide" href="#idDeOzndongnam"></a></p>
 
-  <section id="idDeOzndonggstr">
-  <h2 id="idDeOzndonggstrH2">GENERIC-SPECIFIC-TREE of OgznDao'doing
-    </h2>
-  <p id="idDeOzndonggstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idDeOzndonggstrdsn"></a></p>
-  <p id="idDeOzndonggstrnam">name::
-    <br>* McshEngl.OgznDao'doing'generic-specific-tree,
-    <br>* McshEngl.OgznDao'doing'specific-generic-tree,
-    <a class="clsHide" href="#idDeOzndonggstrnam"></a></p>
-  <p id="idDeOzndonggntr">generic-tree::
-    <br>* McshEngl.OgznDao'doing_Gntr,
-    <br>===
-    <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idDeOzndonggntr"></a></p>
-  <p id="idDeOzndongsptr">specific-tree::
-    <br>* McshEngl.OgznDao'doing.specific,
-    <br>* McshEngl.OgznDao'doing_Sptr,
-    <br>===
-    <br>* creating!@McshTchInf000019#idDeOzncrtg,
-    <br>* functing!@McshTchInf000019#idDeOznsrvc,
-    <br>* governing!@McshTchInf000019#idDeOzngovg,
-    <br>* accounting,
-    <br>* predicting,
-    <br>* proposing,
-    <br>* staking,
-    <a class="clsHide" href="#idDeOzndongsptr"></a></p>
-  </section>
-
   <section id="idDeOznsrvc">
   <h2 id="idDeOznsrvcH2">main-function of OgznDao
     </h2>
@@ -1245,6 +1216,35 @@
     <br>* McshEngl.OgznDao'accounting,
     <br>* McshEngl.OgznDao'doing'accounting!⇒OgznDao'accounting,
     <a class="clsHide" href="#idDeOznactgnam"></a></p>
+  </section>
+
+  <section id="idDeOzndonggstr">
+  <h2 id="idDeOzndonggstrH2">GENERIC-SPECIFIC-TREE of OgznDao'doing
+    </h2>
+  <p id="idDeOzndonggstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDeOzndonggstrdsn"></a></p>
+  <p id="idDeOzndonggstrnam">name::
+    <br>* McshEngl.OgznDao'doing'generic-specific-tree,
+    <br>* McshEngl.OgznDao'doing'specific-generic-tree,
+    <a class="clsHide" href="#idDeOzndonggstrnam"></a></p>
+  <p id="idDeOzndonggntr">generic-tree::
+    <br>* McshEngl.OgznDao'doing_Gntr,
+    <br>===
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idDeOzndonggntr"></a></p>
+  <p id="idDeOzndongsptr">specific-tree::
+    <br>* McshEngl.OgznDao'doing.specific,
+    <br>* McshEngl.OgznDao'doing_Sptr,
+    <br>===
+    <br>* creating!@McshTchInf000019#idDeOzncrtg,
+    <br>* functing!@McshTchInf000019#idDeOznsrvc,
+    <br>* governing!@McshTchInf000019#idDeOzngovg,
+    <br>* accounting,
+    <br>* predicting,
+    <br>* proposing,
+    <br>* staking,
+    <a class="clsHide" href="#idDeOzndongsptr"></a></p>
   </section>
   </section>
 
@@ -2461,36 +2461,6 @@
   </section>
   </section>
 
-  <section id="idEthdaogstr">
-  <h2 id="idEthdaogstrH2">GENERIC-SPECIFIC-TREE of DoEth
-    </h2>
-  <p id="idEthdaogstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idEthdaogstrdsn"></a></p>
-  <p id="idEthdaogstrnam">name::
-    <br>* McshEngl.DoEth'generic-specific-tree,
-    <br>* McshEngl.DoEth'specific-generic-tree,
-    <a class="clsHide" href="#idEthdaogstrnam"></a></p>
-  <p id="idEthdaogntr">generic-tree::
-    <br>* McshEngl.DoEth_Gntr,
-    <br>===
-    <br>* OgznDao_Gntr,
-    <br>* DappEth_Gntr,
-    <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idEthdaogntr"></a></p>
-  <p id="idEthdaosptr">specific-tree::
-    <br>* McshEngl.DoEth.specific,
-    <br>* McshEngl.DoEth_Sptr,
-    <br>===
-    <br>* The-DAO!@McshTchInf000019#idEthdaoThd,
-    <br>* Aragon!@McshTchInf000019#idArgn,
-    <br>* MakerDAO!@McshTchInf000019#idEthdaoMkr,
-    <br>* dxDAO,
-    <br>===
-    <br>* Aragon_client!@McshTchInf000019#idArgnclnt,
-    <a class="clsHide" href="#idEthdaosptr"></a></p>
-  </section>
-
   <section id="idEthdaoChrt">
   <h2 id="idEthdaoChrtH2">Deth-OgznDao.CHARITY
     </h2>
@@ -2661,6 +2631,36 @@
   <p id="idEthdaoClnnam">name::
     <br>* McshEngl.DoEth.Colony,
     <a class="clsHide" href="#idEthdaoClnnam"></a></p>
+  </section>
+
+  <section id="idEthdaogstr">
+  <h2 id="idEthdaogstrH2">GENERIC-SPECIFIC-TREE of DoEth
+    </h2>
+  <p id="idEthdaogstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEthdaogstrdsn"></a></p>
+  <p id="idEthdaogstrnam">name::
+    <br>* McshEngl.DoEth'generic-specific-tree,
+    <br>* McshEngl.DoEth'specific-generic-tree,
+    <a class="clsHide" href="#idEthdaogstrnam"></a></p>
+  <p id="idEthdaogntr">generic-tree::
+    <br>* McshEngl.DoEth_Gntr,
+    <br>===
+    <br>* OgznDao_Gntr,
+    <br>* DappEth_Gntr,
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idEthdaogntr"></a></p>
+  <p id="idEthdaosptr">specific-tree::
+    <br>* McshEngl.DoEth.specific,
+    <br>* McshEngl.DoEth_Sptr,
+    <br>===
+    <br>* The-DAO!@McshTchInf000019#idEthdaoThd,
+    <br>* Aragon!@McshTchInf000019#idArgn,
+    <br>* MakerDAO!@McshTchInf000019#idEthdaoMkr,
+    <br>* dxDAO,
+    <br>===
+    <br>* Aragon_client!@McshTchInf000019#idArgnclnt,
+    <a class="clsHide" href="#idEthdaosptr"></a></p>
   </section>
   </section>
 
@@ -3262,31 +3262,6 @@
     <br>* McshEngl.DAOstack'stakeholder,
     <a class="clsHide" href="#idDaostkskhrnam"></a></p>
 
-  <section id="idDaostkskhrgstr">
-  <h3 id="idDaostkskhrgstrH3">GENERIC-SPECIFIC-TREE of DAOstack'stakeholder
-    </h3>
-  <p id="idDaostkskhrgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idDaostkskhrgstrdsn"></a></p>
-  <p id="idDaostkskhrgstrnam">name::
-    <br>* McshEngl.DAOstack'stakeholder'generic-specific-tree,
-    <br>* McshEngl.DAOstack'stakeholder'specific-generic-tree,
-    <a class="clsHide" href="#idDaostkskhrgstrnam"></a></p>
-  <p id="idDaostkskhrgntr">generic-tree::
-    <br>* McshEngl.DAOstack'stakeholder_Gntr,
-    <br>===
-    <br>* Daostkholder_Gntr,
-    <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idDaostkskhrgntr"></a></p>
-  <p id="idDaostkskhrsptr">specific-tree::
-    <br>* McshEngl.DAOstack'stakeholder.specific,
-    <br>* McshEngl.DAOstack'stakeholder_Sptr,
-    <br>===
-    <br>* governor,
-    <br>* predictor,
-    <a class="clsHide" href="#idDaostkskhrsptr"></a></p>
-  </section>
-
   <section id="idDaostkskhrPdtr">
   <h3 id="idDaostkskhrPdtrH3">stakeholder.PREDICTOR
     </h3>
@@ -3506,6 +3481,31 @@
     <br>* Köppelmann.Martin (advisor),
     <a class="clsHide" href="#idDaostkskhrHmnsptr"></a></p>
   </section>
+  </section>
+
+  <section id="idDaostkskhrgstr">
+  <h3 id="idDaostkskhrgstrH3">GENERIC-SPECIFIC-TREE of DAOstack'stakeholder
+    </h3>
+  <p id="idDaostkskhrgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDaostkskhrgstrdsn"></a></p>
+  <p id="idDaostkskhrgstrnam">name::
+    <br>* McshEngl.DAOstack'stakeholder'generic-specific-tree,
+    <br>* McshEngl.DAOstack'stakeholder'specific-generic-tree,
+    <a class="clsHide" href="#idDaostkskhrgstrnam"></a></p>
+  <p id="idDaostkskhrgntr">generic-tree::
+    <br>* McshEngl.DAOstack'stakeholder_Gntr,
+    <br>===
+    <br>* Daostkholder_Gntr,
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idDaostkskhrgntr"></a></p>
+  <p id="idDaostkskhrsptr">specific-tree::
+    <br>* McshEngl.DAOstack'stakeholder.specific,
+    <br>* McshEngl.DAOstack'stakeholder_Sptr,
+    <br>===
+    <br>* governor,
+    <br>* predictor,
+    <a class="clsHide" href="#idDaostkskhrsptr"></a></p>
   </section>
   </section>
 
@@ -4104,32 +4104,6 @@
     <br>* McshEngl.DAOstack_govc'governing!⇒Daostckadmg,
     <a class="clsHide" href="#idDaostkgovgnam"></a></p>
 
-  <section id="idDaostkgovggstr">
-  <h4 id="idDaostkgovggstrH4">GENERIC-SPECIFIC-TREE of Daostckadmg
-    </h4>
-  <p id="idDaostkgovggstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idDaostkgovggstrdsn"></a></p>
-  <p id="idDaostkgovggstrnam">name::
-    <br>* McshEngl.Daostckadmg'generic-specific-tree,
-    <br>* McshEngl.Daostckadmg'specific-generic-tree,
-    <a class="clsHide" href="#idDaostkgovggstrnam"></a></p>
-  <p id="idDaostkgovggntr">generic-tree::
-    <br>* McshEngl.Daostckadmg_Gntr,
-    <br>===
-    <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idDaostkgovggntr"></a></p>
-  <p id="idDaostkgovgsptr">specific-tree::
-    <br>* McshEngl.Daostckadmg.specific,
-    <br>* McshEngl.Daostckadmg_Sptr,
-    <br>===
-    <br>* creating-OgznDao,
-    <br>* proposing,
-    <br>* voting,
-    <br>* staking|predicting,
-    <a class="clsHide" href="#idDaostkgovgsptr"></a></p>
-  </section>
-
   <section id="idDaostkcrtg">
   <h4 id="idDaostkcrtgH4">creating of DAOstack
     </h4>
@@ -4207,6 +4181,32 @@
     <br>* McshEngl.DAOstack-govc'voting,
     <br>* McshEngl.Daostckadmg'voting,
     <a class="clsHide" href="#idDaostkvtgnam"></a></p>
+  </section>
+
+  <section id="idDaostkgovggstr">
+  <h4 id="idDaostkgovggstrH4">GENERIC-SPECIFIC-TREE of Daostckadmg
+    </h4>
+  <p id="idDaostkgovggstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDaostkgovggstrdsn"></a></p>
+  <p id="idDaostkgovggstrnam">name::
+    <br>* McshEngl.Daostckadmg'generic-specific-tree,
+    <br>* McshEngl.Daostckadmg'specific-generic-tree,
+    <a class="clsHide" href="#idDaostkgovggstrnam"></a></p>
+  <p id="idDaostkgovggntr">generic-tree::
+    <br>* McshEngl.Daostckadmg_Gntr,
+    <br>===
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idDaostkgovggntr"></a></p>
+  <p id="idDaostkgovgsptr">specific-tree::
+    <br>* McshEngl.Daostckadmg.specific,
+    <br>* McshEngl.Daostckadmg_Sptr,
+    <br>===
+    <br>* creating-OgznDao,
+    <br>* proposing,
+    <br>* voting,
+    <br>* staking|predicting,
+    <a class="clsHide" href="#idDaostkgovgsptr"></a></p>
   </section>
   </section>
   </section>
@@ -4649,58 +4649,6 @@
     <a class="clsHide" href="#idEosdacctdnsdecnam"></a></p>
   </section>
 
-  <section id="idEosdacctdngstr">
-  <h4 id="idEosdacctdngstrH4">GENERIC-SPECIFIC-TREE of eosDAC_custodian
-    </h4>
-  <p id="idEosdacctdngstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idEosdacctdngstrdsn"></a></p>
-  <p id="idEosdacctdngstrnam">name::
-    <br>* McshEngl.eosDAC_custodian'generic-specific-tree,
-    <br>* McshEngl.eosDAC_custodian'specific-generic-tree,
-    <a class="clsHide" href="#idEosdacctdngstrnam"></a></p>
-  <p id="idEosdacctdngntr">generic-tree::
-    <br>* McshEngl.eosDAC_custodian_Gntr,
-    <br>===
-    <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idEosdacctdngntr"></a></p>
-  <p id="idEosdacctdnsptr">specific-tree::
-    <br>* McshEngl.eosDAC_custodian.specific,
-    <br>* McshEngl.eosDAC_custodian_Sptr,
-    <br>===
-    <br>* https://members.eosdac.io/vote-custodians,
-    <br>===
-    <br>* human,
-    <br>* legal-entity,
-    <br>===
-    <br>* Yeates.Michael,
-    <br>* Stokes.Luke,
-    <br>* CREAMer, https://members.eosdac.io/profile/cream5eosdac,
-    <br>* Won.SungHwan, https://members.eosdac.io/profile/angeljeffrey,
-    <br>* Kim.Soyoung, https://members.eosdac.io/profile/soyoungkimsk,
-    <br>* Johnson.Dallas, https://members.eosdac.io/profile/dallasjohnso,
-    <br>* McKenna.Saro,
-    <br>* Yang.Jeeho, https://members.eosdac.io/profile/yangjeeho123,
-    <br>* Jeong.Dennis, https://members.eosdac.io/profile/eosdackorean,
-    <br>* Allen.Rob, https://members.eosdac.io/profile/spaceinvader,
-    <br>* Wang.Myra, https://members.eosdac.io/profile/khaleesiwang,
-    <br>* IDOL-KWON, https://members.eosdac.io/profile/kwonwoosang1,
-    <br>* Buck.Justin, https://members.eosdac.io/profile/jbucksteiner,
-    <br>* Bindlish.Raman, https://members.eosdac.io/profile/investingwad,
-    <br>* Lee.Changhyun, https://members.eosdac.io/profile/lcheosdackor,
-    <br>* zhou.zicheng, https://members.eosdac.io/profile/eosdaciloveu,
-    <br>* G-H, https://members.eosdac.io/profile/gyzdmmbtgyge, !!!
-    <br>* PARK.JASON, https://members.eosdac.io/profile/ha3dqnbwgege,
-    <br>* Astie.Jonathan, https://members.eosdac.io/profile/cryptdfwplay,
-    <br>* Block-Tree-Team, https://members.eosdac.io/profile/eosblocktree,
-    <br>* Lystang.Cory, https://members.eosdac.io/profile/ge4tonzxgege,
-    <br>* Alcrypto, https://members.eosdac.io/profile/alcrypto1522,
-    <br>* Bobcat-Weaver, https://members.eosdac.io/profile/gi4tomjygege,
-    <br>* Muther.Mark-Alexander-Julius, https://members.eosdac.io/profile/sstarcitizen,
-    <br>* Weisberg.Doug, https://members.eosdac.io/profile/dougweisberg,
-    <a class="clsHide" href="#idEosdacctdnsptr"></a></p>
-  </section>
-
   <section id="idEosdacctdnYsml">
   <h4 id="idEosdacctdnYsmlH4">custodian.Yeates.Michael
     </h4>
@@ -4799,6 +4747,58 @@
     <br>* McshEngl.eosDAC_custodian.McKenna.Saro,
     <br>* McshEngl.eosDAC-custodian.McKenna.Saro!⇒eosDAC_custodian.McKenna.Saro,
     <a class="clsHide" href="#idEosdacctdnMnsrnam"></a></p>
+  </section>
+
+  <section id="idEosdacctdngstr">
+  <h4 id="idEosdacctdngstrH4">GENERIC-SPECIFIC-TREE of eosDAC_custodian
+    </h4>
+  <p id="idEosdacctdngstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEosdacctdngstrdsn"></a></p>
+  <p id="idEosdacctdngstrnam">name::
+    <br>* McshEngl.eosDAC_custodian'generic-specific-tree,
+    <br>* McshEngl.eosDAC_custodian'specific-generic-tree,
+    <a class="clsHide" href="#idEosdacctdngstrnam"></a></p>
+  <p id="idEosdacctdngntr">generic-tree::
+    <br>* McshEngl.eosDAC_custodian_Gntr,
+    <br>===
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idEosdacctdngntr"></a></p>
+  <p id="idEosdacctdnsptr">specific-tree::
+    <br>* McshEngl.eosDAC_custodian.specific,
+    <br>* McshEngl.eosDAC_custodian_Sptr,
+    <br>===
+    <br>* https://members.eosdac.io/vote-custodians,
+    <br>===
+    <br>* human,
+    <br>* legal-entity,
+    <br>===
+    <br>* Yeates.Michael,
+    <br>* Stokes.Luke,
+    <br>* CREAMer, https://members.eosdac.io/profile/cream5eosdac,
+    <br>* Won.SungHwan, https://members.eosdac.io/profile/angeljeffrey,
+    <br>* Kim.Soyoung, https://members.eosdac.io/profile/soyoungkimsk,
+    <br>* Johnson.Dallas, https://members.eosdac.io/profile/dallasjohnso,
+    <br>* McKenna.Saro,
+    <br>* Yang.Jeeho, https://members.eosdac.io/profile/yangjeeho123,
+    <br>* Jeong.Dennis, https://members.eosdac.io/profile/eosdackorean,
+    <br>* Allen.Rob, https://members.eosdac.io/profile/spaceinvader,
+    <br>* Wang.Myra, https://members.eosdac.io/profile/khaleesiwang,
+    <br>* IDOL-KWON, https://members.eosdac.io/profile/kwonwoosang1,
+    <br>* Buck.Justin, https://members.eosdac.io/profile/jbucksteiner,
+    <br>* Bindlish.Raman, https://members.eosdac.io/profile/investingwad,
+    <br>* Lee.Changhyun, https://members.eosdac.io/profile/lcheosdackor,
+    <br>* zhou.zicheng, https://members.eosdac.io/profile/eosdaciloveu,
+    <br>* G-H, https://members.eosdac.io/profile/gyzdmmbtgyge, !!!
+    <br>* PARK.JASON, https://members.eosdac.io/profile/ha3dqnbwgege,
+    <br>* Astie.Jonathan, https://members.eosdac.io/profile/cryptdfwplay,
+    <br>* Block-Tree-Team, https://members.eosdac.io/profile/eosblocktree,
+    <br>* Lystang.Cory, https://members.eosdac.io/profile/ge4tonzxgege,
+    <br>* Alcrypto, https://members.eosdac.io/profile/alcrypto1522,
+    <br>* Bobcat-Weaver, https://members.eosdac.io/profile/gi4tomjygege,
+    <br>* Muther.Mark-Alexander-Julius, https://members.eosdac.io/profile/sstarcitizen,
+    <br>* Weisberg.Doug, https://members.eosdac.io/profile/dougweisberg,
+    <a class="clsHide" href="#idEosdacctdnsptr"></a></p>
   </section>
   </section>
   </section>
