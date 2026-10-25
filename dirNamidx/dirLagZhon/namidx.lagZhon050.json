@@ -313,7 +313,7 @@
   ["马上-mǎshàng!=timeAfterTimeImmediate","dirCor/McshCor000006.last.html#idTimeRltvAftImdl"],
   ["马上-mǎshàng!=timeDefiNoSmall","dirCor/McshCor000006.last.html#idTimeSmsDftNSoon"],
   ["马上-mǎshàng!~AdveTimeVerb!=right-now","dirLag/McshLag000007.last.html#idLHmnmvbatTimeSntxAdve"],
-  ["马上-mǎshàng!~Zhon_adve!=immediately","dirLag/McshLag000018.last.html#idLZhonadve_048"],
+  ["马上-mǎshàng!~Zhonadve!=immediately","dirLag/McshLag000018.last.html#idLZhonadve_048"],
   ["马桶-mǎtǒng!=toilet","dirStn/McshStn000022.last.html#idSfrHauzatt007tult"],
   ["马路-mǎlù!=street","dirStn/McshStn000009.last.html#idSocHumnatt061Strt"],
   ["驭-yù-39533!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb369"],

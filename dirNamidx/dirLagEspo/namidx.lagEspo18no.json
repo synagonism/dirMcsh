@@ -1,5 +1,5 @@
 [
-  [";lagEspo18no","N|n",13,"2026-10-23"],
+  [";lagEspo18no","N|n",13,"2026-10-25"],
   ["Novembro!=November","dirCor/McshCor000006.last.html#idTimeUomMnthNov"],
   ["naŭ!=9","dirCor/McshCor000010.last.html#idQntNbr9"],
   ["naŭa!=ένατος_η_ο","dirCor/McshCor000011.last.html#idSys001ordr9th"],
@@ -12,5 +12,5 @@
   ["neĝo!=snow","dirNtr/McshNtr000005.last.html#idSysMols004WtrSnow"],
   ["nigra!=colorBlack","dirNtr/McshNtr000005.last.html#idSysMols009clrBlck"],
   ["nokto!=night","dirCor/McshCor000006.last.html#idTimeUomDaynt"],
-  ["nomo!=name","dirLag/McshLag000007.last.html#idLHmnmname"]
+  ["nomo!=Hmnmname","dirLag/McshLag000007.last.html#idLHmnmname"]
 ]

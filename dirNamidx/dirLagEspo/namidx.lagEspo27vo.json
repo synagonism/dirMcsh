@@ -1,7 +1,7 @@
 [
-  [";lagEspo27vo","V|v",7,"2026-10-20"],
+  [";lagEspo27vo","V|v",7,"2026-10-25"],
   ["vento!=wind","dirNtr/McshNtr000015.last.html#idErthamfrwind"],
-  ["verbo!=verb","dirLag/McshLag000007.last.html#idLHmnmverb"],
+  ["verbo!=Hmnmverb","dirLag/McshLag000007.last.html#idLHmnmverb"],
   ["verda!=colorGreen","dirNtr/McshNtr000005.last.html#idSysMols009clrGren"],
   ["veturilo!=vehicle","dirTch/McshTch000003.last.html#idMchn001"],
   ["vomi!=DissVomiting","dirHlth/McshHlth000011.last.html#idDssHmn284"],
