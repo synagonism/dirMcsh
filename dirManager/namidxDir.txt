@@ -1,0 +1,12 @@
+dirCor/
+dirEdu/
+dirHlth/
+dirHmn/
+dirLag/
+dirNtr/
+dirOgm/
+dirStn/
+dirStnlaw/
+dirTch/
+dirTchInf/
+dirTchPrgm/

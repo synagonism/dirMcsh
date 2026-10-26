@@ -507,6 +507,7 @@
     <br>* McshEngl.attribute-entity--sequencedNo-relation!⇒RltnEntityAttribute,
     <br>* McshEngl.entity-attribute--sequencedNo-relation!⇒RltnEntityAttribute,
     <br>* McshEngl.lagoHmnm'entity-attribute-sequencedNo!⇒RltnEntityAttribute,
+    <br>* McshEngl.relation.entity_attribute_sequencedNo!⇒RltnEntityAttribute,
     <br>* McshEngl.relation.entity-attribute-sequencedNo!⇒RltnEntityAttribute,
     <br>* McshEngl.RltnAttributeEntity!⇒RltnEntityAttribute,
     <br>* McshEngl.RltnAttribute_then_entityU!⇒RltnEntityAttribute,
@@ -535,8 +536,8 @@
     <br>· χρόνοι ρήματος,
     <a class="clsHide" href="#idEntattnamgdsn"></a></p>
   <p id="idEntattnamgnam">name::
-    <br>* McshEngl.ActgNaming.attribute-entity,
-    <br>* McshEngl.ActgNaming.entity-attribute,
+    <br>* McshEngl.ActgNaming.attribute_entity,
+    <br>* McshEngl.ActgNaming.entity_attribute,
     <br>* McshEngl.RltnEntityAttribute'naming-acting,
     <br>* McshEngl.attribute'naming-acting,
     <a class="clsHide" href="#idEntattnamgnam"></a></p>
@@ -578,6 +579,7 @@
     <br>* McshEngl.entity's-attribute!⇒RltnEntityThenAttribute,
     <br>* McshEngl.has-attribute!⇒RltnEntityThenAttribute,
     <br>* McshEngl.of!~ConjEngl!⇒RltnEntityThenAttribute,
+    <br>* McshEngl.relation.entity_then_attribute!⇒RltnEntityThenAttribute,
     <br>* McshEngl.relation.entity-then-attribute!⇒RltnEntityThenAttribute,
     <br>* McshEngl.RltnAttribute!⇒RltnEntityThenAttribute,
     <br>====== lagoSinagu:
@@ -617,10 +619,12 @@
   <p id="idEntatrrln2nam">name::
     <br>* McshEngl.attribute-then-entity--relation!⇒RltnAttributeThenEntity,
     <br>* McshEngl.RltnAttributeThenEntity!=attribute-then-entity--relation,
-    <br>* McshEngl.attribute-entity--sequenced--relation!⇒RltnAttributeThenEntity,
+    <br>* McshEngl.attribute-entity--sequenced-relation!⇒RltnAttributeThenEntity,
     <br>* McshEngl.descriptive-relation!⇒RltnAttributeThenEntity,
     <br>* McshEngl.entity-relation!⇒RltnAttributeThenEntity,
+    <br>* McshEngl.relation.attribute_then_entity!⇒RltnAttributeThenEntity,
     <br>* McshEngl.relation.attribute-then-entity!⇒RltnAttributeThenEntity,
+    <br>* McshEngl.relation.of_entity!⇒RltnAttributeThenEntity,
     <br>* McshEngl.relation.of-entity!⇒RltnAttributeThenEntity,
     <br>* McshEngl.RltnEntity!⇒RltnAttributeThenEntity,
     <br>* McshEngl.of!~ConjEngl!⇒RltnAttributeThenEntity,
@@ -677,8 +681,8 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idEntirscdsn"></a></p>
   <p id="idEntrscnam">name::
-    <br>* McshEngl.info-resource-of-entity!⇒Entityinfrsc,
-    <br>* McshEngl.Entityinfrsc!=info-resource-of-entity,
+    <br>* McshEngl.info-resource--of-entity!⇒Entityinfrsc,
+    <br>* McshEngl.Entityinfrsc!=info-resource--of-entity,
     <br>* McshEngl.entity'info_resource!⇒Entityinfrsc,
     <br>* McshEngl.entity'info-resource!⇒Entityinfrsc,
     <a class="clsHide" href="#idEntrscnam"></a></p>
@@ -1211,7 +1215,9 @@
     <br>* McshEngl.entity'stage!⇒Enttstage,
     <br>* McshEngl.evoluting'timeinterval!⇒Enttstage,
     <br>* McshEngl.stage-of-evoluting!⇒Enttstage,
+    <br>* McshEngl.staging.of_evoluting!⇒Enttstage,
     <br>* McshEngl.staging.of-evoluting!⇒Enttstage,
+    <br>* McshEngl.Enttstage.of_evoluting!⇒Enttstage,
     <br>* McshEngl.Enttstage.of-evoluting!⇒Enttstage,
     <br>* McshEngl.Enttevlg'timeinterval|stage!⇒Enttstage,
     <a class="clsHide" href="#idEntevogtmilnam"></a></p>
@@ -1508,6 +1514,7 @@
     <br>* McshEngl.non-edge--stage!⇒EnttstageEdgeNo,
     <br>* McshEngl.EnttstageEdgeNo!=non-edge--stage,
     <br>* McshEngl.Enttstage.non_edge!⇒EnttstageEdgeNo,
+    <br>* McshEngl.staging.non_edge!⇒EnttstageEdgeNo,
     <br>* McshEngl.staging.non-edge!⇒EnttstageEdgeNo,
     <a class="clsHide" href="#idEntevogedgnnam"></a></p>
   </section>
@@ -1816,7 +1823,7 @@
   </section>
 
   <section id="idEntevogEraage">
-  <h2 id="idEntevogEraageH2">Enttevlg.era-vs-age
+  <h2 id="idEntevogEraageH2">Enttevlg.era_vs_age
     </h2>
   <p id="idEntevogEraagedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1828,9 +1835,9 @@
     <br>[{2024-01-27 retrieved} https://chat.openai.com/c/2f594f79-f192-42af-b514-1296a350e17b]
     <a class="clsHide" href="#idEntevogEraagedsn"></a></p>
   <p id="idEntevogEraagenam">name::
-    <br>* McshEngl.evoluting.age-vs-era,
-    <br>* McshEngl.evoluting.era-vs-age,
-    <br>* McshEngl.Enttevlg.era-vs-age,
+    <br>* McshEngl.evoluting.age_vs_era,
+    <br>* McshEngl.evoluting.era_vs_age,
+    <br>* McshEngl.Enttevlg.era_vs_age,
     <br>====== lagoGreek:
     <br>* McshElln.εποχή-ιστορίας,
     <a class="clsHide" href="#idEntevogEraagenam"></a></p>

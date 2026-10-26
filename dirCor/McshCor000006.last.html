@@ -536,6 +536,7 @@
   <p id="idTimeSmsDftDtcPastJustnam">name::
     <br>* McshEngl.timeDeicticPastJust!⇒timePastJust,
     <br>* McshEngl.timePastJust!=timeDeicticPastJust,
+    <br>* McshEngl.AdveEngl.just_before!⇒timePastJust,
     <br>* McshEngl.AdveEngl.just-before!⇒timePastJust,
     <br>* McshEngl.just-before!~AdveEngl!⇒timePastJust,
     <br>* McshEngl.RltnTimeDeicticPastJust!⇒timePastJust,
@@ -608,6 +609,7 @@
     <br>* McshEngl.timeDeicticCurrentJust!⇒timeDeicticNowJust,
     <br>* McshEngl.timeDeicticNowJust!=timeDeicticCurrentJust,
     <br>* McshEngl.AdveEngl.just!⇒timeDeicticNowJust,
+    <br>* McshEngl.AdveEngl.just_now!⇒timeDeicticNowJust,
     <br>* McshEngl.AdveEngl.just-now!⇒timeDeicticNowJust,
     <br>* McshEngl.just!~AdveEngl!⇒timeDeicticNowJust,
     <br>* McshEngl.just-now!~AdveEngl!⇒timeDeicticNowJust,
@@ -1191,6 +1193,7 @@
     <a class="clsHide" href="#idTimeRltvBfrdsn"></a></p>
   <p id="idTimeRltvBfrnam">name::
     <br>* McshEngl.timeBeforeTime,
+    <br>* McshEngl.time.relative.before_time!⇒timeBeforeTime,
     <br>* McshEngl.time.relative.before-time!⇒timeBeforeTime,
     <br>* McshEngl.timeRelaTimeBefore!⇒timeBeforeTime,
     <br>===
@@ -1204,6 +1207,7 @@
     <br>* McshEngl.before!~AdveEngl!⇒timeBeforeTime,
     <br>* McshEngl.before!~ConjEngl!⇒timeBeforeTime,
     <br>* McshEngl.ConjEngl.before!⇒timeBeforeTime,
+    <br>* McshEngl.ConjEngl.prior_to!⇒timeBeforeTime,
     <br>* McshEngl.ConjEngl.prior-to!⇒timeBeforeTime,
     <br>* McshEngl.previously!~AdveEngl!⇒timeBeforeTime,
     <br>* McshEngl.prior-to!~ConjEngl!⇒timeBeforeTime,
@@ -1274,6 +1278,7 @@
     <br>· _SntxElln: Κόπηκε το ρεύμα καθώς έκανα μπάνιο.
     <a class="clsHide" href="#idTimeRltvSeimdsn"></a></p>
   <p id="idTimeRltvSeimnam">name::
+    <br>* McshEngl.time.relative.same_time!⇒timeSameTime,
     <br>* McshEngl.time.relative.same-time!⇒timeSameTime,
     <br>* McshEngl.timeSameTime!=time.relative.same-time,
     <br>* McshEngl.timeRelaSameTime!⇒timeSameTime,
@@ -1321,6 +1326,7 @@
     <br>· _SntxZhon: 他 吃饭 后 常常 散步。 :: _SntxSubj:[Tā] _SntxVerb:{chīfàn} _SntxTime:[(hòu)[chángcháng][sànbù]]。 != [he] {eat} [(after) [often] {walking}]. He often walks after eating.
     <a class="clsHide" href="#idTimeRltvAftdsn"></a></p>
   <p id="idTimeRltvAftnam">name::
+    <br>* McshEngl.time.relative.after_time!⇒timeAfterTime,
     <br>* McshEngl.time.relative.after-time!⇒timeAfterTime,
     <br>* McshEngl.timeAfterTime!=time.relative.after-time,
     <br>* McshEngl.timeRelaAfterTime!⇒timeAfterTime,
@@ -1331,6 +1337,7 @@
     <br>* McshEngl.AdveEngl.afterward!⇒timeAfterTime,
     <br>* McshEngl.AdveEngl.anymore!⇒timeAfterTime,
     <br>* McshEngl.AdveEngl.later!⇒timeAfterTime,
+    <br>* McshEngl.AdveEngl.later_on!⇒timeAfterTime,
     <br>* McshEngl.AdveEngl.later-on!⇒timeAfterTime,
     <br>* McshEngl.AdveEngl.then!⇒timeAfterTime,
     <br>* McshEngl.after!~AdveEngl!⇒timeAfterTime,
@@ -1371,6 +1378,7 @@
     <br>· _SntxElln: Έφυγαν, μόλις χτύπησε το ρολόι.
     <a class="clsHide" href="#idTimeRltvAftImdldsn"></a></p>
   <p id="idTimeRltvAftImdlnam">name::
+    <br>* McshEngl.time.relative.after_time.immediate!⇒timeAfterTimeImmediate,
     <br>* McshEngl.time.relative.after-time.immediate!⇒timeAfterTimeImmediate,
     <br>* McshEngl.timeAfterTimeImmediate!=time.relative.after-time.immediate,
     <br>* McshEngl.timeRelaAfterTimeImmediate!⇒timeAfterTimeImmediate,
@@ -1399,9 +1407,11 @@
     <br>· time, relative, around-time,
     <a class="clsHide" href="#idTimeRltvArddsn"></a></p>
   <p id="idTimeRltvArdnam">name::
+    <br>* McshEngl.time.relative.around_time!⇒timeAroundTime,
     <br>* McshEngl.time.relative.around-time!⇒timeAroundTime,
     <br>* McshEngl.timeAroundTime!=time.relative.around-time,
     <br>* McshEngl.around-time!⇒timeAroundTime,
+    <br>* McshEngl.time.around_time!⇒timeAroundTime,
     <br>* McshEngl.time.around-time!⇒timeAroundTime,
     <br>* McshEngl.timeRelaTimeAround!⇒timeAroundTime,
     <br>===
@@ -1426,8 +1436,10 @@
     <br>· _SntxEngl: they will continue to do so until 1998. :: _SntxSubj:[they] _SntxVerb:{will continue} _SntxWhat:[_SntxVerb:{to do} _SntxManner:[so] _SntxTime:[(until) 1998]].
     <a class="clsHide" href="#idTimeRltvBtndsn"></a></p>
   <p id="idTimeRltvBtnnam">name::
+    <br>* McshEngl.time.relative.between_time!⇒timeBetweenTime,
     <br>* McshEngl.time.relative.between-time!⇒timeBetweenTime,
     <br>* McshEngl.timeBetweenTime!=time.relative.between-time,
+    <br>* McshEngl.time.between_time!⇒timeBetweenTime,
     <br>* McshEngl.time.between-time!⇒timeBetweenTime,
     <br>* McshEngl.timeRelaBetweenTime!⇒timeBetweenTime,
     <br>===
@@ -1482,7 +1494,9 @@
     <a class="clsHide" href="#idTimeRltvBfrcdsn"></a></p>
   <p id="idTimeRltvBfrcnam">name::
     <br>* McshEngl.timeBefore,
+    <br>* McshEngl.time.relative.before_current!⇒timeBefore,
     <br>* McshEngl.time.relative.before-current!⇒timeBefore,
+    <br>* McshEngl.timeBeforetime.relative.before_current!⇒timeBefore,
     <br>* McshEngl.timeBeforetime.relative.before-current!⇒timeBefore,
     <br>* McshEngl.timeBeforeCurrent!⇒timeBefore,
     <br>* McshEngl.timePast!⇒timeBefore,
@@ -1495,7 +1509,9 @@
     <br>* McshEngl.AdveEngl.already!⇒timeBefore,
     <br>* McshEngl.already!~AdveEngl!⇒timeBefore,
     <br>* McshElln.σύνδεσμος.μέχρι-τώρα!=timeBefore,
+    <br>* McshEngl.ConjEngl.so_far!⇒timeBefore,
     <br>* McshEngl.ConjEngl.so-far!⇒timeBefore,
+    <br>* McshEngl.ConjEngl.until_now!⇒timeBefore,
     <br>* McshEngl.ConjEngl.until-now!⇒timeBefore,
     <br>* McshEngl.so-far!~ConjEngl!⇒timeBefore,
     <br>* McshEngl.until-now!~ConjEngl!⇒timeBefore,
@@ -1523,6 +1539,7 @@
     <br>· _SntxZhon: 三小时后她来。 :: _SntxTime:[Sān xiǎoshí (hòu)] _SntxSubj:[tā] _SntxVerb:{lái}. != She will come three hours from now.
     <a class="clsHide" href="#idTimeRltvAfrcdsn"></a></p>
   <p id="idTimeRltvAfrcnam">name::
+    <br>* McshEngl.time.relative.after_current!⇒timeAfter,
     <br>* McshEngl.time.relative.after-current!⇒timeAfter,
     <br>* McshEngl.timeAfter!=time.relative.after-current,
     <br>* McshEngl.future!⇒timeAfter,
@@ -1609,6 +1626,7 @@
     <br>* McshElln.σύνδεσμος.έπειτα!=timeSequence,
     <br>* McshElln.σύνδεσμος.μετά!=timeSequence,
     <br>* McshElln.σύνδεσμος.προτού!=timeSequence,
+    <br>* McshEngl.ConjEngl.and_then!⇒timeSequence,
     <br>* McshEngl.ConjEngl.and-then!⇒timeSequence,
     <br>* McshEngl.ConjEngl.finally!⇒timeSequence,
     <br>* McshEngl.ConjEngl.first!⇒timeSequence,
@@ -1683,6 +1701,7 @@
     <br>* McshEngl.timeRelaExpectedAfter!⇒timeAfterExpected,
     <br>===
     <br>* McshEngl.RltnTimeAfterExpected!⇒timeAfterExpected,
+    <br>* McshEngl.AdveEngl.as_late_as!⇒timeAfterExpected,
     <br>* McshEngl.AdveEngl.as-late-as!⇒timeAfterExpected,
     <br>* McshEngl.as-late-as!~AdveEngl!⇒timeAfterExpected,
     <br>====== lagoChinese:
@@ -1814,6 +1833,7 @@
   <p id="idTimeUomnam">name::
     <br>* McshEngl.UomTime, {2020-04-23}
     <br>* McshEngl.time-Uom!⇒UomTime,
+    <br>* McshEngl.time.unit_of_measurement!⇒UomTime,
     <br>* McshEngl.time.unit-of-measurement!⇒UomTime,
     <a class="clsHide" href="#idTimeUomnam"></a></p>
 
@@ -1945,7 +1965,7 @@
   </section>
 
   <section id="idTimeUomCldrRlyr">
-  <h3 id="idTimeUomCldrRlyrH3">calendar.regnal-year
+  <h3 id="idTimeUomCldrRlyrH3">calendar.regnal_year
     </h3>
   <p id="idTimeUomCldrRlyrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1954,7 +1974,7 @@
     <br>[{2019-10-21} https://en.wikipedia.org/wiki/Regnal_year]
     <a class="clsHide" href="#idTimeUomCldrRlyrdsn"></a></p>
   <p id="idTimeUomCldrRlyrnam">name::
-    <br>* McshEngl.calendar.regnal-year,
+    <br>* McshEngl.calendar.regnal_year,
     <br>* McshEngl.regnal-year,
     <br>* McshEngl.time.system_of_measurement.regnal-year,
     <a class="clsHide" href="#idTimeUomCldrRlyrnam"></a></p>
@@ -3509,6 +3529,7 @@
   <p id="idTimeUomDayelmnnam">name::
     <br>* McshEngl.early_morning,
     <br>* McshEngl.early-morning!⇒early_morning,
+    <br>* McshEngl.time.early_morning!⇒early_morning,
     <br>* McshEngl.time.early-morning!⇒early_morning,
     <br>* McshEngl.time.early-morning.lagoElln!=νωρίς-το-πρωί!⇒early_morning,
     <br>* McshEngl.time.early-morning.lagoZhon!=早上-zǎoshang!⇒early_morning,
@@ -3530,6 +3551,7 @@
     <br>* McshEngl.before_afternoon,
     <br>* McshEngl.before-afternoon!⇒before_afternoon,
     <br>* McshEngl.late-morning!⇒before_afternoon,
+    <br>* McshEngl.time.late_morning!⇒before_afternoon,
     <br>* McshEngl.time.late-morning!⇒before_afternoon,
     <br>* McshEngl.time.late-morning.lagoElln!=aργά-το-πρωί!⇒before_afternoon,
     <br>* McshEngl.time.late-morning.lagoZhon!=上午-shàngwǔ!⇒before_afternoon,
@@ -3765,7 +3787,7 @@
     <br>* McshEngl.dayWorkNo.specific,
     <br>* McshEngl.dayWorkNo_Sptr,
     <br>===
-    <br>* dayWorkNo.festival-vs-holiday!@McshCor000006#idTimeUomDayFvhd,
+    <br>* dayWorkNo.festival_vs_holiday!@McshCor000006#idTimeUomDayFvhd,
     <br>* dayWorkNo.Thanksgiving!@McshCor000006#idTimeUomDayTkgv,
     <br>* dayWorkNo.New-Year!@McshCor000006#idTimeUomDayChnwyr,
     <br>* dayWorkNo.Christmas!@McshCor000006#idTimeUomDayChrm,
@@ -3773,7 +3795,7 @@
   </section>
 
   <section id="idTimeUomDayFvhd">
-  <h4 id="idTimeUomDayFvhdH4">dayWorkNo.festival-vs-holiday
+  <h4 id="idTimeUomDayFvhdH4">dayWorkNo.festival_vs_holiday
     </h4>
   <p id="idTimeUomDayFvhddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3799,8 +3821,8 @@
     <br>[{2024-04-25 retrieved} https://chat.openai.com/c/2a1cd8ab-a65d-4454-9484-8503b421b635]
     <a class="clsHide" href="#idTimeUomDayFvhddsn"></a></p>
   <p id="idTimeUomDayFvhdnam">name::
-    <br>* McshEngl.dayWorkNo.festival-vs-holiday,
-    <br>* McshEngl.dayWorkNo.holiday-vs-festival,
+    <br>* McshEngl.dayWorkNo.festival_vs_holiday,
+    <br>* McshEngl.dayWorkNo.holiday_vs_festival,
     <br>* McshEngl.festival-vs-holiday,
     <br>* McshEngl.holiday-vs-festival,
     <a class="clsHide" href="#idTimeUomDayFvhdnam"></a></p>
@@ -3836,7 +3858,9 @@
   <p id="idTimeUomDayChnwyrnam">name::
     <br>* McshEngl.New_Year,
     <br>* McshEngl.New-Year!⇒New_Year,
+    <br>* McshEngl.dayWorkNo.New_Year!⇒New_Year,
     <br>* McshEngl.dayWorkNo.New-Year!⇒New_Year,
+    <br>* McshEngl.time.New_Year!⇒New_Year,
     <br>* McshEngl.time.New-Year!⇒New_Year,
     <br>* McshEngl.time.New-Year.lagoElln!=νέος-χρόνος!⇒New_Year,
     <br>* McshEngl.time.New-Year.lagoZhon!=新年-xīnnian!⇒New_Year,
@@ -3889,6 +3913,7 @@
     <br>* McshEngl.day.individual,
     <br>* McshEngl.date!⇒day.individual,
     <br>* McshEngl.day.date!⇒day.individual,
+    <br>* McshEngl.day.of_year!⇒day.individual,
     <br>* McshEngl.day.of-year!⇒day.individual,
     <br>* McshEngl.day.year!⇒day.individual,
     <br>* McshEngl.year-day!⇒day.individual,
@@ -3902,7 +3927,7 @@
   </section>
 
   <section id="idTimeUomDayMnth">
-  <h3 id="idTimeUomDayMnthH3">day.of-month
+  <h3 id="idTimeUomDayMnthH3">day.of_month
     </h3>
   <p id="idTimeUomDayMnthdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3910,20 +3935,20 @@
     <a class="clsHide" href="#idTimeUomDayMnthdsn"></a></p>
   <p id="idTimeUomDayMnthnam">name::
     <br>* McshEngl.day.month,
-    <br>* McshEngl.day.of-month,
+    <br>* McshEngl.day.of_month,
     <br>* McshEngl.month-day,
     <a class="clsHide" href="#idTimeUomDayMnthnam"></a></p>
   </section>
 
   <section id="idTimeUomDayWeak">
-  <h3 id="idTimeUomDayWeakH3">day.of-weak
+  <h3 id="idTimeUomDayWeakH3">day.of_weak
     </h3>
   <p id="idTimeUomDayWeakdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· a-day of a-weak.
     <a class="clsHide" href="#idTimeUomDayWeakdsn"></a></p>
   <p id="idTimeUomDayWeaknam">name::
-    <br>* McshEngl.day.of-weak,
+    <br>* McshEngl.day.of_weak,
     <br>* McshEngl.day.weak,
     <br>* McshEngl.time.weak-day.lagoElln!=μέρα-εβδομάδας,
     <br>* McshEngl.time.weak-day.Ζhon.星期-xīngqī,
@@ -4143,7 +4168,9 @@
   <p id="idTimeUomDayPst2nam">name::
     <br>* McshEngl.day_before_yesterday,
     <br>* McshEngl.day-before-yesterday!⇒day_before_yesterday,
+    <br>* McshEngl.day.relative.before_yesterday!⇒day_before_yesterday,
     <br>* McshEngl.day.relative.before-yesterday!⇒day_before_yesterday,
+    <br>* McshEngl.time.before_yesterday!⇒day_before_yesterday,
     <br>* McshEngl.time.before-yesterday!⇒day_before_yesterday,
     <br>* McshEngl.time.before-yesterday.lagoElln!=προχθές!⇒day_before_yesterday,
     <br>* McshEngl.time.before-yesterday.lagoZhon!=前天-qiántiān!⇒day_before_yesterday,
@@ -4249,7 +4276,9 @@
   <p id="idTimeUomDayFtr2nam">name::
     <br>* McshEngl.day_after_tomorrow,
     <br>* McshEngl.day-after-tomorrow!⇒day_after_tomorrow,
+    <br>* McshEngl.day.relative.after_tomorrow!⇒day_after_tomorrow,
     <br>* McshEngl.day.relative.after-tomorrow!⇒day_after_tomorrow,
+    <br>* McshEngl.time.after_tomorrow!⇒day_after_tomorrow,
     <br>* McshEngl.time.after-tomorrow!⇒day_after_tomorrow,
     <br>* McshEngl.time.after-tomorrow.lagoElln!=μεθαύριο!⇒day_after_tomorrow,
     <br>* McshEngl.time.after-tomorrow.lagoZhon!=后天-hòutiān!⇒day_after_tomorrow,
@@ -4271,7 +4300,9 @@
   <p id="idTimeUomDayFtr3nam">name::
     <br>* McshEngl.day_after_after_tomorrow,
     <br>* McshEngl.day-after-after-tomorrow!⇒day_after_after_tomorrow,
+    <br>* McshEngl.day.relative.after_after_tomorrow!⇒day_after_after_tomorrow,
     <br>* McshEngl.day.relative.after-after-tomorrow!⇒day_after_after_tomorrow,
+    <br>* McshEngl.time.after_after_tomorrow!⇒day_after_after_tomorrow,
     <br>* McshEngl.time.after-after-tomorrow!⇒day_after_after_tomorrow,
     <br>* McshEngl.time.after-after-tomorrow.lagoElln!=παραμεθαύριο!⇒day_after_after_tomorrow,
     <br>====== lagoGreek:
@@ -4321,8 +4352,8 @@
     <br>* https://time.is/,
     <a class="clsHide" href="#idTimeUomHourirscdsn"></a></p>
   <p id="idTimeUomHourirscnam">name::
-    <br>* McshEngl.info-resource-of-hour!⇒Hourinfrsc,
-    <br>* McshEngl.Hourinfrsc!=info-resource-of-hour,
+    <br>* McshEngl.info-resource--of-hour!⇒Hourinfrsc,
+    <br>* McshEngl.Hourinfrsc!=info-resource--of-hour,
     <br>* McshEngl.hour'info_resource!⇒Hourinfrsc,
     <br>* McshEngl.hour'info-resource!⇒Hourinfrsc,
     <br>* McshEngl.timeHour'info-resource!⇒Hourinfrsc,
@@ -4352,7 +4383,7 @@
     <br>* McshEngl.hour.individual,
     <br>* McshEngl.time-of-day,
     <br>* McshEngl.what-time-is-it,
-    <br>* McshEngl.timeHour.clock-time,
+    <br>* McshEngl.timeHour.clock_time,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.ceu-oro-koUoGo!=hour.individual,
     <br>====== lagoChinese:
@@ -4376,6 +4407,7 @@
   <p id="idTimeUomHourTmznnam">name::
     <br>* McshEngl.time_zone,
     <br>* McshEngl.time-zone!⇒time_zone,
+    <br>* McshEngl.timeHour.time_zone!⇒time_zone,
     <br>* McshEngl.timeHour.time-zone!⇒time_zone,
     <a class="clsHide" href="#idTimeUomHourTmznnam"></a></p>
   </section>
