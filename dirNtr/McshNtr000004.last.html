@@ -152,9 +152,11 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idMolirscdsn"></a></p>
   <p id="idMolrscnam">name::
-    <br>* McshEngl.MtrlMol'attResource,
-    <br>* McshEngl.MtrlMol'info-resource,
-    <br>* McshEngl.MtrlMol'resource,
+    <br>* McshEngl.info-resource-of-MtrlMol!⇒MtrlMolinfrsc,
+    <br>* McshEngl.MtrlMolinfrsc!=info-resource-of-MtrlMol,
+    <br>* McshEngl.MtrlMol'attResource!⇒MtrlMolinfrsc,
+    <br>* McshEngl.MtrlMol'info-resource!⇒MtrlMolinfrsc,
+    <br>* McshEngl.MtrlMol'resource!⇒MtrlMolinfrsc,
     <a class="clsHide" href="#idMolrscnam"></a></p>
   </section>
 
@@ -176,7 +178,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idMoldongdsn"></a></p>
   <p id="idMoldongnam">name::
-    <br>* McshEngl.MtrlMol'doing,
+    <br>* McshEngl.doing-of-MtrlMol!⇒MtrlMoldoing,
+    <br>* McshEngl.MtrlMoldoing!=doing-of-MtrlMol,
+    <br>* McshEngl.MtrlMol'doing!⇒MtrlMoldoing,
     <a class="clsHide" href="#idMoldongnam"></a></p>
   </section>
 
@@ -187,8 +191,9 @@
     <br>× Mcsh-creation: {2020-04-02}
     <a class="clsHide" href="#idMolevogdsn"></a></p>
   <p id="idMolevognam">name::
-    <br>* McshEngl.evoluting-of-MtrlMol,
-    <br>* McshEngl.MtrlMol'evoluting,
+    <br>* McshEngl.evoluting-of-MtrlMol!⇒MtrlMolevolg,
+    <br>* McshEngl.MtrlMolevolg!=evoluting-of-MtrlMol,
+    <br>* McshEngl.MtrlMol'evoluting!⇒MtrlMolevolg,
     <a class="clsHide" href="#idMolevognam"></a></p>
   </section>
 
@@ -706,7 +711,7 @@
     <br>* etc.,
     <br>[https://en.wikipedia.org/wiki/Protein_quaternary_structure]
     <br>===
-    <br>* MolProtein!@McshOgm000006,
+    <br>* protein-of-organism!@McshOgm000006,
     <a class="clsHide" href="#idMol013sptr"></a></p>
   </section>
   </section>

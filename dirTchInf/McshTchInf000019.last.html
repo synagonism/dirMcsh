@@ -210,10 +210,22 @@
     <br>· governor is <a class="clsPreview" href="#idDeOznskhr">the-stakeholder</a> who governs the-OgznDao.
     <a class="clsHide" href="#idDeOzngvnrdsn"></a></p>
   <p id="idDeOzngvnrnam">name::
-    <br>* McshEngl.OgznDao'governor,
-    <br>* McshEngl.Daostkholder.governor,
-    <br>* McshEngl.governor-of-OgznDao,
+    <br>* McshEngl.governor-of-OgznDao!⇒Daogvnr,
+    <br>* McshEngl.Daogvnr!=governor-of-OgznDao,
+    <br>* McshEngl.OgznDao'governor!⇒Daogvnr,
+    <br>* McshEngl.Daostkholder.governor!⇒Daogvnr,
     <a class="clsHide" href="#idDeOzngvnrnam"></a></p>
+  <p id="idDeOzngvnrgntr">generic-tree::
+    <br>* McshEngl.Daogvnr_Gntr,
+    <br>===
+    <br>* ...entity_Gntr,
+    <a class="clsHide" href="#idDeOzngvnrgntr"></a></p>
+  <p id="idDeOzngvnrsptr">specific-tree::
+    <br>* McshEngl.Daogvnr.specific,
+    <br>* McshEngl.Daogvnr_Sptr,
+    <br>===
+    <br>* DAOstack-governor!@McshTchInf000019#idDaostkskhrGvnr,
+    <a class="clsHide" href="#idDeOzngvnrsptr"></a></p>
   </section>
 
   <section id="idDeOznmbr">
@@ -450,7 +462,7 @@
     <br>* accountNo-stakeholder!@McshTchInf000019#idDeOznskhrAcntN,
     <br>===
     <br>* internal-stakeholder!@McshTchInf000019#idDeOznmbr,
-    <br>* internalNo-stakeholder!@McshTchInf000019#idDeOznskhrExl,
+    <br>* OgznDao'external-stakeholder!@McshTchInf000019#idDeOznskhrExl,
     <br>===
     <br>* contractor,
     <br>* contributor,
@@ -824,7 +836,7 @@
   <p id="idDeOzncrtggntr">generic-tree::
     <br>* McshEngl.OgznDao'creating_Gntr,
     <br>===
-    <br>* OgznDao'doing_Gntr,
+    <br>* OgznDaodoing_Gntr,
     <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDeOzncrtggntr"></a></p>
   </section>
@@ -866,7 +878,7 @@
     <br>* McshEngl.Daoadmg_Gntr,
     <br>===
     <br>* AnsrvcGvng_Gntr,
-    <br>* OgznDao'doing_Gntr,
+    <br>* OgznDaodoing_Gntr,
     <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDeOzngovggntr"></a></p>
   <p id="idDeOzngovgsptr">specific-tree::
@@ -919,7 +931,9 @@
     <br>[<a href="http://complexitylabs.io/distributed-organizations/">http://complexitylabs.io/distributed-organizations/</a>]
     <a class="clsHide" href="#idDeOznevaldsn"></a></p>
   <p id="idDeOznevalnam">name::
-    <br>* McshEngl.OgznDao'evaluation,
+    <br>* McshEngl.evaluation-of-OgznDao!⇒OgznDaoevalg,
+    <br>* McshEngl.OgznDaoevalg!=evaluation-of-OgznDao,
+    <br>* McshEngl.OgznDao'evaluation!⇒OgznDaoevalg,
     <a class="clsHide" href="#idDeOznevalnam"></a></p>
   <p id="idDeOznevalwpa">addressWpg::
     <br>* {2013-11-02} Daniel-Larimer, DAC Revisited: https://letstalkbitcoin.com/dac-revisited,
@@ -1017,9 +1031,11 @@
     <br>* {2018-05-31} Stan-Higgins, Vermont Governor Signs Bill Clearing Way for Blockchain Companies, https://www.coindesk.com/vermontdao-state-governor-signs-bill-clearing-way-blockchain-companies,
     <a class="clsHide" href="#idDeOznlawirscdsn"></a></p>
   <p id="idDeOznlawirscnam">name::
-    <br>* McshEngl.OgznDao_law'info_resource,
-    <br>* McshEngl.OgznDao-law'info-resource!⇒OgznDao_law'info_resource,
-    <br>* McshEngl.OgznDao_law'info-resource!⇒OgznDao_law'info_resource,
+    <br>* McshEngl.info-resource-of-OgznDao_law!⇒OgznDao_lawinfrsc,
+    <br>* McshEngl.OgznDao_lawinfrsc!=info-resource-of-OgznDao_law,
+    <br>* McshEngl.OgznDao_law'info_resource!⇒OgznDao_lawinfrsc,
+    <br>* McshEngl.OgznDao-law'info-resource!⇒OgznDao_lawinfrsc,
+    <br>* McshEngl.OgznDao_law'info-resource!⇒OgznDao_lawinfrsc,
     <a class="clsHide" href="#idDeOznlawirscnam"></a></p>
   </section>
   </section>
@@ -1079,8 +1095,10 @@
     <br>* http://daoresearchfoundation.org/,
     <a class="clsHide" href="#idDeOznirscdsn"></a></p>
   <p id="idDeOznrscnam">name::
-    <br>* McshEngl.OgznDao'resource,
-    <br>* McshEngl.OgznDao'info-resource,
+    <br>* McshEngl.info-resource-of-OgznDao!⇒OgznDaoinfrsc,
+    <br>* McshEngl.OgznDaoinfrsc!=info-resource-of-OgznDao,
+    <br>* McshEngl.OgznDao'resource!⇒OgznDaoinfrsc,
+    <br>* McshEngl.OgznDao'info-resource!⇒OgznDaoinfrsc,
     <a class="clsHide" href="#idDeOznrscnam"></a></p>
 
   <section id="idDeOznwbst">
@@ -1160,8 +1178,9 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDeOznevogdsn"></a></p>
   <p id="idDeOznevlgnam">name::
-    <br>* McshEngl.evoluting-of-OgznDao,
-    <br>* McshEngl.OgznDao'evoluting,
+    <br>* McshEngl.evoluting-of-OgznDao!⇒OgznDaoevolg,
+    <br>* McshEngl.OgznDaoevolg!=evoluting-of-OgznDao,
+    <br>* McshEngl.OgznDao'evoluting!⇒OgznDaoevolg,
     <a class="clsHide" href="#idDeOznevlgnam"></a></p>
   <p id="idDeOznevlg20190505">{2019-05-05}::
     <br>=== file Mcs creation:
@@ -1183,7 +1202,9 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDeOzndongdsn"></a></p>
   <p id="idDeOzndongnam">name::
-    <br>* McshEngl.OgznDao'doing,
+    <br>* McshEngl.doing-of-OgznDao!⇒OgznDaodoing,
+    <br>* McshEngl.OgznDaodoing!=doing-of-OgznDao,
+    <br>* McshEngl.OgznDao'doing!⇒OgznDaodoing,
     <a class="clsHide" href="#idDeOzndongnam"></a></p>
 
   <section id="idDeOznsrvc">
@@ -1219,7 +1240,7 @@
   </section>
 
   <section id="idDeOzndonggstr">
-  <h2 id="idDeOzndonggstrH2">GENERIC-SPECIFIC-TREE of OgznDao'doing
+  <h2 id="idDeOzndonggstrH2">GENERIC-SPECIFIC-TREE of OgznDaodoing
     </h2>
   <p id="idDeOzndonggstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1229,17 +1250,17 @@
     <br>* McshEngl.OgznDao'doing'specific-generic-tree,
     <a class="clsHide" href="#idDeOzndonggstrnam"></a></p>
   <p id="idDeOzndonggntr">generic-tree::
-    <br>* McshEngl.OgznDao'doing_Gntr,
+    <br>* McshEngl.OgznDaodoing_Gntr,
     <br>===
     <br>* ...entity_Gntr,
     <a class="clsHide" href="#idDeOzndonggntr"></a></p>
   <p id="idDeOzndongsptr">specific-tree::
     <br>* McshEngl.OgznDao'doing.specific,
-    <br>* McshEngl.OgznDao'doing_Sptr,
+    <br>* McshEngl.OgznDaodoing_Sptr,
     <br>===
     <br>* creating!@McshTchInf000019#idDeOzncrtg,
     <br>* functing!@McshTchInf000019#idDeOznsrvc,
-    <br>* governing!@McshTchInf000019#idDeOzngovg,
+    <br>* OgznDao-govc'governing!@McshTchInf000019#idDeOzngovg,
     <br>* accounting,
     <br>* predicting,
     <br>* proposing,
@@ -1280,7 +1301,7 @@
     <br>* EOS-OgznDao,
     <br>* Ethereum-OgznDao!@McshTchInf000019#idEthdao,
     <br>* Tezos-OgznDao,
-    <br>* Wings-OgznDao!@McshTchInf000016#idWingsdao,
+    <br>* Dogn.wings!@McshTchInf000016#idWingsdao,
     <br>=== on platform:
     <br>* Aragon-OgznDao: https://aragon.one/,
     <br>* DAOstack-OgznDao: https://daostack.io/,
@@ -1343,8 +1364,10 @@
     <br>* {2018-11-16} https://words.democracy.earth/testnet-democracy-earth-is-live-129fd68d27f0,
     <a class="clsHide" href="#idDeOznDefirscdsn"></a></p>
   <p id="idDeOznDefirscnam">name::
-    <br>* McshEngl.DeOznDef'info_resource,
-    <br>* McshEngl.DeOznDef'info-resource!⇒DeOznDef'info_resource,
+    <br>* McshEngl.info-resource-of-DeOznDef!⇒DeOznDefinfrsc,
+    <br>* McshEngl.DeOznDefinfrsc!=info-resource-of-DeOznDef,
+    <br>* McshEngl.DeOznDef'info_resource!⇒DeOznDefinfrsc,
+    <br>* McshEngl.DeOznDef'info-resource!⇒DeOznDefinfrsc,
     <a class="clsHide" href="#idDeOznDefirscnam"></a></p>
   </section>
   </section>
@@ -1544,8 +1567,9 @@
     <br><a href="https://blog.slock.it/daos-or-how-to-replace-both-the-kickstarter-and-token-presale-models-1b2b8898d6e7#.u8cp2obe5">https://blog.slock.it/daos-or-how-to-replace-both-the-kickstarter-and-token-presale-models-1b2b8898d6e7#.u8cp2obe5</a>,
     <a class="clsHide" href="#idEthdaoirscdsn"></a></p>
   <p id="idEthdaoirscnam">name::
-    <br>* McshEngl.info-resource-of-DoEth,
-    <br>* McshEngl.DoEth'info-resource,
+    <br>* McshEngl.info-resource-of-DoEth!⇒DoEthinfrsc,
+    <br>* McshEngl.DoEthinfrsc!=info-resource-of-DoEth,
+    <br>* McshEngl.DoEth'info-resource!⇒DoEthinfrsc,
     <a class="clsHide" href="#idEthdaoirscnam"></a></p>
   </section>
 
@@ -2424,7 +2448,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idEthdaodongdsn"></a></p>
   <p id="idEthdaodongnam">name::
-    <br>* McshEngl.DoEth'doing,
+    <br>* McshEngl.doing-of-DoEth!⇒DoEthdoing,
+    <br>* McshEngl.DoEthdoing!=doing-of-DoEth,
+    <br>* McshEngl.DoEth'doing!⇒DoEthdoing,
     <a class="clsHide" href="#idEthdaodongnam"></a></p>
 
   <section id="idEthdaocrtg">
@@ -2538,9 +2564,10 @@
     <br>* {2016-05-29} Kate, What Is The DAO and Why Is It the Biggest Crowdfunding Project in History? https://letstalkpayments.com/ what-is-the-dao-and-why-is-it-the-biggest-crowdfunding-project-in-the-history/,
     <a class="clsHide" href="#idEthdaoThdirscdsn"></a></p>
   <p id="idEthdaoThdirscnam">name::
-    <br>* McshEngl.info-resource-of-The-DAO,
-    <br>* McshEngl.The-DAO'info-resource,
-    <br>* McshEngl.The_DAO'info-resource,
+    <br>* McshEngl.info-resource-of-The-DAO!⇒The_DAOinfrsc,
+    <br>* McshEngl.The_DAOinfrsc!=info-resource-of-The-DAO,
+    <br>* McshEngl.The-DAO'info-resource!⇒The_DAOinfrsc,
+    <br>* McshEngl.The_DAO'info-resource!⇒The_DAOinfrsc,
     <a class="clsHide" href="#idEthdaoThdirscnam"></a></p>
   </section>
 
@@ -2551,7 +2578,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idEthdaoThdevogdsn"></a></p>
   <p id="idEthdaoThdevognam">name::
-    <br>* McshEngl.The_DAO'evoluting,
+    <br>* McshEngl.evoluting-of-The_DAO!⇒The_DAOevolg,
+    <br>* McshEngl.The_DAOevolg!=evoluting-of-The_DAO,
+    <br>* McshEngl.The_DAO'evoluting!⇒The_DAOevolg,
     <a class="clsHide" href="#idEthdaoThdevognam"></a></p>
   <p id="idEthdaoThdevogP1">{2016-07-20}::
     <br>=== the-hard-fork:
@@ -2614,8 +2643,9 @@
     <br>* https://www.theblockcrypto.com/2019/04/25/inside-maker-dao-leadership-conflict-over-direction-fuels-multiple-departures-as-it-eyes-launch-of-ats/,
     <a class="clsHide" href="#idEthdaoMkrirscdsn"></a></p>
   <p id="idEthdaoMkrirscnam">name::
-    <br>* McshEngl.info-resource-of-MakerDAO,
-    <br>* McshEngl.MakerDAO'info-resource,
+    <br>* McshEngl.info-resource-of-MakerDAO!⇒MakerDAOinfrsc,
+    <br>* McshEngl.MakerDAOinfrsc!=info-resource-of-MakerDAO,
+    <br>* McshEngl.MakerDAO'info-resource!⇒MakerDAOinfrsc,
     <a class="clsHide" href="#idEthdaoMkrirscnam"></a></p>
   </section>
   </section>
@@ -3025,9 +3055,11 @@
     <br>* https://help.aragon.org/article/8-about-templates,
     <a class="clsHide" href="#idArgnkitirscdsn"></a></p>
   <p id="idArgnkitirscnam">name::
-    <br>* McshEngl.DoAragon_template'info_resource,
-    <br>* McshEngl.DoAragon-template'info-resource!⇒DoAragon_template'info_resource,
-    <br>* McshEngl.DoAragon_template'info-resource!⇒DoAragon_template'info_resource,
+    <br>* McshEngl.info-resource-of-DoAragon_template!⇒DoAragon_templateinfrsc,
+    <br>* McshEngl.DoAragon_templateinfrsc!=info-resource-of-DoAragon_template,
+    <br>* McshEngl.DoAragon_template'info_resource!⇒DoAragon_templateinfrsc,
+    <br>* McshEngl.DoAragon-template'info-resource!⇒DoAragon_templateinfrsc,
+    <br>* McshEngl.DoAragon_template'info-resource!⇒DoAragon_templateinfrsc,
     <a class="clsHide" href="#idArgnkitirscnam"></a></p>
   </section>
 
@@ -3070,7 +3102,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idArgnevaldsn"></a></p>
   <p id="idArgnevalnam">name::
-    <br>* McshEngl.DoAragon'evaluation,
+    <br>* McshEngl.evaluation-of-DoAragon!⇒DoAragonevalg,
+    <br>* McshEngl.DoAragonevalg!=evaluation-of-DoAragon,
+    <br>* McshEngl.DoAragon'evaluation!⇒DoAragonevalg,
     <a class="clsHide" href="#idArgnevalnam"></a></p>
   </section>
 
@@ -3144,8 +3178,10 @@
     <br>* {2017-04-21} Spain’s Aragon Joins Ethereum Startups Eyeing Token Sale Glory: https://cointelegraph.com/news/spains-aragon-joins-ethereum-startups-eyeing-token-sale-glory,
     <a class="clsHide" href="#idArgnirscdsn"></a></p>
   <p id="idArgnirscnam">name::
-    <br>* McshEngl.DoAragon'info_resource,
-    <br>* McshEngl.DoAragon'info-resource!⇒DoAragon'info_resource,
+    <br>* McshEngl.info-resource-of-DoAragon!⇒DoAragoninfrsc,
+    <br>* McshEngl.DoAragoninfrsc!=info-resource-of-DoAragon,
+    <br>* McshEngl.DoAragon'info_resource!⇒DoAragoninfrsc,
+    <br>* McshEngl.DoAragon'info-resource!⇒DoAragoninfrsc,
     <a class="clsHide" href="#idArgnirscnam"></a></p>
   </section>
 
@@ -3414,9 +3450,11 @@
     <br>* {2019-02-12} https://medium.com/daostack/a-guide-to-daostacks-initial-reputation-protocol-f8365f157f7a,
     <a class="clsHide" href="#idDaostkrptnirscdsn"></a></p>
   <p id="idDaostkrptnirscnam">name::
-    <br>* McshEngl.DAOstack_reputation'info_resource,
-    <br>* McshEngl.DAOstack-reputation'info-resource!⇒DAOstack_reputation'info_resource,
-    <br>* McshEngl.DAOstack_reputation'info-resource!⇒DAOstack_reputation'info_resource,
+    <br>* McshEngl.info-resource-of-DAOstack_reputation!⇒DAOstack_reputationinfrsc,
+    <br>* McshEngl.DAOstack_reputationinfrsc!=info-resource-of-DAOstack_reputation,
+    <br>* McshEngl.DAOstack_reputation'info_resource!⇒DAOstack_reputationinfrsc,
+    <br>* McshEngl.DAOstack-reputation'info-resource!⇒DAOstack_reputationinfrsc,
+    <br>* McshEngl.DAOstack_reputation'info-resource!⇒DAOstack_reputationinfrsc,
     <a class="clsHide" href="#idDaostkrptnirscnam"></a></p>
   </section>
   </section>
@@ -3652,8 +3690,10 @@
     <br>* {2018-10-07} Ezra-Weller, On the Utility of the GEN Token, DAOstack’s Collective Attention Protocol, https://medium.com/daostack/on-the-utility-of-the-gen-token-eb4f341d770e,
     <a class="clsHide" href="#idDaostkgovcgenirscdsn"></a></p>
   <p id="idDaostkgovcgenirscnam">name::
-    <br>* McshEngl.DvGEN'info_resource,
-    <br>* McshEngl.DvGEN'info-resource!⇒DvGEN'info_resource,
+    <br>* McshEngl.info-resource-of-DvGEN!⇒DvGENinfrsc,
+    <br>* McshEngl.DvGENinfrsc!=info-resource-of-DvGEN,
+    <br>* McshEngl.DvGEN'info_resource!⇒DvGENinfrsc,
+    <br>* McshEngl.DvGEN'info-resource!⇒DvGENinfrsc,
     <a class="clsHide" href="#idDaostkgovcgenirscnam"></a></p>
   </section>
   </section>
@@ -4262,8 +4302,10 @@
     <br>* {2018-02-06} Matan-Field, Decentralized Governance Matters, https://medium.com/daostack/decentralized-governance-first-principles-1fc6eaa492ed,
     <a class="clsHide" href="#idDaostkirscdsn"></a></p>
   <p id="idDaostkirscnam">name::
-    <br>* McshEngl.DAOstack'info_resource,
-    <br>* McshEngl.DAOstack'info-resource!⇒DAOstack'info_resource,
+    <br>* McshEngl.info-resource-of-DAOstack!⇒DAOstackinfrsc,
+    <br>* McshEngl.DAOstackinfrsc!=info-resource-of-DAOstack,
+    <br>* McshEngl.DAOstack'info_resource!⇒DAOstackinfrsc,
+    <br>* McshEngl.DAOstack'info-resource!⇒DAOstackinfrsc,
     <a class="clsHide" href="#idDaostkirscnam"></a></p>
   </section>
 
@@ -4291,8 +4333,9 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDaostkevogdsn"></a></p>
   <p id="idDaostkevognam">name::
-    <br>* McshEngl.evoluting-of-DAOstack,
-    <br>* McshEngl.DAOstack'evoluting,
+    <br>* McshEngl.evoluting-of-DAOstack!⇒DAOstackevolg,
+    <br>* McshEngl.DAOstackevolg!=evoluting-of-DAOstack,
+    <br>* McshEngl.DAOstack'evoluting!⇒DAOstackevolg,
     <a class="clsHide" href="#idDaostkevognam"></a></p>
   <p id="idDaostkevog2018spring">{2018spring}::
     <br>=== launch:
@@ -4355,8 +4398,10 @@
     <br>* {2019-02-08} Levi-Adam, A Technical Analysis of the Genesis, https://medium.com/daostack/a-technical-analysis-of-the-genesis-alpha-hack-f8e34433c14b,
     <a class="clsHide" href="#idGnsdaoirscdsn"></a></p>
   <p id="idGnsdaoirscnam">name::
-    <br>* McshEngl.Genesis-DAO'info-resource,
-    <br>* McshEngl.Genesis_DAO'info-resource,
+    <br>* McshEngl.info-resource-of-Genesis-DAO!⇒Genesis_DAOinfrsc,
+    <br>* McshEngl.Genesis_DAOinfrsc!=info-resource-of-Genesis-DAO,
+    <br>* McshEngl.Genesis-DAO'info-resource!⇒Genesis_DAOinfrsc,
+    <br>* McshEngl.Genesis_DAO'info-resource!⇒Genesis_DAOinfrsc,
     <a class="clsHide" href="#idGnsdaoirscnam"></a></p>
   </section>
 
@@ -4446,8 +4491,10 @@
     <br>* {2018-12-21} Eric-Gorski, Introducing the dxDAO, The dxDAO will launch on May 29, 2019, https://blog.gnosis.pm/introducing-the-dxdao-27ec4301eced,
     <a class="clsHide" href="#idDxdaoirscdsn"></a></p>
   <p id="idDxdaoirscnam">name::
-    <br>* McshEngl.dxDAO'info_resource,
-    <br>* McshEngl.dxDAO'info-resource!⇒dxDAO'info_resource,
+    <br>* McshEngl.info-resource-of-dxDAO!⇒DxDAOinfrsc,
+    <br>* McshEngl.DxDAOinfrsc!=info-resource-of-dxDAO,
+    <br>* McshEngl.dxDAO'info_resource!⇒DxDAOinfrsc,
+    <br>* McshEngl.dxDAO'info-resource!⇒DxDAOinfrsc,
     <a class="clsHide" href="#idDxdaoirscnam"></a></p>
   </section>
   </section>
@@ -4473,8 +4520,10 @@
     <br>* {2019-05-24} https://medium.com/polkadot-network/polkadao-is-live-e61c39d0b259,
     <a class="clsHide" href="#idPlkdaoirscdsn"></a></p>
   <p id="idPlkdaoirscnam">name::
-    <br>* McshEngl.PolkaDAO'info_resource,
-    <br>* McshEngl.PolkaDAO'info-resource!⇒PolkaDAO'info_resource,
+    <br>* McshEngl.info-resource-of-PolkaDAO!⇒PolkaDAOinfrsc,
+    <br>* McshEngl.PolkaDAOinfrsc!=info-resource-of-PolkaDAO,
+    <br>* McshEngl.PolkaDAO'info_resource!⇒PolkaDAOinfrsc,
+    <br>* McshEngl.PolkaDAO'info-resource!⇒PolkaDAOinfrsc,
     <a class="clsHide" href="#idPlkdaoirscnam"></a></p>
   </section>
   </section>
@@ -4717,9 +4766,10 @@
     <br>* http://understandingblockchainfreedom.com/,
     <a class="clsHide" href="#idEosdacctdnSklkirscdsn"></a></p>
   <p id="idEosdacctdnSklkirscnam">name::
-    <br>* McshEngl.info-resource-of-Stokes.Luke,
-    <br>* McshEngl.Stokes.Luke'info-resource,
-    <br>* McshEngl.eosDAC-custodian.Stokes.Luke'info-resource,
+    <br>* McshEngl.info-resource-of-Stokes.Luke!⇒Stokes.Lukeinfrsc,
+    <br>* McshEngl.Stokes.Lukeinfrsc!=info-resource-of-Stokes.Luke,
+    <br>* McshEngl.Stokes.Luke'info-resource!⇒Stokes.Lukeinfrsc,
+    <br>* McshEngl.eosDAC-custodian.Stokes.Luke'info-resource!⇒Stokes.Lukeinfrsc,
     <a class="clsHide" href="#idEosdacctdnSklkirscnam"></a></p>
   </section>
   </section>
@@ -5953,9 +6003,11 @@
     <br>* https://github.com/eosdac/eosdac-contracts/tree/master/dacproposals,
     <a class="clsHide" href="#idEosdacppslirscdsn"></a></p>
   <p id="idEosdacppslirscnam">name::
-    <br>* McshEngl.eosDAC_proposal'info_resource,
-    <br>* McshEngl.eosDAC-proposal'info-resource!⇒eosDAC_proposal'info_resource,
-    <br>* McshEngl.eosDAC'proposal'info-resource!⇒eosDAC_proposal'info_resource,
+    <br>* McshEngl.info-resource-of-eosDAC_proposal!⇒EosDAC_proposalinfrsc,
+    <br>* McshEngl.EosDAC_proposalinfrsc!=info-resource-of-eosDAC_proposal,
+    <br>* McshEngl.eosDAC_proposal'info_resource!⇒EosDAC_proposalinfrsc,
+    <br>* McshEngl.eosDAC-proposal'info-resource!⇒EosDAC_proposalinfrsc,
+    <br>* McshEngl.eosDAC'proposal'info-resource!⇒EosDAC_proposalinfrsc,
     <a class="clsHide" href="#idEosdacppslirscnam"></a></p>
   </section>
   </section>
@@ -6002,9 +6054,11 @@
     <br>* {2018-12-15} https://steemit.com/eosdac/@eosdac/eosdac-custodian-candidate-voting-is-live,
     <a class="clsHide" href="#idEosdacgovcirscdsn"></a></p>
   <p id="idEosdacgovcirscnam">name::
-    <br>* McshEngl.eosDAC_govc'info_resource,
-    <br>* McshEngl.eosDAC-govc'info-resource!⇒eosDAC_govc'info_resource,
-    <br>* McshEngl.eosDAC_govc'info-resource!⇒eosDAC_govc'info_resource,
+    <br>* McshEngl.info-resource-of-eosDAC_govc!⇒EosDAC_govcinfrsc,
+    <br>* McshEngl.EosDAC_govcinfrsc!=info-resource-of-eosDAC_govc,
+    <br>* McshEngl.eosDAC_govc'info_resource!⇒EosDAC_govcinfrsc,
+    <br>* McshEngl.eosDAC-govc'info-resource!⇒EosDAC_govcinfrsc,
+    <br>* McshEngl.eosDAC_govc'info-resource!⇒EosDAC_govcinfrsc,
     <a class="clsHide" href="#idEosdacgovcirscnam"></a></p>
   </section>
 
@@ -6159,8 +6213,10 @@
     <br>* {2018-03-05} https://steemit.com/eos/@eosdac/introducing-eosdac-the-community-owned-eos-block-producer,
     <a class="clsHide" href="#idEosdacirscdsn"></a></p>
   <p id="idEosdacirscnam">name::
-    <br>* McshEngl.eosDAC'info_resource,
-    <br>* McshEngl.eosDAC'info-resource!⇒eosDAC'info_resource,
+    <br>* McshEngl.info-resource-of-eosDAC!⇒EosDACinfrsc,
+    <br>* McshEngl.EosDACinfrsc!=info-resource-of-eosDAC,
+    <br>* McshEngl.eosDAC'info_resource!⇒EosDACinfrsc,
+    <br>* McshEngl.eosDAC'info-resource!⇒EosDACinfrsc,
     <a class="clsHide" href="#idEosdacirscnam"></a></p>
 
   <section id="idEosdacwbst">
@@ -6184,8 +6240,9 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idEosdacevogdsn"></a></p>
   <p id="idEosdacevognam">name::
-    <br>* McshEngl.evoluting-of-eosDAC,
-    <br>* McshEngl.eosDAC'evoluting,
+    <br>* McshEngl.evoluting-of-eosDAC!⇒EosDACevolg,
+    <br>* McshEngl.EosDACevolg!=evoluting-of-eosDAC,
+    <br>* McshEngl.eosDAC'evoluting!⇒EosDACevolg,
     <a class="clsHide" href="#idEosdacevognam"></a></p>
   <p id="idEosdac20181214">{2018-12-14}::
     <br>=== DAC-Foundation creation:
@@ -6199,7 +6256,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idEosdacdongdsn"></a></p>
   <p id="idEosdacdongnam">name::
-    <br>* McshEngl.eosDAC'doing,
+    <br>* McshEngl.doing-of-eosDAC!⇒EosDACdoing,
+    <br>* McshEngl.EosDACdoing!=doing-of-eosDAC,
+    <br>* McshEngl.eosDAC'doing!⇒EosDACdoing,
     <a class="clsHide" href="#idEosdacdongnam"></a></p>
 
   <section id="idEosdactodo">

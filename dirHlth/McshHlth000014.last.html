@@ -568,8 +568,10 @@
     <br>* https://www.galinos.gr/web/drugs/main/content/about, Ο «Γαληνός» αποτελεί την πιο έγκυρη, ενημερωμένη και πλήρη πλατφόρμα επιστημονικής πληροφόρησης για τα φάρμακα ανθρώπινης χρήσης. Πρόκειται για ένα αναπόσπαστο επαγγελματικό εργαλείο των ιατρών, φαρμακοποιών και νοσηλευτών καθώς υποστηρίζει τη λήψη αποφάσεων φαρμακοθεραπείας. Αριθμώντας 48.000 μοναδικούς επισκέπτες ημερησίως και 3.200.000 προβολές σελίδων μηνιαίως, είναι ο δημοφιλέστερος ελληνικός προορισμός για τα φάρμακα.
     <a class="clsHide" href="#idMedHmnirscdsn"></a></p>
   <p id="idMedHmnrscnam">name::
-    <br>* McshEngl.medication'attResource,
-    <br>* McshEngl.medication'info-resource,
+    <br>* McshEngl.info-resource-of-medication!⇒Medicationinfrsc,
+    <br>* McshEngl.Medicationinfrsc!=info-resource-of-medication,
+    <br>* McshEngl.medication'attResource!⇒Medicationinfrsc,
+    <br>* McshEngl.medication'info-resource!⇒Medicationinfrsc,
     <a class="clsHide" href="#idMedHmnrscnam"></a></p>
   </section>
 
@@ -584,7 +586,9 @@
     <br>* evoluting,
     <a class="clsHide" href="#idMedHmndongdsn"></a></p>
   <p id="idMedHmndongnam">name::
-    <br>* McshEngl.medication'doing,
+    <br>* McshEngl.doing-of-medication!⇒Medicationdoing,
+    <br>* McshEngl.Medicationdoing!=doing-of-medication,
+    <br>* McshEngl.medication'doing!⇒Medicationdoing,
     <a class="clsHide" href="#idMedHmndongnam"></a></p>
 
   <section id="idMedHmnaprvl">
@@ -762,9 +766,11 @@
     <br>Ορισμένα αντιβιοτικά έχουν ΔΥΣΜΕΝΕΙΣ ΕΠΙΔΡΑΣΕΙΣ σε διάφορα οργανικά συστήματα.
     <a class="clsHide" href="#idMedHmn004dongdsn"></a></p>
   <p id="idMedHmn004dongnam">name::
-    <br>* McshEngl.MdtnAntibiotic'doing,
-    <br>* McshEngl.doing-of-antibiotic!⇒MdtnAntibiotic'doing,
-    <br>* McshEngl.antibiotic'doing!⇒MdtnAntibiotic'doing,
+    <br>* McshEngl.doing-of-MdtnAntibiotic!⇒MdtnAntibioticdoing,
+    <br>* McshEngl.MdtnAntibioticdoing!=doing-of-MdtnAntibiotic,
+    <br>* McshEngl.MdtnAntibiotic'doing!⇒MdtnAntibioticdoing,
+    <br>* McshEngl.doing-of-antibiotic!⇒MdtnAntibioticdoing,
+    <br>* McshEngl.antibiotic'doing!⇒MdtnAntibioticdoing,
     <a class="clsHide" href="#idMedHmn004dongnam"></a></p>
 
   <section id="idMedHmn004dongevg">
@@ -1873,8 +1879,10 @@
     <br>* {2016} Investigation of the Plausibility of 5-Alpha-Reductase Inhibitor Syndrome, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5264352/,
     <a class="clsHide" href="#idMedHmn009irscdsn"></a></p>
   <p id="idMedHmn009irscnam">name::
-    <br>* McshEngl.MdtnFinasteride'resouce,
-    <br>* McshEngl.MdtnFinasteride'info-resource,
+    <br>* McshEngl.info-resource-of-MdtnFinasteride!⇒MdtnFinasterideinfrsc,
+    <br>* McshEngl.MdtnFinasterideinfrsc!=info-resource-of-MdtnFinasteride,
+    <br>* McshEngl.MdtnFinasteride'resouce!⇒MdtnFinasterideinfrsc,
+    <br>* McshEngl.MdtnFinasteride'info-resource!⇒MdtnFinasterideinfrsc,
     <a class="clsHide" href="#idMedHmn009irscnam"></a></p>
   </section>
 
@@ -1885,8 +1893,9 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idMedHmn009evogdsn"></a></p>
   <p id="idMedHmn009evognam">name::
-    <br>* McshEngl.evoluting-of-MdtnFinasteride,
-    <br>* McshEngl.MdtnFinasteride'evoluting,
+    <br>* McshEngl.evoluting-of-MdtnFinasteride!⇒MdtnFinasterideevolg,
+    <br>* McshEngl.MdtnFinasterideevolg!=evoluting-of-MdtnFinasteride,
+    <br>* McshEngl.MdtnFinasteride'evoluting!⇒MdtnFinasterideevolg,
     <a class="clsHide" href="#idMedHmn009evognam"></a></p>
   <p id="idMedHmn009evog2016">{2016}::
     <br>=== statistics.Usa:
@@ -2101,7 +2110,9 @@
     <br>[ΑΡΓΥΡΗΣ, 1994, 132⧺cptRsc29⧺]
     <a class="clsHide" href="#idMedHmn012dongdsn"></a></p>
   <p id="idMedHmn012dongnam">name::
-    <br>* McshEngl.vaccine'doing,
+    <br>* McshEngl.doing-of-vaccine!⇒Vaccinedoing,
+    <br>* McshEngl.Vaccinedoing!=doing-of-vaccine,
+    <br>* McshEngl.vaccine'doing!⇒Vaccinedoing,
     <a class="clsHide" href="#idMedHmn012dongnam"></a></p>
   </section>
 

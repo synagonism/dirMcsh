@@ -159,10 +159,10 @@
     <br>* McshEngl.Hmbdnode.specific,
     <br>* McshEngl.Hmbdnode_Sptr,
     <br>===
-    <br>* nodeCell!@McshHlth000004,
-    <br>* nodeTissue!@McshHlth000002#idTissHmn,
-    <br>* nodeOrgan!@McshHlth000002#idOgnHmn,
-    <br>* nodeOrgan-sys!@McshHlth000002#idSysOgnHmn,
+    <br>* human-cell!@McshHlth000004,
+    <br>* human-tissue!@McshHlth000002#idTissHmn,
+    <br>* human-organ!@McshHlth000002#idOgnHmn,
+    <br>* human-sys-of-organs!@McshHlth000002#idSysOgnHmn,
     <br>===
     <br>* palate!@McshHlth000002#idBdyHmn329,
     <br>* OganUvula!@McshHlth000002#idBdyHmn328,
@@ -1230,8 +1230,10 @@
     <br>· any doing.
     <a class="clsHide" href="#idSysOgnHmndongdsn"></a></p>
   <p id="idSysOgnHmndongnam">name::
-    <br>* McshEngl.SystOgans'doing,
-    <br>* McshEngl.SystOgans'attDoing!⇒SystOgans'doing,
+    <br>* McshEngl.doing-of-SystOgans!⇒SystOgansdoing,
+    <br>* McshEngl.SystOgansdoing!=doing-of-SystOgans,
+    <br>* McshEngl.SystOgans'doing!⇒SystOgansdoing,
+    <br>* McshEngl.SystOgans'attDoing!⇒SystOgansdoing,
     <a class="clsHide" href="#idSysOgnHmndongnam"></a></p>
 
   <section id="idSysOgnHmnftg">
@@ -1271,9 +1273,10 @@
     <br>· The process of evolution of organ systems over time.
     <a class="clsHide" href="#idSysOgnHmnevogdsn"></a></p>
   <p id="idSysOgnHmnevognam">name::
-    <br>* McshEngl.SystOgans'attEvoluting,
-    <br>* McshEngl.evoluting-of-SystOgans,
-    <br>* McshEngl.SystOgans'evoluting,
+    <br>* McshEngl.evoluting-of-SystOgans!⇒SystOgansevolg,
+    <br>* McshEngl.SystOgansevolg!=evoluting-of-SystOgans,
+    <br>* McshEngl.SystOgans'attEvoluting!⇒SystOgansevolg,
+    <br>* McshEngl.SystOgans'evoluting!⇒SystOgansevolg,
     <a class="clsHide" href="#idSysOgnHmnevognam"></a></p>
   <p id="idSysOgnHmnevogP1">{2002-12-14}::
     <br>I merged the concepts "system" and "<a class="clsPreview" href="#idSysOgnHmn">organic-system-(516)</a>".
@@ -1334,19 +1337,19 @@
     <br>* integumentary-system!@McshHlth000002#idSysOgnHmn004,
     <br>* lymphatic-system!@McshHlth000002#idSysOgnHmn014,
     <br>* musculoskeletal-system!@McshHlth000005,
-    <br>* nervous-system!@McshHlth000019#idOverview,
-    <br>* renal|urinary-system!@McshHlth000002#idSysOgnHmn008,
+    <br>* human-SystNervous!@McshHlth000019#idOverview,
+    <br>* human-SystUrinary!@McshHlth000002#idSysOgnHmn008,
     <br>* reproductive!@McshHlth000002#idSysOgnHmn009,
     <br>* respiratory!@McshHlth000002#idSysOgnHmn006,
     <br>===
-    <br>* 001.musculoskeletal-system!@McshHlth000005,
+    <br>* musculoskeletal-system!@McshHlth000005,
     <br>* 002.circulatory-system!@McshHlth000002#idSysOgnHmn002,
-    <br>* 003.nervous-system!@McshHlth000019#idOverview,
+    <br>* human-SystNervous!@McshHlth000019#idOverview,
     <br>* 004.integumentary-system!@McshHlth000002#idSysOgnHmn004,
     <br>* 005.endocrine-system!@McshHlth000002#idSysOgnHmn005,
     <br>* 006.respiratory!@McshHlth000002#idSysOgnHmn006,
     <br>* 007.digestive!@McshHlth000002#idSysOgnHmn007,
-    <br>* 008.urinary-system!@McshHlth000002#idSysOgnHmn008,
+    <br>* human-SystUrinary!@McshHlth000002#idSysOgnHmn008,
     <br>* 009.reproductive!@McshHlth000002#idSysOgnHmn009,
     <br>===
     <br>"Human" systems are also present in many other animals.
@@ -1384,8 +1387,8 @@
     <br>===
     <br>* SystExcretory!@McshHlth000002#idSysOgnHmn012,
     <br>* SystCentralNervous!@McshHlth000019#idSysNrvsatt002,
-    <br>* SystSkeletal!@McshHlth000005#idBdyHmn102,
-    <br>* SystMuscular!@McshHlth000005#idBdyHmn331,
+    <br>* human-skeletal-system!@McshHlth000005#idBdyHmn102,
+    <br>* human-muscular-system!@McshHlth000005#idBdyHmn331,
     <a class="clsHide" href="#idSysOgnHmnsptr"></a></p>
   </section>
   </section>
@@ -1676,7 +1679,9 @@
     <br>· The doings that an organ performs to maintain its function and contribute to the overall homeostasis of the body.
     <a class="clsHide" href="#idOgnHmndongdsn"></a></p>
   <p id="idOgnHmndongnam">name::
-    <br>* McshEngl.organ'doing,
+    <br>* McshEngl.doing-of-organ!⇒Organdoing,
+    <br>* McshEngl.Organdoing!=doing-of-organ,
+    <br>* McshEngl.organ'doing!⇒Organdoing,
     <a class="clsHide" href="#idOgnHmndongnam"></a></p>
 
   <section id="idOgnHmnatt011">
@@ -1797,36 +1802,36 @@
     <br>[{2023-04-08 retrieved} https://en.wikipedia.org/wiki/Organ_(biology)]
     <br>====
     <br>* arm!@McshHlth000002#idBdyHmnatt043,
-    <br>* OganBone!@McshHlth000005#idBoneHmn,
-    <br>* OganBrain!@McshHlth000003,
+    <br>* human-bone!@McshHlth000005#idBoneHmn,
+    <br>* human-brain!@McshHlth000003,
     <br>* epiphysis!@McshHlth000002#idGlndHmn004,
     <br>* esophagus!@McshHlth000002#idOgnHmn019,
     <br>* gall-bladder!@McshHlth000002#idOgnHmn021,
     <br>* OganGland!@McshHlth000002#idGlndHmn,
     <br>* gland.endocrine!@McshHlth000002#idGlndHmn001,
     <br>* gland.exocrine!@McshHlth000002#idGlndHmn002,
-    <br>* gland.parathyroid!@McshHlth000002#idGlndHmn014,
+    <br>* human-parathyroid-gland!@McshHlth000002#idGlndHmn014,
     <br>* gland.salivay!@McshHlth000002#idGlndHmn008,
     <br>* gland.thymus!@McshHlth000002#idGlndHmn015,
     <br>* gland.thyroid!@McshHlth000002#idGlndHmn012,
-    <br>* OganHeart!@McshHlth000002#idHrtHmn,
+    <br>* human-heart!@McshHlth000002#idHrtHmn,
     <br>* hypophysis!@McshHlth000003#idGlndHmn011,
     <br>* intestine!@McshHlth000002#idOgnHmn030,
     <br>* intestine.large!@McshHlth000002#idOgnHmn034,
     <br>* intestine.small!@McshHlth000002#idOgnHmn033,
-    <br>* kidney!@McshHlth000002#idOgnHmn026,
+    <br>* human-kidney!@McshHlth000002#idOgnHmn026,
     <br>* larynx!@McshHlth000002#idOgnHmn020,
     <br>* liver!@McshHlth000002#idGlndHmn005,
     <br>* lung!@McshHlth000002#idOgnHmn005,
     <br>* OganLymph!@McshHlth000002#idOgnHmn031,
     <br>* OganMouth!@McshHlth000002#idOgnHmn017,
-    <br>* OganMuscle!@McshHlth000005#idMsclHmn,
-    <br>* nerve!@McshHlth000019#idOgnHmn006,
+    <br>* human-muscle!@McshHlth000005#idMsclHmn,
+    <br>* human-nerve!@McshHlth000019#idOgnHmn006,
     <br>* ovary!@McshHlth000002#idGlndHmn006,
     <br>* pancreas!@McshHlth000002#idGlndHmn007,
     <br>* penis!@McshHlth000002#idOgnHmn022,
     <br>* pharynx!@McshHlth000002#idOgnHmn018,
-    <br>* sense!@McshCor000018#idBrngHmnFct003,
+    <br>* human-sensing!@McshCor000018#idBrngHmnFct003,
     <br>* sense.ear!@McshCor000018#idBrngHmnFcthearg,
     <br>* sense.eye!@McshCor000018#idBrngHmnFctseeg,
     <br>* sense.nose!@McshCor000018#idBrngHmnFctsmelg,
@@ -1848,7 +1853,7 @@
     <br>* αδένας!@McshHlth000002#idGlndHmn,
     <br>* αυτί!@McshHlth000019#idOgnHmn008,
     <br>* OganTongue!@McshHlth000002#idOgnHmn012,
-    <br>* εγκέφαλος!@McshHlth000003,
+    <br>* human-brain!@McshHlth000003,
     <br>* ενδοκρινεις-αδένες!@McshHlth000002#idGlndHmn001,
     <br>* εντερο!@McshHlth000002#idOgnHmn030,
     <br>* εξωκρινεις-αδένες!@McshHlth000002#idGlndHmn002,
@@ -1864,18 +1869,18 @@
     <br>* OganEye!@McshHlth000019#idOgnHmn009,
     <br>* μεικτοί-αδένες,
     <br>* OganUteras!@McshHlth000002#idOgnHmn027,
-    <br>* μυς!@McshHlth000005#idMsclHmn,
+    <br>* human-muscle!@McshHlth000005#idMsclHmn,
     <br>* μύτη!@McshHlth000002#idOgnHmn010,
-    <br>* nerve!@McshHlth000019#idOgnHmn006,
-    <br>* OganKidney!@McshHlth000002#idOgnHmn026,
+    <br>* human-nerve!@McshHlth000019#idOgnHmn006,
+    <br>* human-kidney!@McshHlth000002#idOgnHmn026,
     <br>* οισοφάγος!@McshHlth000002#idOgnHmn019,
     <br>* όρχις!@McshHlth000002#idGlndHmn017,
-    <br>* οστό!@McshHlth000005#idBoneHmn,
+    <br>* human-bone!@McshHlth000005#idBoneHmn,
     <br>* ουρήθρα!@McshHlth000002#idOgnHmn040,
     <br>* ουρητήρας!@McshHlth000002#idOgnHmn023,
     <br>* ουροδοχος-κυστης!@McshHlth000002#idOgnHmn024,
     <br>* πάγκρεας!@McshHlth000002#idGlndHmn007,
-    <br>* παραθυροειδης-αδένας!@McshHlth000002#idGlndHmn014,
+    <br>* human-parathyroid-gland!@McshHlth000002#idGlndHmn014,
     <br>* παχύ-εντερο!@McshHlth000002#idOgnHmn034,
     <br>* πεος!@McshHlth000002#idOgnHmn022,
     <br>* πνεύμονας!@McshHlth000002#idOgnHmn005,
@@ -2004,9 +2009,11 @@
     <br>[Αργύρης, {1994}, 123⧺cptRsc29⧺]
     <a class="clsHide" href="#idGlndHmndongdsn"></a></p>
   <p id="idGlndHmndongnam">name::
-    <br>* McshEngl.OganGland'doing,
-    <br>* McshEngl.OganGland'att003-doing!⇒OganGland'doing,
-    <br>* McshEngl.OganGland'doing-003!⇒OganGland'doing,
+    <br>* McshEngl.doing-of-OganGland!⇒OganGlanddoing,
+    <br>* McshEngl.OganGlanddoing!=doing-of-OganGland,
+    <br>* McshEngl.OganGland'doing!⇒OganGlanddoing,
+    <br>* McshEngl.OganGland'att003-doing!⇒OganGlanddoing,
+    <br>* McshEngl.OganGland'doing-003!⇒OganGlanddoing,
     <a class="clsHide" href="#idGlndHmndongnam"></a></p>
 
   <section id="idGlndHmnatt005">
@@ -2075,21 +2082,21 @@
     <br>===
     <br>* ενδοκρινεις-αδένες!@McshHlth000002#idGlndHmn001,
     <br>* εξωκρινεις-αδένες!@McshHlth000002#idGlndHmn002,
-    <br>* μεικτοί-αδένες!@McshHlth000002#idGlndHmn003,
+    <br>* human-mixed-gland!@McshHlth000002#idGlndHmn003,
     <br>===
     <br>* αντρικοί αδένες,
     <br>* γεννητικοί-αδένες!@McshHlth000002#idGlndHmn010,
     <br>* γυναικείοι αδένες,
     <br>* ενδοκρινεις-αδένες!@McshHlth000002#idGlndHmn001,
     <br>* εξωκρινεις-αδένες!@McshHlth000002#idGlndHmn002,
-    <br>* επινεφριδια/SUPRARENAL!@McshHlth000002#idGlndHmn013,
+    <br>* human-adrenal-gland!@McshHlth000002#idGlndHmn013,
     <br>* επίφυση!@McshHlth000002#idGlndHmn004,
     <br>* θύμος-αδένας!@McshHlth000002#idGlndHmn015,
     <br>* GlndThyroid!@McshHlth000002#idGlndHmn012,
-    <br>* μεικτοί-αδένες!@McshHlth000002#idGlndHmn003,
+    <br>* human-mixed-gland!@McshHlth000002#idGlndHmn003,
     <br>* ορχεις/TESTICLE!@McshHlth000002#idGlndHmn017,
     <br>* πάγκρεας/PANCREAS!@McshHlth000002#idGlndHmn007,
-    <br>* παραθυροειδης-αδένας!@McshHlth000002#idGlndHmn014,
+    <br>* human-parathyroid-gland!@McshHlth000002#idGlndHmn014,
     <br>* πεπτικού συστήματος αδένες,
     <br>* προστάτης!@McshHlth000002#idGlndHmn016,
     <br>* σιελογόνος-αδένας!@McshHlth000002#idGlndHmn008,
@@ -2097,7 +2104,7 @@
     <br>* υπόφυση/HYPOPHYSIS!@McshHlth000003#idGlndHmn011,
     <br>* ωοθήκες/OVARY!@McshHlth000002#idGlndHmn006,
     <br>===
-    <br>* GlndSkin!@McshHlth000002#idGlndHmn009,
+    <br>* human-skin-gland!@McshHlth000002#idGlndHmn009,
     <a class="clsHide" href="#idGlndHmnsptr"></a></p>
   </section>
   </section>
@@ -2162,14 +2169,14 @@
     <br>* McshEngl.GlndEndocrine.specific,
     <br>* McshEngl.GlndEndocrine_Sptr,
     <br>===
-    <br>* GlndAdrenal!@McshHlth000002#idGlndHmn013,
+    <br>* human-adrenal-gland!@McshHlth000002#idGlndHmn013,
     <br>* GlndEpiphysis!@McshHlth000002#idGlndHmn004,
     <br>* GlndHypophysis!@McshHlth000003#idGlndHmn011,
     <br>* GlndHypothalamus,
     <br>* GlndOvary,
     <br>* GlndPancreas,
     <br>* GlndPeneal,
-    <br>* GlndParathyroid!@McshHlth000002#idGlndHmn014,
+    <br>* human-parathyroid-gland!@McshHlth000002#idGlndHmn014,
     <br>* GlndTestis,
     <br>* GlndThymus!@McshHlth000002#idGlndHmn015,
     <br>* GlndThyroid!@McshHlth000002#idGlndHmn012,
@@ -2631,7 +2638,9 @@
     <br>[Αργύρης, {1994}, 40⧺cptRsc29⧺]
     <a class="clsHide" href="#idGlndHmn005dongdsn"></a></p>
   <p id="idGlndHmn005dongnam">name::
-    <br>* McshEngl.GlndLiver'doing,
+    <br>* McshEngl.doing-of-GlndLiver!⇒GlndLiverdoing,
+    <br>* McshEngl.GlndLiverdoing!=doing-of-GlndLiver,
+    <br>* McshEngl.GlndLiver'doing!⇒GlndLiverdoing,
     <a class="clsHide" href="#idGlndHmn005dongnam"></a></p>
   </section>
   </section>
@@ -2721,7 +2730,9 @@
     <br>[Αργύρης, {1994}, 112⧺cptRsc29⧺]
     <a class="clsHide" href="#idGlndHmn006dongdsn"></a></p>
   <p id="idGlndHmn006dongnam">name::
-    <br>* McshEngl.HmbdOvary'doing,
+    <br>* McshEngl.doing-of-HmbdOvary!⇒HmbdOvarydoing,
+    <br>* McshEngl.HmbdOvarydoing!=doing-of-HmbdOvary,
+    <br>* McshEngl.HmbdOvary'doing!⇒HmbdOvarydoing,
     <a class="clsHide" href="#idGlndHmn006dongnam"></a></p>
   </section>
 
@@ -3015,7 +3026,7 @@
     <br>* McshEngl.GlndSkin.specific,
     <br>* McshEngl.GlndSkin_Sptr,
     <br>===
-    <br>* ιδρωτοποιοι-αδένες!@McshHlth000002#idGlndHmn018,
+    <br>* human-sweat-gland!@McshHlth000002#idGlndHmn018,
     <br>* μαστός!@McshHlth000002#idGlndHmn020,
     <br>* σμηγματογονοι-αδένες!@McshHlth000002#idGlndHmn019,
     <a class="clsHide" href="#idGlndHmn009sptr"></a></p>
@@ -3463,8 +3474,10 @@
     <br>[Αργύρης, {1994}, 429⧺cptRsc31⧺]
     <a class="clsHide" href="#idBdyHmn548dongdsn"></a></p>
   <p id="idBdyHmn548dongnam">name::
-    <br>* McshEngl.HmbdTesticle'doing,
-    <br>* McshEngl.sperm_tube'doing!⇒HmbdTesticle'doing,
+    <br>* McshEngl.doing-of-HmbdTesticle!⇒HmbdTesticledoing,
+    <br>* McshEngl.HmbdTesticledoing!=doing-of-HmbdTesticle,
+    <br>* McshEngl.HmbdTesticle'doing!⇒HmbdTesticledoing,
+    <br>* McshEngl.sperm_tube'doing!⇒HmbdTesticledoing,
     <a class="clsHide" href="#idBdyHmn548dongnam"></a></p>
   </section>
 
@@ -3492,7 +3505,9 @@
     <br>[Αργύρης, {1994}, 428⧺cptRsc31⧺]
     <a class="clsHide" href="#idGlndHmn017evogdsn"></a></p>
   <p id="idGlndHmn017evognam">name::
-    <br>* McshEngl.HmbdTesticle'evoluting,
+    <br>* McshEngl.evoluting-of-HmbdTesticle!⇒HmbdTesticleevolg,
+    <br>* McshEngl.HmbdTesticleevolg!=evoluting-of-HmbdTesticle,
+    <br>* McshEngl.HmbdTesticle'evoluting!⇒HmbdTesticleevolg,
     <a class="clsHide" href="#idGlndHmn017evognam"></a></p>
   </section>
 
@@ -3586,7 +3601,9 @@
     <br>[Αργύρης, {1994}, 289⧺cptRsc31⧺]
     <a class="clsHide" href="#idGlndHmn018dongdsn"></a></p>
   <p id="idGlndHmn018dongnam">name::
-    <br>* McshEngl.GlndSweat'doing,
+    <br>* McshEngl.doing-of-GlndSweat!⇒GlndSweatdoing,
+    <br>* McshEngl.GlndSweatdoing!=doing-of-GlndSweat,
+    <br>* McshEngl.GlndSweat'doing!⇒GlndSweatdoing,
     <a class="clsHide" href="#idGlndHmn018dongnam"></a></p>
   </section>
 
@@ -3672,7 +3689,9 @@
     <br>[Αργύρης, {1994}, 289⧺cptRsc31⧺]
     <a class="clsHide" href="#idGlndHmn019dongdsn"></a></p>
   <p id="idGlndHmn019dongnam">name::
-    <br>* McshEngl.GlndSebaceous'doing,
+    <br>* McshEngl.doing-of-GlndSebaceous!⇒GlndSebaceousdoing,
+    <br>* McshEngl.GlndSebaceousdoing!=doing-of-GlndSebaceous,
+    <br>* McshEngl.GlndSebaceous'doing!⇒GlndSebaceousdoing,
     <a class="clsHide" href="#idGlndHmn019dongnam"></a></p>
   </section>
 
@@ -3735,8 +3754,10 @@
     <br>[Αργύρης, {1994}, 289⧺cptRsc31⧺]
     <a class="clsHide" href="#idGlndHmn020evogdsn"></a></p>
   <p id="idGlndHmn020evognam">name::
-    <br>* McshEngl.HmbdBreast'evoluting,
-    <br>* McshEngl.GlndBreast'evoluting!⇒HmbdBreast'evoluting,
+    <br>* McshEngl.evoluting-of-HmbdBreast!⇒HmbdBreastevolg,
+    <br>* McshEngl.HmbdBreastevolg!=evoluting-of-HmbdBreast,
+    <br>* McshEngl.HmbdBreast'evoluting!⇒HmbdBreastevolg,
+    <br>* McshEngl.GlndBreast'evoluting!⇒HmbdBreastevolg,
     <a class="clsHide" href="#idGlndHmn020evognam"></a></p>
   </section>
 
@@ -4110,9 +4131,11 @@
     <br>[Αργύρης, {1994}, 150⧺cptRsc29⧺]
     <a class="clsHide" href="#idBdyHmn140dongdsn"></a></p>
   <p id="idBdyHmn140dongnam">name::
-    <br>* McshEngl.extracellular_fluid'doing,
-    <br>* McshEngl.extracellular-fluid'doing!⇒extracellular_fluid'doing,
-    <br>* McshEngl.extracellular_fluid'DOING!⇒extracellular_fluid'doing,
+    <br>* McshEngl.doing-of-extracellular_fluid!⇒Extracellular_fluiddoing,
+    <br>* McshEngl.Extracellular_fluiddoing!=doing-of-extracellular_fluid,
+    <br>* McshEngl.extracellular_fluid'doing!⇒Extracellular_fluiddoing,
+    <br>* McshEngl.extracellular-fluid'doing!⇒Extracellular_fluiddoing,
+    <br>* McshEngl.extracellular_fluid'DOING!⇒Extracellular_fluiddoing,
     <a class="clsHide" href="#idBdyHmn140dongnam"></a></p>
   </section>
   </section>
@@ -4160,7 +4183,7 @@
     <br>* TissHumn.nervous!@McshHlth000019#idTssHmn002,
     <br>===
     <br>* αδενικος-ιστός!@McshHlth000002#idTissHmn011,
-    <br>* blood!@McshOgm000005#idFldHmn001,
+    <br>* human-blood!@McshOgm000005#idFldHmn001,
     <br>* επιθηλιακός-ιστός!@McshHlth000002#idTissHmn006,
     <br>* TissSkeletal!@McshHlth000002#idTissHmn007,
     <br>* καλυπτήριος-ιστός!@McshHlth000002#idTissHmn012,
@@ -4168,7 +4191,7 @@
     <br>* TissNervous!@McshHlth000019#idTssHmn002,
     <br>* οστίτης-ιστός!@McshHlth000002#idTissHmn004,
     <br>* συνδετικός-ιστός!@McshHlth000002#idTissHmn005,
-    <br>* υποδόριος-ιστός!@McshHlth000002#idBdyHmn459,
+    <br>* subcutaneous-tissue!@McshHlth000002#idBdyHmn459,
     <br>* χονδρικός-ιστός!@McshHlth000002#idBdyHmn099,
     <a class="clsHide" href="#idTissHmnsptr"></a></p>
   <p id="idTissHmnstrP1">Animal tissues can be grouped into four basic types: connective, muscle, nervous, and epithelial.
@@ -4224,8 +4247,10 @@
     <br>[Αργύρης, {1994}, 8⧺cptRsc29⧺]
     <a class="clsHide" href="#idTissHmn006dongdsn"></a></p>
   <p id="idTissHmn006dongnam">name::
-    <br>* McshEngl.HmbdEpithelialTissue'doing,
-    <br>* McshEngl.TissEpithelial'doing!⇒HmbdEpithelialTissue'doing,
+    <br>* McshEngl.doing-of-HmbdEpithelialTissue!⇒HmbdEpithelialTissuedoing,
+    <br>* McshEngl.HmbdEpithelialTissuedoing!=doing-of-HmbdEpithelialTissue,
+    <br>* McshEngl.HmbdEpithelialTissue'doing!⇒HmbdEpithelialTissuedoing,
+    <br>* McshEngl.TissEpithelial'doing!⇒HmbdEpithelialTissuedoing,
     <a class="clsHide" href="#idTissHmn006dongnam"></a></p>
   </section>
 
@@ -4524,7 +4549,9 @@
     <br>[Αργύρης, {1994}, 9⧺cptRsc29⧺]
     <a class="clsHide" href="#idTissHmn005dongdsn"></a></p>
   <p id="idTissHmn005dongnam">name::
-    <br>* McshEngl.TissConnective'doing,
+    <br>* McshEngl.doing-of-TissConnective!⇒TissConnectivedoing,
+    <br>* McshEngl.TissConnectivedoing!=doing-of-TissConnective,
+    <br>* McshEngl.TissConnective'doing!⇒TissConnectivedoing,
     <a class="clsHide" href="#idTissHmn005dongnam"></a></p>
   </section>
 
@@ -4563,7 +4590,7 @@
     <br>* McshEngl.TissConnective.specific,
     <br>* McshEngl.TissConnective_Sptr,
     <br>===
-    <br>* blood!@McshOgm000005#idFldHmn001,
+    <br>* human-blood!@McshOgm000005#idFldHmn001,
     <br>* αρχικος σκελετός,
     <br>* περιόστεο,
     <br>* χόνδρος!@McshHlth000005#idOgnHmn041,
@@ -5145,13 +5172,15 @@
     <br>· system of nutrition-recommendations from institutes like the-Institute-of-Medicine-(IOM) of the-National-Academies-(United-States) and the-European-Food-Safety-Authority-(EFSA).
     <a class="clsHide" href="#idBdyHmnatt015att003dsn"></a></p>
   <p id="idBdyHmnatt015att003nam">name::
-    <br>* McshEngl.Hmbdnutrient'rcmdtn,
-    <br>* McshEngl.Hmbdnutrient'03_dietary-recommendation!⇒nutrient'rcmdtn,
-    <br>* McshEngl.Hmbdnutrient'03_dietary_recommendation!⇒nutrient'rcmdtn,
-    <br>* McshEngl.Hmbdnutrient'att003-dietary-recommendation!⇒nutrient'rcmdtn,
-    <br>* McshEngl.Hmbdnutrient'dietary-recommendation-att003!⇒nutrient'rcmdtn,
-    <br>* McshEngl.nutrition-recommendation-att003!⇒nutrient'rcmdtn,
-    <br>* McshEngl.dietary-recommendation-of-nutrient-att003!⇒nutrient'rcmdtn,
+    <br>* McshEngl.recommendation-of--human-body-nutrient!⇒Hmbdnutri_recommendation,
+    <br>* McshEngl.Hmbdnutrirecommendation!=recommendation-of--human-body-nutrient,
+    <br>* McshEngl.Hmbdnutrient'recommedation!⇒Hmbdnutri_recommendation,
+    <br>* McshEngl.Hmbdnutrient'03_dietary-recommendation!⇒Hmbdnutri_recommendation,
+    <br>* McshEngl.Hmbdnutrient'03_dietary_recommendation!⇒Hmbdnutri_recommendation,
+    <br>* McshEngl.Hmbdnutrient'att003-dietary-recommendation!⇒Hmbdnutri_recommendation,
+    <br>* McshEngl.Hmbdnutrient'dietary-recommendation-att003!⇒Hmbdnutri_recommendation,
+    <br>* McshEngl.nutrition-recommendation-att003!⇒Hmbdnutri_recommendation,
+    <br>* McshEngl.dietary-recommendation-of-nutrient!⇒Hmbdnutri_recommendation,
     <a class="clsHide" href="#idBdyHmnatt015att003nam"></a></p>
 
   <section id="idBdyHmnatt015att003att006">
@@ -5368,7 +5397,7 @@
   <p id="idBdyHmnatt015gntr">generic-tree::
     <br>* McshEngl.nutrient_Gntr,
     <br>===
-    <br>* positive-health-material!@McshHlth000008#idMtrHlthHmn001,
+    <br>* harmless-health-material!@McshHlth000008#idMtrHlthHmn001,
     <br>* ...entity_Gntr,
     <a class="clsHide" href="#idBdyHmnatt015gntr"></a></p>
   <p id="idBdyHmnatt015sptr">specific-tree::
@@ -5378,7 +5407,7 @@
     <br>* essential-nutrient!@McshHlth000002#idBdyHmnatt015001,
     <br>===
     <br>* eyeMicro-nutrient,
-    <br>* eye-nutrient-(food)!@McshHlth000013,
+    <br>* human-food!@McshHlth000013,
     <br>===
     <br>* food-nutrient!@McshHlth000013#idFoodHmnatt003,
     <a class="clsHide" href="#idBdyHmnatt015sptr"></a></p>
@@ -6596,7 +6625,7 @@
     <br>* McshEngl.SystCirculatory'organ_Sptr,
     <br>===
     <br>· circulatory system:
-    <br>* OganHeart!@McshHlth000002#idHrtHmn,
+    <br>* human-heart!@McshHlth000002#idHrtHmn,
     <br>* OganVessel!@McshHlth000002#idOgnHmn013,
     <br>* patent-foramen-ovale,
     <br>* artery,
@@ -7162,7 +7191,9 @@
     <br>[{2026-05-03 retrieved} https://chat.deepseek.com/a/chat/s/b21b5f7b-b3f7-4f70-a107-c83fd2f800fa]
     <a class="clsHide" href="#idHrtHmndongdsn"></a></p>
   <p id="idHrtHmndongnam">name::
-    <br>* McshEngl.OganHeart'doing,
+    <br>* McshEngl.doing-of-OganHeart!⇒OganHeartdoing,
+    <br>* McshEngl.OganHeartdoing!=doing-of-OganHeart,
+    <br>* McshEngl.OganHeart'doing!⇒OganHeartdoing,
     <a class="clsHide" href="#idHrtHmndongnam"></a></p>
 
   <section id="idHrtHmnatt018">
@@ -7282,8 +7313,10 @@
     <br>[Αργύρης, {1994}, 60⧺cptRsc29⧺]
     <a class="clsHide" href="#idHrtHmnatt008evogdsn"></a></p>
   <p id="idHrtHmnatt008evognam">name::
-    <br>* McshEngl.heart-beat'ev,
-    <br>* McshEngl.heart_beat'evoluting,
+    <br>* McshEngl.evoluting-of-heart_beat!⇒Heart_beatevolg,
+    <br>* McshEngl.Heart_beatevolg!=evoluting-of-heart_beat,
+    <br>* McshEngl.heart-beat'ev!⇒Heart_beatevolg,
+    <br>* McshEngl.heart_beat'evoluting!⇒Heart_beatevolg,
     <a class="clsHide" href="#idHrtHmnatt008evognam"></a></p>
   </section>
   </section>
@@ -7347,8 +7380,9 @@
     <br>[{2020-05-10} https://en.wikipedia.org/wiki/Hippo_signaling_pathway]
     <a class="clsHide" href="#idHrtHmnevogdsn"></a></p>
   <p id="idHrtHmnevognam">name::
-    <br>* McshEngl.evoluting-of-OganHeart,
-    <br>* McshEngl.OganHeart'evoluting,
+    <br>* McshEngl.evoluting-of-OganHeart!⇒OganHeartevolg,
+    <br>* McshEngl.OganHeartevolg!=evoluting-of-OganHeart,
+    <br>* McshEngl.OganHeart'evoluting!⇒OganHeartevolg,
     <a class="clsHide" href="#idHrtHmnevognam"></a></p>
   <p id="idHrtHmn1967">{1967}::
     <br>=== first transplantation:
@@ -7640,8 +7674,10 @@
     <br>[Αργύρης, {1994}, 57⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn013002dongdsn"></a></p>
   <p id="idOgnHmn013002dongnam">name::
-    <br>* McshEngl.HmbdArtery'doing,
-    <br>* McshEngl.vesselArtery'doing!⇒HmbdArtery'doing,
+    <br>* McshEngl.doing-of-HmbdArtery!⇒HmbdArterydoing,
+    <br>* McshEngl.HmbdArterydoing!=doing-of-HmbdArtery,
+    <br>* McshEngl.HmbdArtery'doing!⇒HmbdArterydoing,
+    <br>* McshEngl.vesselArtery'doing!⇒HmbdArterydoing,
     <a class="clsHide" href="#idOgnHmn013002dongnam"></a></p>
   </section>
 
@@ -7720,8 +7756,10 @@
     <br>[Αργύρης, {1994}, 58⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn013003dongdsn"></a></p>
   <p id="idOgnHmn013003dongnam">name::
-    <br>* McshEngl.HmbdCapillaryVesser'doing,
-    <br>* McshEngl.vesselCapillary'doing!⇒HmbdCapillaryVesser'doing,
+    <br>* McshEngl.doing-of-HmbdCapillaryVesser!⇒HmbdCapillaryVesserdoing,
+    <br>* McshEngl.HmbdCapillaryVesserdoing!=doing-of-HmbdCapillaryVesser,
+    <br>* McshEngl.HmbdCapillaryVesser'doing!⇒HmbdCapillaryVesserdoing,
+    <br>* McshEngl.vesselCapillary'doing!⇒HmbdCapillaryVesserdoing,
     <a class="clsHide" href="#idOgnHmn013003dongnam"></a></p>
   </section>
 
@@ -7904,8 +7942,10 @@
     <br>[Αργύρης, {1994}, 58⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn013007dongdsn"></a></p>
   <p id="idOgnHmn013007dongnam">name::
-    <br>* McshEngl.HmbdVeing,
-    <br>* McshEngl.vesselVein'doing!⇒HmbdVeing,
+    <br>* McshEngl.doing-of-vesselVein!⇒VesselVeindoing,
+    <br>* McshEngl.VesselVeindoing!=doing-of-vesselVein,
+    <br>* McshEngl.HmbdVeing!⇒VesselVeindoing,
+    <br>* McshEngl.vesselVein'doing!⇒VesselVeindoing,
     <a class="clsHide" href="#idOgnHmn013007dongnam"></a></p>
   </section>
 
@@ -8141,7 +8181,9 @@
     <br>[Αργύρης, {1994}, 55⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn031dongdsn"></a></p>
   <p id="idOgnHmn031dongnam">name::
-    <br>* McshEngl.GlndLymph'doing,
+    <br>* McshEngl.doing-of-GlndLymph!⇒GlndLymphdoing,
+    <br>* McshEngl.GlndLymphdoing!=doing-of-GlndLymph,
+    <br>* McshEngl.GlndLymph'doing!⇒GlndLymphdoing,
     <a class="clsHide" href="#idOgnHmn031dongnam"></a></p>
   </section>
   </section>
@@ -8223,7 +8265,9 @@
     <br>* συντελει στην αμυνα του οργανισμού,
     <a class="clsHide" href="#idSysOgnHmn002dongdsn"></a></p>
   <p id="idSysOgnHmn002dongnam">name::
-    <br>* McshEngl.SystCirculatory'doing,
+    <br>* McshEngl.doing-of-SystCirculatory!⇒SystCirculatorydoing,
+    <br>* McshEngl.SystCirculatorydoing!=doing-of-SystCirculatory,
+    <br>* McshEngl.SystCirculatory'doing!⇒SystCirculatorydoing,
     <a class="clsHide" href="#idSysOgnHmn002dongnam"></a></p>
   <p id="idSysOgnHmn002dongP2">το σύστημα εξασφαλίζει συνεχη ροη αίματος.
     <br>[Αργύρης, {1994}, 57⧺cptRsc29⧺]
@@ -8666,8 +8710,10 @@
     <br>[Αργύρης, {1994}, 109⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn011dongdsn"></a></p>
   <p id="idOgnHmn011dongnam">name::
-    <br>* McshEngl.OganSking'doing,
-    <br>* McshEngl.OganSkin'doing!⇒OganSking'doing,
+    <br>* McshEngl.doing-of-OganSking!⇒OganSkingdoing,
+    <br>* McshEngl.OganSkingdoing!=doing-of-OganSking,
+    <br>* McshEngl.OganSking'doing!⇒OganSkingdoing,
+    <br>* McshEngl.OganSkin'doing!⇒OganSkingdoing,
     <a class="clsHide" href="#idOgnHmn011dongnam"></a></p>
   </section>
 
@@ -9026,7 +9072,9 @@
     <br>[Αργύρης, {1994}, 105⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn010dongdsn"></a></p>
   <p id="idOgnHmn010dongnam">name::
-    <br>* McshEngl.OganNose'doing,
+    <br>* McshEngl.doing-of-OganNose!⇒OganNosedoing,
+    <br>* McshEngl.OganNosedoing!=doing-of-OganNose,
+    <br>* McshEngl.OganNose'doing!⇒OganNosedoing,
     <a class="clsHide" href="#idOgnHmn010dongnam"></a></p>
   </section>
   </section>
@@ -9175,7 +9223,9 @@
     <br>[Αργύρης, {1994}, 37⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn018dongdsn"></a></p>
   <p id="idOgnHmn018dongnam">name::
-    <br>* McshEngl.OganPharynx'doing,
+    <br>* McshEngl.doing-of-OganPharynx!⇒OganPharynxdoing,
+    <br>* McshEngl.OganPharynxdoing!=doing-of-OganPharynx,
+    <br>* McshEngl.OganPharynx'doing!⇒OganPharynxdoing,
     <a class="clsHide" href="#idOgnHmn018dongnam"></a></p>
   </section>
 
@@ -9293,7 +9343,9 @@
     <br>[Αργύρης, {1994}, 79⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn020dongdsn"></a></p>
   <p id="idOgnHmn020dongnam">name::
-    <br>* McshEngl.OganLarynx'doing,
+    <br>* McshEngl.doing-of-OganLarynx!⇒OganLarynxdoing,
+    <br>* McshEngl.OganLarynxdoing!=doing-of-OganLarynx,
+    <br>* McshEngl.OganLarynx'doing!⇒OganLarynxdoing,
     <a class="clsHide" href="#idOgnHmn020dongnam"></a></p>
   </section>
   </section>
@@ -9432,8 +9484,10 @@
     <br>* <a class="clsPreview" href="#idBdyHmn148">RESPIRATION</a>,
     <a class="clsHide" href="#idOgnHmn005dongdsn"></a></p>
   <p id="idOgnHmn005dongnam">name::
-    <br>* McshEngl.HmbdLung'doing,
-    <br>* McshEngl.OganLung'doing!⇒HmbdLung'doing,
+    <br>* McshEngl.doing-of-HmbdLung!⇒HmbdLungdoing,
+    <br>* McshEngl.HmbdLungdoing!=doing-of-HmbdLung,
+    <br>* McshEngl.HmbdLung'doing!⇒HmbdLungdoing,
+    <br>* McshEngl.OganLung'doing!⇒HmbdLungdoing,
     <a class="clsHide" href="#idOgnHmn005dongnam"></a></p>
   </section>
 
@@ -9483,7 +9537,9 @@
     <br>[Αργύρης, {1994}, 77⧺cptRsc29⧺]
     <a class="clsHide" href="#idBdyHmn295dongdsn"></a></p>
   <p id="idBdyHmn295dongnam">name::
-    <br>* McshEngl.alveoli'doing,
+    <br>* McshEngl.doing-of-alveoli!⇒Alveolidoing,
+    <br>* McshEngl.Alveolidoing!=doing-of-alveoli,
+    <br>* McshEngl.alveoli'doing!⇒Alveolidoing,
     <a class="clsHide" href="#idBdyHmn295dongnam"></a></p>
   </section>
 
@@ -9756,7 +9812,9 @@
     <br>* <a class="clsPreview" href="#idBdyHmn148">αναπνοή</a>,
     <a class="clsHide" href="#idSysOgnHmn006dongdsn"></a></p>
   <p id="idSysOgnHmn006dongnam">name::
-    <br>* McshEngl.SystRespiratory'doing,
+    <br>* McshEngl.doing-of-SystRespiratory!⇒SystRespiratorydoing,
+    <br>* McshEngl.SystRespiratorydoing!=doing-of-SystRespiratory,
+    <br>* McshEngl.SystRespiratory'doing!⇒SystRespiratorydoing,
     <a class="clsHide" href="#idSysOgnHmn006dongnam"></a></p>
   </section>
   </section>
@@ -10018,7 +10076,9 @@
     <br>[Αργύρης, {1994}, 34⧺cptRsc29⧺]
     <a class="clsHide" href="#idBdyHmn110dongdsn"></a></p>
   <p id="idBdyHmn110dongnam">name::
-    <br>* McshEngl.OganTooth'doing,
+    <br>* McshEngl.doing-of-OganTooth!⇒OganToothdoing,
+    <br>* McshEngl.OganToothdoing!=doing-of-OganTooth,
+    <br>* McshEngl.OganTooth'doing!⇒OganToothdoing,
     <a class="clsHide" href="#idBdyHmn110dongnam"></a></p>
   </section>
 
@@ -10110,8 +10170,10 @@
     <br>* https://www.weforum.org/agenda/2016/04/ romans-had-no-need-for-dentists-because-of-one-food-they-didn-t-eat/ (low sugar),
     <a class="clsHide" href="#idBdyHmn110resourcedsn"></a></p>
   <p id="idBdyHmn110resourcenam">name::
-    <br>* McshEngl.OganTooth'info_resource,
-    <br>* McshEngl.OganTooth'info-resource!⇒OganTooth'info_resource,
+    <br>* McshEngl.info-resource-of-OganTooth!⇒OganToothinfrsc,
+    <br>* McshEngl.OganToothinfrsc!=info-resource-of-OganTooth,
+    <br>* McshEngl.OganTooth'info_resource!⇒OganToothinfrsc,
+    <br>* McshEngl.OganTooth'info-resource!⇒OganToothinfrsc,
     <a class="clsHide" href="#idBdyHmn110resourcenam"></a></p>
   </section>
 
@@ -10169,7 +10231,9 @@
     <br>[http://www.wisegeek.com/have-human-teeth-become-stronger-over-time.htm?m {2017-10-23}]
     <a class="clsHide" href="#idBdyHmn110evogdsn"></a></p>
   <p id="idBdyHmn110evognam">name::
-    <br>* McshEngl.OganTooth'evoluting,
+    <br>* McshEngl.evoluting-of-OganTooth!⇒OganToothevolg,
+    <br>* McshEngl.OganToothevolg!=evoluting-of-OganTooth,
+    <br>* McshEngl.OganTooth'evoluting!⇒OganToothevolg,
     <a class="clsHide" href="#idBdyHmn110evognam"></a></p>
   </section>
 
@@ -10491,7 +10555,9 @@
     <br>[Αργύρης, {1994}, 105⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn012dongdsn"></a></p>
   <p id="idOgnHmn012dongnam">name::
-    <br>* McshEngl.OganTongue'doing,
+    <br>* McshEngl.doing-of-OganTongue!⇒OganTonguedoing,
+    <br>* McshEngl.OganTonguedoing!=doing-of-OganTongue,
+    <br>* McshEngl.OganTongue'doing!⇒OganTonguedoing,
     <a class="clsHide" href="#idOgnHmn012dongnam"></a></p>
   </section>
   </section>
@@ -10753,7 +10819,9 @@
     <br>[Αργύρης, {1994}, 39⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn035dongdsn"></a></p>
   <p id="idOgnHmn035dongnam">name::
-    <br>* McshEngl.OganDuodenum'doing,
+    <br>* McshEngl.doing-of-OganDuodenum!⇒OganDuodenumdoing,
+    <br>* McshEngl.OganDuodenumdoing!=doing-of-OganDuodenum,
+    <br>* McshEngl.OganDuodenum'doing!⇒OganDuodenumdoing,
     <a class="clsHide" href="#idOgnHmn035dongnam"></a></p>
   </section>
   </section>
@@ -10785,7 +10853,9 @@
     <br>[Αργύρης, {1994}, 40⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn033dongdsn"></a></p>
   <p id="idOgnHmn033dongnam">name::
-    <br>* McshEngl.OganIntestineSmall'doing,
+    <br>* McshEngl.doing-of-OganIntestineSmall!⇒OganIntestineSmalldoing,
+    <br>* McshEngl.OganIntestineSmalldoing!=doing-of-OganIntestineSmall,
+    <br>* McshEngl.OganIntestineSmall'doing!⇒OganIntestineSmalldoing,
     <a class="clsHide" href="#idOgnHmn033dongnam"></a></p>
   </section>
   </section>
@@ -10850,7 +10920,9 @@
     <br>[Αργύρης, {1994}, 40⧺cptRsc29⧺]
     <a class="clsHide" href="#idOgnHmn034dongdsn"></a></p>
   <p id="idOgnHmn034dongnam">name::
-    <br>* McshEngl.OganIntestineLarge'doing,
+    <br>* McshEngl.doing-of-OganIntestineLarge!⇒OganIntestineLargedoing,
+    <br>* McshEngl.OganIntestineLargedoing!=doing-of-OganIntestineLarge,
+    <br>* McshEngl.OganIntestineLarge'doing!⇒OganIntestineLargedoing,
     <a class="clsHide" href="#idOgnHmn034dongnam"></a></p>
   </section>
 
@@ -10976,7 +11048,9 @@
     <br>[Αργύρης, {1994}, 345⧺cptRsc31⧺]
     <a class="clsHide" href="#idOgnHmn021dongdsn"></a></p>
   <p id="idOgnHmn021dongnam">name::
-    <br>* McshEngl.OganGallbladder'doing,
+    <br>* McshEngl.doing-of-OganGallbladder!⇒OganGallbladderdoing,
+    <br>* McshEngl.OganGallbladderdoing!=doing-of-OganGallbladder,
+    <br>* McshEngl.OganGallbladder'doing!⇒OganGallbladderdoing,
     <a class="clsHide" href="#idOgnHmn021dongnam"></a></p>
   </section>
   </section>
@@ -11131,7 +11205,7 @@
   <p id="idSysOgnHmn007functinggntr">generic-tree::
     <br>* McshEngl.SystDigestive'functing_Gntr,
     <br>===
-    <br>* functingSysOrgnsHumn!@McshHlth000002#idSysOgnHmnftg,
+    <br>* functing-of-SystOgans!@McshHlth000002#idSysOgnHmnftg,
     <br>* entity.bodyNo.doing.functing⧺idSysOgnHmn008dong⧺,
     <br>* ...entity_Gntr,
     <a class="clsHide" href="#idSysOgnHmn007functinggntr"></a></p>
@@ -11810,7 +11884,9 @@
     <br>[Εικ, 1994, 20⧺cptRsc33⧺]
     <a class="clsHide" href="#idOgnHmn026dongdsn"></a></p>
   <p id="idOgnHmn026dongnam">name::
-    <br>* McshEngl.OganKidney'doing,
+    <br>* McshEngl.doing-of-OganKidney!⇒OganKidneydoing,
+    <br>* McshEngl.OganKidneydoing!=doing-of-OganKidney,
+    <br>* McshEngl.OganKidney'doing!⇒OganKidneydoing,
     <a class="clsHide" href="#idOgnHmn026dongnam"></a></p>
 
   <section id="idOgnHmn026urnp">
@@ -12007,8 +12083,10 @@
     <br>* http://www.greekurology.gr/index.html,
     <a class="clsHide" href="#idSysOgnHmn008irscdsn"></a></p>
   <p id="idSysOgnHmn008rscFnam">name::
-    <br>* McshEngl.SystUrinary'info_resource,
-    <br>* McshEngl.SystUrinary'info-resource!⇒SystUrinary'info_resource,
+    <br>* McshEngl.info-resource-of-SystUrinary!⇒SystUrinaryinfrsc,
+    <br>* McshEngl.SystUrinaryinfrsc!=info-resource-of-SystUrinary,
+    <br>* McshEngl.SystUrinary'info_resource!⇒SystUrinaryinfrsc,
+    <br>* McshEngl.SystUrinary'info-resource!⇒SystUrinaryinfrsc,
     <a class="clsHide" href="#idSysOgnHmn008rscFnam"></a></p>
   </section>
 
@@ -12054,7 +12132,9 @@
     <br>[Αργύρης, {1994}, 404⧺cptRsc31⧺]
     <a class="clsHide" href="#idSysOgnHmn008dongdsn"></a></p>
   <p id="idSysOgnHmn008dongnam">name::
-    <br>* McshEngl.SystUrinary'doing,
+    <br>* McshEngl.doing-of-SystUrinary!⇒SystUrinarydoing,
+    <br>* McshEngl.SystUrinarydoing!=doing-of-SystUrinary,
+    <br>* McshEngl.SystUrinary'doing!⇒SystUrinarydoing,
     <a class="clsHide" href="#idSysOgnHmn008dongnam"></a></p>
   </section>
   </section>
@@ -12174,7 +12254,9 @@
     <br>· με την αναπαραγωγή δημιουργούνται μωρα.
     <a class="clsHide" href="#idSysOgnHmn009dongdsn"></a></p>
   <p id="idSysOgnHmn009dongnam">name::
-    <br>* McshEngl.SystReproductive'doing,
+    <br>* McshEngl.doing-of-SystReproductive!⇒SystReproductivedoing,
+    <br>* McshEngl.SystReproductivedoing!=doing-of-SystReproductive,
+    <br>* McshEngl.SystReproductive'doing!⇒SystReproductivedoing,
     <a class="clsHide" href="#idSysOgnHmn009dongnam"></a></p>
   </section>
 
@@ -12275,7 +12357,9 @@
     <br>* <a class="clsPreview" href="#idBdyHmnatt034">reproduction</a>,
     <a class="clsHide" href="#idSysOgnHmn016dongdsn"></a></p>
   <p id="idSysOgnHmn016dongnam">name::
-    <br>* McshEngl.SystReproductiveMale'doing,
+    <br>* McshEngl.doing-of-SystReproductiveMale!⇒SystReproductiveMaledoing,
+    <br>* McshEngl.SystReproductiveMaledoing!=doing-of-SystReproductiveMale,
+    <br>* McshEngl.SystReproductiveMale'doing!⇒SystReproductiveMaledoing,
     <a class="clsHide" href="#idSysOgnHmn016dongnam"></a></p>
   </section>
 
@@ -12507,8 +12591,10 @@
     <br>* http://www.greekurology.gr/index.html,
     <a class="clsHide" href="#idSysOgnHmn016irscdsn"></a></p>
   <p id="idSysOgnHmn016irscnam">name::
-    <br>* McshEngl.SystReproductiveMale'info_resource,
-    <br>* McshEngl.SystReproductiveMale'info-resource!⇒SystReproductiveMale'info_resource,
+    <br>* McshEngl.info-resource-of-SystReproductiveMale!⇒SystReproductiveMaleinfrsc,
+    <br>* McshEngl.SystReproductiveMaleinfrsc!=info-resource-of-SystReproductiveMale,
+    <br>* McshEngl.SystReproductiveMale'info_resource!⇒SystReproductiveMaleinfrsc,
+    <br>* McshEngl.SystReproductiveMale'info-resource!⇒SystReproductiveMaleinfrsc,
     <a class="clsHide" href="#idSysOgnHmn016irscnam"></a></p>
   </section>
 
@@ -12618,7 +12704,9 @@
     <br>* http://www.nooz.gr/woman/aidoioplastiki-i-nea-tasi-stis-efives,
     <a class="clsHide" href="#idOgnHmn014resourcedsn"></a></p>
   <p id="idOgnHmn014resourcenam">name::
-    <br>* McshEngl.OganVulva'resource,
+    <br>* McshEngl.info-resource-of-OganVulva!⇒OganVulvainfrsc,
+    <br>* McshEngl.OganVulvainfrsc!=info-resource-of-OganVulva,
+    <br>* McshEngl.OganVulva'resource!⇒OganVulvainfrsc,
     <a class="clsHide" href="#idOgnHmn014resourcenam"></a></p>
   </section>
   </section>
@@ -12765,7 +12853,9 @@
     <br>[Αργύρης, {1994}, 432⧺cptRsc31⧺]
     <a class="clsHide" href="#idSysOgnHmn015dongdsn"></a></p>
   <p id="idSysOgnHmn015dongnam">name::
-    <br>* McshEngl.SystReproductiveFemale'doing,
+    <br>* McshEngl.doing-of-SystReproductiveFemale!⇒SystReproductiveFemaledoing,
+    <br>* McshEngl.SystReproductiveFemaledoing!=doing-of-SystReproductiveFemale,
+    <br>* McshEngl.SystReproductiveFemale'doing!⇒SystReproductiveFemaledoing,
     <a class="clsHide" href="#idSysOgnHmn015dongnam"></a></p>
   </section>
 
@@ -12811,7 +12901,9 @@
     <br>· στη 5η δεκαετια της ζωής τους υπαρχει αλλαγη στη περιοδο των γυναικων λογω της μειωμενης παραγωγης οιστρογονων.
     <a class="clsHide" href="#idBdyHmn031evogdsn"></a></p>
   <p id="idBdyHmn031evognam">name::
-    <br>* McshEngl.menstruation'evoluting,
+    <br>* McshEngl.evoluting-of-menstruation!⇒Menstruationevolg,
+    <br>* McshEngl.Menstruationevolg!=evoluting-of-menstruation,
+    <br>* McshEngl.menstruation'evoluting!⇒Menstruationevolg,
     <a class="clsHide" href="#idBdyHmn031evognam"></a></p>
 
   <section id="idBdyHmn031time-period">
@@ -12944,8 +13036,10 @@
     <br>· info-resource of SystNeuroendocrine
     <a class="clsHide" href="#idSysOgnHmn010irscdsn"></a></p>
   <p id="idSysOgnHmn010irscnam">name::
-    <br>* McshEngl.SystNeuroendocrine'info_resource,
-    <br>* McshEngl.SystNeuroendocrine'info-resource!⇒SystNeuroendocrine'info_resource,
+    <br>* McshEngl.info-resource-of-SystNeuroendocrine!⇒SystNeuroendocrineinfrsc,
+    <br>* McshEngl.SystNeuroendocrineinfrsc!=info-resource-of-SystNeuroendocrine,
+    <br>* McshEngl.SystNeuroendocrine'info_resource!⇒SystNeuroendocrineinfrsc,
+    <br>* McshEngl.SystNeuroendocrine'info-resource!⇒SystNeuroendocrineinfrsc,
     <a class="clsHide" href="#idSysOgnHmn010irscnam"></a></p>
 
   <section id="idSysOgnHmn010nelg">
@@ -13821,8 +13915,10 @@
     <br>* https://en.wikipedia.org/wiki/Glossary_of_medicine,
     <a class="clsHide" href="#idBdyHmnirscdsn"></a></p>
   <p id="idBdyHmnrscnam">name::
-    <br>* McshEngl.bodyHumn'info-resource,
-    <br>* McshEngl.bodyHumn'attResource,
+    <br>* McshEngl.info-resource-of-bodyHumn!⇒BodyHumninfrsc,
+    <br>* McshEngl.BodyHumninfrsc!=info-resource-of-bodyHumn,
+    <br>* McshEngl.bodyHumn'info-resource!⇒BodyHumninfrsc,
+    <br>* McshEngl.bodyHumn'attResource!⇒BodyHumninfrsc,
     <a class="clsHide" href="#idBdyHmnrscnam"></a></p>
 
   <section id="idBdyHmnrscTmaana">
@@ -14334,8 +14430,10 @@
     <br>[Αργύρης, {1994}, 74⧺cptRsc29⧺]
     <a class="clsHide" href="#idBdyHmn148evogdsn"></a></p>
   <p id="idBdyHmn148evognam">name::
-    <br>* McshEngl.HmbdBreathing'evoluting,
-    <br>* McshEngl.breathing'evoluting!⇒HmbdBreathing'evoluting,
+    <br>* McshEngl.evoluting-of-HmbdBreathing!⇒HmbdBreathingevolg,
+    <br>* McshEngl.HmbdBreathingevolg!=evoluting-of-HmbdBreathing,
+    <br>* McshEngl.HmbdBreathing'evoluting!⇒HmbdBreathingevolg,
+    <br>* McshEngl.breathing'evoluting!⇒HmbdBreathingevolg,
     <a class="clsHide" href="#idBdyHmn148evognam"></a></p>
   </section>
 
@@ -14864,10 +14962,11 @@
     <br>* death,
     <a class="clsHide" href="#idBdyHmnevogFdsn"></a></p>
   <p id="idBdyHmnevognam">name::
-    <br>* McshEngl.evoluting-of-bodyHumn,
-    <br>* McshEngl.bodyHumn'evoluting,
-    <br>* McshEngl.bodyHumn'attEvoluting,
-    <br>* McshEngl.bodyHumn'development,
+    <br>* McshEngl.evoluting-of-bodyHumn!⇒BodyHumnevolg,
+    <br>* McshEngl.BodyHumnevolg!=evoluting-of-bodyHumn,
+    <br>* McshEngl.bodyHumn'evoluting!⇒BodyHumnevolg,
+    <br>* McshEngl.bodyHumn'attEvoluting!⇒BodyHumnevolg,
+    <br>* McshEngl.bodyHumn'development!⇒BodyHumnevolg,
     <a class="clsHide" href="#idBdyHmnevognam"></a></p>
 
   <section id="idBdyHmnatt034">
@@ -15349,7 +15448,9 @@
     <br> &nbsp; &nbsp;γερου στάδιο
     <a class="clsHide" href="#idBdyHmnatt039evogdsn"></a></p>
   <p id="idBdyHmnatt039evognam">name::
-    <br>* McshEngl.HmbdLife'evoluting,
+    <br>* McshEngl.evoluting-of-HmbdLife!⇒HmbdLifeevolg,
+    <br>* McshEngl.HmbdLifeevolg!=evoluting-of-HmbdLife,
+    <br>* McshEngl.HmbdLife'evoluting!⇒HmbdLifeevolg,
     <a class="clsHide" href="#idBdyHmnatt039evognam"></a></p>
   </section>
 

@@ -119,8 +119,10 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idSysMolsOgmirscdsn"></a></p>
   <p id="idSysMolsOgmrscnam">name::
-    <br>* McshEngl.SystMolsOgsm'attResource,
-    <br>* McshEngl.SystMolsOgsm'info-resource,
+    <br>* McshEngl.info-resource-of-SystMolsOgsm!⇒SystMolsOgsminfrsc,
+    <br>* McshEngl.SystMolsOgsminfrsc!=info-resource-of-SystMolsOgsm,
+    <br>* McshEngl.SystMolsOgsm'attResource!⇒SystMolsOgsminfrsc,
+    <br>* McshEngl.SystMolsOgsm'info-resource!⇒SystMolsOgsminfrsc,
     <a class="clsHide" href="#idSysMolsOgmrscnam"></a></p>
   </section>
 
@@ -143,8 +145,10 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idSysMolsOgmdongdsn"></a></p>
   <p id="idSysMolsOgmdongnam">name::
-    <br>* McshEngl.SystMolsOgsm'doing,
-    <br>* McshEngl.SystMolsOgsm'attDoing!⇒SystMolsOgsm'doing,
+    <br>* McshEngl.doing-of-SystMolsOgsm!⇒SystMolsOgsmdoing,
+    <br>* McshEngl.SystMolsOgsmdoing!=doing-of-SystMolsOgsm,
+    <br>* McshEngl.SystMolsOgsm'doing!⇒SystMolsOgsmdoing,
+    <br>* McshEngl.SystMolsOgsm'attDoing!⇒SystMolsOgsmdoing,
     <a class="clsHide" href="#idSysMolsOgmdongnam"></a></p>
   </section>
 
@@ -155,9 +159,10 @@
     <br>× Mcsh-creation: {2020-04-06}
     <a class="clsHide" href="#idSysMolsOgmevogdsn"></a></p>
   <p id="idSysMolsOgmevognam">name::
-    <br>* McshEngl.SystMolsOgsm'attEvoluting,
-    <br>* McshEngl.evoluting-of-SystMolsOgsm,
-    <br>* McshEngl.SystMolsOgsm'evoluting,
+    <br>* McshEngl.evoluting-of-SystMolsOgsm!⇒SystMolsOgsmevolg,
+    <br>* McshEngl.SystMolsOgsmevolg!=evoluting-of-SystMolsOgsm,
+    <br>* McshEngl.SystMolsOgsm'attEvoluting!⇒SystMolsOgsmevolg,
+    <br>* McshEngl.SystMolsOgsm'evoluting!⇒SystMolsOgsmevolg,
     <a class="clsHide" href="#idSysMolsOgmevognam"></a></p>
   </section>
 
@@ -244,7 +249,7 @@
     <br>* McshEngl.SystMolsHumn.specific,
     <br>* McshEngl.SystMolsHumn_Sptr,
     <br>===
-    <br>* health-SystMolsHumn!@McshHlth000008#idHlthHmnatt005,
+    <br>* human-health-material!@McshHlth000008#idHlthHmnatt005,
     <br>* healthNo-SystMolsHumn,
     <br>===
     <br>* micro-scale-SystMolsHumn,
@@ -316,13 +321,13 @@
     <br>===
     <br>* intaken,
     <br>** food!@McshHlth000013,
-    <br>* produced!@McshOgm000005#idSysMolsHmn004,
+    <br>* human-produced-substance!@McshOgm000005#idSysMolsHmn004,
     <br>===
     <br>* solid,
     <br>* liquid!@McshOgm000005#idFldHmn,
     <br>* gas,
-    <br>* calcium!@McshNtr000007#idChmElrCalcium,
-    <br>* iron!@McshNtr000007#idChmElrIron,
+    <br>* Calcium!@McshNtr000007#idChmElrCalcium,
+    <br>* Iron!@McshNtr000007#idChmElrIron,
     <br>===
     <a class="clsHide" href="#idSysMolsHmn027sptr"></a></p>
   </section>
@@ -504,7 +509,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idSysMolsHmn004dongdsn"></a></p>
   <p id="idSysMolsHmn004dongnam">name::
-    <br>* McshEngl.BodyHumn'product'doing,
+    <br>* McshEngl.doing-of-BodyHumn'product!⇒BodyHumn'productdoing,
+    <br>* McshEngl.BodyHumn'productdoing!=doing-of-BodyHumn'product,
+    <br>* McshEngl.BodyHumn'product'doing!⇒BodyHumn'productdoing,
     <a class="clsHide" href="#idSysMolsHmn004dongnam"></a></p>
   <p id="idSysMolsHmn004dongP1">doing::
     <br>ο ρόλος της ουσίας.
@@ -535,11 +542,11 @@
     <br>* bile!@McshOgm000005#idSysMolsHmn019,
     <br>* cholesterol!@McshOgm000004#idMolOgm016001,
     <br>* excrement!@McshOgm000005#idSysMolsHmn021,
-    <br>* hormone!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <br>* urine!@McshOgm000005#idSysMolsHmn022,
     <br>===
     <br>* salivaHumn!@McshOgm000005#idSysMolsHmn018,
-    <br>* SystMolsHumnRelsHrmn!@McshOgm000005#idSysMolsHmn016,
+    <br>* SystMolsHumn.releasing-hormone!@McshOgm000005#idSysMolsHmn016,
     <a class="clsHide" href="#idSysMolsHmn004sptr"></a></p>
   </section>
   </section>
@@ -700,7 +707,7 @@
     <br>* McshEngl.macromoleculeHumn_Sptr,
     <br>===
     <br>* nucleic-acid,
-    <br>* protein!@McshOgm000006#idPrtnHmn,
+    <br>* human-protein!@McshOgm000006#idPrtnHmn,
     <br>* polysaccharide,
     <a class="clsHide" href="#idSysMolsHmn008sptr"></a></p>
   </section>
@@ -1358,9 +1365,11 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idHrmnHmndongdsn"></a></p>
   <p id="idHrmnHmndongnam">name::
-    <br>* McshEngl.hormoneHumn'doing,
-    <br>* McshEngl.hormoneHumn'005-doing!⇒hormoneHumn'doing,
-    <br>* McshEngl.hormoneHumn'doing-005!⇒hormoneHumn'doing,
+    <br>* McshEngl.doing-of-hormoneHumn!⇒HormoneHumndoing,
+    <br>* McshEngl.HormoneHumndoing!=doing-of-hormoneHumn,
+    <br>* McshEngl.hormoneHumn'doing!⇒HormoneHumndoing,
+    <br>* McshEngl.hormoneHumn'005-doing!⇒HormoneHumndoing,
+    <br>* McshEngl.hormoneHumn'doing-005!⇒HormoneHumndoing,
     <a class="clsHide" href="#idHrmnHmndongnam"></a></p>
 
   <section id="idHrmnHmndongfctg">
@@ -1495,7 +1504,7 @@
     <br>===
     <br>* αγγειοτενσίνη,
     <br>* αλδοστερόνη!@McshOgm000005#idHrmnHmn001,
-    <br>* ανδρικές-ορμόνες!@McshOgm000005#idHrmnHmn002,
+    <br>* human-male-hormone!@McshOgm000005#idHrmnHmn002,
     <br>* HrmnAndrogen!@McshOgm000005#idHrmnHmn003,
     <br>* αντιδιουρητική-ορμόνη!@McshOgm000005#idHrmnHmn004,
     <br>* αυξητικές-ορμόνες,
@@ -1747,7 +1756,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idHrmnHmn014dongdsn"></a></p>
   <p id="idHrmnHmn014dongnam">name::
-    <br>* McshEngl.hrmnInsulin'doing,
+    <br>* McshEngl.doing-of-hrmnInsulin!⇒HrmnInsulindoing,
+    <br>* McshEngl.HrmnInsulindoing!=doing-of-hrmnInsulin,
+    <br>* McshEngl.hrmnInsulin'doing!⇒HrmnInsulindoing,
     <a class="clsHide" href="#idHrmnHmn014dongnam"></a></p>
   <p id="idHrmnHmn014dongP1">doing::
     <br>* αυξάνει τη χρησιμοποίηση της γλυκόζης από τα κύτταρα,
@@ -1807,7 +1818,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idHrmnHmn015dongdsn"></a></p>
   <p id="idHrmnHmn015dongnam">name::
-    <br>* McshEngl.hormoneHmnCortisol'doing,
+    <br>* McshEngl.doing-of-hormoneHmnCortisol!⇒HormoneHmnCortisoldoing,
+    <br>* McshEngl.HormoneHmnCortisoldoing!=doing-of-hormoneHmnCortisol,
+    <br>* McshEngl.hormoneHmnCortisol'doing!⇒HormoneHmnCortisoldoing,
     <a class="clsHide" href="#idHrmnHmn015dongnam"></a></p>
   <p id="idHrmnHmn015dongP1">doing::
     <br>* ρυθμίζει πρωτεΐνες,
@@ -2891,7 +2904,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idHrmnHmn003dongdsn"></a></p>
   <p id="idHrmnHmn003dongnam">name::
-    <br>* McshEngl.HrmnAndrogen'doing,
+    <br>* McshEngl.doing-of-HrmnAndrogen!⇒HrmnAndrogendoing,
+    <br>* McshEngl.HrmnAndrogendoing!=doing-of-HrmnAndrogen,
+    <br>* McshEngl.HrmnAndrogen'doing!⇒HrmnAndrogendoing,
     <a class="clsHide" href="#idHrmnHmn003dongnam"></a></p>
   <p id="idHrmnHmn003dongP1">doing::
     <br>αυτά του φλοιού των επινεφριδίων είναι πιθανώς υπεύθυνα για την προεφηβική ανάπτυξη του γεννητικού συστήματος στον άντρα.
@@ -2988,7 +3003,9 @@
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idHrmnHmn023dongdsn"></a></p>
   <p id="idHrmnHmn023dongnam">name::
-    <br>* McshEngl.hrmnTestosterone'doing,
+    <br>* McshEngl.doing-of-hrmnTestosterone!⇒HrmnTestosteronedoing,
+    <br>* McshEngl.HrmnTestosteronedoing!=doing-of-hrmnTestosterone,
+    <br>* McshEngl.hrmnTestosterone'doing!⇒HrmnTestosteronedoing,
     <a class="clsHide" href="#idHrmnHmn023dongnam"></a></p>
   <p id="idHrmnHmn023dongP1">doing::
     <br>τα δευτερεύοντα χαρακτηριστικά του φύλλου, όπως η βαριά φωνή του άνδρα, τα γένια, η μυϊκή διάπλαση οφείλονται στην παρουσία της τεστοστερόνης.
@@ -3518,7 +3535,9 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idFldHmn001dongdsn"></a></p>
   <p id="idFldHmn001dongnam">name::
-    <br>* McshEngl.bloodHumn'doing,
+    <br>* McshEngl.doing-of-bloodHumn!⇒BloodHumndoing,
+    <br>* McshEngl.BloodHumndoing!=doing-of-bloodHumn,
+    <br>* McshEngl.bloodHumn'doing!⇒BloodHumndoing,
     <a class="clsHide" href="#idFldHmn001dongnam"></a></p>
 
   <section id="idFldHmn001att003">

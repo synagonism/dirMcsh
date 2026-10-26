@@ -210,7 +210,7 @@
     <br>* McshEngl.Systnode.specific,
     <br>* McshEngl.Sysnode_Sptr,
     <br>===
-    <br>* Hmbdnode!@McshHlth000002#idBdyHmnatt002,
+    <br>* node-of-bodyHumn!@McshHlth000002#idBdyHmnatt002,
     <a class="clsHide" href="#idSysnodeFsptr"></a></p>
   </section>
 
@@ -242,8 +242,10 @@
     <br>· info resource.s
     <a class="clsHide" href="#idSysrscFdsn"></a></p>
   <p id="idSysrscFnam">name::
-    <br>* McshEngl.system'attResource,
-    <br>* McshEngl.system'info-resource,
+    <br>* McshEngl.info-resource-of-system!⇒Systeminfrsc,
+    <br>* McshEngl.Systeminfrsc!=info-resource-of-system,
+    <br>* McshEngl.system'attResource!⇒Systeminfrsc,
+    <br>* McshEngl.system'info-resource!⇒Systeminfrsc,
     <a class="clsHide" href="#idSysrscFnam"></a></p>
   </section>
 
@@ -338,8 +340,10 @@
     <br>· ALL systems have doings (creation, disintegration) but not functions.
     <a class="clsHide" href="#idSysdongdsn"></a></p>
   <p id="idSysdongnam">name::
-    <br>* McshEngl.system'doing,
-    <br>* McshEngl.system'attDoing!⇒system'doing,
+    <br>* McshEngl.doing-of-system!⇒Systemdoing,
+    <br>* McshEngl.Systemdoing!=doing-of-system,
+    <br>* McshEngl.system'doing!⇒Systemdoing,
+    <br>* McshEngl.system'attDoing!⇒Systemdoing,
     <a class="clsHide" href="#idSysdongnam"></a></p>
   </section>
 
@@ -351,9 +355,10 @@
     <br>· creation of current <a class="clsPreview" href="../dirCor/McshCor000002.last.html#idOverview">concept</a> by removing it from whole-concept.
     <a class="clsHide" href="#idSysevogdsn"></a></p>
   <p id="idSysevognam">name::
-    <br>* McshEngl.system'attEvoluting,
-    <br>* McshEngl.evoluting-of-system,
-    <br>* McshEngl.system'evoluting,
+    <br>* McshEngl.evoluting-of-system!⇒Systemevolg,
+    <br>* McshEngl.Systemevolg!=evoluting-of-system,
+    <br>* McshEngl.system'attEvoluting!⇒Systemevolg,
+    <br>* McshEngl.system'evoluting!⇒Systemevolg,
     <a class="clsHide" href="#idSysevognam"></a></p>
   </section>
 
@@ -398,7 +403,7 @@
     <br>* McshEngl.system.specific,
     <br>* McshEngl.system_Sptr,
     <br>===
-    <br>* brainBio!@McshNtr000010,
+    <br>* bio-brain!@McshNtr000010,
     <br>* graph!@McshCor000011#idSys003,
     <br>* sequence!@McshCor000011#idSys001,
     <br>* tree-system!@McshCor000011#idSys002,
@@ -411,7 +416,7 @@
     <br>* doing-system,
     <br>* relation-system,
     <br>===
-    <br>* bio-system!@McshOgm000002,
+    <br>* bio-body!@McshOgm000002,
     <br>* bioNo-system!@McshNtr000008,
     <br>===
     <br>* dynamic-system!@McshCor000011#idSys009,
@@ -420,7 +425,7 @@
     <br>* open-system,
     <br>* openNo-system,
     <br>===
-    <br>* model!@McshCor000012,
+    <br>* system.model!@McshCor000012,
     <a class="clsHide" href="#idSyssptr"></a></p>
   </section>
 
@@ -1546,29 +1551,29 @@
     <a class="clsHide" href="#idSys001srtrnam"></a></p>
   </section>
 
-  <section id="idSys001strrgstr">
-  <h2 id="idSys001strrgstrH2">GENERIC-SPECIFIC-TREE of sequence
+  <section id="idSys001gstr">
+  <h2 id="idSys001gstrH2">GENERIC-SPECIFIC-TREE of sequence
     </h2>
-  <p id="idSys001strrgstrdsn">description::
+  <p id="idSys001gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-23}
-    <a class="clsHide" href="#idSys001strrgstrdsn"></a></p>
-  <p id="idSys001strrgstrnam">name::
+    <a class="clsHide" href="#idSys001gstrdsn"></a></p>
+  <p id="idSys001gstrnam">name::
     <br>* McshEngl.sequence'generic-specific-tree,
     <br>* McshEngl.sequence'specific-generic-tree,
-    <a class="clsHide" href="#idSys001strrgstrnam"></a></p>
-  <p id="idSys001strrgntr">generic-tree::
+    <a class="clsHide" href="#idSys001gstrnam"></a></p>
+  <p id="idSys001gntr">generic-tree::
     <br>* McshEngl.sequence_Gntr,
     <br>===
     <br>* system_Gntr,
     <br>* ...entity_Gntr,
-    <a class="clsHide" href="#idSys001strrgntr"></a></p>
-  <p id="idSys001strrsptr">specific-tree::
+    <a class="clsHide" href="#idSys001gntr"></a></p>
+  <p id="idSys001sptr">specific-tree::
     <br>* McshEngl.sequence.specific,
     <br>* McshEngl.sequence_Sptr,
     <br>===
     <br>===
-    <br>* Treenodepath!@McshCor000011#idSys002nodepth,
-    <a class="clsHide" href="#idSys001strrsptr"></a></p>
+    <br>* path-of-Treenode!@McshCor000011#idSys002nodepth,
+    <a class="clsHide" href="#idSys001sptr"></a></p>
   </section>
   </section>
 
@@ -1708,7 +1713,7 @@
     <br>* generic-chain,
     <br>* whole-chain,
     <br>===
-    <br>* Mcsgenchn!@McshCor000002#idMcsattGncchn,
+    <br>* generic-chain--Mcsattr!@McshCor000002#idMcsattGncchn,
     <a class="clsHide" href="#idSys002nodepthsptr"></a></p>
   </section>
   </section>
@@ -2056,8 +2061,10 @@
     <br>* https://en.wikipedia.org/wiki/Nexus_file,
     <a class="clsHide" href="#idSys002rscdsn"></a></p>
   <p id="idSys002rscnam">name::
-    <br>* McshEngl.SystTree'info_resource,
-    <br>* McshEngl.SystTree'info-resource!⇒SystTree'info_resource,
+    <br>* McshEngl.info-resource-of-SystTree!⇒SystTreeinfrsc,
+    <br>* McshEngl.SystTreeinfrsc!=info-resource-of-SystTree,
+    <br>* McshEngl.SystTree'info_resource!⇒SystTreeinfrsc,
+    <br>* McshEngl.SystTree'info-resource!⇒SystTreeinfrsc,
     <a class="clsHide" href="#idSys002rscnam"></a></p>
   </section>
 
@@ -2090,7 +2097,9 @@
     <br>· DOING of SystTree.
     <a class="clsHide" href="#idSys002dongdsn"></a></p>
   <p id="idSys002dongnam">name::
-    <br>* McshEngl.SystTree'doing,
+    <br>* McshEngl.doing-of-SystTree!⇒SystTreedoing,
+    <br>* McshEngl.SystTreedoing!=doing-of-SystTree,
+    <br>* McshEngl.SystTree'doing!⇒SystTreedoing,
     <a class="clsHide" href="#idSys002dongnam"></a></p>
   </section>
 
@@ -2102,8 +2111,9 @@
     <br>· evoluting of SystTree.
     <a class="clsHide" href="#idSys002evogdsn"></a></p>
   <p id="idSys002evognam">name::
-    <br>* McshEngl.evoluting-of-SystTree,
-    <br>* McshEngl.SystTree'evoluting,
+    <br>* McshEngl.evoluting-of-SystTree!⇒SystTreeevolg,
+    <br>* McshEngl.SystTreeevolg!=evoluting-of-SystTree,
+    <br>* McshEngl.SystTree'evoluting!⇒SystTreeevolg,
     <a class="clsHide" href="#idSys002evognam"></a></p>
   </section>
 
@@ -2292,7 +2302,7 @@
     <br>* McshEngl.Gnspgntree.specific,
     <br>* McshEngl.Gnspgntree_Sptr,
     <br>===
-    <br>* Mcsspecdiv!@McshCor000002#idMcsattWhlNSpcdvn,
+    <br>* specifics-division--Mcsattr!@McshCor000002#idMcsattWhlNSpcdvn,
     <a class="clsHide" href="#idSys002GcscGcocsptr"></a></p>
   </section>
 
@@ -2534,8 +2544,10 @@
     <br>* https://en.wikipedia.org/wiki/Complex_system,
     <a class="clsHide" href="#idSys006irscdsn"></a></p>
   <p id="idSys006irscnam">name::
-    <br>* McshEngl.SystComplex'info_resource,
-    <br>* McshEngl.SystComplex'info-resource!⇒SystComplex'info_resource,
+    <br>* McshEngl.info-resource-of-SystComplex!⇒SystComplexinfrsc,
+    <br>* McshEngl.SystComplexinfrsc!=info-resource-of-SystComplex,
+    <br>* McshEngl.SystComplex'info_resource!⇒SystComplexinfrsc,
+    <br>* McshEngl.SystComplex'info-resource!⇒SystComplexinfrsc,
     <a class="clsHide" href="#idSys006irscnam"></a></p>
   </section>
   </section>
@@ -2622,8 +2634,10 @@
     <br>* http://www.scholarpedia.org/article/Encyclopedia_of_dynamical_systems,
     <a class="clsHide" href="#idSys009rscFdsn"></a></p>
   <p id="idSys009rscFnam">name::
-    <br>* McshEngl.SystDyna'info_resource,
-    <br>* McshEngl.SystDyna'info-resource!⇒SystDyna'info_resource,
+    <br>* McshEngl.info-resource-of-SystDyna!⇒SystDynainfrsc,
+    <br>* McshEngl.SystDynainfrsc!=info-resource-of-SystDyna,
+    <br>* McshEngl.SystDyna'info_resource!⇒SystDynainfrsc,
+    <br>* McshEngl.SystDyna'info-resource!⇒SystDynainfrsc,
     <a class="clsHide" href="#idSys009rscFnam"></a></p>
 
   <section id="idSys009att003">
@@ -2698,9 +2712,11 @@
     <br>* evoluting,
     <a class="clsHide" href="#idSys009dongdsn"></a></p>
   <p id="idSys009dongnam">name::
-    <br>* McshEngl.SystDyna'doing,
-    <br>* McshEngl.behavior!⇒SystDyna'doing,
-    <br>* McshEngl.SystDyna'behavior!⇒SystDyna'doing,
+    <br>* McshEngl.doing-of-SystDyna!⇒SystDynadoing,
+    <br>* McshEngl.SystDynadoing!=doing-of-SystDyna,
+    <br>* McshEngl.SystDyna'doing!⇒SystDynadoing,
+    <br>* McshEngl.behavior!⇒SystDynadoing,
+    <br>* McshEngl.SystDyna'behavior!⇒SystDynadoing,
     <a class="clsHide" href="#idSys009dongnam"></a></p>
   </section>
 
@@ -2712,8 +2728,9 @@
     <br>· evoluting of SystDyna.
     <a class="clsHide" href="#idSys009evogdsn"></a></p>
   <p id="idSys009evognam">name::
-    <br>* McshEngl.evoluting-of-SystDyna,
-    <br>* McshEngl.SystDyna'evoluting,
+    <br>* McshEngl.evoluting-of-SystDyna!⇒SystDynaevolg,
+    <br>* McshEngl.SystDynaevolg!=evoluting-of-SystDyna,
+    <br>* McshEngl.SystDyna'evoluting!⇒SystDynaevolg,
     <a class="clsHide" href="#idSys009evognam"></a></p>
   </section>
 
@@ -2747,7 +2764,7 @@
     <br>===
     <br>* machine,
     <br>===
-    <br>* SystNet!@McshCor000014,
+    <br>* network!@McshCor000014,
     <a class="clsHide" href="#idSys009sptr"></a></p>
   </section>
 
@@ -2780,7 +2797,7 @@
     <br>* McshEngl.SystDynaSelf.specific,
     <br>* McshEngl.SystDynaSelf_Sptr,
     <br>===
-    <br>* bio!@McshOgm000002,
+    <br>* bio-body!@McshOgm000002,
     <a class="clsHide" href="#idSys009spc001sptr"></a></p>
   </section>
 
@@ -2894,8 +2911,10 @@
     <br>· info-resource of Mnggsyst.
     <a class="clsHide" href="#idSysMngrscFdsn"></a></p>
   <p id="idSysMngrscFnam">name::
-    <br>* McshEngl.Mnggsyst'info_resource,
-    <br>* McshEngl.Mnggsyst'info-resource!⇒Mnggsyst'info_resource,
+    <br>* McshEngl.info-resource-of-Mnggsyst!⇒Mnggsystinfrsc,
+    <br>* McshEngl.Mnggsystinfrsc!=info-resource-of-Mnggsyst,
+    <br>* McshEngl.Mnggsyst'info_resource!⇒Mnggsystinfrsc,
+    <br>* McshEngl.Mnggsyst'info-resource!⇒Mnggsystinfrsc,
     <a class="clsHide" href="#idSysMngrscFnam"></a></p>
   </section>
 
@@ -2975,8 +2994,10 @@
     <br>* {2025-01-06} https://www.combinationsmag.com/the-critical-legacy-of-chinese-cybernetics/,
     <a class="clsHide" href="#idSysMngscicbncirscdsn"></a></p>
   <p id="idSysMngscicbncirscnam">name::
-    <br>* McshEngl.SciCybernetics'info_resource,
-    <br>* McshEngl.SciCybernetics'info-resource!⇒SciCybernetics'info_resource,
+    <br>* McshEngl.info-resource-of-SciCybernetics!⇒SciCyberneticsinfrsc,
+    <br>* McshEngl.SciCyberneticsinfrsc!=info-resource-of-SciCybernetics,
+    <br>* McshEngl.SciCybernetics'info_resource!⇒SciCyberneticsinfrsc,
+    <br>* McshEngl.SciCybernetics'info-resource!⇒SciCyberneticsinfrsc,
     <a class="clsHide" href="#idSysMngscicbncirscnam"></a></p>
   </section>
   </section>
@@ -3092,7 +3113,7 @@
     <br>* <a class="clsPreview" href="../dirStn/McshStn000004.last.html#idOverview">governance-system</a>,
     <br>* managing-system-of-organism,
     <br>===
-    <br>* AdmnSctn!@McshStn000004,
+    <br>* administration-system-of-organisms!@McshStn000004,
     <a class="clsHide" href="#idSysMng004sptr"></a></p>
 
   <section id="idSysMng004att001">
@@ -3177,7 +3198,7 @@
     <br>* McshEngl.SystMnggOgsminfsys.specific,
     <br>* McshEngl.SystMnggOgsminfsys_Sptr,
     <br>===
-    <br>* Plantinfosyst!@McshCor000011#idSysMng003att003,
+    <br>* Plantmngt'Infosyst!@McshCor000011#idSysMng003att003,
     <a class="clsHide" href="#idSysMng001att002sptr"></a></p>
   </section>
 
@@ -3189,9 +3210,11 @@
     <br>· any doing of the-system.
     <a class="clsHide" href="#idSysMng001dongdsn"></a></p>
   <p id="idSysMng001dongnam">name::
-    <br>* McshEngl.SystMnggOgsm'doing,
-    <br>* McshEngl.intelligence-of-organism!⇒SystMnggOgsm'doing,
-    <br>* McshEngl.SystMnggOgsm'intelligence!⇒SystMnggOgsm'doing,
+    <br>* McshEngl.doing-of-SystMnggOgsm!⇒SystMnggOgsmdoing,
+    <br>* McshEngl.SystMnggOgsmdoing!=doing-of-SystMnggOgsm,
+    <br>* McshEngl.SystMnggOgsm'doing!⇒SystMnggOgsmdoing,
+    <br>* McshEngl.intelligence-of-organism!⇒SystMnggOgsmdoing,
+    <br>* McshEngl.SystMnggOgsm'intelligence!⇒SystMnggOgsmdoing,
     <a class="clsHide" href="#idSysMng001dongnam"></a></p>
   <p id="idSysMng001dongsptr">specific-tree::
     <br>* sensing,
