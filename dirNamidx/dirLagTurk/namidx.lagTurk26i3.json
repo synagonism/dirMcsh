@@ -1,16 +1,16 @@
 [
-  [";lagTurk26i3","Ü|ü",13,"2026-10-20"],
+  [";lagTurk26i3","Ü|ü",13,"2026-10-27"],
   ["üflemek!=to-blow","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["ümit-etmek!=synonymous-with-umut-etmek","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["ümit-etmek!=to-hope","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
-  ["ünlü!=vowlLetr","dirLag/McshLag000008.last.html#idL0016ltrVwl"],
-  ["ünsüz!=consLetr","dirLag/McshLag000008.last.html#idL0016ltrVwlN"],
+  ["ünlü!⇒vowlLetr","dirLag/McshLag000008.last.html#idL0016ltrVwl"],
+  ["ünsüz!⇒consLetr","dirLag/McshLag000008.last.html#idL0016ltrVwlN"],
   ["üretilmek!=to-be-produced","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["üretmek!=to-produce","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["ürkekleşmek!=to-become-timid","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["ürkütmek!=to-fear","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["üye-olmak!=to-become-a-member","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["üzülmek!=to-feel-sorry","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
-  ["üç!=3","dirCor/McshCor000010.last.html#idQntNbr3"],
+  ["üç!⇒3","dirCor/McshCor000010.last.html#idQntNbr3"],
   ["üşütmek!=to-chill","dirLag/McshLag000030.last.html#idLTurkverbsptr"]
 ]

@@ -57,13 +57,13 @@
     <br>* McshEngl.morbidity!⇒disease,
     <br>* McshEngl.wellnessNo.atomic!⇒disease,
     <br>====== lagoGreek:
-    <br>* McshElln.ασθένεια-ανθρώπων!⇨πάθηση!=disease,
-    <br>* McshElln.αρρώστια-ανθρώπων!⇨πάθηση!=disease,
-    <br>* McshElln.διαταραχή-υγείας!⇨πάθηση!=disease,
-    <br>* McshElln.νόσημα-ανθρώπων!⇨πάθηση!=disease,
-    <br>* McshElln.νόσος-ανθρώπων!⇨πάθηση!=disease,
-    <br>* McshElln.πάθηση!=disease,
-    <br>* McshElln.πάθηση-ανθρώπων!⇨πάθηση!=disease,
+    <br>* McshElln.ασθένεια-ανθρώπων!⇨πάθηση!⇒disease,
+    <br>* McshElln.αρρώστια-ανθρώπων!⇨πάθηση!⇒disease,
+    <br>* McshElln.διαταραχή-υγείας!⇨πάθηση!⇒disease,
+    <br>* McshElln.νόσημα-ανθρώπων!⇨πάθηση!⇒disease,
+    <br>* McshElln.νόσος-ανθρώπων!⇨πάθηση!⇒disease,
+    <br>* McshElln.πάθηση!⇒disease,
+    <br>* McshElln.πάθηση-ανθρώπων!⇨πάθηση!⇒disease,
     <a class="clsHide" href="#idName"></a></p>
   </section>
 
@@ -82,7 +82,7 @@
     <br>* McshEngl.disease'effect!⇒symptom,
     <br>* McshEngl.symptom-of-disease!⇒symptom,
     <br>====== lagoGreek:
-    <br>* McshElln.σύμπτωμα-ασθένειας!=symptom,
+    <br>* McshElln.σύμπτωμα-ασθένειας!⇒symptom,
     <a class="clsHide" href="#idDssHmn001Fnam"></a></p>
   <p id="idDssHmn001Fgntr">generic-tree::
     <br>* McshEngl.symptom_Gntr,
@@ -136,8 +136,8 @@
     <br>* McshEngl.cause-of-disease-002!⇒Disscause,
     <br>* McshEngl.disease'etiology!⇒Disscause,
     <br>====== lagoGreek:
-    <br>* McshElln.αιτία-πάθησης!=Disscause,
-    <br>* McshElln.πάθησης'αιτία!=Disscause,
+    <br>* McshElln.αιτία-πάθησης!⇒Disscause,
+    <br>* McshElln.πάθησης'αιτία!⇒Disscause,
     <a class="clsHide" href="#idDssHmn002Fnam"></a></p>
 
   <section id="idDssHmnrkfrF">
@@ -153,7 +153,7 @@
     <br>* McshEngl.risk-factor--of-disease!⇒disease'risk_factor,
     <br>* McshEngl.Disscause'risk-factor!⇒disease'risk_factor,
     <br>====== lagoGreek:
-    <br>* McshElln.συντελεστής-κινδύνου-ασθένειας!=disease'risk_factor,
+    <br>* McshElln.συντελεστής-κινδύνου-ασθένειας!⇒disease'risk_factor,
     <a class="clsHide" href="#idDssHmnrkfrFnam"></a></p>
   </section>
 
@@ -199,8 +199,8 @@
     <br>* McshEngl.disease'03_diagnosis-doing!⇒diagnosis,
     <br>* McshEngl.disease'03_diagnosis_doing!⇒diagnosis,
     <br>====== lagoGreek:
-    <br>* McshElln.διάγνωση-πάθησης-ανθρώπου!=diagnosis,
-    <br>* McshElln.διαδικασία-διάγνωσης-πάθησης!=diagnosis,
+    <br>* McshElln.διάγνωση-πάθησης-ανθρώπου!⇒diagnosis,
+    <br>* McshElln.διαδικασία-διάγνωσης-πάθησης!⇒diagnosis,
     <a class="clsHide" href="#idDssHmn003nam"></a></p>
 
   <section id="idDssHmn003opt">
@@ -359,7 +359,7 @@
     <br>* McshEngl.diagnosis.CT_scan!⇒CT_scan,
     <br>* McshEngl.diagnosis.CT-scan!⇒CT_scan,
     <br>====== lagoGreek:
-    <br>* McshElln.αξονική-τομογραφία!=CT_scan,
+    <br>* McshElln.αξονική-τομογραφία!⇒CT_scan,
     <a class="clsHide" href="#idDssHmn003Ctsnnam"></a></p>
   </section>
 
@@ -428,9 +428,9 @@
     <br>* McshEngl.disease'protection!⇒Dissprotection,
     <br>* McshEngl.disease'prevention!⇒Dissprotection,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθησης-πρόληψη!=Dissprotection,
-    <br>* McshElln.πάθησης-προστασία!=Dissprotection,
-    <br>* McshElln.πάθησης-προφύλαξη!=Dissprotection,
+    <br>* McshElln.πάθησης-πρόληψη!⇒Dissprotection,
+    <br>* McshElln.πάθησης-προστασία!⇒Dissprotection,
+    <br>* McshElln.πάθησης-προφύλαξη!⇒Dissprotection,
     <a class="clsHide" href="#idDssHmn005Fnam"></a></p>
 
   <section id="idDssHmnprtnChkp">
@@ -1111,14 +1111,14 @@
     <br>* McshEngl.communicable-disease!⇒DissInfectious,
     <br>* McshEngl.transmissible-disease!⇒DissInfectious,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.λοίμωξη!=DissInfectious,
-    <br>* McshElln.πάθηση.λοιμώδες-νόσημα!=DissInfectious,
-    <br>* McshElln.πάθηση.μεταδοτική!=DissInfectious,
-    <br>* McshElln.λοίμωξη!=DissInfectious,
-    <br>* McshElln.λοιμώδες-νόσημα!=DissInfectious,
-    <br>* McshElln.λοιμώδης-νόσος!=DissInfectious,
-    <br>* McshElln.μεταδοτική-ασθένεια!=DissInfectious,
-    <br>* McshElln.μεταδοτική-πάθηση!=DissInfectious,
+    <br>* McshElln.πάθηση.λοίμωξη!⇒DissInfectious,
+    <br>* McshElln.πάθηση.λοιμώδες-νόσημα!⇒DissInfectious,
+    <br>* McshElln.πάθηση.μεταδοτική!⇒DissInfectious,
+    <br>* McshElln.λοίμωξη!⇒DissInfectious,
+    <br>* McshElln.λοιμώδες-νόσημα!⇒DissInfectious,
+    <br>* McshElln.λοιμώδης-νόσος!⇒DissInfectious,
+    <br>* McshElln.μεταδοτική-ασθένεια!⇒DissInfectious,
+    <br>* McshElln.μεταδοτική-πάθηση!⇒DissInfectious,
     <a class="clsHide" href="#idDssHmn001nam"></a></p>
   <p id="idDssHmn001P1">description-1::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1197,9 +1197,9 @@
     <br>* McshEngl.disease'infection!⇒disease'transmition,
     <br>* McshEngl.infection-of-disease!⇒disease'transmition,
     <br>====== lagoGreek:
-    <br>* McshElln.λοίμωξη-πάθησης!=disease'transmition,
-    <br>* McshElln.πάθησης-μετάδοση!=disease'transmition,
-    <br>* McshElln.πάθησης-μόλυνση!=disease'transmition,
+    <br>* McshElln.λοίμωξη-πάθησης!⇒disease'transmition,
+    <br>* McshElln.πάθησης-μετάδοση!⇒disease'transmition,
+    <br>* McshElln.πάθησης-μόλυνση!⇒disease'transmition,
     <a class="clsHide" href="#idDssHmn001infnnam"></a></p>
   <p id="idDssHmn001infngntr">generic-tree::
     <br>* McshEngl.disease'transmition_Gntr,
@@ -1247,8 +1247,8 @@
     <br>* McshEngl.viral-infection-of-human!⇒DissViral_infection,
     <br>* McshEngl.DissInfectious.viral-infection-162!⇒DissViral_infection,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ίωση-ανθρωπου!=DissViral_infection,
-    <br>* McshElln.ίωση-ανθρωπου!=DissViral_infection,
+    <br>* McshElln.πάθηση.ίωση-ανθρωπου!⇒DissViral_infection,
+    <br>* McshElln.ίωση-ανθρωπου!⇒DissViral_infection,
     <a class="clsHide" href="#idDssHmn162nam"></a></p>
 
   <section id="idDssHmn162therapy">
@@ -1454,8 +1454,8 @@
     <br>* McshEngl.disease.infectiousNo-002!⇒DissInfectiousNo,
     <br>* McshEngl.non-infectious-disease!⇒DissInfectiousNo, {2012-07-31}!⇒DissInfectiousNo,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.μεταδοτικήΜη!=DissInfectiousNo,
-    <br>* McshElln.πάθηση.μη-μεταδοτική!=DissInfectiousNo,
+    <br>* McshElln.πάθηση.μεταδοτικήΜη!⇒DissInfectiousNo,
+    <br>* McshElln.πάθηση.μη-μεταδοτική!⇒DissInfectiousNo,
     <a class="clsHide" href="#idDssHmn002nam"></a></p>
   <p id="idDssHmn002gntr">generic-tree::
     <br>* McshEngl.DissInfectiousNo_Gntr,
@@ -1567,8 +1567,8 @@
     <br>* McshEngl.disease.external-cause-292!⇒DissExternal_cause,
     <br>* McshEngl.environment-disease!⇒DissExternal_cause, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.εξωτερική!=DissExternal_cause,
-    <br>* McshElln.πάθηση.περιβαλλοντική!=DissExternal_cause,
+    <br>* McshElln.πάθηση.εξωτερική!⇒DissExternal_cause,
+    <br>* McshElln.πάθηση.περιβαλλοντική!⇒DissExternal_cause,
     <a class="clsHide" href="#idDssHmn292nam"></a></p>
   <p id="idDssHmn292gntr">generic-tree::
     <br>* McshEngl.DissExternal_cause_Gntr,
@@ -1592,9 +1592,9 @@
     <br>* McshEngl.injury!⇒DissWound,
     <br>* McshEngl.wound!⇒DissWound,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πληγή!=DissWound,
-    <br>* McshElln.πληγή!=DissWound,
-    <br>* McshElln.τραύμα!=DissWound,
+    <br>* McshElln.πάθηση.πληγή!⇒DissWound,
+    <br>* McshElln.πληγή!⇒DissWound,
+    <br>* McshElln.τραύμα!⇒DissWound,
     <a class="clsHide" href="#idDssHmn203nam"></a></p>
   <p id="idDssHmn203gntr">generic-tree::
     <br>* McshEngl.DissWound_Gntr,
@@ -1640,8 +1640,8 @@
     <br>* McshEngl.disease.cause.internal-004!⇒DissInternal_cause,
     <br>* McshEngl.disease.internal-cause-004!⇒DissInternal_cause,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.εσωτερική!=DissInternal_cause,
-    <br>* McshElln.πάθηση.οργανισμική!=DissInternal_cause,
+    <br>* McshElln.πάθηση.εσωτερική!⇒DissInternal_cause,
+    <br>* McshElln.πάθηση.οργανισμική!⇒DissInternal_cause,
     <a class="clsHide" href="#idDssHmn004nam"></a></p>
 
   <section id="idDssHmn226">
@@ -1772,7 +1772,7 @@
     <br>* McshEngl.defect.skeletal-system!⇒DissSkeletal_system,
     <br>* McshEngl.DissSkeletal!⇒DissSkeletal_system,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ερειστικου-συστήματος!=DissSkeletal_system,
+    <br>* McshElln.πάθηση.ερειστικου-συστήματος!⇒DissSkeletal_system,
     <a class="clsHide" href="#idDssHmn005_1nam"></a></p>
   <p id="idDssHmn005_1wtr">whole-tree-of-DissSkeletal::
     <br>* SystOgansSkeletal⧺cptDssHmn102⧺,
@@ -1885,8 +1885,8 @@
     <br>* McshEngl.disease.osteoporosis!⇒DissOsteoporosis,
     <br>* McshEngl.osteoporosis!⇒DissOsteoporosis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.οστεοπόρωση!=DissOsteoporosis,
-    <br>* McshElln.οστεοπόρωση!=DissOsteoporosis,
+    <br>* McshElln.πάθηση.οστεοπόρωση!⇒DissOsteoporosis,
+    <br>* McshElln.οστεοπόρωση!⇒DissOsteoporosis,
     <a class="clsHide" href="#idDssHmn191nam"></a></p>
 
   <section id="idDssHmn191cause">
@@ -1983,8 +1983,8 @@
     <br>* McshEngl.disease.rachitis!⇒DissRachitis,
     <br>* McshEngl.rachitis!⇒DissRachitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ραχίτιδα!=DissRachitis,
-    <br>* McshElln.ραχίτιδα!=DissRachitis,
+    <br>* McshElln.πάθηση.ραχίτιδα!⇒DissRachitis,
+    <br>* McshElln.ραχίτιδα!⇒DissRachitis,
     <a class="clsHide" href="#idDssHmn192nam"></a></p>
   <p id="idDssHmn192gntr">generic-tree::
     <br>* McshEngl.DissRachitis_Gntr,
@@ -2008,8 +2008,8 @@
     <br>* McshEngl.disease.fracture!⇒DissFracture,
     <br>* McshEngl.fracture!⇒DissFracture,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.κάταγμα!=DissFracture,
-    <br>* McshElln.κάταγμα!=DissFracture,
+    <br>* McshElln.πάθηση.κάταγμα!⇒DissFracture,
+    <br>* McshElln.κάταγμα!⇒DissFracture,
     <a class="clsHide" href="#idDssHmn193nam"></a></p>
   <p id="idDssHmn193gntr">generic-tree::
     <br>* McshEngl.DissFracture_Gntr,
@@ -2037,8 +2037,8 @@
     <br>* McshEngl.disease.sprain!⇒DissSprain,
     <br>* McshEngl.sprain!⇒DissSprain,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.διάστρεμμα!=DissSprain,
-    <br>* McshElln.διάστρεμμα!=DissSprain,
+    <br>* McshElln.πάθηση.διάστρεμμα!⇒DissSprain,
+    <br>* McshElln.διάστρεμμα!⇒DissSprain,
     <a class="clsHide" href="#idDssHmn194nam"></a></p>
   <p id="idDssHmn194gntr">generic-tree::
     <br>* McshEngl.DissSprain_Gntr,
@@ -2079,7 +2079,7 @@
     <br>* McshEngl.disease.low-back-pain!⇒DissLbp,
     <br>* McshEngl.low-back-pain!⇒DissLbp,
     <br>====== lagoGreek:
-    <br>* McshElln.πόνος-μέσης!=DissLbp,
+    <br>* McshElln.πόνος-μέσης!⇒DissLbp,
     <a class="clsHide" href="#idDssHmn278nam"></a></p>
   </section>
 
@@ -2132,8 +2132,8 @@
     <br>* McshEngl.defect-of-heartvessel-system!⇒DissSystCirculatory,
     <br>* McshEngl.heartvessel'defect!⇒DissSystCirculatory,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.καρδιαγγειακή!=DissSystCirculatory,
-    <br>* McshElln.πάθηση.καρδιαγγειακού-συστήματος!=DissSystCirculatory,
+    <br>* McshElln.πάθηση.καρδιαγγειακή!⇒DissSystCirculatory,
+    <br>* McshElln.πάθηση.καρδιαγγειακού-συστήματος!⇒DissSystCirculatory,
     <a class="clsHide" href="#idDssHmn032nam"></a></p>
   <p id="idDssHmn032wtr">whole-tree-of-DissSystCirculatory::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idSysOgnHmn002">circulatory-system</a>,
@@ -2256,7 +2256,7 @@
     <br>* McshEngl.defect-of-bloodHumn!⇒DissBlood,
     <br>* McshEngl.DissSystCirculatory.blood-057!⇒DissBlood,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αίματος!=DissBlood,
+    <br>* McshElln.πάθηση.αίματος!⇒DissBlood,
     <a class="clsHide" href="#idDssHmn057nam"></a></p>
   <p id="idDssHmn057gntr">generic-tree::
     <br>* McshEngl.DissBlood_Gntr,
@@ -2302,7 +2302,7 @@
     <br>* McshEngl.vessel'defect!⇒DissVessel,
     <br>* McshEngl.DissSystCirculatory.vessel-130!⇒DissVessel,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αγγείων!=DissVessel,
+    <br>* McshElln.πάθηση.αγγείων!⇒DissVessel,
     <a class="clsHide" href="#idDssHmn130nam"></a></p>
 
   <section id="idDssHmn130gstr">
@@ -2352,8 +2352,8 @@
     <br>* McshEngl.hemorrhage!⇒DissBleading,
     <br>* McshEngl.DissSystCirculatory.hemorrhage-134!⇒DissBleading,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αιμορραγία!=DissBleading,
-    <br>* McshElln.αιμορραγία!=DissBleading,
+    <br>* McshElln.πάθηση.αιμορραγία!⇒DissBleading,
+    <br>* McshElln.αιμορραγία!⇒DissBleading,
     <a class="clsHide" href="#idDssHmn134nam"></a></p>
   <p id="idDssHmn134wtr">whole-tree-of-DissBleading::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idOgnHmn013">ognVessel</a>,
@@ -2416,9 +2416,9 @@
     <br>* McshEngl.disease.arteriosclerosis-033!⇒DissArteriosclerosis,
     <br>* McshEngl.DissSystCirculatory.arteriosclerosis-033!⇒DissArteriosclerosis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αθηρωματικη-νόσος-των-αρτηριών!=DissArteriosclerosis,
-    <br>* McshElln.αθηρωματικη-νόσος-των-αρτηριών!=DissArteriosclerosis,
-    <br>* McshElln.αρτηριοσκλήρυνση!=DissArteriosclerosis,
+    <br>* McshElln.πάθηση.αθηρωματικη-νόσος-των-αρτηριών!⇒DissArteriosclerosis,
+    <br>* McshElln.αθηρωματικη-νόσος-των-αρτηριών!⇒DissArteriosclerosis,
+    <br>* McshElln.αρτηριοσκλήρυνση!⇒DissArteriosclerosis,
     <a class="clsHide" href="#idDssHmn033nam"></a></p>
   <p id="idDssHmn033gntr">generic-tree::
     <br>* McshEngl.DissArteriosclerosis_Gntr,
@@ -2525,7 +2525,7 @@
     <br>* McshEngl.ognHeart'att001-disease!⇒disease.heart,
     <br>* McshEngl.DissSystCirculatory.heart-047!⇒disease.heart,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.καρδιάς!=disease.heart,
+    <br>* McshElln.πάθηση.καρδιάς!⇒disease.heart,
     <a class="clsHide" href="#idDssHmn047nam"></a></p>
   <p id="idDssHmn047wtr">whole-tree-of-DissHeart::
     <br>* <a class="clsPreview" href="#idDssHmn004">heart</a>,
@@ -2645,9 +2645,9 @@
     <br>* McshEngl.heart-sound-defect!⇒DissHeart_sound,
     <br>* McshEngl.DissSystCirculatory.heart-sound-046!⇒DissHeart_sound,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ηχητική-πάθηση-καρδιάς!=DissHeart_sound,
-    <br>* McshElln.ηχητική-πάθηση-καρδιάς!=DissHeart_sound,
-    <br>* McshElln.φύσημα-καρδιάς!=DissHeart_sound,
+    <br>* McshElln.πάθηση.ηχητική-πάθηση-καρδιάς!⇒DissHeart_sound,
+    <br>* McshElln.ηχητική-πάθηση-καρδιάς!⇒DissHeart_sound,
+    <br>* McshElln.φύσημα-καρδιάς!⇒DissHeart_sound,
     <a class="clsHide" href="#idDssHmn046nam"></a></p>
   <p id="idDssHmn046gntr">generic-tree::
     <br>* McshEngl.DissHeart_sound_Gntr,
@@ -2682,8 +2682,8 @@
     <br>* McshEngl.heart-failure!⇒DissHeart_failure, {2012-07-31}
     <br>* McshEngl.DissSystCirculatory.heart-failure-048!⇒DissHeart_failure,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.καρδιακή-ανεπάρκεια!=DissHeart_failure,
-    <br>* McshElln.καρδιακή-ανεπάρκεια!=DissHeart_failure,
+    <br>* McshElln.πάθηση.καρδιακή-ανεπάρκεια!⇒DissHeart_failure,
+    <br>* McshElln.καρδιακή-ανεπάρκεια!⇒DissHeart_failure,
     <a class="clsHide" href="#idDssHmn048nam"></a></p>
   <p id="idDssHmn048gntr">generic-tree::
     <br>* McshEngl.DissHeart_failure_Gntr,
@@ -2793,9 +2793,9 @@
     <br>* McshEngl.hemophilia!⇒DissHemophilia,
     <br>* McshEngl.DissSystCirculatory.hemophilia!⇒DissHemophilia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αιμορροφιλία!=DissHemophilia,
-    <br>* McshElln.αιμορροφιλία!=DissHemophilia,
-    <br>* McshElln.αιμοφιλία!=DissHemophilia,
+    <br>* McshElln.πάθηση.αιμορροφιλία!⇒DissHemophilia,
+    <br>* McshElln.αιμορροφιλία!⇒DissHemophilia,
+    <br>* McshElln.αιμοφιλία!⇒DissHemophilia,
     <a class="clsHide" href="#idDssHmn198nam"></a></p>
   <p id="idDssHmn198gntr">generic-tree::
     <br>* McshEngl.DissHemophilia_Gntr,
@@ -2861,8 +2861,8 @@
     <br>* McshEngl.anemia!⇒DissAnaemia,
     <br>* McshEngl.DissSystCirculatory.anemia-058!⇒DissAnaemia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αναιμία!=DissAnaemia,
-    <br>* McshElln.αναιμία!=DissAnaemia,
+    <br>* McshElln.πάθηση.αναιμία!⇒DissAnaemia,
+    <br>* McshElln.αναιμία!⇒DissAnaemia,
     <a class="clsHide" href="#idDssHmn058nam"></a></p>
   <p id="idDssHmn058gntr">generic-tree::
     <br>* McshEngl.DissAnaemia_Gntr,
@@ -3006,7 +3006,7 @@
     <br>* McshEngl.defect-of-leucocyte!⇒DissLeucocyte,
     <br>* McshEngl.DissSystCirculatory.leucocyte-068!⇒DissLeucocyte,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.λευκοκυτταρου!=DissLeucocyte,
+    <br>* McshElln.πάθηση.λευκοκυτταρου!⇒DissLeucocyte,
     <a class="clsHide" href="#idDssHmn068nam"></a></p>
   <p id="idDssHmn068gntr">generic-tree::
     <br>* McshEngl.DissLeucocyte_Gntr,
@@ -3048,8 +3048,8 @@
     <br>* McshEngl.hypertension!⇒DissHypertension,
     <br>* McshEngl.DissSystCirculatory.hypertension-042!⇒DissHypertension,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.υπέρταση!=DissHypertension,
-    <br>* McshElln.υπέρταση!=DissHypertension,
+    <br>* McshElln.πάθηση.υπέρταση!⇒DissHypertension,
+    <br>* McshElln.υπέρταση!⇒DissHypertension,
     <a class="clsHide" href="#idDssHmn042nam"></a></p>
   <p id="idDssHmn042gntr">generic-tree::
     <br>* McshEngl.DissHypertension_Gntr,
@@ -3166,8 +3166,8 @@
     <br>* McshEngl.low-blood-pressure!⇒DissHypotension,
     <br>* McshEngl.DissSystCirculatory.hypotension-132!⇒DissHypotension,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.υπόταση!=DissHypotension,
-    <br>* McshElln.υπόταση!=DissHypotension,
+    <br>* McshElln.πάθηση.υπόταση!⇒DissHypotension,
+    <br>* McshElln.υπόταση!⇒DissHypotension,
     <a class="clsHide" href="#idDssHmn132nam"></a></p>
   <p id="idDssHmn132gntr">generic-tree::
     <br>* McshEngl.DissHypotension_Gntr,
@@ -3192,8 +3192,8 @@
     <br>* McshEngl.uraemia!⇒DissUremia,
     <br>* McshEngl.DissSystCirculatory.uremia-197!⇒DissUremia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ουραιμία!=DissUremia,
-    <br>* McshElln.ουραιμία!=DissUremia,
+    <br>* McshElln.πάθηση.ουραιμία!⇒DissUremia,
+    <br>* McshElln.ουραιμία!⇒DissUremia,
     <a class="clsHide" href="#idDssHmn197nam"></a></p>
   <p id="idDssHmn197gntr">generic-tree::
     <br>* McshEngl.DissUremia_Gntr,
@@ -3246,8 +3246,8 @@
     <br>* McshEngl.disease.angina!⇒DissAngina,
     <br>* McshEngl.DissSystCirculatory.angina-039!⇒DissAngina,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.στηθάγχη!=DissAngina,
-    <br>* McshElln.στηθάγχη!=DissAngina,
+    <br>* McshElln.πάθηση.στηθάγχη!⇒DissAngina,
+    <br>* McshElln.στηθάγχη!⇒DissAngina,
     <a class="clsHide" href="#idDssHmn039nam"></a></p>
   <p id="idDssHmn039gntr">generic-tree::
     <br>* McshEngl.DissAngina_Gntr,
@@ -3293,8 +3293,8 @@
     <br>* McshEngl.disease.CHD!⇒DissCoronary_artery,
     <br>* McshEngl.DissSystCirculatory.coronary-heart-disease-035!⇒DissCoronary_artery,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.στεφανιαία-νόσος!=DissCoronary_artery,
-    <br>* McshElln.στεφανιαία-νόσος!=DissCoronary_artery,
+    <br>* McshElln.πάθηση.στεφανιαία-νόσος!⇒DissCoronary_artery,
+    <br>* McshElln.στεφανιαία-νόσος!⇒DissCoronary_artery,
     <a class="clsHide" href="#idDssHmn035nam"></a></p>
   <p id="idDssHmn035wtr">whole-tree-of-DissCoronary_artery::
     <br>* <a class="clsPreview" href="#idDssHmn004">heart</a>,
@@ -3374,9 +3374,9 @@
     <br>* McshEngl.heart-attack!⇒dssMI,
     <br>* McshEngl.DissSystCirculatory.myocardial-infarction-036!⇒dssMI,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.έμφραγμα-του-μυοκαρδίου!=dssMI,
-    <br>* McshElln.έμφραγμα-μυοκαρδίου!=dssMI,
-    <br>* McshElln.έμφραγμα!=dssMI,
+    <br>* McshElln.πάθηση.έμφραγμα-του-μυοκαρδίου!⇒dssMI,
+    <br>* McshElln.έμφραγμα-μυοκαρδίου!⇒dssMI,
+    <br>* McshElln.έμφραγμα!⇒dssMI,
     <a class="clsHide" href="#idDssHmn036nam"></a></p>
   <p id="idDssHmn036gntr">generic-tree::
     <br>* McshEngl.dssMI_Gntr,
@@ -3758,8 +3758,8 @@
     <br>* McshEngl.disease.kidney-colic-218!⇒DissKidney_stone,
     <br>* McshEngl.kidney-colic!⇒DissKidney_stone,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.κωλικός-νεφρων!=DissKidney_stone,
-    <br>* McshElln.κωλικός-νεφρων!=DissKidney_stone,
+    <br>* McshElln.πάθηση.κωλικός-νεφρων!⇒DissKidney_stone,
+    <br>* McshElln.κωλικός-νεφρων!⇒DissKidney_stone,
     <a class="clsHide" href="#idDssHmn218nam"></a></p>
   <p id="idDssHmn218gntr">generic-tree::
     <br>* McshEngl.DissKidney_stone_Gntr,
@@ -3830,8 +3830,8 @@
     <br>* McshEngl.disease.nephritis-165!⇒DissNephritis,
     <br>* McshEngl.nephritis!⇒DissNephritis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.νεφρίτιδα!=DissNephritis,
-    <br>* McshElln.νεφρίτιδα!=DissNephritis,
+    <br>* McshElln.πάθηση.νεφρίτιδα!⇒DissNephritis,
+    <br>* McshElln.νεφρίτιδα!⇒DissNephritis,
     <a class="clsHide" href="#idDssHmn165nam"></a></p>
   <p id="idDssHmn165gntr">generic-tree::
     <br>* McshEngl.DissNephritis_Gntr,
@@ -3858,7 +3858,7 @@
     <br>* McshEngl.involuntary-urination!⇒DissInvoluntary_urination,
     <br>* McshEngl.urinary-incontinence!⇒DissInvoluntary_urination,
     <br>====== lagoGreek:
-    <br>* McshElln.ακράτεια-ούρων!=DissInvoluntary_urination,
+    <br>* McshElln.ακράτεια-ούρων!⇒DissInvoluntary_urination,
     <a class="clsHide" href="#idDssHmn059nam"></a></p>
 
   <section id="idDssHmn059frequency">
@@ -3906,8 +3906,8 @@
     <br>* McshEngl.frequent-urination!⇒DissFrequent_urination,
     <br>* McshEngl.overactive-bladder!⇒DissFrequent_urination,
     <br>====== lagoGreek:
-    <br>* McshElln.συxνοουρία!=DissFrequent_urination,
-    <br>* McshElln.υπερδραστήρια-κύστη!=DissFrequent_urination,
+    <br>* McshElln.συxνοουρία!⇒DissFrequent_urination,
+    <br>* McshElln.υπερδραστήρια-κύστη!⇒DissFrequent_urination,
     <a class="clsHide" href="#idDssHmn060nam"></a></p>
   <p id="idDssHmn060gntr">generic-tree::
     <br>* McshEngl.DissFrequent_urination_Gntr,
@@ -3997,7 +3997,7 @@
     <br>* McshEngl.disease.animal-cause-061!⇒disease.animal_cause,
     <br>* McshEngl.disease.cause.animal-061!⇒disease.animal_cause,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ζώου-αιτία!=disease.animal_cause,
+    <br>* McshElln.πάθηση.ζώου-αιτία!⇒disease.animal_cause,
     <a class="clsHide" href="#idDssHmn061nam"></a></p>
 
   <section id="idDssHmn062">
@@ -4018,7 +4018,7 @@
     <br>* McshEngl.bite-cause--disease!⇒disease.bite_cause,
     <br>* McshEngl.disease.animal_cause.bite-cause-062!⇒disease.bite_cause,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.δάγκωμα-αιτία!=disease.bite_cause,
+    <br>* McshElln.πάθηση.δάγκωμα-αιτία!⇒disease.bite_cause,
     <a class="clsHide" href="#idDssHmn062nam"></a></p>
   </section>
   </section>
@@ -4035,7 +4035,7 @@
     <br>* McshEngl.disease.215-tooth!⇒DissTooth,
     <br>* McshEngl.disease.tooth-215!⇒DissTooth, {2012-07-31}!⇒DissTooth,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.δοντιών!=DissTooth,
+    <br>* McshElln.πάθηση.δοντιών!⇒DissTooth,
     <a class="clsHide" href="#idDssHmn215nam"></a></p>
 
   <section id="idDssHmn215protection">
@@ -4093,7 +4093,7 @@
     <br>* McshEngl.drunkenness!⇒drunknness,
     <br>* McshEngl.inebriation!⇒drunknness,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.μεθύσι!=drunknness,
+    <br>* McshElln.πάθηση.μεθύσι!⇒drunknness,
     <a class="clsHide" href="#idDssHmn063nam"></a></p>
 
   <section id="idDssHmnAbsm">
@@ -4223,8 +4223,8 @@
     <br>* McshEngl.disease.gastroenteritis!⇒DissGastroenteritis,
     <br>* McshEngl.gastroenteritis/gastroederáitis/!⇒DissGastroenteritis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.γαστρεντερίτιδα!=DissGastroenteritis,
-    <br>* McshElln.γαστρεντερίτιδα!=DissGastroenteritis,
+    <br>* McshElln.πάθηση.γαστρεντερίτιδα!⇒DissGastroenteritis,
+    <br>* McshElln.γαστρεντερίτιδα!⇒DissGastroenteritis,
     <a class="clsHide" href="#idDssHmn065nam"></a></p>
 
   <section id="idDssHmn065smtm">
@@ -4295,8 +4295,8 @@
     <br>* McshEngl.disease.hiccup-066!⇒DissHiccup,
     <br>* McshEngl.hiccup!⇒DissHiccup,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.λόξυγγας!=DissHiccup,
-    <br>* McshElln.λόξυγγας!=DissHiccup,
+    <br>* McshElln.πάθηση.λόξυγγας!⇒DissHiccup,
+    <br>* McshElln.λόξυγγας!⇒DissHiccup,
     <a class="clsHide" href="#idDssHmn066nam"></a></p>
   </section>
 
@@ -4315,8 +4315,8 @@
     <br>* McshEngl.disease.nausea-067!⇒DissNausea,
     <br>* McshEngl.nausea!⇒DissNausea,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ναυτία!=DissNausea,
-    <br>* McshElln.ναυτία!=DissNausea,
+    <br>* McshElln.πάθηση.ναυτία!⇒DissNausea,
+    <br>* McshElln.ναυτία!⇒DissNausea,
     <a class="clsHide" href="#idDssHmn067nam"></a></p>
 
   <section id="idDssHmn067symptom">
@@ -4435,7 +4435,7 @@
     <br>* McshEngl.DissSeasickness!⇒DissMotion_sickness,
     <br>* McshEngl.seasickness!⇒DissMotion_sickness,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ζάλη-ταξιδιών!=DissMotion_sickness,
+    <br>* McshElln.πάθηση.ζάλη-ταξιδιών!⇒DissMotion_sickness,
     <a class="clsHide" href="#idDssHmn219nam"></a></p>
   <p id="idDssHmn219gntr">generic-tree::
     <br>* McshEngl.DissMotion_sickness_Gntr,
@@ -4531,8 +4531,8 @@
     <br>* McshEngl.disease.tuberculosis-073!⇒DissTuberculosis,
     <br>* McshEngl.tuberculosis!⇒DissTuberculosis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.φυματίωση!=DissTuberculosis,
-    <br>* McshElln.φυματίωση!=DissTuberculosis,
+    <br>* McshElln.πάθηση.φυματίωση!⇒DissTuberculosis,
+    <br>* McshElln.φυματίωση!⇒DissTuberculosis,
     <a class="clsHide" href="#idDssHmn073nam"></a></p>
   <p id="idDssHmn073gntr">generic-tree::
     <br>* McshEngl.DissTuberculosis_Gntr,
@@ -4645,11 +4645,11 @@
     <br>* McshEngl.disease.wart-074!⇒DissWart,
     <br>* McshEngl.wart!⇒DissWart,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.γαρδαβίτσα!=DissWart,
-    <br>* McshElln.γαρδαβίτσα!=DissWart,
-    <br>* McshElln.καρναβίτσα!=DissWart,
-    <br>* McshElln.μπασδραβίτσα!=DissWart,
-    <br>* McshElln.μυρμηγκιά!=DissWart,
+    <br>* McshElln.πάθηση.γαρδαβίτσα!⇒DissWart,
+    <br>* McshElln.γαρδαβίτσα!⇒DissWart,
+    <br>* McshElln.καρναβίτσα!⇒DissWart,
+    <br>* McshElln.μπασδραβίτσα!⇒DissWart,
+    <br>* McshElln.μυρμηγκιά!⇒DissWart,
     <a class="clsHide" href="#idDssHmn074nam"></a></p>
 
   <section id="idDssHmn074therapy">
@@ -4683,10 +4683,10 @@
     <br>* McshEngl.disease.leukemia-069!⇒DissLeukemia,
     <br>* McshEngl.leukemia!⇒DissLeukemia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.καρκίνος-του-αίματος!=DissLeukemia,
-    <br>* McshElln.πάθηση.λευχαιμία!=DissLeukemia,
-    <br>* McshElln.καρκίνος-του-αίματος!=DissLeukemia,
-    <br>* McshElln.λευχαιμία!=DissLeukemia,
+    <br>* McshElln.πάθηση.καρκίνος-του-αίματος!⇒DissLeukemia,
+    <br>* McshElln.πάθηση.λευχαιμία!⇒DissLeukemia,
+    <br>* McshElln.καρκίνος-του-αίματος!⇒DissLeukemia,
+    <br>* McshElln.λευχαιμία!⇒DissLeukemia,
     <a class="clsHide" href="#idDssHmn069nam"></a></p>
   <p id="idDssHmn069gntr">generic-tree::
     <br>* McshEngl.DissLeukemia_Gntr,
@@ -4815,8 +4815,8 @@
     <br>* McshEngl.skin'defect!⇒DissSkin,
     <br>* McshEngl.skin-defect!⇒DissSkin,
     <br>====== lagoGreek:
-    <br>* McshElln.δέρματος-πάθηση!=DissSkin,
-    <br>* McshElln.πάθηση.δέρματος!=DissSkin,
+    <br>* McshElln.δέρματος-πάθηση!⇒DissSkin,
+    <br>* McshElln.πάθηση.δέρματος!⇒DissSkin,
     <a class="clsHide" href="#idDssHmn037nam"></a></p>
   <p id="idDssHmn037wtr">whole-tree-of-DissSkin::
     <br>* <a class="clsPreview" href="#idDssHmn038">skin</a>,
@@ -4836,8 +4836,8 @@
     <br>* McshEngl.disease.dermatitis-075!⇒DissDermatitis,
     <br>* McshEngl.dermatitis-disease!⇒DissDermatitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.δερματίτιδα-ανθρώπου!=DissDermatitis,
-    <br>* McshElln.δερματίτιδα-ανθρώπου!=DissDermatitis, {2012-08-13}
+    <br>* McshElln.πάθηση.δερματίτιδα-ανθρώπου!⇒DissDermatitis,
+    <br>* McshElln.δερματίτιδα-ανθρώπου!⇒DissDermatitis, {2012-08-13}
     <a class="clsHide" href="#idDssHmn075nam"></a></p>
   <p id="idDssHmn075gntr">generic-tree::
     <br>* McshEngl.DissDermatitis_Gntr,
@@ -4892,9 +4892,9 @@
     <br>* McshEngl.disease.mole-076!⇒DissMole,
     <br>* McshEngl.mole-disease-076!⇒DissMole,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ελλιά-δέρματος-ανθρώπου!=DissMole,
-    <br>* McshElln.ελλιά-δέρματος-ανθρώπου!=DissMole, {2012-08-13}
-    <br>* McshElln.σπίλος-ανθρώπου!=DissMole, {2012-08-13}
+    <br>* McshElln.πάθηση.ελλιά-δέρματος-ανθρώπου!⇒DissMole,
+    <br>* McshElln.ελλιά-δέρματος-ανθρώπου!⇒DissMole, {2012-08-13}
+    <br>* McshElln.σπίλος-ανθρώπου!⇒DissMole, {2012-08-13}
     <a class="clsHide" href="#idDssHmn076nam"></a></p>
   </section>
 
@@ -4947,9 +4947,9 @@
     <br>* McshEngl.disease.diabetes-043!⇒DissDiabetes,
     <br>* McshEngl.diabetes!⇒DissDiabetes,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.διαβήτης!=DissDiabetes,
-    <br>* McshElln.διαβήτης!=DissDiabetes,
-    <br>* McshElln.σακχαρώης-διαβήτης!=DissDiabetes,
+    <br>* McshElln.πάθηση.διαβήτης!⇒DissDiabetes,
+    <br>* McshElln.διαβήτης!⇒DissDiabetes,
+    <br>* McshElln.σακχαρώης-διαβήτης!⇒DissDiabetes,
     <a class="clsHide" href="#idDssHmn043nam"></a></p>
   <p id="idDssHmn043gntr">generic-tree::
     <br>* McshEngl.DissDiabetes_Gntr,
@@ -5039,8 +5039,8 @@
     <br>* McshEngl.DissSuddenDeath!⇒DissSudden_death,
     <br>* McshEngl.sudden-death!⇒DissSudden_death, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αιφνιδιος-θανατος!=DissSudden_death,
-    <br>* McshElln.αιφνιδιος-θανατος!=DissSudden_death,
+    <br>* McshElln.πάθηση.αιφνιδιος-θανατος!⇒DissSudden_death,
+    <br>* McshElln.αιφνιδιος-θανατος!⇒DissSudden_death,
     <a class="clsHide" href="#idDssHmn050nam"></a></p>
   <p id="idDssHmn050P1">αιφνιδιο θανατο χαρακτηρίζουμε το θάνατο που συμβαίνει σένα άτομο ξαφνικά, δηλαδή απότομα, χωρίς, συνήθως, καμιά προειδοποίηση.
     <br>[εικ, 1994, 82⧺cptRsc33⧺]
@@ -5120,8 +5120,8 @@
     <br>* McshEngl.disease.052-cancer!⇒DissCancer,
     <br>* McshEngl.disease.cancer!⇒DissCancer, {2012-05-30}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.καρκίνος!=DissCancer,
-    <br>* McshElln.καρκίνος!=DissCancer,
+    <br>* McshElln.πάθηση.καρκίνος!⇒DissCancer,
+    <br>* McshElln.καρκίνος!⇒DissCancer,
     <a class="clsHide" href="#idDssHmn052nam"></a></p>
 
   <section id="idDssHmn052smptm">
@@ -6241,8 +6241,8 @@
     <br>* McshEngl.disease.101-cancer.colon!⇒DissCancer.colon,
     <br>* McshEngl.disease.cancer.colon-101!⇒DissCancer.colon,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.καρκίνος-παxέος-εντέρου!=DissCancer.colon,
-    <br>* McshElln.καρκίνος-παxέος-εντέρου!=DissCancer.colon, {2012-12-14}
+    <br>* McshElln.πάθηση.καρκίνος-παxέος-εντέρου!⇒DissCancer.colon,
+    <br>* McshElln.καρκίνος-παxέος-εντέρου!⇒DissCancer.colon, {2012-12-14}
     <a class="clsHide" href="#idDssHmn101nam"></a></p>
   </section>
 
@@ -6323,8 +6323,8 @@
     <br>* McshEngl.DissCancerProstate!⇒DissCancer.prostate,
     <br>* McshEngl.prostate-cancer!⇒DissCancer.prostate,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.καρκίνος-προστάτη!=DissCancer.prostate,
-    <br>* McshElln.καρκίνος-προστάτη!=DissCancer.prostate, {2012-12-14}
+    <br>* McshElln.πάθηση.καρκίνος-προστάτη!⇒DissCancer.prostate,
+    <br>* McshElln.καρκίνος-προστάτη!⇒DissCancer.prostate, {2012-12-14}
     <a class="clsHide" href="#idDssHmn105nam"></a></p>
 
   <section id="idDssHmn105symptom">
@@ -6411,9 +6411,9 @@
     <br>* McshEngl.DissCancerSkin!⇒DissCancer.skin,
     <br>* McshEngl.DissCancer.skin.106!⇒DissCancer.skin,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.καρκίνος-δέρματος!=DissCancer.skin,
-    <br>* McshElln.καρκίνος-δέρματος!=DissCancer.skin,
-    <br>* McshElln.καρκινοσ.δέρματος!=DissCancer.skin,
+    <br>* McshElln.πάθηση.καρκίνος-δέρματος!⇒DissCancer.skin,
+    <br>* McshElln.καρκίνος-δέρματος!⇒DissCancer.skin,
+    <br>* McshElln.καρκινοσ.δέρματος!⇒DissCancer.skin,
     <a class="clsHide" href="#idDssHmn106nam"></a></p>
 
   <section id="idDssHmn106protection">
@@ -6533,7 +6533,7 @@
     <br>* McshEngl.eye'disease!⇒DissEye,
     <br>* McshEngl.defect-of-eye!⇒DissEye,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ματιού!=DissEye,
+    <br>* McshElln.πάθηση.ματιού!⇒DissEye,
     <a class="clsHide" href="#idDssHmn096nam"></a></p>
   <p id="idDssHmn096wtr">whole-tree-of-DissEye::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000019.last.html#idOgnHmn009">eye</a>,
@@ -6651,8 +6651,8 @@
     <br>* McshEngl.disease.097-catarract!⇒DissCatarract,
     <br>* McshEngl.disease.catarract-097!⇒DissCatarract,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.καταρρακτης!=DissCatarract,
-    <br>* McshElln.καταρρακτης!=DissCatarract,
+    <br>* McshElln.πάθηση.καταρρακτης!⇒DissCatarract,
+    <br>* McshElln.καταρρακτης!⇒DissCatarract,
     <a class="clsHide" href="#idDssHmn097nam"></a></p>
   <p id="idDssHmn097gntr">generic-tree::
     <br>* McshEngl.DissCatarract_Gntr,
@@ -6694,8 +6694,8 @@
     <br>* McshEngl.disease.astigmatism-111!⇒DissAstigmatism,
     <br>* McshEngl.astigmatism!⇒DissAstigmatism,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αστιγματισμός!=DissAstigmatism,
-    <br>* McshElln.αστιγματισμός!=DissAstigmatism,
+    <br>* McshElln.πάθηση.αστιγματισμός!⇒DissAstigmatism,
+    <br>* McshElln.αστιγματισμός!⇒DissAstigmatism,
     <a class="clsHide" href="#idDssHmn111nam"></a></p>
   <p id="idDssHmn111gntr">generic-tree::
     <br>* McshEngl.DissAstigmatism_Gntr,
@@ -6724,8 +6724,8 @@
     <br>* McshEngl.disease.presbyopia-117!⇒DissPresbyopia,
     <br>* McshEngl.presbyopia!⇒DissPresbyopia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πρεσβυωπία!=DissPresbyopia,
-    <br>* McshElln.πρεσβυωπία!=DissPresbyopia,
+    <br>* McshElln.πάθηση.πρεσβυωπία!⇒DissPresbyopia,
+    <br>* McshElln.πρεσβυωπία!⇒DissPresbyopia,
     <a class="clsHide" href="#idDssHmn117nam"></a></p>
   <p id="idDssHmn117gntr">generic-tree::
     <br>* McshEngl.DissPresbyopia_Gntr,
@@ -6767,8 +6767,8 @@
     <br>* McshEngl.disease.hypermetropia-118!⇒DissHypermetropia,
     <br>* McshEngl.hypermetropia!⇒DissHypermetropia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.υπερμετρωπία!=DissHypermetropia,
-    <br>* McshElln.υπερμετρωπία!=DissHypermetropia,
+    <br>* McshElln.πάθηση.υπερμετρωπία!⇒DissHypermetropia,
+    <br>* McshElln.υπερμετρωπία!⇒DissHypermetropia,
     <a class="clsHide" href="#idDssHmn118nam"></a></p>
   <p id="idDssHmn118gntr">generic-tree::
     <br>* McshEngl.DissHypermetropia_Gntr,
@@ -6804,8 +6804,8 @@
     <br>* McshEngl.nearsightedness!⇒DissMyopia,
     <br>* McshEngl.myopia!⇒DissMyopia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.μυωπία!=DissMyopia,
-    <br>* McshElln.μυωπία!=DissMyopia,
+    <br>* McshElln.πάθηση.μυωπία!⇒DissMyopia,
+    <br>* McshElln.μυωπία!⇒DissMyopia,
     <a class="clsHide" href="#idDssHmn119nam"></a></p>
   <p id="idDssHmn119gntr">generic-tree::
     <br>* McshEngl.DissMyopia_Gntr,
@@ -6852,8 +6852,8 @@
     <br>* McshEngl.squint!⇒DissSquint,
     <br>* McshEngl.strabismus!⇒DissSquint,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.στραβισμός!=DissSquint,
-    <br>* McshElln.στραβισμός!=DissSquint,
+    <br>* McshElln.πάθηση.στραβισμός!⇒DissSquint,
+    <br>* McshElln.στραβισμός!⇒DissSquint,
     <a class="clsHide" href="#idDssHmn110nam"></a></p>
   <p id="idDssHmn110gntr">generic-tree::
     <br>* McshEngl.DissSquint_Gntr,
@@ -6906,11 +6906,11 @@
     <br>* McshEngl.phychogenic-disease!⇒DissMental,
     <br>* McshEngl.phychological-disease!⇒DissMental,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ψυχική!=DissMental,
-    <br>* McshElln.ψυχική-αρρώστια!=DissMental,
-    <br>* McshElln.ψυχική-ασθένεια!=DissMental,
-    <br>* McshElln.ψυχική-διαταραχή!=DissMental,
-    <br>* McshElln.ψυχική-νόσο!=DissMental,
+    <br>* McshElln.πάθηση.ψυχική!⇒DissMental,
+    <br>* McshElln.ψυχική-αρρώστια!⇒DissMental,
+    <br>* McshElln.ψυχική-ασθένεια!⇒DissMental,
+    <br>* McshElln.ψυχική-διαταραχή!⇒DissMental,
+    <br>* McshElln.ψυχική-νόσο!⇒DissMental,
     <a class="clsHide" href="#idDssHmn108nam"></a></p>
   <p id="idDssHmn108dsnL">descriptionLong::
     <br>A mental disorder or mental illness is a psychological pattern, potentially reflected in behavior, that is generally associated with distress or disability, and which is not considered part of normal development of a person's culture. Mental disorders are generally defined by a combination of how a person feels, acts, thinks or perceives. This may be associated with particular regions or functions of the brain or rest of the nervous system, often in a social context. The recognition and understanding of mental health conditions have changed over time and across cultures, and there are still variations in definition, assessment and classification, although standard guideline criteria are widely used. According to the World Health Organisation (WHO), over a third of people in most countries report problems at some time in their life which meet criteria for diagnosis of one or more of the common types of mental disorder.[1]
@@ -7107,9 +7107,9 @@
     <br>* McshEngl.anxiety-disorder!⇒DissAnxiety,
     <br>* McshEngl.stress-disorder!⇒DissAnxiety,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αγχώδη-διαταραχή!=DissAnxiety,
-    <br>* McshElln.αγχώδη-διαταραχή!=DissAnxiety,
-    <br>* McshElln.διαταραχές-άγχους!=DissAnxiety,
+    <br>* McshElln.πάθηση.αγχώδη-διαταραχή!⇒DissAnxiety,
+    <br>* McshElln.αγχώδη-διαταραχή!⇒DissAnxiety,
+    <br>* McshElln.διαταραχές-άγχους!⇒DissAnxiety,
     <a class="clsHide" href="#idDssHmn079nam"></a></p>
 
   <section id="idDssHmn079symptom">
@@ -7860,8 +7860,8 @@
     <br>* McshEngl.disease.panic-attack-071!⇒DissPanic,
     <br>* McshEngl.panic-attack!⇒DissPanic,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.κρίση-πανικού!=DissPanic,
-    <br>* McshElln.κρίση-πανικού!=DissPanic,
+    <br>* McshElln.πάθηση.κρίση-πανικού!⇒DissPanic,
+    <br>* McshElln.κρίση-πανικού!⇒DissPanic,
     <a class="clsHide" href="#idDssHmn071nam"></a></p>
 
   <section id="idDssHmn071faq">
@@ -8104,10 +8104,10 @@
     <br>* McshEngl.DissMental.depression!⇒DissDepression,
     <br>* McshEngl.depression!⇒DissDepression,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.κατάθλιψη!=DissDepression,
-    <br>* McshElln.πάθηση.μελαγχολία!=DissDepression,
-    <br>* McshElln.κατάθλιψη!=DissDepression,
-    <br>* McshElln.μελαγχολία!=DissDepression,
+    <br>* McshElln.πάθηση.κατάθλιψη!⇒DissDepression,
+    <br>* McshElln.πάθηση.μελαγχολία!⇒DissDepression,
+    <br>* McshElln.κατάθλιψη!⇒DissDepression,
+    <br>* McshElln.μελαγχολία!⇒DissDepression,
     <a class="clsHide" href="#idDssHmn080nam"></a></p>
   <p id="idDssHmn080wpa">addressWpg::
     <br>* {2017-11-17} Smartphones are damaging this generation's mental health: https://www.weforum.org/agenda/2017/11/smartphones-are-damaging-this-generations-mental-health,
@@ -8196,7 +8196,7 @@
     <br>* McshEngl.disease.bipolar-disorder!⇒DissBipolar,
     <br>* McshEngl.DissMental.bipolar!⇒DissBipolar,
     <br>====== lagoGreek:
-    <br>* McshElln.διπολική-διαταραχή!=DissBipolar,
+    <br>* McshElln.διπολική-διαταραχή!⇒DissBipolar,
     <a class="clsHide" href="#idDssHmn270nam"></a></p>
   </section>
 
@@ -8222,10 +8222,10 @@
     <br>* McshEngl.insanity!⇒DissInsanity,
     <br>* McshEngl.madness!⇒DissInsanity,
     <br>====== lagoGreek:
-    <br>* McshElln.παράνοια!=DissInsanity,
-    <br>* McshElln.παραφροσύνη!=DissInsanity,
-    <br>* McshElln.τρέλα!=DissInsanity,
-    <br>* McshElln.φρενοβλάβεια!=DissInsanity,
+    <br>* McshElln.παράνοια!⇒DissInsanity,
+    <br>* McshElln.παραφροσύνη!⇒DissInsanity,
+    <br>* McshElln.τρέλα!⇒DissInsanity,
+    <br>* McshElln.φρενοβλάβεια!⇒DissInsanity,
     <a class="clsHide" href="#idDssHmn081nam"></a></p>
   </section>
 
@@ -8341,8 +8341,8 @@
     <br>* McshEngl.disease.addiction!⇒DissAddiction,
     <br>* McshEngl.DissMental.addiction!⇒DissAddiction,
     <br>====== lagoGreek:
-    <br>* McshElln.εθισμός-πάθηση!=DissAddiction,
-    <br>* McshElln.πάθηση.εθισμός!=DissAddiction,
+    <br>* McshElln.εθισμός-πάθηση!⇒DissAddiction,
+    <br>* McshElln.πάθηση.εθισμός!⇒DissAddiction,
     <a class="clsHide" href="#idDssHmn274nam"></a></p>
 
   <section id="idDssHmn274thrp">
@@ -8381,7 +8381,7 @@
     <br>* McshEngl.drug-dependence!⇒DissSubstance_dependence,
     <br>* McshEngl.substance-dependence!⇒DissSubstance_dependence,
     <br>====== lagoGreek:
-    <br>* McshElln.εξάρτηση-από-ουσίες-πάθηση!=DissSubstance_dependence,
+    <br>* McshElln.εξάρτηση-από-ουσίες-πάθηση!⇒DissSubstance_dependence,
     <a class="clsHide" href="#idDssHmn275nam"></a></p>
   </section>
 
@@ -8439,7 +8439,7 @@
     <br>* McshEngl.defect-of-ear!⇒DissEar,
     <br>====== lagoGreek:
     <br>*
-    <br>* McshElln.πάθηση.αυτιου!=DissEar,
+    <br>* McshElln.πάθηση.αυτιου!⇒DissEar,
     <a class="clsHide" href="#idDssHmn112nam"></a></p>
   <p id="idDssHmn112gntr">generic-tree::
     <br>* McshEngl.DissEar_Gntr,
@@ -8484,8 +8484,8 @@
     <br>* McshEngl.disease.aerophagia-113!⇒DissAerophagia,
     <br>* McshEngl.aerophagia!⇒DissAerophagia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αεροφαγια!=DissAerophagia,
-    <br>* McshElln.αεροφαγια!=DissAerophagia,
+    <br>* McshElln.πάθηση.αεροφαγια!⇒DissAerophagia,
+    <br>* McshElln.αεροφαγια!⇒DissAerophagia,
     <a class="clsHide" href="#idDssHmn113nam"></a></p>
   <p id="idDssHmn113gntr">generic-tree::
     <br>* McshEngl.DissAerophagia_Gntr,
@@ -8525,9 +8525,9 @@
     <br>* McshEngl.Aids!⇒DissAids,
     <br>* McshEngl.acquired-immune-deficiency-syndrome!⇒DissAids,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.Εϊτζ!=DissAids,
-    <br>* McshElln.Εϊντζ!=DissAids,
-    <br>* McshElln.σύνδρομο-επίκτητης-ανοσοποιητικής-ανεπάρκειας!=DissAids,
+    <br>* McshElln.πάθηση.Εϊτζ!⇒DissAids,
+    <br>* McshElln.Εϊντζ!⇒DissAids,
+    <br>* McshElln.σύνδρομο-επίκτητης-ανοσοποιητικής-ανεπάρκειας!⇒DissAids,
     <a class="clsHide" href="#idDssHmn114nam"></a></p>
   <p id="idDssHmn114gntr">generic-tree::
     <br>* McshEngl.DissAids_Gntr,
@@ -8687,8 +8687,8 @@
     <br>* McshEngl.disease.alzheimer-115!⇒DissAlzheimer,
     <br>* McshEngl.alzheimer!⇒DissAlzheimer,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αλτσχαιμερ-νόσος!=DissAlzheimer,
-    <br>* McshElln.αλτσχαιμερ-νόσος!=DissAlzheimer,
+    <br>* McshElln.πάθηση.αλτσχαιμερ-νόσος!⇒DissAlzheimer,
+    <br>* McshElln.αλτσχαιμερ-νόσος!⇒DissAlzheimer,
     <a class="clsHide" href="#idDssHmn115nam"></a></p>
   <p id="idDssHmn115gntr">generic-tree::
     <br>* McshEngl.DissAlzheimer_Gntr,
@@ -8776,9 +8776,9 @@
     <br>* McshEngl.senility!⇒DissDementia,
     <br>* McshEngl.dementia!⇒DissDementia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.άνοια!=DissDementia,
-    <br>* McshElln.άνοια!=DissDementia,
-    <br>* McshElln.γεροντική-άνοια!=DissDementia,
+    <br>* McshElln.πάθηση.άνοια!⇒DissDementia,
+    <br>* McshElln.άνοια!⇒DissDementia,
+    <br>* McshElln.γεροντική-άνοια!⇒DissDementia,
     <a class="clsHide" href="#idDssHmn116nam"></a></p>
 
   <section id="idDssHmn116sympton">
@@ -8904,10 +8904,10 @@
     <br>* McshEngl.disease.common-cold-124!⇒DissCommon_cold,
     <br>* McshEngl.common-cold!⇒DissCommon_cold, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.κοινό-κρυολόγημα!=DissCommon_cold,
-    <br>* McshElln.κοινό-κρυολόγημα!=DissCommon_cold,
-    <br>* McshElln.κρυολόγημα!=DissCommon_cold,
-    <br>* McshElln.οξεία-ρινοφαρυγγιτιδα!=DissCommon_cold,
+    <br>* McshElln.πάθηση.κοινό-κρυολόγημα!⇒DissCommon_cold,
+    <br>* McshElln.κοινό-κρυολόγημα!⇒DissCommon_cold,
+    <br>* McshElln.κρυολόγημα!⇒DissCommon_cold,
+    <br>* McshElln.οξεία-ρινοφαρυγγιτιδα!⇒DissCommon_cold,
     <a class="clsHide" href="#idDssHmn124nam"></a></p>
 
   <section id="idDssHmn124cause">
@@ -9133,8 +9133,8 @@
     <br>* McshEngl.disease.coughing-120!⇒DissCoughing,
     <br>* McshEngl.coughing!⇒DissCoughing,
     <br>====== lagoGreek:
-    <br>* McshElln.βήxας!=DissCoughing,
-    <br>* McshElln.πάθηση.βήχας!=DissCoughing,
+    <br>* McshElln.βήxας!⇒DissCoughing,
+    <br>* McshElln.πάθηση.βήχας!⇒DissCoughing,
     <a class="clsHide" href="#idDssHmn120nam"></a></p>
   <p id="idDssHmn120gntr">generic-tree::
     <br>* McshEngl.DissCoughing_Gntr,
@@ -9211,8 +9211,8 @@
     <br>* McshEngl.disease.bronchitis-126!⇒DissBronchitis,
     <br>* McshEngl.bronchitis!⇒DissBronchitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.βρογχίτιδα!=DissBronchitis,
-    <br>* McshElln.βρογχίτιδα!=DissBronchitis,
+    <br>* McshElln.πάθηση.βρογχίτιδα!⇒DissBronchitis,
+    <br>* McshElln.βρογχίτιδα!⇒DissBronchitis,
     <a class="clsHide" href="#idDssHmn126nam"></a></p>
   <p id="idDssHmn126gntr">generic-tree::
     <br>* McshEngl.DissBronchitis_Gntr,
@@ -9329,8 +9329,8 @@
     <br>* McshEngl.flu!⇒DissFlu,
     <br>* McshEngl.influenza!⇒DissFlu,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.γρίπη!=DissFlu,
-    <br>* McshElln.γρίπη!=DissFlu,
+    <br>* McshElln.πάθηση.γρίπη!⇒DissFlu,
+    <br>* McshElln.γρίπη!⇒DissFlu,
     <a class="clsHide" href="#idDssHmn127nam"></a></p>
 
   <section id="idDssHmn127symptom">
@@ -9568,11 +9568,11 @@
     <br>* McshEngl.diarrhea.human!⇒DissDiarrhea, {2012-08-13}
     <br>* McshEngl.human-diarrhea!⇒DissDiarrhea, {2012-08-13}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.διαρροια!=DissDiarrhea,
-    <br>* McshElln.διαρροια!=DissDiarrhea,
-    <br>* McshElln.διάρροια-ανθρώπου!=DissDiarrhea, {2012-08-13}
-    <br>* McshElln.ευκοίλια!=DissDiarrhea,
-    <br>* McshElln.κόψιμο.ασθένεια!=DissDiarrhea,
+    <br>* McshElln.πάθηση.διαρροια!⇒DissDiarrhea,
+    <br>* McshElln.διαρροια!⇒DissDiarrhea,
+    <br>* McshElln.διάρροια-ανθρώπου!⇒DissDiarrhea, {2012-08-13}
+    <br>* McshElln.ευκοίλια!⇒DissDiarrhea,
+    <br>* McshElln.κόψιμο.ασθένεια!⇒DissDiarrhea,
     <a class="clsHide" href="#idDssHmn128nam"></a></p>
 
   <section id="idDssHmn128therapy">
@@ -9636,12 +9636,12 @@
     <br>* McshEngl.mummy-tummy; αίγυπτο!⇒DissTravel_diarrhea,
     <br>* McshEngl.travel-diarrhea!⇒DissTravel_diarrhea, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.δελχί-μπίλι!=DissTravel_diarrhea,
-    <br>* McshElln.δελχί-μπέλι!=DissTravel_diarrhea,
-    <br>* McshElln.εκδίκηση-του-μοντεζούμα!=DissTravel_diarrhea,
-    <br>* McshElln.λα-τουρίστα!=DissTravel_diarrhea,
-    <br>* McshElln.μαμ-ταμ!=DissTravel_diarrhea,
-    <br>* McshElln.ταξιδιωτική-διάρροια!=DissTravel_diarrhea,
+    <br>* McshElln.πάθηση.δελχί-μπίλι!⇒DissTravel_diarrhea,
+    <br>* McshElln.δελχί-μπέλι!⇒DissTravel_diarrhea,
+    <br>* McshElln.εκδίκηση-του-μοντεζούμα!⇒DissTravel_diarrhea,
+    <br>* McshElln.λα-τουρίστα!⇒DissTravel_diarrhea,
+    <br>* McshElln.μαμ-ταμ!⇒DissTravel_diarrhea,
+    <br>* McshElln.ταξιδιωτική-διάρροια!⇒DissTravel_diarrhea,
     <a class="clsHide" href="#idDssHmn139nam"></a></p>
   <p id="idDssHmn139gntr">generic-tree::
     <br>* McshEngl.DissTravel_diarrhea_Gntr,
@@ -9735,8 +9735,8 @@
     <br>* McshEngl.disease.chicken-pox-163!⇒DissChicken_pox,
     <br>* McshEngl.chicken-pox!⇒DissChicken_pox,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ανεμοβλογιά!=DissChicken_pox,
-    <br>* McshElln.ανεμοβλογιά!=DissChicken_pox,
+    <br>* McshElln.πάθηση.ανεμοβλογιά!⇒DissChicken_pox,
+    <br>* McshElln.ανεμοβλογιά!⇒DissChicken_pox,
     <a class="clsHide" href="#idDssHmn163nam"></a></p>
   <p id="idDssHmn163gntr">generic-tree::
     <br>* McshEngl.DissChicken_pox_Gntr,
@@ -9797,8 +9797,8 @@
     <br>* McshEngl.disease.rubella-164!⇒DissRubella,
     <br>* McshEngl.rubella!⇒DissRubella,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ερυθρα!=DissRubella,
-    <br>* McshElln.ερυθρα!=DissRubella,
+    <br>* McshElln.πάθηση.ερυθρα!⇒DissRubella,
+    <br>* McshElln.ερυθρα!⇒DissRubella,
     <a class="clsHide" href="#idDssHmn164nam"></a></p>
   <p id="idDssHmn164gntr">generic-tree::
     <br>* McshEngl.DissRubella_Gntr,
@@ -9868,8 +9868,8 @@
     <br>* McshEngl.disease.hepatitis-166!⇒DissHepatitis,
     <br>* McshEngl.hepatitis!⇒DissHepatitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ηπατίτιδα!=DissHepatitis,
-    <br>* McshElln.ηπατίτιδα!=DissHepatitis,
+    <br>* McshElln.πάθηση.ηπατίτιδα!⇒DissHepatitis,
+    <br>* McshElln.ηπατίτιδα!⇒DissHepatitis,
     <a class="clsHide" href="#idDssHmn166nam"></a></p>
 
   <section id="idDssHmn166symptom">
@@ -10076,8 +10076,8 @@
     <br>* McshEngl.disease.measles-167!⇒DissMeasles,
     <br>* McshEngl.measles!⇒DissMeasles,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ιλαρά!=DissMeasles,
-    <br>* McshElln.ιλαρά!=DissMeasles,
+    <br>* McshElln.πάθηση.ιλαρά!⇒DissMeasles,
+    <br>* McshElln.ιλαρά!⇒DissMeasles,
     <a class="clsHide" href="#idDssHmn167nam"></a></p>
   <p id="idDssHmn167gntr">generic-tree::
     <br>* McshEngl.DissMeasles_Gntr,
@@ -10131,8 +10131,8 @@
     <br>* McshEngl.disease.rabies-168!⇒DissRabies,
     <br>* McshEngl.rabies!⇒DissRabies,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.λύσσα!=DissRabies,
-    <br>* McshElln.λύσσα!=DissRabies,
+    <br>* McshElln.πάθηση.λύσσα!⇒DissRabies,
+    <br>* McshElln.λύσσα!⇒DissRabies,
     <a class="clsHide" href="#idDssHmn168nam"></a></p>
   <p id="idDssHmn168gntr">generic-tree::
     <br>* McshEngl.DissRabies_Gntr,
@@ -10196,9 +10196,9 @@
     <br>* McshEngl.disease.parotitis-169!⇒DissParotitis,
     <br>* McshEngl.parotitis!⇒DissParotitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.μαγουλαδες!=DissParotitis,
-    <br>* McshElln.μαγουλαδες!=DissParotitis,
-    <br>* McshElln.παρωτιτιδα!=DissParotitis,
+    <br>* McshElln.πάθηση.μαγουλαδες!⇒DissParotitis,
+    <br>* McshElln.μαγουλαδες!⇒DissParotitis,
+    <br>* McshElln.παρωτιτιδα!⇒DissParotitis,
     <a class="clsHide" href="#idDssHmn169nam"></a></p>
   <p id="idDssHmn169gntr">generic-tree::
     <br>* McshEngl.DissParotitis_Gntr,
@@ -10278,8 +10278,8 @@
     <br>* McshEngl.poliomyelitis!⇒DissPolio,
     <br>* McshEngl.polio!⇒DissPolio,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πολιομυελίτιδα!=DissPolio,
-    <br>* McshElln.πολιομυελίτιδα!=DissPolio,
+    <br>* McshElln.πάθηση.πολιομυελίτιδα!⇒DissPolio,
+    <br>* McshElln.πολιομυελίτιδα!⇒DissPolio,
     <a class="clsHide" href="#idDssHmn170nam"></a></p>
   <p id="idDssHmn170gntr">generic-tree::
     <br>* McshEngl.DissPolio_Gntr,
@@ -10347,8 +10347,8 @@
     <br>* McshEngl.disease.smallpox-171!⇒DissSmallpox,
     <br>* McshEngl.smallpox!⇒DissSmallpox,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ευλογιά!=DissSmallpox,
-    <br>* McshElln.ευλογιά!=DissSmallpox,
+    <br>* McshElln.πάθηση.ευλογιά!⇒DissSmallpox,
+    <br>* McshElln.ευλογιά!⇒DissSmallpox,
     <a class="clsHide" href="#idDssHmn171nam"></a></p>
   <p id="idDssHmn171gntr">generic-tree::
     <br>* McshEngl.DissSmallpox_Gntr,
@@ -10428,8 +10428,8 @@
     <br>* McshEngl.DissScarletfever!⇒DissScarlet_fever,
     <br>* McshEngl.scarlet-fever!⇒DissScarlet_fever,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.οστρακιά!=DissScarlet_fever,
-    <br>* McshElln.οστρακιά!=DissScarlet_fever,
+    <br>* McshElln.πάθηση.οστρακιά!⇒DissScarlet_fever,
+    <br>* McshElln.οστρακιά!⇒DissScarlet_fever,
     <a class="clsHide" href="#idDssHmn173nam"></a></p>
   <p id="idDssHmn173gntr">generic-tree::
     <br>* McshEngl.DissScarlet_fever_Gntr,
@@ -10498,8 +10498,8 @@
     <br>* McshEngl.disease.meningitis-174!⇒DissMeningitis,
     <br>* McshEngl.meningitis!⇒DissMeningitis, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.επιδημικη-μηνιγγιτιδα!=DissMeningitis,
-    <br>* McshElln.επιδημικη-μηνιγγιτιδα!=DissMeningitis,
+    <br>* McshElln.πάθηση.επιδημικη-μηνιγγιτιδα!⇒DissMeningitis,
+    <br>* McshElln.επιδημικη-μηνιγγιτιδα!⇒DissMeningitis,
     <a class="clsHide" href="#idDssHmn174nam"></a></p>
 
   <section id="idDssHmn174symptom">
@@ -10677,8 +10677,8 @@
     <br>* McshEngl.disease.typhoid-fever-175!⇒DissTyphoid_fever,
     <br>* McshEngl.typhoid-fever!⇒DissTyphoid_fever, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.τυφοειδης-πυρετός!=DissTyphoid_fever,
-    <br>* McshElln.τυφοειδης-πυρετός!=DissTyphoid_fever,
+    <br>* McshElln.πάθηση.τυφοειδης-πυρετός!⇒DissTyphoid_fever,
+    <br>* McshElln.τυφοειδης-πυρετός!⇒DissTyphoid_fever,
     <a class="clsHide" href="#idDssHmn175nam"></a></p>
   <p id="idDssHmn175gntr">generic-tree::
     <br>* McshEngl.DissTyphoid_fever_Gntr,
@@ -10742,8 +10742,8 @@
     <br>* McshEngl.disease.tetanus-176!⇒DissTetanus,
     <br>* McshEngl.tetanus!⇒DissTetanus,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.τετανος!=DissTetanus,
-    <br>* McshElln.τετανος!=DissTetanus,
+    <br>* McshElln.πάθηση.τετανος!⇒DissTetanus,
+    <br>* McshElln.τετανος!⇒DissTetanus,
     <a class="clsHide" href="#idDssHmn176nam"></a></p>
   <p id="idDssHmn176gntr">generic-tree::
     <br>* McshEngl.DissTetanus_Gntr,
@@ -10823,8 +10823,8 @@
     <br>* McshEngl.disease.diphtheria-178!⇒DissDiphtheria,
     <br>* McshEngl.diphtheria!⇒DissDiphtheria,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.διφθερίτιδα!=DissDiphtheria,
-    <br>* McshElln.διφθερίτιδα!=DissDiphtheria,
+    <br>* McshElln.πάθηση.διφθερίτιδα!⇒DissDiphtheria,
+    <br>* McshElln.διφθερίτιδα!⇒DissDiphtheria,
     <a class="clsHide" href="#idDssHmn178nam"></a></p>
   <p id="idDssHmn178gntr">generic-tree::
     <br>* McshEngl.DissDiphtheria_Gntr,
@@ -10902,8 +10902,8 @@
     <br>* McshEngl.disease.malta-fever!⇒DissMalta_fever,
     <br>* McshEngl.malta/rock-fever!⇒DissMalta_fever,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.μελιταίος-πυρετός!=DissMalta_fever,
-    <br>* McshElln.μελιταίος-πυρετός!=DissMalta_fever,
+    <br>* McshElln.πάθηση.μελιταίος-πυρετός!⇒DissMalta_fever,
+    <br>* McshElln.μελιταίος-πυρετός!⇒DissMalta_fever,
     <a class="clsHide" href="#idDssHmn179nam"></a></p>
   <p id="idDssHmn179gntr">generic-tree::
     <br>* McshEngl.DissMalta_fever_Gntr,
@@ -10956,8 +10956,8 @@
     <br>* McshEngl.disease.leprosy-180!⇒DissLeprosy,
     <br>* McshEngl.leprosy!⇒DissLeprosy,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.λεπρα!=DissLeprosy,
-    <br>* McshElln.λεπρα!=DissLeprosy,
+    <br>* McshElln.πάθηση.λεπρα!⇒DissLeprosy,
+    <br>* McshElln.λεπρα!⇒DissLeprosy,
     <a class="clsHide" href="#idDssHmn180nam"></a></p>
   <p id="idDssHmn180gntr">generic-tree::
     <br>* McshEngl.DissLeprosy_Gntr,
@@ -11018,8 +11018,8 @@
     <br>* McshEngl.disease.syphilis-181!⇒DissSyphilis,
     <br>* McshEngl.syphilis!⇒DissSyphilis, /sífilis/,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.σύφιλη!=DissSyphilis,
-    <br>* McshElln.σύφιλη!=DissSyphilis,
+    <br>* McshElln.πάθηση.σύφιλη!⇒DissSyphilis,
+    <br>* McshElln.σύφιλη!⇒DissSyphilis,
     <br>===
     <br>David Adler @davidrkadler
     <br>In the 16th century, Italians named Syphilius the “French disease.” The French called it the “Italian disease.” The Germans naturally called it the “French evil,” the Russians the “Polish disease,” and the Turkish—gazing out across the West—the “Christian disease.”
@@ -11076,8 +11076,8 @@
     <br>* McshEngl.disease.gonorrhoea-182!⇒DissGonorrhoea,
     <br>* McshEngl.gonorrhoea!⇒DissGonorrhoea,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.βλενόρροια!=DissGonorrhoea,
-    <br>* McshElln.βλεννορροια!=DissGonorrhoea,
+    <br>* McshElln.πάθηση.βλενόρροια!⇒DissGonorrhoea,
+    <br>* McshElln.βλεννορροια!⇒DissGonorrhoea,
     <a class="clsHide" href="#idDssHmn182nam"></a></p>
   <p id="idDssHmn182gntr">generic-tree::
     <br>* McshEngl.DissGonorrhoea_Gntr,
@@ -11117,8 +11117,8 @@
     <br>* McshEngl.amebiasis!⇒DissAmoebiasis, {2012-07-31}
     <br>* McshEngl.amoebiasis!⇒DissAmoebiasis, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αμοιβαδικη-δυσεντερια!=DissAmoebiasis,
-    <br>* McshElln.αμοιβαδικη-δυσεντερια!=DissAmoebiasis,
+    <br>* McshElln.πάθηση.αμοιβαδικη-δυσεντερια!⇒DissAmoebiasis,
+    <br>* McshElln.αμοιβαδικη-δυσεντερια!⇒DissAmoebiasis,
     <a class="clsHide" href="#idDssHmn183nam"></a></p>
   <p id="idDssHmn183gntr">generic-tree::
     <br>* McshEngl.DissAmoebiasis_Gntr,
@@ -11169,8 +11169,8 @@
     <br>* McshEngl.disease.ascariasis-184!⇒DissAscariasis,
     <br>* McshEngl.ascariasis!⇒DissAscariasis, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ασκαριδίαση!=DissAscariasis,
-    <br>* McshElln.ασκαριδίαση!=DissAscariasis,
+    <br>* McshElln.πάθηση.ασκαριδίαση!⇒DissAscariasis,
+    <br>* McshElln.ασκαριδίαση!⇒DissAscariasis,
     <a class="clsHide" href="#idDssHmn184nam"></a></p>
   <p id="idDssHmn184gntr">generic-tree::
     <br>* McshEngl.DissAscariasis_Gntr,
@@ -11208,8 +11208,8 @@
     <br>* McshEngl.disease.oxyuriasis-185!⇒DissOxyuriasis,
     <br>* McshEngl.oxyuriasis!⇒DissOxyuriasis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.οξυουριαση!=DissOxyuriasis,
-    <br>* McshElln.οξυουριαση!=DissOxyuriasis,
+    <br>* McshElln.πάθηση.οξυουριαση!⇒DissOxyuriasis,
+    <br>* McshElln.οξυουριαση!⇒DissOxyuriasis,
     <a class="clsHide" href="#idDssHmn185nam"></a></p>
   <p id="idDssHmn185gntr">generic-tree::
     <br>* McshEngl.DissOxyuriasis_Gntr,
@@ -11257,8 +11257,8 @@
     <br>* McshEngl.disease.trichinosis-186!⇒DissTrichinosis,
     <br>* McshEngl.trichinosis!⇒DissTrichinosis, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.τριχινωση!=DissTrichinosis,
-    <br>* McshElln.τριχινωση!=DissTrichinosis,
+    <br>* McshElln.πάθηση.τριχινωση!⇒DissTrichinosis,
+    <br>* McshElln.τριχινωση!⇒DissTrichinosis,
     <a class="clsHide" href="#idDssHmn186nam"></a></p>
   <p id="idDssHmn186gntr">generic-tree::
     <br>* McshEngl.DissTrichinosis_Gntr,
@@ -11332,9 +11332,9 @@
     <br>* McshEngl.disease.echinococcus-187!⇒DissEchinococcus,
     <br>* McshEngl.echinococcus!⇒DissEchinococcus,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.εχινοκοκκος!=DissEchinococcus,
-    <br>* McshElln.εχινοκοκκος!=DissEchinococcus,
-    <br>* McshElln.ταινια!=DissEchinococcus,
+    <br>* McshElln.πάθηση.εχινοκοκκος!⇒DissEchinococcus,
+    <br>* McshElln.εχινοκοκκος!⇒DissEchinococcus,
+    <br>* McshElln.ταινια!⇒DissEchinococcus,
     <a class="clsHide" href="#idDssHmn187nam"></a></p>
   <p id="idDssHmn187gntr">generic-tree::
     <br>* McshEngl.DissEchinococcus_Gntr,
@@ -11410,9 +11410,9 @@
     <br>* McshEngl.disease.scabies-188!⇒DissScabies,
     <br>* McshEngl.scabies!⇒DissScabies,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ψώρα!=DissScabies,
-    <br>* McshElln.ψώρα!=DissScabies,
-    <br>* McshElln.ψωρίαση!=DissScabies,
+    <br>* McshElln.πάθηση.ψώρα!⇒DissScabies,
+    <br>* McshElln.ψώρα!⇒DissScabies,
+    <br>* McshElln.ψωρίαση!⇒DissScabies,
     <a class="clsHide" href="#idDssHmn188nam"></a></p>
   <p id="idDssHmn188gntr">generic-tree::
     <br>* McshEngl.DissScabies_Gntr,
@@ -11463,9 +11463,9 @@
     <br>* McshEngl.disease.lousiness-189!⇒DissLousiness,
     <br>* McshEngl.lousiness!⇒DissLousiness,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.φθειριαση!=DissLousiness,
-    <br>* McshElln.φθειριαση!=DissLousiness,
-    <br>* McshElln.ψειρες!=DissLousiness,
+    <br>* McshElln.πάθηση.φθειριαση!⇒DissLousiness,
+    <br>* McshElln.φθειριαση!⇒DissLousiness,
+    <br>* McshElln.ψειρες!⇒DissLousiness,
     <a class="clsHide" href="#idDssHmn189nam"></a></p>
   <p id="idDssHmn189gntr">generic-tree::
     <br>* McshEngl.DissLousiness_Gntr,
@@ -11537,7 +11537,7 @@
     <br>* McshEngl.DissFungal_infection!⇒DissFungal,
     <br>* McshEngl.fungal-infection!⇒DissFungal,
     <br>====== lagoGreek:
-    <br>* McshElln.μυκητίαση!=DissFungal,
+    <br>* McshElln.μυκητίαση!⇒DissFungal,
     <a class="clsHide" href="#idDssHmn190nam"></a></p>
   <p id="idDssHmn190gntr">generic-tree::
     <br>* McshEngl.DissFungal_Gntr,
@@ -11575,8 +11575,8 @@
     <br>* McshEngl.disease.multiple-sclerosis-195!⇒DissMultiple_sclerosis,
     <br>* McshEngl.multiple-sclerosis!⇒DissMultiple_sclerosis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.σκλήρυνση-κατα-πλάκας!=DissMultiple_sclerosis,
-    <br>* McshElln.σκλήρυνση-κατά-πλάκας!=DissMultiple_sclerosis,
+    <br>* McshElln.πάθηση.σκλήρυνση-κατα-πλάκας!⇒DissMultiple_sclerosis,
+    <br>* McshElln.σκλήρυνση-κατά-πλάκας!⇒DissMultiple_sclerosis,
     <a class="clsHide" href="#idDssHmn195nam"></a></p>
   <p id="idDssHmn195gntr">generic-tree::
     <br>* McshEngl.DissMultiple_sclerosis_Gntr,
@@ -11877,10 +11877,10 @@
     <br>* McshEngl.human'obesity!⇒DissObesity,
     <br>* McshEngl.obesity!⇒DissObesity,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ευσαρκία!=DissObesity,
-    <br>* McshElln.ευσαρκία!=DissObesity,
-    <br>* McshElln.παχυσαρκία!=DissObesity,
-    <br>* McshElln.παxυσαρκία-ανθρώπου!=DissObesity, {2012-08-14}
+    <br>* McshElln.πάθηση.ευσαρκία!⇒DissObesity,
+    <br>* McshElln.ευσαρκία!⇒DissObesity,
+    <br>* McshElln.παχυσαρκία!⇒DissObesity,
+    <br>* McshElln.παxυσαρκία-ανθρώπου!⇒DissObesity, {2012-08-14}
     <a class="clsHide" href="#idDssHmn199nam"></a></p>
   <p id="idDssHmn199gntr">generic-tree::
     <br>* McshEngl.DissObesity_Gntr,
@@ -11955,8 +11955,8 @@
     <br>* McshEngl.disease.undernourishment-200!⇒DissUndernourishment,
     <br>* McshEngl.undernourishment!⇒DissUndernourishment,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.υποσιτισμος!=DissUndernourishment,
-    <br>* McshElln.υποσιτισμος!=DissUndernourishment,
+    <br>* McshElln.πάθηση.υποσιτισμος!⇒DissUndernourishment,
+    <br>* McshElln.υποσιτισμος!⇒DissUndernourishment,
     <a class="clsHide" href="#idDssHmn200nam"></a></p>
   <p id="idDssHmn200gntr">generic-tree::
     <br>* McshEngl.DissUndernourishment_Gntr,
@@ -11985,8 +11985,8 @@
     <br>* McshEngl.insomnia!⇒DissInsomnia,
     <br>* McshEngl.sleeplessness!⇒DissInsomnia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αϋπνία!=DissInsomnia,
-    <br>* McshElln.αϋπνία!=DissInsomnia,
+    <br>* McshElln.πάθηση.αϋπνία!⇒DissInsomnia,
+    <br>* McshElln.αϋπνία!⇒DissInsomnia,
     <a class="clsHide" href="#idDssHmn209nam"></a></p>
   <p id="idDssHmn209gntr">generic-tree::
     <br>* McshEngl.DissInsomnia_Gntr,
@@ -12077,9 +12077,9 @@
     <br>* McshEngl.disease.contraception-210!⇒DissContraception,
     <br>* McshEngl.contraception!⇒DissContraception,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ανεπιθυμητη-συλληψη!=DissContraception,
-    <br>* McshElln.ανεπιθυμητη-συλληψη!=DissContraception,
-    <br>* McshElln.αντισυλληψη!=DissContraception,
+    <br>* McshElln.πάθηση.ανεπιθυμητη-συλληψη!⇒DissContraception,
+    <br>* McshElln.ανεπιθυμητη-συλληψη!⇒DissContraception,
+    <br>* McshElln.αντισυλληψη!⇒DissContraception,
     <a class="clsHide" href="#idDssHmn210nam"></a></p>
   <p id="idDssHmn210gntr">generic-tree::
     <br>* McshEngl.DissContraception_Gntr,
@@ -12173,9 +12173,9 @@
     <br>* McshEngl.disease.reproduction-211!⇒DissReproduction,
     <br>* McshEngl.reproduction-disease!⇒DissReproduction,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αναπαραγωγης-πάθηση!=DissReproduction,
-    <br>* McshElln.αναπαραγωγης-πάθηση!=DissReproduction,
-    <br>* McshElln.πάθηση.αναπαραγωγη!=DissReproduction,
+    <br>* McshElln.πάθηση.αναπαραγωγης-πάθηση!⇒DissReproduction,
+    <br>* McshElln.αναπαραγωγης-πάθηση!⇒DissReproduction,
+    <br>* McshElln.πάθηση.αναπαραγωγη!⇒DissReproduction,
     <a class="clsHide" href="#idDssHmn211nam"></a></p>
 
   <section id="idDssHmn211cause">
@@ -12213,7 +12213,7 @@
     <br>* McshEngl.libido!⇒DissSexual_desire, {2012-05-04}
     <br>* McshEngl.sexual-desire-desease!⇒DissSexual_desire, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.σεξουαλικης/ερωτικης-επιθυμιας!=DissSexual_desire,
+    <br>* McshElln.πάθηση.σεξουαλικης/ερωτικης-επιθυμιας!⇒DissSexual_desire,
     <a class="clsHide" href="#idDssHmn217nam"></a></p>
   <p id="idDssHmn217gntr">generic-tree::
     <br>* McshEngl.DissSexual_desire_Gntr,
@@ -12332,10 +12332,10 @@
     <br>* McshEngl.foodborne-disease!⇒DissFood_poisoning, {2012-07-31}
     <br>* McshEngl.foodborne-illness!⇒DissFood_poisoning, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.δηλητηριαση'τροφικη!=DissFood_poisoning,
-    <br>* McshElln.δηλητηριαση'τροφικη!=DissFood_poisoning,
-    <br>* McshElln.στομαχου-δηλητηριαση!=DissFood_poisoning,
-    <br>* McshElln.τροφικη-δηλητηριαση!=DissFood_poisoning,
+    <br>* McshElln.πάθηση.δηλητηριαση'τροφικη!⇒DissFood_poisoning,
+    <br>* McshElln.δηλητηριαση'τροφικη!⇒DissFood_poisoning,
+    <br>* McshElln.στομαχου-δηλητηριαση!⇒DissFood_poisoning,
+    <br>* McshElln.τροφικη-δηλητηριαση!⇒DissFood_poisoning,
     <a class="clsHide" href="#idDssHmn213nam"></a></p>
   <p id="idDssHmn213gntr">generic-tree::
     <br>* McshEngl.DissFood_poisoning_Gntr,
@@ -12377,8 +12377,8 @@
     <br>* McshEngl.constipation!⇒DissConstipation,
     <br>* McshEngl.costiveness!⇒DissConstipation,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.δισκοιλιότητα!=DissConstipation,
-    <br>* McshElln.δισκοιλιότητα!=DissConstipation,
+    <br>* McshElln.πάθηση.δισκοιλιότητα!⇒DissConstipation,
+    <br>* McshElln.δισκοιλιότητα!⇒DissConstipation,
     <a class="clsHide" href="#idDssHmn214nam"></a></p>
 
   <section id="idDssHmn214therapy">
@@ -12416,8 +12416,8 @@
     <br>* McshEngl.disease.faint-221!⇒DissFaint,
     <br>* McshEngl.faint!⇒DissFaint,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.λιποθυμία!=DissFaint,
-    <br>* McshElln.λιποθυμία!=DissFaint,
+    <br>* McshElln.πάθηση.λιποθυμία!⇒DissFaint,
+    <br>* McshElln.λιποθυμία!⇒DissFaint,
     <a class="clsHide" href="#idDssHmn221nam"></a></p>
   <p id="idDssHmn221gntr">generic-tree::
     <br>* McshEngl.DissFaint_Gntr,
@@ -12487,8 +12487,8 @@
     <br>* McshEngl.gastric-ulcer!⇒DissPeptic_ulcer, {2012-07-31}
     <br>* McshEngl.peptic-ulcer!⇒DissPeptic_ulcer, {2012-08-13}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πεπτικό-έλκος!=DissPeptic_ulcer,
-    <br>* McshElln.πεπτικό-έλκος!=DissPeptic_ulcer, {2012-08-13}
+    <br>* McshElln.πάθηση.πεπτικό-έλκος!⇒DissPeptic_ulcer,
+    <br>* McshElln.πεπτικό-έλκος!⇒DissPeptic_ulcer, {2012-08-13}
     <a class="clsHide" href="#idDssHmn216nam"></a></p>
   <p id="idDssHmn216wtr">whole-tree-of-DissPepticulcer::
     <br>* <a class="clsPreview" href="#idDssHmn074">stomach</a>,
@@ -12555,8 +12555,8 @@
     <br>* McshEngl.disease.eczema-212!⇒DissEczema,
     <br>* McshEngl.eczema!⇒DissEczema,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.έκζεμα!=DissEczema,
-    <br>* McshElln.έκζεμα!=DissEczema,
+    <br>* McshElln.πάθηση.έκζεμα!⇒DissEczema,
+    <br>* McshElln.έκζεμα!⇒DissEczema,
     <a class="clsHide" href="#idDssHmn212nam"></a></p>
   <p id="idDssHmn212gntr">generic-tree::
     <br>* McshEngl.DissEczema_Gntr,
@@ -12591,8 +12591,8 @@
     <br>* McshEngl.disease.herpes-208!⇒DissHerpes,
     <br>* McshEngl.herpes!⇒DissHerpes,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.έρπης!=DissHerpes,
-    <br>* McshElln.έρπης!=DissHerpes,
+    <br>* McshElln.πάθηση.έρπης!⇒DissHerpes,
+    <br>* McshElln.έρπης!⇒DissHerpes,
     <a class="clsHide" href="#idDssHmn208nam"></a></p>
 
   <section id="idDssHmn208therapy">
@@ -12673,9 +12673,9 @@
     <br>* McshEngl.burn-disease!⇒DissBurn,
     <br>* McshEngl.scald!⇒DissBurn,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.έγκαυμα!=DissBurn,
-    <br>* McshElln.έγκαυμα!=DissBurn,
-    <br>* McshElln.κάψιμο!=DissBurn,
+    <br>* McshElln.πάθηση.έγκαυμα!⇒DissBurn,
+    <br>* McshElln.έγκαυμα!⇒DissBurn,
+    <br>* McshElln.κάψιμο!⇒DissBurn,
     <a class="clsHide" href="#idDssHmn207nam"></a></p>
   <p id="idDssHmn207gntr">generic-tree::
     <br>* McshEngl.DissBurn_Gntr,
@@ -12768,8 +12768,8 @@
     <br>* McshEngl.DissStingJellyfish!⇒DissJellyfish_stinging,
     <br>* McshEngl.sting-of-stinging-jellyfish!⇒DissJellyfish_stinging,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.τσίμπημα-τσούχτρας!=DissJellyfish_stinging,
-    <br>* McshElln.τσίμπημα-τσούχτρας!=DissJellyfish_stinging,
+    <br>* McshElln.πάθηση.τσίμπημα-τσούχτρας!⇒DissJellyfish_stinging,
+    <br>* McshElln.τσίμπημα-τσούχτρας!⇒DissJellyfish_stinging,
     <a class="clsHide" href="#idDssHmn201nam"></a></p>
   <p id="idDssHmn201P1">τα πλοκάμια τους έχουν κύτταρα που εκρίνουν δηλητήριο σε επαφή με το δέρμα.
     <a class="clsHide" href="#idDssHmn201P1"></a></p>
@@ -12812,8 +12812,8 @@
     <br>* McshEngl.DissStingInsect!⇒DissInsect_bite,
     <br>* McshEngl.insect-sting!⇒DissInsect_bite,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.τσίμπημα-εντόμων!=DissInsect_bite,
-    <br>* McshElln.τσίμπημα-εντόμων!=DissInsect_bite,
+    <br>* McshElln.πάθηση.τσίμπημα-εντόμων!⇒DissInsect_bite,
+    <br>* McshElln.τσίμπημα-εντόμων!⇒DissInsect_bite,
     <a class="clsHide" href="#idDssHmn202nam"></a></p>
   <p id="idDssHmn202gntr">generic-tree::
     <br>* McshEngl.DissInsect_bite_Gntr,
@@ -12902,8 +12902,8 @@
     <br>* McshEngl.disease.alopecia-204!⇒DissHair_loss,
     <br>* McshEngl.disease.hair-loss-204!⇒DissHair_loss,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.μαλλιών-πέσιμο!=DissHair_loss,
-    <br>* McshElln.μαλλιών-πέσιμο!=DissHair_loss,
+    <br>* McshElln.πάθηση.μαλλιών-πέσιμο!⇒DissHair_loss,
+    <br>* McshElln.μαλλιών-πέσιμο!⇒DissHair_loss,
     <a class="clsHide" href="#idDssHmn204nam"></a></p>
   <p id="idDssHmn204gntr">generic-tree::
     <br>* McshEngl.DissHair_loss_Gntr,
@@ -12966,8 +12966,8 @@
     <br>* McshEngl.disease.dandruff-205!⇒DissDandruff,
     <br>* McshEngl.dandruff!⇒DissDandruff,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πιτυρίδα!=DissDandruff,
-    <br>* McshElln.πιτυρίδα!=DissDandruff,
+    <br>* McshElln.πάθηση.πιτυρίδα!⇒DissDandruff,
+    <br>* McshElln.πιτυρίδα!⇒DissDandruff,
     <a class="clsHide" href="#idDssHmn205nam"></a></p>
   <p id="idDssHmn205gntr">generic-tree::
     <br>* McshEngl.DissDandruff_Gntr,
@@ -13002,8 +13002,8 @@
     <br>* McshEngl.disease.photochemical-allergy-206!⇒DissPhotochemical_allergy,
     <br>* McshEngl.photochemical-allergy!⇒DissPhotochemical_allergy, {2012-07-31}
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.φωτοχημική-αλεργία!=DissPhotochemical_allergy,
-    <br>* McshElln.φωτοχημικη-αλεργία!=DissPhotochemical_allergy,
+    <br>* McshElln.πάθηση.φωτοχημική-αλεργία!⇒DissPhotochemical_allergy,
+    <br>* McshElln.φωτοχημικη-αλεργία!⇒DissPhotochemical_allergy,
     <a class="clsHide" href="#idDssHmn206nam"></a></p>
   <p id="idDssHmn206gntr">generic-tree::
     <br>* McshEngl.DissPhotochemical_allergy_Gntr,
@@ -13096,8 +13096,8 @@
     <br>* McshEngl.muscle-atrophy!⇒DissMuscle_atrophy, {2012-07-31}
     <br>* McshEngl.DissMuscle.muscle-atrophy-196!⇒DissMuscle_atrophy,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ατροφία-μυός!=DissMuscle_atrophy,
-    <br>* McshElln.ατροφία-μυός!=DissMuscle_atrophy,
+    <br>* McshElln.πάθηση.ατροφία-μυός!⇒DissMuscle_atrophy,
+    <br>* McshElln.ατροφία-μυός!⇒DissMuscle_atrophy,
     <a class="clsHide" href="#idDssHmn196nam"></a></p>
   <p id="idDssHmn196gntr">generic-tree::
     <br>* McshEngl.DissMuscle_atrophy_Gntr,
@@ -13137,8 +13137,8 @@
     <br>* McshEngl.cramp!⇒DissCramp,
     <br>* McshEngl.DissMuscle.cramp-135!⇒DissCramp,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.κράμπα!=DissCramp,
-    <br>* McshElln.κράμπα!=DissCramp,
+    <br>* McshElln.πάθηση.κράμπα!⇒DissCramp,
+    <br>* McshElln.κράμπα!⇒DissCramp,
     <a class="clsHide" href="#idDssHmn135nam"></a></p>
   <p id="idDssHmn135gntr">generic-tree::
     <br>* McshEngl.DissCramp_Gntr,
@@ -13274,8 +13274,8 @@
     <br>* McshEngl.dental-caries!⇒DissCaries,
     <br>* McshEngl.tooth-decay!⇒DissCaries,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.τερηδόνα!=DissCaries,
-    <br>* McshElln.τερηδόνα!=DissCaries,
+    <br>* McshElln.πάθηση.τερηδόνα!⇒DissCaries,
+    <br>* McshElln.τερηδόνα!⇒DissCaries,
     <a class="clsHide" href="#idDssHmn177nam"></a></p>
   <p id="idDssHmn177gntr">generic-tree::
     <br>* McshEngl.DissCaries_Gntr,
@@ -13329,9 +13329,9 @@
     <br>* McshEngl.disease.jaundice-121!⇒DissJaundice,
     <br>* McshEngl.jaundice!⇒DissJaundice, /jjóndis/,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ίκτερος!=DissJaundice,
-    <br>* McshElln.ίκτερος!=DissJaundice,
-    <br>* McshElln.χρυσή-πάθηση!=DissJaundice,
+    <br>* McshElln.πάθηση.ίκτερος!⇒DissJaundice,
+    <br>* McshElln.ίκτερος!⇒DissJaundice,
+    <br>* McshElln.χρυσή-πάθηση!⇒DissJaundice,
     <a class="clsHide" href="#idDssHmn121nam"></a></p>
   <p id="idDssHmn121gntr">generic-tree::
     <br>* McshEngl.DissJaundice_Gntr,
@@ -13353,9 +13353,9 @@
     <br>* McshEngl.disease.obstructive-jaundice-122!⇒DissObstructive_jaundice,
     <br>* McshEngl.obstructive-jaundice!⇒DissObstructive_jaundice,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αποφρακτικός-ίκτερος!=DissObstructive_jaundice,
-    <br>* McshElln.αποφρακτικός-ίκτερος!=DissObstructive_jaundice,
-    <br>* McshElln.ίκτερος.αποφρακτικός!=DissObstructive_jaundice,
+    <br>* McshElln.πάθηση.αποφρακτικός-ίκτερος!⇒DissObstructive_jaundice,
+    <br>* McshElln.αποφρακτικός-ίκτερος!⇒DissObstructive_jaundice,
+    <br>* McshElln.ίκτερος.αποφρακτικός!⇒DissObstructive_jaundice,
     <a class="clsHide" href="#idDssHmn122nam"></a></p>
   <p id="idDssHmn122gntr">generic-tree::
     <br>* McshEngl.DissObstructive_jaundice_Gntr,
@@ -13382,8 +13382,8 @@
     <br>* McshEngl.disease.cholecystitis-123!⇒DissCholecystitis,
     <br>* McshEngl.cholecystitis!⇒DissCholecystitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.χολοκυστίτιδα!=DissCholecystitis,
-    <br>* McshElln.χολοκυστίτιδα!=DissCholecystitis,
+    <br>* McshElln.πάθηση.χολοκυστίτιδα!⇒DissCholecystitis,
+    <br>* McshElln.χολοκυστίτιδα!⇒DissCholecystitis,
     <a class="clsHide" href="#idDssHmn123nam"></a></p>
   <p id="idDssHmn123gntr">generic-tree::
     <br>* McshEngl.DissCholecystitis_Gntr,
@@ -13411,8 +13411,8 @@
     <br>* McshEngl.disease.gallstone-125!⇒DissGallstone,
     <br>* McshEngl.gallstone-disease!⇒DissGallstone,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.χολολιθίαση!=DissGallstone,
-    <br>* McshElln.χολολιθίαση!=DissGallstone,
+    <br>* McshElln.πάθηση.χολολιθίαση!⇒DissGallstone,
+    <br>* McshElln.χολολιθίαση!⇒DissGallstone,
     <a class="clsHide" href="#idDssHmn125nam"></a></p>
   <p id="idDssHmn125gntr">generic-tree::
     <br>* McshEngl.DissGallstone_Gntr,
@@ -13438,8 +13438,8 @@
     <br>* McshEngl.disease.cryptorchidism-109!⇒DissCryptorchidism,
     <br>* McshEngl.cryptorchidism!⇒DissCryptorchidism,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.κρυψορχία!=DissCryptorchidism,
-    <br>* McshElln.κρυψορχία!=DissCryptorchidism,
+    <br>* McshElln.πάθηση.κρυψορχία!⇒DissCryptorchidism,
+    <br>* McshElln.κρυψορχία!⇒DissCryptorchidism,
     <a class="clsHide" href="#idDssHmn109nam"></a></p>
   <p id="idDssHmn109gntr">generic-tree::
     <br>* McshEngl.DissCryptorchidism_Gntr,
@@ -13478,8 +13478,8 @@
     <br>* McshEngl.disease.parkinson-129!⇒DissParkinson,
     <br>* McshEngl.parkinson-disease!⇒DissParkinson,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πάρκινσον!=DissParkinson,
-    <br>* McshElln.πάρκινσον!=DissParkinson,
+    <br>* McshElln.πάθηση.πάρκινσον!⇒DissParkinson,
+    <br>* McshElln.πάρκινσον!⇒DissParkinson,
     <a class="clsHide" href="#idDssHmn129nam"></a></p>
   <p id="idDssHmn129gntr">generic-tree::
     <br>* McshEngl.DissParkinson_Gntr,
@@ -13530,9 +13530,9 @@
     <br>* McshEngl.disease.whooping-cough-131!⇒DissWhooping_cough,
     <br>* McshEngl.whooping-cough!⇒DissWhooping_cough,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.κοκίτης!=DissWhooping_cough,
-    <br>* McshElln.κοκίτης!=DissWhooping_cough,
-    <br>* McshElln.κοκκύτης!=DissWhooping_cough,
+    <br>* McshElln.πάθηση.κοκίτης!⇒DissWhooping_cough,
+    <br>* McshElln.κοκίτης!⇒DissWhooping_cough,
+    <br>* McshElln.κοκκύτης!⇒DissWhooping_cough,
     <a class="clsHide" href="#idDssHmn131nam"></a></p>
   <p id="idDssHmn131gntr">generic-tree::
     <br>* McshEngl.DissWhooping_cough_Gntr,
@@ -13637,10 +13637,10 @@
     <br>* McshEngl.disease.pneumonia-133!⇒DissPneumonia,
     <br>* McshEngl.pneumonia!⇒DissPneumonia,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.λοίμωξη-των-πνευμόνων!=DissPneumonia,
-    <br>* McshElln.λοίμωξη-των-πνευμόνων!=DissPneumonia,
-    <br>* McshElln.πνευμονία!=DissPneumonia,
-    <br>* McshElln.πνευμονική-λοίμωξη!=DissPneumonia,
+    <br>* McshElln.πάθηση.λοίμωξη-των-πνευμόνων!⇒DissPneumonia,
+    <br>* McshElln.λοίμωξη-των-πνευμόνων!⇒DissPneumonia,
+    <br>* McshElln.πνευμονία!⇒DissPneumonia,
+    <br>* McshElln.πνευμονική-λοίμωξη!⇒DissPneumonia,
     <a class="clsHide" href="#idDssHmn133nam"></a></p>
   <p id="idDssHmn133gntr">generic-tree::
     <br>* McshEngl.DissPneumonia_Gntr,
@@ -13664,8 +13664,8 @@
     <br>* McshEngl.AMS!=acute-mountain-sickness,
     <br>* McshEngl.acute-mountain-sickness!⇒DissAms,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.οξεία-νόσος-των-ορέων!=DissAms,
-    <br>* McshElln.οξεία-νόσος-των-ορέων!=DissAms,
+    <br>* McshElln.πάθηση.οξεία-νόσος-των-ορέων!⇒DissAms,
+    <br>* McshElln.οξεία-νόσος-των-ορέων!⇒DissAms,
     <a class="clsHide" href="#idDssHmn136nam"></a></p>
   <p id="idDssHmn136gntr">generic-tree::
     <br>* McshEngl.DissAms_Gntr,
@@ -13745,8 +13745,8 @@
     <br>* McshEngl.disease.esophagitis-137!⇒DissEsophagitis,
     <br>* McshEngl.esophagitis!⇒DissEsophagitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.οισοφαγίτιδα!=DissEsophagitis,
-    <br>* McshElln.οισοφαγίτιδα!=DissEsophagitis,
+    <br>* McshElln.πάθηση.οισοφαγίτιδα!⇒DissEsophagitis,
+    <br>* McshElln.οισοφαγίτιδα!⇒DissEsophagitis,
     <a class="clsHide" href="#idDssHmn137nam"></a></p>
 
   <section id="idDssHmn137therapy">
@@ -13815,12 +13815,12 @@
     <br>* McshEngl.disease.headache-138!⇒FctgPainingHead,
     <br>* McshEngl.headache!⇒FctgPainingHead,
     <br>====== lagoChinese:
-    <br>* McshZhon.tóutòng-头痛!=FctgPainingHead,
-    <br>* McshZhon.头痛-tóutòng!=FctgPainingHead,
+    <br>* McshZhon.tóutòng-头痛!⇒FctgPainingHead,
+    <br>* McshZhon.头痛-tóutòng!⇒FctgPainingHead,
     <br>====== lagoGreek:
-    <br>* McshElln.κεφαλαλγία!=FctgPainingHead,
-    <br>* McshElln.πάθηση.πονοκέφαλος!=FctgPainingHead,
-    <br>* McshElln.πονοκέφαλος!=FctgPainingHead,
+    <br>* McshElln.κεφαλαλγία!⇒FctgPainingHead,
+    <br>* McshElln.πάθηση.πονοκέφαλος!⇒FctgPainingHead,
+    <br>* McshElln.πονοκέφαλος!⇒FctgPainingHead,
     <a class="clsHide" href="#idDssHmn138nam"></a></p>
 
   <section id="idDssHmn138therapy">
@@ -13956,8 +13956,8 @@
     <br>* McshEngl.migraine!⇒DissMigraine,
     <br>* McshEngl.FctgPainingHead.migraine-085!⇒DissMigraine,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ημικρανία!=DissMigraine,
-    <br>* McshElln.ημικρανία!=DissMigraine,
+    <br>* McshElln.πάθηση.ημικρανία!⇒DissMigraine,
+    <br>* McshElln.ημικρανία!⇒DissMigraine,
     <a class="clsHide" href="#idDssHmn085nam"></a></p>
 
   <section id="idDssHmn085therapy">
@@ -13998,7 +13998,7 @@
     <br>* McshEngl.headache.tension-086!⇒DissHeadache.tension,
     <br>* McshEngl.FctgPainingHead.tension-headache-086!⇒DissHeadache.tension,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πονοκέφαλος-έντασης!=DissHeadache.tension,
+    <br>* McshElln.πάθηση.πονοκέφαλος-έντασης!⇒DissHeadache.tension,
     <a class="clsHide" href="#idDssHmn086nam"></a></p>
   </section>
 
@@ -14018,7 +14018,7 @@
     <br>* McshEngl.headache.cumulative-087!⇒DissHeadache.cumulative,
     <br>* McshEngl.FctgPainingHead.cumulative-headache-087!⇒DissHeadache.cumulative,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πονοκέφαλος-σωρευτικός!=DissHeadache.cumulative,
+    <br>* McshElln.πάθηση.πονοκέφαλος-σωρευτικός!⇒DissHeadache.cumulative,
     <a class="clsHide" href="#idDssHmn087nam"></a></p>
   </section>
   </section>
@@ -14037,8 +14037,8 @@
     <br>* McshEngl.DissSigella!⇒DissGastroenteritis_sigkella,
     <br>* McshEngl.gastroenteritis-sigella!⇒DissGastroenteritis_sigkella,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.σιγκέλλα!=DissGastroenteritis_sigkella,
-    <br>* McshElln.σιγκέλλα!=DissGastroenteritis_sigkella,
+    <br>* McshElln.πάθηση.σιγκέλλα!⇒DissGastroenteritis_sigkella,
+    <br>* McshElln.σιγκέλλα!⇒DissGastroenteritis_sigkella,
     <a class="clsHide" href="#idDssHmn140nam"></a></p>
   <p id="idDssHmn140gntr">generic-tree::
     <br>* McshEngl.DissGastroenteritis_sigkella_Gntr,
@@ -14120,8 +14120,8 @@
     <br>* McshEngl.disease.malaria-141!⇒DissMalaria,
     <br>* McshEngl.malaria!⇒DissMalaria,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ελονοσία!=DissMalaria,
-    <br>* McshElln.ελονοσία!=DissMalaria,
+    <br>* McshElln.πάθηση.ελονοσία!⇒DissMalaria,
+    <br>* McshElln.ελονοσία!⇒DissMalaria,
     <a class="clsHide" href="#idDssHmn141nam"></a></p>
   <p id="idDssHmn141gntr">generic-tree::
     <br>* McshEngl.DissMalaria_Gntr,
@@ -14174,8 +14174,8 @@
     <br>* McshEngl.disease.bronchiolitis-142!⇒DissBronchiolitis,
     <br>* McshEngl.bronchiolitis!⇒DissBronchiolitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.βρογχιολίτιδα!=DissBronchiolitis,
-    <br>* McshElln.βρογχιολίτιδα!=DissBronchiolitis,
+    <br>* McshElln.πάθηση.βρογχιολίτιδα!⇒DissBronchiolitis,
+    <br>* McshElln.βρογχιολίτιδα!⇒DissBronchiolitis,
     <a class="clsHide" href="#idDssHmn142nam"></a></p>
   <p id="idDssHmn142gntr">generic-tree::
     <br>* McshEngl.DissBronchiolitis_Gntr,
@@ -14335,8 +14335,8 @@
     <br>* McshEngl.disease.inflammation-143!⇒DissInflammation,
     <br>* McshEngl.inflammation!⇒DissInflammation,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.φλεγμονή!=DissInflammation,
-    <br>* McshElln.φλεγμονή!=DissInflammation,
+    <br>* McshElln.πάθηση.φλεγμονή!⇒DissInflammation,
+    <br>* McshElln.φλεγμονή!⇒DissInflammation,
     <a class="clsHide" href="#idDssHmn143nam"></a></p>
   <p id="idDssHmn143gntr">generic-tree::
     <br>* McshEngl.DissInflammation_Gntr,
@@ -14364,8 +14364,8 @@
     <br>* McshEngl.DissAsthma!⇒DissBronchial_asthma,
     <br>* McshEngl.asthma!⇒DissBronchial_asthma,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.άσθμα!=DissBronchial_asthma,
-    <br>* McshElln.ασθμα!=DissBronchial_asthma,
+    <br>* McshElln.πάθηση.άσθμα!⇒DissBronchial_asthma,
+    <br>* McshElln.ασθμα!⇒DissBronchial_asthma,
     <a class="clsHide" href="#idDssHmn144nam"></a></p>
   <p id="idDssHmn144gntr">generic-tree::
     <br>* McshEngl.DissBronchial_asthma_Gntr,
@@ -14458,8 +14458,8 @@
     <br>* McshEngl.disease.allergy-145!⇒DissAllergy,
     <br>* McshEngl.allergy!⇒DissAllergy,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αλλεργία!=DissAllergy,
-    <br>* McshElln.αλλεργία!=DissAllergy,
+    <br>* McshElln.πάθηση.αλλεργία!⇒DissAllergy,
+    <br>* McshElln.αλλεργία!⇒DissAllergy,
     <a class="clsHide" href="#idDssHmn145nam"></a></p>
 
   <section id="idDssHmn146">
@@ -14531,8 +14531,8 @@
     <br>* McshEngl.disease.emphysema-148!⇒DissEmphysema,
     <br>* McshEngl.emphysema!⇒DissEmphysema,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.εμφύσημα!=DissEmphysema,
-    <br>* McshElln.εμφύσημα!=DissEmphysema,
+    <br>* McshElln.πάθηση.εμφύσημα!⇒DissEmphysema,
+    <br>* McshElln.εμφύσημα!⇒DissEmphysema,
     <a class="clsHide" href="#idDssHmn148nam"></a></p>
   </section>
 
@@ -14549,9 +14549,9 @@
     <br>* McshEngl.disease.gastroesophageal-reflux-149!⇒DissGastroesophageal_reflux,
     <br>* McshEngl.gastroesophageal-reflux-disease!⇒DissGastroesophageal_reflux,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.γαστροοισοφαγική-παλινδρόμηση!=DissGastroesophageal_reflux,
-    <br>* McshElln.γαστροοισοφαγική-παλινδρόμηση!=DissGastroesophageal_reflux,
-    <br>* McshElln.παλινδρόμηση!=DissGastroesophageal_reflux,
+    <br>* McshElln.πάθηση.γαστροοισοφαγική-παλινδρόμηση!⇒DissGastroesophageal_reflux,
+    <br>* McshElln.γαστροοισοφαγική-παλινδρόμηση!⇒DissGastroesophageal_reflux,
+    <br>* McshElln.παλινδρόμηση!⇒DissGastroesophageal_reflux,
     <a class="clsHide" href="#idDssHmn149nam"></a></p>
   <p id="idDssHmn149gntr">generic-tree::
     <br>* McshEngl.DissGastroesophageal_reflux_Gntr,
@@ -14589,8 +14589,8 @@
     <br>* McshEngl.disease.arthritis-150!⇒DissArthritis,
     <br>* McshEngl.arthritis!⇒DissArthritis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αρθρίτιδα!=DissArthritis,
-    <br>* McshElln.αρθρίτιδα!=DissArthritis,
+    <br>* McshElln.πάθηση.αρθρίτιδα!⇒DissArthritis,
+    <br>* McshElln.αρθρίτιδα!⇒DissArthritis,
     <a class="clsHide" href="#idDssHmn150nam"></a></p>
   <p id="idDssHmn150gntr">generic-tree::
     <br>* McshEngl.DissArthritis_Gntr,
@@ -14636,8 +14636,8 @@
     <br>* McshEngl.disease.stroke-151!⇒DissStroke,
     <br>* McshEngl.stroke!⇒DissStroke,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.εγκεφαλικό!=DissStroke,
-    <br>* McshElln.εγκεφαλικό-επεισόδιο!=DissStroke,
+    <br>* McshElln.πάθηση.εγκεφαλικό!⇒DissStroke,
+    <br>* McshElln.εγκεφαλικό-επεισόδιο!⇒DissStroke,
     <a class="clsHide" href="#idDssHmn151nam"></a></p>
   <p id="idDssHmn151gntr">generic-tree::
     <br>* McshEngl.DissStroke_Gntr,
@@ -14737,8 +14737,8 @@
     <br>* McshEngl.disease.tachypnea-088!⇒DissTachypnea,
     <br>* McshEngl.tachypnea!⇒DissTachypnea,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ταχύπνοια!=DissTachypnea,
-    <br>* McshElln.ταχύπνοια!=DissTachypnea,
+    <br>* McshElln.πάθηση.ταχύπνοια!⇒DissTachypnea,
+    <br>* McshElln.ταχύπνοια!⇒DissTachypnea,
     <a class="clsHide" href="#idDssHmn088nam"></a></p>
 
   <section id="idDssHmn0882">
@@ -14788,8 +14788,8 @@
     <br>* McshEngl.flat-feet!⇒DissFlat_feet, {2012-07-31}
     <br>* McshEngl.foot-arch--disease!⇒DissFlat_feet,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πλατυποδία!=DissFlat_feet,
-    <br>* McshElln.πλατυποδία!=DissFlat_feet,
+    <br>* McshElln.πάθηση.πλατυποδία!⇒DissFlat_feet,
+    <br>* McshElln.πλατυποδία!⇒DissFlat_feet,
     <a class="clsHide" href="#idDssHmn099nam"></a></p>
   <p id="idDssHmn099gntr">generic-tree::
     <br>* McshEngl.DissFlat_feet_Gntr,
@@ -14818,8 +14818,8 @@
     <br>* McshEngl.info-tech-defect!⇒DissInfo_tech,
     <br>* McshEngl.health-and-computer!⇒DissInfo_tech,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.υγεία-και-κομπιούτερ!=DissInfo_tech,
-    <br>* McshElln.υγεία-και-κομπιούτερ!=DissInfo_tech,
+    <br>* McshElln.πάθηση.υγεία-και-κομπιούτερ!⇒DissInfo_tech,
+    <br>* McshElln.υγεία-και-κομπιούτερ!⇒DissInfo_tech,
     <a class="clsHide" href="#idDssHmn089nam"></a></p>
   <p id="idDssHmn089gntr">generic-tree::
     <br>* McshEngl.DissInfo_tech_Gntr,
@@ -14983,8 +14983,8 @@
     <br>* McshEngl.disease.poisoning-153!⇒DissPoisoning,
     <br>* McshEngl.poisoning!⇒DissPoisoning,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.δηλητηρίαση!=DissPoisoning,
-    <br>* McshElln.δηλητηρίαση!=DissPoisoning,
+    <br>* McshElln.πάθηση.δηλητηρίαση!⇒DissPoisoning,
+    <br>* McshElln.δηλητηρίαση!⇒DissPoisoning,
     <a class="clsHide" href="#idDssHmn153nam"></a></p>
   </section>
 
@@ -15002,8 +15002,8 @@
     <br>* McshEngl.disease.bronchiectasis-154!⇒DissBronchiectasis,
     <br>* McshEngl.bronchiectasis!⇒DissBronchiectasis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.βρογχοέκταση!=DissBronchiectasis,
-    <br>* McshElln.βρογχοέκταση!=DissBronchiectasis,
+    <br>* McshElln.πάθηση.βρογχοέκταση!⇒DissBronchiectasis,
+    <br>* McshElln.βρογχοέκταση!⇒DissBronchiectasis,
     <a class="clsHide" href="#idDssHmn154nam"></a></p>
   </section>
 
@@ -15020,8 +15020,8 @@
     <br>* McshEngl.disease.cholera-155!⇒DissCholera,
     <br>* McshEngl.cholera!⇒DissCholera,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.χολέρα!=DissCholera,
-    <br>* McshElln.χολέρα!=DissCholera,
+    <br>* McshElln.πάθηση.χολέρα!⇒DissCholera,
+    <br>* McshElln.χολέρα!⇒DissCholera,
     <a class="clsHide" href="#idDssHmn155nam"></a></p>
   <p id="idDssHmn155gntr">generic-tree::
     <br>* McshEngl.DissCholera_Gntr,
@@ -15067,8 +15067,8 @@
     <br>* McshEngl.disease.otitis-156!⇒DissOtitis,
     <br>* McshEngl.otitis.human!⇒DissOtitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ωτίτιδα!=DissOtitis,
-    <br>* McshElln.ωτίτιδα!=DissOtitis,
+    <br>* McshElln.πάθηση.ωτίτιδα!⇒DissOtitis,
+    <br>* McshElln.ωτίτιδα!⇒DissOtitis,
     <a class="clsHide" href="#idDssHmn156nam"></a></p>
   <p id="idDssHmn156gntr">generic-tree::
     <br>* McshEngl.DissOtitis_Gntr,
@@ -15116,7 +15116,7 @@
     <br>* McshEngl.disease.stomach-092!⇒disease.stomack,
     <br>* McshEngl.stomach-disease!⇒disease.stomack,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.στομαχιού!=disease.stomack,
+    <br>* McshElln.πάθηση.στομαχιού!⇒disease.stomack,
     <a class="clsHide" href="#idDssHmn092nam"></a></p>
 
   <section id="idDssHmn093">
@@ -15134,7 +15134,7 @@
     <br>* McshEngl.gastritis-disease-093!⇒disease.gastritis,
     <br>* McshEngl.disease.stomack.gastritis-093!⇒disease.gastritis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.γαστρίτιδα!=disease.gastritis,
+    <br>* McshElln.πάθηση.γαστρίτιδα!⇒disease.gastritis,
     <a class="clsHide" href="#idDssHmn093nam"></a></p>
   </section>
 
@@ -15199,8 +15199,8 @@
     <br>* McshEngl.heartburn-disease-094!⇒disease.heartburn,
     <br>* McshEngl.disease.stomack.heartburn!⇒disease.heartburn,
     <br>====== lagoGreek:
-    <br>* McshElln.καούρα-στο-στομάχι!=disease.heartburn,
-    <br>* McshElln.πάθηση.καούρα-στο-στομάχι!=disease.heartburn,
+    <br>* McshElln.καούρα-στο-στομάχι!⇒disease.heartburn,
+    <br>* McshElln.πάθηση.καούρα-στο-στομάχι!⇒disease.heartburn,
     <a class="clsHide" href="#idDssHmn094nam"></a></p>
   </section>
 
@@ -15241,7 +15241,7 @@
     <br>* McshEngl.stomach-pain-095!⇒stomach_pain,
     <br>* McshEngl.disease.stomack.stomach-pain-095!⇒stomach_pain,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.στομαχιού-πόνος!=stomach_pain,
+    <br>* McshElln.πάθηση.στομαχιού-πόνος!⇒stomach_pain,
     <a class="clsHide" href="#idDssHmn095nam"></a></p>
   </section>
   </section>
@@ -15259,8 +15259,8 @@
     <br>* McshEngl.disease.stomatitis-157!⇒DissStomatitis,
     <br>* McshEngl.stomatitis!⇒DissStomatitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.στοματίτιδα!=DissStomatitis,
-    <br>* McshElln.στοματίτιδα!=DissStomatitis,
+    <br>* McshElln.πάθηση.στοματίτιδα!⇒DissStomatitis,
+    <br>* McshElln.στοματίτιδα!⇒DissStomatitis,
     <a class="clsHide" href="#idDssHmn157nam"></a></p>
   <p id="idDssHmn157gntr">generic-tree::
     <br>* McshEngl.DissStomatitis_Gntr,
@@ -15298,8 +15298,8 @@
     <br>* McshEngl.dehydration!⇒DissDehydration,
     <br>* McshEngl.hypohydration!⇒DissDehydration,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αφυδάτωση!=DissDehydration,
-    <br>* McshElln.αφυδάτωση!=DissDehydration,
+    <br>* McshElln.πάθηση.αφυδάτωση!⇒DissDehydration,
+    <br>* McshElln.αφυδάτωση!⇒DissDehydration,
     <a class="clsHide" href="#idDssHmn158nam"></a></p>
   <p id="idDssHmn158gntr">generic-tree::
     <br>* McshEngl.DissDehydration_Gntr,
@@ -15342,9 +15342,9 @@
     <br>* McshEngl.fluid-retention-disease!⇒DissEdema,
     <br>* McshEngl.swelling-disease!⇒DissEdema,
     <br>====== lagoGreek:
-    <br>* McshElln.οίδημα!το!=DissEdema,
-    <br>* McshElln.πάθηση.οίδημα!το!=DissEdema,
-    <br>* McshElln.πρήξιμο!το!=DissEdema,
+    <br>* McshElln.οίδημα!το!⇒DissEdema,
+    <br>* McshElln.πάθηση.οίδημα!το!⇒DissEdema,
+    <br>* McshElln.πρήξιμο!το!⇒DissEdema,
     <a class="clsHide" href="#idDssHmn098nam"></a></p>
   </section>
 
@@ -15366,8 +15366,8 @@
     <br>* McshEngl.disease.fever-159!⇒DissFever,
     <br>* McshEngl.fever!⇒DissFever,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.πυρετός!=DissFever,
-    <br>* McshElln.πυρετός!=DissFever,
+    <br>* McshElln.πάθηση.πυρετός!⇒DissFever,
+    <br>* McshElln.πυρετός!⇒DissFever,
     <a class="clsHide" href="#idDssHmn159nam"></a></p>
 
   <section id="idDssHmn159therapy">
@@ -15527,9 +15527,9 @@
     <br>* McshEngl.disease.cholesterolHumn-015!⇒DissCholesterol,
     <br>* McshEngl.cholesterolHumn'disease!⇒DissCholesterol,
     <br>====== lagoGreek:
-    <br>* McshElln.χοληστερίνης-πάθηση!=DissCholesterol, {2012-09-03}
-    <br>* McshElln.πάθηση.xοληστερίνη!=DissCholesterol, {2012-09-03}
-    <br>* McshElln.πάθηση-απο-χοληστερίνη!=DissCholesterol,
+    <br>* McshElln.χοληστερίνης-πάθηση!⇒DissCholesterol, {2012-09-03}
+    <br>* McshElln.πάθηση.xοληστερίνη!⇒DissCholesterol, {2012-09-03}
+    <br>* McshElln.πάθηση-απο-χοληστερίνη!⇒DissCholesterol,
     <a class="clsHide" href="#idDssHmn015nam"></a></p>
   <p id="idDssHmn015gntr">generic-tree::
     <br>* McshEngl.DissCholesterol_Gntr,
@@ -16145,8 +16145,8 @@
     <br>* McshEngl.disease.sinusitis-016!⇒DissSinusitis,
     <br>* McshEngl.sinusitis!⇒DissSinusitis, /sainusáitis/,
     <br>====== lagoGreek:
-    <br>* McshElln.ιγμορίτιδα!=DissSinusitis,
-    <br>* McshElln.ηγμορίτιδα!=DissSinusitis,
+    <br>* McshElln.ιγμορίτιδα!⇒DissSinusitis,
+    <br>* McshElln.ηγμορίτιδα!⇒DissSinusitis,
     <a class="clsHide" href="#idDssHmn016nam"></a></p>
 
   <section id="idDssHmn016cause">
@@ -16175,7 +16175,7 @@
     <br>* McshEngl.disease.fatigue-017!⇒DissFatigue,
     <br>* McshEngl.fatigue!⇒DissFatigue,
     <br>====== lagoGreek:
-    <br>* McshElln.κούραση!=DissFatigue,
+    <br>* McshElln.κούραση!⇒DissFatigue,
     <a class="clsHide" href="#idDssHmn017nam"></a></p>
 
   <section id="idDssHmn017protection">
@@ -16204,8 +16204,8 @@
     <br>* McshEngl.disease.tendonitis-018!⇒DissTendonitis,
     <br>* McshEngl.tendonitis!⇒DissTendonitis,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.τενοντίτιδα!=DissTendonitis,
-    <br>* McshElln.τενοντίτιδα!=DissTendonitis,
+    <br>* McshElln.πάθηση.τενοντίτιδα!⇒DissTendonitis,
+    <br>* McshElln.τενοντίτιδα!⇒DissTendonitis,
     <a class="clsHide" href="#idDssHmn018nam"></a></p>
   <p id="idDssHmn018gntr">generic-tree::
     <br>* McshEngl.DissTendonitis_Gntr,
@@ -16818,7 +16818,7 @@
     <br>* McshEngl.disease.back-neck-pain-023!⇒DissBack_neck_pain,
     <br>* McshEngl.cervical-syndrome!⇒DissBack_neck_pain,
     <br>====== lagoGreek:
-    <br>* McshElln.αυχενικό-σύνδρομο!=DissBack_neck_pain,
+    <br>* McshElln.αυχενικό-σύνδρομο!⇒DissBack_neck_pain,
     <a class="clsHide" href="#idDssHmn023nam"></a></p>
   </section>
   </section>
@@ -16911,7 +16911,7 @@
     <br>* McshEngl.nutrient-toxicity-029!⇒DissNutrient_toxicity,
     <br>* McshEngl.DissNutrient.nutritional-excess-029!⇒DissNutrient_toxicity,
     <br>====== lagoGreek:
-    <br>* McshElln.διαταραχή-διατροφικού-πλεονάσματος!=DissNutrient_toxicity,
+    <br>* McshElln.διαταραχή-διατροφικού-πλεονάσματος!⇒DissNutrient_toxicity,
     <a class="clsHide" href="#idDssHmn029nam"></a></p>
   </section>
 
@@ -17281,8 +17281,8 @@
     <br>* McshEngl.vitamin-deficiency!⇒DissVitamin_deficiency,
     <br>* McshEngl.DissNutrient.vitamin-deficiency-172!⇒DissVitamin_deficiency,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.αβιταμίνωση!=DissVitamin_deficiency,
-    <br>* McshElln.αβιταμίνωση!=DissVitamin_deficiency,
+    <br>* McshElln.πάθηση.αβιταμίνωση!⇒DissVitamin_deficiency,
+    <br>* McshElln.αβιταμίνωση!⇒DissVitamin_deficiency,
     <a class="clsHide" href="#idDssHmn172nam"></a></p>
 
   <section id="idDssHmn172gstr">
@@ -17418,8 +17418,8 @@
     <br>* McshEngl.disease.prostate-044!⇒DissProstate,
     <br>* McshEngl.prostate-disease-044!⇒DissProstate,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.προστάτη!η!=DissProstate,
-    <br>* McshElln.προστάτη-πάθηση!η!=DissProstate,
+    <br>* McshElln.πάθηση.προστάτη!η!⇒DissProstate,
+    <br>* McshElln.προστάτη-πάθηση!η!⇒DissProstate,
     <a class="clsHide" href="#idDssHmn044nam"></a></p>
 
   <section id="idDssHmn044prtctn">
@@ -17579,9 +17579,9 @@
     <br>* McshEngl.DissProstate.benign-prostatic-hyperplasia!⇒DissBph,
     <br>* McshEngl.enlarged-prostate!⇒DissBph,
     <br>====== lagoGreek:
-    <br>* McshElln.ΚΥΠ!=καλοήθης-υπερπλασία-του-προστάτη!η!=DissBph,
-    <br>* McshElln.καλοήθης-υπερπλασία-του-προστάτη!η!=DissBph,
-    <br>* McshElln.καλοήθης-υπερτροφία-του-προστάτη!η!=DissBph,
+    <br>* McshElln.ΚΥΠ!=καλοήθης-υπερπλασία-του-προστάτη!η!⇒DissBph,
+    <br>* McshElln.καλοήθης-υπερπλασία-του-προστάτη!η!⇒DissBph,
+    <br>* McshElln.καλοήθης-υπερτροφία-του-προστάτη!η!⇒DissBph,
     <a class="clsHide" href="#idDssHmn291nam"></a></p>
 
   <section id="idDssHmn291thrp">
@@ -17793,12 +17793,11 @@
     <a class="clsHide" href="#idDssHmn053dsn"></a></p>
   <p id="idDssHmn053nam">name::
     <br>* McshEngl.DissUlcer,
-    <br>* McshEngl.DissUlcer, /álcer/!⇒DissUlcer,
     <br>* McshEngl.disease.053-ulcer!⇒DissUlcer,
     <br>* McshEngl.disease.ulcer-053!⇒DissUlcer,
     <br>* McshEngl.ulcer-disease-053!⇒DissUlcer,
     <br>====== lagoGreek:
-    <br>* McshElln.άλγος!=DissUlcer,
+    <br>* McshElln.άλγος!⇒DissUlcer,
     <a class="clsHide" href="#idDssHmn053nam"></a></p>
   </section>
 
@@ -18036,7 +18035,7 @@
     <br>* McshEngl.globus-sensation!⇒DissGlobus_pharyngis,
     <br>* McshEngl.lump-in-the-throat!⇒DissGlobus_pharyngis,
     <br>====== lagoGreek:
-    <br>* McshElln.κόμπο-στο-λαιμό!=DissGlobus_pharyngis,
+    <br>* McshElln.κόμπο-στο-λαιμό!⇒DissGlobus_pharyngis,
     <a class="clsHide" href="#idDssHmn271nam"></a></p>
   </section>
 
@@ -18063,15 +18062,15 @@
     <br>* McshEngl.paining!⇒DissFctgPaining,
     <br>* McshEngl.sensing.pain!⇒DissFctgPaining,
     <br>====== lagoChinese:
-    <br>* McshZhon.téng-疼!=DissFctgPaining,
-    <br>* McshZhon.疼-téng!=DissFctgPaining,
-    <br>* McshZhon.tòng-痛!=DissFctgPaining,
-    <br>* McshZhon.痛-tòng!=DissFctgPaining,
+    <br>* McshZhon.téng-疼!⇒DissFctgPaining,
+    <br>* McshZhon.疼-téng!⇒DissFctgPaining,
+    <br>* McshZhon.tòng-痛!⇒DissFctgPaining,
+    <br>* McshZhon.痛-tòng!⇒DissFctgPaining,
     <br>====== lagoGreek:
-    <br>* McshElln.αίσθηση.πόνου!=DissFctgPaining,
-    <br>* McshElln.άλγος!=DissFctgPaining,
-    <br>* McshElln.πόνος!=DissFctgPaining,
-    <br>* McshElln.πόνου-αίσθηση!=DissFctgPaining,
+    <br>* McshElln.αίσθηση.πόνου!⇒DissFctgPaining,
+    <br>* McshElln.άλγος!⇒DissFctgPaining,
+    <br>* McshElln.πόνος!⇒DissFctgPaining,
+    <br>* McshElln.πόνου-αίσθηση!⇒DissFctgPaining,
     <a class="clsHide" href="#idDssHmn272nam"></a></p>
 
   <section id="idDssHmn272cntr">
@@ -18199,7 +18198,7 @@
     <br>* McshEngl.disease.pain.chronic!⇒DissFctgPainingChronic,
     <br>* McshEngl.DissFctgPaining.chronic!⇒DissFctgPainingChronic,
     <br>====== lagoGreek:
-    <br>* McshElln.χρόνιος-πόνος!=DissFctgPainingChronic,
+    <br>* McshElln.χρόνιος-πόνος!⇒DissFctgPainingChronic,
     <a class="clsHide" href="#idDssHmn283nam"></a></p>
   </section>
   </section>
@@ -18261,12 +18260,12 @@
     <br>* McshEngl.DissDoing.vomiting!⇒DissVomiting,
     <br>* McshEngl.vomiting!⇒DissVomiting,
     <br>====== lagoChinese:
-    <br>* McshZhon.ǒutù-呕吐!=DissVomiting,
-    <br>* McshZhon.呕吐-ǒutù!=DissVomiting,
+    <br>* McshZhon.ǒutù-呕吐!⇒DissVomiting,
+    <br>* McshZhon.呕吐-ǒutù!⇒DissVomiting,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.vomi!=DissVomiting,
+    <br>* McshEspo.vomi!⇒DissVomiting,
     <br>====== lagoGreek:
-    <br>* McshElln.κάνω-εμετό!=DissVomiting,
+    <br>* McshElln.κάνω-εμετό!⇒DissVomiting,
     <a class="clsHide" href="#idDssHmn284nam"></a></p>
   </section>
   </section>
@@ -18302,12 +18301,12 @@
     <br>* McshEngl.disease.death!⇒DissDeath,
     <br>* McshEngl.human-death!⇒DissDeath,
     <br>====== lagoChinese:
-    <br>* McshZhon.sǐwáng-死亡!=DissDeath,
-    <br>* McshZhon.死亡-sǐwáng!=DissDeath,
+    <br>* McshZhon.sǐwáng-死亡!⇒DissDeath,
+    <br>* McshZhon.死亡-sǐwáng!⇒DissDeath,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.morto!=DissDeath,
+    <br>* McshEspo.morto!⇒DissDeath,
     <br>====== lagoGreek:
-    <br>* McshElln.θάνατος!ο!=DissDeath,
+    <br>* McshElln.θάνατος!ο!⇒DissDeath,
     <a class="clsHide" href="#idDssHmn281nam"></a></p>
 
   <section id="idDssHmn282">
@@ -18326,10 +18325,10 @@
     <br>* McshEngl.disease.suicide!⇒DissSuicide,
     <br>* McshEngl.DissDeath.suicide-282!⇒DissSuicide,
     <br>====== lagoChinese:
-    <br>* McshZhon.zìshā-自杀!=DissSuicide,
-    <br>* McshZhon.自杀-zìshā!=DissSuicide,
+    <br>* McshZhon.zìshā-自杀!⇒DissSuicide,
+    <br>* McshZhon.自杀-zìshā!⇒DissSuicide,
     <br>====== lagoGreek:
-    <br>* McshElln.αυτοκτονία!η!=DissSuicide,
+    <br>* McshElln.αυτοκτονία!η!⇒DissSuicide,
     <a class="clsHide" href="#idDssHmn282nam"></a></p>
   <p id="idDssHmn282wpa">addressWpg::
     <br>* https://www.who.int/docs/default-source/mental-health/suicide/infographics-suicide.pdf,

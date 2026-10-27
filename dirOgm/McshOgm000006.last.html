@@ -37,7 +37,6 @@
     <br>* McshEngl.dirOgm/McshOgm000006.last.html!⇒MolProtein,
     <br>* McshEngl.protein!⇒MolProtein,
     <br>* McshEngl.proteinOgsm!⇒MolProtein,
-    <br>* McshEngl.protein-of-organism!⇒MolProtein,
     <a class="clsHide" href="#idName"></a></p>
   </section>
 
@@ -274,7 +273,7 @@
     <br>* McshEngl.acidAminHumn.phenylalanine!⇒phenylalanine,
     <br>* McshEngl.phenylalanine/fenoálanin/-amino-acid!⇒phenylalanine,
     <br>====== lagoGreek:
-    <br>* McshElln.Φαινυλαλανίνη!=phenylalanine,
+    <br>* McshElln.Φαινυλαλανίνη!⇒phenylalanine,
     <a class="clsHide" href="#idPrtnOgmatt003003Pnlnnam"></a></p>
   <p id="idPrtnOgmatt003003Pnlngntr">generic-tree::
     <br>* McshEngl.phenylalanine_Gntr,
@@ -392,7 +391,7 @@
     <br>* McshEngl.acidAminHumn.leucine!⇒leucine,
     <br>* McshEngl.leucine/lúsin/-amino-acid!⇒leucine,
     <br>====== lagoGreek:
-    <br>* McshElln.λευκίνη!=leucine,
+    <br>* McshElln.λευκίνη!⇒leucine,
     <a class="clsHide" href="#idPrtnOgmatt003003Lucnnam"></a></p>
   <p id="idPrtnOgmatt003003Lucngntr">generic-tree::
     <br>* McshEngl.leucine_Gntr,
@@ -773,8 +772,10 @@
     <br>[{2020-03-25} https://en.wikipedia.org/wiki/Gene_product#Protein_products]
     <a class="clsHide" href="#idPrtnOgmsrtrdsn"></a></p>
   <p id="idPrtnOgmsrtrnam">name::
-    <br>* McshEngl.MolProtein'attStructure,
-    <br>* McshEngl.MolProtein'structure,
+    <br>* McshEngl.structure-of-MolProtein!⇒MolProteinsrtr,
+    <br>* McshEngl.MolProteinsrtr!=structure-of-MolProtein,
+    <br>* McshEngl.MolProtein'attStructure!⇒MolProteinsrtr,
+    <br>* McshEngl.MolProtein'structure!⇒MolProteinsrtr,
     <a class="clsHide" href="#idPrtnOgmsrtrnam"></a></p>
   </section>
 
@@ -1093,7 +1094,7 @@
     <br>* McshEngl.MolProtein.human-007!⇒proteinHumn,
     <br>* McshEngl.bodyHumn'MolProtein.human-007!⇒proteinHumn,
     <br>====== lagoGreek:
-    <br>* McshElln.πρωτεΐνη-η/proteíni-i/!=proteinHumn,
+    <br>* McshElln.πρωτεΐνη-η/proteíni-i/!⇒proteinHumn,
     <a class="clsHide" href="#idPrtnHmnnam"></a></p>
 
   <section id="idPrtnHmnatt001">
@@ -1125,8 +1126,6 @@
   <p id="idPrtnHmngstrnam">name::
     <br>* McshEngl.proteinHumn'generic-specific-tree,
     <br>* McshEngl.proteinHumn'specific-generic-tree,
-    <br>* McshEngl.proteinHumn.specific,
-    <br>* McshEngl.proteinHumn_Sptr,
     <a class="clsHide" href="#idPrtnHmngstrnam"></a></p>
   <p id="idPrtnHmngntr">generic-tree::
     <br>* McshEngl.proteinHumn_Gntr,

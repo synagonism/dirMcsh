@@ -1,6 +1,6 @@
 [
-  [";lagItln16r","R|r",3,"2026-10-23"],
-  ["Romania!=SoctRoua","dirStn/McshStn000044.last.html#idOverview"],
-  ["relazione!=relation","dirCor/McshCor000005.last.html#idOverview"],
-  ["ringraziare!~verbItln!=ActgThanking","dirCor/McshCor000004.last.html#idDngActgThnk"]
+  [";lagItln16r","R|r",3,"2026-10-27"],
+  ["Romania!⇒SoctRoua","dirStn/McshStn000044.last.html#idOverview"],
+  ["relazione!⇒relation","dirCor/McshCor000005.last.html#idOverview"],
+  ["ringraziare!~verbItln!⇒ActgThanking","dirCor/McshCor000004.last.html#idDngActgThnk"]
 ]

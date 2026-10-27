@@ -1,5 +1,5 @@
 [
-  [";lagEngl24eks","X|x",233,"2026-10-26"],
+  [";lagEngl24eks","X|x",233,"2026-10-27"],
   ["X11-Pow","dirTchInf/McshTchInf000016.last.html#idDbcpowX11"],
   ["XAF!=Communauté-Financière-Africaine-(BEAC)-CFA-Franc-BEAC-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
   ["XAI!=explainable-AI!⇒techAIExplainable","dirTchInf/McshTchInf000036.last.html#idTechAi001"],
@@ -232,5 +232,5 @@
   ["xsd_Gntr","dirTchInf/McshTchInf000007.last.html#idLxmlgXsdgntr"],
   ["xsd_Sptr","dirTchInf/McshTchInf000007.last.html#idLxmlgXsdsptr"],
   ["xsd_compleType_element","dirTchInf/McshTchInf000007.last.html#idLxmlgXsdeltCxtp"],
-  ["xīngqīrì-星期日!=Sunday","dirCor/McshCor000006.last.html#idTimeUomDaySnd"]
+  ["xīngqīrì-星期日!⇒Sunday","dirCor/McshCor000006.last.html#idTimeUomDaySnd"]
 ]

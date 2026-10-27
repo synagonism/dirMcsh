@@ -1,5 +1,5 @@
 [
-  [";lagEngl25yuai","Y|y",156,"2026-10-26"],
+  [";lagEngl25yuai","Y|y",156,"2026-10-27"],
   ["Y-yotta=x1000^8","dirCor/McshCor000010.last.html#idQntRlvMlplYota"],
   ["Y39-Yttrium-ChmcElry!⇒ChmcElrY39","dirNtr/McshNtr000007.last.html#idChmElrYttrium"],
   ["YAGO!⇒Rdfwyago","dirTchInf/McshTchInf000039.last.html#idLKnlg014optYago"],
@@ -59,8 +59,8 @@
   ["yearlyRevenue@schema.org","dirStn/McshStn000023.last.html#idScmoyearlyRevenue"],
   ["yearningly!~Engladve","dirLag/McshLag000011.last.html#idLEngladve_508"],
   ["yearsInOperation@schema.org","dirStn/McshStn000023.last.html#idScmoyearsInOperation"],
-  ["yellow!Zhon_radi","dirLag/McshLag000018.last.html#idLZhoncharrdcl243"],
-  ["yellow!Zhon_radi","dirLag/McshLag000018.last.html#idLZhoncharrdcl242"],
+  ["yellow!=huáng-黃!⇒Zhonradi243","dirLag/McshLag000018.last.html#idLZhoncharrdcl243"],
+  ["yellow!=huáng-黄!⇒Zhonradi242","dirLag/McshLag000018.last.html#idLZhoncharrdcl242"],
   ["yellow-cartilage","dirHlth/McshHlth000005.last.html#idOgnHmn041001"],
   ["yellow-color!⇒colorYellow","dirNtr/McshNtr000005.last.html#idSysMols009clrYllw"],
   ["yemistá","dirHlth/McshHlth000013.last.html#idFoodHmn137"],
@@ -153,7 +153,7 @@
   ["yuan!~nounEnglC1-1:yuan;yuan","dirLag/McshLag000024.last.html#idLEnglnounC1-251"],
   ["yuan!~nounEnglC1-2:yuan;yuan","dirLag/McshLag000024.last.html#idLEnglnounC1-251"],
   ["yuan!⇒ChnaRmb","dirStn/McshStn000031.last.html#idChnaEconevu"],
-  ["yínhéxì-银河系!=Milkyway","dirNtr/McshNtr000014.last.html#idNtratt002"],
+  ["yínhéxì-银河系!⇒Milkyway","dirNtr/McshNtr000014.last.html#idNtratt002"],
   ["yě-也/yìé/!~AdveZhon!⇒RltnAddition","dirCor/McshCor000005.last.html#idRlnAdtn"],
-  ["yǔzhùcí-语助词-(語助詞)!=Zhon_particle","dirLag/McshLag000023.last.html#idWrdrZhonprtcl"]
+  ["yǔzhùcí-语助词-(語助詞)!⇒Zhon_particle","dirLag/McshLag000023.last.html#idWrdrZhonprtcl"]
 ]

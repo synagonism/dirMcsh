@@ -1,10 +1,10 @@
 [
-  [";lagEspo13yyo","J|j",7,"2026-10-16"],
-  ["Januaro!=January","dirCor/McshCor000006.last.html#idTimeUomMnthJan"],
-  ["Julio!=July","dirCor/McshCor000006.last.html#idTimeUomMnthJul"],
-  ["Junio!=June","dirCor/McshCor000006.last.html#idTimeUomMnthJun"],
-  ["jarcento!={i100}","dirCor/McshCor000006.last.html#idTimeUomYear100"],
-  ["jardeko!={i10}","dirCor/McshCor000006.last.html#idTimeUomYear10"],
-  ["jaro!=timeYear","dirCor/McshCor000006.last.html#idTimeUomYear"],
-  ["jes-ne!=yes_no","dirLag/McshLag000007.last.html#idLHmnmadveAfNg"]
+  [";lagEspo13yyo","J|j",7,"2026-10-27"],
+  ["Januaro!⇒January","dirCor/McshCor000006.last.html#idTimeUomMnthJan"],
+  ["Julio!⇒July","dirCor/McshCor000006.last.html#idTimeUomMnthJul"],
+  ["Junio!⇒June","dirCor/McshCor000006.last.html#idTimeUomMnthJun"],
+  ["jarcento!⇒{i100}","dirCor/McshCor000006.last.html#idTimeUomYear100"],
+  ["jardeko!⇒{i10}","dirCor/McshCor000006.last.html#idTimeUomYear10"],
+  ["jaro!⇒timeYear","dirCor/McshCor000006.last.html#idTimeUomYear"],
+  ["jes-ne!⇒yes_no","dirLag/McshLag000007.last.html#idLHmnmadveAfNg"]
 ]

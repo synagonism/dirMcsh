@@ -1,5 +1,5 @@
 [
-  [";lagKora030","50032..51031",13,"2026-10-04"],
+  [";lagKora030","50032..51031",13,"2026-10-27"],
   ["아니요-aniyo!=no","dirLag/McshLag000043.last.html#idLKorasentBcexno"],
   ["아홉-ahob!=nine","dirLag/McshLag000043.last.html#idLKorasentBcexnine"],
   ["안녕하세요-annyeonghaseyo!=hello","dirLag/McshLag000043.last.html#idLKorasentBcexhello"],
@@ -12,5 +12,5 @@
   ["예-ye!=yes","dirLag/McshLag000043.last.html#idLKorasentBcexyes"],
   ["우리는 그리스인입니다-ulineun geuliseu-in-ibnida!=we-are-Greeks","dirLag/McshLag000043.last.html#idLKorasentBcexwagr"],
   ["육-yug!=six","dirLag/McshLag000043.last.html#idLKorasentBcexsix"],
-  ["음소-eumso!=KoraPhnm","dirLag/McshLag000043.last.html#idLKoraphnm"]
+  ["음소-eumso!⇒KoraPhnm","dirLag/McshLag000043.last.html#idLKoraphnm"]
 ]

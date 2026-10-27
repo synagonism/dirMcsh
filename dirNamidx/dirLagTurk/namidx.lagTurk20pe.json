@@ -1,8 +1,8 @@
 [
-  [";lagTurk20pe","P|p",20,"2026-10-20"],
-  ["Pazar!=Sunday","dirCor/McshCor000006.last.html#idTimeUomDaySnd"],
-  ["Pazartesi-günü!=Monday","dirCor/McshCor000006.last.html#idTimeUomDayMnd"],
-  ["Perşembe!=Thursday","dirCor/McshCor000006.last.html#idTimeUomDayThd"],
+  [";lagTurk20pe","P|p",20,"2026-10-27"],
+  ["Pazar!⇒Sunday","dirCor/McshCor000006.last.html#idTimeUomDaySnd"],
+  ["Pazartesi-günü!⇒Monday","dirCor/McshCor000006.last.html#idTimeUomDayMnd"],
+  ["Perşembe!⇒Thursday","dirCor/McshCor000006.last.html#idTimeUomDayThd"],
   ["park-etmek!=to-park","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["parlamak!=to-shine","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["parıldamak!=to-gleam","dirLag/McshLag000030.last.html#idLTurkverbsptr"],

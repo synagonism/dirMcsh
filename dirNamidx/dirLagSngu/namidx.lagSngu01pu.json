@@ -1,11 +1,11 @@
 [
-  [";lagSngu01pu","P|p",8,"2026-10-16"],
-  ["pa!~ConjSngu!=RltnChild_then_parent","dirCor/McshCor000005.last.html#idRlnParent"],
-  ["pa!~ConjSngu!=RltnWhole_then_part","dirCor/McshCor000008.last.html#idWhlprtrln1"],
-  ["pa-cca!~ConjSngu!=RltnPart_then_whole","dirCor/McshCor000008.last.html#idWhlprtrln2"],
-  ["pai!~verbSngu!=RltnChild_then_parent","dirCor/McshCor000005.last.html#idRlnParent"],
-  ["pau!=RltnChild_then_parent","dirCor/McshCor000005.last.html#idRlnParent"],
-  ["pau-bau!=RltnParentChild","dirCor/McshCor000005.last.html#idRlnPtcd"],
-  ["peu!=parent_of_entity","dirCor/McshCor000003.last.html#idEntprnt"],
-  ["pu!=Sngu_letrPu","dirLag/McshLag000010.last.html#idL0014ltr11"]
+  [";lagSngu01pu","P|p",8,"2026-10-27"],
+  ["pa!~ConjSngu!⇒RltnChild_then_parent","dirCor/McshCor000005.last.html#idRlnParent"],
+  ["pa!~ConjSngu!⇒RltnWhole_then_part","dirCor/McshCor000008.last.html#idWhlprtrln1"],
+  ["pa-cca!~ConjSngu!⇒RltnPart_then_whole","dirCor/McshCor000008.last.html#idWhlprtrln2"],
+  ["pai!~verbSngu!⇒RltnChild_then_parent","dirCor/McshCor000005.last.html#idRlnParent"],
+  ["pau!⇒RltnChild_then_parent","dirCor/McshCor000005.last.html#idRlnParent"],
+  ["pau-bau!⇒RltnParentChild","dirCor/McshCor000005.last.html#idRlnPtcd"],
+  ["peu!⇒parent_of_entity","dirCor/McshCor000003.last.html#idEntprnt"],
+  ["pu!⇒Sngu_letrPu","dirLag/McshLag000010.last.html#idL0014ltr11"]
 ]

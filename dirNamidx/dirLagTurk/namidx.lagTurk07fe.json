@@ -1,7 +1,7 @@
 [
-  [";lagTurk07fe","F|f",15,"2026-10-25"],
-  ["Fransa!=SoctFrac","dirStn/McshStn000037.last.html#idOverview"],
-  ["fakat!~ConjTurk!=RltnOpposition","dirCor/McshCor000005.last.html#idRlnOpsn"],
+  [";lagTurk07fe","F|f",15,"2026-10-27"],
+  ["Fransa!⇒SoctFrac","dirStn/McshStn000037.last.html#idOverview"],
+  ["fakat!~ConjTurk!⇒RltnOpposition","dirCor/McshCor000005.last.html#idRlnOpsn"],
   ["fark-etmek!=to-notice","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["farklı-olmak!=to-differ","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["farz-etmek!=to-assume","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
@@ -9,10 +9,10 @@
   ["felç-etmek!=to-paralyze","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["feshetmek!=to-dissolve-(an-institution)","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["fethetmek!=to-conquer","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
-  ["fiil!=Hmnmverb","dirLag/McshLag000007.last.html#idLHmnmverb"],
-  ["fiil.Türkçe!=Turkverb","dirLag/McshLag000030.last.html#idLTurkverb"],
+  ["fiil!⇒Hmnmverb","dirLag/McshLag000007.last.html#idLHmnmverb"],
+  ["fiil.Türkçe!⇒Turkverb","dirLag/McshLag000030.last.html#idLTurkverb"],
   ["firar-etmek!=to-flee","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
   ["flört-etmek!=to-flirt","dirLag/McshLag000030.last.html#idLTurkverbCompdsn"],
-  ["fonksiyon!=functing","dirCor/McshCor000004.last.html#idDngFctg"],
+  ["fonksiyon!⇒functing","dirCor/McshCor000004.last.html#idDngFctg"],
   ["fırlamak!=to-pop-out;to-fly-out","dirLag/McshLag000030.last.html#idLTurkverbsptr"]
 ]

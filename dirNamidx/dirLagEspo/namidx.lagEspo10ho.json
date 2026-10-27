@@ -1,6 +1,6 @@
 [
-  [";lagEspo10ho","H|h",3,"2026-10-04"],
-  ["horo!=timeHour","dirCor/McshCor000006.last.html#idTimeUomHour"],
-  ["hotelo!=ogznHotel","dirStn/McshStn000026.last.html#idOznSvc001"],
-  ["https:kazo-gramatiko!=noun_mebr","dirLag/McshLag000007.last.html#idLHmnmnounmbr"]
+  [";lagEspo10ho","H|h",3,"2026-10-27"],
+  ["horo!⇒timeHour","dirCor/McshCor000006.last.html#idTimeUomHour"],
+  ["hotelo!⇒ogznHotel","dirStn/McshStn000026.last.html#idOznSvc001"],
+  ["https:kazo-gramatiko!⇒noun_mebr","dirLag/McshLag000007.last.html#idLHmnmnounmbr"]
 ]
