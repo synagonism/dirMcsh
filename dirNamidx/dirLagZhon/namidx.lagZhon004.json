@@ -1,5 +1,5 @@
 [
-  [";lagZhon004","d",643,"2026-10-27"],
+  [";lagZhon004","d",643,"2026-10-28"],
   ["Duōshǎo-多少!⇒quantoAsk","dirCor/McshCor000010.last.html#idQntSmsIgv"],
   ["Dānwèi-单位!⇒UOM","dirCor/McshCor000009.last.html#idGnrcmsrguom"],
   ["da!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb057"],
@@ -422,7 +422,7 @@
   ["dòngcí.yào-要!⇒FctgEmotingWanting","dirCor/McshCor000018.last.html#idBrngHmnFct004001"],
   ["dòngcí.yǒu-有!⇒RltnExistance","dirCor/McshCor000005.last.html#idRlnExtc"],
   ["dòngcí.yǒu-有!⇒RltnMcsThenAttribute","dirCor/McshCor000002.last.html#idMcsattrln"],
-  ["dòngcí.yǒu-有!⇒RltnPossessor_then_posserssum","dirCor/McshCor000005.last.html#idRlnPssnofpsr"],
+  ["dòngcí.yǒu-有!⇒RltnPossessorThenPosserssum","dirCor/McshCor000005.last.html#idRlnPssnofpsr"],
   ["dòngcí.zhèngzài-xiàxuě-正在下雪!=it-is-snowing","dirNtr/McshNtr000005.last.html#idSysMols004WtrSnowdng"],
   ["dòngcí.zuò-做!⇒doing","dirCor/McshCor000004.last.html#idOverview"],
   ["dòngcí.zuòfàn-做饭!⇒ActgCooking","dirHlth/McshHlth000013.last.html#idFoodHmnckng"],

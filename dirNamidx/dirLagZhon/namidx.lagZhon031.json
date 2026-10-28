@@ -1,5 +1,5 @@
 [
-  [";lagZhon031","一..刈",742,"2026-10-27"],
+  [";lagZhon031","一..刈",742,"2026-10-28"],
   ["一-yāo!=1!⇒one","dirCor/McshCor000010.last.html#idQntNbr1"],
   ["一-yī!=1!⇒one","dirCor/McshCor000010.last.html#idQntNbr1"],
   ["一-yī!=one","dirLag/McshLag000018.last.html#idLZhonsentBcexone"],
@@ -45,7 +45,7 @@
   ["上-shàng-19978!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb292"],
   ["上..至-shàng..zhì!~ConjZhon!⇒RltnQuantBetween","dirCor/McshCor000010.last.html#idQntRlvBtwn"],
   ["上午-shàngwŭ!⇒am//day","dirCor/McshCor000006.last.html#idTimeUomDayam"],
-  ["上午-shàngwǔ!⇒before_afternoon","dirCor/McshCor000006.last.html#idTimeUomDayltmn"],
+  ["上午-shàngwǔ!⇒before_afternoon//day","dirCor/McshCor000006.last.html#idTimeUomDayltmn"],
   ["上午-shàngwǔ!⇒day'09..11","dirCor/McshCor000006.last.html#idTimeUomDay0911"],
   ["上古汉语-shànggǔ-hànyǔ!⇒Zhoo_lago","dirLag/McshLag000018.last.html#idLZhoo"],
   ["上周-shàng-zhōu!⇒last_week","dirCor/McshCor000006.last.html#idTimeUomWeekLast"],

@@ -1,5 +1,5 @@
 [
-  [";lagEspo18no","N|n",13,"2026-10-27"],
+  [";lagEspo18no","N|n",13,"2026-10-28"],
   ["Novembro!⇒November","dirCor/McshCor000006.last.html#idTimeUomMnthNov"],
   ["naŭ!⇒9","dirCor/McshCor000010.last.html#idQntNbr9"],
   ["naŭa!=ένατος_η_ο","dirCor/McshCor000011.last.html#idSys001ordr9th"],
@@ -11,6 +11,6 @@
   ["naŭdeka-naŭa!=ενενηκοστός_ένατος_η_ο","dirCor/McshCor000011.last.html#idSys001ordr99th"],
   ["neĝo!⇒snow","dirNtr/McshNtr000005.last.html#idSysMols004WtrSnow"],
   ["nigra!⇒colorBlack","dirNtr/McshNtr000005.last.html#idSysMols009clrBlck"],
-  ["nokto!=night","dirCor/McshCor000006.last.html#idTimeUomDaynt"],
+  ["nokto!⇒night//day","dirCor/McshCor000006.last.html#idTimeUomDaynt"],
   ["nomo!⇒Hmnmname","dirLag/McshLag000007.last.html#idLHmnmname"]
 ]

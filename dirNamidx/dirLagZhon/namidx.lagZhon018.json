@@ -1,5 +1,5 @@
 [
-  [";lagZhon018","s",843,"2026-10-27"],
+  [";lagZhon018","s",843,"2026-10-28"],
   ["ShāndōngShěng-山东省!⇒ChnaShandong","dirStn/McshStn000031.last.html#idChnaadmnatt015CNSD"],
   ["ShānxīShěng-山西省!⇒ChnaShanxi","dirStn/McshStn000031.last.html#idChnaadmnatt015CNSX"],
   ["Shēngdiào-声调!=voice-tone!⇒Zhon_tone","dirLag/McshLag000018.last.html#idLZhonSpchtone"],
@@ -130,7 +130,7 @@
   ["shànggǔ-hànyǔ-上古汉语!⇒Zhoo_lago","dirLag/McshLag000018.last.html#idLZhoo"],
   ["shàngmiàn-上面!⇒spaceAbove","dirCor/McshCor000007.last.html#idSpcAbv"],
   ["shàngwŭ-上午!⇒am//day","dirCor/McshCor000006.last.html#idTimeUomDayam"],
-  ["shàngwǔ-上午!⇒before_afternoon","dirCor/McshCor000006.last.html#idTimeUomDayltmn"],
+  ["shàngwǔ-上午!⇒before_afternoon//day","dirCor/McshCor000006.last.html#idTimeUomDayltmn"],
   ["shàngwǔ-上午!⇒day'09..11","dirCor/McshCor000006.last.html#idTimeUomDay0911"],
   ["shào-劭-21165!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb293"],
   ["shào-召-21484!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb293"],

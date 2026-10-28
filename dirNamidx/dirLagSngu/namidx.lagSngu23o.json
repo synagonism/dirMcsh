@@ -1,6 +1,6 @@
 [
-  [";lagSngu23o","O|o",148,"2026-10-27"],
-  ["o!⇒Sngu_letrO","dirLag/McshLag000010.last.html#idL0014ltr23"],
+  [";lagSngu23o","O|o",148,"2026-10-28"],
+  ["o!⇒SnguletrO","dirLag/McshLag000010.last.html#idL0014ltr23"],
   ["old.ada!~ConjSngu!=and!⇒RltnAddition","dirCor/McshCor000005.last.html#idRlnAdtn"],
   ["old.bau-pau!⇒RltnParentChild","dirCor/McshCor000005.last.html#idRlnPtcd"],
   ["old.beu!⇒child","dirCor/McshCor000003.last.html#idEntchld"],
@@ -35,7 +35,7 @@
   ["old.ceu-minuto!⇒minute","dirCor/McshCor000006.last.html#idTimeUomMnut"],
   ["old.ceu-nedelo!=timeWeek","dirCor/McshCor000006.last.html#idTimeUomWeek"],
   ["old.ceu-nedo!=timeWeek","dirCor/McshCor000006.last.html#idTimeUomWeek"],
-  ["old.ceu-nihto!=night//day","dirCor/McshCor000006.last.html#idTimeUomDaynt"],
+  ["old.ceu-nihto!⇒night//day","dirCor/McshCor000006.last.html#idTimeUomDaynt"],
   ["old.ceu-nio!⇒timeDefiNoAny","dirCor/McshCor000006.last.html#idTimeSmsDftNAny"],
   ["old.ceu-oro!⇒timeHour","dirCor/McshCor000006.last.html#idTimeUomHour"],
   ["old.ceu-oro-koUoGo!=hour.individual","dirCor/McshCor000006.last.html#idTimeUomHourInd"],
