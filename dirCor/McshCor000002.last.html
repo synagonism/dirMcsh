@@ -105,13 +105,18 @@
     </h1>
   <p id="idMcsttldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
+    <br>· attribute-concept: title:"name of main_mind_name(Mmn)", name:"Mmd'name_with_underscores". 
+    <br>· specific-attribute-concept: title|name:"Mmn.name_with_underscores"
     <br>· <span class="clsColorRed">title-of-Mcs</span> is <a class="clsPreview" href="#idMcsattNamDzrMain">the-main-name-of-Mcs</a> placed at the-top of its presentation.
     <br>"The-title is <a class="clsPreview" href="#idMcsattNamDzrMain">the-main-name</a> of the-concept."
     <br>[HumnSngu.{2017-03-18}]
+    <br>· attribute-title: "name-notation of Mmn" (Mmn = main-mind-name). Its name is "Mmn'name_notation".
+    <br>· specific-title: "Mmn.name_with_underscores". Its name is the same, "Mmn.name_with_underscores".
     <a class="clsHide" href="#idMcsttldsn"></a></p>
   <p id="idMcsttlnam">name::
+    <br>* McshEngl.title-of-Mcs!⇒Mcstitle,
+    <br>* McshEngl.Mcstitle!=title-of-Mcs,
     <br>* McshEngl.Mcs-title!⇒Mcstitle,
-    <br>* McshEngl.Mcstitle!=Mcs-title,
     <br>* McshEngl.nameMcsTitle!⇒Mcstitle,
     <br>* McshEngl.McsnameTitle!⇒Mcstitle,
     <br>* McshEngl.Mcsattr.title!⇒Mcstitle,
@@ -131,6 +136,47 @@
     <br>* Mcsattr_Gntr,
     <br>* ...entity_Gntr,
     <a class="clsHide" href="#idMcsttlgntr"></a></p>
+
+  <section id="idMcsttlatr">
+  <h2 id="idMcsttlatrH2">Mcstitle.attribute
+    </h2>
+  <p id="idMcsttlatrdsn">description::
+    <br>× Mcsh-creation: {2026-10-28}
+    <br>· attribute-title of Mcs is the-title of an-attribute-concept: "name-notation of Mmn", where Mmn is the-main-mind-name of the-owner of the-attribute.
+    <br>· the-title gives the-name "Mmn'name_notation" (dashes become underscores).
+    <br>· Mmn is the-owner in the-title; it is not always the-whole of the-presentation.
+    <a class="clsHide" href="#idMcsttlatrdsn"></a></p>
+  <p id="idMcsttlatrnam">name::
+    <br>* McshEngl.attribute-title-of-Mcs!⇒Mcstitleattr,
+    <br>* McshEngl.Mcstitleattr!=attribute-title-of-Mcs,
+    <br>* McshEngl.Mcstitle.attribute!⇒Mcstitleattr,
+    <a class="clsHide" href="#idMcsttlatrnam"></a></p>
+  <p id="idMcsttlatrgntr">generic-tree::
+    <br>* McshEngl.Mcstitleattr_Gntr,
+    <br>===
+    <br>* Mcstitle_Gntr,
+    <a class="clsHide" href="#idMcsttlatrgntr"></a></p>
+  </section>
+
+  <section id="idMcsttlspc">
+  <h2 id="idMcsttlspcH2">Mcstitle.specific
+    </h2>
+  <p id="idMcsttlspcdsn">description::
+    <br>× Mcsh-creation: {2026-10-28}
+    <br>· specific-title of Mcs is the-title of a-specific-concept: "Mmn.name_with_underscores", where Mmn is the-main-mind-name of its generic.
+    <br>· the-title is also a-name of the-concept, written the-same: "Mmn.name_with_underscores".
+    <a class="clsHide" href="#idMcsttlspcdsn"></a></p>
+  <p id="idMcsttlspcnam">name::
+    <br>* McshEngl.specific-title-of-Mcs!⇒Mcstitlespec,
+    <br>* McshEngl.Mcstitlespec!=specific-title-of-Mcs,
+    <br>* McshEngl.Mcstitle.specific!⇒Mcstitlespec,
+    <a class="clsHide" href="#idMcsttlspcnam"></a></p>
+  <p id="idMcsttlspcgntr">generic-tree::
+    <br>* McshEngl.Mcstitlespec_Gntr,
+    <br>===
+    <br>* Mcstitle_Gntr,
+    <a class="clsHide" href="#idMcsttlspcgntr"></a></p>
+  </section>
   </section>
 
   <section id="idMcsattNam">
@@ -164,6 +210,7 @@
   <p id="idMcsattNamcvnnam">name::
     <br>* McshEngl.name-notation--of-Mcs!⇒Mcsnotn,
     <br>* McshEngl.Mcsnotn!=name-notation--of-Mcs,
+    <br>* McshEngl.Mcsname'name_notation!⇒Mcsnotn,
     <br>* McshEngl.Mcs'notation-of-name!⇒Mcsnotn,
     <br>* McshEngl.name'notation-of-Mcs!⇒Mcsnotn,
     <br>* McshEngl.Mcsname'naming-convension!⇒Mcsnotn,
@@ -567,6 +614,7 @@
   <p id="idMcsattNamcvnLrsbnam">name::
     <br>* McshEngl.[info-resource]--Mcs-name-notation!⇒McsnotnInfo,
     <br>* McshEngl.McsnotnInfo!=[info-resource]--Mcs-name-notation,
+    <br>* McshEngl.Mcsnotn.[info_resource]!⇒McsnotnInfo,
     <br>* McshEngl.Mcsnotn.&#91;info-resource&#93;!⇒McsnotnInfo,
     <br>* McshEngl.Mcsnotn.left_right_square_brackets!⇒McsnotnInfo,
     <br>* McshEngl.Mcsnotn.[info-resource]!⇒McsnotnInfo,
@@ -608,7 +656,7 @@
   </section>
 
   <section id="idMcsattNamcvnFv">
-  <h3 id="idMcsattNamcvnFvH3">Mcsnotn.before.2017-11-21
+  <h3 id="idMcsattNamcvnFvH3">Mcsnotn.before_{2017-11-21}
     </h3>
   <p id="idMcsattNamcvnFvdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -618,7 +666,7 @@
     <br>Also, in our computer-era, where computers create automatically name-indexes, the-following-notation puts together related concepts.
     <a class="clsHide" href="#idMcsattNamcvnFvdsn"></a></p>
   <p id="idMcsattNamcvnFvnam">name::
-    <br>* McshEngl.Mcsnotn.before.{2017-11-21},
+    <br>* McshEngl.Mcsnotn.before_{2017-11-21},
     <a class="clsHide" href="#idMcsattNamcvnFvnam"></a></p>
   <p id="idNotationP2"><span class="clsColorRed">NAME-OF-CONCEPT with MANY WORDS</span>::
     <br>• xxx-yyy
@@ -660,6 +708,7 @@
   <p id="idMcsattNamdrvdnam">name::
     <br>* McshEngl.derived-name--of--Mcs-name!⇒Mcs_derived_name,
     <br>* McshEngl.Mcs_derived_name!=derived-name--of--Mcs-name,
+    <br>* McshEngl.Mcsname'derived_name!⇒Mcs_derived_name,
     <br>* McshEngl.Mcsname'derived-name!⇒Mcs_derived_name,
     <br>* McshEngl.related-name--of--Mcs-name!⇒Mcs_derived_name,
     <a class="clsHide" href="#idMcsattNamdrvdnam"></a></p>
@@ -698,6 +747,7 @@
   <p id="idMcsattNamorglnam">name::
     <br>* McshEngl.original-name--of-Mcs-name!⇒Mcs_original_name,
     <br>* McshEngl.Mcs_original_name!=original-name--of-Mcs-name,
+    <br>* McshEngl.Mcsname'original_name!⇒Mcs_original_name,
     <br>* McshEngl.Mcsname'original-name!⇒Mcs_original_name,
     <a class="clsHide" href="#idMcsattNamorglnam"></a></p>
   </section>
@@ -879,6 +929,7 @@
   <p id="idMcsattNamDzrMaindrvdnam">name::
     <br>* McshEngl.derived-name--of--Mcs-main-name!⇒McsmmnDerived,
     <br>* McshEngl.McsmmnDerived!=derived-name--of--Mcs-main-name,
+    <br>* McshEngl.Mcsmmn'derived_name!⇒McsmmnDerived,
     <br>* McshEngl.Mcsname.main'derived-name!⇒McsmmnDerived,
     <br>* McshEngl.McsnameMain'derived-name!⇒McsmmnDerived,
     <br>* McshEngl.related-name--of--Mcs-main-name!⇒McsmmnDerived,
@@ -902,6 +953,7 @@
   <p id="idMcsattNamDzrMainbasenam">name::
     <br>* McshEngl.base-of--Mcs-main-mind-name!⇒Mcsmmnbase,
     <br>* McshEngl.Mcsmmnbase!=base-of--Mcs-main-mind-name,
+    <br>* McshEngl.Mcsmmn'base!⇒Mcsmmnbase,
     <a class="clsHide" href="#idMcsattNamDzrMainbasenam"></a></p>
   </section>
   </section>
@@ -1207,6 +1259,7 @@
     <a class="clsHide" href="#idMcsattrlndsn"></a></p>
   <p id="idMcsattrlnnam">name::
     <br>* McshEngl.RltnMcsThenAttribute,
+    <br>* McshEngl.Mcsattr'Mcsattr_relation!⇒RltnMcsThenAttribute,
     <br>* McshEngl.Mcs-then-attribute--relation!⇒RltnMcsThenAttribute,
     <br>* McshEngl.Mcs'attribute-relation!⇒RltnMcsThenAttribute,
     <br>* McshEngl.Mcsattr'attribute-relation!⇒RltnMcsThenAttribute,
@@ -1391,6 +1444,7 @@
     <a class="clsHide" href="#idMcsattDvsnclmtdsn"></a></p>
   <p id="idMcsattDvsnclmtnam">name::
     <br>* McshEngl.Mcs_complement,
+    <br>* McshEngl.Mcsdivision'complement_of_att!⇒Mcs_complement,
     <br>* McshEngl.Mcs-complement!⇒Mcs_complement,
     <br>* McshEngl.Mcsattr'complement!⇒Mcs_complement,
     <br>* McshEngl.Mcs'complement-of-att!⇒Mcs_complement,
@@ -1640,7 +1694,6 @@
     <a class="clsHide" href="#idMcsattDvsnThm1attdsn"></a></p>
   <p id="idMcsattDvsnThm1attnam">name::
     <br>* McshEngl.trichotomous_division'first_attribute,
-    <br>* McshEngl.trichotomous-division'first-attribute!⇒trichotomous_division'first_attribute,
     <br>* McshEngl.Mcs_trichotomous_division'first-att!⇒trichotomous_division'first_attribute,
     <br>====== lagoSinagu:
     <br>* atro-mido-anto,
@@ -1672,7 +1725,6 @@
     <a class="clsHide" href="#idMcsattDvsnThm3attdsn"></a></p>
   <p id="idMcsattDvsnThm3attnam">name::
     <br>* McshEngl.trichotomous_division'third_attribute,
-    <br>* McshEngl.trichotomous-division'third-attribute!⇒trichotomous_division'third_attribute,
     <br>* McshEngl.Mcs_trichotomous_division'third-att!⇒trichotomous_division'third_attribute,
     <br>====== lagoSinagu:
     <br>* atro-mido-afto,
@@ -1787,6 +1839,7 @@
     <a class="clsHide" href="#idMcsprtrlndsn"></a></p>
   <p id="idMcsprtrlnnam">name::
     <br>* McshEngl.RltnMcsThenPart,
+    <br>* McshEngl.Mcspart'part_relation!⇒RltnMcsThenPart,
     <br>* McshEngl.Mcspart'relation!⇒RltnMcsThenPart,
     <br>* McshEngl.Mcspart-relation!⇒RltnMcsThenPart,
     <br>* McshEngl.part-relation--of-Mcs!⇒RltnMcsThenPart,
@@ -2586,6 +2639,7 @@
     <a class="clsHide" href="#idMcsattInhfNdsn"></a></p>
   <p id="idMcsattInhfNnam">name::
     <br>* McshEngl.inherited-fromNo--Mcsattr,
+    <br>* McshEngl.Mcsattr.inherited_from.no!⇒inherited-fromNo--Mcsattr,
     <br>* McshEngl.Mcsattr.inherited_fromNo,
     <br>* McshEngl.Mcsattr.own,
     <br>* McshEngl.Mcs'attAsInherited-fromNo,
@@ -2615,6 +2669,7 @@
     <a class="clsHide" href="#idMcsattInhtNdsn"></a></p>
   <p id="idMcsattInhtNnam">name::
     <br>* McshEngl.inherited-toNo--Mcsattr,
+    <br>* McshEngl.Mcsattr.inherited_to.no!⇒inherited-toNo--Mcsattr,
     <br>* McshEngl.Mcsattr.inherited_toNo,
     <br>* McshEngl.Mcs'attAsInherited-toNo,
     <br>* McshEngl.Mcs'inherited_toNo__attribute,
@@ -2795,6 +2850,7 @@
   <p id="idMcsvDirnam">name::
     <br>* McshEngl.directory-view-of-Mcs!⇒Mcsdir,
     <br>* McshEngl.Mcsdir!=directory-view-of-Mcs,
+    <br>* McshEngl.Mcs'dir_view!⇒Mcsdir,
     <br>* McshEngl.directory-view--of-Mcs!⇒Mcsdir,
     <br>* McshEngl.Mcs'dir-view!⇒Mcsdir,
     <br>* McshEngl.Mcs-dir-view!⇒Mcsdir,
@@ -2827,6 +2883,7 @@
   <p id="idMcswvnam">name::
     <br>* McshEngl.worldview-of-Mcs!⇒Mcswv,
     <br>* McshEngl.Mcswv!=worldview-of-Mcs,
+    <br>* McshEngl.Mcs'world_view!⇒Mcswv,
     <br>* McshEngl.Mcs.worldview!⇒Mcswv,
     <br>* McshEngl.Mcs'worldview!⇒Mcswv,
     <br>* McshEngl.Mcs-worldview!⇒Mcswv, {2019-05-22}
@@ -2927,6 +2984,7 @@
   <p id="idMcsbvnam">name::
     <br>* McshEngl.base-of-Mcs!⇒Mcsbase,
     <br>* McshEngl.Mcsbase!=base-of-Mcs,
+    <br>* McshEngl.Mcs'base_view!⇒Mcsbase,
     <br>* McshEngl.Mcs-base-view!⇒Mcsbase,
     <br>* McshEngl.Mcsbv!⇒Mcsbase, {2020-06-17}
     <br>* McshEngl.Mcsb!⇒Mcsbase, {2020-06-17}
@@ -2961,7 +3019,6 @@
     <a class="clsHide" href="#idMcsmndrndsn"></a></p>
   <p id="idMcsmndrnnam">name::
     <br>* McshEngl.Mcs'mind_relation,
-    <br>* McshEngl.Mcs'mind-relation!⇒Mcs'mind_relation,
     <a class="clsHide" href="#idMcsmndrnnam"></a></p>
 
   <section id="idMcsarcho">
@@ -2973,6 +3030,7 @@
     <a class="clsHide" href="#idMcsarchodsn"></a></p>
   <p id="idMcsarchonam">name::
     <br>* McshEngl.Mcs'mind-concept,
+    <br>* McshEngl.Mcs'mind_concept!⇒Mcs'mind-concept,
     <br>* McshEngl.mind-concept-of-Mcs,
     <br>* McshEngl.Mcs'mind-relation'mind-concept,
     <a class="clsHide" href="#idMcsarchonam"></a></p>
@@ -2988,7 +3046,6 @@
     <a class="clsHide" href="#idMcssmsrndsn"></a></p>
   <p id="idMcssmsrnnam">name::
     <br>* McshEngl.Mcs'semu_relation,
-    <br>* McshEngl.Mcs'semu-relation!⇒Mcs'semu_relation,
     <a class="clsHide" href="#idMcssmsrnnam"></a></p>
   </section>
 
@@ -3001,7 +3058,6 @@
     <a class="clsHide" href="#idMcslogrndsn"></a></p>
   <p id="idMcslogrnnam">name::
     <br>* McshEngl.Mcs'logo_relation,
-    <br>* McshEngl.Mcs'logo-relation!⇒Mcs'logo_relation,
     <a class="clsHide" href="#idMcslogrnnam"></a></p>
   </section>
 
@@ -3013,12 +3069,12 @@
     <br>· the-language we use to map mind-concepts to Mcs.
     <a class="clsHide" href="#idMcslagdsn"></a></p>
   <p id="idMcslagnam">name::
-    <br>* McshEngl.Mcs'language!⇒lagMcsl,
-    <br>* McshEngl.lagMcsl!=Mcs'language,
-    <br>* McshEngl.Mcs-language!⇒lagMcsl,
+    <br>* McshEngl.Mcs'language!⇒Mcslago,
+    <br>* McshEngl.Mcslago!=Mcs'language,
+    <br>* McshEngl.Mcs-language!⇒Mcslago,
     <a class="clsHide" href="#idMcslagnam"></a></p>
   <p id="idMcslagsptr">specific-tree::
-    <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000009.last.html#idOverview">lagHmcs</a>,
+    <br>* Mcsh_lago!@McshTchInf000009,
     <br>* HtmlSfi,
     <br>* Xml,
     <a class="clsHide" href="#idMcslagsptr"></a></p>
@@ -3191,6 +3247,7 @@
     <a class="clsHide" href="#idMcsmatt001dsn"></a></p>
   <p id="idMcsmatt001nam">name::
     <br>* McshEngl.Mcsmgr'building-base,
+    <br>* McshEngl.Mcsmgr'building_base!⇒Mcsmgr'building-base,
     <br>* McshEngl.Mcsmgr'att001-building-base,
     <br>* McshEngl.McsmDoing.building_base,
     <br>* McshEngl.Mcsmgr'storing-base,
@@ -3213,6 +3270,7 @@
     <a class="clsHide" href="#idMcsmatt024dsn"></a></p>
   <p id="idMcsmatt024nam">name::
     <br>* McshEngl.Mcsmgr'acquiring-base,
+    <br>* McshEngl.Mcsmgr'acquiring_base!⇒Mcsmgr'acquiring-base,
     <br>* McshEngl.Mcsmgr'att024-acquiring-base,
     <br>* McshEngl.McsmDoing.adding_concepts,
     <br>* McshEngl.McsmDoing.acquiring_base,
@@ -3230,6 +3288,7 @@
     <a class="clsHide" href="#idMcsmatt026dsn"></a></p>
   <p id="idMcsmatt026nam">name::
     <br>* McshEngl.Mcsmgr'att026-changing-info,
+    <br>* McshEngl.Mcsmgr'changing_info!⇒Mcsmgr'att026-changing-info,
     <br>* McshEngl.Mcsmgr'changing-info,
     <br>* McshEngl.McsmDoing.changing_info,
     <a class="clsHide" href="#idMcsmatt026nam"></a></p>
@@ -3260,6 +3319,7 @@
     <a class="clsHide" href="#idMcsmatt004dsn"></a></p>
   <p id="idMcsmatt004nam">name::
     <br>* McshEngl.Mcsmgr'generic-specific-managing,
+    <br>* McshEngl.Mcsmgr'generic_specific_managing!⇒Mcsmgr'generic-specific-managing,
     <br>* McshEngl.Mcsmgr'att004-generic-specific-managing,
     <br>* McshEngl.McsmDoing.generic_specific_managing,
     <a class="clsHide" href="#idMcsmatt004nam"></a></p>
@@ -3289,6 +3349,7 @@
     <a class="clsHide" href="#idMcsmatt005dsn"></a></p>
   <p id="idMcsmatt005nam">name::
     <br>* McshEngl.Mcsmgr'whole-part-managing,
+    <br>* McshEngl.Mcsmgr'whole_part_managing!⇒Mcsmgr'whole-part-managing,
     <br>* McshEngl.Mcsmgr'att005-whole-part-managing,
     <br>* McshEngl.McsmDoing.whole_part_managing,
     <a class="clsHide" href="#idMcsmatt005nam"></a></p>
@@ -3463,6 +3524,7 @@
     <a class="clsHide" href="#idMcsmatt010dsn"></a></p>
   <p id="idMcsmatt010nam">name::
     <br>* McshEngl.Mcsmgr'name-managing,
+    <br>* McshEngl.Mcsmgr'name_managing!⇒Mcsmgr'name-managing,
     <br>* McshEngl.Mcsmgr'att010-name-managing,
     <br>* McshEngl.McsmDoing.name_managing,
     <a class="clsHide" href="#idMcsmatt010nam"></a></p>
@@ -3478,6 +3540,7 @@
     <a class="clsHide" href="#idMcsmatt002dsn"></a></p>
   <p id="idMcsmatt002nam">name::
     <br>* McshEngl.Mcsmgr'retrieving-base,
+    <br>* McshEngl.Mcsmgr'retrieving_base!⇒Mcsmgr'retrieving-base,
     <br>* McshEngl.Mcsmgr'att002-retrieving-base,
     <br>* McshEngl.McsmDoing.retrieving_base,
     <br>* McshEngl.Mcsmgrdong'retrieving-base,
@@ -3575,6 +3638,7 @@
     <a class="clsHide" href="#idMcsmatt023dsn"></a></p>
   <p id="idMcsmatt023nam">name::
     <br>* McshEngl.Mcsmgr'evoluting-managing,
+    <br>* McshEngl.Mcsmgr'evoluting_managing!⇒Mcsmgr'evoluting-managing,
     <br>* McshEngl.Mcsmgr'att023-evoluting-managing,
     <br>* McshEngl.McsmDoing.evoluting_managing,
     <br>* McshEngl.Mcsmgrdong'evoluting-managing,
@@ -4095,6 +4159,7 @@
     <a class="clsHide" href="#idMcsmAajrtrgdsn"></a></p>
   <p id="idMcsmAajrtrgnam">name::
     <br>* McshEngl.McsMgrAAj'doing.retrieving-base,
+    <br>* McshEngl.McsMgrAAj'doing.retrieving_base!⇒McsMgrAAj'doing.retrieving-base,
     <br>* McshEngl.McsMgrAAj'retrieving-base,
     <a class="clsHide" href="#idMcsmAajrtrgnam"></a></p>
 
@@ -4107,6 +4172,7 @@
     <a class="clsHide" href="#idMcsmAajrtabdsn"></a></p>
   <p id="idMcsmAajrtabnam">name::
     <br>* McshEngl.McsMgrAAj'accessing-base,
+    <br>* McshEngl.McsMgrAAj'retrieving.accessing_base!⇒McsMgrAAj'accessing-base,
     <br>* McshEngl.McsMgrAAj'doing.accessing-base,
     <br>* McshEngl.McsMgrAAj'retrieving.accessing-base,
     <a class="clsHide" href="#idMcsmAajrtabnam"></a></p>
@@ -4123,6 +4189,7 @@
     <a class="clsHide" href="#idMcsmAajnvggdsn"></a></p>
   <p id="idMcsmAajnvggnam">name::
     <br>* McshEngl.McsMgrAAj'doing.navigating-base,
+    <br>* McshEngl.McsMgrAAj'retrieving.navigating_base!⇒McsMgrAAj'doing.navigating-base,
     <br>* McshEngl.McsMgrAAj'navigating-base,
     <br>* McshEngl.McsMgrAAj'retrieving.navigating-base,
     <a class="clsHide" href="#idMcsmAajnvggnam"></a></p>
@@ -4136,7 +4203,6 @@
     <a class="clsHide" href="#idMcsmAajuricdsn"></a></p>
   <p id="idMcsmAajuricnam">name::
     <br>* McshEngl.McsMgrAAj'user_interface,
-    <br>* McshEngl.McsMgrAAj'user-interface!⇒McsMgrAAj'user_interface,
     <a class="clsHide" href="#idMcsmAajuricnam"></a></p>
   </section>
 
@@ -4182,6 +4248,7 @@
     <a class="clsHide" href="#idMcsmAajprsgdsn"></a></p>
   <p id="idMcsmAajprsgnam">name::
     <br>* McshEngl.McsMgrAAj'doing.presenting-base,
+    <br>* McshEngl.McsMgrAAj'retrieving.presenting_base!⇒McsMgrAAj'doing.presenting-base,
     <br>* McshEngl.McsMgrAAj'presenting-base,
     <br>* McshEngl.McsMgrAAj'retrieving.presenting-base,
     <a class="clsHide" href="#idMcsmAajprsgnam"></a></p>
@@ -4196,7 +4263,6 @@
     <a class="clsHide" href="#idMcsmAajtocdsn"></a></p>
   <p id="idMcsmAajtocnam">name::
     <br>* McshEngl.McsMgrAAj'table_of_contents,
-    <br>* McshEngl.McsMgrAAj'table-of-contents!⇒McsMgrAAj'table_of_contents,
     <a class="clsHide" href="#idMcsmAajtocnam"></a></p>
   </section>
 
@@ -4209,7 +4275,6 @@
     <a class="clsHide" href="#idMcsmAajwvpgdsn"></a></p>
   <p id="idMcsmAajwvpgnam">name::
     <br>* McshEngl.McsMgrAAj'worldview_presenting,
-    <br>* McshEngl.McsMgrAAj'worldview-presenting!⇒McsMgrAAj'worldview_presenting,
     <a class="clsHide" href="#idMcsmAajwvpgnam"></a></p>
   </section>
 
@@ -4224,7 +4289,6 @@
     <a class="clsHide" href="#idMcsmAajhelpdsn"></a></p>
   <p id="idMcsmAajhelpnam">name::
     <br>* McshEngl.McsMgrAAj'help_system,
-    <br>* McshEngl.McsMgrAAj'help-system!⇒McsMgrAAj'help_system,
     <a class="clsHide" href="#idMcsmAajhelpnam"></a></p>
   </section>
   </section>
@@ -4241,6 +4305,7 @@
     <a class="clsHide" href="#idMcsmAajbldgdsn"></a></p>
   <p id="idMcsmAajbldgnam">name::
     <br>* McshEngl.McsMgrAAj'doing.building-base,
+    <br>* McshEngl.McsMgrAAj'doing.building_base!⇒McsMgrAAj'doing.building-base,
     <br>* McshEngl.McsMgrAAj'building-base,
     <a class="clsHide" href="#idMcsmAajbldgnam"></a></p>
   <p id="idMcsmAajbldgsptr">specific-tree::
@@ -4259,6 +4324,7 @@
     <a class="clsHide" href="#idMcsmAajaqrgdsn"></a></p>
   <p id="idMcsmAajaqrgnam">name::
     <br>* McshEngl.McsMgrAAj'acquiring-base,
+    <br>* McshEngl.McsMgrAAj'building.acquiring_info!⇒McsMgrAAj'acquiring-base,
     <br>* McshEngl.McsMgrAAj'doing.acquiring-base,
     <br>* McshEngl.McsMgrAAj'building.acquiring-info,
     <a class="clsHide" href="#idMcsmAajaqrgnam"></a></p>
@@ -4274,6 +4340,7 @@
     <a class="clsHide" href="#idMcsmAajaddgdsn"></a></p>
   <p id="idMcsmAajaddgnam">name::
     <br>* McshEngl.McsMgrAAj'adding-info,
+    <br>* McshEngl.McsMgrAAj'building.adding_info!⇒McsMgrAAj'adding-info,
     <br>* McshEngl.McsMgrAAj'doing.adding-info,
     <br>* McshEngl.McsMgrAAj'building.adding-info,
     <a class="clsHide" href="#idMcsmAajaddgnam"></a></p>
@@ -4288,6 +4355,7 @@
     <a class="clsHide" href="#idMcsmAajchngdsn"></a></p>
   <p id="idMcsmAajchngnam">name::
     <br>* McshEngl.McsMgrAAj'changing-info,
+    <br>* McshEngl.McsMgrAAj'building.changing_info!⇒McsMgrAAj'changing-info,
     <br>* McshEngl.McsMgrAAj'doing.changing-info,
     <br>* McshEngl.McsMgrAAj'building.changing-info,
     <a class="clsHide" href="#idMcsmAajchngnam"></a></p>
@@ -4307,6 +4375,7 @@
     <a class="clsHide" href="#idMcsmAajigrgdsn"></a></p>
   <p id="idMcsmAajigrgnam">name::
     <br>* McshEngl.McsMgrAAj'doing.integrating-base,
+    <br>* McshEngl.McsMgrAAj'building.validating_base!⇒McsMgrAAj'doing.integrating-base,
     <br>* McshEngl.McsMgrAAj'integrating-base,
     <br>* McshEngl.McsMgrAAj'validating-base,
     <br>* McshEngl.McsMgrAAj'building.validating-base,
@@ -4641,6 +4710,7 @@
     <a class="clsHide" href="#idMcsevaluosdsn"></a></p>
   <p id="idMcsevaluosnam">name::
     <br>* McshEngl.Mcs'unity-of-science,
+    <br>* McshEngl.Mcs'unity_of_science!⇒Mcs'unity-of-science,
     <br>* McshEngl.unity-of-science,
     <a class="clsHide" href="#idMcsevaluosnam"></a></p>
   </section>
@@ -4674,7 +4744,6 @@
     <a class="clsHide" href="#idMcsrldtchdsn"></a></p>
   <p id="idMcsrldtchnam">name::
     <br>* McshEngl.Mcs'related_tech,
-    <br>* McshEngl.Mcs'related-tech!⇒Mcs'related_tech,
     <a class="clsHide" href="#idMcsrldtchnam"></a></p>
   </section>
 
@@ -4688,6 +4757,7 @@
     <a class="clsHide" href="#idMcsrlnhcptdsn"></a></p>
   <p id="idMcsrlnhcptnam">name::
     <br>* McshEngl.Mcs'relation-to-cptMind,
+    <br>* McshEngl.Mcs'relation_to_human_concept!⇒Mcs'relation-to-cptMind,
     <br>* McshEngl.Mcs'relation_to__human_concept,
     <br>* McshEngl.McsAeRelation-to--human-concept,
     <br>* McshEngl.cptMind'relation_to__sensorial_concept,
@@ -4729,6 +4799,7 @@
     <a class="clsHide" href="#idMcsrlnentdsn"></a></p>
   <p id="idMcsrlnentnam">name::
     <br>* McshEngl.Mcs'relation-to-entity,
+    <br>* McshEngl.Mcs'relation_to_entity!⇒Mcs'relation-to-entity,
     <br>* McshEngl.McsAeRelation-to-entity,
     <br>* McshEngl.cptMind'relation-to-entity,
     <br>* McshEngl.entity'relation-to-cptMind,
@@ -4750,6 +4821,7 @@
     <a class="clsHide" href="#idMcsrlnoopdsn"></a></p>
   <p id="idMcsrlnoopnam">name::
     <br>* McshEngl.Oop'relation_to__sensorial_concept,
+    <br>* McshEngl.Mcs'relation_to_object_oriented_programing!⇒Oop'relation_to__sensorial_concept,
     <br>* McshEngl.Mcs'relation-to-Oop,
     <br>* McshEngl.Mcs'relation-to-object-oriented-programing,
     <br>* McshEngl.McsAeRelation-to-Oop,
@@ -4813,6 +4885,7 @@
     <a class="clsHide" href="#idMcssmrtdsn"></a></p>
   <p id="idMcssmrtnam">name::
     <br>* McshEngl.Mcs'same-referent,
+    <br>* McshEngl.Mcs'same_referent!⇒Mcs'same-referent,
     <br>* McshEngl.same-referent--Mcs,
     <br>* McshEngl.Mcs'info-resource'same-referent,
     <a class="clsHide" href="#idMcssmrtnam"></a></p>
@@ -4826,6 +4899,7 @@
     <a class="clsHide" href="#idMcssmrtovdsn"></a></p>
   <p id="idMcssmrtovnam">name::
     <br>* McshEngl.Mcs'same-referent-other-view,
+    <br>* McshEngl.Mcs'same_referent_other_view!⇒Mcs'same-referent-other-view,
     <br>* McshEngl.same-referent-other-view--Mcs,
     <a class="clsHide" href="#idMcssmrtovnam"></a></p>
   </section>
@@ -4839,6 +4913,7 @@
     <a class="clsHide" href="#idMcssmrtrvdsn"></a></p>
   <p id="idMcssmrtrvnam">name::
     <br>* McshEngl.Mcs'same-referent-similar-view,
+    <br>* McshEngl.Mcs'same_referent_similar_view!⇒Mcs'same-referent-similar-view,
     <br>* McshEngl.same-referent-similar-view--Mcs,
     <a class="clsHide" href="#idMcssmrtrvnam"></a></p>
   </section>
@@ -4852,6 +4927,7 @@
     <a class="clsHide" href="#idMcssmrtmvdsn"></a></p>
   <p id="idMcssmrtmvnam">name::
     <br>* McshEngl.Mcs'same-referent-same-view,
+    <br>* McshEngl.Mcs'same_referent_same_view!⇒Mcs'same-referent-same-view,
     <br>* McshEngl.same-referent-same-view--Mcs,
     <a class="clsHide" href="#idMcssmrtmvnam"></a></p>
   </section>
@@ -4866,6 +4942,7 @@
     <a class="clsHide" href="#idMcssrrtdsn"></a></p>
   <p id="idMcssrrtnam">name::
     <br>* McshEngl.Mcs'similar-referent,
+    <br>* McshEngl.Mcs'similar_referent!⇒Mcs'similar-referent,
     <br>* McshEngl.similar-referent--Mcs,
     <br>* McshEngl.Mcs'info-resource'similar-referent,
     <a class="clsHide" href="#idMcssrrtnam"></a></p>
