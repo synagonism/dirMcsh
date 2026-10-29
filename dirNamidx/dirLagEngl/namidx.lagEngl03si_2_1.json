@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_1","char..char.2",11392,"2026-10-28"],
+  [";lagEngl03si_2_1","char..char.2",11387,"2026-10-29"],
   ["char","dirLag/McshLag000006.last.html#idOverview"],
   ["char!@McshLag000006","dirLag/McshLag000006.last.html#idOverview"],
   ["char'codepoint_finder","dirLag/McshLag000006.last.html#idCharUcdstdcpfdr"],
@@ -14,11 +14,6 @@
   ["char-delete@cig","dirEdu/dirHitp/HitpEdu000.last.html#idCigTaWpE3_Wpchardelete"],
   ["char-delete@cig7","dirEdu/dirHitp/HitpEdu000.9.last.html#idGymAChardelete"],
   ["char-encoding!⇒char_encoding","dirLag/McshLag000006.last.html#idCharencdg"],
-  ["char-encoding.UTF-16","dirLag/McshLag000006.last.html#idCharencdgUtf16"],
-  ["char-encoding.UTF-32","dirLag/McshLag000006.last.html#idCharencdgUtf32"],
-  ["char-encoding.UTF-8","dirLag/McshLag000006.last.html#idCharencdgUtf8"],
-  ["char-encoding.fixed-length","dirLag/McshLag000006.last.html#idCharencdgFxlg"],
-  ["char-encoding.variable-length","dirLag/McshLag000006.last.html#idCharencdgVrlg"],
   ["char.0 U+0000 control.NULL","dirTchInf/dirUcd/McshUcdU0000.last.html#idU0000U0000"],
   ["char.1 U+0001 control.START OF-HEADING","dirTchInf/dirUcd/McshUcdU0000.last.html#idU0000U0001"],
   ["char.10 U+000A control.LINE FEED-(LF)","dirTchInf/dirUcd/McshUcdU0000.last.html#idU0000U000A"],
