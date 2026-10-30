@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_1","C..char",6379,"2026-10-29"],
+  [";lagEngl03si_1","C..char",6378,"2026-10-30"],
   ["C++!⇒Cppz_lago","dirTchInf/McshTchInf000031.last.html#idOverview"],
   ["C++'algo!⇒Cppzalgo","dirTchInf/McshTchInf000031.last.html#idLCppalg"],
   ["C++-ISO/IEC-14882:1998","dirTchInf/McshTchInf000031.last.html#idLCppspec98"],
@@ -165,7 +165,6 @@
   ["COICOP/HICP@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrCOICOP/HICP"],
   ["COICOP@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrCOICOP"],
   ["COLI-(Cost-of-living-index)@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-COLI"],
-  ["COLLECTION!⇒collection","dirCor/McshCor000008.last.html#idWhl001"],
   ["COMEXT@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrCOMEXT"],
   ["COP!=Colombia-Peso-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
   ["COPNI-(Classification-of-the-Purposes-of-Non-profit-Institutions-Serving-Households)@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-COPNI"],
@@ -3120,7 +3119,7 @@
   ["Closed-loop-system@bookPpm","dirStn/dirHitp/HitpStnEcon001.last.html#idNameClosed-loop-systemdsn"],
   ["ClothingStore@schema.org","dirStn/McshStn000023.last.html#idScmoClothingStore"],
   ["Cm96-Curium-ChmcElry!⇒ChmcElrCm96","dirNtr/McshNtr000007.last.html#idChmElrCurium"],
-  ["Cmpl!base⇒Cmpr_lago","dirTchInf/McshTchInf000005.last.html#idOverview"],
+  ["Cmpl!Attrbase!⇒Cmpr_lago","dirTchInf/McshTchInf000005.last.html#idOverview"],
   ["Cmpldoc!⇒docCmpr","dirTchInf/McshTchInf000005.last.html#idLfileotpt"],
   ["Cmpldoing!=doing-of-Cmpr_lago","dirTchInf/McshTchInf000005.last.html#idLCmprdong"],
   ["Cmplevolg!=evoluting-of-Cmpr_lago","dirTchInf/McshTchInf000005.last.html#idLCmprevog"],
