@@ -1,5 +1,5 @@
 [
-  [";lagEngl05i","E|e",14335,"2026-10-30"],
+  [";lagEngl05i","E|e",14336,"2026-10-31"],
   ["E-REVs!=Extended-Range-Electric-Vehicles!⇒carReev","dirTch/McshTch000003.last.html#idMchn002Reev"],
   ["E-business@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrE-business"],
   ["E-commerce@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrE-commerce"],
@@ -12949,6 +12949,7 @@
   ["entity-then-attribute--relation!⇒RltnEntityThenAttribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
   ["entity-with-definition!⇒entityDefined","dirCor/McshCor000003.last.html#idEntDfnd"],
   ["entity-with-parts!⇒whole","dirCor/McshCor000008.last.html#idOverview"],
+  ["entity-with-specifics!⇒generic","dirCor/McshCor000009.last.html#idOverview"],
   ["entity-without-definition!⇒entityDefinedNo","dirCor/McshCor000003.last.html#idEntDfndN"],
   ["entity.001_aggregate!⇒Sympan","dirCor/McshCor000008.last.html#idWhlmtwh"],
   ["entity.002_nothingness","dirCor/McshCor000003.last.html#idEnt002"],

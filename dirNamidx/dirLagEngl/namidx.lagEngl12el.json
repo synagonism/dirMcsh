@@ -1,5 +1,5 @@
 [
-  [";lagEngl12el","L|l",36881,"2026-10-30"],
+  [";lagEngl12el","L|l",36882,"2026-10-31"],
   ["L!=language!⇒Ogmslago","dirLag/McshLag000005.last.html#idOverview"],
   ["LAK!=Laos-Kip-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
   ["LAU1@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrLAU1"],
@@ -35935,6 +35935,7 @@
   ["leukemia!⇒DissLeukemia","dirHlth/McshHlth000011.last.html#idDssHmn069"],
   ["levator-scapulae-muscle!⇒muscleLevator_scapulae","dirHlth/McshHlth000005.last.html#idMsclHmn046"],
   ["level--of--tree-system!⇒tree_level","dirCor/McshCor000011.last.html#idSys002nodeLvl"],
+  ["level1-following--Treenode","dirCor/McshCor000011.last.html#idSys002nodeChld"],
   ["level@name","dirCor/McshCor000009.last.html#idGnrcmsrgmesrLevl"],
   ["lexical-category","dirLag/McshLag000007.last.html#idLHmnmwrdPos"],
   ["lexical-class","dirLag/McshLag000007.last.html#idLHmnmwrdPos"],

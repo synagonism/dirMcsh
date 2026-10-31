@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_14","char.n..chas",27223,"2026-10-29"],
+  [";lagEngl03si_2_14","char.n..chas",27223,"2026-10-31"],
   ["char.n-with-caron--&#x0148;","dirTchInf/dirUcd/McshUcdU0100.last.html#idU0100U0148"],
   ["char.n-with-tilde--ñ","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00F1"],
   ["char.ne-呢-21602","dirLag/McshLag000021.last.html#idLZhonsylb213"],
@@ -27213,7 +27213,7 @@
   ["characterAttribute@schema.org","dirStn/McshStn000023.last.html#idScmocharacterAttribute"],
   ["characterName@schema.org","dirStn/McshStn000023.last.html#idScmocharacterName"],
   ["characteristic-of-Mcs!⇒Mcsattr","dirCor/McshCor000002.last.html#idMcsatt"],
-  ["characteristic-of-cptMind","dirLag/McshLag000003.last.html#idInfHmnBrn001McptAttr"],
+  ["characteristic-of-cnptMind","dirLag/McshLag000003.last.html#idInfHmnBrn001McptAttr"],
   ["characteristic-of-entity!⇒attribute","dirCor/McshCor000003.last.html#idEntatt"],
   ["characteristic-products@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-characteristic-products"],
   ["characteristics-ancillary-activities@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-characteristics-ancillary-activities"],
