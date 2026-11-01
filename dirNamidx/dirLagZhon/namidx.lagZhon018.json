@@ -1,5 +1,5 @@
 [
-  [";lagZhon018","s",843,"2026-10-31"],
+  [";lagZhon018","s",843,"2026-11-01"],
   ["ShāndōngShěng-山东省!⇒ChnaShandong","dirStn/McshStn000031.last.html#idChnaadmnatt015CNSD"],
   ["ShānxīShěng-山西省!⇒ChnaShanxi","dirStn/McshStn000031.last.html#idChnaadmnatt015CNSX"],
   ["Shēngdiào-声调!=voice-tone!⇒Zhon_tone","dirLag/McshLag000018.last.html#idLZhonSpchtone"],
@@ -255,7 +255,7 @@
   ["shì-飾-39166!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb298"],
   ["shì-饰-39280!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb298"],
   ["shìde-是的!=yes","dirLag/McshLag000018.last.html#idLZhonsentBcexyes"],
-  ["shìjiè-世界!=entityAgg!⇒Sympan","dirCor/McshCor000008.last.html#idWhlmtwh"],
+  ["shìjiè-世界!=entityAgg!⇒sympan","dirCor/McshCor000008.last.html#idWhlmtwh"],
   ["shìjiè-世界!⇒SocGlbl","dirStn/McshStn000021.last.html#idOverview"],
   ["shìjièguān-世界观!⇒worldview","dirLag/McshLag000003.last.html#idWldv"],
   ["shìjì-世纪!⇒{i100}","dirCor/McshCor000006.last.html#idTimeUomYear100"],
