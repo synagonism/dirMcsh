@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.Wasmlago!=WebAssembly-language
-    (McshTchInf000014.1-6-0.2026-10-11)</title>
+    (McshTchInf000014.1-7-0.2026-11-03)</title>
   <meta name="keywords" content="WebAssembly, Wasm, modelConceptStructured, Mcs, synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -646,7 +646,7 @@
     <br>* i64!@McshTchInf000014#idLWasmsuntI64,
     <br>* integer!@McshTchInf000014#idLWasmsuntItgr,
     <br>* result!@McshTchInf000014#idLWasmsuntRslt,
-    <br>* value-type!@McshTchInf000014#idLWasmsuntValType,
+    <br>* Wasm_value.WasmvalueType!@McshTchInf000014#idLWasmsuntValType,
     <a class="clsHide" href="#idLWasmsuntValsptr"></a></p>
   </section>
   </section>
@@ -1497,10 +1497,10 @@
     <br>* text--sem-unit!@McshTchInf000014#idLWasmsuntTxt,
     <br>* binary--sem-unit!@McshTchInf000014#idLWasmsuntBnr,
     <br>===
-    <br>* Wasm-value!@McshTchInf000014#idLWasmsuntVal,
+    <br>* Wasmsunt.Wasmvalue!@McshTchInf000014#idLWasmsuntVal,
     <br>* function!@McshTchInf000014#idLWasmfcn,
     <br>* variable!@McshTchInf000014#idLWasmsuntVar,
-    <br>* table!@McshTchInf000014#idLWasmsuntTbl,
+    <br>* Wasmsunt.Wasmlago'table!@McshTchInf000014#idLWasmsuntTbl,
     <br>* memory!@McshTchInf000014#idLWasmsuntMmr,
     <a class="clsHide" href="#idLWasmsuntsptr"></a></p>
   </section>
@@ -2468,188 +2468,6 @@
     <br>i32.load8_u</code>
     <a class="clsHide" href="#idLWasmstcLoadexpl"></a></p>
 
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.f32.load
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>f32.load: load 4 bytes as f32
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'f32.load,
-    <br>* McshEngl.Wasmcmnd.f32.load,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.f64.load
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>f64.load: load 8 bytes as f64
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'f64.load,
-    <br>* McshEngl.Wasmcmnd.f64.load,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load8_s
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i32.load8_s: load 1 byte and sign-extend i8 to i32
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i32.load8_s,
-    <br>* McshEngl.Wasmcmnd.i32.load8_s,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load8_u
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i32.load8_u: load 1 byte and zero-extend i8 to i32
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i32.load8_u,
-    <br>* McshEngl.Wasmcmnd.i32.load8_u,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load16_s
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i32.load16_s: load 2 bytes and sign-extend i16 to i32
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i32.load16_s,
-    <br>* McshEngl.Wasmcmnd.i32.load16_s,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load16_u
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i32.load16_u: load 2 bytes and zero-extend i16 to i32
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i32.load16_u,
-    <br>* McshEngl.Wasmcmnd.i32.load16_u,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i32.load
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i32.load: load 4 bytes as i32
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i32.load,
-    <br>* McshEngl.Wasmcmnd.i32.load,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load8_s
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i64.load8_s: load 1 byte and sign-extend i8 to i64
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i64.load8_s,
-    <br>* McshEngl.Wasmcmnd.i64.load8_s,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load8_u
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i64.load8_u: load 1 byte and zero-extend i8 to i64
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i64.load8_u,
-    <br>* McshEngl.Wasmcmnd.i64.load8_u,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load16_s
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i64.load16_s: load 2 bytes and sign-extend i16 to i64
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i64.load16_s,
-    <br>* McshEngl.Wasmcmnd.i64.load16_s,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load16_u
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i64.load16_u: load 2 bytes and zero-extend i16 to i64
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i64.load16_u,
-    <br>* McshEngl.Wasmcmnd.i64.load16_u,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load32_s
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i64.load32_s: load 4 bytes and sign-extend i32 to i64
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i64.load32_s,
-    <br>* McshEngl.Wasmcmnd.i64.load32_s,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load32_u
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i64.load32_u: load 4 bytes and zero-extend i32 to i64
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i64.load32_u,
-    <br>* McshEngl.Wasmcmnd.i64.load32_u,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
-  <section id="idLWasmstcLoad">
-  <h4 id="idLWasmstcLoadH4">Wasmcmnd.i64.load
-    </h4>
-  <p id="idLWasmstcLoaddsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>i64.load: load 8 bytes as i64
-    <a class="clsHide" href="#idLWasmstcLoaddsn"></a></p>
-  <p id="idLWasmstcLoadnam">name::
-    <br>* McshEngl.Wasmlago'i64.load,
-    <br>* McshEngl.Wasmcmnd.i64.load,
-    <a class="clsHide" href="#idLWasmstcLoadnam"></a></p>
-  </section>
-
   <section id="idLWasmstcLoadgstr">
   <h4 id="idLWasmstcLoadgstrH4">GENERIC-SPECIFIC-TREE of WasmcmndLoad
     </h4>
@@ -2682,6 +2500,188 @@
     <br>* i64.load32_u: load 4 bytes and zero-extend i32 to i64
     <br>* i64.load: load 8 bytes as i64
     <a class="clsHide" href="#idLWasmstcLoadsptr"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadF32">
+  <h4 id="idLWasmstcLoadF32H4">Wasmcmnd.f32.load
+    </h4>
+  <p id="idLWasmstcLoadF32dsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>f32.load: load 4 bytes as f32
+    <a class="clsHide" href="#idLWasmstcLoadF32dsn"></a></p>
+  <p id="idLWasmstcLoadF32nam">name::
+    <br>* McshEngl.Wasmlago'f32.load,
+    <br>* McshEngl.Wasmcmnd.f32.load,
+    <a class="clsHide" href="#idLWasmstcLoadF32nam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadF64">
+  <h4 id="idLWasmstcLoadF64H4">Wasmcmnd.f64.load
+    </h4>
+  <p id="idLWasmstcLoadF64dsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>f64.load: load 8 bytes as f64
+    <a class="clsHide" href="#idLWasmstcLoadF64dsn"></a></p>
+  <p id="idLWasmstcLoadF64nam">name::
+    <br>* McshEngl.Wasmlago'f64.load,
+    <br>* McshEngl.Wasmcmnd.f64.load,
+    <a class="clsHide" href="#idLWasmstcLoadF64nam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI32">
+  <h4 id="idLWasmstcLoadI32H4">Wasmcmnd.i32.load8_s
+    </h4>
+  <p id="idLWasmstcLoadI32dsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i32.load8_s: load 1 byte and sign-extend i8 to i32
+    <a class="clsHide" href="#idLWasmstcLoadI32dsn"></a></p>
+  <p id="idLWasmstcLoadI32nam">name::
+    <br>* McshEngl.Wasmlago'i32.load8_s,
+    <br>* McshEngl.Wasmcmnd.i32.load8_s,
+    <a class="clsHide" href="#idLWasmstcLoadI32nam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI328u">
+  <h4 id="idLWasmstcLoadI328uH4">Wasmcmnd.i32.load8_u
+    </h4>
+  <p id="idLWasmstcLoadI328udsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i32.load8_u: load 1 byte and zero-extend i8 to i32
+    <a class="clsHide" href="#idLWasmstcLoadI328udsn"></a></p>
+  <p id="idLWasmstcLoadI328unam">name::
+    <br>* McshEngl.Wasmlago'i32.load8_u,
+    <br>* McshEngl.Wasmcmnd.i32.load8_u,
+    <a class="clsHide" href="#idLWasmstcLoadI328unam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI3216s">
+  <h4 id="idLWasmstcLoadI3216sH4">Wasmcmnd.i32.load16_s
+    </h4>
+  <p id="idLWasmstcLoadI3216sdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i32.load16_s: load 2 bytes and sign-extend i16 to i32
+    <a class="clsHide" href="#idLWasmstcLoadI3216sdsn"></a></p>
+  <p id="idLWasmstcLoadI3216snam">name::
+    <br>* McshEngl.Wasmlago'i32.load16_s,
+    <br>* McshEngl.Wasmcmnd.i32.load16_s,
+    <a class="clsHide" href="#idLWasmstcLoadI3216snam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI3216u">
+  <h4 id="idLWasmstcLoadI3216uH4">Wasmcmnd.i32.load16_u
+    </h4>
+  <p id="idLWasmstcLoadI3216udsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i32.load16_u: load 2 bytes and zero-extend i16 to i32
+    <a class="clsHide" href="#idLWasmstcLoadI3216udsn"></a></p>
+  <p id="idLWasmstcLoadI3216unam">name::
+    <br>* McshEngl.Wasmlago'i32.load16_u,
+    <br>* McshEngl.Wasmcmnd.i32.load16_u,
+    <a class="clsHide" href="#idLWasmstcLoadI3216unam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI32ld">
+  <h4 id="idLWasmstcLoadI32ldH4">Wasmcmnd.i32.load
+    </h4>
+  <p id="idLWasmstcLoadI32lddsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i32.load: load 4 bytes as i32
+    <a class="clsHide" href="#idLWasmstcLoadI32lddsn"></a></p>
+  <p id="idLWasmstcLoadI32ldnam">name::
+    <br>* McshEngl.Wasmlago'i32.load,
+    <br>* McshEngl.Wasmcmnd.i32.load,
+    <a class="clsHide" href="#idLWasmstcLoadI32ldnam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI648s">
+  <h4 id="idLWasmstcLoadI648sH4">Wasmcmnd.i64.load8_s
+    </h4>
+  <p id="idLWasmstcLoadI648sdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i64.load8_s: load 1 byte and sign-extend i8 to i64
+    <a class="clsHide" href="#idLWasmstcLoadI648sdsn"></a></p>
+  <p id="idLWasmstcLoadI648snam">name::
+    <br>* McshEngl.Wasmlago'i64.load8_s,
+    <br>* McshEngl.Wasmcmnd.i64.load8_s,
+    <a class="clsHide" href="#idLWasmstcLoadI648snam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI648u">
+  <h4 id="idLWasmstcLoadI648uH4">Wasmcmnd.i64.load8_u
+    </h4>
+  <p id="idLWasmstcLoadI648udsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i64.load8_u: load 1 byte and zero-extend i8 to i64
+    <a class="clsHide" href="#idLWasmstcLoadI648udsn"></a></p>
+  <p id="idLWasmstcLoadI648unam">name::
+    <br>* McshEngl.Wasmlago'i64.load8_u,
+    <br>* McshEngl.Wasmcmnd.i64.load8_u,
+    <a class="clsHide" href="#idLWasmstcLoadI648unam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI6416s">
+  <h4 id="idLWasmstcLoadI6416sH4">Wasmcmnd.i64.load16_s
+    </h4>
+  <p id="idLWasmstcLoadI6416sdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i64.load16_s: load 2 bytes and sign-extend i16 to i64
+    <a class="clsHide" href="#idLWasmstcLoadI6416sdsn"></a></p>
+  <p id="idLWasmstcLoadI6416snam">name::
+    <br>* McshEngl.Wasmlago'i64.load16_s,
+    <br>* McshEngl.Wasmcmnd.i64.load16_s,
+    <a class="clsHide" href="#idLWasmstcLoadI6416snam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI6416u">
+  <h4 id="idLWasmstcLoadI6416uH4">Wasmcmnd.i64.load16_u
+    </h4>
+  <p id="idLWasmstcLoadI6416udsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i64.load16_u: load 2 bytes and zero-extend i16 to i64
+    <a class="clsHide" href="#idLWasmstcLoadI6416udsn"></a></p>
+  <p id="idLWasmstcLoadI6416unam">name::
+    <br>* McshEngl.Wasmlago'i64.load16_u,
+    <br>* McshEngl.Wasmcmnd.i64.load16_u,
+    <a class="clsHide" href="#idLWasmstcLoadI6416unam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI6432s">
+  <h4 id="idLWasmstcLoadI6432sH4">Wasmcmnd.i64.load32_s
+    </h4>
+  <p id="idLWasmstcLoadI6432sdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i64.load32_s: load 4 bytes and sign-extend i32 to i64
+    <a class="clsHide" href="#idLWasmstcLoadI6432sdsn"></a></p>
+  <p id="idLWasmstcLoadI6432snam">name::
+    <br>* McshEngl.Wasmlago'i64.load32_s,
+    <br>* McshEngl.Wasmcmnd.i64.load32_s,
+    <a class="clsHide" href="#idLWasmstcLoadI6432snam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI6432u">
+  <h4 id="idLWasmstcLoadI6432uH4">Wasmcmnd.i64.load32_u
+    </h4>
+  <p id="idLWasmstcLoadI6432udsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i64.load32_u: load 4 bytes and zero-extend i32 to i64
+    <a class="clsHide" href="#idLWasmstcLoadI6432udsn"></a></p>
+  <p id="idLWasmstcLoadI6432unam">name::
+    <br>* McshEngl.Wasmlago'i64.load32_u,
+    <br>* McshEngl.Wasmcmnd.i64.load32_u,
+    <a class="clsHide" href="#idLWasmstcLoadI6432unam"></a></p>
+  </section>
+
+  <section id="idLWasmstcLoadI64ld">
+  <h4 id="idLWasmstcLoadI64ldH4">Wasmcmnd.i64.load
+    </h4>
+  <p id="idLWasmstcLoadI64lddsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>i64.load: load 8 bytes as i64
+    <a class="clsHide" href="#idLWasmstcLoadI64lddsn"></a></p>
+  <p id="idLWasmstcLoadI64ldnam">name::
+    <br>* McshEngl.Wasmlago'i64.load,
+    <br>* McshEngl.Wasmcmnd.i64.load,
+    <a class="clsHide" href="#idLWasmstcLoadI64ldnam"></a></p>
   </section>
   </section>
 
@@ -3126,8 +3126,8 @@
   <p id="idLWasmstcPrmcsptr">specific-tree::
     <br>* McshEngl.Wasmcmnd.parametric.specific,
     <br>===
-    <br>* drop!@McshTchInf000014#idLWasmstcPrmcDrp,
-    <br>* select-instruction!@McshTchInf000014#idLWasmstcPrmcSlct,
+    <br>* Wasmcmnd.parametric.Wasmdrop!@McshTchInf000014#idLWasmstcPrmcDrp,
+    <br>* Wasmcmnd.parametric.Wasmselect!@McshTchInf000014#idLWasmstcPrmcSlct,
     <a class="clsHide" href="#idLWasmstcPrmcsptr"></a></p>
   </section>
   </section>
@@ -3355,9 +3355,6 @@
     <br>* McshEngl.Wasm-import,
     <br>* McshEngl.Wasmcmnd.import,
     <a class="clsHide" href="#idLWasmstcImprtnam"></a></p>
-  <p id="idLWasmstcImprtwltr">whole-tree::
-    <br>* <a class="clsPreview" href="#idLWasmscnImpt">import-section</a>,
-    <a class="clsHide" href="#idLWasmstcImprtwltr"></a></p>
   <p id="idLWasmstcImprtwltr">whole-tree::
     <br>* <a class="clsPreview" href="#idLWasmscnImpt">import-section</a>,
     <a class="clsHide" href="#idLWasmstcImprtwltr"></a></p>
@@ -4589,11 +4586,11 @@
   <p id="idLWasmalgsptr">specific-tree::
     <br>* McshEngl.Wasmalgo.specific,
     <br>===
-    <br>* text-algo!@McshTchInf000014#idLWasmalgTxt,
-    <br>* binary-algo!@McshTchInf000014#idLWasmalgBnr,
+    <br>* Wasmalgo.WasmalgoText!@McshTchInf000014#idLWasmalgTxt,
+    <br>* Wasmalgo.WasmagoBinary!@McshTchInf000014#idLWasmalgBnr,
     <br>===
-    <br>* Wasm-program!@McshTchInf000014#idLWasmpgm,
-    <br>* library!@McshTchInf000014#idLWasmalgLbr,
+    <br>* Wasmalgo.Wasmprgm!@McshTchInf000014#idLWasmpgm,
+    <br>* Wasmalgo.WasmalgoLibrary!@McshTchInf000014#idLWasmalgLbr,
     <a class="clsHide" href="#idLWasmalgsptr"></a></p>
   </section>
 
@@ -5759,9 +5756,9 @@
   <p id="idLWasmtoolsptr">specific-tree::
     <br>* McshEngl.WasmTool.specific,
     <br>===
-    <br>* runtime-environment!@McshTchInf000014#idLWasmtoolRte,
+    <br>* WasmTool.Wasmruntime!@McshTchInf000014#idLWasmtoolRte,
     <br>* editor,
-    <br>* Wasm-compiler!@McshTchInf000014#idLWasmtoolCplr,
+    <br>* WasmTool.Wasmcmplr!@McshTchInf000014#idLWasmtoolCplr,
     <a class="clsHide" href="#idLWasmtoolsptr"></a></p>
   </section>
   </section>

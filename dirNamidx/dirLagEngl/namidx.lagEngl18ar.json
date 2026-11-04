@@ -2405,7 +2405,7 @@
   ["referencesOrder@schema.org","dirStn/McshStn000023.last.html#idScmoreferencesOrder"],
   ["referent!=human-info-referent","dirLag/McshLag000003.last.html#idInfHmnatt001"],
   ["referent'relation_to_info!⇒RltnReferent","dirLag/McshLag000003.last.html#idInfHmnatt002"],
-  ["referent-Mcsattr!⇒Mcsarcho","dirCor/McshCor000002.last.html#idMcsrft"],
+  ["referent-Mcsattr!⇒McsattArcho","dirCor/McshCor000002.last.html#idMcsrft"],
   ["referent-evoluting","dirCor/McshCor000003.last.html#idEntevogRft"],
   ["referent-of-cnptMind","dirLag/McshLag000003.last.html#idInfHmnBrn001Mcptrfrt"],
   ["referent-of-info!⇒referent","dirLag/McshLag000003.last.html#idInfHmnatt001"],

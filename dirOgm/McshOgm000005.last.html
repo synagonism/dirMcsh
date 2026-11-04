@@ -242,7 +242,7 @@
   <p id="idSysMolsHmnsptr">specific-tree::
     <br>* McshEngl.SystMolsHumn.specific,
     <br>===
-    <br>* human-health-material!@McshHlth000008#idHlthHmnatt005,
+    <br>* SystMolsHumn.Hlthmtrl!@McshHlth000008#idHlthHmnatt005,
     <br>* healthNo-SystMolsHumn,
     <br>===
     <br>* micro-scale-SystMolsHumn,
@@ -313,14 +313,14 @@
     <br>* chemicalNo|mixture,
     <br>===
     <br>* intaken,
-    <br>** food!@McshHlth000013,
-    <br>* human-produced-substance!@McshOgm000005#idSysMolsHmn004,
+    <br>** substanceHumn.food!@McshHlth000013,
+    <br>* substanceHumn.BodyHumn'product!@McshOgm000005#idSysMolsHmn004,
     <br>===
     <br>* solid,
-    <br>* liquid!@McshOgm000005#idFldHmn,
+    <br>* substanceHumn.fluidHumn!@McshOgm000005#idFldHmn,
     <br>* gas,
-    <br>* Calcium!@McshNtr000007#idChmElrCalcium,
-    <br>* Iron!@McshNtr000007#idChmElrIron,
+    <br>* substanceHumn.ChmcElrCa20!@McshNtr000007#idChmElrCalcium,
+    <br>* substanceHumn.ChmcElrFe26!@McshNtr000007#idChmElrIron,
     <br>===
     <a class="clsHide" href="#idSysMolsHmn027sptr"></a></p>
   </section>
@@ -534,14 +534,14 @@
   <p id="idSysMolsHmn004sptr">specific-tree::
     <br>* McshEngl.BodyHumn'product.specific,
     <br>===
-    <br>* bile!@McshOgm000005#idSysMolsHmn019,
-    <br>* cholesterol!@McshOgm000004#idMolOgm016001,
-    <br>* excrement!@McshOgm000005#idSysMolsHmn021,
-    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
-    <br>* urine!@McshOgm000005#idSysMolsHmn022,
+    <br>* BodyHumn'product.bileHumn!@McshOgm000005#idSysMolsHmn019,
+    <br>* BodyHumn'product.cholesterolHumn!@McshOgm000004#idMolOgm016001,
+    <br>* BodyHumn'product.excrementHumn!@McshOgm000005#idSysMolsHmn021,
+    <br>* BodyHumn'product.hormoneHumn!@McshOgm000005#idHrmnHmn,
+    <br>* BodyHumn'product.urineHumn!@McshOgm000005#idSysMolsHmn022,
     <br>===
-    <br>* salivaHumn!@McshOgm000005#idSysMolsHmn018,
-    <br>* SystMolsHumn.releasing_hormone!@McshOgm000005#idSysMolsHmn016,
+    <br>* BodyHumn'product.salivaHumn!@McshOgm000005#idSysMolsHmn018,
+    <br>* BodyHumn'product.SystMolsHumnRelsHrmn!@McshOgm000005#idSysMolsHmn016,
     <a class="clsHide" href="#idSysMolsHmn004sptr"></a></p>
   </section>
   </section>
@@ -604,11 +604,11 @@
   <p id="idFldHmnsptr">specific-tree::
     <br>* McshEngl.fluidHumn.specific,
     <br>===
-    <br>* water-fluidHumn!@McshOgm000005#idSysMolsHmn015,
+    <br>* fluidHumn.waterHumn!@McshOgm000005#idSysMolsHmn015,
     <br>* blood-fluidHumn,
-    <br>* bile-fluidHumn!@McshOgm000005#idSysMolsHmn019,
-    <br>* saliva-fluidHumn!@McshOgm000005#idSysMolsHmn018,
-    <br>* urine-fluidHumn!@McshOgm000005#idSysMolsHmn022,
+    <br>* fluidHumn.bileHumn!@McshOgm000005#idSysMolsHmn019,
+    <br>* fluidHumn.salivaHumn!@McshOgm000005#idSysMolsHmn018,
+    <br>* fluidHumn.urineHumn!@McshOgm000005#idSysMolsHmn022,
     <a class="clsHide" href="#idFldHmnsptr"></a></p>
   </section>
   </section>
@@ -698,7 +698,7 @@
     <br>* McshEngl.macromoleculeHumn.specific,
     <br>===
     <br>* nucleic-acid,
-    <br>* human-protein!@McshOgm000006#idPrtnHmn,
+    <br>* macromoleculeHumn.proteinHumn!@McshOgm000006#idPrtnHmn,
     <br>* polysaccharide,
     <a class="clsHide" href="#idSysMolsHmn008sptr"></a></p>
   </section>
@@ -1245,7 +1245,7 @@
   <p id="idHrmnOgmsptr">specific-tree::
     <br>* McshEngl.hormoneOgsm.specific,
     <br>===
-    <br>* hormoneOgsm.plant!@McshOgm000005#idHrmnOgm001,
+    <br>* hormoneOgsm.hormonePlant!@McshOgm000005#idHrmnOgm001,
     <a class="clsHide" href="#idHrmnOgmsptr"></a></p>
   </section>
 
@@ -1491,36 +1491,36 @@
     <br>* thyroxine-hormone,
     <br>===
     <br>* αγγειοτενσίνη,
-    <br>* αλδοστερόνη!@McshOgm000005#idHrmnHmn001,
-    <br>* human-male-hormone!@McshOgm000005#idHrmnHmn002,
-    <br>* HrmnAndrogen!@McshOgm000005#idHrmnHmn003,
-    <br>* αντιδιουρητική-ορμόνη!@McshOgm000005#idHrmnHmn004,
+    <br>* hormoneHumn.HrmnHumnAldosterone!@McshOgm000005#idHrmnHmn001,
+    <br>* hormoneHumn.HrmnHumnMale!@McshOgm000005#idHrmnHmn002,
+    <br>* hormoneHumn.HrmnAndrogen!@McshOgm000005#idHrmnHmn003,
+    <br>* hormoneHumn.HrmnHumnAntidiuretic!@McshOgm000005#idHrmnHmn004,
     <br>* αυξητικές-ορμόνες,
-    <br>* αυξητική-ορμόνη!@McshOgm000005#idHrmnHmn005,
-    <br>* βασοπρεσίνη!@McshOgm000005#idHrmnHmn006,
+    <br>* hormoneHumn.HrmnHumnGrowth!@McshOgm000005#idHrmnHmn005,
+    <br>* hormoneHumn.HrmnHumnBasopressin!@McshOgm000005#idHrmnHmn006,
     <br>* γεννητικές-ορμόνες,
-    <br>* γλυκαγόνη!@McshOgm000005#idHrmnHmn007,
-    <br>* γυνεκείες-ορμόνες!@McshOgm000005#idHrmnHmn008,
-    <br>* επινεφριδίνη!@McshOgm000005#idHrmnHmn009,
-    <br>* θυλακιοτρόπος-ορμόνη!@McshOgm000005#idHrmnHmn010,
-    <br>* θυρεοειδοτρόπος-ορμόνη!@McshOgm000005#idHrmnHmn011,
-    <br>* θυρεοκαλτσιτονίνη!@McshOgm000005#idHrmnHmn012,
-    <br>* θυροξίνη!@McshOgm000005#idHrmnHmn013,
-    <br>* ινσουλίνη!@McshOgm000005#idHrmnHmn014,
+    <br>* hormoneHumn.HrmnHumnGlucagon!@McshOgm000005#idHrmnHmn007,
+    <br>* hormoneHumn.HrmnHumnFemale!@McshOgm000005#idHrmnHmn008,
+    <br>* hormoneHumn.HrmnHumnAdrenaline!@McshOgm000005#idHrmnHmn009,
+    <br>* hormoneHumn.HrmnHumnFollicle_stimulating!@McshOgm000005#idHrmnHmn010,
+    <br>* hormoneHumn.HrmnHumnThyroid_stimulating!@McshOgm000005#idHrmnHmn011,
+    <br>* hormoneHumn.HrmnHumnThyroid_calcitonin!@McshOgm000005#idHrmnHmn012,
+    <br>* hormoneHumn.HrmnHumnThyroxine!@McshOgm000005#idHrmnHmn013,
+    <br>* hormoneHumn.hrmnInsulin!@McshOgm000005#idHrmnHmn014,
     <br>* κατεχολαμίνες,
-    <br>* κορτιζόλη-ορμόνη!@McshOgm000005#idHrmnHmn015,
-    <br>* μελανοτροπίνη!@McshOgm000005#idHrmnHmn016,
-    <br>* μελατονίνη!@McshOgm000005#idHrmnHmn017,
-    <br>* νορ-επινεφριδίνη!@McshOgm000005#idHrmnHmn018,
-    <br>* οιστρογόνα!@McshOgm000005#idHrmnHmn019,
-    <br>* παραθορμόνη!@McshOgm000005#idHrmnHmn020,
-    <br>* προγεστερόνη!@McshOgm000005#idHrmnHmn021,
-    <br>* προλακτίνη-ορμόνη!@McshOgm000005#idHrmnHmn022,
-    <br>* τεστοστερόνη!@McshOgm000005#idHrmnHmn023,
+    <br>* hormoneHumn.hormoneHmnCortisol!@McshOgm000005#idHrmnHmn015,
+    <br>* hormoneHumn.HrmnHumnMelanotropin!@McshOgm000005#idHrmnHmn016,
+    <br>* hormoneHumn.HrmnHumnMelatonine!@McshOgm000005#idHrmnHmn017,
+    <br>* hormoneHumn.HrmnHumnNorepinephrine!@McshOgm000005#idHrmnHmn018,
+    <br>* hormoneHumn.HrmnHumnEstrogen!@McshOgm000005#idHrmnHmn019,
+    <br>* hormoneHumn.HrmnHumnParathyroid!@McshOgm000005#idHrmnHmn020,
+    <br>* hormoneHumn.HrmnHumnProgesterone!@McshOgm000005#idHrmnHmn021,
+    <br>* hormoneHumn.HrmnHumnProlactin!@McshOgm000005#idHrmnHmn022,
+    <br>* hormoneHumn.hrmnTestosterone!@McshOgm000005#idHrmnHmn023,
     <br>* υπόφυσης-ορμόνες,
-    <br>* φλοιοτρόπος-ορμόνη!@McshOgm000005#idHrmnHmn024,
-    <br>* ωκυτοκίνη-ορμόνη!@McshOgm000005#idHrmnHmn025,
-    <br>* ωχρινοτρόπος-ορμόνη!@McshOgm000005#idHrmnHmn026,
+    <br>* hormoneHumn.HrmnHumnAdrenocorticotropic!@McshOgm000005#idHrmnHmn024,
+    <br>* hormoneHumn.HrmnHumnOxytocin!@McshOgm000005#idHrmnHmn025,
+    <br>* hormoneHumn.HrmnHumnLuteinizing!@McshOgm000005#idHrmnHmn026,
     <br>===
     <br>· Hormones such as ACTH and vasopressin (See Endocrine System) are important polypeptides.
     <br>"Peptide," Microsoft(R) Encarta(R) 97 Encyclopedia. (c) 1993-1996 Microsoft Corporation. All rights reserved.
@@ -1613,8 +1613,8 @@
     <br>* McshEngl.gonadal-steroid!⇒HrmnHumnSex_steroid,
     <a class="clsHide" href="#idHrmnHmn035nam"></a></p>
   <p id="idHrmnHmn035sptr">specific-tree::
-    <br>* <a class="clsPreview" href="#idHrmnHmn003">androgen</a>,
-    <br>* <a class="clsPreview" href="#idHrmnHmn019">estrogen</a>,
+    <br>* HrmnHumnSex_steroid.HrmnAndrogen!@McshOgm000005#idHrmnHmn003,
+    <br>* HrmnHumnSex_steroid.HrmnHumnEstrogen!@McshOgm000005#idHrmnHmn019,
     <br>* progestogen,
     <a class="clsHide" href="#idHrmnHmn035sptr"></a></p>
   </section>
@@ -2817,8 +2817,8 @@
   <p id="idHrmnHmn002sptr">specific-tree::
     <br>* McshEngl.HrmnHumnMale.specific,
     <br>===
-    <br>* HrmnAndrogen!@McshOgm000005#idHrmnHmn003,
-    <br>* τεστοστερόνη!@McshOgm000005#idHrmnHmn023,
+    <br>* HrmnHumnMale.HrmnAndrogen!@McshOgm000005#idHrmnHmn003,
+    <br>* HrmnHumnMale.hrmnTestosterone!@McshOgm000005#idHrmnHmn023,
     <a class="clsHide" href="#idHrmnHmn002sptr"></a></p>
   </section>
   </section>
@@ -3088,8 +3088,8 @@
   <p id="idHrmnHmn003sptr">specific-tree::
     <br>* McshEngl.HrmnAndrogen.specific,
     <br>===
-    <br>* testosterone!@McshOgm000005#idHrmnHmn023,
-    <br>* dihydrotestosterone!@McshOgm000005#idHrmnHmn027,
+    <br>* HrmnAndrogen.hrmnTestosterone!@McshOgm000005#idHrmnHmn023,
+    <br>* HrmnAndrogen.HrmnHumnDihydrotestosterone!@McshOgm000005#idHrmnHmn027,
     <br>* androstenedione,
     <br>===
     <br>· The major androgen in males is testosterone.[3] Dihydrotestosterone (DHT) and androstenedione are of equal importance in male development.[3]
