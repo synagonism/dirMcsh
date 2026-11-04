@@ -6242,7 +6242,7 @@ def send(to, value):
         }
     }
     </code></pre>
-    <a class="clsHide" href="#idEthsolscdP1"></a></p>
+    <a class="clsHide" href="#idEthsolscdP1"></a></div>
 
   <section id="idEthsolunt">
   <h4 id="idEthsoluntH4">Solxsource'UNIT
@@ -8686,7 +8686,7 @@ contract SimpleStorage {
       }
     }
     </pre></code>
-  <p class="clsIndent">This contract introduces some new concepts, let us go through them one by one.
+    <p class="clsIndent">This contract introduces some new concepts, let us go through them one by one.
     <br>
     <br>The line address public minter; declares a state variable of type address that is publicly accessible. The address type is a 160-bit value that does not allow any arithmetic operations. It is suitable for storing addresses of contracts or keypairs belonging to external persons. The keyword public automatically generates a function that allows you to access the current value of the state variable. Without this keyword, other contracts have no way to access the variable. The function will look something like this:
     <br>
@@ -8714,7 +8714,7 @@ contract SimpleStorage {
         }
     }
     </code></pre>
-  <p class="clsIndent">Note how the automatically generated function balances is called from the user interface.
+    <p class="clsIndent">Note how the automatically generated function balances is called from the user interface.
     <br>
     <br>The special function Coin is the constructor which is run during creation of the contract and cannot be called afterwards. It permanently stores the address of the person creating the contract: msg (together with tx and block) is a magic global variable that contains some properties which allow access to the blockchain. msg.sender is always the address where the current (external) function call came from.
     <br>

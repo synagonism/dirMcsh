@@ -9043,7 +9043,8 @@
     <br>* McshEngl.foaf/Document,
     <br>* McshEngl.Document@foaf,
     <a class="clsHide" href="#idFoafDocument"></a></p>
-  <p id="idFoafGroup">foaf:Group-class::
+  <div id="idFoafGroup">
+    <p>foaf:Group-class::
     <br>Χ sDescription: Group - A class of Agents,
     <br>Χ sSource-url: http://xmlns.com/foaf/spec/20140114.html#term_Group
     <br>Χ sStatus: stable
@@ -9058,7 +9059,7 @@
     <br>While a <code><a class="clsPreview" href="#idFoafGroup">Group</a></code> has the characteristics of a <code><a class="clsPreview" href="#idFoafAgent">Agent</a></code>, it is also associated with a number of other <code><a class="clsPreview" href="#idFoafAgent">Agent</a></code>s (typically people) who constitute the <code><a class="clsPreview" href="#idFoafGroup">Group</a></code>. FOAF provides a mechanism, the <code><a class="clsPreview" href="#idFoafmembershipClass">membershipClass</a></code> property, which relates a <code><a class="clsPreview" href="#idFoafGroup">Group</a></code> to a sub-class of the class <code><a class="clsPreview" href="#idFoafAgent">Agent</a></code> who are members of the group. This is a little complicated, but allows us to make group membership rules explicit.
     <br>The markup (shown below) for defining a group is both complex and powerful. It allows group membership rules to match against any RDF-describable characteristics of the potential group members. As FOAF and similar vocabularies become more expressive in their ability to describe individuals, the <code><a class="clsPreview" href="#idFoafGroup">Group</a></code> mechanism for categorising them into groups also becomes more powerful.
     <br>While the formal description of membership criteria for a <code><a class="clsPreview" href="#idFoafGroup">Group</a></code> may be complex, the basic mechanism for saying that someone is in a <code><a class="clsPreview" href="#idFoafGroup">Group</a></code> is very simple. We simply use a <code><a class="clsPreview" href="#idFoafmember">member</a></code> property of the <code><a class="clsPreview" href="#idFoafGroup">Group</a></code> to indicate the agents that are members of the group. For example:
-    <a class="clsHide" href="#idFoafGroup"></a></p>
+    </p>
     <pre>
     &lt;foaf:Group&gt;
      &lt;foaf:name&gt;ILRT staff&lt;/foaf:name&gt;
@@ -9071,7 +9072,7 @@
      &lt;/foaf:member&gt;
     &lt;/foaf:Group&gt;
     </pre>
-  <p class="clsIndent">Behind the scenes, further RDF statements can be used to express the rules for being a member of this group. End-users of FOAF need not pay attention to these details.
+    <p class="clsIndent">Behind the scenes, further RDF statements can be used to express the rules for being a member of this group. End-users of FOAF need not pay attention to these details.
     <br>Here is an example. We define a <code><a class="clsPreview" href="#idFoafGroup">Group</a></code> representing those people who are ILRT staff members (ILRT is a department at the University of Bristol). The <code><a class="clsPreview" href="#idFoafmembershipClass">membershipClass</a></code> property connects the group (conceived of as a social entity and agent in its own right) with the class definition for those people who constitute it. In this case, the rule is that all group members are in the ILRTStaffPerson class, which is in turn populated by all those things that are a <code><a class="clsPreview" href="#idFoafPerson">Person</a></code> and which have a <code><a class="clsPreview" href="#idFoafworkplaceHomepage">workplaceHomepage</a></code> of http://www.ilrt.bris.ac.uk/. This is typical: FOAF groups are created by specifying a sub-class of <code><a class="clsPreview" href="#idFoafAgent">Agent</a></code> (in fact usually this will be a sub-class of <code><a class="clsPreview" href="#idFoafPerson">Person</a></code>), and giving criteria for which things fall in or out of the sub-class. For this, we use the <code>owl:onProperty</code> and <code>owl:hasValue</code> properties, indicating the property/value pairs which must be true of matching agents.
     </p>
     <pre>
@@ -9093,7 +9094,7 @@
      &lt;/foaf:membershipClass&gt;
     &lt;/foaf:Group&gt;
     </pre>
-  <p class="clsIndent">Note that while these example OWL rules for being in the eg:ILRTStaffPerson class are based on a <code><a class="clsPreview" href="#idFoafPerson">Person</a></code> having a particular <code><a class="clsPreview" href="#idFoafworkplaceHomepage">workplaceHomepage</a></code>, this places no obligations on the authors of actual FOAF documents to include this information. If the information <em>is</em> included, then generic OWL tools may infer that some person is an eg:ILRTStaffPerson. To go the extra step and infer that some eg:ILRTStaffPerson is a <code><a class="clsPreview" href="#idFoafmember">member</a></code> of the group whose <code><a class="clsPreview" href="#idFoafname">name</a></code> is "ILRT staff", tools will need some knowledge of the way FOAF deals with groups. In other words, generic OWL technology gets us most of the way, but the full <code><a class="clsPreview" href="#idFoafGroup">Group</a></code> machinery requires extra work for implimentors.
+    <p class="clsIndent">Note that while these example OWL rules for being in the eg:ILRTStaffPerson class are based on a <code><a class="clsPreview" href="#idFoafPerson">Person</a></code> having a particular <code><a class="clsPreview" href="#idFoafworkplaceHomepage">workplaceHomepage</a></code>, this places no obligations on the authors of actual FOAF documents to include this information. If the information <em>is</em> included, then generic OWL tools may infer that some person is an eg:ILRTStaffPerson. To go the extra step and infer that some eg:ILRTStaffPerson is a <code><a class="clsPreview" href="#idFoafmember">member</a></code> of the group whose <code><a class="clsPreview" href="#idFoafname">name</a></code> is "ILRT staff", tools will need some knowledge of the way FOAF deals with groups. In other words, generic OWL technology gets us most of the way, but the full <code><a class="clsPreview" href="#idFoafGroup">Group</a></code> machinery requires extra work for implimentors.
     <br>The current design names the relationship as pointing <em>from</em> the group, to the member. This is convenient when writing XML/RDF that encloses the members within markup that describes the group. Alternate representations of the same content are allowed in RDF, so you can write claims about the Person and the Group without having to nest either description inside the other. For (brief) example:
     </p>
     <pre>
@@ -9105,8 +9106,9 @@
       &lt;!-- more about martin here --&gt;
     &lt;/foaf:Person&gt;
     </pre>
-  <p class="clsIndent">There is a FOAF <a href="http://wiki.foaf-project.org/w/IssueTracker">issue tracker</a> associated with this FOAF term. A design goal is to make the most of W3C's <a href="http://www.w3.org/2001/sw/WebOnt">OWL</a> language for representing group-membership criteria, while also making it easy to leverage existing groups and datasets available online (eg. buddylists, mailing list membership lists etc). Feedback on the current design is solicited! Should we consider using SPARQL queries instead, for example?
+    <p class="clsIndent">There is a FOAF <a href="http://wiki.foaf-project.org/w/IssueTracker">issue tracker</a> associated with this FOAF term. A design goal is to make the most of W3C's <a href="http://www.w3.org/2001/sw/WebOnt">OWL</a> language for representing group-membership criteria, while also making it easy to leverage existing groups and datasets available online (eg. buddylists, mailing list membership lists etc). Feedback on the current design is solicited! Should we consider using SPARQL queries instead, for example?
     </p>
+    <a class="clsHide" href="#idFoafGroup"></a></div>
   <p id="idFoafImage">foaf:Image-class::
     <br>Χ sDescription: Image - An image,
     <br>Χ sSource-url: http://xmlns.com/foaf/spec/20140114.html#term_Image
@@ -9194,7 +9196,7 @@
        &lt;foaf:primaryTopic rdf:nodeID="p1"/&gt;
     &lt;/foaf:PersonalProfileDocument&gt;
     </pre>
-  <p class="clsIndent">Note that a <code><a class="clsPreview" href="#idFoafPersonalProfileDocument">PersonalProfileDocument</a></code> will have some representation as RDF. Typically this will be in W3C's RDF/XML syntax, however we leave open the possibility for the use of other notations, or representational conventions including automated transformations from HTML (<a href="http://www.w3.org/2004/01/rdxh/spec">GRDDL</a> spec for one such technique).
+    <p class="clsIndent">Note that a <code><a class="clsPreview" href="#idFoafPersonalProfileDocument">PersonalProfileDocument</a></code> will have some representation as RDF. Typically this will be in W3C's RDF/XML syntax, however we leave open the possibility for the use of other notations, or representational conventions including automated transformations from HTML (<a href="http://www.w3.org/2004/01/rdxh/spec">GRDDL</a> spec for one such technique).
     </p>
   <p id="idFoafProject">foaf:Project-class::
     <br>Χ sDescription: Project - A project (a collective endeavour of some kind),
@@ -9233,7 +9235,8 @@
     <br>* McshEngl.foaf/LabelProperty,
     <br>* McshEngl.LabelProperty@foaf,
     <a class="clsHide" href="#idFoafLabelProperty"></a></p>
-  <p id="idFoafOnlineChatAccount">foaf:OnlineChatAccount-class::
+  <div id="idFoafOnlineChatAccount">
+    <p>foaf:OnlineChatAccount-class::
     <br>Χ sDescription: Online Chat Account - An online chat account,
     <br>Χ sSource-url: http://xmlns.com/foaf/spec/20140114.html#term_OnlineChatAccount
     <br>Χ sStatus: unstable
@@ -9247,7 +9250,7 @@
     <br>This is a generalization of the FOAF Chat ID properties, <code><a class="clsPreview" href="#idFoafjabberID">jabberID</a></code>, <code><a class="clsPreview" href="#idFoafaimChatID">aimChatID</a></code>, <code><a class="clsPreview" href="#idFoafskypeID">skypeID</a></code>, <code><a class="clsPreview" href="#idFoafmsnChatID">msnChatID</a></code>, <code><a class="clsPreview" href="#idFoaficqChatID">icqChatID</a></code> and <code><a class="clsPreview" href="#idFoafyahooChatID">yahooChatID</a></code>.
     <br>Unlike those simple properties, <code><a class="clsPreview" href="#idFoafOnlineAccount">OnlineAccount</a></code> and associated FOAF terms allows us to describe a great variety of online accounts, without having to anticipate them in the FOAF vocabulary.
     <br>For example, here is a description of an IRC chat account, specific to the Freenode IRC network:
-    <a class="clsHide" href="#idFoafOnlineChatAccount"></a></p>
+    </p>
     <pre>
     &lt;foaf:Person&gt;
       &lt;foaf:name&gt;Dan Brickley&lt;/foaf:name&gt;
@@ -9261,10 +9264,11 @@
       &lt;/foaf:account&gt;
     &lt;/foaf:Person&gt;
     </pre>
-  <p class="clsIndent">Note that it may be impolite to carelessly reveal someone else's chat identifier (which might also serve as an indicate of email address) As with email,  there are privacy and anti-SPAM considerations. FOAF does not currently provide a way to  represent an obfuscated chat ID (ie. there is no parallel to the <code><a class="clsPreview" href="#idFoafmbox">mbox</a></code> / <code><a class="clsPreview" href="#idFoafmbox_sha1sum">mbox_sha1sum</a></code> mapping).
+    <p class="clsIndent">Note that it may be impolite to carelessly reveal someone else's chat identifier (which might also serve as an indicate of email address) As with email,  there are privacy and anti-SPAM considerations. FOAF does not currently provide a way to  represent an obfuscated chat ID (ie. there is no parallel to the <code><a class="clsPreview" href="#idFoafmbox">mbox</a></code> / <code><a class="clsPreview" href="#idFoafmbox_sha1sum">mbox_sha1sum</a></code> mapping).
     <br>In addition to the generic <code><a class="clsPreview" href="#idFoafOnlineAccount">OnlineAccount</a></code> and <code><a class="clsPreview" href="#idFoafOnlineChatAccount">OnlineChatAccount</a></code> mechanisms, FOAF also provides several convenience chat ID properties (<code><a class="clsPreview" href="#idFoafjabberID">jabberID</a></code>, <code><a class="clsPreview" href="#idFoafaimChatID">aimChatID</a></code>, <code><a class="clsPreview" href="#idFoaficqChatID">icqChatID</a></code>, <code><a class="clsPreview" href="#idFoafmsnChatID">msnChatID</a></code>,<code><a class="clsPreview" href="#idFoafyahooChatID">yahooChatID</a></code>, <code><a class="clsPreview" href="#idFoafskypeID">skypeID</a></code>).  These serve as as a shorthand for some common cases; their use may not always be appropriate.
     <br>Χ editorial: We should specify some mappings between the abbreviated and full representations of <a href="http://www.jabber.org/">Jabber</a>, <a href="http://www.aim.com/">AIM</a>, <a href="http://chat.msn.com/">MSN</a>, <a href="http://web.icq.com/icqchat/">ICQ</a>, <a href="http://chat.yahoo.com/">Yahoo!</a> and <a href="http://chat.msn.com/">MSN</a> chat accounts. This has been done for <code><a class="clsPreview" href="#idFoafskypeID">skypeID</a></code>. This requires us to identify an appropriate <code><a class="clsPreview" href="#idFoafaccountServiceHomepage">accountServiceHomepage</a></code> for each. If we wanted to make the <code><a class="clsPreview" href="#idFoafOnlineAccount">OnlineAccount</a></code> mechanism even more generic, we could invent a relationship that holds between a <code><a class="clsPreview" href="#idFoafOnlineAccount">OnlineAccount</a></code> instance and a convenience property. To continue the example above, we could describe how <a href="http://www.freenode.net/">Freenode</a> could define a property 'fn:freenodeChatID' corresponding to Freenode online accounts,
     </p>
+    <a class="clsHide" href="#idFoafOnlineChatAccount"></a></div>
   <p id="idFoafOnlineEcommerceAccount">foaf:OnlineEcommerceAccount-class::
     <br>Χ sDescription: Online E-commerce Account - An online e-commerce account,
     <br>Χ sSource-url: http://xmlns.com/foaf/spec/20140114.html#term_OnlineEcommerceAccount
@@ -9998,7 +10002,7 @@
     <br>Χ sDescriptionLong: The <code><a class="clsPreview" href="#idFoafworkplaceHomepage">workplaceHomepage</a></code> of a <code><a class="clsPreview" href="#idFoafPerson">Person</a></code> is a <code><a class="clsPreview" href="#idFoafDocument">Document</a></code> that is the <code><a class="clsPreview" href="#idFoafhomepage">homepage</a></code> of a <code><a class="clsPreview" href="#idFoafOrganization">Organization</a></code> that they work for,
     <br>By directly relating people to the homepages of their workplace, we have a simple convention that takes advantage of a set of widely known identifiers, while taking care not to confuse the things those identifiers identify (ie. organizational homepages) with the actual organizations those homepages describe.
     <a class="clsHide" href="#idFoafworkplaceHomepage"></a></p>
-  <p class="clsIndent">For example, Dan Brickley works at W3C. Dan is a <code><a class="clsPreview" href="#idFoafPerson">Person</a></code> with a <code><a class="clsPreview" href="#idFoafhomepage">homepage</a></code> of http://danbri.org/; W3C is a <code><a class="clsPreview" href="#idFoafOrganization">Organization</a></code> with a <code><a class="clsPreview" href="#idFoafhomepage">homepage</a></code> of http://www.w3.org/. This allows us to say that Dan has a <code><a class="clsPreview" href="#idFoafworkplaceHomepage">workplaceHomepage</a></code> of http://www.w3.org/.
+    <p class="clsIndent">For example, Dan Brickley works at W3C. Dan is a <code><a class="clsPreview" href="#idFoafPerson">Person</a></code> with a <code><a class="clsPreview" href="#idFoafhomepage">homepage</a></code> of http://danbri.org/; W3C is a <code><a class="clsPreview" href="#idFoafOrganization">Organization</a></code> with a <code><a class="clsPreview" href="#idFoafhomepage">homepage</a></code> of http://www.w3.org/. This allows us to say that Dan has a <code><a class="clsPreview" href="#idFoafworkplaceHomepage">workplaceHomepage</a></code> of http://www.w3.org/.
     </p>
     <pre>
     &lt;foaf:Person&gt;
@@ -10006,7 +10010,7 @@
      &lt;foaf:workplaceHomepage rdf:resource="http://www.w3.org/"/&gt;
     &lt;/foaf:Person&gt;
     </pre>
-  <p class="clsIndent">Note that several other FOAF properties work this way; <code><a
+    <p class="clsIndent">Note that several other FOAF properties work this way; <code><a
     class="clsPreview" href="#idFoafschoolHomepage">schoolHomepage</a></code> is the most similar. In general, FOAF often indirectly identifies things via Web page identifiers where possible, since these identifiers are widely used and known. FOAF does not currently have a term for the name of the relation (eg. "workplace") that holds between a <code><a class="clsPreview" href="#idFoafPerson">Person</a></code> and an <code><a class="clsPreview" href="#idFoafOrganization">Organization</a></code> that they work for.
     </p>
   <p id="idFoafyahooChatID">foaf:yahooChatID-property::
@@ -13489,7 +13493,7 @@
     <td>The RDF-compatible XSD types
     </table>
   <!-- htmlhint-enable -->
-  <p class="clsIndent">[{2021-01-06} https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/#dfn-rdf-vocabulary]
+    <p class="clsIndent">[{2021-01-06} https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/#dfn-rdf-vocabulary]
     </p>
     <a class="clsHide" href="#idLKnlg014vocnsiridsn"></a></div>
   <p id="idLKnlg014vocnsirinam">name::
@@ -13545,7 +13549,7 @@
     <td>The RDF-compatible XSD types
     </table>
   <!-- htmlhint-enable tag-pair -->
-  <p class="clsIndent">[{2021-01-06} https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/#dfn-rdf-vocabulary]
+    <p class="clsIndent">[{2021-01-06} https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/#dfn-rdf-vocabulary]
     </p>
     <a class="clsHide" href="#idLKnlg014vocnspxdsn"></a></div>
   <p id="idLKnlg014vocnspxnam">name::
@@ -13931,7 +13935,7 @@
     23        &lt;link property="dcterms:subject" href="http://www.wikidata.org/entity/Q12418"/&gt;
     24    &lt;/div&gt;
     25  &lt;/body&gt;</code></pre>
-  <p class="clsIndent">The example above contains four special RDFa attributes to enable specification of RDF triples within HTML: resource, property, typeof and prefix."
+    <p class="clsIndent">The example above contains four special RDFa attributes to enable specification of RDF triples within HTML: resource, property, typeof and prefix."
     <br>[{2021-01-03} https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/#section-rdfa]
     </p>
     <a class="clsHide" href="#idLKnlg014Rdfadsn"></a></div>
