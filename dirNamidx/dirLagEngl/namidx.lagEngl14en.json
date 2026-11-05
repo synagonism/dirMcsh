@@ -1,5 +1,5 @@
 [
-  [";lagEngl14en","N|n",3034,"2026-11-03"],
+  [";lagEngl14en","N|n",3035,"2026-11-05"],
   ["N-11@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrN-11"],
   ["N-Quads-Rdfzlago!⇒N_Quads_Rdfzlago","dirTchInf/McshTchInf000039.last.html#idLKnlg014Nqds"],
   ["N-Triple-Rdfzlago!⇒N_Triple_Rdfzlago","dirTchInf/McshTchInf000039.last.html#idLKnlg014Ntrpl"],
@@ -1106,6 +1106,7 @@
   ["netAlgo'14_environment!⇒netAlgo'environment","dirTchInf/McshTchInf000015.last.html#idAlgntenvt"],
   ["netAlgo'15_service!⇒Agntsrvc","dirTchInf/McshTchInf000015.last.html#idAlgntsvc"],
   ["netAlgo'DeApp!⇒DeApp","dirTchInf/McshTchInf000015.last.html#idDapp"],
+  ["netAlgo'Disqus_comments","dirTchInf/McshTchInf000033.last.html#idOverview"],
   ["netAlgo'activity!⇒Agnetchain_doing","dirTchInf/McshTchInf000015.last.html#idAlgntdong"],
   ["netAlgo'address","dirTchInf/McshTchInf000015.last.html#idAlgntadrs2"],
   ["netAlgo'adoption","dirTchInf/McshTchInf000015.last.html#idAlgntstatadpn"],

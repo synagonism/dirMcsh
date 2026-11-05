@@ -1,5 +1,5 @@
 [
-  [";lagEngl15ou","O|o",4704,"2026-11-03"],
+  [";lagEngl15ou","O|o",4704,"2026-11-05"],
   ["O8-Oxygen-ChmcElry!⇒ChmcElrO8","dirNtr/McshNtr000007.last.html#idChmElrOxygen"],
   ["OBO--ontology-language","dirTchInf/McshTchInf000039.last.html#idLKnlg010Obol"],
   ["OBOR!=one-belt-one-road!⇒Chnabri","dirStn/McshStn000031.last.html#idChnaEconatt033"],
@@ -3241,7 +3241,7 @@
   ["Online-communications@bookPpm","dirStn/dirHitp/HitpStnEcon001.last.html#idNameOnline-communicationdsn"],
   ["Online@schema.org","dirStn/McshStn000023.last.html#idScmoOnline"],
   ["OnlineAccount@foaf","dirTchInf/McshTchInf000039.last.html#idFoafOnlineAccount"],
-  ["OnlineChatAccount@foaf","dirTchInf/McshTchInf000039.last.html#idFoafOnlineChatAccount"],
+  ["OnlineChatAccount@foaf","dirTchInf/McshTchInf000039.last.html#idFoafLabelProperty"],
   ["OnlineEcommerceAccount@foaf","dirTchInf/McshTchInf000039.last.html#idFoafOnlineEcommerceAccount"],
   ["OnlineEventAttendanceMode@schema.org","dirStn/McshStn000023.last.html#idScmoOnlineEventAttendanceMode"],
   ["OnlineFull@schema.org","dirStn/McshStn000023.last.html#idScmoOnlineFull"],

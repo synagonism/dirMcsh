@@ -1,5 +1,5 @@
 [
-  [";lagEngl02bi","B|b",4475,"2026-11-03"],
+  [";lagEngl02bi","B|b",4474,"2026-11-05"],
   ["B2B@bookPpm","dirStn/dirHitp/HitpStnEcon001.last.html#idNameBusiness-to-business-systemdsn"],
   ["B5-Boron-ChmcElry!⇒ChmcElrB5","dirNtr/McshNtr000007.last.html#idChmElrBoron"],
   ["BAM!=Bosnia-and-Herzegovina-Convertible-Marka-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
@@ -870,7 +870,6 @@
   ["Bitcoin_hmn.Satoshi_Nakamoto","dirTchInf/McshTchInf000017.last.html#idBtcHumnSnt"],
   ["Bitcoin_law'LEGAL","dirTchInf/McshTchInf000017.last.html#idBtclawlgl"],
   ["Bitcoin_law'RESTRICTED","dirTchInf/McshTchInf000017.last.html#idBtclawrstrd"],
-  ["Bitcoin_net'Disqus_comments","dirTchInf/McshTchInf000033.last.html#idHeading"],
   ["Bitcoin_nodFul'requirements","dirTchInf/McshTchInf000017.last.html#idBtcnodFulrqrmnt"],
   ["Bitcoin_nodMnr'Resource","dirTchInf/McshTchInf000017.last.html#idBtcmngrsc"],
   ["Bitcoin_node'Resource","dirTchInf/McshTchInf000017.last.html#idBtcnodrsc"],
@@ -2941,7 +2940,7 @@
   ["blockchain_doing.upgrading","dirTchInf/McshTchInf000016.last.html#idDbcdongUpg"],
   ["blockchain_evaluation.con!⇒Bkcncon","dirTchInf/McshTchInf000016.last.html#idDbcpbm"],
   ["blockchain_evaluation.pro!⇒Bkcnpro","dirTchInf/McshTchInf000016.last.html#idDbcevalSpro"],
-  ["blockchain_net'Disqus_comments","dirTchInf/McshTchInf000033.last.html#idHeading"],
+  ["blockchain_net'Disqus_comments","dirTchInf/McshTchInf000033.last.html#idOverview"],
   ["blockchain_net.EOS!⇒Agnteos","dirTchInf/McshTchInf000021.last.html#idOverview"],
   ["blockchain_net.Ethereum!⇒AgntEthr","dirTchInf/McshTchInf000018.last.html#idOverview"],
   ["blockchain_net.Faircoin!⇒Faircoin_net","dirTchInf/McshTchInf000022.last.html#idOverview"],
