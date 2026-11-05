@@ -1,5 +1,5 @@
 [
-  [";lagEngl19es_2","stdRfc..t",1252,"2026-11-04"],
+  [";lagEngl19es_2","stdRfc..t",1254,"2026-11-05"],
   ["steak!⇒meatSteak","dirHlth/McshHlth000013.last.html#idFoodHmn148"],
   ["steal!~verbEnglC-1:steal;steals;stole;stealing;stolen","dirLag/McshLag000024.last.html#idLEnglverbC-115"],
   ["steal.TurkVerb!=çalmak","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
@@ -466,6 +466,7 @@
   ["structured-concept--worldview--of-KaselurisNikos1959!⇒Mws","Mcsh000000.last.html#idOverview"],
   ["structured-concept-manager!⇒Mcsmgr","dirCor/McshCor000002.last.html#idMcsm"],
   ["structured-concept-system-creator-program!⇒Mcsmgr","dirCor/McshCor000002.last.html#idMcsm"],
+  ["structured-concepts!~plural!⇒Mcs","dirCor/McshCor000002.last.html#idOverview"],
   ["structured-fragment-identifier-Mcs!⇒McsSfi","dirCor/McshCor000002.last.html#idMcsHtmlSfi"],
   ["structured-fragment-identifier/McsSfi","dirCor/McshCor000002.last.html#idMcsHtmlSfisfi"],
   ["structured-note!⇒finStructured_note","dirStn/McshStn000029.last.html#idSfrFin020"],
@@ -966,6 +967,7 @@
   ["sympan!=the-most-whole","dirCor/McshCor000008.last.html#idWhlmtwh"],
   ["sympan'galaxy!⇒galaxy","dirCor/McshCor000008.last.html#idEnt003"],
   ["sympan'part_division","dirCor/McshCor000008.last.html#idEnt001ptdv"],
+  ["sympan//whole","dirCor/McshCor000008.last.html#idWhlmtwhwltr"],
   ["sympan/síban/!⇒sympan","dirCor/McshCor000008.last.html#idWhlmtwh"],
   ["sympathetic-nervous-system!⇒SystNervousSympathetic","dirHlth/McshHlth000019.last.html#idSysNrvsatt013"],
   ["sympathetically!~Engladve","dirLag/McshLag000011.last.html#idLEngladve_415"],
