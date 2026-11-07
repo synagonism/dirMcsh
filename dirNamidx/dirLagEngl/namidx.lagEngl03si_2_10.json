@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_10","char.UA..char.l",7285,"2026-10-28"],
+  [";lagEngl03si_2_10","char.UA..char.l",7285,"2026-11-06"],
   ["char.UGARITIC-LETTER-AIN U+10393 66451 &#x10393;","dirTchInf/dirUcd/McshUcdU10380.last.html#idU10380U10393"],
   ["char.UGARITIC-LETTER-ALPA U+10380 66432 &#x10380;","dirTchInf/dirUcd/McshUcdU10380.last.html#idU10380U10380"],
   ["char.UGARITIC-LETTER-BETA U+10381 66433 &#x10381;","dirTchInf/dirUcd/McshUcdU10380.last.html#idU10380U10381"],
@@ -5759,7 +5759,7 @@
   ["char.gǔn-鲧-40103","dirLag/McshLag000021.last.html#idLZhonsylb111"],
   ["char.h-small-modifer-688&#32;&#x02B0;","dirTchInf/dirUcd/McshUcdU02B0.last.html#idU02B0U02B0"],
   ["char.h-with-caron--&#x021F;","dirTchInf/dirUcd/McshUcdU0180.last.html#idU0180U021F"],
-  ["char.html!⇒charHtml","dirLag/McshLag000006.last.html#idCharHtml"],
+  ["char.html!⇒Htmlchar","dirLag/McshLag000006.last.html#idCharHtml"],
   ["char.huà-化-21270","dirLag/McshLag000021.last.html#idLZhonsylb125"],
   ["char.huà-桦-26726","dirLag/McshLag000021.last.html#idLZhonsylb125"],
   ["char.huà-画-30011","dirLag/McshLag000021.last.html#idLZhonsylb125"],

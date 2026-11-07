@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_5","char.G..char.N",10141,"2026-10-28"],
+  [";lagEngl03si_2_5","char.G..char.N",10141,"2026-11-06"],
   ["char.G-with-breve-286-Ğ","dirTchInf/dirUcd/McshUcdU0100.last.html#idU0100U011E"],
   ["char.G.-Birds.Ucbk.77824..78895","dirTchInf/dirUcd/McshUcdU13000.last.html#idU13000chr6"],
   ["char.G.-Vases-and-receptacles.Ucbk.82944..83583","dirTchInf/dirUcd/McshUcdU14400.last.html#idU14400chr6"],
@@ -2747,7 +2747,7 @@
   ["char.Horizontal-brackets.Ucbk.8960..9215.9140","dirTchInf/dirUcd/McshUcdU2300.last.html#idU2300chr25"],
   ["char.Horizontal-brackets.Ucbk.8960..9215.9180","dirTchInf/dirUcd/McshUcdU2300.last.html#idU2300chr34"],
   ["char.Horizontal-tiles.Ucbk.127024..127135","dirTchInf/dirUcd/McshUcdU1F030.last.html#idU1F030chr0"],
-  ["char.Html!⇒charHtml","dirLag/McshLag000006.last.html#idCharHtml"],
+  ["char.Html!⇒Htmlchar","dirLag/McshLag000006.last.html#idCharHtml"],
   ["char.Html.middot&#32;·&#32;183","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00B7"],
   ["char.Hundred-thousands.Ucbk.68000..68095","dirTchInf/dirUcd/McshUcdU109A0.last.html#idU109A0chr9"],
   ["char.Hundreds.Ucbk.126064..126143","dirTchInf/dirUcd/McshUcdU1EC70.last.html#idU1EC70chr2"],
