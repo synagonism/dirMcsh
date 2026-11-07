@@ -227,7 +227,7 @@
   <p id="idSyspartsptr">specific-tree::
     <br>* McshEngl.Systnode.specific,
     <br>===
-    <br>* Systnode.Hmbdnode!@McshHlth000002#idBdyHmnatt002,
+    <br>* Systnode.Hbnode!@McshHlth000002#idBdyHmnatt002,
     <a class="clsHide" href="#idSyspartsptr"></a></p>
   </section>
 
@@ -421,12 +421,13 @@
     <br>· sector is a set of entities.
     <a class="clsHide" href="#idSysatt002dsn"></a></p>
   <p id="idSysatt002nam">name::
-    <br>* McshEngl.sector_vs_system,
-    <br>* McshEngl.sector-vs-system!⇒sector_vs_system,
-    <br>* McshEngl.system'relation_to_sector!⇒sector_vs_system,
-    <br>* McshEngl.system'att002_relation_to_sector,
-    <br>* McshEngl.system'relation_to_sector,
-    <br>* McshEngl.system-vs-sector,
+    <br>* McshEngl.relation-to-sector--of-system!⇒Systrtsector,
+    <br>* McshEngl.Systrtsector!=relation-to-sector--of-system,
+    <br>* McshEngl.sector-vs-system!⇒Systrtsector,
+    <br>* McshEngl.system'relation_to_sector!⇒Systrtsector,
+    <br>* McshEngl.system'att002_relation_to_sector!⇒Systrtsector,
+    <br>* McshEngl.system'relation_to_sector!⇒Systrtsector,
+    <br>* McshEngl.system-vs-sector!⇒Systrtsector,
     <a class="clsHide" href="#idSysatt002nam"></a></p>
   </section>
 
@@ -456,6 +457,7 @@
     <br>* McshEngl.science-of-system!⇒SciSystem,
     <br>* McshEngl.SciSystem!=science-of-system,
     <br>* McshEngl.science.system!⇒SciSystem,
+    <br>* McshEngl.Systscience!⇒SciSystem,
     <br>* McshEngl.system'science!⇒SciSystem,
     <a class="clsHide" href="#idSysscinam"></a></p>
 
@@ -471,7 +473,7 @@
   <p id="idSyssci001nam">name::
     <br>* McshEngl.SciSystem.001_systems_science,
     <br>* McshEngl.SciSystem.systems_science,
-    <br>* McshEngl.system'systems_science!⇒system'att001_systems_science,
+    <br>* McshEngl.system'systems_science!⇒system_att001_systems_science,
     <br>* McshEngl.system'systems_science,
     <br>* McshEngl.systems-science,
     <a class="clsHide" href="#idSyssci001nam"></a></p>
@@ -712,11 +714,12 @@
     <br>· element-of-sequence is any of its parts.
     <a class="clsHide" href="#idSys001eltdsn"></a></p>
   <p id="idSys001eltnam">name::
-    <br>* McshEngl.sequence'element,
+    <br>* McshEngl.sequence_element,
+    <br>* McshEngl.sequence'element!⇒sequence_element,
     <br>====== lagoSinagu:
-    <br>* McshSngu.jo-ruo-a-sistoSiro!⇒sequence'element,
-    <br>* McshSngu.saro!⇒sequence'element,
-    <br>* McshSngu.sistosSiros-jo-ruo!⇒sequence'element,
+    <br>* McshSngu.jo-ruo-a-sistoSiro!⇒sequence_element,
+    <br>* McshSngu.saro!⇒sequence_element,
+    <br>* McshSngu.sistosSiros-jo-ruo!⇒sequence_element,
     <a class="clsHide" href="#idSys001eltnam"></a></p>
   </section>
 
@@ -1788,9 +1791,10 @@
     <br>· children-number-of-node is the-number of its <a class="clsPreview" href="#idSys002nodeChld">children</a>.
     <a class="clsHide" href="#idSys002nodecnnrdsn"></a></p>
   <p id="idSys002nodecnnrnam">name::
-    <br>* McshEngl.number-of-children--of-Treenode!⇒Treenode'degree,
-    <br>* McshEngl.Treenode'degree!=number-of-children--of-Treenode,
-    <br>* McshEngl.Treenode'children_number!⇒Treenode'degree,
+    <br>* McshEngl.number-of-children--of-Treenode!⇒Treenode_degree,
+    <br>* McshEngl.Treenode_degree!=number-of-children--of-Treenode,
+    <br>* McshEngl.Treenode'degree!⇒Treenode_degree,
+    <br>* McshEngl.Treenode'children_number!⇒Treenode_degree,
     <a class="clsHide" href="#idSys002nodecnnrnam"></a></p>
   </section>
 
@@ -1802,8 +1806,9 @@
     <br>· level-number--of--tree-node is a-number that denotes the-number of levels from the-top OR bottom level of the-tree.
     <a class="clsHide" href="#idSys002nodelvnrdsn"></a></p>
   <p id="idSys002nodelvnrnam">name::
-    <br>* McshEngl.Treenode'level_number,
-    <br>* McshEngl.Treenode'level_number!⇒Treenode'level_number,
+    <br>* McshEngl.Treenode_level_number,
+    <br>* McshEngl.Treenode'level_number!⇒Treenode_level_number,
+    <br>* McshEngl.Treenode_level_number!⇒Treenode_level_number,
     <a class="clsHide" href="#idSys002nodelvnrnam"></a></p>
 
   <section id="idSys002nodedpth">
@@ -2414,8 +2419,9 @@
     <br>[{2023-11-14 retrieved} https://chat.openai.com/c/d54f0a84-9dfd-4768-b22d-276ed183764d]
     <a class="clsHide" href="#idSys002Gcscrotgdsn"></a></p>
   <p id="idSys002Gcscrotgnam">name::
-    <br>* McshEngl.ontology'relation_to_taxonomy,
-    <br>* McshEngl.Gstree'relation_to_ontology!⇒ontology'relation_to_taxonomy,
+    <br>* McshEngl.ontology_relation_to_taxonomy,
+    <br>* McshEngl.ontology'relation_to_taxonomy!⇒ontology_relation_to_taxonomy,
+    <br>* McshEngl.Gstree'relation_to_ontology!⇒ontology_relation_to_taxonomy,
     <br>* McshEngl.taxonomy'relation_to_ontology,
     <br>* McshEngl.Gstree'relation_to_ontology,
     <a class="clsHide" href="#idSys002Gcscrotgnam"></a></p>
@@ -2593,8 +2599,9 @@
     <br>· vertex-(node) of SystGraph.
     <a class="clsHide" href="#idSys003vrtxdsn"></a></p>
   <p id="idSys003vrtxnam">name::
-    <br>* McshEngl.SystGraph'node,
-    <br>* McshEngl.SystGraph'vertex_(node)!⇒SystGraph'node,
+    <br>* McshEngl.SystGraph_node,
+    <br>* McshEngl.SystGraph'node!⇒SystGraph_node,
+    <br>* McshEngl.SystGraph'vertex_(node)!⇒SystGraph_node,
     <br>* McshEngl.SystGraph'vertex,
     <br>* McshEngl.vertex-of-SystGraph,
     <br>* McshEngl.SystGraph'vertex-(node),
@@ -3031,8 +3038,9 @@
     <br>· sensory-system of SystMngBio.
     <a class="clsHide" href="#idSysMng004att001dsn"></a></p>
   <p id="idSysMng004att001nam">name::
-    <br>* McshEngl.SystMngBio'att001_sensory_sys,
-    <br>* McshEngl.SystMngBio'sensory_system!⇒SystMngBio'att001_sensory_sys,
+    <br>* McshEngl.SystMngBio_att001_sensory_sys,
+    <br>* McshEngl.SystMngBio'att001_sensory_sys!⇒SystMngBio_att001_sensory_sys,
+    <br>* McshEngl.SystMngBio'sensory_system!⇒SystMngBio_att001_sensory_sys,
     <br>* McshEngl.SystMngBio'sensory_sys,
     <br>* McshEngl.SystMngBio'sensory_system,
     <a class="clsHide" href="#idSysMng004att001nam"></a></p>
@@ -3079,8 +3087,9 @@
     <br>· the-subsystem that senses the external and internal environment of the-organism.
     <a class="clsHide" href="#idSysMng001att001dsn"></a></p>
   <p id="idSysMng001att001nam">name::
-    <br>* McshEngl.SystMnggOgsm'att001_sensory_sys,
-    <br>* McshEngl.SystMnggOgsm'sensory_sys!⇒SystMnggOgsm'att001_sensory_sys,
+    <br>* McshEngl.SystMnggOgsm_att001_sensory_sys,
+    <br>* McshEngl.SystMnggOgsm'att001_sensory_sys!⇒SystMnggOgsm_att001_sensory_sys,
+    <br>* McshEngl.SystMnggOgsm'sensory_sys!⇒SystMnggOgsm_att001_sensory_sys,
     <br>* McshEngl.SystMnggOgsm'sensory_sys,
     <a class="clsHide" href="#idSysMng001att001nam"></a></p>
   </section>
@@ -3319,8 +3328,9 @@
     <br>In addition to its function in biological systems, quorum sensing has several useful applications for computing and robotics. In general, quorum sensing can function as a decision-making process in any decentralized system in which the components have: (a) a means of assessing the number of other components they interact with and (b) a standard response once a threshold number of components is detected."
     <a class="clsHide" href="#idSys015att001dsn"></a></p>
   <p id="idSys015att001nam">name::
-    <br>* McshEngl.Dsys'quorum_sensing,
-    <br>* McshEngl.Dsys'quorum_sensing!⇒Dsys'quorum_sensing,
+    <br>* McshEngl.Dsys_quorum_sensing,
+    <br>* McshEngl.Dsys'quorum_sensing!⇒Dsys_quorum_sensing,
+    <br>* McshEngl.Dsys_quorum_sensing!⇒Dsys_quorum_sensing,
     <br>* McshEngl.quorum-sensing-in-Dsys,
     <a class="clsHide" href="#idSys015att001nam"></a></p>
   </section>

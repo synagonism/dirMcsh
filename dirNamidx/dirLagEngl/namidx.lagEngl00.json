@@ -1,5 +1,5 @@
 [
-  [";lagEngl00","",1293,"2026-11-05"],
+  [";lagEngl00","",1294,"2026-11-07"],
   ["!&#32;extra-info--name-notation!⇒McsnotnExtrainfo","dirCor/McshCor000002.last.html#idMcsattNamcvnExmn"],
   ["!&#8205;⇒main-mind-name!⇒McsnotnMainMind","dirCor/McshCor000002.last.html#idMcsattNamcvnExnar"],
   ["!=translation--name-notation!⇒McsnotnTranslation","dirCor/McshCor000002.last.html#idMcsattNamcvnExneq"],
@@ -8,7 +8,7 @@
   ["!⇒Econscifinevolg!=evoluting-of-financial-theory","dirEdu/McshEdu000014.last.html#idSEconatt001evog"],
   ["!⇨non_english_main!⇒McsnotnMainOther","dirCor/McshCor000002.last.html#idMcsattNamcvnMainne"],
   ["$-USD!⇒UsazDlr","dirStn/McshStn000032.last.html#idUsazEconevu"],
-  ["&#46;attribute.specific--name-notation!⇒McsnotSpecific","dirCor/McshCor000002.last.html#idMcsattNamcvnAttstr"],
+  ["&#46;attribute.specific--name-notation!⇒McsnotnSpecific","dirCor/McshCor000002.last.html#idMcsattNamcvnAttstr"],
   ["'attribute__name_notation!⇒McsnotnAttr","dirCor/McshCor000002.last.html#idMcsattNamcvnAtt"],
   ["-a!~ConjSngu!=relation","dirCor/McshCor000005.last.html#idOverview"],
   ["-able@Engl_sufx","dirLag/McshLag000011.last.html#idLEnglsffx-1"],
@@ -44,7 +44,7 @@
   ["-y@Engl_sufx","dirLag/McshLag000011.last.html#idLEnglsffx-25"],
   [".gitignore","dirTchInf/McshTchInf000032.last.html#idGitrepignr"],
   [".world-wide-web-consortium!⇒oznW3c","dirStn/McshStn000017.last.html#idOznW3c"],
-  ["//attribute.whole--name-notation!⇒McsnotWhole","dirCor/McshCor000002.last.html#idMcsattNamcvnAttWhl"],
+  ["//attribute.whole--name-notation!⇒McsnotnWhole","dirCor/McshCor000002.last.html#idMcsattNamcvnAttWhl"],
   ["/C/-[tʂ]-CHip-(pinyin'zh)!⇒phoneme.C","dirLag/McshLag000009.last.html#idL0017phnmCs"],
   ["/H/-[x]-strong-/h/!⇒/H/_[x]_strong_/h/","dirLag/McshLag000009.last.html#idL0017phnmHs"],
   ["/H/_[x]_strong_/h/","dirLag/McshLag000009.last.html#idL0017phnmHs"],
@@ -71,7 +71,7 @@
   ["/a9/-(a-nasal)!⇒/a9/_(a_nasal)","dirLag/McshLag000009.last.html#idL0017phnmVwlA9"],
   ["/a9/_(a_nasal)","dirLag/McshLag000009.last.html#idL0017phnmVwlA9"],
   ["/af/-⟨ع⟩⟨عـعـع⟩-1593-ArabLetr-ayn","dirLag/McshLag000036.last.html#idLArabltrGlt"],
-  ["/attribute.part--name-notation!⇒McsnotPart","dirCor/McshCor000002.last.html#idMcsattNamcvnAttPrt"],
+  ["/attribute.part--name-notation!⇒McsnotnPart","dirCor/McshCor000002.last.html#idMcsattNamcvnAttPrt"],
   ["/aá/á-toneZhon2acute!⇒rising_tone_(second_á)","dirLag/McshLag000018.last.html#idLZhonSpchtone2"],
   ["/b/-Bubble!⇒phoneme.b","dirLag/McshLag000009.last.html#idL0017phnmStpB"],
   ["/bb/-[bʱ]-breathy-b!⇒/bb/_[bʱ]_breathy_b","dirLag/McshLag000009.last.html#idL0017phnmVwlNBrthB"],
@@ -786,7 +786,8 @@
   ["{Mcs'2020-04-04}-200'000-names","dirCor/McshCor000002.last.html#idMcsevog20200424"],
   ["{Mcs'2020-10-18}-paragraph-Mcs","dirCor/McshCor000002.last.html#idMcsevog20201018"],
   ["{SciLago'Bce0170..Bce0090}-Greek-Dionysius-Thrax-Art-of-Grammar","dirEdu/McshEdu000010.last.html#idSLangevogB0170B0090"],
-  ["{SciMath'i100.2100}","dirEdu/McshEdu000005.last.html#idSMath20012100"],
+  ["{SciMath'i100.2100}!⇒{SciMath_i100.2100}","dirEdu/McshEdu000005.last.html#idSMath20012100"],
+  ["{SciMath_i100.2100}","dirEdu/McshEdu000005.last.html#idSMath20012100"],
   ["{SoctChna'0105}-paper","dirStn/McshStn000031.last.html#idSocChnaevog0105"],
   ["{SoctChna'0220..0280}-Three-Kingdoms","dirStn/McshStn000031.last.html#idSocChnaevog02200280"],
   ["{SoctChna'0266..0420}-Jin-Dynasty","dirStn/McshStn000031.last.html#idSocChnaevog02660420"],
@@ -1292,5 +1293,5 @@
   ["并且-bìngqiě!~Zhonconj!⇒ZhonrltnAdditionBìngqiě","dirLag/McshLag000018.last.html#idLZhonconj_031"],
   ["微信-wēixìn!⇒WeChat","dirTchInf/McshTchInf000040.last.html#idIntntdongSlntWcht"],
   ["支付宝-zhīfùbǎo!⇒AliPay","dirTchInf/McshTchInf000040.last.html#idIntntdongPmntAli"],
-  ["硬卧|软卧!⇒Chna_train'hard|soft_sleeper","dirStn/McshStn000031.last.html#idChnaEconatt016trenhssr"]
+  ["硬卧|软卧!⇒Chna_train_hard|soft_sleeper","dirStn/McshStn000031.last.html#idChnaEconatt016trenhssr"]
 ]
