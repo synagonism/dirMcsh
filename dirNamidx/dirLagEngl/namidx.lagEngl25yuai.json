@@ -1,5 +1,5 @@
 [
-  [";lagEngl25yuai","Y|y",157,"2026-11-07"],
+  [";lagEngl25yuai","Y|y",158,"2026-11-08"],
   ["Y-yotta=x1000^8","dirCor/McshCor000010.last.html#idQntRlvMlplYota"],
   ["Y39-Yttrium-ChmcElry!⇒ChmcElrY39","dirNtr/McshNtr000007.last.html#idChmElrYttrium"],
   ["YAGO!⇒Rdfwyago","dirTchInf/McshTchInf000039.last.html#idLKnlg014optYago"],
@@ -144,8 +144,9 @@
   ["young-entity!⇒young","dirCor/McshCor000003.last.html#idEntYang"],
   ["your!~nounEnglC1-5:you;you;you;you;your;yours","dirLag/McshLag000024.last.html#idLEnglnounC1-253"],
   ["your!~pronEnglExophoric","dirLag/McshLag000011.last.html#idLEnglpronExfcYour"],
-  ["your-Europe//europaeu!⇒youreurope//europaeu","dirStn/McshStn000020.last.html#idSocEuzztt016yrerp"],
-  ["youreurope//europaeu","dirStn/McshStn000020.last.html#idSocEuzztt016yrerp"],
+  ["your-Europe//europaeu!⇒youreurope","dirStn/McshStn000020.last.html#idSocEuzztt016yrerp"],
+  ["youreurope!=youreurope//europaeu","dirStn/McshStn000020.last.html#idSocEuzztt016yrerp"],
+  ["youreurope//europaeu!⇒youreurope","dirStn/McshStn000020.last.html#idSocEuzztt016yrerp"],
   ["yours!~nounEnglC1-6:you;you;you;you;your;yours","dirLag/McshLag000024.last.html#idLEnglnounC1-253"],
   ["yours!~pronEnglExophoric","dirLag/McshLag000011.last.html#idLEnglpronExfcYours"],
   ["youthful!~Engladje","dirLag/McshLag000011.last.html#idLEngladje_217"],

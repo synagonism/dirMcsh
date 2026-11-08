@@ -1,10 +1,10 @@
 [
-  [";lagEspo13yyo","J|j",7,"2026-10-27"],
+  [";lagEspo13yyo","J|j",7,"2026-11-08"],
   ["Januaro!⇒January","dirCor/McshCor000006.last.html#idTimeUomMnthJan"],
   ["Julio!⇒July","dirCor/McshCor000006.last.html#idTimeUomMnthJul"],
   ["Junio!⇒June","dirCor/McshCor000006.last.html#idTimeUomMnthJun"],
-  ["jarcento!⇒{i100}","dirCor/McshCor000006.last.html#idTimeUomYear100"],
-  ["jardeko!⇒{i10}","dirCor/McshCor000006.last.html#idTimeUomYear10"],
+  ["jarcento!⇒timeI100","dirCor/McshCor000006.last.html#idTimeUomYear100"],
+  ["jardeko!⇒timeI10","dirCor/McshCor000006.last.html#idTimeUomYear10"],
   ["jaro!⇒timeYear","dirCor/McshCor000006.last.html#idTimeUomYear"],
   ["jes-ne!⇒yes_no","dirLag/McshLag000007.last.html#idLHmnmadveAfNg"]
 ]
