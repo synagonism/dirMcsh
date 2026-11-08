@@ -109,7 +109,7 @@
   ["rénmín-rìbào-人民日报!⇒people_daily_of_SocChna","dirStn/McshStn000031.last.html#idChnaEconatt027"],
   ["rénmínbì-人民币!⇒ChnaRmb","dirStn/McshStn000031.last.html#idChnaEconevu"],
   ["rì-日!=sun!⇒Zhonradi086","dirLag/McshLag000018.last.html#idLZhoncharrdcl086"],
-  ["rì-日!=timeDay","dirCor/McshCor000006.last.html#idTimeUomDay"],
+  ["rì-日!⇒day","dirCor/McshCor000006.last.html#idTimeUomDay"],
   ["rì-日-26085!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb272"],
   ["rì-鈤-37412!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb272"],
   ["rìběn-日本!=SoctJapan","dirStn/McshStn000048.last.html#idOverview"],
