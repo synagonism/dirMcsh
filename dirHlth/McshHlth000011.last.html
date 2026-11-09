@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.disease!=human-disease
-    (McshHlth000011.1-29-0.2026-10-29)</title>
+    (McshHlth000011.1-30-0.2026-11-09)</title>
   <meta name="keywords" content="disease-of-human, disease, modelConceptSenso, Hitp_Mcs, synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -31,6 +31,7 @@
     <br>* McshEngl.human-disease!⇒disease,
     <br>* McshEngl.disease!=human-disease,
     <br>* McshEngl.disease!@McsHlth000011,
+    <br>* McshEngl.Diss!Attrbase!⇒disease,
     <br>* McshEngl.McshHlth000011.last.html//dirHlth//dirMcsh!⇒disease,
     <br>* McshEngl.dirHlth/McshHlth000011.last.html!⇒disease,
     <br>* McshEngl.abnormality.human!⇒disease,
@@ -42,7 +43,6 @@
     <br>* McshEngl.disease-of-human!⇒disease,
     <br>* McshEngl.diseaseHumn!⇒disease,
     <br>* McshEngl.disorder.human!⇒disease,
-    <br>* McshEngl.Diss!⇒disease,
     <br>* McshEngl.Dss!⇒disease,
     <br>* McshEngl.DissHumn!⇒disease,
     <br>* McshEngl.DissOgsm.001_human!⇒disease,
@@ -75,18 +75,20 @@
     <br>· symptom-of-disease is an-effect of the-disease.
     <a class="clsHide" href="#idDssHmn001Fdsn"></a></p>
   <p id="idDssHmn001Fnam">name::
-    <br>* McshEngl.symptom,
-    <br>* McshEngl.disease'01_symptom!⇒symptom,
-    <br>* McshEngl.disease'att001_symptom!⇒symptom,
-    <br>* McshEngl.disease'symptom_001!⇒symptom,
-    <br>* McshEngl.disease'effect!⇒symptom,
-    <br>* McshEngl.symptom-of-disease!⇒symptom,
+    <br>* McshEngl.symptom-of-disease!⇒Disssymptom,
+    <br>* McshEngl.Disssymptom!=symptom-of-disease,
+    <br>* McshEngl.symptom!⇒Disssymptom,
+    <br>* McshEngl.disease'01_symptom!⇒Disssymptom,
+    <br>* McshEngl.disease'att001_symptom!⇒Disssymptom,
+    <br>* McshEngl.disease'symptom_001!⇒Disssymptom,
+    <br>* McshEngl.disease'effect!⇒Disssymptom,
     <br>====== lagoGreek:
-    <br>* McshElln.σύμπτωμα-ασθένειας!⇒symptom,
+    <br>* McshElln.σύμπτωμα-ασθένειας!⇒Disssymptom,
     <a class="clsHide" href="#idDssHmn001Fnam"></a></p>
   <p id="idDssHmn001Fgntr">generic-tree::
-    <br>* McshEngl.symptom:generic,
+    <br>* McshEngl.Disssymptom:generic,
     <br>===
+    <br>* effect:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDssHmn001Fgntr"></a></p>
   <p id="idDssHmn001Fsptr">specific-tree::
@@ -94,7 +96,7 @@
     <a class="clsHide" href="#idDssHmn001Fsptr"></a></p>
 
   <section id="idDssHmn001FMufs">
-  <h2 id="idDssHmn001FMufsH2">symptom.medically-unexplained
+  <h2 id="idDssHmn001FMufsH2">Disssymptom.medically-unexplained
     </h2>
   <p id="idDssHmn001FMufsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -110,7 +112,7 @@
     <br>* McshEngl.MUPS-medically-unexplained-physical-symptom!⇒symptomMup,
     <br>* McshEngl.MUS-medically-unexplained-physical-symptom!⇒symptomMup,
     <br>* McshEngl.medically-unexplained-physical-symptom!⇒symptomMup,
-    <br>* McshEngl.symptom.medically_unexplained!⇒symptomMup,
+    <br>* McshEngl.Disssymptom.medically_unexplained!⇒symptomMup,
     <a class="clsHide" href="#idDssHmn001FMufsnam"></a></p>
   </section>
   </section>
@@ -140,7 +142,7 @@
     <a class="clsHide" href="#idDssHmn002Fnam"></a></p>
 
   <section id="idDssHmnrkfrF">
-  <h2 id="idDssHmnrkfrFH2">risk-factor of disease
+  <h2 id="idDssHmnrkfrFH2">risk-factor of Disscause
     </h2>
   <p id="idDssHmnrkfrFdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -157,7 +159,7 @@
   </section>
 
   <section id="idDssHmncasPtgn">
-  <h2 id="idDssHmncasPtgnH2">cause.pathogen
+  <h2 id="idDssHmncasPtgnH2">Disscause.pathogen
     </h2>
   <p id="idDssHmncasPtgndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -187,49 +189,50 @@
     <br>[{2020-01-14} https://en.wikipedia.org/wiki/Medical_diagnosis]
     <a class="clsHide" href="#idDssHmn003dsn"></a></p>
   <p id="idDssHmn003nam">name::
-    <br>* McshEngl.diagnosis, /daignósis/
-    <br>* McshEngl.disease'03_diagnosis!⇒diagnosis,
-    <br>* McshEngl.disease'att003_diagnosis!⇒diagnosis,
-    <br>* McshEngl.disease'diagnosis_003!⇒diagnosis,
-    <br>* McshEngl.diagnosis-of-disease!⇒diagnosis,
-    <br>* McshEngl.disease'detection!⇒diagnosis,
-    <br>* McshEngl.disease'diagnostic_procedure!⇒diagnosis,
-    <br>* McshEngl.medical-diagnosis!⇒diagnosis,
-    <br>* McshEngl.disease'03_diagnosis_doing!⇒diagnosis,
+    <br>* McshEngl.diagnosis-doing--of-disease!⇒Dissdiagnosis,
+    <br>* McshEngl.Dissdiagnosis!=diagnosis-doing--of-disease,
+    <br>* McshEngl.diagnosis/daignósis/!⇒Dissdiagnosis,
+    <br>* McshEngl.disease'03_diagnosis!⇒Dissdiagnosis,
+    <br>* McshEngl.disease'att003_diagnosis!⇒Dissdiagnosis,
+    <br>* McshEngl.disease'diagnosis_003!⇒Dissdiagnosis,
+    <br>* McshEngl.disease'detection!⇒Dissdiagnosis,
+    <br>* McshEngl.disease'diagnostic_procedure!⇒Dissdiagnosis,
+    <br>* McshEngl.medical-diagnosis!⇒Dissdiagnosis,
+    <br>* McshEngl.disease'03_diagnosis_doing!⇒Dissdiagnosis,
     <br>====== lagoGreek:
-    <br>* McshElln.διάγνωση-πάθησης-ανθρώπου!⇒diagnosis,
-    <br>* McshElln.διαδικασία-διάγνωσης-πάθησης!⇒diagnosis,
+    <br>* McshElln.διάγνωση-πάθησης-ανθρώπου!⇒Dissdiagnosis,
+    <br>* McshElln.διαδικασία-διάγνωσης-πάθησης!⇒Dissdiagnosis,
     <a class="clsHide" href="#idDssHmn003nam"></a></p>
 
   <section id="idDssHmn003opt">
-  <h2 id="idDssHmn003optH2">output of diagnosis
+  <h2 id="idDssHmn003optH2">output of Dissdiagnosis
     </h2>
   <p id="idDssHmn003optdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· diagnosis-output is the-information obtained from a-diagnosis-process.
     <a class="clsHide" href="#idDssHmn003optdsn"></a></p>
   <p id="idDssHmn003optnam">name::
-    <br>* McshEngl.diagnosis'output,
+    <br>* McshEngl.Dissdiagnosis'output,
     <a class="clsHide" href="#idDssHmn003optnam"></a></p>
   </section>
 
   <section id="idDssHmn003gstr">
-  <h2 id="idDssHmn003gstrH2">GENERIC-SPECIFIC-TREE of diagnosis
+  <h2 id="idDssHmn003gstrH2">GENERIC-SPECIFIC-TREE of Dissdiagnosis
     </h2>
   <p id="idDssHmn003gstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDssHmn003gstrdsn"></a></p>
   <p id="idDssHmn003gstrnam">name::
-    <br>* McshEngl.diagnosis'generic_specific_tree,
+    <br>* McshEngl.Dissdiagnosis'generic_specific_tree,
     <a class="clsHide" href="#idDssHmn003gstrnam"></a></p>
   <p id="idDssHmn003gntr">generic-tree::
-    <br>* McshEngl.diagnosis:generic,
+    <br>* McshEngl.Dissdiagnosis:generic,
     <br>===
-    <br>* disease:generic,
+    <br>* doing:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDssHmn003gntr"></a></p>
   <p id="idDssHmn003sptr">specific-tree::
-    <br>* McshEngl.diagnosis.specific,
+    <br>* McshEngl.Dissdiagnosis.specific,
     <br>===
     <br>* physical-examination,
     <br>* differential-diagnosis,
@@ -239,7 +242,7 @@
   </section>
 
   <section id="idDssHmn003Phexn">
-  <h2 id="idDssHmn003PhexnH2">diagnosis.physical_examination
+  <h2 id="idDssHmn003PhexnH2">Dissdiagnosis.physical_examination
     </h2>
   <p id="idDssHmn003Phexndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -248,15 +251,15 @@
     <a class="clsHide" href="#idDssHmn003Phexndsn"></a></p>
   <p id="idDssHmn003Phexnnam">name::
     <br>* McshEngl.clinical-examination,
-    <br>* McshEngl.diagnosis.001.physical_examination,
-    <br>* McshEngl.diagnosis.physical_examination,
+    <br>* McshEngl.Dissdiagnosis.001.physical_examination,
+    <br>* McshEngl.Dissdiagnosis.physical_examination,
     <br>* McshEngl.medical-examination,
     <br>* McshEngl.physical-examination-of-disease,
     <a class="clsHide" href="#idDssHmn003Phexnnam"></a></p>
   </section>
 
   <section id="idDssHmn003Dfrl">
-  <h2 id="idDssHmn003DfrlH2">diagnosis.differential
+  <h2 id="idDssHmn003DfrlH2">Dissdiagnosis.differential
     </h2>
   <p id="idDssHmn003Dfrldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -269,14 +272,14 @@
     <br>[{2020-01-14} https://en.wikipedia.org/wiki/Differential_diagnosis]
     <a class="clsHide" href="#idDssHmn003Dfrldsn"></a></p>
   <p id="idDssHmn003Dfrlnam">name::
-    <br>* McshEngl.diagnosis.002.differential,
-    <br>* McshEngl.diagnosis.differential,
+    <br>* McshEngl.Dissdiagnosis.002.differential,
+    <br>* McshEngl.Dissdiagnosis.differential,
     <br>* McshEngl.differential-diagnosis,
     <a class="clsHide" href="#idDssHmn003Dfrlnam"></a></p>
   </section>
 
   <section id="idDssHmn003007">
-  <h2 id="idDssHmn003007H2">diagnosis.by-exclusion-007
+  <h2 id="idDssHmn003007H2">Dissdiagnosis.by-exclusion-007
     </h2>
   <p id="idDssHmn003007dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -286,15 +289,15 @@
     <a class="clsHide" href="#idDssHmn003007dsn"></a></p>
   <p id="idDssHmn003007nam">name::
     <br>* McshEngl.diagnosisBy_exclusion,
-    <br>* McshEngl.diagnosis.007_by_exclusion!⇒diagnosisBy_exclusion,
-    <br>* McshEngl.diagnosis.by_exclusion_007!⇒diagnosisBy_exclusion,
-    <br>* McshEngl.diagnosis.by_exclusion,
-    <br>* McshEngl.diagnosis.of_exclusion,
+    <br>* McshEngl.Dissdiagnosis.007_by_exclusion!⇒diagnosisBy_exclusion,
+    <br>* McshEngl.Dissdiagnosis.by_exclusion_007!⇒diagnosisBy_exclusion,
+    <br>* McshEngl.Dissdiagnosis.by_exclusion,
+    <br>* McshEngl.Dissdiagnosis.of_exclusion,
     <a class="clsHide" href="#idDssHmn003007nam"></a></p>
   </section>
 
   <section id="idDssHmn003Mdtst">
-  <h2 id="idDssHmn003MdtstH2">diagnosis.medical_test
+  <h2 id="idDssHmn003MdtstH2">Dissdiagnosis.medical_test
     </h2>
   <p id="idDssHmn003Mdtstdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -302,13 +305,13 @@
     <br>[{2020-01-15} https://en.wikipedia.org/wiki/Medical_test]
     <a class="clsHide" href="#idDssHmn003Mdtstdsn"></a></p>
   <p id="idDssHmn003Mdtstnam">name::
-    <br>* McshEngl.diagnosis.003.medical_test,
-    <br>* McshEngl.diagnosis.medical_test,
+    <br>* McshEngl.Dissdiagnosis.003.medical_test,
+    <br>* McshEngl.Dissdiagnosis.medical_test,
     <br>* McshEngl.medical-test,
     <a class="clsHide" href="#idDssHmn003Mdtstnam"></a></p>
 
   <section id="idDgnsHmn004">
-  <h3 id="idDgnsHmn004H3">diagnosis.amniocentesis
+  <h3 id="idDgnsHmn004H3">Dissdiagnosis.amniocentesis
     </h3>
   <p id="idDgnsHmn004dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -330,8 +333,8 @@
     <br>[SOURCE: www.yahoo]
     <a class="clsHide" href="#idDgnsHmn004dsn"></a></p>
   <p id="idDgnsHmn004nam">name::
-    <br>* McshEngl.diagnosis.004.amniocentesis,
-    <br>* McshEngl.diagnosis.amniocentesis,
+    <br>* McshEngl.Dissdiagnosis.004.amniocentesis,
+    <br>* McshEngl.Dissdiagnosis.amniocentesis,
     <br>* McshEngl.amniocentesis,
     <br>====== lagoGreek:
     <br>* McshElln.διάγνωση.αμνιοκέντιση,
@@ -341,7 +344,7 @@
   </section>
 
   <section id="idDssHmn003Ctsn">
-  <h2 id="idDssHmn003CtsnH2">diagnosis.CT-scan
+  <h2 id="idDssHmn003CtsnH2">Dissdiagnosis.CT-scan
     </h2>
   <p id="idDssHmn003Ctsndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -353,15 +356,15 @@
     <br>* McshEngl.CT-scan!⇒CT_scan,
     <br>* McshEngl.computed-tomography-scan!⇒CT_scan,
     <br>* McshEngl.computerized-axial-tomography-scan!⇒CT_scan,
-    <br>* McshEngl.diagnosis.005.CT_scan!⇒CT_scan,
-    <br>* McshEngl.diagnosis.CT_scan!⇒CT_scan,
+    <br>* McshEngl.Dissdiagnosis.005.CT_scan!⇒CT_scan,
+    <br>* McshEngl.Dissdiagnosis.CT_scan!⇒CT_scan,
     <br>====== lagoGreek:
     <br>* McshElln.αξονική-τομογραφία!⇒CT_scan,
     <a class="clsHide" href="#idDssHmn003Ctsnnam"></a></p>
   </section>
 
   <section id="idDssHmn003Mri">
-  <h2 id="idDssHmn003MriH2">diagnosis.MRI
+  <h2 id="idDssHmn003MriH2">Dissdiagnosis.MRI
     </h2>
   <p id="idDssHmn003Mridsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -369,8 +372,8 @@
     <br>[{2020-01-14} https://en.wikipedia.org/wiki/Magnetic_resonance_imaging]
     <a class="clsHide" href="#idDssHmn003Mridsn"></a></p>
   <p id="idDssHmn003Mrinam">name::
-    <br>* McshEngl.diagnosis.006.MRI,
-    <br>* McshEngl.diagnosis.MRI,
+    <br>* McshEngl.Dissdiagnosis.006.MRI,
+    <br>* McshEngl.Dissdiagnosis.MRI,
     <br>* McshEngl.magnetic-resonance-imaging,
     <a class="clsHide" href="#idDssHmn003Mrinam"></a></p>
 
@@ -494,10 +497,12 @@
     <br>· specific food can-protect or treat a-human from a-disease.
     <a class="clsHide" href="#idDssHmnatt007dsn"></a></p>
   <p id="idDssHmnatt007nam">name::
-    <br>* McshEngl.disease'06_food,
-    <br>* McshEngl.disease'att007_food,
-    <br>* McshEngl.disease'diet_007,
-    <br>* McshEngl.disease'food_007,
+    <br>* McshEngl.food-of-disease!⇒Dissfood,
+    <br>* McshEngl.Dissfood!=food-of-disease,
+    <br>* McshEngl.disease'06_food!⇒Dissfood,
+    <br>* McshEngl.disease'att007_food!⇒Dissfood,
+    <br>* McshEngl.disease'diet_007!⇒Dissfood,
+    <br>* McshEngl.disease'food_007!⇒Dissfood,
     <a class="clsHide" href="#idDssHmnatt007nam"></a></p>
   </section>
 
@@ -509,11 +514,13 @@
     <br>· The term "stats of disease" generally refers to epidemiological statistics, including incidence (new cases), prevalence (total existing cases), morbidity (disease impact), mortality (death rates), and case fatality rates, which are used to measure the frequency, distribution, and burden of a disease within a population.
     <a class="clsHide" href="#idDssHmnatt008dsn"></a></p>
   <p id="idDssHmnatt008nam">name::
-    <br>* McshEngl.disease'07_stats,
-    <br>* McshEngl.disease'att008_stats,
-    <br>* McshEngl.disease'stats_008,
+    <br>* McshEngl.statistics-of-disease!⇒Dissstat,
+    <br>* McshEngl.Dissstat!=statistics-of-disease,
+    <br>* McshEngl.disease'07_stats!⇒Dissstat,
+    <br>* McshEngl.disease'att008_stats!⇒Dissstat,
+    <br>* McshEngl.disease'stats_008!⇒Dissstat,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθησης-στατιστικά,
+    <br>* McshElln.πάθησης-στατιστικά!⇒Dissstat,
     <a class="clsHide" href="#idDssHmnatt008nam"></a></p>
 
   <section id="idDssHmnFrqc">
@@ -542,12 +549,13 @@
     <br>· any <a class="clsPreview" href="../dirStn/McshStn000011.last.html#idOverview">worker</a> of disease.
     <a class="clsHide" href="#idDssHmnatt010dsn"></a></p>
   <p id="idDssHmnatt010nam">name::
-    <br>* McshEngl.wkrDisease,
-    <br>* McshEngl.disease'att010_worker!⇒wkrDisease,
-    <br>* McshEngl.disease'worker!⇒wkrDisease,
-    <br>* McshEngl.HumnWorker.016_disease!⇒wkrDisease,
-    <br>* McshEngl.HumnWorker.disease!⇒wkrDisease,
-    <br>* McshEngl.disease'09_worker!⇒wkrDisease,
+    <br>* McshEngl.worker-of-dissease!⇒Dissworker,
+    <br>* McshEngl.wrkrDisease!⇒Dissworker,
+    <br>* McshEngl.disease'att010_worker!⇒Dissworker,
+    <br>* McshEngl.disease'worker!⇒Dissworker,
+    <br>* McshEngl.HumnWorker.016_disease!⇒Dissworker,
+    <br>* McshEngl.HumnWorker.disease!⇒Dissworker,
+    <br>* McshEngl.disease'09_worker!⇒Dissworker,
     <a class="clsHide" href="#idDssHmnatt010nam"></a></p>
   </section>
 
@@ -559,10 +567,10 @@
     <br>* https://www.hygeia.gr/hygeia/arthra-ygeias/,
     <a class="clsHide" href="#idDssHmnirscdsn"></a></p>
   <p id="idDssHmnrscnam">name::
-    <br>* McshEngl.info-resource--of-disease!⇒Diseaseinfrsc,
-    <br>* McshEngl.Diseaseinfrsc!=info-resource--of-disease,
-    <br>* McshEngl.disease'info_resource!⇒Diseaseinfrsc,
-    <br>* McshEngl.disease'resource!⇒Diseaseinfrsc,
+    <br>* McshEngl.info-resource--of-disease!⇒Dissinfrsc,
+    <br>* McshEngl.Dissinfrsc!=info-resource--of-disease,
+    <br>* McshEngl.disease'info_resource!⇒Dissinfrsc,
+    <br>* McshEngl.disease'resource!⇒Dissinfrsc,
     <a class="clsHide" href="#idDssHmnrscnam"></a></p>
 
   <section id="idDssHmnSci">
@@ -573,11 +581,12 @@
     <br>· <a class="clsPreview" href="../dirEdu/McshEdu000002.last.html#idOverview">the-science</a> of disease.
     <a class="clsHide" href="#idDssHmnScidsn"></a></p>
   <p id="idDssHmnScinam">name::
-    <br>* McshEngl.SciDisease,
-    <br>* McshEngl.disease'science!⇒SciDisease,
-    <br>* McshEngl.medical-science!⇒SciDisease,
-    <br>* McshEngl.medicine!⇒SciDisease,
-    <br>* McshEngl.science-of-disease!⇒SciDisease,
+    <br>* McshEngl.science-of-disease!⇒Disssci,
+    <br>* McshEngl.Disssci!=science-of-disease,
+    <br>* McshEngl.SciDisease!=Disssci,
+    <br>* McshEngl.disease'science!⇒Disssci,
+    <br>* McshEngl.medical-science!⇒Disssci,
+    <br>* McshEngl.medicine!⇒Disssci,
     <a class="clsHide" href="#idDssHmnScinam"></a></p>
   <p id="idDssHmnScidsnL">descriptionLong::
     <br>"Medicine is the science and practice of establishing the diagnosis, prognosis, treatment, and prevention of disease. Medicine encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness. Contemporary medicine applies biomedical sciences, biomedical research, genetics, and medical technology to diagnose, treat, and prevent injury and disease, typically through pharmaceuticals or surgery, but also through therapies as diverse as psychotherapy, external splints and traction, medical devices, biologics, and ionizing radiation, amongst others.[1]
@@ -614,9 +623,9 @@
     <br>* infection-of-disease,
     <a class="clsHide" href="#idDssHmndongdsn"></a></p>
   <p id="idDssHmndongnam">name::
-    <br>* McshEngl.doing-of-disease!⇒Diseasedoing,
-    <br>* McshEngl.Diseasedoing!=doing-of-disease,
-    <br>* McshEngl.disease'doing!⇒Diseasedoing,
+    <br>* McshEngl.doing-of-disease!⇒Dissdoing,
+    <br>* McshEngl.Dissdoing!=doing-of-disease,
+    <br>* McshEngl.disease'doing!⇒Dissdoing,
     <a class="clsHide" href="#idDssHmndongnam"></a></p>
   </section>
 
@@ -628,9 +637,9 @@
     <br>· creation of current <a class="clsPreview" href="../dirCor/McshCor000002.last.html#idOverview">concept</a>.
     <a class="clsHide" href="#idDssHmnevogdsn"></a></p>
   <p id="idDssHmnevognam">name::
-    <br>* McshEngl.evoluting-of-disease!⇒Diseaseevolg,
-    <br>* McshEngl.Diseaseevolg!=evoluting-of-disease,
-    <br>* McshEngl.disease'evoluting!⇒Diseaseevolg,
+    <br>* McshEngl.evoluting-of-disease!⇒Dissevolg,
+    <br>* McshEngl.Dissevolg!=evoluting-of-disease,
+    <br>* McshEngl.disease'evoluting!⇒Dissevolg,
     <a class="clsHide" href="#idDssHmnevognam"></a></p>
   </section>
 
@@ -1199,8 +1208,37 @@
     <a class="clsHide" href="#idDssHmn001infngntr"></a></p>
   </section>
 
+  <section id="idDssHmn001gstr">
+  <h2 id="idDssHmn001gstrH2">GENERIC-SPECIFIC-TREE of DissInfectious
+    </h2>
+  <p id="idDssHmn001gstrdsn">description::
+    <br>× Mcsh-creation: {2026-05-19}
+    <a class="clsHide" href="#idDssHmn001gstrdsn"></a></p>
+  <p id="idDssHmn001gstrnam">name::
+    <br>* McshEngl.DissInfectious'generic_specific_tree,
+    <a class="clsHide" href="#idDssHmn001gstrnam"></a></p>
+  <p id="idDssHmn001gntr">generic-tree::
+    <br>* McshEngl.DissInfectious:generic,
+    <br>===
+    <br>* disease:generic,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idDssHmn001gntr"></a></p>
+  <p id="idDssHmn001sptr">specific-tree::
+    <br>* McshEngl.DissInfectious.specific,
+    <br>===
+    <br>* DissInfectious.DissInfectiousBacterial!@McshHlth000011#idDssHmn056,
+    <br>* DissInfectious.DissInfectiousViral!@McshHlth000011#idDssHmn162,
+    <br>* DissInfectious.DissGastroenteritis_sigkella!@McshHlth000011#idDssHmn140,
+    <br>===
+    <br>""Germ" may refer to not just a bacterium but to any type of microorganism or even non-living pathogen that can cause disease, such as protists, fungi, viruses, prions, or viroids.[1]"
+    <br>[{2020-02-22} https://en.wikipedia.org/wiki/Germ_theory_of_disease]
+    <br>===
+    <br>* DissInfectious.DissFungal!@McshHlth000011#idDssHmn190,
+    <a class="clsHide" href="#idDssHmn001sptr"></a></p>
+  </section>
+
   <section id="idDssHmn056">
-  <h2 id="idDssHmn056H2">disease.bacterial-infection-056
+  <h2 id="idDssHmn056H2">DissInfectious.bacterial
     </h2>
   <p id="idDssHmn056dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1208,11 +1246,11 @@
     <br>[https://www.weforum.org/agenda/2017/01/heres-how-your-brain-helps-your-body-fight-bacteria?]
     <a class="clsHide" href="#idDssHmn056dsn"></a></p>
   <p id="idDssHmn056nam">name::
-    <br>* McshEngl.DissBacterial_infection,
-    <br>* McshEngl.disease.056_bacterial_infection!⇒DissBacterial_infection,
-    <br>* McshEngl.disease.bacterial_infection_056!⇒DissBacterial_infection,
-    <br>* McshEngl.bacterial-infection!⇒DissBacterial_infection,
-    <br>* McshEngl.DissInfectious.bacterial_infection_056!⇒DissBacterial_infection,
+    <br>* McshEngl.DissInfectiousBacterial,
+    <br>* McshEngl.disease.056_bacterial_infection!⇒DissInfectiousBacterial,
+    <br>* McshEngl.disease.bacterial_infection_056!⇒DissInfectiousBacterial,
+    <br>* McshEngl.bacterial-infection!⇒DissInfectiousBacterial,
+    <br>* McshEngl.DissInfectious.bacterial_infection_056!⇒DissInfectiousBacterial,
     <a class="clsHide" href="#idDssHmn056nam"></a></p>
   <p id="idDssHmn056wpa">addressWpg::
     <br>* https://www.weforum.org/agenda/2017/01/heres-how-your-brain-helps-your-body-fight-bacteria?
@@ -1220,7 +1258,7 @@
   </section>
 
   <section id="idDssHmn162">
-  <h2 id="idDssHmn162H2">disease.viral-infection-162
+  <h2 id="idDssHmn162H2">DissInfectious.viral-infection-162
     </h2>
   <p id="idDssHmn162dsn">description::
     <br>× Mcsh-creation: {2020-01-14} {2003-01-04}
@@ -1231,19 +1269,19 @@
     <br>[http://el.wikipedia.org/wiki/ιός]
     <a class="clsHide" href="#idDssHmn162dsn"></a></p>
   <p id="idDssHmn162nam">name::
-    <br>* McshEngl.DissViral_infection,
-    <br>* McshEngl.disease.162_viral_infection!⇒DissViral_infection,
-    <br>* McshEngl.disease.viral_infection_162!⇒DissViral_infection,
-    <br>* McshEngl.DissViralInfection!⇒DissViral_infection,
-    <br>* McshEngl.viral-infection-of-human!⇒DissViral_infection,
-    <br>* McshEngl.DissInfectious.viral_infection_162!⇒DissViral_infection,
+    <br>* McshEngl.DissInfectiousViral,
+    <br>* McshEngl.disease.162_viral_infection!⇒DissInfectiousViral,
+    <br>* McshEngl.disease.viral_infection_162!⇒DissInfectiousViral,
+    <br>* McshEngl.DissViralInfection!⇒DissInfectiousViral,
+    <br>* McshEngl.viral-infection-of-human!⇒DissInfectiousViral,
+    <br>* McshEngl.DissInfectious.viral_infection_162!⇒DissInfectiousViral,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ίωση-ανθρωπου!⇒DissViral_infection,
-    <br>* McshElln.ίωση-ανθρωπου!⇒DissViral_infection,
+    <br>* McshElln.πάθηση.ίωση-ανθρωπου!⇒DissInfectiousViral,
+    <br>* McshElln.ίωση-ανθρωπου!⇒DissInfectiousViral,
     <a class="clsHide" href="#idDssHmn162nam"></a></p>
 
   <section id="idDssHmn162therapy">
-  <h3 id="idDssHmn162therapyH3">04_therapy of DissViral_infection
+  <h3 id="idDssHmn162therapyH3">04_therapy of DissInfectiousViral
     </h3>
   <p id="idDssHmn162therapydsn">description::
     <br>× Mcsh-creation: {2026-05-20}
@@ -1254,12 +1292,13 @@
     <br>["Virus (biology)," Microsoft(R) Encarta(R) 97 Encyclopedia. (c) 1993-1996 Microsoft Corporation. All rights reserved.]
     <a class="clsHide" href="#idDssHmn162therapydsn"></a></p>
   <p id="idDssHmn162therapynam">name::
-    <br>* McshEngl.DissViralInfection'therapy,
-    <br>* McshEngl.DissViral_infection'therapy,
+    <br>* McshEngl.DissInfectiousViralthrp,
+    <br>* McshEngl.DissViralInfection'therapy!⇒DissInfectiousViralthrp,
+    <br>* McshEngl.DissInfectiousViral'therapy!⇒DissInfectiousViralthrp,
     <a class="clsHide" href="#idDssHmn162therapynam"></a></p>
 
   <section id="idDssHmn162ThrpPlsm">
-  <h4 id="idDssHmn162ThrpPlsmH4">DissViralInfection.plasma
+  <h4 id="idDssHmn162ThrpPlsmH4">DissInfectiousViralthrp.plasma
     </h4>
   <p id="idDssHmn162ThrpPlsmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1288,7 +1327,7 @@
   </section>
 
   <section id="idDssHmn162protection">
-  <h3 id="idDssHmn162protectionH3">05_protection of DissViral_infection
+  <h3 id="idDssHmn162protectionH3">05_protection of DissInfectiousViral
     </h3>
   <p id="idDssHmn162protectiondsn">description::
     <br>× Mcsh-creation: {2026-05-21}
@@ -1318,7 +1357,7 @@
     <a class="clsHide" href="#idDssHmn162protectiondsn"></a></p>
   <p id="idDssHmn162protectionnam">name::
     <br>* McshEngl.DissViralInfection'protection,
-    <br>* McshEngl.DissViral_infection'protection,
+    <br>* McshEngl.DissInfectiousViral'protection,
     <a class="clsHide" href="#idDssHmn162protectionnam"></a></p>
   </section>
 
@@ -1368,17 +1407,17 @@
   </section>
 
   <section id="idDssHmn162gstr">
-  <h3 id="idDssHmn162gstrH3">GENERIC-SPECIFIC-TREE of DissViral_infection
+  <h3 id="idDssHmn162gstrH3">GENERIC-SPECIFIC-TREE of DissInfectiousViral
     </h3>
   <p id="idDssHmn162gstrdsn">description::
     <br>× Mcsh-creation: {2026-05-20}
     <a class="clsHide" href="#idDssHmn162gstrdsn"></a></p>
   <p id="idDssHmn162gstrnam">name::
-    <br>* McshEngl.DissViral_infection'generic_specific_tree,
+    <br>* McshEngl.DissInfectiousViral'generic_specific_tree,
     <br>* McshEngl.DissViralInfection'generic_specific_tree,
     <a class="clsHide" href="#idDssHmn162gstrnam"></a></p>
   <p id="idDssHmn162gntr">generic-tree::
-    <br>* McshEngl.DissViral_infection:generic,
+    <br>* McshEngl.DissInfectiousViral:generic,
     <br>* McshEngl.DissViralInfection:generic,
     <br>===
     <br>* disease:generic,
@@ -1386,7 +1425,7 @@
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDssHmn162gntr"></a></p>
   <p id="idDssHmn162sptr">specific-tree::
-    <br>* McshEngl.DissViral_infection.specific,
+    <br>* McshEngl.DissInfectiousViral.specific,
     <br>* McshEngl.DissViralInfection.specific,
     <br>===
     <br>* Covid-19,
@@ -1394,35 +1433,6 @@
     <br>* SARS
     <a class="clsHide" href="#idDssHmn162sptr"></a></p>
   </section>
-  </section>
-
-  <section id="idDssHmn001gstr">
-  <h2 id="idDssHmn001gstrH2">GENERIC-SPECIFIC-TREE of DissInfectious
-    </h2>
-  <p id="idDssHmn001gstrdsn">description::
-    <br>× Mcsh-creation: {2026-05-19}
-    <a class="clsHide" href="#idDssHmn001gstrdsn"></a></p>
-  <p id="idDssHmn001gstrnam">name::
-    <br>* McshEngl.DissInfectious'generic_specific_tree,
-    <a class="clsHide" href="#idDssHmn001gstrnam"></a></p>
-  <p id="idDssHmn001gntr">generic-tree::
-    <br>* McshEngl.DissInfectious:generic,
-    <br>===
-    <br>* disease:generic,
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idDssHmn001gntr"></a></p>
-  <p id="idDssHmn001sptr">specific-tree::
-    <br>* McshEngl.DissInfectious.specific,
-    <br>===
-    <br>* DissInfectious.DissBacterial_infection!@McshHlth000011#idDssHmn056,
-    <br>* DissInfectious.DissViral_infection!@McshHlth000011#idDssHmn162,
-    <br>* DissInfectious.DissGastroenteritis_sigkella!@McshHlth000011#idDssHmn140,
-    <br>===
-    <br>""Germ" may refer to not just a bacterium but to any type of microorganism or even non-living pathogen that can cause disease, such as protists, fungi, viruses, prions, or viroids.[1]"
-    <br>[{2020-02-22} https://en.wikipedia.org/wiki/Germ_theory_of_disease]
-    <br>===
-    <br>* DissInfectious.DissFungal!@McshHlth000011#idDssHmn190,
-    <a class="clsHide" href="#idDssHmn001sptr"></a></p>
   </section>
   </section>
 
@@ -18280,7 +18290,7 @@
     <br>• email:
     <br> &nbsp;<img src="../../dirRsc/dirImg/mail.png" alt="mail">
     <br>• edit on github: https://github.com/synagonism/dirMcsh/blob/master/dirHlth/McshHlth000011.last.html,
-    <br>• comments on <a class="clsPreview" href="../dirHlth/McshHlth000000.last.html#idComment">Disqus</a>,
+    <br>• comments on <a class="clsPreview" href="../dirHlth/McshHlth000000.last.html#idComment">Giscus</a>,
     <br>• twitter: <a href="https://twitter.com/synagonism">@synagonism</a>,
     <a class="clsHide" href="#idFooterP1"></a></p>
   <p id="idMetaVersion">webpage-versions::
@@ -18298,14 +18308,6 @@
 
   <script type="module">
     import * as oMcsh from '/dirMcshmgr/mMcsh2.js'
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8T0MHWLS1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-N8T0MHWLS1');
   </script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.generic!=entity-with-specifics
-    (McshCor000009.1-59-0.2026-11-06)</title>
+    (McshCor000009.1-60-0.2026-11-09)</title>
   <meta name="keywords" content="generic-entity, generic, modelConceptSenso, Hitp_Mcs, synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -1301,7 +1301,7 @@
   <p id="idGnrcsptr">specific-tree::
     <br>* McshEngl.generic.specific,
     <br>===
-    <br>* generic.discreteNo_entity!@McshCor000009#idGnrcCnt,
+    <br>* generic.genericDiscreteNo!@McshCor000009#idGnrcCnt,
     <br>* generic.discrete!@McshCor000009#idGnrcCntN,
     <br>* generic.megethos!@McshCor000009#idGnrcmsrggnrc,
     <br>* generic.amount!@McshCor000009#idGnrcMsrdN,
@@ -1410,24 +1410,25 @@
     <br>[{2025-12-25 retrieved} http://localhost/dirMcsh/dirCor/McshCor000009.last.html#idGnrcCntIvl]
     <a class="clsHide" href="#idGnrcCntdsn"></a></p>
   <p id="idGnrcCntnam">name::
-    <br>* McshEngl.discreteNo_entity,
-    <br>* McshEngl.discreteNo-entity!⇒discreteNo_entity,
-    <br>* McshEngl.continuous-generic!⇒discreteNo_entity,
-    <br>* McshEngl.countableNo-entity!⇒discreteNo_entity,
-    <br>* McshEngl.generic.continuous!⇒discreteNo_entity,
-    <br>* McshEngl.mass-entity!⇒discreteNo_entity,
-    <br>* McshEngl.non-countable-entity!⇒discreteNo_entity,
-    <br>* McshEngl.uncountable-entity!⇒discreteNo_entity,
+    <br>* McshEngl.generic.continuous!⇒genericDiscreteNo,
+    <br>* McshEngl.genericDiscreteNo!=generic.continuous,
+    <br>* McshEngl.discreteNo_entity!=genericDiscreteNo,
+    <br>* McshEngl.discreteNo-entity!⇒genericDiscreteNo,
+    <br>* McshEngl.continuous-generic!⇒genericDiscreteNo,
+    <br>* McshEngl.countableNo-entity!⇒genericDiscreteNo,
+    <br>* McshEngl.mass-entity!⇒genericDiscreteNo,
+    <br>* McshEngl.non-countable-entity!⇒genericDiscreteNo,
+    <br>* McshEngl.uncountable-entity!⇒genericDiscreteNo,
     <br>====== lagoSinagu:
-    <br>* McshSngu.ko-enoto!⇒discreteNo_entity,
+    <br>* McshSngu.ko-enoto!⇒genericDiscreteNo,
     <br>====== lagoGreek:
-    <br>* McshElln.μέγεθος.συνεχές!⇒discreteNo_entity,
-    <br>* McshElln.μη-διακριτό-μέγεθος!⇒discreteNo_entity,
-    <br>* McshElln.συνεχές-μέγεθος!⇒discreteNo_entity,
+    <br>* McshElln.μέγεθος.συνεχές!⇒genericDiscreteNo,
+    <br>* McshElln.μη-διακριτό-μέγεθος!⇒genericDiscreteNo,
+    <br>* McshElln.συνεχές-μέγεθος!⇒genericDiscreteNo,
     <a class="clsHide" href="#idGnrcCntnam"></a></p>
 
   <section id="idGnrcCntIvl">
-  <h2 id="idGnrcCntIvlH2">continuous-generic.interval
+  <h2 id="idGnrcCntIvlH2">genericDiscreteNo.interval
     </h2>
   <p id="idGnrcCntIvldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1435,17 +1436,18 @@
     <br>· example: time-interval, distance-interval, ...
     <a class="clsHide" href="#idGnrcCntIvldsn"></a></p>
   <p id="idGnrcCntIvlnam">name::
-    <br>* McshEngl.generic.continuous.interval,
-    <br>* McshEngl.continuous_generic.interval!⇒generic.continuous.interval,
-    <br>* McshEngl.interval-generic!⇒generic.continuous.interval,
-    <br>* McshEngl.discreteNo_entity.interval!⇒generic.continuous.interval,
+    <br>* McshEngl.generic.continuous.interval!⇒genericDiscreteNoPointNo,
+    <br>* McshEngl.genericDiscreteNoPointNo!=generic.continuous.interval,
+    <br>* McshEngl.continuous_generic.interval!⇒genericDiscreteNoPointNo,
+    <br>* McshEngl.interval-generic!⇒genericDiscreteNoPointNo,
+    <br>* McshEngl.genericDiscreteNo.interval!⇒genericDiscreteNoPointNo,
     <br>====== lagoSinagu:
-    <br>* McshSngu.ko-dotoUoGo!⇒generic.continuous.interval,
+    <br>* McshSngu.ko-dotoUoGo!⇒genericDiscreteNoPointNo,
     <a class="clsHide" href="#idGnrcCntIvlnam"></a></p>
   </section>
 
   <section id="idGnrcCntIvlN">
-  <h2 id="idGnrcCntIvlNH2">continuous-generic.intervalNo (point)
+  <h2 id="idGnrcCntIvlNH2">genericDiscreteNo.intervalNo (point)
     </h2>
   <p id="idGnrcCntIvlNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1453,14 +1455,15 @@
     <br>· example: time-point, distance-point, ...
     <a class="clsHide" href="#idGnrcCntIvlNdsn"></a></p>
   <p id="idGnrcCntIvlNnam">name::
-    <br>* McshEngl.generic.continuous.point,
-    <br>* McshEngl.continuous_generic.intervalNo!⇒generic.continuous.point,
-    <br>* McshEngl.continuous_generic.point!⇒generic.continuous.point,
-    <br>* McshEngl.continuous-quantity!⇒generic.continuous.point,
-    <br>* McshEngl.continuous-variable!⇒generic.continuous.point,
-    <br>* McshEngl.point-generic!⇒generic.continuous.point,
+    <br>* McshEngl.generic.continuous.point!⇒genericDiscreteNoPoint,
+    <br>* McshEngl.genericDiscreteNoPoint!=generic.continuous.point,
+    <br>* McshEngl.continuous_generic.intervalNo!⇒genericDiscreteNoPoint,
+    <br>* McshEngl.continuous_generic.point!⇒genericDiscreteNoPoint,
+    <br>* McshEngl.continuous-quantity!⇒genericDiscreteNoPoint,
+    <br>* McshEngl.continuous-variable!⇒genericDiscreteNoPoint,
+    <br>* McshEngl.point-generic!⇒genericDiscreteNoPoint,
     <br>====== lagoSinagu:
-    <br>* McshSngu.ko-doto!⇒generic.continuous.point,
+    <br>* McshSngu.ko-doto!⇒genericDiscreteNoPoint,
     <a class="clsHide" href="#idGnrcCntIvlNnam"></a></p>
     <br>====== lagoGreek:
     <br>* McshElln.μη-διακριτό-μέγεθος,
@@ -1468,28 +1471,28 @@
   </section>
 
   <section id="idGnrcCntgstr">
-  <h2 id="idGnrcCntgstrH2">GENERIC-SPECIFIC-TREE of discreteNo_entity
+  <h2 id="idGnrcCntgstrH2">GENERIC-SPECIFIC-TREE of genericDiscreteNo
     </h2>
   <p id="idGnrcCntgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idGnrcCntgstrdsn"></a></p>
   <p id="idGnrcCntgstrnam">name::
-    <br>* McshEngl.discreteNo_entity'generic_specific_tree,
+    <br>* McshEngl.genericDiscreteNo'generic_specific_tree,
     <br>* McshEngl.continuous_generic'generic_specific_tree,
     <a class="clsHide" href="#idGnrcCntgstrnam"></a></p>
   <p id="idGnrcCntgntr">generic-tree::
-    <br>* McshEngl.discreteNo_entity:generic,
-    <br>* McshEngl.continuous-generic:generic,
+    <br>* McshEngl.genericDiscreteNo:generic,
+    <br>* McshEngl.genericDiscreteNo:generic,
     <br>===
     <br>* generic:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idGnrcCntgntr"></a></p>
   <p id="idGnrcCntsptr">specific-tree::
-    <br>* McshEngl.discreteNo_entity.specific,
+    <br>* McshEngl.genericDiscreteNo.specific,
     <br>* McshEngl.continuous_generic.specific,
     <br>===
-    <br>· interval--continuous-generic,
-    <br>· intervalNo--continuous-generic,
+    <br>· interval--genericDiscreteNo,
+    <br>· intervalNo--genericDiscreteNo,
     <br>===
     <br>* continuous_generic.time!@McshCor000006,
     <br>* continuous_generic.space!@McshCor000007,
@@ -1672,7 +1675,7 @@
     <br>• email:
     <br> &nbsp;<img src="../../dirRsc/dirImg/mail.png" alt="mail">
     <br>• edit on github: https://github.com/synagonism/dirMcsh/blob/master/dirCor/McshCor000009.last.html,
-    <br>• comments on <a class="clsPreview" href="../dirCor/McshCor000000.last.html#idComment">Disqus</a>,
+    <br>• comments on <a class="clsPreview" href="../dirCor/McshCor000000.last.html#idComment">Giscus</a>,
     <br>• twitter: <a href="https://twitter.com/synagonism">@synagonism</a>,
     <a class="clsHide" href="#idFooterP1"></a></p>
   <p id="idMetaVersion">webpage-versions::
@@ -1687,15 +1690,6 @@
   <h1 id="idSupportH1">support (<a class="clsPreview" href="../../#idSupport">link</a>)</h1>
   <p></p>
   </section>
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8T0MHWLS1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-N8T0MHWLS1');
-  </script>
 
   <script type="module">
     import * as oMcsh from '/dirMcshmgr/mMcsh2.js'

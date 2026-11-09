@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.time
-    (McshCor000006.1-109-0.2026-11-08)</title>
+    (McshCor000006.1-110-0.2026-11-09)</title>
   <meta name="keywords" content="time, modelConceptSenso, Hitp_Mcs, synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -1820,20 +1820,21 @@
   </section>
 
   <section id="idTimeUom">
-  <h1 id="idTimeUomH1">time.unit-of-measurement
+  <h1 id="idTimeUomH1">time.unit_of_measure
     </h1>
   <p id="idTimeUomdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· time-Uom is <a class="clsPreview" href="../dirCor/McshCor000009.last.html#idGnrcmsrguom">a-Uom</a> for <a class="clsPreview" href="#idOverview">time</a>.
     <a class="clsHide" href="#idTimeUomdsn"></a></p>
   <p id="idTimeUomnam">name::
-    <br>* McshEngl.UomTime, {2020-04-23}
-    <br>* McshEngl.time-Uom!⇒UomTime,
-    <br>* McshEngl.time.unit_of_measurement!⇒UomTime,
+    <br>* McshEngl.time.unit_of_measure!⇒timeUom,
+    <br>* McshEngl.timeUom!-time.unit_of_measure,
+    <br>* McshEngl.UomTime!⇒timeUom, {2020-04-23}
+    <br>* McshEngl.time-Uom!⇒timeUom,
     <a class="clsHide" href="#idTimeUomnam"></a></p>
 
   <section id="idTimeUomHrlg">
-  <h2 id="idTimeUomHrlgH2">Horology of UomTime
+  <h2 id="idTimeUomHrlgH2">Horology of timeUom
     </h2>
   <p id="idTimeUomHrlgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1843,12 +1844,12 @@
     <a class="clsHide" href="#idTimeUomHrlgdsn"></a></p>
   <p id="idTimeUomHrlgnam">name::
     <br>* McshEngl.Horology,
-    <br>* McshEngl.UomTime'Horology!⇒Horology,
+    <br>* McshEngl.timeUom'Horology!⇒Horology,
     <a class="clsHide" href="#idTimeUomHrlgnam"></a></p>
   </section>
 
   <section id="idTimeUomCldr">
-  <h2 id="idTimeUomCldrH2">calendar of UomTime
+  <h2 id="idTimeUomCldrH2">calendar of timeUom
     </h2>
   <p id="idTimeUomCldrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1863,15 +1864,17 @@
     <br>[{2019-10-18} https://en.wikipedia.org/wiki/Calendar]
     <a class="clsHide" href="#idTimeUomCldrdsn"></a></p>
   <p id="idTimeUomCldrnam">name::
-    <br>* McshEngl.time.system_of_measurement,
-    <br>* McshEngl.UomTime'calendar!⇒time.system_of_measurement,
-    <br>* McshEngl.calendar!⇒time.system_of_measurement,
+    <br>* McshEngl.system-of-measure--of-time!⇒Timecalendar,
+    <br>* McshEngl.Timecalendar!=system-of-measure--of-time,
+    <br>* McshEngl.timeUom'calendar!⇒Timecalendar,
+    <br>* McshEngl.timeUom'system_of_measure!⇒Timecalendar,
+    <br>* McshEngl.calendar!⇒Timecalendar,
     <br>====== lagoSinagu:
-    <br>* McshSngu.old.ceu-kio-sistemo!⇒time.system_of_measurement,
+    <br>* McshSngu.old.ceu-kio-sistemo!⇒Timecalendar,
     <br>====== lagoEsperanto:
-    <br>* McshEspo.kalendaro!⇒time.system_of_measurement,
+    <br>* McshEspo.kalendaro!⇒Timecalendar,
     <br>====== lagoGreek:
-    <br>* McshElln.ημερολόγιο-το!⇒time.system_of_measurement,
+    <br>* McshElln.ημερολόγιο-το!⇒Timecalendar,
     <a class="clsHide" href="#idTimeUomCldrnam"></a></p>
 
   <section id="idTimeUomCldrGrgn">
@@ -2109,21 +2112,21 @@
   </section>
 
   <section id="idTimeUomgstr">
-  <h2 id="idTimeUomgstrH2">GENERIC-SPECIFIC-TREE of UomTime
+  <h2 id="idTimeUomgstrH2">GENERIC-SPECIFIC-TREE of timeUom
     </h2>
   <p id="idTimeUomgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idTimeUomgstrdsn"></a></p>
   <p id="idTimeUomgstrnam">name::
-    <br>* McshEngl.UomTime'generic_specific_tree,
+    <br>* McshEngl.timeUom'generic_specific_tree,
     <a class="clsHide" href="#idTimeUomgstrnam"></a></p>
   <p id="idTimeUomgntr">generic-tree::
-    <br>* McshEngl.UomTime:generic,
+    <br>* McshEngl.timeUom:generic,
     <br>===
     <br>* ...entity:generic,
     <a class="clsHide" href="#idTimeUomgntr"></a></p>
   <p id="idTimeUomsptr">specific-tree::
-    <br>* McshEngl.UomTime.specific,
+    <br>* McshEngl.timeUom.specific,
     <br>===
     <br>* millennium,
     <br>* century,
@@ -2138,7 +2141,7 @@
   </section>
 
   <section id="idTimeUom001">
-  <h2 id="idTimeUom001H2">UomTime.geologic_001
+  <h2 id="idTimeUom001H2">timeUom.geologic_001
     </h2>
   <p id="idTimeUom001dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2146,10 +2149,10 @@
     <br>[{2020-04-23} https://en.wikipedia.org/wiki/Geologic_time_scale]
     <a class="clsHide" href="#idTimeUom001dsn"></a></p>
   <p id="idTimeUom001nam">name::
-    <br>* McshEngl.UomTimeGeologic,
-    <br>* McshEngl.UomTime.001_geologic!⇒UomTimeGeologic,
-    <br>* McshEngl.UomTime.geologic_001!⇒UomTimeGeologic,
-    <br>* McshEngl.UomTime.geologic_001,
+    <br>* McshEngl.timeUomGeologic,
+    <br>* McshEngl.timeUom.001_geologic!⇒timeUomGeologic,
+    <br>* McshEngl.timeUom.geologic_001!⇒timeUomGeologic,
+    <br>* McshEngl.timeUom.geologic_001,
     <br>* McshEngl.GTS-geologic-time-scale,
     <br>* McshEngl.geologic-time,
     <a class="clsHide" href="#idTimeUom001nam"></a></p>
@@ -2162,7 +2165,7 @@
     <a class="clsHide" href="#idTimeUom001sptr"></a></p>
 
   <section id="idTimeUomEra">
-  <h3 id="idTimeUomEraH3">UomTime.geologic-era
+  <h3 id="idTimeUomEraH3">timeUom.geologic-era
     </h3>
   <p id="idTimeUomEradsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2182,16 +2185,16 @@
     <br>[{2019-10-22} https://en.wikipedia.org/wiki/Era]
     <a class="clsHide" href="#idTimeUomEradsn"></a></p>
   <p id="idTimeUomEranam">name::
-    <br>* McshEngl.era-UomTime,
+    <br>* McshEngl.era-timeUom,
     <br>* McshEngl.geologic-era,
     <br>* McshEngl.time.era,
-    <br>* McshEngl.UomTime.era,
+    <br>* McshEngl.timeUom.era,
     <a class="clsHide" href="#idTimeUomEranam"></a></p>
   </section>
   </section>
 
   <section id="idTimeUomYear">
-  <h2 id="idTimeUomYearH2">UomTime.year
+  <h2 id="idTimeUomYearH2">timeUom.year
     </h2>
   <p id="idTimeUomYeardsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2201,7 +2204,7 @@
   <p id="idTimeUomYearnam">name::
     <br>* McshEngl.timeYear,
     <br>* McshEngl.year-time-Uom!⇒timeYear,
-    <br>* McshEngl.UomTime.year!⇒timeYear,
+    <br>* McshEngl.timeUom.year!⇒timeYear,
     <br>* McshEngl.time.year!⇒timeYear,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.ceu-yiro!⇒timeYear, {2024-10-27}
@@ -2352,7 +2355,7 @@
     <br>* McshEngl.timeI10!=10_years,
     <br>* McshEngl.{i10}!⇒timeI10,
     <br>* McshEngl.decade!=10-years!⇒timeI10,
-    <br>* McshEngl.UomTime.decade!⇒timeI10,
+    <br>* McshEngl.timeUom.decade!⇒timeI10,
     <br>* McshEngl.time.decade!⇒timeI10,
     <br>* McshEngl.time.decade.lagoElln!=δεκαετία!⇒timeI10,
     <br>* McshEngl.time.decade.lagoZhon!=十年-shínián!⇒timeI10,
@@ -2388,7 +2391,7 @@
     <br>* McshEngl.timeI100!=100_years,
     <br>* McshEngl.{i100}!⇒timeI100,
     <br>* McshEngl.century!=100-years!⇒timeI100,
-    <br>* McshEngl.UomTime.century!⇒timeI100,
+    <br>* McshEngl.timeUom.century!⇒timeI100,
     <br>* McshEngl.time.century!⇒timeI100,
     <br>* McshEngl.time.century.lagoElln!=αιώνας!⇒timeI100,
     <br>* McshEngl.time.century.lagoZhon!=世纪-shìjì!⇒timeI100,
@@ -2423,7 +2426,7 @@
     <br>* McshEngl.kiloannum!⇒timeIK1,
     <br>* McshEngl.kyr!=1000-years!⇒timeIK1,
     <br>* McshEngl.millennium!=1000-years!⇒timeIK1,
-    <br>* McshEngl.UomTime.millennium!⇒timeIK1,
+    <br>* McshEngl.timeUom.millennium!⇒timeIK1,
     <br>* McshEngl.time.Ka!⇒timeIK1,
     <br>* McshEngl.time.kyr!⇒timeIK1,
     <br>* McshEngl.time.millennium!⇒timeIK1,
@@ -2524,7 +2527,7 @@
   </section>
 
   <section id="idTimeUomSizon">
-  <h2 id="idTimeUomSizonH2">UomTime.season
+  <h2 id="idTimeUomSizonH2">timeUom.season
     </h2>
   <p id="idTimeUomSizondsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2535,7 +2538,7 @@
     <br>* McshEngl.season-of-year!⇒Yearseason,
     <br>* McshEngl.Yearseason!=season-of-year,
     <br>* McshEngl.year/season!⇒Yearseason,
-    <br>* McshEngl.UomTime.season!⇒Yearseason,
+    <br>* McshEngl.timeUom.season!⇒Yearseason,
     <br>* McshEngl.time.season!⇒Yearseason,
     <br>* McshEngl.time.season.lagoElln!=εποχή!⇒Yearseason,
     <br>* McshEngl.time.season.lagoZhon!=岁时-suìshí!⇒Yearseason,
@@ -2643,7 +2646,7 @@
   </section>
 
   <section id="idTimeUomMnth">
-  <h2 id="idTimeUomMnthH2">UomTime.month
+  <h2 id="idTimeUomMnthH2">timeUom.month
     </h2>
   <p id="idTimeUomMnthdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2656,7 +2659,7 @@
     <br>* McshEngl.month.Espo!=monato,
     <br>* McshEngl.month.lagoZhon!=yuèfèn-月份,
     <br>* McshEngl.month-time-Uom,
-    <br>* McshEngl.UomTime.month,
+    <br>* McshEngl.timeUom.month,
     <br>* McshEngl.time.month,
     <br>* McshEngl.time.month.lagoElln!=μήνας,
     <br>* McshEngl.time.month.lagoZhon!=月份-yuèfèn,
@@ -3019,7 +3022,7 @@
   </section>
 
   <section id="idTimeUomWeek">
-  <h2 id="idTimeUomWeekH2">UomTime.week
+  <h2 id="idTimeUomWeekH2">timeUom.week
     </h2>
   <p id="idTimeUomWeekdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3029,7 +3032,7 @@
   <p id="idTimeUomWeeknam">name::
     <br>* McshEngl.week,
     <br>* McshEngl.week-time-Uom,
-    <br>* McshEngl.UomTime.week,
+    <br>* McshEngl.timeUom.week,
     <br>* McshEngl.time.week,
     <br>* McshEngl.time.week.lagoElln!=εβδομάδα,
     <br>* McshEngl.time.week.lagoZhon!=星期-xīngqī,
@@ -3302,7 +3305,7 @@
   </section>
 
   <section id="idTimeUomDay">
-  <h2 id="idTimeUomDayH2">UomTime.day
+  <h2 id="idTimeUomDayH2">timeUom.day
     </h2>
   <p id="idTimeUomDaydsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3313,7 +3316,7 @@
     <br>* McshEngl.24-hours-time!⇒day,
     <br>* McshEngl.day!=24-hours-time,
     <br>* McshEngl.day-time-Uom!⇒day,
-    <br>* McshEngl.UomTime.day!⇒day,
+    <br>* McshEngl.timeUom.day!⇒day,
     <br>* McshEngl.time.day!⇒day,
     <br>* McshEngl.time.day.lagoElln!=ημέρα,
     <br>* McshEngl.time.day.lagoZhon!=日-rì,
@@ -4318,7 +4321,7 @@
   </section>
 
   <section id="idTimeUomHour">
-  <h2 id="idTimeUomHourH2">UomTime.hour
+  <h2 id="idTimeUomHourH2">timeUom.hour
     </h2>
   <p id="idTimeUomHourdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4335,7 +4338,7 @@
     <br>* McshEngl.hour-time-Uom!⇒timeHour,
     <br>* McshEngl.hr!⇒timeHour,
     <br>* McshEngl.lagHmnm'hour!⇒timeHour,
-    <br>* McshEngl.UomTime.hour!⇒timeHour,
+    <br>* McshEngl.timeUom.hour!⇒timeHour,
     <br>* McshEngl.time.hour!⇒timeHour,
     <br>* McshEngl.time.hour.lagoElln!=ώρα!⇒timeHour,
     <br>* McshEngl.time.hour.lagoZhon!=小时-xiǎoshí!⇒timeHour,
@@ -4435,7 +4438,7 @@
   </section>
 
   <section id="idTimeUomMnut">
-  <h2 id="idTimeUomMnutH2">UomTime.minute
+  <h2 id="idTimeUomMnutH2">timeUom.minute
     </h2>
   <p id="idTimeUomMnutdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4445,7 +4448,7 @@
   <p id="idTimeUomMnutnam">name::
     <br>* McshEngl.minute,
     <br>* McshEngl.minute-time-Uom!⇒minute,
-    <br>* McshEngl.UomTime.minute!⇒minute,
+    <br>* McshEngl.timeUom.minute!⇒minute,
     <br>* McshEngl.time.minute!⇒minute,
     <br>* McshEngl.time.minute.lagoElln!=λεπτό!⇒minute,
     <br>* McshEngl.time.minute.lagoZhon!=分钟-fēnzhōng!⇒minute,
@@ -4461,7 +4464,7 @@
   </section>
 
   <section id="idTimeUomScnd">
-  <h2 id="idTimeUomScndH2">UomTime.second
+  <h2 id="idTimeUomScndH2">timeUom.second
     </h2>
   <p id="idTimeUomScnddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4471,7 +4474,7 @@
   <p id="idTimeUomScndnam">name::
     <br>* McshEngl.timeSecond,
     <br>* McshEngl.second-time-Uom!⇒timeSecond,
-    <br>* McshEngl.UomTime.second!⇒timeSecond,
+    <br>* McshEngl.timeUom.second!⇒timeSecond,
     <br>* McshEngl.time.second!⇒timeSecond,
     <br>* McshEngl.time.second.lagoElln!=δευτερόλεπτο!⇒timeSecond,
     <br>* McshEngl.time.second.lagoZhon!=秒钟-miǎozhōng!⇒timeSecond,
@@ -4486,7 +4489,7 @@
   </section>
 
   <section id="idTimeUomUnix">
-  <h2 id="idTimeUomUnixH2">UomTime.Unix
+  <h2 id="idTimeUomUnixH2">timeUom.Unix
     </h2>
   <p id="idTimeUomUnixdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4496,7 +4499,7 @@
   <p id="idTimeUomUnixnam">name::
     <br>* McshEngl.POSIX-time,
     <br>* McshEngl.Unix-time,
-    <br>* McshEngl.UomTime.Unix,
+    <br>* McshEngl.timeUom.Unix,
     <a class="clsHide" href="#idTimeUomUnixnam"></a></p>
   <p id="idTimeUomUnixwpa">addressWpg::
     <br>* https://time.is/Unix_time_now,
@@ -4575,7 +4578,7 @@
     <br>• email:
     <br> &nbsp;<img src="../../dirRsc/dirImg/mail.png" alt="mail">
     <br>• edit on github: https://github.com/synagonism/dirMcsh/blob/master/dirCor/McshCor000006.last.html,
-    <br>• comments on <a class="clsPreview" href="../dirCor/McshCor000000.last.html#idComment">Disqus</a>,
+    <br>• comments on <a class="clsPreview" href="../dirCor/McshCor000000.last.html#idComment">Giscus</a>,
     <br>• twitter: <a href="https://twitter.com/synagonism">@synagonism</a>,
     <a class="clsHide" href="#idFooterP1"></a></p>
   <p id="idMetaVersion">webpage-versions::
@@ -4595,13 +4598,5 @@
     import * as oMcsh from '/dirMcshmgr/mMcsh2.js'
   </script>
   <!--    -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8T0MHWLS1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-N8T0MHWLS1');
-  </script>
 </body>
 </html>
