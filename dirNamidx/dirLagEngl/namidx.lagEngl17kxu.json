@@ -1,5 +1,5 @@
 [
-  [";lagEngl17kxu","Q|q",403,"2026-11-09"],
+  [";lagEngl17kxu","Q|q",403,"2026-11-10"],
   ["QA!=question-answering-system!⇒techQa","dirTchInf/McshTchInf000036.last.html#idTchNlp008"],
   ["QAPage@schema.org","dirStn/McshStn000023.last.html#idScmoQAPage"],
   ["QAR!=Qatar-Riyal-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
@@ -78,7 +78,7 @@
   ["quantifier@Cycllago!⇒Cyclquantifier","dirTchInf/McshTchInf000039.last.html#idLCyclquantifier"],
   ["quantities-additivity@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-quantities-additivity"],
   ["quantity'verb","dirCor/McshCor000010.last.html#idQntverb"],
-  ["quantity--verb-argument!⇒Hmmd_quant_VA","dirLag/McshLag000007.last.html#idLHmnmvbatMsr"],
+  ["quantity--verb-argument!⇒HmmdvaQuantity","dirLag/McshLag000007.last.html#idLHmnmvbatMsr"],
   ["quantity-NOT-abstract!⇒specific","dirCor/McshCor000009.last.html#idGnrcspc"],
   ["quantity-abstract!⇒quanto","dirCor/McshCor000010.last.html#idOverview"],
   ["quantity-adverb!⇒AdveQuantity","dirCor/McshCor000010.last.html#idQntadve"],
