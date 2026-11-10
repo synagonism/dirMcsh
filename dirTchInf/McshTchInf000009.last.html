@@ -1580,11 +1580,12 @@
     <br>· IF they contain name::-para, THEN they are sect-concepts.
     <a class="clsHide" href="#idMcsHitpdtSectdsn"></a></p>
   <p id="idMcsHitpdtSectnam">name::
-    <br>* McshEngl.Mcshdata.section!⇒Mcshsect,
-    <br>* McshEngl.Mcshsect!=Mcshdata.section,
-    <br>* McshEngl.Mcsh'section_element!⇒Mcshsect,
-    <br>* McshEngl.section-element--of-Mcsh!⇒Mcshsect,
-    <br>* McshEngl.section-data--of-Mcsh!⇒Mcshsect,
+    <br>* McshEngl.Mcshdata.section!⇒Mcshcnptsect,
+    <br>* McshEngl.Mcshcnptsect!=Mcshdata.section,
+    <br>* McshEngl.Mcshsect!⇒Mcshcnptsect,
+    <br>* McshEngl.Mcsh'section_element!⇒Mcshcnptsect,
+    <br>* McshEngl.section-element--of-Mcsh!⇒Mcshcnptsect,
+    <br>* McshEngl.section-data--of-Mcsh!⇒Mcshcnptsect,
     <a class="clsHide" href="#idMcsHitpdtSectnam"></a></p>
 
   <section id="idMcsHitpdtSectoutr">
@@ -1611,11 +1612,12 @@
     <br>· list, table, tree data all are-wrapped with div-elements.
     <a class="clsHide" href="#idMcsHitpdtParadsn"></a></p>
   <p id="idMcsHitpdtParanam">name::
-    <br>* McshEngl.Mcsh'para_data!⇒Mcshpara,
-    <br>* McshEngl.Mcshpara!=Mcsh'para-data,
-    <br>* McshEngl.Mcsh-para!⇒Mcshpara,
-    <br>* McshEngl.Mcshdata.para!⇒Mcshpara,
-    <br>* McshEngl.para-data--of-Mcsh!⇒Mcshpara,
+    <br>* McshEngl.Mcsh'para_data!⇒Mcshcnptpara,
+    <br>* McshEngl.Mcshcnptpara!=Mcsh'para-data,
+    <br>* McshEngl.Mcshpara!⇒Mcshcnptpara,
+    <br>* McshEngl.Mcsh-para!⇒Mcshcnptpara,
+    <br>* McshEngl.Mcshdata.para!⇒Mcshcnptpara,
+    <br>* McshEngl.para-data--of-Mcsh!⇒Mcshcnptpara,
     <a class="clsHide" href="#idMcsHitpdtParanam"></a></p>
 
   <section id="idMcsHitpdtParaP">
@@ -1660,8 +1662,9 @@
     <br>· Mcshscript are script-Html-elements that contain JavaScript code.
     <a class="clsHide" href="#idMcsHitpdtSrptdsn"></a></p>
   <p id="idMcsHitpdtSrptnam">name::
-    <br>* McshEngl.Mcshdata.script!⇒Mcshscript,
-    <br>* McshEngl.Mcshscript!=Mcshdata.script,
+    <br>* McshEngl.Mcshdata.script!⇒Mcshcnptscript,
+    <br>* McshEngl.Mcshcnptscript!=Mcshdata.script,
+    <br>* McshEngl.Mcshscript!⇒Mcshcnptscript,
     <a class="clsHide" href="#idMcsHitpdtSrptnam"></a></p>
   </section>
 
@@ -1674,10 +1677,11 @@
     <br>· if text is a-quotation, it is-enclosed with char.34'"' and contains its source.
     <a class="clsHide" href="#idMcsHitpdtTxtdsn"></a></p>
   <p id="idMcsHitpdtTxtnam">name::
-    <br>* McshEngl.Mcsh_text,
-    <br>* McshEngl.Mcsh-text!⇒Mcsh_text,
-    <br>* McshEngl.Mcshdata.text!⇒Mcsh_text,
-    <br>* McshEngl.Mcsh'text_data!⇒Mcsh_text,
+    <br>* McshEngl.Mcshcnpttext,
+    <br>* McshEngl.Mcsh_text!⇒Mcshcnpttext,
+    <br>* McshEngl.Mcsh-text!⇒Mcshcnpttext,
+    <br>* McshEngl.Mcshdata.text!⇒Mcshcnpttext,
+    <br>* McshEngl.Mcsh'text_data!⇒Mcshcnpttext,
     <a class="clsHide" href="#idMcsHitpdtTxtnam"></a></p>
   </section>
 
@@ -1694,10 +1698,11 @@
     <br>· the-items of a-list begin with char.42'*'.
     <a class="clsHide" href="#idMcsHitpdtListdsn"></a></p>
   <p id="idMcsHitpdtListnam">name::
-    <br>* McshEngl.Mcsh_list,
-    <br>* McshEngl.Mcsh'array_data!⇒Mcsh_list,
-    <br>* McshEngl.Mcshdata.list!⇒Mcsh_list,
-    <br>* McshEngl.Mcsh'list_data!⇒Mcsh_list,
+    <br>* McshEngl.Mcshcnptlist,
+    <br>* McshEngl.Mcsh_list!⇒Mcshcnptlist,
+    <br>* McshEngl.Mcsh'array_data!⇒Mcshcnptlist,
+    <br>* McshEngl.Mcshdata.list!⇒Mcshcnptlist,
+    <br>* McshEngl.Mcsh'list_data!⇒Mcshcnptlist,
     <a class="clsHide" href="#idMcsHitpdtListnam"></a></p>
   </section>
 
@@ -1715,10 +1720,11 @@
     <br>[HumnSngu.{2020-12-28}]
     <a class="clsHide" href="#idMcsHitpdtNmvldsn"></a></p>
   <p id="idMcsHitpdtNmvlnam">name::
-    <br>* McshEngl.name-value-data--of-Mcsh!⇒Mcshnmvl,
-    <br>* McshEngl.Mcshnmvl!=name-value-data-of-Mcsh,
-    <br>* McshEngl.Mcshdata.name_value!⇒Mcshnmvl,
-    <br>* McshEngl.Mcsh'name_value_data!⇒Mcshnmvl,
+    <br>* McshEngl.name-value-data--of-Mcsh!⇒Mcshcnptnmvl,
+    <br>* McshEngl.Mcshcnptnmvl!=name-value-data-of-Mcsh,
+    <br>* McshEngl.Mcshnmvl!⇒Mcshcnptnmvl,
+    <br>* McshEngl.Mcshdata.name_value!⇒Mcshcnptnmvl,
+    <br>* McshEngl.Mcsh'name_value_data!⇒Mcshcnptnmvl,
     <a class="clsHide" href="#idMcsHitpdtNmvlnam"></a></p>
   </section>
 
@@ -1745,9 +1751,10 @@
       &lt;a class="clsHide" href="#idTable"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre>
     <a class="clsHide" href="#idMcsHitpdtTabldsn"></a></p>
   <p id="idMcsHitpdtTablnam">name::
-    <br>* McshEngl.Mcshtable,
-    <br>* McshEngl.Mcshdata.table!⇒Mcshtable,
-    <br>* McshEngl.Mcsh'table_data!⇒Mcshtable,
+    <br>* McshEngl.Mcshcnpttable,
+    <br>* McshEngl.Mcshtable!⇒Mcshcnpttable,
+    <br>* McshEngl.Mcshdata.table!⇒Mcshcnpttable,
+    <br>* McshEngl.Mcsh'table_data!⇒Mcshcnpttable,
     <a class="clsHide" href="#idMcsHitpdtTablnam"></a></p>
   </section>
 

@@ -296,6 +296,34 @@
     <br>* McshEngl.Wasmlago'semantic_unit_of_algo!⇒Wasmsunt,
     <a class="clsHide" href="#idLWasmsuntnam"></a></p>
 
+  <section id="idLWasmsuntgstr">
+  <h2 id="idLWasmsuntgstrH2">GENERIC-SPECIFIC-TREE of Wasmsunt
+    </h2>
+  <p id="idLWasmsuntgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmsuntgstrdsn"></a></p>
+  <p id="idLWasmsuntgstrnam">name::
+    <br>* McshEngl.Wasmsunt'generic_specific_tree,
+    <a class="clsHide" href="#idLWasmsuntgstrnam"></a></p>
+  <p id="idLWasmsuntgntr">generic-tree::
+    <br>* McshEngl.Wasmsunt:generic,
+    <br>===
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idLWasmsuntgntr"></a></p>
+  <p id="idLWasmsuntsptr">specific-tree::
+    <br>* McshEngl.Wasmsunt.specific,
+    <br>===
+    <br>* text--sem-unit!@McshTchInf000014#idLWasmsuntTxt,
+    <br>* binary--sem-unit!@McshTchInf000014#idLWasmsuntBnr,
+    <br>===
+    <br>* Wasmsunt.Wasmvalue!@McshTchInf000014#idLWasmsuntVal,
+    <br>* function!@McshTchInf000014#idLWasmfcn,
+    <br>* variable!@McshTchInf000014#idLWasmsuntVar,
+    <br>* Wasmsunt.Wasmlago_table!@McshTchInf000014#idLWasmsuntTbl,
+    <br>* memory!@McshTchInf000014#idLWasmsuntMmr,
+    <a class="clsHide" href="#idLWasmsuntsptr"></a></p>
+  </section>
+
   <section id="idLWasmsuntTxt">
   <h2 id="idLWasmsuntTxtH2">sem-unit.TEXT
     </h2>
@@ -359,6 +387,37 @@
     <br>* McshEngl.Wasm_sem_unit.value!⇒Wasmvalue,
     <br>* McshEngl.Wasmsunt.VALUE!⇒Wasmvalue,
     <a class="clsHide" href="#idLWasmsuntValnam"></a></p>
+
+  <section id="idLWasmsuntValgstr">
+  <h3 id="idLWasmsuntValgstrH3">GENERIC-SPECIFIC-TREE of Wasmvalue
+    </h3>
+  <p id="idLWasmsuntValgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmsuntValgstrdsn"></a></p>
+  <p id="idLWasmsuntValgstrnam">name::
+    <br>* McshEngl.Wasmvalue'generic_specific_tree,
+    <a class="clsHide" href="#idLWasmsuntValgstrnam"></a></p>
+  <p id="idLWasmsuntValgntr">generic-tree::
+    <br>* McshEngl.Wasmvalue:generic,
+    <br>===
+    <br>* Wasmsunt:generic,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idLWasmsuntValgntr"></a></p>
+  <p id="idLWasmsuntValsptr">specific-tree::
+    <br>* McshEngl.Wasmvalue.specific,
+    <br>* McshEngl.Wasm_value.specific,
+    <br>===
+    <br>* byte!@McshTchInf000014#idLWasmsuntByte,
+    <br>* f32!@McshTchInf000014#idLWasmsuntF32,
+    <br>* f64!@McshTchInf000014#idLWasmsuntF64,
+    <br>* floating-point!@McshTchInf000014#idLWasmsuntFgpt,
+    <br>* i32!@McshTchInf000014#idLWasmsuntI32,
+    <br>* i64!@McshTchInf000014#idLWasmsuntI64,
+    <br>* integer!@McshTchInf000014#idLWasmsuntItgr,
+    <br>* result!@McshTchInf000014#idLWasmsuntRslt,
+    <br>* Wasm_value.WasmvalueType!@McshTchInf000014#idLWasmsuntValType,
+    <a class="clsHide" href="#idLWasmsuntValsptr"></a></p>
+  </section>
 
   <section id="idLWasmsuntValType">
   <h3 id="idLWasmsuntValTypeH3">value.TYPE
@@ -623,36 +682,6 @@
     <a class="clsHide" href="#idLWasmsuntRsltnam"></a></p>
   </section>
 
-  <section id="idLWasmsuntValgstr">
-  <h3 id="idLWasmsuntValgstrH3">GENERIC-SPECIFIC-TREE of Wasmvalue
-    </h3>
-  <p id="idLWasmsuntValgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLWasmsuntValgstrdsn"></a></p>
-  <p id="idLWasmsuntValgstrnam">name::
-    <br>* McshEngl.Wasmvalue'generic_specific_tree,
-    <a class="clsHide" href="#idLWasmsuntValgstrnam"></a></p>
-  <p id="idLWasmsuntValgntr">generic-tree::
-    <br>* McshEngl.Wasmvalue:generic,
-    <br>===
-    <br>* Wasmsunt:generic,
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idLWasmsuntValgntr"></a></p>
-  <p id="idLWasmsuntValsptr">specific-tree::
-    <br>* McshEngl.Wasmvalue.specific,
-    <br>* McshEngl.Wasm_value.specific,
-    <br>===
-    <br>* byte!@McshTchInf000014#idLWasmsuntByte,
-    <br>* f32!@McshTchInf000014#idLWasmsuntF32,
-    <br>* f64!@McshTchInf000014#idLWasmsuntF64,
-    <br>* floating-point!@McshTchInf000014#idLWasmsuntFgpt,
-    <br>* i32!@McshTchInf000014#idLWasmsuntI32,
-    <br>* i64!@McshTchInf000014#idLWasmsuntI64,
-    <br>* integer!@McshTchInf000014#idLWasmsuntItgr,
-    <br>* result!@McshTchInf000014#idLWasmsuntRslt,
-    <br>* Wasm_value.WasmvalueType!@McshTchInf000014#idLWasmsuntValType,
-    <a class="clsHide" href="#idLWasmsuntValsptr"></a></p>
-  </section>
   </section>
 
   <section id="idLWasmfcn">
@@ -1497,33 +1526,6 @@
   </section>
   </section>
 
-  <section id="idLWasmsuntgstr">
-  <h2 id="idLWasmsuntgstrH2">GENERIC-SPECIFIC-TREE of Wasmsunt
-    </h2>
-  <p id="idLWasmsuntgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLWasmsuntgstrdsn"></a></p>
-  <p id="idLWasmsuntgstrnam">name::
-    <br>* McshEngl.Wasmsunt'generic_specific_tree,
-    <a class="clsHide" href="#idLWasmsuntgstrnam"></a></p>
-  <p id="idLWasmsuntgntr">generic-tree::
-    <br>* McshEngl.Wasmsunt:generic,
-    <br>===
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idLWasmsuntgntr"></a></p>
-  <p id="idLWasmsuntsptr">specific-tree::
-    <br>* McshEngl.Wasmsunt.specific,
-    <br>===
-    <br>* text--sem-unit!@McshTchInf000014#idLWasmsuntTxt,
-    <br>* binary--sem-unit!@McshTchInf000014#idLWasmsuntBnr,
-    <br>===
-    <br>* Wasmsunt.Wasmvalue!@McshTchInf000014#idLWasmsuntVal,
-    <br>* function!@McshTchInf000014#idLWasmfcn,
-    <br>* variable!@McshTchInf000014#idLWasmsuntVar,
-    <br>* Wasmsunt.Wasmlago_table!@McshTchInf000014#idLWasmsuntTbl,
-    <br>* memory!@McshTchInf000014#idLWasmsuntMmr,
-    <a class="clsHide" href="#idLWasmsuntsptr"></a></p>
-  </section>
   </section>
 
   <section id="idLWasmstc">
@@ -1917,6 +1919,37 @@
   </section>
   </section>
 
+  <section id="idLWasmstcClfwgstr">
+  <h3 id="idLWasmstcClfwgstrH3">GENERIC-SPECIFIC-TREE of WasmcmndFlow
+    </h3>
+  <p id="idLWasmstcClfwgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmstcClfwgstrdsn"></a></p>
+  <p id="idLWasmstcClfwgstrnam">name::
+    <br>* McshEngl.WasmcmndFlow'generic_specific_tree,
+    <a class="clsHide" href="#idLWasmstcClfwgstrnam"></a></p>
+  <p id="idLWasmstcClfwgntr">generic-tree::
+    <br>* McshEngl.WasmcmndFlow:generic,
+    <br>===
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idLWasmstcClfwgntr"></a></p>
+  <p id="idLWasmstcClfwsptr">specific-tree::
+    <br>* McshEngl.WasmcmndFlow.specific,
+    <br>===
+    <br>* block!@McshTchInf000014#idLWasmstcClfwBlck,
+    <br>* br-(unconditional-branch)!@McshTchInf000014#idLWasmstcClfwBr,
+    <br>* br_if-(conditional-brance)!@McshTchInf000014#idLWasmstcClfwBrif,
+    <br>* br_table (table-branch),
+    <br>* loop!@McshTchInf000014#idLWasmstcClfwLoop,
+    <br>* if!@McshTchInf000014#idLWasmstcClfwIf,
+    <br>* else!@McshTchInf000014#idLWasmstcClfwElse,
+    <br>* end!@McshTchInf000014#idLWasmstcClfwEnd,
+    <br>* nop!@McshTchInf000014#idLWasmstcClfwNop,
+    <br>* return!@McshTchInf000014#idLWasmstcClfwRtrn,
+    <br>* unreachable!@McshTchInf000014#idLWasmstcClfwUnrcbl,
+    <a class="clsHide" href="#idLWasmstcClfwsptr"></a></p>
+  </section>
+
   <section id="idLWasmstcClfwBlck">
   <h3 id="idLWasmstcClfwBlckH3">Wasmcmnd.block
     </h3>
@@ -2221,36 +2254,6 @@
     <a class="clsHide" href="#idLWasmstcClfwUnrcblnam"></a></p>
   </section>
 
-  <section id="idLWasmstcClfwgstr">
-  <h3 id="idLWasmstcClfwgstrH3">GENERIC-SPECIFIC-TREE of WasmcmndFlow
-    </h3>
-  <p id="idLWasmstcClfwgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLWasmstcClfwgstrdsn"></a></p>
-  <p id="idLWasmstcClfwgstrnam">name::
-    <br>* McshEngl.WasmcmndFlow'generic_specific_tree,
-    <a class="clsHide" href="#idLWasmstcClfwgstrnam"></a></p>
-  <p id="idLWasmstcClfwgntr">generic-tree::
-    <br>* McshEngl.WasmcmndFlow:generic,
-    <br>===
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idLWasmstcClfwgntr"></a></p>
-  <p id="idLWasmstcClfwsptr">specific-tree::
-    <br>* McshEngl.WasmcmndFlow.specific,
-    <br>===
-    <br>* block!@McshTchInf000014#idLWasmstcClfwBlck,
-    <br>* br-(unconditional-branch)!@McshTchInf000014#idLWasmstcClfwBr,
-    <br>* br_if-(conditional-brance)!@McshTchInf000014#idLWasmstcClfwBrif,
-    <br>* br_table (table-branch),
-    <br>* loop!@McshTchInf000014#idLWasmstcClfwLoop,
-    <br>* if!@McshTchInf000014#idLWasmstcClfwIf,
-    <br>* else!@McshTchInf000014#idLWasmstcClfwElse,
-    <br>* end!@McshTchInf000014#idLWasmstcClfwEnd,
-    <br>* nop!@McshTchInf000014#idLWasmstcClfwNop,
-    <br>* return!@McshTchInf000014#idLWasmstcClfwRtrn,
-    <br>* unreachable!@McshTchInf000014#idLWasmstcClfwUnrcbl,
-    <a class="clsHide" href="#idLWasmstcClfwsptr"></a></p>
-  </section>
   </section>
 
   <section id="idLWasmstcClfwN">
@@ -3518,6 +3521,43 @@
   </section>
   </section>
 
+  <section id="idLWasmscngstr">
+  <h2 id="idLWasmscngstrH2">GENERIC-SPECIFIC-TREE of Wasmsection
+    </h2>
+  <p id="idLWasmscngstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmscngstrdsn"></a></p>
+  <p id="idLWasmscngstrnam">name::
+    <br>* McshEngl.Wasmsection'generic_specific_tree,
+    <a class="clsHide" href="#idLWasmscngstrnam"></a></p>
+  <p id="idLWasmscngntr">generic-tree::
+    <br>* McshEngl.Wasmsection:generic,
+    <br>===
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idLWasmscngntr"></a></p>
+  <p id="idLWasmscnsptr">specific-tree::
+    <br>* McshEngl.Wasmsection.specific,
+    <br>* McshEngl.Wasm_section.specific,
+    <br>===
+    <br>* text-section,
+    <br>* binary-section,
+    <br>===
+    <br>* code-section!@McshTchInf000014#idLWasmscnCode,
+    <br>* custom-section!@McshTchInf000014#idLWasmscnCtm,
+    <br>* data-section!@McshTchInf000014#idLWasmscnData,
+    <br>* element-section!@McshTchInf000014#idLWasmscnElmt,
+    <br>* export-section!@McshTchInf000014#idLWasmscnExpt,
+    <br>* function-section!@McshTchInf000014#idLWasmscnFcn,
+    <br>* global-section!@McshTchInf000014#idLWasmscnGlbl,
+    <br>* import-section!@McshTchInf000014#idLWasmscnImpt,
+    <br>* known-section!@McshTchInf000014#idLWasmscnKnn,
+    <br>* linear-memory--section!@McshTchInf000014#idLWasmscnLrmr,
+    <br>* start-section!@McshTchInf000014#idLWasmscnStrt,
+    <br>* table-section!@McshTchInf000014#idLWasmscnTbl,
+    <br>* type-section!@McshTchInf000014#idLWasmscnType,
+    <a class="clsHide" href="#idLWasmscnsptr"></a></p>
+  </section>
+
   <section id="idLWasmscnKnn">
   <h2 id="idLWasmscnKnnH2">section.KNOWN
     </h2>
@@ -4428,42 +4468,6 @@
     <a class="clsHide" href="#idLWasmscnCtmnam"></a></p>
   </section>
 
-  <section id="idLWasmscngstr">
-  <h2 id="idLWasmscngstrH2">GENERIC-SPECIFIC-TREE of Wasmsection
-    </h2>
-  <p id="idLWasmscngstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLWasmscngstrdsn"></a></p>
-  <p id="idLWasmscngstrnam">name::
-    <br>* McshEngl.Wasmsection'generic_specific_tree,
-    <a class="clsHide" href="#idLWasmscngstrnam"></a></p>
-  <p id="idLWasmscngntr">generic-tree::
-    <br>* McshEngl.Wasmsection:generic,
-    <br>===
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idLWasmscngntr"></a></p>
-  <p id="idLWasmscnsptr">specific-tree::
-    <br>* McshEngl.Wasmsection.specific,
-    <br>* McshEngl.Wasm_section.specific,
-    <br>===
-    <br>* text-section,
-    <br>* binary-section,
-    <br>===
-    <br>* code-section!@McshTchInf000014#idLWasmscnCode,
-    <br>* custom-section!@McshTchInf000014#idLWasmscnCtm,
-    <br>* data-section!@McshTchInf000014#idLWasmscnData,
-    <br>* element-section!@McshTchInf000014#idLWasmscnElmt,
-    <br>* export-section!@McshTchInf000014#idLWasmscnExpt,
-    <br>* function-section!@McshTchInf000014#idLWasmscnFcn,
-    <br>* global-section!@McshTchInf000014#idLWasmscnGlbl,
-    <br>* import-section!@McshTchInf000014#idLWasmscnImpt,
-    <br>* known-section!@McshTchInf000014#idLWasmscnKnn,
-    <br>* linear-memory--section!@McshTchInf000014#idLWasmscnLrmr,
-    <br>* start-section!@McshTchInf000014#idLWasmscnStrt,
-    <br>* table-section!@McshTchInf000014#idLWasmscnTbl,
-    <br>* type-section!@McshTchInf000014#idLWasmscnType,
-    <a class="clsHide" href="#idLWasmscnsptr"></a></p>
-  </section>
   </section>
 
   <section id="idLWasmmdl">
@@ -4641,6 +4645,33 @@
     <br>* McshEngl.Wasmlago'program!⇒Wasmprgm,
     <br>* McshEngl.Wasmlago.PROGRAM!⇒Wasmprgm,
     <a class="clsHide" href="#idLWasmpgmnam"></a></p>
+
+  <section id="idLWasmpgmgstr">
+  <h2 id="idLWasmpgmgstrH2">GENERIC-SPECIFIC-TREE of Wasmprgm
+    </h2>
+  <p id="idLWasmpgmgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmpgmgstrdsn"></a></p>
+  <p id="idLWasmpgmgstrnam">name::
+    <br>* McshEngl.Wasmprgm'generic_specific_tree,
+    <a class="clsHide" href="#idLWasmpgmgstrnam"></a></p>
+  <p id="idLWasmpgmgntr">generic-tree::
+    <br>* McshEngl.Wasmprgm:generic,
+    <br>===
+    <br>* Wasmalgo:generic,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idLWasmpgmgntr"></a></p>
+  <p id="idLWasmpgmsptr">specific-tree::
+    <br>* McshEngl.Wasmprgm.specific,
+    <br>===
+    <br>* Wasm-binary-program!@McshTchInf000014#idLWasmpgmBnr,
+    <br>* Wasm-text-program!@McshTchInf000014#idLWasmpgmTxt,
+    <br>===
+    <br>* examples that accompany the-MDN-WebAssembly-documentation: https://github.com/mdn/webassembly-examples,
+    <br>- demo: <a href="https://mdn.github.io/webassembly-examples/js-api-examples/">https://mdn.github.io/webassembly-examples/js-api-examples/</a>,
+    <br>* Hello World: https://github.com/tgsstdio/Hello-WebAssembly,
+    <a class="clsHide" href="#idLWasmpgmsptr"></a></p>
+  </section>
 
   <section id="idLWasmpgmBnr">
   <h2 id="idLWasmpgmBnrH2">program.BINARY
@@ -5153,32 +5184,6 @@
     <a class="clsHide" href="#idLWasmpgmFctrlLjn"></a></p>
   </section>
 
-  <section id="idLWasmpgmgstr">
-  <h2 id="idLWasmpgmgstrH2">GENERIC-SPECIFIC-TREE of Wasmprgm
-    </h2>
-  <p id="idLWasmpgmgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLWasmpgmgstrdsn"></a></p>
-  <p id="idLWasmpgmgstrnam">name::
-    <br>* McshEngl.Wasmprgm'generic_specific_tree,
-    <a class="clsHide" href="#idLWasmpgmgstrnam"></a></p>
-  <p id="idLWasmpgmgntr">generic-tree::
-    <br>* McshEngl.Wasmprgm:generic,
-    <br>===
-    <br>* Wasmalgo:generic,
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idLWasmpgmgntr"></a></p>
-  <p id="idLWasmpgmsptr">specific-tree::
-    <br>* McshEngl.Wasmprgm.specific,
-    <br>===
-    <br>* Wasm-binary-program!@McshTchInf000014#idLWasmpgmBnr,
-    <br>* Wasm-text-program!@McshTchInf000014#idLWasmpgmTxt,
-    <br>===
-    <br>* examples that accompany the-MDN-WebAssembly-documentation: https://github.com/mdn/webassembly-examples,
-    <br>- demo: <a href="https://mdn.github.io/webassembly-examples/js-api-examples/">https://mdn.github.io/webassembly-examples/js-api-examples/</a>,
-    <br>* Hello World: https://github.com/tgsstdio/Hello-WebAssembly,
-    <a class="clsHide" href="#idLWasmpgmsptr"></a></p>
-  </section>
   </section>
 
   <section id="idLWasmalgLbr">
@@ -5569,6 +5574,29 @@
     <br>* https://github.com/WebAssembly/design/blob/master/Tooling.md,
     <a class="clsHide" href="#idLWasmtoolwpa"></a></p>
 
+  <section id="idLWasmtoolgstr">
+  <h2 id="idLWasmtoolgstrH2">GENERIC-SPECIFIC-TREE of WasmTool
+    </h2>
+  <p id="idLWasmtoolgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idLWasmtoolgstrdsn"></a></p>
+  <p id="idLWasmtoolgstrnam">name::
+    <br>* McshEngl.WasmTool'generic_specific_tree,
+    <a class="clsHide" href="#idLWasmtoolgstrnam"></a></p>
+  <p id="idLWasmtoolgntr">generic-tree::
+    <br>* McshEngl.WasmTool:generic,
+    <br>===
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idLWasmtoolgntr"></a></p>
+  <p id="idLWasmtoolsptr">specific-tree::
+    <br>* McshEngl.WasmTool.specific,
+    <br>===
+    <br>* WasmTool.Wasmruntime!@McshTchInf000014#idLWasmtoolRte,
+    <br>* editor,
+    <br>* WasmTool.Wasmcmplr!@McshTchInf000014#idLWasmtoolCplr,
+    <a class="clsHide" href="#idLWasmtoolsptr"></a></p>
+  </section>
+
   <section id="idLWasmtoolCplr">
   <h2 id="idLWasmtoolCplrH2">tool.COMPILER
     </h2>
@@ -5774,28 +5802,6 @@
     <a class="clsHide" href="#idLWasmtoolEmsdkwpa"></a></p>
   </section>
 
-  <section id="idLWasmtoolgstr">
-  <h2 id="idLWasmtoolgstrH2">GENERIC-SPECIFIC-TREE of WasmTool
-    </h2>
-  <p id="idLWasmtoolgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idLWasmtoolgstrdsn"></a></p>
-  <p id="idLWasmtoolgstrnam">name::
-    <br>* McshEngl.WasmTool'generic_specific_tree,
-    <a class="clsHide" href="#idLWasmtoolgstrnam"></a></p>
-  <p id="idLWasmtoolgntr">generic-tree::
-    <br>* McshEngl.WasmTool:generic,
-    <br>===
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idLWasmtoolgntr"></a></p>
-  <p id="idLWasmtoolsptr">specific-tree::
-    <br>* McshEngl.WasmTool.specific,
-    <br>===
-    <br>* WasmTool.Wasmruntime!@McshTchInf000014#idLWasmtoolRte,
-    <br>* editor,
-    <br>* WasmTool.Wasmcmplr!@McshTchInf000014#idLWasmtoolCplr,
-    <a class="clsHide" href="#idLWasmtoolsptr"></a></p>
-  </section>
   </section>
 
   <section id="idLWasmtoolRte">

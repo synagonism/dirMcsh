@@ -55,15 +55,16 @@
     <br>· logoTurk is <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmopt">the-logo-view</a> of Turklago.
     <a class="clsHide" href="#idLTurkoptdsn"></a></p>
   <p id="idLTurkoptnam">name::
-    <br>* McshEngl.output-view--of-Turklago!⇒TurkviewLogo,
-    <br>* McshEngl.TurkviewLogo!=output-view--of-Turklago,
-    <br>* McshEngl.logoTurk!⇒TurkviewLogo,
-    <br>* McshEngl.Turklago'logo_view!⇒TurkviewLogo,
-    <br>* McshEngl.Turklago'output!⇒TurkviewLogo,
+    <br>* McshEngl.output-view--of-Turklago!⇒Turklogo,
+    <br>* McshEngl.Turklogo!=output-view--of-Turklago,
+    <br>* McshEngl.TurkviewLogo!⇒Turklogo,
+    <br>* McshEngl.logoTurk!⇒Turklogo,
+    <br>* McshEngl.Turklago'logo_view!⇒Turklogo,
+    <br>* McshEngl.Turklago'output!⇒Turklogo,
     <a class="clsHide" href="#idLTurkoptnam"></a></p>
 
   <section id="idLTurkunt">
-  <h2 id="idLTurkuntH2">unit of TurkviewLogo
+  <h2 id="idLTurkuntH2">unit of Turklogo
     </h2>
   <p id="idLTurkuntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -73,8 +74,33 @@
     <br>* McshEngl.logo-unit--of-Turklago!⇒Turkunit,
     <br>* McshEngl.Turkunit!=logo-unit--of-Turklago,
     <br>* McshEngl.unitTurk!⇒Turkunit,
-    <br>* McshEngl.TurkviewLogo'unit!⇒Turkunit,
+    <br>* McshEngl.Turklogo'unit!⇒Turkunit,
     <a class="clsHide" href="#idLTurkuntnam"></a></p>
+
+  <section id="idLTurkuntgstr">
+  <h3 id="idLTurkuntgstrH3">GENERIC-SPECIFIC-TREE of Turkunit
+    </h3>
+  <p id="idLTurkuntgstrdsn">description::
+    <br>× Mcsh-creation: {2026-11-10}
+    <a class="clsHide" href="#idLTurkuntgstrdsn"></a></p>
+  <p id="idLTurkuntgstrnam">name::
+    <br>* McshEngl.Turkunit'generic_specific_tree,
+    <a class="clsHide" href="#idLTurkuntgstrnam"></a></p>
+  <p id="idLTurkuntgntr">generic-tree::
+    <br>* McshEngl.Turkunit:generic,
+    <br>===
+    <br>* Hmmdunit:generic,
+    <br>* Hmmdnode:generic,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idLTurkuntgntr"></a></p>
+  <p id="idLTurkuntsptr">specific-tree::
+    <br>* McshEngl.Turkunit.specific,
+    <br>===
+    <br>* Turkunit.Turkphnm!@McshLag000030#idLTurkphnm,
+    <br>* Turkunit.Turkletr!@McshLag000030#idLTurkltr,
+    <br>* Turkunit.punctuation!@McshLag000030#idLTurkpctn,
+    <a class="clsHide" href="#idLTurkuntsptr"></a></p>
+  </section>
 
   <section id="idLTurkphnm">
   <h3 id="idLTurkphnmH3">Turkunit.phoneme of speech
@@ -157,35 +183,38 @@
     <br>[{2024-06-24 retrieved} https://chatgpt.com/c/909bbfc1-94a6-453c-bf18-24cd3e088155]
     <a class="clsHide" href="#idLTurkphnmdsn"></a></p>
   <p id="idLTurkphnmnam">name::
-    <br>* McshEngl.Turkish-phoneme!⇒TurkPhnm,
-    <br>* McshEngl.TurkPhnm!=Turkish-phoneme,
-    <br>* McshEngl.Turklago'phoneme!⇒TurkPhnm,
-    <br>* McshEngl.speech'Turkunit.phoneme!⇒TurkPhnm,
+    <br>* McshEngl.Turkish-phoneme!⇒Turkphnm,
+    <br>* McshEngl.Turkphnm!=Turkish-phoneme,
+    <br>* McshEngl.Turklago'phoneme!⇒Turkphnm,
+    <br>* McshEngl.speech'Turkunit.phoneme!⇒Turkphnm,
     <a class="clsHide" href="#idLTurkphnmnam"></a></p>
 
   <section id="idLTurkphnmgstr">
-  <h4 id="idLTurkphnmgstrH4">GENERIC-SPECIFIC-TREE of TurkPhnm
+  <h4 id="idLTurkphnmgstrH4">GENERIC-SPECIFIC-TREE of Turkphnm
     </h4>
   <p id="idLTurkphnmgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-21}
     <a class="clsHide" href="#idLTurkphnmgstrdsn"></a></p>
   <p id="idLTurkphnmgstrnam">name::
-    <br>* McshEngl.TurkPhnm'generic_specific_tree,
+    <br>* McshEngl.Turkphnm'generic_specific_tree,
     <a class="clsHide" href="#idLTurkphnmgstrnam"></a></p>
   <p id="idLTurkphnmgntr">generic-tree::
-    <br>* McshEngl.TurkPhnm:generic,
+    <br>* McshEngl.Turkphnm:generic,
     <br>===
-    <br>* phoneme:generic,
+    <br>* Hmmdphnm:generic,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* Turkunit:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkphnmgntr"></a></p>
   <p id="idLTurkphnmsptr">specific-tree::
-    <br>* McshEngl.TurkPhnm.specific,
+    <br>* McshEngl.Turkphnm.specific,
     <br>===
     <a class="clsHide" href="#idLTurkphnmsptr"></a></p>
   </section>
 
   <section id="idLTurkphnmVwl">
-  <h4 id="idLTurkphnmVwlH4">TurkPhnm.vowel
+  <h4 id="idLTurkphnmVwlH4">Turkphnm.vowel
     </h4>
   <p id="idLTurkphnmVwldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -204,13 +233,14 @@
     <br>* unround: a, e, ı, i
     <a class="clsHide" href="#idLTurkphnmVwldsn"></a></p>
   <p id="idLTurkphnmVwlnam">name::
-    <br>* McshEngl.TurkVowlPhnm,
-    <br>* McshEngl.TurkPhnm.vowel!⇒TurkVowlPhnm,
-    <br>* McshEngl.vowelTurkSpch!⇒TurkVowlPhnm,
+    <br>* McshEngl.TurkphnmVowl,
+    <br>* McshEngl.TurkVowlPhnm!⇒TurkphnmVowl,
+    <br>* McshEngl.Turkphnm.vowel!⇒TurkphnmVowl,
+    <br>* McshEngl.vowelTurkSpch!⇒TurkphnmVowl,
     <a class="clsHide" href="#idLTurkphnmVwlnam"></a></p>
 
   <section id="idLTurkphnmVwlhrmn">
-  <h5 id="idLTurkphnmVwlhrmnH5">vowel-harmony of TurkVowlPhnm
+  <h5 id="idLTurkphnmVwlhrmnH5">vowel-harmony of TurkphnmVowl
     </h5>
   <div id="idLTurkphnmVwlhrmndsn">
     <p>description::
@@ -238,161 +268,162 @@
   <p id="idLTurkphnmVwlhrmnnam">name::
     <br>* McshEngl.Turklago_vowel_harmony,
     <br>* McshEngl.Turklago'vowel_harmony!⇒Turklago_vowel_harmony,
-    <br>* McshEngl.TurkVowlPhnm'vowel_harmony!⇒Turklago_vowel_harmony,
-    <br>* McshEngl.TurkPhnm'vowel_harmony,
-    <br>* McshEngl.TurkVowlPhnm'harmony,
+    <br>* McshEngl.TurkphnmVowl'vowel_harmony!⇒Turklago_vowel_harmony,
+    <br>* McshEngl.Turkphnm'vowel_harmony,
+    <br>* McshEngl.TurkphnmVowl'harmony,
     <br>* McshEngl.vowel-harmony-of-Turklago,
-    <br>* McshEngl.TurkVowlPhnm'vowel_harmony,
+    <br>* McshEngl.TurkphnmVowl'vowel_harmony,
     <a class="clsHide" href="#idLTurkphnmVwlhrmnnam"></a></p>
   </section>
 
   <section id="idLTurkphnmVwlgstr">
-  <h5 id="idLTurkphnmVwlgstrH5">GENERIC-SPECIFIC-TREE of TurkVowlPhnm
+  <h5 id="idLTurkphnmVwlgstrH5">GENERIC-SPECIFIC-TREE of TurkphnmVowl
     </h5>
   <p id="idLTurkphnmVwlgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLTurkphnmVwlgstrdsn"></a></p>
   <p id="idLTurkphnmVwlgstrnam">name::
-    <br>* McshEngl.TurkVowlPhnm'generic_specific_tree,
+    <br>* McshEngl.TurkphnmVowl'generic_specific_tree,
     <a class="clsHide" href="#idLTurkphnmVwlgstrnam"></a></p>
   <p id="idLTurkphnmVwlgntr">generic-tree::
-    <br>* McshEngl.TurkVowlPhnm:generic,
+    <br>* McshEngl.TurkphnmVowl:generic,
     <br>===
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkphnmVwlgntr"></a></p>
   <p id="idLTurkphnmVwlsptr">specific-tree::
-    <br>* McshEngl.TurkVowlPhnm.specific,
+    <br>* McshEngl.TurkphnmVowl.specific,
     <br>===
-    <br>* TurkVowlPhnm./a/!@McshLag000030#idLTurkphnmVwlhrmnA,
-    <br>* TurkVowlPhnm./e/!@McshLag000030#idLTurkphnmVwlhrmnE,
-    <br>* TurkVowlPhnm./e8/-(round)-⟨ë⟩!@McshLag000030#idLTurkphnmVwlhrmnE8,
-    <br>* TurkVowlPhnm./i/!@McshLag000030#idLTurkphnmVwlhrmnI,
-    <br>* TurkVowlPhnm./i3/-(back)-⟨ı⟩!@McshLag000030#idLTurkphnmVwlhrmnI3,
-    <br>* TurkVowlPhnm./i8/-(round)--⟨ü⟩!@McshLag000030#idLTurkphnmVwlhrmnI8,
-    <br>* TurkVowlPhnm./o/!@McshLag000030#idLTurkphnmVwlhrmnO,
-    <br>* TurkVowlPhnm./u/!@McshLag000030#idLTurkphnmVwlhrmnU,
+    <br>* TurkphnmVowl./a/!@McshLag000030#idLTurkphnmVwlhrmnA,
+    <br>* TurkphnmVowl./e/!@McshLag000030#idLTurkphnmVwlhrmnE,
+    <br>* TurkphnmVowl./e8/-(round)-⟨ë⟩!@McshLag000030#idLTurkphnmVwlhrmnE8,
+    <br>* TurkphnmVowl./i/!@McshLag000030#idLTurkphnmVwlhrmnI,
+    <br>* TurkphnmVowl./i3/-(back)-⟨ı⟩!@McshLag000030#idLTurkphnmVwlhrmnI3,
+    <br>* TurkphnmVowl./i8/-(round)--⟨ü⟩!@McshLag000030#idLTurkphnmVwlhrmnI8,
+    <br>* TurkphnmVowl./o/!@McshLag000030#idLTurkphnmVwlhrmnO,
+    <br>* TurkphnmVowl./u/!@McshLag000030#idLTurkphnmVwlhrmnU,
     <a class="clsHide" href="#idLTurkphnmVwlsptr"></a></p>
   </section>
 
   <section id="idLTurkphnmVwlhrmnA">
-  <h5 id="idLTurkphnmVwlhrmnAH5">TurkVowlPhnm./a/
+  <h5 id="idLTurkphnmVwlhrmnAH5">TurkphnmVowl./a/
     </h5>
   <p id="idLTurkphnmVwlhrmnAdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmVwlhrmnAdsn"></a></p>
   <p id="idLTurkphnmVwlhrmnAnam">name::
-    <br>* McshEngl.TurkPhnm./a/,
-    <br>* McshEngl.TurkVowlPhnm./a/,
+    <br>* McshEngl.Turkphnm./a/,
+    <br>* McshEngl.TurkphnmVowl./a/,
     <a class="clsHide" href="#idLTurkphnmVwlhrmnAnam"></a></p>
   </section>
 
   <section id="idLTurkphnmVwlhrmnE">
-  <h5 id="idLTurkphnmVwlhrmnEH5">TurkVowlPhnm./e/
+  <h5 id="idLTurkphnmVwlhrmnEH5">TurkphnmVowl./e/
     </h5>
   <p id="idLTurkphnmVwlhrmnEdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmVwlhrmnEdsn"></a></p>
   <p id="idLTurkphnmVwlhrmnEnam">name::
-    <br>* McshEngl.TurkPhnm./e/,
-    <br>* McshEngl.TurkVowlPhnm./e/,
+    <br>* McshEngl.Turkphnm./e/,
+    <br>* McshEngl.TurkphnmVowl./e/,
     <a class="clsHide" href="#idLTurkphnmVwlhrmnEnam"></a></p>
   </section>
 
   <section id="idLTurkphnmVwlhrmnE8">
-  <h5 id="idLTurkphnmVwlhrmnE8H5">TurkVowlPhnm./e8/-(round)-⟨ë⟩
+  <h5 id="idLTurkphnmVwlhrmnE8H5">TurkphnmVowl./e8/-(round)-⟨ë⟩
     </h5>
   <p id="idLTurkphnmVwlhrmnE8dsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmVwlhrmnE8dsn"></a></p>
   <p id="idLTurkphnmVwlhrmnE8nam">name::
-    <br>* McshEngl.TurkPhnm./e8/-(round)-⟨ë⟩,
-    <br>* McshEngl.TurkVowlPhnm./e8/-(round)-⟨ë⟩,
+    <br>* McshEngl.Turkphnm./e8/-(round)-⟨ë⟩,
+    <br>* McshEngl.TurkphnmVowl./e8/-(round)-⟨ë⟩,
     <a class="clsHide" href="#idLTurkphnmVwlhrmnE8nam"></a></p>
   </section>
 
   <section id="idLTurkphnmVwlhrmnI">
-  <h5 id="idLTurkphnmVwlhrmnIH5">TurkVowlPhnm./i/
+  <h5 id="idLTurkphnmVwlhrmnIH5">TurkphnmVowl./i/
     </h5>
   <p id="idLTurkphnmVwlhrmnIdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmVwlhrmnIdsn"></a></p>
   <p id="idLTurkphnmVwlhrmnInam">name::
-    <br>* McshEngl.TurkPhnm./i/,
-    <br>* McshEngl.TurkVowlPhnm./i/,
+    <br>* McshEngl.Turkphnm./i/,
+    <br>* McshEngl.TurkphnmVowl./i/,
     <a class="clsHide" href="#idLTurkphnmVwlhrmnInam"></a></p>
   </section>
 
   <section id="idLTurkphnmVwlhrmnI3">
-  <h5 id="idLTurkphnmVwlhrmnI3H5">TurkVowlPhnm./i3/-(back)-⟨ı⟩
+  <h5 id="idLTurkphnmVwlhrmnI3H5">TurkphnmVowl./i3/-(back)-⟨ı⟩
     </h5>
   <p id="idLTurkphnmVwlhrmnI3dsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmVwlhrmnI3dsn"></a></p>
   <p id="idLTurkphnmVwlhrmnI3nam">name::
-    <br>* McshEngl.TurkPhnm./i3/-(back)-⟨ı⟩,
-    <br>* McshEngl.TurkVowlPhnm./i3/-(back)-⟨ı⟩,
+    <br>* McshEngl.Turkphnm./i3/-(back)-⟨ı⟩,
+    <br>* McshEngl.TurkphnmVowl./i3/-(back)-⟨ı⟩,
     <a class="clsHide" href="#idLTurkphnmVwlhrmnI3nam"></a></p>
   </section>
 
   <section id="idLTurkphnmVwlhrmnI8">
-  <h5 id="idLTurkphnmVwlhrmnI8H5">TurkVowlPhnm./i8/-(round)--⟨ü⟩
+  <h5 id="idLTurkphnmVwlhrmnI8H5">TurkphnmVowl./i8/-(round)--⟨ü⟩
     </h5>
   <p id="idLTurkphnmVwlhrmnI8dsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmVwlhrmnI8dsn"></a></p>
   <p id="idLTurkphnmVwlhrmnI8nam">name::
-    <br>* McshEngl.TurkPhnm./i8/-(round)--⟨ü⟩,
-    <br>* McshEngl.TurkVowlPhnm./i8/-(round)--⟨ü⟩,
+    <br>* McshEngl.Turkphnm./i8/-(round)--⟨ü⟩,
+    <br>* McshEngl.TurkphnmVowl./i8/-(round)--⟨ü⟩,
     <a class="clsHide" href="#idLTurkphnmVwlhrmnI8nam"></a></p>
   </section>
 
   <section id="idLTurkphnmVwlhrmnO">
-  <h5 id="idLTurkphnmVwlhrmnOH5">TurkVowlPhnm./o/
+  <h5 id="idLTurkphnmVwlhrmnOH5">TurkphnmVowl./o/
     </h5>
   <p id="idLTurkphnmVwlhrmnOdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmVwlhrmnOdsn"></a></p>
   <p id="idLTurkphnmVwlhrmnOnam">name::
-    <br>* McshEngl.TurkPhnm./o/,
-    <br>* McshEngl.TurkVowlPhnm./o/,
+    <br>* McshEngl.Turkphnm./o/,
+    <br>* McshEngl.TurkphnmVowl./o/,
     <a class="clsHide" href="#idLTurkphnmVwlhrmnOnam"></a></p>
   </section>
 
   <section id="idLTurkphnmVwlhrmnU">
-  <h5 id="idLTurkphnmVwlhrmnUH5">TurkVowlPhnm./u/
+  <h5 id="idLTurkphnmVwlhrmnUH5">TurkphnmVowl./u/
     </h5>
   <p id="idLTurkphnmVwlhrmnUdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmVwlhrmnUdsn"></a></p>
   <p id="idLTurkphnmVwlhrmnUnam">name::
-    <br>* McshEngl.TurkPhnm./u/,
-    <br>* McshEngl.TurkVowlPhnm./u/,
+    <br>* McshEngl.Turkphnm./u/,
+    <br>* McshEngl.TurkphnmVowl./u/,
     <a class="clsHide" href="#idLTurkphnmVwlhrmnUnam"></a></p>
   </section>
   </section>
 
   <section id="idLTurkphnmCnst">
-  <h4 id="idLTurkphnmCnstH4">TurkPhnm.vowelNo
+  <h4 id="idLTurkphnmCnstH4">Turkphnm.vowelNo
     </h4>
   <p id="idLTurkphnmCnstdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idLTurkphnmCnstdsn"></a></p>
   <p id="idLTurkphnmCnstnam">name::
-    <br>* McshEngl.TurkConsphnm,
-    <br>* McshEngl.consonantSpchTurk!⇒TurkConsphnm,
-    <br>* McshEngl.TurkPhnm.vowelNo!⇒TurkConsphnm,
+    <br>* McshEngl.TurkphnmCons,
+    <br>* McshEngl.TurkConsphnm!⇒TurkphnmCons,
+    <br>* McshEngl.consonantSpchTurk!⇒TurkphnmCons,
+    <br>* McshEngl.Turkphnm.vowelNo!⇒TurkphnmCons,
     <a class="clsHide" href="#idLTurkphnmCnstnam"></a></p>
 
   <section id="idLTurkphnmCnsthrmn">
-  <h5 id="idLTurkphnmCnsthrmnH5">harmony of TurkConsphnm
+  <h5 id="idLTurkphnmCnsthrmnH5">harmony of TurkphnmCons
     </h5>
   <p id="idLTurkphnmCnsthrmndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -402,7 +433,7 @@
     <br>· p, t, k, s, ş, ç, h, f (KePT FiSH) ⇒ t
     <a class="clsHide" href="#idLTurkphnmCnsthrmndsn"></a></p>
   <p id="idLTurkphnmCnsthrmnnam">name::
-    <br>* McshEngl.TurkConsphnm'harmony,
+    <br>* McshEngl.TurkphnmCons'harmony,
     <br>* McshEngl.consonant-assimilation-of-langTurk,
     <br>* McshEngl.consonant-harmony-of-langTurk,
     <br>* McshEngl.consonant-mutation-of-langTurk,
@@ -411,302 +442,302 @@
   </section>
 
   <section id="idLTurkphnmCnstgstr">
-  <h5 id="idLTurkphnmCnstgstrH5">GENERIC-SPECIFIC-TREE of TurkConsphnm
+  <h5 id="idLTurkphnmCnstgstrH5">GENERIC-SPECIFIC-TREE of TurkphnmCons
     </h5>
   <p id="idLTurkphnmCnstgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idLTurkphnmCnstgstrdsn"></a></p>
   <p id="idLTurkphnmCnstgstrnam">name::
-    <br>* McshEngl.TurkConsphnm'generic_specific_tree,
+    <br>* McshEngl.TurkphnmCons'generic_specific_tree,
     <a class="clsHide" href="#idLTurkphnmCnstgstrnam"></a></p>
   <p id="idLTurkphnmCnstgntr">generic-tree::
-    <br>* McshEngl.TurkConsphnm:generic,
+    <br>* McshEngl.TurkphnmCons:generic,
     <br>===
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkphnmCnstgntr"></a></p>
   <p id="idLTurkphnmCnstsptr">specific-tree::
-    <br>* McshEngl.TurkConsphnm.specific,
+    <br>* McshEngl.TurkphnmCons.specific,
     <br>===
-    <br>* TurkConsphnm./p/!@McshLag000030#idLTurkphnmCnstP,
-    <br>* TurkConsphnm./b/!@McshLag000030#idLTurkphnmCnstB,
-    <br>* TurkConsphnm./t/!@McshLag000030#idLTurkphnmCnstT,
-    <br>* TurkConsphnm./d/!@McshLag000030#idLTurkphnmCnstD,
-    <br>* TurkConsphnm./k/!@McshLag000030#idLTurkphnmCnstK,
-    <br>* TurkConsphnm./g/!@McshLag000030#idLTurkphnmCnstG,
-    <br>* TurkConsphnm./C/-⟨Ç⟩-[tʃ]!@McshLag000030#idLTurkphnmCnstCh,
-    <br>* TurkConsphnm./J/-⟨C⟩-[dʒ]!@McshLag000030#idLTurkphnmCnstJh,
-    <br>* TurkConsphnm./f/!@McshLag000030#idLTurkphnmCnstF,
-    <br>* TurkConsphnm./v/!@McshLag000030#idLTurkphnmCnstV,
-    <br>* TurkConsphnm./s/!@McshLag000030#idLTurkphnmCnstS,
-    <br>* TurkConsphnm./z/!@McshLag000030#idLTurkphnmCnstZ,
-    <br>* TurkConsphnm./S/-⟨Ş⟩-[ʃ]!@McshLag000030#idLTurkphnmCnstSh,
-    <br>* TurkConsphnm./Z/-⟨J⟩-[ʒ]!@McshLag000030#idLTurkphnmCnstZh,
-    <br>* TurkConsphnm./h/!@McshLag000030#idLTurkphnmCnstH,
-    <br>* TurkConsphnm./m/!@McshLag000030#idLTurkphnmCnstM,
-    <br>* TurkConsphnm./n/!@McshLag000030#idLTurkphnmCnstN,
-    <br>* TurkConsphnm./r/-[ɾ]!@McshLag000030#idLTurkphnmCnstR,
-    <br>* TurkConsphnm./l/!@McshLag000030#idLTurkphnmCnstL,
-    <br>* TurkConsphnm./y/-⟨y⟩-[j]!@McshLag000030#idLTurkphnmCnstY,
+    <br>* TurkphnmCons./p/!@McshLag000030#idLTurkphnmCnstP,
+    <br>* TurkphnmCons./b/!@McshLag000030#idLTurkphnmCnstB,
+    <br>* TurkphnmCons./t/!@McshLag000030#idLTurkphnmCnstT,
+    <br>* TurkphnmCons./d/!@McshLag000030#idLTurkphnmCnstD,
+    <br>* TurkphnmCons./k/!@McshLag000030#idLTurkphnmCnstK,
+    <br>* TurkphnmCons./g/!@McshLag000030#idLTurkphnmCnstG,
+    <br>* TurkphnmCons./C/-⟨Ç⟩-[tʃ]!@McshLag000030#idLTurkphnmCnstCh,
+    <br>* TurkphnmCons./J/-⟨C⟩-[dʒ]!@McshLag000030#idLTurkphnmCnstJh,
+    <br>* TurkphnmCons./f/!@McshLag000030#idLTurkphnmCnstF,
+    <br>* TurkphnmCons./v/!@McshLag000030#idLTurkphnmCnstV,
+    <br>* TurkphnmCons./s/!@McshLag000030#idLTurkphnmCnstS,
+    <br>* TurkphnmCons./z/!@McshLag000030#idLTurkphnmCnstZ,
+    <br>* TurkphnmCons./S/-⟨Ş⟩-[ʃ]!@McshLag000030#idLTurkphnmCnstSh,
+    <br>* TurkphnmCons./Z/-⟨J⟩-[ʒ]!@McshLag000030#idLTurkphnmCnstZh,
+    <br>* TurkphnmCons./h/!@McshLag000030#idLTurkphnmCnstH,
+    <br>* TurkphnmCons./m/!@McshLag000030#idLTurkphnmCnstM,
+    <br>* TurkphnmCons./n/!@McshLag000030#idLTurkphnmCnstN,
+    <br>* TurkphnmCons./r/-[ɾ]!@McshLag000030#idLTurkphnmCnstR,
+    <br>* TurkphnmCons./l/!@McshLag000030#idLTurkphnmCnstL,
+    <br>* TurkphnmCons./y/-⟨y⟩-[j]!@McshLag000030#idLTurkphnmCnstY,
     <a class="clsHide" href="#idLTurkphnmCnstsptr"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstP">
-  <h5 id="idLTurkphnmCnstPH5">TurkConsphnm./p/
+  <h5 id="idLTurkphnmCnstPH5">TurkphnmCons./p/
     </h5>
   <p id="idLTurkphnmCnstPdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstPdsn"></a></p>
   <p id="idLTurkphnmCnstPnam">name::
-    <br>* McshEngl.TurkConsphnm./p/,
-    <br>* McshEngl.TurkPhnm./p/,
+    <br>* McshEngl.TurkphnmCons./p/,
+    <br>* McshEngl.Turkphnm./p/,
     <a class="clsHide" href="#idLTurkphnmCnstPnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstB">
-  <h5 id="idLTurkphnmCnstBH5">TurkConsphnm./b/
+  <h5 id="idLTurkphnmCnstBH5">TurkphnmCons./b/
     </h5>
   <p id="idLTurkphnmCnstBdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstBdsn"></a></p>
   <p id="idLTurkphnmCnstBnam">name::
-    <br>* McshEngl.TurkConsphnm./b/,
-    <br>* McshEngl.TurkPhnm./b/,
+    <br>* McshEngl.TurkphnmCons./b/,
+    <br>* McshEngl.Turkphnm./b/,
     <a class="clsHide" href="#idLTurkphnmCnstBnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstT">
-  <h5 id="idLTurkphnmCnstTH5">TurkConsphnm./t/
+  <h5 id="idLTurkphnmCnstTH5">TurkphnmCons./t/
     </h5>
   <p id="idLTurkphnmCnstTdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstTdsn"></a></p>
   <p id="idLTurkphnmCnstTnam">name::
-    <br>* McshEngl.TurkConsphnm./t/,
-    <br>* McshEngl.TurkPhnm./t/,
+    <br>* McshEngl.TurkphnmCons./t/,
+    <br>* McshEngl.Turkphnm./t/,
     <a class="clsHide" href="#idLTurkphnmCnstTnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstD">
-  <h5 id="idLTurkphnmCnstDH5">TurkConsphnm./d/
+  <h5 id="idLTurkphnmCnstDH5">TurkphnmCons./d/
     </h5>
   <p id="idLTurkphnmCnstDdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstDdsn"></a></p>
   <p id="idLTurkphnmCnstDnam">name::
-    <br>* McshEngl.TurkConsphnm./d/,
-    <br>* McshEngl.TurkPhnm./d/,
+    <br>* McshEngl.TurkphnmCons./d/,
+    <br>* McshEngl.Turkphnm./d/,
     <a class="clsHide" href="#idLTurkphnmCnstDnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstK">
-  <h5 id="idLTurkphnmCnstKH5">TurkConsphnm./k/
+  <h5 id="idLTurkphnmCnstKH5">TurkphnmCons./k/
     </h5>
   <p id="idLTurkphnmCnstKdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstKdsn"></a></p>
   <p id="idLTurkphnmCnstKnam">name::
-    <br>* McshEngl.TurkConsphnm./k/,
-    <br>* McshEngl.TurkPhnm./k/,
+    <br>* McshEngl.TurkphnmCons./k/,
+    <br>* McshEngl.Turkphnm./k/,
     <a class="clsHide" href="#idLTurkphnmCnstKnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstG">
-  <h5 id="idLTurkphnmCnstGH5">TurkConsphnm./g/
+  <h5 id="idLTurkphnmCnstGH5">TurkphnmCons./g/
     </h5>
   <p id="idLTurkphnmCnstGdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstGdsn"></a></p>
   <p id="idLTurkphnmCnstGnam">name::
-    <br>* McshEngl.TurkConsphnm./g/,
-    <br>* McshEngl.TurkPhnm./g/,
+    <br>* McshEngl.TurkphnmCons./g/,
+    <br>* McshEngl.Turkphnm./g/,
     <a class="clsHide" href="#idLTurkphnmCnstGnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstCh">
-  <h5 id="idLTurkphnmCnstChH5">TurkConsphnm./C/-⟨Ç⟩-[tʃ]
+  <h5 id="idLTurkphnmCnstChH5">TurkphnmCons./C/-⟨Ç⟩-[tʃ]
     </h5>
   <p id="idLTurkphnmCnstChdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstChdsn"></a></p>
   <p id="idLTurkphnmCnstChnam">name::
-    <br>* McshEngl.TurkConsphnm./C/-⟨Ç⟩-[tʃ],
-    <br>* McshEngl.TurkPhnm./C/-⟨Ç⟩-[tʃ],
+    <br>* McshEngl.TurkphnmCons./C/-⟨Ç⟩-[tʃ],
+    <br>* McshEngl.Turkphnm./C/-⟨Ç⟩-[tʃ],
     <a class="clsHide" href="#idLTurkphnmCnstChnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstJh">
-  <h5 id="idLTurkphnmCnstJhH5">TurkConsphnm./J/-⟨C⟩-[dʒ]
+  <h5 id="idLTurkphnmCnstJhH5">TurkphnmCons./J/-⟨C⟩-[dʒ]
     </h5>
   <p id="idLTurkphnmCnstJhdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstJhdsn"></a></p>
   <p id="idLTurkphnmCnstJhnam">name::
-    <br>* McshEngl.TurkConsphnm./J/-⟨C⟩-[dʒ],
-    <br>* McshEngl.TurkPhnm./J/-⟨C⟩-[dʒ],
+    <br>* McshEngl.TurkphnmCons./J/-⟨C⟩-[dʒ],
+    <br>* McshEngl.Turkphnm./J/-⟨C⟩-[dʒ],
     <a class="clsHide" href="#idLTurkphnmCnstJhnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstF">
-  <h5 id="idLTurkphnmCnstFH5">TurkConsphnm./f/
+  <h5 id="idLTurkphnmCnstFH5">TurkphnmCons./f/
     </h5>
   <p id="idLTurkphnmCnstFdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstFdsn"></a></p>
   <p id="idLTurkphnmCnstFnam">name::
-    <br>* McshEngl.TurkConsphnm./f/,
-    <br>* McshEngl.TurkPhnm./f/,
+    <br>* McshEngl.TurkphnmCons./f/,
+    <br>* McshEngl.Turkphnm./f/,
     <a class="clsHide" href="#idLTurkphnmCnstFnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstV">
-  <h5 id="idLTurkphnmCnstVH5">TurkConsphnm./v/
+  <h5 id="idLTurkphnmCnstVH5">TurkphnmCons./v/
     </h5>
   <p id="idLTurkphnmCnstVdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstVdsn"></a></p>
   <p id="idLTurkphnmCnstVnam">name::
-    <br>* McshEngl.TurkConsphnm./v/,
-    <br>* McshEngl.TurkPhnm./v/,
+    <br>* McshEngl.TurkphnmCons./v/,
+    <br>* McshEngl.Turkphnm./v/,
     <a class="clsHide" href="#idLTurkphnmCnstVnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstS">
-  <h5 id="idLTurkphnmCnstSH5">TurkConsphnm./s/
+  <h5 id="idLTurkphnmCnstSH5">TurkphnmCons./s/
     </h5>
   <p id="idLTurkphnmCnstSdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstSdsn"></a></p>
   <p id="idLTurkphnmCnstSnam">name::
-    <br>* McshEngl.TurkConsphnm./s/,
-    <br>* McshEngl.TurkPhnm./s/,
+    <br>* McshEngl.TurkphnmCons./s/,
+    <br>* McshEngl.Turkphnm./s/,
     <a class="clsHide" href="#idLTurkphnmCnstSnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstZ">
-  <h5 id="idLTurkphnmCnstZH5">TurkConsphnm./z/
+  <h5 id="idLTurkphnmCnstZH5">TurkphnmCons./z/
     </h5>
   <p id="idLTurkphnmCnstZdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstZdsn"></a></p>
   <p id="idLTurkphnmCnstZnam">name::
-    <br>* McshEngl.TurkConsphnm./z/,
-    <br>* McshEngl.TurkPhnm./z/,
+    <br>* McshEngl.TurkphnmCons./z/,
+    <br>* McshEngl.Turkphnm./z/,
     <a class="clsHide" href="#idLTurkphnmCnstZnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstSh">
-  <h5 id="idLTurkphnmCnstShH5">TurkConsphnm./S/-⟨Ş⟩-[ʃ]
+  <h5 id="idLTurkphnmCnstShH5">TurkphnmCons./S/-⟨Ş⟩-[ʃ]
     </h5>
   <p id="idLTurkphnmCnstShdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstShdsn"></a></p>
   <p id="idLTurkphnmCnstShnam">name::
-    <br>* McshEngl.TurkConsphnm./S/-⟨Ş⟩-[ʃ],
-    <br>* McshEngl.TurkPhnm./S/-⟨Ş⟩-[ʃ],
+    <br>* McshEngl.TurkphnmCons./S/-⟨Ş⟩-[ʃ],
+    <br>* McshEngl.Turkphnm./S/-⟨Ş⟩-[ʃ],
     <a class="clsHide" href="#idLTurkphnmCnstShnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstZh">
-  <h5 id="idLTurkphnmCnstZhH5">TurkConsphnm./Z/-⟨J⟩-[ʒ]
+  <h5 id="idLTurkphnmCnstZhH5">TurkphnmCons./Z/-⟨J⟩-[ʒ]
     </h5>
   <p id="idLTurkphnmCnstZhdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstZhdsn"></a></p>
   <p id="idLTurkphnmCnstZhnam">name::
-    <br>* McshEngl.TurkConsphnm./Z/-⟨J⟩-[ʒ],
-    <br>* McshEngl.TurkPhnm./Z/-⟨J⟩-[ʒ],
+    <br>* McshEngl.TurkphnmCons./Z/-⟨J⟩-[ʒ],
+    <br>* McshEngl.Turkphnm./Z/-⟨J⟩-[ʒ],
     <a class="clsHide" href="#idLTurkphnmCnstZhnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstH">
-  <h5 id="idLTurkphnmCnstHH5">TurkConsphnm./h/
+  <h5 id="idLTurkphnmCnstHH5">TurkphnmCons./h/
     </h5>
   <p id="idLTurkphnmCnstHdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstHdsn"></a></p>
   <p id="idLTurkphnmCnstHnam">name::
-    <br>* McshEngl.TurkConsphnm./h/,
-    <br>* McshEngl.TurkPhnm./h/,
+    <br>* McshEngl.TurkphnmCons./h/,
+    <br>* McshEngl.Turkphnm./h/,
     <a class="clsHide" href="#idLTurkphnmCnstHnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstM">
-  <h5 id="idLTurkphnmCnstMH5">TurkConsphnm./m/
+  <h5 id="idLTurkphnmCnstMH5">TurkphnmCons./m/
     </h5>
   <p id="idLTurkphnmCnstMdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstMdsn"></a></p>
   <p id="idLTurkphnmCnstMnam">name::
-    <br>* McshEngl.TurkConsphnm./m/,
-    <br>* McshEngl.TurkPhnm./m/,
+    <br>* McshEngl.TurkphnmCons./m/,
+    <br>* McshEngl.Turkphnm./m/,
     <a class="clsHide" href="#idLTurkphnmCnstMnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstN">
-  <h5 id="idLTurkphnmCnstNH5">TurkConsphnm./n/
+  <h5 id="idLTurkphnmCnstNH5">TurkphnmCons./n/
     </h5>
   <p id="idLTurkphnmCnstNdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstNdsn"></a></p>
   <p id="idLTurkphnmCnstNnam">name::
-    <br>* McshEngl.TurkConsphnm./n/,
-    <br>* McshEngl.TurkPhnm./n/,
+    <br>* McshEngl.TurkphnmCons./n/,
+    <br>* McshEngl.Turkphnm./n/,
     <a class="clsHide" href="#idLTurkphnmCnstNnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstR">
-  <h5 id="idLTurkphnmCnstRH5">TurkConsphnm./r/-[ɾ]
+  <h5 id="idLTurkphnmCnstRH5">TurkphnmCons./r/-[ɾ]
     </h5>
   <p id="idLTurkphnmCnstRdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstRdsn"></a></p>
   <p id="idLTurkphnmCnstRnam">name::
-    <br>* McshEngl.TurkConsphnm./r/_[ɾ],
-    <br>* McshEngl.TurkPhnm./r/-[ɾ],
+    <br>* McshEngl.TurkphnmCons./r/_[ɾ],
+    <br>* McshEngl.Turkphnm./r/-[ɾ],
     <a class="clsHide" href="#idLTurkphnmCnstRnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstL">
-  <h5 id="idLTurkphnmCnstLH5">TurkConsphnm./l/
+  <h5 id="idLTurkphnmCnstLH5">TurkphnmCons./l/
     </h5>
   <p id="idLTurkphnmCnstLdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstLdsn"></a></p>
   <p id="idLTurkphnmCnstLnam">name::
-    <br>* McshEngl.TurkConsphnm./l/,
-    <br>* McshEngl.TurkPhnm./l/,
+    <br>* McshEngl.TurkphnmCons./l/,
+    <br>* McshEngl.Turkphnm./l/,
     <a class="clsHide" href="#idLTurkphnmCnstLnam"></a></p>
   </section>
 
   <section id="idLTurkphnmCnstY">
-  <h5 id="idLTurkphnmCnstYH5">TurkConsphnm./y/-⟨y⟩-[j]
+  <h5 id="idLTurkphnmCnstYH5">TurkphnmCons./y/-⟨y⟩-[j]
     </h5>
   <p id="idLTurkphnmCnstYdsn">description::
     <br>× Mcsh-creation: {2025-03-11}
     <br>
     <a class="clsHide" href="#idLTurkphnmCnstYdsn"></a></p>
   <p id="idLTurkphnmCnstYnam">name::
-    <br>* McshEngl.TurkConsphnm./y/-⟨y⟩-[j],
-    <br>* McshEngl.TurkPhnm./y/-⟨y⟩-[j],
+    <br>* McshEngl.TurkphnmCons./y/-⟨y⟩-[j],
+    <br>* McshEngl.Turkphnm./y/-⟨y⟩-[j],
     <a class="clsHide" href="#idLTurkphnmCnstYnam"></a></p>
   </section>
   </section>
@@ -722,290 +753,292 @@
     <br>· a b c ç d e f g ğ h ı i j k l m n o ö p r s ş t u ü v y z,
     <a class="clsHide" href="#idLTurkltrdsn"></a></p>
   <p id="idLTurkltrnam">name::
-    <br>* McshEngl.letterTurk,
-    <br>* McshEngl.Turklago'phonemogram!⇒letterTurk,
-    <br>* McshEngl.Turkunit.phonemogram!⇒letterTurk,
+    <br>* McshEngl.Turkletr,
+    <br>* McshEngl.letterTurk!⇒Turkletr,
+    <br>* McshEngl.Turklago'phonemogram!⇒Turkletr,
+    <br>* McshEngl.Turkunit.phonemogram!⇒Turkletr,
     <br>====== lagoTurkish:
-    <br>* McshTurk.mektup.Türkçe!⇒letterTurk,
+    <br>* McshTurk.mektup.Türkçe!⇒Turkletr,
     <a class="clsHide" href="#idLTurkltrnam"></a></p>
 
   <section id="idLTurkltrgstr">
-  <h4 id="idLTurkltrgstrH4">GENERIC-SPECIFIC-TREE of letterTurk
+  <h4 id="idLTurkltrgstrH4">GENERIC-SPECIFIC-TREE of Turkletr
     </h4>
   <p id="idLTurkltrgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLTurkltrgstrdsn"></a></p>
   <p id="idLTurkltrgstrnam">name::
-    <br>* McshEngl.letterTurk'generic_specific_tree,
+    <br>* McshEngl.Turkletr'generic_specific_tree,
     <a class="clsHide" href="#idLTurkltrgstrnam"></a></p>
   <p id="idLTurkltrgntr">generic-tree::
-    <br>* McshEngl.letterTurk:generic,
+    <br>* McshEngl.Turkletr:generic,
     <br>===
+    <br>* Turkunit:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkltrgntr"></a></p>
   <p id="idLTurkltrsptr">specific-tree::
-    <br>* McshEngl.letterTurk.specific,
+    <br>* McshEngl.Turkletr.specific,
     <br>===
-    <br>* letterTurk.a_/a/!@McshLag000030#idLTurkltr01,
-    <br>* letterTurk.b_/be/!@McshLag000030#idLTurkltr02,
-    <br>* letterTurk.c_/Je/!@McshLag000030#idLTurkltr03,
-    <br>* letterTurk.ç_/Ce/!@McshLag000030#idLTurkltr04,
-    <br>* letterTurk.d_/de/!@McshLag000030#idLTurkltr05,
-    <br>* letterTurk.e_/e/!@McshLag000030#idLTurkltr06,
-    <br>* letterTurk.f_/fe/!@McshLag000030#idLTurkltr07,
-    <br>* letterTurk.g_/ge/!@McshLag000030#idLTurkltr08,
-    <br>* letterTurk.ğ_/yumuSak_ge/_soft_g!@McshLag000030#idLTurkltr09,
-    <br>* letterTurk.h_/he/!@McshLag000030#idLTurkltr10,
-    <br>* letterTurk.ı_/i2/!@McshLag000030#idLTurkltr11,
-    <br>* letterTurk.i_/i/!@McshLag000030#idLTurkltr12,
-    <br>* letterTurk.j_/Ze/!@McshLag000030#idLTurkltr13,
-    <br>* letterTurk.k_/ke/!@McshLag000030#idLTurkltr14,
-    <br>* letterTurk.l_/le/!@McshLag000030#idLTurkltr15,
-    <br>* letterTurk.m_/me/!@McshLag000030#idLTurkltr16,
-    <br>* letterTurk.n_/ne/!@McshLag000030#idLTurkltr17,
-    <br>* letterTurk.o_/o/!@McshLag000030#idLTurkltr18,
-    <br>* letterTurk.ö_/e3/!@McshLag000030#idLTurkltr19,
-    <br>* letterTurk.p_/pe/!@McshLag000030#idLTurkltr20,
-    <br>* letterTurk.r_/re/!@McshLag000030#idLTurkltr21,
-    <br>* letterTurk.s_/se/!@McshLag000030#idLTurkltr22,
-    <br>* letterTurk.ş_/Se/!@McshLag000030#idLTurkltr23,
-    <br>* letterTurk.t_/te/!@McshLag000030#idLTurkltr24,
-    <br>* letterTurk.u_/u/!@McshLag000030#idLTurkltr25,
-    <br>* letterTurk.ü_/i3/!@McshLag000030#idLTurkltr26,
-    <br>* letterTurk.v_/ve/!@McshLag000030#idLTurkltr27,
-    <br>* letterTurk.y_/ye/!@McshLag000030#idLTurkltr28,
-    <br>* letterTurk.z_/ze/!@McshLag000030#idLTurkltr29,
-    <br>* letterTurk.diphthong!@McshLag000030#idLTurkltrDiph,
-    <br>* letterTurk.circumflexTurk!@McshLag000030#idLTurkltrCirc,
-    <br>* letterTurk.apostropheTurk!@McshLag000030#idLTurkltrApos,
+    <br>* Turkletr.a_/a/!@McshLag000030#idLTurkltr01,
+    <br>* Turkletr.b_/be/!@McshLag000030#idLTurkltr02,
+    <br>* Turkletr.c_/Je/!@McshLag000030#idLTurkltr03,
+    <br>* Turkletr.ç_/Ce/!@McshLag000030#idLTurkltr04,
+    <br>* Turkletr.d_/de/!@McshLag000030#idLTurkltr05,
+    <br>* Turkletr.e_/e/!@McshLag000030#idLTurkltr06,
+    <br>* Turkletr.f_/fe/!@McshLag000030#idLTurkltr07,
+    <br>* Turkletr.g_/ge/!@McshLag000030#idLTurkltr08,
+    <br>* Turkletr.ğ_/yumuSak_ge/_soft_g!@McshLag000030#idLTurkltr09,
+    <br>* Turkletr.h_/he/!@McshLag000030#idLTurkltr10,
+    <br>* Turkletr.ı_/i2/!@McshLag000030#idLTurkltr11,
+    <br>* Turkletr.i_/i/!@McshLag000030#idLTurkltr12,
+    <br>* Turkletr.j_/Ze/!@McshLag000030#idLTurkltr13,
+    <br>* Turkletr.k_/ke/!@McshLag000030#idLTurkltr14,
+    <br>* Turkletr.l_/le/!@McshLag000030#idLTurkltr15,
+    <br>* Turkletr.m_/me/!@McshLag000030#idLTurkltr16,
+    <br>* Turkletr.n_/ne/!@McshLag000030#idLTurkltr17,
+    <br>* Turkletr.o_/o/!@McshLag000030#idLTurkltr18,
+    <br>* Turkletr.ö_/e3/!@McshLag000030#idLTurkltr19,
+    <br>* Turkletr.p_/pe/!@McshLag000030#idLTurkltr20,
+    <br>* Turkletr.r_/re/!@McshLag000030#idLTurkltr21,
+    <br>* Turkletr.s_/se/!@McshLag000030#idLTurkltr22,
+    <br>* Turkletr.ş_/Se/!@McshLag000030#idLTurkltr23,
+    <br>* Turkletr.t_/te/!@McshLag000030#idLTurkltr24,
+    <br>* Turkletr.u_/u/!@McshLag000030#idLTurkltr25,
+    <br>* Turkletr.ü_/i3/!@McshLag000030#idLTurkltr26,
+    <br>* Turkletr.v_/ve/!@McshLag000030#idLTurkltr27,
+    <br>* Turkletr.y_/ye/!@McshLag000030#idLTurkltr28,
+    <br>* Turkletr.z_/ze/!@McshLag000030#idLTurkltr29,
+    <br>* Turkletr.diphthong!@McshLag000030#idLTurkltrDiph,
+    <br>* Turkletr.circumflexTurk!@McshLag000030#idLTurkltrCirc,
+    <br>* Turkletr.apostropheTurk!@McshLag000030#idLTurkltrApos,
     <a class="clsHide" href="#idLTurkltrsptr"></a></p>
   </section>
 
   <section id="idLTurkltr01">
-  <h4 id="idLTurkltr01H4">letterTurk.01-a-/a/
+  <h4 id="idLTurkltr01H4">Turkletr.01-a-/a/
     </h4>
   <p id="idLTurkltr01dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 01-A|a-a-65|97.
     <a class="clsHide" href="#idLTurkltr01dsn"></a></p>
   <p id="idLTurkltr01nam">name::
-    <br>* McshEngl.letterTurk.01_a_/a/,
-    <br>* McshEngl.letterTurk.a-01-/a/,
+    <br>* McshEngl.Turkletr.01_a_/a/,
+    <br>* McshEngl.Turkletr.a-01-/a/,
     <a class="clsHide" href="#idLTurkltr01nam"></a></p>
   </section>
 
   <section id="idLTurkltr02">
-  <h4 id="idLTurkltr02H4">letterTurk.02-b-/be/
+  <h4 id="idLTurkltr02H4">Turkletr.02-b-/be/
     </h4>
   <p id="idLTurkltr02dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 02-B|b-be-66|98.
     <a class="clsHide" href="#idLTurkltr02dsn"></a></p>
   <p id="idLTurkltr02nam">name::
-    <br>* McshEngl.letterTurk.02_b_/be/,
-    <br>* McshEngl.letterTurk.b-02-/be/,
+    <br>* McshEngl.Turkletr.02_b_/be/,
+    <br>* McshEngl.Turkletr.b-02-/be/,
     <a class="clsHide" href="#idLTurkltr02nam"></a></p>
   </section>
 
   <section id="idLTurkltr03">
-  <h4 id="idLTurkltr03H4">letterTurk.03-c-/Je/
+  <h4 id="idLTurkltr03H4">Turkletr.03-c-/Je/
     </h4>
   <p id="idLTurkltr03dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 03-C|c-Je-67|99.
     <a class="clsHide" href="#idLTurkltr03dsn"></a></p>
   <p id="idLTurkltr03nam">name::
-    <br>* McshEngl.letterTurk.03_c_/Je/,
-    <br>* McshEngl.letterTurk.c-03-/Je/,
+    <br>* McshEngl.Turkletr.03_c_/Je/,
+    <br>* McshEngl.Turkletr.c-03-/Je/,
     <a class="clsHide" href="#idLTurkltr03nam"></a></p>
   </section>
 
   <section id="idLTurkltr04">
-  <h4 id="idLTurkltr04H4">letterTurk.04-ç-/Ce/
+  <h4 id="idLTurkltr04H4">Turkletr.04-ç-/Ce/
     </h4>
   <p id="idLTurkltr04dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 04-Ç|ç-Ce-199|231, html-name=ccedil.
     <a class="clsHide" href="#idLTurkltr04dsn"></a></p>
   <p id="idLTurkltr04nam">name::
-    <br>* McshEngl.letterTurk.04_ç_/Ce/,
-    <br>* McshEngl.letterTurk.ç-04-/Ce/,
+    <br>* McshEngl.Turkletr.04_ç_/Ce/,
+    <br>* McshEngl.Turkletr.ç-04-/Ce/,
     <a class="clsHide" href="#idLTurkltr04nam"></a></p>
   </section>
 
   <section id="idLTurkltr05">
-  <h4 id="idLTurkltr05H4">letterTurk.05-d-/de/
+  <h4 id="idLTurkltr05H4">Turkletr.05-d-/de/
     </h4>
   <p id="idLTurkltr05dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 05-D|d-de-68|100.
     <a class="clsHide" href="#idLTurkltr05dsn"></a></p>
   <p id="idLTurkltr05nam">name::
-    <br>* McshEngl.letterTurk.05_d_/de/,
-    <br>* McshEngl.letterTurk.d-05-/de/,
+    <br>* McshEngl.Turkletr.05_d_/de/,
+    <br>* McshEngl.Turkletr.d-05-/de/,
     <a class="clsHide" href="#idLTurkltr05nam"></a></p>
   </section>
 
   <section id="idLTurkltr06">
-  <h4 id="idLTurkltr06H4">letterTurk.06-e-/e/
+  <h4 id="idLTurkltr06H4">Turkletr.06-e-/e/
     </h4>
   <p id="idLTurkltr06dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 06-E|e-e-69|101.
     <a class="clsHide" href="#idLTurkltr06dsn"></a></p>
   <p id="idLTurkltr06nam">name::
-    <br>* McshEngl.letterTurk.06_e_/e/,
-    <br>* McshEngl.letterTurk.e-06-/e/,
+    <br>* McshEngl.Turkletr.06_e_/e/,
+    <br>* McshEngl.Turkletr.e-06-/e/,
     <a class="clsHide" href="#idLTurkltr06nam"></a></p>
   </section>
 
   <section id="idLTurkltr07">
-  <h4 id="idLTurkltr07H4">letterTurk.07-f-/fe/
+  <h4 id="idLTurkltr07H4">Turkletr.07-f-/fe/
     </h4>
   <p id="idLTurkltr07dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 07-F|f-fe-70|102.
     <a class="clsHide" href="#idLTurkltr07dsn"></a></p>
   <p id="idLTurkltr07nam">name::
-    <br>* McshEngl.letterTurk.07_f_/fe/,
-    <br>* McshEngl.letterTurk.f-07-/fe/,
+    <br>* McshEngl.Turkletr.07_f_/fe/,
+    <br>* McshEngl.Turkletr.f-07-/fe/,
     <a class="clsHide" href="#idLTurkltr07nam"></a></p>
   </section>
 
   <section id="idLTurkltr08">
-  <h4 id="idLTurkltr08H4">letterTurk.08-g-/ge/
+  <h4 id="idLTurkltr08H4">Turkletr.08-g-/ge/
     </h4>
   <p id="idLTurkltr08dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 08-G|g-ge-71|103.
     <a class="clsHide" href="#idLTurkltr08dsn"></a></p>
   <p id="idLTurkltr08nam">name::
-    <br>* McshEngl.letterTurk.08_g_/ge/,
-    <br>* McshEngl.letterTurk.g-08-/ge/,
+    <br>* McshEngl.Turkletr.08_g_/ge/,
+    <br>* McshEngl.Turkletr.g-08-/ge/,
     <a class="clsHide" href="#idLTurkltr08nam"></a></p>
   </section>
 
   <section id="idLTurkltr09">
-  <h4 id="idLTurkltr09H4">letterTurk.09-ğ-/yumuSakge/
+  <h4 id="idLTurkltr09H4">Turkletr.09-ğ-/yumuSakge/
     </h4>
   <p id="idLTurkltr09dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 09-Ğ|ğ-yumuSakge-286|287, html=gbreve,
     <a class="clsHide" href="#idLTurkltr09dsn"></a></p>
   <p id="idLTurkltr09nam">name::
-    <br>* McshEngl.letterTurk.09_ğ_/yumuSak_ge/_soft_g,
-    <br>* McshEngl.letterTurk.09_ğ_/yumuSakge/,
-    <br>* McshEngl.letterTurk.ğ-09-/yumuSak-ge/-soft-g,
-    <br>* McshEngl.letterTurk.soft-g-ğ-/yumuSak-ge/,
+    <br>* McshEngl.Turkletr.09_ğ_/yumuSak_ge/_soft_g,
+    <br>* McshEngl.Turkletr.09_ğ_/yumuSakge/,
+    <br>* McshEngl.Turkletr.ğ-09-/yumuSak-ge/-soft-g,
+    <br>* McshEngl.Turkletr.soft-g-ğ-/yumuSak-ge/,
     <a class="clsHide" href="#idLTurkltr09nam"></a></p>
   </section>
 
   <section id="idLTurkltr10">
-  <h4 id="idLTurkltr10H4">letterTurk.10-h-/he/
+  <h4 id="idLTurkltr10H4">Turkletr.10-h-/he/
     </h4>
   <p id="idLTurkltr10dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 10-H|h-he-72|104.
     <a class="clsHide" href="#idLTurkltr10dsn"></a></p>
   <p id="idLTurkltr10nam">name::
-    <br>* McshEngl.letterTurk.10_h_/he/,
-    <br>* McshEngl.letterTurk.h-10-/he/,
+    <br>* McshEngl.Turkletr.10_h_/he/,
+    <br>* McshEngl.Turkletr.h-10-/he/,
     <a class="clsHide" href="#idLTurkltr10nam"></a></p>
   </section>
 
   <section id="idLTurkltr11">
-  <h4 id="idLTurkltr11H4">letterTurk.11-ı-/i2/
+  <h4 id="idLTurkltr11H4">Turkletr.11-ı-/i2/
     </h4>
   <p id="idLTurkltr11dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 11-I|ı-i2-73|305, i-back.
     <a class="clsHide" href="#idLTurkltr11dsn"></a></p>
   <p id="idLTurkltr11nam">name::
-    <br>* McshEngl.letterTurk.11_ı_/i2/,
-    <br>* McshEngl.letterTurk.ı-11-/i2/,
+    <br>* McshEngl.Turkletr.11_ı_/i2/,
+    <br>* McshEngl.Turkletr.ı-11-/i2/,
     <a class="clsHide" href="#idLTurkltr11nam"></a></p>
   </section>
 
   <section id="idLTurkltr12">
-  <h4 id="idLTurkltr12H4">letterTurk.12-i-/i/
+  <h4 id="idLTurkltr12H4">Turkletr.12-i-/i/
     </h4>
   <p id="idLTurkltr12dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 12-İ|i-i-304|105.
     <a class="clsHide" href="#idLTurkltr12dsn"></a></p>
   <p id="idLTurkltr12nam">name::
-    <br>* McshEngl.letterTurk.12_i_/i/,
-    <br>* McshEngl.letterTurk.i-12-/i/,
+    <br>* McshEngl.Turkletr.12_i_/i/,
+    <br>* McshEngl.Turkletr.i-12-/i/,
     <a class="clsHide" href="#idLTurkltr12nam"></a></p>
   </section>
 
   <section id="idLTurkltr13">
-  <h4 id="idLTurkltr13H4">letterTurk.13-j-/Ze/
+  <h4 id="idLTurkltr13H4">Turkletr.13-j-/Ze/
     </h4>
   <p id="idLTurkltr13dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 13-J|j-Ze-74|106.
     <a class="clsHide" href="#idLTurkltr13dsn"></a></p>
   <p id="idLTurkltr13nam">name::
-    <br>* McshEngl.letterTurk.13_j_/Ze/,
-    <br>* McshEngl.letterTurk.j-13-/Ze/,
+    <br>* McshEngl.Turkletr.13_j_/Ze/,
+    <br>* McshEngl.Turkletr.j-13-/Ze/,
     <a class="clsHide" href="#idLTurkltr13nam"></a></p>
   </section>
 
   <section id="idLTurkltr14">
-  <h4 id="idLTurkltr14H4">letterTurk.14-k-/ke/
+  <h4 id="idLTurkltr14H4">Turkletr.14-k-/ke/
     </h4>
   <p id="idLTurkltr14dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 14-K|k-ke-75|107.
     <a class="clsHide" href="#idLTurkltr14dsn"></a></p>
   <p id="idLTurkltr14nam">name::
-    <br>* McshEngl.letterTurk.14_k_/ke/,
-    <br>* McshEngl.letterTurk.k-14-/ke/,
+    <br>* McshEngl.Turkletr.14_k_/ke/,
+    <br>* McshEngl.Turkletr.k-14-/ke/,
     <a class="clsHide" href="#idLTurkltr14nam"></a></p>
   </section>
 
   <section id="idLTurkltr15">
-  <h4 id="idLTurkltr15H4">letterTurk.15-l-/le/
+  <h4 id="idLTurkltr15H4">Turkletr.15-l-/le/
     </h4>
   <p id="idLTurkltr15dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 15-L|l-le-76|108.
     <a class="clsHide" href="#idLTurkltr15dsn"></a></p>
   <p id="idLTurkltr15nam">name::
-    <br>* McshEngl.letterTurk.15_l_/le/,
-    <br>* McshEngl.letterTurk.l-15-/le/,
+    <br>* McshEngl.Turkletr.15_l_/le/,
+    <br>* McshEngl.Turkletr.l-15-/le/,
     <a class="clsHide" href="#idLTurkltr15nam"></a></p>
   </section>
 
   <section id="idLTurkltr16">
-  <h4 id="idLTurkltr16H4">letterTurk.16-m-/me/
+  <h4 id="idLTurkltr16H4">Turkletr.16-m-/me/
     </h4>
   <p id="idLTurkltr16dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 16-M|m-me-77|109.
     <a class="clsHide" href="#idLTurkltr16dsn"></a></p>
   <p id="idLTurkltr16nam">name::
-    <br>* McshEngl.letterTurk.16_m_/me/,
-    <br>* McshEngl.letterTurk.m-16-/me/,
+    <br>* McshEngl.Turkletr.16_m_/me/,
+    <br>* McshEngl.Turkletr.m-16-/me/,
     <a class="clsHide" href="#idLTurkltr16nam"></a></p>
   </section>
 
   <section id="idLTurkltr17">
-  <h4 id="idLTurkltr17H4">letterTurk.17-n-/ne/
+  <h4 id="idLTurkltr17H4">Turkletr.17-n-/ne/
     </h4>
   <p id="idLTurkltr17dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 17-N|n-ne-78|110.
     <a class="clsHide" href="#idLTurkltr17dsn"></a></p>
   <p id="idLTurkltr17nam">name::
-    <br>* McshEngl.letterTurk.17_n_/ne/,
-    <br>* McshEngl.letterTurk.n-17-/ne/,
+    <br>* McshEngl.Turkletr.17_n_/ne/,
+    <br>* McshEngl.Turkletr.n-17-/ne/,
     <a class="clsHide" href="#idLTurkltr17nam"></a></p>
   </section>
 
   <section id="idLTurkltr18">
-  <h4 id="idLTurkltr18H4">letterTurk.18-o-/o/
+  <h4 id="idLTurkltr18H4">Turkletr.18-o-/o/
     </h4>
   <p id="idLTurkltr18dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1013,13 +1046,13 @@
     <br>· round, back, open.
     <a class="clsHide" href="#idLTurkltr18dsn"></a></p>
   <p id="idLTurkltr18nam">name::
-    <br>* McshEngl.letterTurk.18_o_/o/,
-    <br>* McshEngl.letterTurk.o-18-/o/,
+    <br>* McshEngl.Turkletr.18_o_/o/,
+    <br>* McshEngl.Turkletr.o-18-/o/,
     <a class="clsHide" href="#idLTurkltr18nam"></a></p>
   </section>
 
   <section id="idLTurkltr19">
-  <h4 id="idLTurkltr19H4">letterTurk.19-ö-/e3/
+  <h4 id="idLTurkltr19H4">Turkletr.19-ö-/e3/
     </h4>
   <p id="idLTurkltr19dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1039,78 +1072,78 @@
     <br>[{2024-06-24 retrieved} https://chatgpt.com/c/eb81e661-ef20-43c8-ba17-0ffd08117dbd]
     <a class="clsHide" href="#idLTurkltr19dsn"></a></p>
   <p id="idLTurkltr19nam">name::
-    <br>* McshEngl.letterTurk.19_ö_/e3/,
-    <br>* McshEngl.letterTurk.ö-19-/e3/,
+    <br>* McshEngl.Turkletr.19_ö_/e3/,
+    <br>* McshEngl.Turkletr.ö-19-/e3/,
     <a class="clsHide" href="#idLTurkltr19nam"></a></p>
   </section>
 
   <section id="idLTurkltr20">
-  <h4 id="idLTurkltr20H4">letterTurk.20-p-/pe/
+  <h4 id="idLTurkltr20H4">Turkletr.20-p-/pe/
     </h4>
   <p id="idLTurkltr20dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 20-P|p-pe-80|112.
     <a class="clsHide" href="#idLTurkltr20dsn"></a></p>
   <p id="idLTurkltr20nam">name::
-    <br>* McshEngl.letterTurk.20_p_/pe/,
-    <br>* McshEngl.letterTurk.p-20-/pe/,
+    <br>* McshEngl.Turkletr.20_p_/pe/,
+    <br>* McshEngl.Turkletr.p-20-/pe/,
     <a class="clsHide" href="#idLTurkltr20nam"></a></p>
   </section>
 
   <section id="idLTurkltr21">
-  <h4 id="idLTurkltr21H4">letterTurk.21-r-/re/
+  <h4 id="idLTurkltr21H4">Turkletr.21-r-/re/
     </h4>
   <p id="idLTurkltr21dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 21-R|r-re-82|114.
     <a class="clsHide" href="#idLTurkltr21dsn"></a></p>
   <p id="idLTurkltr21nam">name::
-    <br>* McshEngl.letterTurk.21_r_/re/,
-    <br>* McshEngl.letterTurk.r-21-/re/,
+    <br>* McshEngl.Turkletr.21_r_/re/,
+    <br>* McshEngl.Turkletr.r-21-/re/,
     <a class="clsHide" href="#idLTurkltr21nam"></a></p>
   </section>
 
   <section id="idLTurkltr22">
-  <h4 id="idLTurkltr22H4">letterTurk.22-s-/se/
+  <h4 id="idLTurkltr22H4">Turkletr.22-s-/se/
     </h4>
   <p id="idLTurkltr22dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 22-S|s-se-83|115.
     <a class="clsHide" href="#idLTurkltr22dsn"></a></p>
   <p id="idLTurkltr22nam">name::
-    <br>* McshEngl.letterTurk.22_s_/se/,
-    <br>* McshEngl.letterTurk.s-22-/se/,
+    <br>* McshEngl.Turkletr.22_s_/se/,
+    <br>* McshEngl.Turkletr.s-22-/se/,
     <a class="clsHide" href="#idLTurkltr22nam"></a></p>
   </section>
 
   <section id="idLTurkltr23">
-  <h4 id="idLTurkltr23H4">letterTurk.23-ş-/Se/
+  <h4 id="idLTurkltr23H4">Turkletr.23-ş-/Se/
     </h4>
   <p id="idLTurkltr23dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 23-Ş|ş-Se-350|351, html-name=scedil.
     <a class="clsHide" href="#idLTurkltr23dsn"></a></p>
   <p id="idLTurkltr23nam">name::
-    <br>* McshEngl.letterTurk.23_ş_/Se/,
-    <br>* McshEngl.letterTurk.ş-23-/Se/,
+    <br>* McshEngl.Turkletr.23_ş_/Se/,
+    <br>* McshEngl.Turkletr.ş-23-/Se/,
     <a class="clsHide" href="#idLTurkltr23nam"></a></p>
   </section>
 
   <section id="idLTurkltr24">
-  <h4 id="idLTurkltr24H4">letterTurk.24-t-/te/
+  <h4 id="idLTurkltr24H4">Turkletr.24-t-/te/
     </h4>
   <p id="idLTurkltr24dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 24-T|t-te-84|116.
     <a class="clsHide" href="#idLTurkltr24dsn"></a></p>
   <p id="idLTurkltr24nam">name::
-    <br>* McshEngl.letterTurk.24_t_/te/,
-    <br>* McshEngl.letterTurk.t-24-/te/,
+    <br>* McshEngl.Turkletr.24_t_/te/,
+    <br>* McshEngl.Turkletr.t-24-/te/,
     <a class="clsHide" href="#idLTurkltr24nam"></a></p>
   </section>
 
   <section id="idLTurkltr25">
-  <h4 id="idLTurkltr25H4">letterTurk.25-u-/u/
+  <h4 id="idLTurkltr25H4">Turkletr.25-u-/u/
     </h4>
   <p id="idLTurkltr25dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1118,13 +1151,13 @@
     <br>· round, back, close.
     <a class="clsHide" href="#idLTurkltr25dsn"></a></p>
   <p id="idLTurkltr25nam">name::
-    <br>* McshEngl.letterTurk.25_u_/u/,
-    <br>* McshEngl.letterTurk.u-25-/u/,
+    <br>* McshEngl.Turkletr.25_u_/u/,
+    <br>* McshEngl.Turkletr.u-25-/u/,
     <a class="clsHide" href="#idLTurkltr25nam"></a></p>
   </section>
 
   <section id="idLTurkltr26">
-  <h4 id="idLTurkltr26H4">letterTurk.26-ü-/i3/
+  <h4 id="idLTurkltr26H4">Turkletr.26-ü-/i3/
     </h4>
   <p id="idLTurkltr26dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1140,52 +1173,52 @@
     <br>[{2024-06-24 retrieved} https://chatgpt.com/c/badea277-d882-4f4e-8df2-38713f0bd10d]
     <a class="clsHide" href="#idLTurkltr26dsn"></a></p>
   <p id="idLTurkltr26nam">name::
-    <br>* McshEngl.letterTurk.26_ü_/i3/,
-    <br>* McshEngl.letterTurk.ü-26-/i3/,
+    <br>* McshEngl.Turkletr.26_ü_/i3/,
+    <br>* McshEngl.Turkletr.ü-26-/i3/,
     <a class="clsHide" href="#idLTurkltr26nam"></a></p>
   </section>
 
   <section id="idLTurkltr27">
-  <h4 id="idLTurkltr27H4">letterTurk.27-v-/ve/
+  <h4 id="idLTurkltr27H4">Turkletr.27-v-/ve/
     </h4>
   <p id="idLTurkltr27dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 27-V|v-ve-86|118.
     <a class="clsHide" href="#idLTurkltr27dsn"></a></p>
   <p id="idLTurkltr27nam">name::
-    <br>* McshEngl.letterTurk.27_v_/ve/,
-    <br>* McshEngl.letterTurk.v-27-/ve/,
+    <br>* McshEngl.Turkletr.27_v_/ve/,
+    <br>* McshEngl.Turkletr.v-27-/ve/,
     <a class="clsHide" href="#idLTurkltr27nam"></a></p>
   </section>
 
   <section id="idLTurkltr28">
-  <h4 id="idLTurkltr28H4">letterTurk.28-y-/ye/
+  <h4 id="idLTurkltr28H4">Turkletr.28-y-/ye/
     </h4>
   <p id="idLTurkltr28dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 28-Y|y-ye-89|121.
     <a class="clsHide" href="#idLTurkltr28dsn"></a></p>
   <p id="idLTurkltr28nam">name::
-    <br>* McshEngl.letterTurk.28_y_/ye/,
-    <br>* McshEngl.letterTurk.y-28-/ye/,
+    <br>* McshEngl.Turkletr.28_y_/ye/,
+    <br>* McshEngl.Turkletr.y-28-/ye/,
     <a class="clsHide" href="#idLTurkltr28nam"></a></p>
   </section>
 
   <section id="idLTurkltr29">
-  <h4 id="idLTurkltr29H4">letterTurk.29-z-/ze/
+  <h4 id="idLTurkltr29H4">Turkletr.29-z-/ze/
     </h4>
   <p id="idLTurkltr29dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 29-Z|z-ze-90|122.
     <a class="clsHide" href="#idLTurkltr29dsn"></a></p>
   <p id="idLTurkltr29nam">name::
-    <br>* McshEngl.letterTurk.29_z_/ze/,
-    <br>* McshEngl.letterTurk.z-29-/ze/,
+    <br>* McshEngl.Turkletr.29_z_/ze/,
+    <br>* McshEngl.Turkletr.z-29-/ze/,
     <a class="clsHide" href="#idLTurkltr29nam"></a></p>
   </section>
 
   <section id="idLTurkltrDiph">
-  <h4 id="idLTurkltrDiphH4">letterTurk.diphthong
+  <h4 id="idLTurkltrDiphH4">Turkletr.diphthong
     </h4>
   <p id="idLTurkltrDiphdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1194,12 +1227,12 @@
     <a class="clsHide" href="#idLTurkltrDiphdsn"></a></p>
   <p id="idLTurkltrDiphnam">name::
     <br>* McshEngl.diphthongTurk,
-    <br>* McshEngl.letterTurk.diphthong,
+    <br>* McshEngl.Turkletr.diphthong,
     <a class="clsHide" href="#idLTurkltrDiphnam"></a></p>
   </section>
 
   <section id="idLTurkltrCirc">
-  <h4 id="idLTurkltrCircH4">letterTurk.circumflex
+  <h4 id="idLTurkltrCircH4">Turkletr.circumflex
     </h4>
   <p id="idLTurkltrCircdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1217,14 +1250,14 @@
     <a class="clsHide" href="#idLTurkltrCircdsn"></a></p>
   <p id="idLTurkltrCircnam">name::
     <br>* McshEngl.circumflexTurk,
-    <br>* McshEngl.letterTurk.circumflex!⇒circumflexTurk,
+    <br>* McshEngl.Turkletr.circumflex!⇒circumflexTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.şapka!=hat!⇒circumflexTurk,
     <a class="clsHide" href="#idLTurkltrCircnam"></a></p>
   </section>
 
   <section id="idLTurkltrApos">
-  <h4 id="idLTurkltrAposH4">letterTurk.apostrophe
+  <h4 id="idLTurkltrAposH4">Turkletr.apostrophe
     </h4>
   <p id="idLTurkltrAposdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1239,7 +1272,7 @@
     <a class="clsHide" href="#idLTurkltrAposdsn"></a></p>
   <p id="idLTurkltrAposnam">name::
     <br>* McshEngl.apostropheTurk,
-    <br>* McshEngl.letterTurk.apostrophe!⇒apostropheTurk,
+    <br>* McshEngl.Turkletr.apostrophe!⇒apostropheTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.apostrof!⇒apostropheTurk,
     <br>* McshTurk.kesme-işareti!⇒apostropheTurk,
@@ -1262,7 +1295,7 @@
   </section>
 
   <section id="idLTurkword">
-  <h2 id="idLTurkwordH2">word of TurkviewLogo
+  <h2 id="idLTurkwordH2">word of Turklogo
     </h2>
   <p id="idLTurkworddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1271,7 +1304,7 @@
   <p id="idLTurkwordnam">name::
     <br>* McshEngl.wordTurk,
     <br>* McshEngl.Turklago'word!⇒wordTurk,
-    <br>* McshEngl.TurkviewLogo'word!⇒wordTurk,
+    <br>* McshEngl.Turklogo'word!⇒wordTurk,
     <a class="clsHide" href="#idLTurkwordnam"></a></p>
 
   <section id="idLTurksufx">
@@ -1438,7 +1471,7 @@
   </section>
 
   <section id="idLTurkname">
-  <h2 id="idLTurknameH2">name of TurkviewLogo
+  <h2 id="idLTurknameH2">name of Turklogo
     </h2>
   <p id="idLTurknamedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1449,7 +1482,7 @@
     <br>* McshEngl.Turkname!=logo-name--of-Turklago,
     <br>* McshEngl.nameTurk!⇒Turkname,
     <br>* McshEngl.Turklago'name!⇒Turkname,
-    <br>* McshEngl.TurkviewLogo'name!⇒Turkname,
+    <br>* McshEngl.Turklogo'name!⇒Turkname,
     <a class="clsHide" href="#idLTurknamenam"></a></p>
 
   <section id="idLTurknameirsc">
@@ -1490,7 +1523,7 @@
   </section>
 
   <section id="idLTurkondo">
-  <h2 id="idLTurkondoH2">argu-name of TurkviewLogo
+  <h2 id="idLTurkondoH2">argu-name of Turklogo
     </h2>
   <p id="idLTurkondodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1499,7 +1532,7 @@
     <a class="clsHide" href="#idLTurkondodsn"></a></p>
   <p id="idLTurkondonam">name::
     <br>* McshEngl.Turkargu,
-    <br>* McshEngl.TurkviewLogo'argu_name!⇒Turkargu,
+    <br>* McshEngl.Turklogo'argu_name!⇒Turkargu,
     <a class="clsHide" href="#idLTurkondonam"></a></p>
 
   <section id="idLTurkondombr">
@@ -1571,11 +1604,12 @@
     </table>
     <a class="clsHide" href="#idLTurknounmbrdsn"></a></div>
   <p id="idLTurknounmbrnam">name::
-    <br>* McshEngl.member-of-nounTurk!⇒NounmbrTurk,
-    <br>* McshEngl.NounmbrTurk!=member-of-nounTurk, {2024-07-07}
-    <br>* McshEngl.memberNounTurk!⇒NounmbrTurk,
-    <br>* McshEngl.mNTurk!⇒NounmbrTurk,
-    <br>* McshEngl.nounTurk'member!⇒NounmbrTurk,
+    <br>* McshEngl.member-of-nounTurk!⇒Turknnmb,
+    <br>* McshEngl.Turknnmb!=member-of-nounTurk, {2024-07-07}
+    <br>* McshEngl.NounmbrTurk!⇒Turknnmb,
+    <br>* McshEngl.memberNounTurk!⇒Turknnmb,
+    <br>* McshEngl.mNTurk!⇒Turknnmb,
+    <br>* McshEngl.nounTurk'member!⇒Turknnmb,
     <a class="clsHide" href="#idLTurknounmbrnam"></a></p>
   </section>
 
@@ -1596,8 +1630,8 @@
   <p id="idLTurknounmbrNomnam">name::
     <br>* McshEngl.absolute_case_(bare),
     <br>* McshEngl.nounTurk'absolute_case,
-    <br>* McshEngl.NounmbrTurk.absolute_case,
-    <br>* McshEngl.NounmbrTurk.nominative_case,
+    <br>* McshEngl.Turknnmb.absolute_case,
+    <br>* McshEngl.Turknnmb.nominative_case,
     <br>* McshEngl.absolute-caseTurk,
     <br>* McshEngl.nounTurk'nominative_case,
     <br>====== lagoTurkish:
@@ -1622,7 +1656,7 @@
   <p id="idLTurknounmbrAccnam">name::
     <br>* McshEngl.definite_accusative_(clarifying),
     <br>* McshEngl.nounTurk'accusative_case,
-    <br>* McshEngl.NounmbrTurk.accusative_case,
+    <br>* McshEngl.Turknnmb.accusative_case,
     <br>* McshEngl.accusative-caseTurk,
     <br>* McshEngl.definite-caseTurk,
     <br>====== lagoTurkish:
@@ -1666,7 +1700,7 @@
   <p id="idLTurknounmbrDatnam">name::
     <br>* McshEngl.dative_case_(facing_towards),
     <br>* McshEngl.nounTurk'dative_case,
-    <br>* McshEngl.NounmbrTurk.dative_case,
+    <br>* McshEngl.Turknnmb.dative_case,
     <br>* McshEngl.dative-caseTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.-a-case.dative.singular,
@@ -1696,7 +1730,7 @@
   <p id="idLTurknounmbrLocnam">name::
     <br>* McshEngl.locative_case_(being_present),
     <br>* McshEngl.nounTurk'locative_case,
-    <br>* McshEngl.NounmbrTurk.locative_case,
+    <br>* McshEngl.Turknnmb.locative_case,
     <br>* McshEngl.locative-caseTurk,
     <br>* McshEngl.prepositional-caseTurk,
     <br>====== lagoTurkish:
@@ -1730,8 +1764,8 @@
     <br>[{2022-10-24 retrieved} https://en.wikipedia.org/wiki/Turkish_grammar#Nouns]
     <a class="clsHide" href="#idLTurknounmbrAbldsn"></a></p>
   <p id="idLTurknounmbrAblnam">name::
-    <br>* McshEngl.NounmbrTurk.ablative_case,
-    <br>* McshEngl.nounTurk'ablative_case!⇒NounmbrTurk.ablative_case,
+    <br>* McshEngl.Turknnmb.ablative_case,
+    <br>* McshEngl.nounTurk'ablative_case!⇒Turknnmb.ablative_case,
     <br>* McshEngl.ablative-caseTurk,
     <br>* McshEngl.nounTurk'ablative_case,
     <br>====== lagoGreek:
@@ -1767,7 +1801,7 @@
   <p id="idLTurknounmbrGennam">name::
     <br>* McshEngl.genitive_case_(compounding),
     <br>* McshEngl.nounTurk'genitive_case,
-    <br>* McshEngl.NounmbrTurk.genitive_case,
+    <br>* McshEngl.Turknnmb.genitive_case,
     <br>* McshEngl.genitive-caseTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.-in-case.genitive.singular,
@@ -1792,8 +1826,8 @@
     <br>[{2022-10-23 retrieved} https://en.wikipedia.org/wiki/Turkish_grammar#Nouns]
     <a class="clsHide" href="#idLTurknounmbrInsdsn"></a></p>
   <p id="idLTurknounmbrInsnam">name::
-    <br>* McshEngl.NounmbrTurk.instrumental_case,
-    <br>* McshEngl.nounTurk'instrumental_case!⇒NounmbrTurk.instrumental_case,
+    <br>* McshEngl.Turknnmb.instrumental_case,
+    <br>* McshEngl.nounTurk'instrumental_case!⇒Turknnmb.instrumental_case,
     <br>* McshEngl.instrumental-caseTurk,
     <br>* McshEngl.nounTurk'instrumental_case,
     <br>====== lagoTurkish:
@@ -1837,7 +1871,7 @@
     <br>[{2022-11-20 retrieved} http://learnturkish.pgeorgalas.gr/PluralSetEn.asp]
     <a class="clsHide" href="#idLTurknounmbrNumbdsn"></a></p>
   <p id="idLTurknounmbrNumbnam">name::
-    <br>* McshEngl.NounmbrTurk.number,
+    <br>* McshEngl.Turknnmb.number,
     <br>* McshEngl.nounTurk'number,
     <a class="clsHide" href="#idLTurknounmbrNumbnam"></a></p>
   </section>
@@ -1905,7 +1939,7 @@
     <br>* person3-plur: hayal-leri,
     <a class="clsHide" href="#idLTurknounmbrPossdsn"></a></p>
   <p id="idLTurknounmbrPossnam">name::
-    <br>* McshEngl.NounmbrTurk.possession,
+    <br>* McshEngl.Turknnmb.possession,
     <br>* McshEngl.nounTurk'possession,
     <br>* McshEngl.possessive-suffix--of-Turklago,
     <br>* McshEngl.nounTurk'possesion,
@@ -2578,7 +2612,7 @@
   </section>
 
   <section id="idLTurkverb">
-  <h2 id="idLTurkverbH2">verb-name of TurkviewLogo
+  <h2 id="idLTurkverbH2">verb-name of Turklogo
     </h2>
   <p id="idLTurkverbdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2595,7 +2629,7 @@
     <a class="clsHide" href="#idLTurkverbdsn"></a></p>
   <p id="idLTurkverbnam">name::
     <br>* McshEngl.Turkverb,
-    <br>* McshEngl.TurkviewLogo'verb_name!⇒Turkverb,
+    <br>* McshEngl.Turklogo'verb_name!⇒Turkverb,
     <br>* McshEngl.Turklago'verb!⇒Turkverb,
     <br>====== lagoTurkish:
     <br>* McshTurk.fiil.Türkçe!⇒Turkverb,
@@ -2925,16 +2959,17 @@
     </table>
     <a class="clsHide" href="#idLTurkverbmbrdsn"></a></div>
   <p id="idLTurkverbmbrnam">name::
-    <br>* McshEngl.verb-member--of-Turklago!⇒Turkvm,
-    <br>* McshEngl.Turkvm!=verb-member--of-Turklago,
-    <br>* McshEngl.VerbmbrTurk!⇒Turkvm,
-    <br>* McshEngl.memberVerbTurk!⇒Turkvm,
-    <br>* McshEngl.Turkverb'form!⇒Turkvm,
-    <br>* McshEngl.Turkverb'member!⇒Turkvm,
+    <br>* McshEngl.verb-member--of-Turklago!⇒Turkvbmb,
+    <br>* McshEngl.Turkvbmb!=verb-member--of-Turklago,
+    <br>* McshEngl.Turkvm!⇒Turkvbmb,
+    <br>* McshEngl.VerbmbrTurk!⇒Turkvbmb,
+    <br>* McshEngl.memberVerbTurk!⇒Turkvbmb,
+    <br>* McshEngl.Turkverb'form!⇒Turkvbmb,
+    <br>* McshEngl.Turkverb'member!⇒Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrnam"></a></p>
 
   <section id="idLTurkverbmbrsblg">
-  <h4 id="idLTurkverbmbrsblgH4">sibling of Turkvm
+  <h4 id="idLTurkverbmbrsblgH4">sibling of Turkvbmb
     </h4>
   <p id="idLTurkverbmbrsblgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2946,34 +2981,34 @@
     <br>* <a class="clsPreview" href="../dirLag/McshLag000010.last.html#idL0014verbmbr">Sinago-mVerb</a>,
     <a class="clsHide" href="#idLTurkverbmbrsblgdsn"></a></p>
   <p id="idLTurkverbmbrsblgnam">name::
-    <br>* McshEngl.Turkvm'sibling,
+    <br>* McshEngl.Turkvbmb'sibling,
     <a class="clsHide" href="#idLTurkverbmbrsblgnam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrgstr">
-  <h4 id="idLTurkverbmbrgstrH4">GENERIC-SPECIFIC-TREE of Turkvm
+  <h4 id="idLTurkverbmbrgstrH4">GENERIC-SPECIFIC-TREE of Turkvbmb
     </h4>
   <p id="idLTurkverbmbrgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLTurkverbmbrgstrdsn"></a></p>
   <p id="idLTurkverbmbrgstrnam">name::
-    <br>* McshEngl.Turkvm'generic_specific_tree,
+    <br>* McshEngl.Turkvbmb'generic_specific_tree,
     <a class="clsHide" href="#idLTurkverbmbrgstrnam"></a></p>
   <p id="idLTurkverbmbrgntr">generic-tree::
-    <br>* McshEngl.Turkvm:generic,
+    <br>* McshEngl.Turkvbmb:generic,
     <br>===
-    <br>* Hmmdvm:generic,
+    <br>* Hmmdvbmb:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkverbmbrgntr"></a></p>
   <p id="idLTurkverbmbrsptr">specific-tree::
-    <br>* McshEngl.Turkvm.specific,
+    <br>* McshEngl.Turkvbmb.specific,
     <br>===
-    <br>* Turkvm.indicative_moodTurk!@McshLag000030#idLTurkverbmbrIndi,
-    <br>* Turkvm.mVTurkImpe!@McshLag000030#idLTurkverbmbrImpe,
-    <br>* Turkvm.ability_mood_Turkvm!@McshLag000030#idLTurkverbmbrAbil,
-    <br>* Turkvm.mVTurkNece!@McshLag000030#idLTurkverbmbrNece,
-    <br>* Turkvm.mVTurkCond!@McshLag000030#idLTurkverbmbrCond,
-    <br>* Turkvm.mVTurkSubj!@McshLag000030#idLTurkverbmbrVoli,
+    <br>* Turkvbmb.indicative_moodTurk!@McshLag000030#idLTurkverbmbrIndi,
+    <br>* Turkvbmb.mVTurkImpe!@McshLag000030#idLTurkverbmbrImpe,
+    <br>* Turkvbmb.ability_mood_Turkvm!@McshLag000030#idLTurkverbmbrAbil,
+    <br>* Turkvbmb.mVTurkNece!@McshLag000030#idLTurkverbmbrNece,
+    <br>* Turkvbmb.mVTurkCond!@McshLag000030#idLTurkverbmbrCond,
+    <br>* Turkvbmb.mVTurkSubj!@McshLag000030#idLTurkverbmbrVoli,
     <br>===
     <br>* present-tense,
     <br>* past-tense,
@@ -3023,7 +3058,7 @@
   </section>
 
   <section id="idLTurkverbmbrAori">
-  <h4 id="idLTurkverbmbrAoriH4">Turkvm.aorist
+  <h4 id="idLTurkverbmbrAoriH4">Turkvbmb.aorist
     </h4>
   <p id="idLTurkverbmbrAoridsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3034,8 +3069,8 @@
     <a class="clsHide" href="#idLTurkverbmbrAoridsn"></a></p>
   <p id="idLTurkverbmbrAorinam">name::
     <br>* McshEngl.mVTurkAori,
-    <br>* McshEngl.aorist-Turkvm!⇒mVTurkAori,
-    <br>* McshEngl.Turkvm.aorist!⇒mVTurkAori,
+    <br>* McshEngl.aorist-Turkvbmb!⇒mVTurkAori,
+    <br>* McshEngl.Turkvbmb.aorist!⇒mVTurkAori,
     <a class="clsHide" href="#idLTurkverbmbrAorinam"></a></p>
 
   <section id="idLTurkverbmbrAorigstr">
@@ -3234,12 +3269,12 @@
     <a class="clsHide" href="#idLTurkverbmbrAoriSimpdsn"></a></p>
   <p id="idLTurkverbmbrAoriSimpnam">name::
     <br>* McshEngl.aorist_simple_mVTurk,
-    <br>* McshEngl.aorist-simple-Turkvm!⇒aorist_simple_mVTurk,
+    <br>* McshEngl.aorist-simple-Turkvbmb!⇒aorist_simple_mVTurk,
     <br>* McshEngl.mVTurkAori.simple!⇒aorist_simple_mVTurk,
     <br>* McshEngl.mVTurkAori.general!⇒aorist_simple_mVTurk,
-    <br>* McshEngl.aorist-Turkvm!⇒aorist_simple_mVTurk,
-    <br>* McshEngl.general-aorist-Turkvm!⇒aorist_simple_mVTurk,
-    <br>* McshEngl.simple-aorist-Turkvm!⇒aorist_simple_mVTurk,
+    <br>* McshEngl.aorist-Turkvbmb!⇒aorist_simple_mVTurk,
+    <br>* McshEngl.general-aorist-Turkvbmb!⇒aorist_simple_mVTurk,
+    <br>* McshEngl.simple-aorist-Turkvbmb!⇒aorist_simple_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.geniş-zaman!=broad-tense!⇒aorist_simple_mVTurk,
     <a class="clsHide" href="#idLTurkverbmbrAoriSimpnam"></a></p>
@@ -3255,8 +3290,8 @@
     <a class="clsHide" href="#idLTurkverbmbrAoriNarrdsn"></a></p>
   <p id="idLTurkverbmbrAoriNarrnam">name::
     <br>* McshEngl.past_repetitive_mVTurk,
-    <br>* McshEngl.past-repetitive-Turkvm!⇒past_repetitive_mVTurk,
-    <br>* McshEngl.aorist-narrative-Turkvm!⇒past_repetitive_mVTurk,
+    <br>* McshEngl.past-repetitive-Turkvbmb!⇒past_repetitive_mVTurk,
+    <br>* McshEngl.aorist-narrative-Turkvbmb!⇒past_repetitive_mVTurk,
     <br>* McshEngl.mVTurkAori.narrative!⇒past_repetitive_mVTurk,
     <br>* McshEngl.mVTurkPast.repetitive!⇒past_repetitive_mVTurk,
     <br>* McshEngl.repetitive-mVTurkPast!⇒past_repetitive_mVTurk,
@@ -3277,7 +3312,7 @@
   </section>
 
   <section id="idLTurkverbmbrPres">
-  <h4 id="idLTurkverbmbrPresH4">Turkvm.present
+  <h4 id="idLTurkverbmbrPresH4">Turkvbmb.present
     </h4>
   <p id="idLTurkverbmbrPresdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3292,7 +3327,7 @@
     <a class="clsHide" href="#idLTurkverbmbrPresdsn"></a></p>
   <p id="idLTurkverbmbrPresnam">name::
     <br>* McshEngl.mVTurkPres,
-    <br>* McshEngl.Turkvm.present!⇒mVTurkPres,
+    <br>* McshEngl.Turkvbmb.present!⇒mVTurkPres,
     <br>* McshEngl.verbmTurk'present!⇒mVTurkPres,
     <br>* McshEngl.present-tense--of-Turklago!⇒mVTurkPres,
     <br>====== lagoTurkish:
@@ -3445,7 +3480,7 @@
     <br>· gel-mekteyim != I have been coming...
     <a class="clsHide" href="#idLTurkverbmbrPresPerfContdsn"></a></p>
   <p id="idLTurkverbmbrPresPerfContnam">name::
-    <br>* McshEngl.present-perfect-continuous-Turkvm,
+    <br>* McshEngl.present-perfect-continuous-Turkvbmb,
     <br>* McshEngl.mVTurkPres.perfect.continuous,
     <a class="clsHide" href="#idLTurkverbmbrPresPerfContnam"></a></p>
   </section>
@@ -3462,7 +3497,7 @@
   </section>
 
   <section id="idLTurkverbmbrPast">
-  <h4 id="idLTurkverbmbrPastH4">Turkvm.past
+  <h4 id="idLTurkverbmbrPastH4">Turkvbmb.past
     </h4>
   <p id="idLTurkverbmbrPastdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3473,7 +3508,7 @@
     <a class="clsHide" href="#idLTurkverbmbrPastdsn"></a></p>
   <p id="idLTurkverbmbrPastnam">name::
     <br>* McshEngl.mVTurkPast,
-    <br>* McshEngl.Turkvm.past!⇒mVTurkPast,
+    <br>* McshEngl.Turkvbmb.past!⇒mVTurkPast,
     <br>* McshEngl.Turkverb'past!⇒mVTurkPast,
     <br>* McshEngl.past-tense--of-Turklago!⇒mVTurkPast,
     <br>====== lagoTurkish:
@@ -3578,12 +3613,12 @@
     <a class="clsHide" href="#idLTurkverbmbrPastDfntdsn"></a></p>
   <p id="idLTurkverbmbrPastDfntnam">name::
     <br>* McshEngl.definite_past_Turkvm,
-    <br>* McshEngl.definite-past-Turkvm!⇒definite_past_Turkvm,
+    <br>* McshEngl.definite-past-Turkvbmb!⇒definite_past_Turkvm,
     <br>* McshEngl.mVTurkPast.simple_(definite)!⇒definite_past_Turkvm,
-    <br>* McshEngl.dI-past-Turkvm,
+    <br>* McshEngl.dI-past-Turkvbmb,
     <br>* McshEngl.mVTurkPast.definite,
-    <br>* McshEngl.narrative-simple-Turkvm,
-    <br>* McshEngl.simple-past-Turkvm,
+    <br>* McshEngl.narrative-simple-Turkvbmb,
+    <br>* McshEngl.simple-past-Turkvbmb,
     <br>====== lagoTurkish:
     <br>* McshTurk.di'li-geçmiş-zaman,
     <a class="clsHide" href="#idLTurkverbmbrPastDfntnam"></a></p>
@@ -3630,13 +3665,13 @@
     <a class="clsHide" href="#idLTurkverbmbrPastPgsvdsn"></a></p>
   <p id="idLTurkverbmbrPastPgsvnam">name::
     <br>* McshEngl.past_continuous_mVTurk,
-    <br>* McshEngl.past-continuous-Turkvm!⇒past_continuous_mVTurk,
+    <br>* McshEngl.past-continuous-Turkvbmb!⇒past_continuous_mVTurk,
     <br>* McshEngl.mVTurkPast.progressive!⇒past_continuous_mVTurk,
-    <br>* McshEngl.narrative-present-Turkvm!⇒past_continuous_mVTurk,
-    <br>* McshEngl.imperfect-Turkvm!=past-continuous!⇒past_continuous_mVTurk,
-    <br>* McshEngl.mVTurkPast.continuous!=imperfect-Turkvm!⇒past_continuous_mVTurk,
-    <br>* McshEngl.past-progressive-narrative-Turkvm!⇒past_continuous_mVTurk,
-    <br>* McshEngl.present-narrative-Turkvm!⇒past_continuous_mVTurk,
+    <br>* McshEngl.narrative-present-Turkvbmb!⇒past_continuous_mVTurk,
+    <br>* McshEngl.imperfect-Turkvbmb!=past-continuous!⇒past_continuous_mVTurk,
+    <br>* McshEngl.mVTurkPast.continuous!=imperfect-Turkvbmb!⇒past_continuous_mVTurk,
+    <br>* McshEngl.past-progressive-narrative-Turkvbmb!⇒past_continuous_mVTurk,
+    <br>* McshEngl.present-narrative-Turkvbmb!⇒past_continuous_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.şimdiki-zamanın-hikâyesi!⇒past_continuous_mVTurk,
     <a class="clsHide" href="#idLTurkverbmbrPastPgsvnam"></a></p>
@@ -3790,7 +3825,7 @@
     <a class="clsHide" href="#idLTurkverbmbrPastPfctdsn"></a></p>
   <p id="idLTurkverbmbrPastPfctnam">name::
     <br>* McshEngl.mVTurkPast.perfect,
-    <br>* McshEngl.past-perfect-Turkvm,
+    <br>* McshEngl.past-perfect-Turkvbmb,
     <br>====== lagoTurkish:
     <br>* McshTurk.belirli-geçmiş-zamanın-hikâyesi-Türkçe,
     <a class="clsHide" href="#idLTurkverbmbrPastPfctnam"></a></p>
@@ -3958,8 +3993,8 @@
     <br>* McshEngl.mVTurkPast.perfect.dubitative,
     <br>* McshEngl.mVTurkPast.pluperfect,
     <br>* mVTurkPast.perfect,
-    <br>* McshEngl.past-dubitative-Turkvm,
-    <br>* McshEngl.pluperfect-Turkvm,
+    <br>* McshEngl.past-dubitative-Turkvbmb,
+    <br>* McshEngl.pluperfect-Turkvbmb,
     <br>====== lagoTurkish:
     <br>* McshTurk.belirsiz-geçmiş-zamanın-hikâyesi-Türkçe,
     <a class="clsHide" href="#idLTurkverbmbrPastPfctDubinam"></a></p>
@@ -4056,8 +4091,8 @@
     <br>[{2022-10-17 retrieved} https://cromwell-intl.com/turkish/turkish-suffixes.html]
     <a class="clsHide" href="#idLTurkverbmbrPastFutudsn"></a></p>
   <p id="idLTurkverbmbrPastFutunam">name::
-    <br>* McshEngl.future-in-past-Turkvm,
-    <br>* McshEngl.impossible-past-result-Turkvm,
+    <br>* McshEngl.future-in-past-Turkvbmb,
+    <br>* McshEngl.impossible-past-result-Turkvbmb,
     <br>* McshEngl.mVTurkPast.future,
     <br>* McshEngl.past.future_Turkvm,
     <br>====== lagoTurkish:
@@ -4072,7 +4107,7 @@
   </section>
 
   <section id="idLTurkverbmbrFutu">
-  <h4 id="idLTurkverbmbrFutuH4">Turkvm.future
+  <h4 id="idLTurkverbmbrFutuH4">Turkvbmb.future
     </h4>
   <p id="idLTurkverbmbrFutudsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4089,7 +4124,7 @@
     <a class="clsHide" href="#idLTurkverbmbrFutudsn"></a></p>
   <p id="idLTurkverbmbrFutunam">name::
     <br>* McshEngl.mVTurkFutu,
-    <br>* McshEngl.Turkvm.future!⇒mVTurkFutu,
+    <br>* McshEngl.Turkvbmb.future!⇒mVTurkFutu,
     <br>* McshEngl.future-tense--of-Turklago!⇒mVTurkFutu,
     <br>* McshEngl.Turkverb'future!⇒mVTurkFutu,
     <br>====== lagoTurkish:
@@ -4171,7 +4206,7 @@
     <br>· geliyor olacağım != I shall be coming... (Future Continuous)
     <a class="clsHide" href="#idLTurkverbmbrFutuContdsn"></a></p>
   <p id="idLTurkverbmbrFutuContnam">name::
-    <br>* McshEngl.future-continuous-Turkvm,
+    <br>* McshEngl.future-continuous-Turkvbmb,
     <br>* McshEngl.mVTurkFutu.continuous,
     <a class="clsHide" href="#idLTurkverbmbrFutuContnam"></a></p>
   </section>
@@ -4184,7 +4219,7 @@
     <br>· gelmekte olacağım != I shall have been coming... (Future Perfect Continuous )
     <a class="clsHide" href="#idLTurkverbmbrFutuPerfContdsn"></a></p>
   <p id="idLTurkverbmbrFutuPerfContnam">name::
-    <br>* McshEngl.future-perfect-continuous-Turkvm,
+    <br>* McshEngl.future-perfect-continuous-Turkvbmb,
     <br>* McshEngl.mVTurkFutu.perfect.continuous,
     <a class="clsHide" href="#idLTurkverbmbrFutuPerfContnam"></a></p>
   </section>
@@ -4201,7 +4236,7 @@
   <p id="idLTurkverbmbrFutuPastnam">name::
     <br>* McshEngl.future.past_Turkvm,
     <br>* McshEngl.mVTurkFutu.past,
-    <br>* McshEngl.past-in-future-Turkvm,
+    <br>* McshEngl.past-in-future-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrFutuPastnam"></a></p>
   </section>
 
@@ -4217,7 +4252,7 @@
   </section>
 
   <section id="idLTurkverbmbrPers">
-  <h4 id="idLTurkverbmbrPersH4">Turkvm.person
+  <h4 id="idLTurkverbmbrPersH4">Turkvbmb.person
     </h4>
   <p id="idLTurkverbmbrPersdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4230,7 +4265,7 @@
     <br>* Onlar – lar
     <a class="clsHide" href="#idLTurkverbmbrPersdsn"></a></p>
   <p id="idLTurkverbmbrPersnam">name::
-    <br>* McshEngl.Turkvm.person,
+    <br>* McshEngl.Turkvbmb.person,
     <br>====== lagoTurkish:
     <br>* McshTurk.-m-verb-person-sing-first,
     <br>* McshTurk.-im-verb-person-sing-first,
@@ -4249,7 +4284,7 @@
   </section>
 
   <section id="idLTurkverbmbrNega">
-  <h4 id="idLTurkverbmbrNegaH4">Turkvm.negative
+  <h4 id="idLTurkverbmbrNegaH4">Turkvbmb.negative
     </h4>
   <p id="idLTurkverbmbrNegadsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4261,8 +4296,8 @@
     <a class="clsHide" href="#idLTurkverbmbrNegadsn"></a></p>
   <p id="idLTurkverbmbrNeganam">name::
     <br>* McshEngl.negative_mVTurk,
-    <br>* McshEngl.negative-Turkvm!⇒negative_mVTurk,
-    <br>* McshEngl.Turkvm.negative!⇒negative_mVTurk,
+    <br>* McshEngl.negative-Turkvbmb!⇒negative_mVTurk,
+    <br>* McshEngl.Turkvbmb.negative!⇒negative_mVTurk,
     <br>* McshEngl.Turkverb'negative!⇒negative_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.olumsuz!⇒negative_mVTurk,
@@ -4273,7 +4308,7 @@
   </section>
 
   <section id="idLTurkverbmbrNegaN">
-  <h4 id="idLTurkverbmbrNegaNH4">Turkvm.negativeNo-(affirmative)
+  <h4 id="idLTurkverbmbrNegaNH4">Turkvbmb.negativeNo-(affirmative)
     </h4>
   <p id="idLTurkverbmbrNegaNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4281,19 +4316,19 @@
     <a class="clsHide" href="#idLTurkverbmbrNegaNdsn"></a></p>
   <p id="idLTurkverbmbrNegaNnam">name::
     <br>* McshEngl.affirmative_mVTurk,
-    <br>* McshEngl.Turkvm.negativeNo_(affirmative)!⇒affirmative_mVTurk,
-    <br>* McshEngl.affirmative-Turkvm!⇒affirmative_mVTurk,
-    <br>* McshEngl.negativeNo-Turkvm!⇒affirmative_mVTurk,
-    <br>* McshEngl.positive-Turkvm!⇒affirmative_mVTurk,
-    <br>* McshEngl.Turkvm.negativeNo!⇒affirmative_mVTurk,
-    <br>* McshEngl.Turkvm.possitive!⇒affirmative_mVTurk,
+    <br>* McshEngl.Turkvbmb.negativeNo_(affirmative)!⇒affirmative_mVTurk,
+    <br>* McshEngl.affirmative-Turkvbmb!⇒affirmative_mVTurk,
+    <br>* McshEngl.negativeNo-Turkvbmb!⇒affirmative_mVTurk,
+    <br>* McshEngl.positive-Turkvbmb!⇒affirmative_mVTurk,
+    <br>* McshEngl.Turkvbmb.negativeNo!⇒affirmative_mVTurk,
+    <br>* McshEngl.Turkvbmb.possitive!⇒affirmative_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.olumlu!⇒affirmative_mVTurk,
     <a class="clsHide" href="#idLTurkverbmbrNegaNnam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrInte">
-  <h4 id="idLTurkverbmbrInteH4">Turkvm.interrogative
+  <h4 id="idLTurkverbmbrInteH4">Turkvbmb.interrogative
     </h4>
   <p id="idLTurkverbmbrIntedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4302,9 +4337,9 @@
     <a class="clsHide" href="#idLTurkverbmbrIntedsn"></a></p>
   <p id="idLTurkverbmbrIntenam">name::
     <br>* McshEngl.interrogative_mVTurk,
-    <br>* McshEngl.interrogative-Turkvm!⇒interrogative_mVTurk,
-    <br>* McshEngl.Turkvm.interrogative!⇒interrogative_mVTurk,
-    <br>* McshEngl.Turkvm.question!⇒interrogative_mVTurk,
+    <br>* McshEngl.interrogative-Turkvbmb!⇒interrogative_mVTurk,
+    <br>* McshEngl.Turkvbmb.interrogative!⇒interrogative_mVTurk,
+    <br>* McshEngl.Turkvbmb.question!⇒interrogative_mVTurk,
     <br>* McshEngl.Turkverb'interrogative!⇒interrogative_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.soru!⇒interrogative_mVTurk,
@@ -4312,20 +4347,20 @@
   </section>
 
   <section id="idLTurkverbmbrInteN">
-  <h4 id="idLTurkverbmbrInteNH4">Turkvm.interrogativeNo
+  <h4 id="idLTurkverbmbrInteNH4">Turkvbmb.interrogativeNo
     </h4>
   <p id="idLTurkverbmbrInteNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· non interrogative.
     <a class="clsHide" href="#idLTurkverbmbrInteNdsn"></a></p>
   <p id="idLTurkverbmbrInteNnam">name::
-    <br>* McshEngl.Turkvm.interrogativeNo,
-    <br>* McshEngl.non-interrogative-Turkvm,
+    <br>* McshEngl.Turkvbmb.interrogativeNo,
+    <br>* McshEngl.non-interrogative-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrInteNnam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrProg">
-  <h4 id="idLTurkverbmbrProgH4">Turkvm.progressive
+  <h4 id="idLTurkverbmbrProgH4">Turkvbmb.progressive
     </h4>
   <p id="idLTurkverbmbrProgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4333,15 +4368,15 @@
     <br>[{2022-11-09 retrieved} https://fluentinturkish.com/grammar/present-tense]
     <a class="clsHide" href="#idLTurkverbmbrProgdsn"></a></p>
   <p id="idLTurkverbmbrPrognam">name::
-    <br>* McshEngl.Turkvm.continuous,
-    <br>* McshEngl.Turkvm.progressive,
+    <br>* McshEngl.Turkvbmb.continuous,
+    <br>* McshEngl.Turkvbmb.progressive,
     <br>* McshEngl.continuous-tense-Turklago,
     <br>* McshEngl.progressive-tense-Turklago,
     <a class="clsHide" href="#idLTurkverbmbrPrognam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrProgN">
-  <h4 id="idLTurkverbmbrProgNH4">Turkvm.progressiveNo
+  <h4 id="idLTurkverbmbrProgNH4">Turkvbmb.progressiveNo
     </h4>
   <p id="idLTurkverbmbrProgNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4349,12 +4384,12 @@
     <br>[{2022-11-09 retrieved} https://fluentinturkish.com/grammar/present-tense]
     <a class="clsHide" href="#idLTurkverbmbrProgNdsn"></a></p>
   <p id="idLTurkverbmbrProgNnam">name::
-    <br>* McshEngl.Turkvm.progressiveNo,
+    <br>* McshEngl.Turkvbmb.progressiveNo,
     <a class="clsHide" href="#idLTurkverbmbrProgNnam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrRprt">
-  <h4 id="idLTurkverbmbrRprtH4">Turkvm.reported-(mIş)-(it is said)
+  <h4 id="idLTurkverbmbrRprtH4">Turkvbmb.reported-(mIş)-(it is said)
     </h4>
   <p id="idLTurkverbmbrRprtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4371,17 +4406,17 @@
     <br>[{2022-12-03 retrieved} https://escholarship.org/content/qt1zf7z1ck/qt1zf7z1ck_noSplash_784d585c123c6753c874582bdc3ce038.pdf]
     <a class="clsHide" href="#idLTurkverbmbrRprtdsn"></a></p>
   <p id="idLTurkverbmbrRprtnam">name::
-    <br>* McshEngl.Turkvm.dubitative,
-    <br>* McshEngl.Turkvm.hearsay,
-    <br>* McshEngl.Turkvm.inferential,
-    <br>* McshEngl.Turkvm.reported,
-    <br>* McshEngl.Turkvm.unwitnessed,
-    <br>* McshEngl.dubitative-Turkvm,
-    <br>* McshEngl.hearsay-Turkvm,
-    <br>* McshEngl.inferential-Turkvm,
-    <br>* McshEngl.non-witnessed-Turkvm,
-    <br>* McshEngl.reported-Turkvm,
-    <br>* McshEngl.unwitnessed-Turkvm,
+    <br>* McshEngl.Turkvbmb.dubitative,
+    <br>* McshEngl.Turkvbmb.hearsay,
+    <br>* McshEngl.Turkvbmb.inferential,
+    <br>* McshEngl.Turkvbmb.reported,
+    <br>* McshEngl.Turkvbmb.unwitnessed,
+    <br>* McshEngl.dubitative-Turkvbmb,
+    <br>* McshEngl.hearsay-Turkvbmb,
+    <br>* McshEngl.inferential-Turkvbmb,
+    <br>* McshEngl.non-witnessed-Turkvbmb,
+    <br>* McshEngl.reported-Turkvbmb,
+    <br>* McshEngl.unwitnessed-Turkvbmb,
     <br>====== lagoTurkish:
     <br>* McshTurk.rivayeti-zaman,
     <a class="clsHide" href="#idLTurkverbmbrRprtnam"></a></p>
@@ -4398,8 +4433,8 @@
     <a class="clsHide" href="#idLTurkverbmbrRprtAoridsn"></a></p>
   <p id="idLTurkverbmbrRprtAorinam">name::
     <br>* McshEngl.reported_aorist_mVTurk,
-    <br>* McshEngl.reported-aorist-Turkvm!⇒reported_aorist_mVTurk,
-    <br>* McshEngl.aorist-reported-Turkvm!⇒reported_aorist_mVTurk,
+    <br>* McshEngl.reported-aorist-Turkvbmb!⇒reported_aorist_mVTurk,
+    <br>* McshEngl.aorist-reported-Turkvbmb!⇒reported_aorist_mVTurk,
     <br>* McshEngl.mVTurkReported.aorist!⇒reported_aorist_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.geniş-zamanın-rivayeti!⇒reported_aorist_mVTurk,
@@ -4417,10 +4452,10 @@
     <a class="clsHide" href="#idLTurkverbmbrRprtPresdsn"></a></p>
   <p id="idLTurkverbmbrRprtPresnam">name::
     <br>* McshEngl.reported_present_mVTurk,
-    <br>* McshEngl.reported-present-Turkvm!⇒reported_present_mVTurk,
+    <br>* McshEngl.reported-present-Turkvbmb!⇒reported_present_mVTurk,
     <br>* McshEngl.mVTurkReported.present!⇒reported_present_mVTurk,
-    <br>* McshEngl.present-dubitative-Turkvm!⇒reported_present_mVTurk,
-    <br>* McshEngl.reported-present-continuous-Turkvm!⇒reported_present_mVTurk,
+    <br>* McshEngl.present-dubitative-Turkvbmb!⇒reported_present_mVTurk,
+    <br>* McshEngl.reported-present-continuous-Turkvbmb!⇒reported_present_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.şimdiki-zamanın-rivayeti!⇒reported_present_mVTurk,
     <a class="clsHide" href="#idLTurkverbmbrRprtPresnam"></a></p>
@@ -4510,15 +4545,15 @@
     <br>[{2022-11-06 retrieved} https://cromwell-intl.com/turkish/verbs.html]
     <a class="clsHide" href="#idLTurkverbmbrPastDfnNdsn"></a></p>
   <p id="idLTurkverbmbrPastDfnNnam">name::
-    <br>* McshEngl.evidential-past-Turkvm,
-    <br>* McshEngl.indefinite-past-Turkvm,
+    <br>* McshEngl.evidential-past-Turkvbmb,
+    <br>* McshEngl.indefinite-past-Turkvbmb,
     <br>* McshEngl.mVTurkPast.indefinite,
     <br>* McshEngl.mVTurkPast.miş-past-simple,
     <br>* McshEngl.miş-past--of-Turklago,
     <br>* McshEngl.mVTurkReported.past,
-    <br>* McshEngl.reported-past-Turkvm,
+    <br>* McshEngl.reported-past-Turkvbmb,
     <br>====== lagoTurkish:
-    <br>* McshTurk.belirsiz-geçmiş-zaman!=reported-past-Turkvm,
+    <br>* McshTurk.belirsiz-geçmiş-zaman!=reported-past-Turkvbmb,
     <br>* McshTurk.duyulan-geçmiş-zaman!=reported-past,
     <br>* McshTurk.mişli-geçmiş-zaman!=reported-past,
     <a class="clsHide" href="#idLTurkverbmbrPastDfnNnam"></a></p>
@@ -4533,7 +4568,7 @@
     <a class="clsHide" href="#idLTurkverbmbrRprtContdsn"></a></p>
   <p id="idLTurkverbmbrRprtContnam">name::
     <br>* McshEngl.mVTurkReported.past.continuous,
-    <br>* McshEngl.reported-past-continuous-Turkvm,
+    <br>* McshEngl.reported-past-continuous-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrRprtContnam"></a></p>
   </section>
 
@@ -4550,10 +4585,10 @@
     <a class="clsHide" href="#idLTurkverbmbrRprtPastDoubdsn"></a></p>
   <p id="idLTurkverbmbrRprtPastDoubnam">name::
     <br>* McshEngl.reported_past_doubtful_mVTurk,
-    <br>* McshEngl.reported-past-doubtful-Turkvm!⇒reported_past_doubtful_mVTurk,
+    <br>* McshEngl.reported-past-doubtful-Turkvbmb!⇒reported_past_doubtful_mVTurk,
     <br>* McshEngl.mVTurkReported.past.doubtful!⇒reported_past_doubtful_mVTurk,
-    <br>* McshEngl.past-strongly-dubitative-Turkvm!⇒reported_past_doubtful_mVTurk,
-    <br>* McshEngl.past-doubtful-reported-Turkvm!⇒reported_past_doubtful_mVTurk,
+    <br>* McshEngl.past-strongly-dubitative-Turkvbmb!⇒reported_past_doubtful_mVTurk,
+    <br>* McshEngl.past-doubtful-reported-Turkvbmb!⇒reported_past_doubtful_mVTurk,
     <br>* McshEngl.reported.past.doubtful_Turkvm!⇒reported_past_doubtful_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.belirsiz-geçmiş-zamanın-rivayeti!⇒reported_past_doubtful_mVTurk,
@@ -4571,9 +4606,9 @@
     <a class="clsHide" href="#idLTurkverbmbrRprtPastPerfdsn"></a></p>
   <p id="idLTurkverbmbrRprtPastPerfnam">name::
     <br>* McshEngl.reported_past_perfect_mVTurk,
-    <br>* McshEngl.reported-past-perfect-Turkvm!⇒reported_past_perfect_mVTurk,
+    <br>* McshEngl.reported-past-perfect-Turkvbmb!⇒reported_past_perfect_mVTurk,
     <br>* McshEngl.mVTurkReported.past.perfect!⇒reported_past_perfect_mVTurk,
-    <br>* McshEngl.past-perfect-reported-Turkvm!⇒reported_past_perfect_mVTurk,
+    <br>* McshEngl.past-perfect-reported-Turkvbmb!⇒reported_past_perfect_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.belirsiz-geçmiş-zamanın-hikâyesi!⇒reported_past_perfect_mVTurk,
     <a class="clsHide" href="#idLTurkverbmbrRprtPastPerfnam"></a></p>
@@ -4590,11 +4625,11 @@
   <p id="idLTurkverbmbrRprtPastSubjnam">name::
     <br>* McshEngl.mVTurkReported.past.subjunctive,
     <br>* McshEngl.mVTurkSubj.past.reported,
-    <br>* McshEngl.past-reported-subjunctive-Turkvm,
-    <br>* McshEngl.past-reported-volition-Turkvm,
-    <br>* McshEngl.reported-past-subjunctive-Turkvm,
-    <br>* McshEngl.reported-past-volition-Turkvm,
-    <br>* McshEngl.volition-past-reported-Turkvm,
+    <br>* McshEngl.past-reported-subjunctive-Turkvbmb,
+    <br>* McshEngl.past-reported-volition-Turkvbmb,
+    <br>* McshEngl.reported-past-subjunctive-Turkvbmb,
+    <br>* McshEngl.reported-past-volition-Turkvbmb,
+    <br>* McshEngl.volition-past-reported-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrRprtPastSubjnam"></a></p>
   </section>
 
@@ -4608,9 +4643,9 @@
     <a class="clsHide" href="#idLTurkverbmbrRprtPastConddsn"></a></p>
   <p id="idLTurkverbmbrRprtPastCondnam">name::
     <br>* McshEngl.mVTurkReported.past.conditional,
-    <br>* McshEngl.conditional-past-reported-Turkvm,
-    <br>* McshEngl.past-reported-conditional-Turkvm,
-    <br>* McshEngl.reported-past-conditional-Turkvm,
+    <br>* McshEngl.conditional-past-reported-Turkvbmb,
+    <br>* McshEngl.past-reported-conditional-Turkvbmb,
+    <br>* McshEngl.reported-past-conditional-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrRprtPastCondnam"></a></p>
   </section>
 
@@ -4626,8 +4661,8 @@
     <a class="clsHide" href="#idLTurkverbmbrRprtFutudsn"></a></p>
   <p id="idLTurkverbmbrRprtFutunam">name::
     <br>* McshEngl.reported_future_mVTurk,
-    <br>* McshEngl.reported-future-Turkvm!⇒reported_future_mVTurk,
-    <br>* McshEngl.future-dubitative-Turkvm!⇒reported_future_mVTurk,
+    <br>* McshEngl.reported-future-Turkvbmb!⇒reported_future_mVTurk,
+    <br>* McshEngl.future-dubitative-Turkvbmb!⇒reported_future_mVTurk,
     <br>* McshEngl.mVTurkReported.future!⇒reported_future_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.gelecek-zamanın-rivayeti!⇒reported_future_mVTurk,
@@ -4636,22 +4671,22 @@
   </section>
 
   <section id="idLTurkverbmbrRprtN">
-  <h4 id="idLTurkverbmbrRprtNH4">Turkvm.reportedNo
+  <h4 id="idLTurkverbmbrRprtNH4">Turkvbmb.reportedNo
     </h4>
   <p id="idLTurkverbmbrRprtNdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idLTurkverbmbrRprtNdsn"></a></p>
   <p id="idLTurkverbmbrRprtNnam">name::
-    <br>* McshEngl.narrative-Turkvm,
-    <br>* McshEngl.Turkvm.reportedNo,
-    <br>* McshEngl.reportedNo-Turkvm,
+    <br>* McshEngl.narrative-Turkvbmb,
+    <br>* McshEngl.Turkvbmb.reportedNo,
+    <br>* McshEngl.reportedNo-Turkvbmb,
     <br>====== lagoTurkish:
     <br>* McshTurk.hikâyesi-zaman,
     <a class="clsHide" href="#idLTurkverbmbrRprtNnam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrIndi">
-  <h4 id="idLTurkverbmbrIndiH4">Turkvm.indicative-mood
+  <h4 id="idLTurkverbmbrIndiH4">Turkvbmb.indicative-mood
     </h4>
   <p id="idLTurkverbmbrIndidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4673,7 +4708,7 @@
   <p id="idLTurkverbmbrIndinam">name::
     <br>* McshEngl.indicative_moodTurk,
     <br>* McshEngl.indicative-moodTurk!⇒indicative_moodTurk,
-    <br>* McshEngl.Turkvm.indicative_mood!⇒indicative_moodTurk,
+    <br>* McshEngl.Turkvbmb.indicative_mood!⇒indicative_moodTurk,
     <br>====== lagoGreek:
     <br>* McshElln.οριστική-έγκλιση-Τουρκική!⇒indicative_moodTurk,
     <br>====== lagoTurkish:
@@ -4682,7 +4717,7 @@
   </section>
 
   <section id="idLTurkverbmbrImpe">
-  <h4 id="idLTurkverbmbrImpeH4">Turkvm.imperative-mood
+  <h4 id="idLTurkverbmbrImpeH4">Turkvbmb.imperative-mood
     </h4>
   <p id="idLTurkverbmbrImpedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4704,8 +4739,8 @@
     <a class="clsHide" href="#idLTurkverbmbrImpedsn"></a></p>
   <p id="idLTurkverbmbrImpenam">name::
     <br>* McshEngl.mVTurkImpe,
-    <br>* McshEngl.Turkvm.imperative_mood!⇒mVTurkImpe,
-    <br>* McshEngl.Turkvm.imperative!⇒mVTurkImpe,
+    <br>* McshEngl.Turkvbmb.imperative_mood!⇒mVTurkImpe,
+    <br>* McshEngl.Turkvbmb.imperative!⇒mVTurkImpe,
     <br>* McshEngl.imperative-moodTurk!⇒mVTurkImpe,
     <br>* McshEngl.imperativeTurk!⇒mVTurkImpe,
     <br>====== lagoTurkish:
@@ -4714,7 +4749,7 @@
   </section>
 
   <section id="idLTurkverbmbrVoli">
-  <h4 id="idLTurkverbmbrVoliH4">Turkvm.subjunctive-mood
+  <h4 id="idLTurkverbmbrVoliH4">Turkvbmb.subjunctive-mood
     </h4>
   <p id="idLTurkverbmbrVolidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4732,13 +4767,13 @@
     <a class="clsHide" href="#idLTurkverbmbrVolidsn"></a></p>
   <p id="idLTurkverbmbrVolinam">name::
     <br>* McshEngl.mVTurkSubj,
-    <br>* McshEngl.Turkvm.subjunctive_mood!⇒mVTurkSubj,
-    <br>* McshEngl.Turkvm.volition!⇒mVTurkSubj,
+    <br>* McshEngl.Turkvbmb.subjunctive_mood!⇒mVTurkSubj,
+    <br>* McshEngl.Turkvbmb.volition!⇒mVTurkSubj,
     <br>* McshEngl.mVTurkVoli!⇒mVTurkSubj,
-    <br>* McshEngl.Turkvm.may_might!⇒mVTurkSubj,
-    <br>* McshEngl.optative-Turkvm!⇒mVTurkSubj,
-    <br>* McshEngl.subjunctive-Turkvm!⇒mVTurkSubj,
-    <br>* McshEngl.volition-Turkvm!⇒mVTurkSubj,
+    <br>* McshEngl.Turkvbmb.may_might!⇒mVTurkSubj,
+    <br>* McshEngl.optative-Turkvbmb!⇒mVTurkSubj,
+    <br>* McshEngl.subjunctive-Turkvbmb!⇒mVTurkSubj,
+    <br>* McshEngl.volition-Turkvbmb!⇒mVTurkSubj,
     <br>====== lagoTurkish:
     <br>* McshTurk.dilek-kipi-Türkçe!=mVTurkVoli!⇒mVTurkSubj,
     <br>* McshTurk.istek-kipi-Türkçe!=mVTurkVoli!⇒mVTurkSubj,
@@ -4780,8 +4815,8 @@
   <p id="idLTurkverbmbrVoligntr">generic-tree::
     <br>* McshEngl.mVTurkSubj:generic,
     <br>===
-    <br>* Turkvm:generic,
-    <br>* Hmmdvm:generic,
+    <br>* Turkvbmb:generic,
+    <br>* Hmmdvbmb:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkverbmbrVoligntr"></a></p>
   <p id="idLTurkverbmbrVolisptr">specific-tree::
@@ -4840,10 +4875,10 @@
     <a class="clsHide" href="#idLTurkverbmbrVoliPresdsn"></a></p>
   <p id="idLTurkverbmbrVoliPresnam">name::
     <br>* McshEngl.volition_present_Turkvm,
-    <br>* McshEngl.volition-present-Turkvm!⇒volition_present_Turkvm,
+    <br>* McshEngl.volition-present-Turkvbmb!⇒volition_present_Turkvm,
     <br>* McshEngl.mVTurkSubj.present.simple!⇒volition_present_Turkvm,
     <br>* McshEngl.mVTurkSubj.present,
-    <br>* McshEngl.present-volition-Turkvm,
+    <br>* McshEngl.present-volition-Turkvbmb,
     <br>====== lagoTurkish:
     <br>* McshTurk.istek-kipi,
     <a class="clsHide" href="#idLTurkverbmbrVoliPresnam"></a></p>
@@ -4859,8 +4894,8 @@
     <a class="clsHide" href="#idLTurkverbmbrVoliPastSimpdsn"></a></p>
   <p id="idLTurkverbmbrVoliPastSimpnam">name::
     <br>* McshEngl.mVTurkSubj.past.simple,
-    <br>* McshEngl.past-simple-volition-Turkvm,
-    <br>* McshEngl.volition-past-simple-Turkvm,
+    <br>* McshEngl.past-simple-volition-Turkvbmb,
+    <br>* McshEngl.volition-past-simple-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrVoliPastSimpnam"></a></p>
   </section>
 
@@ -4871,7 +4906,7 @@
   </section>
 
   <section id="idLTurkverbmbrCond">
-  <h4 id="idLTurkverbmbrCondH4">Turkvm.conditional-mood
+  <h4 id="idLTurkverbmbrCondH4">Turkvbmb.conditional-mood
     </h4>
   <p id="idLTurkverbmbrConddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4913,10 +4948,10 @@
     <a class="clsHide" href="#idLTurkverbmbrConddsn"></a></p>
   <p id="idLTurkverbmbrCondnam">name::
     <br>* McshEngl.mVTurkCond,
-    <br>* McshEngl.Turkvm.conditional_mood!⇒mVTurkCond,
-    <br>* McshEngl.Turkvm.conditional!⇒mVTurkCond,
-    <br>* McshEngl.Turkvm.if!⇒mVTurkCond,
-    <br>* McshEngl.conditional-Turkvm!⇒mVTurkCond,
+    <br>* McshEngl.Turkvbmb.conditional_mood!⇒mVTurkCond,
+    <br>* McshEngl.Turkvbmb.conditional!⇒mVTurkCond,
+    <br>* McshEngl.Turkvbmb.if!⇒mVTurkCond,
+    <br>* McshEngl.conditional-Turkvbmb!⇒mVTurkCond,
     <br>* McshEngl.conditional-moodTurk!⇒mVTurkCond,
     <br>====== lagoTurkish:
     <br>* McshTurk.şart-kipi!=conditional-moodTurk!⇒mVTurkCond,
@@ -4938,8 +4973,8 @@
   <p id="idLTurkverbmbrCondgntr">generic-tree::
     <br>* McshEngl.mVTurkCond:generic,
     <br>===
-    <br>* Turkvm:generic,
-    <br>* Hmmdvm:generic,
+    <br>* Turkvbmb:generic,
+    <br>* Hmmdvbmb:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkverbmbrCondgntr"></a></p>
   <p id="idLTurkverbmbrCondsptr">specific-tree::
@@ -4969,11 +5004,11 @@
   <p id="idLTurkverbmbrCondAorinam">name::
     <br>* McshEngl.conditional_present_simple_mVTurk,
     <br>* McshEngl.mVTurkCond.aorist!⇒conditional_present_simple_mVTurk,
-    <br>* McshEngl.conditional-present-simple-Turkvm!⇒conditional_present_simple_mVTurk,
-    <br>* McshEngl.aorist--conditional-Turkvm!⇒conditional_present_simple_mVTurk,
-    <br>* McshEngl.conditional-aorist-Turkvm!⇒conditional_present_simple_mVTurk,
+    <br>* McshEngl.conditional-present-simple-Turkvbmb!⇒conditional_present_simple_mVTurk,
+    <br>* McshEngl.aorist--conditional-Turkvbmb!⇒conditional_present_simple_mVTurk,
+    <br>* McshEngl.conditional-aorist-Turkvbmb!⇒conditional_present_simple_mVTurk,
     <br>* McshEngl.mVTurkCond.present.simple!⇒conditional_present_simple_mVTurk,
-    <br>* McshEngl.present-conditional-simple-Turkvm!⇒conditional_present_simple_mVTurk,
+    <br>* McshEngl.present-conditional-simple-Turkvbmb!⇒conditional_present_simple_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.geniş-zamanın-koşulu!⇒conditional_present_simple_mVTurk,
     <a class="clsHide" href="#idLTurkverbmbrCondAorinam"></a></p>
@@ -4992,9 +5027,9 @@
   <p id="idLTurkverbmbrCondPresContnam">name::
     <br>* McshEngl.conditional_present_continuous_mVTurk,
     <br>* McshEngl.mVTurkCond.present.continous!⇒conditional_present_continuous_mVTurk,
-    <br>* McshEngl.conditional-present-continuous-Turkvm!⇒conditional_present_continuous_mVTurk,
+    <br>* McshEngl.conditional-present-continuous-Turkvbmb!⇒conditional_present_continuous_mVTurk,
     <br>* McshEngl.mVTurkCond.present.continuous!⇒conditional_present_continuous_mVTurk,
-    <br>* McshEngl.present-conditional-continuous-Turkvm!⇒conditional_present_continuous_mVTurk,
+    <br>* McshEngl.present-conditional-continuous-Turkvbmb!⇒conditional_present_continuous_mVTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.şimdiki-zamanın-koşulu!⇒conditional_present_continuous_mVTurk,
     <a class="clsHide" href="#idLTurkverbmbrCondPresContnam"></a></p>
@@ -5010,7 +5045,7 @@
     <br>· Conditional Past (could realize) - Belirli geçmiş zamanın koşulu: (If I did something that happened)
     <a class="clsHide" href="#idLTurkverbmbrCondPastSimpdsn"></a></p>
   <p id="idLTurkverbmbrCondPastSimpnam">name::
-    <br>* McshEngl.conditional-past-simple-Turkvm,
+    <br>* McshEngl.conditional-past-simple-Turkvbmb,
     <br>* McshEngl.mVTurkCond.past.simple,
     <br>====== lagoTurkish:
     <br>* McshTurk.belirli-geçmiş-zamanın-koşulu-Türkçe,
@@ -5028,10 +5063,10 @@
     <br>· Dilek koşul kipinin hikâyesi.
     <a class="clsHide" href="#idLTurkverbmbrCondPastSubjdsn"></a></p>
   <p id="idLTurkverbmbrCondPastSubjnam">name::
-    <br>* McshEngl.conditional-past-subjunctive-Turkvm,
+    <br>* McshEngl.conditional-past-subjunctive-Turkvbmb,
     <br>* McshEngl.mVTurkCond.past.subjunctive,
-    <br>* McshEngl.past-conditional-subjunctive-Turkvm,
-    <br>* McshEngl.subjunctive-past-conditional-Turkvm,
+    <br>* McshEngl.past-conditional-subjunctive-Turkvbmb,
+    <br>* McshEngl.subjunctive-past-conditional-Turkvbmb,
     <br>====== lagoTurkish:
     <br>* McshTurk.dilek-koşul-kipinin-hikâyesi-Türkçe,
     <a class="clsHide" href="#idLTurkverbmbrCondPastSubjnam"></a></p>
@@ -5049,7 +5084,7 @@
     <a class="clsHide" href="#idLTurkverbmbrCondPastRepodsn"></a></p>
   <p id="idLTurkverbmbrCondPastReponam">name::
     <br>* McshEngl.mVTurkCond.past.reported,
-    <br>* McshEngl.past-conditional-reported-Turkvm,
+    <br>* McshEngl.past-conditional-reported-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrCondPastReponam"></a></p>
   </section>
 
@@ -5091,7 +5126,7 @@
   <p id="idLTurkverbmbrCondFutuSimpnam">name::
     <br>* McshEngl.conditional_future_simple_mVTurk,
     <br>* McshEngl.mVTurkCond.future!⇒conditional_future_simple_mVTurk,
-    <br>* McshEngl.conditional-future-simple-Turkvm!⇒conditional_future_simple_mVTurk,
+    <br>* McshEngl.conditional-future-simple-Turkvbmb!⇒conditional_future_simple_mVTurk,
     <br>* McshEngl.mVTurkCond.future.simple!⇒conditional_future_simple_mVTurk,
     <br>* McshEngl.mVTurkFutu.conditional!⇒conditional_future_simple_mVTurk,
     <br>====== lagoTurkish:
@@ -5109,7 +5144,7 @@
     <br>· Dilek koşul(mastar): (If I do something)
     <a class="clsHide" href="#idLTurkverbmbrCondInfidsn"></a></p>
   <p id="idLTurkverbmbrCondInfinam">name::
-    <br>* McshEngl.conditional-infinitive-Turkvm,
+    <br>* McshEngl.conditional-infinitive-Turkvbmb,
     <br>* McshEngl.mVTurkCond.infinitive,
     <br>====== lagoTurkish:
     <br>* McshTurk.dilek-koşul-mastar-Türkçe,
@@ -5124,7 +5159,7 @@
     <br>· yaz-malıysam.
     <a class="clsHide" href="#idLTurkverbmbrCondNecedsn"></a></p>
   <p id="idLTurkverbmbrCondNecenam">name::
-    <br>* McshEngl.conditional-necessitive-Turkvm,
+    <br>* McshEngl.conditional-necessitive-Turkvbmb,
     <br>* McshEngl.mVTurkCond.necessitive,
     <br>====== lagoTurkish:
     <br>* McshTurk.gereklik-kipinin-koşulu-Türkçe,
@@ -5133,7 +5168,7 @@
   </section>
 
   <section id="idLTurkverbmbrNece">
-  <h4 id="idLTurkverbmbrNeceH4">Turkvm.necessitive-must-mood
+  <h4 id="idLTurkverbmbrNeceH4">Turkvbmb.necessitive-must-mood
     </h4>
   <p id="idLTurkverbmbrNecedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5184,10 +5219,10 @@
     <a class="clsHide" href="#idLTurkverbmbrNecedsn"></a></p>
   <p id="idLTurkverbmbrNecenam">name::
     <br>* McshEngl.mVTurkNece,
-    <br>* McshEngl.Turkvm.necessitive_must_mood!⇒mVTurkNece,
-    <br>* McshEngl.Turkvm.must!⇒mVTurkNece,
-    <br>* McshEngl.Turkvm.necessity!⇒mVTurkNece,
-    <br>* McshEngl.necessative-Turkvm!⇒mVTurkNece,
+    <br>* McshEngl.Turkvbmb.necessitive_must_mood!⇒mVTurkNece,
+    <br>* McshEngl.Turkvbmb.must!⇒mVTurkNece,
+    <br>* McshEngl.Turkvbmb.necessity!⇒mVTurkNece,
+    <br>* McshEngl.necessative-Turkvbmb!⇒mVTurkNece,
     <br>====== lagoTurkish:
     <br>* McshTurk.gereklilik-Türkçe!⇒mVTurkNece,
     <br>* McshTurk.gereklik-kipi-Türkçe!⇒mVTurkNece,
@@ -5207,8 +5242,8 @@
   <p id="idLTurkverbmbrNecegntr">generic-tree::
     <br>* McshEngl.mVTurkNece:generic,
     <br>===
-    <br>* Turkvm:generic,
-    <br>* Hmmdvm:generic,
+    <br>* Turkvbmb:generic,
+    <br>* Hmmdvbmb:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkverbmbrNecegntr"></a></p>
   <p id="idLTurkverbmbrNecesptr">specific-tree::
@@ -5234,7 +5269,7 @@
     <a class="clsHide" href="#idLTurkverbmbrNecePresSimpdsn"></a></p>
   <p id="idLTurkverbmbrNecePresSimpnam">name::
     <br>* McshEngl.mVTurkNece.present.simple,
-    <br>* McshEngl.necessitative-present-simple-Turkvm,
+    <br>* McshEngl.necessitative-present-simple-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrNecePresSimpnam"></a></p>
   </section>
 
@@ -5271,7 +5306,7 @@
     <a class="clsHide" href="#idLTurkverbmbrNecePastSimpdsn"></a></p>
   <p id="idLTurkverbmbrNecePastSimpnam">name::
     <br>* McshEngl.mVTurkNece.past.simple,
-    <br>* McshEngl.necessitative-past-simple-Turkvm,
+    <br>* McshEngl.necessitative-past-simple-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrNecePastSimpnam"></a></p>
   </section>
 
@@ -5287,13 +5322,13 @@
     <a class="clsHide" href="#idLTurkverbmbrNecePastRepodsn"></a></p>
   <p id="idLTurkverbmbrNecePastReponam">name::
     <br>* McshEngl.mVTurkNece.past.reported,
-    <br>* McshEngl.necessitative-past-reported-Turkvm,
+    <br>* McshEngl.necessitative-past-reported-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrNecePastReponam"></a></p>
   </section>
   </section>
 
   <section id="idLTurkverbmbrAbil">
-  <h4 id="idLTurkverbmbrAbilH4">Turkvm.ability-can-mood
+  <h4 id="idLTurkverbmbrAbilH4">Turkvbmb.ability-can-mood
     </h4>
   <p id="idLTurkverbmbrAbildsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5305,11 +5340,11 @@
     <a class="clsHide" href="#idLTurkverbmbrAbildsn"></a></p>
   <p id="idLTurkverbmbrAbilnam">name::
     <br>* McshEngl.ability_mood_Turkvm,
-    <br>* McshEngl.ability-mood-Turkvm!⇒ability_mood_Turkvm,
-    <br>* McshEngl.Turkvm.ability_can_mood!⇒ability_mood_Turkvm,
-    <br>* McshEngl.Turkvm.ability,
-    <br>* McshEngl.Turkvm.can,
-    <br>* McshEngl.Turkvm.potential,
+    <br>* McshEngl.ability-mood-Turkvbmb!⇒ability_mood_Turkvm,
+    <br>* McshEngl.Turkvbmb.ability_can_mood!⇒ability_mood_Turkvm,
+    <br>* McshEngl.Turkvbmb.ability,
+    <br>* McshEngl.Turkvbmb.can,
+    <br>* McshEngl.Turkvbmb.potential,
     <br>====== lagoTurkish:
     <br>* McshTurk.-bili-verb-ability-to,
     <br>* McshTurk.-ebil-verb-ability-to,
@@ -5323,7 +5358,7 @@
     <br>· gel-ebilirim; I can come [at all times], I am able to come, I'm in a position to come... (Simple Tense)
     <a class="clsHide" href="#idLTurkverbmbrAbilPresSimpdsn"></a></p>
   <p id="idLTurkverbmbrAbilPresSimpnam">name::
-    <br>* McshEngl.ability-present-simple-Turkvm,
+    <br>* McshEngl.ability-present-simple-Turkvbmb,
     <br>* McshEngl.mVTurkAbil.present.simple,
     <a class="clsHide" href="#idLTurkverbmbrAbilPresSimpnam"></a></p>
   </section>
@@ -5336,7 +5371,7 @@
     <br>· gelebiliyorum; I can/may come [right now], I may be able to come... (Present Continuous Tense )
     <a class="clsHide" href="#idLTurkverbmbrAbilPresContdsn"></a></p>
   <p id="idLTurkverbmbrAbilPresContnam">name::
-    <br>* McshEngl.ability-present-continuous-Turkvm,
+    <br>* McshEngl.ability-present-continuous-Turkvbmb,
     <br>* McshEngl.mVTurkAbil.present.continuous,
     <a class="clsHide" href="#idLTurkverbmbrAbilPresContnam"></a></p>
   </section>
@@ -5349,7 +5384,7 @@
     <br>· gelebildim; I was able (could) to come... (Definite Past )
     <a class="clsHide" href="#idLTurkverbmbrAbilPastSimpdsn"></a></p>
   <p id="idLTurkverbmbrAbilPastSimpnam">name::
-    <br>* McshEngl.ability-past-simple-Turkvm,
+    <br>* McshEngl.ability-past-simple-Turkvbmb,
     <br>* McshEngl.mVTurkAbil.past.simple,
     <a class="clsHide" href="#idLTurkverbmbrAbilPastSimpnam"></a></p>
   </section>
@@ -5362,7 +5397,7 @@
     <br>· gelebiliyordum; I was able (could) to come... (Past Continuous Tense)
     <a class="clsHide" href="#idLTurkverbmbrAbilPastContdsn"></a></p>
   <p id="idLTurkverbmbrAbilPastContnam">name::
-    <br>* McshEngl.ability-past-continuous-Turkvm,
+    <br>* McshEngl.ability-past-continuous-Turkvbmb,
     <br>* McshEngl.mVTurkAbil.past.continuous,
     <a class="clsHide" href="#idLTurkverbmbrAbilPastContnam"></a></p>
   </section>
@@ -5375,7 +5410,7 @@
     <br>· gelebilirdim; I could have come, I would have been able to come... (Definite Past Perfect, Simple Tense)
     <a class="clsHide" href="#idLTurkverbmbrAbilPastPerfdsn"></a></p>
   <p id="idLTurkverbmbrAbilPastPerfnam">name::
-    <br>* McshEngl.ability-past-perfect-Turkvm,
+    <br>* McshEngl.ability-past-perfect-Turkvbmb,
     <br>* McshEngl.mVTurkAbil.past.perfect,
     <a class="clsHide" href="#idLTurkverbmbrAbilPastPerfnam"></a></p>
   </section>
@@ -5388,14 +5423,14 @@
     <br>· gelebilmişim; It is said that I was able to come... (Dubitative Past Tense)
     <a class="clsHide" href="#idLTurkverbmbrAbilRepodsn"></a></p>
   <p id="idLTurkverbmbrAbilReponam">name::
-    <br>* McshEngl.ability-reported-Turkvm,
+    <br>* McshEngl.ability-reported-Turkvbmb,
     <br>* McshEngl.mVTurkAbil.reported,
     <a class="clsHide" href="#idLTurkverbmbrAbilReponam"></a></p>
   </section>
   </section>
 
   <section id="idLTurkverbmbrInfi">
-  <h4 id="idLTurkverbmbrInfiH4">Turkvm.infinitive
+  <h4 id="idLTurkverbmbrInfiH4">Turkvbmb.infinitive
     </h4>
   <p id="idLTurkverbmbrInfidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5413,7 +5448,7 @@
   <p id="idLTurkverbmbrInfinam">name::
     <br>* McshEngl.infinitive-of-Turkverb!⇒Turkiftv,
     <br>* McshEngl.Turkiftv!=infinitive-of-Turkverb,
-    <br>* McshEngl.Turkvm.infinitive,
+    <br>* McshEngl.Turkvbmb.infinitive,
     <br>* McshEngl.infinitiveTurk,
     <br>* McshEngl.mVTurkInfi,
     <br>* McshEngl.Turkverb'infinitive,
@@ -5427,7 +5462,7 @@
   </section>
 
   <section id="idLTurkverbmbrMood">
-  <h4 id="idLTurkverbmbrMoodH4">Turkvm.mood
+  <h4 id="idLTurkverbmbrMoodH4">Turkvbmb.mood
     </h4>
   <p id="idLTurkverbmbrMooddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5439,14 +5474,14 @@
     <a class="clsHide" href="#idLTurkverbmbrMooddsn"></a></p>
   <p id="idLTurkverbmbrMoodnam">name::
     <br>* McshEngl.moodTurk,
-    <br>* McshEngl.Turkvm.mood!⇒moodTurk,
+    <br>* McshEngl.Turkvbmb.mood!⇒moodTurk,
     <br>====== lagoTurkish:
     <br>* McshTurk.kipi!⇒moodTurk,
     <a class="clsHide" href="#idLTurkverbmbrMoodnam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrVoic">
-  <h4 id="idLTurkverbmbrVoicH4">Turkvm.voice
+  <h4 id="idLTurkverbmbrVoicH4">Turkvbmb.voice
     </h4>
   <p id="idLTurkverbmbrVoicdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5454,14 +5489,14 @@
     <br>[{2022-12-01 retrieved} https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/Turkic/Turkish%2C%20A%20Student%20Grammar%20of%20%28Ketrez%29.pdf]
     <a class="clsHide" href="#idLTurkverbmbrVoicdsn"></a></p>
   <p id="idLTurkverbmbrVoicnam">name::
-    <br>* McshEngl.Turkvm.voice,
+    <br>* McshEngl.Turkvbmb.voice,
     <br>* McshEngl.voiceTurk,
-    <br>* McshEngl.voice-Turkvm,
+    <br>* McshEngl.voice-Turkvbmb,
     <a class="clsHide" href="#idLTurkverbmbrVoicnam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrPass">
-  <h4 id="idLTurkverbmbrPassH4">Turkvm.passive-voice
+  <h4 id="idLTurkverbmbrPassH4">Turkvbmb.passive-voice
     </h4>
   <p id="idLTurkverbmbrPassdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5476,9 +5511,9 @@
     <a class="clsHide" href="#idLTurkverbmbrPassdsn"></a></p>
   <p id="idLTurkverbmbrPassnam">name::
     <br>* McshEngl.TurkvmPassive,
-    <br>* McshEngl.Turkvm.passive!⇒TurkvmPassive,
-    <br>* McshEngl.Turkvm.passive_voice!⇒TurkvmPassive,
-    <br>* McshEngl.passive-Turkvm,
+    <br>* McshEngl.Turkvbmb.passive!⇒TurkvmPassive,
+    <br>* McshEngl.Turkvbmb.passive_voice!⇒TurkvmPassive,
+    <br>* McshEngl.passive-Turkvbmb,
     <br>* McshEngl.voiceTurk.passive,
     <br>====== lagoTurkish:
     <br>* McshTurk.-il-verb-passive-(if-stem-ends-in-consonant-but-l),
@@ -5494,21 +5529,21 @@
   </section>
 
   <section id="idLTurkverbmbrPassN">
-  <h4 id="idLTurkverbmbrPassNH4">Turkvm.passiveNo-voice
+  <h4 id="idLTurkverbmbrPassNH4">Turkvbmb.passiveNo-voice
     </h4>
   <p id="idLTurkverbmbrPassNdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idLTurkverbmbrPassNdsn"></a></p>
   <p id="idLTurkverbmbrPassNnam">name::
     <br>* McshEngl.TurkvmPassiveNo,
-    <br>* McshEngl.Turkvm.passiveNo!⇒TurkvmPassiveNo,
-    <br>* McshEngl.Turkvm.passiveNo_voice!⇒TurkvmPassiveNo,
+    <br>* McshEngl.Turkvbmb.passiveNo!⇒TurkvmPassiveNo,
+    <br>* McshEngl.Turkvbmb.passiveNo_voice!⇒TurkvmPassiveNo,
     <br>* McshEngl.voiceTurk.active,
     <a class="clsHide" href="#idLTurkverbmbrPassNnam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrCaus">
-  <h4 id="idLTurkverbmbrCausH4">Turkvm.causative
+  <h4 id="idLTurkverbmbrCausH4">Turkvbmb.causative
     </h4>
   <p id="idLTurkverbmbrCausdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5538,7 +5573,7 @@
     <br>* McshEngl.Turkverb.causative,
     <br>* McshEngl.causative-Turkverb,
     <br>* McshEngl.voiceTurk.causative,
-    <br>* McshEngl.Turkvm.causative,
+    <br>* McshEngl.Turkvbmb.causative,
     <br>====== lagoTurkish:
     <br>* McshTurk.suffixTurkForming.dir-verb-causative-to-make-to,
     <br>* McshTurk.suffixTurkForming.it-verb-causative-to-make-to-(if-stem-ends-in-ş-or-ç),
@@ -5547,7 +5582,7 @@
   </section>
 
   <section id="idLTurkverbmbrRefl">
-  <h4 id="idLTurkverbmbrReflH4">Turkvm.reflexive
+  <h4 id="idLTurkverbmbrReflH4">Turkvbmb.reflexive
     </h4>
   <p id="idLTurkverbmbrRefldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5562,14 +5597,14 @@
     <br>* McshEngl.Turkverb.reflexive,
     <br>* McshEngl.reflexive-Turkverb,
     <br>* McshEngl.voiceTurk.reflexive,
-    <br>* McshEngl.Turkvm.reflexive,
+    <br>* McshEngl.Turkvbmb.reflexive,
     <br>====== lagoTurkish:
     <br>* McshTurk.suffixTurkForming.in-verb-reflexive-to-make to-(if-stem-ends-in-ş-or-ç),
     <a class="clsHide" href="#idLTurkverbmbrReflnam"></a></p>
   </section>
 
   <section id="idLTurkverbmbrReci">
-  <h4 id="idLTurkverbmbrReciH4">Turkvm.reciprocal
+  <h4 id="idLTurkverbmbrReciH4">Turkvbmb.reciprocal
     </h4>
   <p id="idLTurkverbmbrRecidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5580,9 +5615,9 @@
     <br>· görmek = "to see", görüşmek = "to see one another" or "to converse"
     <a class="clsHide" href="#idLTurkverbmbrRecidsn"></a></p>
   <p id="idLTurkverbmbrRecinam">name::
-    <br>* McshEngl.Turkvm.mutual_action,
-    <br>* McshEngl.Turkvm.reciprocal,
-    <br>* McshEngl.reciprocal-Turkvm,
+    <br>* McshEngl.Turkvbmb.mutual_action,
+    <br>* McshEngl.Turkvbmb.reciprocal,
+    <br>* McshEngl.reciprocal-Turkvbmb,
     <br>* McshEngl.voiceTurk.reciprocal,
     <br>====== lagoTurkish:
     <br>* McshTurk.suffixTurkForming.iş-verb-reciprocal,
@@ -5590,7 +5625,7 @@
   </section>
 
   <section id="idLTurkverbmbrFlms">
-  <h4 id="idLTurkverbmbrFlmsH4">Turkvm.fiilimsi
+  <h4 id="idLTurkverbmbrFlmsH4">Turkvbmb.fiilimsi
     </h4>
   <p id="idLTurkverbmbrFlmsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5603,8 +5638,8 @@
     <a class="clsHide" href="#idLTurkverbmbrFlmsdsn"></a></p>
   <p id="idLTurkverbmbrFlmsnam">name::
     <br>* McshEngl.fiilimsi-Turkverb,
-    <br>* McshEngl.Turkvm.fiilimsi,
-    <br>* McshEngl.Turkvm.verbal,
+    <br>* McshEngl.Turkvbmb.fiilimsi,
+    <br>* McshEngl.Turkvbmb.verbal,
     <br>* McshEngl.verbalTurk,
     <br>* McshEngl.synomind-of-Turkverb,
     <br>====== lagoGreek:
@@ -5622,13 +5657,13 @@
     <a class="clsHide" href="#idLTurkverbmbrFlmsNoundsn"></a></p>
   <p id="idLTurkverbmbrFlmsNounnam">name::
     <br>* McshEngl.verbal.noun_of_Turklago,
-    <br>* McshEngl.Turkvm.noun!⇒verbal.noun_of_Turklago,
+    <br>* McshEngl.Turkvbmb.noun!⇒verbal.noun_of_Turklago,
     <br>====== lagoTurkish:
     <br>* McshTurk.isim-fiil-Türkçe,
     <a class="clsHide" href="#idLTurkverbmbrFlmsNounnam"></a></p>
 
   <section id="idLTurkverbmbrGeru">
-  <h5 id="idLTurkverbmbrGeruH5">Turkvm.gerund
+  <h5 id="idLTurkverbmbrGeruH5">Turkvbmb.gerund
     </h5>
   <p id="idLTurkverbmbrGerudsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5649,7 +5684,7 @@
     <br>[{2022-10-17 retrieved} https://cromwell-intl.com/turkish/turkish-suffixes.html]
     <a class="clsHide" href="#idLTurkverbmbrGerudsn"></a></p>
   <p id="idLTurkverbmbrGerunam">name::
-    <br>* McshEngl.Turkvm.gerund,
+    <br>* McshEngl.Turkvbmb.gerund,
     <br>* McshEngl.gerundTurk,
     <br>* McshEngl.verbal.noun_of_Turklago.gerund,
     <a class="clsHide" href="#idLTurkverbmbrGerunam"></a></p>
@@ -5667,7 +5702,7 @@
     <a class="clsHide" href="#idLTurkverbmbrFlmsAdjedsn"></a></p>
   <p id="idLTurkverbmbrFlmsAdjenam">name::
     <br>* McshEngl.verbal.adjective_of_Turklago,
-    <br>* McshEngl.Turkvm.adjective!⇒verbal.adjective_of_Turklago,
+    <br>* McshEngl.Turkvbmb.adjective!⇒verbal.adjective_of_Turklago,
     <br>====== lagoTurkish:
     <br>* McshTurk.sıfat-fiil-Türkçe,
     <a class="clsHide" href="#idLTurkverbmbrFlmsAdjenam"></a></p>
@@ -5687,7 +5722,7 @@
     <a class="clsHide" href="#idLTurkverbmbrFlmsAdvedsn"></a></p>
   <p id="idLTurkverbmbrFlmsAdvenam">name::
     <br>* McshEngl.verbal.adverb_of_Turklago,
-    <br>* McshEngl.Turkvm.adverb!⇒verbal.adverb_of_Turklago,
+    <br>* McshEngl.Turkvbmb.adverb!⇒verbal.adverb_of_Turklago,
     <br>====== lagoTurkish:
     <br>* McshTurk.zarf-fiil-Türkçe,
     <a class="clsHide" href="#idLTurkverbmbrFlmsAdvenam"></a></p>
@@ -7672,7 +7707,7 @@
   </section>
 
   <section id="idLTurkconj">
-  <h2 id="idLTurkconjH2">conjunction-name of TurkviewLogo
+  <h2 id="idLTurkconjH2">conjunction-name of Turklogo
     </h2>
   <p id="idLTurkconjdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7680,9 +7715,9 @@
     <a class="clsHide" href="#idLTurkconjdsn"></a></p>
   <p id="idLTurkconjnam">name::
     <br>* McshEngl.Turkconj,
-    <br>* McshEngl.TurkviewLogo'conjunction_name!⇒Turkconj,
+    <br>* McshEngl.Turklogo'conjunction_name!⇒Turkconj,
     <br>* McshEngl.Turklago'Turkconj,
-    <br>* McshEngl.TurkviewLogo'conjunction_name,
+    <br>* McshEngl.Turklogo'conjunction_name,
     <a class="clsHide" href="#idLTurkconjnam"></a></p>
 
   <section id="idLTurkconjsfx">
@@ -7781,7 +7816,7 @@
   </section>
 
   <section id="idLTurkverbargu">
-  <h2 id="idLTurkverbarguH2">verb-argument of TurkviewLogo
+  <h2 id="idLTurkverbarguH2">verb-argument of Turklogo
     </h2>
   <p id="idLTurkverbargudsn">description::
     <br>× Mcsh-creation: {2025-02-06}
@@ -7847,15 +7882,16 @@
     <br>[{2025-02-06 retrieved} https://gemini.google.com/app/a96dd2b16696bb38]
     <a class="clsHide" href="#idLTurkverbargudsn"></a></p>
   <p id="idLTurkverbargunam">name::
-    <br>* McshEngl.Turkish--verb-argument!⇒TurkVerbArgu,
-    <br>* McshEngl.TurkVerbArgu!=Turkish--verb-argument,
-    <br>* McshEngl.TurkviewLogo'verb_argument!⇒TurkVerbArgu,
-    <br>* McshEngl.Verbargt.Turk!⇒TurkVerbArgu,
+    <br>* McshEngl.Turkish--verb-argument!⇒Turkvbat,
+    <br>* McshEngl.Turkvbat!=Turkish--verb-argument,
+    <br>* McshEngl.TurkVerbArgu!⇒Turkvbat,
+    <br>* McshEngl.Turklogo'verb_argument!⇒Turkvbat,
+    <br>* McshEngl.Hmmdvbat.Turk!⇒Turkvbat,
     <a class="clsHide" href="#idLTurkverbargunam"></a></p>
   </section>
 
   <section id="idLTurksent">
-  <h2 id="idLTurksentH2">sentence of TurkviewLogo
+  <h2 id="idLTurksentH2">sentence of Turklogo
     </h2>
   <p id="idLTurksentdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -7876,7 +7912,7 @@
     <a class="clsHide" href="#idLTurksentdsn"></a></p>
   <p id="idLTurksentnam">name::
     <br>* McshEngl.Turksent,
-    <br>* McshEngl.TurkviewLogo'sentence!⇒Turksent,
+    <br>* McshEngl.Turklogo'sentence!⇒Turksent,
     <br>====== lagoTurkish:
     <br>* McshTurk.cümleTürkçe!⇒Turksent,
     <a class="clsHide" href="#idLTurksentnam"></a></p>
@@ -7973,10 +8009,11 @@
     <br>* <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmsmsondosmatDfnt">definiteness</a>: definite, indefinite,
     <a class="clsHide" href="#idLTurksmsondoattdsn"></a></p>
   <p id="idLTurksmsondoattnam">name::
-    <br>* McshEngl.Turksemuargu_attribute,
-    <br>* McshEngl.Turksemuargu'attribute!⇒Turksemuargu_attribute,
-    <br>* McshEngl.Turksemuargu'semu_attribute!⇒Turksemuargu_attribute,
-    <br>* McshEngl.Turksemuargu'semu_attribute,
+    <br>* McshEngl.attribute-of-Turksemuargu!⇒Turksmagatt,
+    <br>* McshEngl.Turksmagatt!=attribute-of-Turksemuargu,
+    <br>* McshEngl.Turksemuargu_attribute!⇒Turksmagatt,
+    <br>* McshEngl.Turksemuargu'attribute!⇒Turksmagatt,
+    <br>* McshEngl.Turksemuargu'semu_attribute!⇒Turksmagatt,
     <a class="clsHide" href="#idLTurksmsondoattnam"></a></p>
   </section>
   </section>

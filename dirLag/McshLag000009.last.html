@@ -243,6 +243,32 @@
     <br>* McshEngl.speech'unit!⇒unitSpch,
     <a class="clsHide" href="#idL0017untnam"></a></p>
 
+  <section id="idL0017untgstr">
+  <h3 id="idL0017untgstrH3">GENERIC-SPECIFIC-TREE of unitSpch
+    </h3>
+  <p id="idL0017untgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idL0017untgstrdsn"></a></p>
+  <p id="idL0017untgstrnam">name::
+    <br>* McshEngl.unitSpch'generic_specific_tree,
+    <a class="clsHide" href="#idL0017untgstrnam"></a></p>
+  <p id="idL0017untgntr">generic-tree::
+    <br>* McshEngl.unitSpch:generic,
+    <br>===
+    <br>* Hmmdunit:generic,
+    <br>* Hmmdnode:generic,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idL0017untgntr"></a></p>
+  <p id="idL0017untsptr">specific-tree::
+    <br>* McshEngl.unitSpch.specific,
+    <br>===
+    <br>* name-unit::
+    <br>** unitSpch.phoneme!@McshLag000009#idL0017phnm,
+    <br>** Spchlago_unit.termNo!@McshLag000009#idL0017untTrmN,
+    <br>* nameNo-unit,
+    <a class="clsHide" href="#idL0017untsptr"></a></p>
+  </section>
+
   <section id="idL0017phnm">
   <h3 id="idL0017phnmH3">unit.term-(phoneme) of SpchviewSpeech
     </h3>
@@ -255,26 +281,27 @@
     <br>· a-phoneme is-symbolized as /p/.
     <a class="clsHide" href="#idL0017phnmdsn"></a></p>
   <p id="idL0017phnmnam">name::
-    <br>* McshEngl.phoneme,
-    <br>* McshEngl.SpchviewSpeech'unit.term_(phoneme)!⇒phoneme,
-    <br>* McshEngl.Spchlago'phoneme!⇒phoneme,
-    <br>* McshEngl.Spchlago_unit.phoneme!⇒phoneme,
-    <br>* McshEngl.Spchlago_unit.term!⇒phoneme,
-    <br>* McshEngl.Spchlago-phoneme!⇒phoneme,
-    <br>* McshEngl.generic-phone--of-Spchlago!⇒phoneme,
-    <br>* McshEngl.main-unit--of-Spchlago!⇒phoneme,
-    <br>* McshEngl.phmHumn!⇒phoneme,
-    <br>* McshEngl.phnmHumn!⇒phoneme,
-    <br>* McshEngl.phoneme-of-Spchlago!⇒phoneme,
-    <br>* McshEngl.phonemeOrl!⇒phoneme,
-    <br>* McshEngl.speech-unit!⇒phoneme,
-    <br>* McshEngl.unitSpch.phoneme!⇒phoneme,
+    <br>* McshEngl.phoneme!⇒Hmmdphnm,
+    <br>* McshEngl.Hmmdphnm!=phoneme,
+    <br>* McshEngl.SpchviewSpeech'unit.term_(phoneme)!⇒Hmmdphnm,
+    <br>* McshEngl.Spchlago'phoneme!⇒Hmmdphnm,
+    <br>* McshEngl.Spchlago_unit.phoneme!⇒Hmmdphnm,
+    <br>* McshEngl.Spchlago_unit.term!⇒Hmmdphnm,
+    <br>* McshEngl.Spchlago-phoneme!⇒Hmmdphnm,
+    <br>* McshEngl.generic-phone--of-Spchlago!⇒Hmmdphnm,
+    <br>* McshEngl.main-unit--of-Spchlago!⇒Hmmdphnm,
+    <br>* McshEngl.phmHumn!⇒Hmmdphnm,
+    <br>* McshEngl.phnmHumn!⇒Hmmdphnm,
+    <br>* McshEngl.phoneme-of-Spchlago!⇒Hmmdphnm,
+    <br>* McshEngl.phonemeOrl!⇒Hmmdphnm,
+    <br>* McshEngl.speech-unit!⇒Hmmdphnm,
+    <br>* McshEngl.unitSpch.phoneme!⇒Hmmdphnm,
     <br>====== lagoSinagu:
-    <br>* McshSngu.fonu-keu!⇒phoneme, {2025-12-03} generic-phone
-    <br>* fonemu!⇒phoneme, {2025-11-30}
+    <br>* McshSngu.fonu-keu!⇒Hmmdphnm, {2025-12-03} generic-phone
+    <br>* fonemu!⇒Hmmdphnm, {2025-11-30}
     <br>====== lagoChinese:
-    <br>* McshZhon.yīnwèi-音位!⇒phoneme,
-    <br>* McshZhon.音位-yīnwèi!⇒phoneme,
+    <br>* McshZhon.yīnwèi-音位!⇒Hmmdphnm,
+    <br>* McshZhon.音位-yīnwèi!⇒Hmmdphnm,
     <br>====== lagoGreek:
     <br>* McshElln.ΦΩΝΗΜΑ!το!=phomeme,
     <br>* McshElln.φωνίδιο!το!=phomeme,
@@ -282,7 +309,7 @@
     <a class="clsHide" href="#idL0017phnmnam"></a></p>
 
   <section id="idL0017phnmdvfr">
-  <h4 id="idL0017phnmdvfrH4">distinctive-feature of phoneme
+  <h4 id="idL0017phnmdvfrH4">distinctive-feature of Hmmdphnm
     </h4>
   <p id="idL0017phnmdvfrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -294,13 +321,13 @@
   <p id="idL0017phnmdvfrnam">name::
     <br>* McshEngl.distinctive-feature--of-phoneme!⇒Phnmdttvfr,
     <br>* McshEngl.Phnmdttvfr!=distinctive-feature--of-phoneme,
-    <br>* McshEngl.phoneme'distinctive_feature!⇒Phnmdttvfr,
-    <br>* McshEngl.phoneme'feature!⇒Phnmdttvfr,
+    <br>* McshEngl.Hmmdphnm'distinctive_feature!⇒Phnmdttvfr,
+    <br>* McshEngl.Hmmdphnm'feature!⇒Phnmdttvfr,
     <a class="clsHide" href="#idL0017phnmdvfrnam"></a></p>
   </section>
 
   <section id="idL0017phnmasobn">
-  <h4 id="idL0017phnmasobnH4">airstream-obstruction of phoneme
+  <h4 id="idL0017phnmasobnH4">airstream-obstruction of Hmmdphnm
     </h4>
   <p id="idL0017phnmasobndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -308,15 +335,15 @@
     <a class="clsHide" href="#idL0017phnmasobndsn"></a></p>
   <p id="idL0017phnmasobnnam">name::
     <br>* McshEngl.phoneme_airstream_constriction,
-    <br>* McshEngl.phoneme'airstream_constriction!⇒phoneme_airstream_constriction,
-    <br>* McshEngl.phoneme'airstream_obstruction!⇒phoneme_airstream_constriction,
-    <br>* McshEngl.phoneme'airstream_obstruction,
-    <br>* McshEngl.phoneme'obstruction_of_airstream,
+    <br>* McshEngl.Hmmdphnm'airstream_constriction!⇒phoneme_airstream_constriction,
+    <br>* McshEngl.Hmmdphnm'airstream_obstruction!⇒phoneme_airstream_constriction,
+    <br>* McshEngl.Hmmdphnm'airstream_obstruction,
+    <br>* McshEngl.Hmmdphnm'obstruction_of_airstream,
     <a class="clsHide" href="#idL0017phnmasobnnam"></a></p>
   </section>
 
   <section id="idL0017phnmntn">
-  <h4 id="idL0017phnmntnH4">notation of phoneme
+  <h4 id="idL0017phnmntnH4">notation of Hmmdphnm
     </h4>
   <p id="idL0017phnmntndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -326,13 +353,13 @@
     <br>[{2021-10-03 retrieved} https://en.wikipedia.org/wiki/International_Phonetic_Alphabet]
     <a class="clsHide" href="#idL0017phnmntndsn"></a></p>
   <p id="idL0017phnmntnnam">name::
-    <br>* McshEngl.phoneme'notation,
+    <br>* McshEngl.Hmmdphnm'notation,
     <br>* McshEngl.phnmHumn'notation,
     <a class="clsHide" href="#idL0017phnmntnnam"></a></p>
   </section>
 
   <section id="idL0017phnmfrqc">
-  <h4 id="idL0017phnmfrqcH4">frequency of phoneme
+  <h4 id="idL0017phnmfrqcH4">frequency of Hmmdphnm
     </h4>
   <p id="idL0017phnmfrqcdsn">description::
     <br>× Mcsh-creation: {2025-11-30}
@@ -601,12 +628,12 @@
     <a class="clsHide" href="#idL0017phnmfrqcdsn"></a></p>
   <p id="idL0017phnmfrqcnam">name::
     <br>* McshEngl.frequency-of-phonemes,
-    <br>* McshEngl.phoneme'frequency,
+    <br>* McshEngl.Hmmdphnm'frequency,
     <a class="clsHide" href="#idL0017phnmfrqcnam"></a></p>
   </section>
 
   <section id="idL0017phnmirsc">
-  <h4 id="idL0017phnmirscH4">info-resource of phoneme
+  <h4 id="idL0017phnmirscH4">info-resource of Hmmdphnm
     </h4>
   <p id="idL0017phnmirscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -618,21 +645,21 @@
   <p id="idL0017phnmirscnam">name::
     <br>* McshEngl.info-resource--of-phoneme!⇒Phnminfrsc,
     <br>* McshEngl.Phnminfrsc!=info-resource--of-phoneme,
-    <br>* McshEngl.phoneme'info_resource!⇒Phnminfrsc,
+    <br>* McshEngl.Hmmdphnm'info_resource!⇒Phnminfrsc,
     <a class="clsHide" href="#idL0017phnmirscnam"></a></p>
   </section>
 
   <section id="idL0017phnmgstr">
-  <h4 id="idL0017phnmgstrH4">GENERIC-SPECIFIC-TREE of phoneme
+  <h4 id="idL0017phnmgstrH4">GENERIC-SPECIFIC-TREE of Hmmdphnm
     </h4>
   <p id="idL0017phnmgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idL0017phnmgstrdsn"></a></p>
   <p id="idL0017phnmgstrnam">name::
-    <br>* McshEngl.phoneme'generic_specific_tree,
+    <br>* McshEngl.Hmmdphnm'generic_specific_tree,
     <a class="clsHide" href="#idL0017phnmgstrnam"></a></p>
   <p id="idL0017phnmgntr">generic-tree::
-    <br>* McshEngl.phoneme:generic,
+    <br>* McshEngl.Hmmdphnm:generic,
     <br>===
     <br>* main-name-unit--of-lagHmnm!@McshLag000007#idLHmnmuntNmMn,
     <br>* Hmmdunit:generic,
@@ -640,34 +667,34 @@
     <br>* ...entity:generic,
     <a class="clsHide" href="#idL0017phnmgntr"></a></p>
   <p id="idL0017phnmsptr">specific-tree::
-    <br>* McshEngl.phoneme.specific,
+    <br>* McshEngl.Hmmdphnm.specific,
     <br>===
-    <br>* phoneme.Sqipphnm!@McshStn000039#idLSqipunitPhnm,
-    <br>* phoneme.Zhon_phnm!@McshLag000018#idLZhonphnm,
-    <br>* phoneme.Engl_phnm!@McshLag000011#idLEnglphnm,
-    <br>* phoneme.EspoPhnm!@McshLag000012#idLEspophnm,
-    <br>* phoneme.FracPhnm!@McshStn000037#idLFracunitPhnm,
+    <br>* Hmmdphnm.Sqipphnm!@McshStn000039#idLSqipunitPhnm,
+    <br>* Hmmdphnm.Zhonphnm!@McshLag000018#idLZhonphnm,
+    <br>* Hmmdphnm.Englphnm!@McshLag000011#idLEnglphnm,
+    <br>* Hmmdphnm.Espophnm!@McshLag000012#idLEspophnm,
+    <br>* Hmmdphnm.Fracphnm!@McshStn000037#idLFracunitPhnm,
     <br>* phoneme-of-Deutlago!@McshLag000033#idLDeutphnm,
-    <br>* phoneme.phonemeEll0!@McshLag000028#idLEll0phnm,
-    <br>* phoneme.Ella_phnm!@McshLag000027#idLEllaphnm,
-    <br>* phoneme.ItlnPhnm!@McshStn000035#idLItlnunitPhnm,
-    <br>* phoneme.Sngu_phnm!@McshLag000010#idL0014phnm,
-    <br>* phoneme.SbulPhnm!@McshStn000038#idSbulunitPhnm,
-    <br>* phoneme.TurkPhnm!@McshLag000030#idLTurkphnm,
-    <br>* phoneme.VnmaPhnm!@McshStn000034#idLVnmaunitPhnm,
+    <br>* Hmmdphnm.Ell0phnm!@McshLag000028#idLEll0phnm,
+    <br>* Hmmdphnm.Ellaphnm!@McshLag000027#idLEllaphnm,
+    <br>* Hmmdphnm.Itlnphnm!@McshStn000035#idLItlnunitPhnm,
+    <br>* Hmmdphnm.Snguphnm!@McshLag000010#idL0014phnm,
+    <br>* Hmmdphnm.Sbulphnm!@McshStn000038#idSbulunitPhnm,
+    <br>* Hmmdphnm.Turkphnm!@McshLag000030#idLTurkphnm,
+    <br>* Hmmdphnm.Vnmaphnm!@McshStn000034#idLVnmaunitPhnm,
     <br>===
-    <br>* phoneme.phoneSpch!@McshLag000009#idL0017phnmPhn,
+    <br>* Hmmdphnm.phoneSpch!@McshLag000009#idL0017phnmPhn,
     <br>* allophone!@McshLag000009#idL0017phnmAlfn,
     <br>===
     <br>* aggregate!@McshLag000009#idL0017phnmAgg,
     <br>=== on airstream-obstruction:
-    <br>* phoneme.VowlPhnm!@McshLag000009#idL0017phnmVwl,
-    <br>* phoneme.Consphnm!@McshLag000009#idL0017phnmVwlN,
-    <br>* phoneme.PhnmSemivowl!@McshLag000009#idL0017phnmVwlB,
+    <br>* Hmmdphnm.HmmdphnmVowl!@McshLag000009#idL0017phnmVwl,
+    <br>* Hmmdphnm.HmmdphnmCons!@McshLag000009#idL0017phnmVwlN,
+    <br>* Hmmdphnm.PhnmSemivowl!@McshLag000009#idL0017phnmVwlB,
     <a class="clsHide" href="#idL0017phnmsptr"></a></p>
 
   <section id="idL0017phnmScdnLag">
-  <h5 id="idL0017phnmScdnLagH5">phoneme.Specsdiv.language of speech
+  <h5 id="idL0017phnmScdnLagH5">Hmmdphnm.Specsdiv.language of speech
     </h5>
   <p id="idL0017phnmScdnLagdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -686,13 +713,13 @@
     <br>* <a class="clsPreview" href="../dirStn/McshStn000034.last.html#idLVnmaunitPhnm">Vietnamese-phoneme(44)</a>,
     <a class="clsHide" href="#idL0017phnmScdnLagdsn"></a></p>
   <p id="idL0017phnmScdnLagnam">name::
-    <br>* McshEngl.phoneme.Specsdiv.language,
+    <br>* McshEngl.Hmmdphnm.Specsdiv.language,
     <br>* McshEngl.speech'phoneme.Specsdiv.language,
     <a class="clsHide" href="#idL0017phnmScdnLagnam"></a></p>
   </section>
 
   <section id="idL0017phnmScdnObrn">
-  <h5 id="idL0017phnmScdnObrnH5">phoneme.Specsdiv.obstruction of speech
+  <h5 id="idL0017phnmScdnObrnH5">Hmmdphnm.Specsdiv.obstruction of speech
     </h5>
   <p id="idL0017phnmScdnObrndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -702,14 +729,14 @@
     <br>* <a class="clsPreview" href="#idL0017phnmVwlB">vowelBo-phoneme-(semivowel)</a>,
     <a class="clsHide" href="#idL0017phnmScdnObrndsn"></a></p>
   <p id="idL0017phnmScdnObrnnam">name::
-    <br>* McshEngl.phoneme.Specsdiv.airstream_obstruction,
+    <br>* McshEngl.Hmmdphnm.Specsdiv.airstream_obstruction,
     <br>* McshEngl.speech'phoneme.Specsdiv.obstruction,
     <a class="clsHide" href="#idL0017phnmScdnObrnnam"></a></p>
   </section>
   </section>
 
   <section id="idL0017phnmAgg">
-  <h4 id="idL0017phnmAggH4">phoneme.aggregate of speech
+  <h4 id="idL0017phnmAggH4">Hmmdphnm.aggregate of speech
     </h4>
   <p id="idL0017phnmAggdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -717,13 +744,13 @@
     <br>[ΠΕΤΡΟΥΝΙΑΣ, ΕΥΑΓΓΕΛΟΣ. ΝΕΟΕΛΛΗΝΙΚΗ ΓΡΑΜΜΑΤΙΚΗ &amp; ΣΥΓΚΡΙΤΙΚΗ ΑΝΑΛΥΣΗ Α'. ΘΕΣΣΑΛΟΝΙΚΗ, 1984]
     <a class="clsHide" href="#idL0017phnmAggdsn"></a></p>
   <p id="idL0017phnmAggnam">name::
-    <br>* McshEngl.phoneme.aggregate,
+    <br>* McshEngl.Hmmdphnm.aggregate,
     <br>* McshEngl.speech'phoneme.aggregate,
     <a class="clsHide" href="#idL0017phnmAggnam"></a></p>
   </section>
 
   <section id="idL0017phnmAlfn">
-  <h4 id="idL0017phnmAlfnH4">phoneme.allophone of speech
+  <h4 id="idL0017phnmAlfnH4">Hmmdphnm.allophone of speech
     </h4>
   <p id="idL0017phnmAlfndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -733,13 +760,13 @@
   <p id="idL0017phnmAlfnnam">name::
     <br>* McshEngl.allophone-of-Spchlago,
     <br>* McshEngl.Spchlago'allophone,
-    <br>* McshEngl.phoneme.allophone,
+    <br>* McshEngl.Hmmdphnm.allophone,
     <br>* McshEngl.speech'phoneme.allophone,
     <a class="clsHide" href="#idL0017phnmAlfnnam"></a></p>
   </section>
 
   <section id="idL0017phnmPhn">
-  <h4 id="idL0017phnmPhnH4">phoneme.phone of speech
+  <h4 id="idL0017phnmPhnH4">Hmmdphnm.phone of speech
     </h4>
   <p id="idL0017phnmPhndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -751,7 +778,7 @@
     <br>* McshEngl.individual-phoneme--of-Spchlago!⇒phoneSpch,
     <br>* McshEngl.Spchlago'phone!⇒phoneSpch,
     <br>* McshEngl.Spchlago-phone!⇒phoneSpch,
-    <br>* McshEngl.phoneme.phone!⇒phoneSpch,
+    <br>* McshEngl.Hmmdphnm.phone!⇒phoneSpch,
     <br>* McshEngl.phone-of-Spchlago!⇒phoneSpch,
     <br>* McshEngl.phone//speech!⇒phoneSpch,
     <br>* McshEngl.speech-sound--of-Spchlago!⇒phoneSpch,
@@ -774,7 +801,7 @@
   <p id="idL0017phnmPhngntr">generic-tree::
     <br>* McshEngl.phoneSpch:generic,
     <br>===
-    <br>* phoneme:generic,
+    <br>* Hmmdphnm:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idL0017phnmPhngntr"></a></p>
   <p id="idL0017phnmPhnsptr">specific-tree::
@@ -801,7 +828,7 @@
     <br>* McshEngl.IPA!=international-phonetic-alphabet,
     <br>* McshEngl.SpchviewSpeech'phoneSpch.IPA!⇒IPA,
     <br>* McshEngl.phoneSpch.IPA!⇒IPA,
-    <br>* McshEngl.phoneme.IPA!=phoneme.[]!=IPA.char|codepoint!⇒IPA,
+    <br>* McshEngl.Hmmdphnm.IPA!=phoneme.[]!=IPA.char|codepoint!⇒IPA,
     <br>====== lagoGreek:
     <br>* McshElln.ΔΦΑ!=Διεθνές-Φωνητικό-Αλφάβητο!⇒IPA,
     <br>* McshElln.Διεθνές-Φωνητικό-Αλφάβητο!⇒IPA,
@@ -871,30 +898,31 @@
   </section>
 
   <section id="idL0017phnmVwl">
-  <h4 id="idL0017phnmVwlH4">phoneme.vowel of speech
+  <h4 id="idL0017phnmVwlH4">Hmmdphnm.vowel of speech
     </h4>
   <p id="idL0017phnmVwldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· <span class="clsColorRed">vowel of Spchlago</span> is <a class="clsPreview" href="#idL0017phnm">a-phoneme</a> without <a class="clsPreview" href="#idL0017phnmasobn">airstream-obstruction</a>.
     <a class="clsHide" href="#idL0017phnmVwldsn"></a></p>
   <p id="idL0017phnmVwlnam">name::
-    <br>* McshEngl.vowel-phoneme!⇒VowlPhnm,
-    <br>* McshEngl.VowlPhnm!=vowel-phoneme,
-    <br>* McshEngl.phoneme.vowel!⇒VowlPhnm,
-    <br>* McshEngl.phnmVowel!⇒VowlPhnm,
-    <br>* McshEngl.Spchlago-vowel!⇒VowlPhnm,
-    <br>* McshEngl.speech-vowel--of-Spchlago!⇒VowlPhnm,
-    <br>* McshEngl.vowel-of-Spchlago!⇒VowlPhnm,
-    <br>* McshEngl.vowelOrlHumn!⇒VowlPhnm,
-    <br>* McshEngl.vowelPhmHumn!⇒VowlPhnm,
-    <br>* McshEngl.speech'phoneme.vowel!⇒VowlPhnm,
+    <br>* McshEngl.vowel-phoneme!⇒HmmdphnmVowl,
+    <br>* McshEngl.HmmdphnmVowl!=vowel-phoneme,
+    <br>* McshEngl.VowlPhnm!⇒HmmdphnmVowl,
+    <br>* McshEngl.Hmmdphnm.vowel!⇒HmmdphnmVowl,
+    <br>* McshEngl.phnmVowel!⇒HmmdphnmVowl,
+    <br>* McshEngl.Spchlago-vowel!⇒HmmdphnmVowl,
+    <br>* McshEngl.speech-vowel--of-Spchlago!⇒HmmdphnmVowl,
+    <br>* McshEngl.vowel-of-Spchlago!⇒HmmdphnmVowl,
+    <br>* McshEngl.vowelOrlHumn!⇒HmmdphnmVowl,
+    <br>* McshEngl.vowelPhmHumn!⇒HmmdphnmVowl,
+    <br>* McshEngl.speech'phoneme.vowel!⇒HmmdphnmVowl,
     <br>====== lagoGreek:
-    <br>* McshElln.φωνήεν-ομιλίας!το!⇒VowlPhnm,
-    <br>* McshElln.φωνήενΠρφκ!το!⇒VowlPhnm,
+    <br>* McshElln.φωνήεν-ομιλίας!το!⇒HmmdphnmVowl,
+    <br>* McshElln.φωνήενΠρφκ!το!⇒HmmdphnmVowl,
     <a class="clsHide" href="#idL0017phnmVwlnam"></a></p>
 
   <section id="idL0017phnmVwltgpn">
-  <h5 id="idL0017phnmVwltgpnH5">11_01-02-03) front-central-back|horizontal-1-2-3 of VowlPhnm
+  <h5 id="idL0017phnmVwltgpnH5">11_01-02-03) front-central-back|horizontal-1-2-3 of HmmdphnmVowl
     </h5>
   <p id="idL0017phnmVwltgpndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -905,22 +933,22 @@
     <br>[HumnSngu.{2025-07-27}]
     <a class="clsHide" href="#idL0017phnmVwltgpndsn"></a></p>
   <p id="idL0017phnmVwltgpnnam">name::
-    <br>* McshEngl.VowlPhnm.01_front,
-    <br>* McshEngl.VowlPhnm.02_central,
-    <br>* McshEngl.VowlPhnm.03_back,
-    <br>* McshEngl.VowlPhnm.front_01,
-    <br>* McshEngl.VowlPhnm.central_02,
-    <br>* McshEngl.VowlPhnm.back_03,
-    <br>* McshEngl.VowlPhnm'backness,
-    <br>* McshEngl.VowlPhnm'frontness,
-    <br>* McshEngl.VowlPhnm'horizontal_axis,
-    <br>* McshEngl.VowlPhnm'position,
-    <br>* McshEngl.VowlPhnm'tongue_position,
+    <br>* McshEngl.HmmdphnmVowl.01_front,
+    <br>* McshEngl.HmmdphnmVowl.02_central,
+    <br>* McshEngl.HmmdphnmVowl.03_back,
+    <br>* McshEngl.HmmdphnmVowl.front_01,
+    <br>* McshEngl.HmmdphnmVowl.central_02,
+    <br>* McshEngl.HmmdphnmVowl.back_03,
+    <br>* McshEngl.HmmdphnmVowl'backness,
+    <br>* McshEngl.HmmdphnmVowl'frontness,
+    <br>* McshEngl.HmmdphnmVowl'horizontal_axis,
+    <br>* McshEngl.HmmdphnmVowl'position,
+    <br>* McshEngl.HmmdphnmVowl'tongue_position,
     <a class="clsHide" href="#idL0017phnmVwltgpnnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwllpon">
-  <h5 id="idL0017phnmVwllponH5">12_04-05-06) closed-mid-opened|vertical of VowlPhnm
+  <h5 id="idL0017phnmVwllponH5">12_04-05-06) closed-mid-opened|vertical of HmmdphnmVowl
     </h5>
   <p id="idL0017phnmVwllpondsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -938,22 +966,22 @@
     <br>* open-6, (open)
     <a class="clsHide" href="#idL0017phnmVwllpondsn"></a></p>
   <p id="idL0017phnmVwllponnam">name::
-    <br>* McshEngl.VowlPhnm.04_closed,
-    <br>* McshEngl.VowlPhnm.05_mid_closed,
-    <br>* McshEngl.VowlPhnm.06_opened,
-    <br>* McshEngl.VowlPhnm.closed_04,
-    <br>* McshEngl.VowlPhnm.mid_closed_05,
-    <br>* McshEngl.VowlPhnm.opened_06,
-    <br>* McshEngl.VowlPhnm'closeness,
-    <br>* McshEngl.VowlPhnm'hight,
-    <br>* McshEngl.VowlPhnm'lip_openess,
-    <br>* McshEngl.VowlPhnm'openess,
-    <br>* McshEngl.VowlPhnm'vertical_axis,
+    <br>* McshEngl.HmmdphnmVowl.04_closed,
+    <br>* McshEngl.HmmdphnmVowl.05_mid_closed,
+    <br>* McshEngl.HmmdphnmVowl.06_opened,
+    <br>* McshEngl.HmmdphnmVowl.closed_04,
+    <br>* McshEngl.HmmdphnmVowl.mid_closed_05,
+    <br>* McshEngl.HmmdphnmVowl.opened_06,
+    <br>* McshEngl.HmmdphnmVowl'closeness,
+    <br>* McshEngl.HmmdphnmVowl'hight,
+    <br>* McshEngl.HmmdphnmVowl'lip_openess,
+    <br>* McshEngl.HmmdphnmVowl'openess,
+    <br>* McshEngl.HmmdphnmVowl'vertical_axis,
     <a class="clsHide" href="#idL0017phnmVwllponnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwllprd">
-  <h5 id="idL0017phnmVwllprdH5">13_07-08) unround-round-1-2 of VowlPhnm
+  <h5 id="idL0017phnmVwllprdH5">13_07-08) unround-round-1-2 of HmmdphnmVowl
     </h5>
   <p id="idL0017phnmVwllprddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -964,17 +992,17 @@
     <br>* round-8,
     <a class="clsHide" href="#idL0017phnmVwllprddsn"></a></p>
   <p id="idL0017phnmVwllprdnam">name::
-    <br>* McshEngl.VowlPhnm.07_unround,
-    <br>* McshEngl.VowlPhnm.08_round,
-    <br>* McshEngl.VowlPhnm.unround_07,
-    <br>* McshEngl.VowlPhnm.round_08,
-    <br>* McshEngl.VowlPhnm'lip_roundness,
-    <br>* McshEngl.VowlPhnm'roundness,
+    <br>* McshEngl.HmmdphnmVowl.07_unround,
+    <br>* McshEngl.HmmdphnmVowl.08_round,
+    <br>* McshEngl.HmmdphnmVowl.unround_07,
+    <br>* McshEngl.HmmdphnmVowl.round_08,
+    <br>* McshEngl.HmmdphnmVowl'lip_roundness,
+    <br>* McshEngl.HmmdphnmVowl'roundness,
     <a class="clsHide" href="#idL0017phnmVwllprdnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlnsl">
-  <h5 id="idL0017phnmVwlnslH5">09_nasal_1_2 of VowlPhnm
+  <h5 id="idL0017phnmVwlnslH5">09_nasal_1_2 of HmmdphnmVowl
     </h5>
   <p id="idL0017phnmVwlnsldsn">description::
     <br>× Mcsh-creation: {2025-03-03}
@@ -985,15 +1013,15 @@
     <br>[HumnSngu.{2025-07-27}]
     <a class="clsHide" href="#idL0017phnmVwlnsldsn"></a></p>
   <p id="idL0017phnmVwlnslnam">name::
-    <br>* McshEngl.VowlPhnm.09_nasal,
-    <br>* McshEngl.VowlPhnm.nasal_09,
-    <br>* McshEngl.VowlPhnm'nasal,
-    <br>* McshEngl.VowlPhnm'09_nasal_1_2,
+    <br>* McshEngl.HmmdphnmVowl.09_nasal,
+    <br>* McshEngl.HmmdphnmVowl.nasal_09,
+    <br>* McshEngl.HmmdphnmVowl'nasal,
+    <br>* McshEngl.HmmdphnmVowl'09_nasal_1_2,
     <a class="clsHide" href="#idL0017phnmVwlnslnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlaprn">
-  <h5 id="idL0017phnmVwlaprnH5">10_aspirated_1_2 of VowlPhnm
+  <h5 id="idL0017phnmVwlaprnH5">10_aspirated_1_2 of HmmdphnmVowl
     </h5>
   <p id="idL0017phnmVwlaprndsn">description::
     <br>× Mcsh-creation: {2025-05-06}
@@ -1004,16 +1032,16 @@
     <br>[HumnSngu.{2025-07-27}]
     <a class="clsHide" href="#idL0017phnmVwlaprndsn"></a></p>
   <p id="idL0017phnmVwlaprnnam">name::
-    <br>* McshEngl.aspirated-VowlPhnm,
-    <br>* McshEngl.VowlPhnm.10_aspirated,
-    <br>* McshEngl.VowlPhnm.aspirated_10,
-    <br>* McshEngl.VowlPhnm'aspiration,
-    <br>* McshEngl.VowlPhnm'10_aspirated_1_2,
+    <br>* McshEngl.aspirated-HmmdphnmVowl,
+    <br>* McshEngl.HmmdphnmVowl.10_aspirated,
+    <br>* McshEngl.HmmdphnmVowl.aspirated_10,
+    <br>* McshEngl.HmmdphnmVowl'aspiration,
+    <br>* McshEngl.HmmdphnmVowl'10_aspirated_1_2,
     <a class="clsHide" href="#idL0017phnmVwlaprnnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlshtn">
-  <h5 id="idL0017phnmVwlshtnH5">14_11-12) short-long of VowlPhnm
+  <h5 id="idL0017phnmVwlshtnH5">14_11-12) short-long of HmmdphnmVowl
     </h5>
   <p id="idL0017phnmVwlshtndsn">description::
     <br>× Mcsh-creation: {2025-02-17}
@@ -1029,17 +1057,17 @@
     <br>· 5 back-unrounded: ơ|â, a|ă, (mid|short, open|short),
     <a class="clsHide" href="#idL0017phnmVwlshtndsn"></a></p>
   <p id="idL0017phnmVwlshtnnam">name::
-    <br>* McshEngl.VowlPhnm.11_short,
-    <br>* McshEngl.VowlPhnm.12_long,
-    <br>* McshEngl.VowlPhnm.short_11,
-    <br>* McshEngl.VowlPhnm.long_12,
-    <br>* McshEngl.VowlPhnm'longness_shortness,
-    <br>* McshEngl.VowlPhnm'shortness_longness,
+    <br>* McshEngl.HmmdphnmVowl.11_short,
+    <br>* McshEngl.HmmdphnmVowl.12_long,
+    <br>* McshEngl.HmmdphnmVowl.short_11,
+    <br>* McshEngl.HmmdphnmVowl.long_12,
+    <br>* McshEngl.HmmdphnmVowl'longness_shortness,
+    <br>* McshEngl.HmmdphnmVowl'shortness_longness,
     <a class="clsHide" href="#idL0017phnmVwlshtnnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlirsc">
-  <h5 id="idL0017phnmVwlirscH5">info-resource of VowlPhnm
+  <h5 id="idL0017phnmVwlirscH5">info-resource of HmmdphnmVowl
     </h5>
   <p id="idL0017phnmVwlirscdsn">description::
     <br>× Mcsh-creation: {2025-02-24}
@@ -1047,14 +1075,15 @@
     <br>* Vowel Pronunciation Tutorial • IPA: https://www.youtube.com/watch?v=tpR5GdKXpGc,
     <a class="clsHide" href="#idL0017phnmVwlirscdsn"></a></p>
   <p id="idL0017phnmVwlirscnam">name::
-    <br>* McshEngl.info-resource--of-VowlPhnm!⇒VowlPhnminfrsc,
-    <br>* McshEngl.VowlPhnminfrsc!=info-resource--of-VowlPhnm,
-    <br>* McshEngl.VowlPhnm'info_resource!⇒VowlPhnminfrsc,
+    <br>* McshEngl.info-resource--of-HmmdphnmVowl!⇒HmmdphnmVowlinfrsc,
+    <br>* McshEngl.HmmdphnmVowlinfrsc!=info-resource--of-HmmdphnmVowl,
+    <br>* McshEngl.VowlPhnminfrsc!⇒HmmdphnmVowlinfrsc,
+    <br>* McshEngl.HmmdphnmVowl'info_resource!⇒HmmdphnmVowlinfrsc,
     <a class="clsHide" href="#idL0017phnmVwlirscnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlevog">
-  <h5 id="idL0017phnmVwlevogH5">evoluting of VowlPhnm
+  <h5 id="idL0017phnmVwlevogH5">evoluting of HmmdphnmVowl
     </h5>
   <p id="idL0017phnmVwlevogdsn">description::
     <br>× Mcsh-creation: {2025-07-29}
@@ -1165,29 +1194,30 @@
     <br>[{2025-07-29 retrieved} https://x.com/i/grok?conversation=1950147588193153302]
     <a class="clsHide" href="#idL0017phnmVwlevogdsn"></a></p>
   <p id="idL0017phnmVwlevognam">name::
-    <br>* McshEngl.evoluting-of-VowlPhnm!⇒VowlPhnmevolg,
-    <br>* McshEngl.VowlPhnmevolg!=evoluting-of-VowlPhnm,
-    <br>* McshEngl.VowlPhnm'evoluting!⇒VowlPhnmevolg,
+    <br>* McshEngl.evoluting-of-HmmdphnmVowl!⇒HmmdphnmVowlevolg,
+    <br>* McshEngl.HmmdphnmVowlevolg!=evoluting-of-HmmdphnmVowl,
+    <br>* McshEngl.VowlPhnmevolg!⇒HmmdphnmVowlevolg,
+    <br>* McshEngl.HmmdphnmVowl'evoluting!⇒HmmdphnmVowlevolg,
     <a class="clsHide" href="#idL0017phnmVwlevognam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlgstr">
-  <h5 id="idL0017phnmVwlgstrH5">GENERIC-SPECIFIC-TREE of VowlPhnm
+  <h5 id="idL0017phnmVwlgstrH5">GENERIC-SPECIFIC-TREE of HmmdphnmVowl
     </h5>
   <p id="idL0017phnmVwlgstrdsn">description::
     <br>× Mcsh-creation: {2025-03-10}
     <a class="clsHide" href="#idL0017phnmVwlgstrdsn"></a></p>
   <p id="idL0017phnmVwlgstrnam">name::
-    <br>* McshEngl.VowlPhnm'generic_specific_tree,
+    <br>* McshEngl.HmmdphnmVowl'generic_specific_tree,
     <a class="clsHide" href="#idL0017phnmVwlgstrnam"></a></p>
   <p id="idL0017phnmVwlgntr">generic-tree::
-    <br>* McshEngl.VowlPhnm:generic,
+    <br>* McshEngl.HmmdphnmVowl:generic,
     <br>===
-    <br>* phoneme:generic,
+    <br>* Hmmdphnm:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idL0017phnmVwlgntr"></a></p>
   <p id="idL0017phnmVwlsptr">specific-tree::
-    <br>* McshEngl.VowlPhnm.specific,
+    <br>* McshEngl.HmmdphnmVowl.specific,
     <br>===
     <br>
     <br>* https://en.wikipedia.org/wiki/IPA_vowel_chart_with_audio,
@@ -1195,7 +1225,7 @@
   </section>
 
   <section id="idL0017phnmVwlAgg">
-  <h5 id="idL0017phnmVwlAggH5">VowlPhnm.aggregate
+  <h5 id="idL0017phnmVwlAggH5">HmmdphnmVowl.aggregate
     </h5>
   <div id="idL0017phnmVwlAggdsn">
     <p>description::
@@ -1232,12 +1262,12 @@
     </p>
     <a class="clsHide" href="#idL0017phnmVwlAggdsn"></a></div>
   <p id="idL0017phnmVwlAggnam">name::
-    <br>* McshEngl.VowlPhnm.aggregate,
+    <br>* McshEngl.HmmdphnmVowl.aggregate,
     <a class="clsHide" href="#idL0017phnmVwlAggnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlA">
-  <h5 id="idL0017phnmVwlAH5">VowlPhnm./a/-(26-central-open)
+  <h5 id="idL0017phnmVwlAH5">HmmdphnmVowl./a/-(26-central-open)
     </h5>
   <p id="idL0017phnmVwlAdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1249,18 +1279,18 @@
     <a class="clsHide" href="#idL0017phnmVwlAdsn"></a></p>
   <p id="idL0017phnmVwlAnam">name::
     <br>* McshEngl./v26/_/a/_(central_open),
-    <br>* McshEngl.VowlPhnm./a/_(26_central_open),
+    <br>* McshEngl.HmmdphnmVowl./a/_(26_central_open),
     <br>* McshEngl./a/-(26-central-open),
     <br>* McshEngl.Spchlago'a-(26-central-open),
     <br>* McshEngl.Spchlago-open-vowel,
     <br>* McshEngl.phoneme./a/-(26-central-open),
-    <br>* McshEngl.VowlPhnm./a/-(26-central-open),
-    <br>* McshEngl.VowlPhnm.central_open_a,
+    <br>* McshEngl.HmmdphnmVowl./a/-(26-central-open),
+    <br>* McshEngl.HmmdphnmVowl.central_open_a,
     <a class="clsHide" href="#idL0017phnmVwlAnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlA5">
-  <h5 id="idL0017phnmVwlA5H5">VowlPhnm./a5/-(mid)-[ə]
+  <h5 id="idL0017phnmVwlA5H5">HmmdphnmVowl./a5/-(mid)-[ə]
     </h5>
   <p id="idL0017phnmVwlA5dsn">description::
     <br>× Mcsh-creation: {2025-03-05}
@@ -1273,21 +1303,21 @@
     <a class="clsHide" href="#idL0017phnmVwlA5dsn"></a></p>
   <p id="idL0017phnmVwlA5nam">name::
     <br>* McshEngl./v25/_/a5/_(cental_mid)_[ə],
-    <br>* McshEngl.VowlPhnm./a5/_(mid)_[ə],
+    <br>* McshEngl.HmmdphnmVowl./a5/_(mid)_[ə],
     <br>* McshEngl./a5/-(a-mid)-[ə],
     <br>* McshEngl.[ə]-/a5/-(a-mid),
     <br>* McshEngl.IPA.ə-/a5/-(a-mid),
     <br>* McshEngl.IPA.601-ə-/a5/-(a-mid),
     <br>* McshEngl.phoneme./a5/-(mid)-[ə],
-    <br>* McshEngl.VowlPhnm./a5/-(mid)-[ə],
-    <br>* McshEngl.VowlPhnm.[ə]-/a5/-(mid),
+    <br>* McshEngl.HmmdphnmVowl./a5/-(mid)-[ə],
+    <br>* McshEngl.HmmdphnmVowl.[ə]-/a5/-(mid),
     <br>* McshEngl.phoneme.[ə]-/a5/-(mid),
     <br>* McshEngl.phoneme.[601-ə]-/a5/-(mid),
     <a class="clsHide" href="#idL0017phnmVwlA5nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlA1">
-  <h5 id="idL0017phnmVwlA1H5">VowlPhnm./a1/-(front)-[æ]
+  <h5 id="idL0017phnmVwlA1H5">HmmdphnmVowl./a1/-(front)-[æ]
     </h5>
   <p id="idL0017phnmVwlA1dsn">description::
     <br>× Mcsh-creation: {2025-03-05}
@@ -1300,20 +1330,20 @@
     <a class="clsHide" href="#idL0017phnmVwlA1dsn"></a></p>
   <p id="idL0017phnmVwlA1nam">name::
     <br>* McshEngl./a1/_(a_front)_[æ],
-    <br>* McshEngl.VowlPhnm./a1/_(front)_[æ],
+    <br>* McshEngl.HmmdphnmVowl./a1/_(front)_[æ],
     <br>* McshEngl.[æ]-/a1/-(a-front),
     <br>* McshEngl./a6/,
     <br>* McshEngl.IPA.æ-/a1/-(a-front),
     <br>* McshEngl.IPA.230-æ-/a1/-(a-front),
     <br>* McshEngl.phoneme./a1/-(front),
-    <br>* McshEngl.phoneme.[æ],
-    <br>* McshEngl.phoneme.[230-æ],
-    <br>* McshEngl.VowlPhnm./a1/-(front),
+    <br>* McshEngl.Hmmdphnm.[æ],
+    <br>* McshEngl.Hmmdphnm.[230-æ],
+    <br>* McshEngl.HmmdphnmVowl./a1/-(front),
     <a class="clsHide" href="#idL0017phnmVwlA1nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlA37">
-  <h5 id="idL0017phnmVwlA37H5">VowlPhnm./a37/-(back-unrounded)-[ʌ]
+  <h5 id="idL0017phnmVwlA37H5">HmmdphnmVowl./a37/-(back-unrounded)-[ʌ]
     </h5>
   <p id="idL0017phnmVwlA37dsn">description::
     <br>× Mcsh-creation: {2026-01-14}
@@ -1325,9 +1355,9 @@
     <a class="clsHide" href="#idL0017phnmVwlA37dsn"></a></p>
   <p id="idL0017phnmVwlA37nam">name::
     <br>* McshEngl./a37/_[ʌ]_(back_unrounded),
-    <br>* McshEngl.VowlPhnm./a37/_(back_unrounded)_[ʌ],
+    <br>* McshEngl.HmmdphnmVowl./a37/_(back_unrounded)_[ʌ],
     <br>* McshEngl.[ʌ]-/a37/-(back-unrounded),
-    <br>* McshEngl.VowlPhnm./a37/-[ʌ]-(back-unrounded),
+    <br>* McshEngl.HmmdphnmVowl./a37/-[ʌ]-(back-unrounded),
     <br>* McshEngl.IPA.ʌ-/a37/-(back-unrounded),
     <br>* McshEngl.IPA.652-ʌ-/a37/-(back-unrounded),
     <br>* McshEngl.phoneme./a37/-[ʌ]-(back-unrounded),
@@ -1337,7 +1367,7 @@
   </section>
 
   <section id="idL0017phnmVwlA9">
-  <h5 id="idL0017phnmVwlA9H5">VowlPhnm./a9/-(nasal)
+  <h5 id="idL0017phnmVwlA9H5">HmmdphnmVowl./a9/-(nasal)
     </h5>
   <p id="idL0017phnmVwlA9dsn">description::
     <br>× Mcsh-creation: {2025-03-03}
@@ -1345,14 +1375,14 @@
     <a class="clsHide" href="#idL0017phnmVwlA9dsn"></a></p>
   <p id="idL0017phnmVwlA9nam">name::
     <br>* McshEngl./a9/_(a_nasal),
-    <br>* McshEngl.VowlPhnm./a9/_(nasal),
+    <br>* McshEngl.HmmdphnmVowl./a9/_(nasal),
     <br>* McshEngl.phoneme./a9/-(nasal),
-    <br>* McshEngl.VowlPhnm.a9-(nasal),
+    <br>* McshEngl.HmmdphnmVowl.a9-(nasal),
     <a class="clsHide" href="#idL0017phnmVwlA9nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlA10">
-  <h5 id="idL0017phnmVwlA10H5">VowlPhnm./a10/-(aspirated)
+  <h5 id="idL0017phnmVwlA10H5">HmmdphnmVowl./a10/-(aspirated)
     </h5>
   <p id="idL0017phnmVwlA10dsn">description::
     <br>× Mcsh-creation: {2025-05-06}
@@ -1360,14 +1390,14 @@
     <a class="clsHide" href="#idL0017phnmVwlA10dsn"></a></p>
   <p id="idL0017phnmVwlA10nam">name::
     <br>* McshEngl./a10/_(aspirated),
-    <br>* McshEngl.VowlPhnm./a10/_(aspirated),
-    <br>* McshEngl.VowlPhnm./a10/-(aspirated),
+    <br>* McshEngl.HmmdphnmVowl./a10/_(aspirated),
+    <br>* McshEngl.HmmdphnmVowl./a10/-(aspirated),
     <br>* McshEngl.phoneme./a10/-(aspirated),
     <a class="clsHide" href="#idL0017phnmVwlA10nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlA0">
-  <h5 id="idL0017phnmVwlA0H5">VowlPhnm./a11/-(short)
+  <h5 id="idL0017phnmVwlA0H5">HmmdphnmVowl./a11/-(short)
     </h5>
   <p id="idL0017phnmVwlA0dsn">description::
     <br>× Mcsh-creation: {2025-03-12}
@@ -1376,14 +1406,14 @@
     <a class="clsHide" href="#idL0017phnmVwlA0dsn"></a></p>
   <p id="idL0017phnmVwlA0nam">name::
     <br>* McshEngl./a11/_(a_short),
-    <br>* McshEngl.VowlPhnm./a11/_(short),
+    <br>* McshEngl.HmmdphnmVowl./a11/_(short),
     <br>* McshEngl.phoneme./a11/-(short),
-    <br>* McshEngl.VowlPhnm./a11/-(short),
+    <br>* McshEngl.HmmdphnmVowl./a11/-(short),
     <a class="clsHide" href="#idL0017phnmVwlA0nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlAA">
-  <h5 id="idL0017phnmVwlAAH5">VowlPhnm./a12/-(long)
+  <h5 id="idL0017phnmVwlAAH5">HmmdphnmVowl./a12/-(long)
     </h5>
   <p id="idL0017phnmVwlAAdsn">description::
     <br>× Mcsh-creation: {2025-02-23}
@@ -1392,14 +1422,14 @@
     <a class="clsHide" href="#idL0017phnmVwlAAdsn"></a></p>
   <p id="idL0017phnmVwlAAnam">name::
     <br>* McshEngl./a12/_a_(long),
-    <br>* McshEngl.VowlPhnm./a12/_(long),
+    <br>* McshEngl.HmmdphnmVowl./a12/_(long),
     <br>* McshEngl.phoneme./a12/-(long),
-    <br>* McshEngl.VowlPhnm./a12/-(long),
+    <br>* McshEngl.HmmdphnmVowl./a12/-(long),
     <a class="clsHide" href="#idL0017phnmVwlAAnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlE">
-  <h5 id="idL0017phnmVwlEH5">VowlPhnm./e/-(15-front-mid)
+  <h5 id="idL0017phnmVwlEH5">HmmdphnmVowl./e/-(15-front-mid)
     </h5>
   <p id="idL0017phnmVwlEdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1409,18 +1439,18 @@
     <a class="clsHide" href="#idL0017phnmVwlEdsn"></a></p>
   <p id="idL0017phnmVwlEnam">name::
     <br>* McshEngl./v14/_/e/_(front_mid),
-    <br>* McshEngl.VowlPhnm./e/_(15_front_mid),
+    <br>* McshEngl.HmmdphnmVowl./e/_(15_front_mid),
     <br>* McshEngl./e/-(15-front-mid),
     <br>* McshEngl.Spchlago'e-(15-front-mid),
     <br>* McshEngl.Spchlago-front-openMid-vowel,
     <br>* McshEngl.phoneme./e/-(15-front-mid),
-    <br>* McshEngl.VowlPhnm./e/-(15-front-mid),
-    <br>* McshEngl.VowlPhnm.front_mid_e,
+    <br>* McshEngl.HmmdphnmVowl./e/-(15-front-mid),
+    <br>* McshEngl.HmmdphnmVowl.front_mid_e,
     <a class="clsHide" href="#idL0017phnmVwlEnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlEE">
-  <h5 id="idL0017phnmVwlEEH5">VowlPhnm./e12/-(long)
+  <h5 id="idL0017phnmVwlEEH5">HmmdphnmVowl./e12/-(long)
     </h5>
   <p id="idL0017phnmVwlEEdsn">description::
     <br>× Mcsh-creation: {2025-02-23}
@@ -1428,14 +1458,14 @@
     <a class="clsHide" href="#idL0017phnmVwlEEdsn"></a></p>
   <p id="idL0017phnmVwlEEnam">name::
     <br>* McshEngl./e12/_e_(long),
-    <br>* McshEngl.VowlPhnm./e12/_(long),
+    <br>* McshEngl.HmmdphnmVowl./e12/_(long),
     <br>* McshEngl.phoneme./e12/-(long),
-    <br>* McshEngl.VowlPhnm./e12/-(long),
+    <br>* McshEngl.HmmdphnmVowl./e12/-(long),
     <a class="clsHide" href="#idL0017phnmVwlEEnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlE6">
-  <h5 id="idL0017phnmVwlE6H5">VowlPhnm./e6/-(open)-[ɛ]
+  <h5 id="idL0017phnmVwlE6H5">HmmdphnmVowl./e6/-(open)-[ɛ]
     </h5>
   <p id="idL0017phnmVwlE6dsn">description::
     <br>× Mcsh-creation: {2025-02-17}
@@ -1448,20 +1478,20 @@
     <a class="clsHide" href="#idL0017phnmVwlE6dsn"></a></p>
   <p id="idL0017phnmVwlE6nam">name::
     <br>* McshEngl./e6/_(open)_[ɛ],
-    <br>* McshEngl.VowlPhnm./e6/_(open)_[ɛ],
+    <br>* McshEngl.HmmdphnmVowl./e6/_(open)_[ɛ],
     <br>* McshEngl.[ɛ]-/e6/-(open),
     <br>* McshEngl.IPA.ɛ-/e6/-(open),
     <br>* McshEngl.IPA.603-ɛ-/e6/-(open),
     <br>* McshEngl.phoneme./e6/-(open)-[ɛ],
     <br>* McshEngl.phoneme.[ɛ]-/e6/-(open),
     <br>* McshEngl.phoneme.[603-ɛ]-/e6/-(open),
-    <br>* McshEngl.VowlPhnm./e6/-(open)-[ɛ],
-    <br>* McshEngl.VowlPhnm.[ɛ]-/e6/-(open),
+    <br>* McshEngl.HmmdphnmVowl./e6/-(open)-[ɛ],
+    <br>* McshEngl.HmmdphnmVowl.[ɛ]-/e6/-(open),
     <a class="clsHide" href="#idL0017phnmVwlE6nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlE8">
-  <h5 id="idL0017phnmVwlE8H5">VowlPhnm./e8/-[ø]-(round)
+  <h5 id="idL0017phnmVwlE8H5">HmmdphnmVowl./e8/-[ø]-(round)
     </h5>
   <p id="idL0017phnmVwlE8dsn">description::
     <br>× Mcsh-creation: {2025-02-23}
@@ -1475,19 +1505,19 @@
     <a class="clsHide" href="#idL0017phnmVwlE8dsn"></a></p>
   <p id="idL0017phnmVwlE8nam">name::
     <br>* McshEngl.[ø]_/e8/_(round),
-    <br>* McshEngl.VowlPhnm./e8/_[ø]_(round),
+    <br>* McshEngl.HmmdphnmVowl./e8/_[ø]_(round),
     <br>* McshEngl./e8/-[ø]-(round),
     <br>* McshEngl.IPA.ø-/e8/-(round),
     <br>* McshEngl.IPA.248-ø-/e8/-(round),
     <br>* McshEngl.phoneme./e8/-[ø]-(round),
     <br>* McshEngl.phoneme.[ø]-/e8/-(round),
     <br>* McshEngl.phoneme.[248-ø]-/e8/-(round),
-    <br>* McshEngl.VowlPhnm./e8/-[ø]-(round),
+    <br>* McshEngl.HmmdphnmVowl./e8/-[ø]-(round),
     <a class="clsHide" href="#idL0017phnmVwlE8nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlE9">
-  <h5 id="idL0017phnmVwlE9H5">VowlPhnm./e9/-(nasal)
+  <h5 id="idL0017phnmVwlE9H5">HmmdphnmVowl./e9/-(nasal)
     </h5>
   <p id="idL0017phnmVwlE9dsn">description::
     <br>× Mcsh-creation: {2025-03-03}
@@ -1497,14 +1527,14 @@
     <a class="clsHide" href="#idL0017phnmVwlE9dsn"></a></p>
   <p id="idL0017phnmVwlE9nam">name::
     <br>* McshEngl./e9/_(nasal),
-    <br>* McshEngl.VowlPhnm./e9/_(nasal),
+    <br>* McshEngl.HmmdphnmVowl./e9/_(nasal),
     <br>* McshEngl.phoneme./e9/-(nasal),
-    <br>* McshEngl.VowlPhnm./e9/-(nasal),
+    <br>* McshEngl.HmmdphnmVowl./e9/-(nasal),
     <a class="clsHide" href="#idL0017phnmVwlE9nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlI">
-  <h5 id="idL0017phnmVwlIH5">VowlPhnm./i/-(14-front-closed)
+  <h5 id="idL0017phnmVwlIH5">HmmdphnmVowl./i/-(14-front-closed)
     </h5>
   <p id="idL0017phnmVwlIdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1515,18 +1545,18 @@
     <a class="clsHide" href="#idL0017phnmVwlIdsn"></a></p>
   <p id="idL0017phnmVwlInam">name::
     <br>* McshEngl./v14/_/i/_(front_closed),
-    <br>* McshEngl.VowlPhnm./i/_(14_front_closed),
+    <br>* McshEngl.HmmdphnmVowl./i/_(14_front_closed),
     <br>* McshEngl./i/-(14-front-closed),
     <br>* McshEngl.Spchlago'i-(14-front-closed),
     <br>* McshEngl.Spchlago-openNo-frontNo-vowel,
     <br>* McshEngl.phoneme./i/-(14-front-closed),
-    <br>* McshEngl.VowlPhnm./i/-(14-front-closed),
-    <br>* McshEngl.VowlPhnm.front_closed_i,
+    <br>* McshEngl.HmmdphnmVowl./i/-(14-front-closed),
+    <br>* McshEngl.HmmdphnmVowl.front_closed_i,
     <a class="clsHide" href="#idL0017phnmVwlInam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlI2">
-  <h5 id="idL0017phnmVwlI2H5">VowlPhnm./i2/-(central)-[ɨ]
+  <h5 id="idL0017phnmVwlI2H5">HmmdphnmVowl./i2/-(central)-[ɨ]
     </h5>
   <p id="idL0017phnmVwlI2dsn">description::
     <br>× Mcsh-creation: {2025-07-26}
@@ -1539,19 +1569,19 @@
     <a class="clsHide" href="#idL0017phnmVwlI2dsn"></a></p>
   <p id="idL0017phnmVwlI2nam">name::
     <br>* McshEngl./i2/_(central)_[ɨ],
-    <br>* McshEngl.VowlPhnm./i2/_(central)_[ɨ],
+    <br>* McshEngl.HmmdphnmVowl./i2/_(central)_[ɨ],
     <br>* McshEngl.[ɨ]-/i2/-(central),
     <br>* McshEngl.IPA.ɨ-/i2/-(central),
     <br>* McshEngl.IPA.616-ɨ-/i2/-(central),
-    <br>* McshEngl.VowlPhnm./i2/-(central)-[ɨ],
-    <br>* McshEngl.VowlPhnm.[ɨ]-/i2/-(central),
+    <br>* McshEngl.HmmdphnmVowl./i2/-(central)-[ɨ],
+    <br>* McshEngl.HmmdphnmVowl.[ɨ]-/i2/-(central),
     <br>* McshEngl.phoneme./i2/-(central)-[ɨ],
     <br>* McshEngl.phoneme.[616-ɨ]-/i2/-(central),
     <a class="clsHide" href="#idL0017phnmVwlI2nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlI3">
-  <h5 id="idL0017phnmVwlI3H5">VowlPhnm./i3/-(back)-[ɯ]
+  <h5 id="idL0017phnmVwlI3H5">HmmdphnmVowl./i3/-(back)-[ɯ]
     </h5>
   <p id="idL0017phnmVwlI3dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1564,7 +1594,7 @@
     <a class="clsHide" href="#idL0017phnmVwlI3dsn"></a></p>
   <p id="idL0017phnmVwlI3nam">name::
     <br>* McshEngl./i3/_(back),
-    <br>* McshEngl.VowlPhnm./i3/_(back)_[ɯ],
+    <br>* McshEngl.HmmdphnmVowl./i3/_(back)_[ɯ],
     <br>* McshEngl./i3/-(back)-[ɯ],
     <br>* McshEngl.[ɯ]-/i3/-(back),
     <br>* McshEngl./i2/old,
@@ -1574,12 +1604,12 @@
     <br>* McshEngl.phoneme./i3/-[ɯ]-(back),
     <br>* McshEngl.phoneme.[ɯ]-/i3/-(back),
     <br>* McshEngl.phoneme.[623-ɯ]-/i3/-(back),
-    <br>* McshEngl.VowlPhnm./i3/-[ɯ]-(back),
+    <br>* McshEngl.HmmdphnmVowl./i3/-[ɯ]-(back),
     <a class="clsHide" href="#idL0017phnmVwlI3nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlI8">
-  <h5 id="idL0017phnmVwlI8H5">VowlPhnm./i8/-(round)-[y]
+  <h5 id="idL0017phnmVwlI8H5">HmmdphnmVowl./i8/-(round)-[y]
     </h5>
   <p id="idL0017phnmVwlI8dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1592,7 +1622,7 @@
     <a class="clsHide" href="#idL0017phnmVwlI8dsn"></a></p>
   <p id="idL0017phnmVwlI8nam">name::
     <br>* McshEngl./i8/_[y]_(round),
-    <br>* McshEngl.VowlPhnm./i8/_(round)_[y],
+    <br>* McshEngl.HmmdphnmVowl./i8/_(round)_[y],
     <br>* McshEngl.[y]-/i8/-(round),
     <br>* McshEngl./i3/old,
     <br>* McshEngl.IPA.y-/i8/-(round),
@@ -1601,13 +1631,13 @@
     <br>* McshEngl.phoneme./i8/-[y]-(round),
     <br>* McshEngl.phoneme.[y]-/i8/-(round),
     <br>* McshEngl.phoneme.[121-y]-/i8/-(round),
-    <br>* McshEngl.VowlPhnm./i8/-[y]-(round),
-    <br>* McshEngl.VowlPhnm.[y]-/i8/-(round),
+    <br>* McshEngl.HmmdphnmVowl./i8/-[y]-(round),
+    <br>* McshEngl.HmmdphnmVowl.[y]-/i8/-(round),
     <a class="clsHide" href="#idL0017phnmVwlI8nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlII">
-  <h5 id="idL0017phnmVwlIIH5">VowlPhnm./i12/-(long)
+  <h5 id="idL0017phnmVwlIIH5">HmmdphnmVowl./i12/-(long)
     </h5>
   <p id="idL0017phnmVwlIIdsn">description::
     <br>× Mcsh-creation: {2025-02-23}
@@ -1616,14 +1646,14 @@
     <a class="clsHide" href="#idL0017phnmVwlIIdsn"></a></p>
   <p id="idL0017phnmVwlIInam">name::
     <br>* McshEngl./i12/_(long),
-    <br>* McshEngl.VowlPhnm./i12/_(long),
+    <br>* McshEngl.HmmdphnmVowl./i12/_(long),
     <br>* McshEngl.phoneme./i12/-(long),
-    <br>* McshEngl.VowlPhnm./i12/-(long),
+    <br>* McshEngl.HmmdphnmVowl./i12/-(long),
     <a class="clsHide" href="#idL0017phnmVwlIInam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlO">
-  <h5 id="idL0017phnmVwlOH5">VowlPhnm./o/-(35-back-mid)
+  <h5 id="idL0017phnmVwlOH5">HmmdphnmVowl./o/-(35-back-mid)
     </h5>
   <p id="idL0017phnmVwlOdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1633,18 +1663,18 @@
     <a class="clsHide" href="#idL0017phnmVwlOdsn"></a></p>
   <p id="idL0017phnmVwlOnam">name::
     <br>* McshEngl./v35/_/o/_(back_mid),
-    <br>* McshEngl.VowlPhnm./o/_(35_back_mid),
+    <br>* McshEngl.HmmdphnmVowl./o/_(35_back_mid),
     <br>* McshEngl./o/-(35-back-mid),
     <br>* McshEngl.Spchlago-o,
     <br>* McshEngl.Spchlago-openMid-front-vowel,
     <br>* McshEngl.phoneme./o/-(35-back-mid),
-    <br>* McshEngl.VowlPhnm./o/-(35-back-mid),
-    <br>* McshEngl.VowlPhnm.openMid_front,
+    <br>* McshEngl.HmmdphnmVowl./o/-(35-back-mid),
+    <br>* McshEngl.HmmdphnmVowl.openMid_front,
     <a class="clsHide" href="#idL0017phnmVwlOnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlOO">
-  <h5 id="idL0017phnmVwlOOH5">VowlPhnm./o12/-(long)
+  <h5 id="idL0017phnmVwlOOH5">HmmdphnmVowl./o12/-(long)
     </h5>
   <p id="idL0017phnmVwlOOdsn">description::
     <br>× Mcsh-creation: {2025-02-23}
@@ -1653,14 +1683,14 @@
     <a class="clsHide" href="#idL0017phnmVwlOOdsn"></a></p>
   <p id="idL0017phnmVwlOOnam">name::
     <br>* McshEngl./o12/_o_(long),
-    <br>* McshEngl.VowlPhnm./o12/_(long),
+    <br>* McshEngl.HmmdphnmVowl./o12/_(long),
     <br>* McshEngl.phoneme./o12/-(long),
-    <br>* McshEngl.VowlPhnm./o12/-(long),
+    <br>* McshEngl.HmmdphnmVowl./o12/-(long),
     <a class="clsHide" href="#idL0017phnmVwlOOnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlO6">
-  <h5 id="idL0017phnmVwlO6H5">VowlPhnm./o6/-(open)-[ɔ]
+  <h5 id="idL0017phnmVwlO6H5">HmmdphnmVowl./o6/-(open)-[ɔ]
     </h5>
   <p id="idL0017phnmVwlO6dsn">description::
     <br>× Mcsh-creation: {2025-07-27}
@@ -1673,12 +1703,12 @@
     <a class="clsHide" href="#idL0017phnmVwlO6dsn"></a></p>
   <p id="idL0017phnmVwlO6nam">name::
     <br>* McshEngl./o6/_(open)_[ɔ],
-    <br>* McshEngl.VowlPhnm./o6/_(open)_[ɔ],
+    <br>* McshEngl.HmmdphnmVowl./o6/_(open)_[ɔ],
     <br>* McshEngl.[ɔ]-/o6/-(open),
     <br>* McshEngl.IPA.ɔ-/o6/-(open),
     <br>* McshEngl.IPA.596-ɔ-/o6/-(open),
-    <br>* McshEngl.VowlPhnm./o6/-(open)-[ɔ],
-    <br>* McshEngl.VowlPhnm.[ɔ]-/o6/-(open),
+    <br>* McshEngl.HmmdphnmVowl./o6/-(open)-[ɔ],
+    <br>* McshEngl.HmmdphnmVowl.[ɔ]-/o6/-(open),
     <br>* McshEngl.phoneme./o6/-(open)-[ɔ],
     <br>* McshEngl.phoneme.[ɔ]-/o6/-(open),
     <br>* McshEngl.phoneme.[596-ɔ]-/o6/-(open),
@@ -1686,7 +1716,7 @@
   </section>
 
   <section id="idL0017phnmVwlO8">
-  <h5 id="idL0017phnmVwlO8H5">VowlPhnm./o8/-(round)
+  <h5 id="idL0017phnmVwlO8H5">HmmdphnmVowl./o8/-(round)
     </h5>
   <p id="idL0017phnmVwlO8dsn">description::
     <br>× Mcsh-creation: {2025-03-03}
@@ -1694,14 +1724,14 @@
     <a class="clsHide" href="#idL0017phnmVwlO8dsn"></a></p>
   <p id="idL0017phnmVwlO8nam">name::
     <br>* McshEngl./o8/_(round),
-    <br>* McshEngl.VowlPhnm./o8/_(round),
+    <br>* McshEngl.HmmdphnmVowl./o8/_(round),
     <br>* McshEngl.phoneme./o8/-(round),
-    <br>* McshEngl.VowlPhnm./o8/-(round),
+    <br>* McshEngl.HmmdphnmVowl./o8/-(round),
     <a class="clsHide" href="#idL0017phnmVwlO8nam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlU">
-  <h5 id="idL0017phnmVwlUH5">VowlPhnm./u/-(34-back-close)
+  <h5 id="idL0017phnmVwlUH5">HmmdphnmVowl./u/-(34-back-close)
     </h5>
   <p id="idL0017phnmVwlUdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1712,17 +1742,17 @@
     <a class="clsHide" href="#idL0017phnmVwlUdsn"></a></p>
   <p id="idL0017phnmVwlUnam">name::
     <br>* McshEngl./v34/_/u/_(back_close),
-    <br>* McshEngl.VowlPhnm./u/_(34_back_close),
+    <br>* McshEngl.HmmdphnmVowl./u/_(34_back_close),
     <br>* McshEngl./u/-(34-back-close),
     <br>* McshEngl.Spchlago'u,
     <br>* McshEngl.phoneme./u/-(34-back-close),
-    <br>* McshEngl.VowlPhnm./u/-(34-back-close),
-    <br>* McshEngl.VowlPhnm.openNo_front,
+    <br>* McshEngl.HmmdphnmVowl./u/-(34-back-close),
+    <br>* McshEngl.HmmdphnmVowl.openNo_front,
     <a class="clsHide" href="#idL0017phnmVwlUnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlUU">
-  <h5 id="idL0017phnmVwlUUH5">VowlPhnm./u12/-(long)
+  <h5 id="idL0017phnmVwlUUH5">HmmdphnmVowl./u12/-(long)
     </h5>
   <p id="idL0017phnmVwlUUdsn">description::
     <br>× Mcsh-creation: {2025-02-23}
@@ -1731,14 +1761,14 @@
     <a class="clsHide" href="#idL0017phnmVwlUUdsn"></a></p>
   <p id="idL0017phnmVwlUUnam">name::
     <br>* McshEngl./u12/_u_(long),
-    <br>* McshEngl.VowlPhnm./u12/_(long),
+    <br>* McshEngl.HmmdphnmVowl./u12/_(long),
     <br>* McshEngl.phoneme./u12/-(long),
-    <br>* McshEngl.VowlPhnm./u12/-(long),
+    <br>* McshEngl.HmmdphnmVowl./u12/-(long),
     <a class="clsHide" href="#idL0017phnmVwlUUnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlU7">
-  <h5 id="idL0017phnmVwlU7H5">VowlPhnm./u7/-(unround)-[ɤ]
+  <h5 id="idL0017phnmVwlU7H5">HmmdphnmVowl./u7/-(unround)-[ɤ]
     </h5>
   <p id="idL0017phnmVwlU7dsn">description::
     <br>× Mcsh-creation: {2025-03-10}
@@ -1752,12 +1782,12 @@
     <a class="clsHide" href="#idL0017phnmVwlU7dsn"></a></p>
   <p id="idL0017phnmVwlU7nam">name::
     <br>* McshEngl./u7/_(unround)_[ɤ],
-    <br>* McshEngl.VowlPhnm./u7/_(unround)_[ɤ],
+    <br>* McshEngl.HmmdphnmVowl./u7/_(unround)_[ɤ],
     <br>* McshEngl.[ɤ]-/u7/-(unround),
     <br>* McshEngl.IPA.ɤ-/u7/-(unround),
     <br>* McshEngl.IPA.612-798-ɤ̞-/u7/-(unround),
-    <br>* McshEngl.VowlPhnm./u7/-(unround)-[ɤ],
-    <br>* McshEngl.VowlPhnm.[ɤ]-/u7/-(unround),
+    <br>* McshEngl.HmmdphnmVowl./u7/-(unround)-[ɤ],
+    <br>* McshEngl.HmmdphnmVowl.[ɤ]-/u7/-(unround),
     <br>* McshEngl.phoneme./u7/-(unround)-[ɤ],
     <br>* McshEngl.phoneme.[ɤ]-/u7/-(unround),
     <br>* McshEngl.phoneme.[612-ɤ]-/u7/-(unround),
@@ -1766,28 +1796,29 @@
   </section>
 
   <section id="idL0017phnmVwlN">
-  <h4 id="idL0017phnmVwlNH4">phoneme.vowelNo of speech
+  <h4 id="idL0017phnmVwlNH4">Hmmdphnm.vowelNo of speech
     </h4>
   <p id="idL0017phnmVwlNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· <span class="clsColorRed">consonant of Spchlago</span> is <a class="clsPreview" href="#idL0017phnm">a-phoneme</a> with <a class="clsPreview" href="#idL0017phnmasobn">airstream-obstruction</a>.
     <a class="clsHide" href="#idL0017phnmVwlNdsn"></a></p>
   <p id="idL0017phnmVwlNnam">name::
-    <br>* McshEngl.consonant-phoneme!⇒Consphnm,
-    <br>* McshEngl.Consphnm!=consonant-phoneme,
-    <br>* McshEngl.consonant-of-Spchlago!⇒Consphnm,
-    <br>* McshEngl.consonantOrlHumn!⇒Consphnm,
-    <br>* McshEngl.phoneme.consonant!⇒Consphnm,
-    <br>* McshEngl.phoneme.vowelNo!⇒Consphnm,
-    <br>* McshEngl.phnmCons!⇒Consphnm,
-    <br>* McshEngl.Spchlago-consonant!⇒Consphnm,
-    <br>* McshEngl.speech'phoneme.vowelNo!⇒Consphnm,
+    <br>* McshEngl.consonant-phoneme!⇒HmmdphnmCons,
+    <br>* McshEngl.HmmdphnmCons!=consonant-phoneme,
+    <br>* McshEngl.Consphnm!⇒HmmdphnmCons,
+    <br>* McshEngl.consonant-of-Spchlago!⇒HmmdphnmCons,
+    <br>* McshEngl.consonantOrlHumn!⇒HmmdphnmCons,
+    <br>* McshEngl.Hmmdphnm.consonant!⇒HmmdphnmCons,
+    <br>* McshEngl.Hmmdphnm.vowelNo!⇒HmmdphnmCons,
+    <br>* McshEngl.phnmCons!⇒HmmdphnmCons,
+    <br>* McshEngl.Spchlago-consonant!⇒HmmdphnmCons,
+    <br>* McshEngl.speech'phoneme.vowelNo!⇒HmmdphnmCons,
     <br>====== lagoGreek:
-    <br>* McshElln.σύμφωνοΠρφκ!το!⇒Consphnm,
+    <br>* McshElln.σύμφωνοΠρφκ!το!⇒HmmdphnmCons,
     <a class="clsHide" href="#idL0017phnmVwlNnam"></a></p>
 
   <section id="idL0017phnmVwlNarsm">
-  <h5 id="idL0017phnmVwlNarsmH5">airstream of Consphnm
+  <h5 id="idL0017phnmVwlNarsmH5">airstream of HmmdphnmCons
     </h5>
   <p id="idL0017phnmVwlNarsmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1806,12 +1837,12 @@
     <br>[{2025-07-27 retrieved} https://gemini.google.com/app/cf5725c64ecc5d49]
     <a class="clsHide" href="#idL0017phnmVwlNarsmdsn"></a></p>
   <p id="idL0017phnmVwlNarsmnam">name::
-    <br>* McshEngl.Consphnm'airstream,
+    <br>* McshEngl.HmmdphnmCons'airstream,
     <a class="clsHide" href="#idL0017phnmVwlNarsmnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNplc">
-  <h5 id="idL0017phnmVwlNplcH5">place-of-articulation of Consphnm
+  <h5 id="idL0017phnmVwlNplcH5">place-of-articulation of HmmdphnmCons
     </h5>
   <p id="idL0017phnmVwlNplcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1846,13 +1877,13 @@
     <br>* Dorsal,
     <br>* Laryngeal,
     <br>===
-    <br>* Bi­labial,
-    <br>* Labio­dental,
-    <br>* Linguo­labial,
+    <br>* Bilabial,
+    <br>* Labiodental,
+    <br>* Linguolabial,
     <br>* Dental,
     <br>* Alveolar,
-    <br>* Post­alveolar,
-    <br>* Retro­flex,
+    <br>* Postalveolar,
+    <br>* Retroflex,
     <br>* Palatal,
     <br>* Velar,
     <br>* Uvular,
@@ -1860,11 +1891,11 @@
     <br>* Glottal,
     <a class="clsHide" href="#idL0017phnmVwlNplcdsn"></a></p>
   <p id="idL0017phnmVwlNplcnam">name::
-    <br>* McshEngl.Consphnm'place_of_articulation,
+    <br>* McshEngl.HmmdphnmCons'place_of_articulation,
     <a class="clsHide" href="#idL0017phnmVwlNplcnam"></a></p>
 
   <section id="idL0017phnmVwlNatlr">
-  <h6 id="idL0017phnmVwlNatlrH6">articulator of Consphnm
+  <h6 id="idL0017phnmVwlNatlrH6">articulator of HmmdphnmCons
     </h6>
   <p id="idL0017phnmVwlNatlrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1874,15 +1905,15 @@
     <br>[{2022-08-28 retrieved} ]
     <a class="clsHide" href="#idL0017phnmVwlNatlrdsn"></a></p>
   <p id="idL0017phnmVwlNatlrnam">name::
-    <br>* McshEngl.articulator-of-Consphnm,
-    <br>* McshEngl.Consphnm'articulator,
-    <br>* McshEngl.Consphnm'place_of_articulation'articulator,
+    <br>* McshEngl.articulator-of-HmmdphnmCons,
+    <br>* McshEngl.HmmdphnmCons'articulator,
+    <br>* McshEngl.HmmdphnmCons'place_of_articulation'articulator,
     <a class="clsHide" href="#idL0017phnmVwlNatlrnam"></a></p>
   </section>
   </section>
 
   <section id="idL0017phnmVwlNmod">
-  <h5 id="idL0017phnmVwlNmodH5">mode-of-articulation of Consphnm
+  <h5 id="idL0017phnmVwlNmodH5">mode-of-articulation of HmmdphnmCons
     </h5>
   <p id="idL0017phnmVwlNmoddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1898,16 +1929,16 @@
     <br>* lateral tap/flap,
     <a class="clsHide" href="#idL0017phnmVwlNmoddsn"></a></p>
   <p id="idL0017phnmVwlNmodnam">name::
-    <br>* McshEngl.Consphnm_manner,
-    <br>* McshEngl.Consphnm'manner!⇒Consphnm_manner,
-    <br>* McshEngl.Consphnm'mode_of_articulation!⇒Consphnm_manner,
-    <br>* McshEngl.Consphnm'mode,
-    <br>* McshEngl.Consphnm'mode_of_articulation,
+    <br>* McshEngl.HmmdphnmCons_manner,
+    <br>* McshEngl.HmmdphnmCons'manner!⇒HmmdphnmCons_manner,
+    <br>* McshEngl.HmmdphnmCons'mode_of_articulation!⇒HmmdphnmCons_manner,
+    <br>* McshEngl.HmmdphnmCons'mode,
+    <br>* McshEngl.HmmdphnmCons'mode_of_articulation,
     <a class="clsHide" href="#idL0017phnmVwlNmodnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNvoic">
-  <h5 id="idL0017phnmVwlNvoicH5">voiceness of Consphnm
+  <h5 id="idL0017phnmVwlNvoicH5">voiceness of HmmdphnmCons
     </h5>
   <p id="idL0017phnmVwlNvoicdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1916,8 +1947,8 @@
     <br>* /f:v/, /th:dh/, /t:d/, /s:z/, /c:j/, /k:g/, /h:y/,
     <a class="clsHide" href="#idL0017phnmVwlNvoicdsn"></a></p>
   <p id="idL0017phnmVwlNvoicnam">name::
-    <br>* McshEngl.Consphnm'voiceness,
-    <br>* McshEngl.voiceness-of-Consphnm,
+    <br>* McshEngl.HmmdphnmCons'voiceness,
+    <br>* McshEngl.voiceness-of-HmmdphnmCons,
     <br>====== lagoGreek:
     <br>* McshElln.άηχο-ηχηρό-σύμφωνοΠρφκ,
     <br>* McshElln.ηχηρό-άηχο-σύμφωνοΠρφκ,
@@ -1927,7 +1958,7 @@
   </section>
 
   <section id="idL0017phnmVwlNaspn">
-  <h5 id="idL0017phnmVwlNaspnH5">aspiration of Consphnm
+  <h5 id="idL0017phnmVwlNaspnH5">aspiration of HmmdphnmCons
     </h5>
   <p id="idL0017phnmVwlNaspndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1949,8 +1980,8 @@
     <a class="clsHide" href="#idL0017phnmVwlNaspndsn"></a></p>
   <p id="idL0017phnmVwlNaspnnam">name::
     <br>* McshEngl.aspiration,
-    <br>* McshEngl.aspiration-of-Consphnm!⇒aspiration,
-    <br>* McshEngl.Consphnm'aspiration!⇒aspiration,
+    <br>* McshEngl.aspiration-of-HmmdphnmCons!⇒aspiration,
+    <br>* McshEngl.HmmdphnmCons'aspiration!⇒aspiration,
     <br>====== lagoGreek:
     <br>* McshElln.δασύτητα-συμφώνουΠρφκ!⇒aspiration,
     <br>* McshElln.σύμφωνοΠρφκ'δασύτητα!⇒aspiration,
@@ -1958,7 +1989,7 @@
   </section>
 
   <section id="idL0017phnmVwlNnotn">
-  <h5 id="idL0017phnmVwlNnotnH5">notation of Consphnm
+  <h5 id="idL0017phnmVwlNnotnH5">notation of HmmdphnmCons
     </h5>
   <p id="idL0017phnmVwlNnotndsn">description::
     <br>× Mcsh-creation: {2026-11-08}
@@ -1971,29 +2002,29 @@
     <br>* r = retroplex.
     <a class="clsHide" href="#idL0017phnmVwlNnotndsn"></a></p>
   <p id="idL0017phnmVwlNnotnnam">name::
-    <br>* McshEngl.notation-of-Consphnm,
+    <br>* McshEngl.notation-of-HmmdphnmCons,
     <br>* McshEngl.Phnm.h!=dh|th,
     <br>* McshEngl.Phnm.s!=small-letter,
     <a class="clsHide" href="#idL0017phnmVwlNnotnnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNgstr">
-  <h5 id="idL0017phnmVwlNgstrH5">GENERIC-SPECIFIC-TREE of Consphnm
+  <h5 id="idL0017phnmVwlNgstrH5">GENERIC-SPECIFIC-TREE of HmmdphnmCons
     </h5>
   <p id="idL0017phnmVwlNgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idL0017phnmVwlNgstrdsn"></a></p>
   <p id="idL0017phnmVwlNgstrnam">name::
-    <br>* McshEngl.Consphnm'generic_specific_tree,
+    <br>* McshEngl.HmmdphnmCons'generic_specific_tree,
     <a class="clsHide" href="#idL0017phnmVwlNgstrnam"></a></p>
   <p id="idL0017phnmVwlNgntr">generic-tree::
-    <br>* McshEngl.Consphnm:generic,
+    <br>* McshEngl.HmmdphnmCons:generic,
     <br>===
-    <br>* phoneme:generic,
+    <br>* Hmmdphnm:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idL0017phnmVwlNgntr"></a></p>
   <p id="idL0017phnmVwlNsptr">specific-tree::
-    <br>* McshEngl.Consphnm.specific,
+    <br>* McshEngl.HmmdphnmCons.specific,
     <br>===
     <br>* https://en.wikipedia.org/wiki/IPA_consonant_chart_with_audio,
     <br>* https://en.wikipedia.org/wiki/List_of_consonants,
@@ -2001,7 +2032,7 @@
   </section>
 
   <section id="idL0017phnmVwlNAgg">
-  <h5 id="idL0017phnmVwlNAggH5">Consphnm.aggregate
+  <h5 id="idL0017phnmVwlNAggH5">HmmdphnmCons.aggregate
     </h5>
   <p id="idL0017phnmVwlNAggdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2011,12 +2042,12 @@
     <br>[{2022-04-16 retrieved} https://www.greek-language.gr/Resources/ancient_greek/history/ag_history/browse.html?start=23]
     <a class="clsHide" href="#idL0017phnmVwlNAggdsn"></a></p>
   <p id="idL0017phnmVwlNAggnam">name::
-    <br>* McshEngl.Consphnm.aggregate,
+    <br>* McshEngl.HmmdphnmCons.aggregate,
     <a class="clsHide" href="#idL0017phnmVwlNAggnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNScdnVcns">
-  <h5 id="idL0017phnmVwlNScdnVcnsH5">Consphnm.sd.voiceness
+  <h5 id="idL0017phnmVwlNScdnVcnsH5">HmmdphnmCons.sd.voiceness
     </h5>
   <p id="idL0017phnmVwlNScdnVcnsdsn">description::
     <br>× Mcsh-creation: {2026-05-28}
@@ -2024,12 +2055,13 @@
     <br>* voicedNo,
     <a class="clsHide" href="#idL0017phnmVwlNScdnVcnsdsn"></a></p>
   <p id="idL0017phnmVwlNScdnVcnsnam">name::
-    <br>* McshEngl.Consphnm.Specsdiv.voiceness,
-    <br>* McshEngl.Consphnm.sd.voiceness!⇒Consphnm.Specsdiv.voiceness,
+    <br>* McshEngl.HmmdphnmCons.Specsdiv.voiceness!⇒ConsphnmDivVoice,
+    <br>* McshEngl.ConsphnmDivVoice!=HmmdphnmCons.Specsdiv.voiceness,
+    <br>* McshEngl.HmmdphnmCons.sd.voiceness!⇒ConsphnmDivVoice,
     <a class="clsHide" href="#idL0017phnmVwlNScdnVcnsnam"></a></p>
 
   <section id="idL0017phnmVwlNVocd">
-  <h6 id="idL0017phnmVwlNVocdH6">Consphnm.voiced
+  <h6 id="idL0017phnmVwlNVocdH6">ConsphnmDivVoice.voiced
     </h6>
   <p id="idL0017phnmVwlNVocddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2039,19 +2071,20 @@
     <br>[{2022-08-28 retrieved} https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/glossology/show.html?id=149]
     <a class="clsHide" href="#idL0017phnmVwlNVocddsn"></a></p>
   <p id="idL0017phnmVwlNVocdnam">name::
-    <br>* McshEngl.voiced,
-    <br>* McshEngl.Consphnm.voiced!⇒voiced,
-    <br>* McshEngl.phoneme.voiced!⇒voiced,
-    <br>* McshEngl.vd-Consphnm!⇒voiced,
-    <br>* McshEngl.voiced-Consphnm!⇒voiced,
+    <br>* McshEngl.voiced-HmmdphnmCons!⇒ConsphnmVoiced,
+    <br>* McshEngl.ConsphnmVoiced!=voiced-HmmdphnmCons,
+    <br>* McshEngl.HmmdphnmCons.voiced!⇒ConsphnmVoiced,
+    <br>* McshEngl.ConsphnmDivVoice.voiced!⇒ConsphnmVoiced,
+    <br>* McshEngl.Hmmdphnm.voiced!⇒ConsphnmVoiced,
+    <br>* McshEngl.vd-HmmdphnmCons!⇒ConsphnmVoiced,
     <br>====== lagoGreek:
-    <br>* McshElln.ηχηρό-σύμφωνοΠρφκ!⇒voiced,
-    <br>* McshElln.σύμφωνοΠρφκ-ηχηρό!⇒voiced,
+    <br>* McshElln.ηχηρό-σύμφωνοΠρφκ!⇒ConsphnmVoiced,
+    <br>* McshElln.σύμφωνοΠρφκ-ηχηρό!⇒ConsphnmVoiced,
     <a class="clsHide" href="#idL0017phnmVwlNVocdnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNVocdN">
-  <h6 id="idL0017phnmVwlNVocdNH6">Consphnm.voicedNo
+  <h6 id="idL0017phnmVwlNVocdNH6">ConsphnmDivVoice.voicedNo
     </h6>
   <p id="idL0017phnmVwlNVocdNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2061,22 +2094,23 @@
     <br>[{2022-08-28 retrieved} https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/glossology/show.html?id=148]
     <a class="clsHide" href="#idL0017phnmVwlNVocdNdsn"></a></p>
   <p id="idL0017phnmVwlNVocdNnam">name::
-    <br>* McshEngl.voiceless,
-    <br>* McshEngl.Consphnm.voicedNo!⇒voiceless,
-    <br>* McshEngl.phoneme.voicedNo!⇒voiceless,
-    <br>* McshEngl.unvoiced-Consphnm!⇒voiceless,
-    <br>* McshEngl.vl-Consphnm!⇒voiceless,
-    <br>* McshEngl.voicedNo-Consphnm!⇒voiceless,
-    <br>* McshEngl.voiceless-Consphnm!⇒voiceless,
+    <br>* McshEngl.voiceless-HmmdphnmCons!⇒ConsphnmVoicedNo,
+    <br>* McshEngl.ConsphnmVoicedNo!=voiceless-HmmdphnmCons,
+    <br>* McshEngl.HmmdphnmCons.voicedNo!⇒ConsphnmVoicedNo,
+    <br>* McshEngl.ConsphnmDivVoice.voicedNo!⇒ConsphnmVoicedNo,
+    <br>* McshEngl.Hmmdphnm.voicedNo!⇒ConsphnmVoicedNo,
+    <br>* McshEngl.unvoiced-HmmdphnmCons!⇒ConsphnmVoicedNo,
+    <br>* McshEngl.vl-HmmdphnmCons!⇒ConsphnmVoicedNo,
+    <br>* McshEngl.voicedNo-HmmdphnmCons!⇒ConsphnmVoicedNo,
     <br>====== lagoGreek:
-    <br>* McshElln.άηχο-σύμφωνοΠρφκ!⇒voiceless,
-    <br>* McshElln.σύμφωνοΠρφκ.άηχο!⇒voiceless,
+    <br>* McshElln.άηχο-σύμφωνοΠρφκ!⇒ConsphnmVoicedNo,
+    <br>* McshElln.σύμφωνοΠρφκ.άηχο!⇒ConsphnmVoicedNo,
     <a class="clsHide" href="#idL0017phnmVwlNVocdNnam"></a></p>
   </section>
   </section>
 
   <section id="idL0017phnmVwlNScdnPlc">
-  <h5 id="idL0017phnmVwlNScdnPlcH5">Consphnm.sd.place
+  <h5 id="idL0017phnmVwlNScdnPlcH5">HmmdphnmCons.sd.place
     </h5>
   <p id="idL0017phnmVwlNScdnPlcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2093,13 +2127,13 @@
     <br>* Dorsal,
     <br>* Laryngeal,
     <br>===
-    <br>* Bi­labial,
-    <br>* Labio­dental,
-    <br>* Linguo­labial,
+    <br>* Bilabial,
+    <br>* Labiodental,
+    <br>* Linguolabial,
     <br>* Dental,
     <br>* Alveolar,
-    <br>* Post­alveolar,
-    <br>* Retro­flex,
+    <br>* Postalveolar,
+    <br>* Retroflex,
     <br>* Palatal,
     <br>* Velar,
     <br>* Uvular,
@@ -2107,12 +2141,13 @@
     <br>* Glottal,
     <a class="clsHide" href="#idL0017phnmVwlNScdnPlcdsn"></a></p>
   <p id="idL0017phnmVwlNScdnPlcnam">name::
-    <br>* McshEngl.Consphnm.Specsdiv.place,
-    <br>* McshEngl.Consphnm.sd.place!⇒Consphnm.Specsdiv.place,
+    <br>* McshEngl.HmmdphnmCons.Specsdiv.place!⇒ConsphnmDivPlace,
+    <br>* McshEngl.ConsphnmDivPlace!=HmmdphnmCons.Specsdiv.place,
+    <br>* McshEngl.HmmdphnmCons.sd.place!⇒ConsphnmDivPlace,
     <a class="clsHide" href="#idL0017phnmVwlNScdnPlcnam"></a></p>
 
   <section id="idL0017phnmVwlNLabl">
-  <h6 id="idL0017phnmVwlNLablH6">Consphnm.labial
+  <h6 id="idL0017phnmVwlNLablH6">ConsphnmDivPlace.labial
     </h6>
   <p id="idL0017phnmVwlNLabldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2124,8 +2159,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNLabldsn"></a></p>
   <p id="idL0017phnmVwlNLablnam">name::
     <br>* McshEngl.labial,
-    <br>* McshEngl.Consphnm.labial!⇒labial,
-    <br>* McshEngl.phoneme.labial!⇒labial,
+    <br>* McshEngl.HmmdphnmCons.labial!⇒labial,
+    <br>* McshEngl.ConsphnmDivPlace.labial!⇒labial,
+    <br>* McshEngl.Hmmdphnm.labial!⇒labial,
     <br>* McshEngl.labio!⇒labial,
     <br>====== lagoGreek:
     <br>* McshElln.σύμφωνοΠρφκ.χειλικό!⇒labial,
@@ -2134,7 +2170,7 @@
   </section>
 
   <section id="idL0017phnmVwlNCrnl">
-  <h6 id="idL0017phnmVwlNCrnlH6">Consphnm.coronal
+  <h6 id="idL0017phnmVwlNCrnlH6">ConsphnmDivPlace.coronal
     </h6>
   <p id="idL0017phnmVwlNCrnldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2142,15 +2178,16 @@
     <br>[{2022-08-28 retrieved} https://en.wikipedia.org/wiki/Coronal_consonant]
     <a class="clsHide" href="#idL0017phnmVwlNCrnldsn"></a></p>
   <p id="idL0017phnmVwlNCrnlnam">name::
-    <br>* McshEngl.Consphnm.coronal,
-    <br>* McshEngl.phoneme.coronal,
+    <br>* McshEngl.HmmdphnmCons.coronal,
+    <br>* McshEngl.ConsphnmDivPlace.coronal,
+    <br>* McshEngl.Hmmdphnm.coronal,
     <br>* McshEngl.coronal,
-    <br>* McshEngl.coronal-Consphnm,
+    <br>* McshEngl.coronal-HmmdphnmCons,
     <a class="clsHide" href="#idL0017phnmVwlNCrnlnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNDrsl">
-  <h6 id="idL0017phnmVwlNDrslH6">Consphnm.dorsal
+  <h6 id="idL0017phnmVwlNDrslH6">ConsphnmDivPlace.dorsal
     </h6>
   <p id="idL0017phnmVwlNDrsldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2158,15 +2195,16 @@
     <br>[{2022-08-28 retrieved} https://en.wikipedia.org/wiki/Dorsal_consonant]
     <a class="clsHide" href="#idL0017phnmVwlNDrsldsn"></a></p>
   <p id="idL0017phnmVwlNDrslnam">name::
-    <br>* McshEngl.Consphnm.dorsal,
-    <br>* McshEngl.phoneme.dorsal,
+    <br>* McshEngl.HmmdphnmCons.dorsal,
+    <br>* McshEngl.ConsphnmDivPlace.dorsal,
+    <br>* McshEngl.Hmmdphnm.dorsal,
     <br>* McshEngl.dorsal,
-    <br>* McshEngl.dorsal-Consphnm,
+    <br>* McshEngl.dorsal-HmmdphnmCons,
     <a class="clsHide" href="#idL0017phnmVwlNDrslnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNLrgl">
-  <h6 id="idL0017phnmVwlNLrglH6">Consphnm.larygeal
+  <h6 id="idL0017phnmVwlNLrglH6">ConsphnmDivPlace.larygeal
     </h6>
   <p id="idL0017phnmVwlNLrgldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2177,17 +2215,18 @@
     <br>[{2022-08-28 retrieved} https://en.wikipedia.org/wiki/Laryngeal_consonant]
     <a class="clsHide" href="#idL0017phnmVwlNLrgldsn"></a></p>
   <p id="idL0017phnmVwlNLrglnam">name::
-    <br>* McshEngl.pharygeal-Consphnm!⇒PhnmPharygeal,
-    <br>* McshEngl.PhnmPharygeal!=pharygeal-Consphnm,
+    <br>* McshEngl.pharygeal-HmmdphnmCons!⇒PhnmPharygeal,
+    <br>* McshEngl.PhnmPharygeal!=pharygeal-HmmdphnmCons,
     <br>* McshEngl.Phnm.f!⇒PhnmPharygeal,
-    <br>* McshEngl.Consphnm.larygeal!⇒PhnmPharygeal,
-    <br>* McshEngl.phoneme.larygeal!⇒PhnmPharygeal,
-    <br>* McshEngl.phoneme.pharygeal!⇒PhnmPharygeal,
-    <br>* McshEngl.larygeal-Consphnm!⇒PhnmPharygeal,
+    <br>* McshEngl.HmmdphnmCons.larygeal!⇒PhnmPharygeal,
+    <br>* McshEngl.ConsphnmDivPlace.larygeal!⇒PhnmPharygeal,
+    <br>* McshEngl.Hmmdphnm.larygeal!⇒PhnmPharygeal,
+    <br>* McshEngl.Hmmdphnm.pharygeal!⇒PhnmPharygeal,
+    <br>* McshEngl.larygeal-HmmdphnmCons!⇒PhnmPharygeal,
     <a class="clsHide" href="#idL0017phnmVwlNLrglnam"></a></p>
 
   <section id="idL0017phnmVwlNGltl">
-  <h7 id="idL0017phnmVwlNGltlH7">Consphnm.glottal
+  <h7 id="idL0017phnmVwlNGltlH7">ConsphnmDivPlace.glottal
     </h7>
   <p id="idL0017phnmVwlNGltldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2199,9 +2238,10 @@
     <a class="clsHide" href="#idL0017phnmVwlNGltldsn"></a></p>
   <p id="idL0017phnmVwlNGltlnam">name::
     <br>* McshEngl.glottal,
-    <br>* McshEngl.Consphnm.glottal!⇒glottal,
-    <br>* McshEngl.phoneme.glottal!⇒glottal,
-    <br>* McshEngl.glottal-Consphnm!⇒glottal,
+    <br>* McshEngl.HmmdphnmCons.glottal!⇒glottal,
+    <br>* McshEngl.ConsphnmDivPlace.glottal!⇒glottal,
+    <br>* McshEngl.Hmmdphnm.glottal!⇒glottal,
+    <br>* McshEngl.glottal-HmmdphnmCons!⇒glottal,
     <br>====== lagoGreek:
     <br>* McshElln.γλωσσιδικό-σύμφωνοΠρφκ!⇒glottal,
     <br>* McshElln.σύμφωνοΠρφκ.γλωσσιδικό!⇒glottal,
@@ -2210,7 +2250,7 @@
   </section>
 
   <section id="idL0017phnmVwlNBlbl">
-  <h6 id="idL0017phnmVwlNBlblH6">Consphnm.bilabial
+  <h6 id="idL0017phnmVwlNBlblH6">HmmdphnmCons.bilabial
     </h6>
   <p id="idL0017phnmVwlNBlbldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2219,16 +2259,16 @@
     <a class="clsHide" href="#idL0017phnmVwlNBlbldsn"></a></p>
   <p id="idL0017phnmVwlNBlblnam">name::
     <br>* McshEngl.bilabial,
-    <br>* McshEngl.Consphnm.bilabial!⇒bilabial,
-    <br>* McshEngl.phoneme.bilabial!⇒bilabial,
-    <br>* McshEngl.bilabial-Consphnm!⇒bilabial,
+    <br>* McshEngl.HmmdphnmCons.bilabial!⇒bilabial,
+    <br>* McshEngl.Hmmdphnm.bilabial!⇒bilabial,
+    <br>* McshEngl.bilabial-HmmdphnmCons!⇒bilabial,
     <br>====== lagoGreek:
     <br>* McshElln.διχειλικό-σύμφωνοΠρφκ!⇒bilabial,
     <a class="clsHide" href="#idL0017phnmVwlNBlblnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNApcl">
-  <h6 id="idL0017phnmVwlNApclH6">Consphnm.apical
+  <h6 id="idL0017phnmVwlNApclH6">HmmdphnmCons.apical
     </h6>
   <p id="idL0017phnmVwlNApcldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2241,14 +2281,14 @@
     <a class="clsHide" href="#idL0017phnmVwlNApcldsn"></a></p>
   <p id="idL0017phnmVwlNApclnam">name::
     <br>* McshEngl.apical,
-    <br>* McshEngl.apical-Consphnm,
-    <br>* McshEngl.Consphnm.apical,
-    <br>* McshEngl.phoneme.apical,
+    <br>* McshEngl.apical-HmmdphnmCons,
+    <br>* McshEngl.HmmdphnmCons.apical,
+    <br>* McshEngl.Hmmdphnm.apical,
     <a class="clsHide" href="#idL0017phnmVwlNApclnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNDntl">
-  <h6 id="idL0017phnmVwlNDntlH6">Consphnm.dental
+  <h6 id="idL0017phnmVwlNDntlH6">HmmdphnmCons.dental
     </h6>
   <p id="idL0017phnmVwlNDntldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2259,9 +2299,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNDntldsn"></a></p>
   <p id="idL0017phnmVwlNDntlnam">name::
     <br>* McshEngl.dental,
-    <br>* McshEngl.Consphnm.dental!⇒dental,
-    <br>* McshEngl.phoneme.dental!⇒dental,
-    <br>* McshEngl.dental-Consphnm!⇒dental,
+    <br>* McshEngl.HmmdphnmCons.dental!⇒dental,
+    <br>* McshEngl.Hmmdphnm.dental!⇒dental,
+    <br>* McshEngl.dental-HmmdphnmCons!⇒dental,
     <br>====== lagoGreek:
     <br>* McshElln.οδοντικό-σύμφωνοΠρφκ!⇒dental,
     <br>* McshElln.σύμφωνοΠρφκ.οδοντικό!⇒dental,
@@ -2269,7 +2309,7 @@
   </section>
 
   <section id="idL0017phnmVwlNAlvr">
-  <h6 id="idL0017phnmVwlNAlvrH6">Consphnm.alveolar
+  <h6 id="idL0017phnmVwlNAlvrH6">HmmdphnmCons.alveolar
     </h6>
   <p id="idL0017phnmVwlNAlvrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2280,9 +2320,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNAlvrdsn"></a></p>
   <p id="idL0017phnmVwlNAlvrnam">name::
     <br>* McshEngl.alveolar,
-    <br>* McshEngl.Consphnm.alveolar!⇒alveolar,
-    <br>* McshEngl.phoneme.alveolar!⇒alveolar,
-    <br>* McshEngl.alveolar-Consphnm!⇒alveolar,
+    <br>* McshEngl.HmmdphnmCons.alveolar!⇒alveolar,
+    <br>* McshEngl.Hmmdphnm.alveolar!⇒alveolar,
+    <br>* McshEngl.alveolar-HmmdphnmCons!⇒alveolar,
     <br>====== lagoGreek:
     <br>* McshElln.σύμφωνοΠρφκ.φατνιακό!⇒alveolar,
     <br>* McshElln.φατνιακό-σύμφωνοΠρφκ!⇒alveolar,
@@ -2290,7 +2330,7 @@
   </section>
 
   <section id="idL0017phnmVwlNPavr">
-  <h6 id="idL0017phnmVwlNPavrH6">Consphnm.post-alveolar
+  <h6 id="idL0017phnmVwlNPavrH6">HmmdphnmCons.post-alveolar
     </h6>
   <p id="idL0017phnmVwlNPavrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2301,9 +2341,9 @@
   <p id="idL0017phnmVwlNPavrnam">name::
     <br>* McshEngl.post_alveolar,
     <br>* McshEngl.post-alveolar!⇒post_alveolar,
-    <br>* McshEngl.Consphnm.post_alveolar!⇒post_alveolar,
-    <br>* McshEngl.phoneme.post_alveolar!⇒post_alveolar,
-    <br>* McshEngl.post-alveolar-Consphnm!⇒post_alveolar,
+    <br>* McshEngl.HmmdphnmCons.post_alveolar!⇒post_alveolar,
+    <br>* McshEngl.Hmmdphnm.post_alveolar!⇒post_alveolar,
+    <br>* McshEngl.post-alveolar-HmmdphnmCons!⇒post_alveolar,
     <br>====== lagoGreek:
     <br>* McshElln.μεταφατνιακό-σύμφωνοΠρφκ!⇒post_alveolar,
     <br>* McshElln.σύμφωνοΠρφκ-μεταφατνιακό!⇒post_alveolar,
@@ -2311,7 +2351,7 @@
   </section>
 
   <section id="idL0017phnmVwlNRtfx">
-  <h6 id="idL0017phnmVwlNRtfxH6">Consphnm.retroflex
+  <h6 id="idL0017phnmVwlNRtfxH6">HmmdphnmCons.retroflex
     </h6>
   <p id="idL0017phnmVwlNRtfxdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2325,13 +2365,13 @@
     <br>· /dr/-[ɖ], /drb/-[ɖʱ], /nr/-[ɳ], /rr/-[ɽ] /rrb/-[ɽʱ], /sr/-[ʂ], /tr/-[ʈ], /trd/-[ʈʰ]
     <a class="clsHide" href="#idL0017phnmVwlNRtfxdsn"></a></p>
   <p id="idL0017phnmVwlNRtfxnam">name::
-    <br>* McshEngl.retroflex-Consphnm!⇒PhnmRetroflex,
-    <br>* McshEngl.PhnmRetroflex!=retroflex-Consphnm,
+    <br>* McshEngl.retroflex-HmmdphnmCons!⇒PhnmRetroflex,
+    <br>* McshEngl.PhnmRetroflex!=retroflex-HmmdphnmCons,
     <br>* McshEngl.Phnm.r!⇒PhnmRetroflex,
-    <br>* McshEngl.Consphnm.cacuminal!⇒PhnmRetroflex,
-    <br>* McshEngl.Consphnm.retroflex!⇒PhnmRetroflex,
-    <br>* McshEngl.cacuminal-Consphnm!⇒PhnmRetroflex,
-    <br>* McshEngl.phoneme.retroflex!⇒PhnmRetroflex,
+    <br>* McshEngl.HmmdphnmCons.cacuminal!⇒PhnmRetroflex,
+    <br>* McshEngl.HmmdphnmCons.retroflex!⇒PhnmRetroflex,
+    <br>* McshEngl.cacuminal-HmmdphnmCons!⇒PhnmRetroflex,
+    <br>* McshEngl.Hmmdphnm.retroflex!⇒PhnmRetroflex,
     <br>====== lagoGreek:
     <br>* McshElln.ανακεκαμμένο-σύμφωνοΠρφκ!⇒PhnmRetroflex,
     <br>* McshElln.σύμφωνοΠρφκ.ανακεκαμμένο!⇒PhnmRetroflex,
@@ -2339,7 +2379,7 @@
   </section>
 
   <section id="idL0017phnmVwlNPltl">
-  <h6 id="idL0017phnmVwlNPltlH6">Consphnm.palatal
+  <h6 id="idL0017phnmVwlNPltlH6">HmmdphnmCons.palatal
     </h6>
   <p id="idL0017phnmVwlNPltldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2351,9 +2391,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNPltldsn"></a></p>
   <p id="idL0017phnmVwlNPltlnam">name::
     <br>* McshEngl.palatal,
-    <br>* McshEngl.Consphnm.palatal!⇒palatal,
-    <br>* McshEngl.phoneme.palatal!⇒palatal,
-    <br>* McshEngl.palatal-Consphnm!⇒palatal,
+    <br>* McshEngl.HmmdphnmCons.palatal!⇒palatal,
+    <br>* McshEngl.Hmmdphnm.palatal!⇒palatal,
+    <br>* McshEngl.palatal-HmmdphnmCons!⇒palatal,
     <br>====== lagoGreek:
     <br>* McshElln.ουρανικό-σύμφωνοΠρφκ!⇒palatal,
     <br>* McshElln.σύμφωνοΠρφκ.ουρανικό!⇒palatal,
@@ -2361,7 +2401,7 @@
   </section>
 
   <section id="idL0017phnmVwlNVelr">
-  <h6 id="idL0017phnmVwlNVelrH6">Consphnm.velar
+  <h6 id="idL0017phnmVwlNVelrH6">HmmdphnmCons.velar
     </h6>
   <p id="idL0017phnmVwlNVelrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2372,9 +2412,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNVelrdsn"></a></p>
   <p id="idL0017phnmVwlNVelrnam">name::
     <br>* McshEngl.velar,
-    <br>* McshEngl.Consphnm.velar!⇒velar,
-    <br>* McshEngl.phoneme.velar!⇒velar,
-    <br>* McshEngl.velar-Consphnm!⇒velar,
+    <br>* McshEngl.HmmdphnmCons.velar!⇒velar,
+    <br>* McshEngl.Hmmdphnm.velar!⇒velar,
+    <br>* McshEngl.velar-HmmdphnmCons!⇒velar,
     <br>====== lagoGreek:
     <br>* McshElln.σύμφωνοΠρφκ.υπερωικό!⇒velar,
     <br>* McshElln.υπερωικό-σύμφωνοΠρφκ!⇒velar,
@@ -2382,7 +2422,7 @@
   </section>
 
   <section id="idL0017phnmVwlNOral">
-  <h6 id="idL0017phnmVwlNOralH6">Consphnm.oral
+  <h6 id="idL0017phnmVwlNOralH6">HmmdphnmCons.oral
     </h6>
   <p id="idL0017phnmVwlNOraldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2392,16 +2432,16 @@
     <a class="clsHide" href="#idL0017phnmVwlNOraldsn"></a></p>
   <p id="idL0017phnmVwlNOralnam">name::
     <br>* McshEngl.oral,
-    <br>* McshEngl.Consphnm.oral!⇒oral,
-    <br>* McshEngl.phoneme.oral!⇒oral,
-    <br>* McshEngl.oral-Consphnm!⇒oral,
+    <br>* McshEngl.HmmdphnmCons.oral!⇒oral,
+    <br>* McshEngl.Hmmdphnm.oral!⇒oral,
+    <br>* McshEngl.oral-HmmdphnmCons!⇒oral,
     <br>====== lagoGreek:
     <br>* McshElln.στοματικό-σύμφωνοΠρφκ!⇒oral,
     <a class="clsHide" href="#idL0017phnmVwlNOralnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNNasl">
-  <h6 id="idL0017phnmVwlNNaslH6">Consphnm.nasal
+  <h6 id="idL0017phnmVwlNNaslH6">HmmdphnmCons.nasal
     </h6>
   <p id="idL0017phnmVwlNNasldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2409,8 +2449,8 @@
     <br>[{2022-08-28 retrieved} https://en.wikipedia.org/wiki/Nasal_consonant]
     <a class="clsHide" href="#idL0017phnmVwlNNasldsn"></a></p>
   <p id="idL0017phnmVwlNNaslnam">name::
-    <br>* McshEngl.Consphnm.nasal,
-    <br>* McshEngl.phoneme.nasal,
+    <br>* McshEngl.HmmdphnmCons.nasal,
+    <br>* McshEngl.Hmmdphnm.nasal,
     <br>* McshEngl.nasal,
     <br>* McshEngl.nasal-consonant--of-Spchlago,
     <a class="clsHide" href="#idL0017phnmVwlNNaslnam"></a></p>
@@ -2422,7 +2462,7 @@
   </section>
 
   <section id="idL0017phnmVwlNScdnMod">
-  <h5 id="idL0017phnmVwlNScdnModH5">Consphnm.sd.mode
+  <h5 id="idL0017phnmVwlNScdnModH5">HmmdphnmCons.sd.mode
     </h5>
   <p id="idL0017phnmVwlNScdnModdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2438,17 +2478,18 @@
     <br>* lateral tap/flap,
     <a class="clsHide" href="#idL0017phnmVwlNScdnModdsn"></a></p>
   <p id="idL0017phnmVwlNScdnModnam">name::
-    <br>* McshEngl.Consphnm.Specsdiv.mode,
-    <br>* McshEngl.Consphnm.sd.mode!⇒Consphnm.Specsdiv.mode,
+    <br>* McshEngl.HmmdphnmCons.Specsdiv.mode!⇒ConsphnmDivMode,
+    <br>* McshEngl.ConsphnmDivMode!=HmmdphnmCons.Specsdiv.mode,
+    <br>* McshEngl.HmmdphnmCons.sd.mode!⇒ConsphnmDivMode,
     <a class="clsHide" href="#idL0017phnmVwlNScdnModnam"></a></p>
 
   <section id="idL0017phnmNsl">
-  <h6 id="idL0017phnmNslH6">Consphnm.nasal (<a class="clsPreview" href="../dirLag/McshLag000009.last.html#idL0017phnmVwlNNasl">link</a>)
+  <h6 id="idL0017phnmNslH6">HmmdphnmCons.nasal (<a class="clsPreview" href="../dirLag/McshLag000009.last.html#idL0017phnmVwlNNasl">link</a>)
     </h6>
   </section>
 
   <section id="idL0017phnmStp">
-  <h6 id="idL0017phnmStpH6">Consphnm.stop
+  <h6 id="idL0017phnmStpH6">HmmdphnmCons.stop
     </h6>
   <p id="idL0017phnmStpdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2461,8 +2502,8 @@
     <br>[{2022-08-25 retrieved} https://el.wikipedia.org/wiki/Κλειστά_σύμφωνα]
     <a class="clsHide" href="#idL0017phnmStpdsn"></a></p>
   <p id="idL0017phnmStpnam">name::
-    <br>* McshEngl.Consphnm.stop,
-    <br>* McshEngl.phoneme.stop,
+    <br>* McshEngl.HmmdphnmCons.stop,
+    <br>* McshEngl.Hmmdphnm.stop,
     <br>* McshEngl.plosive-consonant--of-Spchlago,
     <br>* McshEngl.stop-consonant--of-Spchlago,
     <br>====== lagoGreek:
@@ -2472,7 +2513,7 @@
   </section>
 
   <section id="idL0017phnmApxt">
-  <h6 id="idL0017phnmApxtH6">Consphnm.approximant
+  <h6 id="idL0017phnmApxtH6">HmmdphnmCons.approximant
     </h6>
   <p id="idL0017phnmApxtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2486,8 +2527,8 @@
   <p id="idL0017phnmApxtnam">name::
     <br>* McshEngl.approximant,
     <br>* McshEngl.approximant-consonant--of-Spchlago!⇒approximant,
-    <br>* McshEngl.Consphnm.approximant!⇒approximant,
-    <br>* McshEngl.phoneme.approximant!⇒approximant,
+    <br>* McshEngl.HmmdphnmCons.approximant!⇒approximant,
+    <br>* McshEngl.Hmmdphnm.approximant!⇒approximant,
     <br>====== lagoGreek:
     <br>* McshElln.προσεγγιστικό-σύμφωνοΠρφκ!⇒approximant,
     <br>* McshElln.σύμφωνοΠρφκ.προσεγγιστικό!⇒approximant,
@@ -2495,7 +2536,7 @@
   </section>
 
   <section id="idL0017phnmAfrt">
-  <h6 id="idL0017phnmAfrtH6">Consphnm.affricat
+  <h6 id="idL0017phnmAfrtH6">HmmdphnmCons.affricat
     </h6>
   <p id="idL0017phnmAfrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2504,13 +2545,13 @@
     <a class="clsHide" href="#idL0017phnmAfrtdsn"></a></p>
   <p id="idL0017phnmAfrtnam">name::
     <br>* McshEngl.affricat-consonant--of-Spchlago,
-    <br>* McshEngl.Consphnm.affricat,
-    <br>* McshEngl.phoneme.affricat,
+    <br>* McshEngl.HmmdphnmCons.affricat,
+    <br>* McshEngl.Hmmdphnm.affricat,
     <a class="clsHide" href="#idL0017phnmAfrtnam"></a></p>
   </section>
 
   <section id="idL0017phnmFrtv">
-  <h6 id="idL0017phnmFrtvH6">Consphnm.fricative
+  <h6 id="idL0017phnmFrtvH6">HmmdphnmCons.fricative
     </h6>
   <p id="idL0017phnmFrtvdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2533,8 +2574,8 @@
     <br>* McshEngl.fricative,
     <br>* McshEngl.continuant-consonant--of-Spchlago!⇒fricative,
     <br>* McshEngl.fricative-consonant--of-Spchlago!⇒fricative,
-    <br>* McshEngl.Consphnm.fricative!⇒fricative,
-    <br>* McshEngl.phoneme.fricative!⇒fricative,
+    <br>* McshEngl.HmmdphnmCons.fricative!⇒fricative,
+    <br>* McshEngl.Hmmdphnm.fricative!⇒fricative,
     <br>====== lagoGreek:
     <br>* McshElln.εξακολουθητικό-σύμφωνο!⇒fricative,
     <br>* McshElln.τριβόμενο-σύμφωνο!⇒fricative,
@@ -2542,7 +2583,7 @@
   </section>
 
   <section id="idL0017phnmVwlNSblt">
-  <h6 id="idL0017phnmVwlNSbltH6">Consphnm.sibilant
+  <h6 id="idL0017phnmVwlNSbltH6">HmmdphnmCons.sibilant
     </h6>
   <p id="idL0017phnmVwlNSbltdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2555,9 +2596,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNSbltdsn"></a></p>
   <p id="idL0017phnmVwlNSbltnam">name::
     <br>* McshEngl.sibilant,
-    <br>* McshEngl.Consphnm.sibilant!⇒sibilant,
-    <br>* McshEngl.phoneme.sibilant!⇒sibilant,
-    <br>* McshEngl.sibilant-Consphnm!⇒sibilant,
+    <br>* McshEngl.HmmdphnmCons.sibilant!⇒sibilant,
+    <br>* McshEngl.Hmmdphnm.sibilant!⇒sibilant,
+    <br>* McshEngl.sibilant-HmmdphnmCons!⇒sibilant,
     <br>====== lagoGreek:
     <br>* McshElln.συριστικό-σύμφωνοΠρφκ!⇒sibilant,
     <br>* McshElln.σύμφωνοΠρφκ-συριστικό!⇒sibilant,
@@ -2565,7 +2606,7 @@
   </section>
 
   <section id="idL0017phnmVwlNLtrl">
-  <h6 id="idL0017phnmVwlNLtrlH6">Consphnm.lateral
+  <h6 id="idL0017phnmVwlNLtrlH6">HmmdphnmCons.lateral
     </h6>
   <p id="idL0017phnmVwlNLtrldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2576,9 +2617,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNLtrldsn"></a></p>
   <p id="idL0017phnmVwlNLtrlnam">name::
     <br>* McshEngl.lateral,
-    <br>* McshEngl.Consphnm.lateral!⇒lateral,
-    <br>* McshEngl.phoneme.lateral!⇒lateral,
-    <br>* McshEngl.lateral-Consphnm!⇒lateral,
+    <br>* McshEngl.HmmdphnmCons.lateral!⇒lateral,
+    <br>* McshEngl.Hmmdphnm.lateral!⇒lateral,
+    <br>* McshEngl.lateral-HmmdphnmCons!⇒lateral,
     <br>====== lagoGreek:
     <br>* McshElln.πλευρικό-σύμφωνοΠρφκ!⇒lateral,
     <br>* McshElln.σύμφωνοΠρφκ.πλευρικό!⇒lateral,
@@ -2586,7 +2627,7 @@
   </section>
 
   <section id="idL0017phnmVwlNObrt">
-  <h6 id="idL0017phnmVwlNObrtH6">Consphnm.obstruent
+  <h6 id="idL0017phnmVwlNObrtH6">HmmdphnmCons.obstruent
     </h6>
   <p id="idL0017phnmVwlNObrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2597,9 +2638,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNObrtdsn"></a></p>
   <p id="idL0017phnmVwlNObrtnam">name::
     <br>* McshEngl.obstruent,
-    <br>* McshEngl.Consphnm.obstruent!⇒obstruent,
-    <br>* McshEngl.phoneme.obstruent!⇒obstruent,
-    <br>* McshEngl.obstruent-Consphnm!⇒obstruent,
+    <br>* McshEngl.HmmdphnmCons.obstruent!⇒obstruent,
+    <br>* McshEngl.Hmmdphnm.obstruent!⇒obstruent,
+    <br>* McshEngl.obstruent-HmmdphnmCons!⇒obstruent,
     <br>====== lagoGreek:
     <br>* McshElln.εμποδιστικό-σύμφωνοΠρφκ!⇒obstruent,
     <br>* McshElln.σύμφωνοΠρφκ.εμποδιστικό!⇒obstruent,
@@ -2607,7 +2648,7 @@
   </section>
 
   <section id="idL0017phnmVwlNSnrt">
-  <h6 id="idL0017phnmVwlNSnrtH6">Consphnm.sonorant
+  <h6 id="idL0017phnmVwlNSnrtH6">HmmdphnmCons.sonorant
     </h6>
   <p id="idL0017phnmVwlNSnrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2617,9 +2658,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNSnrtdsn"></a></p>
   <p id="idL0017phnmVwlNSnrtnam">name::
     <br>* McshEngl.sonorant,
-    <br>* McshEngl.Consphnm.sonorant!⇒sonorant,
-    <br>* McshEngl.phoneme.sonorant!⇒sonorant,
-    <br>* McshEngl.sonorant-Consphnm!⇒sonorant,
+    <br>* McshEngl.HmmdphnmCons.sonorant!⇒sonorant,
+    <br>* McshEngl.Hmmdphnm.sonorant!⇒sonorant,
+    <br>* McshEngl.sonorant-HmmdphnmCons!⇒sonorant,
     <br>====== lagoGreek:
     <br>* McshElln.ένηχο-σύμφωνοΠρφκ!⇒sonorant,
     <br>* McshElln.σύμφωνοΠρφκ.ένηχο!⇒sonorant,
@@ -2627,7 +2668,7 @@
   </section>
 
   <section id="idL0017phnmVwlNLqid">
-  <h6 id="idL0017phnmVwlNLqidH6">Consphnm.liquid
+  <h6 id="idL0017phnmVwlNLqidH6">HmmdphnmCons.liquid
     </h6>
   <p id="idL0017phnmVwlNLqiddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2639,9 +2680,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNLqiddsn"></a></p>
   <p id="idL0017phnmVwlNLqidnam">name::
     <br>* McshEngl.liquid,
-    <br>* McshEngl.Consphnm.liquid!⇒liquid,
-    <br>* McshEngl.phoneme.liquid!⇒liquid,
-    <br>* McshEngl.liquid-Consphnm!⇒liquid,
+    <br>* McshEngl.HmmdphnmCons.liquid!⇒liquid,
+    <br>* McshEngl.Hmmdphnm.liquid!⇒liquid,
+    <br>* McshEngl.liquid-HmmdphnmCons!⇒liquid,
     <br>====== lagoGreek:
     <br>* McshElln.σύμφωνοΠρφκ.υγρό!⇒liquid,
     <br>* McshElln.υγρό-σύμφωνο!⇒liquid,
@@ -2649,7 +2690,7 @@
   </section>
 
   <section id="idL0017phnmVwlNTril">
-  <h6 id="idL0017phnmVwlNTrilH6">Consphnm.trill
+  <h6 id="idL0017phnmVwlNTrilH6">HmmdphnmCons.trill
     </h6>
   <p id="idL0017phnmVwlNTrildsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2660,9 +2701,9 @@
     <a class="clsHide" href="#idL0017phnmVwlNTrildsn"></a></p>
   <p id="idL0017phnmVwlNTrilnam">name::
     <br>* McshEngl.trill,
-    <br>* McshEngl.Consphnm.trill!⇒trill,
-    <br>* McshEngl.phoneme.trill!⇒trill,
-    <br>* McshEngl.trill-Consphnm!⇒trill,
+    <br>* McshEngl.HmmdphnmCons.trill!⇒trill,
+    <br>* McshEngl.Hmmdphnm.trill!⇒trill,
+    <br>* McshEngl.trill-HmmdphnmCons!⇒trill,
     <br>====== lagoGreek:
     <br>* McshElln.παλλόμενο-σύμφωνοΠρφκ!⇒trill,
     <br>* McshElln.σύμφωνοΠρφκ.παλλόμενο!⇒trill,
@@ -2670,7 +2711,7 @@
   </section>
 
   <section id="idL0017phnmVwlNAspd">
-  <h6 id="idL0017phnmVwlNAspdH6">Consphnm.aspirated
+  <h6 id="idL0017phnmVwlNAspdH6">HmmdphnmCons.aspirated
     </h6>
   <p id="idL0017phnmVwlNAspddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2679,11 +2720,11 @@
     <br>· a-piece of paper in front of an-aspirated-consonant, is-moving.
     <a class="clsHide" href="#idL0017phnmVwlNAspddsn"></a></p>
   <p id="idL0017phnmVwlNAspdnam">name::
-    <br>* McshEngl.aspirated-Consphnm!⇒PhnmAspirated,
-    <br>* McshEngl.PhnmAspirated!=aspirated-Consphnm,
+    <br>* McshEngl.aspirated-HmmdphnmCons!⇒PhnmAspirated,
+    <br>* McshEngl.PhnmAspirated!=aspirated-HmmdphnmCons,
     <br>* McshEngl.Phnm.a!⇒PhnmAspirated,
-    <br>* McshEngl.Consphnm.aspirated!⇒PhnmAspirated,
-    <br>* McshEngl.phoneme.aspirated!⇒PhnmAspirated,
+    <br>* McshEngl.HmmdphnmCons.aspirated!⇒PhnmAspirated,
+    <br>* McshEngl.Hmmdphnm.aspirated!⇒PhnmAspirated,
     <br>====== lagoGreek:
     <br>* McshElln.δασύ-σύμφωνοΠρφκ!⇒PhnmAspirated,
     <br>* McshElln.σύμφωνοΠρφκ.δασύ!⇒PhnmAspirated,
@@ -2691,7 +2732,7 @@
   </section>
 
   <section id="idL0017phnmVwlNBrth">
-  <h6 id="idL0017phnmVwlNBrthH6">Consphnm.breathy
+  <h6 id="idL0017phnmVwlNBrthH6">HmmdphnmCons.breathy
     </h6>
   <p id="idL0017phnmVwlNBrthdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -2700,26 +2741,26 @@
     <br>· /bb/-[bʱ], /db/-[d̪ʱ], /drb/-[ɖʱ], /gb/-[ɡʱ], /Jb/-[d͡ʒʱ],
     <a class="clsHide" href="#idL0017phnmVwlNBrthdsn"></a></p>
   <p id="idL0017phnmVwlNBrthnam">name::
-    <br>* McshEngl.breathy-Consphnm!⇒PhnmBreathy,
-    <br>* McshEngl.PhnmBreathy!=breathy-Consphnm,
+    <br>* McshEngl.breathy-HmmdphnmCons!⇒PhnmBreathy,
+    <br>* McshEngl.PhnmBreathy!=breathy-HmmdphnmCons,
     <br>* McshEngl.Phnm.b!⇒PhnmBreathy,
-    <br>* McshEngl.Consphnm.breathy!⇒PhnmBreathy,
-    <br>* McshEngl.Consphnm.murmured!⇒PhnmBreathy,
-    <br>* McshEngl.Consphnm.soughing!⇒PhnmBreathy,
-    <br>* McshEngl.Consphnm.susurration!⇒PhnmBreathy,
-    <br>* McshEngl.Consphnm.wispery!⇒PhnmBreathy,
-    <br>* McshEngl.murmured-Consphnm!⇒PhnmBreathy,
+    <br>* McshEngl.HmmdphnmCons.breathy!⇒PhnmBreathy,
+    <br>* McshEngl.HmmdphnmCons.murmured!⇒PhnmBreathy,
+    <br>* McshEngl.HmmdphnmCons.soughing!⇒PhnmBreathy,
+    <br>* McshEngl.HmmdphnmCons.susurration!⇒PhnmBreathy,
+    <br>* McshEngl.HmmdphnmCons.wispery!⇒PhnmBreathy,
+    <br>* McshEngl.murmured-HmmdphnmCons!⇒PhnmBreathy,
     <a class="clsHide" href="#idL0017phnmVwlNBrthnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNRflx">
-  <h6 id="idL0017phnmVwlNRflxH6">Consphnm.retroflex (<a class="clsPreview" href="../dirLag/McshLag000009.last.html#idL0017phnmVwlNRtfx">link</a>)
+  <h6 id="idL0017phnmVwlNRflxH6">HmmdphnmCons.retroflex (<a class="clsPreview" href="../dirLag/McshLag000009.last.html#idL0017phnmVwlNRtfx">link</a>)
     </h6>
   </section>
   </section>
 
   <section id="idL0017phnmStpP">
-  <h5 id="idL0017phnmStpPH5">Consphnm./p/
+  <h5 id="idL0017phnmStpPH5">HmmdphnmCons./p/
     </h5>
   <p id="idL0017phnmStpPdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2732,15 +2773,15 @@
   <p id="idL0017phnmStpPnam">name::
     <br>* McshEngl./p/-Pin-(pinyin'b)!⇒PhnmP,
     <br>* McshEngl.PhnmP!=/p/-Pin-(pinyin'b),
-    <br>* McshEngl.phoneme.p!⇒PhnmP,
-    <br>* McshEngl.Consphnm./p/!⇒PhnmP,
+    <br>* McshEngl.Hmmdphnm.p!⇒PhnmP,
+    <br>* McshEngl.HmmdphnmCons./p/!⇒PhnmP,
     <br>* McshEngl.Spchlago-p!⇒PhnmP,
     <br>* McshEngl.phoneme./p/!⇒PhnmP,
     <a class="clsHide" href="#idL0017phnmStpPnam"></a></p>
   </section>
 
   <section id="idL0017phnmStpB">
-  <h5 id="idL0017phnmStpBH5">Consphnm./b/
+  <h5 id="idL0017phnmStpBH5">HmmdphnmCons./b/
     </h5>
   <p id="idL0017phnmStpBdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2753,15 +2794,15 @@
   <p id="idL0017phnmStpBnam">name::
     <br>* McshEngl./b/-Bubble!⇒PhnmB,
     <br>* McshEngl.PhnmB!=/b/-Bubble,
-    <br>* McshEngl.phoneme.b!⇒PhnmB,
-    <br>* McshEngl.Consphnm./b/!⇒PhnmB,
+    <br>* McshEngl.Hmmdphnm.b!⇒PhnmB,
+    <br>* McshEngl.HmmdphnmCons./b/!⇒PhnmB,
     <br>* McshEngl.Spchlago-b!⇒PhnmB,
     <br>* McshEngl.phoneme./b/!⇒PhnmB,
     <a class="clsHide" href="#idL0017phnmStpBnam"></a></p>
   </section>
 
   <section id="idL0017phnmF">
-  <h5 id="idL0017phnmFH5">Consphnm./f/
+  <h5 id="idL0017phnmFH5">HmmdphnmCons./f/
     </h5>
   <p id="idL0017phnmFdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2772,15 +2813,15 @@
   <p id="idL0017phnmFnam">name::
     <br>* McshEngl./f/-Five!⇒PhnmF,
     <br>* McshEngl.PhnmF!=/f/-Five,
-    <br>* McshEngl.phoneme.f!⇒PhnmF,
-    <br>* McshEngl.Consphnm./f/!⇒PhnmF,
+    <br>* McshEngl.Hmmdphnm.f!⇒PhnmF,
+    <br>* McshEngl.HmmdphnmCons./f/!⇒PhnmF,
     <br>* McshEngl.Spchlago-f!⇒PhnmF,
     <br>* McshEngl.phoneme./f/!⇒PhnmF,
     <a class="clsHide" href="#idL0017phnmFnam"></a></p>
   </section>
 
   <section id="idL0017phnmV">
-  <h5 id="idL0017phnmVH5">Consphnm./v/
+  <h5 id="idL0017phnmVH5">HmmdphnmCons./v/
     </h5>
   <p id="idL0017phnmVdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2793,15 +2834,15 @@
   <p id="idL0017phnmVnam">name::
     <br>* McshEngl./v/-Vine!⇒PhnmV,
     <br>* McshEngl.PhnmV!=/v/-Vine,
-    <br>* McshEngl.phoneme.v!⇒PhnmV,
-    <br>* McshEngl.Consphnm./v/!⇒PhnmV,
+    <br>* McshEngl.Hmmdphnm.v!⇒PhnmV,
+    <br>* McshEngl.HmmdphnmCons./v/!⇒PhnmV,
     <br>* McshEngl.Spchlago-v!⇒PhnmV,
     <br>* McshEngl.phoneme./v/!⇒PhnmV,
     <a class="clsHide" href="#idL0017phnmVnam"></a></p>
   </section>
 
   <section id="idL0017phnmTh">
-  <h5 id="idL0017phnmThH5">Consphnm./th/-[θ]
+  <h5 id="idL0017phnmThH5">HmmdphnmCons./th/-[θ]
     </h5>
   <p id="idL0017phnmThdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2822,21 +2863,21 @@
   <p id="idL0017phnmThnam">name::
     <br>* McshEngl./th/-[θ]-THanks!⇒PhnmTh,
     <br>* McshEngl.PhnmTh!=/th/-[θ]-THanks,
-    <br>* McshEngl.phoneme.th_[θ]!⇒PhnmTh,
-    <br>* McshEngl.Consphnm./th/_[θ]!⇒PhnmTh,
+    <br>* McshEngl.Hmmdphnm.th_[θ]!⇒PhnmTh,
+    <br>* McshEngl.HmmdphnmCons./th/_[θ]!⇒PhnmTh,
     <br>* McshEngl.[θ]-/th/-THanks!⇒PhnmTh,
     <br>* McshEngl.IPA.θ-/th/-THanks!⇒PhnmTh,
-    <br>* McshEngl.Consphnm./th/!⇒PhnmTh,
+    <br>* McshEngl.HmmdphnmCons./th/!⇒PhnmTh,
     <br>* McshEngl.Spchlago-th!⇒PhnmTh,
     <br>* McshEngl.phoneme./th/-[θ]!⇒PhnmTh,
     <br>* McshEngl.phoneme.[θ]-/th/!⇒PhnmTh,
-    <br>* McshEngl.Consphnm.θ!⇒PhnmTh,
+    <br>* McshEngl.HmmdphnmCons.θ!⇒PhnmTh,
     <br>* McshEngl.Spchlago-θ!⇒PhnmTh,
     <a class="clsHide" href="#idL0017phnmThnam"></a></p>
   </section>
 
   <section id="idL0017phnmDh">
-  <h5 id="idL0017phnmDhH5">Consphnm./dh/-[ð]
+  <h5 id="idL0017phnmDhH5">HmmdphnmCons./dh/-[ð]
     </h5>
   <p id="idL0017phnmDhdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2857,23 +2898,23 @@
   <p id="idL0017phnmDhnam">name::
     <br>* McshEngl./dh/-[ð]-THis!⇒PhnmDh,
     <br>* McshEngl.PhnmDh!=/dh/-[ð]-THis,
-    <br>* McshEngl.phoneme.dh_[ð]!⇒PhnmDh,
-    <br>* McshEngl.Consphnm./dh/_[ð]!⇒PhnmDh,
+    <br>* McshEngl.Hmmdphnm.dh_[ð]!⇒PhnmDh,
+    <br>* McshEngl.HmmdphnmCons./dh/_[ð]!⇒PhnmDh,
     <br>* McshEngl.[ð]-/dh/-THis!⇒PhnmDh,
     <br>* McshEngl.IPA.ð-/dh/-THis!⇒PhnmDh,
     <br>* McshEngl.IPA.240-ð-/dh/-THis!⇒PhnmDh,
-    <br>* McshEngl.Consphnm./dh/!⇒PhnmDh,
+    <br>* McshEngl.HmmdphnmCons./dh/!⇒PhnmDh,
     <br>* McshEngl.Spchlago-dh!⇒PhnmDh,
     <br>* McshEngl.phoneme./dh/-[ð]!⇒PhnmDh,
     <br>* McshEngl.phoneme.[ð]-/dh/-THis!⇒PhnmDh,
     <br>* McshEngl.phoneme.[240-ð]-/dh/-THis!⇒PhnmDh,
-    <br>* McshEngl.Consphnm.δ!⇒PhnmDh,
+    <br>* McshEngl.HmmdphnmCons.δ!⇒PhnmDh,
     <br>* McshEngl.Spchlago-δ!⇒PhnmDh,
     <a class="clsHide" href="#idL0017phnmDhnam"></a></p>
   </section>
 
   <section id="idL0017phnmStpT">
-  <h5 id="idL0017phnmStpTH5">Consphnm./t/
+  <h5 id="idL0017phnmStpTH5">HmmdphnmCons./t/
     </h5>
   <p id="idL0017phnmStpTdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2887,15 +2928,15 @@
   <p id="idL0017phnmStpTnam">name::
     <br>* McshEngl./t/-Tip-(pinyin'd)!⇒PhnmT,
     <br>* McshEngl.PhnmT!=/t/-Tip-(pinyin'd),
-    <br>* McshEngl.phoneme.t!⇒PhnmT,
-    <br>* McshEngl.Consphnm./t/!⇒PhnmT,
+    <br>* McshEngl.Hmmdphnm.t!⇒PhnmT,
+    <br>* McshEngl.HmmdphnmCons./t/!⇒PhnmT,
     <br>* McshEngl.Spchlago-t!⇒PhnmT,
     <br>* McshEngl.phoneme./t/!⇒PhnmT,
     <a class="clsHide" href="#idL0017phnmStpTnam"></a></p>
   </section>
 
   <section id="idL0017phnmStpD">
-  <h5 id="idL0017phnmStpDH5">Consphnm./d/
+  <h5 id="idL0017phnmStpDH5">HmmdphnmCons./d/
     </h5>
   <p id="idL0017phnmStpDdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2908,15 +2949,15 @@
   <p id="idL0017phnmStpDnam">name::
     <br>* McshEngl./d/-Dad!⇒PhnmD,
     <br>* McshEngl.PhnmD!=/d/-Dad,
-    <br>* McshEngl.phoneme.d!⇒PhnmD,
-    <br>* McshEngl.Consphnm./d/!⇒PhnmD,
+    <br>* McshEngl.Hmmdphnm.d!⇒PhnmD,
+    <br>* McshEngl.HmmdphnmCons./d/!⇒PhnmD,
     <br>* McshEngl.Spchlago-d!⇒PhnmD,
     <br>* McshEngl.phoneme./d/!⇒PhnmD,
     <a class="clsHide" href="#idL0017phnmStpDnam"></a></p>
   </section>
 
   <section id="idL0017phnmS">
-  <h5 id="idL0017phnmSH5">Consphnm./s/
+  <h5 id="idL0017phnmSH5">HmmdphnmCons./s/
     </h5>
   <p id="idL0017phnmSdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2930,15 +2971,15 @@
   <p id="idL0017phnmSnam">name::
     <br>* McshEngl./s/-Sit!⇒PhnmSs,
     <br>* McshEngl.PhnmSs!=/s/-Sit,
-    <br>* McshEngl.phoneme.s!⇒PhnmSs,
-    <br>* McshEngl.Consphnm./s/!⇒PhnmSs,
+    <br>* McshEngl.Hmmdphnm.s!⇒PhnmSs,
+    <br>* McshEngl.HmmdphnmCons./s/!⇒PhnmSs,
     <br>* McshEngl.Spchlago-s!⇒PhnmSs,
     <br>* McshEngl.phoneme./s/!⇒PhnmSs,
     <a class="clsHide" href="#idL0017phnmSnam"></a></p>
   </section>
 
   <section id="idL0017phnmZ">
-  <h5 id="idL0017phnmZH5">Consphnm./z/
+  <h5 id="idL0017phnmZH5">HmmdphnmCons./z/
     </h5>
   <p id="idL0017phnmZdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2950,15 +2991,15 @@
   <p id="idL0017phnmZnam">name::
     <br>* McshEngl./z/-Zed!⇒PhnmZs,
     <br>* McshEngl.PhnmZs!=/z/-Zed,
-    <br>* McshEngl.phoneme.z,
-    <br>* McshEngl.Consphnm./z/!⇒PhnmZs,
+    <br>* McshEngl.Hmmdphnm.z,
+    <br>* McshEngl.HmmdphnmCons./z/!⇒PhnmZs,
     <br>* McshEngl.Spchlago-z!⇒PhnmZs,
     <br>* McshEngl.phoneme./z/!⇒PhnmZs,
     <a class="clsHide" href="#idL0017phnmZnam"></a></p>
   </section>
 
   <section id="idL0017phnmC">
-  <h5 id="idL0017phnmCH5">Consphnm./c/-[ts]
+  <h5 id="idL0017phnmCH5">HmmdphnmCons./c/-[ts]
     </h5>
   <p id="idL0017phnmCdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2980,16 +3021,16 @@
   <p id="idL0017phnmCnam">name::
     <br>* McshEngl./c/-[ts]-TSunami-(pinyin'z)!⇒PhnmCs,
     <br>* McshEngl.PhnmCs!=/c/-[ts]-TSunami-(pinyin'z),
-    <br>* McshEngl.phoneme.c!⇒PhnmCs,
-    <br>* McshEngl.Consphnm./c/_[ts]!⇒PhnmCs,
-    <br>* McshEngl.Consphnm./c/-[ts]!⇒PhnmCs,
+    <br>* McshEngl.Hmmdphnm.c!⇒PhnmCs,
+    <br>* McshEngl.HmmdphnmCons./c/_[ts]!⇒PhnmCs,
+    <br>* McshEngl.HmmdphnmCons./c/-[ts]!⇒PhnmCs,
     <br>* McshEngl.Spchlago-c-[ts]!⇒PhnmCs,
     <br>* McshEngl.phoneme./c/-[ts]!⇒PhnmCs,
     <a class="clsHide" href="#idL0017phnmCnam"></a></p>
   </section>
 
   <section id="idL0017phnmJ">
-  <h5 id="idL0017phnmJH5">Consphnm./j/-[dz]
+  <h5 id="idL0017phnmJH5">HmmdphnmCons./j/-[dz]
     </h5>
   <p id="idL0017phnmJdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3006,16 +3047,16 @@
   <p id="idL0017phnmJnam">name::
     <br>* McshEngl./j/-[dz]-laDS!⇒PhnmJs,
     <br>* McshEngl.PhnmJs!=/j/-[dz]-laDS,
-    <br>* McshEngl.phoneme.j!⇒PhnmJs,
-    <br>* McshEngl.Consphnm./j/_[dz]!⇒PhnmJs,
-    <br>* McshEngl.Consphnm./j/-[dz]!⇒PhnmJs,
+    <br>* McshEngl.Hmmdphnm.j!⇒PhnmJs,
+    <br>* McshEngl.HmmdphnmCons./j/_[dz]!⇒PhnmJs,
+    <br>* McshEngl.HmmdphnmCons./j/-[dz]!⇒PhnmJs,
     <br>* McshEngl.Spchlago-j-[dz]!⇒PhnmJs,
     <br>* McshEngl.phoneme./j/-[dz]!⇒PhnmJs,
     <a class="clsHide" href="#idL0017phnmJnam"></a></p>
   </section>
 
   <section id="idL0017phnmStpK">
-  <h5 id="idL0017phnmStpKH5">Consphnm./k/
+  <h5 id="idL0017phnmStpKH5">HmmdphnmCons./k/
     </h5>
   <p id="idL0017phnmStpKdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3030,15 +3071,15 @@
   <p id="idL0017phnmStpKnam">name::
     <br>* McshEngl./k/-Kit-(pinyin'g)!⇒PhnmK,
     <br>* McshEngl.PhnmK!=/k/-Kit-(pinyin'g),
-    <br>* McshEngl.phoneme.k!⇒PhnmK,
-    <br>* McshEngl.Consphnm./k/!⇒PhnmK,
+    <br>* McshEngl.Hmmdphnm.k!⇒PhnmK,
+    <br>* McshEngl.HmmdphnmCons./k/!⇒PhnmK,
     <br>* McshEngl.Spchlago-k!⇒PhnmK,
     <br>* McshEngl.phoneme./k/!⇒PhnmK,
     <a class="clsHide" href="#idL0017phnmStpKnam"></a></p>
   </section>
 
   <section id="idL0017phnmStpG">
-  <h5 id="idL0017phnmStpGH5">Consphnm./g/
+  <h5 id="idL0017phnmStpGH5">HmmdphnmCons./g/
     </h5>
   <p id="idL0017phnmStpGdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3053,15 +3094,15 @@
   <p id="idL0017phnmStpGnam">name::
     <br>* McshEngl./g/-Gun!⇒PhnmG,
     <br>* McshEngl.PhnmG!=/g/-Gun,
-    <br>* McshEngl.phoneme.g!⇒PhnmG,
-    <br>* McshEngl.Consphnm./g/!⇒PhnmG,
+    <br>* McshEngl.Hmmdphnm.g!⇒PhnmG,
+    <br>* McshEngl.HmmdphnmCons./g/!⇒PhnmG,
     <br>* McshEngl.Spchlago-g!⇒PhnmG,
     <br>* McshEngl.phoneme./g/!⇒PhnmG,
     <a class="clsHide" href="#idL0017phnmStpGnam"></a></p>
   </section>
 
   <section id="idL0017phnmH">
-  <h5 id="idL0017phnmHH5">Consphnm./h/
+  <h5 id="idL0017phnmHH5">HmmdphnmCons./h/
     </h5>
   <p id="idL0017phnmHdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3075,15 +3116,15 @@
   <p id="idL0017phnmHnam">name::
     <br>* McshEngl./h/-Hear!⇒PhnmH,
     <br>* McshEngl.PhnmH!=/h/-Hear,
-    <br>* McshEngl.phoneme.h!⇒PhnmH,
-    <br>* McshEngl.Consphnm./h/!⇒PhnmH,
+    <br>* McshEngl.Hmmdphnm.h!⇒PhnmH,
+    <br>* McshEngl.HmmdphnmCons./h/!⇒PhnmH,
     <br>* McshEngl.Spchlago-h!⇒PhnmH,
     <br>* McshEngl.phoneme./h/!⇒PhnmH,
     <a class="clsHide" href="#idL0017phnmHnam"></a></p>
   </section>
 
   <section id="idL0017phnmY">
-  <h5 id="idL0017phnmYH5">Consphnm./y/-[j|γ]
+  <h5 id="idL0017phnmYH5">HmmdphnmCons./y/-[j|γ]
     </h5>
   <p id="idL0017phnmYdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3101,14 +3142,14 @@
     <br>[{2019-08-11} https://en.wikipedia.org/wiki/Voiced_velar_fricative]
     <a class="clsHide" href="#idL0017phnmYdsn"></a></p>
   <p id="idL0017phnmYnam">name::
-    <br>* McshEngl.phoneme.y_[j|γ],
+    <br>* McshEngl.Hmmdphnm.y_[j|γ],
     <br>* McshEngl./y/-[j|γ]-Yes,
     <br>* McshEngl.[j|γ]-/y/-Yes,
     <br>* McshEngl.IPA.j|γ-/y/-Yes,
     <br>* McshEngl.IPA.γ|j-/y/-Yes,
     <br>* McshEngl.IPA.947-γ|j-/y/-Yes,
-    <br>* McshEngl.Consphnm./y/,
-    <br>* McshEngl.Consphnm.γ,
+    <br>* McshEngl.HmmdphnmCons./y/,
+    <br>* McshEngl.HmmdphnmCons.γ,
     <br>* McshEngl.phoneme./y/-[j|γ],
     <br>* McshEngl.phoneme.[j|γ]-/y/-Yes,
     <br>* McshEngl.phoneme.[γ|j]-/y/-Yes,
@@ -3119,7 +3160,7 @@
   </section>
 
   <section id="idL0017phnmM">
-  <h5 id="idL0017phnmMH5">Consphnm./m/
+  <h5 id="idL0017phnmMH5">HmmdphnmCons./m/
     </h5>
   <p id="idL0017phnmMdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3129,15 +3170,15 @@
   <p id="idL0017phnmMnam">name::
     <br>* McshEngl./m/-Man!⇒PhnmM,
     <br>* McshEngl.PhnmM!=/m/-Man,
-    <br>* McshEngl.phoneme.m!⇒PhnmM,
-    <br>* McshEngl.Consphnm./m/!⇒PhnmM,
+    <br>* McshEngl.Hmmdphnm.m!⇒PhnmM,
+    <br>* McshEngl.HmmdphnmCons./m/!⇒PhnmM,
     <br>* McshEngl.Spchlago-m!⇒PhnmM,
     <br>* McshEngl.phoneme./m/!⇒PhnmM,
     <a class="clsHide" href="#idL0017phnmMnam"></a></p>
   </section>
 
   <section id="idL0017phnmN">
-  <h5 id="idL0017phnmNH5">Consphnm./n/
+  <h5 id="idL0017phnmNH5">HmmdphnmCons./n/
     </h5>
   <p id="idL0017phnmNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3147,15 +3188,15 @@
   <p id="idL0017phnmNnam">name::
     <br>* McshEngl./n/-Net!⇒PhnmN,
     <br>* McshEngl.PhnmN!=/n/-Net,
-    <br>* McshEngl.phoneme.n!⇒PhnmN,
-    <br>* McshEngl.Consphnm./n/!⇒PhnmN,
+    <br>* McshEngl.Hmmdphnm.n!⇒PhnmN,
+    <br>* McshEngl.HmmdphnmCons./n/!⇒PhnmN,
     <br>* McshEngl.Spchlago-n!⇒PhnmN,
     <br>* McshEngl.phoneme./n/!⇒PhnmN,
     <a class="clsHide" href="#idL0017phnmNnam"></a></p>
   </section>
 
   <section id="idL0017phnmR">
-  <h5 id="idL0017phnmRH5">Consphnm./r/
+  <h5 id="idL0017phnmRH5">HmmdphnmCons./r/
     </h5>
   <p id="idL0017phnmRdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3169,15 +3210,15 @@
   <p id="idL0017phnmRnam">name::
     <br>* McshEngl./r/-Ring!⇒PhnmR,
     <br>* McshEngl.PhnmR!=/r/-Ring,
-    <br>* McshEngl.phoneme.r!⇒PhnmR,
-    <br>* McshEngl.Consphnm./r/!⇒PhnmR,
+    <br>* McshEngl.Hmmdphnm.r!⇒PhnmR,
+    <br>* McshEngl.HmmdphnmCons./r/!⇒PhnmR,
     <br>* McshEngl.Spchlago-r!⇒PhnmR,
     <br>* McshEngl.phoneme./r/!⇒PhnmR,
     <a class="clsHide" href="#idL0017phnmRnam"></a></p>
   </section>
 
   <section id="idL0017phnmL">
-  <h5 id="idL0017phnmLH5">Consphnm./l/
+  <h5 id="idL0017phnmLH5">HmmdphnmCons./l/
     </h5>
   <p id="idL0017phnmLdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3191,15 +3232,15 @@
   <p id="idL0017phnmLnam">name::
     <br>* McshEngl./l/-Love!⇒PhnmL,
     <br>* McshEngl.PhnmL!=/l/-Love,
-    <br>* McshEngl.phoneme.l!⇒PhnmL,
-    <br>* McshEngl.Consphnm./l/!⇒PhnmL,
+    <br>* McshEngl.Hmmdphnm.l!⇒PhnmL,
+    <br>* McshEngl.HmmdphnmCons./l/!⇒PhnmL,
     <br>* McshEngl.Spchlago-l!⇒PhnmL,
     <br>* McshEngl.phoneme./l/!⇒PhnmL,
     <a class="clsHide" href="#idL0017phnmLnam"></a></p>
   </section>
 
   <section id="idL0017phnmNg">
-  <h5 id="idL0017phnmNgH5">Consphnm./ng/-[ŋ]
+  <h5 id="idL0017phnmNgH5">HmmdphnmCons./ng/-[ŋ]
     </h5>
   <p id="idL0017phnmNgdsn">description::
     <br>× Mcsh-creation: {2025-02-25}
@@ -3214,19 +3255,19 @@
   <p id="idL0017phnmNgnam">name::
     <br>* McshEngl./ng/_[ŋ]!⇒PhnmNG,
     <br>* McshEngl.PhnmNG!=/ng/_[ŋ],
-    <br>* McshEngl.Consphnm./ng/_[ŋ]!⇒PhnmNG,
+    <br>* McshEngl.HmmdphnmCons./ng/_[ŋ]!⇒PhnmNG,
     <br>* McshEngl.[ŋ]-/ng/!⇒PhnmNG,
     <br>* McshEngl.IPA.ŋ-/ng/!⇒PhnmNG,
     <br>* McshEngl.IPA.331-ŋ-/ng/!⇒PhnmNG,
     <br>* McshEngl.phoneme./ng/-[ŋ]!⇒PhnmNG,
     <br>* McshEngl.phoneme.[ŋ]-/ng/!⇒PhnmNG,
     <br>* McshEngl.phoneme.[331-ŋ]-/ng/!⇒PhnmNG,
-    <br>* McshEngl.Consphnm./ng/-[ŋ]!⇒PhnmNG,
+    <br>* McshEngl.HmmdphnmCons./ng/-[ŋ]!⇒PhnmNG,
     <a class="clsHide" href="#idL0017phnmNgnam"></a></p>
   </section>
 
   <section id="idL0017phnmS2">
-  <h5 id="idL0017phnmS2H5">Consphnm./s2/-(long /s/)
+  <h5 id="idL0017phnmS2H5">HmmdphnmCons./s2/-(long /s/)
     </h5>
   <p id="idL0017phnmS2dsn">description::
     <br>× Mcsh-creation: {2025-03-01}
@@ -3235,13 +3276,13 @@
     <a class="clsHide" href="#idL0017phnmS2dsn"></a></p>
   <p id="idL0017phnmS2nam">name::
     <br>* McshEngl./s2/-(long /s/),
-    <br>* McshEngl.Consphnm./s2/-(long /s/),
+    <br>* McshEngl.HmmdphnmCons./s2/-(long /s/),
     <br>* McshEngl.phoneme./s2/-(long /s/),
     <a class="clsHide" href="#idL0017phnmS2nam"></a></p>
   </section>
 
   <section id="idL0017phnmCs">
-  <h5 id="idL0017phnmCsH5">Consphnm./C/-[tʂ]
+  <h5 id="idL0017phnmCsH5">HmmdphnmCons./C/-[tʂ]
     </h5>
   <p id="idL0017phnmCsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3261,11 +3302,11 @@
   <p id="idL0017phnmCsnam">name::
     <br>* McshEngl./C/-[tʂ]-CHip-(pinyin'zh)!⇒PhnmC,
     <br>* McshEngl.PhnmC!=/C/-[tʂ]-CHip-(pinyin'zh),
-    <br>* McshEngl.phoneme.C!⇒PhnmC,
-    <br>* McshEngl.Consphnm./C/_[tʂ]!⇒PhnmC,
+    <br>* McshEngl.Hmmdphnm.C!⇒PhnmC,
+    <br>* McshEngl.HmmdphnmCons./C/_[tʂ]!⇒PhnmC,
     <br>* McshEngl.[tʂ]-/C/-CHip-(pinyin'zh)!⇒PhnmC,
     <br>* McshEngl.IPA.tʂ-/C/-CHip-(pinyin'zh)!⇒PhnmC,
-    <br>* McshEngl.Consphnm./C/!⇒PhnmC,
+    <br>* McshEngl.HmmdphnmCons./C/!⇒PhnmC,
     <br>* McshEngl.Spchlago-C!⇒PhnmC,
     <br>* McshEngl.phoneme./C/-[tʂ]!⇒PhnmC, {2022-03-04}
     <br>* McshEngl.phoneme.[tʂ]-/C/!⇒PhnmC,
@@ -3273,7 +3314,7 @@
   </section>
 
   <section id="idL0017phnmHs">
-  <h5 id="idL0017phnmHsH5">Consphnm./H/-[x]
+  <h5 id="idL0017phnmHsH5">HmmdphnmCons./H/-[x]
     </h5>
   <p id="idL0017phnmHsdsn">description::
     <br>× Mcsh-creation: {2025-02-25}
@@ -3286,19 +3327,19 @@
     <a class="clsHide" href="#idL0017phnmHsdsn"></a></p>
   <p id="idL0017phnmHsnam">name::
     <br>* McshEngl./H/_[x]_strong_/h/,
-    <br>* McshEngl.Consphnm./H/_[x],
+    <br>* McshEngl.HmmdphnmCons./H/_[x],
     <br>* McshEngl.[x]-/H/,
     <br>* McshEngl.IPA.x-/H/,
     <br>* McshEngl.IPA.120-x-/H/,
     <br>* McshEngl.phoneme./H/-[x],
     <br>* McshEngl.phoneme.[x]-/H/,
     <br>* McshEngl.phoneme.[120-x]-/H/,
-    <br>* McshEngl.Consphnm./H/-[x],
+    <br>* McshEngl.HmmdphnmCons./H/-[x],
     <a class="clsHide" href="#idL0017phnmHsnam"></a></p>
   </section>
 
   <section id="idL0017phnmJs">
-  <h5 id="idL0017phnmJsH5">Consphnm./J/-[dʐ]
+  <h5 id="idL0017phnmJsH5">HmmdphnmCons./J/-[dʐ]
     </h5>
   <p id="idL0017phnmJsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3316,10 +3357,10 @@
   <p id="idL0017phnmJsnam">name::
     <br>* McshEngl./J/-[dʐ]-Jam!⇒PhnmJ,
     <br>* McshEngl.PhnmJ!=/J/-[dʐ]-Jam,
-    <br>* McshEngl.phoneme.J!⇒PhnmJ,
-    <br>* McshEngl.Consphnm./J/_[dʐ]!⇒PhnmJ,
+    <br>* McshEngl.Hmmdphnm.J!⇒PhnmJ,
+    <br>* McshEngl.HmmdphnmCons./J/_[dʐ]!⇒PhnmJ,
     <br>* McshEngl[dʐ]-./J/-Jam,
-    <br>* McshEngl.Consphnm./J/!⇒PhnmJ,
+    <br>* McshEngl.HmmdphnmCons./J/!⇒PhnmJ,
     <br>* McshEngl.Spchlago-J!⇒PhnmJ,
     <br>* McshEngl.phoneme./J/-[dʐ]!⇒PhnmJ, {2022-03-04}
     <br>* McshEngl.phoneme.[dʐ]-/J/!⇒PhnmJ,
@@ -3327,7 +3368,7 @@
   </section>
 
   <section id="idL0017phnmLh">
-  <h5 id="idL0017phnmLhH5">Consphnm./L/-[ɫ]
+  <h5 id="idL0017phnmLhH5">HmmdphnmCons./L/-[ɫ]
     </h5>
   <p id="idL0017phnmLhdsn">description::
     <br>× Mcsh-creation: {2025-03-15}
@@ -3335,11 +3376,11 @@
     <a class="clsHide" href="#idL0017phnmLhdsn"></a></p>
   <p id="idL0017phnmLhnam">name::
     <br>* McshEngl./L/_[ɫ]_strong_/l/,
-    <br>* McshEngl.Consphnm./L/_[ɫ],
+    <br>* McshEngl.HmmdphnmCons./L/_[ɫ],
     <br>* McshEngl.[ɫ]-/L/-strong-/l/,
     <br>* McshEngl.IPA.ɫ-/L/-strong-/l/,
     <br>* McshEngl.IPA.619-ɫ-/L/-strong-/l/,
-    <br>* McshEngl.Consphnm./L/-[ɫ],
+    <br>* McshEngl.HmmdphnmCons./L/-[ɫ],
     <br>* McshEngl.phoneme./L/-[ɫ],
     <br>* McshEngl.phoneme.[ɫ]-/L/,
     <br>* McshEngl.phoneme.[619-ɫ]-/L/,
@@ -3347,7 +3388,7 @@
   </section>
 
   <section id="idL0017phnmSs">
-  <h5 id="idL0017phnmSsH5">Consphnm./S/-[ʃ]
+  <h5 id="idL0017phnmSsH5">HmmdphnmCons./S/-[ʃ]
     </h5>
   <p id="idL0017phnmSsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3365,23 +3406,23 @@
   <p id="idL0017phnmSsnam">name::
     <br>* McshEngl./S/-[ʃ]-Sure!⇒PhnmS,
     <br>* McshEngl.PhnmS!=/S/-[ʃ]-Sure,
-    <br>* McshEngl.phoneme.S!⇒PhnmS,
-    <br>* McshEngl.Consphnm./S/_[ʃ]!⇒PhnmS,
+    <br>* McshEngl.Hmmdphnm.S!⇒PhnmS,
+    <br>* McshEngl.HmmdphnmCons./S/_[ʃ]!⇒PhnmS,
     <br>* McshEngl.[ʃ]-/S/-Sure!⇒PhnmS,
     <br>* McshEngl.IPA.ʃ-/S/-Sure!⇒PhnmS,
     <br>* McshEngl.IPA.643-ʃ-/S/-Sure!⇒PhnmS,
-    <br>* McshEngl.Consphnm./S/-[ʃ]!⇒PhnmS,
+    <br>* McshEngl.HmmdphnmCons./S/-[ʃ]!⇒PhnmS,
     <br>* McshEngl.Spchlago-S!⇒PhnmS,
     <br>* McshEngl.phoneme./S/-[ʃ]!⇒PhnmS, {2022-03-04}
     <br>* McshEngl.phoneme.[ʃ]-/S/!⇒PhnmS,
     <br>* McshEngl.phoneme.[643-ʃ]-/S/!⇒PhnmS,
-    <br>* McshEngl.Consphnm.ʃ!⇒PhnmS,
+    <br>* McshEngl.HmmdphnmCons.ʃ!⇒PhnmS,
     <br>* McshEngl.Spchlago-ʃ!⇒PhnmS,
     <a class="clsHide" href="#idL0017phnmSsnam"></a></p>
   </section>
 
   <section id="idL0017phnmZs">
-  <h5 id="idL0017phnmZsH5">Consphnm./Z/-[ʒ]
+  <h5 id="idL0017phnmZsH5">HmmdphnmCons./Z/-[ʒ]
     </h5>
   <p id="idL0017phnmZsdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3400,22 +3441,22 @@
     <br>* McshEngl./Z/-[ʒ]-treaSure-strong-/z/!⇒PhnmZ,
     <br>* McshEngl.PhnmZ!=/Z/-[ʒ]-treaSure-strong-/z,
     <br>* McshEngl.phoneme.Z/!⇒PhnmZ,
-    <br>* McshEngl.Consphnm./Z/_[ʒ]!⇒PhnmZ,
+    <br>* McshEngl.HmmdphnmCons./Z/_[ʒ]!⇒PhnmZ,
     <br>* McshEngl.[ʒ]-/Z/-treaSure!⇒PhnmZ,
     <br>* McshEngl.IPA.ʒ-/Z/-treaSure!⇒PhnmZ,
     <br>* McshEngl.IPA.658-ʒ-/Z/-treaSure!⇒PhnmZ,
-    <br>* McshEngl.Consphnm./Z/-[ʒ]!⇒PhnmZ,
+    <br>* McshEngl.HmmdphnmCons./Z/-[ʒ]!⇒PhnmZ,
     <br>* McshEngl.Spchlago-Z!⇒PhnmZ,
     <br>* McshEngl.phoneme./Z/-[ʒ]!⇒PhnmZ, {2022-03-04}
     <br>* McshEngl.phoneme.[ʒ]-/Z/!⇒PhnmZ,
     <br>* McshEngl.phoneme.[658-ʒ]-/Z/!⇒PhnmZ,
-    <br>* McshEngl.Consphnm.ʒ!⇒PhnmZ,
+    <br>* McshEngl.HmmdphnmCons.ʒ!⇒PhnmZ,
     <br>* McshEngl.Spchlago-ʒ!⇒PhnmZ,
     <a class="clsHide" href="#idL0017phnmZsnam"></a></p>
   </section>
 
   <section id="idL0017phnmSi">
-  <h5 id="idL0017phnmSiH5">Consphnm./ss/-(si)-[ɕ]
+  <h5 id="idL0017phnmSiH5">HmmdphnmCons./ss/-(si)-[ɕ]
     </h5>
   <p id="idL0017phnmSidsn">description::
     <br>× Mcsh-creation: {2025-02-01}
@@ -3432,12 +3473,12 @@
     <br>* McshEngl./ss/-(si)-[ɕ]!⇒PhonemeSSs,
     <br>* McshEngl.PhonemeSSs!=/ss/-(si)-[ɕ],
     <br>* McshEngl./ss/!⇒PhonemeSSs,
-    <br>* McshEngl.Consphnm./ss/_(si)_[ɕ]!⇒PhonemeSSs,
+    <br>* McshEngl.HmmdphnmCons./ss/_(si)_[ɕ]!⇒PhonemeSSs,
     <br>* McshEngl.[ɕ]-/ss/-(si)!⇒PhonemeSSs,
     <br>* McshEngl.IPA.ɕ-/ss/-(si)!⇒PhonemeSSs,
     <br>* McshEngl.IPA.597-ɕ-/ss/-(si)!⇒PhonemeSSs,
     <br>* McshEngl./sj/!⇒PhonemeSSs,
-    <br>* McshEngl.Consphnm./ss/-[ɕ]!⇒PhonemeSSs,
+    <br>* McshEngl.HmmdphnmCons./ss/-[ɕ]!⇒PhonemeSSs,
     <br>* McshEngl.phoneme./ss/-[ɕ]!⇒PhonemeSSs,
     <br>* McshEngl.phoneme.[ɕ]-/ss/!⇒PhonemeSSs,
     <br>* McshEngl.phoneme.[597-ɕ]-/ss/!⇒PhonemeSSs,
@@ -3445,7 +3486,7 @@
   </section>
 
   <section id="idL0017phnmZi">
-  <h5 id="idL0017phnmZiH5">Consphnm./zz/-(zi)-[ʑ]
+  <h5 id="idL0017phnmZiH5">HmmdphnmCons./zz/-(zi)-[ʑ]
     </h5>
   <p id="idL0017phnmZidsn">description::
     <br>× Mcsh-creation: {2025-02-01}
@@ -3458,13 +3499,13 @@
     <a class="clsHide" href="#idL0017phnmZidsn"></a></p>
   <p id="idL0017phnmZinam">name::
     <br>* McshEngl./zz/,
-    <br>* McshEngl.Consphnm./zz/_(zi)_[ʑ],
+    <br>* McshEngl.HmmdphnmCons./zz/_(zi)_[ʑ],
     <br>* McshEngl./zz/-(zi)-[ʑ],
     <br>* McshEngl.[ʑ]-/zz/-(zi),
     <br>* McshEngl.IPA.ʑ-/zz/-(zi),
     <br>* McshEngl.IPA.657-ʑ-/zz/-(zi),
     <br>* McshEngl./zj/,
-    <br>* McshEngl.Consphnm./zz/-[ʑ],
+    <br>* McshEngl.HmmdphnmCons./zz/-[ʑ],
     <br>* McshEngl.phoneme./zz/-[ʑ],
     <br>* McshEngl.phoneme.[ʑ]-/zz/,
     <br>* McshEngl.phoneme.[657-ʑ]-/zz/,
@@ -3472,7 +3513,7 @@
   </section>
 
   <section id="idL0017phnmCi">
-  <h5 id="idL0017phnmCiH5">Consphnm./cc/-(ci)
+  <h5 id="idL0017phnmCiH5">HmmdphnmCons./cc/-(ci)
     </h5>
   <p id="idL0017phnmCidsn">description::
     <br>× Mcsh-creation: {2025-02-01}
@@ -3481,16 +3522,16 @@
     <a class="clsHide" href="#idL0017phnmCidsn"></a></p>
   <p id="idL0017phnmCinam">name::
     <br>* McshEngl./cc/,
-    <br>* McshEngl.Consphnm./cc/_(ci),
+    <br>* McshEngl.HmmdphnmCons./cc/_(ci),
     <br>* McshEngl./cc/-(ci),
     <br>* McshEngl./cj/,
-    <br>* McshEngl.Consphnm./cc/,
+    <br>* McshEngl.HmmdphnmCons./cc/,
     <br>* McshEngl.phoneme./cc/,
     <a class="clsHide" href="#idL0017phnmCinam"></a></p>
   </section>
 
   <section id="idL0017phnmJi">
-  <h5 id="idL0017phnmJiH5">Consphnm./jj/-(ji)
+  <h5 id="idL0017phnmJiH5">HmmdphnmCons./jj/-(ji)
     </h5>
   <p id="idL0017phnmJidsn">description::
     <br>× Mcsh-creation: {2025-02-01}
@@ -3499,14 +3540,14 @@
     <a class="clsHide" href="#idL0017phnmJidsn"></a></p>
   <p id="idL0017phnmJinam">name::
     <br>* McshEngl./jj/_(ji),
-    <br>* McshEngl.Consphnm./jj/_(ji),
-    <br>* McshEngl.Consphnm./jj/,
+    <br>* McshEngl.HmmdphnmCons./jj/_(ji),
+    <br>* McshEngl.HmmdphnmCons./jj/,
     <br>* McshEngl.phoneme./jj/,
     <a class="clsHide" href="#idL0017phnmJinam"></a></p>
   </section>
 
   <section id="idL0017phnmKi">
-  <h5 id="idL0017phnmKiH5">Consphnm./kk/-(ki)
+  <h5 id="idL0017phnmKiH5">HmmdphnmCons./kk/-(ki)
     </h5>
   <p id="idL0017phnmKidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3519,16 +3560,16 @@
     <a class="clsHide" href="#idL0017phnmKidsn"></a></p>
   <p id="idL0017phnmKinam">name::
     <br>* McshEngl./kk/_(ki)_cute,
-    <br>* McshEngl.Consphnm./kk/_(ki),
+    <br>* McshEngl.HmmdphnmCons./kk/_(ki),
     <br>* McshEngl./kj/,
-    <br>* McshEngl.Consphnm./kk/-(ki)-cute,
+    <br>* McshEngl.HmmdphnmCons./kk/-(ki)-cute,
     <br>* McshEngl.phoneme./kk/-(ki)-cute,
-    <br>* McshEngl.phoneme.[c],
+    <br>* McshEngl.Hmmdphnm.[c],
     <a class="clsHide" href="#idL0017phnmKinam"></a></p>
   </section>
 
   <section id="idL0017phnmGi">
-  <h5 id="idL0017phnmGiH5">Consphnm./gg/-(gi)-[ɟ]
+  <h5 id="idL0017phnmGiH5">HmmdphnmCons./gg/-(gi)-[ɟ]
     </h5>
   <p id="idL0017phnmGidsn">description::
     <br>× Mcsh-creation: {2025-02-01}
@@ -3537,16 +3578,16 @@
     <a class="clsHide" href="#idL0017phnmGidsn"></a></p>
   <p id="idL0017phnmGinam">name::
     <br>* McshEngl./gg/_(gi)_[ɟ],
-    <br>* McshEngl.Consphnm./gg/_(gi)_[ɟ],
+    <br>* McshEngl.HmmdphnmCons./gg/_(gi)_[ɟ],
     <br>* McshEngl./gj/,
-    <br>* McshEngl.Consphnm./gg/-(gi)-[ɟ],
+    <br>* McshEngl.HmmdphnmCons./gg/-(gi)-[ɟ],
     <br>* McshEngl.phoneme./gg/-(gi)-[ɟ],
-    <br>* McshEngl.phoneme.[ɟ],
+    <br>* McshEngl.Hmmdphnm.[ɟ],
     <a class="clsHide" href="#idL0017phnmGinam"></a></p>
   </section>
 
   <section id="idL0017phnmHi">
-  <h5 id="idL0017phnmHiH5">Consphnm./hh/-(hi)-[ç]
+  <h5 id="idL0017phnmHiH5">HmmdphnmCons./hh/-(hi)-[ç]
     </h5>
   <p id="idL0017phnmHidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3555,12 +3596,12 @@
     <a class="clsHide" href="#idL0017phnmHidsn"></a></p>
   <p id="idL0017phnmHinam">name::
     <br>* McshEngl./hh/_(hi)_[ç]_Huge,
-    <br>* McshEngl.Consphnm./hh/_(hi)_[ç],
+    <br>* McshEngl.HmmdphnmCons./hh/_(hi)_[ç],
     <br>* McshEngl./hj/⇒/hh/,
     <br>* McshEngl.[ç]-/hh/-Huge,
     <br>* McshEngl.IPA.ç-/hh/-Huge,
     <br>* McshEngl.IPA.231-ç-/hh/-Huge,
-    <br>* McshEngl.Consphnm./hh/,
+    <br>* McshEngl.HmmdphnmCons./hh/,
     <br>* McshEngl.Spchlago-hj⇒/hh/,
     <br>* McshEngl.phoneme./hh/-[ç],
     <br>* McshEngl.phoneme.[ç]-/hh/,
@@ -3569,7 +3610,7 @@
   </section>
 
   <section id="idL0017phnmYi">
-  <h5 id="idL0017phnmYiH5">Consphnm./yy/-(yi)
+  <h5 id="idL0017phnmYiH5">HmmdphnmCons./yy/-(yi)
     </h5>
   <p id="idL0017phnmYidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3585,16 +3626,16 @@
     <a class="clsHide" href="#idL0017phnmYidsn"></a></p>
   <p id="idL0017phnmYinam">name::
     <br>* McshEngl./yy/_(yi)_You,
-    <br>* McshEngl.Consphnm./yy/_(yi),
+    <br>* McshEngl.HmmdphnmCons./yy/_(yi),
     <br>* McshEngl./yj/⇒/yy/,
-    <br>* McshEngl.Consphnm./yy/,
+    <br>* McshEngl.HmmdphnmCons./yy/,
     <br>* McshEngl.Spchlago-yj⇒/yy/,
     <br>* McshEngl.phoneme./yy/,
     <a class="clsHide" href="#idL0017phnmYinam"></a></p>
   </section>
 
   <section id="idL0017phnmNi">
-  <h5 id="idL0017phnmNiH5">Consphnm./nn/-(ni)-[ɲ]
+  <h5 id="idL0017phnmNiH5">HmmdphnmCons./nn/-(ni)-[ɲ]
     </h5>
   <p id="idL0017phnmNidsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3608,12 +3649,12 @@
     <a class="clsHide" href="#idL0017phnmNidsn"></a></p>
   <p id="idL0017phnmNinam">name::
     <br>* McshEngl./nn/_(ni)_[ɲ]_New,
-    <br>* McshEngl.Consphnm./nn/_(ni)_[ɲ],
+    <br>* McshEngl.HmmdphnmCons./nn/_(ni)_[ɲ],
     <br>* McshEngl./nj/⇒/nn/,
     <br>* McshEngl.[ɲ]-/nn/-(ni)-New,
     <br>* McshEngl.IPA.ɲ-/nn/-(ni)-New,
     <br>* McshEngl.IPA.626-ɲ-/nn/-(ni)-New,
-    <br>* McshEngl.Consphnm./nn/,
+    <br>* McshEngl.HmmdphnmCons./nn/,
     <br>* McshEngl.Spchlago-nj⇒/nn/,
     <br>* McshEngl.phoneme./nn/-[ɲ],
     <br>* McshEngl.phoneme.[ɲ]-/nn/,
@@ -3622,7 +3663,7 @@
   </section>
 
   <section id="idL0017phnmLi">
-  <h5 id="idL0017phnmLiH5">Consphnm./ll/-(li)-[ʎ]
+  <h5 id="idL0017phnmLiH5">HmmdphnmCons./ll/-(li)-[ʎ]
     </h5>
   <p id="idL0017phnmLidsn">description::
     <br>× Mcsh-creation: {2025-02-01}
@@ -3635,12 +3676,12 @@
     <a class="clsHide" href="#idL0017phnmLidsn"></a></p>
   <p id="idL0017phnmLinam">name::
     <br>* McshEngl./ll/_(li)_[ʎ],
-    <br>* McshEngl.Consphnm./ll/_(li)_[ʎ],
+    <br>* McshEngl.HmmdphnmCons./ll/_(li)_[ʎ],
     <br>* McshEngl.[ʎ]-/ll/-(li),
     <br>* McshEngl.IPA.ʎ-/ll/-(li),
     <br>* McshEngl.IPA.654-ʎ-/ll/-(li),
     <br>* McshEngl./lj/,
-    <br>* McshEngl.Consphnm./ll/-[ʎ],
+    <br>* McshEngl.HmmdphnmCons./ll/-[ʎ],
     <br>* McshEngl.phoneme./ll/-[ʎ],
     <br>* McshEngl.phoneme.[ʎ]-/ll/,
     <br>* McshEngl.phoneme.[654-ʎ]-/ll/,
@@ -3648,7 +3689,7 @@
   </section>
 
   <section id="idL0017phnmVwlNaspnK">
-  <h5 id="idL0017phnmVwlNaspnKH5">Consphnm./kd/-[kʰ]
+  <h5 id="idL0017phnmVwlNaspnKH5">HmmdphnmCons./kd/-[kʰ]
     </h5>
   <p id="idL0017phnmVwlNaspnKdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3657,18 +3698,18 @@
     <a class="clsHide" href="#idL0017phnmVwlNaspnKdsn"></a></p>
   <p id="idL0017phnmVwlNaspnKnam">name::
     <br>* McshEngl./kd/_[kʰ]_aspirated_k,
-    <br>* McshEngl.Consphnm./kd/_[kʰ],
+    <br>* McshEngl.HmmdphnmCons./kd/_[kʰ],
     <br>* McshEngl.[kʰ]-/kd/-aspirated-k,
     <br>* McshEngl.IPA.kʰ-/kd/-aspirated-k,
     <br>* McshEngl.aspirated-k./kd/-[kʰ],
-    <br>* McshEngl.Consphnm./kd/-[kʰ],
+    <br>* McshEngl.HmmdphnmCons./kd/-[kʰ],
     <br>* McshEngl.phoneme./kd/-[kʰ],
     <br>* McshEngl.phoneme.[kʰ]-/kd/,
     <a class="clsHide" href="#idL0017phnmVwlNaspnKnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNaspnP">
-  <h5 id="idL0017phnmVwlNaspnPH5">Consphnm./pd/-[pʰ]
+  <h5 id="idL0017phnmVwlNaspnPH5">HmmdphnmCons./pd/-[pʰ]
     </h5>
   <p id="idL0017phnmVwlNaspnPdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3677,18 +3718,18 @@
     <a class="clsHide" href="#idL0017phnmVwlNaspnPdsn"></a></p>
   <p id="idL0017phnmVwlNaspnPnam">name::
     <br>* McshEngl./pd/_[pʰ]_aspirated_p,
-    <br>* McshEngl.Consphnm./pd/_[pʰ],
+    <br>* McshEngl.HmmdphnmCons./pd/_[pʰ],
     <br>* McshEngl.[pʰ]-/pd/-aspirated-p,
     <br>* McshEngl.IPA.pʰ-/pd/-aspirated-p,
     <br>* McshEngl.aspirated-p./pd/-[pʰ],
-    <br>* McshEngl.Consphnm./pd/-[pʰ],
+    <br>* McshEngl.HmmdphnmCons./pd/-[pʰ],
     <br>* McshEngl.phoneme./pd/-[pʰ],
     <br>* McshEngl.phoneme.[pʰ]-/pd/,
     <a class="clsHide" href="#idL0017phnmVwlNaspnPnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNaspnT">
-  <h5 id="idL0017phnmVwlNaspnTH5">Consphnm./td/-[tʰ]
+  <h5 id="idL0017phnmVwlNaspnTH5">HmmdphnmCons./td/-[tʰ]
     </h5>
   <p id="idL0017phnmVwlNaspnTdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3698,18 +3739,18 @@
     <a class="clsHide" href="#idL0017phnmVwlNaspnTdsn"></a></p>
   <p id="idL0017phnmVwlNaspnTnam">name::
     <br>* McshEngl./td/_[tʰ]_aspirated_t,
-    <br>* McshEngl.Consphnm./td/_[tʰ],
+    <br>* McshEngl.HmmdphnmCons./td/_[tʰ],
     <br>* McshEngl.[tʰ]-/td/-aspirated-t,
     <br>* McshEngl.IPA.tʰ-/td/-aspirated-t,
     <br>* McshEngl.aspirated-t./td/-[tʰ],
-    <br>* McshEngl.Consphnm./td/-[tʰ],
+    <br>* McshEngl.HmmdphnmCons./td/-[tʰ],
     <br>* McshEngl.phoneme./td/-[tʰ],
     <br>* McshEngl.phoneme.[tʰ]-/td/,
     <a class="clsHide" href="#idL0017phnmVwlNaspnTnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNFrglD">
-  <h5 id="idL0017phnmVwlNFrglDH5">Consphnm./df/-[dˤ]
+  <h5 id="idL0017phnmVwlNFrglDH5">HmmdphnmCons./df/-[dˤ]
     </h5>
   <p id="idL0017phnmVwlNFrglDdsn">description::
     <br>× Mcsh-creation: {2025-04-23}
@@ -3717,17 +3758,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNFrglDdsn"></a></p>
   <p id="idL0017phnmVwlNFrglDnam">name::
     <br>* McshEngl./df/_[dˤ]_pharyngeal_Arabic,
-    <br>* McshEngl.Consphnm./df/_[dˤ],
+    <br>* McshEngl.HmmdphnmCons./df/_[dˤ],
     <br>* McshEngl.[dˤ]-/df/-pharyngeal-Arabic,
     <br>* McshEngl.IPA.dˤ-/df/-pharyngeal-Arabic,
-    <br>* McshEngl.Consphnm./df/-[dˤ],
+    <br>* McshEngl.HmmdphnmCons./df/-[dˤ],
     <br>* McshEngl.phoneme./df/-[dˤ],
     <br>* McshEngl.phoneme.[dˤ]-/df/,
     <a class="clsHide" href="#idL0017phnmVwlNFrglDnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNFrglDh">
-  <h5 id="idL0017phnmVwlNFrglDhH5">Consphnm./dhf/-[dhˤ]
+  <h5 id="idL0017phnmVwlNFrglDhH5">HmmdphnmCons./dhf/-[dhˤ]
     </h5>
   <p id="idL0017phnmVwlNFrglDhdsn">description::
     <br>× Mcsh-creation: {2025-04-23}
@@ -3735,17 +3776,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNFrglDhdsn"></a></p>
   <p id="idL0017phnmVwlNFrglDhnam">name::
     <br>* McshEngl./dhf/_[dhˤ]_pharyngeal_Arabic,
-    <br>* McshEngl.Consphnm./dhf/_[dhˤ],
+    <br>* McshEngl.HmmdphnmCons./dhf/_[dhˤ],
     <br>* McshEngl.[dhˤ]-/dhf/-pharyngeal-Arabic,
     <br>* McshEngl.IPA.dhˤ-/dhf/-pharyngeal-Arabic,
-    <br>* McshEngl.Consphnm./dhf/-[dhˤ],
+    <br>* McshEngl.HmmdphnmCons./dhf/-[dhˤ],
     <br>* McshEngl.phoneme./dhf/-[dhˤ],
     <br>* McshEngl.phoneme.[dhˤ]-/dhf/,
     <a class="clsHide" href="#idL0017phnmVwlNFrglDhnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNFrglH">
-  <h5 id="idL0017phnmVwlNFrglHH5">Consphnm./hf/-[hˤ]
+  <h5 id="idL0017phnmVwlNFrglHH5">HmmdphnmCons./hf/-[hˤ]
     </h5>
   <p id="idL0017phnmVwlNFrglHdsn">description::
     <br>× Mcsh-creation: {2025-04-23}
@@ -3753,17 +3794,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNFrglHdsn"></a></p>
   <p id="idL0017phnmVwlNFrglHnam">name::
     <br>* McshEngl./hf/_[hˤ]_pharyngeal_Arabic,
-    <br>* McshEngl.Consphnm./hf/_[hˤ],
+    <br>* McshEngl.HmmdphnmCons./hf/_[hˤ],
     <br>* McshEngl.[hˤ]-/hf/-pharyngeal-Arabic,
     <br>* McshEngl.IPA.hˤ-/hf/-pharyngeal-Arabic,
-    <br>* McshEngl.Consphnm./hf/-[hˤ],
+    <br>* McshEngl.HmmdphnmCons./hf/-[hˤ],
     <br>* McshEngl.phoneme./hf/-[hˤ],
     <br>* McshEngl.phoneme.[hˤ]-/hf/,
     <a class="clsHide" href="#idL0017phnmVwlNFrglHnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNFrglK">
-  <h5 id="idL0017phnmVwlNFrglKH5">Consphnm./kf/-[kˤ]
+  <h5 id="idL0017phnmVwlNFrglKH5">HmmdphnmCons./kf/-[kˤ]
     </h5>
   <p id="idL0017phnmVwlNFrglKdsn">description::
     <br>× Mcsh-creation: {2025-04-23}
@@ -3771,17 +3812,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNFrglKdsn"></a></p>
   <p id="idL0017phnmVwlNFrglKnam">name::
     <br>* McshEngl./kf/_[kˤ]_pharyngeal_Arabic,
-    <br>* McshEngl.Consphnm./kf/_[kˤ],
+    <br>* McshEngl.HmmdphnmCons./kf/_[kˤ],
     <br>* McshEngl.[kˤ]-/kf/-pharyngeal-Arabic,
     <br>* McshEngl.IPA.kˤ-/kf/-pharyngeal-Arabic,
-    <br>* McshEngl.Consphnm./kf/-[kˤ],
+    <br>* McshEngl.HmmdphnmCons./kf/-[kˤ],
     <br>* McshEngl.phoneme./kf/-[kˤ],
     <br>* McshEngl.phoneme.[kˤ]-/kf/,
     <a class="clsHide" href="#idL0017phnmVwlNFrglKnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNFrglS">
-  <h5 id="idL0017phnmVwlNFrglSH5">Consphnm./sf/-[sˤ]
+  <h5 id="idL0017phnmVwlNFrglSH5">HmmdphnmCons./sf/-[sˤ]
     </h5>
   <p id="idL0017phnmVwlNFrglSdsn">description::
     <br>× Mcsh-creation: {2025-04-23}
@@ -3789,17 +3830,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNFrglSdsn"></a></p>
   <p id="idL0017phnmVwlNFrglSnam">name::
     <br>* McshEngl./sf/_[sˤ]_pharyngeal_Arabic,
-    <br>* McshEngl.Consphnm./sf/_[sˤ],
+    <br>* McshEngl.HmmdphnmCons./sf/_[sˤ],
     <br>* McshEngl.[sˤ]-/sf/-pharyngeal-Arabic,
     <br>* McshEngl.IPA.sˤ-/sf/-pharyngeal-Arabic,
-    <br>* McshEngl.Consphnm./sf/-[sˤ],
+    <br>* McshEngl.HmmdphnmCons./sf/-[sˤ],
     <br>* McshEngl.phoneme./sf/-[sˤ],
     <br>* McshEngl.phoneme.[sˤ]-/sf/,
     <a class="clsHide" href="#idL0017phnmVwlNFrglSnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNFrglT">
-  <h5 id="idL0017phnmVwlNFrglTH5">Consphnm./tf/-[tˤ]
+  <h5 id="idL0017phnmVwlNFrglTH5">HmmdphnmCons./tf/-[tˤ]
     </h5>
   <p id="idL0017phnmVwlNFrglTdsn">description::
     <br>× Mcsh-creation: {2025-04-23}
@@ -3807,17 +3848,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNFrglTdsn"></a></p>
   <p id="idL0017phnmVwlNFrglTnam">name::
     <br>* McshEngl./tf/_[tˤ]_pharyngeal_Arabic,
-    <br>* McshEngl.Consphnm./tf/_[tˤ],
+    <br>* McshEngl.HmmdphnmCons./tf/_[tˤ],
     <br>* McshEngl.[tˤ]-/tf/-pharyngeal-Arabic,
     <br>* McshEngl.IPA.tˤ-/tf/-pharyngeal-Arabic,
-    <br>* McshEngl.Consphnm./tf/-[tˤ],
+    <br>* McshEngl.HmmdphnmCons./tf/-[tˤ],
     <br>* McshEngl.phoneme./tf/-[tˤ],
     <br>* McshEngl.phoneme.[tˤ]-/tf/,
     <a class="clsHide" href="#idL0017phnmVwlNFrglTnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNBrthB">
-  <h5 id="idL0017phnmVwlNBrthBH5">Consphnm./bb/-[bʱ]
+  <h5 id="idL0017phnmVwlNBrthBH5">HmmdphnmCons./bb/-[bʱ]
     </h5>
   <p id="idL0017phnmVwlNBrthBdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3825,17 +3866,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNBrthBdsn"></a></p>
   <p id="idL0017phnmVwlNBrthBnam">name::
     <br>* McshEngl./bb/_[bʱ]_breathy_b,
-    <br>* McshEngl.Consphnm./bb/_[bʱ],
+    <br>* McshEngl.HmmdphnmCons./bb/_[bʱ],
     <br>* McshEngl.[bʱ]-/bb/-breathy-b,
     <br>* McshEngl.IPA.bʱ-/bb/-breathy-b,
-    <br>* McshEngl.Consphnm./bb/-[bʱ],
+    <br>* McshEngl.HmmdphnmCons./bb/-[bʱ],
     <br>* McshEngl.phoneme./bb/-[bʱ],
     <br>* McshEngl.phoneme.[bʱ]-/bb/,
     <a class="clsHide" href="#idL0017phnmVwlNBrthBnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNBrthD">
-  <h5 id="idL0017phnmVwlNBrthDH5">Consphnm./db/-[d̪ʱ]
+  <h5 id="idL0017phnmVwlNBrthDH5">HmmdphnmCons./db/-[d̪ʱ]
     </h5>
   <p id="idL0017phnmVwlNBrthDdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3843,17 +3884,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNBrthDdsn"></a></p>
   <p id="idL0017phnmVwlNBrthDnam">name::
     <br>* McshEngl./db/_[d̪ʱ]_breathy_d,
-    <br>* McshEngl.Consphnm./db/_[d̪ʱ],
+    <br>* McshEngl.HmmdphnmCons./db/_[d̪ʱ],
     <br>* McshEngl.[d̪ʱ]-/db/-breathy-d,
     <br>* McshEngl.IPA.d̪ʱ-/db/-breathy-d,
-    <br>* McshEngl.Consphnm./db/-[d̪ʱ],
+    <br>* McshEngl.HmmdphnmCons./db/-[d̪ʱ],
     <br>* McshEngl.phoneme./db/-[d̪ʱ],
     <br>* McshEngl.phoneme.[d̪ʱ]-/db/,
     <a class="clsHide" href="#idL0017phnmVwlNBrthDnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNBrthG">
-  <h5 id="idL0017phnmVwlNBrthGH5">Consphnm./gb/-[ɡʱ]
+  <h5 id="idL0017phnmVwlNBrthGH5">HmmdphnmCons./gb/-[ɡʱ]
     </h5>
   <p id="idL0017phnmVwlNBrthGdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3861,17 +3902,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNBrthGdsn"></a></p>
   <p id="idL0017phnmVwlNBrthGnam">name::
     <br>* McshEngl./gb/_[ɡʱ]_breathy_g,
-    <br>* McshEngl.Consphnm./gb/_[ɡʱ],
+    <br>* McshEngl.HmmdphnmCons./gb/_[ɡʱ],
     <br>* McshEngl.[ɡʱ]-/gb/-breathy-g,
     <br>* McshEngl.IPA.ɡʱ-/gb/-breathy-g,
-    <br>* McshEngl.Consphnm./gb/-[ɡʱ],
+    <br>* McshEngl.HmmdphnmCons./gb/-[ɡʱ],
     <br>* McshEngl.phoneme./gb/-[ɡʱ],
     <br>* McshEngl.phoneme.[ɡʱ]-/gb/,
     <a class="clsHide" href="#idL0017phnmVwlNBrthGnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNBrthJh">
-  <h5 id="idL0017phnmVwlNBrthJhH5">Consphnm./Jb/-[d͡ʒʱ]
+  <h5 id="idL0017phnmVwlNBrthJhH5">HmmdphnmCons./Jb/-[d͡ʒʱ]
     </h5>
   <p id="idL0017phnmVwlNBrthJhdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3879,17 +3920,17 @@
     <a class="clsHide" href="#idL0017phnmVwlNBrthJhdsn"></a></p>
   <p id="idL0017phnmVwlNBrthJhnam">name::
     <br>* McshEngl./Jb/_[d͡ʒʱ]_breathy_J,
-    <br>* McshEngl.Consphnm./Jb/_[d͡ʒʱ],
+    <br>* McshEngl.HmmdphnmCons./Jb/_[d͡ʒʱ],
     <br>* McshEngl.[d͡ʒʱ]-/Jb/-breathy-J,
     <br>* McshEngl.IPA.d͡ʒʱ-/Jb/-breathy-J,
-    <br>* McshEngl.Consphnm./Jb/-[d͡ʒʱ],
+    <br>* McshEngl.HmmdphnmCons./Jb/-[d͡ʒʱ],
     <br>* McshEngl.phoneme./Jb/-[d͡ʒʱ],
     <br>* McshEngl.phoneme.[d͡ʒʱ]-/Jb/,
     <a class="clsHide" href="#idL0017phnmVwlNBrthJhnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNRflxD">
-  <h5 id="idL0017phnmVwlNRflxDH5">Consphnm./dr/-[ɖ]
+  <h5 id="idL0017phnmVwlNRflxDH5">HmmdphnmCons./dr/-[ɖ]
     </h5>
   <p id="idL0017phnmVwlNRflxDdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3897,14 +3938,14 @@
     <a class="clsHide" href="#idL0017phnmVwlNRflxDdsn"></a></p>
   <p id="idL0017phnmVwlNRflxDnam">name::
     <br>* McshEngl./dr/_[ɖ]_retroflex,
-    <br>* McshEngl.Consphnm./dr/_[ɖ],
-    <br>* McshEngl.Consphnm./dr/-[ɖ],
+    <br>* McshEngl.HmmdphnmCons./dr/_[ɖ],
+    <br>* McshEngl.HmmdphnmCons./dr/-[ɖ],
     <br>* McshEngl.phoneme./dr/-[ɖ],
     <a class="clsHide" href="#idL0017phnmVwlNRflxDnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNRflxDb">
-  <h5 id="idL0017phnmVwlNRflxDbH5">Consphnm./drb/-[ɖʱ]
+  <h5 id="idL0017phnmVwlNRflxDbH5">HmmdphnmCons./drb/-[ɖʱ]
     </h5>
   <p id="idL0017phnmVwlNRflxDbdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3912,14 +3953,14 @@
     <a class="clsHide" href="#idL0017phnmVwlNRflxDbdsn"></a></p>
   <p id="idL0017phnmVwlNRflxDbnam">name::
     <br>* McshEngl./drb/_[ɖʱ]_retroflex_breathy,
-    <br>* McshEngl.Consphnm./drb/_[ɖʱ],
-    <br>* McshEngl.Consphnm./drb/-[ɖʱ],
+    <br>* McshEngl.HmmdphnmCons./drb/_[ɖʱ],
+    <br>* McshEngl.HmmdphnmCons./drb/-[ɖʱ],
     <br>* McshEngl.phoneme./drb/-[ɖʱ],
     <a class="clsHide" href="#idL0017phnmVwlNRflxDbnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNRflxN">
-  <h5 id="idL0017phnmVwlNRflxNH5">Consphnm./nr/-[ɳ]
+  <h5 id="idL0017phnmVwlNRflxNH5">HmmdphnmCons./nr/-[ɳ]
     </h5>
   <p id="idL0017phnmVwlNRflxNdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3927,14 +3968,14 @@
     <a class="clsHide" href="#idL0017phnmVwlNRflxNdsn"></a></p>
   <p id="idL0017phnmVwlNRflxNnam">name::
     <br>* McshEngl./nr/_[ɳ]_retroflex,
-    <br>* McshEngl.Consphnm./nr/_[ɳ],
-    <br>* McshEngl.Consphnm./nr/-[ɳ],
+    <br>* McshEngl.HmmdphnmCons./nr/_[ɳ],
+    <br>* McshEngl.HmmdphnmCons./nr/-[ɳ],
     <br>* McshEngl.phoneme./nr/-[ɳ],
     <a class="clsHide" href="#idL0017phnmVwlNRflxNnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNRflxR">
-  <h5 id="idL0017phnmVwlNRflxRH5">Consphnm./rr/-[ɽ]
+  <h5 id="idL0017phnmVwlNRflxRH5">HmmdphnmCons./rr/-[ɽ]
     </h5>
   <p id="idL0017phnmVwlNRflxRdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3942,14 +3983,14 @@
     <a class="clsHide" href="#idL0017phnmVwlNRflxRdsn"></a></p>
   <p id="idL0017phnmVwlNRflxRnam">name::
     <br>* McshEngl./rr/_[ɽ]_retroflex,
-    <br>* McshEngl.Consphnm./rr/_[ɽ],
-    <br>* McshEngl.Consphnm./rr/-[ɽ],
+    <br>* McshEngl.HmmdphnmCons./rr/_[ɽ],
+    <br>* McshEngl.HmmdphnmCons./rr/-[ɽ],
     <br>* McshEngl.phoneme./rr/-[ɽ],
     <a class="clsHide" href="#idL0017phnmVwlNRflxRnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNRflxRb">
-  <h5 id="idL0017phnmVwlNRflxRbH5">Consphnm./rrb/-[ɽʱ]
+  <h5 id="idL0017phnmVwlNRflxRbH5">HmmdphnmCons./rrb/-[ɽʱ]
     </h5>
   <p id="idL0017phnmVwlNRflxRbdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3957,14 +3998,14 @@
     <a class="clsHide" href="#idL0017phnmVwlNRflxRbdsn"></a></p>
   <p id="idL0017phnmVwlNRflxRbnam">name::
     <br>* McshEngl./rrb/_[ɽʱ]_retroflex_breathy,
-    <br>* McshEngl.Consphnm./rrb/_[ɽʱ],
-    <br>* McshEngl.Consphnm./rrb/-[ɽʱ],
+    <br>* McshEngl.HmmdphnmCons./rrb/_[ɽʱ],
+    <br>* McshEngl.HmmdphnmCons./rrb/-[ɽʱ],
     <br>* McshEngl.phoneme./rrb/-[ɽʱ],
     <a class="clsHide" href="#idL0017phnmVwlNRflxRbnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNRflxS">
-  <h5 id="idL0017phnmVwlNRflxSH5">Consphnm./sr/-[ʂ]
+  <h5 id="idL0017phnmVwlNRflxSH5">HmmdphnmCons./sr/-[ʂ]
     </h5>
   <p id="idL0017phnmVwlNRflxSdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3972,14 +4013,14 @@
     <a class="clsHide" href="#idL0017phnmVwlNRflxSdsn"></a></p>
   <p id="idL0017phnmVwlNRflxSnam">name::
     <br>* McshEngl./sr/_[ʂ]_retroflex,
-    <br>* McshEngl.Consphnm./sr/_[ʂ],
-    <br>* McshEngl.Consphnm./sr/-[ʂ],
+    <br>* McshEngl.HmmdphnmCons./sr/_[ʂ],
+    <br>* McshEngl.HmmdphnmCons./sr/-[ʂ],
     <br>* McshEngl.phoneme./sr/-[ʂ],
     <a class="clsHide" href="#idL0017phnmVwlNRflxSnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNRflxT">
-  <h5 id="idL0017phnmVwlNRflxTH5">Consphnm./tr/-[ʈ]
+  <h5 id="idL0017phnmVwlNRflxTH5">HmmdphnmCons./tr/-[ʈ]
     </h5>
   <p id="idL0017phnmVwlNRflxTdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -3987,14 +4028,14 @@
     <a class="clsHide" href="#idL0017phnmVwlNRflxTdsn"></a></p>
   <p id="idL0017phnmVwlNRflxTnam">name::
     <br>* McshEngl./tr/_[ʈ]_retroflex,
-    <br>* McshEngl.Consphnm./tr/_[ʈ],
-    <br>* McshEngl.Consphnm./tr/-[ʈ],
+    <br>* McshEngl.HmmdphnmCons./tr/_[ʈ],
+    <br>* McshEngl.HmmdphnmCons./tr/-[ʈ],
     <br>* McshEngl.phoneme./tr/-[ʈ],
     <a class="clsHide" href="#idL0017phnmVwlNRflxTnam"></a></p>
   </section>
 
   <section id="idL0017phnmVwlNRflxTb">
-  <h5 id="idL0017phnmVwlNRflxTbH5">Consphnm./trd/-[ʈʰ]
+  <h5 id="idL0017phnmVwlNRflxTbH5">HmmdphnmCons./trd/-[ʈʰ]
     </h5>
   <p id="idL0017phnmVwlNRflxTbdsn">description::
     <br>× Mcsh-creation: {2025-05-03}
@@ -4002,15 +4043,15 @@
     <a class="clsHide" href="#idL0017phnmVwlNRflxTbdsn"></a></p>
   <p id="idL0017phnmVwlNRflxTbnam">name::
     <br>* McshEngl./trd/_[ʈʰ]_retroflex_aspirated,
-    <br>* McshEngl.Consphnm./trd/_[ʈʰ],
-    <br>* McshEngl.Consphnm./trd/-[ʈʰ],
+    <br>* McshEngl.HmmdphnmCons./trd/_[ʈʰ],
+    <br>* McshEngl.HmmdphnmCons./trd/-[ʈʰ],
     <br>* McshEngl.phoneme./trd/-[ʈʰ],
     <a class="clsHide" href="#idL0017phnmVwlNRflxTbnam"></a></p>
   </section>
   </section>
 
   <section id="idL0017phnmVwlB">
-  <h4 id="idL0017phnmVwlBH4">phoneme.vowelBo of speech
+  <h4 id="idL0017phnmVwlBH4">Hmmdphnm.vowelBo of speech
     </h4>
   <p id="idL0017phnmVwlBdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4027,7 +4068,7 @@
     <br>* McshEngl.PhnmSemivowl!=semivowel-phoneme,
     <br>* McshEngl.glide!⇒PhnmSemivowl,
     <br>* McshEngl.Spchlago-semivowel!⇒PhnmSemivowl,
-    <br>* McshEngl.phoneme.vowelBo!⇒PhnmSemivowl,
+    <br>* McshEngl.Hmmdphnm.vowelBo!⇒PhnmSemivowl,
     <br>* McshEngl.semivowel-of-Spchlago!⇒PhnmSemivowl,
     <br>* McshEngl.speech'phoneme.vowelBo!⇒PhnmSemivowl,
     <br>====== lagoGreek:
@@ -4049,31 +4090,6 @@
     <a class="clsHide" href="#idL0017untTrmNnam"></a></p>
   </section>
 
-  <section id="idL0017untgstr">
-  <h3 id="idL0017untgstrH3">GENERIC-SPECIFIC-TREE of unitSpch
-    </h3>
-  <p id="idL0017untgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idL0017untgstrdsn"></a></p>
-  <p id="idL0017untgstrnam">name::
-    <br>* McshEngl.unitSpch'generic_specific_tree,
-    <a class="clsHide" href="#idL0017untgstrnam"></a></p>
-  <p id="idL0017untgntr">generic-tree::
-    <br>* McshEngl.unitSpch:generic,
-    <br>===
-    <br>* Hmmdunit:generic,
-    <br>* Hmmdnode:generic,
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idL0017untgntr"></a></p>
-  <p id="idL0017untsptr">specific-tree::
-    <br>* McshEngl.unitSpch.specific,
-    <br>===
-    <br>* name-unit::
-    <br>** unitSpch.phoneme!@McshLag000009#idL0017phnm,
-    <br>** Spchlago_unit.termNo!@McshLag000009#idL0017untTrmN,
-    <br>* nameNo-unit,
-    <a class="clsHide" href="#idL0017untsptr"></a></p>
-  </section>
   </section>
 
   <section id="idL0017utsr">
@@ -4261,7 +4277,7 @@
   <p id="idL0017optgntr">generic-tree::
     <br>* McshEngl.speech:generic,
     <br>===
-    <br>* HmmdviewLogo:generic,
+    <br>* Hmmdlogo:generic,
     <br>* irAudio:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idL0017optgntr"></a></p>

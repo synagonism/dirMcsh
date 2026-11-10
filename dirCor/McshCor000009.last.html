@@ -41,6 +41,7 @@
     <br>* McshEngl.the-singular!⇒generic, [The camel is a beast of burden],
     <br>* McshEngl.plural!⇒generic, [camels are beasts of burden],
     <br>* McshEngl.quantity.abstractNo!⇒generic,
+    <br>* McshEngl.entity.specific_attribute.generic!⇒generic,
     <br>====== lagoSinagu:
     <br>* McshSngu.keu!⇒generic,
     <br>====== lagoChinese:
@@ -428,6 +429,7 @@
     <br>* McshEngl.DongActgMeasuring!⇒ActgMeasuring,
     <br>* McshEngl.verb.measure!~verbEnglB1!⇒ActgMeasuring,
     <br>* McshEngl.measure!~verbEnglB1!⇒ActgMeasuring,
+    <br>* McshEngl.generic.Specsdiv.measuring!⇒ActgMeasuring,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.tiu-kao!⇒ActgMeasuring,
     <br>* rio-kao!⇒ActgMeasuring,
@@ -581,7 +583,7 @@
   <p id="idGnrcmsrggntr">generic-tree::
     <br>* McshEngl.ActgMeasuring:generic,
     <br>===
-    <br>* FctgEvaluating:generic,
+    <br>* FctgEvalg:generic,
     <a class="clsHide" href="#idGnrcmsrggntr"></a></p>
 
   <section id="idGnrcmsrgarg">
@@ -1305,6 +1307,9 @@
     <br>* generic.discrete!@McshCor000009#idGnrcCntN,
     <br>* generic.megethos!@McshCor000009#idGnrcmsrggnrc,
     <br>* generic.amount!@McshCor000009#idGnrcMsrdN,
+    <br>=== on measuring!@McshCor000009#idGnrcmsrg:
+    <br>* measured-generic,
+    <br>* measuredNo-generic,
     <a class="clsHide" href="#idGnrcsptr"></a></p>
 
   <section id="idGnrcscct">
@@ -1320,19 +1325,6 @@
     <a class="clsHide" href="#idGnrcscctnam"></a></p>
   </section>
 
-  <section id="idGnrcScdnmsrg">
-  <h2 id="idGnrcScdnmsrgH2">generic.Specsdiv.measuring
-    </h2>
-  <p id="idGnrcScdnmsrgdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>· on <a class="clsPreview" href="#idGnrcmsrg">measuring</a>:
-    <br>* measured-generic,
-    <br>* measuredNo-generic,
-    <a class="clsHide" href="#idGnrcScdnmsrgdsn"></a></p>
-  <p id="idGnrcScdnmsrgnam">name::
-    <br>* McshEngl.generic.Specsdiv.measuring,
-    <a class="clsHide" href="#idGnrcScdnmsrgnam"></a></p>
-  </section>
   </section>
 
   <section id="idGnrcMsrd">
@@ -1427,6 +1419,34 @@
     <br>* McshElln.συνεχές-μέγεθος!⇒genericDiscreteNo,
     <a class="clsHide" href="#idGnrcCntnam"></a></p>
 
+  <section id="idGnrcCntgstr">
+  <h2 id="idGnrcCntgstrH2">GENERIC-SPECIFIC-TREE of genericDiscreteNo
+    </h2>
+  <p id="idGnrcCntgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idGnrcCntgstrdsn"></a></p>
+  <p id="idGnrcCntgstrnam">name::
+    <br>* McshEngl.genericDiscreteNo'generic_specific_tree,
+    <br>* McshEngl.continuous_generic'generic_specific_tree,
+    <a class="clsHide" href="#idGnrcCntgstrnam"></a></p>
+  <p id="idGnrcCntgntr">generic-tree::
+    <br>* McshEngl.genericDiscreteNo:generic,
+    <br>===
+    <br>* generic:generic,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idGnrcCntgntr"></a></p>
+  <p id="idGnrcCntsptr">specific-tree::
+    <br>* McshEngl.genericDiscreteNo.specific,
+    <br>* McshEngl.continuous_generic.specific,
+    <br>===
+    <br>· interval--genericDiscreteNo,
+    <br>· intervalNo--genericDiscreteNo,
+    <br>===
+    <br>* continuous_generic.time!@McshCor000006,
+    <br>* continuous_generic.space!@McshCor000007,
+    <a class="clsHide" href="#idGnrcCntsptr"></a></p>
+  </section>
+
   <section id="idGnrcCntIvl">
   <h2 id="idGnrcCntIvlH2">genericDiscreteNo.interval
     </h2>
@@ -1470,34 +1490,6 @@
     <br>* McshElln.συνεχές-μέγεθος,
   </section>
 
-  <section id="idGnrcCntgstr">
-  <h2 id="idGnrcCntgstrH2">GENERIC-SPECIFIC-TREE of genericDiscreteNo
-    </h2>
-  <p id="idGnrcCntgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idGnrcCntgstrdsn"></a></p>
-  <p id="idGnrcCntgstrnam">name::
-    <br>* McshEngl.genericDiscreteNo'generic_specific_tree,
-    <br>* McshEngl.continuous_generic'generic_specific_tree,
-    <a class="clsHide" href="#idGnrcCntgstrnam"></a></p>
-  <p id="idGnrcCntgntr">generic-tree::
-    <br>* McshEngl.genericDiscreteNo:generic,
-    <br>* McshEngl.genericDiscreteNo:generic,
-    <br>===
-    <br>* generic:generic,
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idGnrcCntgntr"></a></p>
-  <p id="idGnrcCntsptr">specific-tree::
-    <br>* McshEngl.genericDiscreteNo.specific,
-    <br>* McshEngl.continuous_generic.specific,
-    <br>===
-    <br>· interval--genericDiscreteNo,
-    <br>· intervalNo--genericDiscreteNo,
-    <br>===
-    <br>* continuous_generic.time!@McshCor000006,
-    <br>* continuous_generic.space!@McshCor000007,
-    <a class="clsHide" href="#idGnrcCntsptr"></a></p>
-  </section>
   </section>
 
   <section id="idGnrcCntN">
@@ -1675,7 +1667,7 @@
     <br>• email:
     <br> &nbsp;<img src="../../dirRsc/dirImg/mail.png" alt="mail">
     <br>• edit on github: https://github.com/synagonism/dirMcsh/blob/master/dirCor/McshCor000009.last.html,
-    <br>• comments on <a class="clsPreview" href="../dirCor/McshCor000000.last.html#idComment">Giscus</a>,
+    <br>• comments on <a class="clsPreview" href="../dirCor/McshCor000017.last.html#idComment">Giscus</a>,
     <br>• twitter: <a href="https://twitter.com/synagonism">@synagonism</a>,
     <a class="clsHide" href="#idFooterP1"></a></p>
   <p id="idMetaVersion">webpage-versions::

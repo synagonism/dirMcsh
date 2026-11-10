@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.disease!=human-disease
-    (McshHlth000011.1-30-0.2026-11-09)</title>
+    (McshHlth000011.1-31-0.2026-11-10)</title>
   <meta name="keywords" content="disease-of-human, disease, modelConceptSenso, Hitp_Mcs, synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -30,7 +30,7 @@
   <p id="idName">name::
     <br>* McshEngl.human-disease!⇒disease,
     <br>* McshEngl.disease!=human-disease,
-    <br>* McshEngl.disease!@McsHlth000011,
+    <br>* McshEngl.disease!@McshHlth000011,
     <br>* McshEngl.Diss!Attrbase!⇒disease,
     <br>* McshEngl.McshHlth000011.last.html//dirHlth//dirMcsh!⇒disease,
     <br>* McshEngl.dirHlth/McshHlth000011.last.html!⇒disease,
@@ -136,6 +136,7 @@
     <br>* McshEngl.disease'att002_cause!⇒Disscause,
     <br>* McshEngl.cause-of-disease-002!⇒Disscause,
     <br>* McshEngl.disease'etiology!⇒Disscause,
+    <br>* McshEngl.disease.Specsdiv.cause!⇒Disscause,
     <br>====== lagoGreek:
     <br>* McshElln.αιτία-πάθησης!⇒Disscause,
     <br>* McshElln.πάθησης'αιτία!⇒Disscause,
@@ -433,6 +434,28 @@
     <br>* McshElln.πάθησης-προφύλαξη!⇒Dissprotection,
     <a class="clsHide" href="#idDssHmn005Fnam"></a></p>
 
+  <section id="idDssHmn005Fgstr">
+  <h2 id="idDssHmn005FgstrH2">GENERIC-SPECIFIC-TREE of Dissprotection
+    </h2>
+  <p id="idDssHmn005Fgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDssHmn005Fgstrdsn"></a></p>
+  <p id="idDssHmn005Fgstrnam">name::
+    <br>* McshEngl.Dissprotection'generic_specific_tree,
+    <a class="clsHide" href="#idDssHmn005Fgstrnam"></a></p>
+  <p id="idDssHmn005Fgntr">generic-tree::
+    <br>* McshEngl.Dissprotection:generic,
+    <br>===
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idDssHmn005Fgntr"></a></p>
+  <p id="idDssHmn005Fsptr">specific-tree::
+    <br>* McshEngl.Dissprotection.specific,
+    <br>===
+    <br>* hand-washing,
+    <br>* health-checkup,
+    <a class="clsHide" href="#idDssHmn005Fsptr"></a></p>
+  </section>
+
   <section id="idDssHmnprtnChkp">
   <h2 id="idDssHmnprtnChkpH2">protection.checkup,
     </h2>
@@ -466,27 +489,6 @@
     <a class="clsHide" href="#idDssHmnprtnHdwhnam"></a></p>
   </section>
 
-  <section id="idDssHmn005Fgstr">
-  <h2 id="idDssHmn005FgstrH2">GENERIC-SPECIFIC-TREE of Dissprotection
-    </h2>
-  <p id="idDssHmn005Fgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idDssHmn005Fgstrdsn"></a></p>
-  <p id="idDssHmn005Fgstrnam">name::
-    <br>* McshEngl.Dissprotection'generic_specific_tree,
-    <a class="clsHide" href="#idDssHmn005Fgstrnam"></a></p>
-  <p id="idDssHmn005Fgntr">generic-tree::
-    <br>* McshEngl.Dissprotection:generic,
-    <br>===
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idDssHmn005Fgntr"></a></p>
-  <p id="idDssHmn005Fsptr">specific-tree::
-    <br>* McshEngl.Dissprotection.specific,
-    <br>===
-    <br>* hand-washing,
-    <br>* health-checkup,
-    <a class="clsHide" href="#idDssHmn005Fsptr"></a></p>
-  </section>
   </section>
 
   <section id="idDssHmnatt007">
@@ -694,7 +696,7 @@
     <br>=== att-tree-of-disease:
     <br>* symptom,
     <br>* cause,
-    <br>* diagnosis:generic,
+    <br>* Dissdiagnosis:generic,
     <br>* therapy:generic,
     <br>* protection,
     <br>* diet,
@@ -710,13 +712,17 @@
     <br>===
     <br>* http://www.who.int/health-topics/international-classification-of-diseases,
     <br>
-    <br>* disease.diagnosis!@McshHlth000011#idDssHmn003,
     <br>* disease.DissInternal_cause!@McshHlth000011#idDssHmn004,
     <br>===
     <br>* disease.DissInfectious!@McshHlth000011#idDssHmn001,
     <br>* disease.DissInfectiousNo!@McshHlth000011#idDssHmn002,
     <br>===
     <br>* DissThroatSore!@McshHlth000002#idBdyHmn220,
+    <br>=== on cause!@McshHlth000011#idDssHmn002F:
+    <br>* external-cause--disease,
+    <br>* internal-cause--disease,
+    <br>* infectious-disease,
+    <br>* infectiousNo-disease,
     <a class="clsHide" href="#idDssHmnsptr"></a></p>
 
   <section id="idDssHmnIcd">
@@ -739,22 +745,6 @@
     <br>* http://www.icd9data.com/,
     <br>* http://apps.who.int/classifications/icd10/browse/2010/en,
     <a class="clsHide" href="#idDssHmnIcdwpa"></a></p>
-  </section>
-
-  <section id="idDssHmnScdnCaus">
-  <h2 id="idDssHmnScdnCausH2">disease.Specsdiv.cause
-    </h2>
-  <p id="idDssHmnScdnCausdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>* external-cause--disease,
-    <br>* internal-cause--disease,
-    <br>===
-    <br>* infectious-disease,
-    <br>* infectiousNo-disease,
-    <a class="clsHide" href="#idDssHmnScdnCausdsn"></a></p>
-  <p id="idDssHmnScdnCausnam">name::
-    <br>* McshEngl.disease.Specsdiv.cause,
-    <a class="clsHide" href="#idDssHmnScdnCausnam"></a></p>
   </section>
 
   <section id="idDssHmnScdnMntl">
@@ -1319,9 +1309,9 @@
     <br>[https://www.naftemporiki.gr/story/1561816/covid-19-i-kina-zitei-apo-tous-iathentes-na-dosoun-plasma-gia-ti-therapeia-ton-pasxonton]
     <a class="clsHide" href="#idDssHmn162ThrpPlsmdsn"></a></p>
   <p id="idDssHmn162ThrpPlsmnam">name::
-    <br>* McshEngl.DissViral_DissViralInfection.plasma,
-    <br>* McshEngl.DissViral'DissViralInfection.plasma!⇒DissViral_DissViralInfection.plasma,
-    <br>* McshEngl.DissViralInfection'therapy.plasma!⇒DissViral_DissViralInfection.plasma,
+    <br>* McshEngl.DissInfectiousViralthrp.plasma,
+    <br>* McshEngl.DissViral'DissViralInfection.plasmaChnalaw,
+    <br>* McshEngl.DissViralInfection'therapy.plasmaChnalaw,
     <a class="clsHide" href="#idDssHmn162ThrpPlsmnam"></a></p>
   </section>
   </section>
@@ -1359,6 +1349,34 @@
     <br>* McshEngl.DissViralInfection'protection,
     <br>* McshEngl.DissInfectiousViral'protection,
     <a class="clsHide" href="#idDssHmn162protectionnam"></a></p>
+  </section>
+
+  <section id="idDssHmn162gstr">
+  <h3 id="idDssHmn162gstrH3">GENERIC-SPECIFIC-TREE of DissInfectiousViral
+    </h3>
+  <p id="idDssHmn162gstrdsn">description::
+    <br>× Mcsh-creation: {2026-05-20}
+    <a class="clsHide" href="#idDssHmn162gstrdsn"></a></p>
+  <p id="idDssHmn162gstrnam">name::
+    <br>* McshEngl.DissInfectiousViral'generic_specific_tree,
+    <br>* McshEngl.DissViralInfection'generic_specific_tree,
+    <a class="clsHide" href="#idDssHmn162gstrnam"></a></p>
+  <p id="idDssHmn162gntr">generic-tree::
+    <br>* McshEngl.DissInfectiousViral:generic,
+    <br>* McshEngl.DissViralInfection:generic,
+    <br>===
+    <br>* disease:generic,
+    <br>* DissInfectious:generic,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idDssHmn162gntr"></a></p>
+  <p id="idDssHmn162sptr">specific-tree::
+    <br>* McshEngl.DissInfectiousViral.specific,
+    <br>* McshEngl.DissViralInfection.specific,
+    <br>===
+    <br>* Covid-19,
+    <br>* MERS,
+    <br>* SARS
+    <a class="clsHide" href="#idDssHmn162sptr"></a></p>
   </section>
 
   <section id="idDssHmn162_1">
@@ -1406,33 +1424,6 @@
     <a class="clsHide" href="#idDssHmn162_2nam"></a></p>
   </section>
 
-  <section id="idDssHmn162gstr">
-  <h3 id="idDssHmn162gstrH3">GENERIC-SPECIFIC-TREE of DissInfectiousViral
-    </h3>
-  <p id="idDssHmn162gstrdsn">description::
-    <br>× Mcsh-creation: {2026-05-20}
-    <a class="clsHide" href="#idDssHmn162gstrdsn"></a></p>
-  <p id="idDssHmn162gstrnam">name::
-    <br>* McshEngl.DissInfectiousViral'generic_specific_tree,
-    <br>* McshEngl.DissViralInfection'generic_specific_tree,
-    <a class="clsHide" href="#idDssHmn162gstrnam"></a></p>
-  <p id="idDssHmn162gntr">generic-tree::
-    <br>* McshEngl.DissInfectiousViral:generic,
-    <br>* McshEngl.DissViralInfection:generic,
-    <br>===
-    <br>* disease:generic,
-    <br>* DissInfectious:generic,
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idDssHmn162gntr"></a></p>
-  <p id="idDssHmn162sptr">specific-tree::
-    <br>* McshEngl.DissInfectiousViral.specific,
-    <br>* McshEngl.DissViralInfection.specific,
-    <br>===
-    <br>* Covid-19,
-    <br>* MERS,
-    <br>* SARS
-    <a class="clsHide" href="#idDssHmn162sptr"></a></p>
-  </section>
   </section>
   </section>
 
@@ -3947,12 +3938,13 @@
     <br>[http://www.wisegeek.com/which-animal-poses-the-biggest-threat-to-humans.htm?m {2018-12-31}]
     <a class="clsHide" href="#idDssHmn061dsn"></a></p>
   <p id="idDssHmn061nam">name::
-    <br>* McshEngl.disease.animal_cause,
-    <br>* McshEngl.disease.061_animal_cause!⇒disease.animal_cause,
-    <br>* McshEngl.disease.animal_cause_061!⇒disease.animal_cause,
-    <br>* McshEngl.disease.cause.animal_061!⇒disease.animal_cause,
+    <br>* McshEngl.animal-cause--disease!⇒DissCauseAnimal,
+    <br>* McshEngl.DissCauseAnimal!=animal-cause--disease,
+    <br>* McshEngl.disease.061_animal_cause!⇒DissCauseAnimal,
+    <br>* McshEngl.disease.animal_cause_061!⇒DissCauseAnimal,
+    <br>* McshEngl.disease.cause.animal_061!⇒DissCauseAnimal,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.ζώου-αιτία!⇒disease.animal_cause,
+    <br>* McshElln.πάθηση.ζώου-αιτία!⇒DissCauseBite,
     <a class="clsHide" href="#idDssHmn061nam"></a></p>
 
   <section id="idDssHmn062">
@@ -3966,13 +3958,13 @@
     <br>[http://www.wisegeek.com/is-a-common-battery-really-a-cure-for-bug-bites.htm?m, {2014-06-26}]
     <a class="clsHide" href="#idDssHmn062dsn"></a></p>
   <p id="idDssHmn062nam">name::
-    <br>* McshEngl.disease.bite_cause,
-    <br>* McshEngl.disease.062_bite_cause!⇒disease.bite_cause,
-    <br>* McshEngl.disease.bite_cause_062!⇒disease.bite_cause,
-    <br>* McshEngl.bite-cause--disease!⇒disease.bite_cause,
-    <br>* McshEngl.disease.animal_cause.bite_cause_062!⇒disease.bite_cause,
+    <br>* McshEngl.bite-cause--disease!⇒DissCauseBite,
+    <br>* McshEngl.DissCauseBite!=bite-cause--disease,
+    <br>* McshEngl.disease.062_bite_cause!⇒DissCauseBite,
+    <br>* McshEngl.disease.bite_cause_062!⇒DissCauseBite,
+    <br>* McshEngl.disease.animal_cause.bite_cause_062!⇒DissCauseBite,
     <br>====== lagoGreek:
-    <br>* McshElln.πάθηση.δάγκωμα-αιτία!⇒disease.bite_cause,
+    <br>* McshElln.πάθηση.δάγκωμα-αιτία!⇒DissCauseBite,
     <a class="clsHide" href="#idDssHmn062nam"></a></p>
   </section>
   </section>
@@ -4769,6 +4761,38 @@
     <br>* McshEngl.DissSkin_Wltr,
     <a class="clsHide" href="#idDssHmn037wtr"></a></p>
 
+  <section id="idDssHmn037gstr">
+  <h2 id="idDssHmn037gstrH2">GENERIC-SPECIFIC-TREE of DissSkin
+    </h2>
+  <p id="idDssHmn037gstrdsn">description::
+    <br>× Mcsh-creation: {2026-05-20}
+    <a class="clsHide" href="#idDssHmn037gstrdsn"></a></p>
+  <p id="idDssHmn037gstrnam">name::
+    <br>* McshEngl.DissSkin'generic_specific_tree,
+    <a class="clsHide" href="#idDssHmn037gstrnam"></a></p>
+  <p id="idDssHmn037gntr">generic-tree::
+    <br>* McshEngl.DissSkin:generic,
+    <br>===
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idDssHmn037gntr"></a></p>
+  <p id="idDssHmn037sptr">specific-tree::
+    <br>* McshEngl.DissSkin.specific,
+    <br>===
+    <br>* DissSkin.DissDermatitis!@McshHlth000011#idDssHmn075,
+    <br>* DissSkin.DissEczema!@McshHlth000011#idDssHmn212,
+    <br>* DissSkin.DissHerpes!@McshHlth000011#idDssHmn208,
+    <br>* DissSkin.DissBurn!@McshHlth000011#idDssHmn207,
+    <br>* DissSkin.DissHair_loss!@McshHlth000011#idDssHmn204,
+    <br>* DissSkin.DissDandruff!@McshHlth000011#idDssHmn205,
+    <br>* DissSkin.DissWound!@McshHlth000011#idDssHmn203,
+    <br>* DissSkin.DissInsect_bite!@McshHlth000011#idDssHmn202,
+    <br>* DissSkin.DissJellyfish_stinging!@McshHlth000011#idDssHmn201,
+    <br>* DissSkin.DissLousiness!@McshHlth000011#idDssHmn189,
+    <br>* DissSkin.DissPhotochemical_allergy!@McshHlth000011#idDssHmn206,
+    <br>* DissSkin.DissScabies!@McshHlth000011#idDssHmn188,
+    <a class="clsHide" href="#idDssHmn037sptr"></a></p>
+  </section>
+
   <section id="idDssHmn075">
   <h2 id="idDssHmn075H2">disease.dermatitis-075
     </h2>
@@ -4844,37 +4868,6 @@
     <a class="clsHide" href="#idDssHmn076nam"></a></p>
   </section>
 
-  <section id="idDssHmn037gstr">
-  <h2 id="idDssHmn037gstrH2">GENERIC-SPECIFIC-TREE of DissSkin
-    </h2>
-  <p id="idDssHmn037gstrdsn">description::
-    <br>× Mcsh-creation: {2026-05-20}
-    <a class="clsHide" href="#idDssHmn037gstrdsn"></a></p>
-  <p id="idDssHmn037gstrnam">name::
-    <br>* McshEngl.DissSkin'generic_specific_tree,
-    <a class="clsHide" href="#idDssHmn037gstrnam"></a></p>
-  <p id="idDssHmn037gntr">generic-tree::
-    <br>* McshEngl.DissSkin:generic,
-    <br>===
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idDssHmn037gntr"></a></p>
-  <p id="idDssHmn037sptr">specific-tree::
-    <br>* McshEngl.DissSkin.specific,
-    <br>===
-    <br>* DissSkin.DissDermatitis!@McshHlth000011#idDssHmn075,
-    <br>* DissSkin.DissEczema!@McshHlth000011#idDssHmn212,
-    <br>* DissSkin.DissHerpes!@McshHlth000011#idDssHmn208,
-    <br>* DissSkin.DissBurn!@McshHlth000011#idDssHmn207,
-    <br>* DissSkin.DissHair_loss!@McshHlth000011#idDssHmn204,
-    <br>* DissSkin.DissDandruff!@McshHlth000011#idDssHmn205,
-    <br>* DissSkin.DissWound!@McshHlth000011#idDssHmn203,
-    <br>* DissSkin.DissInsect_bite!@McshHlth000011#idDssHmn202,
-    <br>* DissSkin.DissJellyfish_stinging!@McshHlth000011#idDssHmn201,
-    <br>* DissSkin.DissLousiness!@McshHlth000011#idDssHmn189,
-    <br>* DissSkin.DissPhotochemical_allergy!@McshHlth000011#idDssHmn206,
-    <br>* DissSkin.DissScabies!@McshHlth000011#idDssHmn188,
-    <a class="clsHide" href="#idDssHmn037sptr"></a></p>
-  </section>
   </section>
 
   <section id="idDssHmn043">
@@ -6847,6 +6840,7 @@
     <br>* McshEngl.mental-illness!⇒DissMental, {2012-03-11}
     <br>* McshEngl.phychogenic-disease!⇒DissMental,
     <br>* McshEngl.phychological-disease!⇒DissMental,
+    <br>* McshEngl.disease.mental_part.mental!⇒DissMental,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.ψυχική!⇒DissMental,
     <br>* McshElln.ψυχική-αρρώστια!⇒DissMental,
@@ -15039,11 +15033,12 @@
     <br>· Stomach disease refers to any disorder affecting the stomach, including conditions such as gastritis, ulcers, infections, or functional dyspepsia.
     <a class="clsHide" href="#idDssHmn092dsn"></a></p>
   <p id="idDssHmn092nam">name::
-    <br>* McshEngl.diseaseStomack,
-    <br>* McshEngl.disease.stomack!⇒diseaseStomack,
-    <br>* McshEngl.disease.092_stomach!⇒diseaseStomack,
-    <br>* McshEngl.disease.stomach_092!⇒diseaseStomack,
-    <br>* McshEngl.stomach-disease!⇒diseaseStomack,
+    <br>* McshEngl.DissStomack,
+    <br>* McshEngl.diseaseStomack!⇒DissStomack,
+    <br>* McshEngl.disease.stomack!⇒DissStomack,
+    <br>* McshEngl.disease.092_stomach!⇒DissStomack,
+    <br>* McshEngl.disease.stomach_092!⇒DissStomack,
+    <br>* McshEngl.stomach-disease!⇒DissStomack,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.στομαχιού!⇒diseaseStomack,
     <a class="clsHide" href="#idDssHmn092nam"></a></p>
@@ -15057,12 +15052,13 @@
     <br>[http://en.wikipedia.org/wiki/Gastritis]
     <a class="clsHide" href="#idDssHmn093dsn"></a></p>
   <p id="idDssHmn093nam">name::
-    <br>* McshEngl.diseaseGastritis,
-    <br>* McshEngl.disease.gastritis!⇒diseaseGastritis,
-    <br>* McshEngl.disease.093_gastritis!⇒diseaseGastritis,
-    <br>* McshEngl.disease.gastritis_093!⇒diseaseGastritis,
-    <br>* McshEngl.gastritis-disease-093!⇒diseaseGastritis,
-    <br>* McshEngl.disease.stomack.gastritis_093!⇒diseaseGastritis,
+    <br>* McshEngl.DissGastritis,
+    <br>* McshEngl.diseaseGastritis!⇒DissGastritis,
+    <br>* McshEngl.disease.gastritis!⇒DissGastritis,
+    <br>* McshEngl.disease.093_gastritis!⇒DissGastritis,
+    <br>* McshEngl.disease.gastritis_093!⇒DissGastritis,
+    <br>* McshEngl.gastritis-disease-093!⇒DissGastritis,
+    <br>* McshEngl.disease.stomack.gastritis_093!⇒DissGastritis,
     <br>====== lagoGreek:
     <br>* McshElln.πάθηση.γαστρίτιδα!⇒diseaseGastritis,
     <a class="clsHide" href="#idDssHmn093nam"></a></p>
@@ -15123,12 +15119,13 @@
     <br>[http://www.nooz.gr/Health/oi-trofes-pou-kataprainoun-tin-kaoira]
     <a class="clsHide" href="#idDssHmn094P1"></a></p>
   <p id="idDssHmn094nam">name::
-    <br>* McshEngl.diseaseHeartburn,
-    <br>* McshEngl.disease.heartburn!⇒diseaseHeartburn,
-    <br>* McshEngl.disease.094_heartburn!⇒diseaseHeartburn,
-    <br>* McshEngl.disease.heartburn_094!⇒diseaseHeartburn,
-    <br>* McshEngl.heartburn-disease-094!⇒diseaseHeartburn,
-    <br>* McshEngl.disease.stomack.heartburn!⇒diseaseHeartburn,
+    <br>* McshEngl.DissHeartburn,
+    <br>* McshEngl.diseaseHeartburn!⇒DissHeartburn,
+    <br>* McshEngl.disease.heartburn!⇒DissHeartburn,
+    <br>* McshEngl.disease.094_heartburn!⇒DissHeartburn,
+    <br>* McshEngl.disease.heartburn_094!⇒DissHeartburn,
+    <br>* McshEngl.heartburn-disease-094!⇒DissHeartburn,
+    <br>* McshEngl.disease.stomack.heartburn!⇒DissHeartburn,
     <br>====== lagoGreek:
     <br>* McshElln.καούρα-στο-στομάχι!⇒diseaseHeartburn,
     <br>* McshElln.πάθηση.καούρα-στο-στομάχι!⇒diseaseHeartburn,
@@ -18125,6 +18122,7 @@
     <br>* McshEngl.disease.279_doing!⇒DissDoing,
     <br>* McshEngl.disease.doing!⇒DissDoing,
     <br>* McshEngl.functional-disorder!⇒DissDoing,
+    <br>* McshEngl.disease.body'doing.doing!⇒DissDoing,
     <a class="clsHide" href="#idDssHmn279nam"></a></p>
   <p id="idDssHmn279dsnL">descriptionLong::
     <br>"A functional disorder is a medical condition that impairs normal functioning of bodily processes that remains largely undetected under examination, dissection or even under a microscope. At the exterior, there is no appearance of abnormality. This stands in contrast to a structural disorder (in which some part of the body can be seen to be abnormal) or a psychosomatic disorder (in which symptoms are caused by psychological or psychiatric illness). Definitions vary somewhat between fields of medicine.
@@ -18190,6 +18188,7 @@
     <br>* McshEngl.disease.280_doingNO!⇒DissDoingNo,
     <br>* McshEngl.disease.doingNO!⇒DissDoingNo,
     <br>* McshEngl.structural-disorder!⇒DissDoingNo,
+    <br>* McshEngl.disease.body'doing.doingNo!⇒DissDoingNo,
     <a class="clsHide" href="#idDssHmn280nam"></a></p>
   </section>
 

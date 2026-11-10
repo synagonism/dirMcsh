@@ -1,5 +1,5 @@
 [
-  [";lagDeut05di","D|d",22,"2026-10-31"],
+  [";lagDeut05di","D|d",22,"2026-11-10"],
   ["Danke!=thank-you","dirLag/McshLag000033.last.html#idLDeutsentBcexthky"],
   ["Dativ","dirLag/McshLag000033.last.html#idLDeutnounadatv"],
   ["DeutSpchlago","dirLag/McshLag000033.last.html#idLDeutSpch"],
@@ -12,14 +12,14 @@
   ["Deutlago.speech!⇒DeutSpchlago","dirLag/McshLag000033.last.html#idLDeutSpch"],
   ["Deutlago.text!⇒DeutTextlago","dirLag/McshLag000033.last.html#idLDeutText"],
   ["Deutschland!=Germany!⇒SoctDeut","dirStn/McshStn000036.last.html#idOverview"],
+  ["Deutvbmb!=Mitglied-des-deutschen-Verbs","dirLag/McshLag000033.last.html#idLDeutverbmbr"],
+  ["Deutvbmb.Perfect","dirLag/McshLag000033.last.html#idLDeutverbmbrPrtpt"],
+  ["Deutvbmb.Plusquamperfect","dirLag/McshLag000033.last.html#idLDeutverbmbrPstpt"],
+  ["Deutvbmb.Präsens","dirLag/McshLag000033.last.html#idLDeutverbmbrPrt"],
+  ["Deutvbmb.Präteritum","dirLag/McshLag000033.last.html#idLDeutverbmbrPst"],
+  ["Deutvbmb.futur1","dirLag/McshLag000033.last.html#idLDeutverbmbrFtr"],
+  ["Deutvbmb.futur2","dirLag/McshLag000033.last.html#idLDeutverbmbrFtrpt"],
   ["Deutverb!=Deutsches-Verb","dirLag/McshLag000033.last.html#idLDeutverb"],
-  ["Deutvm!=Mitglied-des-deutschen-Verbs","dirLag/McshLag000033.last.html#idLDeutverbmbr"],
-  ["Deutvm.Perfect","dirLag/McshLag000033.last.html#idLDeutverbmbrPrtpt"],
-  ["Deutvm.Plusquamperfect","dirLag/McshLag000033.last.html#idLDeutverbmbrPstpt"],
-  ["Deutvm.Präsens","dirLag/McshLag000033.last.html#idLDeutverbmbrPrt"],
-  ["Deutvm.Präteritum","dirLag/McshLag000033.last.html#idLDeutverbmbrPst"],
-  ["Deutvm.futur1","dirLag/McshLag000033.last.html#idLDeutverbmbrFtr"],
-  ["Deutvm.futur2","dirLag/McshLag000033.last.html#idLDeutverbmbrFtrpt"],
   ["danken!~verbDeut!⇒ActgThanking","dirCor/McshCor000004.last.html#idDngActgThnk"],
   ["drei!=three","dirLag/McshLag000033.last.html#idLDeutsentBcexthree"]
 ]

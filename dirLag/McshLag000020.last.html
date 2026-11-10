@@ -152,15 +152,16 @@
     <br>· <span class="clsColorRed">output-of-Ellnlago</span> is <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmopt">the-logo-view</a> of Ellnlago.
     <a class="clsHide" href="#idLEllnoptdsn"></a></p>
   <p id="idLEllnoptnam">name::
-    <br>* McshEngl.output-view--of-Ellnlago!⇒EllnviewLogo,
-    <br>* McshEngl.EllnviewLogo!=output-view--of-Ellnlago,
-    <br>* McshEngl.Elln_logo!⇒EllnviewLogo,
-    <br>* McshEngl.Ellnlago'output!⇒EllnviewLogo,
-    <br>* McshEngl.logo-view--of-Ellnlago!⇒EllnviewLogo,
+    <br>* McshEngl.output-view--of-Ellnlago!⇒Ellnlogo,
+    <br>* McshEngl.Ellnlogo!=output-view--of-Ellnlago,
+    <br>* McshEngl.EllnviewLogo!⇒Ellnlogo,
+    <br>* McshEngl.Elln_logo!⇒Ellnlogo,
+    <br>* McshEngl.Ellnlago'output!⇒Ellnlogo,
+    <br>* McshEngl.logo-view--of-Ellnlago!⇒Ellnlogo,
     <a class="clsHide" href="#idLEllnoptnam"></a></p>
 
   <section id="idLEllnsxtr">
-  <h2 id="idLEllnsxtrH2">syntax-tree of EllnviewLogo
+  <h2 id="idLEllnsxtrH2">syntax-tree of Ellnlogo
     </h2>
   <p id="idLEllnsxtrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -170,7 +171,7 @@
   <p id="idLEllnsxtrnam">name::
     <br>* McshEngl.logo-syntax-tree--of-Ellnlago!⇒Ellnsntx,
     <br>* McshEngl.Ellnsntx!=syntax-tree--of-Ellnlago,
-    <br>* McshEngl.EllnviewLogo'syntax_tree!⇒Ellnsntx,
+    <br>* McshEngl.Ellnlogo'syntax_tree!⇒Ellnsntx,
     <br>* McshEngl.Ellnlago'syntax_tree!⇒Ellnsntx,
     <br>* McshEngl.syntaxElln!⇒Ellnsntx,
     <br>* McshEngl.SntxElln!⇒Ellnsntx,
@@ -184,7 +185,7 @@
   </section>
 
   <section id="idLEllnnode">
-  <h2 id="idLEllnnodeH2">node of EllnviewLogo
+  <h2 id="idLEllnnodeH2">node of Ellnlogo
     </h2>
   <p id="idLEllnnodedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -195,7 +196,7 @@
     <br>* McshEngl.Ellnnode!=logo-node--of-Ellnlago,
     <br>* McshEngl.nodeElln!⇒Ellnnode,
     <br>* McshEngl.Ellnlago'node!⇒Ellnnode,
-    <br>* McshEngl.EllnviewLogo'node!⇒Ellnnode,
+    <br>* McshEngl.Ellnlogo'node!⇒Ellnnode,
     <a class="clsHide" href="#idLEllnnodenam"></a></p>
   <p id="idLEllnnodegntr">generic-tree::
     <br>* McshEngl.Ellnnode:generic,
@@ -206,7 +207,7 @@
   </section>
 
   <section id="idLEllnunt">
-  <h2 id="idLEllnuntH2">unit of EllnviewLogo
+  <h2 id="idLEllnuntH2">unit of Ellnlogo
     </h2>
   <p id="idLEllnuntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -216,9 +217,33 @@
     <br>* McshEngl.logo-unit--of-Ellnlago!⇒Ellnunit,
     <br>* McshEngl.Ellnunit!=logo-unit--of-Ellnlago,
     <br>* McshEngl.Elln_unit!⇒Ellnunit,
-    <br>* McshEngl.EllnviewLogo'unit!⇒Ellnunit,
+    <br>* McshEngl.Ellnlogo'unit!⇒Ellnunit,
     <br>* McshEngl.unitElln!⇒Ellnunit,
     <a class="clsHide" href="#idLEllnuntnam"></a></p>
+
+  <section id="idLEllnuntgstr">
+  <h3 id="idLEllnuntgstrH3">GENERIC-SPECIFIC-TREE of Ellnunit
+    </h3>
+  <p id="idLEllnuntgstrdsn">description::
+    <br>× Mcsh-creation: {2026-11-10}
+    <a class="clsHide" href="#idLEllnuntgstrdsn"></a></p>
+  <p id="idLEllnuntgstrnam">name::
+    <br>* McshEngl.Ellnunit'generic_specific_tree,
+    <a class="clsHide" href="#idLEllnuntgstrnam"></a></p>
+  <p id="idLEllnuntgntr">generic-tree::
+    <br>* McshEngl.Ellnunit:generic,
+    <br>===
+    <br>* Hmmdunit:generic,
+    <br>* Hmmdnode:generic,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idLEllnuntgntr"></a></p>
+  <p id="idLEllnuntsptr">specific-tree::
+    <br>* McshEngl.Ellnunit.specific,
+    <br>===
+    <br>* Ellnunit.Ellnphnm!@McshLag000020#idLEllnphnm,
+    <br>* Ellnunit.Ellnletr!@McshLag000020#idLEllnphgm,
+    <a class="clsHide" href="#idLEllnuntsptr"></a></p>
+  </section>
 
   <section id="idLEllnphnm">
   <h3 id="idLEllnphnmH3">Ellnunit.phoneme
@@ -262,46 +287,49 @@
     <br>[{2022-01-12 retrieved} https://el.wikipedia.org/wiki/Φωνολογία_της_Νέας_Ελληνικής]
     <a class="clsHide" href="#idLEllnphnmdsn"></a></p>
   <p id="idLEllnphnmnam">name::
-    <br>* McshEngl.Greek-phoneme!⇒Elln_phnm,
-    <br>* McshEngl.Elln_phnm!=Greek-phoneme,
-    <br>* McshEngl.Ellnunit.phoneme!⇒Elln_phnm,
-    <br>* McshEngl.Ellnunit.Elln_phnm!⇒Elln_phnm,
-    <br>* McshEngl.phonemeElln!⇒Elln_phnm,
+    <br>* McshEngl.Greek-phoneme!⇒Ellnphnm,
+    <br>* McshEngl.Ellnphnm!=Greek-phoneme,
+    <br>* McshEngl.Elln_phnm!⇒Ellnphnm,
+    <br>* McshEngl.Ellnunit.phoneme!⇒Ellnphnm,
+    <br>* McshEngl.Ellnunit.Ellnphnm!⇒Ellnphnm,
+    <br>* McshEngl.phonemeElln!⇒Ellnphnm,
     <br>====== lagoGreek:
-    <br>* McshElln.φώνημαΕλλν!⇒Elln_phnm,
+    <br>* McshElln.φώνημαΕλλν!⇒Ellnphnm,
     <a class="clsHide" href="#idLEllnphnmnam"></a></p>
 
   <section id="idLEllnphnmirsc">
-  <h4 id="idLEllnphnmrscFH4">info-resource of Elln_phnm
+  <h4 id="idLEllnphnmrscFH4">info-resource of Ellnphnm
     </h4>
   <p id="idLEllnphnmrscFdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>* https://el.wikipedia.org/wiki/Βοήθεια:Οδηγός_προφοράς_IPA,
     <a class="clsHide" href="#idLEllnphnmrscFdsn"></a></p>
   <p id="idLEllnphnmrscFnam">name::
-    <br>* McshEngl.info-resource--of-Elln_phnm!⇒Elln_phnminfrsc,
-    <br>* McshEngl.Elln_phnminfrsc!=info-resource--of-Elln_phnm,
-    <br>* McshEngl.Elln_phnm'info_resource!⇒Elln_phnminfrsc,
+    <br>* McshEngl.info-resource--of-Ellnphnm!⇒Ellnphnminfrsc,
+    <br>* McshEngl.Ellnphnminfrsc!=info-resource--of-Ellnphnm,
+    <br>* McshEngl.Elln_phnminfrsc!⇒Ellnphnminfrsc,
+    <br>* McshEngl.Ellnphnm'info_resource!⇒Ellnphnminfrsc,
     <a class="clsHide" href="#idLEllnphnmrscFnam"></a></p>
   </section>
 
   <section id="idLEllnphnmgstr">
-  <h4 id="idLEllnphnmgstrH4">GENERIC-SPECIFIC-TREE of Elln_phnm
+  <h4 id="idLEllnphnmgstrH4">GENERIC-SPECIFIC-TREE of Ellnphnm
     </h4>
   <p id="idLEllnphnmgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLEllnphnmgstrdsn"></a></p>
   <p id="idLEllnphnmgstrnam">name::
-    <br>* McshEngl.Elln_phnm'generic_specific_tree,
+    <br>* McshEngl.Ellnphnm'generic_specific_tree,
     <a class="clsHide" href="#idLEllnphnmgstrnam"></a></p>
   <p id="idLEllnphnmgntr">generic-tree::
-    <br>* McshEngl.Elln_phnm:generic,
+    <br>* McshEngl.Ellnphnm:generic,
     <br>===
+    <br>* Ellnunit:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEllnphnmgntr"></a></p>
   <p id="idLEllnphnmsptr">specific-tree::
-    <br>* McshEngl.Elln_phnm.specific,
-    <br>* McshEngl.Elln_phnm'specific,
+    <br>* McshEngl.Ellnphnm.specific,
+    <br>* McshEngl.Ellnphnm'specific,
     <br>===
     <br>* vowel,
     <br>* consonant,
@@ -309,7 +337,7 @@
   </section>
 
   <section id="idLEllnvowl">
-  <h4 id="idLEllnvowlH4">Elln_phnm.vowel
+  <h4 id="idLEllnvowlH4">Ellnphnm.vowel
     </h4>
   <p id="idLEllnvowldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -359,39 +387,40 @@
     <br>This system is notably symmetrical and efficient, making Modern Greek pronunciation relatively straightforward for learners once the basic sounds are mastered. Let me know if you'd like more details or examples!"
     <a class="clsHide" href="#idLEllnvowldsn"></a></p>
   <p id="idLEllnvowlnam">name::
-    <br>* McshEngl.Greek-vowel-phoneme!⇒Elln_vowl_phnm,
-    <br>* McshEngl.Elln_vowl_phnm!=Greek-vowel-phoneme,
-    <br>* McshEngl.Elln_phnm.vowel!⇒Elln_vowl_phnm,
-    <br>* McshEngl.vowelElln!⇒Elln_vowl_phnm,
+    <br>* McshEngl.Greek-vowel-phoneme!⇒EllnphnmVowl,
+    <br>* McshEngl.EllnphnmVowl!=Greek-vowel-phoneme,
+    <br>* McshEngl.Elln_vowl_phnm!⇒EllnphnmVowl,
+    <br>* McshEngl.Ellnphnm.vowel!⇒EllnphnmVowl,
+    <br>* McshEngl.vowelElln!⇒EllnphnmVowl,
     <a class="clsHide" href="#idLEllnvowlnam"></a></p>
 
   <section id="idLEllnvowlgstr">
-  <h5 id="idLEllnvowlgstrH5">GENERIC-SPECIFIC-TREE of Elln_vowl_phnm
+  <h5 id="idLEllnvowlgstrH5">GENERIC-SPECIFIC-TREE of EllnphnmVowl
     </h5>
   <p id="idLEllnvowlgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLEllnvowlgstrdsn"></a></p>
   <p id="idLEllnvowlgstrnam">name::
-    <br>* McshEngl.Elln_vowl_phnm'generic_specific_tree,
+    <br>* McshEngl.EllnphnmVowl'generic_specific_tree,
     <a class="clsHide" href="#idLEllnvowlgstrnam"></a></p>
   <p id="idLEllnvowlgntr">generic-tree::
-    <br>* McshEngl.Elln_vowl_phnm:generic,
+    <br>* McshEngl.EllnphnmVowl:generic,
     <br>===
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEllnvowlgntr"></a></p>
   <p id="idLEllnvowlsptr">specific-tree::
-    <br>* McshEngl.Elln_vowl_phnm.specific,
+    <br>* McshEngl.EllnphnmVowl.specific,
     <br>===
-    <br>* Elln_vowl_phnm./a/!@McshLag000020#idLEllnvowlA,
-    <br>* Elln_vowl_phnm./e/!@McshLag000020#idLEllnvowlE,
-    <br>* Elln_vowl_phnm./i/!@McshLag000020#idLEllnvowlI,
-    <br>* Elln_vowl_phnm./o/!@McshLag000020#idLEllnvowlO,
-    <br>* Elln_vowl_phnm./u/!@McshLag000020#idLEllnvowlU,
+    <br>* EllnphnmVowl./a/!@McshLag000020#idLEllnvowlA,
+    <br>* EllnphnmVowl./e/!@McshLag000020#idLEllnvowlE,
+    <br>* EllnphnmVowl./i/!@McshLag000020#idLEllnvowlI,
+    <br>* EllnphnmVowl./o/!@McshLag000020#idLEllnvowlO,
+    <br>* EllnphnmVowl./u/!@McshLag000020#idLEllnvowlU,
     <a class="clsHide" href="#idLEllnvowlsptr"></a></p>
   </section>
 
   <section id="idLEllnvowlA">
-  <h5 id="idLEllnvowlAH5">Elln_vowl_phnm./a/
+  <h5 id="idLEllnvowlAH5">EllnphnmVowl./a/
     </h5>
   <p id="idLEllnvowlAdsn">description::
     <br>× Mcsh-creation: {2025-03-08}
@@ -403,13 +432,13 @@
     <br>[{2025-03-08 retrieved} https://x.com/i/grok?conversation=1898369007561900281]
     <a class="clsHide" href="#idLEllnvowlAdsn"></a></p>
   <p id="idLEllnvowlAnam">name::
-    <br>* McshEngl.Elln_phnm./a/,
-    <br>* McshEngl.Elln_vowl_phnm./a/,
+    <br>* McshEngl.Ellnphnm./a/,
+    <br>* McshEngl.EllnphnmVowl./a/,
     <a class="clsHide" href="#idLEllnvowlAnam"></a></p>
   </section>
 
   <section id="idLEllnvowlE">
-  <h5 id="idLEllnvowlEH5">Elln_vowl_phnm./e/
+  <h5 id="idLEllnvowlEH5">EllnphnmVowl./e/
     </h5>
   <p id="idLEllnvowlEdsn">description::
     <br>× Mcsh-creation: {2025-03-08}
@@ -422,13 +451,13 @@
     <br>[{2025-03-08 retrieved} https://x.com/i/grok?conversation=1898369007561900281]
     <a class="clsHide" href="#idLEllnvowlEdsn"></a></p>
   <p id="idLEllnvowlEnam">name::
-    <br>* McshEngl.Elln_phnm./e/,
-    <br>* McshEngl.Elln_vowl_phnm./e/,
+    <br>* McshEngl.Ellnphnm./e/,
+    <br>* McshEngl.EllnphnmVowl./e/,
     <a class="clsHide" href="#idLEllnvowlEnam"></a></p>
   </section>
 
   <section id="idLEllnvowlI">
-  <h5 id="idLEllnvowlIH5">Elln_vowl_phnm./i/
+  <h5 id="idLEllnvowlIH5">EllnphnmVowl./i/
     </h5>
   <p id="idLEllnvowlIdsn">description::
     <br>× Mcsh-creation: {2025-03-08}
@@ -445,13 +474,13 @@
     <br>[{2025-03-08 retrieved} https://x.com/i/grok?conversation=1898369007561900281]
     <a class="clsHide" href="#idLEllnvowlIdsn"></a></p>
   <p id="idLEllnvowlInam">name::
-    <br>* McshEngl.Elln_phnm./i/,
-    <br>* McshEngl.Elln_vowl_phnm./i/,
+    <br>* McshEngl.Ellnphnm./i/,
+    <br>* McshEngl.EllnphnmVowl./i/,
     <a class="clsHide" href="#idLEllnvowlInam"></a></p>
   </section>
 
   <section id="idLEllnvowlO">
-  <h5 id="idLEllnvowlOH5">Elln_vowl_phnm./o/
+  <h5 id="idLEllnvowlOH5">EllnphnmVowl./o/
     </h5>
   <p id="idLEllnvowlOdsn">description::
     <br>× Mcsh-creation: {2025-03-08}
@@ -464,13 +493,13 @@
     <br>[{2025-03-08 retrieved} https://x.com/i/grok?conversation=1898369007561900281]
     <a class="clsHide" href="#idLEllnvowlOdsn"></a></p>
   <p id="idLEllnvowlOnam">name::
-    <br>* McshEngl.Elln_phnm./o/,
-    <br>* McshEngl.Elln_vowl_phnm./o/,
+    <br>* McshEngl.Ellnphnm./o/,
+    <br>* McshEngl.EllnphnmVowl./o/,
     <a class="clsHide" href="#idLEllnvowlOnam"></a></p>
   </section>
 
   <section id="idLEllnvowlU">
-  <h5 id="idLEllnvowlUH5">Elln_vowl_phnm./u/
+  <h5 id="idLEllnvowlUH5">EllnphnmVowl./u/
     </h5>
   <p id="idLEllnvowlUdsn">description::
     <br>× Mcsh-creation: {2025-03-08}
@@ -482,14 +511,14 @@
     <br>[{2025-03-08 retrieved} https://x.com/i/grok?conversation=1898369007561900281]
     <a class="clsHide" href="#idLEllnvowlUdsn"></a></p>
   <p id="idLEllnvowlUnam">name::
-    <br>* McshEngl.Elln_vowl_phnm./u/,
-    <br>* McshEngl.Elln_phnm./u/,
+    <br>* McshEngl.EllnphnmVowl./u/,
+    <br>* McshEngl.Ellnphnm./u/,
     <a class="clsHide" href="#idLEllnvowlUnam"></a></p>
   </section>
   </section>
 
   <section id="idLEllncsnt">
-  <h4 id="idLEllncsntH4">Elln_phnm.consonant
+  <h4 id="idLEllncsntH4">Ellnphnm.consonant
     </h4>
   <p id="idLEllncsntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -516,59 +545,60 @@
     <br>· it has 17 text-consonants: β, γ, δ, ζ, θ, κ, λ, μ, ν, ξ, π, ρ, σ, τ, φ, χ, ψ.
     <a class="clsHide" href="#idLEllncsntdsn"></a></p>
   <p id="idLEllncsntnam">name::
-    <br>* McshEngl.Greek-consonant-phoneme!⇒Elln_cons_phnm,
-    <br>* McshEngl.Elln_cons_phnm!=Greek-consonant-phoneme,
-    <br>* McshEngl.consonantElln!⇒Elln_cons_phnm,
-    <br>* McshEngl.Elln_phnm.consonant!⇒Elln_cons_phnm,
+    <br>* McshEngl.Greek-consonant-phoneme!⇒EllnphnmCons,
+    <br>* McshEngl.EllnphnmCons!=Greek-consonant-phoneme,
+    <br>* McshEngl.Elln_cons_phnm!⇒EllnphnmCons,
+    <br>* McshEngl.consonantElln!⇒EllnphnmCons,
+    <br>* McshEngl.Ellnphnm.consonant!⇒EllnphnmCons,
     <a class="clsHide" href="#idLEllncsntnam"></a></p>
 
   <section id="idLEllncsntgstr">
-  <h5 id="idLEllncsntgstrH5">GENERIC-SPECIFIC-TREE of Elln_cons_phnm
+  <h5 id="idLEllncsntgstrH5">GENERIC-SPECIFIC-TREE of EllnphnmCons
     </h5>
   <p id="idLEllncsntgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLEllncsntgstrdsn"></a></p>
   <p id="idLEllncsntgstrnam">name::
-    <br>* McshEngl.Elln_cons_phnm'generic_specific_tree,
+    <br>* McshEngl.EllnphnmCons'generic_specific_tree,
     <a class="clsHide" href="#idLEllncsntgstrnam"></a></p>
   <p id="idLEllncsntgntr">generic-tree::
-    <br>* McshEngl.Elln_cons_phnm:generic,
+    <br>* McshEngl.EllnphnmCons:generic,
     <br>===
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEllncsntgntr"></a></p>
   <p id="idLEllncsntsptr">specific-tree::
-    <br>* McshEngl.Elln_cons_phnm.specific,
+    <br>* McshEngl.EllnphnmCons.specific,
     <br>===
-    <br>* Elln_cons_phnm./p/!@McshLag000020#idLEllncsntP,
-    <br>* Elln_cons_phnm./b/!@McshLag000020#idLEllncsntB,
-    <br>* Elln_cons_phnm./f/!@McshLag000020#idLEllncsntF,
-    <br>* Elln_cons_phnm./v/!@McshLag000020#idLEllncsntV,
-    <br>* Elln_cons_phnm./th/-/θ/ipa!@McshLag000020#idLEllncsntTH,
-    <br>* Elln_cons_phnm./dh/-/ð/ipa!@McshLag000020#idLEllncsntDH,
-    <br>* Elln_cons_phnm./t/!@McshLag000020#idLEllncsntT,
-    <br>* Elln_cons_phnm./d/!@McshLag000020#idLEllncsntD,
-    <br>* Elln_cons_phnm./s/!@McshLag000020#idLEllncsntS,
-    <br>* Elln_cons_phnm./ss/!@McshLag000020#idLEllncsntSS,
-    <br>* Elln_cons_phnm./z/!@McshLag000020#idLEllncsntZ,
-    <br>* Elln_cons_phnm./c/-/ts/ipa!@McshLag000020#idLEllncsntC,
-    <br>* Elln_cons_phnm./j/-/dz/ipa!@McshLag000020#idLEllncsntJ,
-    <br>* Elln_cons_phnm./k/!@McshLag000020#idLEllncsntK,
-    <br>* Elln_cons_phnm./g/!@McshLag000020#idLEllncsntG,
-    <br>* Elln_cons_phnm./h/-/x/ipa!@McshLag000020#idLEllncsntH,
-    <br>* Elln_cons_phnm./hh/-/ç/ipa!@McshLag000020#idLEllncsntHH,
-    <br>* Elln_cons_phnm./y/-/ɣ/ipa!@McshLag000020#idLEllncsntY,
-    <br>* Elln_cons_phnm./yy/!@McshLag000020#idLEllncsntYY,
-    <br>* Elln_cons_phnm./m/!@McshLag000020#idLEllncsntM,
-    <br>* Elln_cons_phnm./n/!@McshLag000020#idLEllncsntN,
-    <br>* Elln_cons_phnm./nn/-/ɲ/ipa!@McshLag000020#idLEllncsntNN,
-    <br>* Elln_cons_phnm./r/!@McshLag000020#idLEllncsntR,
-    <br>* Elln_cons_phnm./l/!@McshLag000020#idLEllncsntL,
-    <br>* Elln_cons_phnm./ll/!@McshLag000020#idLEllncsntLL,
+    <br>* EllnphnmCons./p/!@McshLag000020#idLEllncsntP,
+    <br>* EllnphnmCons./b/!@McshLag000020#idLEllncsntB,
+    <br>* EllnphnmCons./f/!@McshLag000020#idLEllncsntF,
+    <br>* EllnphnmCons./v/!@McshLag000020#idLEllncsntV,
+    <br>* EllnphnmCons./th/-/θ/ipa!@McshLag000020#idLEllncsntTH,
+    <br>* EllnphnmCons./dh/-/ð/ipa!@McshLag000020#idLEllncsntDH,
+    <br>* EllnphnmCons./t/!@McshLag000020#idLEllncsntT,
+    <br>* EllnphnmCons./d/!@McshLag000020#idLEllncsntD,
+    <br>* EllnphnmCons./s/!@McshLag000020#idLEllncsntS,
+    <br>* EllnphnmCons./ss/!@McshLag000020#idLEllncsntSS,
+    <br>* EllnphnmCons./z/!@McshLag000020#idLEllncsntZ,
+    <br>* EllnphnmCons./c/-/ts/ipa!@McshLag000020#idLEllncsntC,
+    <br>* EllnphnmCons./j/-/dz/ipa!@McshLag000020#idLEllncsntJ,
+    <br>* EllnphnmCons./k/!@McshLag000020#idLEllncsntK,
+    <br>* EllnphnmCons./g/!@McshLag000020#idLEllncsntG,
+    <br>* EllnphnmCons./h/-/x/ipa!@McshLag000020#idLEllncsntH,
+    <br>* EllnphnmCons./hh/-/ç/ipa!@McshLag000020#idLEllncsntHH,
+    <br>* EllnphnmCons./y/-/ɣ/ipa!@McshLag000020#idLEllncsntY,
+    <br>* EllnphnmCons./yy/!@McshLag000020#idLEllncsntYY,
+    <br>* EllnphnmCons./m/!@McshLag000020#idLEllncsntM,
+    <br>* EllnphnmCons./n/!@McshLag000020#idLEllncsntN,
+    <br>* EllnphnmCons./nn/-/ɲ/ipa!@McshLag000020#idLEllncsntNN,
+    <br>* EllnphnmCons./r/!@McshLag000020#idLEllncsntR,
+    <br>* EllnphnmCons./l/!@McshLag000020#idLEllncsntL,
+    <br>* EllnphnmCons./ll/!@McshLag000020#idLEllncsntLL,
     <a class="clsHide" href="#idLEllncsntsptr"></a></p>
   </section>
 
   <section id="idLEllncsntP">
-  <h5 id="idLEllncsntPH5">Elln_cons_phnm./p/
+  <h5 id="idLEllncsntPH5">EllnphnmCons./p/
     </h5>
   <p id="idLEllncsntPdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -576,13 +606,13 @@
     <br>* μπύρα /bíra/ 'beer'
     <a class="clsHide" href="#idLEllncsntPdsn"></a></p>
   <p id="idLEllncsntPnam">name::
-    <br>* McshEngl.Elln_cons_phnm./p/,
-    <br>* McshEngl.Elln_phnm./p/,
+    <br>* McshEngl.EllnphnmCons./p/,
+    <br>* McshEngl.Ellnphnm./p/,
     <a class="clsHide" href="#idLEllncsntPnam"></a></p>
   </section>
 
   <section id="idLEllncsntB">
-  <h5 id="idLEllncsntBH5">Elln_cons_phnm./b/
+  <h5 id="idLEllncsntBH5">EllnphnmCons./b/
     </h5>
   <p id="idLEllncsntBdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -590,13 +620,13 @@
     <br>* μπύρα /bíra/ 'beer'
     <a class="clsHide" href="#idLEllncsntBdsn"></a></p>
   <p id="idLEllncsntBnam">name::
-    <br>* McshEngl.Elln_cons_phnm./b/,
-    <br>* McshEngl.Elln_phnm./b/,
+    <br>* McshEngl.EllnphnmCons./b/,
+    <br>* McshEngl.Ellnphnm./b/,
     <a class="clsHide" href="#idLEllncsntBnam"></a></p>
   </section>
 
   <section id="idLEllncsntF">
-  <h5 id="idLEllncsntFH5">Elln_cons_phnm./f/
+  <h5 id="idLEllncsntFH5">EllnphnmCons./f/
     </h5>
   <p id="idLEllncsntFdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -604,13 +634,13 @@
     <br>* βάση /vási/ 'base'
     <a class="clsHide" href="#idLEllncsntFdsn"></a></p>
   <p id="idLEllncsntFnam">name::
-    <br>* McshEngl.Elln_cons_phnm./f/,
-    <br>* McshEngl.Elln_phnm./f/,
+    <br>* McshEngl.EllnphnmCons./f/,
+    <br>* McshEngl.Ellnphnm./f/,
     <a class="clsHide" href="#idLEllncsntFnam"></a></p>
   </section>
 
   <section id="idLEllncsntV">
-  <h5 id="idLEllncsntVH5">Elln_cons_phnm./v/
+  <h5 id="idLEllncsntVH5">EllnphnmCons./v/
     </h5>
   <p id="idLEllncsntVdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -618,13 +648,13 @@
     <br>* βάση /vási/ 'base'
     <a class="clsHide" href="#idLEllncsntVdsn"></a></p>
   <p id="idLEllncsntVnam">name::
-    <br>* McshEngl.Elln_cons_phnm./v/,
-    <br>* McshEngl.Elln_phnm./v/,
+    <br>* McshEngl.EllnphnmCons./v/,
+    <br>* McshEngl.Ellnphnm./v/,
     <a class="clsHide" href="#idLEllncsntVnam"></a></p>
   </section>
 
   <section id="idLEllncsntTH">
-  <h5 id="idLEllncsntTHH5">Elln_cons_phnm./th/-/θ/ipa
+  <h5 id="idLEllncsntTHH5">EllnphnmCons./th/-/θ/ipa
     </h5>
   <p id="idLEllncsntTHdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -633,13 +663,13 @@
     <br>* δέμα /dhéma/ 'parcel'
     <a class="clsHide" href="#idLEllncsntTHdsn"></a></p>
   <p id="idLEllncsntTHnam">name::
-    <br>* McshEngl.Elln_cons_phnm./th/_/θ/ipa,
-    <br>* McshEngl.Elln_phnm./th/-/θ/ipa,
+    <br>* McshEngl.EllnphnmCons./th/_/θ/ipa,
+    <br>* McshEngl.Ellnphnm./th/-/θ/ipa,
     <a class="clsHide" href="#idLEllncsntTHnam"></a></p>
   </section>
 
   <section id="idLEllncsntDH">
-  <h5 id="idLEllncsntDHH5">Elln_cons_phnm./dh/-/ð/ipa
+  <h5 id="idLEllncsntDHH5">EllnphnmCons./dh/-/ð/ipa
     </h5>
   <p id="idLEllncsntDHdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -648,13 +678,13 @@
     <br>* δέμα /dhéma/ 'parcel'
     <a class="clsHide" href="#idLEllncsntDHdsn"></a></p>
   <p id="idLEllncsntDHnam">name::
-    <br>* McshEngl.Elln_cons_phnm./dh/_/ð/ipa,
-    <br>* McshEngl.Elln_phnm./dh/-/ð/ipa,
+    <br>* McshEngl.EllnphnmCons./dh/_/ð/ipa,
+    <br>* McshEngl.Ellnphnm./dh/-/ð/ipa,
     <a class="clsHide" href="#idLEllncsntDHnam"></a></p>
   </section>
 
   <section id="idLEllncsntT">
-  <h5 id="idLEllncsntTH5">Elln_cons_phnm./t/
+  <h5 id="idLEllncsntTH5">EllnphnmCons./t/
     </h5>
   <p id="idLEllncsntTdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -662,13 +692,13 @@
     <br>* ντύνω /díno/ 'I dress'
     <a class="clsHide" href="#idLEllncsntTdsn"></a></p>
   <p id="idLEllncsntTnam">name::
-    <br>* McshEngl.Elln_cons_phnm./t/,
-    <br>* McshEngl.Elln_phnm./t/,
+    <br>* McshEngl.EllnphnmCons./t/,
+    <br>* McshEngl.Ellnphnm./t/,
     <a class="clsHide" href="#idLEllncsntTnam"></a></p>
   </section>
 
   <section id="idLEllncsntD">
-  <h5 id="idLEllncsntDH5">Elln_cons_phnm./d/
+  <h5 id="idLEllncsntDH5">EllnphnmCons./d/
     </h5>
   <p id="idLEllncsntDdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -676,13 +706,13 @@
     <br>* ντύνω /díno/ 'I dress'
     <a class="clsHide" href="#idLEllncsntDdsn"></a></p>
   <p id="idLEllncsntDnam">name::
-    <br>* McshEngl.Elln_cons_phnm./d/,
-    <br>* McshEngl.Elln_phnm./d/,
+    <br>* McshEngl.EllnphnmCons./d/,
+    <br>* McshEngl.Ellnphnm./d/,
     <a class="clsHide" href="#idLEllncsntDnam"></a></p>
   </section>
 
   <section id="idLEllncsntS">
-  <h5 id="idLEllncsntSH5">Elln_cons_phnm./s/
+  <h5 id="idLEllncsntSH5">EllnphnmCons./s/
     </h5>
   <p id="idLEllncsntSdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -691,26 +721,26 @@
     <br>· /ʃ/ipa is an-alophone.
     <a class="clsHide" href="#idLEllncsntSdsn"></a></p>
   <p id="idLEllncsntSnam">name::
-    <br>* McshEngl.Elln_cons_phnm./s/,
-    <br>* McshEngl.Elln_phnm./s/,
+    <br>* McshEngl.EllnphnmCons./s/,
+    <br>* McshEngl.Ellnphnm./s/,
     <a class="clsHide" href="#idLEllncsntSnam"></a></p>
   </section>
 
   <section id="idLEllncsntSS">
-  <h5 id="idLEllncsntSSH5">Elln_cons_phnm./ss/
+  <h5 id="idLEllncsntSSH5">EllnphnmCons./ss/
     </h5>
   <p id="idLEllncsntSSdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· _SntxElln: σιούτα/ssúta/, σουτ/sut/,
     <a class="clsHide" href="#idLEllncsntSSdsn"></a></p>
   <p id="idLEllncsntSSnam">name::
-    <br>* McshEngl.Elln_cons_phnm./ss/,
-    <br>* McshEngl.Elln_phnm./ss/,
+    <br>* McshEngl.EllnphnmCons./ss/,
+    <br>* McshEngl.Ellnphnm./ss/,
     <a class="clsHide" href="#idLEllncsntSSnam"></a></p>
   </section>
 
   <section id="idLEllncsntZ">
-  <h5 id="idLEllncsntZH5">Elln_cons_phnm./z/
+  <h5 id="idLEllncsntZH5">EllnphnmCons./z/
     </h5>
   <p id="idLEllncsntZdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -719,13 +749,13 @@
     <br>· /ʒ/ipa is an-alophone.
     <a class="clsHide" href="#idLEllncsntZdsn"></a></p>
   <p id="idLEllncsntZnam">name::
-    <br>* McshEngl.Elln_cons_phnm./z/,
-    <br>* McshEngl.Elln_phnm./z/,
+    <br>* McshEngl.EllnphnmCons./z/,
+    <br>* McshEngl.Ellnphnm./z/,
     <a class="clsHide" href="#idLEllncsntZnam"></a></p>
   </section>
 
   <section id="idLEllncsntC">
-  <h5 id="idLEllncsntCH5">Elln_cons_phnm./c/-/ts/ipa
+  <h5 id="idLEllncsntCH5">EllnphnmCons./c/-/ts/ipa
     </h5>
   <p id="idLEllncsntCdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -734,13 +764,13 @@
     <br>· /tʃ/ipa is an-alophone.
     <a class="clsHide" href="#idLEllncsntCdsn"></a></p>
   <p id="idLEllncsntCnam">name::
-    <br>* McshEngl.Elln_cons_phnm./c/_/ts/ipa,
-    <br>* McshEngl.Elln_phnm./c/-/ts/ipa,
+    <br>* McshEngl.EllnphnmCons./c/_/ts/ipa,
+    <br>* McshEngl.Ellnphnm./c/-/ts/ipa,
     <a class="clsHide" href="#idLEllncsntCnam"></a></p>
   </section>
 
   <section id="idLEllncsntJ">
-  <h5 id="idLEllncsntJH5">Elln_cons_phnm./j/-/dz/ipa
+  <h5 id="idLEllncsntJH5">EllnphnmCons./j/-/dz/ipa
     </h5>
   <p id="idLEllncsntJdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -749,13 +779,13 @@
     <br>· /dʒ/ipa is an-alophone.
     <a class="clsHide" href="#idLEllncsntJdsn"></a></p>
   <p id="idLEllncsntJnam">name::
-    <br>* McshEngl.Elln_cons_phnm./j/_/dz/ipa,
-    <br>* McshEngl.Elln_phnm./j/-/dz/ipa,
+    <br>* McshEngl.EllnphnmCons./j/_/dz/ipa,
+    <br>* McshEngl.Ellnphnm./j/-/dz/ipa,
     <a class="clsHide" href="#idLEllncsntJnam"></a></p>
   </section>
 
   <section id="idLEllncsntK">
-  <h5 id="idLEllncsntKH5">Elln_cons_phnm./k/
+  <h5 id="idLEllncsntKH5">EllnphnmCons./k/
     </h5>
   <p id="idLEllncsntKdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -763,13 +793,13 @@
     <br>* γκάμα/ɡáma/ 'range'
     <a class="clsHide" href="#idLEllncsntKdsn"></a></p>
   <p id="idLEllncsntKnam">name::
-    <br>* McshEngl.Elln_cons_phnm./k/,
-    <br>* McshEngl.Elln_phnm./k/,
+    <br>* McshEngl.EllnphnmCons./k/,
+    <br>* McshEngl.Ellnphnm./k/,
     <a class="clsHide" href="#idLEllncsntKnam"></a></p>
   </section>
 
   <section id="idLEllncsntG">
-  <h5 id="idLEllncsntGH5">Elln_cons_phnm./g/
+  <h5 id="idLEllncsntGH5">EllnphnmCons./g/
     </h5>
   <p id="idLEllncsntGdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -777,13 +807,13 @@
     <br>* γκάμα/ɡáma/ 'range'
     <a class="clsHide" href="#idLEllncsntGdsn"></a></p>
   <p id="idLEllncsntGnam">name::
-    <br>* McshEngl.Elln_cons_phnm./g/,
-    <br>* McshEngl.Elln_phnm./g/,
+    <br>* McshEngl.EllnphnmCons./g/,
+    <br>* McshEngl.Ellnphnm./g/,
     <a class="clsHide" href="#idLEllncsntGnam"></a></p>
   </section>
 
   <section id="idLEllncsntH">
-  <h5 id="idLEllncsntHH5">Elln_cons_phnm./h/-/x/ipa
+  <h5 id="idLEllncsntHH5">EllnphnmCons./h/-/x/ipa
     </h5>
   <p id="idLEllncsntHdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -791,13 +821,13 @@
     <br>* γόμα /ɣóma/ 'eraser'
     <a class="clsHide" href="#idLEllncsntHdsn"></a></p>
   <p id="idLEllncsntHnam">name::
-    <br>* McshEngl.Elln_cons_phnm./h/_/x/ipa,
-    <br>* McshEngl.Elln_phnm./h/-/x/ipa,
+    <br>* McshEngl.EllnphnmCons./h/_/x/ipa,
+    <br>* McshEngl.Ellnphnm./h/-/x/ipa,
     <a class="clsHide" href="#idLEllncsntHnam"></a></p>
   </section>
 
   <section id="idLEllncsntHH">
-  <h5 id="idLEllncsntHHH5">Elln_cons_phnm./hh/-/ç/ipa
+  <h5 id="idLEllncsntHHH5">EllnphnmCons./hh/-/ç/ipa
     </h5>
   <p id="idLEllncsntHHdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -805,13 +835,13 @@
     <br>· _SntxElln: χιόνι/hhóni/, χώνει/hóni/,
     <a class="clsHide" href="#idLEllncsntHHdsn"></a></p>
   <p id="idLEllncsntHHnam">name::
-    <br>* McshEngl.Elln_cons_phnm./hh/_/ç/ipa,
-    <br>* McshEngl.Elln_phnm./hh/-/ç/ipa,
+    <br>* McshEngl.EllnphnmCons./hh/_/ç/ipa,
+    <br>* McshEngl.Ellnphnm./hh/-/ç/ipa,
     <a class="clsHide" href="#idLEllncsntHHnam"></a></p>
   </section>
 
   <section id="idLEllncsntY">
-  <h5 id="idLEllncsntYH5">Elln_cons_phnm./y/-/ɣ/ipa
+  <h5 id="idLEllncsntYH5">EllnphnmCons./y/-/ɣ/ipa
     </h5>
   <p id="idLEllncsntYdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -820,13 +850,13 @@
     <br>* γόμα /ɣóma/ 'eraser'
     <a class="clsHide" href="#idLEllncsntYdsn"></a></p>
   <p id="idLEllncsntYnam">name::
-    <br>* McshEngl.Elln_cons_phnm./y/_/ɣ/ipa,
-    <br>* McshEngl.Elln_phnm./y/-/ɣ/ipa,
+    <br>* McshEngl.EllnphnmCons./y/_/ɣ/ipa,
+    <br>* McshEngl.Ellnphnm./y/-/ɣ/ipa,
     <a class="clsHide" href="#idLEllncsntYnam"></a></p>
   </section>
 
   <section id="idLEllncsntYY">
-  <h5 id="idLEllncsntYYH5">Elln_cons_phnm./yy/
+  <h5 id="idLEllncsntYYH5">EllnphnmCons./yy/
     </h5>
   <p id="idLEllncsntYYdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -835,13 +865,13 @@
     <br>· _SntxElln: βιολί/vyyolí/, βιολογία/violoyía/,
     <a class="clsHide" href="#idLEllncsntYYdsn"></a></p>
   <p id="idLEllncsntYYnam">name::
-    <br>* McshEngl.Elln_cons_phnm./yy/,
-    <br>* McshEngl.Elln_phnm./yy/,
+    <br>* McshEngl.EllnphnmCons./yy/,
+    <br>* McshEngl.Ellnphnm./yy/,
     <a class="clsHide" href="#idLEllncsntYYnam"></a></p>
   </section>
 
   <section id="idLEllncsntM">
-  <h5 id="idLEllncsntMH5">Elln_cons_phnm./m/
+  <h5 id="idLEllncsntMH5">EllnphnmCons./m/
     </h5>
   <p id="idLEllncsntMdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -849,13 +879,13 @@
     <br>* νόμος /nómos/ 'law'
     <a class="clsHide" href="#idLEllncsntMdsn"></a></p>
   <p id="idLEllncsntMnam">name::
-    <br>* McshEngl.Elln_cons_phnm./m/,
-    <br>* McshEngl.Elln_phnm./m/,
+    <br>* McshEngl.EllnphnmCons./m/,
+    <br>* McshEngl.Ellnphnm./m/,
     <a class="clsHide" href="#idLEllncsntMnam"></a></p>
   </section>
 
   <section id="idLEllncsntN">
-  <h5 id="idLEllncsntNH5">Elln_cons_phnm./n/
+  <h5 id="idLEllncsntNH5">EllnphnmCons./n/
     </h5>
   <p id="idLEllncsntNdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -863,13 +893,13 @@
     <br>* νόμος /nómos/ 'law'
     <a class="clsHide" href="#idLEllncsntNdsn"></a></p>
   <p id="idLEllncsntNnam">name::
-    <br>* McshEngl.Elln_cons_phnm./n/,
-    <br>* McshEngl.Elln_phnm./n/,
+    <br>* McshEngl.EllnphnmCons./n/,
+    <br>* McshEngl.Ellnphnm./n/,
     <a class="clsHide" href="#idLEllncsntNnam"></a></p>
   </section>
 
   <section id="idLEllncsntNN">
-  <h5 id="idLEllncsntNNH5">Elln_cons_phnm./nn/-/ɲ/ipa
+  <h5 id="idLEllncsntNNH5">EllnphnmCons./nn/-/ɲ/ipa
     </h5>
   <p id="idLEllncsntNNdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -877,13 +907,13 @@
     <br>· _SntxElln: νιότη/nnóti/, νότη/nóti/,
     <a class="clsHide" href="#idLEllncsntNNdsn"></a></p>
   <p id="idLEllncsntNNnam">name::
-    <br>* McshEngl.Elln_cons_phnm./nn/_/ɲ/ipa,
-    <br>* McshEngl.Elln_phnm./nn/-/ɲ/ipa,
+    <br>* McshEngl.EllnphnmCons./nn/_/ɲ/ipa,
+    <br>* McshEngl.Ellnphnm./nn/-/ɲ/ipa,
     <a class="clsHide" href="#idLEllncsntNNnam"></a></p>
   </section>
 
   <section id="idLEllncsntR">
-  <h5 id="idLEllncsntRH5">Elln_cons_phnm./r/
+  <h5 id="idLEllncsntRH5">EllnphnmCons./r/
     </h5>
   <p id="idLEllncsntRdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -891,13 +921,13 @@
     <br>* λίμα /líma/ 'nail file'
     <a class="clsHide" href="#idLEllncsntRdsn"></a></p>
   <p id="idLEllncsntRnam">name::
-    <br>* McshEngl.Elln_cons_phnm./r/,
-    <br>* McshEngl.Elln_phnm./r/,
+    <br>* McshEngl.EllnphnmCons./r/,
+    <br>* McshEngl.Ellnphnm./r/,
     <a class="clsHide" href="#idLEllncsntRnam"></a></p>
   </section>
 
   <section id="idLEllncsntL">
-  <h5 id="idLEllncsntLH5">Elln_cons_phnm./l/
+  <h5 id="idLEllncsntLH5">EllnphnmCons./l/
     </h5>
   <p id="idLEllncsntLdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -905,13 +935,13 @@
     <br>* λίμα /líma/ 'nail file'
     <a class="clsHide" href="#idLEllncsntLdsn"></a></p>
   <p id="idLEllncsntLnam">name::
-    <br>* McshEngl.Elln_cons_phnm./l/,
-    <br>* McshEngl.Elln_phnm./l/,
+    <br>* McshEngl.EllnphnmCons./l/,
+    <br>* McshEngl.Ellnphnm./l/,
     <a class="clsHide" href="#idLEllncsntLnam"></a></p>
   </section>
 
   <section id="idLEllncsntLL">
-  <h5 id="idLEllncsntLLH5">Elln_cons_phnm./ll/
+  <h5 id="idLEllncsntLLH5">EllnphnmCons./ll/
     </h5>
   <p id="idLEllncsntLLdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -919,8 +949,8 @@
     <br>· _SntxElln: λιώμα/llóma/, λόμα/lóma/,
     <a class="clsHide" href="#idLEllncsntLLdsn"></a></p>
   <p id="idLEllncsntLLnam">name::
-    <br>* McshEngl.Elln_cons_phnm./ll/,
-    <br>* McshEngl.Elln_phnm./ll/,
+    <br>* McshEngl.EllnphnmCons./ll/,
+    <br>* McshEngl.Ellnphnm./ll/,
     <a class="clsHide" href="#idLEllncsntLLnam"></a></p>
   </section>
   </section>
@@ -938,68 +968,70 @@
     <br>· Greek uses the same alphabet since the 5th century BC, eventhough the spoken-language has changed dramatically since then.
     <a class="clsHide" href="#idLEllnphgmdsn"></a></p>
   <p id="idLEllnphgmnam">name::
-    <br>* McshEngl.Greek-letter!⇒Elln_letr,
-    <br>* McshEngl.Elln_letr!=Greek-letter,
-    <br>* McshEngl.Ellnunit.letter!⇒Elln_letr,
-    <br>* McshEngl.Ellnunit.phonemogram!⇒Elln_letr,
-    <br>* McshEngl.Ellnlago'letter!⇒Elln_letr,
-    <br>* McshEngl.letterElln!⇒Elln_letr,
-    <br>* McshEngl.phonemogramElln!⇒Elln_letr,
+    <br>* McshEngl.Greek-letter!⇒Ellnletr,
+    <br>* McshEngl.Ellnletr!=Greek-letter,
+    <br>* McshEngl.Elln_letr!⇒Ellnletr,
+    <br>* McshEngl.Ellnunit.letter!⇒Ellnletr,
+    <br>* McshEngl.Ellnunit.phonemogram!⇒Ellnletr,
+    <br>* McshEngl.Ellnlago'letter!⇒Ellnletr,
+    <br>* McshEngl.letterElln!⇒Ellnletr,
+    <br>* McshEngl.phonemogramElln!⇒Ellnletr,
     <br>====== lagoGreek:
-    <br>* McshElln.γραμΕλλν!⇒Elln_letr,
-    <br>* McshElln.γράμμαΕλλν!⇒Elln_letr,
+    <br>* McshElln.γραμΕλλν!⇒Ellnletr,
+    <br>* McshElln.γράμμαΕλλν!⇒Ellnletr,
     <a class="clsHide" href="#idLEllnphgmnam"></a></p>
   <p id="idLEllnphgmprnt">parent::
     <br>* <a class="clsPreview" href="../dirLag/McshLag000028.last.html#idLEll0phgm">GreekFamily-letter</a>,
     <a class="clsHide" href="#idLEllnphgmprnt"></a></p>
 
   <section id="idLEllnphgmgstr">
-  <h4 id="idLEllnphgmgstrH4">GENERIC-SPECIFIC-TREE of Elln_letr
+  <h4 id="idLEllnphgmgstrH4">GENERIC-SPECIFIC-TREE of Ellnletr
     </h4>
   <p id="idLEllnphgmgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLEllnphgmgstrdsn"></a></p>
   <p id="idLEllnphgmgstrnam">name::
-    <br>* McshEngl.Elln_letr'generic_specific_tree,
+    <br>* McshEngl.Ellnletr'generic_specific_tree,
     <a class="clsHide" href="#idLEllnphgmgstrnam"></a></p>
   <p id="idLEllnphgmgntr">generic-tree::
-    <br>* McshEngl.Elln_letr:generic,
+    <br>* McshEngl.Ellnletr:generic,
     <br>===
+    <br>* Ellnunit:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEllnphgmgntr"></a></p>
   <p id="idLEllnphgmsptr">specific-tree::
-    <br>* McshEngl.Elln_letr.specific,
+    <br>* McshEngl.Ellnletr.specific,
     <br>===
-    <br>* Elln_letr./a/-/álfa/-Α!@McshLag000020#idLEllnphgmA,
-    <br>* Elln_letr./v/-/víta/-Β!@McshLag000020#idLEllnphgmV,
-    <br>* Elln_letr./y/-/yáma/-Γ!@McshLag000020#idLEllnphgmY,
-    <br>* Elln_letr./dh/-/dhélta/-Δ!@McshLag000020#idLEllnphgmDH,
-    <br>* Elln_letr./e/-/épsilon/-Ε!@McshLag000020#idLEllnphgmE,
-    <br>* Elln_letr./z/-/zíta/-Ζ!@McshLag000020#idLEllnphgmZ,
-    <br>* Elln_letr./i/-/íta/-Η!@McshLag000020#idLEllnphgmIt,
-    <br>* Elln_letr./th/-/thíta/-Θ!@McshLag000020#idLEllnphgmTH,
-    <br>* Elln_letr./i/-/yyóta/-Ι!@McshLag000020#idLEllnphgmI,
-    <br>* Elln_letr./k/-/kápa/-Κ!@McshLag000020#idLEllnphgmK,
-    <br>* Elln_letr./l/-/lámdha/-Λ!@McshLag000020#idLEllnphgmL,
-    <br>* Elln_letr./m/-/mi/-Μ!@McshLag000020#idLEllnphgmM,
-    <br>* Elln_letr./n/-/ni/-Ν!@McshLag000020#idLEllnphgmN,
-    <br>* Elln_letr./ks/-/ksi/-Ξ!@McshLag000020#idLEllnphgmKS,
-    <br>* Elln_letr./o/-/ómikron/-Ο!@McshLag000020#idLEllnphgmO,
-    <br>* Elln_letr./p/-/pi/-Π!@McshLag000020#idLEllnphgmP,
-    <br>* Elln_letr./r/-/ro/-Ρ!@McshLag000020#idLEllnphgmR,
-    <br>* Elln_letr./s/-/síyma/-Σ!@McshLag000020#idLEllnphgmS,
-    <br>* Elln_letr./t/-/taf/-Τ!@McshLag000020#idLEllnphgmT,
-    <br>* Elln_letr./i/-/ípsilon/-Υ!@McshLag000020#idLEllnphgmIp,
-    <br>* Elln_letr./f/-/fi/-Φ!@McshLag000020#idLEllnphgmF,
-    <br>* Elln_letr./h/-/hi/-Χ!@McshLag000020#idLEllnphgmH,
-    <br>* Elln_letr./ps/-/psi/-Ψ!@McshLag000020#idLEllnphgmPS,
-    <br>* Elln_letr./o/-/oméya/-Ω!@McshLag000020#idLEllnphgmOm,
-    <br>* Elln_letr.romanization!@McshLag000020#idLEllnphgmRmzn,
+    <br>* Ellnletr./a/-/álfa/-Α!@McshLag000020#idLEllnphgmA,
+    <br>* Ellnletr./v/-/víta/-Β!@McshLag000020#idLEllnphgmV,
+    <br>* Ellnletr./y/-/yáma/-Γ!@McshLag000020#idLEllnphgmY,
+    <br>* Ellnletr./dh/-/dhélta/-Δ!@McshLag000020#idLEllnphgmDH,
+    <br>* Ellnletr./e/-/épsilon/-Ε!@McshLag000020#idLEllnphgmE,
+    <br>* Ellnletr./z/-/zíta/-Ζ!@McshLag000020#idLEllnphgmZ,
+    <br>* Ellnletr./i/-/íta/-Η!@McshLag000020#idLEllnphgmIt,
+    <br>* Ellnletr./th/-/thíta/-Θ!@McshLag000020#idLEllnphgmTH,
+    <br>* Ellnletr./i/-/yyóta/-Ι!@McshLag000020#idLEllnphgmI,
+    <br>* Ellnletr./k/-/kápa/-Κ!@McshLag000020#idLEllnphgmK,
+    <br>* Ellnletr./l/-/lámdha/-Λ!@McshLag000020#idLEllnphgmL,
+    <br>* Ellnletr./m/-/mi/-Μ!@McshLag000020#idLEllnphgmM,
+    <br>* Ellnletr./n/-/ni/-Ν!@McshLag000020#idLEllnphgmN,
+    <br>* Ellnletr./ks/-/ksi/-Ξ!@McshLag000020#idLEllnphgmKS,
+    <br>* Ellnletr./o/-/ómikron/-Ο!@McshLag000020#idLEllnphgmO,
+    <br>* Ellnletr./p/-/pi/-Π!@McshLag000020#idLEllnphgmP,
+    <br>* Ellnletr./r/-/ro/-Ρ!@McshLag000020#idLEllnphgmR,
+    <br>* Ellnletr./s/-/síyma/-Σ!@McshLag000020#idLEllnphgmS,
+    <br>* Ellnletr./t/-/taf/-Τ!@McshLag000020#idLEllnphgmT,
+    <br>* Ellnletr./i/-/ípsilon/-Υ!@McshLag000020#idLEllnphgmIp,
+    <br>* Ellnletr./f/-/fi/-Φ!@McshLag000020#idLEllnphgmF,
+    <br>* Ellnletr./h/-/hi/-Χ!@McshLag000020#idLEllnphgmH,
+    <br>* Ellnletr./ps/-/psi/-Ψ!@McshLag000020#idLEllnphgmPS,
+    <br>* Ellnletr./o/-/oméya/-Ω!@McshLag000020#idLEllnphgmOm,
+    <br>* Ellnletr.romanization!@McshLag000020#idLEllnphgmRmzn,
     <a class="clsHide" href="#idLEllnphgmsptr"></a></p>
   </section>
 
   <section id="idLEllnphgmA">
-  <h4 id="idLEllnphgmAH4">Elln_letr.Α-/álfa-a/
+  <h4 id="idLEllnphgmAH4">Ellnletr.Α-/álfa-a/
     </h4>
   <p id="idLEllnphgmAdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1009,28 +1041,28 @@
     <br>· αυ(voiceless) ⭢ /af/: ναύτης/náftis/.
     <a class="clsHide" href="#idLEllnphgmAdsn"></a></p>
   <p id="idLEllnphgmAnam">name::
-    <br>* McshEngl.Elln_letr./a/_/álfa/_Α,
-    <br>* McshEngl.Elln_letr.Α_/álfa_a/,
-    <br>* McshEngl.Elln_letr.Α-/álfa-a/,
+    <br>* McshEngl.Ellnletr./a/_/álfa/_Α,
+    <br>* McshEngl.Ellnletr.Α_/álfa_a/,
+    <br>* McshEngl.Ellnletr.Α-/álfa-a/,
     <a class="clsHide" href="#idLEllnphgmAnam"></a></p>
   </section>
 
   <section id="idLEllnphgmV">
-  <h4 id="idLEllnphgmVH4">Elln_letr.Β-/víta-v/
+  <h4 id="idLEllnphgmVH4">Ellnletr.Β-/víta-v/
     </h4>
   <p id="idLEllnphgmVdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Β|β, 914|946
     <a class="clsHide" href="#idLEllnphgmVdsn"></a></p>
   <p id="idLEllnphgmVnam">name::
-    <br>* McshEngl.Elln_letr./v/_/víta/_Β,
-    <br>* McshEngl.Elln_letr.Β_/víta_v/,
-    <br>* McshEngl.Elln_letr.Β-/víta-v/,
+    <br>* McshEngl.Ellnletr./v/_/víta/_Β,
+    <br>* McshEngl.Ellnletr.Β_/víta_v/,
+    <br>* McshEngl.Ellnletr.Β-/víta-v/,
     <a class="clsHide" href="#idLEllnphgmVnam"></a></p>
   </section>
 
   <section id="idLEllnphgmY">
-  <h4 id="idLEllnphgmYH4">Elln_letr.Γ-/yáma-y/
+  <h4 id="idLEllnphgmYH4">Ellnletr.Γ-/yáma-y/
     </h4>
   <p id="idLEllnphgmYdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1039,28 +1071,28 @@
     <br>· γκ ⭢ /g/:
     <a class="clsHide" href="#idLEllnphgmYdsn"></a></p>
   <p id="idLEllnphgmYnam">name::
-    <br>* McshEngl.Elln_letr./y/_/yáma/_Γ,
-    <br>* McshEngl.Elln_letr.Γ_/yáma_y/,
-    <br>* McshEngl.Elln_letr.Γ-/yáma-y/,
+    <br>* McshEngl.Ellnletr./y/_/yáma/_Γ,
+    <br>* McshEngl.Ellnletr.Γ_/yáma_y/,
+    <br>* McshEngl.Ellnletr.Γ-/yáma-y/,
     <a class="clsHide" href="#idLEllnphgmYnam"></a></p>
   </section>
 
   <section id="idLEllnphgmDH">
-  <h4 id="idLEllnphgmDHH4">Elln_letr.Δ-/dhélta-dh/
+  <h4 id="idLEllnphgmDHH4">Ellnletr.Δ-/dhélta-dh/
     </h4>
   <p id="idLEllnphgmDHdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Δ|δ, 916|948
     <a class="clsHide" href="#idLEllnphgmDHdsn"></a></p>
   <p id="idLEllnphgmDHnam">name::
-    <br>* McshEngl.Elln_letr./dh/_/dhélta/_Δ,
-    <br>* McshEngl.Elln_letr.Δ_/dhélta_dh/,
-    <br>* McshEngl.Elln_letr.Δ-/dhélta-dh/,
+    <br>* McshEngl.Ellnletr./dh/_/dhélta/_Δ,
+    <br>* McshEngl.Ellnletr.Δ_/dhélta_dh/,
+    <br>* McshEngl.Ellnletr.Δ-/dhélta-dh/,
     <a class="clsHide" href="#idLEllnphgmDHnam"></a></p>
   </section>
 
   <section id="idLEllnphgmE">
-  <h4 id="idLEllnphgmEH4">Elln_letr.Ε-/épsilon-e/
+  <h4 id="idLEllnphgmEH4">Ellnletr.Ε-/épsilon-e/
     </h4>
   <p id="idLEllnphgmEdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1071,28 +1103,28 @@
     <br>· ει ⭢ /i/:
     <a class="clsHide" href="#idLEllnphgmEdsn"></a></p>
   <p id="idLEllnphgmEnam">name::
-    <br>* McshEngl.Elln_letr./e/_/épsilon/_Ε,
-    <br>* McshEngl.Elln_letr.Ε_/épsilon_e/,
-    <br>* McshEngl.Elln_letr.Ε-/épsilon-e/,
+    <br>* McshEngl.Ellnletr./e/_/épsilon/_Ε,
+    <br>* McshEngl.Ellnletr.Ε_/épsilon_e/,
+    <br>* McshEngl.Ellnletr.Ε-/épsilon-e/,
     <a class="clsHide" href="#idLEllnphgmEnam"></a></p>
   </section>
 
   <section id="idLEllnphgmZ">
-  <h4 id="idLEllnphgmZH4">Elln_letr.Ζ-/zíta-z/
+  <h4 id="idLEllnphgmZH4">Ellnletr.Ζ-/zíta-z/
     </h4>
   <p id="idLEllnphgmZdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Ζ|ζ, 918|950
     <a class="clsHide" href="#idLEllnphgmZdsn"></a></p>
   <p id="idLEllnphgmZnam">name::
-    <br>* McshEngl.Elln_letr./z/_/zíta/_Ζ,
-    <br>* McshEngl.Elln_letr.Ζ_/zíta_z/,
-    <br>* McshEngl.Elln_letr.Ζ-/zíta-z/,
+    <br>* McshEngl.Ellnletr./z/_/zíta/_Ζ,
+    <br>* McshEngl.Ellnletr.Ζ_/zíta_z/,
+    <br>* McshEngl.Ellnletr.Ζ-/zíta-z/,
     <a class="clsHide" href="#idLEllnphgmZnam"></a></p>
   </section>
 
   <section id="idLEllnphgmIt">
-  <h4 id="idLEllnphgmItH4">Elln_letr.Η-/íta-i/
+  <h4 id="idLEllnphgmItH4">Ellnletr.Η-/íta-i/
     </h4>
   <p id="idLEllnphgmItdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1100,28 +1132,28 @@
     <br>· Ή|Η|ή|η ⭢ /i/: κοινή/kiní/
     <a class="clsHide" href="#idLEllnphgmItdsn"></a></p>
   <p id="idLEllnphgmItnam">name::
-    <br>* McshEngl.Elln_letr./i/_/íta/_Η,
-    <br>* McshEngl.Elln_letr.Η_/íta_i/,
-    <br>* McshEngl.Elln_letr.Η-/íta-i/,
+    <br>* McshEngl.Ellnletr./i/_/íta/_Η,
+    <br>* McshEngl.Ellnletr.Η_/íta_i/,
+    <br>* McshEngl.Ellnletr.Η-/íta-i/,
     <a class="clsHide" href="#idLEllnphgmItnam"></a></p>
   </section>
 
   <section id="idLEllnphgmTH">
-  <h4 id="idLEllnphgmTHH4">Elln_letr.Θ-/thíta-th/
+  <h4 id="idLEllnphgmTHH4">Ellnletr.Θ-/thíta-th/
     </h4>
   <p id="idLEllnphgmTHdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Θ|θ, 920|952
     <a class="clsHide" href="#idLEllnphgmTHdsn"></a></p>
   <p id="idLEllnphgmTHnam">name::
-    <br>* McshEngl.Elln_letr./th/_/thíta/_Θ,
-    <br>* McshEngl.Elln_letr.Θ_/thíta_th/,
-    <br>* McshEngl.Elln_letr.Θ-/thíta-th/,
+    <br>* McshEngl.Ellnletr./th/_/thíta/_Θ,
+    <br>* McshEngl.Ellnletr.Θ_/thíta_th/,
+    <br>* McshEngl.Ellnletr.Θ-/thíta-th/,
     <a class="clsHide" href="#idLEllnphgmTHnam"></a></p>
   </section>
 
   <section id="idLEllnphgmI">
-  <h4 id="idLEllnphgmIH4">Elln_letr.Ι-/yyóta-i/
+  <h4 id="idLEllnphgmIH4">Ellnletr.Ι-/yyóta-i/
     </h4>
   <p id="idLEllnphgmIdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1132,14 +1164,14 @@
     <br>· Ί|Ι|ί|ι|ϊ|ΐ ⭢ /i/:
     <a class="clsHide" href="#idLEllnphgmIdsn"></a></p>
   <p id="idLEllnphgmInam">name::
-    <br>* McshEngl.Elln_letr./i/_/yyóta/_Ι,
-    <br>* McshEngl.Elln_letr.Ι_/yyóta_i/,
-    <br>* McshEngl.Elln_letr.Ι-/yyóta-i/,
+    <br>* McshEngl.Ellnletr./i/_/yyóta/_Ι,
+    <br>* McshEngl.Ellnletr.Ι_/yyóta_i/,
+    <br>* McshEngl.Ellnletr.Ι-/yyóta-i/,
     <a class="clsHide" href="#idLEllnphgmInam"></a></p>
   </section>
 
   <section id="idLEllnphgmK">
-  <h4 id="idLEllnphgmKH4">Elln_letr.Κ-/kápa-k/
+  <h4 id="idLEllnphgmKH4">Ellnletr.Κ-/kápa-k/
     </h4>
   <p id="idLEllnphgmKdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1147,14 +1179,14 @@
     <br>· κκ ⭢ /k/:
     <a class="clsHide" href="#idLEllnphgmKdsn"></a></p>
   <p id="idLEllnphgmKnam">name::
-    <br>* McshEngl.Elln_letr./k/_/kápa/_Κ,
-    <br>* McshEngl.Elln_letr.Κ_/kápa_k/,
-    <br>* McshEngl.Elln_letr.Κ-/kápa-k/,
+    <br>* McshEngl.Ellnletr./k/_/kápa/_Κ,
+    <br>* McshEngl.Ellnletr.Κ_/kápa_k/,
+    <br>* McshEngl.Ellnletr.Κ-/kápa-k/,
     <a class="clsHide" href="#idLEllnphgmKnam"></a></p>
   </section>
 
   <section id="idLEllnphgmL">
-  <h4 id="idLEllnphgmLH4">Elln_letr.Λ-/lámdha-l/
+  <h4 id="idLEllnphgmLH4">Ellnletr.Λ-/lámdha-l/
     </h4>
   <p id="idLEllnphgmLdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1162,14 +1194,14 @@
     <br>· λλ ⭢ /l/:
     <a class="clsHide" href="#idLEllnphgmLdsn"></a></p>
   <p id="idLEllnphgmLnam">name::
-    <br>* McshEngl.Elln_letr./l/_/lámdha/_Λ,
-    <br>* McshEngl.Elln_letr.Λ_/lámdha_l/,
-    <br>* McshEngl.Elln_letr.Λ-/lámdha-l/,
+    <br>* McshEngl.Ellnletr./l/_/lámdha/_Λ,
+    <br>* McshEngl.Ellnletr.Λ_/lámdha_l/,
+    <br>* McshEngl.Ellnletr.Λ-/lámdha-l/,
     <a class="clsHide" href="#idLEllnphgmLnam"></a></p>
   </section>
 
   <section id="idLEllnphgmM">
-  <h4 id="idLEllnphgmMH4">Elln_letr.Μ-/mi-m/
+  <h4 id="idLEllnphgmMH4">Ellnletr.Μ-/mi-m/
     </h4>
   <p id="idLEllnphgmMdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1178,14 +1210,14 @@
     <br>· μμ ⭢ /m/:
     <a class="clsHide" href="#idLEllnphgmMdsn"></a></p>
   <p id="idLEllnphgmMnam">name::
-    <br>* McshEngl.Elln_letr./m/_/mi/_Μ,
-    <br>* McshEngl.Elln_letr.Μ_/mi_m/,
-    <br>* McshEngl.Elln_letr.Μ-/mi-m/,
+    <br>* McshEngl.Ellnletr./m/_/mi/_Μ,
+    <br>* McshEngl.Ellnletr.Μ_/mi_m/,
+    <br>* McshEngl.Ellnletr.Μ-/mi-m/,
     <a class="clsHide" href="#idLEllnphgmMnam"></a></p>
   </section>
 
   <section id="idLEllnphgmN">
-  <h4 id="idLEllnphgmNH4">Elln_letr.Ν-/ni-n/
+  <h4 id="idLEllnphgmNH4">Ellnletr.Ν-/ni-n/
     </h4>
   <p id="idLEllnphgmNdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1194,28 +1226,28 @@
     <br>· νν ⭢ /n/:
     <a class="clsHide" href="#idLEllnphgmNdsn"></a></p>
   <p id="idLEllnphgmNnam">name::
-    <br>* McshEngl.Elln_letr./n/_/ni/_Ν,
-    <br>* McshEngl.Elln_letr.Ν_/ni_n/,
-    <br>* McshEngl.Elln_letr.Ν-/ni-n/,
+    <br>* McshEngl.Ellnletr./n/_/ni/_Ν,
+    <br>* McshEngl.Ellnletr.Ν_/ni_n/,
+    <br>* McshEngl.Ellnletr.Ν-/ni-n/,
     <a class="clsHide" href="#idLEllnphgmNnam"></a></p>
   </section>
 
   <section id="idLEllnphgmKS">
-  <h4 id="idLEllnphgmKSH4">Elln_letr.Ξ-/ksi-sk/
+  <h4 id="idLEllnphgmKSH4">Ellnletr.Ξ-/ksi-sk/
     </h4>
   <p id="idLEllnphgmKSdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Ξ|ξ, 926|958
     <a class="clsHide" href="#idLEllnphgmKSdsn"></a></p>
   <p id="idLEllnphgmKSnam">name::
-    <br>* McshEngl.Elln_letr./ks/_/ksi/_Ξ,
-    <br>* McshEngl.Elln_letr.Ξ_/ksi_sk/,
-    <br>* McshEngl.Elln_letr.Ξ-/ksi-ks/,
+    <br>* McshEngl.Ellnletr./ks/_/ksi/_Ξ,
+    <br>* McshEngl.Ellnletr.Ξ_/ksi_sk/,
+    <br>* McshEngl.Ellnletr.Ξ-/ksi-ks/,
     <a class="clsHide" href="#idLEllnphgmKSnam"></a></p>
   </section>
 
   <section id="idLEllnphgmO">
-  <h4 id="idLEllnphgmOH4">Elln_letr.Ο-/ómikron-o/
+  <h4 id="idLEllnphgmOH4">Ellnletr.Ο-/ómikron-o/
     </h4>
   <p id="idLEllnphgmOdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1224,42 +1256,42 @@
     <br>· ου ⭢ /u/: ούτε/úte/
     <a class="clsHide" href="#idLEllnphgmOdsn"></a></p>
   <p id="idLEllnphgmOnam">name::
-    <br>* McshEngl.Elln_letr./o/_/ómikron/_Ο,
-    <br>* McshEngl.Elln_letr.Ο_/ómikron_o/,
-    <br>* McshEngl.Elln_letr.Ο-/ómikron-o/,
+    <br>* McshEngl.Ellnletr./o/_/ómikron/_Ο,
+    <br>* McshEngl.Ellnletr.Ο_/ómikron_o/,
+    <br>* McshEngl.Ellnletr.Ο-/ómikron-o/,
     <a class="clsHide" href="#idLEllnphgmOnam"></a></p>
   </section>
 
   <section id="idLEllnphgmP">
-  <h4 id="idLEllnphgmPH4">Elln_letr.Π-/pi-p/
+  <h4 id="idLEllnphgmPH4">Ellnletr.Π-/pi-p/
     </h4>
   <p id="idLEllnphgmPdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Π|π, 928|960
     <a class="clsHide" href="#idLEllnphgmPdsn"></a></p>
   <p id="idLEllnphgmPnam">name::
-    <br>* McshEngl.Elln_letr./p/_/pi/_Π,
-    <br>* McshEngl.Elln_letr.Π_/pi_p/,
-    <br>* McshEngl.Elln_letr.Π-/pi-p/,
+    <br>* McshEngl.Ellnletr./p/_/pi/_Π,
+    <br>* McshEngl.Ellnletr.Π_/pi_p/,
+    <br>* McshEngl.Ellnletr.Π-/pi-p/,
     <a class="clsHide" href="#idLEllnphgmPnam"></a></p>
   </section>
 
   <section id="idLEllnphgmR">
-  <h4 id="idLEllnphgmRH4">Elln_letr.Ρ-/ro-r/
+  <h4 id="idLEllnphgmRH4">Ellnletr.Ρ-/ro-r/
     </h4>
   <p id="idLEllnphgmRdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Ρ|ρ, 929|961
     <a class="clsHide" href="#idLEllnphgmRdsn"></a></p>
   <p id="idLEllnphgmRnam">name::
-    <br>* McshEngl.Elln_letr./r/_/ro/_Ρ,
-    <br>* McshEngl.Elln_letr.Ρ_/ro_r/,
-    <br>* McshEngl.Elln_letr.Ρ-/ro-r/,
+    <br>* McshEngl.Ellnletr./r/_/ro/_Ρ,
+    <br>* McshEngl.Ellnletr.Ρ_/ro_r/,
+    <br>* McshEngl.Ellnletr.Ρ-/ro-r/,
     <a class="clsHide" href="#idLEllnphgmRnam"></a></p>
   </section>
 
   <section id="idLEllnphgmS">
-  <h4 id="idLEllnphgmSH4">Elln_letr.Σ-/síyma-s/
+  <h4 id="idLEllnphgmSH4">Ellnletr.Σ-/síyma-s/
     </h4>
   <p id="idLEllnphgmSdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1267,28 +1299,28 @@
     <br>· ς, 962
     <a class="clsHide" href="#idLEllnphgmSdsn"></a></p>
   <p id="idLEllnphgmSnam">name::
-    <br>* McshEngl.Elln_letr./s/_/síyma/_Σ,
-    <br>* McshEngl.Elln_letr.Σ_/síyma_s/,
-    <br>* McshEngl.Elln_letr.Σ-/síyma-s/,
+    <br>* McshEngl.Ellnletr./s/_/síyma/_Σ,
+    <br>* McshEngl.Ellnletr.Σ_/síyma_s/,
+    <br>* McshEngl.Ellnletr.Σ-/síyma-s/,
     <a class="clsHide" href="#idLEllnphgmSnam"></a></p>
   </section>
 
   <section id="idLEllnphgmT">
-  <h4 id="idLEllnphgmTH4">Elln_letr.Τ-/taf-t/
+  <h4 id="idLEllnphgmTH4">Ellnletr.Τ-/taf-t/
     </h4>
   <p id="idLEllnphgmTdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Τ|τ, 932|964
     <a class="clsHide" href="#idLEllnphgmTdsn"></a></p>
   <p id="idLEllnphgmTnam">name::
-    <br>* McshEngl.Elln_letr./t/_/taf/_Τ,
-    <br>* McshEngl.Elln_letr.Τ_/taf_t/,
-    <br>* McshEngl.Elln_letr.Τ-/taf-t/,
+    <br>* McshEngl.Ellnletr./t/_/taf/_Τ,
+    <br>* McshEngl.Ellnletr.Τ_/taf_t/,
+    <br>* McshEngl.Ellnletr.Τ-/taf-t/,
     <a class="clsHide" href="#idLEllnphgmTnam"></a></p>
   </section>
 
   <section id="idLEllnphgmIp">
-  <h4 id="idLEllnphgmIpH4">Elln_letr.Υ-/ípsilon-i/
+  <h4 id="idLEllnphgmIpH4">Ellnletr.Υ-/ípsilon-i/
     </h4>
   <p id="idLEllnphgmIpdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1301,56 +1333,56 @@
     <br>· Ύ|Υ|υ|ύ|ϋ|ΰ ⭢ /i/:
     <a class="clsHide" href="#idLEllnphgmIpdsn"></a></p>
   <p id="idLEllnphgmIpnam">name::
-    <br>* McshEngl.Elln_letr./i/_/ípsilon/_Υ,
-    <br>* McshEngl.Elln_letr.Υ_/ípsilon_i/,
-    <br>* McshEngl.Elln_letr.Υ-/ípsilon-i/,
+    <br>* McshEngl.Ellnletr./i/_/ípsilon/_Υ,
+    <br>* McshEngl.Ellnletr.Υ_/ípsilon_i/,
+    <br>* McshEngl.Ellnletr.Υ-/ípsilon-i/,
     <a class="clsHide" href="#idLEllnphgmIpnam"></a></p>
   </section>
 
   <section id="idLEllnphgmF">
-  <h4 id="idLEllnphgmFH4">Elln_letr.Φ-/fi-f/
+  <h4 id="idLEllnphgmFH4">Ellnletr.Φ-/fi-f/
     </h4>
   <p id="idLEllnphgmFdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Φ|φ, 934|966
     <a class="clsHide" href="#idLEllnphgmFdsn"></a></p>
   <p id="idLEllnphgmFnam">name::
-    <br>* McshEngl.Elln_letr./f/_/fi/_Φ,
-    <br>* McshEngl.Elln_letr.Φ_/fi_f/,
-    <br>* McshEngl.Elln_letr.Φ-/fi-f/,
+    <br>* McshEngl.Ellnletr./f/_/fi/_Φ,
+    <br>* McshEngl.Ellnletr.Φ_/fi_f/,
+    <br>* McshEngl.Ellnletr.Φ-/fi-f/,
     <a class="clsHide" href="#idLEllnphgmFnam"></a></p>
   </section>
 
   <section id="idLEllnphgmH">
-  <h4 id="idLEllnphgmHH4">Elln_letr.Χ-/hi-h/
+  <h4 id="idLEllnphgmHH4">Ellnletr.Χ-/hi-h/
     </h4>
   <p id="idLEllnphgmHdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Χ|χ, 935|967
     <a class="clsHide" href="#idLEllnphgmHdsn"></a></p>
   <p id="idLEllnphgmHnam">name::
-    <br>* McshEngl.Elln_letr./h/_/hi/_Χ,
-    <br>* McshEngl.Elln_letr.Χ_/hi_h/,
-    <br>* McshEngl.Elln_letr.Χ-/hi-h/,
+    <br>* McshEngl.Ellnletr./h/_/hi/_Χ,
+    <br>* McshEngl.Ellnletr.Χ_/hi_h/,
+    <br>* McshEngl.Ellnletr.Χ-/hi-h/,
     <a class="clsHide" href="#idLEllnphgmHnam"></a></p>
   </section>
 
   <section id="idLEllnphgmPS">
-  <h4 id="idLEllnphgmPSH4">Elln_letr.Ψ-/psi-ps/
+  <h4 id="idLEllnphgmPSH4">Ellnletr.Ψ-/psi-ps/
     </h4>
   <p id="idLEllnphgmPSdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
     <br>· Ψ|ψ, 936|968
     <a class="clsHide" href="#idLEllnphgmPSdsn"></a></p>
   <p id="idLEllnphgmPSnam">name::
-    <br>* McshEngl.Elln_letr./ps/_/psi/_Ψ,
-    <br>* McshEngl.Elln_letr.Ψ_/psi_ps/,
-    <br>* McshEngl.Elln_letr.Ψ-/psi-ps/,
+    <br>* McshEngl.Ellnletr./ps/_/psi/_Ψ,
+    <br>* McshEngl.Ellnletr.Ψ_/psi_ps/,
+    <br>* McshEngl.Ellnletr.Ψ-/psi-ps/,
     <a class="clsHide" href="#idLEllnphgmPSnam"></a></p>
   </section>
 
   <section id="idLEllnphgmOm">
-  <h4 id="idLEllnphgmOmH4">Elln_letr.Ω-/oméya-o/
+  <h4 id="idLEllnphgmOmH4">Ellnletr.Ω-/oméya-o/
     </h4>
   <p id="idLEllnphgmOmdsn">description::
     <br>× Mcsh-creation: {2025-03-04}
@@ -1358,14 +1390,14 @@
     <br>· Ώ|Ω|ω|ώ ⭢ /o/:
     <a class="clsHide" href="#idLEllnphgmOmdsn"></a></p>
   <p id="idLEllnphgmOmnam">name::
-    <br>* McshEngl.Elln_letr./o/_/oméya/_Ω,
-    <br>* McshEngl.Elln_letr.Ω_/oméya_o/,
-    <br>* McshEngl.Elln_letr.Ω-/oméya-o/,
+    <br>* McshEngl.Ellnletr./o/_/oméya/_Ω,
+    <br>* McshEngl.Ellnletr.Ω_/oméya_o/,
+    <br>* McshEngl.Ellnletr.Ω-/oméya-o/,
     <a class="clsHide" href="#idLEllnphgmOmnam"></a></p>
   </section>
 
   <section id="idLEllnphgmRmzn">
-  <h4 id="idLEllnphgmRmznH4">Elln_letr.romanization
+  <h4 id="idLEllnphgmRmznH4">Ellnletr.romanization
     </h4>
   <p id="idLEllnphgmRmzndsn">description::
     <br>× Mcsh-creation: {2026-01-30}
@@ -1449,14 +1481,14 @@
     <br>[{2026-01-30 retrieved} https://chat.deepseek.com/a/chat/s/6b1aea0e-731f-4d0b-966f-4d557bf14e6b]
     <a class="clsHide" href="#idLEllnphgmRmzndsn"></a></p>
   <p id="idLEllnphgmRmznnam">name::
-    <br>* McshEngl.Elln_letr.romanization,
+    <br>* McshEngl.Ellnletr.romanization,
     <a class="clsHide" href="#idLEllnphgmRmznnam"></a></p>
   </section>
   </section>
   </section>
 
   <section id="idLEllnutsm">
-  <h2 id="idLEllnutsmH2">unit-system of EllnviewLogo
+  <h2 id="idLEllnutsmH2">unit-system of Ellnlogo
     </h2>
   <p id="idLEllnutsmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1465,9 +1497,9 @@
   <p id="idLEllnutsmnam">name::
     <br>* McshEngl.logo-unit-system--of-Ellnlago!⇒Ellnunitsyst,
     <br>* McshEngl.Ellnunitsyst!=logo-unit-system--of-Ellnlago,
-    <br>* McshEngl.EllnviewLogo'unit_system!⇒Ellnunitsyst,
+    <br>* McshEngl.Ellnlogo'unit_system!⇒Ellnunitsyst,
     <br>* McshEngl.SystUnitElln!⇒Ellnunitsyst,
-    <br>* McshEngl.unit-system--of-EllnviewLogo!⇒Ellnunitsyst,
+    <br>* McshEngl.unit-system--of-Ellnlogo!⇒Ellnunitsyst,
     <a class="clsHide" href="#idLEllnutsmnam"></a></p>
 
   <section id="idLEllnwrd">
@@ -1996,7 +2028,7 @@
   </section>
 
   <section id="idLEllnname">
-  <h2 id="idLEllnnameH2">name-(decoding-unit) of EllnviewLogo
+  <h2 id="idLEllnnameH2">name-(decoding-unit) of Ellnlogo
     </h2>
   <p id="idLEllnnamedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2005,10 +2037,10 @@
   <p id="idLEllnnamenam">name::
     <br>* McshEngl.logo-name--of-Ellnlago!⇒Ellnname,
     <br>* McshEngl.Ellnname!=logo-name--of-Ellnlago,
-    <br>* McshEngl.EllnviewLogo'name_(decoding_unit)!⇒Ellnname,
+    <br>* McshEngl.Ellnlogo'name_(decoding_unit)!⇒Ellnname,
     <br>* McshEngl.nameElln!⇒Ellnname,
-    <br>* McshEngl.EllnviewLogo'name!⇒Ellnname,
-    <br>* McshEngl.EllnviewLogo'name-(decoding-unit)!⇒Ellnname,
+    <br>* McshEngl.Ellnlogo'name!⇒Ellnname,
+    <br>* McshEngl.Ellnlogo'name-(decoding-unit)!⇒Ellnname,
     <a class="clsHide" href="#idLEllnnamenam"></a></p>
   <p id="idLEllnnamegntr">generic-tree::
     <br>* McshEngl.Ellnname:generic,
@@ -2020,7 +2052,7 @@
   </section>
 
   <section id="idEllnondo">
-  <h2 id="idEllnondoH2">argu-name of EllnviewLogo
+  <h2 id="idEllnondoH2">argu-name of Ellnlogo
     </h2>
   <p id="idEllnondodsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2031,9 +2063,9 @@
   <p id="idEllnondonam">name::
     <br>* McshEngl.Greek-argu!⇒Ellnargu,
     <br>* McshEngl.Ellnargu!=Greek-argu,
-    <br>* McshEngl.EllnviewLogo'argu_name!⇒Ellnargu,
+    <br>* McshEngl.Ellnlogo'argu_name!⇒Ellnargu,
     <br>* McshEngl.Elln_argu!⇒Ellnargu,
-    <br>* McshEngl.EllnviewLogo'argu!⇒Ellnargu,
+    <br>* McshEngl.Ellnlogo'argu!⇒Ellnargu,
     <br>* McshEngl.argu.Greek!⇒Ellnargu,
     <br>====== lagoGreek:
     <br>* McshElln.Ελλν_αργκ!⇒Ellnargu,
@@ -2060,8 +2092,7 @@
     <br>* McshEngl.Greek-noun!⇒Ellnnoun,
     <br>* McshEngl.Ellnnoun!=Greek-noun,
     <br>* McshEngl.Ellnargu'noun_name!⇒Ellnnoun,
-    <br>* McshEngl.Ellnnoun!⇒Ellnnoun,
-    <br>* McshEngl.EllnviewLogo'noun!⇒Ellnnoun,
+    <br>* McshEngl.Ellnlogo'noun!⇒Ellnnoun,
     <br>* McshEngl.nounElln!⇒Ellnnoun,
     <br>====== lagoGreek:
     <br>* McshElln.Ελλν_ουσι!το!⇒Ellnnoun,
@@ -2254,17 +2285,18 @@
     <br>* Bu6-Λδ6-μέΛηΔύσχρησηΓΠ (unwieldy)
     <a class="clsHide" href="#idLEllnnounmbrdsn"></a></p>
   <p id="idLEllnnounmbrnam">name::
-    <br>* McshEngl.Ellnnoun_member,
-    <br>* McshEngl.Ellnnoun'member!⇒Ellnnoun_member,
-    <br>* McshEngl.Ellnnoun'8_memBer!⇒Ellnnoun_member,
-    <br>* McshEngl.Ellnnoun'B_memBer_8!⇒Ellnnoun_member,
-    <br>* McshEngl.Ellnnoun'memBer_8!⇒Ellnnoun_member,
-    <br>* McshEngl.Ellnnoun'8_memBer_quantity!⇒Ellnnoun_member,
+    <br>* McshEngl.Ellnnnmb,
+    <br>* McshEngl.Ellnnoun_member!⇒Ellnnnmb,
+    <br>* McshEngl.Ellnnoun'member!⇒Ellnnnmb,
+    <br>* McshEngl.Ellnnoun'8_memBer!⇒Ellnnnmb,
+    <br>* McshEngl.Ellnnoun'B_memBer_8!⇒Ellnnnmb,
+    <br>* McshEngl.Ellnnoun'memBer_8!⇒Ellnnnmb,
+    <br>* McshEngl.Ellnnoun'8_memBer_quantity!⇒Ellnnnmb,
     <br>====== lagoGreek:
-    <br>* McshElln.μέλος-πτωτικού!⇒Ellnnoun_member,
-    <br>* McshElln.ουσιΕλλν'8-μέΛη!⇒Ellnnoun_member,
-    <br>* McshElln.ουσιΕλλν'Λ-μέΛη-8!⇒Ellnnoun_member,
-    <br>* McshElln.ουσιΕλλν'μέΛη-8!⇒Ellnnoun_member,
+    <br>* McshElln.μέλος-πτωτικού!⇒Ellnnnmb,
+    <br>* McshElln.ουσιΕλλν'8-μέΛη!⇒Ellnnnmb,
+    <br>* McshElln.ουσιΕλλν'Λ-μέΛη-8!⇒Ellnnnmb,
+    <br>* McshElln.ουσιΕλλν'μέΛη-8!⇒Ellnnnmb,
     <a class="clsHide" href="#idLEllnnounmbrnam"></a></p>
   </section>
 
@@ -9580,7 +9612,7 @@
     <br>* McshEngl.Ellnargu'adjective__name!⇒Ellnadje,
     <br>* McshEngl.Elln_adje!⇒Ellnadje,
     <br>* McshEngl.AdjeElln!⇒Ellnadje,
-    <br>* McshEngl.EllnviewLogo'adjective!⇒Ellnadje,
+    <br>* McshEngl.Ellnlogo'adjective!⇒Ellnadje,
     <br>* McshEngl.Ellnargu'adjective_name!⇒Ellnadje,
     <br>====== lagoGreek:
     <br>* McshElln.Ελλν_επιθ!το!⇒Ellnadje,
@@ -9645,7 +9677,7 @@
     <br>* McshEngl.Ellnargu'adverb__name!⇒Ellnadve,
     <br>* McshEngl.Elln_adve!⇒Ellnadve,
     <br>* McshEngl.AdveElln!⇒Ellnadve,
-    <br>* McshEngl.EllnviewLogo'adverb!⇒Ellnadve,
+    <br>* McshEngl.Ellnlogo'adverb!⇒Ellnadve,
     <br>* McshEngl.Ellnargu'adverb_name!⇒Ellnadve,
     <br>====== lagoGreek:
     <br>* McshElln.Ελλν_επιρ!το!⇒Ellnadve,
@@ -9936,12 +9968,12 @@
   </section>
 
   <section id="idLEllnvrb">
-  <h2 id="idLEllnvrbH2">verb-name of EllnviewLogo (<a class="clsPreview" href="../dirLag/McshLag000026.last.html#idOverview">link</a>)
+  <h2 id="idLEllnvrbH2">verb-name of Ellnlogo (<a class="clsPreview" href="../dirLag/McshLag000026.last.html#idOverview">link</a>)
     </h2>
   </section>
 
   <section id="idLEllnconj">
-  <h2 id="idLEllnconjH2">conjunction-name of EllnviewLogo
+  <h2 id="idLEllnconjH2">conjunction-name of Ellnlogo
     </h2>
   <p id="idLEllnconjdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -9950,10 +9982,10 @@
   <p id="idLEllnconjnam">name::
     <br>* McshEngl.Greek-conjunction!⇒Ellnconj,
     <br>* McshEngl.Ellnconj!=Greek-conjunction,
-    <br>* McshEngl.EllnviewLogo'conjunction_name!⇒Ellnconj,
+    <br>* McshEngl.Ellnlogo'conjunction_name!⇒Ellnconj,
     <br>* McshEngl.ConjElln!⇒Ellnconj,
     <br>* McshEngl.ConjHmnm.Greek!⇒Ellnconj,
-    <br>* McshEngl.EllnviewLogo'conjunction!⇒Ellnconj,
+    <br>* McshEngl.Ellnlogo'conjunction!⇒Ellnconj,
     <br>* McshEngl.termSmsElln.conjunction!⇒Ellnconj,
     <br>====== lagoGreek:
     <br>* McshElln.Ελλν_συνδ!⇒Ellnconj,
@@ -12271,14 +12303,14 @@
   </section>
 
   <section id="idLEllnodsm">
-  <h2 id="idLEllnodsmH2">argu-system of EllnviewLogo
+  <h2 id="idLEllnodsmH2">argu-system of Ellnlogo
     </h2>
   <p id="idLEllnodsmdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idLEllnodsmdsn"></a></p>
   <p id="idLEllnodsmnam">name::
     <br>* McshEngl.phraseArguElln,
-    <br>* McshEngl.EllnviewLogo'argu_system!⇒phraseArguElln,
+    <br>* McshEngl.Ellnlogo'argu_system!⇒phraseArguElln,
     <a class="clsHide" href="#idLEllnodsmnam"></a></p>
   </section>
 
@@ -12396,29 +12428,30 @@
     <br>[{2025-02-07 retrieved} https://gemini.google.com/app/33ebd5fbd3846269]
     <a class="clsHide" href="#idLEllnvbatdsn"></a></p>
   <p id="idLEllnvbatnam">name::
-    <br>* McshEngl.Greek--verb-argument!⇒Elln_Verbargt,
-    <br>* McshEngl.Elln_Verbargt!=Greek--verb-argument,
-    <br>* McshEngl.Ellnsent'verb_argument!⇒Elln_Verbargt,
-    <br>* McshEngl.Verbargt.lagoElln!⇒Elln_Verbargt,
-    <br>* McshEngl.argtVerbElln!⇒Elln_Verbargt,
-    <br>* McshEngl.EllnviewLogo'verb_argument!⇒Elln_Verbargt,
+    <br>* McshEngl.Greek--verb-argument!⇒Ellnvbat,
+    <br>* McshEngl.Ellnvbat!=Greek--verb-argument,
+    <br>* McshEngl.Elln_Verbargt!⇒Ellnvbat,
+    <br>* McshEngl.Ellnsent'verb_argument!⇒Ellnvbat,
+    <br>* McshEngl.Hmmdvbat.lagoElln!⇒Ellnvbat,
+    <br>* McshEngl.argtVerbElln!⇒Ellnvbat,
+    <br>* McshEngl.Ellnlogo'verb_argument!⇒Ellnvbat,
     <a class="clsHide" href="#idLEllnvbatnam"></a></p>
   </section>
 
   <section id="idLEllncnsm">
-  <h2 id="idLEllncnsmH2">conjunction-system of EllnviewLogo
+  <h2 id="idLEllncnsmH2">conjunction-system of Ellnlogo
     </h2>
   <p id="idLEllncnsmdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idLEllncnsmdsn"></a></p>
   <p id="idLEllncnsmnam">name::
     <br>* McshEngl.SystConjElln,
-    <br>* McshEngl.EllnviewLogo'conjunction_system!⇒SystConjElln,
+    <br>* McshEngl.Ellnlogo'conjunction_system!⇒SystConjElln,
     <a class="clsHide" href="#idLEllncnsmnam"></a></p>
   </section>
 
   <section id="idLEllnsntc">
-  <h2 id="idLEllnsntcH2">sentence of EllnviewLogo
+  <h2 id="idLEllnsntcH2">sentence of Ellnlogo
     </h2>
   <p id="idLEllnsntcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12428,7 +12461,7 @@
     <br>* McshEngl.Greek-sentence!⇒Ellnsent,
     <br>* McshEngl.Ellnsent!=Greek-sentence,
     <br>* McshEngl.Elln_sent!⇒Ellnsent,
-    <br>* McshEngl.EllnviewLogo'sentence!⇒Ellnsent,
+    <br>* McshEngl.Ellnlogo'sentence!⇒Ellnsent,
     <br>====== lagoGreek:
     <br>* McshElln.Ελλν_προτ!η!⇒Ellnsent,
     <br>* McshElln.πρόταση-Ελληνική!η!⇒Ellnsent,
@@ -12446,7 +12479,7 @@
     <br>* McshEngl.Elln_expr!=Greek-basic-expression,
     <br>* McshEngl.EllnLogoView'basic_expression!⇒Elln_expr,
     <br>* McshEngl.basic_expression.Ellnlago!⇒Elln_expr,
-    <br>* McshEngl.EllnviewLogo'basic_expression!⇒Elln_expr,
+    <br>* McshEngl.Ellnlogo'basic_expression!⇒Elln_expr,
     <br>* McshEngl.Ellnsent'basic_expression!⇒Elln_expr,
     <a class="clsHide" href="#idLEllnsntcbcexnam"></a></p>
   <p id="idLEllnsentBcexhello">hello::
@@ -12645,7 +12678,7 @@
   </section>
 
   <section id="idLEllntsscsm">
-  <h2 id="idLEllntsscsmH2">titless-sentence-system of EllnviewLogo
+  <h2 id="idLEllntsscsmH2">titless-sentence-system of Ellnlogo
     </h2>
   <p id="idLEllntsscsmdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12653,8 +12686,8 @@
     <a class="clsHide" href="#idLEllntsscsmdsn"></a></p>
   <p id="idLEllntsscsmnam">name::
     <br>* McshEngl.SystSentTitlessElln,
-    <br>* McshEngl.EllnviewLogo'titless_sentence_system!⇒SystSentTitlessElln,
-    <br>* McshEngl.titless-sentence-system--of-EllnviewLogo!⇒SystSentTitlessElln,
+    <br>* McshEngl.Ellnlogo'titless_sentence_system!⇒SystSentTitlessElln,
+    <br>* McshEngl.titless-sentence-system--of-Ellnlogo!⇒SystSentTitlessElln,
     <a class="clsHide" href="#idLEllntsscsmnam"></a></p>
 
   <section id="idLEllntsscsmCmpd">
@@ -12684,7 +12717,7 @@
   </section>
 
   <section id="idLEllnsctn">
-  <h2 id="idLEllnsctnH2">section of EllnviewLogo
+  <h2 id="idLEllnsctnH2">section of Ellnlogo
     </h2>
   <p id="idLEllnsctndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12692,13 +12725,13 @@
     <a class="clsHide" href="#idLEllnsctndsn"></a></p>
   <p id="idLEllnsctnnam">name::
     <br>* McshEngl.sectionElln,
-    <br>* McshEngl.EllnviewLogo'section!⇒sectionElln,
+    <br>* McshEngl.Ellnlogo'section!⇒sectionElln,
     <br>* McshEngl.SystSentTitleElln!⇒sectionElln,
     <a class="clsHide" href="#idLEllnsctnnam"></a></p>
   </section>
 
   <section id="idLEllnroot">
-  <h2 id="idLEllnrootH2">root-node of EllnviewLogo
+  <h2 id="idLEllnrootH2">root-node of Ellnlogo
     </h2>
   <p id="idLEllnrootdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12706,39 +12739,39 @@
     <a class="clsHide" href="#idLEllnrootdsn"></a></p>
   <p id="idLEllnrootnam">name::
     <br>* McshEngl.rootElln,
-    <br>* McshEngl.EllnviewLogo'root_node!⇒rootElln,
-    <br>* McshEngl.EllnviewLogo'root!⇒rootElln,
+    <br>* McshEngl.Ellnlogo'root_node!⇒rootElln,
+    <br>* McshEngl.Ellnlogo'root!⇒rootElln,
     <a class="clsHide" href="#idLEllnrootnam"></a></p>
   </section>
 
   <section id="idLEllnoptddrn">
-  <h2 id="idLEllnoptddrnH2">lago-relation of EllnviewLogo
+  <h2 id="idLEllnoptddrnH2">lago-relation of Ellnlogo
     </h2>
   <p id="idLEllnoptddrndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· <span class="clsColorRed">lago-relation--of-Elln_logo</span> is <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnSqcd">the-sequenced-relation</a> between <a class="clsPreview" href="#idLEllnopt">the-logo-view</a> and its corresponding <a class="clsPreview" href="#idLEllnipt3">semu-view</a>.
     <a class="clsHide" href="#idLEllnoptddrndsn"></a></p>
   <p id="idLEllnoptddrnnam">name::
-    <br>* McshEngl.EllnviewLogo'lago_relation,
+    <br>* McshEngl.Ellnlogo'lago_relation,
     <a class="clsHide" href="#idLEllnoptddrnnam"></a></p>
   </section>
 
   <section id="idLEllnoptgstr">
-  <h2 id="idLEllnoptgstrH2">GENERIC-SPECIFIC-TREE of EllnviewLogo
+  <h2 id="idLEllnoptgstrH2">GENERIC-SPECIFIC-TREE of Ellnlogo
     </h2>
   <p id="idLEllnoptgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idLEllnoptgstrdsn"></a></p>
   <p id="idLEllnoptgstrnam">name::
-    <br>* McshEngl.EllnviewLogo'generic_specific_tree,
+    <br>* McshEngl.Ellnlogo'generic_specific_tree,
     <a class="clsHide" href="#idLEllnoptgstrnam"></a></p>
   <p id="idLEllnoptgntr">generic-tree::
-    <br>* McshEngl.EllnviewLogo:generic,
+    <br>* McshEngl.Ellnlogo:generic,
     <br>===
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEllnoptgntr"></a></p>
   <p id="idLEllnoptsptr">specific-tree::
-    <br>* McshEngl.EllnviewLogo.specific,
+    <br>* McshEngl.Ellnlogo.specific,
     <br>===
     <br>· speech-Elln_logo,
     <br>· text-Elln_logo,
@@ -12746,7 +12779,7 @@
   </section>
 
   <section id="idLEllnspch">
-  <h2 id="idLEllnspchH2">EllnviewLogo.speech
+  <h2 id="idLEllnspchH2">Ellnlogo.speech
     </h2>
   <p id="idLEllnspchdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12754,12 +12787,12 @@
     <a class="clsHide" href="#idLEllnspchdsn"></a></p>
   <p id="idLEllnspchnam">name::
     <br>* McshEngl.spchElln,
-    <br>* McshEngl.EllnviewLogo.speech!⇒spchElln,
+    <br>* McshEngl.Ellnlogo.speech!⇒spchElln,
     <a class="clsHide" href="#idLEllnspchnam"></a></p>
   </section>
 
   <section id="idLEllntext">
-  <h2 id="idLEllntextH2">EllnviewLogo.text
+  <h2 id="idLEllntextH2">Ellnlogo.text
     </h2>
   <p id="idLEllntextdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -12767,7 +12800,7 @@
     <a class="clsHide" href="#idLEllntextdsn"></a></p>
   <p id="idLEllntextnam">name::
     <br>* McshEngl.textElln,
-    <br>* McshEngl.EllnviewLogo.text!⇒textElln,
+    <br>* McshEngl.Ellnlogo.text!⇒textElln,
     <a class="clsHide" href="#idLEllntextnam"></a></p>
   </section>
   </section>
@@ -13019,6 +13052,7 @@
   <p id="idLEllngntr">generic-tree::
     <br>* McshEngl.Ellnlago:generic,
     <br>===
+    <br>* Hmmdlago:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEllngntr"></a></p>
   <p id="idLEllnsptr">specific-tree::

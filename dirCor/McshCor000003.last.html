@@ -698,6 +698,7 @@
     <br>* McshEngl.doing-of-entity!⇒Enttdoing,
     <br>* McshEngl.Enttdoing!=doing-of-entity,
     <br>* McshEngl.entity'doing!⇒Enttdoing,
+    <br>* McshEngl.entity.Specsdiv.doing!⇒Enttdoing,
     <br>====== lagoGreek:
     <br>* McshElln.γίγνεσθαι-οντότητας!⇒Enttdoing,
     <br>* McshElln.κίνηση-οντότητας!⇒Enttdoing,
@@ -5017,6 +5018,9 @@
     <br>* definiteNo,
     <br>===
     <br>* entity.Systnode!@McshCor000011#idSyspart,
+    <br>=== on DOING!@McshCor000003#idEntdong:
+    <br>* doing!@McshCor000004,
+    <br>* entity.doing.doingNo!@McshCor000003#idEntDngN,
     <a class="clsHide" href="#idEntsptr"></a></p>
 
   <section id="idEntScdnStrr">
@@ -5076,20 +5080,6 @@
   <p id="idEntScdnDpdcnam">name::
     <br>* McshEngl.entity.Specsdiv.dependance,
     <a class="clsHide" href="#idEntScdnDpdcnam"></a></p>
-  </section>
-
-  <section id="idEntScdnDng">
-  <h2 id="idEntScdnDngH2">entity.Specsdiv.doing
-    </h2>
-  <p id="idEntScdnDngdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>· on doing:
-    <br>* doing!@McshCor000004,
-    <br>* doingNo!@McshCor000003#idEntDngN,
-    <a class="clsHide" href="#idEntScdnDngdsn"></a></p>
-  <p id="idEntScdnDngnam">name::
-    <br>* McshEngl.entity.Specsdiv.doing,
-    <a class="clsHide" href="#idEntScdnDngnam"></a></p>
   </section>
 
   <section id="idEntScdnScat">
@@ -5388,6 +5378,7 @@
     <br>* McshEngl.definite-entity!⇒definite,
     <br>* McshEngl.EnttDefinite!⇒definite,
     <br>* McshEngl.entity.definite!⇒definite,
+    <br>* McshEngl.entity.boundary.definite!⇒definite,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.leu-dou!⇒definite,
     <br>====== lagoGreek:
@@ -5596,6 +5587,7 @@
     <br>* McshEngl.idef!⇒definiteNo,
     <br>* McshEngl.indefinite!⇒definiteNo,
     <br>* McshEngl.indefinite-entity!⇒definiteNo,
+    <br>* McshEngl.entity.boundary.definiteNo!⇒definiteNo,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.leu-dou-nnu!⇒definiteNo,
     <br>====== lagoGreek:
@@ -5744,6 +5736,8 @@
     <br>* McshEngl.EnttBody!⇒body,
     <br>* McshEngl.entity.body!⇒body,
     <br>* McshEngl.non-relation-or-process!⇒body,
+    <br>* McshEngl.entity.structure.body!⇒body,
+    <br>* McshEngl.entity.dependance.body!⇒body,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.leu-ro-nnu!=entity.body!⇒body, {2021-06-16}
     <br>* McshSngu.old.ro-nnu!=entity.body!⇒body,
@@ -5922,7 +5916,7 @@
   </section>
 
   <section id="idEntBodyN">
-  <h1 id="idEntBodyNH1">entity.bodyNo
+  <h1 id="idEntBodyNH1">entity.bodyNo-(doing-or-relation)
     </h1>
   <p id="idEntBodyNdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -5939,6 +5933,7 @@
     <br>* McshEngl.relation-or-doing!⇒bodyNo,
     <br>* McshEngl.relation-or-process!⇒bodyNo,
     <br>* McshEngl.reldo!⇒bodyNo, {2023-07-03}
+    <br>* McshEngl.entity.dependance.bodyNo!⇒bodyNo,
     <br>====== lagoSinagu:
     <br>* leu-ro!⇒bodyNo,
     <br>* ro!⇒bodyNo, {2021-06-16} rao=relation rio=doing,
@@ -6038,8 +6033,10 @@
   <p id="idEntBodyNargsptr">specific-tree::
     <br>* McshEngl.bodyNo_argt.specific,
     <br>===
-    <br>* bodyNo_argt.argtDoing!@McshCor000004#idDngatt001,
+    <br>* bodyNo_argt.Doingargt!@McshCor000004#idDngatt001,
     <br>* bodyNo_argt.Rltnargt!@McshCor000005#idRlnarg,
+    <br>===
+    <br>* bodyNo_argt.exactly!@McshCor000003#idEntBodyNargExct,
     <a class="clsHide" href="#idEntBodyNargsptr"></a></p>
   </section>
 
@@ -6150,14 +6147,13 @@
     <a class="clsHide" href="#idEntBodyNlglnnam"></a></p>
 
   <section id="idEntBodyNstx">
-  <h3 id="idEntBodyNstxH3">04_syntax of bodyNo
+  <h3 id="idEntBodyNstxH3">syntax of bodyNo
     </h3>
   <p id="idEntBodyNstxdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· on every bodyNo, each lagHmnm, applies <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmnmsxtr">a-syntax</a> which is language dependable.
     <a class="clsHide" href="#idEntBodyNstxdsn"></a></p>
   <p id="idEntBodyNstxnam">name::
-    <br>* McshEngl.bodyNo'04_syntax,
     <br>* McshEngl.bodyNo'syntax,
     <br>* McshEngl.syntax-of-bodyNo,
     <br>* McshEngl.bodyNo'logo_relation'syntax,
@@ -6278,6 +6274,7 @@
     <br>* McshEngl.doingNo,
     <br>* McshEngl.EnttDoingNo!⇒doingNo,
     <br>* McshEngl.entity.doingNo!⇒doingNo,
+    <br>* McshEngl.entity.doing.doingNo!⇒doingNo,
     <a class="clsHide" href="#idEntDngNnam"></a></p>
 
   <section id="idEntDngNgstr">
@@ -6292,7 +6289,7 @@
   <p id="idEntDngNgntr">generic-tree::
     <br>* McshEngl.doingNo:generic,
     <br>===
-    <br>* attribute:generic,
+    <br>* Enttattr:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idEntDngNgntr"></a></p>
   <p id="idEntDngNsptr">specific-tree::
@@ -6417,6 +6414,7 @@
     <br>* McshEngl.humanNo,
     <br>* McshEngl.EnttHumanNo!⇒humanNo,
     <br>* McshEngl.entity.humanNo!⇒humanNo,
+    <br>* McshEngl.entity.human.humanNo!⇒humanNo,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.ho-nnu!⇒humanNo,
     <br>====== lagoGreek:
@@ -6723,7 +6721,7 @@
     <br>• email:
     <br> &nbsp;<img src="../../dirRsc/dirImg/mail.png" alt="mail">
     <br>• edit on github: https://github.com/synagonism/dirMcsh/blob/master/dirCor/McshCor000003.last.html,
-    <br>• COMMENTS on <a class="clsPreview" href="../dirCor/McshCor000000.last.html#idComment">Giscus</a>,
+    <br>• COMMENTS on <a class="clsPreview" href="../dirCor/McshCor000017.last.html#idComment">Giscus</a>,
     <br>• twitter: <a href="https://twitter.com/synagonism">@synagonism</a>,
     <a class="clsHide" href="#idFooterP1"></a></p>
   <p id="idMetaVersion">webpage-versions::
