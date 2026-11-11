@@ -1,5 +1,5 @@
 [
-  [";lagEngl01ei","A|a",8054,"2026-11-10"],
+  [";lagEngl01ei","A|a",8051,"2026-11-11"],
   ["AA!=artificial-agent!⇒techAA","dirTchInf/McshTchInf000002.last.html#idTchInf024"],
   ["AA@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrAA"],
   ["AAGR@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrAAGR"],
@@ -376,9 +376,6 @@
   ["ActgWriting","dirLag/McshLag000007.last.html#idLTextwrtg"],
   ["ActgWriting'argument!⇒ActgWriting_argument","dirLag/McshLag000007.last.html#idLTextwrtgarg"],
   ["ActgWriting_argument","dirLag/McshLag000007.last.html#idLTextwrtgarg"],
-  ["Actgsemuverb","dirLag/McshLag000007.last.html#idLHmnmsmsvrbDngActg"],
-  ["Actgsemuverb.subject_acton!⇒SemuverbDong.subject_acton","dirLag/McshLag000007.last.html#idLHmnmsmsvrbDngStdn"],
-  ["Actgsemuverb.subject_actor!⇒SemuverbDong.subject_actor","dirLag/McshLag000007.last.html#idLHmnmsmsvrbDngStdr"],
   ["Actinium!⇒ChmcElrAc89","dirNtr/McshNtr000007.last.html#idChmElrActinium"],
   ["Actinium-Ac89-ChmcElry!⇒ChmcElrAc89","dirNtr/McshNtr000007.last.html#idChmElrActinium"],
   ["Actinium-atom!⇒atomActinium","dirNtr/McshNtr000007.last.html#idAtmActinium"],
