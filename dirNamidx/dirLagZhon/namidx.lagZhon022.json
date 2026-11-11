@@ -1,5 +1,5 @@
 [
-  [";lagZhon022","y",1087,"2026-11-10"],
+  [";lagZhon022","y",1087,"2026-11-11"],
   ["Yuó-粤!⇒ChnaGuangdong","dirStn/McshStn000031.last.html#idChnaadmnatt015CNGD"],
   ["Yángpíng-阳平","dirLag/McshLag000018.last.html#idLZhonSpchtone2"],
   ["Yìdàlì-意大利!⇒SoctItla","dirStn/McshStn000035.last.html#idOverview"],
@@ -819,7 +819,7 @@
   ["yīn-駰-39408!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb365"],
   ["yīn-骃-39555!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb365"],
   ["yīncǐ-因此!~Zhonconj","dirLag/McshLag000018.last.html#idLZhonconj_047"],
-  ["yīng'ér-婴儿!⇒infant","dirHmn/McshHmn000002.last.html#idHmnatt023"],
+  ["yīng'ér-婴儿!⇒HumnInfant","dirHmn/McshHmn000002.last.html#idHmnatt023"],
   ["yīng-嘤-22052!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb366"],
   ["yīng-婴-23156!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb366"],
   ["yīng-应-24212!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb366"],
@@ -1084,7 +1084,7 @@
   ["yǔyán-语言!⇒Hmmdlago","dirLag/McshLag000007.last.html#idOverview"],
   ["yǔyánkēxué-语言科学!⇒SciLago","dirEdu/McshEdu000010.last.html#idOverview"],
   ["yǔyì-语义!⇒semantics","dirEdu/McshEdu000010.last.html#idSLangatt001"],
-  ["yǔyīn-语音!⇒phonetics","dirEdu/McshEdu000010.last.html#idSLang029"],
+  ["yǔyīn-语音!⇒LagosciPhonetics","dirEdu/McshEdu000010.last.html#idSLang029"],
   ["yǔzhòu-宇宙!=entityAgg!⇒sympan","dirCor/McshCor000008.last.html#idWhlmtwh"],
   ["yǔzhùcí-语助词-(語助詞)!⇒Zhon_particle","dirLag/McshLag000023.last.html#idWrdrZhonprtcl"]
 ]

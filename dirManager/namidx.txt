@@ -34,3 +34,5 @@ dirStn/McshStn000043.last.html
 dirStn/McshStn000044.last.html
 dirStn/McshStn000048.last.html
 dirStn/McshStn000050.last.html
+dirLag/McshLag000024.last.html
+dirStn/McshStn000042.last.html

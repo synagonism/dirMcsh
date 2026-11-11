@@ -1,5 +1,5 @@
 [
-  [";lagZhon004","d",643,"2026-11-10"],
+  [";lagZhon004","d",643,"2026-11-11"],
   ["Duōshǎo-多少!⇒quantoAsk","dirCor/McshCor000010.last.html#idQntSmsIgv"],
   ["Dānwèi-单位!⇒UOM","dirCor/McshCor000009.last.html#idGnrcmsrguom"],
   ["da!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb057"],
@@ -405,7 +405,7 @@
   ["dòngcí.shì-是!⇒RltnEntityThenAttribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
   ["dòngcí.shì-是!⇒RltnEquality","dirCor/McshCor000005.last.html#idRlnEqlt"],
   ["dòngcí.shì-是!⇒RltnSpecific_then_generic","dirCor/McshCor000009.last.html#idGnrspcrln2"],
-  ["dòngcí.shēngbìng-生病!⇒DongSicking","dirHlth/McshHlth000002.last.html#idBdyHmndongGtgsck"],
+  ["dòngcí.shēngbìng-生病!⇒Hbsicking","dirHlth/McshHlth000002.last.html#idBdyHmndongGtgsck"],
   ["dòngcí.tīngshuō-听说!=FctgSpeaking:it-is-said","dirLag/McshLag000009.last.html#idL0017prcn"],
   ["dòngcí.wàng-忘!⇒FctgForgeting","dirCor/McshCor000018.last.html#idBrngHmnFct013"],
   ["dòngcí.wán-完!⇒DongFinishing","dirCor/McshCor000003.last.html#idEntevogdsvgFnsh"],

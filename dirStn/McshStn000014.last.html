@@ -114,6 +114,21 @@
     <br>This aggregation helps in understanding global patterns such as poverty levels, education standards, health issues, economic development, and the impact of global events like pandemics or economic crises. It's important in shaping policies, directing aid, and understanding the global economy and social structure. However, this process involves challenges like ensuring data accuracy, respecting privacy, and dealing with diverse data collection methods and standards across different countries."
     <br>[{2024-01-06 retrieved} https://chat.openai.com/c/b9554abc-e2a8-4b38-ba01-bc4b2e4f224c]
     <a class="clsHide" href="#idOverviewdsnL"></a></p>
+  <p id="idAttr">attribute::
+    <br>* OgznCsmg'attribute,
+    <br>===
+    <br>* OgznCsmg:generic,
+    <br>===
+    <br>* OgznCsmg.specific,
+    <br>===
+    <br>* OgznCsmg//whole,
+    <br>===
+    <br>* OgznCsmg/part,
+    <br>===
+    <br>* OgznCsmg;;parent,
+    <br>===
+    <br>* OgznCsmg;child,
+    <a class="clsHide" href="#idAttr"></a></p>
   </section>
 
   <section id="idOznCsnatt011">
@@ -235,13 +250,14 @@
     <br>[{2024-02-13 retrieved} https://chat.openai.com/c/48cdce0e-2933-41fe-9e22-f0a547a21811]
     <a class="clsHide" href="#idOznCsnatt005dsn"></a></p>
   <p id="idOznCsnatt005nam">name::
-    <br>* McshEngl.admin-sys-of-household!⇒admnHshd,
-    <br>* McshEngl.admnHshd!=admin-sys-of-household,
-    <br>* McshEngl.gvcHousehold!⇒admnHshd,
-    <br>* McshEngl.OgznCsmg'04_governance_node!⇒admnHshd,
-    <br>* McshEngl.OgznCsmg'att005_governance_system!⇒admnHshd,
-    <br>* McshEngl.OgznCsmg'governance_system!⇒admnHshd,
-    <br>* McshEngl.OgznCsmg'04_admin_sys!⇒admnHshd,
+    <br>* McshEngl.admin-sys-of-household!⇒Hshdadmin_sys,
+    <br>* McshEngl.Hshdadmin_sys!=admin-sys-of-household,
+    <br>* McshEngl.admnHshd!⇒Hshdadmin_sys,
+    <br>* McshEngl.gvcHousehold!⇒Hshdadmin_sys,
+    <br>* McshEngl.OgznCsmg'04_governance_node!⇒Hshdadmin_sys,
+    <br>* McshEngl.OgznCsmg'att005_governance_system!⇒Hshdadmin_sys,
+    <br>* McshEngl.OgznCsmg'governance_system!⇒Hshdadmin_sys,
+    <br>* McshEngl.OgznCsmg'04_admin_sys!⇒Hshdadmin_sys,
     <a class="clsHide" href="#idOznCsnatt005nam"></a></p>
 
   <section id="idOznCsnatt014">
@@ -252,7 +268,7 @@
     <a class="clsHide" href="#idOznCsnatt014dsn"></a></p>
   <p id="idOznCsnatt014nam">name::
     <br>* McshEngl.admnHshd_finance_node,
-    <br>* McshEngl.admnHshd'finance_node!⇒admnHshd_finance_node,
+    <br>* McshEngl.Hshdadmin_sys'finance_node!⇒admnHshd_finance_node,
     <br>* McshEngl.OgznCsmg'att014_finance_node,
     <br>* McshEngl.OgznCsmg'finance_node,
     <a class="clsHide" href="#idOznCsnatt014nam"></a></p>
@@ -266,11 +282,11 @@
     <a class="clsHide" href="#idOznCsnatt010dsn"></a></p>
   <p id="idOznCsnatt010nam">name::
     <br>* McshEngl.admnHshd_accounting_node,
-    <br>* McshEngl.admnHshd'accounting_node!⇒admnHshd_accounting_node,
-    <br>* McshEngl.admnHshd'accountance_node!⇒admnHshd_accounting_node,
+    <br>* McshEngl.Hshdadmin_sys'accounting_node!⇒admnHshd_accounting_node,
+    <br>* McshEngl.Hshdadmin_sys'accountance_node!⇒admnHshd_accounting_node,
     <br>* McshEngl.OgznCsmg'att010_accounting_node,
     <br>* McshEngl.OgznCsmg'accounting_node,
-    <br>* McshEngl.admnHshd'accountance_node,
+    <br>* McshEngl.Hshdadmin_sys'accountance_node,
     <a class="clsHide" href="#idOznCsnatt010nam"></a></p>
   </section>
 
@@ -281,8 +297,8 @@
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idOznCsnatt008dsn"></a></p>
   <p id="idOznCsnatt008nam">name::
-    <br>* McshEngl.admnHshd'law,
-    <br>* McshEngl.admnHshd'att008_law,
+    <br>* McshEngl.Hshdadmin_sys'law,
+    <br>* McshEngl.Hshdadmin_sys'att008_law,
     <a class="clsHide" href="#idOznCsnatt008nam"></a></p>
   </section>
 
@@ -293,16 +309,16 @@
     <br>× Mcsh-creation: {2026-10-21}
     <a class="clsHide" href="#idOznCsnatt005gstrdsn"></a></p>
   <p id="idOznCsnatt005gstrnam">name::
-    <br>* McshEngl.admnHshd'generic_specific_tree,
+    <br>* McshEngl.Hshdadmin_sys'generic_specific_tree,
     <a class="clsHide" href="#idOznCsnatt005gstrnam"></a></p>
   <p id="idOznCsnatt005gntr">generic-tree::
-    <br>* McshEngl.admnHshd:generic,
+    <br>* McshEngl.Hshdadmin_sys:generic,
     <br>===
     <br>* AdmnSctn:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idOznCsnatt005gntr"></a></p>
   <p id="idOznCsnatt005sptr">specific-tree::
-    <br>* McshEngl.admnHshd.specific,
+    <br>* McshEngl.Hshdadmin_sys.specific,
     <br>===
     <a class="clsHide" href="#idOznCsnatt005sptr"></a></p>
   </section>
@@ -412,11 +428,12 @@
     <br>· the-subsystem of satisfier-consumption.
     <a class="clsHide" href="#idOznCsnatt013dsn"></a></p>
   <p id="idOznCsnatt013nam">name::
-    <br>* McshEngl.cscHousehold,
-    <br>* McshEngl.consumance-node--of-OgznCsmg!⇒cscHousehold,
-    <br>* McshEngl.OgznCsmg'05_consuming_node!⇒cscHousehold,
-    <br>* McshEngl.OgznCsmg'att013_consuming_node!⇒cscHousehold,
-    <br>* McshEngl.OgznCsmg'consuming_node!⇒cscHousehold,
+    <br>* McshEngl.Hshdconsuming_node,
+    <br>* McshEngl.cscHousehold!⇒Hshdconsuming_node,
+    <br>* McshEngl.consumance-node--of-OgznCsmg!⇒Hshdconsuming_node,
+    <br>* McshEngl.OgznCsmg'05_consuming_node!⇒Hshdconsuming_node,
+    <br>* McshEngl.OgznCsmg'att013_consuming_node!⇒Hshdconsuming_node,
+    <br>* McshEngl.OgznCsmg'consuming_node!⇒Hshdconsuming_node,
     <a class="clsHide" href="#idOznCsnatt013nam"></a></p>
 
   <section id="idOznCsnatt013dong">
@@ -431,7 +448,7 @@
   <p id="idOznCsnatt013dongnam">name::
     <br>* McshEngl.doing-of-cscHousehold!⇒CscHouseholddoing,
     <br>* McshEngl.CscHouseholddoing!=doing-of-cscHousehold,
-    <br>* McshEngl.cscHousehold'doing!⇒CscHouseholddoing,
+    <br>* McshEngl.Hshdconsuming_node'doing!⇒CscHouseholddoing,
     <a class="clsHide" href="#idOznCsnatt013dongnam"></a></p>
   </section>
   </section>
@@ -519,8 +536,9 @@
     <br>[{2024-05-26 retrieved} https://en.wikipedia.org/wiki/Household_final_consumption_expenditure]
     <a class="clsHide" href="#idOznCsnatt024dsn"></a></p>
   <p id="idOznCsnatt024nam">name::
-    <br>* McshEngl.HFCE!=household-final-consumption-expenditure,
-    <br>* McshEngl.OgznCsmg'household_final_consumption_expenditure!⇒HFCE,
+    <br>* McshEngl.HshdHFCE!=household-final-consumption-expenditure,
+    <br>* McshEngl.HFCE!⇒HshdHFCE,
+    <br>* McshEngl.OgznCsmg'household_final_consumption_expenditure!⇒HshdHFCE,
     <br>* McshEngl.OgznCsmg'att024_household_final_consumption_expenditure,
     <br>* McshEngl.OgznCsmg'household_final_consumption_expenditure,
     <a class="clsHide" href="#idOznCsnatt024nam"></a></p>
@@ -816,7 +834,7 @@
   <p id="idOznCsnatt009dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· 'family' is a-reproductive-organization, 'household' is an-economic-organization.
-    <br>[HumnSngu.{2022-11-12}]
+    <br>[Humn1959Sinagu.{2022-11-12}]
     <br>===
     <br>"4.150 Households often coincide with families, but members of the same household do not necessarily have to belong to the same family so long as there is some sharing of resources and consumption.
     <br>Households may be of any size and take a wide variety of different forms in different societies or cultures depending on tradition, religion, education, climate, geography, history and other socio-economic factors.
@@ -851,9 +869,10 @@
     <br>[{2024-01-06 retrieved} https://chat.openai.com/c/5c189a66-e5bf-45dd-9271-7b1aea621e11]
     <a class="clsHide" href="#idOznCsnatt009dsn"></a></p>
   <p id="idOznCsnatt009nam">name::
-    <br>* McshEngl.family_relation_to_ogznCsmg,
-    <br>* McshEngl.family'relation_to_ogznCsmg!⇒family_relation_to_ogznCsmg,
-    <br>* McshEngl.OgznCsmg'relation_to_family!⇒family_relation_to_ogznCsmg,
+    <br>* McshEngl.Hshdfamily_relation,
+    <br>* McshEngl.family_relation_to_ogznCsmg!⇒Hshdfamily_relation,
+    <br>* McshEngl.family'relation_to_ogznCsmg!⇒Hshdfamily_relation,
+    <br>* McshEngl.OgznCsmg'relation_to_family!⇒Hshdfamily_relation,
     <br>* McshEngl.family-vs-household,
     <br>* McshEngl.household-vs-family,
     <br>* McshEngl.OgznCsmg'att009_relation_to_family,
@@ -1074,19 +1093,20 @@
     <br>[{2024-05-26 retrieved} https://en.wikipedia.org/wiki/Household_final_consumption_expenditure]
     <a class="clsHide" href="#idOznCsn006dsn"></a></p>
   <p id="idOznCsn006nam">name::
-    <br>* McshEngl.household-sector!⇒sectorCsmg,
-    <br>* McshEngl.sectorCsmg!=household-sector,
-    <br>* McshEngl.Socecon'att027_consuming_sector!⇒sectorCsmg,
-    <br>* McshEngl.Socecon'consuming_sector!⇒sectorCsmg,
-    <br>* McshEngl.aggregate-households!⇒sectorCsmg,
-    <br>* McshEngl.consuming-sector!⇒sectorCsmg,
-    <br>* McshEngl.OgznCsmg.006_aggregate!⇒sectorCsmg,
-    <br>* McshEngl.OgznCsmg.aggregate!⇒sectorCsmg,
-    <br>* McshEngl.sctrCsn!⇒sectorCsmg,
-    <br>* McshEngl.sectorConsuming!⇒sectorCsmg,
-    <br>* McshEngl.sectorCsmg//sectorEcon!⇒sectorCsmg,
-    <br>* McshEngl.sectorHousehold!⇒sectorCsmg,
-    <br>* McshEngl.sectorHshd!⇒sectorCsmg,
+    <br>* McshEngl.household-sector!⇒HshdSector,
+    <br>* McshEngl.HshdSector!=household-sector,
+    <br>* McshEngl.sectorCsmg!⇒HshdSector,
+    <br>* McshEngl.Socecon'att027_consuming_sector!⇒HshdSector,
+    <br>* McshEngl.Socecon'consuming_sector!⇒HshdSector,
+    <br>* McshEngl.aggregate-households!⇒HshdSector,
+    <br>* McshEngl.consuming-sector!⇒HshdSector,
+    <br>* McshEngl.OgznCsmg.006_aggregate!⇒HshdSector,
+    <br>* McshEngl.OgznCsmg.aggregate!⇒HshdSector,
+    <br>* McshEngl.sctrCsn!⇒HshdSector,
+    <br>* McshEngl.sectorConsuming!⇒HshdSector,
+    <br>* McshEngl.sectorCsmg//sectorEcon!⇒HshdSector,
+    <br>* McshEngl.sectorHousehold!⇒HshdSector,
+    <br>* McshEngl.sectorHshd!⇒HshdSector,
     <a class="clsHide" href="#idOznCsn006nam"></a></p>
   </section>
 
@@ -1177,14 +1197,15 @@
     <br>[{2024-02-27 retrieved} https://chat.openai.com/c/81d7a019-31cd-4117-a1f5-a4e3b52bf51a]
     <a class="clsHide" href="#idOznCsn007dsn"></a></p>
   <p id="idOznCsn007nam">name::
-    <br>* McshEngl.hshdCommune,
-    <br>* McshEngl.communal-household!⇒hshdCommune,
-    <br>* McshEngl.commune!⇒hshdCommune,
-    <br>* McshEngl.OgznCsmg.007_commune!⇒hshdCommune,
-    <br>* McshEngl.OgznCsmg.commune!⇒hshdCommune,
+    <br>* McshEngl.HshdCommune,
+    <br>* McshEngl.hshdCommune!⇒HshdCommune,
+    <br>* McshEngl.communal-household!⇒HshdCommune,
+    <br>* McshEngl.commune!⇒HshdCommune,
+    <br>* McshEngl.OgznCsmg.007_commune!⇒HshdCommune,
+    <br>* McshEngl.OgznCsmg.commune!⇒HshdCommune,
     <br>====== lagoGreek:
-    <br>* McshElln.κοινόβιο!το!⇒hshdCommune,
-    <br>* McshElln.κοινότητα!η!⇒hshdCommune,
+    <br>* McshElln.κοινόβιο!το!⇒HshdCommune,
+    <br>* McshElln.κοινότητα!η!⇒HshdCommune,
     <a class="clsHide" href="#idOznCsn007nam"></a></p>
   </section>
   </section>

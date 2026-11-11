@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_14","char.n..chas",22857,"2026-11-08"],
+  [";lagEngl03si_2_14","char.n..chas",22857,"2026-11-11"],
   ["char.n-with-caron--&#x0148;","dirTchInf/dirUcd/McshUcdU0100.last.html#idU0100U0148"],
   ["char.n-with-tilde--ñ","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00F1"],
   ["char.ne-呢-21602","dirLag/McshLag000021.last.html#idLZhonsylb213"],
@@ -22834,7 +22834,7 @@
   ["char_encoding:generic","dirLag/McshLag000006.last.html#idCharencdggntr"],
   ["character-algo//JavaScript","dirTchInf/McshTchInf000010.last.html#idLJsgnalgChar"],
   ["character-computer-file","dirTchInf/McshTchInf000005.last.html#idLfileotptChar"],
-  ["character-computer-language!⇒lagChar","dirTchInf/McshTchInf000005.last.html#idLchr"],
+  ["character-computer-language!⇒CmplChar","dirTchInf/McshTchInf000005.last.html#idLchr"],
   ["character-digitizing@cig7","dirEdu/dirHitp/HitpEdu000.9.last.html#idGymBAsciiunicode"],
   ["character-encoding!⇒char_encoding","dirLag/McshLag000006.last.html#idCharencdg"],
   ["character-of-Jpnslago!⇒JpnsChar","dirStn/McshStn000048.last.html#idLJpnsunitChar"],

@@ -64,6 +64,21 @@
     <br>===
     <br>* McshEngl.syntax.Spchlago,
     <a class="clsHide" href="#idOverviewstx"></a></p>
+  <p id="idAttr">attribute::
+    <br>* Spchlago'attribute,
+    <br>===
+    <br>* Spchlago:generic,
+    <br>===
+    <br>* Spchlago.specific,
+    <br>===
+    <br>* Spchlago//whole,
+    <br>===
+    <br>* Spchlago/part,
+    <br>===
+    <br>* Spchlago;;parent,
+    <br>===
+    <br>* Spchlago;child,
+    <a class="clsHide" href="#idAttr"></a></p>
   </section>
 
   <section id="idL0017attFT">
@@ -237,34 +252,35 @@
     <br>· unit of Spchlago is any indivisible part of <a class="clsPreview" href="#idL0017opt">speech</a>.
     <a class="clsHide" href="#idL0017untdsn"></a></p>
   <p id="idL0017untnam">name::
-    <br>* McshEngl.unitSpch,
-    <br>* McshEngl.Spchlago'unit!⇒unitSpch,
-    <br>* McshEngl.Spchlago-unit!⇒unitSpch,
-    <br>* McshEngl.speech'unit!⇒unitSpch,
+    <br>* McshEngl.Spchunit,
+    <br>* McshEngl.unitSpch!⇒Spchunit,
+    <br>* McshEngl.Spchlago'unit!⇒Spchunit,
+    <br>* McshEngl.Spchlago-unit!⇒Spchunit,
+    <br>* McshEngl.speech'unit!⇒Spchunit,
     <a class="clsHide" href="#idL0017untnam"></a></p>
 
   <section id="idL0017untgstr">
-  <h3 id="idL0017untgstrH3">GENERIC-SPECIFIC-TREE of unitSpch
+  <h3 id="idL0017untgstrH3">GENERIC-SPECIFIC-TREE of Spchunit
     </h3>
   <p id="idL0017untgstrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idL0017untgstrdsn"></a></p>
   <p id="idL0017untgstrnam">name::
-    <br>* McshEngl.unitSpch'generic_specific_tree,
+    <br>* McshEngl.Spchunit'generic_specific_tree,
     <a class="clsHide" href="#idL0017untgstrnam"></a></p>
   <p id="idL0017untgntr">generic-tree::
-    <br>* McshEngl.unitSpch:generic,
+    <br>* McshEngl.Spchunit:generic,
     <br>===
     <br>* Hmmdunit:generic,
     <br>* Hmmdnode:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idL0017untgntr"></a></p>
   <p id="idL0017untsptr">specific-tree::
-    <br>* McshEngl.unitSpch.specific,
+    <br>* McshEngl.Spchunit.specific,
     <br>===
     <br>* name-unit::
-    <br>** unitSpch.phoneme!@McshLag000009#idL0017phnm,
-    <br>** Spchlago_unit.termNo!@McshLag000009#idL0017untTrmN,
+    <br>** Spchunit.phoneme!@McshLag000009#idL0017phnm,
+    <br>** SpchunitTermNo!@McshLag000009#idL0017untTrmN,
     <br>* nameNo-unit,
     <a class="clsHide" href="#idL0017untsptr"></a></p>
   </section>
@@ -295,7 +311,7 @@
     <br>* McshEngl.phoneme-of-Spchlago!⇒Hmmdphnm,
     <br>* McshEngl.phonemeOrl!⇒Hmmdphnm,
     <br>* McshEngl.speech-unit!⇒Hmmdphnm,
-    <br>* McshEngl.unitSpch.phoneme!⇒Hmmdphnm,
+    <br>* McshEngl.Spchunit.phoneme!⇒Hmmdphnm,
     <br>====== lagoSinagu:
     <br>* McshSngu.fonu-keu!⇒Hmmdphnm, {2025-12-03} generic-phone
     <br>* fonemu!⇒Hmmdphnm, {2025-11-30}
@@ -663,7 +679,7 @@
     <br>===
     <br>* main-name-unit--of-lagHmnm!@McshLag000007#idLHmnmuntNmMn,
     <br>* Hmmdunit:generic,
-    <br>* unitSpch:generic,
+    <br>* Spchunit:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idL0017phnmgntr"></a></p>
   <p id="idL0017phnmsptr">specific-tree::
@@ -690,7 +706,7 @@
     <br>=== on airstream-obstruction:
     <br>* Hmmdphnm.HmmdphnmVowl!@McshLag000009#idL0017phnmVwl,
     <br>* Hmmdphnm.HmmdphnmCons!@McshLag000009#idL0017phnmVwlN,
-    <br>* Hmmdphnm.PhnmSemivowl!@McshLag000009#idL0017phnmVwlB,
+    <br>* Hmmdphnm.HmmdphnmSemi!@McshLag000009#idL0017phnmVwlB,
     <a class="clsHide" href="#idL0017phnmsptr"></a></p>
 
   <section id="idL0017phnmScdnLag">
@@ -930,7 +946,7 @@
     <br>* h1 = horizontal1 = front-1,
     <br>* h2 = horizontal2 = central-2,
     <br>* h3 = horizontal3 = back-3,
-    <br>[HumnSngu.{2025-07-27}]
+    <br>[Humn1959Sinagu.{2025-07-27}]
     <a class="clsHide" href="#idL0017phnmVwltgpndsn"></a></p>
   <p id="idL0017phnmVwltgpnnam">name::
     <br>* McshEngl.HmmdphnmVowl.01_front,
@@ -956,7 +972,7 @@
     <br>* v1 = vertical1 = closed,
     <br>* v2 = vertical2 = mid,
     <br>* v3 = vertical3 = opened,
-    <br>[HumnSngu.{2025-07-27}]
+    <br>[Humn1959Sinagu.{2025-07-27}]
     <br>* close-4,, (close)
     <br>* near-close, (close+),
     <br>* close-mid, (mid-)
@@ -987,7 +1003,7 @@
     <br>× Mcsh-creation: {2026-10-04}
     <br>* r1 = round1 = round,
     <br>* r2 = round2 = unround,
-    <br>[HumnSngu.{2025-07-27}]
+    <br>[Humn1959Sinagu.{2025-07-27}]
     <br>* unround-7,
     <br>* round-8,
     <a class="clsHide" href="#idL0017phnmVwllprddsn"></a></p>
@@ -1010,7 +1026,7 @@
     <br>
     <br>· n1 = nasal1 = nasal
     <br>· n2 = nasal2 = not-nasal
-    <br>[HumnSngu.{2025-07-27}]
+    <br>[Humn1959Sinagu.{2025-07-27}]
     <a class="clsHide" href="#idL0017phnmVwlnsldsn"></a></p>
   <p id="idL0017phnmVwlnslnam">name::
     <br>* McshEngl.HmmdphnmVowl.09_nasal,
@@ -1029,7 +1045,7 @@
     <br>
     <br>· a1 = aspirated1 = aspirated
     <br>· a2 = aspirated2 = not aspirated
-    <br>[HumnSngu.{2025-07-27}]
+    <br>[Humn1959Sinagu.{2025-07-27}]
     <a class="clsHide" href="#idL0017phnmVwlaprndsn"></a></p>
   <p id="idL0017phnmVwlaprnnam">name::
     <br>* McshEngl.aspirated-HmmdphnmVowl,
@@ -1048,7 +1064,7 @@
     <br>
     <br>· s1 = short1 = short
     <br>· s2 = short2 = not short
-    <br>[HumnSngu.{2025-07-27}]
+    <br>[Humn1959Sinagu.{2025-07-27}]
     <br>
     <br>· English: sit, seat.
     <br>· German:
@@ -4064,15 +4080,16 @@
     <br>[{2022-08-28 retrieved} https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/glossology/show.html?id=15]
     <a class="clsHide" href="#idL0017phnmVwlBdsn"></a></p>
   <p id="idL0017phnmVwlBnam">name::
-    <br>* McshEngl.semivowel-phoneme!⇒PhnmSemivowl,
-    <br>* McshEngl.PhnmSemivowl!=semivowel-phoneme,
-    <br>* McshEngl.glide!⇒PhnmSemivowl,
-    <br>* McshEngl.Spchlago-semivowel!⇒PhnmSemivowl,
-    <br>* McshEngl.Hmmdphnm.vowelBo!⇒PhnmSemivowl,
-    <br>* McshEngl.semivowel-of-Spchlago!⇒PhnmSemivowl,
-    <br>* McshEngl.speech'phoneme.vowelBo!⇒PhnmSemivowl,
+    <br>* McshEngl.semivowel-phoneme!⇒HmmdphnmSemi,
+    <br>* McshEngl.HmmdphnmSemi!=semivowel-phoneme,
+    <br>* McshEngl.PhnmSemivowl!⇒HmmdphnmSemi,
+    <br>* McshEngl.glide!⇒HmmdphnmSemi,
+    <br>* McshEngl.Spchlago-semivowel!⇒HmmdphnmSemi,
+    <br>* McshEngl.Hmmdphnm.vowelBo!⇒HmmdphnmSemi,
+    <br>* McshEngl.semivowel-of-Spchlago!⇒HmmdphnmSemi,
+    <br>* McshEngl.speech'phoneme.vowelBo!⇒HmmdphnmSemi,
     <br>====== lagoGreek:
-    <br>* McshElln.ημίφωνο-ομιλίας!⇒PhnmSemivowl,
+    <br>* McshElln.ημίφωνο-ομιλίας!⇒HmmdphnmSemi,
     <a class="clsHide" href="#idL0017phnmVwlBnam"></a></p>
   </section>
   </section>
@@ -4085,8 +4102,9 @@
     <br>· termNo-unit of Spchlago is any other unit except <a class="clsPreview" href="#idL0017phnm">phonemes</a>.
     <a class="clsHide" href="#idL0017untTrmNdsn"></a></p>
   <p id="idL0017untTrmNnam">name::
-    <br>* McshEngl.Spchlago_unit.termNo,
-    <br>* McshEngl.SpchviewSpeech'unit.termNo!⇒Spchlago_unit.termNo,
+    <br>* McshEngl.SpchunitTermNo,
+    <br>* McshEngl.Spchlago_unit.termNo!⇒SpchunitTermNo,
+    <br>* McshEngl.SpchviewSpeech'unit.termNo!⇒SpchunitTermNo,
     <a class="clsHide" href="#idL0017untTrmNnam"></a></p>
   </section>
 
