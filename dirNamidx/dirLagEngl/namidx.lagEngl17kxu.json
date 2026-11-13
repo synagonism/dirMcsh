@@ -1,5 +1,5 @@
 [
-  [";lagEngl17kxu","Q|q",406,"2026-11-13"],
+  [";lagEngl17kxu","Q|q",407,"2026-11-13"],
   ["QA!=question-answering-system!⇒techQa","dirTchInf/McshTchInf000036.last.html#idTchNlp008"],
   ["QAPage@schema.org","dirStn/McshStn000023.last.html#idScmoQAPage"],
   ["QAR!=Qatar-Riyal-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
@@ -35,6 +35,7 @@
   ["Quiz@schema.org","dirStn/McshStn000023.last.html#idScmoQuiz"],
   ["Quotation@schema.org","dirStn/McshStn000023.last.html#idScmoQuotation"],
   ["QuoteAction@schema.org","dirStn/McshStn000023.last.html#idScmoQuoteAction"],
+  ["Qurylago!=Pgmglago.query","dirTchInf/McshTchInf000006.last.html#idLQury"],
   ["qiǎokθlμ_巧克力:块_kuài!⇒chocolate","dirHlth/McshHlth000013.last.html#idFoodHmn202"],
   ["quadratic-voting!⇒quadratic_voting","dirStn/McshStn000008.last.html#idOgznatt001qcvg"],
   ["quadratic_voting","dirStn/McshStn000008.last.html#idOgznatt001qcvg"],
@@ -359,7 +360,7 @@
   ["quciruit'gate!⇒qugate","dirTchInf/McshTchInf000003.last.html#idCmrQtmgate"],
   ["queasily!~Engladve","dirLag/McshLag000011.last.html#idLEngladve_328"],
   ["queerly!~Engladve","dirLag/McshLag000011.last.html#idLEngladve_329"],
-  ["query-language!⇒lagoQury","dirTchInf/McshTchInf000006.last.html#idLQury"],
+  ["query-language!⇒Qurylago","dirTchInf/McshTchInf000006.last.html#idLQury"],
   ["query-selection-command-in-Mcshapp","dirTchInf/McshTchInf000009.last.html#idLMcshodongQrsl"],
   ["query@schema.org","dirStn/McshStn000023.last.html#idScmoquery"],
   ["quest@schema.org","dirStn/McshStn000023.last.html#idScmoquest"],
