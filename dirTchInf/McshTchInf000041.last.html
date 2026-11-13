@@ -763,9 +763,7 @@
     <br>* https://code.visualstudio.com/docs/copilot/agents/overview,
     <a class="clsHide" href="#idVscodeagntirscdsn"></a></p>
   <p id="idVscodeagntirscnam">name::
-    <br>* McshEngl.info-resource--of-Vscdagent!⇒Vscdagentinfrsc,
-    <br>* McshEngl.Vscdagentinfrsc!=info-resource--of-Vscdagent,
-    <br>* McshEngl.Vscdagent'info_resource!⇒Vscdagentinfrsc,
+    <br>* McshEngl.Vscdagent'info_resource,
     <a class="clsHide" href="#idVscodeagntirscnam"></a></p>
   </section>
 
@@ -954,13 +952,13 @@
     <br>· Inline suggestions: code suggestions that appear as ghost text while you type. These use specialized completion models and don't involve an agent loop or tools. Next edit suggestions (NES) go further by predicting where your next edit should happen.
     <a class="clsHide" href="#idVscodeinsgdsn"></a></p>
   <p id="idVscodeinsgnam">name::
-    <br>* McshEngl.Vsc_insg!=Vscdai'inline-suggestion,
-    <br>* McshEngl.Vscdai'inline_suggestion!⇒Vsc_insg,
-    <br>* McshEngl.Vscode'inline_suggestion!⇒Vsc_insg,
+    <br>* McshEngl.Vscdai'inline_suggestion!⇒Vscdinsg,
+    <br>* McshEngl.Vscdinsg!=Vscdai'inline_suggestion,
+    <br>* McshEngl.Vscode'inline_suggestion!⇒Vscdinsg,
     <a class="clsHide" href="#idVscodeinsgnam"></a></p>
 
   <section id="idVscodeinsggnrn">
-  <h3 id="idVscodeinsggnrnH3">generation of Vsc_insg
+  <h3 id="idVscodeinsggnrnH3">generation of Vscdinsg
     </h3>
   <p id="idVscodeinsggnrndsn">description::
     <br>× Mcsh-creation: {2026-04-14}
@@ -968,12 +966,12 @@
     <br>[{2026-04-14 retrieved} https://code.visualstudio.com/docs/copilot/ai-powered-suggestions#_generate-suggestions-from-code-comments]
     <a class="clsHide" href="#idVscodeinsggnrndsn"></a></p>
   <p id="idVscodeinsggnrnnam">name::
-    <br>* McshEngl.Vsc_insg'generation,
+    <br>* McshEngl.Vscdinsg'generation,
     <a class="clsHide" href="#idVscodeinsggnrnnam"></a></p>
   </section>
 
   <section id="idVscodeinsgNes">
-  <h3 id="idVscodeinsgNesH3">Vsc_insg.next_edit_suggestion
+  <h3 id="idVscodeinsgNesH3">Vscdinsg.next_edit_suggestion
     </h3>
   <p id="idVscodeinsgNesdsn">description::
     <br>× Mcsh-creation: {2026-04-14}
@@ -982,9 +980,8 @@
     <br>[{2026-04-14 retrieved} https://code.visualstudio.com/docs/copilot/ai-powered-suggestions#_next-edit-suggestions]
     <a class="clsHide" href="#idVscodeinsgNesdsn"></a></p>
   <p id="idVscodeinsgNesnam">name::
-    <br>* McshEngl.Vsc_insg.Copilot_NES,
-    <br>* McshEngl.Vsc_insg.next_edit_suggestion!⇒Vsc_insg.Copilot_NES,
-    <br>* McshEngl.Vsc_insg.next_edit_suggestion,
+    <br>* McshEngl.Vscdinsg.Copilot_NES,
+    <br>* McshEngl.Vscdinsg.next_edit_suggestion,
     <a class="clsHide" href="#idVscodeinsgNesnam"></a></p>
   </section>
   </section>
@@ -4859,8 +4856,9 @@
     <br>* Emmet: Expand Abbreviation   Tab
     <a class="clsHide" href="#idVscodecmndEditdsn"></a></p>
   <p id="idVscodecmndEditnam">name::
-    <br>* McshEngl.Vscdcmnd.edit_menu,
-    <br>* McshEngl.Vscdcmnd.menu.edit!⇒Vscdcmnd.edit_menu,
+    <br>* McshEngl.Vscdcmnd.menu.edit!⇒VscdcmndEdit_menu,
+    <br>* McshEngl.VscdcmndEdit_menu!=Vscdcmnd.menu.edit,
+    <br>* McshEngl.Vscdcmnd.edit_menu!⇒VscdcmndEdit_menu,
     <a class="clsHide" href="#idVscodecmndEditnam"></a></p>
   <p id="idVscodecmndEdit-1">Edit/Undo: Ctrl+Z
     <br>===
@@ -4981,8 +4979,9 @@
     <br>* Column Selection Mode
     <a class="clsHide" href="#idVscodecmndSlcndsn"></a></p>
   <p id="idVscodecmndSlcnnam">name::
-    <br>* McshEngl.Vscdcmnd.selection_menu,
-    <br>* McshEngl.Vscdcmnd.menu.selection!⇒Vscdcmnd.selection_menu,
+    <br>* McshEngl.Vscdcmnd.menu.selection!⇒VscdcmndSelection_menu,
+    <br>* McshEngl.VscdcmndSelection_menu!=Vscdcmnd.menu.selection,
+    <br>* McshEngl.Vscdcmnd.selection_menu!⇒VscdcmndSelection_menu,
     <a class="clsHide" href="#idVscodecmndSlcnnam"></a></p>
   <p id="idVscodecmndSlcn-1">Selection/Select All: Ctrl+A
     <br>===
@@ -5120,8 +5119,9 @@
     <br>* Word Wrap                 Alt+Z
     <a class="clsHide" href="#idVscodecmndViewdsn"></a></p>
   <p id="idVscodecmndViewnam">name::
-    <br>* McshEngl.Vscdcmnd.view_menu,
-    <br>* McshEngl.Vscdcmnd.menu.view!⇒Vscdcmnd.view_menu,
+    <br>* McshEngl.Vscdcmnd.menu.view!⇒VscdcmndView_menu,
+    <br>* McshEngl.VscdcmndView_menu!=Vscdcmnd.menu.view,
+    <br>* McshEngl.Vscdcmnd.view_menu!⇒VscdcmndView_menu,
     <a class="clsHide" href="#idVscodecmndViewnam"></a></p>
   <p id="idVscodecmndView-1">View/Command Palette...: Ctrl+Shift+P
     <br>· From here, you have access to all functionality within VS Code, including keyboard shortcuts for the most common operations.
@@ -5251,8 +5251,9 @@
     <br>* Previous Problem              Shift+F8
     <a class="clsHide" href="#idVscodecmndGodsn"></a></p>
   <p id="idVscodecmndGonam">name::
-    <br>* McshEngl.Vscdcmnd.go_menu,
-    <br>* McshEngl.Vscdcmnd.menu.go!⇒Vscdcmnd.go_menu,
+    <br>* McshEngl.Vscdcmnd.menu.go!⇒VscdcmndGo_menu,
+    <br>* McshEngl.VscdcmndGo_menu!=Vscdcmnd.menu.go,
+    <br>* McshEngl.Vscdcmnd.go_menu!⇒VscdcmndGo_menu,
     <a class="clsHide" href="#idVscodecmndGonam"></a></p>
   <p id="idVscodecmndGo-1">Go/Back: Alt+LeftArrow
     <br>===
@@ -5409,8 +5410,9 @@
     <br>* Install Additional Debuggers...
     <a class="clsHide" href="#idVscodecmndRundsn"></a></p>
   <p id="idVscodecmndRunnam">name::
-    <br>* McshEngl.Vscdcmnd.run_menu,
-    <br>* McshEngl.Vscdcmnd.menu.run!⇒Vscdcmnd.run_menu,
+    <br>* McshEngl.Vscdcmnd.menu.run!⇒VscdcmndRun_menu,
+    <br>* McshEngl.VscdcmndRun_menu!=Vscdcmnd.menu.run,
+    <br>* McshEngl.Vscdcmnd.run_menu!⇒VscdcmndRun_menu,
     <a class="clsHide" href="#idVscodecmndRunnam"></a></p>
   <p id="idVscodecmndRun-1">Run/Start Debugging: F5
     <br>===
@@ -5534,8 +5536,9 @@
     <br>* Configure Default Build Task...
     <a class="clsHide" href="#idVscodecmndTmnldsn"></a></p>
   <p id="idVscodecmndTmnlnam">name::
-    <br>* McshEngl.Vscdcmnd.terminal_menu,
-    <br>* McshEngl.Vscdcmnd.menu.terminal!⇒Vscdcmnd.terminal_menu,
+    <br>* McshEngl.Vscdcmnd.menu.terminal!⇒VscdcmndTerminal_menu,
+    <br>* McshEngl.VscdcmndTerminal_menu!=Vscdcmnd.menu.terminal,
+    <br>* McshEngl.Vscdcmnd.terminal_menu!⇒VscdcmndTerminal_menu,
     <a class="clsHide" href="#idVscodecmndTmnlnam"></a></p>
   <p id="idVscodecmndTmnl-1">Terminal/New Terminal: Ctrl+Shift+`
     <br>===
@@ -5636,8 +5639,9 @@
     <br>* Toggle Developer Tools
     <a class="clsHide" href="#idVscodecmndHelpdsn"></a></p>
   <p id="idVscodecmndHelpnam">name::
-    <br>* McshEngl.Vscdcmnd.help_menu,
-    <br>* McshEngl.Vscdcmnd.menu.help!⇒Vscdcmnd.help_menu,
+    <br>* McshEngl.Vscdcmnd.menu.help!⇒VscdcmndHelp_menu,
+    <br>* McshEngl.VscdcmndHelp_menu!=Vscdcmnd.menu.help,
+    <br>* McshEngl.Vscdcmnd.help_menu!⇒VscdcmndHelp_menu,
     <a class="clsHide" href="#idVscodecmndHelpnam"></a></p>
   <p id="idVscodecmndHelp-1">Help/Show All Commands: Ctrl+Shift+P
     <br>===
@@ -6230,10 +6234,7 @@
     <br>* https://stackoverflow.com/questions/tagged/visual-studio-code,
     <a class="clsHide" href="#idVscodeirscdsn"></a></p>
   <p id="idVscoderscnam">name::
-    <br>* McshEngl.info-resource--of-Vscode!⇒Vscdinfrsc,
-    <br>* McshEngl.Vscdinfrsc!=info-resource--of-Vscode,
-    <br>* McshEngl.Vscodeinfrsc!⇒Vscdinfrsc,
-    <br>* McshEngl.Vscode'info_resource!⇒Vscdinfrsc,
+    <br>* McshEngl.Vscode'info_resource,
     <a class="clsHide" href="#idVscoderscnam"></a></p>
   </section>
 
