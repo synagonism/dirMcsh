@@ -1,5 +1,5 @@
 [
-  [";lagEngl19es_2","stdRfc..t",1286,"2026-11-13"],
+  [";lagEngl19es_2","stdRfc..t",1286,"2026-11-14"],
   ["steak!⇒meatSteak","dirHlth/McshHlth000013.last.html#idFoodHmn148"],
   ["steal!~verbEnglC.steal'1","dirLag/McshLag000024.last.html#idLEnglverbC-115"],
   ["steal.TurkVerb!=çalmak","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
@@ -319,9 +319,9 @@
   ["structure-of-Mcs!⇒Mcssrtr","dirCor/McshCor000002.last.html#idMcssrtr"],
   ["structure-of-McshExml!⇒McshExmlsrtr","dirCor/McshCor000015.last.html#idMcshExmlsrtr"],
   ["structure-of-McsmgrAAj!⇒McsmgrAAjsrtr","dirCor/McshCor000002.last.html#idMcsmAajsrtr"],
-  ["structure-of-MolProtein!⇒MolProteinsrtr","dirOgm/McshOgm000006.last.html#idPrtnOgmsrtr"],
+  ["structure-of-MoleProtein!⇒MoleProteinsrtr","dirOgm/McshOgm000006.last.html#idPrtnOgmsrtr"],
   ["structure-of-MtrlAtom!⇒MtrlAtomsrtr","dirNtr/McshNtr000003.last.html#idAtmsrtr"],
-  ["structure-of-MtrlMol!⇒MtrlMolsrtr","dirNtr/McshNtr000004.last.html#idMolsrtr"],
+  ["structure-of-MtrlMole!⇒MtrlMolsrtr","dirNtr/McshNtr000004.last.html#idMolsrtr"],
   ["structure-of-MtrlSysMols!⇒MtrlSysMolssrtr","dirNtr/McshNtr000005.last.html#idSysMolssrtr"],
   ["structure-of-Mws!⇒Mwssrtr","Mcsh000000.last.html#idMwssrtr"],
   ["structure-of-Nrvssyst!⇒Nrvssystsrtr","dirHlth/McshHlth000019.last.html#idSysNrvssrtr"],

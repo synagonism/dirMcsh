@@ -188,8 +188,10 @@
   <p id="idDbcpbmgntr">generic-tree::
     <br>* McshEngl.BkcnevalnCon:generic,
     <br>===
-    <br>* problem-of--chain-network!@McshTchInf000015#idAlgntelnScon (broken),
-    <br>* netAlgo_benefitNo:generic,
+    <br>* AgntevalnCon:generic!@McshTchInf000015#idAlgntevalnCon,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* Bkcnevaln:generic!@McshTchInf000016#idDbceval,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcpbmgntr"></a></p>
   <p id="idDbcpbmsptr">specific-tree::
@@ -266,8 +268,7 @@
   <p id="idDbcscrtgntr">generic-tree::
     <br>* McshEngl.BkcnconSecurity:generic,
     <br>===
-    <br>* AgntevalConSecurity:generic,
-    <br>* BkcnevalnCon:generic,
+    <br>* AgntevalConSecurity:generic!@McshTchInf000015#idAlgntscrt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcscrtgntr"></a></p>
   <p id="idDbcscrtsptr">specific-tree::
@@ -290,7 +291,7 @@
   <p id="idDbcevalgntr">generic-tree::
     <br>* McshEngl.Bkcnevaln:generic,
     <br>===
-    <br>* Agntevaln:generic,
+    <br>* Agntevaln:generic!@McshTchInf000015#idAlgnteval,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcevalgntr"></a></p>
   <p id="idDbcevalsptr">specific-tree::
@@ -341,7 +342,7 @@
   <p id="idDbcnodgntr">generic-tree::
     <br>* McshEngl.Bkcnnode:generic,
     <br>===
-    <br>* Agntnode:generic,
+    <br>* Agntnode:generic!@McshTchInf000015#idAlgntnod,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcnodgntr"></a></p>
   <p id="idDbcnodsptr">specific-tree::
@@ -412,7 +413,7 @@
   <p id="idDbcnodApdrgntr">generic-tree::
     <br>* McshEngl.BkcnnodeApdr:generic,
     <br>===
-    <br>* DnodeAppender:generic,
+    <br>* DnodeAppender:generic!@McshTchInf000015#idAlgntnodApdr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcnodApdrgntr"></a></p>
   <p id="idDbcnodApdrsptr">specific-tree::
@@ -463,9 +464,7 @@
   <p id="idDbcmnrgntr">generic-tree::
     <br>* McshEngl.Bkcnminrhuman:generic,
     <br>===
-    <br>* Bkcnchain_human:generic,
-    <br>* Dhuman:generic,
-    <br>* Agntskhd:generic,
+    <br>* Bkcnchain_human:generic!@McshTchInf000016#idDbchmn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcmnrgntr"></a></p>
   </section>
@@ -623,7 +622,6 @@
   </section>
   </section>
   </section>
-
   </section>
 
   <section id="idDbcatt001">
@@ -685,8 +683,7 @@
   <p id="idDbchmngntr">generic-tree::
     <br>* McshEngl.Bkcnchain_human:generic,
     <br>===
-    <br>* Dhuman:generic,
-    <br>* chain_user:generic,
+    <br>* Dhuman:generic!@McshTchInf000015#idAlgnthmn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbchmngntr"></a></p>
   <p id="idDbchmnsptr">specific-tree::
@@ -761,7 +758,6 @@
     <br>* McshEngl.Bkcnchain_human.WALLET_USER,
     <a class="clsHide" href="#idDbcHumnWurnam"></a></p>
   </section>
-
   </section>
 
   <section id="idDbcogn">
@@ -793,8 +789,7 @@
   <p id="idDbcogngntr">generic-tree::
     <br>* McshEngl.Bkcnogzn:generic,
     <br>===
-    <br>* Agntogzn:generic,
-    <br>* Agntskhd:generic,
+    <br>* Agntogzn:generic!@McshTchInf000015#idAlgntogn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcogngntr"></a></p>
   <p id="idDbcognsptr">specific-tree::
@@ -898,7 +893,7 @@
     <br>* McshEngl.Bkcnproto:generic,
     <br>* McshEngl.blockchain-protocol:generic,
     <br>===
-    <br>* Agntproto:generic,
+    <br>* Agntproto:generic!@McshTchInf000015#idAlgntprl,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcprlgntr"></a></p>
   <p id="idDbcprlsptr">specific-tree::
@@ -1103,20 +1098,20 @@
     <br>[Humn1959Sinagu.2019-03-08]
     <a class="clsHide" href="#idDbcprcdsn"></a></p>
   <p id="idDbcprcnam">name::
-    <br>* McshEngl.Bkcnasset_price,
-    <br>* McshEngl.Bkcnasset'price!⇒Bkcnasset_price,
-    <br>* McshEngl.Bkcnasset'value!⇒Bkcnasset_price,
-    <br>* McshEngl.price-of--blockchain-asset!⇒Bkcnasset_price,
+    <br>* McshEngl.Bkcnasetprice,
+    <br>* McshEngl.Bkcnasset'price!⇒Bkcnasetprice,
+    <br>* McshEngl.Bkcnasset'value!⇒Bkcnasetprice,
+    <br>* McshEngl.price-of--blockchain-asset!⇒Bkcnasetprice,
     <a class="clsHide" href="#idDbcprcnam"></a></p>
   <p id="idDbcprcgntr">generic-tree::
-    <br>* McshEngl.Bkcnasset_price:generic,
+    <br>* McshEngl.Bkcnasetprice:generic,
     <br>===
-    <br>* Agntasset_price:generic,
+    <br>* Agntasetprice:generic!@McshTchInf000015#idAlgntevuprc,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcprcgntr"></a></p>
 
   <section id="idDbcexr">
-  <h3 id="idDbcexrH3">exchange-rate of Bkcnasset_price
+  <h3 id="idDbcexrH3">exchange-rate of Bkcnasetprice
     </h3>
   <p id="idDbcexrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1124,7 +1119,7 @@
     <br>[Humn1959Sinagu.2019-03-08]
     <a class="clsHide" href="#idDbcexrdsn"></a></p>
   <p id="idDbcexrnam">name::
-    <br>* McshEngl.Bkcnasset_price'exchange_rate,
+    <br>* McshEngl.Bkcnasetprice'exchange_rate,
     <br>* McshEngl.Bkcnasset'exchange_rate,
     <br>* McshEngl.Bkcnasset'foreign_exchange_rate,
     <br>* McshEngl.Bkcnasset'forex,
@@ -1143,7 +1138,7 @@
   </section>
 
   <section id="idDbcexrvlt">
-  <h3 id="idDbcexrvltH3">exchange-rate-volatility of Bkcnasset_price
+  <h3 id="idDbcexrvltH3">exchange-rate-volatility of Bkcnasetprice
     </h3>
   <p id="idDbcexrvltdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1151,7 +1146,7 @@
     <br>[HmnSgn.2017-07-02]
     <a class="clsHide" href="#idDbcexrvltdsn"></a></p>
   <p id="idDbcexrvltnam">name::
-    <br>* McshEngl.Bkcnasset_price'exchange_rate_volatility,
+    <br>* McshEngl.Bkcnasetprice'exchange_rate_volatility,
     <br>* McshEngl.Bkcnasset'exchange_rate_volatility,
     <br>* McshEngl.Bkcnasset'foreign_exchange_rate_volatility,
     <br>* McshEngl.Bkcnasset'forex_volatility,
@@ -1554,9 +1549,7 @@
     <br>* McshEngl.Bkcnasset:generic,
     <br>* McshEngl.Bkcnchain-asset:generic,
     <br>===
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
-    <br>* Lykklycievaln:generic,
+    <br>* Agntasset:generic!@McshTchInf000015#idAlgntevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcevugntr"></a></p>
   <p id="idDbcevusptr">specific-tree::
@@ -2191,9 +2184,7 @@
   <p id="idDbcevuMnblgntr">generic-tree::
     <br>* McshEngl.Bkcnasset.minable:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcevuMnblgntr"></a></p>
   <p id="idDbcevuMnblsptr">specific-tree::
@@ -2247,9 +2238,7 @@
   <p id="idDbcevuMnblNgntr">generic-tree::
     <br>* McshEngl.Bkcnasset.minableNo:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcevuMnblNgntr"></a></p>
   <p id="idDbcevuMnblNsptr">specific-tree::
@@ -2435,8 +2424,7 @@
   <p id="idDbcevuMoegntr">generic-tree::
     <br>* McshEngl.Bkcnexvu:generic,
     <br>===
-    <br>* Agntexvu:generic,
-    <br>* Bkcnasset:generic,
+    <br>* Agntexvu:generic!@McshTchInf000015#idAlgntevuMoe,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcevuMoegntr"></a></p>
   <p id="idDbcevuMoesptr">specific-tree::
@@ -2462,7 +2450,7 @@
     <br>* McshEngl.BkcnexvuNo:generic,
     <br>===
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000015.last.html#idAlgntevuMoeN">chain-currencyNo</a>,
-    <br>* Bkcnasset:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <a class="clsHide" href="#idDbcevuMoeNgntr"></a></p>
   </section>
 
@@ -2566,8 +2554,7 @@
   <p id="idDbcexvuCgntr">generic-tree::
     <br>* McshEngl.appending_asset:generic,
     <br>===
-    <br>* AgntasetC:generic,
-    <br>* Bkcnasset:generic,
+    <br>* AgntasetC:generic!@McshTchInf000015#idAlgntexvuCns,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcexvuCgntr"></a></p>
   <p id="idDbcexvuCsptr">specific-tree::
@@ -2675,9 +2662,7 @@
   <p id="idDbcexvuCNgntr">generic-tree::
     <br>* McshEngl.BkcnasetCN:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcexvuCNgntr"></a></p>
   <p id="idDbcexvuCNsptr">specific-tree::
@@ -2752,7 +2737,6 @@
     <br>* https://www.dcorp.it/ (ethereum-based),
     <a class="clsHide" href="#idDbcexvuCNIcowpa"></a></p>
   </section>
-
   </section>
 
   <section id="idStratexvuC">
@@ -3341,18 +3325,15 @@
     <a class="clsHide" href="#idDbcpgmgstrdsn"></a></p>
   <p id="idDbcpgmgstrnam">name::
     <br>* McshEngl.Bkcnprgm'generic_specific_tree,
-    <br>* McshEngl.blockchain_program'generic_specific_tree,
     <a class="clsHide" href="#idDbcpgmgstrnam"></a></p>
   <p id="idDbcpgmgntr">generic-tree::
     <br>* McshEngl.Bkcnprgm:generic,
-    <br>* McshEngl.blockchain-program:generic,
     <br>===
-    <br>* DeProgram:generic,
+    <br>* Agntprgm:generic!@McshTchInf000015#idAlgntpgm,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcpgmgntr"></a></p>
   <p id="idDbcpgmsptr">specific-tree::
     <br>* McshEngl.Bkcnprgm.specific,
-    <br>* McshEngl.blockchain_program.specific,
     <br>===
     <br>* blockchain_program.Bkcnclient!@McshTchInf000016#idDbcpgmClnt,
     <br>* blockchain_program.Dapp!@McshTchInf000016#idDbcapp,
@@ -3380,7 +3361,7 @@
   <p id="idDbcpgmClntgntr">generic-tree::
     <br>* McshEngl.Bkcnclient:generic,
     <br>===
-    <br>* Bkcnprgm:generic,
+    <br>* Bkcnprgm:generic!@McshTchInf000016#idDbcpgm,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcpgmClntgntr"></a></p>
   <p id="idDbcpgmClntsptr">specific-tree::
@@ -3422,11 +3403,9 @@
   <p id="idDbcpgmScrtgntr">generic-tree::
     <br>* McshEngl.Bkcnsc:generic,
     <br>===
-    <br>* DeContract:generic,
-    <br>* Bkcnprgm:generic,
+    <br>* Agntcontract:generic!@McshTchInf000015#idDcntrt,
     <a class="clsHide" href="#idDbcpgmScrtgntr"></a></p>
   </section>
-
   </section>
 
   <section id="idDbcwlt">
@@ -3625,7 +3604,7 @@
   <p id="idDbcwltgntr">generic-tree::
     <br>* McshEngl.Bkcnwallet:generic,
     <br>===
-    <br>* Agntwallet:generic,
+    <br>* Agntwallet:generic!@McshTchInf000015#idAlgntwlt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcwltgntr"></a></p>
   <p id="idDbcwltsptr">specific-tree::
@@ -3681,8 +3660,7 @@
   <p id="idDbcwltPgmgntr">generic-tree::
     <br>* McshEngl.BkcnwalletPrgm:generic,
     <br>===
-    <br>* Bkcnprgm:generic,
-    <br>* Bkcnwallet:generic,
+    <br>* Bkcnprgm:generic!@McshTchInf000016#idDbcpgm,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcwltPgmgntr"></a></p>
   </section>
@@ -3992,9 +3970,7 @@
   <p id="idJaxwltgntr">generic-tree::
     <br>* McshEngl.BkcnwalletJaxx:generic,
     <br>===
-    <br>* Ethrwallet:generic,
-    <br>* Bkcnwallet:generic,
-    <br>* Agntwallet:generic,
+    <br>* Ethrwallet:generic!@McshTchInf000018#idEthwlt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idJaxwltgntr"></a></p>
   <p id="idJaxwltsptr">specific-tree::
@@ -4003,7 +3979,6 @@
     <a class="clsHide" href="#idJaxwltsptr"></a></p>
   </section>
   </section>
-
   </section>
 
   <section id="idDbcstat">
@@ -4037,7 +4012,7 @@
   <p id="idDbcstatgntr">generic-tree::
     <br>* McshEngl.Bkcnstat:generic,
     <br>===
-    <br>* chain_stats:generic,
+    <br>* chain_stats:generic!@McshTchInf000015#idAlgntstat,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcstatgntr"></a></p>
   <p id="idDbcstatsptr">specific-tree::
@@ -4236,9 +4211,8 @@
   <p id="idDbcappgntr">generic-tree::
     <br>* McshEngl.Bkcndapp:generic,
     <br>===
-    <br>* Agntdapp:generic,
-    <br>* Bkcnprgm:generic,
-    <a class="clsHide" href="#idDbcappgntr"></a></p>
+    <br>* Agntdapp:generic!@McshTchInf000015#idDapp,
+    </p>
   <p id="idDbcappsptr">specific-tree::
     <br>* McshEngl.Bkcndapp.specific,
     <br>===
@@ -4361,9 +4335,7 @@
   <p id="idWingsdaogntr">generic-tree::
     <br>* McshEngl.Wngsdao:generic,
     <br>===
-    <br>* OgznDao:generic,
-    <br>* Ogzn:generic,
-    <br>* Sctn:generic,
+    <br>* OgznDao:generic!@McshTchInf000019#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idWingsdaogntr"></a></p>
   <p id="idWingsdaosptr">specific-tree::
@@ -5088,7 +5060,6 @@
     <br>* McshEngl.AgntBkcnpow.X11,
     <a class="clsHide" href="#idDbcpowX11nam"></a></p>
   </section>
-
   </section>
 
   <section id="idDbcpos">
@@ -5153,7 +5124,7 @@
   <p id="idDbccsagntr">generic-tree::
     <br>* McshEngl.Bkcnchain_appending_algo:generic,
     <br>===
-    <br>* AgntAppending_algo:generic,
+    <br>* AgntAppending_algo:generic!@McshTchInf000015#idAlgntcsa,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbccsagntr"></a></p>
   <p id="idDbccsasptr">specific-tree::
@@ -5188,7 +5159,6 @@
     <br>* McshEngl.proof-of-importance--consensus-algorithm,
     <a class="clsHide" href="#idDbcpoinam"></a></p>
   </section>
-
   </section>
 
   <section id="idDbcnetads">
@@ -5325,8 +5295,7 @@
   <p id="idDbctxgntr">generic-tree::
     <br>* McshEngl.Bkcntx:generic,
     <br>===
-    <br>* Agnttx:generic,
-    <br>* Agntdoing:generic,
+    <br>* Agnttx:generic!@McshTchInf000015#idAlgnttx,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbctxgntr"></a></p>
   <p id="idDbctxsptr">specific-tree::
@@ -5460,7 +5429,6 @@
     <br>* McshEngl.Bkcnchain'doing.APPENDING,
     <a class="clsHide" href="#idDbcdatdongApdgnam"></a></p>
   </section>
-
   </section>
 
   <section id="idDbcdatgstr">
@@ -5475,7 +5443,7 @@
   <p id="idDbcdatgntr">generic-tree::
     <br>* McshEngl.Bkcnchain:generic,
     <br>===
-    <br>* Agntchain:generic,
+    <br>* Agntchain:generic!@McshTchInf000015#idAlgntchn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcdatgntr"></a></p>
   <p id="idDbcdatsptr">specific-tree::
@@ -5700,7 +5668,7 @@
     <br>* McshEngl.chain_service:generic,
     <br>===
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000015.last.html#idAlgntsvcF">chain-service</a>,
-    <br>* Agntsrvc:generic,
+    <br>* Agntsrvc:generic!@McshTchInf000015#idAlgntsvc,
     <a class="clsHide" href="#idDbcsvcgntr"></a></p>
   </section>
 
@@ -5716,7 +5684,7 @@
   <p id="idDbcdonggntr">generic-tree::
     <br>* McshEngl.Bkcndoing:generic,
     <br>===
-    <br>* Agntdoing:generic,
+    <br>* Agntdoing:generic!@McshTchInf000015#idAlgntdong,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcdonggntr"></a></p>
   <p id="idDbcdongsptr">specific-tree::
@@ -5749,7 +5717,7 @@
   <p id="idDbcevoggntr">generic-tree::
     <br>* McshEngl.Chainevolg:generic,
     <br>===
-    <br>* Agntevolg:generic,
+    <br>* Agntevolg:generic!@McshTchInf000015#idAlgntevog,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcevoggntr"></a></p>
   </section>
@@ -5790,9 +5758,7 @@
   <p id="idDbcgntr">generic-tree::
     <br>* McshEngl.AgntBkcn:generic,
     <br>===
-    <br>* Algonet:generic,
-    <br>* SystNet:generic,
-    <br>* SystDynamic:generic,
+    <br>* Algonet:generic!@McshTchInf000015#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcgntr"></a></p>
   <p id="idDbcsptr">specific-tree::
@@ -5959,7 +5925,7 @@
   <p id="idDbcBiggntr">generic-tree::
     <br>* McshEngl.BkcnGvnc:generic,
     <br>===
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcBiggntr"></a></p>
   <p id="idDbcBigsptr">specific-tree::
@@ -6082,7 +6048,7 @@
   <p id="idDbcDptgntr">generic-tree::
     <br>* McshEngl.BkcnDpdt:generic,
     <br>===
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcDptgntr"></a></p>
   <p id="idDbcDptsptr">specific-tree::
@@ -6275,9 +6241,7 @@
   <p id="idBpmnetgntr">generic-tree::
     <br>* McshEngl.Bkcncontract:generic,
     <br>===
-    <br>* AgntBkcn:generic,
-    <br>* Algonet:generic,
-    <br>* SystNet:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBpmnetgntr"></a></p>
   <p id="idBpmnetsptr">specific-tree::
@@ -6351,7 +6315,7 @@
   <p id="idDbcEvugntr">generic-tree::
     <br>* McshEngl.BkchAsset:generic,
     <br>===
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcEvugntr"></a></p>
   <p id="idDbcEvusptr">specific-tree::
@@ -6396,9 +6360,7 @@
   <p id="idDbcMoegntr">generic-tree::
     <br>* McshEngl.BkcnasstExvu:generic,
     <br>===
-    <br>* AgntCurrency:generic,
-    <br>* Algonet:generic,
-    <br>* SystNet:generic,
+    <br>* AgntCurrency:generic!@McshTchInf000015#idDcnetMoe,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcMoegntr"></a></p>
   </section>
@@ -7508,7 +7470,7 @@
     <br>* McshEngl.AgntAete:generic,
     <br>===
     <br>* hybrid-pos-pow-blockchain-network!@McshTchInf000016#idHswnet,
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idAenetgntr"></a></p>
   <p id="idAenetsptr">specific-tree::
@@ -8442,8 +8404,7 @@
     <br>* McshEngl.AgntBosc:generic,
     <br>===
     <br>* blockchain-net-with-builtin-decentralized-governance!@McshTchInf000016#idDbcBig,
-    <br>* Bkcncontract:generic,
-    <br>* AgntBkcn:generic,
+    <br>* Bkcncontract:generic!@McshTchInf000016#idBpmnet,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBosnetgntr"></a></p>
   <p id="idBosnetsptr">specific-tree::
@@ -8525,9 +8486,7 @@
   <p id="idTzsnetgntr">generic-tree::
     <br>* McshEngl.AgntTezs:generic,
     <br>===
-    <br>* Bkcncontract:generic,
-    <br>* AgntBkcn:generic,
-    <br>* Algonet:generic,
+    <br>* Bkcncontract:generic!@McshTchInf000016#idBpmnet,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idTzsnetgntr"></a></p>
   <p id="idTzsnetsptr">specific-tree::
@@ -8565,9 +8524,7 @@
   <p id="idRsknetgntr">generic-tree::
     <br>* McshEngl.AgntRtsk:generic,
     <br>===
-    <br>* Bkcncontract:generic,
-    <br>* AgntBkcn:generic,
-    <br>* Algonet:generic,
+    <br>* Bkcncontract:generic!@McshTchInf000016#idBpmnet,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idRsknetgntr"></a></p>
   </section>
@@ -8607,9 +8564,7 @@
   <p id="idQtmnetgntr">generic-tree::
     <br>* McshEngl.AgntQtum:generic,
     <br>===
-    <br>* Bkcncontract:generic,
-    <br>* AgntBkcn:generic,
-    <br>* Algonet:generic,
+    <br>* Bkcncontract:generic!@McshTchInf000016#idBpmnet,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idQtmnetgntr"></a></p>
   </section>
@@ -8726,9 +8681,8 @@
   <p id="idZecnetgntr">generic-tree::
     <br>* McshEngl.AgntZcsh:generic,
     <br>===
-    <br>* BkchAsset:generic,
+    <br>* BkchAsset:generic!@McshTchInf000016#idDbcEvu,
     <br>* Proof-of-work-network!@McshTchInf000016#idPownet,
-    <br>* AgntBkcn:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idZecnetgntr"></a></p>
   <p id="idZecnetsptr">specific-tree::
@@ -8954,8 +8908,7 @@
   <p id="idLskexvuCgntr">generic-tree::
     <br>* McshEngl.LiskexvuC:generic,
     <br>===
-    <br>* appending_asset:generic,
-    <br>* Bkcnasset:generic,
+    <br>* appending_asset:generic!@McshTchInf000016#idDbcexvuC,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLskexvuCgntr"></a></p>
   <p id="idLskexvuCsptr">specific-tree::
@@ -8987,7 +8940,7 @@
   <p id="idLskbapgntr">generic-tree::
     <br>* McshEngl.Liskdapp:generic,
     <br>===
-    <br>* Agntdapp:generic,
+    <br>* Agntdapp:generic!@McshTchInf000015#idDapp,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLskbapgntr"></a></p>
   </section>
@@ -9008,7 +8961,7 @@
   <p id="idLskpbmgntr">generic-tree::
     <br>* McshEngl.LiskevalnCon:generic,
     <br>===
-    <br>* BkcnevalnCon:generic,
+    <br>* BkcnevalnCon:generic!@McshTchInf000016#idDbcpbm,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLskpbmgntr"></a></p>
   </section>
@@ -9096,9 +9049,7 @@
   <p id="idLsknetgntr">generic-tree::
     <br>* McshEngl.AgntLisk:generic,
     <br>===
-    <br>* Bkcncontract:generic,
-    <br>* AgntBkcn:generic,
-    <br>* Algonet:generic,
+    <br>* Bkcncontract:generic!@McshTchInf000016#idBpmnet,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLsknetgntr"></a></p>
   <p id="idLsknetsptr">specific-tree::
@@ -9765,8 +9716,7 @@
   <p id="idDcrnodgntr">generic-tree::
     <br>* McshEngl.Dcrdnode:generic,
     <br>===
-    <br>* Bkcnnode:generic,
-    <br>* Agntnode:generic,
+    <br>* Bkcnnode:generic!@McshTchInf000016#idDbcnod,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDcrnodgntr"></a></p>
   <p id="idDcrnodsptr">specific-tree::
@@ -10791,7 +10741,6 @@
   <h3 id="idDcrpgmWltWebH3">dcrpgm.Web-client (<a class="clsPreview" href="#idDcrwltWeb">link</a>)
     </h3>
   </section>
-
   </section>
 
   <section id="idDcrwlt">
@@ -11125,9 +11074,8 @@
     <br>* McshEngl.AgntDcrd:generic,
     <br>===
     <br>* blockchain-net-with-builtin-decentralized-governance!@McshTchInf000016#idDbcBig,
-    <br>* BkchAsset:generic,
+    <br>* BkchAsset:generic!@McshTchInf000016#idDbcEvu,
     <br>* hybrid-pos-pow-blockchain-network!@McshTchInf000016#idHswnet,
-    <br>* AgntBkcn:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDcrnetgntr"></a></p>
   <p id="idDcrnetsptr">specific-tree::
@@ -11284,9 +11232,8 @@
   <p id="idPivxnetgntr">generic-tree::
     <br>* McshEngl.AgntPivx:generic,
     <br>===
-    <br>* BkchAsset:generic,
+    <br>* BkchAsset:generic!@McshTchInf000016#idDbcEvu,
     <br>* Proof-of-Stake-network!@McshTchInf000016#idPosnet,
-    <br>* AgntBkcn:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idPivxnetgntr"></a></p>
   <p id="idPivxnetsptr">specific-tree::
@@ -12177,9 +12124,7 @@
   <p id="idBtsexvuCgntr">generic-tree::
     <br>* McshEngl.BtshexvuC:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtsexvuCgntr"></a></p>
   </section>
@@ -12326,7 +12271,7 @@
     <br>===
     <br>* blockchain-net-with-builtin-decentralized-governance!@McshTchInf000016#idDbcBig,
     <br>* Exchange-value-unit-blockchain-network!@McshTchInf000016#idDbcEvtkn (broken),
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtsnetgntr"></a></p>
   <p id="idBtsnetsptr">specific-tree::
@@ -12830,7 +12775,7 @@
   <p id="idXempblmgntr">generic-tree::
     <br>* McshEngl.NemzevalnCon:generic,
     <br>===
-    <br>* BkcnevalnCon:generic,
+    <br>* BkcnevalnCon:generic!@McshTchInf000016#idDbcpbm,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idXempblmgntr"></a></p>
   </section>
@@ -13693,8 +13638,7 @@
   <p id="idDashexvuCgntr">generic-tree::
     <br>* McshEngl.DashexvuC:generic,
     <br>===
-    <br>* appending_asset:generic,
-    <br>* Bkcnasset:generic,
+    <br>* appending_asset:generic!@McshTchInf000016#idDbcexvuC,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDashexvuCgntr"></a></p>
   <p id="idDashexvuCsptr">specific-tree::
@@ -13945,8 +13889,7 @@
   <p id="idDashwltgntr">generic-tree::
     <br>* McshEngl.Ddash_net'wallet:generic,
     <br>===
-    <br>* Bkcnwallet:generic,
-    <br>* Agntwallet:generic,
+    <br>* Bkcnwallet:generic!@McshTchInf000016#idDbcwlt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDashwltgntr"></a></p>
   <p id="idDashwltsptr">specific-tree::
@@ -14091,7 +14034,7 @@
     <br>===
     <br>* blockchain-net-with-builtin-decentralized-governance!@McshTchInf000016#idDbcBig,
     <br>* Exchange-value-unit-blockchain-network!@McshTchInf000016#idDbcEvtkn (broken),
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDashnetgntr"></a></p>
   <p id="idDashnetsptr">specific-tree::
@@ -14256,7 +14199,7 @@
     <br>* McshEngl.AgntEmcn:generic,
     <br>===
     <br>* hybrid-pos-pow-blockchain-network!@McshTchInf000016#idHswnet,
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idEmcnetgntr"></a></p>
   <p id="idEmcnetsptr">specific-tree::
@@ -14362,9 +14305,7 @@
   <p id="idArdrevugntr">generic-tree::
     <br>* McshEngl.NxtzexvuArdr:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idArdrevugntr"></a></p>
   </section>
@@ -14451,9 +14392,7 @@
   <p id="idNxtexvuCgntr">generic-tree::
     <br>* McshEngl.NxtzexvuC:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idNxtexvuCgntr"></a></p>
   <p id="idNxtexvuCsptr">specific-tree::
@@ -15053,9 +14992,7 @@
   <p id="idPpcexvuCgntr">generic-tree::
     <br>* McshEngl.PrcnexvuC:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idPpcexvuCgntr"></a></p>
   </section>
@@ -15088,7 +15025,7 @@
     <br>* McshEngl.AgntPrcn:generic,
     <br>===
     <br>* hybrid-pos-pow-blockchain-network!@McshTchInf000016#idHswnet,
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idPpcnetgntr"></a></p>
   <p id="idPpcnetsptr">specific-tree::
@@ -15422,8 +15359,7 @@
   <p id="idXrpexvuCgntr">generic-tree::
     <br>* McshEngl.DvXRP:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Bkcnasset.minableNo:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idXrpexvuCgntr"></a></p>
   <p id="idXrpexvuCsptr">specific-tree::
@@ -15706,7 +15642,7 @@
     <br>* McshEngl.AgntRppl:generic,
     <br>===
     <br>* blockchain-Algonet!@McshTchInf000016#idDescription,
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idXrpnetgntr"></a></p>
   <p id="idXrpnetsptr">specific-tree::
@@ -15778,9 +15714,7 @@
   <p id="idLtcexvuCgntr">generic-tree::
     <br>* McshEngl.LtcnexvuC:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLtcexvuCgntr"></a></p>
   </section>
@@ -15895,9 +15829,7 @@
   <p id="idNmcexvuCgntr">generic-tree::
     <br>* McshEngl.NmcnexvuC:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idNmcexvuCgntr"></a></p>
   </section>
@@ -16147,8 +16079,7 @@
     <br>* McshEngl.AgntDfnt:generic,
     <br>===
     <br>* blockchain-net-with-builtin-decentralized-governance!@McshTchInf000016#idDbcBig,
-    <br>* Bkcncontract:generic,
-    <br>* AgntBkcn:generic,
+    <br>* Bkcncontract:generic!@McshTchInf000016#idBpmnet,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idDfnnetgntr"></a></p>
   <p id="idDfnnetsptr">specific-tree::
@@ -16945,7 +16876,7 @@
     <br>* McshEngl.AgntHmiq:generic,
     <br>===
     <br>* dependent--blockchain-net!@McshTchInf000016#idDbcDpt, (Ethereum)
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idHmqnetgntr"></a></p>
   <p id="idHmqnetsptr">specific-tree::
@@ -17012,9 +16943,7 @@
   <p id="idAmpevugntr">generic-tree::
     <br>* McshEngl.Synrasset:generic,
     <br>===
-    <br>* Bkcnasset:generic,
-    <br>* Agntasset:generic,
-    <br>* LykklyciPro:generic,
+    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
       <a class="clsHide" href="#idAmpevugntr"></a></p>
   <p id="idAmpevuwpa">addressWpg::
@@ -17134,7 +17063,7 @@
     <br>* McshEngl.BkchPblc:generic,
     <br>===
     <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000015.last.html#idAlgntnPbl">public--chain-net</a>,
-    <br>* AgntBkcn:generic,
+    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
     <a class="clsHide" href="#idDbcPbcgntr"></a></p>
   </section>
 
@@ -17159,10 +17088,8 @@
   <p id="idDbcPbcNgntr">generic-tree::
     <br>* McshEngl.BkcnPblcNo:generic,
     <br>===
-    <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000015.last.html#idAlgntnPblN">publicNo--chain-net</a>,
-    <br>* AlgonetCentral:generic,
-    <br>* AgntBkcn:generic,
-    <br>* AgntCtrl:generic,
+    <br>* AgntPblcNo:generic!@McshTchInf000015#idAlgntnPblN,
+    <br>* ...entity:generic,
     <a class="clsHide" href="#idDbcPbcNgntr"></a></p>
 
   <section id="idDbcMijin">

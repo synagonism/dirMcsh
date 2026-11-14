@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_1","C..char",6775,"2026-11-13"],
+  [";lagEngl03si_1","C..char",6775,"2026-11-14"],
   ["C++!⇒Cppzlago","dirTchInf/McshTchInf000031.last.html#idOverview"],
   ["C++'algo!⇒Cppzalgo","dirTchInf/McshTchInf000031.last.html#idLCppalg"],
   ["C++-bool!⇒Cppzb","dirTchInf/McshTchInf000031.last.html#idLCppsuntBool"],
@@ -235,7 +235,7 @@
   ["Calgonode'generic_specific_tree","dirTchInf/McshTchInf000006.last.html#idLCpgmalgnodegstr"],
   ["Calgonode.phrase!⇒Pgmgphrase","dirTchInf/McshTchInf000006.last.html#idLCpgmalgphrs"],
   ["Calgonode.section!⇒Pgmgalgo_section","dirTchInf/McshTchInf000006.last.html#idLCpgmalgsctn"],
-  ["Calgonode.semantic_unit!⇒Pgmgalgo_Sunt","dirTchInf/McshTchInf000006.last.html#idLCpgmalgsunt"],
+  ["Calgonode.semantic_unit!⇒Pgmgsunt","dirTchInf/McshTchInf000006.last.html#idLCpgmalgsunt"],
   ["Calgonode.sentence!⇒Pgmgsent","dirTchInf/McshTchInf000006.last.html#idLCpgmsntc"],
   ["Calgonode.specific","dirTchInf/McshTchInf000006.last.html#idLCpgmalgnodesptr"],
   ["Calgonode.unit!⇒Pgmgunit","dirTchInf/McshTchInf000006.last.html#idLCpgmalgunt"],
@@ -502,7 +502,7 @@
   ["Chinese-character!⇒Zhon_char","dirLag/McshLag000018.last.html#idLZhonchar"],
   ["Chinese-communist-party!⇒Chnacp","dirStn/McshStn000031.last.html#idChnaadmnatt001"],
   ["Chinese-company!⇒Chnacmpn","dirStn/McshStn000031.last.html#idChnaEconatt004"],
-  ["Chinese-conjugator!⇒HmmdverbmbrrZhon","dirLag/McshLag000018.last.html#idLZhonverbmrfdr"],
+  ["Chinese-conjugator!⇒Zhonvmfinder","dirLag/McshLag000018.last.html#idLZhonverbmrfdr"],
   ["Chinese-conjunction!⇒Zhonconj","dirLag/McshLag000018.last.html#idLZhonconj"],
   ["Chinese-dream!⇒Chinese_dream","dirStn/McshStn000031.last.html#idChnaadmnatt022"],
   ["Chinese-economic-miracle!⇒reform_and_opening_up_of_PRC","dirStn/McshStn000031.last.html#idChnaEconatt084"],
@@ -516,7 +516,7 @@
   ["Chinese-languages!⇒Zho0Lago","dirLag/McshLag000018.last.html#idLZhonfmly"],
   ["Chinese-linguistics","dirLag/McshLag000018.last.html#idLZhonsci"],
   ["Chinese-main-Semuargu!⇒ArgoStxvmbrMainZhon","dirLag/McshLag000018.last.html#idLZhonsmsnunmbrMain"],
-  ["Chinese-member-finder!⇒nounerZhon","dirLag/McshLag000018.last.html#idLZhonargodlsr"],
+  ["Chinese-member-finder!⇒Zhonamfinder","dirLag/McshLag000018.last.html#idLZhonargodlsr"],
   ["Chinese-noun!⇒Zhonnoun","dirLag/McshLag000018.last.html#idLZhonnoun"],
   ["Chinese-oral-language!⇒Zhon_Spchlago","dirLag/McshLag000018.last.html#idLZhonSpch"],
   ["Chinese-personal-pronoun!⇒Zhon_personal_pron","dirLag/McshLag000018.last.html#idLZhonprnPsnl"],
@@ -5566,7 +5566,7 @@
   ["camel-case--Srcdlago-naming-convention","dirTchInf/McshTchInf000006.last.html#idLSrcdwrdIdfrnmcvnCml"],
   ["camel_case__Srcdnaming","dirTchInf/McshTchInf000006.last.html#idLSrcdwrdIdfrnmcvnCml"],
   ["can!~verbEnglC:base!⇒FctgCanning","dirCor/McshCor000018.last.html#idBrngHmnFctCnng"],
-  ["can-Englvx","dirLag/McshLag000011.last.html#idLEnglverbauxCan"],
+  ["can-Englvbmbauxi","dirLag/McshLag000011.last.html#idLEnglverbauxCan"],
   ["can.lagoElln!=μπορώ!⇒FctgCanning","dirCor/McshCor000018.last.html#idBrngHmnFctCnng"],
   ["can.lagoZhon!=huì-会!⇒FctgCanning","dirCor/McshCor000018.last.html#idBrngHmnFctCnng"],
   ["can_(I)_write_163.EnglvmIndi","dirLag/McshLag000011.last.html#idLEnglverb163"],
@@ -6774,5 +6774,5 @@
   ["changing!~verbEnglB1.change'4","dirLag/McshLag000024.last.html#idLEnglverbB1-21"],
   ["changing-knowledge-of-KnlgMngr!⇒KlmrdoingChanging_knowledge","dirTchInf/McshTchInf000039.last.html#idLKnlgmngrdongChng"],
   ["channel-of-communicating","dirHlth/McshHlth000003.last.html#idMinddongCmngargChl"],
-  ["chaperone-MolProtein-003","dirOgm/McshOgm000006.last.html#idPrtnOgm003"]
+  ["chaperone-MoleProtein-003","dirOgm/McshOgm000006.last.html#idPrtnOgm003"]
 ]

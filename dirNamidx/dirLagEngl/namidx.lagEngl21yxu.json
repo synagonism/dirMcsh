@@ -1,5 +1,5 @@
 [
-  [";lagEngl21yxu","U|u",7804,"2026-11-13"],
+  [";lagEngl21yxu","U|u",7804,"2026-11-14"],
   ["U+0000..U+007F|0..127-Basic-Latin!⇒Ucbk000000_000127","dirTchInf/dirUcd/McshUcdU0000.last.html#idOverview"],
   ["U+0080..U+00FF|128..255|..&#x00FF;-Latin-1-Supplement!⇒Ucbk000128_000255","dirTchInf/dirUcd/McshUcdU0080.last.html#idOverview"],
   ["U+0100..U+017F|256..383|&#x0100;..&#x017F;-Latin-Extended-A!⇒Ucbk000256_000383","dirTchInf/dirUcd/McshUcdU0100.last.html#idOverview"],
@@ -7763,7 +7763,7 @@
   ["use.TurkVerb!=kullanmak","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["used!~verbEnglB1.use'3_5","dirLag/McshLag000024.last.html#idLEnglverbB1-1"],
   ["used-code-point--of-Unicode","dirLag/McshLag000006.last.html#idCharUcdstdcpUsd"],
-  ["used-to-Englvx","dirLag/McshLag000011.last.html#idLEnglverbauxUsedto"],
+  ["used-to-Englvbmbauxi","dirLag/McshLag000011.last.html#idLEnglverbauxUsedto"],
   ["usedNo-code-point--of-Unicode","dirLag/McshLag000006.last.html#idCharUcdstdcpUsdN"],
   ["usedToDiagnose@schema.org","dirStn/McshStn000023.last.html#idScmousedToDiagnose"],
   ["useful!~Engladje","dirLag/McshLag000011.last.html#idLEngladje_202"],

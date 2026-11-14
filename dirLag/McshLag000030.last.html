@@ -104,8 +104,7 @@
   <p id="idLTurkuntgntr">generic-tree::
     <br>* McshEngl.Turkunit:generic,
     <br>===
-    <br>* Hmmdunit:generic,
-    <br>* Hmmdnode:generic,
+    <br>* Hmmdunit:generic!@McshLag000007#idLHmnmunt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkuntgntr"></a></p>
   <p id="idLTurkuntsptr">specific-tree::
@@ -216,10 +215,10 @@
   <p id="idLTurkphnmgntr">generic-tree::
     <br>* McshEngl.Turkphnm:generic,
     <br>===
-    <br>* Hmmdphnm:generic,
+    <br>* Hmmdphnm:generic!@McshLag000009#idL0017phnm,
     <br>* ...entity:generic,
     <br>===
-    <br>* Turkunit:generic,
+    <br>* Turkunit:generic!@McshLag000030#idLTurkunt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkphnmgntr"></a></p>
   <p id="idLTurkphnmsptr">specific-tree::
@@ -788,7 +787,7 @@
   <p id="idLTurkltrgntr">generic-tree::
     <br>* McshEngl.Turkletr:generic,
     <br>===
-    <br>* Turkunit:generic,
+    <br>* Turkunit:generic!@McshLag000030#idLTurkunt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkltrgntr"></a></p>
   <p id="idLTurkltrsptr">specific-tree::
@@ -1524,8 +1523,7 @@
   <p id="idLTurknamegntr">generic-tree::
     <br>* McshEngl.Turkname:generic,
     <br>===
-    <br>* Hmmdname:generic,
-    <br>* Hmmdnode:generic,
+    <br>* Hmmdname:generic!@McshLag000007#idLHmnmname,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurknamegntr"></a></p>
   <p id="idLTurknamesptr">specific-tree::
@@ -2175,7 +2173,7 @@
   <p id="idLTurkadjegntr">generic-tree::
     <br>* McshEngl.Turkadje:generic,
     <br>===
-    <br>* Hmmdadje:generic,
+    <br>* Hmmdadje:generic!@McshLag000007#idLHmnmadje,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkadjegntr"></a></p>
 
@@ -3019,7 +3017,7 @@
   <p id="idLTurkverbmbrgntr">generic-tree::
     <br>* McshEngl.Turkvbmb:generic,
     <br>===
-    <br>* Hmmdvbmb:generic,
+    <br>* Hmmdvbmb:generic!@McshLag000007#idLHmnmverbmbr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkverbmbrgntr"></a></p>
   <p id="idLTurkverbmbrsptr">specific-tree::
@@ -4839,8 +4837,7 @@
   <p id="idLTurkverbmbrVoligntr">generic-tree::
     <br>* McshEngl.mVTurkSubj:generic,
     <br>===
-    <br>* Turkvbmb:generic,
-    <br>* Hmmdvbmb:generic,
+    <br>* Turkvbmb:generic!@McshLag000030#idLTurkverbmbr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkverbmbrVoligntr"></a></p>
   <p id="idLTurkverbmbrVolisptr">specific-tree::
@@ -4997,8 +4994,7 @@
   <p id="idLTurkverbmbrCondgntr">generic-tree::
     <br>* McshEngl.mVTurkCond:generic,
     <br>===
-    <br>* Turkvbmb:generic,
-    <br>* Hmmdvbmb:generic,
+    <br>* Turkvbmb:generic!@McshLag000030#idLTurkverbmbr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkverbmbrCondgntr"></a></p>
   <p id="idLTurkverbmbrCondsptr">specific-tree::
@@ -5266,8 +5262,7 @@
   <p id="idLTurkverbmbrNecegntr">generic-tree::
     <br>* McshEngl.mVTurkNece:generic,
     <br>===
-    <br>* Turkvbmb:generic,
-    <br>* Hmmdvbmb:generic,
+    <br>* Turkvbmb:generic!@McshLag000030#idLTurkverbmbr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkverbmbrNecegntr"></a></p>
   <p id="idLTurkverbmbrNecesptr">specific-tree::
@@ -5919,11 +5914,13 @@
     <br>* https://www.logosconjugator.org/index.php,
     <a class="clsHide" href="#idLTurkverbcjgrdsn"></a></p>
   <p id="idLTurkverbcjgrnam">name::
-    <br>* McshEngl.HmmdverbmbrrTurk,
-    <br>* McshEngl.Turkverb'member_finder!⇒HmmdverbmbrrTurk,
-    <br>* McshEngl.conjugator.Turkverb!⇒HmmdverbmbrrTurk,
-    <br>* McshEngl.memberorTurkVerb!⇒HmmdverbmbrrTurk,
-    <br>* McshEngl.Turkverb'conjugator!⇒HmmdverbmbrrTurk,
+    <br>* McshEngl.member-finder-of-Turkverb!⇒Turkvmfinder,
+    <br>* McshEngl.Turkvmfinder!=member-finder-of-Turkverb,
+    <br>* McshEngl.HmmdverbmbrrTurk!⇒Turkvmfinder,
+    <br>* McshEngl.Turkverb'member_finder!⇒Turkvmfinder,
+    <br>* McshEngl.conjugator.Turkverb!⇒Turkvmfinder,
+    <br>* McshEngl.memberorTurkVerb!⇒Turkvmfinder,
+    <br>* McshEngl.Turkverb'conjugator!⇒Turkvmfinder,
     <a class="clsHide" href="#idLTurkverbcjgrnam"></a></p>
   </section>
 
@@ -5951,7 +5948,7 @@
   <p id="idLTurkverbgntr">generic-tree::
     <br>* McshEngl.Turkverb:generic,
     <br>===
-    <br>* Hmmdverb:generic,
+    <br>* Hmmdverb:generic!@McshLag000007#idLHmnmverb,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkverbgntr"></a></p>
   <p id="idLTurkverbsptr">specific-tree::
@@ -7796,8 +7793,7 @@
   <p id="idLTurkconjgntr">generic-tree::
     <br>* McshEngl.Turkconj:generic,
     <br>===
-    <br>* Hmmdconj:generic,
-    <br>* termSemu:generic,
+    <br>* Hmmdconj:generic!@McshLag000007#idLHmnmconj,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkconjgntr"></a></p>
   <p id="idLTurkconjsptr">specific-tree::
@@ -8189,14 +8185,9 @@
   <p id="idLTurkgntr">generic-tree::
     <br>* McshEngl.Turklago:generic,
     <br>===
-    <br>* Hmmdsemuconj:generic,
-    <br>* Hmanlago:generic,
+    <br>* Hmmdsemuconj:generic!@McshLag000007#idLHmnmsmscnj,
     <br>* mapping-method,
     <br>* method,
-    <br>* info:generic,
-    <br>* model:generic,
-    <br>* entity:generic (the-most-generic),
-    <br>* Hmmdlago:generic,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLTurkgntr"></a></p>
   <p id="idLTurksptr">specific-tree::
