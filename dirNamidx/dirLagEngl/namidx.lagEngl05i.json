@@ -1,5 +1,5 @@
 [
-  [";lagEngl05i","E|e",14753,"2026-11-14"],
+  [";lagEngl05i","E|e",14754,"2026-11-14"],
   ["E-REVs!=Extended-Range-Electric-Vehicles!⇒carReev","dirTch/McshTch000003.last.html#idMchn002Reev"],
   ["E-business@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrE-business"],
   ["E-commerce@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrE-commerce"],
@@ -12929,6 +12929,7 @@
   ["effect-doing!⇒DongEffecting","dirCor/McshCor000004.last.html#idDngEfct"],
   ["effect-relation!⇒RltnCauseThenEffect","dirCor/McshCor000005.last.html#idRlnEfct"],
   ["effect-then-cause--relation!⇒RltnEffect_then_Cause","dirCor/McshCor000005.last.html#idRlnCause"],
+  ["effect.specific","dirCor/McshCor000005.last.html#idRlnCslteftsptr"],
   ["effecting!⇒DongEffecting","dirCor/McshCor000004.last.html#idDngEfct"],
   ["effectively!~Engladve","dirLag/McshLag000011.last.html#idLEngladve_111"],
   ["effectiveness-of-Admn","dirStn/McshStn000004.last.html#idGvcHmnatt004"],

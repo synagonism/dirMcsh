@@ -230,7 +230,7 @@
   <p id="idLEsponodegntr">generic-tree::
     <br>* McshEngl.Esponode:generic,
     <br>===
-    <br>* Hmmdnode:generic!@McshLag000007#idLHmnmnode,
+    <br>* logo-node--of-Hmmdlago!@McshLag000007#idLHmnmnode,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEsponodegntr"></a></p>
   </section>
@@ -263,7 +263,7 @@
   <p id="idLEspountgntr">generic-tree::
     <br>* McshEngl.Espounit:generic,
     <br>===
-    <br>* Hmmdunit:generic!@McshLag000007#idLHmnmunt,
+    <br>* logo-unit--of-Hmmdlago!@McshLag000007#idLHmnmunt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspountgntr"></a></p>
   <p id="idLEspountsptr">specific-tree::
@@ -302,7 +302,7 @@
     <br>* McshEngl.EspounitTerm:generic,
     <br>===
     <br>* termHmnm-unit!@McshLag000007#idLHmnmuntNmMn,
-    <br>* Espounit:generic!@McshLag000012#idLEspount,
+    <br>* logo-unit--of-Espolago!@McshLag000012#idLEspount,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspountTrmgntr"></a></p>
   <p id="idLEspountTrmsptr">specific-tree::
@@ -391,7 +391,13 @@
   <p id="idLEspophnmgntr">generic-tree::
     <br>* McshEngl.Espophnm:generic,
     <br>===
-    <br>* Hmmdphnm:generic!@McshLag000009#idL0017phnm,
+    <br>* phoneme!@McshLag000009#idL0017phnm,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* Espolago_unit.term!@McshLag000012#idLEspountTrm,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* logo-unit--of-Espolago!@McshLag000012#idLEspount,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspophnmgntr"></a></p>
   <p id="idLEspophnmsptr">specific-tree::
@@ -1044,7 +1050,13 @@
   <p id="idLEspoltrgntr">generic-tree::
     <br>* McshEngl.Espoletr:generic,
     <br>===
-    <br>* Hmmdletr:generic!@McshLag000008#idL0016ltr,
+    <br>* phonemogram-of-Alfalago!@McshLag000008#idL0016ltr,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* Espolago_unit.term!@McshLag000012#idLEspountTrm,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* logo-unit--of-Espolago!@McshLag000012#idLEspount,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspoltrgntr"></a></p>
   <p id="idLEspoltrsptr">specific-tree::
@@ -1577,7 +1589,10 @@
   <p id="idLEspowrdgntr">generic-tree::
     <br>* McshEngl.wordEspo:generic,
     <br>===
-    <br>* word:generic!@McshLag000007#idLHmnmwrd,
+    <br>* Hmmdlago'word!@McshLag000007#idLHmnmwrd,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* Espologo'unit_structure!@McshLag000012#idLEspoutsr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspowrdgntr"></a></p>
   <p id="idLEspowrdsptr">specific-tree::
@@ -1608,6 +1623,12 @@
     <br>* McshEngl.wordaryEspo,
     <br>* McshEngl.wordEspo.wordary!⇒wordaryEspo,
     <a class="clsHide" href="#idLEspowrdAggnam"></a></p>
+  <p id="idLEspowrdAgggntr">generic-tree::
+    <br>* McshEngl.wordaryEspo:generic,
+    <br>===
+    <br>* word.wordary!@McshLag000007#idLHmnmwrdIdx,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idLEspowrdAgggntr"></a></p>
   </section>
   </section>
 
@@ -1631,7 +1652,7 @@
   <p id="idLEsposylbgntr">generic-tree::
     <br>* McshEngl.sylbEspo:generic,
     <br>===
-    <br>* HmmdSylb:generic!@McshLag000007#idLHmnmsylb,
+    <br>* syllable-of-Hmmdlago!@McshLag000007#idLHmnmsylb,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEsposylbgntr"></a></p>
   </section>
@@ -1686,7 +1707,7 @@
   <p id="idLEsponamegntr">generic-tree::
     <br>* McshEngl.Esponame:generic,
     <br>===
-    <br>* Hmmdname:generic!@McshLag000007#idLHmnmname,
+    <br>* logo-name--of-Hmmdlago!@McshLag000007#idLHmnmname,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEsponamegntr"></a></p>
   <p id="idLEsponamesptr">specific-tree::
@@ -1732,7 +1753,7 @@
   <p id="idLEspotermiflrgntr">generic-tree::
     <br>* McshEngl.memberorEspo:generic,
     <br>===
-    <br>* memberorHmnm:generic!@McshLag000007#idLHmnmnameTrmmrfr,
+    <br>* termSemu'member_finder!@McshLag000007#idLHmnmnameTrmmrfr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspotermiflrgntr"></a></p>
   <p id="idLEspotermiflrsptr">specific-tree::
@@ -2091,7 +2112,7 @@
   <p id="idLEspoadjegntr">generic-tree::
     <br>* McshEngl.Espoadje:generic,
     <br>===
-    <br>* Hmmdadje:generic!@McshLag000007#idLHmnmadje,
+    <br>* human-mind-language--adjective!@McshLag000007#idLHmnmadje,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspoadjegntr"></a></p>
 
@@ -2396,7 +2417,7 @@
   <p id="idLEspoondogntr">generic-tree::
     <br>* McshEngl.Espoargu:generic,
     <br>===
-    <br>* Hmmdargu:generic!@McshLag000007#idLHmnmargo,
+    <br>* human-mind-language--argu!@McshLag000007#idLHmnmargo,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspoondogntr"></a></p>
   <p id="idLEspoondosptr">specific-tree::
@@ -3334,7 +3355,7 @@
   <p id="idLEspoverbmbrgntr">generic-tree::
     <br>* McshEngl.Espovbmb:generic,
     <br>===
-    <br>* Hmmdvbmb:generic!@McshLag000007#idLHmnmverbmbr,
+    <br>* verb-member--of-Hmmdlago!@McshLag000007#idLHmnmverbmbr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspoverbmbrgntr"></a></p>
   <p id="idLEspoverbmbrsptr">specific-tree::
@@ -4646,7 +4667,7 @@
   <p id="idLEspoverbgntr">generic-tree::
     <br>* McshEngl.Espoverb:generic,
     <br>===
-    <br>* Hmmdverb:generic!@McshLag000007#idLHmnmverb,
+    <br>* human-mind-language--verb!@McshLag000007#idLHmnmverb,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspoverbgntr"></a></p>
   <p id="idLEspoverbsptr">specific-tree::
@@ -4731,7 +4752,7 @@
   <p id="idLEspoconjgntr">generic-tree::
     <br>* McshEngl.Espoconj:generic,
     <br>===
-    <br>* Hmmdconj:generic!@McshLag000007#idLHmnmconj,
+    <br>* human-mind-language--conjunction!@McshLag000007#idLHmnmconj,
     </p>
   </section>
 
@@ -5062,7 +5083,10 @@
   <p id="idLEsposmsondogntr">generic-tree::
     <br>* McshEngl.Esposemuargu:generic,
     <br>===
-    <br>* Hmmdsemuargu:generic!@McshLag000007#idLHmnmsmsondo,
+    <br>* semu-argu--of-Hmmdlago!@McshLag000007#idLHmnmsmsondo,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* semu-concept--of-Espolago!@McshLag000012#idLEsposmscpt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEsposmsondogntr"></a></p>
   <p id="idLEsposmsondosptr">specific-tree::
@@ -5093,7 +5117,7 @@
   <p id="idLEsposmsondoMaingntr">generic-tree::
     <br>* McshEngl.ondoSmsEspoMain:generic,
     <br>===
-    <br>* Esposemuargu:generic!@McshLag000012#idLEsposmsondo,
+    <br>* Esposemucnpt.argu!@McshLag000012#idLEsposmsondo,
     </p>
   </section>
 
@@ -5153,7 +5177,10 @@
   <p id="idLEsposmsvrbgntr">generic-tree::
     <br>* McshEngl.Esposemuverb:generic,
     <br>===
-    <br>* Hmmdsemuverb:generic!@McshLag000007#idLHmnmsmsvrb,
+    <br>* semu-verb--of-Hmmdlago!@McshLag000007#idLHmnmsmsvrb,
+    <br>===
+    <br>* semu-concept--of-Espolago!@McshLag000012#idLEsposmscpt,
+    <br>* ...entity:generic,
     </p>
   </section>
 
@@ -5176,6 +5203,9 @@
     <br>* McshEngl.ConjSmsEspo:generic,
     <br>===
     <br>* Hmmdsemuconj:generic!@McshLag000007#idLHmnmsmscnj,
+    <br>===
+    <br>* semu-concept--of-Espolago!@McshLag000012#idLEsposmscpt,
+    <br>* ...entity:generic,
     </p>
   </section>
   </section>
@@ -5194,7 +5224,7 @@
     <br>* McshEngl.EspoviewSemu:generic,
     <br>* McshEngl.Espolago-semu:generic,
     <br>===
-    <br>* HmmdviewSemu:generic!@McshLag000007#idLHmnmipt3,
+    <br>* semu-view--of-Hmmdlago!@McshLag000007#idLHmnmipt3,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idLEspoipt3gntr"></a></p>
   <p id="idLEspoipt3sptr">specific-tree::

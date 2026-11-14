@@ -144,7 +144,13 @@
   <p id="idHlthHmnatt005gntr">generic-tree::
     <br>* McshEngl.Hlthmtrl:generic,
     <br>===
-    <br>* Hbmaterial:generic!@McshHlth000002#idBdyHmnatt022,
+    <br>* bodyMtrHumn!@McshHlth000002#idBdyHmnatt022,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* SystMolsOgsm.001_human!@McshOgm000005#idSysMolsHmn,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* material-body!@McshNtr000002,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idHlthHmnatt005gntr"></a></p>
   <p id="idHlthHmnatt005sptr">specific-tree::
@@ -198,7 +204,7 @@
   <p id="idHlthHmnsbtcgntr">generic-tree::
     <br>* McshEngl.substanceHlth:generic,
     <br>===
-    <br>* substanceHumn:generic!@McshOgm000005#idSysMolsHmn027,
+    <br>* SystMolsHumn.substance!@McshOgm000005#idSysMolsHmn027,
     <br>* substance!@McshNtr000005#idSysMols008,
     <br>* body-system!@McshCor000011#idSys004,
     <br>* ...entity:generic,
@@ -242,7 +248,7 @@
   <p id="idMtrlHrmHmngntr">generic-tree::
     <br>* McshEngl.HlthmtrlHarm:generic,
     <br>===
-    <br>* Hlthmtrl:generic!@McshHlth000008#idHlthHmnatt005,
+    <br>* human-health-material!@McshHlth000008#idHlthHmnatt005,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idMtrlHrmHmngntr"></a></p>
   <p id="idMtrlHrmHmnsptr">specific-tree::
@@ -308,7 +314,7 @@
   <p id="idMtrlHrmHmn001gntr">generic-tree::
     <br>* McshEngl.HlthmtrlHarmExte:generic,
     <br>===
-    <br>* HlthmtrlHarm:generic!@McshHlth000008#idMtrlHrmHmn,
+    <br>* cptBdyHmnatt010!@McshHlth000008#idMtrlHrmHmn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idMtrlHrmHmn001gntr"></a></p>
   <p id="idMtrlHrmHmn001sptr">specific-tree::
@@ -1073,7 +1079,7 @@
   <p id="idHlthHmnatt001gntr">generic-tree::
     <br>* McshEngl.health'human:generic,
     <br>===
-    <br>* human:generic!@McshHmn000002#idOverview,
+    <br>* McshHmn000002.last.html//dirHmn//dirMcsh!@McshHmn000002#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idHlthHmnatt001gntr"></a></p>
 
@@ -1510,7 +1516,10 @@
   <p id="idHlthHmngntr">generic-tree::
     <br>* McshEngl.health:generic,
     <br>===
-    <br>* healthOgsm:generic!@McshHlth000007#idOverview,
+    <br>* health-of-organism!@McshHlth000007#idOverview,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* biobody-health!@McshHlth000006,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idHlthHmngntr"></a></p>
   <p id="idHlthHmnsptr">specific-tree::

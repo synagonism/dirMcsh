@@ -246,7 +246,7 @@
   <p id="idSysMolsHmngntr">generic-tree::
     <br>* McshEngl.SystMolsHumn:generic,
     <br>===
-    <br>* material:generic!@McshNtr000002#idOverview,
+    <br>* material-body!@McshNtr000002#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSysMolsHmngntr"></a></p>
   <p id="idSysMolsHmnsptr">specific-tree::
@@ -548,7 +548,7 @@
     <br>* McshEngl.BodyHumn_product:generic,
     <br>===
     <br>* entity.body.product⧺cptEpistem475.371⧺,
-    <br>* substanceHumn:generic!@McshOgm000005#idSysMolsHmn027,
+    <br>* SystMolsHumn.substance!@McshOgm000005#idSysMolsHmn027,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSysMolsHmn004gntr"></a></p>
   <p id="idSysMolsHmn004sptr">specific-tree::
@@ -619,7 +619,7 @@
   <p id="idFldHmngntr">generic-tree::
     <br>* McshEngl.fluidHumn:generic,
     <br>===
-    <br>* substanceHumn:generic!@McshOgm000005#idSysMolsHmn027,
+    <br>* SystMolsHumn.substance!@McshOgm000005#idSysMolsHmn027,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFldHmngntr"></a></p>
   <p id="idFldHmnsptr">specific-tree::
@@ -890,7 +890,7 @@
   <p id="idSysMolsHmn015gntr">generic-tree::
     <br>* McshEngl.waterHumn:generic,
     <br>===
-    <br>* fluidHumn:generic!@McshOgm000005#idFldHmn,
+    <br>* SystMolsHumn.005_fluid!@McshOgm000005#idFldHmn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSysMolsHmn015gntr"></a></p>
   </section>
@@ -916,7 +916,7 @@
   <p id="idSysMolsHmn016gntr">generic-tree::
     <br>* McshEngl.SystMolsHumnRelsHrmn:generic,
     <br>===
-    <br>* BodyHumn_product:generic!@McshOgm000005#idSysMolsHmn004,
+    <br>* human-produced-substance!@McshOgm000005#idSysMolsHmn004,
     <a class="clsHide" href="#idSysMolsHmn016gntr"></a></p>
   <p id="idSysMolsHmn016wtr">whole-tree:
     <br>* <a class="clsPreview" href="#idGlndHmn021wtr">υποθάλαμος-wtr</a>,
@@ -975,7 +975,10 @@
   <p id="idSysMolsHmn018gntr">generic-tree::
     <br>* McshEngl.salivaHumn:generic,
     <br>===
-    <br>* BodyHumn_product:generic!@McshOgm000005#idSysMolsHmn004,
+    <br>* human-produced-substance!@McshOgm000005#idSysMolsHmn004,
+    <br>===
+    <br>* SystMolsHumn.005_fluid!@McshOgm000005#idFldHmn,
+    <br>* ...entity:generic,
     </p>
   <p id="idSysMolsHmn018wtr">whole-tree:
     <br>* <a class="clsPreview" href="#idSysOgnHmn007wtr">digestive-sys-wtr</a>,
@@ -1084,7 +1087,10 @@
   <p id="idSysMolsHmn019gntr">generic-tree::
     <br>* McshEngl.bileHumn:generic,
     <br>===
-    <br>* BodyHumn_product:generic!@McshOgm000005#idSysMolsHmn004,
+    <br>* human-produced-substance!@McshOgm000005#idSysMolsHmn004,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* SystMolsHumn.005_fluid!@McshOgm000005#idFldHmn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSysMolsHmn019gntr"></a></p>
   <p id="idSysMolsHmn019sptr">specific-tree::
@@ -1115,7 +1121,7 @@
   <p id="idSysMolsHmn021gntr">generic-tree::
     <br>* McshEngl.excrementHumn:generic,
     <br>===
-    <br>* BodyHumn_product:generic!@McshOgm000005#idSysMolsHmn004,
+    <br>* human-produced-substance!@McshOgm000005#idSysMolsHmn004,
     <a class="clsHide" href="#idSysMolsHmn021gntr"></a></p>
   </section>
 
@@ -1139,7 +1145,10 @@
   <p id="idSysMolsHmn022gntr">generic-tree::
     <br>* McshEngl.urineHumn:generic,
     <br>===
-    <br>* BodyHumn_product:generic!@McshOgm000005#idSysMolsHmn004,
+    <br>* human-produced-substance!@McshOgm000005#idSysMolsHmn004,
+    <br>===
+    <br>* SystMolsHumn.005_fluid!@McshOgm000005#idFldHmn,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idSysMolsHmn022dong">
@@ -1255,7 +1264,7 @@
   <p id="idSysMolsHmn023gntr">generic-tree::
     <br>* McshEngl.antioxidantHumn:generic,
     <br>===
-    <br>* ChmcCpd:generic!@McshNtr000006#idOverview,
+    <br>* chemical-compound!@McshNtr000006#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSysMolsHmn023gntr"></a></p>
   <p id="idSysMolsHmn023sptr">specific-tree::
@@ -1519,7 +1528,7 @@
     <br>* McshEngl.hormoneHumn:generic,
     <br>===
     <br>* animal-hormone,
-    <br>* BodyHumn_product:generic!@McshOgm000005#idSysMolsHmn004,
+    <br>* human-produced-substance!@McshOgm000005#idSysMolsHmn004,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idHrmnHmngntr"></a></p>
   <p id="idHrmnHmnsptr">specific-tree::
@@ -1772,7 +1781,7 @@
   <p id="idHrmnHmn014gntr">generic-tree::
     <br>* McshEngl.hrmnInsulin:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn014gntr"></a></p>
   <p id="idHrmnHmn014wtr">whole-tree-of-hrmnInsulin::
     <br>* <a class="clsPreview" href="#idGlndHmn007wtr">πάγκρεας-wtr</a>,
@@ -1851,7 +1860,7 @@
   <p id="idHrmnHmn015gntr">generic-tree::
     <br>* McshEngl.hormoneHmnCortisol:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn015gntr"></a></p>
   <p id="idHrmnHmn015wtr">whole-tree-of-hormoneHmnCortisol::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idBdyHmn545wtr">adrenal-cortex-wtr</a>,
@@ -1901,7 +1910,7 @@
   <p id="idHrmnHmn001gntr">generic-tree::
     <br>* McshEngl.HrmnHumnAldosterone:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn001gntr"></a></p>
   <p id="idHrmnHmn001wtr">whole-tree-of-hormoneAldosterone::
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idBdyHmn545wtr">adrenal-cortex-wtr</a>,
@@ -1959,7 +1968,7 @@
   <p id="idHrmnHmn009gntr">generic-tree::
     <br>* McshEngl.HrmnHumnAdrenaline:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn009gntr"></a></p>
   <p id="idHrmnHmn009wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idBdyHmn546wtr">μυελός-επινεφριδίου-wtr</a>,
@@ -2005,7 +2014,7 @@
   <p id="idHrmnHmn018gntr">generic-tree::
     <br>* McshEngl.HrmnHumnNorepinephrine:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn018gntr"></a></p>
   <p id="idHrmnHmn018wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000002.last.html#idBdyHmn546wtr">μυελός-επινεφριδίου-wtr</a>,
@@ -2050,7 +2059,7 @@
   <p id="idHrmnHmn012gntr">generic-tree::
     <br>* McshEngl.HrmnHumnThyroid_calcitonin:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn012gntr"></a></p>
   <p id="idHrmnHmn012wtr">whole-tree:
     <br>* <a class="clsPreview" href="#idGlndHmn012wtr">θυρεοειδής-αδένας-wtr</a>,
@@ -2094,7 +2103,7 @@
   <p id="idHrmnHmn017gntr">generic-tree::
     <br>* McshEngl.HrmnHumnMelatonine:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn017gntr"></a></p>
 
   <section id="idHrmnHmn017att002">
@@ -2150,7 +2159,7 @@
   <p id="idHrmnHmn005gntr">generic-tree::
     <br>* McshEngl.HrmnHumnGrowth:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn005gntr"></a></p>
   <p id="idHrmnHmn005wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000003.last.html#idBdyHmn517wtr">αδενουπόφυση-wtr</a>,
@@ -2225,7 +2234,7 @@
   <p id="idHrmnHmn025gntr">generic-tree::
     <br>* McshEngl.HrmnHumnOxytocin:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn025gntr"></a></p>
   <p id="idHrmnHmn025wtr">whole-tree:
     <br>* νευροϋπόφυση⧺cptBdyHmn518⧺,
@@ -2273,7 +2282,7 @@
   <p id="idHrmnHmn022gntr">generic-tree::
     <br>* McshEngl.HrmnHumnProlactin:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn022gntr"></a></p>
 
   <section id="idHrmnHmn022dong">
@@ -2319,7 +2328,7 @@
   <p id="idHrmnHmn006gntr">generic-tree::
     <br>* McshEngl.HrmnHumnBasopressin:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn006gntr"></a></p>
 
   <section id="idHrmnHmn006dong">
@@ -2361,7 +2370,7 @@
   <p id="idHrmnHmn024gntr">generic-tree::
     <br>* McshEngl.HrmnHumnAdrenocorticotropic:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn024gntr"></a></p>
   <p id="idHrmnHmn024wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000003.last.html#idBdyHmn517wtr">αδενουπόφυση-wtr</a>,
@@ -2410,7 +2419,7 @@
   <p id="idHrmnHmn011gntr">generic-tree::
     <br>* McshEngl.HrmnHumnThyroid_stimulating:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn011gntr"></a></p>
   <p id="idHrmnHmn011wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000003.last.html#idBdyHmn517wtr">αδενουπόφυση-wtr</a>,
@@ -2455,7 +2464,7 @@
   <p id="idHrmnHmn010gntr">generic-tree::
     <br>* McshEngl.HrmnHumnFollicle_stimulating:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn010gntr"></a></p>
   <p id="idHrmnHmn010wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000003.last.html#idBdyHmn517wtr">αδενουπόφυση-wtr</a>,
@@ -2504,7 +2513,7 @@
   <p id="idHrmnHmn026gntr">generic-tree::
     <br>* McshEngl.HrmnHumnLuteinizing:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn026gntr"></a></p>
   <p id="idHrmnHmn026wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000003.last.html#idBdyHmn517wtr">αδενουπόφυση-wtr</a>,
@@ -2552,7 +2561,7 @@
   <p id="idHrmnHmn004gntr">generic-tree::
     <br>* McshEngl.HrmnHumnAntidiuretic:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn004gntr"></a></p>
   <p id="idHrmnHmn004wtr">whole-tree:
     <br>* νευροϋπόφυση⧺cptBdyHmn518⧺,
@@ -2601,7 +2610,7 @@
   <p id="idHrmnHmn016gntr">generic-tree::
     <br>* McshEngl.HrmnHumnMelanotropin:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn016gntr"></a></p>
   <p id="idHrmnHmn016wtr">whole-tree:
     <br>* <a class="clsPreview" href="../dirHlth/McshHlth000003.last.html#idBdyHmn526wtr">διάμεσος-λοβός-wtr</a>,
@@ -2648,7 +2657,7 @@
   <p id="idHrmnHmn013gntr">generic-tree::
     <br>* McshEngl.HrmnHumnThyroxine:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn013gntr"></a></p>
   <p id="idHrmnHmn013wtr">whole-tree:
     <br>* <a class="clsPreview" href="#idGlndHmn012wtr">θυρεοειδής-αδένας-wtr</a>,
@@ -2735,7 +2744,7 @@
   <p id="idHrmnHmn007gntr">generic-tree::
     <br>* McshEngl.HrmnHumnGlucagon:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn007gntr"></a></p>
   <p id="idHrmnHmn007wtr">whole-tree:
     <br>* <a class="clsPreview" href="#idGlndHmn007wtr">πάγκρεας-wtr</a>,
@@ -2785,7 +2794,7 @@
   <p id="idHrmnHmn020gntr">generic-tree::
     <br>* McshEngl.HrmnHumnParathyroid:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn020gntr"></a></p>
   <p id="idHrmnHmn020wtr">whole-tree:
     <br>* <a class="clsPreview" href="#idGlndHmn014wtr">παραθυρεοειδής-ανενας-wtr</a>,
@@ -2848,7 +2857,7 @@
   <p id="idHrmnHmn038gntr">generic-tree::
     <br>* McshEngl.HrmnHumnEstradiol:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn038gntr"></a></p>
   <p id="idHrmnHmn038wtr">whole-tree:
     <br>* <a class="clsPreview" href="#idGlndHmn006wtr">ωοθήκες-wtr</a>,
@@ -2890,7 +2899,7 @@
   <p id="idHrmnHmn008gntr">generic-tree::
     <br>* McshEngl.HrmnHumnFemale:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn008gntr"></a></p>
 
   <section id="idHrmnHmn019">
@@ -2913,7 +2922,7 @@
   <p id="idHrmnHmn019gntr">generic-tree::
     <br>* McshEngl.HrmnHumnEstrogen:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idHrmnHmn019gntr"></a></p>
 
@@ -2958,7 +2967,7 @@
   <p id="idHrmnHmn021gntr">generic-tree::
     <br>* McshEngl.HrmnHumnProgesterone:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <a class="clsHide" href="#idHrmnHmn021gntr"></a></p>
 
   <section id="idHrmnHmn021dong">
@@ -3008,7 +3017,7 @@
   <p id="idHrmnHmn002gntr">generic-tree::
     <br>* McshEngl.HrmnHumnMale:generic,
     <br>===
-    <br>* hormoneHumn:generic!@McshOgm000005#idHrmnHmn,
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idHrmnHmn002gntr"></a></p>
   <p id="idHrmnHmn002sptr">specific-tree::
@@ -3129,7 +3138,13 @@
     <br>* McshEngl.HrmnAndrogen:generic,
     <br>===
     <br>* hormoneSex-steroid,
-    <br>* medication:generic!@McshHlth000014#idOverview,
+    <br>* human-medication!@McshHlth000014#idOverview,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* human-male-hormone!@McshOgm000005#idHrmnHmn002,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* human-hormone!@McshOgm000005#idHrmnHmn,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idHrmnHmn003gntr"></a></p>
   <p id="idHrmnHmn003sptr">specific-tree::
@@ -3168,7 +3183,10 @@
   <p id="idHrmnHmn023gntr">generic-tree::
     <br>* McshEngl.hrmnTestosterone:generic,
     <br>===
-    <br>* HrmnHumnMale:generic!@McshOgm000005#idHrmnHmn002,
+    <br>* human-male-hormone!@McshOgm000005#idHrmnHmn002,
+    <br>===
+    <br>* hormoneHumn.androgen_003!@McshOgm000005#idHrmnHmn003,
+    <br>* ...entity:generic,
     </p>
   <p id="idHrmnHmn023wtr">whole-tree-of-hrmnTestosterone::
     <br>* <a class="clsPreview" href="#idGlndHmn017wtr">όρχεις-wtr</a>,
@@ -3917,7 +3935,7 @@
   <p id="idFldHmn001gntr">generic-tree::
     <br>* McshEngl.bloodHumn:generic,
     <br>===
-    <br>* TissConnective:generic!@McshHlth000002#idTissHmn005,
+    <br>* tissue.connective_005!@McshHlth000002#idTissHmn005,
     <br>* ...entity:generic,
     <br>===
     <br>"το αίμα είναι ένα ειδικό είδος συνδετικού ιστού"

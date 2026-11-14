@@ -1,5 +1,5 @@
 [
-  [";lagEngl08eic","H|h",11963,"2026-11-14"],
+  [";lagEngl08eic","H|h",11964,"2026-11-14"],
   ["H1-Hydrogen-ChmcElry!⇒ChmcElrH1","dirNtr/McshNtr000007.last.html#idChmElrHydrogen"],
   ["HBS'(household-budget-survey-of-Eu)","dirStn/McshStn000020.last.html#idEuzzadmninfsyssHbt"],
   ["HBS@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrHBS"],
@@ -4562,6 +4562,7 @@
   ["Hmmdvbmb:generic","dirLag/McshLag000007.last.html#idLHmnmverbmbrgntr"],
   ["Hmmdvbmbauxi!=auxiliary-part-of-verb","dirLag/McshLag000007.last.html#idLHmnmverbmbrprtB"],
   ["Hmmdvbmbform!=form-part-of-Hmmdvbmb","dirLag/McshLag000007.last.html#idLHmnmverbmbrprtA"],
+  ["Hmmdvbmbform.specific","dirLag/McshLag000007.last.html#idLHmnmverbmbrprtAsptr"],
   ["Hmmdvbsynomind!=synomind-of-verb","dirLag/McshLag000007.last.html#idLHmnmverbsncpt"],
   ["Hmmdvbsynomind'generic_specific_tree","dirLag/McshLag000007.last.html#idLHmnmverbsncptgstr"],
   ["Hmmdvbsynomind.adjective","dirLag/McshLag000007.last.html#idLHmnmverbadj"],

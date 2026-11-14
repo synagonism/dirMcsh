@@ -1,5 +1,5 @@
 [
-  [";lagEngl14en","N|n",2669,"2026-11-14"],
+  [";lagEngl14en","N|n",2670,"2026-11-14"],
   ["N-11@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrN-11"],
   ["N-Quads-Rdfzlago!⇒N_Quads_Rdfzlago","dirTchInf/McshTchInf000039.last.html#idLKnlg014Nqds"],
   ["N-Triple-Rdfzlago!⇒N_Triple_Rdfzlago","dirTchInf/McshTchInf000039.last.html#idLKnlg014Ntrpl"],
@@ -952,6 +952,7 @@
   ["nameShort.acronym_007!⇒nameAcronym","dirLag/McshLag000007.last.html#idLHmnmname007"],
   ["nameShort.initialism!⇒nameInitialism","dirLag/McshLag000007.last.html#idLHmnmname008"],
   ["nameShort.initialism_008!⇒nameInitialism","dirLag/McshLag000007.last.html#idLHmnmname008"],
+  ["nameShort.specific","dirLag/McshLag000007.last.html#idLHmnmname004sptr"],
   ["nameShort.unlinked!⇒abrn","dirLag/McshLag000016.last.html#idOverview"],
   ["nameShort.wordMany!⇒nameShortWordMany","dirLag/McshLag000007.last.html#idLHmnmname010"],
   ["nameShort.wordMany_010!⇒nameShortWordMany","dirLag/McshLag000007.last.html#idLHmnmname010"],

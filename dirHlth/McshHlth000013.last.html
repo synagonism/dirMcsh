@@ -376,7 +376,10 @@
   <p id="idFoodHmnatt003gntr">generic-tree::
     <br>* McshEngl.food_nutrient:generic,
     <br>===
-    <br>* nutrient:generic!@McshHlth000002#idBdyHmnatt015,
+    <br>* nutrient-of-bodyHumn!@McshHlth000002#idBdyHmnatt015,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* food'ingredient!@McshHlth000013#idFoodHmnatt001,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmnatt003gntr"></a></p>
   <p id="idFoodHmnatt003sptr">specific-tree::
@@ -895,7 +898,19 @@
   <p id="idFoodHmngntr">generic-tree::
     <br>* McshEngl.food:generic,
     <br>===
-    <br>* satisfier:generic!@McshStn000010#idOverview,
+    <br>* human-satisfier!@McshStn000010#idOverview,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* nutrient-of-bodyHumn!@McshHlth000002#idBdyHmnatt015,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* SystMolsHumn.substance!@McshOgm000005#idSysMolsHmn027,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* substanceHlth!@McshHlth000008#idHlthHmnsbtc,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* food-of-bio!@McshHlth000012,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmngntr"></a></p>
   <p id="idFoodHmnsptr">specific-tree::
@@ -1202,7 +1217,7 @@
   <p id="idFoodHmn049gntr">generic-tree::
     <br>* McshEngl.foodNatural:generic,
     <br>===
-    <br>* food:generic!@McshHlth000013#idOverview,
+    <br>* human-food!@McshHlth000013#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn049gntr"></a></p>
   <p id="idFoodHmn049sptr">specific-tree::
@@ -1493,7 +1508,7 @@
   <p id="idFoodHmn050gntr">generic-tree::
     <br>* McshEngl.foodCooked:generic,
     <br>===
-    <br>* food:generic!@McshHlth000013#idOverview,
+    <br>* human-food!@McshHlth000013#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn050gntr"></a></p>
   <p id="idFoodHmn050sptr">specific-tree::
@@ -1914,7 +1929,7 @@
   <p id="idFoodHmn004gntr">generic-tree::
     <br>* McshEngl.foodBaked:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn004gntr"></a></p>
   </section>
@@ -3021,7 +3036,10 @@
   <p id="idFoodHmn014gntr">generic-tree::
     <br>* McshEngl.drinkCocoa:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.017_drink!@McshHlth000013#idFoodHmn017,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn014ingredient">
@@ -3209,7 +3227,7 @@
   <p id="idFoodHmn026gntr">generic-tree::
     <br>* McshEngl.drinkCoffee:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn026gntr"></a></p>
   <p id="idFoodHmn026sptr">specific-tree::
@@ -3752,7 +3770,7 @@
     <br>* McshEngl.drinkWater:generic,
     <br>===
     <br>* water-general,
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn032gntr"></a></p>
   <p id="idFoodHmn032sptr">specific-tree::
@@ -4014,7 +4032,7 @@
   <p id="idFoodHmn152gntr">generic-tree::
     <br>* McshEngl.drinkWine:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn152gntr"></a></p>
   <p id="idFoodHmn152sptr">specific-tree::
@@ -4501,7 +4519,7 @@
   <p id="idFoodHmn191gntr">generic-tree::
     <br>* McshEngl.foodMilk:generic,
     <br>===
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn191gntr"></a></p>
   <p id="idFoodHmn191sptr">specific-tree::
@@ -4587,7 +4605,7 @@
   <p id="idFoodHmn039gntr">generic-tree::
     <br>* McshEngl.foodFlvrNtrlDriedNo:generic,
     <br>===
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn039gntr"></a></p>
   <p id="idFoodHmn039sptr">specific-tree::
@@ -4869,7 +4887,7 @@
   <p id="idFoodHmn043gntr">generic-tree::
     <br>* McshEngl.foodFried:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn043gntr"></a></p>
   </section>
@@ -5902,7 +5920,7 @@
   <p id="idFoodHmn079gntr">generic-tree::
     <br>* McshEngl.foodVegetable:generic,
     <br>===
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn079gntr"></a></p>
 
@@ -6177,7 +6195,7 @@
   <p id="idFoodHmn082gntr">generic-tree::
     <br>* McshEngl.foodCondiment:generic,
     <br>===
-    <br>* food:generic!@McshHlth000013#idOverview,
+    <br>* human-food!@McshHlth000013#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn082gntr"></a></p>
   <p id="idFoodHmn082sptr">specific-tree::
@@ -6509,7 +6527,7 @@
   <p id="idFoodHmn091gntr">generic-tree::
     <br>* McshEngl.foodOlives:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn091gntr"></a></p>
   <p id="idFoodHmn091sptr">specific-tree::
@@ -6600,7 +6618,7 @@
   <p id="idFoodHmn092gntr">generic-tree::
     <br>* McshEngl.cheese:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn092gntr"></a></p>
 
@@ -7014,7 +7032,7 @@
   <p id="idFoodHmn106gntr">generic-tree::
     <br>* McshEngl.foodFruit:generic,
     <br>===
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn106gntr"></a></p>
   <p id="idFoodHmn106sptr">specific-tree::
@@ -7724,7 +7742,7 @@
   <p id="idFoodHmn120gntr">generic-tree::
     <br>* McshEngl.foodBread:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn120gntr"></a></p>
   <p id="idFoodHmn120sptr">specific-tree::
@@ -7754,10 +7772,10 @@
   <p id="idFoodHmn122gntr">generic-tree::
     <br>* McshEngl.foodPilaf:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <br>===
-    <br>* foodSoup:generic!@McshHlth000013#idFoodHmn232,
+    <br>* food.soup_232!@McshHlth000013#idFoodHmn232,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn122gntr"></a></p>
 
@@ -7851,7 +7869,7 @@
   <p id="idFoodHmn123gntr">generic-tree::
     <br>* McshEngl.foodRice_soup:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn123gntr"></a></p>
 
@@ -7911,7 +7929,7 @@
   <p id="idFoodHmn127gntr">generic-tree::
     <br>* McshEngl.foodOctopus_with_barley_shaped_pasta:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn127gntr"></a></p>
 
@@ -7949,7 +7967,7 @@
   <p id="idFoodHmn128gntr">generic-tree::
     <br>* McshEngl.foodMeatball:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn128gntr"></a></p>
 
@@ -8006,7 +8024,7 @@
   <p id="idFoodHmn129gntr">generic-tree::
     <br>* McshEngl.foodAubergines_shoes:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn129gntr"></a></p>
 
@@ -8060,7 +8078,7 @@
   <p id="idFoodHmn130gntr">generic-tree::
     <br>* McshEngl.foodMousaka:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn130gntr"></a></p>
 
@@ -8132,7 +8150,7 @@
   <p id="idFoodHmn131gntr">generic-tree::
     <br>* McshEngl.BigMeatBall:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn131gntr"></a></p>
   <p id="idFoodHmn131sptr">specific-tree::
@@ -8162,7 +8180,7 @@
   <p id="idFoodHmn132gntr">generic-tree::
     <br>* McshEngl.foodPastitsio:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn132gntr"></a></p>
 
@@ -8221,7 +8239,7 @@
   <p id="idFoodHmn133gntr">generic-tree::
     <br>* McshEngl.foodSpaghetti:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn133gntr"></a></p>
 
@@ -8290,7 +8308,7 @@
   <p id="idFoodHmn135gntr">generic-tree::
     <br>* McshEngl.foodSouffle_spaghetti:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn135gntr"></a></p>
 
@@ -8359,7 +8377,7 @@
   <p id="idFoodHmn136gntr">generic-tree::
     <br>* McshEngl.foodCream_flower_maize:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn136gntr"></a></p>
 
@@ -8412,7 +8430,7 @@
   <p id="idFoodHmn137gntr">generic-tree::
     <br>* McshEngl.foodStuffed_tomatoes:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn137gntr"></a></p>
 
@@ -8481,7 +8499,7 @@
   <p id="idFoodHmn138gntr">generic-tree::
     <br>* McshEngl.foodSayanaki:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn138gntr"></a></p>
 
@@ -8532,7 +8550,7 @@
   <p id="idFoodHmn139gntr">generic-tree::
     <br>* McshEngl.foodSkordalia:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn139gntr"></a></p>
 
@@ -8607,7 +8625,7 @@
   <p id="idFoodHmn140gntr">generic-tree::
     <br>* McshEngl.foodTaramosalata:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn140gntr"></a></p>
 
@@ -8656,7 +8674,7 @@
   <p id="idFoodHmn141gntr">generic-tree::
     <br>* McshEngl.foodBechamel:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn141gntr"></a></p>
 
@@ -8712,7 +8730,10 @@
   <p id="idFoodHmn142gntr">generic-tree::
     <br>* McshEngl.foodFrumenty:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.soup_232!@McshHlth000013#idFoodHmn232,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn142ingredient">
@@ -8775,7 +8796,7 @@
   <p id="idFoodHmn115gntr">generic-tree::
     <br>* McshEngl.foodLentils:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn115gntr"></a></p>
 
@@ -8820,7 +8841,7 @@
   <p id="idFoodHmn182gntr">generic-tree::
     <br>* McshEngl.foodBean_soup:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn182gntr"></a></p>
 
@@ -8896,7 +8917,7 @@
   <p id="idFoodHmn143gntr">generic-tree::
     <br>* McshEngl.foodMeat:generic,
     <br>===
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn143gntr"></a></p>
   <p id="idFoodHmn143sptr">specific-tree::
@@ -8970,7 +8991,10 @@
   <p id="idFoodHmn144gntr">generic-tree::
     <br>* McshEngl.meatReddish:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.143_meat!@McshHlth000013#idFoodHmn143,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn144ingredient">
@@ -9197,7 +9221,10 @@
   <p id="idFoodHmn147gntr">generic-tree::
     <br>* McshEngl.meatLemonish:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.143_meat!@McshHlth000013#idFoodHmn143,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn147recipe">
@@ -9270,7 +9297,10 @@
   <p id="idFoodHmn148gntr">generic-tree::
     <br>* McshEngl.meatSteak:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* food.143_meat!@McshHlth000013#idFoodHmn143,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn148gntr"></a></p>
   <p id="idFoodHmn148sptr">specific-tree::
@@ -9353,7 +9383,10 @@
   <p id="idFoodHmn149gntr">generic-tree::
     <br>* McshEngl.foodTas_kebab:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.143_meat!@McshHlth000013#idFoodHmn143,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn149ingredient">
@@ -9582,7 +9615,7 @@
   <p id="idFoodHmn151gntr">generic-tree::
     <br>* McshEngl.meatHashed:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn151gntr"></a></p>
 
@@ -9648,7 +9681,7 @@
   <p id="idFoodHmn176gntr">generic-tree::
     <br>* McshEngl.foodSoupKnorr:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn176gntr"></a></p>
   </section>
@@ -9671,7 +9704,7 @@
   <p id="idFoodHmn185gntr">generic-tree::
     <br>* McshEngl.foodSoupAvgolemono:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn185gntr"></a></p>
 
@@ -9734,7 +9767,7 @@
   <p id="idFoodHmn177gntr">generic-tree::
     <br>* McshEngl.foodOmelet:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn177gntr"></a></p>
 
@@ -9771,7 +9804,7 @@
   <p id="idFoodHmn178gntr">generic-tree::
     <br>* McshEngl.foodPotatosBloom:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn178gntr"></a></p>
 
@@ -9807,7 +9840,7 @@
   <p id="idFoodHmn179gntr">generic-tree::
     <br>* McshEngl.foodPotatosLemonish:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn179gntr"></a></p>
 
@@ -9844,7 +9877,7 @@
   <p id="idFoodHmn184gntr">generic-tree::
     <br>* McshEngl.foodSauceTomato:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn184gntr"></a></p>
 
@@ -9890,7 +9923,7 @@
   <p id="idFoodHmn186gntr">generic-tree::
     <br>* McshEngl.meatLiver:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn186gntr"></a></p>
   <p id="idFoodHmn186sptr">specific-tree::
@@ -9920,7 +9953,7 @@
   <p id="idFoodHmn187gntr">generic-tree::
     <br>* McshEngl.foodSauceTzatziki:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn187gntr"></a></p>
 
@@ -9958,7 +9991,7 @@
   <p id="idFoodHmn189gntr">generic-tree::
     <br>* McshEngl.foodOctopusVinegarish:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn189gntr"></a></p>
 
@@ -9995,7 +10028,7 @@
   <p id="idFoodHmn193gntr">generic-tree::
     <br>* McshEngl.foodOnion:generic,
     <br>===
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn193gntr"></a></p>
 
@@ -10077,7 +10110,7 @@
   <p id="idFoodHmn194gntr">generic-tree::
     <br>* McshEngl.foodOilOlive:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn194gntr"></a></p>
   <p id="idFoodHmn194sptr">specific-tree::
@@ -10145,7 +10178,7 @@
   <p id="idFoodHmn195gntr">generic-tree::
     <br>* McshEngl.foodTomato:generic,
     <br>===
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn195gntr"></a></p>
 
@@ -10187,7 +10220,7 @@
   <p id="idFoodHmn196gntr">generic-tree::
     <br>* McshEngl.foodEgg:generic,
     <br>===
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn196gntr"></a></p>
 
@@ -10293,7 +10326,7 @@
   <p id="idFoodHmn197gntr">generic-tree::
     <br>* McshEngl.foodYogurt:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn197gntr"></a></p>
 
@@ -10335,7 +10368,7 @@
   <p id="idFoodHmn198gntr">generic-tree::
     <br>* McshEngl.meatLambSpit:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn198gntr"></a></p>
 
@@ -10376,7 +10409,7 @@
   <p id="idFoodHmn199gntr">generic-tree::
     <br>* McshEngl.foodSoupNettle:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn199gntr"></a></p>
 
@@ -10456,7 +10489,7 @@
   <p id="idFoodHmn200gntr">generic-tree::
     <br>* McshEngl.foodSquid:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn200gntr"></a></p>
 
@@ -10572,7 +10605,7 @@
   <p id="idFoodHmn201gntr">generic-tree::
     <br>* McshEngl.foodDessert:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn201gntr"></a></p>
   <p id="idFoodHmn201sptr">specific-tree::
@@ -10761,7 +10794,7 @@
   <p id="idFoodHmn204gntr">generic-tree::
     <br>* McshEngl.dessertJamCitrus:generic,
     <br>===
-    <br>* foodDessert:generic!@McshHlth000013#idFoodHmn201,
+    <br>* food.sweet_201!@McshHlth000013#idFoodHmn201,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn204gntr"></a></p>
 
@@ -10820,7 +10853,7 @@
   <p id="idFoodHmn205gntr">generic-tree::
     <br>* McshEngl.dessertHhalvaIcecream:generic,
     <br>===
-    <br>* foodDessert:generic!@McshHlth000013#idFoodHmn201,
+    <br>* food.sweet_201!@McshHlth000013#idFoodHmn201,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn205gntr"></a></p>
 
@@ -10980,7 +11013,7 @@
   <p id="idFoodHmn206gntr">generic-tree::
     <br>* McshEngl.foodLemon:generic,
     <br>===
-    <br>* foodNatural:generic!@McshHlth000013#idFoodHmn049,
+    <br>* food.049_natural!@McshHlth000013#idFoodHmn049,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn206gntr"></a></p>
   <p id="idFoodHmn206sptr">specific-tree::
@@ -11024,7 +11057,7 @@
   <p id="idFoodHmn207gntr">generic-tree::
     <br>* McshEngl.foodSalad:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn207gntr"></a></p>
   <p id="idFoodHmn207sptr">specific-tree::
@@ -11064,7 +11097,10 @@
   <p id="idFoodHmn183gntr">generic-tree::
     <br>* McshEngl.foodSaladLettuce:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.207_salad!@McshHlth000013#idFoodHmn207,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn183recipe">
@@ -11099,7 +11135,10 @@
   <p id="idFoodHmn188gntr">generic-tree::
     <br>* McshEngl.foodSaladBean:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.207_salad!@McshHlth000013#idFoodHmn207,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn188recipe">
@@ -11135,7 +11174,10 @@
   <p id="idFoodHmn124gntr">generic-tree::
     <br>* McshEngl.foodGreens:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.207_salad!@McshHlth000013#idFoodHmn207,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn124recipe">
@@ -11235,7 +11277,10 @@
   <p id="idFoodHmn208gntr">generic-tree::
     <br>* McshEngl.foodSaladTahini:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.207_salad!@McshHlth000013#idFoodHmn207,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn208ingredient">
@@ -11296,7 +11341,10 @@
   <p id="idFoodHmn180gntr">generic-tree::
     <br>* McshEngl.foodSaladPotato:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>===
+    <br>* food.207_salad!@McshHlth000013#idFoodHmn207,
+    <br>* ...entity:generic,
     </p>
 
   <section id="idFoodHmn180recipe">
@@ -11382,7 +11430,10 @@
   <p id="idFoodHmn181gntr">generic-tree::
     <br>* McshEngl.foodPepper:generic,
     <br>===
-    <br>* foodCooked:generic!@McshHlth000013#idFoodHmn050,
+    <br>* food.050_naturalNo!@McshHlth000013#idFoodHmn050,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* food.207_salad!@McshHlth000013#idFoodHmn207,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idFoodHmn181gntr"></a></p>
   <p id="idFoodHmn181sptr">specific-tree::

@@ -320,7 +320,7 @@
   <p id="idSteemnodWtnsgntr">generic-tree::
     <br>* McshEngl.Stemwitness:generic,
     <br>===
-    <br>* BkcnnodeApdr:generic!@McshTchInf000016#idDbcnodApdr,
+    <br>* blockchain-node.appender!@McshTchInf000016#idDbcnodApdr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemnodWtnsgntr"></a></p>
   </section>
@@ -732,7 +732,10 @@
   <p id="idSteemtkngntr">generic-tree::
     <br>* McshEngl.StemexvuC:generic,
     <br>===
-    <br>* Bkcnasset:generic!@McshTchInf000016#idDbcevu,
+    <br>* blockchain-asset!@McshTchInf000016#idDbcevu,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* asset-of--Steem-net!@McshTchInf000024#idSteemast,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemtkngntr"></a></p>
   <p id="idSteemtknsptr">specific-tree::
@@ -1850,7 +1853,7 @@
     <br>* McshEngl.Stemprgm:generic,
     <br>* McshEngl.Steem-program:generic,
     <br>===
-    <br>* Bkcnprgm:generic!@McshTchInf000016#idDbcpgm,
+    <br>* program-of-AgntBkcn!@McshTchInf000016#idDbcpgm,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteempgmgntr"></a></p>
   <p id="idSteempgmsptr">specific-tree::
@@ -1896,9 +1899,9 @@
   <p id="idSteemdapgntr">generic-tree::
     <br>* McshEngl.Stemdapp:generic,
     <br>===
-    <br>* Steem-program:generic!@McshTchInf000024#idSteempgm,
+    <br>* Steem_net'program!@McshTchInf000024#idSteempgm,
     <br>===
-    <br>* Bkcndapp:generic!@McshTchInf000016#idDbcapp,
+    <br>* Dapp-of-AgntBkcn!@McshTchInf000016#idDbcapp,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemdapgntr"></a></p>
   <p id="idSteemdapsptr">specific-tree::
@@ -1994,7 +1997,7 @@
   <p id="idSteempgmCliwltgntr">generic-tree::
     <br>* McshEngl.StemwalletCli:generic,
     <br>===
-    <br>* Stemwallet:generic!@McshTchInf000024#idSteemwlt,
+    <br>* Steem-net'wallet!@McshTchInf000024#idSteemwlt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteempgmCliwltgntr"></a></p>
   </section>
@@ -3557,7 +3560,7 @@
   <p id="idSteemitactgntr">generic-tree::
     <br>* McshEngl.Steemit'account:generic,
     <br>===
-    <br>* Stemaccount:generic!@McshTchInf000024#idSteemacnt,
+    <br>* Steem_net'account!@McshTchInf000024#idSteemacnt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemitactgntr"></a></p>
   </section>
@@ -3729,10 +3732,10 @@
   <p id="idSteemitgntr">generic-tree::
     <br>* McshEngl.Steemit:generic,
     <br>===
-    <br>* Agntdapp:generic!@McshTchInf000015#idDapp,
+    <br>* decentralized-application!@McshTchInf000015#idDapp,
     <br>===
     <br>* blogging-platform,
-    <br>* Stemdapp:generic!@McshTchInf000024#idSteemdap,
+    <br>* Steem-program.APPLICATION!@McshTchInf000024#idSteemdap,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemitgntr"></a></p>
   <p id="idSteemitsptr">specific-tree::
@@ -3779,7 +3782,7 @@
   <p id="idSteemwltgntr">generic-tree::
     <br>* McshEngl.Stemwallet:generic,
     <br>===
-    <br>* Bkcnwallet:generic!@McshTchInf000016#idDbcwlt,
+    <br>* wallet-of--blockchain-net!@McshTchInf000016#idDbcwlt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemwltgntr"></a></p>
   <p id="idSteemwltsptr">specific-tree::
@@ -3841,7 +3844,7 @@
   <p id="idSteemognExggntr">generic-tree::
     <br>* McshEngl.Stemexchange:generic,
     <br>===
-    <br>* Agntexchange:generic!@McshTchInf000015#idAlgntx,
+    <br>* Agntogzn.EXCHANGE!@McshTchInf000015#idAlgntx,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemognExggntr"></a></p>
   <p id="idSteemognExgwpa">addressWpg::
@@ -3907,7 +3910,7 @@
   <p id="idSteemblkgntr">generic-tree::
     <br>* McshEngl.Stemblock:generic,
     <br>===
-    <br>* Bkcnblock:generic!@McshTchInf000016#idDbcblk,
+    <br>* block-of-blockchain!@McshTchInf000016#idDbcblk,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemblkgntr"></a></p>
 
@@ -4048,7 +4051,7 @@
   <p id="idSteemtxgntr">generic-tree::
     <br>* McshEngl.Stemtx:generic,
     <br>===
-    <br>* Bkcntx:generic!@McshTchInf000016#idDbctx,
+    <br>* transaction-of-Bkcnchain!@McshTchInf000016#idDbctx,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemtxgntr"></a></p>
 
@@ -4158,7 +4161,7 @@
   <p id="idSteemchngntr">generic-tree::
     <br>* McshEngl.Stemchain:generic,
     <br>===
-    <br>* Bkcnchain:generic!@McshTchInf000016#idDbcdat,
+    <br>* blockchain-of-AgntBkcn!@McshTchInf000016#idDbcdat,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemchngntr"></a></p>
   <p id="idSteemchnsptr">specific-tree::
@@ -4265,7 +4268,7 @@
     <br>* McshEngl.Steem_net:generic,
     <br>* McshEngl.Steem-net:generic,
     <br>===
-    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
+    <br>* blockchain-Algonet!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idSteemgntr"></a></p>
   <p id="idSteemsptr">specific-tree::

@@ -1,5 +1,5 @@
 [
-  [";lagEngl19es_1","S..stdRfc",31651,"2026-11-14"],
+  [";lagEngl19es_1","S..stdRfc",31653,"2026-11-14"],
   ["S!⇒science","dirEdu/McshEdu000002.last.html#idOverview"],
   ["S16-Sulfur-ChmcElry!⇒ChmcElrS16","dirNtr/McshNtr000007.last.html#idChmElrSulfur"],
   ["S80/S20_ratio@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrS80/S20_ratio"],
@@ -22527,6 +22527,7 @@
   ["Sweblago.SHACL","dirTchInf/McshTchInf000039.last.html#idLKnlg012shcl"],
   ["Sweblago.SHACL_","dirTchInf/McshTchInf000039.last.html#idLKnlg012shcl"],
   ["Sweblago.SKOS!⇒Skoslago","dirTchInf/McshTchInf000039.last.html#idLKnlg030"],
+  ["Sweblago.SKOS_!⇒Skoslago","dirTchInf/McshTchInf000039.last.html#idLKnlg030"],
   ["Sweblago.SPARQL!⇒lagoSprq","dirTchInf/McshTchInf000039.last.html#idLKnlg013"],
   ["Sweblago.SPARQL_!⇒lagoSprq","dirTchInf/McshTchInf000039.last.html#idLKnlg013"],
   ["Sweblago.schema.org!⇒scmo","dirStn/McshStn000023.last.html#idOverview"],
@@ -27476,6 +27477,7 @@
   ["sentencePolysemous.semantic","dirLag/McshLag000007.last.html#idLHmnmsntcSmsMnSmc"],
   ["sentencePolysemous.syntactic","dirLag/McshLag000007.last.html#idLHmnmsntcSmsMnStc"],
   ["sentenceRule","dirLag/McshLag000007.last.html#idLHmnmsntcRule"],
+  ["sentenceRule.specific","dirLag/McshLag000007.last.html#idLHmnmsntcRulesptr"],
   ["sentenceSemo!⇒Hmmdsemusent","dirLag/McshLag000007.last.html#idLHmnmsmssntc"],
   ["sentenceSms!⇒Hmmdsemusent","dirLag/McshLag000007.last.html#idLHmnmsmssntc"],
   ["sentenceSngo!⇒Sngusent","dirLag/McshLag000010.last.html#idL0014sntc"],

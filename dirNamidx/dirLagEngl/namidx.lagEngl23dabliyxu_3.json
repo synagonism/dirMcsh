@@ -1,5 +1,5 @@
 [
-  [";lagEngl23dabliyxu_3","wordElln.ν..x",15493,"2026-11-14"],
+  [";lagEngl23dabliyxu_3","wordElln.ν..x",15494,"2026-11-14"],
   ["wordElln.νάβα-η/náva-i/@wordElln","dirWrdidx/dirLagElln/McshWrdidxElln13ni.last.html#idWrdEllnna9va-i"],
   ["wordElln.νάζι-το/názi-to-s/@wordElln","dirWrdidx/dirLagElln/McshWrdidxElln13ni.last.html#idWrdEllnna9zi-to-s"],
   ["wordElln.νάκα-η/náka-i/@wordElln","dirWrdidx/dirLagElln/McshWrdidxElln13ni.last.html#idWrdEllnna9ka-i"],
@@ -15221,6 +15221,7 @@
   ["wordaryEllnb!⇒wordSetElln","dirLag/McshLag000025.last.html#idOverview"],
   ["wordaryEngl!⇒wordSetEngl","dirLag/McshLag000024.last.html#idOverview"],
   ["wordaryEspo","dirLag/McshLag000012.last.html#idLEspowrdAgg"],
+  ["wordaryEspo:generic","dirLag/McshLag000012.last.html#idLEspowrdAgggntr"],
   ["wordaryZhon!⇒wordSetZhon","dirLag/McshLag000023.last.html#idOverview"],
   ["wordary|nameary-of-English-language!⇒wordSetEngl","dirLag/McshLag000024.last.html#idOverview"],
   ["wordnet!⇒Wnkm","dirTchInf/McshTchInf000039.last.html#idLKnlgmngr018"],
@@ -15279,7 +15280,7 @@
   ["workload@schema.org","dirStn/McshStn000023.last.html#idScmoworkload"],
   ["workplace-bulling","dirHmn/McshHmn000002.last.html#idHmnatt029001"],
   ["workplace-of-job","dirStn/McshStn000011.last.html#idJobatt008"],
-  ["workplaceHomepage@foaf","dirTchInf/McshTchInf000039.last.html#idFoafworkplaceHomepage"],
+  ["workplaceHomepage@foaf","dirTchInf/McshTchInf000039.last.html#idFoafworkInfoHomepage"],
   ["works!~nounEnglC1.works'1","dirLag/McshLag000024.last.html#idLEnglnounC1-249"],
   ["works!~nounEnglC1.works'2","dirLag/McshLag000024.last.html#idLEnglnounC1-249"],
   ["works!~verbEnglA1.work'2","dirLag/McshLag000024.last.html#idLEnglverbA1-63"],

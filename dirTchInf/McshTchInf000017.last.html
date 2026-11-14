@@ -1740,8 +1740,14 @@
   <p id="idBtcexvuCgntr">generic-tree::
     <br>* McshEngl.Btcncevu:generic,
     <br>===
-    <br>* appending_asset:generic!@McshTchInf000016#idDbcexvuC,
+    <br>* appending--blockchain-asset!@McshTchInf000016#idDbcexvuC,
     <br>* global-digital-currency,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* Agntasset.currency!@McshTchInf000015#idAlgntevuMoe,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* blockchain-asset!@McshTchInf000016#idDbcevu,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcexvuCgntr"></a></p>
   <p id="idBtcexvuCsptr">specific-tree::
@@ -2455,7 +2461,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcprlgntr">generic-tree::
     <br>* McshEngl.Btcnproto:generic,
     <br>===
-    <br>* blockchain-protocol:generic!@McshTchInf000016#idDbcprl,
+    <br>* protocol-of-AgntBkcn!@McshTchInf000016#idDbcprl,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcprlgntr"></a></p>
   <p id="idBtcprlsptr">specific-tree::
@@ -3390,7 +3396,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcwltgntr">generic-tree::
     <br>* McshEngl.Btcnwallet:generic,
     <br>===
-    <br>* Bkcnwallet:generic!@McshTchInf000016#idDbcwlt,
+    <br>* wallet-of--blockchain-net!@McshTchInf000016#idDbcwlt,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcwltgntr"></a></p>
   <p id="idBtcwltsptr">specific-tree::
@@ -3585,7 +3591,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcwltPgmgntr">generic-tree::
     <br>* McshEngl.BtcnwalletPrgm:generic,
     <br>===
-    <br>* Btcnprgm:generic!@McshTchInf000017#idBtcpgm,
+    <br>* Bitcoin-program!@McshTchInf000017#idBtcpgm,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcwltPgmgntr"></a></p>
   <p id="idBtcwltPgmsptr">specific-tree::
@@ -4487,6 +4493,9 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcpbmgntr">generic-tree::
     <br>* McshEngl.BtcnevalnCon:generic,
     <br>===
+    <br>* ...entity:generic,
+    <br>===
+    <br>* problem-of-blockchain!@McshTchInf000016#idDbcpbm,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcpbmgntr"></a></p>
   <p id="idBtcpbmsptr">specific-tree::
@@ -6173,6 +6182,9 @@ double AttackerSuccessProbability(double q, int z)
     <br>* McshEngl.Btcnblock:generic,
     <br>===
     <br>* file,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* block-of-blockchain!@McshTchInf000016#idDbcblk,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcblkgntr"></a></p>
   <p id="idBtcblksptr">specific-tree::
@@ -7940,6 +7952,9 @@ double AttackerSuccessProbability(double q, int z)
     <br>* McshEngl.Btcntx:generic,
     <br>===
     <br>* ...entity:generic,
+    <br>===
+    <br>* transaction-of-Bkcnchain!@McshTchInf000016#idDbctx,
+    <br>* ...entity:generic,
     <a class="clsHide" href="#idBtctxgntr"></a></p>
   <p id="idBtctxsptr">specific-tree::
     <br>* Đbtc-tx.specific,
@@ -9032,7 +9047,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcbcngntr">generic-tree::
     <br>* McshEngl.Btcnchain:generic,
     <br>===
-    <br>* Bkcnchain:generic!@McshTchInf000016#idDbcdat,
+    <br>* blockchain-of-AgntBkcn!@McshTchInf000016#idDbcdat,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcbcngntr"></a></p>
   <p id="idBtcbcnsptr">specific-tree::
@@ -9218,7 +9233,10 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcsvcIdngntr">generic-tree::
     <br>* McshEngl.BtcnsrvcId:generic,
     <br>===
-    <br>* Did:generic!@McshTchInf000015#idAlgntsvcIdn,
+    <br>* decentralized-identifier!@McshTchInf000015#idAlgntsvcIdn,
+    <br>* ...entity:generic,
+    <br>===
+    <br>* Bitcoin-service!@McshTchInf000017#idBtcnetsvc,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcsvcIdngntr"></a></p>
   </section>
@@ -9239,7 +9257,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcsvcNtzngntr">generic-tree::
     <br>* McshEngl.AgntBtcn_notarization:generic,
     <br>===
-    <br>* Btcnservice:generic!@McshTchInf000017#idBtcnetsvc,
+    <br>* Bitcoin-service!@McshTchInf000017#idBtcnetsvc,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcsvcNtzngntr"></a></p>
   </section>
@@ -9300,7 +9318,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcsvcPmntgntr">generic-tree::
     <br>* McshEngl.Btcnsrvc.PAYMENT:generic,
     <br>===
-    <br>* Btcnservice:generic!@McshTchInf000017#idBtcnetsvc,
+    <br>* Bitcoin-service!@McshTchInf000017#idBtcnetsvc,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcsvcPmntgntr"></a></p>
   <p id="idBtcsvcPmntsptr">specific-tree::
@@ -9365,7 +9383,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcsvcShpggntr">generic-tree::
     <br>* McshEngl.Btcnsrvc.shopping:generic,
     <br>===
-    <br>* Btcnservice:generic!@McshTchInf000017#idBtcnetsvc,
+    <br>* Bitcoin-service!@McshTchInf000017#idBtcnetsvc,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcsvcShpggntr"></a></p>
   <p id="idBtcsvcShpgsptr">specific-tree::
@@ -9392,7 +9410,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcsvcTrdgntr">generic-tree::
     <br>* McshEngl.Btcnsrvc.trading:generic,
     <br>===
-    <br>* Btcnservice:generic!@McshTchInf000017#idBtcnetsvc,
+    <br>* Bitcoin-service!@McshTchInf000017#idBtcnetsvc,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcsvcTrdgntr"></a></p>
   </section>
@@ -9459,7 +9477,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcsvcVotgntr">generic-tree::
     <br>* McshEngl.Btcnsrvc.voting:generic,
     <br>===
-    <br>* Btcnservice:generic!@McshTchInf000017#idBtcnetsvc,
+    <br>* Bitcoin-service!@McshTchInf000017#idBtcnetsvc,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcsvcVotgntr"></a></p>
   <p id="idBtcsvcVotsptr">specific-tree::
@@ -9482,7 +9500,7 @@ double AttackerSuccessProbability(double q, int z)
   <p id="idBtcgntr">generic-tree::
     <br>* McshEngl.AgntBtcn:generic,
     <br>===
-    <br>* AgntBkcn:generic!@McshTchInf000016#idOverview,
+    <br>* blockchain-Algonet!@McshTchInf000016#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idBtcgntr"></a></p>
   <p id="idBtcsptr">specific-tree::

@@ -1,5 +1,5 @@
 [
-  [";lagEngl15ou","O|o",4863,"2026-11-14"],
+  [";lagEngl15ou","O|o",4864,"2026-11-14"],
   ["O8-Oxygen-ChmcElry!⇒ChmcElrO8","dirNtr/McshNtr000007.last.html#idChmElrOxygen"],
   ["OBO--ontology-language","dirTchInf/McshTchInf000039.last.html#idLKnlg010Obol"],
   ["OBOR!=one-belt-one-road!⇒Chnabri","dirStn/McshStn000031.last.html#idChnaEconatt033"],
@@ -3659,6 +3659,7 @@
   ["Owlzlago'output_system!⇒Owlontology","dirTchInf/McshTchInf000039.last.html#idLKnlg026osys"],
   ["Owlzlago'tool","dirTchInf/McshTchInf000039.last.html#idLKnlg026tool"],
   ["Owlzlago.OWL2!⇒Owl2lago","dirTchInf/McshTchInf000039.last.html#idLKnlg010Owl2"],
+  ["Owlzlago.OWL2_!⇒Owl2lago","dirTchInf/McshTchInf000039.last.html#idLKnlg010Owl2"],
   ["Owlzlago.specific","dirTchInf/McshTchInf000039.last.html#idLKnlg026sptr"],
   ["Owlzlago:generic","dirTchInf/McshTchInf000039.last.html#idLKnlg026gntr"],
   ["Owned.sol!⇒ChrntechscOwned","dirTchInf/McshTchInf000020.last.html#idChbctpOnd"],

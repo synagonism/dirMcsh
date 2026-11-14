@@ -1,5 +1,5 @@
 [
-  [";lagEngl10jei","J|j",3947,"2026-11-13"],
+  [";lagEngl10jei","J|j",3948,"2026-11-14"],
   ["JCI-of-Chna_med_trsm","dirStn/McshStn000031.last.html#idChnaEconatt016mdcljci"],
   ["JEP!=Jersey-Pound-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
   ["JMD!=Jamaica-Dollar-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
@@ -3322,6 +3322,7 @@
   ["Jsndmwo//whole","dirTchInf/McshTchInf000012.last.html#idLJsndmwowltr"],
   ["Jsndmwo:generic","dirTchInf/McshTchInf000012.last.html#idLJsndmwogntr"],
   ["Jsndo!=Node.js-object","dirTchInf/McshTchInf000012.last.html#idLJsndo"],
+  ["Jsndo.specific","dirTchInf/McshTchInf000012.last.html#idLJsndosptr"],
   ["JsndoProcess","dirTchInf/McshTchInf000012.last.html#idLJsndprocess"],
   ["JsndoProcess'argv_array","dirTchInf/McshTchInf000012.last.html#idLJsndprocessargv"],
   ["JsndoProcess'generic_specific_tree","dirTchInf/McshTchInf000012.last.html#idLJsndprocessgstr"],
