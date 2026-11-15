@@ -1,5 +1,5 @@
 [
-  [";lagEngl07ji","G|g",1792,"2026-11-14"],
+  [";lagEngl07ji","G|g",1793,"2026-11-15"],
   ["G!=1000^3!=Giga!=billion","dirCor/McshCor000010.last.html#idQntNbrK31"],
   ["G20@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrG20"],
   ["GAEC@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrGAEC"],
@@ -1548,9 +1548,10 @@
   ["gram-calorie!⇒UomCal","dirHlth/McshHlth000013.last.html#idFoodHmnatt006"],
   ["grammar!⇒Hmmdgrmr","dirLag/McshLag000007.last.html#idLHmnmgrmr"],
   ["grammar-concept!⇒Hmmdsemucnpt","dirLag/McshLag000007.last.html#idLHmnmsmscpt"],
+  ["grammar-of-Cmprlago!⇒Cmrlgrmr","dirTchInf/McshTchInf000005.last.html#idLCmprmthd"],
   ["grammar//Hmmdlago!⇒Hmmdgrmr","dirLag/McshLag000007.last.html#idLHmnmgrmr"],
   ["grammarElln!⇒Ellngrmr","dirLag/McshLag000020.last.html#idLEllnscigrmr"],
-  ["grammarOrgm//Ogmslago","dirLag/McshLag000005.last.html#idLOgmsgrmr"],
+  ["grammarOrgm//Ogsmlago","dirLag/McshLag000005.last.html#idLOgsmgrmr"],
   ["grammatical-case!⇒HmmdCase","dirLag/McshLag000007.last.html#idLHmnmargombrCase"],
   ["grammatical-case--of-noun!⇒Hmmdnnmb","dirLag/McshLag000007.last.html#idLHmnmnounmbr"],
   ["grammatical-category","dirLag/McshLag000007.last.html#idLHmnmwrdPos"],

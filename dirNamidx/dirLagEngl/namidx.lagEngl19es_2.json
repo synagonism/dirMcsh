@@ -1,5 +1,5 @@
 [
-  [";lagEngl19es_2","stdRfc..t",1286,"2026-11-14"],
+  [";lagEngl19es_2","stdRfc..t",1287,"2026-11-15"],
   ["steak!⇒meatSteak","dirHlth/McshHlth000013.last.html#idFoodHmn148"],
   ["steal!~verbEnglC.steal'1","dirLag/McshLag000024.last.html#idLEnglverbC-115"],
   ["steal.TurkVerb!=çalmak","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
@@ -1088,6 +1088,7 @@
   ["syntax-of-doing!⇒Dongsntx","dirCor/McshCor000004.last.html#idDngstx"],
   ["syntax-of-relation!⇒Rltnsntx","dirCor/McshCor000005.last.html#idRlnstx"],
   ["syntax-of-time--verb-argument!⇒SntxVaTime","dirLag/McshLag000007.last.html#idLHmnmvbatTimesntx"],
+  ["syntax-tree--οf-Cmprcode!⇒Cmrlsntx","dirTchInf/McshTchInf000005.last.html#idLCmproptsxtr"],
   ["syntax-tree-of-Engl_logo-view!⇒Englsntx","dirLag/McshLag000011.last.html#idLEnglsxtr"],
   ["syntax-view!⇒HmmdviewSemu","dirLag/McshLag000007.last.html#idLHmnmipt3"],
   ["syntax-view--of-Hmmdlago!⇒HmmdviewSemu","dirLag/McshLag000007.last.html#idLHmnmipt3"],
