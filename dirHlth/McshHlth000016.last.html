@@ -77,9 +77,9 @@
     <br>· indications are diseases for which this therapy is helpful.
     <a class="clsHide" href="#idThrpHmnatt001dsn"></a></p>
   <p id="idThrpHmnatt001nam">name::
-    <br>* McshEngl.therapy_indication,
-    <br>* McshEngl.therapy'indication!⇒therapy_indication,
     <br>* McshEngl.therapy'01_indication!⇒therapy_indication,
+    <br>* McshEngl.therapy_indication!=therapy'01_indication,
+    <br>* McshEngl.therapy'indication!⇒therapy_indication,
     <br>* McshEngl.therapy'application!⇒therapy_indication,
     <br>* McshEngl.therapy'area_of_application!⇒therapy_indication,
     <br>* McshEngl.therapy'att001_indication!⇒therapy_indication,
@@ -96,9 +96,9 @@
     <br>· contraindications are diseases|human-systems for which this therapy is harmful.
     <a class="clsHide" href="#idThrpHmnatt002dsn"></a></p>
   <p id="idThrpHmnatt002nam">name::
-    <br>* McshEngl.therapy_contraindication,
-    <br>* McshEngl.therapy'contraindication!⇒therapy_contraindication,
     <br>* McshEngl.therapy'02_contraindication!⇒therapy_contraindication,
+    <br>* McshEngl.therapy_contraindication!=therapy'02_contraindication,
+    <br>* McshEngl.therapy'contraindication!⇒therapy_contraindication,
     <br>* McshEngl.therapy'att002_contraindication!⇒therapy_contraindication,
     <br>====== lagoGreek:
     <br>* McshElln.θεραπείας-αντένδειξη!⇒therapy_contraindication,
@@ -115,9 +115,9 @@
     <br>[{2020-01-15} https://en.wikipedia.org/wiki/Side_effect]
     <a class="clsHide" href="#idThrpHmnatt003dsn"></a></p>
   <p id="idThrpHmnatt003nam">name::
-    <br>* McshEngl.therapy_side_effect,
-    <br>* McshEngl.therapy'side_effect!⇒therapy_side_effect,
     <br>* McshEngl.therapy'03_side_effect!⇒therapy_side_effect,
+    <br>* McshEngl.therapy_side_effect!=therapy'03_side_effect,
+    <br>* McshEngl.therapy'side_effect!⇒therapy_side_effect,
     <br>* McshEngl.therapy'att003_side_effect!⇒therapy_side_effect,
     <br>====== lagoGreek:
     <br>* McshElln.θεραπείας-παρενέργεια!⇒therapy_side_effect,
@@ -164,11 +164,11 @@
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idThrpHmnatt006dsn"></a></p>
   <p id="idThrpHmnatt006nam">name::
-    <br>* McshEngl.WrkrTherapist,
+    <br>* McshEngl.therapy'06_therapist!⇒WrkrTherapist,
+    <br>* McshEngl.WrkrTherapist!=therapy'06_therapist,
     <br>* McshEngl.HumnWorker.009_therapist!⇒WrkrTherapist,
     <br>* McshEngl.HumnWorker.therapist!⇒WrkrTherapist,
     <br>* McshEngl.therapist!⇒WrkrTherapist,
-    <br>* McshEngl.therapy'06_therapist!⇒WrkrTherapist,
     <br>* McshEngl.therapy'att006_therapist!⇒WrkrTherapist,
     <br>* McshEngl.therapy'practitioner!⇒WrkrTherapist,
     <br>* McshEngl.therapy'therapist!⇒WrkrTherapist,
@@ -189,9 +189,9 @@
     <br>· <a class="clsPreview" href="../dirHlth/McshHlth000008.last.html#idHlthHmnatt001Ptnt">a-patient</a> that gets a-therapy.
     <a class="clsHide" href="#idThrpHmnatt007dsn"></a></p>
   <p id="idThrpHmnatt007nam">name::
-    <br>* McshEngl.therapy_receiver,
-    <br>* McshEngl.therapy-receiver!⇒therapy_receiver,
     <br>* McshEngl.therapy'07_therapy_receiver!⇒therapy_receiver,
+    <br>* McshEngl.therapy_receiver!=therapy'07_therapy_receiver,
+    <br>* McshEngl.therapy-receiver!⇒therapy_receiver,
     <br>* McshEngl.therapy'att007_therapy_receiver!⇒therapy_receiver,
     <br>* McshEngl.therapy'client!⇒therapy_receiver,
     <br>* McshEngl.therapy'patient!⇒therapy_receiver,
@@ -407,8 +407,8 @@
     <br>· ThrpMind is a-therapy of <a class="clsPreview" href="../dirHlth/McshHlth000011.last.html#idDssHmn108">a-diseaseMental</a>.
     <a class="clsHide" href="#idThrpHmnMnddsn"></a></p>
   <p id="idThrpHmnMndnam">name::
-    <br>* McshEngl.therapy.psycho_011!⇒ThrpMind,
     <br>* McshEngl.ThrpMind,
+    <br>* McshEngl.therapy.psycho_011!⇒ThrpMind,
     <br>* McshEngl.psychotherapy!⇒ThrpMind,
     <br>* McshEngl.therapy.011_psycho!⇒ThrpMind,
     <br>* McshEngl.therapy.psycho!⇒ThrpMind,
@@ -439,7 +439,8 @@
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idThrpHmnMndatt002dsn"></a></p>
   <p id="idThrpHmnMndatt002nam">name::
-    <br>* McshEngl.therapistPsycho,
+    <br>* McshEngl.ThrpMind'06_therapist!⇒therapistPsycho,
+    <br>* McshEngl.therapistPsycho!=ThrpMind'06_therapist,
     <br>* McshEngl.psychotherapist!⇒therapistPsycho,
     <br>* McshEngl.ThrpMind'att002_therapist!⇒therapistPsycho,
     <br>* McshEngl.ThrpMind'therapist!⇒therapistPsycho,
@@ -521,6 +522,7 @@
     <br>* difficulty in relationships,
     <a class="clsHide" href="#idThrpHmn014idcndsn"></a></p>
   <p id="idThrpHmn014idcnnam">name::
+    <br>* McshEngl.ThrpMindReality'01_indication,
     <br>* McshEngl.ThrpMindReality'indication,
     <a class="clsHide" href="#idThrpHmn014idcnnam"></a></p>
   </section>
@@ -590,6 +592,7 @@
     <br>[{2020-08-29} https://en.wikipedia.org/wiki/Somatic_symptom_disorder]
     <a class="clsHide" href="#idThrpHmn002idcndsn"></a></p>
   <p id="idThrpHmn002idcnnam">name::
+    <br>* McshEngl.ThrpMindCB'01_indication,
     <br>* McshEngl.ThrpMindCB'indication,
     <a class="clsHide" href="#idThrpHmn002idcnnam"></a></p>
   </section>
@@ -1269,8 +1272,8 @@
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idThrpHmn217dsn"></a></p>
   <p id="idThrpHmn217nam">name::
-    <br>* McshEngl.therapy.ozon!⇒ozone_therapy,
     <br>* McshEngl.ozone_therapy,
+    <br>* McshEngl.therapy.ozon!⇒ozone_therapy,
     <br>* McshEngl.ozone-therapy!⇒ozone_therapy,
     <br>* McshEngl.therapy.ozone!⇒ozone_therapy,
     <br>====== lagoGreek:
@@ -1438,8 +1441,8 @@
     <br>[{2020-07-12} https://en.wikipedia.org/wiki/Light_therapy]
     <a class="clsHide" href="#idThrpHmn005dsn"></a></p>
   <p id="idThrpHmn005nam">name::
-    <br>* McshEngl.therapy.phototherapy_005!⇒ThrpPhoto,
     <br>* McshEngl.ThrpPhoto,
+    <br>* McshEngl.therapy.phototherapy_005!⇒ThrpPhoto,
     <br>* McshEngl.helio-therapy!⇒ThrpPhoto,
     <br>* McshEngl.light-therapy!⇒ThrpPhoto,
     <br>* McshEngl.photo-therapy!⇒ThrpPhoto,
@@ -1464,6 +1467,7 @@
     <br>[{2020-07-12} https://ecouch.anu.edu.au/new_users/mhl_portal/info/depression/dep_treatments_info/light]
     <a class="clsHide" href="#idThrpHmn005indicationdsn"></a></p>
   <p id="idThrpHmn005indicationnam">name::
+    <br>* McshEngl.ThrpPhoto'01_indication,
     <br>* McshEngl.ThrpPhoto'indication,
     <a class="clsHide" href="#idThrpHmn005indicationnam"></a></p>
   </section>

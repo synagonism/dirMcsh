@@ -629,7 +629,8 @@
     <br>· measurer is the-entity that does <a class="clsPreview" href="#idGnrcmsrg">the-measuring</a>.
     <a class="clsHide" href="#idGnrcmsrgactrdsn"></a></p>
   <p id="idGnrcmsrgactrnam">name::
-    <br>* McshEngl.ActgMeasuring'06_measurer,
+    <br>* McshEngl.ActgMeasuring'14_measurer,
+    <br>* McshEngl.ActgMeasuring'measurer,
     <br>* McshEngl.measuring'measurer,
     <br>* McshEngl.measure'measurer,
     <br>* McshEngl.measurer,
@@ -646,9 +647,10 @@
     <br>· a-generic we measured (defined uom and done measurings).
     <a class="clsHide" href="#idGnrcmsrggnrcdsn"></a></p>
   <p id="idGnrcmsrggnrcnam">name::
+    <br>* McshEngl.ActgMeasuring'15_generic_entity!⇒megethos,
+    <br>* McshEngl.megethos!=ActgMeasuring'15_generic_entity,
     <br>* McshEngl.measurable-entity!⇒megethos,
-    <br>* McshEngl.megethos!=measurable-entity,
-    <br>* McshEngl.ActgMeasuring'01_generic_entity!⇒megethos,
+    <br>* McshEngl.ActgMeasuring'generic_entity!⇒megethos,
     <br>* McshEngl.generic.measured!⇒megethos,
     <br>* McshEngl.quantity-generic!⇒megethos,
     <br>====== lagoGreek:
@@ -765,7 +767,8 @@
     <br>· some quantity we want to measure.
     <a class="clsHide" href="#idGnrcmsrgspfcdsn"></a></p>
   <p id="idGnrcmsrgspfcnam">name::
-    <br>* McshEngl.ActgMeasuring'02_specific_entity,
+    <br>* McshEngl.ActgMeasuring'16_specific_entity,
+    <br>* McshEngl.ActgMeasuring'specific_entity,
     <br>* McshEngl.measuring-entity,
     <br>* McshEngl.some-quantity,
     <br>* McshEngl.quantity-specific,
@@ -785,8 +788,9 @@
     <br>· abstract-measure: 5.
     <a class="clsHide" href="#idGnrcmsrguomdsn"></a></p>
   <p id="idGnrcmsrguomnam">name::
+    <br>* McshEngl.ActgMeasuring'17_measure_unit!⇒UOM,
+    <br>* McshEngl.UOM!=ActgMeasuring'17_measure_unit,
     <br>* McshEngl.measure-unit!⇒UOM,
-    <br>* McshEngl.UOM!=measure-unit,
     <br>* McshEngl.UOM.lagoElln!=μονάδα-μέτρησης!η,
     <br>* McshEngl.UOM.lagoZhon!=计量单位-Jìliàngdānwèi,
     <br>* McshEngl.ActgMeasuring'03_unit_of_measurement!⇒UOM,
@@ -799,7 +803,7 @@
     <br>* McshEngl.unit.specific!⇒UOM,
     <br>* McshEngl.unitSpecific!⇒UOM,
     <br>* "measure": "they set the measure for all subsequent work"
-    <br>* McshEngl.ActgMeasuring'03_measure_unit!⇒UOM,
+    <br>* McshEngl.ActgMeasuring'measure_unit!⇒UOM,
     <br>====== lagoSinagu:
     <br>* McshSngu.gou!⇒UOM, from geu=quantity, {2025-12-03}
     <br>* kio!⇒UOM, from kao=measure, kuo=quantity,
@@ -917,8 +921,9 @@
     <br>· _SntxZhon: 这 件 衣服 的 大小 正好 。 :: Zhè jiàn yīfu de dàxiǎo zhènghǎo. != The size of these clothes is just right.
     <a class="clsHide" href="#idGnrcmsrgmesrdsn"></a></p>
   <p id="idGnrcmsrgmesrnam">name::
+    <br>* McshEngl.ActgMeasuring'19_measure!⇒measure,
+    <br>* McshEngl.measure!=ActgMeasuring'19_measure, {2026-08-06}
     <br>* McshEngl.ActgMeasuring'result!⇒measure,
-    <br>* McshEngl.measure!=ActgMeasuring'result, {2026-08-06}
     <br>* McshEngl.ActgMeasuring'05_measurement!⇒measure,
     <br>* McshEngl.measuring'measurement!⇒measure,
     <br>* McshEngl.measurement!⇒measure, {2026-06-14}
@@ -932,7 +937,7 @@
     <br>* McshEngl.size!⇒measure,
     <br>* generic.measured!⇒measure,
     <br>* in literature BOTH 'amount' and 'abstract-quantity' are-called 'quantity',
-    <br>* McshEngl.ActgMeasuring'05_measure!⇒measure,
+    <br>* McshEngl.ActgMeasuring'measure!⇒measure,
     <br>====== lagoSinagu:
     <br>* McshSngu.kao!⇒measure,
     <br>====== lagoChinese:
@@ -1491,9 +1496,9 @@
     <br>· example: time-point, distance-point, ...
     <a class="clsHide" href="#idGnrcCntIvlNdsn"></a></p>
   <p id="idGnrcCntIvlNnam">name::
-    <br>* McshEngl.genericDiscreteNo.intervalNo!⇒genericDiscreteNoPoint,
     <br>* McshEngl.generic.continuous.point!⇒genericDiscreteNoPoint,
     <br>* McshEngl.genericDiscreteNoPoint!=generic.continuous.point,
+    <br>* McshEngl.genericDiscreteNo.intervalNo!⇒genericDiscreteNoPoint,
     <br>* McshEngl.continuous_generic.intervalNo!⇒genericDiscreteNoPoint,
     <br>* McshEngl.continuous_generic.point!⇒genericDiscreteNoPoint,
     <br>* McshEngl.continuous-quantity!⇒genericDiscreteNoPoint,
@@ -1614,8 +1619,8 @@
     <br>· timepoint-generic is a-generic measured in timepoints.
     <a class="clsHide" href="#idGnrcTmptdsn"></a></p>
   <p id="idGnrcTmptnam">name::
-    <br>* McshEngl.generic.timepoint!⇒genericTimepoint,
     <br>* McshEngl.genericTimepoint,
+    <br>* McshEngl.generic.timepoint!⇒genericTimepoint,
     <br>* McshEngl.generic.timeintervalNo!⇒genericTimepoint,
     <br>* McshEngl.stock-quantity!⇒genericTimepoint,
     <br>* McshEngl.timepoint-generic!⇒genericTimepoint,
