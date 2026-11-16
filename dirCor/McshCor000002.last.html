@@ -97,6 +97,9 @@
     <br>* structured-information,
     <a class="clsHide" href="#idName"></a></p>
   <p id="idAttr">attribute::
+    <br>===
+    <br>* Mcs'attributeChain,
+    <br>===
     <br>* Mcs'attribute,
     <br>===
     <br>* Mcs:generic,
@@ -1079,7 +1082,7 @@
     <a class="clsHide" href="#idMcsattWhlnam"></a></p>
 
   <section id="idMcsattWhlchn">
-  <h3 id="idMcsattWhlchnH3">Mcsattr.whole_chain
+  <h3 id="idMcsattWhlchnH3">McsattWhole.whole_chain
     </h3>
   <p id="idMcsattWhlchndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1212,7 +1215,7 @@
     <a class="clsHide" href="#idMcsattWhlNSptrnam"></a></p>
 
   <section id="idMcsattWhlNAthr">
-  <h4 id="idMcsattWhlNAthrH4">Mcsattr.author
+  <h4 id="idMcsattWhlNAthrH4">McsattSupporter.author
     </h4>
   <p id="idMcsattWhlNAthrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1223,6 +1226,7 @@
     <br>* McshEngl.McsattAuthor!=author-of-Mcs,
     <br>* McshEngl.Mcs'author!⇒McsattAuthor,
     <br>* McshEngl.Mcs'creator!⇒McsattAuthor,
+    <br>* McshEngl.McsattSupporter.author,
     <a class="clsHide" href="#idMcsattWhlNAthrnam"></a></p>
   <p id="idMcsattWhlNAthrgntr">generic-tree::
     <br>* McshEngl.McsattAuthor:generic,
@@ -1265,7 +1269,7 @@
     <a class="clsHide" href="#idMcsattDngnam"></a></p>
 
   <section id="idMcsattEvlg">
-  <h3 id="idMcsattEvlgH3">Mcsattr.evoluting
+  <h3 id="idMcsattEvlgH3">McsattDoing.evoluting
     </h3>
   <p id="idMcsattEvlgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1278,6 +1282,7 @@
     <br>* McshEngl.evoluting-Mcsattr!⇒McsattEvoluting,
     <br>* McshEngl.McsattEvoluting!=evoluting-Mcsattr,
     <br>* McshEngl.Mcsattr.specific'evoluting!⇒McsattEvoluting,
+    <br>* McshEngl.McsattDoing.evoluting,
     <a class="clsHide" href="#idMcsattEvlgnam"></a></p>
   </section>
   </section>
@@ -1369,7 +1374,7 @@
     <a class="clsHide" href="#idMcsattSptpnam"></a></p>
 
   <section id="idMcsattIdvl">
-  <h3 id="idMcsattIdvlH3">Mcsattr.individual
+  <h3 id="idMcsattIdvlH3">McsattSpecific.individual
     </h3>
   <p id="idMcsattIdvldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1382,13 +1387,14 @@
     <br>* McshEngl.Mcsattr.individual!⇒McsattIndividual,
     <br>* McshEngl.individual-att--of-Mcsattr!⇒McsattIndividual,
     <br>* McshEngl.instance-of-Mcsattr!⇒McsattIndividual,
+    <br>* McshEngl.McsattSpecific.individual,
     <br>====== lagoSinagu:
     <br>* atro-koUgo-a-Mes!⇒McsattIndividual,
     <a class="clsHide" href="#idMcsattIdvlnam"></a></p>
   </section>
 
   <section id="idMcsattWhlNSpcdvn">
-  <h3 id="idMcsattWhlNSpcdvnH3">Mcsattr.specifics_division
+  <h3 id="idMcsattWhlNSpcdvnH3">McsattSpecific.specifics_division
     </h3>
   <p id="idMcsattWhlNSpcdvndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1412,6 +1418,7 @@
     <br>* McshEngl.Specsdiv!=specifics-division!⇒McsattSpecificsDivision,
     <br>* McshEngl.specs-div!=specifics-division!⇒McsattSpecificsDivision,
     <br>* McshEngl.specs-division--Mcsattr!⇒McsattSpecificsDivision,
+    <br>* McshEngl.McsattSpecific.specifics_division,
     <br>====== lagoGreek:
     <br>* McshElln.διαίρεση-ειδικών-εννοιών!⇒McsattSpecificsDivision,
     <a class="clsHide" href="#idMcsattWhlNSpcdvnnam"></a></p>
@@ -1781,7 +1788,7 @@
   </section>
 
   <section id="idMcsattNamcvnAttChld">
-  <h4 id="idMcsattNamcvnAttChldH4">Mcsnotn.attribute.child
+  <h4 id="idMcsattNamcvnAttChldH4">McsnotnAttr.child
     </h4>
   <p id="idMcsattNamcvnAttChlddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1795,11 +1802,12 @@
     <br>* McshEngl.Mcsnotn.attribute.child(;)!⇒McsnotnChild,
     <br>* McshEngl.Mcsnotn.child_attribute(;)!⇒McsnotnChild,
     <br>* McshEngl.parent;child!⇒McsnotnChild,
+    <br>* McshEngl.McsnotnAttr.child,
     <a class="clsHide" href="#idMcsattNamcvnAttChldnam"></a></p>
   </section>
 
   <section id="idMcsattNamcvnAttPrnt">
-  <h4 id="idMcsattNamcvnAttPrntH4">Mcsnotn.attribute.parent
+  <h4 id="idMcsattNamcvnAttPrntH4">McsnotnAttr.parent
     </h4>
   <p id="idMcsattNamcvnAttPrntdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1813,6 +1821,7 @@
     <br>* McshEngl.Mcsnotn.parent;child!⇒McsnotnParent,
     <br>* McshEngl.Mcsnotn.child;;parent!⇒McsnotnParent,
     <br>* McshEngl.Mcsnotn.attribute.parent_child!⇒McsnotnParent,
+    <br>* McshEngl.McsnotnAttr.parent,
     <a class="clsHide" href="#idMcsattNamcvnAttPrntnam"></a></p>
   </section>
   </section>
@@ -1904,6 +1913,7 @@
     <br>· AND instructs the-computer to search for it\a\.
     <a class="clsHide" href="#idMcsattNamcvnExnardsn"></a></p>
   <p id="idMcsattNamcvnExnarnam">name::
+    <br>* McshEngl.Mcsnotn.!⇒main_mind_name!⇒main_mind_name,
     <br>* McshEngl.Mcsnotn.!⇒main_mind_name,
     <br>* McshEngl.main-mind-name(!&#8205;⇒)--Mcs-name-notation!⇒McsnotnMainMind,
     <br>* McshEngl.McsnotnMainMind!=main-mind-name(!&#8205;⇒)--Mcs-name-notation,
@@ -1974,7 +1984,7 @@
     <br>· !⇨ previous
     <a class="clsHide" href="#idMcsattNamcvnOrwvdsn"></a></p>
   <p id="idMcsattNamcvnOrwvnam">name::
-    <br>* McshEngl.Mcsnotn.@&#32;other_worldview!⇒McsnotnWorldviewOther,
+    <br>* McshEngl.Mcsnotn.@_other_worldview!⇒McsnotnWorldviewOther,
     <br>* McshEngl.McsnotnWorldviewOther,
     <br>* McshEngl.other-worldview(@)--Mcs-name-notation!⇒McsnotnWorldviewOther,
     <br>* McshEngl.other-worldview(@)--Mcs-name-notation,
@@ -1982,6 +1992,7 @@
     <br>* McshEngl.other-worldview@--name-notation!⇒McsnotnWorldviewOther,
     <br>* McshEngl.Mcsnotn.@other_worldview!⇒McsnotnWorldviewOther,
     <br>* McshEngl.Mcsnotn.other_worldview@!⇒McsnotnWorldviewOther,
+    <br>* McshEngl.Mcsnotn.@_other_worldview,
     <a class="clsHide" href="#idMcsattNamcvnOrwvnam"></a></p>
   </section>
 
@@ -2639,7 +2650,7 @@
     <a class="clsHide" href="#idMcstxtnam"></a></p>
 
   <section id="idMcstime">
-  <h2 id="idMcstimeH2">time of Mcs
+  <h2 id="idMcstimeH2">time of Mcs_text
     </h2>
   <p id="idMcstimedsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3162,7 +3173,7 @@
     <a class="clsHide" href="#idMcsmdongnam"></a></p>
 
   <section id="idMcsmatt001">
-  <h3 id="idMcsmatt001H3">building-base of Mcsmgr
+  <h3 id="idMcsmatt001H3">building-base of Mcsmgrdoing
     </h3>
   <p id="idMcsmatt001dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3175,10 +3186,11 @@
     <br>* McshEngl.McsmDoing.building_base,
     <br>* McshEngl.Mcsmgr'storing_base,
     <br>* McshEngl.Mcsmgrdong'building_base,
+    <br>* McshEngl.Mcsmgrdoing'building_base,
     <a class="clsHide" href="#idMcsmatt001nam"></a></p>
 
   <section id="idMcsmatt024">
-  <h4 id="idMcsmatt024H4">acquiring-base of Mcsmgr
+  <h4 id="idMcsmatt024H4">acquiring-base of Mcsmgr_building_base
     </h4>
   <p id="idMcsmatt024dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3197,11 +3209,12 @@
     <br>* McshEngl.Mcsmgr'att024_acquiring_base,
     <br>* McshEngl.McsmDoing.adding_concepts,
     <br>* McshEngl.McsmDoing.acquiring_base,
+    <br>* McshEngl.Mcsmgr_building_base'acquiring_base,
     <a class="clsHide" href="#idMcsmatt024nam"></a></p>
   </section>
 
   <section id="idMcsmatt026">
-  <h4 id="idMcsmatt026H4">changing-info of Mcsmgr
+  <h4 id="idMcsmatt026H4">changing-info of Mcsmgr_building_base
     </h4>
   <p id="idMcsmatt026dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3215,11 +3228,12 @@
     <br>* McshEngl.Mcsmgr'changing_info!⇒Mcsmgr_att026_changing_info,
     <br>* McshEngl.Mcsmgr'changing_info,
     <br>* McshEngl.McsmDoing.changing_info,
+    <br>* McshEngl.Mcsmgr_building_base'changing_info,
     <a class="clsHide" href="#idMcsmatt026nam"></a></p>
   </section>
 
   <section id="idMcsmatt003">
-  <h4 id="idMcsmatt003H4">formating of Mcsmgr
+  <h4 id="idMcsmatt003H4">formating of Mcsmgr_building_base
     </h4>
   <p id="idMcsmatt003dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3229,11 +3243,12 @@
     <br>* McshEngl.Mcsmgr'formating,
     <br>* McshEngl.Mcsmgr'att003_formating,
     <br>* McshEngl.McsmDoing.formating,
+    <br>* McshEngl.Mcsmgr_building_base'formating,
     <a class="clsHide" href="#idMcsmatt003nam"></a></p>
   </section>
 
   <section id="idMcsmatt004">
-  <h4 id="idMcsmatt004H4">generic-specific-managing of Mcsmgr
+  <h4 id="idMcsmatt004H4">generic-specific-managing of Mcsmgr_building_base
     </h4>
   <p id="idMcsmatt004dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3246,6 +3261,7 @@
     <br>* McshEngl.Mcsmgr'generic_specific_managing!⇒Mcsmgr_generic_specific_managing,
     <br>* McshEngl.Mcsmgr'att004_generic_specific_managing,
     <br>* McshEngl.McsmDoing.generic_specific_managing,
+    <br>* McshEngl.Mcsmgr_building_base'generic_specific_managing,
     <a class="clsHide" href="#idMcsmatt004nam"></a></p>
 
   <section id="idMcsmatt004vgnc">
@@ -3265,7 +3281,7 @@
   </section>
 
   <section id="idMcsmatt005">
-  <h4 id="idMcsmatt005H4">whole-part-managing of Mcsmgr
+  <h4 id="idMcsmatt005H4">whole-part-managing of Mcsmgr_building_base
     </h4>
   <p id="idMcsmatt005dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3276,6 +3292,7 @@
     <br>* McshEngl.Mcsmgr'whole_part_managing!⇒Mcsmgr_whole_part_managing,
     <br>* McshEngl.Mcsmgr'att005_whole_part_managing,
     <br>* McshEngl.McsmDoing.whole_part_managing,
+    <br>* McshEngl.Mcsmgr_building_base'whole_part_managing,
     <a class="clsHide" href="#idMcsmatt005nam"></a></p>
 
   <section id="idMcsmatt005vprt">
@@ -3290,7 +3307,7 @@
   </section>
 
   <section id="idMcsmatt009">
-  <h4 id="idMcsmatt009H4">validating of Mcsmgr
+  <h4 id="idMcsmatt009H4">validating of Mcsmgr_building_base
     </h4>
   <p id="idMcsmatt009dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3304,6 +3321,7 @@
     <br>* McshEngl.Mcsmgr'consistency_checking!⇒Mcsmgr_validating,
     <br>* McshEngl.McsmDoing.validating!⇒Mcsmgr_validating,
     <br>* McshEngl.Mcsmgr'integrating!⇒Mcsmgr_validating,
+    <br>* McshEngl.Mcsmgr_building_base'validating,
     <a class="clsHide" href="#idMcsmatt009nam"></a></p>
 
   <section id="idMcsmatt015">
@@ -3433,7 +3451,7 @@
   </section>
 
   <section id="idMcsmatt010">
-  <h4 id="idMcsmatt010H4">name-managing of Mcsmgr
+  <h4 id="idMcsmatt010H4">name-managing of Mcsmgr_building_base
     </h4>
   <p id="idMcsmatt010dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3451,12 +3469,13 @@
     <br>* McshEngl.Mcsmgr'name_managing!⇒Mcsmgr_name_managing,
     <br>* McshEngl.Mcsmgr'att010_name_managing,
     <br>* McshEngl.McsmDoing.name_managing,
+    <br>* McshEngl.Mcsmgr_building_base'name_managing,
     <a class="clsHide" href="#idMcsmatt010nam"></a></p>
   </section>
   </section>
 
   <section id="idMcsmatt002">
-  <h3 id="idMcsmatt002H3">retrieving-base of Mcsmgr
+  <h3 id="idMcsmatt002H3">retrieving-base of Mcsmgrdoing
     </h3>
   <p id="idMcsmatt002dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3468,10 +3487,11 @@
     <br>* McshEngl.Mcsmgr'att002_retrieving_base,
     <br>* McshEngl.McsmDoing.retrieving_base,
     <br>* McshEngl.Mcsmgrdong'retrieving_base,
+    <br>* McshEngl.Mcsmgrdoing'retrieving_base,
     <a class="clsHide" href="#idMcsmatt002nam"></a></p>
 
   <section id="idMcsmatt011">
-  <h4 id="idMcsmatt011H4">presenting of Mcsmgr
+  <h4 id="idMcsmatt011H4">presenting of Mcsmgr_retrieving_base
     </h4>
   <p id="idMcsmatt011dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3483,11 +3503,12 @@
     <br>* McshEngl.Mcsmgr'att011_presenting,
     <br>* McshEngl.McsmDoing.presenting,
     <br>* McshEngl.Mcsmgr'reading,
+    <br>* McshEngl.Mcsmgr_retrieving_base'presenting,
     <a class="clsHide" href="#idMcsmatt011nam"></a></p>
   </section>
 
   <section id="idMcsmatt012">
-  <h4 id="idMcsmatt012H4">navigating of Mcsmgr
+  <h4 id="idMcsmatt012H4">navigating of Mcsmgr_retrieving_base
     </h4>
   <p id="idMcsmatt012dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3498,11 +3519,12 @@
     <br>* McshEngl.Mcsmgr'navigating,
     <br>* McshEngl.Mcsmgr'att012_navigating,
     <br>* McshEngl.McsmDoing.navigating,
+    <br>* McshEngl.Mcsmgr_retrieving_base'navigating,
     <a class="clsHide" href="#idMcsmatt012nam"></a></p>
   </section>
 
   <section id="idMcsmatt007">
-  <h4 id="idMcsmatt007H4">translating of Mcsmgr
+  <h4 id="idMcsmatt007H4">translating of Mcsmgr_retrieving_base
     </h4>
   <p id="idMcsmatt007dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3512,11 +3534,12 @@
     <br>* McshEngl.Mcsmgr'translating,
     <br>* McshEngl.Mcsmgr'att007_translating,
     <br>* McshEngl.McsmDoing.translating,
+    <br>* McshEngl.Mcsmgr_retrieving_base'translating,
     <a class="clsHide" href="#idMcsmatt007nam"></a></p>
   </section>
 
   <section id="idMcsmatt008">
-  <h4 id="idMcsmatt008H4">questioning of Mcsmgr
+  <h4 id="idMcsmatt008H4">questioning of Mcsmgr_retrieving_base
     </h4>
   <p id="idMcsmatt008dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3527,12 +3550,13 @@
     <br>* McshEngl.Mcsmgr'questioning,
     <br>* McshEngl.Mcsmgr'att008_questioning,
     <br>* McshEngl.McsmDoing.questioning,
+    <br>* McshEngl.Mcsmgr_retrieving_base'questioning,
     <a class="clsHide" href="#idMcsmatt008nam"></a></p>
   </section>
   </section>
 
   <section id="idMcsmatt014">
-  <h3 id="idMcsmatt014H3">computing of Mcsmgr
+  <h3 id="idMcsmatt014H3">computing of Mcsmgrdoing
     </h3>
   <p id="idMcsmatt014dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3544,6 +3568,7 @@
     <br>* McshEngl.McsmDoing.computing,
     <br>* McshEngl.Mcsmgr'inferencing,
     <br>* McshEngl.Mcsmgrdong'computing,
+    <br>* McshEngl.Mcsmgrdoing'computing,
     <a class="clsHide" href="#idMcsmatt014nam"></a></p>
   <p id="idMcsmatt014sptr">specific-tree::
     <br>* name-managing,
@@ -3554,7 +3579,7 @@
   </section>
 
   <section id="idMcsmatt023">
-  <h3 id="idMcsmatt023H3">evoluting-managing of Mcsmgr
+  <h3 id="idMcsmatt023H3">evoluting-managing of Mcsmgrdoing
     </h3>
   <p id="idMcsmatt023dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3566,6 +3591,7 @@
     <br>* McshEngl.Mcsmgr'att023_evoluting_managing,
     <br>* McshEngl.McsmDoing.evoluting_managing,
     <br>* McshEngl.Mcsmgrdong'evoluting_managing,
+    <br>* McshEngl.Mcsmgrdoing'evoluting_managing,
     <a class="clsHide" href="#idMcsmatt023nam"></a></p>
   </section>
 
@@ -3909,7 +3935,7 @@
     <a class="clsHide" href="#idMcsmAajsrtrnam"></a></p>
 
   <section id="idMcsmAajviwr">
-  <h4 id="idMcsmAajviwrH4">viewer of McsmgrAAj
+  <h4 id="idMcsmAajviwrH4">viewer of McsmgrAAjsrtr
     </h4>
   <p id="idMcsmAajviwrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -3920,6 +3946,7 @@
     <br>* McshEngl.McsmgrAAj_viewer,
     <br>* McshEngl.McsmgrAAj'viewer!⇒McsmgrAAj_viewer,
     <br>* McshEngl.McsmgrAAj'structure'viewer!⇒McsmgrAAj_viewer,
+    <br>* McshEngl.McsmgrAAjsrtr'viewer,
     <a class="clsHide" href="#idMcsmAajviwrnam"></a></p>
 
   <section id="idMcsmAajviwrmn">
@@ -4020,7 +4047,7 @@
   </section>
 
   <section id="idMcsmAajedtr">
-  <h4 id="idMcsmAajedtrH4">editor of McsmgrAAj
+  <h4 id="idMcsmAajedtrH4">editor of McsmgrAAjsrtr
     </h4>
   <p id="idMcsmAajedtrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4031,11 +4058,12 @@
     <br>* McshEngl.McsmgrAAj'editor,
     <br>* McshEngl.McsmgrAAj'Xml_editor,
     <br>* McshEngl.McsmgrAAj'structure'editor,
+    <br>* McshEngl.McsmgrAAjsrtr'editor,
     <a class="clsHide" href="#idMcsmAajedtrnam"></a></p>
   </section>
 
   <section id="idMcsmAajbrsr">
-  <h4 id="idMcsmAajbrsrH4">browser of McsmgrAAj
+  <h4 id="idMcsmAajbrsrH4">browser of McsmgrAAjsrtr
     </h4>
   <p id="idMcsmAajbrsrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4046,6 +4074,7 @@
     <br>* McshEngl.McsmgrAAj'browser,
     <br>* McshEngl.McsmgrAAj'Html_browser,
     <br>* McshEngl.McsmgrAAj'structure'browser,
+    <br>* McshEngl.McsmgrAAjsrtr'browser,
     <a class="clsHide" href="#idMcsmAajbrsrnam"></a></p>
   </section>
   </section>
@@ -4122,7 +4151,7 @@
     <a class="clsHide" href="#idMcsmAajnvggnam"></a></p>
 
   <section id="idMcsmAajuric">
-  <h6 id="idMcsmAajuricH6">user-interface of McsmgrAAj
+  <h6 id="idMcsmAajuricH6">user-interface of McsmgrAAjdoingNavigating
     </h6>
   <p id="idMcsmAajuricdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4130,11 +4159,12 @@
     <a class="clsHide" href="#idMcsmAajuricdsn"></a></p>
   <p id="idMcsmAajuricnam">name::
     <br>* McshEngl.McsmgrAAj'user_interface,
+    <br>* McshEngl.McsmgrAAjdoingNavigating'user_interface,
     <a class="clsHide" href="#idMcsmAajuricnam"></a></p>
   </section>
 
   <section id="idMcsmAajschg">
-  <h6 id="idMcsmAajschgH6">searching of McsmgrAAj
+  <h6 id="idMcsmAajschgH6">searching of McsmgrAAjdoingNavigating
     </h6>
   <p id="idMcsmAajschgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4146,11 +4176,12 @@
     <br>* McshEngl.McsmgrAAj'doing.searching,
     <br>* McshEngl.McsmgrAAj'finding,
     <br>* McshEngl.McsmgrAAj'searching,
+    <br>* McshEngl.McsmgrAAjdoingNavigating'searching,
     <a class="clsHide" href="#idMcsmAajschgnam"></a></p>
   </section>
 
   <section id="idMcsmAajaskg">
-  <h6 id="idMcsmAajaskgH6">asking of McsmgrAAj
+  <h6 id="idMcsmAajaskgH6">asking of McsmgrAAjdoingNavigating
     </h6>
   <p id="idMcsmAajaskgdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4160,6 +4191,7 @@
     <br>* McshEngl.McsmgrAAj'asking,
     <br>* McshEngl.McsmgrAAj'doing.asking,
     <br>* McshEngl.McsmgrAAj'inferring,
+    <br>* McshEngl.McsmgrAAjdoingNavigating'asking,
     <a class="clsHide" href="#idMcsmAajaskgnam"></a></p>
   </section>
   </section>
@@ -4671,7 +4703,7 @@
     <a class="clsHide" href="#idMcsevalnam"></a></p>
 
   <section id="idMcstrth">
-  <h2 id="idMcstrthH2">truthness of Mcs
+  <h2 id="idMcstrthH2">truthness of Mcsevaln
     </h2>
   <p id="idMcstrthdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4681,11 +4713,12 @@
   <p id="idMcstrthnam">name::
     <br>* McshEngl.Mcs'truthness,
     <br>* McshEngl.truthness-of-Mcs,
+    <br>* McshEngl.Mcsevaln'truthness,
     <a class="clsHide" href="#idMcstrthnam"></a></p>
   </section>
 
   <section id="idMcsevalmsmt">
-  <h2 id="idMcsevalmsmtH2">monosemanticity of Mcs
+  <h2 id="idMcsevalmsmtH2">monosemanticity of Mcsevaln
     </h2>
   <p id="idMcsevalmsmtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4706,11 +4739,12 @@
   <p id="idMcsevalmsmtnam">name::
     <br>* McshEngl.monosemanticity-of-Mcs,
     <br>* McshEngl.Mcs'monosemanticity,
+    <br>* McshEngl.Mcsevaln'monosemanticity,
     <a class="clsHide" href="#idMcsevalmsmtnam"></a></p>
   </section>
 
   <section id="idMcsevalcnsc">
-  <h2 id="idMcsevalcnscH2">consistency of Mcs
+  <h2 id="idMcsevalcnscH2">consistency of Mcsevaln
     </h2>
   <p id="idMcsevalcnscdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4723,11 +4757,12 @@
     <br>* McshEngl.consistency-of-Mcs,
     <br>* McshEngl.Mcs'consistency,
     <br>* McshEngl.Mcs'integration,
+    <br>* McshEngl.Mcsevaln'consistency,
     <a class="clsHide" href="#idMcsevalcnscnam"></a></p>
   </section>
 
   <section id="idMcsevalcmplt">
-  <h2 id="idMcsevalcmpltH2">completeness of Mcs
+  <h2 id="idMcsevalcmpltH2">completeness of Mcsevaln
     </h2>
   <p id="idMcsevalcmpltdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4737,11 +4772,12 @@
   <p id="idMcsevalcmpltnam">name::
     <br>* McshEngl.completeness-of-Mcs,
     <br>* McshEngl.Mcs'completeness,
+    <br>* McshEngl.Mcsevaln'completeness,
     <a class="clsHide" href="#idMcsevalcmpltnam"></a></p>
   </section>
 
   <section id="idMcsevalsbvt">
-  <h2 id="idMcsevalsbvtH2">subjectivity of Mcs
+  <h2 id="idMcsevalsbvtH2">subjectivity of Mcsevaln
     </h2>
   <p id="idMcsevalsbvtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4753,11 +4789,12 @@
   <p id="idMcsevalsbvtnam">name::
     <br>* McshEngl.Mcs'subjectivity,
     <br>* McshEngl.subjectivity-of-Mcs,
+    <br>* McshEngl.Mcsevaln'subjectivity,
     <a class="clsHide" href="#idMcsevalsbvtnam"></a></p>
   </section>
 
   <section id="idMcsevaluos">
-  <h2 id="idMcsevaluosH2">unity-of-science of Mcs
+  <h2 id="idMcsevaluosH2">unity-of-science of Mcsevaln
     </h2>
   <p id="idMcsevaluosdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4770,6 +4807,7 @@
     <br>* McshEngl.Mcs_unity_of_science,
     <br>* McshEngl.Mcs'unity_of_science!⇒Mcs_unity_of_science,
     <br>* McshEngl.unity-of-science,
+    <br>* McshEngl.Mcsevaln'unity_of_science,
     <a class="clsHide" href="#idMcsevaluosnam"></a></p>
   </section>
   </section>
@@ -4820,7 +4858,7 @@
     <a class="clsHide" href="#idMcsirscnam"></a></p>
 
   <section id="idMcssmrt">
-  <h2 id="idMcssmrtH2">same-referent of Mcs
+  <h2 id="idMcssmrtH2">same-referent of Mcsinfrsc
     </h2>
   <p id="idMcssmrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4831,10 +4869,11 @@
     <br>* McshEngl.Mcs'same_referent!⇒Mcs_same_referent,
     <br>* McshEngl.same-referent--Mcs,
     <br>* McshEngl.Mcs'info_resource'same_referent,
+    <br>* McshEngl.Mcsinfrsc'same_referent,
     <a class="clsHide" href="#idMcssmrtnam"></a></p>
 
   <section id="idMcssmrtov">
-  <h3 id="idMcssmrtovH3">same-referent-other-view of Mcs
+  <h3 id="idMcssmrtovH3">same-referent-other-view of Mcs_same_referent
     </h3>
   <p id="idMcssmrtovdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4844,11 +4883,12 @@
     <br>* McshEngl.Mcs_same_referent_other_view,
     <br>* McshEngl.Mcs'same_referent_other_view!⇒Mcs_same_referent_other_view,
     <br>* McshEngl.same-referent-other-view--Mcs,
+    <br>* McshEngl.Mcs_same_referent'same_referent_other_view,
     <a class="clsHide" href="#idMcssmrtovnam"></a></p>
   </section>
 
   <section id="idMcssmrtrv">
-  <h3 id="idMcssmrtrvH3">same-referent-similar-view of Mcs
+  <h3 id="idMcssmrtrvH3">same-referent-similar-view of Mcs_same_referent
     </h3>
   <p id="idMcssmrtrvdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4858,11 +4898,12 @@
     <br>* McshEngl.Mcs_same_referent_similar_view,
     <br>* McshEngl.Mcs'same_referent_similar_view!⇒Mcs_same_referent_similar_view,
     <br>* McshEngl.same-referent-similar-view--Mcs,
+    <br>* McshEngl.Mcs_same_referent'same_referent_similar_view,
     <a class="clsHide" href="#idMcssmrtrvnam"></a></p>
   </section>
 
   <section id="idMcssmrtmv">
-  <h3 id="idMcssmrtmvH3">same-referent-same-view of Mcs
+  <h3 id="idMcssmrtmvH3">same-referent-same-view of Mcs_same_referent
     </h3>
   <p id="idMcssmrtmvdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4872,12 +4913,13 @@
     <br>* McshEngl.Mcs_same_referent_same_view,
     <br>* McshEngl.Mcs'same_referent_same_view!⇒Mcs_same_referent_same_view,
     <br>* McshEngl.same-referent-same-view--Mcs,
+    <br>* McshEngl.Mcs_same_referent'same_referent_same_view,
     <a class="clsHide" href="#idMcssmrtmvnam"></a></p>
   </section>
   </section>
 
   <section id="idMcssrrt">
-  <h2 id="idMcssrrtH2">similar-referent of Mcs
+  <h2 id="idMcssrrtH2">similar-referent of Mcsinfrsc
     </h2>
   <p id="idMcssrrtdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -4888,6 +4930,7 @@
     <br>* McshEngl.Mcs'similar_referent!⇒Mcs_similar_referent,
     <br>* McshEngl.similar-referent--Mcs,
     <br>* McshEngl.Mcs'info_resource'similar_referent,
+    <br>* McshEngl.Mcsinfrsc'similar_referent,
     <a class="clsHide" href="#idMcssrrtnam"></a></p>
   </section>
   </section>

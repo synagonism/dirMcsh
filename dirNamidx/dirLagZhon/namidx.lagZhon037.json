@@ -1,5 +1,5 @@
 [
-  [";lagZhon037","斐..楸",487,"2026-11-10"],
+  [";lagZhon037","斐..楸",487,"2026-11-16"],
   ["斐-fěi-26000!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb088"],
   ["斑-bān-26001!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb008"],
   ["斓-lán-26003!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb167"],
@@ -115,7 +115,7 @@
   ["昨天-zuótiān!~AdveTimeVerb!=yesterday","dirLag/McshLag000007.last.html#idLHmnmvbatTimeSntxAdve"],
   ["昨天-zuótiān!⇒yesterday","dirCor/McshCor000006.last.html#idTimeUomDayPst"],
   ["昭-zhāo-26157!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb386"],
-  ["是-shì!~verbZhon!⇒RltnEntityThenAttribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
+  ["是-shì!~verbZhon!⇒RltnEnttThenAttr","dirCor/McshCor000003.last.html#idEntatrrln1"],
   ["是-shì!~verbZhon!⇒RltnEquality","dirCor/McshCor000005.last.html#idRlnEqlt"],
   ["是-shì!~verbZhon!⇒RltnSpecific_then_generic","dirCor/McshCor000009.last.html#idGnrspcrln2"],
   ["是-shì-26159!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb298"],

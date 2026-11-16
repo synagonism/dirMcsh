@@ -1,5 +1,5 @@
 [
-  [";lagZhon004","d",643,"2026-11-14"],
+  [";lagZhon004","d",643,"2026-11-16"],
   ["Duōshǎo-多少!⇒quantoAsk","dirCor/McshCor000010.last.html#idQntSmsIgv"],
   ["Dānwèi-单位!⇒UOM","dirCor/McshCor000009.last.html#idGnrcmsrguom"],
   ["da!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb057"],
@@ -402,7 +402,7 @@
   ["dòngcí.niàn_念!⇒read_aloud","dirLag/McshLag000007.last.html#idLTextridgAlud"],
   ["dòngcí.qù_去!⇒FctgGoing","dirCor/McshCor000004.last.html#idDngMvngTwpbcFctg"],
   ["dòngcí.shuō_说!⇒FctgSpeaking","dirLag/McshLag000009.last.html#idL0017prcn"],
-  ["dòngcí.shì_是!⇒RltnEntityThenAttribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
+  ["dòngcí.shì_是!⇒RltnEnttThenAttr","dirCor/McshCor000003.last.html#idEntatrrln1"],
   ["dòngcí.shì_是!⇒RltnEquality","dirCor/McshCor000005.last.html#idRlnEqlt"],
   ["dòngcí.shì_是!⇒RltnSpecific_then_generic","dirCor/McshCor000009.last.html#idGnrspcrln2"],
   ["dòngcí.shēngbìng_生病!⇒Hbsicking","dirHlth/McshHlth000002.last.html#idBdyHmndongGtgsck"],

@@ -1,13 +1,13 @@
 [
-  [";lagSngu21a","A|a",10,"2026-11-09"],
+  [";lagSngu21a","A|a",10,"2026-11-16"],
   ["AAAtest!=McshTest","dirCor/McshCor000016.last.html#idOverview"],
-  ["a!~ConjSngu!⇒RltnEntityThenAttribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
+  ["a!~ConjSngu!⇒RltnEnttThenAttr","dirCor/McshCor000003.last.html#idEntatrrln1"],
   ["a!⇒SnguletrA","dirLag/McshLag000010.last.html#idL0014ltr21"],
-  ["acca!~ConjSngu!⇒RltnAttributeThenEntity","dirCor/McshCor000003.last.html#idEntatrrln2"],
-  ["ai!~verbSngu!⇒RltnEntityThenAttribute","dirCor/McshCor000003.last.html#idEntatrrln1"],
-  ["aiccai!~verbSngu!⇒RltnAttributeThenEntity","dirCor/McshCor000003.last.html#idEntatrrln2"],
+  ["acca!~ConjSngu!⇒RltnAttrThenEntt","dirCor/McshCor000003.last.html#idEntatrrln2"],
+  ["ai!~verbSngu!⇒RltnEnttThenAttr","dirCor/McshCor000003.last.html#idEntatrrln1"],
+  ["aiccai!~verbSngu!⇒RltnAttrThenEntt","dirCor/McshCor000003.last.html#idEntatrrln2"],
   ["ana!~ConjSngu!⇒timeBeforeTime","dirCor/McshCor000006.last.html#idTimeRltvBfr"],
   ["anu-enu-inu!=before-same-after","dirCor/McshCor000011.last.html#idSys001ordrRlvBfr"],
   ["au!=personLagC1","dirLag/McshLag000007.last.html#idLHmnmprsnC1"],
-  ["au!~argoSngu!=RltnEntityAttribute","dirCor/McshCor000003.last.html#idEntatrrln1"]
+  ["au!~argoSngu!=RltnEnttAttr","dirCor/McshCor000003.last.html#idEntatrrln1"]
 ]
