@@ -1,5 +1,5 @@
 [
-  [";lagEngl26zet","Z|z",14012,"2026-11-16"],
+  [";lagEngl26zet","Z|z",14014,"2026-11-17"],
   ["Z-integer-number!⇒numberInteger","dirCor/McshCor000010.last.html#idQntNbrIgr"],
   ["Z-zeta=x1000^7","dirCor/McshCor000010.last.html#idQntRlvMlplZeta"],
   ["ZAR!=South-Africa-Rand-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
@@ -644,6 +644,7 @@
   ["Zhonlago'03_input3_(semu-view)!⇒ZhonviewSemu","dirLag/McshLag000018.last.html#idLZhonipt3"],
   ["Zhonlago'03_input3_(semu_view)!⇒ZhonviewSemu","dirLag/McshLag000018.last.html#idLZhonipt3"],
   ["Zhonlago'08_science","dirLag/McshLag000018.last.html#idLZhonsci"],
+  ["Zhonlago'33_last","dirLag/McshLag000018.last.html#idOverview"],
   ["Zhonlago'Chinese_Classics","dirLag/McshLag000018.last.html#idLZhonrscClsc"],
   ["Zhonlago'Chinese_family!⇒Zho0Lago","dirLag/McshLag000018.last.html#idLZhonfmly"],
   ["Zhonlago'Conj_cnpt!⇒Zhonsemuconj","dirLag/McshLag000018.last.html#idLZhonsmscnj"],
@@ -2822,6 +2823,7 @@
   ["Zhons/s/:generic","dirLag/McshLag000018.last.html#idLZhonpnynSgntr"],
   ["Zhonsect","dirLag/McshLag000018.last.html#idLZhonsctn"],
   ["Zhonsemuargu","dirLag/McshLag000018.last.html#idLZhonsmsnun"],
+  ["Zhonsemuargu'18_last","dirLag/McshLag000018.last.html#idLZhonsmsnun"],
   ["Zhonsemuargu'generic_specific_tree","dirLag/McshLag000018.last.html#idLZhonsmsnungstr"],
   ["Zhonsemuargu'logo_relation","dirLag/McshLag000018.last.html#idLZhonsmsnunlgrn"],
   ["Zhonsemuargu'member!⇒Zhonsmagmb","dirLag/McshLag000018.last.html#idLZhonsmsnunmbr"],

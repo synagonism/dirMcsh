@@ -1,5 +1,5 @@
 [
-  [";lagEngl21yxu","U|u",7233,"2026-11-16"],
+  [";lagEngl21yxu","U|u",7235,"2026-11-17"],
   ["U+0000..U+007F|0..127-Basic-Latin!⇒Ucbk000000_000127","dirTchInf/dirUcd/McshUcdU0000.last.html#idOverview"],
   ["U+0080..U+00FF|128..255|..&#x00FF;-Latin-1-Supplement!⇒Ucbk000128_000255","dirTchInf/dirUcd/McshUcdU0080.last.html#idOverview"],
   ["U+0100..U+017F|256..383|&#x0100;..&#x017F;-Latin-Extended-A!⇒Ucbk000256_000383","dirTchInf/dirUcd/McshUcdU0100.last.html#idOverview"],
@@ -6799,6 +6799,7 @@
   ["Usazadmn'national_security!⇒Usazadmn_att004_national_security","dirStn/McshStn000032.last.html#idUsazadmnatt004"],
   ["Usazadmn_att004_national_security","dirStn/McshStn000032.last.html#idUsazadmnatt004"],
   ["Usazadmndoing!=doing-of-Usazadmn","dirStn/McshStn000032.last.html#idUsazadmndong"],
+  ["Usazadmndoing'national_security","dirStn/McshStn000032.last.html#idUsazadmnatt004"],
   ["Usazfins!=financial-system-of-Usa","dirStn/McshStn000032.last.html#idUsazEconatt004"],
   ["Usazhmns!=human-system-of-Usa","dirStn/McshStn000032.last.html#idSocUsazatt001"],
   ["Usazhumnright!=human-right-of-Usa","dirStn/McshStn000032.last.html#idUsazadmnatt005"],
@@ -6906,6 +6907,7 @@
   ["unemployed-worker!⇒WrkrEmployedNo","dirStn/McshStn000011.last.html#idWkr006"],
   ["unemployment","dirStn/McshStn000011.last.html#idWkr006Agg"],
   ["unemployment'03_payment","dirStn/McshStn000011.last.html#idWkr006Aggpmnt"],
+  ["unemployment'06_last","dirStn/McshStn000011.last.html#idWkr006Agg"],
   ["unemployment'benefit","dirStn/McshStn000011.last.html#idWkr006Aggpmnt"],
   ["unemployment'compensation","dirStn/McshStn000011.last.html#idWkr006Aggpmnt"],
   ["unemployment'generic_specific_tree","dirStn/McshStn000011.last.html#idWkr006Agggstr"],
