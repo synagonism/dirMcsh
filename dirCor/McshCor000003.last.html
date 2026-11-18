@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mcsh.entity
-    (McshCor000003.1-171-0.2026-11-16)</title>
+    (McshCor000003.1-173-0.2026-11-18)</title>
   <meta name="keywords" content="entity, modelConceptSenso, Hitp_Mcs, synagonism">
   <link rel="stylesheet" href="/dirMcshmgr/mMcsh2.css">
 </head>
@@ -35,6 +35,7 @@
     <br>* McshEngl.entity.lagoSngu!=leu,
     <br>* McshEngl.entity.lagoElln!=οντότητα!η,
     <br>* McshEngl.entity.lagoZhon!=shì-事,
+    <br>* McshEngl.entity'03_last!⇒entity,
     <br>* McshEngl.McshCor000003.last.html//dirCor//dirMcsh!⇒entity,
     <br>* McshEngl.dirCor/McshCor000003.last.html!⇒entity,
     <br>* McshEngl.dirCor//dirMcsh!⇒entity,
@@ -166,19 +167,20 @@
   </section>
 
   <section id="idEntatt">
-  <h1 id="idEntattH1">attribute of entity
+  <h1 id="idEntattH1">01_attribute of entity
     </h1>
   <p id="idEntattdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· <span class="clsColorRed">attribute of entity\a\</span> is any other ENTITY related with it\a\.
     <a class="clsHide" href="#idEntattdsn"></a></p>
   <p id="idEntattnam">name::
-    <br>* McshEngl.attribute-of-entity!⇒Enttattr,
-    <br>* McshEngl.Enttattr!=attribute-of-entity,
+    <br>* McshEngl.entity'01_attribute!⇒Enttattr,
+    <br>* McshEngl.Enttattr'entity'01_attribute,
     <br>* McshEngl.attribute.lagoSngu!=eu!⇒Enttattr,
     <br>* McshEngl.attribute.lagoElln!=χαρακτηριστικό!το!⇒Enttattr,
-    <br>* McshEngl.attributes!~plural:attribute!⇒Enttattr,
     <br>* McshEngl.entity'attribute!⇒Enttattr,
+    <br>* McshEngl.attributes!~plural-attribute!⇒Enttattr,
+    <br>* McshEngl.attribute-of-entity!⇒Enttattr,
     <br>* McshEngl.characteristic-of-entity!⇒Enttattr,
     <br>* McshEngl.feature-of-entity!⇒Enttattr,
     <br>* McshEngl.quality-of-entity!⇒Enttattr,
@@ -378,6 +380,7 @@
     <br>· χρόνοι ρήματος,
     <a class="clsHide" href="#idEntattnamgdsn"></a></p>
   <p id="idEntattnamgnam">name::
+    <br>* McshEngl.attribute'naming_acting,
     <br>* McshEngl.ActgNamingAttr,
     <br>* McshEngl.attribute'naming_acting,
     <br>* McshEngl.ActgNaming.entity_attribute,
@@ -426,6 +429,43 @@
     <br>===
     <br>* attribute.doingNo!@McshCor000003#idEntDngN,
     <a class="clsHide" href="#idEntattsptr"></a></p>
+  </section>
+
+  <section id="idEntDngN">
+  <h2 id="idEntDngNH2">Enttattr.doingNo
+    </h2>
+  <p id="idEntDngNdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>· <span class="clsColorRed">doingNo</span> is <a class="clsPreview" href="#idOverview">an-entity</a> which is NO <a class="clsPreview" href="../dirCor/McshCor000004.last.html#idOverview">doing</a>.
+    <a class="clsHide" href="#idEntDngNdsn"></a></p>
+  <p id="idEntDngNnam">name::
+    <br>* McshEngl.doingNo,
+    <br>* McshEngl.EnttDoingNo!⇒doingNo,
+    <br>* McshEngl.Enttattr.doingNo!⇒doingNo,
+    <a class="clsHide" href="#idEntDngNnam"></a></p>
+
+  <section id="idEntDngNgstr">
+  <h3 id="idEntDngNgstrH3">GENERIC-SPECIFIC-TREE of doingNo
+    </h3>
+  <p id="idEntDngNgstrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idEntDngNgstrdsn"></a></p>
+  <p id="idEntDngNgstrnam">name::
+    <br>* McshEngl.doingNo'generic_specific_tree,
+    <a class="clsHide" href="#idEntDngNgstrnam"></a></p>
+  <p id="idEntDngNgntr">generic-tree::
+    <br>* McshEngl.doingNo:generic,
+    <br>===
+    <br>* attribute-of-entity!@McshCor000003#idEntatt,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idEntDngNgntr"></a></p>
+  <p id="idEntDngNsptr">specific-tree::
+    <br>* McshEngl.doingNo.specific,
+    <br>===
+    <br>* doingNo.body!@McshCor000003#idEntBody,
+    <br>* doingNo.relation!@McshCor000005,
+    <a class="clsHide" href="#idEntDngNsptr"></a></p>
+  </section>
   </section>
 
   <section id="idEntatt001">
@@ -537,15 +577,15 @@
   </section>
 
   <section id="idEntatrrln">
-  <h1 id="idEntatrrlnH1">unsequenced-relation-to-attribute of Entity
+  <h1 id="idEntatrrlnH1">02_attribute_relation of entity
     </h1>
   <p id="idEntatrrlndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· entity-attribute--sequencedNo-relation is <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnSqcdN">a-sequencedNo-relation</a> between <a class="clsPreview" href="#idOverview">an-entity\a\</a> and <a class="clsPreview" href="#idEntatt">an-attribute</a> of it\a\.
     <a class="clsHide" href="#idEntatrrlndsn"></a></p>
   <p id="idEntatrrlnnam">name::
+    <br>* McshEngl.entity'02_attribute_relation!⇒RltnEnttAttr,
     <br>* McshEngl.entity-attribute--unsequenced-relation!⇒RltnEnttAttr,
-    <br>* McshEngl.RltnEnttAttr!=entity-attribute--unsequenced-relation,
     <br>* McshEngl.Enttattrrltn!⇒RltnEnttAttr,
     <br>* McshEngl.sequencedNo-entity-attribute-relation!⇒RltnEnttAttr,
     <br>* McshEngl.entity'attribute__sequencedNo_relation!⇒RltnEnttAttr,
@@ -555,6 +595,7 @@
     <br>* McshEngl.relation.entity_attribute_sequencedNo!⇒RltnEnttAttr,
     <br>* McshEngl.RltnAttributeEntity!⇒RltnEnttAttr,
     <br>* McshEngl.RltnAttribute_then_entityU!⇒RltnEnttAttr,
+    <br>* McshEngl.unsequenced-relation-to-attribute--of-entity!⇒RltnEnttAttr,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.ro_o_atro!⇒RltnEnttAttr,
     <a class="clsHide" href="#idEntatrrlnnam"></a></p>
@@ -683,6 +724,19 @@
     <a class="clsHide" href="#idEntatrrln2sptr"></a></p>
   </section>
   </section>
+  </section>
+
+  <section id="idEntexrn">
+  <h1 id="idEntexrnH1">03_expression of entity
+    </h1>
+  <p id="idEntexrndsn">description::
+    <br>× Mcsh-creation: {2026-11-18}
+    <br>· entities (visual, oral, haptic) used to communicate an-entity.
+    <a class="clsHide" href="#idEntexrndsn"></a></p>
+  <p id="idEntexrnnam">name::
+    <br>* McshEngl.entity'03_expression,
+    <br>* McshEngl.entity'expression,
+    <a class="clsHide" href="#idEntexrnnam"></a></p>
   </section>
 
   <section id="idEntirsc">
@@ -5307,6 +5361,7 @@
     <br>* McshEngl.EnttDeicticNearA,
     <br>* McshEngl.deictic.entity.nearA!⇒EnttDeicticNearA,
     <br>* McshEngl.entity.deictic.nearA!⇒EnttDeicticNearA,
+    <br>* McshEngl.EnttDeicticNearA'02_last,
     <br>====== lagoSinagu:
     <br>* McshSngo.weu!⇒EnttDeicticNearA,
     <br>====== lagoChinese:
@@ -5414,6 +5469,7 @@
     <br>* McshEngl.EnttDefinite!⇒definite,
     <br>* McshEngl.entity.definite!⇒definite,
     <br>* McshEngl.entity.boundary.definite!⇒definite,
+    <br>* McshEngl.definite'02_last,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.leu_dou!⇒definite,
     <br>====== lagoGreek:
@@ -5626,6 +5682,7 @@
     <br>* McshEngl.indefinite!⇒definiteNo,
     <br>* McshEngl.indefinite-entity!⇒definiteNo,
     <br>* McshEngl.entity.boundary.definiteNo!⇒definiteNo,
+    <br>* McshEngl.definiteNo'02_last,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.leu_dou_nnu!⇒definiteNo,
     <br>====== lagoGreek:
@@ -5779,6 +5836,7 @@
     <br>* McshEngl.non-relation-or-process!⇒body,
     <br>* McshEngl.entity.structure.body!⇒body,
     <br>* McshEngl.entity.dependance.body!⇒body,
+    <br>* McshEngl.body'03_last,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.leu_ro_nnu!=entity.body!⇒body, {2021-06-16}
     <br>* McshSngu.old.ro_nnu!=entity.body!⇒body,
@@ -5943,7 +6001,7 @@
   <p id="idEntBodygntr">generic-tree::
     <br>* McshEngl.body:generic,
     <br>===
-    <br>* EnttDoingNo!@McshCor000003#idEntDngN,
+    <br>* entity!@McshCor000003#idOverivew,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idEntBodygntr"></a></p>
   <p id="idEntBodysptr">specific-tree::
@@ -5953,6 +6011,18 @@
     <br>* materialNo-body,
     <br>* body.SemuarguBody!@McshLag000007#idLHmmdsmsondoBdet,
     <a class="clsHide" href="#idEntBodysptr"></a></p>
+
+  <section id="idEntBodyexrn">
+  <h2 id="idEntBodyexrnH2">03_expression of body
+    </h2>
+  <p id="idEntBodyexrndsn">description::
+    <br>× Mcsh-creation: {2026-11-18}
+    <br>· a-body is-expressed with Hmmdargu.
+    <a class="clsHide" href="#idEntBodyexrndsn"></a></p>
+  <p id="idEntBodyexrnnam">name::
+    <br>* McshEngl.body'03_expression,
+    <a class="clsHide" href="#idEntBodyexrnnam"></a></p>
+  </section>
   </section>
 
   <section id="idEntBodyN">
@@ -5966,6 +6036,7 @@
   <p id="idEntBodyNnam">name::
     <br>* McshEngl.entity.bodyNo!⇒bodyNo,
     <br>* McshEngl.bodyNo!=entity.bodyNo,
+    <br>* McshEngl.bodyNo'05_last,
     <br>* McshEngl.doing-or-relation!⇒bodyNo,
     <br>* McshEngl.EnttBodyNo!⇒bodyNo,
     <br>* McshEngl.procesorelation!⇒bodyNo,
@@ -5974,7 +6045,6 @@
     <br>* McshEngl.relation-or-process!⇒bodyNo,
     <br>* McshEngl.reldo!⇒bodyNo, {2023-07-03}
     <br>* McshEngl.entity.dependance.bodyNo!⇒bodyNo,
-    <br>* McshEngl.bodyNo'05_last,
     <br>====== lagoSinagu:
     <br>* leu-ro!⇒bodyNo,
     <br>* ro!⇒bodyNo, {2021-06-16} rao=relation rio=doing,
@@ -6001,16 +6071,71 @@
     <br>[{2025-12-15 retrieved} https://chat.deepseek.com/a/chat/s/a0a1b0bb-fcd5-4c9a-baf3-7530657a7f85]
     <a class="clsHide" href="#idEntBodyNdsnL"></a></p>
 
+
+  <section id="idEntBodyNexrn">
+  <h2 id="idEntBodyNexrnH2">03_expression of bodyNo
+    </h2>
+  <p id="idEntBodyNexrndsn">description::
+    <br>× Mcsh-creation: {2026-11-18}
+    <br>· any mapping of bodyNo to communicate it.
+    <a class="clsHide" href="#idEntBodyNexrndsn"></a></p>
+  <p id="idEntBodyNexrnnam">name::
+    <br>* McshEngl.bodyNo'03_expression!⇒BodyNoexpression,
+    <br>* McshEngl.BodyNoexpression!=bodyNo'03_expression,
+    <a class="clsHide" href="#idEntBodyNexrnnam"></a></p>
+
+  <section id="idEntBodyNstx">
+  <h3 id="idEntBodyNstxH3">syntax of BodyNoexpression
+    </h3>
+  <p id="idEntBodyNstxdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>· on every bodyNo, each lagoHmnm, applies <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdsxtr">a-syntax</a> which is language dependable.
+    <a class="clsHide" href="#idEntBodyNstxdsn"></a></p>
+  <p id="idEntBodyNstxnam">name::
+    <br>* McshEngl.BodyNoexpression'syntax,
+    <br>* McshEngl.bodyNo'syntax,
+    <br>* McshEngl.syntax-of-bodyNo,
+    <br>* McshEngl.bodyNo'logo_relation'syntax,
+    <a class="clsHide" href="#idEntBodyNstxnam"></a></p>
+  </section>
+
+  <section id="idEntBodyNsmsln">
+  <h3 id="idEntBodyNsmslnH3">BodyNoexpression.semu
+    </h3>
+  <p id="idEntBodyNsmslndsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>× bodyNo: <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdsmsvrb">Hmmdsemuverb</a>,
+    <a class="clsHide" href="#idEntBodyNsmslndsn"></a></p>
+  <p id="idEntBodyNsmslnnam">name::
+    <br>* McshEngl.bodyNo'06_semu_relation,
+    <br>* McshEngl.bodyNo'semu_relation,
+    <a class="clsHide" href="#idEntBodyNsmslnnam"></a></p>
+  </section>
+
+  <section id="idEntBodyNlgln">
+  <h3 id="idEntBodyNlglnH3">BodyNoexpression.logo
+    </h3>
+  <p id="idEntBodyNlglndsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>× bodyNo: <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdverb">Hmmdverb</a>,
+    <a class="clsHide" href="#idEntBodyNlglndsn"></a></p>
+  <p id="idEntBodyNlglnnam">name::
+    <br>* McshEngl.bodyNo'07_logo_relation,
+    <br>* McshEngl.bodyNo'logo_relation,
+    <a class="clsHide" href="#idEntBodyNlglnnam"></a></p>
+  </section>
+  </section>
+
   <section id="idEntBodyNarg">
-  <h2 id="idEntBodyNargH2">01_argument of bodyNo
+  <h2 id="idEntBodyNargH2">04_argument of bodyNo
     </h2>
   <p id="idEntBodyNargdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· argument of bodyNo is its attributes. {2025-12-11}
     <a class="clsHide" href="#idEntBodyNargdsn"></a></p>
   <p id="idEntBodyNargnam">name::
-    <br>* McshEngl.bodyNo'01_argument!⇒bodyNoargt,
-    <br>* McshEngl.bodyNoargt!=bodyNo'01_argument,
+    <br>* McshEngl.bodyNo'04_argument!⇒bodyNoargt,
+    <br>* McshEngl.bodyNoargt!=bodyNo'04_argument,
     <br>* McshEngl.argument-of-bodyNo!⇒bodyNoargt,
     <br>* McshEngl.argtBodyNo!⇒bodyNoargt,
     <br>* McshEngl.argtBodyNo.lagoElln!=όρισμα-σώματοςΜη!⇒bodyNoargt,
@@ -6057,6 +6182,23 @@
     <br>[{2025-12-24 retrieved} https://chat.deepseek.com/a/chat/s/23363603-60b9-4dc6-bb97-e1146767b3c2]
     <a class="clsHide" href="#idEntBodyNargnam"></a></p>
 
+  <section id="idEntBodyNdrn">
+  <h3 id="idEntBodyNdrnH3">sequence of bodyNoargt
+    </h3>
+  <p id="idEntBodyNdrndsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>· sequence-of-bodyNo is the-sequence|direction of its arguments.
+    <a class="clsHide" href="#idEntBodyNdrndsn"></a></p>
+  <p id="idEntBodyNdrnnam">name::
+    <br>* McshEngl.bodyNo'sequence!⇒bodyNosqnc,
+    <br>* McshEngl.bodyNosqnc!=bodyNo'sequence,
+    <br>* McshEngl.sequence-of-bodyNo!⇒bodyNosqnc,
+    <br>* McshEngl.bodyNo'sequence!⇒bodyNosqnc,
+    <br>* McshEngl.bodyNo'direction!⇒bodyNosqnc,
+    <br>* McshEngl.direction-of-bodyNo!⇒bodyNosqnc,
+    <a class="clsHide" href="#idEntBodyNdrnnam"></a></p>
+  </section>
+
   <section id="idEntBodyNarggstr">
   <h3 id="idEntBodyNarggstrH3">GENERIC-SPECIFIC-TREE of bodyNoargt
     </h3>
@@ -6069,6 +6211,7 @@
   <p id="idEntBodyNarggntr">generic-tree::
     <br>* McshEngl.bodyNoargt:generic,
     <br>===
+    <br>* entity!@McshCor000003#idOverview,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idEntBodyNarggntr"></a></p>
   <p id="idEntBodyNargsptr">specific-tree::
@@ -6122,21 +6265,22 @@
   </section>
 
   <section id="idEntBodyNvlc">
-  <h2 id="idEntBodyNvlcH2">02_valence of bodyNo
+  <h2 id="idEntBodyNvlcH2">05_valence of bodyNo
     </h2>
   <p id="idEntBodyNvlcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· valence of bodyNo is the-number of its arguments.
     <a class="clsHide" href="#idEntBodyNvlcdsn"></a></p>
   <p id="idEntBodyNvlcnam">name::
-    <br>* McshEngl.bodyNo'02_valence!⇒bodyNovalence,
-    <br>* McshEngl.bodyNovalence!=bodyNo'02_valence,
+    <br>* McshEngl.bodyNo'05_valence!⇒bodyNovalence,
+    <br>* McshEngl.bodyNovalence!=bodyNo'05_valence,
     <br>* McshEngl.valence-of-bodyNo!⇒bodyNovalence,
     <br>* McshEngl.bodyNo'valence!⇒bodyNovalence,
     <a class="clsHide" href="#idEntBodyNvlcnam"></a></p>
   <p id="idEntBodyNvlcgntr">generic-tree::
     <br>* McshEngl.bodyNovalence:generic,
     <br>===
+    <br>* number!@McshCor000010#idQntNbr,
     <br>* ...entity:generic,
     <a class="clsHide" href="#idEntBodyNvlcgntr"></a></p>
   <p id="idEntBodyNvlcsptr">specific-tree::
@@ -6144,63 +6288,6 @@
     <br>===
     <br>* doing'valence!@McshCor000004#idDngatt002,
     <a class="clsHide" href="#idEntBodyNvlcsptr"></a></p>
-  </section>
-
-  <section id="idEntBodyNdrn">
-  <h2 id="idEntBodyNdrnH2">03_sequence of bodyNo
-    </h2>
-  <p id="idEntBodyNdrndsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>· sequence-of-bodyNo is the-sequence|direction of its arguments.
-    <a class="clsHide" href="#idEntBodyNdrndsn"></a></p>
-  <p id="idEntBodyNdrnnam">name::
-    <br>* McshEngl.bodyNo'03_sequence!⇒bodyNosqnc,
-    <br>* McshEngl.bodyNosqnc!=bodyNo'03_sequence,
-    <br>* McshEngl.sequence-of-bodyNo!⇒bodyNosqnc,
-    <br>* McshEngl.bodyNo'sequence!⇒bodyNosqnc,
-    <br>* McshEngl.bodyNo'direction!⇒bodyNosqnc,
-    <br>* McshEngl.direction-of-bodyNo!⇒bodyNosqnc,
-    <a class="clsHide" href="#idEntBodyNdrnnam"></a></p>
-  </section>
-
-  <section id="idEntBodyNsmsln">
-  <h2 id="idEntBodyNsmslnH2">04_semu_relation of bodyNo
-    </h2>
-  <p id="idEntBodyNsmslndsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>× bodyNo: <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdsmsvrb">Hmmdsemuverb</a>,
-    <a class="clsHide" href="#idEntBodyNsmslndsn"></a></p>
-  <p id="idEntBodyNsmslnnam">name::
-    <br>* McshEngl.bodyNo'04_semu_relation,
-    <br>* McshEngl.bodyNo'semu_relation,
-    <a class="clsHide" href="#idEntBodyNsmslnnam"></a></p>
-  </section>
-
-  <section id="idEntBodyNlgln">
-  <h2 id="idEntBodyNlglnH2">05_logo_relation of bodyNo
-    </h2>
-  <p id="idEntBodyNlglndsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>× bodyNo: <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdverb">Hmmdverb</a>,
-    <a class="clsHide" href="#idEntBodyNlglndsn"></a></p>
-  <p id="idEntBodyNlglnnam">name::
-    <br>* McshEngl.bodyNo'05_logo_relation,
-    <br>* McshEngl.bodyNo'logo_relation,
-    <a class="clsHide" href="#idEntBodyNlglnnam"></a></p>
-
-  <section id="idEntBodyNstx">
-  <h3 id="idEntBodyNstxH3">syntax of bodyNo
-    </h3>
-  <p id="idEntBodyNstxdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>· on every bodyNo, each lagoHmnm, applies <a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdsxtr">a-syntax</a> which is language dependable.
-    <a class="clsHide" href="#idEntBodyNstxdsn"></a></p>
-  <p id="idEntBodyNstxnam">name::
-    <br>* McshEngl.bodyNo'syntax,
-    <br>* McshEngl.syntax-of-bodyNo,
-    <br>* McshEngl.bodyNo'logo_relation'syntax,
-    <a class="clsHide" href="#idEntBodyNstxnam"></a></p>
-  </section>
   </section>
 
   <section id="idEntBodyNgstr">
@@ -6249,17 +6336,17 @@
     <a class="clsHide" href="#idEntBodyNSqcdsptr"></a></p>
 
   <section id="idEntBodyNSqcdsbjct">
-  <h3 id="idEntBodyNSqcdsbjctH3">subject of reldoSequenced (<a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdsmssbt">link</a>)
+  <h3 id="idEntBodyNSqcdsbjctH3">06_subject of reldoSequenced (<a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdsmssbt">link</a>)
     </h3>
   </section>
 
   <section id="idEntBodyNSqcdsbjtg">
-  <h3 id="idEntBodyNSqcdsbjtgH3">subject-target of reldoSequenced (<a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdsmssttt">link</a>)
+  <h3 id="idEntBodyNSqcdsbjtgH3">07_subject-target of reldoSequenced (<a class="clsPreview" href="../dirLag/McshLag000007.last.html#idLHmmdsmssttt">link</a>)
     </h3>
   </section>
 
   <section id="idEntBodyNSqcdtgtrn">
-  <h3 id="idEntBodyNSqcdtgtrnH3">togetherness of reldoSequenced
+  <h3 id="idEntBodyNSqcdtgtrnH3">08_togetherness of reldoSequenced
     </h3>
   <p id="idEntBodyNSqcdtgtrndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6269,7 +6356,8 @@
     <br>· _SntxZhon: 我们 一起 吃 晚饭 吧。 :: _SntxSubj:[Wǒmen] _SntxOther:[yīqǐ] _SntxVerb:{chī} _SntxObj1:[wǎnfàn] {ba}. != Let's eat dinner together.
     <a class="clsHide" href="#idEntBodyNSqcdtgtrndsn"></a></p>
   <p id="idEntBodyNSqcdtgtrnnam">name::
-    <br>* McshEngl.together,
+    <br>* McshEngl.reldoSequenced'08_togetherness!⇒together,
+    <br>* McshEngl.together!=reldoSequenced'08_togetherness,
     <br>* McshEngl.reldoSequenced'togetherness!⇒together,
     <br>* McshEngl.AdveEngl.together!⇒together,
     <br>* McshEngl.together!~AdveEngl,
@@ -6297,49 +6385,6 @@
     <br>* McshEngl.sequencedNo-bodyNo,
     <br>* McshEngl.unsequenced-bodyNo,
     <a class="clsHide" href="#idEntBodyNSqcdNnam"></a></p>
-  </section>
-  </section>
-
-  <section id="idEntDng">
-  <h1 id="idEntDngH1">entity.doing (<a class="clsPreview" href="../dirCor/McshCor000004.last.html#idOverview">link</a>)
-    </h1>
-  </section>
-
-  <section id="idEntDngN">
-  <h1 id="idEntDngNH1">entity.doingNo
-    </h1>
-  <p id="idEntDngNdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>· <span class="clsColorRed">doingNo</span> is <a class="clsPreview" href="#idOverview">an-entity</a> which is NO <a class="clsPreview" href="../dirCor/McshCor000004.last.html#idOverview">doing</a>.
-    <a class="clsHide" href="#idEntDngNdsn"></a></p>
-  <p id="idEntDngNnam">name::
-    <br>* McshEngl.doingNo,
-    <br>* McshEngl.EnttDoingNo!⇒doingNo,
-    <br>* McshEngl.entity.doingNo!⇒doingNo,
-    <br>* McshEngl.entity.doing.doingNo!⇒doingNo,
-    <a class="clsHide" href="#idEntDngNnam"></a></p>
-
-  <section id="idEntDngNgstr">
-  <h2 id="idEntDngNgstrH2">GENERIC-SPECIFIC-TREE of doingNo
-    </h2>
-  <p id="idEntDngNgstrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idEntDngNgstrdsn"></a></p>
-  <p id="idEntDngNgstrnam">name::
-    <br>* McshEngl.doingNo'generic_specific_tree,
-    <a class="clsHide" href="#idEntDngNgstrnam"></a></p>
-  <p id="idEntDngNgntr">generic-tree::
-    <br>* McshEngl.doingNo:generic,
-    <br>===
-    <br>* attribute-of-entity!@McshCor000003#idEntatt,
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idEntDngNgntr"></a></p>
-  <p id="idEntDngNsptr">specific-tree::
-    <br>* McshEngl.doingNo.specific,
-    <br>===
-    <br>* doingNo.body!@McshCor000003#idEntBody,
-    <br>* doingNo.relation!@McshCor000005,
-    <a class="clsHide" href="#idEntDngNsptr"></a></p>
   </section>
   </section>
 
@@ -6372,6 +6417,7 @@
     <br>* McshEngl.entity.wholeNo!⇒unit,
     <br>* McshEngl.wholeNo-entity!⇒unit,
     <br>* McshEngl.entity-without-parts!⇒unit,
+    <br>* McshEngl.unit'02_last,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.coNo!⇒unit, {2022-01-03}
     <br>* coUno!⇒unit,
@@ -6457,6 +6503,7 @@
     <br>* McshEngl.EnttHumanNo!⇒humanNo,
     <br>* McshEngl.entity.humanNo!⇒humanNo,
     <br>* McshEngl.entity.human.humanNo!⇒humanNo,
+    <br>* McshEngl.humanNo'02_last,
     <br>====== lagoSinagu:
     <br>* McshSngu.old.ho_nnu!⇒humanNo,
     <br>====== lagoGreek:
@@ -6578,7 +6625,7 @@
     <a class="clsHide" href="#idEntYangnam"></a></p>
 
   <section id="idEntYangattnew">
-  <h2 id="idEntYangattnewH2">new-attribute of young
+  <h2 id="idEntYangattnewH2">03_new-attribute of young
     </h2>
   <p id="idEntYangattnewdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6587,7 +6634,8 @@
     <br>· _SntxZhon: 这个书店 是 新 的。 :: _SntxSubj:[Zhège shūdiàn] _SntxVerb:{shì} _SntxSbjc:[xīn] de。 != [this bookstore] {is} [new].
     <a class="clsHide" href="#idEntYangattnewdsn"></a></p>
   <p id="idEntYangattnewnam">name::
-    <br>* McshEngl.new,
+    <br>* McshEngl.young'03_new_attribute!⇒new,
+    <br>* McshEngl.new!=young'03_new_attribute,
     <br>* McshEngl.young'new_attribute!⇒new,
     <br>* McshEngl.attribute.new!⇒new,
     <br>* McshEngl.entity'att006_new!⇒new,
@@ -6625,7 +6673,7 @@
     <a class="clsHide" href="#idEntYangNnam"></a></p>
 
   <section id="idEntYangNattold">
-  <h2 id="idEntYangNattoldH2">old-attribute of entityΥoungNo
+  <h2 id="idEntYangNattoldH2">03_old-attribute of entityΥoungNo
     </h2>
   <p id="idEntYangNattolddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6637,7 +6685,8 @@
     <br>· _SntxZhon: 我 的 衣服 很 旧。 :: _SntxSubj:[Wǒ de yīfú] _SntxSbjc:[hěn jiù]. != [my clothes] [old]
     <a class="clsHide" href="#idEntYangNattolddsn"></a></p>
   <p id="idEntYangNattoldnam">name::
-    <br>* McshEngl.old,
+    <br>* McshEngl.entityΥoungNo'03_old_attribute!⇒old,
+    <br>* McshEngl.old!=entityΥoungNo'03_old_attribute,
     <br>* McshEngl.entityΥoungNo'old_attribute!⇒old,
     <br>* McshEngl.attribute.old!⇒old,
     <br>* McshEngl.entity'att005_old!⇒old,
@@ -6707,6 +6756,7 @@
     <br>* McshEngl.Exml!⇒example,
     <br>* McshEngl.EnttExample!⇒example,
     <br>* McshEngl.entity.example!⇒example,
+    <br>* McshEngl.example'02_last,
     <br>====== lagoChinese:
     <br>* McshElln.lìzi-例子!⇒example,
     <br>* McshElln.例子-lìzi!⇒example,

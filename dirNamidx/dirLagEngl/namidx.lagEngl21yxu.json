@@ -1,5 +1,5 @@
 [
-  [";lagEngl21yxu","U|u",7235,"2026-11-17"],
+  [";lagEngl21yxu","U|u",7237,"2026-11-17"],
   ["U+0000..U+007F|0..127-Basic-Latin!⇒Ucbk000000_000127","dirTchInf/dirUcd/McshUcdU0000.last.html#idOverview"],
   ["U+0080..U+00FF|128..255|..&#x00FF;-Latin-1-Supplement!⇒Ucbk000128_000255","dirTchInf/dirUcd/McshUcdU0080.last.html#idOverview"],
   ["U+0100..U+017F|256..383|&#x0100;..&#x017F;-Latin-Extended-A!⇒Ucbk000256_000383","dirTchInf/dirUcd/McshUcdU0100.last.html#idOverview"],
@@ -6946,6 +6946,7 @@
   ["unique-entity!⇒individual","dirCor/McshCor000009.last.html#idGnrcspcIndi"],
   ["unique-name!⇒nameId","dirLag/McshLag000007.last.html#idLHmmdname003"],
   ["unit!=the-most-part","dirCor/McshCor000003.last.html#idEntWholeN"],
+  ["unit'02_last","dirCor/McshCor000003.last.html#idEntWholeN"],
   ["unit--of-Jsgnalgo","dirTchInf/McshTchInf000010.last.html#idLJsgnunt"],
   ["unit-infoBrainBio","dirLag/McshLag000002.last.html#idInfBrnBioUnt"],
   ["unit-infoMindBio","dirCor/McshCor000013.last.html#idBrnginfUnit"],
@@ -7097,6 +7098,7 @@
   ["unsaturatedFatContent@schema.org","dirStn/McshStn000023.last.html#idScmounsaturatedFatContent"],
   ["unsequenced-bodyNo","dirCor/McshCor000003.last.html#idEntBodyNSqcdN"],
   ["unsequenced-part-relation--of-system!⇒Systedge","dirCor/McshCor000011.last.html#idSysndrn"],
+  ["unsequenced-relation-to-attribute--of-entity!⇒RltnEnttAttr","dirCor/McshCor000003.last.html#idEntatrrln"],
   ["unsheltered","dirStn/McshStn000009.last.html#idSocHumnatt012003"],
   ["unshift--JavaScript-array-function","dirTchInf/McshTchInf000010.last.html#idLJsgnArraypunshift"],
   ["unsignedByte//xsd","dirTchInf/McshTchInf000039.last.html#idDttpXsdunsignedByte"],

@@ -1,5 +1,5 @@
 [
-  [";lagEngl19es_2","stdRfc..t",1325,"2026-11-17"],
+  [";lagEngl19es_2","stdRfc..t",1324,"2026-11-17"],
   ["steak!⇒meatSteak","dirHlth/McshHlth000013.last.html#idFoodHmn148"],
   ["steal!~verbEnglC.steal'1","dirLag/McshLag000024.last.html#idLEnglverbC_115"],
   ["steal.TurkVerb!=çalmak","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
@@ -587,7 +587,7 @@
   ["subject-of-Zhonverb!⇒Zhonsubj","dirLag/McshLag000018.last.html#idLZhonvbatSubj"],
   ["subject-of-communicating","dirHlth/McshHlth000003.last.html#idMinddongCmngargSbt"],
   ["subject-of-lawIntl","dirStnlaw/McshStnlaw000004.last.html#idLawInlsbjt"],
-  ["subject-of-model!⇒archo","dirCor/McshCor000012.last.html#idMdlatt001"],
+  ["subject-of-model!⇒Modelarcho","dirCor/McshCor000012.last.html#idMdlatt001"],
   ["subject-of-science","dirEdu/McshEdu000002.last.html#idSciatt001"],
   ["subject-of-verb!⇒Hmnmsubj","dirLag/McshLag000007.last.html#idLHmmdsbt"],
   ["subject-other--syntax!⇒VerbargtOther","dirLag/McshLag000007.last.html#idLHmmdvbatOthr"],
@@ -1289,7 +1289,6 @@
   ["system.humans_of_society!⇒Sochumnview","dirStn/McshStn000009.last.html#idSocHumnatt021"],
   ["system.managing_013!⇒Mnggsyst","dirCor/McshCor000011.last.html#idSysMng"],
   ["system.material_005!⇒SystMaterial","dirCor/McshCor000011.last.html#idSys005"],
-  ["system.model!⇒model","dirCor/McshCor000012.last.html#idOverview"],
   ["system.network!⇒SystNet","dirCor/McshCor000014.last.html#idOverview"],
   ["system.openNo_012","dirCor/McshCor000011.last.html#idSys012"],
   ["system.open_011","dirCor/McshCor000011.last.html#idSys011"],
