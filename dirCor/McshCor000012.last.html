@@ -23,7 +23,7 @@
   <p id="idDescription">description::
     <br>× Mcsh-creation: {2020-08-02}
     <br>· model is a-secondary-entity which <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnMpg">is-mapped</a> with a-primary-one, the-archetype.
-    <br>· output of methodMapping is the-secondary entity which is a-model of <a class="clsPreview" href="#idMdlatt001">the-input</a>.
+    <br>· output of mapping-doing is the-secondary entity which is a-model of <a class="clsPreview" href="#idMdlatt001">the-input</a>.
     <a class="clsHide" href="#idDescription"></a></p>
   <p id="idName">name::
     <br>* McshEngl.entity.model!⇒model,
@@ -31,11 +31,11 @@
     <br>* McshEngl.model!@McshCor000012,
     <br>* McshEngl.McshCor000012.last.html//dirCor//dirMcsh!⇒model,
     <br>* McshEngl.dirCor/McshCor000012.last.html!⇒model,
-    <br>* McshEngl.methodMapping'02_output!⇒model,
-    <br>* McshEngl.methodMapping'att002_output!⇒model,
-    <br>* McshEngl.methodMapping'output_att002!⇒model,
-    <br>* McshEngl.methodMapping'model!⇒model,
-    <br>* McshEngl.model-of-methodMapping!⇒model,
+    <br>* McshEngl.Mappingmethod'02_output!⇒model,
+    <br>* McshEngl.Mappingmethod'att002_output!⇒model,
+    <br>* McshEngl.Mappingmethod'output_att002!⇒model,
+    <br>* McshEngl.Mappingmethod'model!⇒model,
+    <br>* McshEngl.model-of-Mappingmethod!⇒model,
     <br>* McshEngl.RltnMapping'model!⇒model,
     <br>* McshEngl.RltnMapping'output!⇒model,
     <br>* McshEngl.RltnMapping'target!⇒model,
@@ -60,6 +60,63 @@
     <br>===
     <br>* model;child,
     <a class="clsHide" href="#idAttr"></a></p>
+  </section>
+
+  <section id="idMdlatt001">
+  <h1 id="idMdlatt001H1">04_archetype of model
+    </h1>
+  <p id="idMdlatt001dsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>· archetype is the-original entity that <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnMpg">a-mapping-relation</a> connects with another entity, <a class="clsPreview" href="#idOverview">the-model</a>.
+    <br>· input of Mappingmethod is the-primary entity that is-mapped to another one.
+    <a class="clsHide" href="#idMdlatt001dsn"></a></p>
+  <p id="idMdlatt001nam">name::
+    <br>* McshEngl.model'04_archetype!⇒Modelarcho,
+    <br>* McshEngl.Modelarcho!=model'04_archetype,
+    <br>* McshEngl.archo!⇒Modelarcho, {2020-08-08}
+    <br>* McshEngl.archetype-of-RltnMapping!⇒Modelarcho,
+    <br>* McshEngl.archetype-of-model!⇒Modelarcho,
+    <br>* McshEngl.entity-being-modeled!⇒Modelarcho,
+    <br>* McshEngl.model'att001_archetype!⇒Modelarcho,
+    <br>* McshEngl.model'archetype!⇒Modelarcho,
+    <br>* McshEngl.original-entity--of-model!⇒Modelarcho,
+    <br>* McshEngl.RltnMapping'archetype!⇒Modelarcho,
+    <br>* McshEngl.RltnMapping'08_input!⇒Modelarcho,
+    <br>* McshEngl.RltnMapping'att001_input!⇒Modelarcho,
+    <br>* McshEngl.RltnMapping'input=att001!⇒Modelarcho,
+    <br>* McshEngl.primary-entity-of-model!⇒Modelarcho,
+    <br>* McshEngl.source-of-model!⇒Modelarcho,
+    <br>* McshEngl.subject-of-model!⇒Modelarcho,
+    <br>* McshEngl.model'att015_specs_division_no.archetype!⇒Modelarcho,
+    <br>====== lagoGreek:
+    <br>* McshElln.αρχέτυπο!το!⇒Modelarcho,
+    <a class="clsHide" href="#idMdlatt001nam"></a></p>
+  <p id="idMdlatt001gntr">generic-tree::
+    <br>* McshEngl.Modelarcho:generic,
+    <br>===
+    <br>* entity!@McshCor000003#idOverview,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idMdlatt001gntr"></a></p>
+  <p id="idMdlatt001sptr">specific-tree::
+    <br>* McshEngl.Modelarcho.specific,
+    <br>===
+    <br>* archo.FctgBrainingBio_archetype!@McshCor000013#idBrnginfarch,
+    <a class="clsHide" href="#idMdlatt001sptr"></a></p>
+
+  <section id="idRlnMpgdomn">
+  <h3 id="idRlnMpgdomnH3">domain of Modelarcho
+    </h3>
+  <p id="idRlnMpgdomndsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>· the-set of <a class="clsPreview" href="../dirCor/McshCor000012.last.html#idMdlatt001">archetypes</a> the-relation maps to models.
+    <a class="clsHide" href="#idRlnMpgdomndsn"></a></p>
+  <p id="idRlnMpgdomnnam">name::
+    <br>* McshEngl.RltnMapping'domain,
+    <br>* McshEngl.archetype-set--of-RltnMapping,
+    <br>* McshEngl.domain-of-RltnMapping,
+    <br>* McshEngl.RltnMapping'domain,
+    <a class="clsHide" href="#idRlnMpgdomnnam"></a></p>
+  </section>
   </section>
 
   <section id="idMdlatt005">
@@ -115,9 +172,9 @@
   <p id="idMdlatt009nam">name::
     <br>* McshEngl.model'10_creator!⇒modeler,
     <br>* McshEngl.modeler!=model'10_creator,
-    <br>* McshEngl.methodMapping'10_implementor!⇒modeler,
-    <br>* McshEngl.methodMapping'att005_implementor!⇒modeler,
-    <br>* McshEngl.methodMapping'implementor!⇒modeler,
+    <br>* McshEngl.Mappingmethod'10_implementor!⇒modeler,
+    <br>* McshEngl.Mappingmethod'att005_implementor!⇒modeler,
+    <br>* McshEngl.Mappingmethod'implementor!⇒modeler,
     <br>* McshEngl.model'att009_creator!⇒modeler,
     <br>* McshEngl.model'builder!⇒modeler,
     <br>* McshEngl.model'creator!⇒modeler,
@@ -173,63 +230,6 @@
   <section id="idMdlevalevg">
   <h2 id="idMdlevalevgH2">evaluating of model (<a class="clsPreview" href="#idMdlatt016">link</a>)
     </h2>
-  </section>
-  </section>
-
-  <section id="idMdlatt001">
-  <h1 id="idMdlatt001H1">13_archetype of model
-    </h1>
-  <p id="idMdlatt001dsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>· archetype is the-original entity that <a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnMpg">a-mapping-relation</a> connects with another entity, <a class="clsPreview" href="#idOverview">the-model</a>.
-    <br>· input of methodMapping is the-primary entity that is-mapped to another one.
-    <a class="clsHide" href="#idMdlatt001dsn"></a></p>
-  <p id="idMdlatt001nam">name::
-    <br>* McshEngl.model'13_archetype!⇒Modelarcho,
-    <br>* McshEngl.Modelarcho!=model'13_archetype,
-    <br>* McshEngl.archo!⇒Modelarcho, {2020-08-08}
-    <br>* McshEngl.archetype-of-RltnMapping!⇒Modelarcho,
-    <br>* McshEngl.archetype-of-model!⇒Modelarcho,
-    <br>* McshEngl.entity-being-modeled!⇒Modelarcho,
-    <br>* McshEngl.model'att001_archetype!⇒Modelarcho,
-    <br>* McshEngl.model'archetype!⇒Modelarcho,
-    <br>* McshEngl.original-entity--of-model!⇒Modelarcho,
-    <br>* McshEngl.RltnMapping'archetype!⇒Modelarcho,
-    <br>* McshEngl.RltnMapping'08_input!⇒Modelarcho,
-    <br>* McshEngl.RltnMapping'att001_input!⇒Modelarcho,
-    <br>* McshEngl.RltnMapping'input=att001!⇒Modelarcho,
-    <br>* McshEngl.primary-entity-of-model!⇒Modelarcho,
-    <br>* McshEngl.source-of-model!⇒Modelarcho,
-    <br>* McshEngl.subject-of-model!⇒Modelarcho,
-    <br>* McshEngl.model'att015_specs_division_no.archetype!⇒Modelarcho,
-    <br>====== lagoGreek:
-    <br>* McshElln.αρχέτυπο!το!⇒Modelarcho,
-    <a class="clsHide" href="#idMdlatt001nam"></a></p>
-  <p id="idMdlatt001gntr">generic-tree::
-    <br>* McshEngl.Modelarcho:generic,
-    <br>===
-    <br>* entity!@McshCor000003#idOverview,
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idMdlatt001gntr"></a></p>
-  <p id="idMdlatt001sptr">specific-tree::
-    <br>* McshEngl.Modelarcho.specific,
-    <br>===
-    <br>* archo.FctgBrainingBio_archetype!@McshCor000013#idBrnginfarch,
-    <a class="clsHide" href="#idMdlatt001sptr"></a></p>
-
-  <section id="idRlnMpgdomn">
-  <h3 id="idRlnMpgdomnH3">domain of Modelarcho
-    </h3>
-  <p id="idRlnMpgdomndsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>· the-set of <a class="clsPreview" href="../dirCor/McshCor000012.last.html#idMdlatt001">archetypes</a> the-relation maps to models.
-    <a class="clsHide" href="#idRlnMpgdomndsn"></a></p>
-  <p id="idRlnMpgdomnnam">name::
-    <br>* McshEngl.RltnMapping'domain,
-    <br>* McshEngl.archetype-set--of-RltnMapping,
-    <br>* McshEngl.domain-of-RltnMapping,
-    <br>* McshEngl.RltnMapping'domain,
-    <a class="clsHide" href="#idRlnMpgdomnnam"></a></p>
   </section>
   </section>
 
@@ -314,37 +314,38 @@
     </h2>
   <p id="idMdlatt010dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· implementation of methodMapping is the-mapping-doing of the-method.
+    <br>· implementation of Mappingmethod is the-mapping-doing of the-method.
     <br>· <span class="clsColorRed">mapping</span> is the-doing of association of a-primary-entity (archetype) with another one (the-model) on a-system of rules.
     <a class="clsHide" href="#idMdlatt010dsn"></a></p>
   <p id="idMdlatt010nam">name::
-    <br>* McshEngl.DongMapping,
-    <br>* McshEngl.doing.mapping!⇒DongMapping,
-    <br>* McshEngl.mapping-action!⇒DongMapping,
-    <br>* McshEngl.methodMapping'04_implementation!⇒DongMapping,
-    <br>* McshEngl.methodMapping'att004_implementation!⇒DongMapping,
-    <br>* McshEngl.methodMapping'implementation!⇒DongMapping,
-    <br>* McshEngl.model'att010_creating!⇒DongMapping,
-    <br>* McshEngl.model'building!⇒DongMapping,
-    <br>* McshEngl.model'construction!⇒DongMapping,
-    <br>* McshEngl.model'creating!⇒DongMapping,
-    <br>* McshEngl.model'development!⇒DongMapping,
-    <br>* McshEngl.model'implementation!⇒DongMapping,
-    <br>* McshEngl.model'mapping_doing!⇒DongMapping,
-    <br>* McshEngl.verb.map!~verbEnglA2!⇒DongMapping,
-    <br>* McshEngl.map!~verbEnglA2!⇒DongMapping,
+    <br>* McshEngl.Modeldoing.mapping!⇒Mappingdoing,
+    <br>* McshEngl.doing.mapping!⇒Mappingdoing,
+    <br>* McshEngl.DongMapping!⇒Mappingdoing,
+    <br>* McshEngl.mapping-doing!⇒Mappingdoing,
+    <br>* McshEngl.Mappingmethod'04_implementation!⇒Mappingdoing,
+    <br>* McshEngl.Mappingmethod'att004_implementation!⇒Mappingdoing,
+    <br>* McshEngl.Mappingmethod'implementation!⇒Mappingdoing,
+    <br>* McshEngl.model'att010_creating!⇒Mappingdoing,
+    <br>* McshEngl.model'building!⇒Mappingdoing,
+    <br>* McshEngl.model'construction!⇒Mappingdoing,
+    <br>* McshEngl.model'creating!⇒Mappingdoing,
+    <br>* McshEngl.model'development!⇒Mappingdoing,
+    <br>* McshEngl.model'implementation!⇒Mappingdoing,
+    <br>* McshEngl.model'mapping_doing!⇒Mappingdoing,
+    <br>* McshEngl.verb.map!~verbEnglA2!⇒Mappingdoing,
+    <br>* McshEngl.map!~verbEnglA2!⇒Mappingdoing,
     <br>* McshEngl.Modeldoing'creating,
     <br>====== lagoGreek:
-    <br>* McshElln.αναπαρασταίνω!~verbElln!⇒DongMapping,
-    <br>* McshElln.αναπαριστάνω!~verbElln!⇒DongMapping,
-    <br>* McshElln.αναπαριστώ!~verbElln!⇒DongMapping,
-    <br>* McshElln.αντιστοίχιση!⇒DongMapping,
-    <br>* McshElln.αντιστοιχώ!~verbElln!⇒DongMapping,
-    <br>* McshElln.ρήμα.αντιστοιχώ!⇒DongMapping,
+    <br>* McshElln.αναπαρασταίνω!~verbElln!⇒Mappingdoing,
+    <br>* McshElln.αναπαριστάνω!~verbElln!⇒Mappingdoing,
+    <br>* McshElln.αναπαριστώ!~verbElln!⇒Mappingdoing,
+    <br>* McshElln.αντιστοίχιση!⇒Mappingdoing,
+    <br>* McshElln.αντιστοιχώ!~verbElln!⇒Mappingdoing,
+    <br>* McshElln.ρήμα.αντιστοιχώ!⇒Mappingdoing,
     <a class="clsHide" href="#idMdlatt010nam"></a></p>
 
   <section id="idMdlatt010arg">
-  <h3 id="idMdlatt010argH3">argument of DongMapping
+  <h3 id="idMdlatt010argH3">argument of Mappingdoing
     </h3>
   <p id="idMdlatt010argdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -358,7 +359,7 @@
     <a class="clsHide" href="#idMdlatt010argdsn"></a></p>
   <p id="idMdlatt010argnam">name::
     <br>* McshEngl.argtMapping,
-    <br>* McshEngl.DongMapping'argument!⇒argtMapping,
+    <br>* McshEngl.Mappingdoing'argument!⇒argtMapping,
     <a class="clsHide" href="#idMdlatt010argnam"></a></p>
   </section>
   </section>
@@ -511,7 +512,7 @@
     <br>* model.viewMind!@McshLag000003#idInfHmnMind002,
     <br>* model.Mcsview!@McshCor000002#idMcsv,
     <br>===
-    <br>* model.infoBio!@McshNtr000011,
+    <br>* model.Bioinfo!@McshNtr000011,
     <br>=== on evaluation!@McshCor000012#idMdleval:
     <br>* accurate-model,
     <br>* accurate-strong-model,
@@ -1553,7 +1554,7 @@
   </section>
 
   <section id="idMdl012">
-  <h1 id="idMdl012H1">model.medium.infoBio-012 (<a class="clsPreview" href="../dirNtr/McshNtr000011.last.html#idOverview">link</a>)
+  <h1 id="idMdl012H1">model.medium.Bioinfo-012 (<a class="clsPreview" href="../dirNtr/McshNtr000011.last.html#idOverview">link</a>)
     </h1>
   </section>
 
@@ -1562,7 +1563,7 @@
     </h1>
   <p id="idMdl013dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· modelInfoBioNo is a-model with <a class="clsPreview" href="#idMdlatt004">medium</a> NOT <a class="clsPreview" href="../dirNtr/McshNtr000011.last.html#idOverview">infoBio</a>.
+    <br>· modelInfoBioNo is a-model with <a class="clsPreview" href="#idMdlatt004">medium</a> NOT <a class="clsPreview" href="../dirNtr/McshNtr000011.last.html#idOverview">Bioinfo</a>.
     <a class="clsHide" href="#idMdl013dsn"></a></p>
   <p id="idMdl013nam">name::
     <br>* McshEngl.modelInfoBioNo,
@@ -1642,14 +1643,14 @@
     </h1>
   <p id="idMdl019dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
-    <br>· modelSysDynamic is <a class="clsPreview" href="#idOverview">a-model</a> of <a class="clsPreview" href="../dirCor/McshCor000023.last.html#idOverview">a-SystDyna</a>.
+    <br>· modelSysDynamic is <a class="clsPreview" href="#idOverview">a-model</a> of <a class="clsPreview" href="../dirCor/McshCor000023.last.html#idOverview">a-Dynasyst</a>.
     <a class="clsHide" href="#idMdl019dsn"></a></p>
   <p id="idMdl019nam">name::
     <br>* McshEngl.modelSysDynamic,
     <br>* McshEngl.model.archo.SystDyna_019!⇒modelSysDynamic,
     <br>* McshEngl.model.019_SystDyna!⇒modelSysDynamic,
-    <br>* McshEngl.model.archo.SystDyna!⇒modelSysDynamic,
-    <br>* McshEngl.model.SystDyna!⇒modelSysDynamic,
+    <br>* McshEngl.model.archo.Dynasyst!⇒modelSysDynamic,
+    <br>* McshEngl.model.Dynasyst!⇒modelSysDynamic,
     <a class="clsHide" href="#idMdl019nam"></a></p>
   </section>
 
