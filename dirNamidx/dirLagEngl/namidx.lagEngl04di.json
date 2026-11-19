@@ -1,5 +1,5 @@
 [
-  [";lagEngl04di","D|d",7761,"2026-11-18"],
+  [";lagEngl04di","D|d",7761,"2026-11-19"],
   ["D-app!⇒Agntdapp","dirTchInf/McshTchInf000015.last.html#idDapp"],
   ["D-ledger!⇒Agntchain","dirTchInf/McshTchInf000015.last.html#idAlgntchn"],
   ["D-stroke-Bitcoin-network!⇒AgntBtcn","dirTchInf/McshTchInf000017.last.html#idOverview"],
@@ -5850,8 +5850,8 @@
   ["direct-object-of-Zhonverb!⇒Zhon_obj1","dirLag/McshLag000018.last.html#idLZhonvbatSubtObj1"],
   ["direct-proof","dirCor/McshCor000020.last.html#idRfrtgPrvgDrct"],
   ["direct-subsidies@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-direct-subsidies"],
-  ["directed--doing-or-relation!⇒BodyNoSequ","dirCor/McshCor000003.last.html#idEntBodyNSqcd"],
-  ["directed-bodyNo!⇒BodyNoSequ","dirCor/McshCor000003.last.html#idEntBodyNSqcd"],
+  ["directed--doing-or-relation!⇒bodyNoSequ","dirCor/McshCor000003.last.html#idEntBodyNSqcd"],
+  ["directed-bodyNo!⇒bodyNoSequ","dirCor/McshCor000003.last.html#idEntBodyNSqcd"],
   ["directed-doing!=DongSequenced","dirCor/McshCor000004.last.html#idDngSqcd"],
   ["directed-relation!⇒RltnSequenced","dirCor/McshCor000005.last.html#idRlnSqcd"],
   ["direction--verb-argument!⇒Hmmd_dire_VA","dirLag/McshLag000007.last.html#idLHmmdvbatSdtn"],

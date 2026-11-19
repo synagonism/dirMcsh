@@ -1,5 +1,5 @@
 [
-  [";lagEngl18ar","R|r",3431,"2026-11-18"],
+  [";lagEngl18ar","R|r",3430,"2026-11-19"],
   ["R&D!=research-and-development","dirStn/McshStn000015.last.html#idOznPdnatt037"],
   ["R&amp;D-(Research-and-development)@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-RandD"],
   ["R-phrase@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrR_phrase"],
@@ -2864,8 +2864,7 @@
   ["relator!⇒Hmmdconj","dirLag/McshLag000007.last.html#idLHmmdconj"],
   ["relax.TurkVerb!=gevşetmek","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["reldo!⇒bodyNo","dirCor/McshCor000003.last.html#idEntBodyN"],
-  ["reldoSequenced!⇒BodyNoSequ","dirCor/McshCor000003.last.html#idEntBodyNSqcd"],
-  ["reldoSequenced'08_togetherness!⇒together","dirCor/McshCor000003.last.html#idEntBodyNSqcdtgtrn"],
+  ["reldoSequenced!⇒bodyNoSequ","dirCor/McshCor000003.last.html#idEntBodyNSqcd"],
   ["reldoSequenced'togetherness!⇒together","dirCor/McshCor000003.last.html#idEntBodyNSqcdtgtrn"],
   ["releaseDate@schema.org","dirStn/McshStn000023.last.html#idScmoreleaseDate"],
   ["releaseNotes@schema.org","dirStn/McshStn000023.last.html#idScmoreleaseNotes"],
