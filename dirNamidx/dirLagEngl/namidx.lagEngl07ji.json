@@ -1,5 +1,5 @@
 [
-  [";lagEngl07ji","G|g",1836,"2026-11-19"],
+  [";lagEngl07ji","G|g",1837,"2026-11-19"],
   ["G!=1000^3!=Giga!=billion","dirCor/McshCor000010.last.html#idQntNbrK31"],
   ["G20@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrG20"],
   ["GAEC@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrGAEC"],
@@ -961,9 +961,10 @@
   ["gag-reflex","dirHlth/McshHlth000011.last.html#idDssHmn079symptomgagging"],
   ["gain_or_win.TurkVerb!=kazandırmak","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["gains-from-trading@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-gains-from-trading"],
-  ["galaxy","dirCor/McshCor000008.last.html#idEnt003"],
+  ["galaxy!=galaxy//sympan","dirCor/McshCor000008.last.html#idEnt003"],
   ["galaxy'generic_specific_tree","dirCor/McshCor000008.last.html#idEnt003gstr"],
   ["galaxy.specific","dirCor/McshCor000008.last.html#idEnt003sptr"],
+  ["galaxy//sympan!⇒galaxy","dirCor/McshCor000008.last.html#idEnt003"],
   ["galaxy:generic","dirCor/McshCor000008.last.html#idEnt003gntr"],
   ["gall-bladder!⇒OganGallbladder","dirHlth/McshHlth000002.last.html#idOgnHmn021"],
   ["gallstone-disease!⇒DissGallstone","dirHlth/McshHlth000011.last.html#idDssHmn125"],

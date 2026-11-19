@@ -1,5 +1,5 @@
 [
-  [";lagEngl16pi","P|p",3847,"2026-11-18"],
+  [";lagEngl16pi","P|p",3848,"2026-11-19"],
   ["P!=1000^5!=Peta!=quadrillion","dirCor/McshCor000010.last.html#idQntNbrK51"],
   ["P-peta=x1000^5","dirCor/McshCor000010.last.html#idQntRlvMlplPeta"],
   ["P15-Phosphorus-ChmcElry!⇒ChmcElrP15","dirNtr/McshNtr000007.last.html#idChmElrPhosphorus"],
@@ -1298,6 +1298,7 @@
   ["partOfTrip@schema.org","dirStn/McshStn000023.last.html#idScmopartOfTrip"],
   ["partUnit!=part-without-parts","dirCor/McshCor000008.last.html#idWhlprtUnit"],
   ["partUnit.lagoSngu!=dou","dirCor/McshCor000008.last.html#idWhlprtUnit"],
+  ["part_division//sympan","dirCor/McshCor000008.last.html#idEnt001ptdv"],
   ["part_of_speech'relation_to_pronoun!⇒part_of_speech_relation_to_pronoun","dirLag/McshLag000007.last.html#idLHmmdpronrtpos"],
   ["part_of_speech__of_Sngulagu","dirLag/McshLag000010.last.html#idL0014termPos"],
   ["part_of_speech_relation_to_pronoun","dirLag/McshLag000007.last.html#idLHmmdpronrtpos"],
