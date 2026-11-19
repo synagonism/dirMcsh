@@ -1,5 +1,5 @@
 [
-  [";lagEngl22vi","V|v",9640,"2026-11-18"],
+  [";lagEngl22vi","V|v",9640,"2026-11-19"],
   ["V23-Vanadium-ChmcElry!⇒ChmcElrV23","dirNtr/McshNtr000007.last.html#idChmElrVanadium"],
   ["V8--JavaScript-engine!⇒JsV8","dirTchInf/McshTchInf000010.last.html#idLJsgntolV8"],
   ["VAT-(Value-Added-Tax)@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-VAT"],
@@ -9277,8 +9277,8 @@
   ["vertebrate!⇒OgsmVertebrate","dirOgm/McshOgm000003.last.html#idOgm034"],
   ["vertebrate.mammal!⇒animalMammal","dirOgm/McshOgm000009.last.html#idOgmAnml012"],
   ["vertex!~nounEnglC1.vertex'1","dirLag/McshLag000024.last.html#idLEnglnounC1_237"],
-  ["vertex-of-SystGraph","dirCor/McshCor000011.last.html#idSys003vrtx"],
-  ["vertex-of-Treesyst!⇒Treenode","dirCor/McshCor000011.last.html#idSys002node"],
+  ["vertex-of-SystGraph!⇒SystGraphnode","dirCor/McshCor000011.last.html#idSys003vrtx"],
+  ["vertex-of-Treesyst!⇒Tresysnode","dirCor/McshCor000011.last.html#idSys002node"],
   ["vertex-of-graph!⇒Grphnode","dirEdu/McshEdu000003.last.html#idSMathgraphnode"],
   ["vertex-of-relation~vertices|vertexes!⇒Rltnargt","dirCor/McshCor000005.last.html#idRlnarg"],
   ["vertical-integration@Sna8","dirStn/dirHitp/HitpStnStd000.last.html#idIndex-vertical-integration"],
