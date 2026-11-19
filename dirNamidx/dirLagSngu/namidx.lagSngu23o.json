@@ -1,5 +1,5 @@
 [
-  [";lagSngu23o","O|o",144,"2026-11-18"],
+  [";lagSngu23o","O|o",144,"2026-11-19"],
   ["o!⇒SnguletrO","dirLag/McshLag000010.last.html#idL0014ltr23"],
   ["old.ada!~ConjSngu!=and!⇒RltnAddition","dirCor/McshCor000005.last.html#idRlnAdtn"],
   ["old.bau_pau!⇒RltnParentChild","dirCor/McshCor000005.last.html#idRlnPtcd"],
@@ -116,9 +116,9 @@
   ["old.ro_to!⇒RltnTime","dirCor/McshCor000006.last.html#idTimerln"],
   ["old.sa!~ConjSngu!=RltnEntity_then_time","dirCor/McshCor000006.last.html#idTimerln"],
   ["old.strukto_a_o!⇒Systsrtr","dirCor/McshCor000011.last.html#idSyssrtr"],
-  ["old.ta!~ConjSngu!⇒RltnParent_then_child","dirCor/McshCor000005.last.html#idRlnChild"],
+  ["old.ta!~ConjSngu!⇒RltnParentThenChild","dirCor/McshCor000005.last.html#idRlnChild"],
   ["old.ta!~ConjSngu!⇒RltnTime","dirCor/McshCor000006.last.html#idTimerln"],
-  ["old.ta_cca!~ConjSngu!⇒RltnChild_then_parent","dirCor/McshCor000005.last.html#idRlnParent"],
+  ["old.ta_cca!~ConjSngu!⇒RltnChildThenParent","dirCor/McshCor000005.last.html#idRlnParent"],
   ["old.teu!=time","dirCor/McshCor000006.last.html#idOverview"],
   ["old.tieno:to!⇒day","dirCor/McshCor000006.last.html#idTimeUomDay"],
   ["old.tieno_1_fo!⇒Monday","dirCor/McshCor000006.last.html#idTimeUomDayMnd"],
