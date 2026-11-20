@@ -1,11 +1,11 @@
 [
-  [";lagSngu17gu","G|g",8,"2026-11-17"],
+  [";lagSngu17gu","G|g",8,"2026-11-20"],
   ["gau-kau!⇒RltnGenericSpecific","dirCor/McshCor000009.last.html#idGnrspcrln"],
   ["geu!⇒specific","dirCor/McshCor000009.last.html#idGnrcspc"],
   ["gou!⇒UOM","dirCor/McshCor000009.last.html#idGnrcmsrguom"],
-  ["gramu!⇒Textunit","dirLag/McshLag000007.last.html#idLHmmduntText"],
-  ["gramualfu!⇒Hmmdletr","dirLag/McshLag000008.last.html#idL0016ltr"],
-  ["gramueniu!⇒Hmmdcptm","dirLag/McshLag000007.last.html#idLHmmduntCpgm"],
+  ["gramu!⇒Textunit","dirLag/McshLag000007.last.html#idLHnmduntText"],
+  ["gramualfu!⇒Hnmdletr","dirLag/McshLag000008.last.html#idL0016ltr"],
+  ["gramueniu!⇒Hnmdcptm","dirLag/McshLag000007.last.html#idLHnmduntCpgm"],
   ["gu!⇒SnguletrGu","dirLag/McshLag000010.last.html#idL0014ltr07"],
   ["gusto!⇒OganTongue","dirHlth/McshHlth000002.last.html#idOgnHmn012"]
 ]
