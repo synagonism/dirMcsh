@@ -1,5 +1,5 @@
 [
-  [";lagEngl26zet","Z|z",14016,"2026-11-20"],
+  [";lagEngl26zet","Z|z",14016,"2026-11-21"],
   ["Z-integer-number!⇒numberInteger","dirCor/McshCor000010.last.html#idQntNbrIgr"],
   ["Z-zeta=x1000^7","dirCor/McshCor000010.last.html#idQntRlvMlplZeta"],
   ["ZAR!=South-Africa-Rand-currency","dirStn/McshStn000029.last.html#idSfrFin019Untsptr"],
@@ -643,7 +643,7 @@
   ["Zhonlago!=Standard-Chinese--language","dirLag/McshLag000018.last.html#idOverview"],
   ["Zhonlago!@McshLag000018","dirLag/McshLag000018.last.html#idOverview"],
   ["Zhonlago'03_input3_(semu-view)!⇒ZhonviewSemu","dirLag/McshLag000018.last.html#idLZhonipt3"],
-  ["Zhonlago'03_input3_(semu_view)!⇒ZhonviewSemu","dirLag/McshLag000018.last.html#idLZhonipt3"],
+  ["Zhonlago'03_input3_(semuview)!⇒ZhonviewSemu","dirLag/McshLag000018.last.html#idLZhonipt3"],
   ["Zhonlago'05_output!⇒Zhonlogo","dirLag/McshLag000018.last.html#idLZhonopt"],
   ["Zhonlago'19_science","dirLag/McshLag000018.last.html#idLZhonsci"],
   ["Zhonlago'44_last","dirLag/McshLag000018.last.html#idOverview"],

@@ -1,5 +1,5 @@
 [
-  [";lagZhon011","l",912,"2026-11-20"],
+  [";lagZhon011","l",912,"2026-11-21"],
   ["Liáo-辽!⇒ChnaLiaoning","dirStn/McshStn000031.last.html#idChnaadmnatt015CNLN"],
   ["LiáoníngShěng-辽宁省!⇒ChnaLiaoning","dirStn/McshStn000031.last.html#idChnaadmnatt015CNLN"],
   ["Líng-零!=0!⇒quantoDefiNone","dirCor/McshCor000010.last.html#idQntNbr0"],
@@ -134,7 +134,7 @@
   ["liáncí.lǐ_里!=in|inside","dirLag/McshLag000018.last.html#idLZhonconj_056"],
   ["liáncí.miànqián_面前!⇒in_front_of","dirLag/McshLag000018.last.html#idLZhonconj_038"],
   ["liáncí.méiyǒu_没有!⇒RltnEvaluatingTwo","dirCor/McshCor000018.last.html#idBrngHmnFct002EvalgTwo"],
-  ["liáncí.měi_每!⇒SntxFreq","dirLag/McshLag000007.last.html#idLHnmdvbatTimeSntxFreq"],
+  ["liáncí.měi_每!⇒SntxFreq","dirLag/McshLag000007.last.html#HnmdvbagtTimeSntxFreq"],
   ["liáncí.nà_那","dirLag/McshLag000018.last.html#idLZhonconj_020"],
   ["liáncí.nà_那!=RltnCauseThenEffect:then","dirCor/McshCor000005.last.html#idRlnEfct"],
   ["liáncí.nàme_那么","dirLag/McshLag000018.last.html#idLZhonconj_021"],

@@ -1,5 +1,5 @@
 [
-  [";lagZhon008","h",564,"2026-11-20"],
+  [";lagZhon008","h",564,"2026-11-21"],
   ["HéběiShěng-河北省!⇒ChnaHebei","dirStn/McshStn000031.last.html#idChnaadmnatt015CNHE"],
   ["HénánShěng-河南省!⇒ChnaHenan","dirStn/McshStn000031.last.html#idChnaadmnatt015CNHA"],
   ["HúběiShěng-湖北省!⇒ChnaHubei","dirStn/McshStn000031.last.html#idChnaadmnatt015CNHB"],
@@ -376,7 +376,7 @@
   ["hòu-候-20505!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb123"],
   ["hòu-厚-21402!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb123"],
   ["hòu-后!~AdveZhon!⇒spaceBehind","dirCor/McshCor000007.last.html#idSpcBhnd"],
-  ["hòu-后!~ConjTime!=after","dirLag/McshLag000007.last.html#idLHnmdvbatTimeSntxConj"],
+  ["hòu-后!~ConjTime!=after","dirLag/McshLag000007.last.html#HnmdvbagtTimeSntxConj"],
   ["hòu-后!~ConjZhon!⇒timeAfterTime","dirCor/McshCor000006.last.html#idTimeRltvAft"],
   ["hòu-后!~Zhonconj!=RltnTimeRelaAfterTime","dirLag/McshLag000018.last.html#idLZhonconj_055"],
   ["hòu-后-21518!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb123"],
