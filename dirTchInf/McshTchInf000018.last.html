@@ -6416,7 +6416,7 @@ def send(to, value):
     <a class="clsHide" href="#idEthsolnam"></a></p>
 
   <section id="idEthsolarc">
-  <h3 id="idEthsolarcH3">archetype of Solxlago
+  <h3 id="idEthsolarcH3">04_archetype of Solxlago
     </h3>
   <p id="idEthsolarcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -6424,6 +6424,7 @@ def send(to, value):
     <br>[Humn1959Sinagu.2019-06-27]
     <a class="clsHide" href="#idEthsolarcdsn"></a></p>
   <p id="idEthsolarcnam">name::
+    <br>* McshEngl.Solxlago'04_archetype,
     <br>* McshEngl.Solxlago'archo,
     <br>* McshEngl.Solxlago'archetype,
     <a class="clsHide" href="#idEthsolarcnam"></a></p>
@@ -7453,19 +7454,8 @@ Coin.Sent().watch({}, '', function(error, result) {
     <br>* McshEngl.lagoSolf!⇒Lsolf,
     <br>* McshEngl.Solidity-function!⇒Lsolf,
     <br>* McshEngl.Sldtf!⇒Lsolf,
-    <br>* McshEngl.Lsolf'15_last,
+    <br>* McshEngl.Lsolf'16_last,
     <a class="clsHide" href="#idEthsolfnam"></a></p>
-
-  <section id="idEthsolfipt">
-  <h5 id="idEthsolfiptH5">Input of Lsolf
-    </h5>
-  <p id="idEthsolfiptdsn">description::
-    <br>× Mcsh-creation: {2026-11-16}
-    <a class="clsHide" href="#idEthsolfiptdsn"></a></p>
-  <p id="idEthsolfiptnam">name::
-    <br>* McshEngl.Lsolf'Input,
-    <a class="clsHide" href="#idEthsolfiptnam"></a></p>
-  </section>
 
   <section id="idEthsolfopt">
   <h5 id="idEthsolfoptH5">05_Output of Lsolf
@@ -7486,6 +7476,18 @@ Coin.Sent().watch({}, '', function(error, result) {
     <br>* McshEngl.Lsolf'05_Output,
     <br>* McshEngl.Lsolf'Output,
     <a class="clsHide" href="#idEthsolfoptnam"></a></p>
+  </section>
+
+  <section id="idEthsolfipt">
+  <h5 id="idEthsolfiptH5">16_Input of Lsolf
+    </h5>
+  <p id="idEthsolfiptdsn">description::
+    <br>× Mcsh-creation: {2026-11-16}
+    <a class="clsHide" href="#idEthsolfiptdsn"></a></p>
+  <p id="idEthsolfiptnam">name::
+    <br>* McshEngl.Lsolf'16_Input,
+    <br>* McshEngl.Lsolf'Input,
+    <a class="clsHide" href="#idEthsolfiptnam"></a></p>
   </section>
 
   <section id="idEthsolfcal">
@@ -9126,7 +9128,7 @@ contract SimpleStorage {
           Sent(msg.sender, receiver, amount);
       }
     }
-    </pre></code>
+    </code></pre>
     <p class="clsIndent">This contract introduces some new concepts, let us go through them one by one.
     <br>
     <br>The line address public minter; declares a state variable of type address that is publicly accessible. The address type is a 160-bit value that does not allow any arithmetic operations. It is suitable for storing addresses of contracts or keypairs belonging to external persons. The keyword public automatically generates a function that allows you to access the current value of the state variable. Without this keyword, other contracts have no way to access the variable. The function will look something like this:

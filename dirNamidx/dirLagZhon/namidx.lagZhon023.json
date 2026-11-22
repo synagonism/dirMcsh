@@ -1,5 +1,5 @@
 [
-  [";lagZhon023","z",10908,"2026-11-21"],
+  [";lagZhon023","z",10908,"2026-11-22"],
   ["Zhó-浙!⇒ChnaZhejiang","dirStn/McshStn000031.last.html#idChnaadmnatt015CNZJ"],
   ["ZhójiāngShěng-浙江省!⇒ChnaZhejiang","dirStn/McshStn000031.last.html#idChnaadmnatt015CNZJ"],
   ["Zhōnghuá-Rénmín-Gònghéguó-Guówùyuàn-中华人民共和国国务院!⇒Chnaadmnsc","dirStn/McshStn000031.last.html#idChnaadmnatt004"],
@@ -515,7 +515,7 @@
   ["zhīlèide-之类的!~AdveZhon!=RltnSameness:and-so-on","dirCor/McshCor000005.last.html#idRlnSmns"],
   ["zhīqián-之前!~AdveZhon!⇒timeBeforeTime","dirCor/McshCor000006.last.html#idTimeRltvBfr"],
   ["zhīshi-知识-(知識)!⇒knowledge","dirLag/McshLag000003.last.html#idInfHmnBrn007"],
-  ["zhītǐ-yǔyán-肢体语言!⇒body_language","dirLag/McshLag000005.last.html#idLHmanBody"],
+  ["zhītǐ-yǔyán-肢体语言!⇒HmnlBody","dirLag/McshLag000005.last.html#idLHumnBody"],
   ["zhōng-中-20013!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb392"],
   ["zhōng-忠-24544!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb392"],
   ["zhōng-忪-24554!~Zhonsylb","dirLag/McshLag000021.last.html#idLZhonsylb392"],
