@@ -1,12 +1,12 @@
 [
-  [";qntAGG",138453,"2026-11-22"],
+  [";qntAGG",138498,"2026-11-25"],
   ["Mcsh000000.last.html",20],
   ["Mcsh000001.last.html",1],
-  ["dirCor",2528],
+  ["dirCor",2530],
   ["dirEdu",1045],
   ["dirHlth",4236],
   ["dirHmn",411],
-  ["dirLag",10749],
+  ["dirLag",10750],
   ["dirNtr",886],
   ["dirOgm",1014],
   ["dirStn",23153],
@@ -14,5 +14,5 @@
   ["dirTch",129],
   ["dirTchInf",51580],
   ["dirTchPrgm",606],
-  ["dirWrdidx",39305]
+  ["dirWrdidx",39347]
 ]

@@ -58,15 +58,107 @@
     <a class="clsHide" href="#idAttr"></a></p>
   </section>
 
+  <section id="idDnlbrnode">
+  <h1 id="idDnlbrnodeH1">05_node of AgntDiem
+    </h1>
+  <p id="idDnlbrnodedsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <a class="clsHide" href="#idDnlbrnodedsn"></a></p>
+  <p id="idDnlbrnodenam">name::
+    <br>* McshEngl.AgntDiem'05_node!⇒Diemnode,
+    <br>* McshEngl.Diemnode!=AgntDiem'05_node,
+    <br>* McshEngl.node-of-AgntDiem!⇒Diemnode,
+    <br>* McshEngl.AgntDiem_node!⇒Diemnode,
+    <br>* McshEngl.AgntDiem-node!⇒Diemnode,
+    <br>* McshEngl.AgntDiem'node!⇒Diemnode,
+    <a class="clsHide" href="#idDnlbrnodenam"></a></p>
+  <p id="idDnlbrnodegntr">generic-tree::
+    <br>* McshEngl.Diemnode:generic,
+    <br>===
+    <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000015.last.html#idAlgntnodFT">Dnode</a>,
+    <a class="clsHide" href="#idDnlbrnodegntr"></a></p>
+
+  <section id="idDnlbrnodeVdtr">
+  <h2 id="idDnlbrnodeVdtrH2">Diemnode.VALIDATOR
+    </h2>
+  <p id="idDnlbrnodeVdtrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>"The Libra protocol allows a set of replicas — referred to as validators — from different authorities to jointly maintain a database of programmable resources."
+    <br>[https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf]
+    <br>===
+    <br>· validators paid with interest from the-reserve.
+    <a class="clsHide" href="#idDnlbrnodeVdtrdsn"></a></p>
+  <p id="idDnlbrnodeVdtrnam">name::
+    <br>* McshEngl.AgntDiem_validator,
+    <br>* McshEngl.AgntDiem-validator!⇒AgntDiem_validator,
+    <br>* McshEngl.AgntDiem'node.validator!⇒AgntDiem_validator,
+    <br>* McshEngl.AgntDiem'validator_node!⇒AgntDiem_validator,
+    <br>* McshEngl.Diemnode.VALIDATOR!⇒AgntDiem_validator,
+    <a class="clsHide" href="#idDnlbrnodeVdtrnam"></a></p>
+  <p id="idDnlbrnodeVdtrgntr">generic-tree::
+    <br>* McshEngl.AgntDiem_validator:generic,
+    <br>===
+    <br>* Agntnode.APPENDER!@McshTchInf000015#idAlgntnodApdr,
+    <br>* ...entity:generic,
+    <a class="clsHide" href="#idDnlbrnodeVdtrgntr"></a></p>
+
+  <section id="idDnlbrnodeVdtronr">
+  <h3 id="idDnlbrnodeVdtronrH3">owner of AgntDiem_validator
+    </h3>
+  <p id="idDnlbrnodeVdtronrdsn">description::
+    <br>× Mcsh-creation: {2026-10-01}
+    <a class="clsHide" href="#idDnlbrnodeVdtronrdsn"></a></p>
+  <p id="idDnlbrnodeVdtronrnam">name::
+    <br>* McshEngl.AgntDiem_validator'owner,
+    <a class="clsHide" href="#idDnlbrnodeVdtronrnam"></a></p>
+  </section>
+
+  <section id="idDnlbrnodeVdtrSmrml">
+  <h3 id="idDnlbrnodeVdtrSmrmlH3">SMR-module of AgntDiem_validator
+    </h3>
+  <p id="idDnlbrnodeVdtrSmrmldsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>"We call <strong>SMR module</strong> the software implementation of a LibraBFT node run by each validator."
+    <a class="clsHide" href="#idDnlbrnodeVdtrSmrmldsn"></a></p>
+  <p id="idDnlbrnodeVdtrSmrmlnam">name::
+    <br>* McshEngl.AgntDiem_SMR_module,
+    <br>* McshEngl.AgntDiem'SMR_module!⇒AgntDiem_SMR_module,
+    <br>* McshEngl.validator'SMR_module!⇒AgntDiem_SMR_module,
+    <br>* McshEngl.AgntDiem_validator'SMR_module,
+    <a class="clsHide" href="#idDnlbrnodeVdtrSmrmlnam"></a></p>
+  </section>
+
+  <section id="idDnlbrnodeVdtrmvm">
+  <h3 id="idDnlbrnodeVdtrmvmH3">Move-vm of validator (<a class="clsPreview" href="#idLMovealgovm">link</a>)
+    </h3>
+  </section>
+
+  <section id="idDnlbrnodeVdtrLdr">
+  <h3 id="idDnlbrnodeVdtrLdrH3">AgntDiem_validator.LEADER
+    </h3>
+  <p id="idDnlbrnodeVdtrLdrdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>"LibraBFT belongs to the family of leader-based consensus protocols. In leader-based protocols, validators make progress in rounds, each having a designated validator called a leader. Leaders are responsible for proposing new blocks and obtaining signed votes from the validators on their proposals."
+    <br>[https://developers.libra.org/docs/assets/papers/libra-consensus-state-machine-replication-in-the-libra-blockchain.pdf]
+    <a class="clsHide" href="#idDnlbrnodeVdtrLdrdsn"></a></p>
+  <p id="idDnlbrnodeVdtrLdrnam">name::
+    <br>* McshEngl.AgntDiem'leader,
+    <br>* McshEngl.AgntDiem_validator.leader,
+    <br>* McshEngl.AgntDiem_validator.LEADER,
+    <a class="clsHide" href="#idDnlbrnodeVdtrLdrnam"></a></p>
+  </section>
+  </section>
+  </section>
+
   <section id="idDnlbreval">
-  <h1 id="idDnlbrevalH1">18_evaluation of AgntDiem
+  <h1 id="idDnlbrevalH1">16_evaluation of AgntDiem
     </h1>
   <p id="idDnlbrevaldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDnlbrevaldsn"></a></p>
   <p id="idDnlbrevalnam">name::
-    <br>* McshEngl.AgntDiem'18_evaluation!⇒Diemevaln,
-    <br>* McshEngl.Diemevaln!=AgntDiem'18_evaluation,
+    <br>* McshEngl.AgntDiem'16_evaluation!⇒Diemevaln,
+    <br>* McshEngl.Diemevaln!=AgntDiem'16_evaluation,
     <br>* McshEngl.evaluation-of-AgntDiem!⇒Diemevaln,
     <br>* McshEngl.AgntDiemevaln!⇒Diemevaln,
     <br>* McshEngl.AgntDiemevalg!⇒Diemevaln,
@@ -171,107 +263,15 @@
   </section>
   </section>
 
-  <section id="idDnlbrnode">
-  <h1 id="idDnlbrnodeH1">05_node of AgntDiem
-    </h1>
-  <p id="idDnlbrnodedsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <a class="clsHide" href="#idDnlbrnodedsn"></a></p>
-  <p id="idDnlbrnodenam">name::
-    <br>* McshEngl.AgntDiem'05_node!⇒Diemnode,
-    <br>* McshEngl.Diemnode!=AgntDiem'05_node,
-    <br>* McshEngl.node-of-AgntDiem!⇒Diemnode,
-    <br>* McshEngl.AgntDiem_node!⇒Diemnode,
-    <br>* McshEngl.AgntDiem-node!⇒Diemnode,
-    <br>* McshEngl.AgntDiem'node!⇒Diemnode,
-    <a class="clsHide" href="#idDnlbrnodenam"></a></p>
-  <p id="idDnlbrnodegntr">generic-tree::
-    <br>* McshEngl.Diemnode:generic,
-    <br>===
-    <br>* <a class="clsPreview" href="../dirTchInf/McshTchInf000015.last.html#idAlgntnodFT">Dnode</a>,
-    <a class="clsHide" href="#idDnlbrnodegntr"></a></p>
-
-  <section id="idDnlbrnodeVdtr">
-  <h2 id="idDnlbrnodeVdtrH2">Diemnode.VALIDATOR
-    </h2>
-  <p id="idDnlbrnodeVdtrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>"The Libra protocol allows a set of replicas — referred to as validators — from different authorities to jointly maintain a database of programmable resources."
-    <br>[https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf]
-    <br>===
-    <br>· validators paid with interest from the-reserve.
-    <a class="clsHide" href="#idDnlbrnodeVdtrdsn"></a></p>
-  <p id="idDnlbrnodeVdtrnam">name::
-    <br>* McshEngl.AgntDiem_validator,
-    <br>* McshEngl.AgntDiem-validator!⇒AgntDiem_validator,
-    <br>* McshEngl.AgntDiem'node.validator!⇒AgntDiem_validator,
-    <br>* McshEngl.AgntDiem'validator_node!⇒AgntDiem_validator,
-    <br>* McshEngl.Diemnode.VALIDATOR!⇒AgntDiem_validator,
-    <a class="clsHide" href="#idDnlbrnodeVdtrnam"></a></p>
-  <p id="idDnlbrnodeVdtrgntr">generic-tree::
-    <br>* McshEngl.AgntDiem_validator:generic,
-    <br>===
-    <br>* Agntnode.APPENDER!@McshTchInf000015#idAlgntnodApdr,
-    <br>* ...entity:generic,
-    <a class="clsHide" href="#idDnlbrnodeVdtrgntr"></a></p>
-
-  <section id="idDnlbrnodeVdtronr">
-  <h3 id="idDnlbrnodeVdtronrH3">owner of AgntDiem_validator
-    </h3>
-  <p id="idDnlbrnodeVdtronrdsn">description::
-    <br>× Mcsh-creation: {2026-10-01}
-    <a class="clsHide" href="#idDnlbrnodeVdtronrdsn"></a></p>
-  <p id="idDnlbrnodeVdtronrnam">name::
-    <br>* McshEngl.AgntDiem_validator'owner,
-    <a class="clsHide" href="#idDnlbrnodeVdtronrnam"></a></p>
-  </section>
-
-  <section id="idDnlbrnodeVdtrSmrml">
-  <h3 id="idDnlbrnodeVdtrSmrmlH3">SMR-module of AgntDiem_validator
-    </h3>
-  <p id="idDnlbrnodeVdtrSmrmldsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>"We call <strong>SMR module</strong> the software implementation of a LibraBFT node run by each validator."
-    <a class="clsHide" href="#idDnlbrnodeVdtrSmrmldsn"></a></p>
-  <p id="idDnlbrnodeVdtrSmrmlnam">name::
-    <br>* McshEngl.AgntDiem_SMR_module,
-    <br>* McshEngl.AgntDiem'SMR_module!⇒AgntDiem_SMR_module,
-    <br>* McshEngl.validator'SMR_module!⇒AgntDiem_SMR_module,
-    <br>* McshEngl.AgntDiem_validator'SMR_module,
-    <a class="clsHide" href="#idDnlbrnodeVdtrSmrmlnam"></a></p>
-  </section>
-
-  <section id="idDnlbrnodeVdtrmvm">
-  <h3 id="idDnlbrnodeVdtrmvmH3">Move-vm of validator (<a class="clsPreview" href="#idLMovealgovm">link</a>)
-    </h3>
-  </section>
-
-  <section id="idDnlbrnodeVdtrLdr">
-  <h3 id="idDnlbrnodeVdtrLdrH3">AgntDiem_validator.LEADER
-    </h3>
-  <p id="idDnlbrnodeVdtrLdrdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>"LibraBFT belongs to the family of leader-based consensus protocols. In leader-based protocols, validators make progress in rounds, each having a designated validator called a leader. Leaders are responsible for proposing new blocks and obtaining signed votes from the validators on their proposals."
-    <br>[https://developers.libra.org/docs/assets/papers/libra-consensus-state-machine-replication-in-the-libra-blockchain.pdf]
-    <a class="clsHide" href="#idDnlbrnodeVdtrLdrdsn"></a></p>
-  <p id="idDnlbrnodeVdtrLdrnam">name::
-    <br>* McshEngl.AgntDiem'leader,
-    <br>* McshEngl.AgntDiem_validator.leader,
-    <br>* McshEngl.AgntDiem_validator.LEADER,
-    <a class="clsHide" href="#idDnlbrnodeVdtrLdrnam"></a></p>
-  </section>
-  </section>
-  </section>
-
   <section id="idDnlbrskhr">
-  <h1 id="idDnlbrskhrH1">33_stakeholder of AgntDiem
+  <h1 id="idDnlbrskhrH1">17_stakeholder of AgntDiem
     </h1>
   <p id="idDnlbrskhrdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDnlbrskhrdsn"></a></p>
   <p id="idDnlbrskhrnam">name::
-    <br>* McshEngl.AgntDiem'33_stakeholder!⇒Diemskhd,
-    <br>* McshEngl.Diemskhd!=AgntDiem'33_stakeholder,
+    <br>* McshEngl.AgntDiem'17_stakeholder!⇒Diemskhd,
+    <br>* McshEngl.Diemskhd!=AgntDiem'17_stakeholder,
     <br>* McshEngl.stakeholder-of-AgntDiem!⇒Diemskhd,
     <br>* McshEngl.AgntDiem'stakeholder!⇒Diemskhd,
     <a class="clsHide" href="#idDnlbrskhrnam"></a></p>
@@ -1046,7 +1046,7 @@
   </section>
 
   <section id="idDnlbrprcl">
-  <h1 id="idDnlbrprclH1">34_protocol of AgntDiem
+  <h1 id="idDnlbrprclH1">18_protocol of AgntDiem
     </h1>
   <p id="idDnlbrprcldsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1054,8 +1054,8 @@
     <br>[https://developers.libra.org/docs/reference/glossary#libra-protocol]
     <a class="clsHide" href="#idDnlbrprcldsn"></a></p>
   <p id="idDnlbrprclnam">name::
-    <br>* McshEngl.AgntDiem'34_protocol!⇒Diemproto,
-    <br>* McshEngl.Diemproto!=AgntDiem'34_protocol, {2019-06-25}
+    <br>* McshEngl.AgntDiem'18_protocol!⇒Diemproto,
+    <br>* McshEngl.Diemproto!=AgntDiem'18_protocol, {2019-06-25}
     <br>* McshEngl.protocol-of-AgntDiem!⇒Diemproto,
     <br>* McshEngl.AgntDiem_protocol!⇒Diemproto,
     <br>* McshEngl.AgntDiem-protocol!⇒Diemproto,
@@ -1463,7 +1463,7 @@
   </section>
 
   <section id="idDnlbrbkcn">
-  <h1 id="idDnlbrbkcnH1">35_chain of AgntDiem
+  <h1 id="idDnlbrbkcnH1">19_chain of AgntDiem
     </h1>
   <p id="idDnlbrbkcndsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -1474,8 +1474,8 @@
     <br>[https://developers.libra.org/docs/libra-protocol#proof]
     <a class="clsHide" href="#idDnlbrbkcndsn"></a></p>
   <p id="idDnlbrbkcnnam">name::
-    <br>* McshEngl.AgntDiem'35_chain!⇒Diemchain,
-    <br>* McshEngl.Diemchain!=AgntDiem'35_chain,
+    <br>* McshEngl.AgntDiem'19_chain!⇒Diemchain,
+    <br>* McshEngl.Diemchain!=AgntDiem'19_chain,
     <br>* McshEngl.chain-of-AgntDiem!⇒Diemchain,
     <br>* McshEngl.AgntDiem_chain!⇒Diemchain,
     <br>* McshEngl.AgntDiem-chain!⇒Diemchain,
@@ -1776,14 +1776,14 @@
   </section>
 
   <section id="idDnlbrasst">
-  <h1 id="idDnlbrasstH1">36_asset of AgntDiem
+  <h1 id="idDnlbrasstH1">20_asset of AgntDiem
     </h1>
   <p id="idDnlbrasstdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDnlbrasstdsn"></a></p>
   <p id="idDnlbrasstnam">name::
-    <br>* McshEngl.AgntDiem'36_asset!⇒Diemasset,
-    <br>* McshEngl.Diemasset!=AgntDiem'36_asset,
+    <br>* McshEngl.AgntDiem'20_asset!⇒Diemasset,
+    <br>* McshEngl.Diemasset!=AgntDiem'20_asset,
     <br>* McshEngl.asset-of-AgntDiem!⇒Diemasset,
     <br>* McshEngl.AgntDiem'asset!⇒Diemasset,
     <a class="clsHide" href="#idDnlbrasstnam"></a></p>
@@ -2035,7 +2035,7 @@
   </section>
 
   <section id="idDnlbrgovc">
-  <h1 id="idDnlbrgovcH1">37_governance of AgntDiem
+  <h1 id="idDnlbrgovcH1">21_governance of AgntDiem
     </h1>
   <p id="idDnlbrgovcdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -2044,8 +2044,8 @@
     <br>[https://developers.libra.org/docs/libra-open-source-paper#what-s-next]
     <a class="clsHide" href="#idDnlbrgovcdsn"></a></p>
   <p id="idDnlbrgovcnam">name::
-    <br>* McshEngl.AgntDiem'37_governance!⇒AgntDiem_govc,
-    <br>* McshEngl.AgntDiem_govc!=AgntDiem'37_governance,
+    <br>* McshEngl.AgntDiem'21_governance!⇒AgntDiem_govc,
+    <br>* McshEngl.AgntDiem_govc!=AgntDiem'21_governance,
     <br>* McshEngl.AgntDiem-govc!⇒AgntDiem_govc,
     <br>* McshEngl.AgntDiem'governance!⇒AgntDiem_govc,
     <a class="clsHide" href="#idDnlbrgovcnam"></a></p>
@@ -2150,14 +2150,14 @@
   </section>
 
   <section id="idDnlbrprgm">
-  <h1 id="idDnlbrprgmH1">38_program of AgntDiem
+  <h1 id="idDnlbrprgmH1">22_program of AgntDiem
     </h1>
   <p id="idDnlbrprgmdsn">description::
     <br>× Mcsh-creation: {2026-10-17}
     <a class="clsHide" href="#idDnlbrprgmdsn"></a></p>
   <p id="idDnlbrprgmnam">name::
-    <br>* McshEngl.AgntDiem'38_program!⇒Diemprgm,
-    <br>* McshEngl.Diemprgm!=AgntDiem'38_program,
+    <br>* McshEngl.AgntDiem'22_program!⇒Diemprgm,
+    <br>* McshEngl.Diemprgm!=AgntDiem'22_program,
     <br>* McshEngl.program-of-AgntDiem!⇒Diemprgm,
     <br>* McshEngl.AgntDiem'program!⇒Diemprgm,
     <a class="clsHide" href="#idDnlbrprgmnam"></a></p>
@@ -2517,13 +2517,13 @@
   </section>
 
   <section id="idDnlbrwlt">
-  <h1 id="idDnlbrwltH1">40_wallet of AgntDiem
+  <h1 id="idDnlbrwltH1">24_wallet of AgntDiem
     </h1>
   <p id="idDnlbrwltdsn">description::
     <br>× Mcsh-creation: {2026-10-01}
     <a class="clsHide" href="#idDnlbrwltdsn"></a></p>
   <p id="idDnlbrwltnam">name::
-    <br>* McshEngl.AgntDiem'40_wallet,
+    <br>* McshEngl.AgntDiem'24_wallet,
     <br>* McshEngl.AgntDiem'wallet,
     <a class="clsHide" href="#idDnlbrwltnam"></a></p>
 
@@ -2657,13 +2657,13 @@
   </section>
 
   <section id="idDnlbrlaw">
-  <h1 id="idDnlbrlawH1">45_law of AgntDiem
+  <h1 id="idDnlbrlawH1">28_law of AgntDiem
     </h1>
   <p id="idDnlbrlawdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <a class="clsHide" href="#idDnlbrlawdsn"></a></p>
   <p id="idDnlbrlawnam">name::
-    <br>* McshEngl.AgntDiem'45_law,
+    <br>* McshEngl.AgntDiem'28_law,
     <br>* McshEngl.AgntDiem'law,
     <a class="clsHide" href="#idDnlbrlawnam"></a></p>
   <p id="idDnlbrlawwpa">addressWpg::
