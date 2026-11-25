@@ -63,18 +63,8 @@
     <a class="clsHide" href="#idAttr"></a></p>
   </section>
 
-  <section id="idMdlatt002">
-  <h1 id="idMdlatt002H1">03_mapping_relation of model (<a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnMpg">link</a>)
-    </h1>
-  </section>
-
-  <section id="idMdlatt003">
-  <h1 id="idMdlatt003H1">04_mapping_method of model (<a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnMpgmthd">link</a>)
-    </h1>
-  </section>
-
   <section id="idMdlatt001">
-  <h1 id="idMdlatt001H1">05_archetype (archo) of model
+  <h1 id="idMdlatt001H1">03_archetype (archo) of model
     </h1>
   <p id="idMdlatt001dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -82,8 +72,8 @@
     <br>· input of Mappingmethod is the-primary entity that is-mapped to another one.
     <a class="clsHide" href="#idMdlatt001dsn"></a></p>
   <p id="idMdlatt001nam">name::
-    <br>* McshEngl.model'05_archetype!⇒Modelarcho,
-    <br>* McshEngl.Modelarcho!=model'05_archetype,
+    <br>* McshEngl.model'03_archetype!⇒Modelarcho,
+    <br>* McshEngl.Modelarcho!=model'03_archetype,
     <br>* McshEngl.archo!⇒Modelarcho, {2020-08-08}
     <br>* McshEngl.archetype-of-RltnMapping!⇒Modelarcho,
     <br>* McshEngl.archetype-of-model!⇒Modelarcho,
@@ -141,6 +131,16 @@
     <br>* McshEngl.domain-of-RltnMapping,
     <a class="clsHide" href="#idRlnMpgdomnnam"></a></p>
   </section>
+  </section>
+
+  <section id="idMdlatt002">
+  <h1 id="idMdlatt002H1">04_mapping_relation of model (<a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnMpg">link</a>)
+    </h1>
+  </section>
+
+  <section id="idMdlatt003">
+  <h1 id="idMdlatt003H1">05_mapping_method of model (<a class="clsPreview" href="../dirCor/McshCor000005.last.html#idRlnMpgmthd">link</a>)
+    </h1>
   </section>
 
   <section id="idMdlatt009">
@@ -276,35 +276,37 @@
     <br>· <span class="clsColorRed">mapping</span> is the-doing of association of a-primary-entity (archetype) with another one (the-model) on a-system of rules.
     <a class="clsHide" href="#idMdlatt010dsn"></a></p>
   <p id="idMdlatt010nam">name::
-    <br>* McshEngl.Modeldoing.mapping!⇒Mappingdoing,
-    <br>* McshEngl.doing.mapping!⇒Mappingdoing,
-    <br>* McshEngl.DongMapping!⇒Mappingdoing,
-    <br>* McshEngl.mapping-doing!⇒Mappingdoing,
-    <br>* McshEngl.Mappingmethod'04_implementation!⇒Mappingdoing,
-    <br>* McshEngl.Mappingmethod'att004_implementation!⇒Mappingdoing,
-    <br>* McshEngl.Mappingmethod'implementation!⇒Mappingdoing,
-    <br>* McshEngl.model'att010_creating!⇒Mappingdoing,
-    <br>* McshEngl.model'building!⇒Mappingdoing,
-    <br>* McshEngl.model'construction!⇒Mappingdoing,
-    <br>* McshEngl.model'creating!⇒Mappingdoing,
-    <br>* McshEngl.model'development!⇒Mappingdoing,
-    <br>* McshEngl.model'implementation!⇒Mappingdoing,
-    <br>* McshEngl.model'07_mapping_doing!⇒Mappingdoing,
-    <br>* McshEngl.model'mapping_doing!⇒Mappingdoing,
-    <br>* McshEngl.verb.map!~verbEnglA2!⇒Mappingdoing,
-    <br>* McshEngl.map!~verbEnglA2!⇒Mappingdoing,
+    <br>* McshEngl.Modeldoing.creating!⇒Modelmapping,
+    <br>* McshEngl.Modelmapping!=Modeldoing.creating,
+    <br>* McshEngl.Modeldoing.mapping!⇒Modelmapping,
+    <br>* McshEngl.doing.mapping!⇒Modelmapping,
+    <br>* McshEngl.DongMapping!⇒Modelmapping,
+    <br>* McshEngl.mapping-doing!⇒Modelmapping,
+    <br>* McshEngl.Mappingmethod'04_implementation!⇒Modelmapping,
+    <br>* McshEngl.Mappingmethod'att004_implementation!⇒Modelmapping,
+    <br>* McshEngl.Mappingmethod'implementation!⇒Modelmapping,
+    <br>* McshEngl.model'att010_creating!⇒Modelmapping,
+    <br>* McshEngl.model'building!⇒Modelmapping,
+    <br>* McshEngl.model'construction!⇒Modelmapping,
+    <br>* McshEngl.model'creating!⇒Modelmapping,
+    <br>* McshEngl.model'development!⇒Modelmapping,
+    <br>* McshEngl.model'implementation!⇒Modelmapping,
+    <br>* McshEngl.model'07_mapping_doing!⇒Modelmapping,
+    <br>* McshEngl.model'mapping_doing!⇒Modelmapping,
+    <br>* McshEngl.verb.map!~verbEnglA2!⇒Modelmapping,
+    <br>* McshEngl.map!~verbEnglA2!⇒Modelmapping,
     <br>* McshEngl.Modeldoing'creating,
     <br>====== lagoGreek:
-    <br>* McshElln.αναπαρασταίνω!~verbElln!⇒Mappingdoing,
-    <br>* McshElln.αναπαριστάνω!~verbElln!⇒Mappingdoing,
-    <br>* McshElln.αναπαριστώ!~verbElln!⇒Mappingdoing,
-    <br>* McshElln.αντιστοίχιση!⇒Mappingdoing,
-    <br>* McshElln.αντιστοιχώ!~verbElln!⇒Mappingdoing,
-    <br>* McshElln.ρήμα.αντιστοιχώ!⇒Mappingdoing,
+    <br>* McshElln.αναπαρασταίνω!~verbElln!⇒Modelmapping,
+    <br>* McshElln.αναπαριστάνω!~verbElln!⇒Modelmapping,
+    <br>* McshElln.αναπαριστώ!~verbElln!⇒Modelmapping,
+    <br>* McshElln.αντιστοίχιση!⇒Modelmapping,
+    <br>* McshElln.αντιστοιχώ!~verbElln!⇒Modelmapping,
+    <br>* McshElln.ρήμα.αντιστοιχώ!⇒Modelmapping,
     <a class="clsHide" href="#idMdlatt010nam"></a></p>
 
   <section id="idMdlatt010arg">
-  <h3 id="idMdlatt010argH3">argument of Mappingdoing
+  <h3 id="idMdlatt010argH3">argument of Modelmapping
     </h3>
   <p id="idMdlatt010argdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -318,7 +320,7 @@
     <a class="clsHide" href="#idMdlatt010argdsn"></a></p>
   <p id="idMdlatt010argnam">name::
     <br>* McshEngl.argtMapping,
-    <br>* McshEngl.Mappingdoing'argument!⇒argtMapping,
+    <br>* McshEngl.Modelmapping'argument!⇒argtMapping,
     <a class="clsHide" href="#idMdlatt010argnam"></a></p>
   </section>
   </section>
@@ -362,14 +364,15 @@
     <br>b) the-process we are-doing with the-model.
     <a class="clsHide" href="#idMdlatt017dsn"></a></p>
   <p id="idMdlatt017nam">name::
-    <br>* McshEngl.model'att017_using,
-    <br>* McshEngl.model'application,
-    <br>* McshEngl.model'using,
-    <br>* McshEngl.Modeldoing'using,
+    <br>* McshEngl.Modeldoing'using!⇒Modelusing,
+    <br>* McshEngl.Modelusing!=Modeldoing'using,
+    <br>* McshEngl.model'att017_using!⇒Modelusing,
+    <br>* McshEngl.model'application!⇒Modelusing,
+    <br>* McshEngl.model'using!⇒Modelusing,
     <a class="clsHide" href="#idMdlatt017nam"></a></p>
 
   <section id="idMdlatt017lrng">
-  <h3 id="idMdlatt017lrngH3">using.learning of model
+  <h3 id="idMdlatt017lrngH3">Modelusing.learning
     </h3>
   <p id="idMdlatt017lrngdsn">description::
     <br>× Mcsh-creation: {2026-10-04}
@@ -378,6 +381,7 @@
     <br>[http://plato.stanford.edu/entries/models-science/]
     <a class="clsHide" href="#idMdlatt017lrngdsn"></a></p>
   <p id="idMdlatt017lrngnam">name::
+    <br>* McshEngl.Modelusing.learing,
     <br>* McshEngl.learing.with_model,
     <br>* McshEngl.model'using'learing,
     <br>* McshEngl.model'using.learning,
@@ -1065,15 +1069,36 @@
     <br>* McshEngl.modelCmpr'15_last,
     <a class="clsHide" href="#idMdl021nam"></a></p>
 
+  <section id="idMdl021arch">
+  <h2 id="idMdl021archH2">03_archetype of modelCmpr
+    </h2>
+  <p id="idMdl021archdsn">description::
+    <br>× Mcsh-creation: {2026-10-04}
+    <br>· anything the-model maps.
+    <br>
+    <br>Applications of computational models
+    <br>* Weather forecasting: Computational models are used to predict weather patterns.
+    <br>* Climate change: Computational models are used to study the effects of climate change.
+    <br>* Gene expression: Computational models are used to study how genes are expressed in cells.
+    <br>* Drug discovery: Computational models are used to design new drugs.
+    <br>* Financial markets: Computational models are used to study financial markets."
+    <br>[{2023-11-22 retrieved} https://bard.google.com/chat/45c54d9a3e957ef4?hl=en&pli=1]
+    <a class="clsHide" href="#idMdl021archdsn"></a></p>
+  <p id="idMdl021archnam">name::
+    <br>* McshEngl.modelCmpr'03_archetype,
+    <br>* McshEngl.modelCmpr'archetype,
+    <a class="clsHide" href="#idMdl021archnam"></a></p>
+  </section>
+
   <section id="idMdl021mgmd">
-  <h2 id="idMdl021mgmdH2">04_mapping-method of modelCmpr
+  <h2 id="idMdl021mgmdH2">05_mapping-method of modelCmpr
     </h2>
   <p id="idMdl021mgmddsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· mapping-method.
     <a class="clsHide" href="#idMdl021mgmddsn"></a></p>
   <p id="idMdl021mgmdnam">name::
-    <br>* McshEngl.modelCmpr'04_mapping_method,
+    <br>* McshEngl.modelCmpr'05_mapping_method,
     <br>* McshEngl.modelCmpr'mapping_method,
     <a class="clsHide" href="#idMdl021mgmdnam"></a></p>
 
@@ -1115,27 +1140,6 @@
     <br>* https://en.wikipedia.org/wiki/List_of_computer_simulation_software,
     <a class="clsHide" href="#idMdl021smpmwpa"></a></p>
   </section>
-  </section>
-
-  <section id="idMdl021arch">
-  <h2 id="idMdl021archH2">05_archetype of modelCmpr
-    </h2>
-  <p id="idMdl021archdsn">description::
-    <br>× Mcsh-creation: {2026-10-04}
-    <br>· anything the-model maps.
-    <br>
-    <br>Applications of computational models
-    <br>* Weather forecasting: Computational models are used to predict weather patterns.
-    <br>* Climate change: Computational models are used to study the effects of climate change.
-    <br>* Gene expression: Computational models are used to study how genes are expressed in cells.
-    <br>* Drug discovery: Computational models are used to design new drugs.
-    <br>* Financial markets: Computational models are used to study financial markets."
-    <br>[{2023-11-22 retrieved} https://bard.google.com/chat/45c54d9a3e957ef4?hl=en&pli=1]
-    <a class="clsHide" href="#idMdl021archdsn"></a></p>
-  <p id="idMdl021archnam">name::
-    <br>* McshEngl.modelCmpr'05_archetype,
-    <br>* McshEngl.modelCmpr'archetype,
-    <a class="clsHide" href="#idMdl021archnam"></a></p>
   </section>
 
   <section id="idMdl021eval">
@@ -1608,28 +1612,28 @@
     <br>· modelInfoBioNo is a-model with <a class="clsPreview" href="#idMdlatt004">medium</a> NOT <a class="clsPreview" href="../dirNtr/McshNtr000011.last.html#idOverview">Bioinfo</a>.
     <a class="clsHide" href="#idMdl013dsn"></a></p>
   <p id="idMdl013nam">name::
-    <br>* McshEngl.modelInfoBioNo,
+    <br>* McshEngl.model.medium.infoBioNo!⇒modelInfoBioNo,
+    <br>* McshEngl.modelInfoBioNo!=model.medium.infoBioNo,
     <br>* McshEngl.model.medium.infoBioNo_013!⇒modelInfoBioNo,
     <br>* McshEngl.model.013_infoBioNo!⇒modelInfoBioNo,
     <br>* McshEngl.model.infoBioNo!⇒modelInfoBioNo,
-    <br>* McshEngl.model.medium.infoBioNo!⇒modelInfoBioNo,
     <br>* McshEngl.modelInfoBioNo'10_last,
     <a class="clsHide" href="#idMdl013nam"></a></p>
+  </section>
 
   <section id="idMdl020">
-  <h2 id="idMdl020H2">model.medium.physical
-    </h2>
+  <h1 id="idMdl020H1">model.medium.physical
+    </h1>
   <p id="idMdl020dsn">description::
     <br>× Mcsh-creation: {2026-10-04}
     <br>· modelPhysical model with medium <a class="clsPreview" href="../dirCor/McshCor000003.last.html#idEntMtlN">mentalNo</a>, not info.
     <a class="clsHide" href="#idMdl020dsn"></a></p>
   <p id="idMdl020nam">name::
-    <br>* McshEngl.modelPhysical,
-    <br>* McshEngl.model.020_physical!⇒modelPhysical,
     <br>* McshEngl.model.medium.physical!⇒modelPhysical,
+    <br>* McshEngl.modelPhysical!=model.medium.physical,
+    <br>* McshEngl.model.020_physical!⇒modelPhysical,
     <br>* McshEngl.model.physical!⇒modelPhysical,
     <a class="clsHide" href="#idMdl020nam"></a></p>
-  </section>
   </section>
 
   <section id="idMdl016">
