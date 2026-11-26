@@ -1,5 +1,5 @@
 [
-  [";lagEngl14en","N|n",2515,"2026-11-25"],
+  [";lagEngl14en","N|n",2515,"2026-11-26"],
   ["N-11@EuvocStat","dirStn/McshStn000020.last.html#idEuoStatglsrN_11"],
   ["N-Quads-Rdfzlago!⇒N_Quads_Rdfzlago","dirTchInf/McshTchInf000039.last.html#idLKnlg014Nqds"],
   ["N-Triple-Rdfzlago!⇒N_Triple_Rdfzlago","dirTchInf/McshTchInf000039.last.html#idLKnlg014Ntrpl"],
@@ -1150,7 +1150,7 @@
   ["netCmpr'15_last","dirCor/McshCor000014.last.html#idNetCmpr"],
   ["netCmpr'protocol","dirCor/McshCor000014.last.html#idNetCmprprcl"],
   ["netCmpr:generic","dirCor/McshCor000014.last.html#idNetCmprgntr"],
-  ["netConcept!⇒viewMind","dirLag/McshLag000003.last.html#idInfHmnMind002"],
+  ["netConcept!⇒Mindview","dirLag/McshLag000003.last.html#idInfHmnMind002"],
   ["netDcr!⇒AgntDcrd","dirTchInf/McshTchInf000016.last.html#idDcrnet"],
   ["netDecred!⇒AgntDcrd","dirTchInf/McshTchInf000016.last.html#idDcrnet"],
   ["netEOS!⇒AgntEosz","dirTchInf/McshTchInf000021.last.html#idOverview"],

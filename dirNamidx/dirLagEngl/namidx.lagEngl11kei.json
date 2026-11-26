@@ -1,5 +1,5 @@
 [
-  [";lagEngl11kei","K|k",2210,"2026-11-25"],
+  [";lagEngl11kei","K|k",2210,"2026-11-26"],
   ["K!=1000!=Kilo!=thousand","dirCor/McshCor000010.last.html#idQntNbr1000"],
   ["K-kilo=x1000","dirCor/McshCor000010.last.html#idQntRlvMlplKilo"],
   ["K12-education","dirStn/McshStn000042.last.html#idSctrEduBasc"],
@@ -2155,10 +2155,10 @@
   ["knowledge-economy","dirStn/McshStn000012.last.html#idEconHmn016"],
   ["knowledge-economy!⇒eecon","dirStn/McshStn000012.last.html#idEconHmndigi"],
   ["knowledge-engineering!⇒knowledge_engineering","dirTchInf/McshTchInf000039.last.html#idLKnlgmngrkneng"],
+  ["knowledge-graph!⇒Mindview","dirLag/McshLag000003.last.html#idInfHmnMind002"],
   ["knowledge-graph!⇒Snetcode","dirTchInf/McshTchInf000007.last.html#idLCnpt022otpt"],
   ["knowledge-graph!⇒kbGraph","dirTchInf/McshTchInf000007.last.html#idLCnpt042otpt"],
   ["knowledge-graph!⇒lagoKngr","dirTchInf/McshTchInf000007.last.html#idLCnpt042"],
-  ["knowledge-graph!⇒viewMind","dirLag/McshLag000003.last.html#idInfHmnMind002"],
   ["knowledge-graph--knowledge-base!⇒kbGraph","dirTchInf/McshTchInf000007.last.html#idLCnpt042otpt"],
   ["knowledge-graph--language!⇒lagoKngr","dirTchInf/McshTchInf000007.last.html#idLCnpt042"],
   ["knowledge-integrating","dirTchInf/McshTchInf000007.last.html#idLCnptmgrthkgIgrg"],
