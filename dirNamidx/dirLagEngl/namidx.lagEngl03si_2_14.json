@@ -1,5 +1,5 @@
 [
-  [";lagEngl03si_2_14","char.n..chas",22857,"2026-11-21"],
+  [";lagEngl03si_2_14","char.n..chas",22858,"2026-11-26"],
   ["char.n-with-caron--&#x0148;","dirTchInf/dirUcd/McshUcdU0100.last.html#idU0100U0148"],
   ["char.n-with-tilde--ñ","dirTchInf/dirUcd/McshUcdU0080.last.html#idU0080U00F1"],
   ["char.ne-呢-21602","dirLag/McshLag000021.last.html#idLZhonsylb213"],
@@ -22836,6 +22836,7 @@
   ["character-computer-language!⇒Charlago","dirTchInf/McshTchInf000005.last.html#idLChar"],
   ["character-digitizing@cig7","dirEdu/dirHitp/HitpEdu000.9.last.html#idGymBAsciiunicode"],
   ["character-encoding!⇒char_encoding","dirLag/McshLag000006.last.html#idCharencdg"],
+  ["character-menu--of-Mcshvm!⇒Mhvmchar","dirTchInf/McshTchInf000009.last.html#idLMcshvmmenuEditChar"],
   ["character-of-Jpnslago!⇒JpnsChar","dirStn/McshStn000048.last.html#idLJpnsunitChar"],
   ["character-of-Koralago!⇒KoraChar","dirLag/McshLag000043.last.html#idLKorachar"],
   ["character-size@cig","dirEdu/dirHitp/HitpEdu000.last.html#idCigTaWpE3_Wpcharsize"],

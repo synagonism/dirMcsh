@@ -1,5 +1,5 @@
 [
-  [";lagEngl09ai","I|i",3040,"2026-11-26"],
+  [";lagEngl09ai","I|i",3042,"2026-11-26"],
   ["I","dirLag/McshLag000007.last.html#idLHnmdprsnA2"],
   ["I!~nounEnglC1.I'1","dirLag/McshLag000024.last.html#idLEnglnounC1_252"],
   ["I!~pronEnglExophoric","dirLag/McshLag000011.last.html#idLEnglpronExfcI"],
@@ -2419,6 +2419,7 @@
   ["infvSmsHumn","dirLag/McshLag000007.last.html#idLHnmdsmsvrbmbrInfv"],
   ["ingredient-of-cooked-food","dirHlth/McshHlth000013.last.html#idFoodHmn050att002"],
   ["ingredients@schema.org","dirStn/McshStn000023.last.html#idScmoingredients"],
+  ["inheritance-menu--of-Mcshvm!⇒Mhvminhr","dirTchInf/McshTchInf000009.last.html#idLMcshvmmenuEditInhr"],
   ["inheritance//JavaScript","dirTchInf/McshTchInf000010.last.html#idLJsgnevalProInheritance"],
   ["inherited-Admn","dirStn/McshStn000004.last.html#idGvcHmn004"],
   ["inherited-from--Mcsattr!⇒McsattInheritedFrom","dirCor/McshCor000002.last.html#idMcsattInhf"],
@@ -2500,6 +2501,7 @@
   ["insecurity_emoting","dirCor/McshCor000013.last.html#idBrngEmtgIsct"],
   ["insemination!⇒fertilization","dirHlth/McshHlth000002.last.html#idBdyHmnatt081"],
   ["insert-any-character!⇒ahk","dirTchPrgm/McshTchPrgm000002.last.html#idCpgm001Inss"],
+  ["insert-menu--of-Mcshvm!⇒Mhvminsr","dirTchInf/McshTchInf000009.last.html#idLMcshvmmenuEditInsr"],
   ["insert.TurkVerb!=sokmak","dirLag/McshLag000030.last.html#idLTurkverbsptr"],
   ["insertion-of-muscle!⇒OganMuscle_insertion","dirHlth/McshHlth000005.last.html#idMsclHmnatt014"],
   ["insertion@schema.org","dirStn/McshStn000023.last.html#idScmoinsertion"],
